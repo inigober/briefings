@@ -43,12 +43,13 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_RESEARCH_MODEL: ${{ vars.OPENAI_RESEARCH_MODEL || 'gpt-4.1' }}
+          OPENAI_RESEARCH_MODEL: ${{ vars.OPENAI_RESEARCH_MODEL }}
         run: |
           ARGS=""
           if [ -n "${{ github.event.inputs.date }}" ]; then
             ARGS="--date ${{ github.event.inputs.date }}"
           fi
+          export OPENAI_RESEARCH_MODEL="${OPENAI_RESEARCH_MODEL:-gpt-4.1}"
           python scripts/fetch_openai_research.py $ARGS
 
       - name: Commit inbox if changed

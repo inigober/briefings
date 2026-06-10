@@ -7,9 +7,9 @@ import argparse
 import json
 import os
 import re
-import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -25,12 +25,35 @@ DEFAULT_MODEL = "gpt-4.1"
 API_TIMEOUT_SECONDS = 600.0
 PARALLEL_WORKERS = 5
 
+# Base OpenAI targets when RSS is empty. Reduced dynamically when RSS covers a section.
 SECTION_MIN_ITEMS: dict[str, int] = {
     "spain": 7,
     "germany": 7,
     "berlin": 6,
     "world": 12,
 }
+
+OPENAI_MIN_FLOOR = 3
+RSS_SATURATION_HIGH = 10  # RSS items → OpenAI asks for floor minimum only
+RSS_SATURATION_MID = 6  # RSS items → OpenAI asks for ~half of base
+RSS_DOMAIN_SKIP_THRESHOLD = 3  # Skip domain in web_search if RSS has this many
+
+# Always keep in web_search filters — licensing/paywall value RSS headlines alone can't replace.
+PREMIUM_DOMAINS: frozenset[str] = frozenset(
+    {
+        "ft.com",
+        "economist.com",
+        "bloomberg.com",
+        "nytimes.com",
+        "politico.eu",
+        "politico.com",
+        "theinformation.com",
+        "foreignaffairs.com",
+        "elconfidencial.com",
+        "handelsblatt.com",
+        "asia.nikkei.com",
+    }
+)
 
 SOURCE_SCHEMA = {
     "type": "object",
@@ -115,10 +138,139 @@ def normalize_url(url: str) -> str:
     return f"{parsed.scheme}://{parsed.netloc.lower()}{path}"
 
 
-def build_diversity_rules(section_id: str, sources_cfg: dict) -> str:
+def resolve_model(explicit: str | None = None) -> str:
+    if explicit and explicit.strip():
+        return explicit.strip()
+    env = (os.environ.get("OPENAI_RESEARCH_MODEL") or "").strip()
+    return env or DEFAULT_MODEL
+
+
+def host_to_allowed_domain(host: str, allowed_domains: list[str]) -> str | None:
+    host = host.lower().removeprefix("www.")
+    for domain in allowed_domains:
+        if host == domain or host.endswith(f".{domain}"):
+            return domain
+    return None
+
+
+@dataclass
+class SectionRssContext:
+    section_id: str
+    item_count: int = 0
+    publishers: dict[str, int] = field(default_factory=dict)
+    domains: dict[str, int] = field(default_factory=dict)
+    headlines: list[str] = field(default_factory=list)
+
+
+def group_rss_by_section(rss_items: list[dict]) -> dict[str, list[dict]]:
+    groups: dict[str, list[dict]] = {sid: [] for sid in SECTION_MIN_ITEMS}
+    for item in rss_items:
+        section_id = (item.get("topic_ids") or ["world"])[0]
+        if section_id in groups:
+            groups[section_id].append(item)
+    return groups
+
+
+def analyze_rss_section(
+    section_id: str,
+    items: list[dict],
+    allowed_domains: list[str],
+) -> SectionRssContext:
+    ctx = SectionRssContext(section_id=section_id, item_count=len(items))
+    for item in items:
+        headline = (item.get("headline") or "").strip()
+        if headline and len(ctx.headlines) < 8:
+            ctx.headlines.append(headline)
+
+        for src in item.get("sources") or []:
+            publisher = (src.get("publisher") or "unknown").strip()
+            ctx.publishers[publisher] = ctx.publishers.get(publisher, 0) + 1
+
+            url = src.get("url") or ""
+            if not url:
+                continue
+            host = urlparse(url).netloc
+            domain = host_to_allowed_domain(host, allowed_domains)
+            if domain:
+                ctx.domains[domain] = ctx.domains.get(domain, 0) + 1
+
+    return ctx
+
+
+def openai_min_for_section(section_id: str, rss_count: int) -> int:
+    base = SECTION_MIN_ITEMS[section_id]
+    floor = OPENAI_MIN_FLOOR
+    if rss_count == 0:
+        return base
+    if rss_count >= RSS_SATURATION_HIGH:
+        return floor
+    if rss_count >= RSS_SATURATION_MID:
+        return max(floor, (base + floor) // 2)
+    reduction = min(rss_count, base - floor)
+    return max(floor, base - reduction)
+
+
+def narrow_domains_for_openai(
+    *,
+    allowed_domains: list[str],
+    preferred_sources: list[str],
+    rss_domains: dict[str, int],
+) -> list[str]:
+    narrowed: list[str] = []
+    for domain in allowed_domains:
+        rss_hits = rss_domains.get(domain, 0)
+        if domain in PREMIUM_DOMAINS or rss_hits < RSS_DOMAIN_SKIP_THRESHOLD:
+            narrowed.append(domain)
+
+    for domain in preferred_sources:
+        if domain in allowed_domains and domain not in narrowed:
+            narrowed.append(domain)
+
+    return narrowed or list(allowed_domains)
+
+
+def build_rss_prompt_block(
+    ctx: SectionRssContext,
+    *,
+    base_min: int,
+    openai_min: int,
+    skipped_domains: list[str],
+) -> str:
+    if ctx.item_count == 0:
+        return ""
+
+    pub_summary = ", ".join(
+        f"{name} ({count})"
+        for name, count in sorted(ctx.publishers.items(), key=lambda x: -x[1])[:8]
+    )
+    lines = [
+        "## RSS warehouse (already collected — do not duplicate)",
+        f"- {ctx.item_count} headlines already ingested for this section via RSS (free feeds).",
+        f"- Publishers covered: {pub_summary or 'n/a'}",
+        f"- OpenAI minimum reduced from {base_min} to {openai_min} — search for **gaps only**.",
+        "- Prioritise: paywalled/licensed outlets, structural trends, underreported stories RSS missed.",
+        "- Do NOT re-search outlets RSS already saturated unless you add a distinct paywalled angle.",
+    ]
+    if skipped_domains:
+        lines.append(f"- Domains excluded from this web_search (RSS-saturated): {', '.join(skipped_domains)}")
+    if ctx.headlines:
+        lines.append("- Sample RSS headlines already in warehouse:")
+        lines.extend(f"  • {h}" for h in ctx.headlines[:6])
+    return "\n".join(lines) + "\n\n"
+
+
+def build_diversity_rules(section_id: str, sources_cfg: dict, *, rss_count: int = 0) -> str:
+    light = rss_count >= RSS_SATURATION_MID
     if section_id == "germany":
         news = ", ".join(sources_cfg.get("germany_news_outlets") or [])
         research = ", ".join(sources_cfg.get("germany_research_outlets") or [])
+        if light:
+            return f"""
+Germany (RSS-heavy — gap-fill mode):
+- RSS already covers major newspapers; focus on paywalled sources and research gaps
+- Prefer: Handelsblatt depth, ifo/diw reports, coalition/industry stories RSS missed
+- Max 2 items from any single publisher
+"""
         return f"""
 Germany publisher diversity (strict):
 - At least 5 items must be news articles from newspapers: {news}
@@ -129,6 +281,12 @@ Germany publisher diversity (strict):
 """
 
     if section_id == "berlin":
+        if light:
+            return """
+Berlin (RSS-heavy — gap-fill mode):
+- RSS may cover limited Berlin-local feeds; search tagesspiegel.de Berlin, berliner-zeitung.de, the-berliner.com
+- Local Berlin news ONLY — not generic Germany unless directly affecting Berlin
+"""
         return """
 Berlin publisher diversity (strict):
 - Max 3 items from rbb24; at least 2 from tagesspiegel.de
@@ -138,6 +296,13 @@ Berlin publisher diversity (strict):
 """
 
     if section_id == "world":
+        if light:
+            return """
+World (RSS-heavy — gap-fill mode):
+- RSS already covers many international headlines; focus on paywalled depth (FT, Economist, Bloomberg, NYT, Nikkei)
+- Ensure ≥1 item from a non-European region RSS under-covered
+- Do NOT mirror Spain/Germany stories
+"""
         return """
 World publisher diversity (strict):
 - Max 3 items from any single publisher
@@ -149,6 +314,12 @@ World publisher diversity (strict):
 """
 
     if section_id == "spain":
+        if light:
+            return """
+Spain (RSS-heavy — gap-fill mode):
+- RSS already covers elpais/eldiario/lavanguardia; focus on elconfidencial.com and paywalled depth
+- Mix national and regional where RSS missed material developments
+"""
         return """
 Spain publisher diversity:
 - Max 3 items from any single publisher
@@ -196,30 +367,39 @@ def build_section_prompt(
     date_str: str,
     topic: dict,
     min_items: int,
+    base_min: int,
     preferred_sources: list[str],
-    allowed_domains: list[str],
+    search_domains: list[str],
     sources_cfg: dict,
+    rss_block: str = "",
+    rss_count: int = 0,
 ) -> str:
     name = topic.get("name", topic.get("id", ""))
     desc = (topic.get("description") or "").strip()
     priorities = ", ".join(topic.get("priority_categories") or [])
     avoid = ", ".join(topic.get("avoid_unless_material") or [])
     preferred = ", ".join(preferred_sources) or "(see allowed domains)"
-    domains = "\n".join(f"- {d}" for d in allowed_domains[:40])
+    domains = "\n".join(f"- {d}" for d in search_domains[:40])
 
     section_id = topic.get("id", "")
-    diversity = build_diversity_rules(section_id, sources_cfg)
+    diversity = build_diversity_rules(section_id, sources_cfg, rss_count=rss_count)
+
+    min_note = (
+        f"Minimum items: {min_items} (reduced from {base_min} because RSS already covers this section)"
+        if rss_count > 0 and min_items < base_min
+        else f"Minimum items: {min_items}"
+    )
 
     return f"""Gather raw research for ONE section of a personal daily briefing. Today is {date_str}.
 
 Section: {name} (id: {section_id})
-Minimum items: {min_items}
+{min_note}
 Description: {desc}
 Priority categories: {priorities}
 Avoid unless material development: {avoid or "none"}
 Preferred publishers (search each outlet separately — do not rely on one domain): {preferred}
-{diversity}
-Allowed domains:
+{rss_block}{diversity}
+web_search allowed domains (RSS-saturated domains removed):
 {domains}
 
 Rules:
@@ -227,9 +407,8 @@ Rules:
 - Material developments over commentary
 - Include structural / underreported stories
 - topic_ids MUST start with the section id ("{section_id}") as the first element, then optional theme tags
-- Cast a wide net within the minimum; synthesis will trim to 3 items later
-- RSS headlines may already cover some outlets — prioritise paywalled / licensed sources and gaps
-- In search_notes, report item count per publisher
+- Synthesis will trim to 3 items later — quality over quantity
+- In search_notes, report item count per publisher and which RSS gaps you filled
 
 Return JSON matching the schema with keys: items, gaps, search_notes."""
 
@@ -288,6 +467,7 @@ def fetch_section(
     model: str,
     topics_cfg: dict,
     sources_cfg: dict,
+    rss_ctx: SectionRssContext | None = None,
 ) -> tuple[str, dict]:
     topics = topic_by_id(topics_cfg)
     allowed_domains = sources_cfg.get("allowed_domains") or []
@@ -296,19 +476,44 @@ def fetch_section(
     if not topic or not topic.get("enabled", True):
         return section_id, {"items": [], "gaps": [], "search_notes": ""}
 
-    min_items = SECTION_MIN_ITEMS[section_id]
+    ctx = rss_ctx or SectionRssContext(section_id=section_id)
+    base_min = SECTION_MIN_ITEMS[section_id]
+    min_items = openai_min_for_section(section_id, ctx.item_count)
     preferred = resolve_preferred_sources(section_id, sources_cfg)
+    search_domains = narrow_domains_for_openai(
+        allowed_domains=allowed_domains,
+        preferred_sources=preferred,
+        rss_domains=ctx.domains,
+    )
+    skipped_domains = sorted(
+        d for d in allowed_domains if d in ctx.domains and d not in search_domains
+    )
+    rss_block = build_rss_prompt_block(
+        ctx,
+        base_min=base_min,
+        openai_min=min_items,
+        skipped_domains=skipped_domains,
+    )
     prompt = build_section_prompt(
         date_str=date_str,
         topic=topic,
         min_items=min_items,
+        base_min=base_min,
         preferred_sources=preferred,
-        allowed_domains=allowed_domains,
+        search_domains=search_domains,
         sources_cfg=sources_cfg,
+        rss_block=rss_block,
+        rss_count=ctx.item_count,
     )
 
     started = time.monotonic()
-    log(f"  [{section_id}] started (min {min_items} items)...")
+    if ctx.item_count:
+        log(
+            f"  [{section_id}] started (RSS {ctx.item_count} → OpenAI min {min_items}, "
+            f"{len(search_domains)}/{len(allowed_domains)} domains)..."
+        )
+    else:
+        log(f"  [{section_id}] started (min {min_items} items)...")
     client = make_client()
     result = fetch_structured(
         client=client,
@@ -316,7 +521,7 @@ def fetch_section(
         prompt=prompt,
         schema=SECTION_RESULT_SCHEMA,
         schema_name=f"briefing_section_{section_id}",
-        domains=allowed_domains,
+        domains=search_domains,
     )
     items = result.get("items") or []
     for item in items:
@@ -385,6 +590,19 @@ def fetch_all_research(
     notes: list[str] = []
     section_counts: dict[str, int] = {}
 
+    allowed_domains = sources_cfg.get("allowed_domains") or []
+    rss_groups = group_rss_by_section(rss_items or [])
+    rss_contexts = {
+        sid: analyze_rss_section(sid, rss_groups.get(sid, []), allowed_domains)
+        for sid in section_ids
+    }
+    if rss_items:
+        summary = ", ".join(
+            f"{sid}: {rss_contexts[sid].item_count} RSS → min {openai_min_for_section(sid, rss_contexts[sid].item_count)}"
+            for sid in section_ids
+        )
+        log(f"  RSS-aware targets: {summary}")
+
     started = time.monotonic()
     log(f"  Launching {len(section_ids)} section fetches in parallel...")
 
@@ -397,6 +615,7 @@ def fetch_all_research(
                 model=model,
                 topics_cfg=topics_cfg,
                 sources_cfg=sources_cfg,
+                rss_ctx=rss_contexts[section_id],
             ): section_id
             for section_id in section_ids
         }
@@ -429,13 +648,22 @@ def fetch_all_research(
             pub = src.get("publisher") or "unknown"
             publishers[pub] = publishers.get(pub, 0) + 1
 
+    openai_targets = {
+        sid: openai_min_for_section(sid, rss_contexts[sid].item_count) for sid in section_ids
+    }
+    rss_counts = {sid: rss_contexts[sid].item_count for sid in section_ids}
+
     return {
         "date": date_str,
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "model": model,
         "items": all_items,
         "gaps": all_gaps,
+        "rss_counts": rss_counts,
+        "openai_min_targets": openai_targets,
         "search_notes": (
+            f"RSS counts: {rss_counts}. "
+            f"OpenAI min targets: {openai_targets}. "
             f"Section counts (OpenAI): {section_counts}. "
             f"Ingestion: {ingestion}. "
             f"RSS merged: {rss_merged}. "
@@ -448,7 +676,7 @@ def fetch_all_research(
 def main() -> int:
     parser = argparse.ArgumentParser(description="Fetch daily briefing research via OpenAI web_search")
     parser.add_argument("--date", help="YYYY-MM-DD (default: today UTC)")
-    parser.add_argument("--model", default=os.environ.get("OPENAI_RESEARCH_MODEL", DEFAULT_MODEL))
+    parser.add_argument("--model", default=None, help=f"Override model (default: {DEFAULT_MODEL})")
     parser.add_argument("--dry-run", action="store_true", help="Print first section prompt only; do not call API")
     parser.add_argument(
         "--no-rss-merge",
@@ -461,15 +689,35 @@ def main() -> int:
     topics_cfg = load_yaml(REPO_ROOT / "config" / "topics.yaml")
     sources_cfg = load_yaml(REPO_ROOT / "config" / "sources.yaml")
 
+    allowed_domains = sources_cfg.get("allowed_domains") or []
+    inbox_dir = REPO_ROOT / "inbox"
+    dry_rss = [] if args.no_rss_merge else load_rss_items(inbox_dir, date_str)
+    dry_ctx = analyze_rss_section("spain", group_rss_by_section(dry_rss).get("spain", []), allowed_domains)
+    dry_min = openai_min_for_section("spain", dry_ctx.item_count)
+    dry_search = narrow_domains_for_openai(
+        allowed_domains=allowed_domains,
+        preferred_sources=resolve_preferred_sources("spain", sources_cfg),
+        rss_domains=dry_ctx.domains,
+    )
+    dry_skipped = sorted(d for d in allowed_domains if d in dry_ctx.domains and d not in dry_search)
+
     if args.dry_run:
         topic = topic_by_id(topics_cfg)["spain"]
         prompt = build_section_prompt(
             date_str=date_str,
             topic=topic,
-            min_items=SECTION_MIN_ITEMS["spain"],
+            min_items=dry_min,
+            base_min=SECTION_MIN_ITEMS["spain"],
             preferred_sources=resolve_preferred_sources("spain", sources_cfg),
-            allowed_domains=sources_cfg.get("allowed_domains") or [],
+            search_domains=dry_search,
             sources_cfg=sources_cfg,
+            rss_block=build_rss_prompt_block(
+                dry_ctx,
+                base_min=SECTION_MIN_ITEMS["spain"],
+                openai_min=dry_min,
+                skipped_domains=dry_skipped,
+            ),
+            rss_count=dry_ctx.item_count,
         )
         log(prompt)
         return 0
@@ -478,7 +726,7 @@ def main() -> int:
         log("OPENAI_API_KEY is not set")
         return 1
 
-    inbox_dir = REPO_ROOT / "inbox"
+    model = resolve_model(args.model)
     inbox_dir.mkdir(parents=True, exist_ok=True)
     out_path = inbox_dir / f"{date_str}-raw.json"
 
@@ -486,13 +734,13 @@ def main() -> int:
     if not args.no_rss_merge:
         rss_items = load_rss_items(inbox_dir, date_str)
         if rss_items:
-            log(f"  Found {len(rss_items)} RSS items to merge")
+            log(f"  Found {len(rss_items)} RSS items for merge + prompt tuning")
 
-    log(f"Fetching research for {date_str} with model {args.model}...")
+    log(f"Fetching research for {date_str} with model {model}...")
     try:
         payload = fetch_all_research(
             date_str=date_str,
-            model=args.model,
+            model=model,
             topics_cfg=topics_cfg,
             sources_cfg=sources_cfg,
             rss_items=rss_items,

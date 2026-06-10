@@ -4,7 +4,7 @@ Gather raw research for a personal daily briefing. Today is **{date}**.
 
 ## Important: inbox is a warehouse, not the briefing
 
-Cast a **wide net** within the minimums below. RSS headlines may already cover some outlets — prioritise **paywalled / licensed sources** (FT, Economist, Bloomberg, Politico, NYT) and gaps RSS cannot fill.
+Cast a **wide net** within the minimums below — but note: `fetch_openai_research.py` **lowers** each section's OpenAI minimum and narrows `web_search` domains when RSS already covers that section. Prioritise **paywalled / licensed sources** (FT, Economist, Bloomberg, Politico, NYT) and gaps RSS cannot fill.
 
 The synthesis step will select only ~3 stories per section and apply deduplication.
 
