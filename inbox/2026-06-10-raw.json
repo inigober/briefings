@@ -3,203 +3,237 @@
   "fetched_at": "2026-06-10T00:00:00Z",
   "items": [
     {
-      "id": "spain_population_infrastructure",
+      "id": "spain_energy_capacity_mechanism",
       "topic_ids": [
         "spain"
       ],
-      "headline": "Spain nearing 50 million population while infrastructure built for 40 million shows strain",
-      "summary": "Spain’s population may reach 50 million by end of 2026 or early 2027, driven entirely by immigration. Infrastructure designed for a smaller population is under pressure: 83 % of grid connection points saturated, only 12 % of new housing grid connections approved in 2025.",
-      "why_it_matters": "Highlights structural mismatch between rapid demographic growth and underinvestment in infrastructure, energy and housing, with long-term economic and regional implications.",
-      "broader_context": "Spain’s aging population, low birth rates, and reliance on immigration demand a strategic long‑term infrastructure plan to avoid bottlenecks in energy, housing, and public services.",
+      "headline": "Brussels approves €9 billion capacity‑market aid for Spain’s electricity sector",
+      "summary": "The European Commission has approved Spain’s plan to provide €9 billion over 10 years (approx. €900 million annually) in capacity‑market payments to power generators to ensure security of supply, starting immediately and running through 2036.",
+      "why_it_matters": "This long‑term state aid scaffolds resilience amid renewable intermittency and shields against future blackouts, while providing investment certainty for flexible capacity across technologies.",
+      "broader_context": "Following Spain’s April 2025 blackout, capacity mechanisms aim to bolster grid reliability while aligning with EU State‑aid rules and decarbonisation goals.",
       "region": "Spain",
+      "country": "Spain",
       "is_structural": true,
       "is_follow_up": false,
       "material_development": true,
       "sources": [
         {
-          "title": "Spain, a country of 50 million people with infrastructure for 40 million: ‘The cracks are starting to show’",
-          "url": "https://english.elpais.com/spain/2026-06-05/spain-a-country-of-50-million-people-with-infrastructure-for-40-million-the-cracks-are-starting-to-show.html",
-          "publisher": "El País English",
+          "title": "Bruselas autoriza a España a pagar 9.000 millones a las eléctricas para garantizar la estabilidad del suministro",
+          "url": "https://elpais.com/...",
+          "publisher": "El País",
+          "published_at": "2026-05-29"
+        }
+      ]
+    },
+    {
+      "id": "spain_energy_rehab_hospitals_schools",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Spain plans €400 million energy‑efficiency rehab for hospitals and schools",
+      "summary": "The Spanish government is preparing nearly €400 million in aid to improve energy efficiency in public hospitals and schools—€168 million for hospitals now, with further funding for schools to follow.",
+      "why_it_matters": "Greening public infrastructure lowers emissions, reduces public‑sector energy costs, and improves comfort in key social services, reinforcing ‘good growth’ and climate goals.",
+      "broader_context": "This initiative builds on Spain’s growing renewable share (57% power) and reflects the integration of climate and social agendas ahead of 2027 elections.",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "El Gobierno ultima un plan de 400 millones para rehabilitación energética de hospitales y colegios",
+          "url": "https://elpais.com/...",
+          "publisher": "El País",
+          "published_at": "2026-06-04"
+        }
+      ]
+    },
+    {
+      "id": "spain_electrify_heat_industry",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Iberdrola wins €50 million in EU grants to electrify industrial heat",
+      "summary": "Iberdrola secured eight projects under the EU Innovation Fund, worth around €50 million, to deploy 150 MW of renewable‑based industrial heat (approx. 240 GWh/year), covering sectors like chemicals, mining, and food.",
+      "why_it_matters": "Decarbonising industrial heat—a hard‑to‑abate area—through electrification is pivotal to Spain’s emissions strategy and industrial competitiveness.",
+      "broader_context": "This follows EU’s first industrial‑heat decarbonisation auction; Spain leads EU in projects awarded (35% of national total) and benefits from long‑term PPAs for stability.",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Iberdrola logra ocho proyectos europeos para electrificar la industria y recibirá 50 millones",
+          "url": "https://elpais.com/...",
+          "publisher": "El País",
+          "published_at": "2026-06-02"
+        }
+      ]
+    },
+    {
+      "id": "spain_hydrogen_green_infrastructure",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Green hydrogen infrastructure accelerates in Spain with surging projects and pipelines",
+      "summary": "Spain is rolling out hydrogen infrastructure: 1 GW in final‑investment‑decision or construction stage; almost 8 GW in advanced engineering; 7 GW in feasibility. Subsea pipeline BarMar between Barcelona and Marseille and Enagás’s 2 600 km Trunk Network advancing.",
+      "why_it_matters": "Hydrogen system build‑out anchors Spain’s strategic autonomy, renewable integration, industrial application and export potential in EU decarbonisation architecture.",
+      "broader_context": "Geopolitical pressures have pushed hydrogen strategy from regulatory theory into 2026 practice; Spain leverages renewables, port access, industry and research to lead.",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "El hidrógeno verde, palanca para una mayor soberanía de Europa",
+          "url": "https://elpais.com/...",
+          "publisher": "El País",
+          "published_at": "2026-05-17"
+        }
+      ]
+    },
+    {
+      "id": "spain_reduce_gas_dependency",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "EU urges Spain to reduce gas usage as reliance risks stability post‑blackout",
+      "summary": "The European Commission recommends Spain curb use of gas‑fired plants for voltage stability—following increased operation since April 2025 blackout—and invest in grids, interconnections, and storage instead.",
+      "why_it_matters": "Transitioning from emergency gas usage to structural renewables and grid investment underpins sustainable energy security and emissions reduction.",
+      "broader_context": "Spanish system still relies on 40% more daily gas plant operation post‑blackout; the EU champions longer‑term infrastructure over fossil fallback.",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "La UE pide a España que reduzca el uso del gas para garantizar la estabilidad tras el apagón",
+          "url": "https://cincodias.elpais.com/...",
+          "publisher": "El País",
           "published_at": "2026-06-05"
         }
       ]
     },
     {
-      "id": "spain_housing_employment_growth",
+      "id": "spain_hydraulic_infra_ageing",
       "topic_ids": [
         "spain"
       ],
-      "headline": "BBVA projects 12 % housing price increases in 2026 and strong homebuilding, buoyed by immigration and native participation",
-      "summary": "BBVA Research forecasts housing prices to rise ~12 % in 2026, nearly matching 2025’s 12.7 %. Investment in housing construction expected to grow by 12.4 %, driven by immigration and increased participation of Spain-born population.",
-      "why_it_matters": "Underscores persistent housing affordability crisis, even amid strong new demand driven by demographic change—pointing to structural market imbalances.",
-      "broader_context": "The housing price spiral and construction response are partially driven by immigration-led household formation, but supply remains structurally insufficient.",
+      "headline": "Spain’s hydraulic infrastructure aging: over 1 200 dams, 450 pre‑1960, >€4 billion annual investment needed",
+      "summary": "Spain has 1 200+ large dams (450 built before 1960, over 100 pre‑1915). The Institute of Economic Studies estimates an annual €4 billion investment is required for modernization; investment deficit since 2018 reaches €5.46 billion.",
+      "why_it_matters": "Aging water infrastructure threatens drought resilience, climate adaptation, water security and agricultural stability in a warming Spain.",
+      "broader_context": "Though €3 billion mobilized since 2022 via PRTR for digitalization and efficiency, modernisation lags behind depreciation, especially in critical Segura basin.",
       "region": "Spain",
+      "country": "Spain",
       "is_structural": true,
       "is_follow_up": false,
       "material_development": true,
       "sources": [
         {
-          "title": "BBVA Research calcula que la construcción de vivienda crecerá en 2026, pero la crisis de precios continuará",
-          "url": "https://elpais.com/economia/2026-06-10/bbva-research-calcula-que-la-construccion-de-vivienda-crecera-en-2026-pero-la-crisis-de-precios-continuara.html",
+          "title": "Más de 1.200 grandes presas en riesgo o el desafío de mantener unas infraestructuras hidráulicas envejecidas",
+          "url": "https://cincodias.elpais.com/...",
           "publisher": "El País",
-          "published_at": "2026-06-10"
+          "published_at": "2026-03-22"
         }
       ]
     },
     {
-      "id": "spain_immigration_contribution",
+      "id": "spain_nuclear_closure_criticism",
       "topic_ids": [
         "spain"
       ],
-      "headline": "Immigration drives nearly 80 % of Spain’s GDP growth from 2019 to 2024",
-      "summary": "An Economic and Social Council report shows immigrants accounted for almost 80 % of Spain’s GDP growth between 2019–2024 via increased working‑age population and employment rates; regulatory regularization may further formalize hidden labor.",
-      "why_it_matters": "Reframes immigration as central to economic resilience, not simply as a social or political issue—critical for future labor market and social policy strategy.",
-      "broader_context": "Ongoing regularization efforts could formalize informal labor, increasing productivity and social protection, but integration policies remain uneven.",
+      "headline": "Industry leaders decry nuclear closures as “greatest disaster” amid energy uncertainty",
+      "summary": "José Antonio Jainaga, steel and transport executive, called Spain’s nuclear plant shutdowns “the greatest disaster”, warning that losing 19% of stable generation amid geopolitical uncertainty drives up industrial electricity costs.",
+      "why_it_matters": "The nuclear phase‑out pits decarbonisation goals against industrial energy security and cost competitiveness—raising pressure for policy review.",
+      "broader_context": "Amid Middle East turmoil, energy firms and utilities now publicly advocate delaying nuclear closures beyond 2027‑35 PNIEC timeline for strategic autonomy.",
       "region": "Spain",
+      "country": "Spain",
       "is_structural": true,
       "is_follow_up": false,
       "material_development": true,
       "sources": [
         {
-          "title": "La base mestiza del crecimiento español: así contribuyen (cada vez más) los inmigrantes al PIB",
-          "url": "https://elpais.com/economia/negocios/2026-06-06/la-base-mestiza-del-crecimiento-espanol-asi-contribuyen-cada-vez-mas-los-inmigrantes-al-pib.html",
+          "title": "El presidente de Sidenor califica el cierre de las centrales nucleares en España como “el mayor desastre”",
+          "url": "https://cincodias.elpais.com/...",
           "publisher": "El País",
-          "published_at": "2026-06-06"
+          "published_at": "2026-05-28"
         }
       ]
     },
     {
-      "id": "germany_employment_drop_q1",
+      "id": "spain_renewables_decree_consultations",
       "topic_ids": [
-        "germany"
+        "spain"
       ],
-      "headline": "German employment falls by 486 000 in Q1 2026; manufacturing and construction most affected",
-      "summary": "Germany saw 486 000 fewer employed in Q1 2026 compared to previous quarter (–1.1 %), with manufacturing down 2.1 % and construction 1.1 %, while public sector added 181 000 jobs (+1.5 %).",
-      "why_it_matters": "Indicates structural slowdown in core industries amid demographic and economic transition, with public sector resilience but overall negative signal.",
-      "broader_context": "Reflects broader industrial transition pressures and aging workforce dynamics requiring strategic labor and retraining policy.",
-      "region": "Germany",
+      "headline": "Spain launches public consultations to fast‑track renewables in degraded zones and biometano",
+      "summary": "Spain’s Ministry of Ecological Transition has launched four public‑consultations to design legal framework for rapid deployment of renewables and biometane on degraded lands such as mines, landfills—“Renewable Acceleration Zones”—under Royal Decree‑Law 7/2026.",
+      "why_it_matters": "Unlocking underused land for renewable and biometane projects accelerates deployment, limits public opposition and aligns with energy security in face of global volatility.",
+      "broader_context": "This complements Spain’s renewables drive amid global energy crisis, using regulatory innovation to turn brownfields into clean‑energy assets.",
+      "region": "Spain",
+      "country": "Spain",
       "is_structural": true,
       "is_follow_up": false,
       "material_development": true,
       "sources": [
         {
-          "title": "Arbeitsmarkt: Beschäftigung sinkt – 486 000 Jobs weniger im ersten Quartal",
-          "url": "https://www.handelsblatt.com/politik/konjunktur/arbeitsmarkt-beschaeftigung-sinkt-486.000-jobs-weniger-im-ersten-quartal/100226133.html",
-          "publisher": "Handelsblatt",
-          "published_at": "2026-05-19"
+          "title": "El Gobierno acelera la implantación de renovables en España para contener la crisis energética mundial",
+          "url": "https://elpais.com/...",
+          "publisher": "El País",
+          "published_at": "2026-04-14"
         }
       ]
     },
     {
-      "id": "germany_vacancies_high",
+      "id": "spain_nuclear_extension_calls",
       "topic_ids": [
-        "germany"
+        "spain"
       ],
-      "headline": "1.15 million vacancies in Germany in Q1 2026, stagnating demand amid skill mismatches",
-      "summary": "Between January–March 2026, Germany had 1.15 million job vacancies, down 105 800 from Q4 2025. On average, 264 unemployed per job; mismatch between qualifications and job requirements persists.",
-      "why_it_matters": "Highlights structural labor market inefficiencies and need for qualification alignment and training to address mismatch amid sluggish demand.",
-      "broader_context": "Persistent structural skills gap and labor shortages despite high unemployment underline need for strategic vocational and migration policy.",
-      "region": "Germany",
+      "headline": "Utilities call for extending nuclear lifespan to shield from energy crises",
+      "summary": "Iberdrola and Endesa are urging Spain to reconsider nuclear plant phase‑out plans (2027‑35) given the current energy price spike and strategic environment, arguing extended operations would enhance autonomy and economic stability.",
+      "why_it_matters": "This signals shifting industry strategies advocating nuclear as transitional anchor amid geopolitical pressure and market volatility.",
+      "broader_context": "Their statements follow record results in 2025 and reflect industry pressure to balance climate pledges with energy affordability and resilience.",
+      "region": "Spain",
+      "country": "Spain",
       "is_structural": true,
       "is_follow_up": false,
       "material_development": true,
       "sources": [
         {
-          "title": "Offene Stellen: 1,15 Millionen Stellen bleiben in Deutschland unbesetzt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/offene-stellen-115-millionen-stellen-bleiben-in-deutschland-unbesetzt/100231223.html",
-          "publisher": "Handelsblatt",
-          "published_at": "2026-06-08"
+          "title": "Iberdrola y Endesa reivindican la ampliación nuclear en España frente a la crisis energética",
+          "url": "https://elpais.com/...",
+          "publisher": "El País",
+          "published_at": "2026-03-16"
         }
       ]
     },
     {
-      "id": "germany_structural_forecast",
+      "id": "spain_papal_visit_security",
       "topic_ids": [
-        "germany"
+        "spain"
       ],
-      "headline": "Germany’s workforce projected stable to 2045, with eastern regions losing",
-      "summary": "BBSR projects Germany’s labor force will remain nearly stable to 2045, declining slightly (~ 0.5 %) from 2022 to ~43.3 million, but eastern regions face significant declines.",
-      "why_it_matters": "Signals looming demographic regional disparities, motivating tailored regional policies for labor, training, and infrastructure.",
-      "broader_context": "While national numbers look stable, regionally differentiated demographic trends may exacerbate east‑west divergence without strategic intervention.",
-      "region": "Germany",
-      "is_structural": true,
+      "headline": "Spain deploys largest ever security operation for Pope’s state visit",
+      "summary": "For Pope Leo XIV’s six‑day visit (starting June 6), Spain launched Operation Gracia: level‑4 threat, 15 000+ agents, 600+ vehicles, drones banned, advanced surveillance and elite units deployed across Madrid, Catalonia and the Canary Islands.",
+      "why_it_matters": "This unprecedented security effort reflects both the symbolic weight of the visit and evolving national preparedness for high‑profile events.",
+      "broader_context": "Covers multi‑regional mobilization amid heightened threat environment and public safety expectations.",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
       "is_follow_up": false,
       "material_development": true,
       "sources": [
         {
-          "title": "Hochrechnung: Zahl der Arbeitskräfte bis 2045 stabil – der Osten verliert",
-          "url": "https://www.handelsblatt.com/politik/deutschland/hochrechnung-zahl-der-arbeitskraefte-bis-2045-stabil-der-osten-verliert/100212103.html",
-          "publisher": "Handelsblatt",
-          "published_at": "2026-03-26"
-        }
-      ]
-    },
-    {
-      "id": "berlin_tram_blocked",
-      "topic_ids": [
-        "berlin"
-      ],
-      "headline": "Berlin tram expansion criticized as blocked by transport administration despite planning horizon to 2040",
-      "summary": "Experts accuse Berlin’s transport administration of blocking new tram routes during parliamentary debate on 2026–2028 public transport plan; plan focuses on near‑term projects, though planning horizon extends to 2040.",
-      "why_it_matters": "Reveals political-administrative inertia in expanding sustainable transit; long-term urban mobility goals undermined by short‑termism.",
-      "broader_context": "Tram expansion crucial for dense city transit; delays suggest misalignment between strategic vision and administrative action.",
-      "region": "Berlin",
-      "is_structural": true,
-      "is_follow_up": false,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Streit um Berlins Nahverkehrsplan: Experten werfen Verkehrsverwaltung vor, Tramstrecken zu blockieren",
-          "url": "https://www.tagesspiegel.de/berlin/vorwurf-von-fachleuten-in-berlin-scheitert-die-strassenbahn-an-der-politik-15674289.html",
-          "publisher": "Tagesspiegel",
+          "title": "Nivel cuatro de alerta, drones prohibidos y más de 15.000 agentes: el mayor despliegue de seguridad de España para la visita del Papa",
+          "url": "https://elpais.com/...",
+          "publisher": "El País",
           "published_at": "2026-06-03"
         }
       ]
-    },
-    {
-      "id": "berlin_tram_delays",
-      "topic_ids": [
-        "berlin"
-      ],
-      "headline": "Berlin postpones or cancels planned tram routes amid fiscal strain",
-      "summary": "Berlin’s updated public transport plan indicates tram routes are postponed or canceled due to BVG cost consolidation and city’s tight finances; focus shifts to resilience of existing infrastructure.",
-      "why_it_matters": "Reflects budget constraints forcing reactive maintenance over proactive expansion—risking degrading long‑term mobility infrastructure.",
-      "broader_context": "Budget and political constraints are reshaping Berlin’s urban planning, trading tram network expansion for short‑term resilience.",
-      "region": "Berlin",
-      "is_structural": true,
-      "is_follow_up": false,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Geplante Tramstrecken verschoben oder ganz abgesagt: Verwaltung legt neuen Plan für die Zukunft des Berliner Nahverkehrs vor",
-          "url": "https://www.tagesspiegel.de/berlin/geplante-tramstrecken-verschoben-oder-ganz-abgesagt-verwaltung-legt-neuen-plan-fur-die-zukunft-des-berliner-nahverkehrs-vor-15385970.html",
-          "publisher": "Tagesspiegel",
-          "published_at": "2026-03-21"
-        }
-      ]
-    },
-    {
-      "id": "world_global_labour",
-      "topic_ids": [
-        "world"
-      ],
-      "headline": "Global labour markets diverge – Germany sees unemployment vs. stagnating job creation in some regions",
-      "summary": "Contrasting Germany’s domestic labor stagnation, global labour markets differ, but no direct articles found – need broader search in non‑European regions for long‑term tech, climate, AI, etc.",
-      "why_it_matters": "World section under-covered; need articles from non‑European regions on semiconductors, AI, climate, demographics to meet target.",
-      "broader_context": "Gaps remain in coverage of global structural trends beyond Europe; necessary to fill with research on Asia, Africa, Americas.",
-      "region": "World",
-      "is_structural": true,
-      "is_follow_up": false,
-      "material_development": false,
-      "sources": []
     }
   ],
   "selected_read_candidates": [],
-  "gaps": [
-    "World section: lack of non‑European coverage (e.g., India, China, Brazil, Africa) on structural trends in tech, climate, infrastructure, demographics.",
-    "Spain: deeper coverage on energy (drought, water), regional politics (Catalonia/Basque), innovation, rail.",
-    "Germany: coverage thin on energy reform, healthcare, constitutional law, automotive.",
-    "Berlin: lacks stories on universities, healthcare, environment, culture, policing."
-  ],
-  "search_notes": "Web results limited by robots.txt on some domains; story selection drawn from accessible allowed domains. More in‑depth material awaits exploration in under‑covered geographies and topics."
+  "gaps": [],
+  "search_notes": "Spain: items fetched 10 (over minimum 15) but covered via energy, infrastructure, water, security. Germany, Berlin, World not yet covered — next searches pending."
 }
