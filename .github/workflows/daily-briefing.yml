@@ -50,4 +50,15 @@ jobs:
             exit 0
           fi
           git commit -m "inbox: $(date -u +%Y-%m-%d) research pre-fetch"
-          git push
+          # Remote may move while OpenAI calls run; rebase then push (retry once).
+          for attempt in 1 2; do
+            git pull --rebase origin main
+            if git push origin main; then
+              echo "Push succeeded on attempt ${attempt}"
+              exit 0
+            fi
+            echo "Push rejected on attempt ${attempt}, retrying after rebase..."
+            sleep 2
+          done
+          echo "Push failed after 2 attempts"
+          exit 1
