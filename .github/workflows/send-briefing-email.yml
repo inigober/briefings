@@ -43,6 +43,7 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}
           BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
+          BRIEFING_EMAIL_CALLOUTS: "true"
           CHANGED_FILES: ${{ steps.changed.outputs.files }}
         run: |
           ARGS=""

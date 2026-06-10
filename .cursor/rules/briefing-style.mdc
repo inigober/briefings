@@ -15,6 +15,16 @@ Not: "What are the biggest stories today?"
 
 `# Daily Briefing — DD Month YYYY` (e.g. `# Daily Briefing — 10 June 2026`)
 
+### Stale inbox (rare)
+
+If synthesis uses `inbox/YYYY-MM-DD-raw.json` from a **previous day** (allowed when today's pre-fetch failed), add immediately under the title:
+
+`*Research accessed DD Month YYYY.*`
+
+Example: briefing dated 11 June 2026 built from `inbox/2026-06-10-raw.json` → `*Research accessed 10 June 2026.*`
+
+Record both dates in `state/last_run.json` (`briefing_date`, `inbox_date`).
+
 ## Required sections (exact order)
 
 1. Spain 🇪🇸
@@ -38,22 +48,32 @@ Use bullet items, not `###` headings:
 
 ```
 * **Headline**
-  Summary paragraph. ([Publisher][N])
-  🧭 One-line insight (no "Why it matters:" label).
-  🧩 One-line broader context (no label).
+
+Summary paragraph. ([Publisher][N])
+
+💡 One-line insight — why it matters (no label).
+
+🧩 One-line broader context (no label).
 ```
 
+- Blank line after headline, after summary, and before each 💡 / 🧩 line (aids email rendering).
+- No indented continuation lines under bullets — every line starts at the left margin.
+
 - Cite with numbered reference links inline; define URLs in a **footnotes block** at the end of the file (`[N]: url "title"`).
-- Separate sections with `---` horizontal rules.
+- Section dividers in email are added automatically — do not rely on `---` in markdown.
 - **Reject** Facebook, Instagram, TikTok, or homepage-only links as primary sources.
 
 ### Selected Reads format
 
 ```
 * **Publisher — Article title**
-  Why it's worth reading: …
-  Read article: [link text](url)
+
+Why it's worth reading: …
+
+Read article: [link text](url)
 ```
+
+Same rules: no indented continuations; blank lines between parts.
 
 Use full article URLs — never a publisher homepage.
 

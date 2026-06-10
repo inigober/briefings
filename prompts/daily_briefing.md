@@ -17,6 +17,8 @@ Produce today's personal daily briefing. Read all inputs before writing.
 
 Maximize novelty for a daily reader. Reject stories already covered unless materially new. Prefer structural insight over headline churn.
 
+The inbox is a **large research warehouse** (60–80+ items). Select the best 3 per section after dedup — if one section is thin after filtering, draw the next-best alternative from inbox rather than leaving gaps.
+
 ## Section requirements
 
 | Section | Stories | Notes |
@@ -30,7 +32,9 @@ Maximize novelty for a daily reader. Reject stories already covered unless mater
 
 ## Story format
 
-Each news story: bullet + bold headline, summary with `([Publisher][N])`, 🧭 and 🧩 lines, footnotes at file end.
+Each news story: bullet + bold headline, summary with `([Publisher][N])`, 💡 and 🧩 lines, footnotes at file end.
+
+If inbox file date ≠ briefing date, add `*Research accessed DD Month YYYY.*` under the title and set `inbox_date` in `last_run.json`.
 
 ## Rules
 

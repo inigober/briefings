@@ -18,7 +18,7 @@ You are running the weekday daily briefing synthesis for this repo.
 3. `prompts/daily_briefing.md` and `templates/daily_briefing.md`
 4. `state/dedup_index.md` and `state/selected_reads_index.md`
 5. The **7 most recent** `briefings/*.md` files
-6. `inbox/YYYY-MM-DD-raw.json` (today's date UTC)
+6. `inbox/YYYY-MM-DD-raw.json` — prefer today's UTC date; if missing, use the most recent inbox file and flag it in the briefing
 
 ### Step 2 — Synthesize
 
@@ -33,7 +33,9 @@ Produce a novelty-first briefing with exactly these sections:
 
 Title: `# Daily Briefing — DD Month YYYY`
 
-Each news story: headline, summary, 🧭 Why it matters, 🧩 Broader context, source link.
+If inbox date ≠ briefing date, add under title: `*Research accessed DD Month YYYY.*`
+
+Each news story: headline, summary, 💡 insight, 🧩 broader context, source link.
 
 **Synthesize only from inbox and config.** Do not browse unless inbox is empty.
 
