@@ -31,6 +31,7 @@ jobs:
 
       - name: Fetch research
         env:
+          PYTHONUNBUFFERED: "1"
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_RESEARCH_MODEL: ${{ vars.OPENAI_RESEARCH_MODEL || 'gpt-5.5' }}
         run: |

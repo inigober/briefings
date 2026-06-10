@@ -8,6 +8,8 @@ import json
 import os
 import re
 import sys
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -17,6 +19,8 @@ import yaml
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULT_MODEL = "gpt-5.5"
+API_TIMEOUT_SECONDS = 600.0
+PARALLEL_WORKERS = 5
 
 SECTION_MIN_ITEMS: dict[str, int] = {
     "spain": 15,
@@ -105,6 +109,10 @@ SELECTED_READS_RESULT_SCHEMA = {
     "required": ["selected_read_candidates", "search_notes"],
     "additionalProperties": False,
 }
+
+
+def log(message: str) -> None:
+    print(message, flush=True)
 
 
 def load_yaml(path: Path) -> dict:
@@ -231,6 +239,15 @@ Rules:
 Return JSON with keys: selected_read_candidates, search_notes."""
 
 
+def make_client() -> Any:
+    from openai import OpenAI
+
+    return OpenAI(
+        api_key=os.environ["OPENAI_API_KEY"],
+        timeout=API_TIMEOUT_SECONDS,
+    )
+
+
 def fetch_structured(
     *,
     client: Any,
@@ -269,66 +286,71 @@ def fetch_structured(
         raise ValueError(f"{exc}\n\nRaw output:\n{output_text[:4000]}") from exc
 
 
-def fetch_all_research(
+        raise ValueError(f"{exc}\n\nRaw output:\n{output_text[:4000]}") from exc
+
+
+def fetch_section(
     *,
+    section_id: str,
     date_str: str,
     model: str,
     topics_cfg: dict,
     sources_cfg: dict,
-) -> dict:
-    from openai import OpenAI
-
-    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+) -> tuple[str, dict]:
     topics = topic_by_id(topics_cfg)
     allowed_domains = sources_cfg.get("allowed_domains") or []
     source_priorities = sources_cfg.get("source_priorities") or {}
 
-    all_items: list[dict] = []
-    all_gaps: list[str] = []
-    notes: list[str] = []
-    section_counts: dict[str, int] = {}
+    topic = topics.get(section_id)
+    if not topic or not topic.get("enabled", True):
+        return section_id, {"items": [], "gaps": [], "search_notes": ""}
 
-    for section_id in ("spain", "germany", "berlin", "world"):
-        topic = topics.get(section_id)
-        if not topic or not topic.get("enabled", True):
-            continue
+    min_items = SECTION_MIN_ITEMS[section_id]
+    preferred = source_priorities.get(section_id) or []
+    prompt = build_section_prompt(
+        date_str=date_str,
+        topic=topic,
+        min_items=min_items,
+        preferred_sources=preferred,
+        allowed_domains=allowed_domains,
+    )
 
-        min_items = SECTION_MIN_ITEMS[section_id]
-        preferred = source_priorities.get(section_id) or []
-        prompt = build_section_prompt(
-            date_str=date_str,
-            topic=topic,
-            min_items=min_items,
-            preferred_sources=preferred,
-            allowed_domains=allowed_domains,
-        )
+    started = time.monotonic()
+    log(f"  [{section_id}] started (min {min_items} items)...")
+    client = make_client()
+    result = fetch_structured(
+        client=client,
+        model=model,
+        prompt=prompt,
+        schema=SECTION_RESULT_SCHEMA,
+        schema_name=f"briefing_section_{section_id}",
+        domains=allowed_domains,
+    )
+    items = result.get("items") or []
+    for item in items:
+        item.setdefault("topic_ids", [section_id])
+    elapsed = time.monotonic() - started
+    log(f"  [{section_id}] done in {elapsed:.0f}s ({len(items)} items)")
+    return section_id, result
 
-        print(f"  Fetching section {section_id} (min {min_items} items)...")
-        result = fetch_structured(
-            client=client,
-            model=model,
-            prompt=prompt,
-            schema=SECTION_RESULT_SCHEMA,
-            schema_name=f"briefing_section_{section_id}",
-            domains=allowed_domains,
-        )
 
-        items = result.get("items") or []
-        for item in items:
-            item.setdefault("topic_ids", [section_id])
-        all_items.extend(items)
-        section_counts[section_id] = len(items)
-        all_gaps.extend(result.get("gaps") or [])
-        if result.get("search_notes"):
-            notes.append(f"{section_id}: {result['search_notes']}")
-
-    print(f"  Fetching selected reads (min {SELECTED_READS_MIN})...")
+def fetch_selected_reads(
+    *,
+    date_str: str,
+    model: str,
+    sources_cfg: dict,
+) -> dict:
+    allowed_domains = sources_cfg.get("allowed_domains") or []
     reads_prompt = build_selected_reads_prompt(
         date_str=date_str,
         sources_cfg=sources_cfg,
         allowed_domains=allowed_domains,
     )
-    reads_result = fetch_structured(
+
+    started = time.monotonic()
+    log(f"  [selected_reads] started (min {SELECTED_READS_MIN})...")
+    client = make_client()
+    result = fetch_structured(
         client=client,
         model=model,
         prompt=reads_prompt,
@@ -336,9 +358,74 @@ def fetch_all_research(
         schema_name="briefing_selected_reads",
         domains=allowed_domains,
     )
+    count = len(result.get("selected_read_candidates") or [])
+    elapsed = time.monotonic() - started
+    log(f"  [selected_reads] done in {elapsed:.0f}s ({count} candidates)")
+    return result
 
-    if reads_result.get("search_notes"):
-        notes.append(f"selected_reads: {reads_result['search_notes']}")
+
+def fetch_all_research(
+    *,
+    date_str: str,
+    model: str,
+    topics_cfg: dict,
+    sources_cfg: dict,
+) -> dict:
+    topics = topic_by_id(topics_cfg)
+    section_ids = [
+        section_id
+        for section_id in ("spain", "germany", "berlin", "world")
+        if (topics.get(section_id) or {}).get("enabled", True)
+    ]
+
+    all_items: list[dict] = []
+    all_gaps: list[str] = []
+    notes: list[str] = []
+    section_counts: dict[str, int] = {}
+    reads_result: dict = {"selected_read_candidates": [], "search_notes": ""}
+
+    started = time.monotonic()
+    log(f"  Launching {len(section_ids) + 1} fetches in parallel...")
+
+    with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as executor:
+        futures = {
+            executor.submit(
+                fetch_section,
+                section_id=section_id,
+                date_str=date_str,
+                model=model,
+                topics_cfg=topics_cfg,
+                sources_cfg=sources_cfg,
+            ): section_id
+            for section_id in section_ids
+        }
+        futures[
+            executor.submit(
+                fetch_selected_reads,
+                date_str=date_str,
+                model=model,
+                sources_cfg=sources_cfg,
+            )
+        ] = "selected_reads"
+
+        for future in as_completed(futures):
+            task_name = futures[future]
+            if task_name == "selected_reads":
+                reads_result = future.result()
+                if reads_result.get("search_notes"):
+                    notes.append(f"selected_reads: {reads_result['search_notes']}")
+                continue
+
+            section_id, result = future.result()
+            items = result.get("items") or []
+            all_items.extend(items)
+            section_counts[section_id] = len(items)
+            all_gaps.extend(result.get("gaps") or [])
+            if result.get("search_notes"):
+                notes.append(f"{section_id}: {result['search_notes']}")
+
+    elapsed = time.monotonic() - started
+    log(f"  All fetches finished in {elapsed:.0f}s")
 
     publishers: dict[str, int] = {}
     for item in all_items:
@@ -381,18 +468,18 @@ def main() -> int:
             preferred_sources=(sources_cfg.get("source_priorities") or {}).get("spain", []),
             allowed_domains=sources_cfg.get("allowed_domains") or [],
         )
-        print(prompt)
+        log(prompt)
         return 0
 
     if not os.environ.get("OPENAI_API_KEY"):
-        print("OPENAI_API_KEY is not set", file=sys.stderr)
+        log("OPENAI_API_KEY is not set")
         return 1
 
     inbox_dir = REPO_ROOT / "inbox"
     inbox_dir.mkdir(parents=True, exist_ok=True)
     out_path = inbox_dir / f"{date_str}-raw.json"
 
-    print(f"Fetching research for {date_str} with model {args.model}...")
+    log(f"Fetching research for {date_str} with model {args.model}...")
     try:
         payload = fetch_all_research(
             date_str=date_str,
@@ -403,11 +490,11 @@ def main() -> int:
     except Exception as exc:
         err_path = inbox_dir / f"{date_str}-raw.error.txt"
         err_path.write_text(str(exc) + "\n", encoding="utf-8")
-        print(str(exc), file=sys.stderr)
+        log(str(exc))
         return 1
 
     out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Wrote {out_path} ({len(payload.get('items') or [])} items)")
+    log(f"Wrote {out_path} ({len(payload.get('items') or [])} items)")
     return 0
 
 
