@@ -6,20 +6,14 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
-## 2026-06-10
+## 2026-06-10 (pipeline synthesis)
 
-- **spain-demographics-50m-infrastructure** — Population nearing 50M exposing infrastructure gaps (section: spain) [follow-up — same theme as 9 June]
-- **spain-immigration-economic-model** — Migration central to labour force and GDP (section: spain) [follow-up]
-- **spain-international-economic-attention** — Foreign commentary on Spain growth story (section: spain) [follow-up]
-- **germany-industrial-electricity-subsidies** — €1bn extra cost for industrial power relief (section: germany)
-- **germany-franco-german-fighter-collapse** — Joint fighter jet programme abandoned (section: germany)
-- **germany-manufacturing-pmi-weak** — Factory activity stalled in May (section: germany)
-- **berlin-s15-s-bahn-launch** — S15 line opening Gesundbrunnen–Hauptbahnhof (section: berlin)
-- **berlin-schoeneweide-rail-disruptions** — S-Bahn closures during signalling upgrades (section: berlin)
-- **berlin-ai-public-surveillance** — AI video monitoring debate (section: berlin)
-- **world-european-defence-fighter** — Fighter programme collapse as integration setback (section: world) [mirrors Germany — avoid]
-- **world-demography-migration-global** — Migration vs decline policy choice (section: world) [mirrors Spain — avoid]
-- **world-industrial-policy-global** — State support for strategic industries (section: world) [mirrors Germany — avoid]
+- **spain-bbva-housing-12pct-2026** — BBVA forecasts 12% price rise, construction +12.4% (section: spain)
+- **germany-employment-q1-drop-486k** — Q1 2026 employment −486k (section: germany)
+- **germany-vacancies-1-15m-q1** — 1.15M open jobs, skills mismatch (section: germany)
+- **germany-workforce-2045-bbsr-east-decline** — BBSR projection stable nationally, east loses (section: germany)
+- **berlin-tram-expansion-blocked** — Transport admin accused of blocking tram routes (section: berlin)
+- **berlin-tram-routes-postponed-fiscal** — Tram extensions delayed/cancelled in NVP (section: berlin)
 
 ## 2026-06-09
 
@@ -38,8 +32,8 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ## Saturated topics — do not return without material development
 
-These appeared on **both** 9 and 10 June with no new facts; reject until a genuine development:
-
-- Spain 50M population / infrastructure capacity / immigration-growth narrative
+- Spain 50M population / infrastructure capacity / immigration-growth narrative (9–10 June)
 - Spain "international attention" on economic success (Atlantic, Goldman Sachs angles)
-- World section recycling Spain demographics or Germany defence/industrial stories
+- Germany manufacturing PMI / industrial electricity / fighter jet (10 June ChatGPT draft)
+- Berlin S15 launch / Schöneweide disruptions / AI surveillance (10 June ChatGPT draft)
+- World section recycling Spain demographics or Germany industrial/defence stories

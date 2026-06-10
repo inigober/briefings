@@ -4,12 +4,12 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
-## 2026-06-10
+## 2026-06-10 (pipeline synthesis)
 
-- [Spain, a country of 50 million people with infrastructure for 40 million](https://english.elpais.com/spain/2026-06-05/spain-a-country-of-50-million-people-with-infrastructure-for-40-million-the-cracks-are-starting-to-show.html) — El País **REPEAT from 9 June**
-- [The Spanish Exception](https://www.theatlantic.com/ideas/2026/06/spain-economy-immigration-backlash/687371/) — The Atlantic **REPEAT from 9 June**
-- [What Spain would look like without immigration](https://elpais.com/economia/2026-03-25/cierre-de-colegios-crisis-en-el-campo-y-menos-crecimiento-asi-seria-la-espana-sin-inmigracion.html) — El País
-- [Germany faces higher costs for industrial power relief](https://www.reuters.com/business/energy/germany-faces-1-billion-extra-cost-eu-allows-wider-industry-power-relief-2026-06-09/) — Reuters
+- [La base mestiza del crecimiento español](https://elpais.com/economia/negocios/2026-06-06/la-base-mestiza-del-crecimiento-espanol-asi-contribuyen-cada-vez-mas-los-inmigrantes-al-pib.html) — El País
+- [1,15 Millionen Stellen bleiben unbesetzt](https://www.handelsblatt.com/politik/deutschland/offene-stellen-115-millionen-stellen-bleiben-in-deutschland-unbesetzt/100231223.html) — Handelsblatt
+- [Zahl der Arbeitskräfte bis 2045 stabil – der Osten verliert](https://www.handelsblatt.com/politik/deutschland/hochrechnung-zahl-der-arbeitskraefte-bis-2045-stabil-der-osten-verliert/100212103.html) — Handelsblatt
+- [Experten werfen Verkehrsverwaltung vor, Tramstrecken zu blockieren](https://www.tagesspiegel.de/berlin/vorwurf-von-fachleuten-in-berlin-scheitert-die-strassenbahn-an-der-politik-15674289.html) — Tagesspiegel
 
 ## 2026-06-09
 
@@ -20,7 +20,5 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ## Blocked until 5+ briefings have passed
 
-Do not recommend again yet:
-
-- `english.elpais.com/.../spain-a-country-of-50-million-people...` (used 9 + 10 June)
-- `theatlantic.com/ideas/2026/06/spain-economy-immigration-backlash/687371/` (used 9 + 10 June)
+- `english.elpais.com/.../spain-a-country-of-50-million-people...` (used 9 June)
+- `theatlantic.com/ideas/2026/06/spain-economy-immigration-backlash/687371/` (used 9 June)
