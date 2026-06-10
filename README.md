@@ -48,6 +48,22 @@ GitHub Action on push → styled HTML email (Resend)
     └── send_briefing_email.py
 ```
 
+## For PMs (learning as you go)
+
+This repo is designed to be run **with Cursor as your technical partner**. You don't need to write code.
+
+| You care about | File / place |
+|----------------|--------------|
+| Editorial rules (tone, sections, no-repeat) | `.cursor/rules/briefing-style.mdc` |
+| Topics and source priorities | `config/topics.yaml`, `config/sources.yaml` |
+| What the AI reads before writing | `prompts/daily_briefing.md` |
+| Past stories to avoid repeating | `state/dedup_index.md` |
+| Past articles to avoid recommending | `state/selected_reads_index.md` |
+| Scheduled research | `.github/workflows/daily-briefing.yml` |
+| Scheduled email | `.github/workflows/send-briefing-email.yml` |
+
+Ask Cursor to explain any change in plain language — project rules require it.
+
 ## Setup
 
 ### 1. Briefing sections
