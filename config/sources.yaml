@@ -87,6 +87,33 @@ source_priorities:
     - foreignaffairs.com
     - asia.nikkei.com
     - restofworld.org
+    - theguardian.com
+  # Alias for world section pre-fetch (same list as international)
+  world:
+    - ft.com
+    - economist.com
+    - theguardian.com
+    - asia.nikkei.com
+    - foreignaffairs.com
+    - foreignpolicy.com
+    - politico.eu
+    - bloomberg.com
+    - restofworld.org
+    - reuters.com
+
+# News vs research split — used by pre-fetch diversity rules
+germany_news_outlets:
+  - handelsblatt.com
+  - tagesspiegel.de
+  - zeit.de
+  - sueddeutsche.de
+  - faz.net
+
+germany_research_outlets:
+  - ifo.de
+  - diw.de
+  - bruegel.org
+  - oecd.org
 
 long_form_features:
   - theatlantic.com

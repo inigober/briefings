@@ -124,6 +124,57 @@ def topic_by_id(topics_cfg: dict) -> dict[str, dict]:
     return {t["id"]: t for t in topics_cfg.get("topics", []) if t.get("id")}
 
 
+def resolve_preferred_sources(section_id: str, sources_cfg: dict) -> list[str]:
+    priorities = sources_cfg.get("source_priorities") or {}
+    if section_id == "world":
+        return priorities.get("world") or priorities.get("international") or []
+    return priorities.get(section_id) or []
+
+
+def build_diversity_rules(section_id: str, sources_cfg: dict) -> str:
+    if section_id == "germany":
+        news = ", ".join(sources_cfg.get("germany_news_outlets") or [])
+        research = ", ".join(sources_cfg.get("germany_research_outlets") or [])
+        return f"""
+Germany publisher diversity (strict):
+- At least 10 items must be news articles from newspapers: {news}
+- At most 5 items from research institutes: {research}
+- Max 4 items from any single publisher (ifo, Handelsblatt, etc.)
+- Run separate web searches per outlet (e.g. "site:zeit.de Germany", "site:tagesspiegel.de")
+- Prefer coalition politics, labour, industry, healthcare NEWS over survey roundups
+"""
+
+    if section_id == "berlin":
+        return """
+Berlin publisher diversity (strict):
+- Max 5 items from rbb24; at least 4 from tagesspiegel.de
+- At least 2 from berliner-zeitung.de and 2 from the-berliner.com
+- Run explicit searches: "site:tagesspiegel.de Berlin", "site:berliner-zeitung.de"
+- Local Berlin news ONLY — not generic Germany or Brandenburg unless directly affecting Berlin
+"""
+
+    if section_id == "world":
+        return """
+World publisher diversity (strict):
+- Max 6 items from any single publisher; max 8 from restofworld.org
+- At least 3 items from ft.com, economist.com, or theguardian.com combined
+- At least 2 items from asia.nikkei.com or foreignaffairs.com
+- Use separate searches per region AND per outlet (not only Rest of World)
+- Geographic balance still required: 5 items each in Americas, East Asia, South Asia, Middle East, Africa
+- Do NOT mirror Spain/Germany stories already covered elsewhere
+"""
+
+    if section_id == "spain":
+        return """
+Spain publisher diversity:
+- Max 5 items from any single publisher
+- Include at least 2 from eldiario.es and 2 from elconfidencial.com if material exists
+- Mix national and regional (Catalonia, Basque Country, Andalusia) where relevant
+"""
+
+    return ""
+
+
 def extract_json(text: str) -> dict:
     text = text.strip()
     try:
@@ -163,6 +214,7 @@ def build_section_prompt(
     min_items: int,
     preferred_sources: list[str],
     allowed_domains: list[str],
+    sources_cfg: dict,
 ) -> str:
     name = topic.get("name", topic.get("id", ""))
     desc = (topic.get("description") or "").strip()
@@ -171,43 +223,28 @@ def build_section_prompt(
     preferred = ", ".join(preferred_sources) or "(see allowed domains)"
     domains = "\n".join(f"- {d}" for d in allowed_domains[:40])
 
-    world_extra = ""
-    if topic.get("id") == "world":
-        world_extra = """
-World-specific requirements:
-- At least 5 items each from non-European regions (Americas, East Asia, South Asia, Middle East, Africa)
-- Prefer: India, China, Brazil, Mexico, Nigeria, Indonesia, Japan, South Korea, United States, South Africa
-- Do NOT mirror Spain/Germany stories
-- Run separate searches per region if needed
-"""
-
-    berlin_extra = ""
-    if topic.get("id") == "berlin":
-        berlin_extra = """
-Berlin-specific requirements:
-- Local Berlin news ONLY (not generic Germany)
-- Prioritize Tagesspiegel, Berliner Zeitung, rbb24, The Berliner
-"""
+    section_id = topic.get("id", "")
+    diversity = build_diversity_rules(section_id, sources_cfg)
 
     return f"""Gather raw research for ONE section of a personal daily briefing. Today is {date_str}.
 
-Section: {name} (id: {topic.get("id")})
+Section: {name} (id: {section_id})
 Minimum items: {min_items}
 Description: {desc}
 Priority categories: {priorities}
 Avoid unless material development: {avoid or "none"}
-Preferred publishers (weight heavily — diversify, do not use one outlet for all items): {preferred}
-
+Preferred publishers (search each outlet separately — do not rely on one domain): {preferred}
+{diversity}
 Allowed domains:
 {domains}
-{world_extra}{berlin_extra}
 
 Rules:
 - Full article URLs only (never homepages, never truncated URLs)
 - Material developments over commentary
 - Include structural / underreported stories
-- Vary publishers — never return all items from a single outlet
+- topic_ids MUST start with the section id ("{section_id}") as the first element, then optional theme tags
 - Cast a wide net; synthesis will trim to 3 items later
+- In search_notes, report item count per publisher
 
 Return JSON matching the schema with keys: items, gaps, search_notes."""
 
@@ -299,20 +336,20 @@ def fetch_section(
 ) -> tuple[str, dict]:
     topics = topic_by_id(topics_cfg)
     allowed_domains = sources_cfg.get("allowed_domains") or []
-    source_priorities = sources_cfg.get("source_priorities") or {}
 
     topic = topics.get(section_id)
     if not topic or not topic.get("enabled", True):
         return section_id, {"items": [], "gaps": [], "search_notes": ""}
 
     min_items = SECTION_MIN_ITEMS[section_id]
-    preferred = source_priorities.get(section_id) or []
+    preferred = resolve_preferred_sources(section_id, sources_cfg)
     prompt = build_section_prompt(
         date_str=date_str,
         topic=topic,
         min_items=min_items,
         preferred_sources=preferred,
         allowed_domains=allowed_domains,
+        sources_cfg=sources_cfg,
     )
 
     started = time.monotonic()
@@ -328,7 +365,8 @@ def fetch_section(
     )
     items = result.get("items") or []
     for item in items:
-        item.setdefault("topic_ids", [section_id])
+        tags = [t for t in (item.get("topic_ids") or []) if t != section_id]
+        item["topic_ids"] = [section_id, *tags]
     elapsed = time.monotonic() - started
     log(f"  [{section_id}] done in {elapsed:.0f}s ({len(items)} items)")
     return section_id, result
@@ -465,8 +503,9 @@ def main() -> int:
             date_str=date_str,
             topic=topic,
             min_items=SECTION_MIN_ITEMS["spain"],
-            preferred_sources=(sources_cfg.get("source_priorities") or {}).get("spain", []),
+            preferred_sources=resolve_preferred_sources("spain", sources_cfg),
             allowed_domains=sources_cfg.get("allowed_domains") or [],
+            sources_cfg=sources_cfg,
         )
         log(prompt)
         return 0
