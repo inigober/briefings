@@ -1,0 +1,53 @@
+name: Daily research pre-fetch
+
+on:
+  schedule:
+    # Weekdays 06:30 UTC — runs before 07:00 synthesis automation
+    - cron: "30 6 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "YYYY-MM-DD (optional; default today UTC)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  prefetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch research
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_RESEARCH_MODEL: ${{ vars.OPENAI_RESEARCH_MODEL || 'gpt-4.1' }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            ARGS="--date ${{ github.event.inputs.date }}"
+          fi
+          python scripts/fetch_openai_research.py $ARGS
+
+      - name: Commit inbox if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet inbox/; then
+            echo "No inbox changes to commit"
+            exit 0
+          fi
+          git add inbox/
+          git commit -m "inbox: $(date -u +%Y-%m-%d) research pre-fetch"
+          git push

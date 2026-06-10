@@ -1,0 +1,52 @@
+name: Send briefing email
+
+on:
+  push:
+    paths:
+      - "briefings/*.md"
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      file:
+        description: "Path to briefing markdown (optional)"
+        required: false
+        type: string
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Detect changed briefing files
+        id: changed
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "files=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          FILES=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'briefings/*.md' | tr '\n' ' ')
+          echo "files=$FILES" >> "$GITHUB_OUTPUT"
+
+      - name: Send via Resend
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}
+          BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
+          CHANGED_FILES: ${{ steps.changed.outputs.files }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.file }}" ]; then
+            ARGS="--file ${{ github.event.inputs.file }}"
+          fi
+          python scripts/send_briefing_email.py $ARGS

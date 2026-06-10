@@ -1,0 +1,167 @@
+# Section order = briefing order. Emoji in `name` is required in output.
+
+topics:
+  - id: spain
+    name: Spain 🇪🇸
+    enabled: true
+    max_items: 3
+    description: >
+      Spanish economy, demographics, infrastructure, energy, science, regional politics,
+      banking, innovation, foreign policy, education.
+    priority_categories:
+      - economy
+      - demographics
+      - infrastructure
+      - rail
+      - energy
+      - water
+      - drought
+      - agriculture
+      - science
+      - research
+      - Catalonia
+      - Basque Country
+      - banking
+      - innovation
+      - foreign policy
+      - education
+    avoid_unless_material:
+      - PSOE scandals
+      - migration regularization
+      - housing protests
+      - tourism protests
+      - short-term rentals
+    material_return_examples:
+      - government collapse
+      - resignation
+      - court ruling
+      - major legislation
+      - large economic impact study
+    not_material:
+      - investigation continues
+      - debate continues
+      - critics respond
+
+  - id: germany
+    name: Germany 🇩🇪
+    enabled: true
+    max_items: 3
+    description: >
+      German economy, labour, demographics, industry, automotive, science, constitutional law,
+      education, energy reform, transport, coalition politics, healthcare.
+    priority_categories:
+      - economy
+      - labour market
+      - demographics
+      - industry
+      - automotive
+      - science
+      - research
+      - technology
+      - constitutional law
+      - education
+      - energy reform
+      - transport
+      - coalition politics
+      - healthcare
+    avoid_unless_material:
+      - infrastructure fund delays
+      - capital markets union
+      - defence spending levels
+      - manufacturing slowdown
+      - energy transition bottlenecks
+      - heatwave adaptation
+
+  - id: berlin
+    name: Berlin 🏙️
+    enabled: true
+    max_items: 3
+    description: >
+      Local Berlin news only — transport, urban planning, healthcare, universities,
+      local politics, environment, hospitality, airports, policing, culture, technology, research.
+    priority_categories:
+      - transport
+      - urban planning
+      - healthcare
+      - universities
+      - local politics
+      - environment
+      - hospitality
+      - airports
+      - policing
+      - culture
+      - technology
+      - research
+    avoid_unless_material:
+      - startup ecosystem
+      - club reclassification
+      - taxi licence freeze
+      - Creative Bureaucracy Festival
+
+  - id: world
+    name: World 🌐
+    enabled: true
+    max_items: 3
+    description: >
+      International affairs distinct from Spain/Germany coverage. Global science, tech, AI,
+      climate, energy, industrial policy, demographics, health, infrastructure, geopolitics.
+    min_non_european_regions: 2
+    required_regions:  # include at least 2 per briefing
+      - North America
+      - Latin America
+      - East Asia
+      - South Asia
+      - Middle East
+      - Africa
+    prefer_countries:
+      - India
+      - China
+      - Brazil
+      - Mexico
+      - Nigeria
+      - Indonesia
+      - South Africa
+      - Japan
+      - South Korea
+      - United States
+    priority_categories:
+      - science
+      - technology
+      - AI
+      - semiconductors
+      - climate
+      - energy
+      - industrial policy
+      - demographics
+      - health
+      - infrastructure
+      - geopolitics
+  - id: what_matters
+    name: What Matters Today 🧠
+    enabled: true
+    max_items: 4
+    min_items: 3
+    description: >
+      3–4 cross-cutting themes (not story recaps). Explain why they matter today.
+    example_themes:
+      - demographic change
+      - industrial policy
+      - infrastructure bottlenecks
+      - climate adaptation
+      - labour shortages
+      - state capacity
+      - technological change
+
+  - id: selected_reads
+    name: Selected Reads 🗞️
+    enabled: true
+    max_items: 4
+    description: >
+      Curated reads with separate memory from news sections. Diversify source types.
+    source_mix_targets:
+      - long_form_feature
+      - think_tank_research
+      - specialist_publication
+      - news_analysis
+    reuters_ap_max: 1
+    repeat_briefings_hard_limit: 5

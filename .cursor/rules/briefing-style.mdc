@@ -1,0 +1,123 @@
+---
+description: Editorial rules for daily briefing — Spain, Germany, Berlin, World, novelty-first
+alwaysApply: true
+---
+
+# Daily Briefing — Editorial Rules
+
+Produce a carefully edited daily newspaper, not a headline list. Maximize **novelty, insight, and relevance** for a reader who consumes this every day.
+
+**Core question:** "What would a regular reader learn today that they did not already learn from the last week's briefings?"
+
+Not: "What are the biggest stories today?"
+
+## Title
+
+`# Daily Briefing — DD Month YYYY` (e.g. `# Daily Briefing — 10 June 2026`)
+
+## Required sections (exact order)
+
+1. Spain 🇪🇸
+2. Germany 🇩🇪
+3. Berlin 🏙️
+4. World 🌐
+5. What Matters Today 🧠
+6. Selected Reads 🗞️
+
+Section targets and priorities: `config/topics.yaml`. Sources: `config/sources.yaml`.
+
+## Writing style
+
+Analytical, concise, critical, intelligent. Non-promotional, non-sensational. In the vein of FT, The Economist, Reuters Breakingviews, Politico Europe, The Atlantic.
+
+**Avoid:** clickbait, hype, promotional language, activist framing, emotional framing.
+
+### Per news story (Spain, Germany, Berlin, World)
+
+Use bullet items, not `###` headings:
+
+```
+* **Headline**
+  Summary paragraph. ([Publisher][N])
+  🧭 One-line insight (no "Why it matters:" label).
+  🧩 One-line broader context (no label).
+```
+
+- Cite with numbered reference links inline; define URLs in a **footnotes block** at the end of the file (`[N]: url "title"`).
+- Separate sections with `---` horizontal rules.
+- **Reject** Facebook, Instagram, TikTok, or homepage-only links as primary sources.
+
+### Selected Reads format
+
+```
+* **Publisher — Article title**
+  Why it's worth reading: …
+  Read article: [link text](url)
+```
+
+Use full article URLs — never a publisher homepage.
+
+## Anti-repetition (mandatory)
+
+Before selecting any story, read `state/dedup_index.md` and the **last 7** briefings in `briefings/`.
+
+**Reject** if the topic appeared recently unless there is a **material development:**
+
+- legislation passed, court ruling, resignation, election result
+- major investment, major data release, major policy change
+- significant escalation or de-escalation
+
+**Not material:** another article on the same story, politicians repeating positions, analysts commenting again, same trend with no new development.
+
+**Novelty test:** "If someone read the previous 7 briefings, would they learn something genuinely new?" If no → reject.
+
+After writing: append topics/stories to `state/dedup_index.md`; trim entries older than 14 days.
+
+## Selected Reads (separate memory)
+
+Read `state/selected_reads_index.md` before writing Selected Reads.
+
+- **Hard rule:** Never recommend the same article twice within **5 briefings**. Track exact URLs.
+- **Soft rule:** Diversify publications; do not repeat articles already used in news sections today.
+- **Reuters rule:** Max **1** Reuters/AP item in Selected Reads per briefing.
+- Ideal mix each day: 1 long-form feature, 1 think-tank/research paper, 1 specialist publication, 1 news analysis.
+
+Format: title, short summary, link.
+
+After writing: append URLs to `state/selected_reads_index.md`; trim entries older than 5 briefings.
+
+## What Matters Today
+
+3–4 **themes** (not story summaries): e.g. demographic change, industrial policy, infrastructure bottlenecks, labour shortages, state capacity, technological change. Explain why these themes matter today.
+
+## World section
+
+- Must **not** mirror Spain/Germany stories (if Germany covers defence, World should not repeat it).
+- Include **at least 2** of: North America, Latin America, East Asia, South Asia, Middle East, Africa.
+- Prefer: India, China, Brazil, Mexico, Nigeria, Indonesia, South Africa, Japan, South Korea, United States.
+- **Avoid** a Europe-only World section.
+- Prioritize: science, technology, AI, semiconductors, climate, energy, industrial policy, demographics, health, infrastructure, geopolitics — not only wars/diplomacy/elections.
+
+## Sourcing
+
+- **Synthesize only from** `inbox/`, `config/`, and repo context. Do not browse unless inbox is empty.
+- Prefer structural change, long-term trends, important data, underreported developments, second-order effects.
+- Reject: stories essentially identical to yesterday, incremental-only updates, media-driven non-events.
+- Favour critical, left-leaning outlets per `config/sources.yaml`.
+
+## Final checklist (revise if any answer is no)
+
+1. Date in title?
+2. Spain, Germany, Berlin each contain **new** information?
+3. World includes ≥2 non-European regions?
+4. World distinct from Spain/Germany?
+5. Selected Reads diversified? Reuters/AP ≤1?
+6. No Selected Read URL in last 5 briefings?
+7. Would a daily reader learn something genuinely new?
+
+## Commits
+
+1. `briefings/YYYY-MM-DD.md`
+2. Update `state/dedup_index.md` and `state/selected_reads_index.md`
+3. Update `state/last_run.json`
+4. Commit: `briefing: YYYY-MM-DD`

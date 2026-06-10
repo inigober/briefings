@@ -1,0 +1,141 @@
+# Domains for OpenAI web_search pre-fetch (fetch_openai_research.py)
+
+allowed_domains:
+  # International
+  - ft.com
+  - economist.com
+  - bloomberg.com
+  - politico.com
+  - politico.eu
+  - theatlantic.com
+  - newyorker.com
+  - foreignaffairs.com
+  - foreignpolicy.com
+  - restofworld.org
+  - asia.nikkei.com
+  - heatmap.news
+  - semafor.com
+  - theinformation.com
+  - technologyreview.com
+  - nature.com
+  - science.org
+  - reuters.com
+  - apnews.com
+  - theguardian.com
+  - nytimes.com
+  # Think tanks & research
+  - bruegel.org
+  - brookings.edu
+  - chathamhouse.org
+  - csis.org
+  - carnegieendowment.org
+  - oecd.org
+  - imf.org
+  - bis.org
+  - cepr.org
+  - cidob.org
+  - swp-berlin.org
+  - ifo.de
+  - diw.de
+  # Spain
+  - eldiario.es
+  - elpais.com
+  - lavanguardia.com
+  - elconfidencial.com
+  - funcas.es
+  - caixabankresearch.com
+  # Germany & Berlin
+  - handelsblatt.com
+  - tagesspiegel.de
+  - zeit.de
+  - sueddeutsche.de
+  - faz.net
+  - berliner-zeitung.de
+  - rbb24.de
+  - the-berliner.com
+
+source_priorities:
+  spain:
+    - eldiario.es
+    - elpais.com
+    - lavanguardia.com
+    - elconfidencial.com
+    - cidob.org
+    - caixabankresearch.com
+    - funcas.es
+  germany:
+    - handelsblatt.com
+    - tagesspiegel.de
+    - zeit.de
+    - sueddeutsche.de
+    - faz.net
+    - ifo.de
+    - diw.de
+    - bruegel.org
+  berlin:
+    - tagesspiegel.de
+    - berliner-zeitung.de
+    - rbb24.de
+    - the-berliner.com
+  international:
+    - ft.com
+    - economist.com
+    - bloomberg.com
+    - politico.eu
+    - theatlantic.com
+    - newyorker.com
+    - foreignaffairs.com
+    - asia.nikkei.com
+    - restofworld.org
+
+long_form_features:
+  - theatlantic.com
+  - newyorker.com
+  - nytimes.com
+  - ft.com
+  - theguardian.com
+
+think_tanks:
+  - bruegel.org
+  - brookings.edu
+  - chathamhouse.org
+  - csis.org
+  - carnegieendowment.org
+  - oecd.org
+  - imf.org
+  - bis.org
+  - cepr.org
+  - cidob.org
+  - swp-berlin.org
+  - ifo.de
+  - diw.de
+
+specialist_publications:
+  - restofworld.org
+  - asia.nikkei.com
+  - heatmap.news
+  - semafor.com
+  - theinformation.com
+  - technologyreview.com
+  - nature.com
+  - science.org
+  - foreignpolicy.com
+  - foreignaffairs.com
+
+news_analysis:
+  - reuters.com
+  - apnews.com
+  - bloomberg.com
+  - ft.com
+  - politico.eu
+
+# General editorial preference
+editorial_note: >
+  Favour critical, left-leaning outlets where quality reporting aligns with reader preferences.
+
+rss_feeds: []
+newsletters: []
+blocklist_domains:
+  - facebook.com
+  - instagram.com
+  - tiktok.com

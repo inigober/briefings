@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Local previews
+briefings/*.preview.html
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
