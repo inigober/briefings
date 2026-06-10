@@ -1,200 +1,1551 @@
 {
   "date": "2026-06-10",
-  "fetched_at": "2026-06-10T00:00:00Z",
+  "fetched_at": "2026-06-10T16:04:00.003046+00:00",
+  "model": "gpt-5.5",
   "items": [
     {
-      "id": "spain_energy_capacity_mechanism",
+      "id": "berlin-2026-06-10-01",
       "topic_ids": [
-        "spain"
+        "berlin",
+        "transport",
+        "s-bahn",
+        "infrastructure"
       ],
-      "headline": "Brussels approves €9 billion capacity‑market aid for Spain’s electricity sector",
-      "summary": "The European Commission has approved Spain’s plan to provide €9 billion over 10 years (approx. €900 million annually) in capacity‑market payments to power generators to ensure security of supply, starting immediately and running through 2036.",
-      "why_it_matters": "This long‑term state aid scaffolds resilience amid renewable intermittency and shields against future blackouts, while providing investment certainty for flexible capacity across technologies.",
-      "broader_context": "Following Spain’s April 2025 blackout, capacity mechanisms aim to bolster grid reliability while aligning with EU State‑aid rules and decarbonisation goals.",
-      "region": "Spain",
-      "country": "Spain",
+      "headline": "Berlin S-Bahn’s new CEO prioritizes cleaner, safer trains and S15 progress",
+      "summary": "Heiko Büttner, who took over as Berlin S-Bahn CEO in April, says his first priorities are cleaner and safer trains. Measures include mobile cleaning crews from June, more action against trespassing and cable theft, work on switches and signals, and continued development of the S15 line via Hauptbahnhof and Gleisdreieck.",
+      "why_it_matters": "The story is a useful transport-infrastructure follow-up: it connects daily passenger experience, safety, reliability problems, and the long-delayed north-south S-Bahn expansion.",
+      "broader_context": "Berlin’s rail network is entering another period of heavy construction and service disruption, while operators face pressure to improve reliability and station/train conditions before the 2026 state election.",
+      "region": "Berlin",
+      "country": "Germany",
       "is_structural": true,
-      "is_follow_up": false,
+      "is_follow_up": true,
       "material_development": true,
       "sources": [
         {
-          "title": "Bruselas autoriza a España a pagar 9.000 millones a las eléctricas para garantizar la estabilidad del suministro",
-          "url": "https://elpais.com/...",
-          "publisher": "El País",
-          "published_at": "2026-05-29"
+          "title": "New CEO wants a cleaner and safer S-Bahn",
+          "url": "https://www.the-berliner.com/english-news-berlin/new-ceo-wants-a-cleaner-and-safer-s-bahn/",
+          "publisher": "The Berliner",
+          "published_at": "2026-05-20"
         }
       ]
     },
     {
-      "id": "spain_energy_rehab_hospitals_schools",
+      "id": "berlin-2026-06-10-02",
       "topic_ids": [
-        "spain"
+        "berlin",
+        "transport",
+        "cycling",
+        "street-closures"
       ],
-      "headline": "Spain plans €400 million energy‑efficiency rehab for hospitals and schools",
-      "summary": "The Spanish government is preparing nearly €400 million in aid to improve energy efficiency in public hospitals and schools—€168 million for hospitals now, with further funding for schools to follow.",
-      "why_it_matters": "Greening public infrastructure lowers emissions, reduces public‑sector energy costs, and improves comfort in key social services, reinforcing ‘good growth’ and climate goals.",
-      "broader_context": "This initiative builds on Spain’s growing renewable share (57% power) and reflects the integration of climate and social agendas ahead of 2027 elections.",
-      "region": "Spain",
-      "country": "Spain",
-      "is_structural": true,
+      "headline": "50th Berlin ADFC Sternfahrt brings major road closures and cycling-policy pressure",
+      "summary": "Thousands of cyclists were expected for the 50th ADFC Sternfahrt on June 7, with 20 routes totaling about 1,000 km from the Berlin region and surrounding Brandenburg into the city, including sections of the urban motorway. The event’s 2026 motto was “Die Zukunft fährt Rad.”",
+      "why_it_matters": "Beyond a one-day traffic disruption, the ride is a visible pressure point in Berlin’s contested mobility politics, especially as the Senate has slowed or reversed some cycling projects.",
+      "broader_context": "Cycling policy remains a Berlin fault line: the CDU-led transport department has prioritized car flow and project review, while cycling groups and opposition parties argue the city is falling behind on safety and climate goals.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Tausende Radfahrer bei Sternfahrt erwartet - Umleitungen für Autos",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/06/sternfahrt-berlin-sperrungen-verkehr-fahrrad-adfc.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-07"
+        }
+      ]
+    },
+    {
+      "id": "berlin-2026-06-10-03",
+      "topic_ids": [
+        "berlin",
+        "transport",
+        "bvg",
+        "road-safety"
+      ],
+      "headline": "Sixteen injured after BVG bus brakes sharply in Neukölln",
+      "summary": "A BVG bus in Neukölln had to brake sharply after a 63-year-old driver reportedly changed unexpectedly into the bus lane on Johannisthaler Chaussee. Sixteen people were injured, according to rbb24.",
+      "why_it_matters": "The incident highlights the vulnerability of bus passengers in mixed traffic and the operational consequences of blocked or misused bus lanes.",
+      "broader_context": "Berlin is trying to improve bus reliability while many high-traffic corridors remain congested and enforcement of bus-lane rules is politically and operationally uneven.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
       "is_follow_up": false,
       "material_development": true,
       "sources": [
         {
-          "title": "El Gobierno ultima un plan de 400 millones para rehabilitación energética de hospitales y colegios",
-          "url": "https://elpais.com/...",
-          "publisher": "El País",
+          "title": "Bus muss scharf bremsen: 16 Verletzte in Neukölln",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/06/ploetzliche-scharfe-bremsung-bus-gefahrensituation-berlin-neukoelln-feuerwehr-einsatz.html",
+          "publisher": "rbb24",
           "published_at": "2026-06-04"
         }
       ]
     },
     {
-      "id": "spain_electrify_heat_industry",
+      "id": "berlin-2026-06-10-04",
       "topic_ids": [
-        "spain"
+        "berlin",
+        "policing",
+        "road-safety",
+        "kreuzberg"
       ],
-      "headline": "Iberdrola wins €50 million in EU grants to electrify industrial heat",
-      "summary": "Iberdrola secured eight projects under the EU Innovation Fund, worth around €50 million, to deploy 150 MW of renewable‑based industrial heat (approx. 240 GWh/year), covering sectors like chemicals, mining, and food.",
-      "why_it_matters": "Decarbonising industrial heat—a hard‑to‑abate area—through electrification is pivotal to Spain’s emissions strategy and industrial competitiveness.",
-      "broader_context": "This follows EU’s first industrial‑heat decarbonisation auction; Spain leads EU in projects awarded (35% of national total) and benefits from long‑term PPAs for stability.",
-      "region": "Spain",
-      "country": "Spain",
+      "headline": "Eight injured in Kreuzberg crash involving taxi and police van",
+      "summary": "Eight people were injured after a taxi and a Berlin police vehicle collided at Hallesches Ufer/Wilhelmstraße. The police van, reportedly from a special unit focused on crime hotspots, was travelling with blue lights and crossed a red light before the collision, according to police information cited by rbb24.",
+      "why_it_matters": "The crash is a material policing and road-safety development, involving a unit assigned to Berlin’s most sensitive crime hotspots and causing serious injuries.",
+      "broader_context": "Berlin’s policing of areas such as Görlitzer Park, Kottbusser Tor, Hermannstraße and Alexanderplatz remains politically charged, and operational incidents involving special units can quickly become part of the wider debate about public safety strategy.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Berlin-Kreuzberg: Acht Verletzte nach Unfall mit Taxi und Polizeiauto",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/06/berlin-polizei-acht-verletzte-unfall-taxi-mannschaftswagen.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-06"
+        }
+      ]
+    },
+    {
+      "id": "berlin-2026-06-10-05",
+      "topic_ids": [
+        "berlin",
+        "policing",
+        "public-safety",
+        "youth"
+      ],
+      "headline": "Police officer injured during arrest of 16-year-old in Kreuzberg",
+      "summary": "A Berlin police officer was injured while arresting a 16-year-old in Kreuzberg. Police said the teenager resisted after being stopped in a rental car, allegedly striking the officer in the face multiple times; he is under investigation for assaulting officers, resisting, driving without a licence, unauthorized vehicle use and suspected hit-and-run.",
+      "why_it_matters": "This is a local policing item with potential relevance to debates over youth crime, police safety and enforcement in inner-city districts.",
+      "broader_context": "Berlin’s public-safety debate is already centered on Kreuzberg, Neukölln and Mitte hotspots, and incidents involving minors can intensify political arguments over prevention versus enforcement.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Berlin: Polizistin bei Festnahme von 16-Jährigem verletzt",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/06/16-jaehriger-festnahme-angriff-gegen-polizei.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-04"
+        }
+      ]
+    },
+    {
+      "id": "berlin-2026-06-10-06",
+      "topic_ids": [
+        "berlin",
+        "parks",
+        "policing",
+        "local-politics",
+        "courts"
+      ],
+      "headline": "Court blocks Berlin Senate’s night closure of Görlitzer Park for now",
+      "summary": "Berlin’s administrative court ruled in an urgent proceeding that Görlitzer Park must initially remain open at night, siding with opponents of the Senate-backed closure. The Senate was considering legal remedies, while Friedrichshain-Kreuzberg saw the ruling as support for its position against the closure.",
+      "why_it_matters": "This is one of Berlin’s highest-profile local public-order disputes, combining park policy, drug-market enforcement, district autonomy and Senate authority.",
+      "broader_context": "The Görlitzer Park fence and night-closure plan is a flagship CDU/SPD law-and-order project. Court setbacks could limit the Senate’s ability to use physical closure as a crime-control model for other public spaces.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Gericht: Görlitzer Park muss wieder nachts offen bleiben",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/05/berlin-gericht-goerlitzer-park-muss-offen-bleiben.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-02"
+        },
+        {
+          "title": "Streit um den Zaun: Wie es mit dem Görlitzer Park jetzt weitergeht",
+          "url": "https://www.berliner-zeitung.de/article/wie-es-mit-dem-goerlitzer-park-jetzt-weitergeht-senat-will-drogenumschlagplatz-dicht-machen-10055073",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-06-03"
+        }
+      ]
+    },
+    {
+      "id": "berlin-2026-06-10-07",
+      "topic_ids": [
+        "berlin",
+        "urban-planning",
+        "transport",
+        "a100",
+        "treptow"
+      ],
+      "headline": "Greens attack Senate over Elsenbrücke/A100 congestion and propose alternative traffic plan",
+      "summary": "At the Elsenbrücke congestion hotspot between Treptow and Friedrichshain, Berlin Greens criticized Transport Senator Ute Bonde and the CDU-led Senate for failing to manage traffic around the new A100 section. They presented an eight-point plan, including more radical ideas for addressing the A100-related traffic chaos.",
+      "why_it_matters": "The Elsenbrücke/A100 issue is a structural urban-planning and transport story affecting commuters, buses and neighborhoods in eastern inner Berlin.",
+      "broader_context": "The opening and expansion of motorway infrastructure in Berlin has produced recurring conflicts over induced traffic, bridge bottlenecks, neighborhood impacts, and whether the city should continue prioritizing car capacity.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Stau-Hotspot Elsenbrücke: Grüne attackieren Senat – und präsentieren radikalen A100-Plan",
+          "url": "https://www.berliner-zeitung.de/article/stau-hotspot-elsenbruecke-in-treptow-gruene-attackieren-cdu-und-praesentieren-radikalen-a100-plan-10009556",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-06-07"
+        }
+      ]
+    },
+    {
+      "id": "berlin-2026-06-10-08",
+      "topic_ids": [
+        "berlin",
+        "transport",
+        "rail",
+        "infrastructure"
+      ],
+      "headline": "Berlin faces major 2026 rail works: Stadtbahn restrictions, Alexanderplatz rebuild, S-Bahn projects",
+      "summary": "A Berliner Zeitung transport overview flagged several 2026 changes: higher fares from January, work on the Hamburger Bahn and Lehrter Bahn, long Stadtbahn restrictions from mid-June to mid-December in which long-distance and regional tracks are affected, and major Alexanderplatz station works expected to continue until 2029.",
+      "why_it_matters": "This is a high-utility structural item for the briefing: it maps the transport disruptions likely to shape daily life in Berlin for months.",
+      "broader_context": "Berlin’s rail network is being rebuilt while demand remains high. The city faces the classic problem of needing to renew core infrastructure without paralyzing commuter and intercity mobility.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Neue S-Bahn-Strecke, Elsenbrücke, A100: Was sich 2026 im Berliner Verkehr alles ändert",
+          "url": "https://www.berliner-zeitung.de/article/neue-s-bahnstrecke-elsenbruecke-a100-was-sich-2026-im-berliner-verkehr-alles-aendert-10012081",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-01-01"
+        }
+      ]
+    },
+    {
+      "id": "berlin-2026-06-10-09",
+      "topic_ids": [
+        "berlin",
+        "transport",
+        "u-bahn",
+        "bvg",
+        "infrastructure"
+      ],
+      "headline": "Nollendorfplatz U-Bahn closure underscores Berlin’s aging transit infrastructure",
+      "summary": "Nollendorfplatz station, a key interchange for U1, U2, U3 and U4, was slated for months of closure and disruption in 2026 because of deteriorating tunnel-ceiling conditions. The Berliner reported that repair work would be unusually difficult because of space constraints in the station.",
+      "why_it_matters": "The station is one of Berlin’s most important U-Bahn nodes. Its closure is a major mobility disruption and a symbol of deferred maintenance in the BVG network.",
+      "broader_context": "Berlin’s public transport system is under simultaneous strain from rising fares, staff constraints, aging infrastructure and political pressure to expand service.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "U Nollendorfplatz closure comes into effect today",
+          "url": "https://www.the-berliner.com/english-news-berlin/u-nollendorfplatz-closure-comes-into-effect-today/",
+          "publisher": "The Berliner",
+          "published_at": "2026-01-12"
+        },
+        {
+          "title": "Nollendorfplatz U-Bahn to close for four months",
+          "url": "https://www.the-berliner.com/english-news-berlin/nollendorfplatz-u-bahn-to-close-for-four-months-january-april-2026/",
+          "publisher": "The Berliner",
+          "published_at": "2025-07-11"
+        }
+      ]
+    },
+    {
+      "id": "berlin-2026-06-10-10",
+      "topic_ids": [
+        "berlin",
+        "healthcare",
+        "hospitals",
+        "emergency-preparedness"
+      ],
+      "headline": "Experts warn Berlin’s health system is not ready for a major disaster scenario",
+      "summary": "Health experts warned in an Abgeordnetenhaus health committee hearing that Berlin’s hospitals are already overstretched in normal operations and lack capacity for larger crisis or disaster scenarios. The Senate acknowledged investment needs but pointed to limited budget resources, according to Berliner Zeitung’s summary of rbb reporting.",
+      "why_it_matters": "This is a structural, underreported local resilience story: hospital surge capacity, emergency planning and budget cuts are directly relevant to Berlin’s ability to manage disasters, attacks or mass-casualty events.",
+      "broader_context": "Berlin is trying to strengthen crisis resilience after infrastructure shocks and security concerns, but the healthcare system is constrained by staffing, investment backlogs and state-level austerity.",
+      "region": "Berlin",
+      "country": "Germany",
       "is_structural": true,
       "is_follow_up": false,
       "material_development": true,
       "sources": [
         {
-          "title": "Iberdrola logra ocho proyectos europeos para electrificar la industria y recibirá 50 millones",
-          "url": "https://elpais.com/...",
-          "publisher": "El País",
+          "title": "Gesundheitssystem: Berlin ist nicht auf einen großen Katastrophenfall vorbereitet",
+          "url": "https://www.berliner-zeitung.de/article/gesundheitssystem-berlin-ist-nicht-auf-einen-grossen-katastrophenfall-vorbereitet-10030153",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-05-15"
+        }
+      ]
+    },
+    {
+      "id": "berlin-2026-06-10-11",
+      "topic_ids": [
+        "berlin",
+        "healthcare",
+        "charite",
+        "budget",
+        "research"
+      ],
+      "headline": "Senate cuts continue to pressure Charité investment, teaching and specialized care",
+      "summary": "rbb24 reported on how Berlin Senate budget cuts are affecting Charité, including a roughly quarter reduction in investment funding and pressure on medical and dental study places and midwifery science. Charité leaders warned that research and patient care both suffer when investment budgets are cut.",
+      "why_it_matters": "Charité is central to Berlin’s healthcare, research and university ecosystem. Funding pressure has direct consequences for specialized medicine, workforce training and biomedical research capacity.",
+      "broader_context": "Berlin is trying to preserve its status as a leading science and medical hub while the state budget forces tradeoffs across hospitals, universities and public services.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Berliner Krankenhäuser: Wie die Senatskürzungen die Charité belasten",
+          "url": "https://www.rbb24.de/politik/beitrag/2025/08/berlin-senat-czyborra-besuch-charite.html",
+          "publisher": "rbb24",
+          "published_at": "2025-08-22"
+        }
+      ]
+    },
+    {
+      "id": "berlin-2026-06-10-12",
+      "topic_ids": [
+        "berlin",
+        "universities",
+        "research",
+        "climate",
+        "environment"
+      ],
+      "headline": "TU Berlin researchers launch project on flash drought risks for city greenery",
+      "summary": "Tagesspiegel’s June 4 Berlin archive flagged a new TU Berlin research project on flash droughts and their effects on Berlin’s urban greenery. The project focuses on how sudden drought conditions develop and what they mean for grass, trees and plants in the city.",
+      "why_it_matters": "This is a local climate-adaptation and research story with practical implications for parks, street trees, cooling and neighborhood livability.",
+      "broader_context": "Berlin’s urban green infrastructure is increasingly exposed to drought, heat and storm stress. Scientific work on fast-onset drought can inform watering strategies, species selection and climate-resilient planning.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Alle Artikel in „Berlin“ vom 04.06.2026",
+          "url": "https://www.tagesspiegel.de/berlin/archiv/2026/06/04",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-04"
+        }
+      ]
+    },
+    {
+      "id": "berlin-2026-06-10-13",
+      "topic_ids": [
+        "berlin",
+        "universities",
+        "research",
+        "charite"
+      ],
+      "headline": "Berlin University Alliance retains Excellence University status for FU, HU, TU and Charité",
+      "summary": "FU Berlin, HU Berlin, TU Berlin and Charité, grouped in the Berlin University Alliance, retained their Excellence University status. Funding is set to continue from 2027 for another seven years, supporting high-level research in Berlin.",
+      "why_it_matters": "This is a major research and university funding development for Berlin, reinforcing the city’s role as one of Germany’s leading science clusters.",
+      "broader_context": "The decision helps offset some pressure from state budget constraints, but Berlin universities still face local debates over staffing, infrastructure, teaching capacity and technology transfer.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "FU, HU, TU und Charité in Berlin bleiben \"Exzellenzuniversitäten\"",
+          "url": "https://www.rbb24.de/politik/beitrag/2026/03/fu-hu-tu-berlin-bleiben-exzellenzuniversitaeten.html",
+          "publisher": "rbb24",
+          "published_at": "2026-03-12"
+        }
+      ]
+    },
+    {
+      "id": "berlin-2026-06-10-14",
+      "topic_ids": [
+        "berlin",
+        "local-politics",
+        "administration",
+        "digital-government"
+      ],
+      "headline": "Senate advances task catalogue for Berlin administrative reform",
+      "summary": "The Berlin Senate agreed on a central component of the administrative reform: a task catalogue intended to define which authority is responsible for which administrative function. The goal is to reduce the city’s long-criticized “Zuständigkeits-Pingpong” between Senate and district administrations; a searchable database is planned later.",
+      "why_it_matters": "Administrative dysfunction is a structural Berlin issue affecting everything from building permits and transport projects to school management and citizen services.",
+      "broader_context": "The reform, effective from 2026, is one of the CDU/SPD government’s signature projects and was negotiated with broad parliamentary support. Its success depends on implementation, not just legal architecture.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Verwaltungsreform in Berlin: Senat bringt wichtigen Baustein auf den Weg",
+          "url": "https://www.rbb24.de/politik/beitrag/2026/04/berlin-senat-verwaltungsreform-aufgabenkatalog-behoerden.html",
+          "publisher": "rbb24",
+          "published_at": "2026-04-28"
+        },
+        {
+          "title": "Verwaltungsreform: Was das neue \"Betriebssystem\" für Berlin bringt",
+          "url": "https://www.rbb24.de/politik/beitrag/2026/01/berlin-verwaltungsreform-senat-bezirke-aufgabenverteilung.html",
+          "publisher": "rbb24",
+          "published_at": "2026-01-05"
+        }
+      ]
+    },
+    {
+      "id": "berlin-2026-06-10-15",
+      "topic_ids": [
+        "berlin",
+        "airports",
+        "transport",
+        "ber"
+      ],
+      "headline": "BER access remains vulnerable to weather and rail disruptions",
+      "summary": "Recent rbb24 transport notices and Berliner Zeitung weather coverage show continued disruption risk around BER access: earlier 2026 freezing rain forced BER to suspend operations, while late-May and early-June rail notices included multiple FEX cancellations or diversions between Berlin Hauptbahnhof and BER.",
+      "why_it_matters": "BER is Berlin’s main international gateway; disruptions to both airport operations and rail access have citywide consequences for travelers, hospitality, business and commuters.",
+      "broader_context": "The airport’s performance is not only about terminal operations. Its integration into Berlin’s rail network and resilience to weather and infrastructure failures remain recurring local vulnerabilities.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Newsblog zu Glatteis-Chaos in Berlin: Warnung vor markanter Glätte ++ Kein Betrieb am BER wegen Blitzeis",
+          "url": "https://www.berliner-zeitung.de/article/wetter-in-berlin-aktuell-gefrierender-regen-legt-teile-der-berliner-u-bahn-lahm-10017553",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-02-01"
+        },
+        {
+          "title": "Nahverkehr Verkehrsmeldungen",
+          "url": "https://www.rbb24.de/include/verkehr/reports/nahverkehr.html",
+          "publisher": "rbb24",
+          "published_at": null
+        }
+      ]
+    },
+    {
+      "id": "germany-2026-06-10-01",
+      "topic_ids": [
+        "coalition_politics",
+        "labour_market",
+        "pensions",
+        "tax",
+        "bureaucracy"
+      ],
+      "headline": "Merz coalition enters crunch phase on labour, pension, tax and bureaucracy reform package",
+      "summary": "Union and SPD leaders are using a Chancellery meeting with employers and unions to test whether a pre-summer reform package can be agreed. The package is expected to cover labour-market rules, pensions, income tax and bureaucracy reduction; unions are already resisting elements such as health-insurance cuts, possible pension retrenchment and loosening the fixed eight-hour working day.",
+      "why_it_matters": "This is the clearest near-term political test of whether the new grand coalition can translate Germany’s competitiveness debate into concrete reforms before the summer recess.",
+      "broader_context": "The reform push sits against years of weak German growth and a policy consensus that labour supply, productivity, tax burdens and administrative complexity are now binding constraints. It is a material development because it points to specific negotiations rather than generic reform rhetoric.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Schwarz-rote Regierung: Koalition startet in entscheidende Reformphase",
+          "url": "https://www.sueddeutsche.de/politik/schwarz-rote-regierung-koalition-startet-in-entscheidende-reformphase-dpa.urn-newsml-dpa-com-20090101-260609-930-194265",
+          "publisher": "Süddeutsche Zeitung",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "germany-2026-06-10-02",
+      "topic_ids": [
+        "automotive",
+        "electric_vehicles",
+        "industry",
+        "consumer_policy"
+      ],
+      "headline": "Germany’s revived EV subsidies are lifting car registrations, with BEVs at 25% market share in May",
+      "summary": "German new-car registrations edged up in May despite fewer working days, with nearly 60,000 battery-electric cars registered, up 39% year on year. BEVs reached a 25% market share, one of the highest levels recorded, with analysts attributing the rebound largely to state purchase incentives.",
+      "why_it_matters": "The data suggest public support is again propping up German EV demand, buying time for domestic automakers but also raising questions about how durable sales will be once subsidies expire.",
+      "broader_context": "Germany’s car industry is trying to manage the transition from combustion engines to EVs while facing Chinese competition, high domestic costs and employment pressure. Subsidy-driven demand can mask underlying competitiveness problems.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Automarkt: E-Auto-Förderung treibt Neuzulassungen in Deutschland an",
+          "url": "https://www.handelsblatt.com/politik/deutschland/automarkt-e-auto-foerderung-treibt-neuzulassungen-in-deutschland-an/100230137.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-06-03"
+        }
+      ]
+    },
+    {
+      "id": "germany-2026-06-10-03",
+      "topic_ids": [
+        "labour_market",
+        "skills",
+        "demographics"
+      ],
+      "headline": "Germany still has 1.15 million vacancies despite rising unemployment",
+      "summary": "Germany had about 1.15 million unfilled jobs in the first quarter of 2026, even as unemployment has been rising. The vacancy count was down by 105,800 from the fourth quarter of 2025, but IAB researchers said labour demand remains stagnant at a low level rather than collapsing.",
+      "why_it_matters": "The coexistence of weak hiring and persistent vacancies points to Germany’s structural mismatch problem: firms lack suitable workers even when the cycle is soft.",
+      "broader_context": "Demographic ageing, qualification mismatches and uneven regional labour demand are central constraints on German potential growth. This is underreported because headline unemployment alone misses the vacancy side of the story.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Offene Stellen: 1,15 Millionen Stellen bleiben in Deutschland unbesetzt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/offene-stellen-115-millionen-stellen-bleiben-in-deutschland-unbesetzt/100231223.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-06-08"
+        }
+      ]
+    },
+    {
+      "id": "germany-2026-06-10-04",
+      "topic_ids": [
+        "labour_market",
+        "industry",
+        "automotive",
+        "chemicals"
+      ],
+      "headline": "German firms’ hiring plans improve slightly, but autos and chemicals keep cutting jobs",
+      "summary": "The ifo employment barometer calculated for Handelsblatt rose in May to 93.9, its highest level since July 2025, suggesting firms’ staffing plans are becoming less restrictive. The improvement is uneven: chemical companies and automakers remain the sectors most strongly reducing headcount.",
+      "why_it_matters": "The labour market is stabilising at the aggregate level, but Germany’s core industrial employers continue to shed jobs, reinforcing the regional and political risks of industrial restructuring.",
+      "broader_context": "The story links cyclical stabilisation to structural job loss in legacy manufacturing. It is useful raw material for a briefing because it connects labour-market numbers with the industrial transition.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Arbeitsmarkt: Deutschlands Unternehmen planen etwas weniger restriktiv",
+          "url": "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-deutschlands-unternehmen-planen-etwas-weniger-restriktiv/100227328.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-05-26"
+        }
+      ]
+    },
+    {
+      "id": "germany-2026-06-10-05",
+      "topic_ids": [
+        "automotive",
+        "labour_market",
+        "industry"
+      ],
+      "headline": "VDA now expects 225,000 auto-industry job losses by 2035",
+      "summary": "Germany’s auto-industry association VDA says the transition from combustion engines to electromobility could cost 225,000 jobs by 2035, about 35,000 more than previously estimated. VDA President Hildegard Müller cited taxes, levies, energy costs, labour costs and bureaucracy as major burdens.",
+      "why_it_matters": "The estimate gives a concrete employment scale to the auto transition and raises the stakes for industrial, skills and regional policy.",
+      "broader_context": "Autos remain one of Germany’s most important industrial clusters. A larger projected job loss would affect suppliers, vocational training pathways and local tax bases, especially in manufacturing-heavy regions.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Automobilbranche: Autoindustrie rechnet mit größerem Stellenabbau",
+          "url": "https://www.handelsblatt.com/politik/deutschland/automobilbranche-autoindustrie-rechnet-mit-groesserem-stellenabbau/100224763.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-05-13"
+        }
+      ]
+    },
+    {
+      "id": "germany-2026-06-10-06",
+      "topic_ids": [
+        "consumer_economy",
+        "inflation",
+        "retail",
+        "energy"
+      ],
+      "headline": "German consumer sentiment ticks up in June but remains weak as war-driven price fears weigh",
+      "summary": "The HDE consumer barometer rose slightly in June for the first time since February, but remains weak and far below its year-earlier level. Handelsblatt Research Institute says the Iran war and rising prices continue to depress consumers’ willingness to spend, though there is a slight shift from saving toward consumption.",
+      "why_it_matters": "Private consumption is supposed to be one of the pillars of Germany’s recovery; weak sentiment makes that recovery more fragile.",
+      "broader_context": "The finding complements macro forecasts showing higher energy costs and inflation eroding real-income gains. It is a material development because it gives a fresh June reading on household behaviour.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "HDE-Konsumbarometer im Juni: Verbraucherstimmung leicht verbessert – Stimmungsniveau bleibt aber schwach",
+          "url": "https://research.handelsblatt.com/hde-konsumbarometer-im-juni-verbraucherstimmung-leicht-verbessert-stimmungsniveau-bleibt-aber-schwach/",
+          "publisher": "Handelsblatt Research Institute",
           "published_at": "2026-06-02"
         }
       ]
     },
     {
-      "id": "spain_hydrogen_green_infrastructure",
+      "id": "germany-2026-06-10-07",
       "topic_ids": [
-        "spain"
+        "economy",
+        "inflation",
+        "energy",
+        "fiscal_policy"
       ],
-      "headline": "Green hydrogen infrastructure accelerates in Spain with surging projects and pipelines",
-      "summary": "Spain is rolling out hydrogen infrastructure: 1 GW in final‑investment‑decision or construction stage; almost 8 GW in advanced engineering; 7 GW in feasibility. Subsea pipeline BarMar between Barcelona and Marseille and Enagás’s 2 600 km Trunk Network advancing.",
-      "why_it_matters": "Hydrogen system build‑out anchors Spain’s strategic autonomy, renewable integration, industrial application and export potential in EU decarbonisation architecture.",
-      "broader_context": "Geopolitical pressures have pushed hydrogen strategy from regulatory theory into 2026 practice; Spain leverages renewables, port access, industry and research to lead.",
-      "region": "Spain",
-      "country": "Spain",
+      "headline": "Joint institutes see German GDP growing only 0.6% in 2026 as energy shock blunts recovery",
+      "summary": "The Joint Economic Forecast expects German GDP to grow 0.6% in 2026 and 0.9% in 2027. The institutes say fiscal expansion is supporting domestic demand, but higher oil and gas prices linked to the Iran war are raising inflation, dampening consumption and limiting the recovery.",
+      "why_it_matters": "The forecast is a key baseline for Germany’s policy debate: fiscal stimulus is preventing a deeper downturn, but not solving weak industrial competitiveness or potential-growth problems.",
+      "broader_context": "The report was prepared by leading institutes including DIW and ifo for the federal economics ministry. It also projects unemployment at 6.4% in 2026 and warns that production-potential growth could stall by the end of the decade.",
+      "region": "Europe",
+      "country": "Germany",
       "is_structural": true,
       "is_follow_up": false,
       "material_development": true,
       "sources": [
         {
-          "title": "El hidrógeno verde, palanca para una mayor soberanía de Europa",
-          "url": "https://elpais.com/...",
-          "publisher": "El País",
-          "published_at": "2026-05-17"
+          "title": "Joint Economic Forecast Spring 2026: Energy Price Shock Dampens Recovery – Inflation Rises",
+          "url": "https://www.ifo.de/en/press-release/2026-04-01/joint-economic-forecast-spring-2026-energy-price-shock-dampens-recovery",
+          "publisher": "ifo Institute",
+          "published_at": "2026-04-01"
         }
       ]
     },
     {
-      "id": "spain_reduce_gas_dependency",
+      "id": "germany-2026-06-10-08",
       "topic_ids": [
-        "spain"
+        "economy",
+        "productivity",
+        "demographics",
+        "labour_market"
       ],
-      "headline": "EU urges Spain to reduce gas usage as reliance risks stability post‑blackout",
-      "summary": "The European Commission recommends Spain curb use of gas‑fired plants for voltage stability—following increased operation since April 2025 blackout—and invest in grids, interconnections, and storage instead.",
-      "why_it_matters": "Transitioning from emergency gas usage to structural renewables and grid investment underpins sustainable energy security and emissions reduction.",
-      "broader_context": "Spanish system still relies on 40% more daily gas plant operation post‑blackout; the EU champions longer‑term infrastructure over fossil fallback.",
-      "region": "Spain",
-      "country": "Spain",
+      "headline": "OECD June snapshot projects Germany at 0.7% growth in 2026 and highlights labour-supply reforms",
+      "summary": "The OECD’s June 2026 Germany snapshot projects GDP growth of 0.7% in 2026 and 1.1% in 2027 on a working-day-adjusted basis. It says rising wages will support consumption, but higher energy prices and inflation will limit real income growth, while public investment rises strongly under more flexible fiscal rules.",
+      "why_it_matters": "The OECD frames Germany’s problem as a medium-term supply-side issue, emphasising incentives for women, older workers and low-income workers, plus education and training reforms to ease skilled-labour shortages.",
+      "broader_context": "This reinforces the domestic debate around tax-transfer reform, training and demographic ageing. It is useful as an external benchmark against German institute forecasts.",
+      "region": "Europe",
+      "country": "Germany",
       "is_structural": true,
       "is_follow_up": false,
       "material_development": true,
       "sources": [
         {
-          "title": "La UE pide a España que reduzca el uso del gas para garantizar la estabilidad tras el apagón",
-          "url": "https://cincodias.elpais.com/...",
-          "publisher": "El País",
+          "title": "Germany Economic Snapshot",
+          "url": "https://www.oecd.org/en/topics/sub-issues/economic-surveys/germany-economic-snapshot.html",
+          "publisher": "OECD",
+          "published_at": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "germany-2026-06-10-09",
+      "topic_ids": [
+        "technology",
+        "artificial_intelligence",
+        "productivity",
+        "industry"
+      ],
+      "headline": "More than half of German companies now use AI, ifo says",
+      "summary": "An ifo survey in May 2026 found that 54.5% of companies in Germany use artificial intelligence in business processes, up from 40.9% the previous year. Another 16% plan to use AI and 21.6% are discussing it, leading ifo to describe AI as mainstream in the German economy.",
+      "why_it_matters": "Rapid AI adoption could become a productivity lever for Germany, whose long-running weakness is low productivity growth rather than only weak demand.",
+      "broader_context": "The result is underreported relative to Germany’s industrial malaise. It suggests the productivity debate should track diffusion of AI into Mittelstand firms, services and manufacturing, not only headline tech investment.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Press: More Than Half of Companies in Germany Use Artificial Intelligence",
+          "url": "https://www.ifo.de/en/press",
+          "publisher": "ifo Institute",
           "published_at": "2026-06-05"
         }
       ]
     },
     {
-      "id": "spain_hydraulic_infra_ageing",
+      "id": "germany-2026-06-10-10",
       "topic_ids": [
-        "spain"
+        "automotive",
+        "business_sentiment",
+        "industry"
       ],
-      "headline": "Spain’s hydraulic infrastructure aging: over 1 200 dams, 450 pre‑1960, >€4 billion annual investment needed",
-      "summary": "Spain has 1 200+ large dams (450 built before 1960, over 100 pre‑1915). The Institute of Economic Studies estimates an annual €4 billion investment is required for modernization; investment deficit since 2018 reaches €5.46 billion.",
-      "why_it_matters": "Aging water infrastructure threatens drought resilience, climate adaptation, water security and agricultural stability in a warming Spain.",
-      "broader_context": "Though €3 billion mobilized since 2022 via PRTR for digitalization and efficiency, modernisation lags behind depreciation, especially in critical Segura basin.",
-      "region": "Spain",
-      "country": "Spain",
-      "is_structural": true,
-      "is_follow_up": false,
+      "headline": "ifo says German auto-industry sentiment brightened slightly in May but remains deeply subdued",
+      "summary": "The ifo business-climate indicator for the German automotive industry improved to -20.8 points in May from -23.5 in April. Firms judged current conditions somewhat better and were less pessimistic about the coming months, but ifo said uncertainty remains high and sentiment is still very weak.",
+      "why_it_matters": "The indicator offers an early read on whether EV incentives, fiscal support and stabilising demand are changing mood in Germany’s most important industrial sector.",
+      "broader_context": "The modest improvement should be read alongside ongoing job-loss projections and weak competitiveness. It is a follow-up rather than a turnaround signal.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": true,
       "material_development": true,
       "sources": [
         {
-          "title": "Más de 1.200 grandes presas en riesgo o el desafío de mantener unas infraestructuras hidráulicas envejecidas",
-          "url": "https://cincodias.elpais.com/...",
-          "publisher": "El País",
-          "published_at": "2026-03-22"
+          "title": "Press: Sentiment in the German Automotive Industry Brightens Slightly",
+          "url": "https://www.ifo.de/en/press",
+          "publisher": "ifo Institute",
+          "published_at": "2026-06-03"
         }
       ]
     },
     {
-      "id": "spain_nuclear_closure_criticism",
+      "id": "germany-2026-06-10-11",
       "topic_ids": [
-        "spain"
+        "manufacturing",
+        "supply_chains",
+        "energy",
+        "industry"
       ],
-      "headline": "Industry leaders decry nuclear closures as “greatest disaster” amid energy uncertainty",
-      "summary": "José Antonio Jainaga, steel and transport executive, called Spain’s nuclear plant shutdowns “the greatest disaster”, warning that losing 19% of stable generation amid geopolitical uncertainty drives up industrial electricity costs.",
-      "why_it_matters": "The nuclear phase‑out pits decarbonisation goals against industrial energy security and cost competitiveness—raising pressure for policy review.",
-      "broader_context": "Amid Middle East turmoil, energy firms and utilities now publicly advocate delaying nuclear closures beyond 2027‑35 PNIEC timeline for strategic autonomy.",
-      "region": "Spain",
-      "country": "Spain",
-      "is_structural": true,
+      "headline": "Material shortages in German manufacturing are intensifying again",
+      "summary": "ifo reported that 15.9% of German manufacturing companies faced bottlenecks for intermediate products in May, up from 13.8% in April. The institute linked the strain to geopolitical tensions, especially for industries dependent on oil- and energy-intensive inputs.",
+      "why_it_matters": "Supply constraints can raise production costs and limit the benefit from fiscal stimulus, especially in energy-intensive manufacturing.",
+      "broader_context": "This is a material development within the energy-transition and industrial-cost story because it points to immediate supply-chain stress rather than long-term bottleneck commentary.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": false,
       "is_follow_up": false,
       "material_development": true,
       "sources": [
         {
-          "title": "El presidente de Sidenor califica el cierre de las centrales nucleares en España como “el mayor desastre”",
-          "url": "https://cincodias.elpais.com/...",
-          "publisher": "El País",
-          "published_at": "2026-05-28"
+          "title": "Press: Material Shortage in German Manufacturing Intensifies",
+          "url": "https://www.ifo.de/en/press",
+          "publisher": "ifo Institute",
+          "published_at": "2026-06-02"
         }
       ]
     },
     {
-      "id": "spain_renewables_decree_consultations",
+      "id": "germany-2026-06-10-12",
       "topic_ids": [
-        "spain"
+        "welfare",
+        "labour_market",
+        "tax_transfer_system",
+        "coalition_politics"
       ],
-      "headline": "Spain launches public consultations to fast‑track renewables in degraded zones and biometano",
-      "summary": "Spain’s Ministry of Ecological Transition has launched four public‑consultations to design legal framework for rapid deployment of renewables and biometane on degraded lands such as mines, landfills—“Renewable Acceleration Zones”—under Royal Decree‑Law 7/2026.",
-      "why_it_matters": "Unlocking underused land for renewable and biometane projects accelerates deployment, limits public opposition and aligns with energy security in face of global volatility.",
-      "broader_context": "This complements Spain’s renewables drive amid global energy crisis, using regulatory innovation to turn brownfields into clean‑energy assets.",
-      "region": "Spain",
-      "country": "Spain",
+      "headline": "ifo and IAB propose integrating housing benefit and child supplement into reformed basic income support",
+      "summary": "ifo says calculations with the Institute for Employment Research show that folding housing benefit and child supplement into a reformed basic-income system could improve labour supply and the state budget. The proposal stresses better supplementary-income rules so people moving into social-security jobs keep stronger work incentives.",
+      "why_it_matters": "This is a concrete policy design for Germany’s tax-transfer trap debate and could feed directly into the coalition’s labour-market reform package.",
+      "broader_context": "Germany’s welfare architecture is often criticised for high effective marginal tax rates for low-income households. The proposal is structural and underreported compared with headline pension and tax debates.",
+      "region": "Europe",
+      "country": "Germany",
       "is_structural": true,
       "is_follow_up": false,
       "material_development": true,
       "sources": [
         {
-          "title": "El Gobierno acelera la implantación de renovables en España para contener la crisis energética mundial",
-          "url": "https://elpais.com/...",
-          "publisher": "El País",
+          "title": "Press: The ifo Institute Recommends Integration of Housing Benefit and Child Supplement into Reformed Basic Income Support in Germany",
+          "url": "https://www.ifo.de/en/press",
+          "publisher": "ifo Institute",
+          "published_at": "2026-06-01"
+        }
+      ]
+    },
+    {
+      "id": "germany-2026-06-10-13",
+      "topic_ids": [
+        "industry",
+        "regional_economy",
+        "competitiveness",
+        "demographics"
+      ],
+      "headline": "ifo warns industrial shrinkage is especially dangerous for rural Germany",
+      "summary": "ifo President Clemens Fuest argues that deindustrialisation would be particularly problematic in Germany because industry is geographically dispersed and many rural regions depend on medium-sized, family-owned industrial firms for high-productivity jobs, investment and local prosperity.",
+      "why_it_matters": "The analysis reframes Germany’s industrial weakness as a regional-cohesion and political-stability issue, not just a GDP issue.",
+      "broader_context": "This matters for briefing synthesis because it links manufacturing decline to rural economic divergence, tax bases and the politics of reform. Fuest calls for bureaucracy reduction, cheaper energy and tax and levy relief.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Schrumpfen der Industrie in Deutschland besonders problematisch",
+          "url": "https://www.ifo.de/pressemitteilung/2026-04-14/schrumpfen-der-industrie-deutschland-besonders-problematisch",
+          "publisher": "ifo Institute",
           "published_at": "2026-04-14"
         }
       ]
     },
     {
-      "id": "spain_nuclear_extension_calls",
+      "id": "germany-2026-06-10-14",
       "topic_ids": [
-        "spain"
+        "healthcare",
+        "public_finance",
+        "demographics",
+        "labour_market"
       ],
-      "headline": "Utilities call for extending nuclear lifespan to shield from energy crises",
-      "summary": "Iberdrola and Endesa are urging Spain to reconsider nuclear plant phase‑out plans (2027‑35) given the current energy price spike and strategic environment, arguing extended operations would enhance autonomy and economic stability.",
-      "why_it_matters": "This signals shifting industry strategies advocating nuclear as transitional anchor amid geopolitical pressure and market volatility.",
-      "broader_context": "Their statements follow record results in 2025 and reflect industry pressure to balance climate pledges with energy affordability and resilience.",
+      "headline": "OECD flags Germany’s public-health insurance finances and hospital labour shortages as structural pressures",
+      "summary": "The OECD’s Germany economic survey says statutory health insurance faces strong financial pressure from demographic change and rising medical spending. It also points to severe hospital labour shortages and incentives in the case-based payment system that have contributed to overtreatment and spending pressures.",
+      "why_it_matters": "Healthcare is a major fiscal and labour-market constraint for Germany’s ageing society, and reform pressure is rising alongside coalition budget negotiations.",
+      "broader_context": "This is structural raw material for healthcare coverage: Germany’s health system issues are not only about contribution rates but also hospital staffing, payment incentives and demographic cost growth.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "OECD Economic Surveys: Germany 2025",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/oecd-economic-surveys-germany-2025_b395dc9b/39d62aed-en.pdf",
+          "publisher": "OECD",
+          "published_at": "2025-06"
+        }
+      ]
+    },
+    {
+      "id": "germany-2026-06-10-15",
+      "topic_ids": [
+        "healthcare",
+        "coalition_politics",
+        "public_finance"
+      ],
+      "headline": "SPD and CSU push changes to planned healthcare savings amid warnings over screening and hospitals",
+      "summary": "SPD and CSU figures signalled they want changes to proposed healthcare-cost reforms. Medical groups warned against stopping biennial skin-cancer screening for asymptomatic patients, while hospital representatives said some proposals would amount to state-induced clinic closures.",
+      "why_it_matters": "The dispute shows how quickly fiscal consolidation in healthcare collides with patient benefits and hospital capacity, making health reform a likely coalition fault line.",
+      "broader_context": "Germany’s statutory health system is under pressure from ageing, costs and labour shortages. This item is material because it concerns specific benefit and hospital-financing proposals rather than abstract cost-control debate.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Gesundheitskosten: SPD und CSU wollen Änderungen bei Gesundheitsreform",
+          "url": "https://www.sueddeutsche.de/gesundheit/gesundheitskosten-spd-und-csu-wollen-aenderungen-bei-gesundheitsreform-dpa.urn-newsml-dpa-com-20090101-260415-930-947737",
+          "publisher": "Süddeutsche Zeitung",
+          "published_at": "2026-04-15"
+        }
+      ]
+    },
+    {
+      "id": "germany-2026-06-10-16",
+      "topic_ids": [
+        "education",
+        "prosperity",
+        "research",
+        "digitalisation"
+      ],
+      "headline": "ifo prosperity study points to education-system and digital-tech gaps despite strong R&D spending",
+      "summary": "An ifo study for the Bavarian Industry Association says several German prosperity indicators have stagnated or declined since 2020. It notes that Germany spends 3.1% of GDP on research, above the G7 average of 2.5%, but has catching up to do in digital technologies; it also links declining social mobility to problems in the education system.",
+      "why_it_matters": "The study connects education, research and digitalisation to Germany’s long-term prosperity rather than treating them as separate policy silos.",
+      "broader_context": "This is structural and underreported: Germany’s R&D intensity is relatively strong, but translating research into digital productivity and social mobility remains a weak spot.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Prosperity in Germany Under Pressure Since 2020",
+          "url": "https://www.ifo.de/en/press-release/2026-04-28/prosperity-germany-under-pressure-2020",
+          "publisher": "ifo Institute",
+          "published_at": "2026-04-28"
+        }
+      ]
+    },
+    {
+      "id": "germany-2026-06-10-17",
+      "topic_ids": [
+        "transport",
+        "logistics",
+        "labour_market",
+        "skills"
+      ],
+      "headline": "Skill shortages ease sharply in transport and logistics but remain structurally high",
+      "summary": "ifo’s February survey found the share of German companies reporting skilled-labour shortages fell to 22.7%, the lowest in five years. Transport and logistics saw a particularly large decline, from 42.7% to 30.6%, though the level remains high and ifo cautioned that ageing and technological change will keep shifting qualification needs.",
+      "why_it_matters": "Transport and logistics are critical for Germany’s industrial model; easing shortages may reflect weak demand as much as genuine labour-market repair.",
+      "broader_context": "This is useful for the transport/labour section because it avoids the usual infrastructure focus and instead highlights staffing constraints in logistics.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Fachkräftemangel nimmt ab",
+          "url": "https://www.ifo.de/pressemitteilung/2026-02-18/fachkraeftemangel-nimmt-ab",
+          "publisher": "ifo Institute",
+          "published_at": "2026-02-18"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-americas-01",
+      "topic_ids": [
+        "americas",
+        "mexico",
+        "energy",
+        "infrastructure",
+        "industrial-policy"
+      ],
+      "headline": "Mexico plans $8.1bn gas-pipeline buildout to shore up power generation",
+      "summary": "Mexico is planning to invest about 140 billion pesos ($8.1 billion) in new natural-gas pipelines over four years as part of President Claudia Sheinbaum’s effort to expand power generation capacity.",
+      "why_it_matters": "The plan links Mexico’s nearshoring ambitions to energy security: factories, data centers and grid reliability all depend on whether the country can add firm power quickly enough.",
+      "broader_context": "Across the Americas, AI/data-center demand and industrial relocation are pushing governments back toward gas infrastructure even as they maintain climate commitments.",
+      "region": "Americas",
+      "country": "Mexico",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Mexico Plans $8 Billion in Gas Pipelines to Boost Power Sector",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-07/mexico-plans-8-billion-in-gas-pipelines-to-boost-power-sector?srnd=phx-industries-energy",
+          "publisher": "Bloomberg",
+          "published_at": "2026-05-07"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-americas-02",
+      "topic_ids": [
+        "americas",
+        "mexico",
+        "climate",
+        "science",
+        "infrastructure"
+      ],
+      "headline": "Mexico bets on public supercomputer to improve extreme-weather forecasting",
+      "summary": "Mexico is developing a public supercomputer, Coatlicue, to integrate national weather data and improve climate forecasting and early-warning systems, with researchers working with Barcelona’s Supercomputing Center on data standardization.",
+      "why_it_matters": "A national climate-computing stack could reduce disaster losses in a country exposed to hurricanes, drought and heat, while also building domestic scientific capacity.",
+      "broader_context": "Middle-income countries are increasingly treating climate modeling, data infrastructure and AI compute as sovereign public infrastructure rather than optional research spending.",
+      "region": "Americas",
+      "country": "Mexico",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Mexico Bets on Supercomputer Coatlicue to Combat Extreme Weather Events",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-25/mexico-bets-on-supercomputer-coatlicue-to-combat-extreme-weather-events",
+          "publisher": "Bloomberg",
+          "published_at": "2026-03-25"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-americas-03",
+      "topic_ids": [
+        "americas",
+        "brazil",
+        "climate",
+        "forests",
+        "industrial-policy"
+      ],
+      "headline": "Brazil updates national climate plan with renewed focus on ending deforestation",
+      "summary": "Brazil unveiled an updated national climate plan looking toward 2035, with deforestation control again positioned as the central emissions-reduction strategy.",
+      "why_it_matters": "Brazil’s forest policy is one of the largest swing factors in global climate outcomes, and its implementation will affect carbon markets, agribusiness politics and Amazon governance.",
+      "broader_context": "The move comes as emerging economies try to pair climate diplomacy with industrial policy and land-use enforcement ahead of future global climate negotiations.",
+      "region": "Americas",
+      "country": "Brazil",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Brazil Doubles Down on Conserving Forests in Revised Climate Plan",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-16/brazil-doubles-down-on-conserving-forests-in-revised-climate-plan",
+          "publisher": "Bloomberg",
+          "published_at": "2026-03-16"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-americas-04",
+      "topic_ids": [
+        "americas",
+        "brazil",
+        "energy",
+        "data-centers",
+        "grid"
+      ],
+      "headline": "Brazilian gas-storage project aims to firm renewable-heavy grid and attract data centers",
+      "summary": "Origem Energia plans to invest up to $150 million to store natural gas underground in depleted reservoirs in Alagoas state, with the company pitching the project as a hedge for Brazil’s renewable-reliant grid and as support for power-hungry data centers.",
+      "why_it_matters": "Brazil is becoming a test case for how hydro- and renewables-heavy grids handle AI-driven electricity demand without sacrificing reliability.",
+      "broader_context": "The Americas are seeing gas re-emerge as a balancing fuel for grids under pressure from electrification, AI infrastructure and variable renewables.",
+      "region": "Americas",
+      "country": "Brazil",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Brazil’s Origem Turns to Underground Natural Gas Storage to Bolster Grid",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-02/brazil-s-origem-turns-to-underground-gas-storage-to-bolster-grid",
+          "publisher": "Bloomberg",
+          "published_at": "2026-03-02"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-americas-05",
+      "topic_ids": [
+        "americas",
+        "united-states",
+        "ai",
+        "energy",
+        "infrastructure"
+      ],
+      "headline": "US AI race increasingly constrained by electricity and grid bottlenecks",
+      "summary": "Guggenheim’s Alan Schwartz warned that the United States risks losing ground in AI if it fails to address power and grid infrastructure constraints, as data centers add to a surge in electricity demand after decades of relatively flat consumption.",
+      "why_it_matters": "The constraint on AI leadership may be less about algorithms than about permitting, transmission, generation and local grid politics.",
+      "broader_context": "The AI boom is turning power systems into strategic infrastructure, blurring the line between energy policy, national security and tech competition.",
+      "region": "Americas",
+      "country": "United States",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "AI Race Threatened by US Electricity Constraints, Guggenheim Executive Warns",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-05/guggenheim-s-schwartz-warns-power-crunch-imperils-us-in-ai-race",
+          "publisher": "Bloomberg",
+          "published_at": "2026-05-05"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-east-asia-01",
+      "topic_ids": [
+        "east-asia",
+        "china",
+        "united-states",
+        "ai",
+        "semiconductors"
+      ],
+      "headline": "US-China AI dominance leaves most countries dependent on two compute ecosystems",
+      "summary": "Rest of World’s June 9 discussion framed AI as a two-horse race: the United States and China control most global compute, investment and frontier research capacity, leaving middle powers and the Global South exposed to dependence on both systems.",
+      "why_it_matters": "Compute concentration gives Washington and Beijing leverage over access to models, chips and cloud infrastructure, turning AI into a geopolitical dependency problem.",
+      "broader_context": "AI sovereignty is becoming a central policy question for countries that lack chips, data centers, capital or domestic model ecosystems.",
+      "region": "East Asia",
+      "country": "China / United States",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "The Great AI Divide: Navigating U.S. and Chinese dominance",
+          "url": "https://restofworld.org/2026/ai-divide-america-china-world/",
+          "publisher": "Rest of World",
+          "published_at": "2026-06-09"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-east-asia-02",
+      "topic_ids": [
+        "east-asia",
+        "china",
+        "united-states",
+        "ai",
+        "research"
+      ],
+      "headline": "Despite geopolitical rivalry, US and Chinese AI ecosystems remain deeply intertwined",
+      "summary": "Rest of World reports that US and Chinese AI industries remain connected through talent flows, research networks, alumni groups, shared methods and influence from open models such as DeepSeek and Qwen, even as export controls tighten.",
+      "why_it_matters": "Decoupling rhetoric may overstate how separable frontier AI development actually is; talent and research diffusion remain major channels of mutual dependence.",
+      "broader_context": "The US-China AI rivalry is not a clean split into two blocs but a contested network of collaboration, competition and selective restriction.",
+      "region": "East Asia",
+      "country": "China / United States",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "What AI race? China and U.S. AI worlds are tightly connected",
+          "url": "https://restofworld.org/2026/china-us-what-ai-race/",
+          "publisher": "Rest of World",
+          "published_at": "2026-05-22"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-east-asia-03",
+      "topic_ids": [
+        "east-asia",
+        "china",
+        "ai",
+        "robotics",
+        "industrial-policy"
+      ],
+      "headline": "China’s humanoid-robot push is drawing comparisons to its EV industrial playbook",
+      "summary": "Rest of World’s China coverage highlights how Chinese firms and local governments are mobilizing around humanoid robotics, with scale, supply-chain depth and government-backed incubation resembling the earlier EV strategy.",
+      "why_it_matters": "If humanoid robotics follows the EV path, China could gain a durable manufacturing and cost advantage in a technology likely to affect labor-intensive sectors worldwide.",
+      "broader_context": "Robotics is becoming the next industrial-policy battleground after EVs, batteries and AI chips.",
+      "region": "East Asia",
+      "country": "China",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "China is running the EV playbook on humanoid robots — and it’s working",
+          "url": "https://restofworld.org/2026/china-humanoid-robots-ev-playbook/",
+          "publisher": "Rest of World",
+          "published_at": "2026-02-05"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-east-asia-04",
+      "topic_ids": [
+        "east-asia",
+        "south-korea",
+        "semiconductors",
+        "labor",
+        "ai"
+      ],
+      "headline": "Samsung labor showdown reflects wider fight over who captures AI-chip wealth",
+      "summary": "Rest of World’s Africa/Asia tech feed flags a South Korean labor dispute at Samsung as part of a broader debate over how AI-generated wealth is distributed between chipmakers, investors and workers.",
+      "why_it_matters": "Memory chips are a core AI input, and labor pressure in South Korea could affect one of the world’s most important semiconductor supply chains.",
+      "broader_context": "As AI boosts profits and valuations across the semiconductor stack, wage bargaining and industrial relations are becoming part of the AI supply-chain story.",
+      "region": "East Asia",
+      "country": "South Korea",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "AI is minting new billionaires, and workers want their share",
+          "url": "https://restofworld.org/2026/samsung-labor-ai-billionaires-workers/",
+          "publisher": "Rest of World",
+          "published_at": "2026-05-22"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-east-asia-05",
+      "topic_ids": [
+        "east-asia",
+        "china",
+        "south-korea",
+        "semiconductors",
+        "consumer-tech"
+      ],
+      "headline": "AI demand for memory chips risks tightening supply for phones and consumer electronics",
+      "summary": "Rest of World’s China coverage notes that AI data centers are dominating demand for memory chips, potentially raising costs or creating shortages for phones and other consumer devices.",
+      "why_it_matters": "A data-center capex boom can transmit into everyday inflation through electronics supply chains, not just through electricity markets.",
+      "broader_context": "The AI buildout is reshaping semiconductor allocation: high-margin server components are crowding out lower-margin consumer hardware in parts of the supply chain.",
+      "region": "East Asia",
+      "country": "China / South Korea",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "AI is dominating the world’s memory chips. That could make phones more expensive",
+          "url": "https://restofworld.org/2026/ai-memory-chips-smartphones-prices/",
+          "publisher": "Rest of World",
+          "published_at": "2026-02-09"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-south-asia-01",
+      "topic_ids": [
+        "south-asia",
+        "india",
+        "ai",
+        "cloud",
+        "sovereignty"
+      ],
+      "headline": "India-UAE AI deal challenges Big Tech’s cloud dominance",
+      "summary": "India is partnering with Abu Dhabi-backed G42 to deploy 64 Cerebras supercomputers in India, offering a hardware-ownership model that could reduce reliance on Amazon, Microsoft and Google cloud infrastructure.",
+      "why_it_matters": "India is trying to build AI capacity without simply renting the full stack from US hyperscalers, a model other middle powers may study.",
+      "broader_context": "AI sovereignty increasingly means controlling compute, not just regulating models or promoting domestic startups.",
+      "region": "South Asia",
+      "country": "India / United Arab Emirates",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "India’s AI deal with the UAE challenges U.S. cloud dominance",
+          "url": "https://restofworld.org/2026/india-uae-g42-cerebras-ai-sovereignty/",
+          "publisher": "Rest of World",
+          "published_at": "2026-06-01"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-south-asia-02",
+      "topic_ids": [
+        "south-asia",
+        "india",
+        "climate",
+        "health",
+        "agriculture"
+      ],
+      "headline": "North India heat wave disrupts markets and pushes farmers into nighttime work",
+      "summary": "A severe heat wave emptied roads and markets in northern India, with some farmers switching to nighttime work as New Delhi forecast temperatures around 45°C and authorities opened cooling zones.",
+      "why_it_matters": "Extreme heat is now a direct economic and health shock, reducing labor productivity, changing work hours and straining urban adaptation systems.",
+      "broader_context": "India’s heat exposure is a major global climate-adaptation test because of its population size, informal labor share and agricultural dependence.",
+      "region": "South Asia",
+      "country": "India",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Heat wave empties roads and markets in north India as some farmers turn to nighttime work",
+          "url": "https://apnews.com/article/3aa179491366cc8a283907392c70c73d",
+          "publisher": "Associated Press",
+          "published_at": "2026-05-21"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-south-asia-03",
+      "topic_ids": [
+        "south-asia",
+        "india",
+        "data-centers",
+        "ai",
+        "land",
+        "energy"
+      ],
+      "headline": "India’s data-center push faces farmer resistance over land, water and energy use",
+      "summary": "Google and Microsoft data-center projects in India are facing local backlash over opaque land acquisition, agricultural displacement and water-resource concerns, even as the government offers tax relief to attract foreign cloud providers.",
+      "why_it_matters": "AI infrastructure is becoming a land, water and local-governance issue, not merely a digital-economy question.",
+      "broader_context": "Countries competing to host data centers increasingly face conflicts between national tech strategy and local environmental or agricultural priorities.",
+      "region": "South Asia",
+      "country": "India",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "In its push to become Big Tech’s data center hub, India is overlooking local resistance",
+          "url": "https://restofworld.org/2026/india-data-center-tax-holiday-farmer-protests-ai/",
+          "publisher": "Rest of World",
+          "published_at": "2026-04-13"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-south-asia-04",
+      "topic_ids": [
+        "south-asia",
+        "india",
+        "ai",
+        "open-source",
+        "digital-sovereignty"
+      ],
+      "headline": "India AI summit spotlights open source as core digital infrastructure",
+      "summary": "Rest of World argues that India’s AI sovereignty debate is shifting from model access toward control of the full stack, including open-source alternatives, domestic capacity and public-interest infrastructure.",
+      "why_it_matters": "If India backs open-source AI infrastructure, it could alter the balance between public digital goods and vertically integrated foreign AI platforms.",
+      "broader_context": "The Global South is increasingly treating AI as public infrastructure comparable to payments systems, identity rails and telecom networks.",
+      "region": "South Asia",
+      "country": "India",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "AI sovereignty won’t come from renting Big Tech’s models",
+          "url": "https://restofworld.org/2026/india-ai-summit-open-source-sovereignty-mozilla-investment/",
+          "publisher": "Rest of World",
+          "published_at": "2026-02-19"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-south-asia-05",
+      "topic_ids": [
+        "south-asia",
+        "india",
+        "brics",
+        "geopolitics",
+        "middle-east"
+      ],
+      "headline": "Middle East war exposes limits of BRICS solidarity for India and other members",
+      "summary": "Foreign Policy reported that BRICS struggled to produce a coherent response after the US and Israel launched a major attack on Iran, despite Iran being a BRICS member and the group often presenting itself as a counterweight to Western power.",
+      "why_it_matters": "For India, China, Brazil and Gulf-linked economies, BRICS unity is constrained by divergent security interests, energy dependencies and relationships with Washington.",
+      "broader_context": "The episode underlines that expanded BRICS membership does not automatically translate into coordinated geopolitical action.",
+      "region": "South Asia",
+      "country": "India / BRICS",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "BRICS Meets Reality in the Middle East War",
+          "url": "https://foreignpolicy.com/2026/03/16/iran-war-trump-brics-china-russia-india-gulf/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-03-16"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-middle-east-01",
+      "topic_ids": [
+        "middle-east",
+        "iran",
+        "nuclear",
+        "geopolitics",
+        "iaea"
+      ],
+      "headline": "IAEA board demands urgent Iranian cooperation and access to nuclear sites",
+      "summary": "The UN nuclear watchdog’s board demanded that Iran provide complete information on near-weapons-grade nuclear material and grant inspectors access to nuclear sites, after months in which the agency has been unable to verify key stockpile details.",
+      "why_it_matters": "The resolution raises diplomatic pressure at a moment of renewed US-Iran and Israel-Iran military escalation, increasing the risk of sanctions or further confrontation.",
+      "broader_context": "Iran’s nuclear opacity has become more dangerous after strikes on nuclear facilities disrupted normal safeguards monitoring.",
+      "region": "Middle East",
+      "country": "Iran",
+      "is_structural": false,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "UN nuclear watchdog board demands urgent Iran cooperation and access to nuclear sites",
+          "url": "https://apnews.com/article/b8050494bc01a2e596a3a59952bfc8eb",
+          "publisher": "Associated Press",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-middle-east-02",
+      "topic_ids": [
+        "middle-east",
+        "iran",
+        "united-states",
+        "war",
+        "energy"
+      ],
+      "headline": "US and Iran trade strikes as Trump warns Tehran over stalled talks",
+      "summary": "The United States launched airstrikes against Iran on June 10, while Tehran fired back at countries in the region, including states hosting US troops; the exchange threatens efforts to convert an earlier ceasefire into a durable settlement.",
+      "why_it_matters": "Renewed strikes keep energy markets, Gulf infrastructure and regional bases exposed, while narrowing the space for diplomacy.",
+      "broader_context": "The Iran war has already driven up energy prices and disrupted the global economy, making each escalation globally material.",
+      "region": "Middle East",
+      "country": "Iran / Gulf states",
+      "is_structural": false,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "As US and Iran trade strikes, Trump says Tehran will 'pay the price' for stalled talks",
+          "url": "https://apnews.com/article/b7ec462890f3c2afa12bd5c0672f2b6b",
+          "publisher": "Associated Press",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-middle-east-03",
+      "topic_ids": [
+        "middle-east",
+        "iran",
+        "israel",
+        "energy",
+        "critical-infrastructure"
+      ],
+      "headline": "Israel-Iran exchanges target missile and petrochemical infrastructure",
+      "summary": "In the most serious confrontation since the April ceasefire, Israel and Iran traded fire; Israel said it targeted Iranian missile launchers and petrochemical facilities linked to ballistic-missile components, while regional airspace and missile alerts were affected.",
+      "why_it_matters": "Targeting petrochemical and missile-linked infrastructure raises the chance that energy systems become routine military targets in the conflict.",
+      "broader_context": "The confrontation shows how Middle East wars now directly connect military production, energy exports, airspace security and global inflation risks.",
+      "region": "Middle East",
+      "country": "Iran / Israel",
+      "is_structural": false,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "The Latest: Israel and Iran trade fire in most serious confrontation since April ceasefire",
+          "url": "https://apnews.com/article/c8462f7826cdf0c96d410be7e7c88535",
+          "publisher": "Associated Press",
+          "published_at": "2026-06-08"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-middle-east-04",
+      "topic_ids": [
+        "middle-east",
+        "iran",
+        "nuclear",
+        "iaea",
+        "security"
+      ],
+      "headline": "IAEA says it cannot verify Iran’s enriched-uranium stockpile after wartime site damage",
+      "summary": "A confidential IAEA report seen by AP said the agency cannot provide information on the current size, composition or whereabouts of Iran’s enriched-uranium stockpile or confirm whether enrichment-related activities have stopped.",
+      "why_it_matters": "Unverified nuclear material is one of the most acute proliferation risks in the world, especially during an active regional conflict.",
+      "broader_context": "The inability to inspect damaged facilities links nuclear safeguards to the battlefield consequences of the 2025 and 2026 strikes.",
+      "region": "Middle East",
+      "country": "Iran",
+      "is_structural": false,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "UN nuclear watchdog says it's been unable to inspect Iranian facilities",
+          "url": "https://apnews.com/article/28da35ab9a372494337a471fb0fa6048",
+          "publisher": "Associated Press",
+          "published_at": "2026-06-04"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-middle-east-05",
+      "topic_ids": [
+        "middle-east",
+        "gulf",
+        "ai",
+        "data-centers",
+        "infrastructure"
+      ],
+      "headline": "Gulf AI megaprojects are exposed to maritime and data-cable choke points",
+      "summary": "Rest of World reports that the Gulf’s major AI and data-center ambitions are vulnerable to regional conflict because connectivity depends on routes exposed to the Strait of Hormuz and Red Sea disruptions; Gulf states are financing alternative data corridors through Syria, Iraq and East Africa.",
+      "why_it_matters": "The Gulf’s attempt to become a global AI hub depends not just on capital and energy, but on resilient digital connectivity through conflict-prone corridors.",
+      "broader_context": "Data infrastructure is increasingly being planned like energy infrastructure, with redundancy, choke-point avoidance and geopolitical risk at the center.",
+      "region": "Middle East",
+      "country": "Saudi Arabia / Qatar / United Arab Emirates",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "The Gulf built oil pipelines to avoid Hormuz. It’s now doing the same for data",
+          "url": "https://restofworld.org/2026/gulf-data-corridors-hormuz-red-sea-ai/",
+          "publisher": "Rest of World",
+          "published_at": "2026-03-11"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-africa-01",
+      "topic_ids": [
+        "africa",
+        "ai",
+        "digital-sovereignty",
+        "infrastructure"
+      ],
+      "headline": "Africa’s largest tech economies seek AI sovereignty but still depend on Big Tech",
+      "summary": "South Africa, Kenya, Nigeria and Egypt have drafted AI strategies that acknowledge dependence on Google, Microsoft, Nvidia and Meta for infrastructure, funding and expertise, while seeking more control over data, procurement and local capacity.",
+      "why_it_matters": "Africa’s AI future may be shaped by foreign platform terms unless governments can coordinate infrastructure, data governance and talent development.",
+      "broader_context": "The continent has a large population share but a tiny fraction of global data-center capacity, making AI sovereignty both a development and geopolitical issue.",
+      "region": "Africa",
+      "country": "Nigeria / South Africa / Kenya / Egypt",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Pushing back from Big Tech: Africa’s hard road to AI sovereignty",
+          "url": "https://restofworld.org/2026/africa-ai-sovereignty-big-tech/",
+          "publisher": "Rest of World",
+          "published_at": "2026-05-21"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-africa-02",
+      "topic_ids": [
+        "africa",
+        "ai",
+        "compute",
+        "industrial-policy"
+      ],
+      "headline": "Africa included in new wave of AI infrastructure built around scarcity, not abundance",
+      "summary": "Rest of World’s June 4 analysis argues that India, Brazil, the UAE and Africa are building local AI stacks designed to work around compute scarcity rather than replicate Silicon Valley’s hyperscale abundance model.",
+      "why_it_matters": "Compute scarcity could push emerging markets toward more efficient, localized and task-specific AI systems rather than dependence on frontier-scale models.",
+      "broader_context": "AI infrastructure outside the US and China is becoming a story of adaptation: smaller models, shared facilities, local data and energy-aware deployment.",
+      "region": "Africa",
+      "country": "Regional Africa",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Scarcity is driving AI innovation outside Silicon Valley",
+          "url": "https://restofworld.org/2026/scarcity-is-driving-ai-innovation-outside-silicon-valley/",
+          "publisher": "Rest of World",
+          "published_at": "2026-06-04"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-africa-03",
+      "topic_ids": [
+        "africa",
+        "critical-minerals",
+        "china",
+        "united-states",
+        "infrastructure"
+      ],
+      "headline": "Lobito Railway becomes a test of US-China competition over African critical minerals",
+      "summary": "Rest of World highlights the Lobito Railway in Angola and the Democratic Republic of Congo as a key US-backed route meant to loosen China’s grip on critical-metal supply chains in Africa.",
+      "why_it_matters": "Transport corridors can determine who controls the economics of copper, cobalt and other minerals needed for batteries, grids and defense technologies.",
+      "broader_context": "Critical-mineral strategy is shifting from mine ownership alone to railways, ports, financing and processing capacity.",
+      "region": "Africa",
+      "country": "Angola / Democratic Republic of Congo",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "An old railroad is key to U.S.-China race for critical metals in Africa",
+          "url": "https://restofworld.org/2026/lobito-railway-critical-metals-us-china-africa/",
+          "publisher": "Rest of World",
+          "published_at": "2026-04-30"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-africa-04",
+      "topic_ids": [
+        "africa",
+        "kenya",
+        "china",
+        "telecoms",
+        "digital-economy"
+      ],
+      "headline": "Kenya’s digital economy shows long tail of cheap Chinese hardware and investment",
+      "summary": "Rest of World’s coverage of Nairobi’s tech ecosystem traces how inexpensive Chinese phones and Chinese-linked investment helped pull Kenya into the global digital economy.",
+      "why_it_matters": "Hardware affordability can be as important as software innovation in shaping digital inclusion and platform markets in emerging economies.",
+      "broader_context": "China’s influence in African tech is not limited to infrastructure loans; it also runs through devices, retail networks, apps and entrepreneurial ecosystems.",
+      "region": "Africa",
+      "country": "Kenya",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "How cheap Chinese phones catapulted Kenya into the global digital economy",
+          "url": "https://restofworld.org/2026/chinese-phones-kenya-digital-economy/",
+          "publisher": "Rest of World",
+          "published_at": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "id": "world-2026-06-10-africa-05",
+      "topic_ids": [
+        "africa",
+        "ai",
+        "agriculture",
+        "climate",
+        "localization"
+      ],
+      "headline": "Western AI models struggle with farms and forests outside their training context",
+      "summary": "Rest of World reports that Big Tech AI tools trained on Western data often fail to recognize local crops, forests and farming conditions without adaptation to local environments.",
+      "why_it_matters": "AI for agriculture and climate resilience will underperform in Africa and other regions unless models are localized with representative data and domain expertise.",
+      "broader_context": "The story underlines a broader problem in global AI deployment: models exported from the US and China can reproduce data gaps and weaken practical use in the Global South.",
+      "region": "Africa",
+      "country": "Regional Africa",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Western AI models “fail spectacularly” in farms and forests abroad",
+          "url": "https://restofworld.org/2026/western-ai-models-farms-forests-global-south/",
+          "publisher": "Rest of World",
+          "published_at": "2026-04-2026"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-01",
+      "topic_ids": [
+        "economy",
+        "macro",
+        "energy"
+      ],
+      "headline": "OECD lifts Spain’s 2026 growth outlook to 2.2%, still far ahead of eurozone peers",
+      "summary": "The OECD raised its 2026 GDP forecast for Spain to 2.2%, portraying the economy as resilient despite the Iran-war-driven energy shock. Spain is the only large euro-area economy revised upward in the latest round, with projected growth nearly triple the eurozone’s 0.8%.",
+      "why_it_matters": "Spain’s growth premium remains one of the country’s strongest macro stories, but the outlook is increasingly tied to energy prices, shipping disruptions and input costs such as fertilizers.",
+      "broader_context": "This supports the briefing’s economy/energy angle: Spain is outperforming, but external shocks are testing whether growth is broad-based or still dependent on services, tourism, jobs growth and lower prior energy exposure.",
       "region": "Spain",
       "country": "Spain",
       "is_structural": true,
@@ -202,22 +1553,49 @@
       "material_development": true,
       "sources": [
         {
-          "title": "Iberdrola y Endesa reivindican la ampliación nuclear en España frente a la crisis energética",
-          "url": "https://elpais.com/...",
-          "publisher": "El País",
-          "published_at": "2026-03-16"
+          "title": "La OCDE eleva al 2,2% el crecimiento de España en 2026, que será “resiliente” a pesar de la guerra en Irán",
+          "url": "https://www.eldiario.es/economia/ocde-eleva-2-2-crecimiento-espana-2026-sera-resiliente-pesar-guerra-iran_1_13268469.amp.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-06-03"
         }
       ]
     },
     {
-      "id": "spain_papal_visit_security",
+      "id": "spain-2026-06-10-02",
       "topic_ids": [
-        "spain"
+        "economy",
+        "macro",
+        "inflation"
       ],
-      "headline": "Spain deploys largest ever security operation for Pope’s state visit",
-      "summary": "For Pope Leo XIV’s six‑day visit (starting June 6), Spain launched Operation Gracia: level‑4 threat, 15 000+ agents, 600+ vehicles, drones banned, advanced surveillance and elite units deployed across Madrid, Catalonia and the Canary Islands.",
-      "why_it_matters": "This unprecedented security effort reflects both the symbolic weight of the visit and evolving national preparedness for high‑profile events.",
-      "broader_context": "Covers multi‑regional mobilization amid heightened threat environment and public safety expectations.",
+      "headline": "Funcas consensus sees Spain slowing to 2.2% growth and inflation rising to 3.1% in 2026",
+      "summary": "Funcas’ May panel cut Spain’s 2026 GDP growth forecast to 2.2% while raising average inflation to 3.1%, five tenths higher than the prior consensus. Panelists expect quarterly GDP growth to moderate to 0.4% in Q2-Q4 after 0.6% in Q1.",
+      "why_it_matters": "This is a more cautious private-sector counterweight to upbeat official/international forecasts, highlighting the inflationary impact of energy and the limits of Spain’s post-pandemic momentum.",
+      "broader_context": "Useful for triangulating Spain’s macro picture: resilient growth, but inflation and rates remain headwinds for households, firms and public finances.",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "El Panel de Funcas sube la previsión de inflación hasta el 3,1% en 2026",
+          "url": "https://www.funcas.es/prensa/el-panel-de-funcas-sube-la-prevision-de-inflacion-hasta-el-31-en-2026/",
+          "publisher": "funcas.es",
+          "published_at": "2026-05-19"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-03",
+      "topic_ids": [
+        "economy",
+        "macro",
+        "business_cycle"
+      ],
+      "headline": "CaixaBank Research says Spanish activity stabilized in May after April weakness",
+      "summary": "CaixaBank Research’s weekly pulse for May 29-June 5 reports that Spain’s services PMI returned to expansion at 50.1 in May, while manufacturing stayed expansionary at 51.2. Industrial production fell 0.4% month-on-month in April, though the year-on-year rate edged up to 2.0%.",
+      "why_it_matters": "The data suggest the economy is still expanding but losing speed in Q2, a key nuance for interpreting otherwise strong annual GDP forecasts.",
+      "broader_context": "Short-cycle indicators matter because Spain’s 2026 resilience is being tested by energy-price volatility, global uncertainty and tighter financial conditions.",
       "region": "Spain",
       "country": "Spain",
       "is_structural": false,
@@ -225,15 +1603,611 @@
       "material_development": true,
       "sources": [
         {
-          "title": "Nivel cuatro de alerta, drones prohibidos y más de 15.000 agentes: el mayor despliegue de seguridad de España para la visita del Papa",
-          "url": "https://elpais.com/...",
-          "publisher": "El País",
+          "title": "Semana del 29 de mayo al 5 de junio de 2026",
+          "url": "https://www.caixabankresearch.com/en/pulso-economico-semanal/semana-del-29-mayo-al-5-junio-2026",
+          "publisher": "caixabankresearch.com",
+          "published_at": "2026-06-05"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-04",
+      "topic_ids": [
+        "economy",
+        "public_finance",
+        "autonomous_communities"
+      ],
+      "headline": "Spain approves record advance payments to autonomous regions",
+      "summary": "The central government approved 2026 advance payments to the autonomous communities totaling €157.731 billion, a 7% annual increase and described by the government as the highest figure on record. The broader package is framed as €170 billion in resources for regional governments.",
+      "why_it_matters": "Regional financing is central to Spain’s public-service capacity, especially health, education, transport and dependency care, and it is politically sensitive amid demands from Catalonia, Valencia and PP-led regions.",
+      "broader_context": "This is a structural fiscal story: Spain’s decentralized state relies on periodic financing settlements and interim payments, while reform of the regional financing model remains unresolved.",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "El Gobierno destina un récord de 170.000 millones a comunidades autónomas",
+          "url": "https://www.lavanguardia.com/economia/20260602/11553892/gobierno-aprueba-entregas-cuenta-record-157-000-millones-autonomias.html",
+          "publisher": "lavanguardia.com",
+          "published_at": "2026-06-02"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-05",
+      "topic_ids": [
+        "Catalonia",
+        "public_finance",
+        "debt"
+      ],
+      "headline": "Fedea estimates Catalonia’s debt at 28% of regional GDP, among Spain’s highest",
+      "summary": "According to a Fedea report covered by La Vanguardia, Catalonia’s public debt reached the equivalent of 28% of GDP at end-2025, quadruple its 2003 level. It is in the same range as Castilla-La Mancha and below Murcia and the Valencian Community, while Madrid stands near 11%.",
+      "why_it_matters": "Catalonia’s debt load shapes its negotiating position on financing reform, investment capacity and its gradual return to market/bank funding after years of reliance on central liquidity mechanisms.",
+      "broader_context": "Regional debt divergence is a long-running fault line in Spain’s territorial model, with Valencia and Catalonia often arguing that underfinancing has contributed to accumulated liabilities.",
+      "region": "Catalonia",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Catalunya cuenta con un nivel de deuda equivalente al 28% de su PIB, según Fedea",
+          "url": "https://www.lavanguardia.com/economia/20260601/11552594/catalunya-cuenta-nivel-deuda-equivalente-28-pib-fedea.html",
+          "publisher": "lavanguardia.com",
+          "published_at": "2026-06-01"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-06",
+      "topic_ids": [
+        "Catalonia",
+        "banking",
+        "public_finance"
+      ],
+      "headline": "Catalonia seeks to refinance another €3 billion of FLA debt with banks",
+      "summary": "The Catalan government authorized the Generalitat to refinance up to €3 billion of debt from the Fondo de Liquidez Autonómica through bank loans, aiming to lower debt costs and diversify financing sources. A similar €3.5 billion refinancing last year was the first such operation in 13 years and reportedly generated estimated savings of €127.6 million.",
+      "why_it_matters": "Catalonia’s partial shift from state liquidity support toward bank funding is a material development for regional credit normalization and debt-service costs.",
+      "broader_context": "This sits at the intersection of Catalan finances and Spanish banking: regional governments are trying to exploit better market conditions while remaining constrained by debt rules and past FLA dependence.",
+      "region": "Catalonia",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Catalunya refinanciará con la banca otros 3.000 millones de euros del FLA",
+          "url": "https://www.lavanguardia.com/economia/20260505/11530341/catalunya-fla-refinanciar-bancos-entidades.html",
+          "publisher": "lavanguardia.com",
+          "published_at": "2026-05-05"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-07",
+      "topic_ids": [
+        "banking",
+        "EU",
+        "competition",
+        "BBVA",
+        "Sabadell"
+      ],
+      "headline": "Brussels widens infringement case over Spain’s conditions on BBVA-Sabadell bid",
+      "summary": "The European Commission expanded its infringement procedure against Spain over the rules used to condition BBVA’s takeover bid for Banco Sabadell. The probe reopens the institutional dispute around how far the Spanish government can go in imposing non-competition conditions on bank consolidation.",
+      "why_it_matters": "This is a material development for Spain’s banking sector and for EU single-market governance, with implications for future mergers and state intervention in strategic corporate deals.",
+      "broader_context": "The BBVA-Sabadell saga has been a test case for Spanish banking consolidation, regional political resistance in Catalonia and the balance between national public-interest arguments and EU competition/market rules.",
+      "region": "Spain / Catalonia / Basque Country",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Bruselas amplía el expediente abierto a España por las normas con las que condicionó la opa del BBVA sobre el Sabadell",
+          "url": "https://elpais.com/economia/2026-06-04/bruselas-amplia-el-expediente-abierto-a-espana-por-las-normas-con-las-que-condiciono-la-opa-del-bbva-sobre-el-sabadell.html",
+          "publisher": "elpais.com",
+          "published_at": "2026-06-04"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-08",
+      "topic_ids": [
+        "water",
+        "drought",
+        "Catalonia",
+        "infrastructure"
+      ],
+      "headline": "Barcelona region has enough reservoir water for two summers, but drought-proofing works continue",
+      "summary": "La Vanguardia reports that the Barcelona region is not expected to face water restrictions this summer, with reservoirs holding enough supply for this summer and next. Ongoing works in the Ter-Llobregat area include a new pipeline from the Ter treatment plant at Cardedeu to Trinitat and upgrades intended to add capacity equivalent to roughly a third of Barcelona’s consumption.",
+      "why_it_matters": "Catalonia’s water crisis has eased after the 2023-24 emergency, but infrastructure delivery remains critical to avoid repeating the post-2008 pattern of abandoning drought investments once rains return.",
+      "broader_context": "The story is a good structural water item: Spain’s Mediterranean regions are moving from emergency rationing toward desalination, reuse, pipeline redundancy and aquifer recovery.",
+      "region": "Catalonia",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Los embalses acumulan recursos para abastecer la región de Barcelona los dos próximos veranos",
+          "url": "https://www.lavanguardia.com/natural/20260602/11553223/embalses-acumulan-recursos-abastecer-region-barcelona-dos-proximos-veranos.html",
+          "publisher": "lavanguardia.com",
+          "published_at": "2026-06-02"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-09",
+      "topic_ids": [
+        "water",
+        "drought",
+        "desalination",
+        "Catalonia"
+      ],
+      "headline": "Catalonia advances water-transition law aiming for 70% non-conventional water by 2030",
+      "summary": "The Catalan government approved the preliminary memorandum for a water-transition bill after a historic drought lasting more than 1,600 days. The plan aims for 70% of supply to come from non-conventional resources by 2030 and includes Tordera desalination expansion, new La Muga and Foix desalination plants, and expanded Besòs water reuse.",
+      "why_it_matters": "This is a major structural pivot in Catalonia’s water policy: away from rain-dependent supply and toward desalination and potable reuse.",
+      "broader_context": "The policy directly addresses climate adaptation, urban supply security, industrial resilience and regional tensions over river transfers or reservoirs.",
+      "region": "Catalonia",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Cataluña da el primer paso para no depender de la lluvia en caso de sequía, a la espera de desencallar las desalinizadoras",
+          "url": "https://elpais.com/espana/catalunya/2026-04-14/cataluna-da-el-primer-paso-para-no-depender-de-la-lluvia-en-caso-de-sequia-a-la-espera-de-desencallar-las-desalinizadoras.html?outputType=amp",
+          "publisher": "elpais.com",
+          "published_at": "2026-04-14"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-10",
+      "topic_ids": [
+        "water",
+        "drought",
+        "agriculture",
+        "groundwater"
+      ],
+      "headline": "Spain’s aquifers face ‘water bankruptcy’ amid overuse, illegal wells and farming pressure",
+      "summary": "El País reports that 27% of Spain’s groundwater bodies suffer quantitative problems, meaning more water is extracted than is recharged, and 44% have some quantitative or qualitative problem. The piece highlights severe stress in basins such as Guadiana, Segura and Guadalquivir, and cites estimates of more than one million illegal wells.",
+      "why_it_matters": "Groundwater is Spain’s strategic reserve during drought; overextraction threatens drinking-water security, agriculture and ecosystems precisely as climate change makes droughts more recurrent.",
+      "broader_context": "This is an underreported structural story linking agriculture, enforcement, hydrological data gaps, illegal irrigation, livestock pollution and climate adaptation.",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Acuíferos en bancarrota hídrica",
+          "url": "https://elpais.com/extra/medio-ambiente/2026-06-05/acuiferos-en-bancarrota-hidrica.html",
+          "publisher": "elpais.com",
+          "published_at": "2026-06-05"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-11",
+      "topic_ids": [
+        "water",
+        "agriculture",
+        "infrastructure",
+        "reuse"
+      ],
+      "headline": "Water reuse emerges as key buffer for Spanish farming despite fuller reservoirs",
+      "summary": "El País reports that winter storms left Spain with unusually high reservoir reserves, but farmers and water managers warn that the next drought is approaching. The article focuses on treated wastewater reuse as a tool for agriculture, citing the Sevilla utility Emasesa system and potential irrigation uses.",
+      "why_it_matters": "Spain’s agricultural water security cannot rely on reservoir rebounds alone; reuse infrastructure could reduce vulnerability to drought and help avoid EU wastewater-compliance problems.",
+      "broader_context": "This complements the aquifer story: the next phase of Spanish water policy is about demand management, reuse, desalination and adapting irrigation to climate volatility.",
+      "region": "Spain / Andalusia",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "El agua que sobra en la ciudad y falta en el campo: “Queda un día menos para la próxima sequía”",
+          "url": "https://elpais.com/clima-y-medio-ambiente/2026-05-06/el-agua-que-sobra-en-la-ciudad-y-falta-en-el-campo-queda-un-dia-menos-para-la-proxima-sequia.html",
+          "publisher": "elpais.com",
+          "published_at": "2026-05-06"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-12",
+      "topic_ids": [
+        "rail",
+        "infrastructure",
+        "Catalonia",
+        "Rodalies"
+      ],
+      "headline": "Rodalies disruption: Adif control-center incident halted all Catalan commuter trains twice in one day",
+      "summary": "An incident at Adif’s control center in Barcelona’s Estació de França interrupted all Rodalies trains in Catalonia twice on June 9. The disruption coincided with special service planning for Pope Leo XIV’s visit, including more than 35% additional Rodalies capacity versus a normal weekend.",
+      "why_it_matters": "Rodalies remains one of Catalonia’s most politically salient infrastructure failures, and control-system incidents reinforce concerns about resilience even as physical repairs proceed.",
+      "broader_context": "This follows months of scrutiny after fatal rail crashes and widespread speed restrictions, feeding the broader debate over underinvestment, network maintenance and the transfer of Rodalies powers to Catalonia.",
+      "region": "Catalonia",
+      "country": "Spain",
+      "is_structural": false,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Una incidencia en el centro de control de Adif en Barcelona ha interrumpido todos los trenes Rodalies dos veces este martes",
+          "url": "https://www.eldiario.es/catalunya/interrumpida-circulacion-trenes-rodalies-barcelona-incidencia-centro-control-adif_1_13287073.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-06-09"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-13",
+      "topic_ids": [
+        "rail",
+        "infrastructure",
+        "Catalonia",
+        "Rodalies"
+      ],
+      "headline": "Garraf tunnel reopening starts to normalize southern Catalonia rail traffic after months of works",
+      "summary": "Adif said it would hand back the renovated Garraf tunnel works to the Generalitat on June 8, a week earlier than promised, allowing progressive restoration of traffic on the R2 Sud and southern regional services. The works followed months of disruption and symbolized Rodalies deterioration after the January crisis.",
+      "why_it_matters": "This is a concrete infrastructure recovery milestone for one of Catalonia’s most important commuter/regional rail corridors.",
+      "broader_context": "The Garraf works sit inside a broader Rodalies repair and investment push after fatal accidents, temporary speed restrictions and public anger over service reliability.",
+      "region": "Catalonia",
+      "country": "Spain",
+      "is_structural": false,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "El tráfico ferroviario del sur de Cataluña comienza a recuperarse con la reapertura de los túneles del Garraf",
+          "url": "https://elpais.com/espana/catalunya/2026-06-03/el-trafico-ferroviario-del-sur-de-cataluna-comienza-a-recuperarse-con-la-reapertura-de-los-tuneles-del-garraf.html",
+          "publisher": "elpais.com",
           "published_at": "2026-06-03"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-14",
+      "topic_ids": [
+        "rail",
+        "infrastructure",
+        "industrial_policy"
+      ],
+      "headline": "Spain asks EU to accelerate train manufacturing as new rolling stock takes about eight years to enter service",
+      "summary": "Transport minister Óscar Puente warned that delays in train deliveries are worsening service reliability and raising operating costs because companies must maintain obsolete fleets. He said average delivery delays are roughly three years in Spain, and new trains can take about eight years from purchase to entering service.",
+      "why_it_matters": "Rolling-stock bottlenecks are a hidden constraint on Spain’s rail expansion, affecting commuter reliability, regional equity and the credibility of modal-shift climate policy.",
+      "broader_context": "This links infrastructure policy with European industrial capacity: procurement delays are not just a Spanish issue, but they are particularly visible in Spain’s Cercanías/Rodalies crisis and regional train shortages.",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "El ministro pide a la UE acelerar la fabricación y entrega de trenes: Los nuevos tardan en circular ocho años desde su compra",
+          "url": "https://www.eldiario.es/cantabria/ministro-pide-ue-acelerar-fabricacion-entrega-trenes-nuevos-tardan-circular-ocho-anos-compra_1_13284812.amp.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-06-08"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-15",
+      "topic_ids": [
+        "infrastructure",
+        "Catalonia",
+        "competitiveness",
+        "investment"
+      ],
+      "headline": "Catalan business groups warn region needs €53.8-60 billion infrastructure push to avoid competitiveness loss",
+      "summary": "Catalan chambers of commerce estimate Catalonia needs €53.8 billion in infrastructure investment through 2043, while Foment separately puts the need near €60 billion to reach European investment norms. Priorities include Rodalies, the Mediterranean Corridor, Port of Barcelona projects and Barcelona metro lines 9 and 10.",
+      "why_it_matters": "The infrastructure deficit is one of Catalonia’s most persistent economic grievances and affects logistics, commuter mobility, housing patterns and business competitiveness.",
+      "broader_context": "This is a structural item that connects regional politics, public investment execution, population growth and Spain’s east-coast export/logistics corridor.",
+      "region": "Catalonia",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Catalunya necesita duplicar la inversión en infraestructuras para evitar el colapso",
+          "url": "https://www.lavanguardia.com/economia/20260319/11494054/catalunya-necesita-duplicar-inversion-infraestructuras-53-000-millones-2043-camaras-comercio.html",
+          "publisher": "lavanguardia.com",
+          "published_at": "2026-03-19"
+        },
+        {
+          "title": "Catalunya necesita 60.000 millones en inversión de infraestructuras para alcanzar la media europea",
+          "url": "https://www.lavanguardia.com/economia/20260504/11529154/catalunya-necesita-60-000-millones-inversion-infraestructuras-alcanzar-media-europea.html",
+          "publisher": "lavanguardia.com",
+          "published_at": "2026-05-04"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-16",
+      "topic_ids": [
+        "science",
+        "research",
+        "innovation",
+        "defense"
+      ],
+      "headline": "Defense spending pushes Spain’s public R&D&I execution to record highs",
+      "summary": "El País reports that Spain’s central public sector executed a record €15.676 billion in R&D&I in 2025, more than €2 billion above the previous peak, with total available budget around €20.5 billion. Defense-linked R&D spending reportedly tripled in 12 months, reshaping public science and technology priorities.",
+      "why_it_matters": "Spain’s innovation push is increasingly tied to defense, industrial policy and strategic autonomy rather than only civilian science, with implications for universities, firms and research centers.",
+      "broader_context": "This is a structural science/innovation story aligned with wider European rearmament and dual-use technology debates after geopolitical shocks.",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "El gasto militar impulsa la inversión pública en I+D+i de España hasta máximos históricos",
+          "url": "https://elpais.com/economia/2026-06-09/el-gasto-militar-impulsa-la-inversion-publica-en-idi-de-espana-hasta-maximos-historicos.html",
+          "publisher": "elpais.com",
+          "published_at": "2026-06-09"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-17",
+      "topic_ids": [
+        "science",
+        "research",
+        "biomedicine",
+        "governance"
+      ],
+      "headline": "Spain’s CNIO appoints three-scientist interim leadership to pursue ‘refoundation’",
+      "summary": "The National Cancer Research Center will be led temporarily by Luis Paz-Ares, Óscar Llorca and Fátima Al-Shahrour, forming a scientific management commission expected to operate at least until 2027. The move follows a prolonged governance crisis and the decision by designated director Raúl Rabadán not to take up the role.",
+      "why_it_matters": "CNIO is Spain’s flagship cancer-research center, with about 400 workers and a roughly €40 million budget; its governance crisis affects national biomedical credibility and talent attraction.",
+      "broader_context": "This is a material research-governance development, not just a personnel change: Spain’s top science institutions are under pressure to professionalize management and maintain international competitiveness.",
+      "region": "Madrid / Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "is_follow_up": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Tres científicos dirigirán el CNIO en busca de una “refundación” del centro",
+          "url": "https://elpais.com/ciencia/2026-06-08/un-equipo-de-tres-cientificos-dirigira-el-cnio-de-forma-transitoria.html",
+          "publisher": "elpais.com",
+          "published_at": "2026-06-08"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-18",
+      "topic_ids": [
+        "science",
+        "research",
+        "innovation",
+        "Barcelona",
+        "biomedicine"
+      ],
+      "headline": "New CaixaResearch Institute strengthens Barcelona’s biomedical cluster",
+      "summary": "The CaixaResearch Institute opened in Barcelona as Spain’s first major research institute specialized in immunology, backed by an initial €100 million investment. It aims to build around 40 research groups over six to eight years and focus on the immune system’s role in cancer, infections and neurodegenerative diseases.",
+      "why_it_matters": "Barcelona is consolidating as one of Spain’s strongest biomedical hubs, combining philanthropy, hospitals, research institutes and international talent attraction.",
+      "broader_context": "This is a structural innovation story: Spain’s science geography is increasingly shaped by regional clusters, private foundation funding and translational biomedicine.",
+      "region": "Catalonia / Barcelona",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "El nuevo CaixaResearch Institute consolida Barcelona como centro neurálgico en biomedicina",
+          "url": "https://elpais.com/ciencia/2026-04-24/el-nuevo-caixaresearch-institute-consolida-barcelona-como-centro-neuralgico-en-biomedicina.html?outputType=amp",
+          "publisher": "elpais.com",
+          "published_at": "2026-04-24"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-19",
+      "topic_ids": [
+        "education",
+        "universities",
+        "demographics"
+      ],
+      "headline": "About 300,000 students sit Spain’s PAU university entrance exams amid rising cut-off marks",
+      "summary": "The ordinary 2026 PAU/selectividad exam period began June 1 in Madrid and June 2 in most of Spain, with around 300,000 students seeking university places. Provisional results must be published before June 27, though exact dates vary by autonomous community.",
+      "why_it_matters": "The PAU is a pressure point for Spain’s education system, especially as high-demand degrees face rising cut-off marks and regional university capacity decisions shape access.",
+      "broader_context": "This connects education policy, youth demographics, regional inequality and the labor-market demand for health, STEM and public-sector professions.",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Empieza la Selectividad: 300.000 alumnos buscan desde este lunes plaza en una universidad con notas de corte cada vez más altas",
+          "url": "https://elpais.com/educacion/2026-06-01/empieza-la-selectividad-300000-alumnos-buscan-desde-este-lunes-plaza-en-una-universidad-con-notas-de-corte-cada-vez-mas-altas.html",
+          "publisher": "elpais.com",
+          "published_at": "2026-06-01"
+        },
+        {
+          "title": "PAU 2026: Cuándo salen las notas de la selectividad 2026: fecha y hora en cada CCAA",
+          "url": "https://www.eldiario.es/sociedad/cuando-salen-notas-selectividad-2026-fecha-hora_1_13268390.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-06-08"
+        }
+      ]
+    },
+    {
+      "id": "spain-2026-06-10-20",
+      "topic_ids": [
+        "foreign_policy",
+        "EU",
+        "multilateralism",
+        "democracy"
+      ],
+      "headline": "CIDOB publishes Albares’ 2026 foreign-policy priorities: Europe, multilateralism and democracy",
+      "summary": "CIDOB published an adapted version of Foreign Minister José Manuel Albares’ January 8 speech to Spain’s 2026 ambassadors’ conference, framing Spanish foreign policy around more Europe, multilateralism and democracy.",
+      "why_it_matters": "The piece is useful for briefing Spain’s foreign-policy baseline, especially as Madrid navigates EU strategic autonomy, Mediterranean policy, Latin America, war-related energy shocks and democratic backsliding debates.",
+      "broader_context": "Although not breaking news, it is a structural source for Spain’s diplomatic doctrine in 2026 and helps contextualize day-to-day foreign-policy developments.",
+      "region": "Spain / EU / Mediterranean",
+      "country": "Spain",
+      "is_structural": true,
+      "is_follow_up": false,
+      "material_development": false,
+      "sources": [
+        {
+          "title": "Ejes de la política exterior española: más Europa, multilateralismo y democracia",
+          "url": "https://www.cidob.org/en/publications/ejes-politica-exterior-espanola-mas-europa-multilateralismo-democracia",
+          "publisher": "cidob.org",
+          "published_at": "2026-01-08"
         }
       ]
     }
   ],
-  "selected_read_candidates": [],
-  "gaps": [],
-  "search_notes": "Spain: items fetched 10 (over minimum 15) but covered via energy, infrastructure, water, security. Germany, Berlin, World not yet covered — next searches pending."
+  "selected_read_candidates": [
+    {
+      "title": "The World Cup According to Gianni Infantino",
+      "url": "https://www.newyorker.com/magazine/2026/06/08/the-world-cup-according-to-gianni-infantino",
+      "publisher": "The New Yorker",
+      "type": "long_form_feature",
+      "summary": "A reported Sporting Scene feature on FIFA president Gianni Infantino’s reshaping of global soccer ahead of the 2026 World Cup."
+    },
+    {
+      "title": "The Paperboy’s Secret",
+      "url": "https://www.newyorker.com/magazine/2026/06/08/the-paperboys-secret",
+      "publisher": "The New Yorker",
+      "type": "long_form_feature",
+      "summary": "Peter Hessler personal-history essay from the June 8, 2026 issue; useful as a literary/non-news long-form pick."
+    },
+    {
+      "title": "How “The Chosen” Spurred a Golden Age of Christian Filmmaking",
+      "url": "https://www.newyorker.com/magazine/2026/06/01/how-the-chosen-spurred-a-golden-age-of-christian-filmmaking",
+      "publisher": "The New Yorker",
+      "type": "long_form_feature",
+      "summary": "Rachel Monroe examines how the crowdfunded Jesus drama became a model for bottom-up, fandom-driven entertainment."
+    },
+    {
+      "title": "Majority of US’s new AI datacenters to be built on drought-hit land",
+      "url": "https://www.theguardian.com/environment/2026/jun/08/majority-of-uss-new-ai-datacenters-to-be-built-on-drought-hit-land",
+      "publisher": "The Guardian",
+      "type": "long_form_feature",
+      "summary": "Guardian analysis on the water and climate implications of new AI data-center construction in drought-stressed areas."
+    },
+    {
+      "title": "A disease of deforestation: how Ebola is linked to the smartphone in your pocket",
+      "url": "https://www.theguardian.com/environment/2026/jun/05/a-disease-of-deforestation-how-ebola-is-linked-to-the-smartphone-in-your-pocket",
+      "publisher": "The Guardian",
+      "type": "long_form_feature",
+      "summary": "Feature connecting mineral demand, mining-driven deforestation in the Congo basin, and heightened Ebola spillover risk."
+    },
+    {
+      "title": "Wartime Footing: A Two-Front Strategy to Confront China and Russia",
+      "url": "https://www.csis.org/analysis/wartime-footing-two-front-strategy-confront-china-and-russia",
+      "publisher": "CSIS",
+      "type": "think_tank_research",
+      "summary": "A June 8 CSIS report arguing the United States and allies need a two-front strategy against a China-Russia authoritarian axis."
+    },
+    {
+      "title": "How to bridge the global AI divide",
+      "url": "https://www.brookings.edu/articles/how-to-bridge-the-global-ai-divide/",
+      "publisher": "Brookings Institution",
+      "type": "think_tank_research",
+      "summary": "Landry Signé on policy steps to reduce global disparities in AI access, infrastructure, and benefits."
+    },
+    {
+      "title": "Same gatekeepers, new tollbooths in the AI content licensing market",
+      "url": "https://www.brookings.edu/articles/same-gatekeepers-new-tollbooths-in-the-ai-content-licensing-market/",
+      "publisher": "Brookings Institution",
+      "type": "think_tank_research",
+      "summary": "Courtney C. Radsch analyzes how AI content licensing may reproduce media-market gatekeeping and bargaining-power problems."
+    },
+    {
+      "title": "OECD Economic Outlook, Volume 2026 Issue 1: Under Pressure",
+      "url": "https://www.oecd.org/en/publications/2026/06/oecd-economic-outlook-volume-2026-issue-1_8be0dba6.html",
+      "publisher": "OECD",
+      "type": "think_tank_research",
+      "summary": "OECD’s June 2026 macroeconomic outlook; useful anchor for global growth, trade, energy, and policy-risk context."
+    },
+    {
+      "title": "Pension funds, unlisted firms, and Europe’s Capital Markets Union",
+      "url": "https://cepr.org/voxeu/columns/pension-funds-unlisted-firms-and-europes-capital-markets-union",
+      "publisher": "CEPR / VoxEU",
+      "type": "think_tank_research",
+      "summary": "Roel Beetsma, Svend E. Hougaard Jensen, David Pinkus, and Dario Pozzoli use Danish firm data to assess pension-fund equity investment and productivity in unlisted firms."
+    },
+    {
+      "title": "Fighting misinformation with truth: Why mainstream news matters on social media",
+      "url": "https://cepr.org/voxeu/columns/fighting-misinformation-truth-why-mainstream-news-matters-social-media",
+      "publisher": "CEPR / VoxEU",
+      "type": "think_tank_research",
+      "summary": "Sergei Guriev, Emeric Henry, Théo Marquis, and Ekaterina Zhuravskaya on research about mainstream news as a counterweight to misinformation on social platforms."
+    },
+    {
+      "title": "The Great AI Divide: Navigating U.S. and Chinese dominance",
+      "url": "https://restofworld.org/2026/ai-divide-america-china-world/",
+      "publisher": "Rest of World",
+      "type": "specialist_publication",
+      "summary": "Rina Chandran reports from a Rest of World event on what U.S. and Chinese AI dominance means for countries outside the two leading AI powers."
+    },
+    {
+      "title": "Data center energy challenges mount",
+      "url": "https://www.semafor.com/article/06/04/2026/data-center-energy-challenges-are-mounting",
+      "publisher": "Semafor",
+      "type": "specialist_publication",
+      "summary": "Semafor on how AI data-center electricity demand is pressuring U.S. grids and prompting aggressive regulatory and corporate responses."
+    },
+    {
+      "title": "One of Trump’s key oil market fixes is about to break",
+      "url": "https://www.semafor.com/article/06/09/2026/one-of-trumps-key-oil-market-fixes-is-about-to-break",
+      "publisher": "Semafor",
+      "type": "news_analysis",
+      "summary": "Tim McDonnell analyzes the looming limits of U.S. Strategic Petroleum Reserve releases amid oil-market stress."
+    },
+    {
+      "title": "Major changes to the Nature Index for 2026",
+      "url": "https://www.nature.com/nature-index/news/major-changes-nature-index",
+      "publisher": "Nature",
+      "type": "specialist_publication",
+      "summary": "Nature Index explains 2026 methodology changes, including expansion into applied and social sciences and new article-level subject assignment."
+    },
+    {
+      "title": "Nature Index 2026 Research Leaders",
+      "url": "https://www.nature.com/nature-index/research-leaders/2026/",
+      "publisher": "Nature",
+      "type": "specialist_publication",
+      "summary": "Nature’s 2026 Research Leaders package, based on 2025 publication output across expanded subject and journal coverage."
+    },
+    {
+      "title": "The Chokepoint Economy: CEOs say the US is resilient — but markets are underpricing risks",
+      "url": "https://www.semafor.com/article/05/06/2026/the-chokepoint-economy-ceos-say-the-us-is-resilient-but-markets-are-underpricing-risks",
+      "publisher": "Semafor",
+      "type": "specialist_publication",
+      "summary": "Semafor Intelligence synthesis of executive and policymaker views on supply chains, AI power demand, private credit, and geopolitical risk."
+    },
+    {
+      "title": "Financial Stability Risks Mount as Artificial Intelligence Fuels Cyberattacks",
+      "url": "https://www.imf.org/en/blogs/articles/2026/05/07/financial-stability-risks-mount-as-artificial-intelligence-fuels-cyberattacks",
+      "publisher": "IMF",
+      "type": "think_tank_research",
+      "summary": "IMF staff argue that AI-enabled cyberattacks could become macro-financial shocks and call for resilience, supervision, and international coordination."
+    }
+  ],
+  "gaps": [
+    "Search access was uneven: Tagesspiegel full articles surfaced mostly through archive/topic pages rather than direct article pages, limiting detail for some Tagesspiegel items.",
+    "Preferred publishers were prioritized, but rbb24 and Berliner Zeitung dominated available indexed local results; The Berliner added English-language transport coverage.",
+    "No strong fresh item found from allowed sources on hospitality other than tangential airport/culture references; omitted rather than forcing weak material.",
+    "No fresh, material development found on taxi licence freeze, club reclassification, startup ecosystem, or Creative Bureaucracy Festival; avoided per instructions except where broader research/university relevance was material.",
+    "Some structural items are from earlier in 2026 or late 2025 where they remain directly relevant to June 2026 Berlin conditions, especially infrastructure and healthcare funding.",
+    "Could not gather enough accessible, current items from DIW, Bruegel, Reuters, AP, FT or preferred German newspapers beyond Handelsblatt, Süddeutsche and ifo within the allowed-domain constraint and available search results.",
+    "Constitutional-law and education-specific material developments were thin in accessible results; education is represented through OECD/ifo structural analysis rather than a fresh school or university policy item.",
+    "Some preferred publishers named in the prompt, especially Handelsblatt, Tagesspiegel, Zeit, Süddeutsche, FAZ, ifo and DIW, conflict with the user’s explicit allowed-domain list, which omitted several German domains. I included Handelsblatt, Süddeutsche and ifo because the higher-level domain constraint allowed them and they were central to the requested section.",
+    "Reuters results were sparse through search for June 10 region-specific science/tech/climate stories; AP and Rest of World supplied most accessible full-URL material.",
+    "Could not verify several Bloomberg/Asia Nikkei/NYT/Politico pages beyond search snippets because some allowed domains were blocked by robots or paywall-limited in the browsing tool.",
+    "Middle East coverage is unusually dominant today because of fresh June 10 Iran-related developments; synthesis should likely trim to avoid over-weighting the war unless it remains the top global story.",
+    "Africa science/health/climate material from allowed domains was less available in current-date searches than AI/digital-sovereignty material, so several Africa items are structural rather than breaking news.",
+    "Limited fresh, high-quality coverage found from allowed/preferred domains on Basque Country-specific economy, energy, science or regional politics for the last few days.",
+    "Demographics-specific developments were thin in the allowed-domain search results; education/PAU and regional population pressure in Catalan infrastructure were the closest usable hooks.",
+    "Energy-specific material beyond macro energy-price shock and one older Galp wind acquisition was limited; more targeted searches on renewables, grids and storage may be needed if energy is prioritized in final synthesis.",
+    "Some allowed domains were blocked by robots/search access during collection, notably elconfidencial.com, bloomberg.com, politico.eu and nytimes.com, reducing publisher diversity.",
+    "Avoided PSOE scandals, migration regularization, housing protests, tourism protests and short-term rentals unless not relevant/material, per instruction."
+  ],
+  "search_notes": "Section counts: {'berlin': 15, 'germany': 17, 'world': 25, 'spain': 20}. Publisher mix: {'The Berliner': 3, 'rbb24': 10, 'Berliner Zeitung': 5, 'Tagesspiegel': 1, 'Süddeutsche Zeitung': 2, 'Handelsblatt': 4, 'Handelsblatt Research Institute': 1, 'ifo Institute': 8, 'OECD': 2, 'Bloomberg': 5, 'Rest of World': 14, 'Associated Press': 5, 'Foreign Policy': 1, 'eldiario.es': 4, 'funcas.es': 1, 'caixabankresearch.com': 1, 'lavanguardia.com': 6, 'elpais.com': 9, 'cidob.org': 1}. selected_reads: Gathered 18 candidates for 2026-06-10 using only allowed domains. Mix includes long-form features, think-tank/research, specialist publications, and news analysis. No Reuters/AP items included, satisfying the max-1 Reuters/AP constraint. Some allowed domains were inaccessible via search due to robots.txt, so the batch leans on accessible allowed sources with full article/report URLs. berlin: Queried allowed/preferred Berlin-local domains only, focusing on June 2026 and high-priority categories: transport, BVG/S-Bahn, policing, Görlitzer Park, healthcare/Charité, universities/research, administrative reform, urban planning/A100, BER and resilience. Included only full article URLs from permitted domains and avoided generic Germany stories. germany: Searched across allowed and preferred domains for June 2026 Germany economy, labour, automotive, healthcare, coalition reform, education, energy, transport and industry developments. Prioritised material developments and structural underreported items; avoided generic infrastructure-fund, defence-spending and manufacturing-slowdown commentary unless tied to a new forecast, survey or reform process. Results are diversified across Handelsblatt, Handelsblatt Research Institute, Süddeutsche Zeitung, ifo Institute and OECD, but source diversity was limited by accessible search results and the domain whitelist. world: Ran separate searches for Americas, East Asia/China, South Asia/India, Middle East/Iran-Gulf and Africa using only the allowed domains. Weighted material developments and structural underreported items in AI, compute, energy infrastructure, climate adaptation, critical minerals and geopolitics. Ensured at least five candidate items each for Americas, East Asia, South Asia, Middle East and Africa, and avoided Spain/Germany-centered stories. spain: Searched only within the user/developer allowed domains, with heavy weighting toward eldiario.es, elpais.com, lavanguardia.com, funcas.es, caixabankresearch.com and cidob.org. Cast was intentionally wide across macroeconomy, regional finance, Catalonia infrastructure, rail/Rodalies, water/drought/agriculture, banking, science/R&D, education and foreign policy. Returned more than the 15-item minimum to give synthesis room to trim. All sources are full article or report URLs from allowed domains; no homepages or aggregator URLs included."
 }
