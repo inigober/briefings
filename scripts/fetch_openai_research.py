@@ -13,23 +13,24 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 import yaml
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-DEFAULT_MODEL = "gpt-5.5"
+# gpt-4.1: cheaper than gpt-5.5, still strong for web_search orchestration.
+# Override via OPENAI_RESEARCH_MODEL (e.g. gpt-5.5) if quality drops.
+DEFAULT_MODEL = "gpt-4.1"
 API_TIMEOUT_SECONDS = 600.0
 PARALLEL_WORKERS = 5
 
 SECTION_MIN_ITEMS: dict[str, int] = {
-    "spain": 15,
-    "germany": 15,
-    "berlin": 12,
-    "world": 25,
+    "spain": 7,
+    "germany": 7,
+    "berlin": 6,
+    "world": 12,
 }
-
-SELECTED_READS_MIN = 15
 
 SOURCE_SCHEMA = {
     "type": "object",
@@ -87,29 +88,6 @@ SECTION_RESULT_SCHEMA = {
     "additionalProperties": False,
 }
 
-SELECTED_READ_SCHEMA = {
-    "type": "object",
-    "properties": {
-        "title": {"type": "string"},
-        "url": {"type": "string"},
-        "publisher": {"type": "string"},
-        "type": {"type": "string"},
-        "summary": {"type": "string"},
-    },
-    "required": ["title", "url", "publisher", "type", "summary"],
-    "additionalProperties": False,
-}
-
-SELECTED_READS_RESULT_SCHEMA = {
-    "type": "object",
-    "properties": {
-        "selected_read_candidates": {"type": "array", "items": SELECTED_READ_SCHEMA},
-        "search_notes": {"type": "string"},
-    },
-    "required": ["selected_read_candidates", "search_notes"],
-    "additionalProperties": False,
-}
-
 
 def log(message: str) -> None:
     print(message, flush=True)
@@ -131,15 +109,21 @@ def resolve_preferred_sources(section_id: str, sources_cfg: dict) -> list[str]:
     return priorities.get(section_id) or []
 
 
+def normalize_url(url: str) -> str:
+    parsed = urlparse(url.strip())
+    path = parsed.path.rstrip("/") or "/"
+    return f"{parsed.scheme}://{parsed.netloc.lower()}{path}"
+
+
 def build_diversity_rules(section_id: str, sources_cfg: dict) -> str:
     if section_id == "germany":
         news = ", ".join(sources_cfg.get("germany_news_outlets") or [])
         research = ", ".join(sources_cfg.get("germany_research_outlets") or [])
         return f"""
 Germany publisher diversity (strict):
-- At least 10 items must be news articles from newspapers: {news}
-- At most 5 items from research institutes: {research}
-- Max 4 items from any single publisher (ifo, Handelsblatt, etc.)
+- At least 5 items must be news articles from newspapers: {news}
+- At most 2 items from research institutes: {research}
+- Max 2 items from any single publisher
 - Run separate web searches per outlet (e.g. "site:zeit.de Germany", "site:tagesspiegel.de")
 - Prefer coalition politics, labour, industry, healthcare NEWS over survey roundups
 """
@@ -147,8 +131,8 @@ Germany publisher diversity (strict):
     if section_id == "berlin":
         return """
 Berlin publisher diversity (strict):
-- Max 5 items from rbb24; at least 4 from tagesspiegel.de
-- At least 2 from berliner-zeitung.de and 2 from the-berliner.com
+- Max 3 items from rbb24; at least 2 from tagesspiegel.de
+- At least 1 from berliner-zeitung.de or the-berliner.com
 - Run explicit searches: "site:tagesspiegel.de Berlin", "site:berliner-zeitung.de"
 - Local Berlin news ONLY — not generic Germany or Brandenburg unless directly affecting Berlin
 """
@@ -156,19 +140,19 @@ Berlin publisher diversity (strict):
     if section_id == "world":
         return """
 World publisher diversity (strict):
-- Max 6 items from any single publisher; max 8 from restofworld.org
-- At least 3 items from ft.com, economist.com, or theguardian.com combined
-- At least 2 items from asia.nikkei.com or foreignaffairs.com
-- Use separate searches per region AND per outlet (not only Rest of World)
-- Geographic balance still required: 5 items each in Americas, East Asia, South Asia, Middle East, Africa
+- Max 3 items from any single publisher
+- At least 2 items from ft.com, economist.com, or theguardian.com combined
+- At least 1 item from asia.nikkei.com or foreignaffairs.com
+- Use separate searches per region AND per outlet
+- Geographic balance: at least 2 items each in Americas, East Asia, South Asia, Middle East, Africa
 - Do NOT mirror Spain/Germany stories already covered elsewhere
 """
 
     if section_id == "spain":
         return """
 Spain publisher diversity:
-- Max 5 items from any single publisher
-- Include at least 2 from eldiario.es and 2 from elconfidencial.com if material exists
+- Max 3 items from any single publisher
+- Include at least 1 from eldiario.es and 1 from elconfidencial.com if material exists
 - Mix national and regional (Catalonia, Basque Country, Andalusia) where relevant
 """
 
@@ -243,37 +227,11 @@ Rules:
 - Material developments over commentary
 - Include structural / underreported stories
 - topic_ids MUST start with the section id ("{section_id}") as the first element, then optional theme tags
-- Cast a wide net; synthesis will trim to 3 items later
+- Cast a wide net within the minimum; synthesis will trim to 3 items later
+- RSS headlines may already cover some outlets — prioritise paywalled / licensed sources and gaps
 - In search_notes, report item count per publisher
 
 Return JSON matching the schema with keys: items, gaps, search_notes."""
-
-
-def build_selected_reads_prompt(*, date_str: str, sources_cfg: dict, allowed_domains: list[str]) -> str:
-    long_form = ", ".join(sources_cfg.get("long_form_features") or [])
-    think_tanks = ", ".join(sources_cfg.get("think_tanks") or [])
-    specialist = ", ".join(sources_cfg.get("specialist_publications") or [])
-    news = ", ".join(sources_cfg.get("news_analysis") or [])
-    domains = "\n".join(f"- {d}" for d in allowed_domains[:40])
-
-    return f"""Gather {SELECTED_READS_MIN}+ candidate articles for "Selected Reads" for {date_str}.
-
-Mix required:
-- Long-form features ({long_form})
-- Think-tank / research ({think_tanks})
-- Specialist publications ({specialist})
-- News analysis ({news})
-
-Allowed domains:
-{domains}
-
-Rules:
-- Full article URLs only
-- Diversify publishers and types
-- Max 1 Reuters/AP item in this batch
-- type must be one of: long_form_feature, think_tank_research, specialist_publication, news_analysis
-
-Return JSON with keys: selected_read_candidates, search_notes."""
 
 
 def make_client() -> Any:
@@ -323,9 +281,6 @@ def fetch_structured(
         raise ValueError(f"{exc}\n\nRaw output:\n{output_text[:4000]}") from exc
 
 
-        raise ValueError(f"{exc}\n\nRaw output:\n{output_text[:4000]}") from exc
-
-
 def fetch_section(
     *,
     section_id: str,
@@ -372,34 +327,42 @@ def fetch_section(
     return section_id, result
 
 
-def fetch_selected_reads(
-    *,
-    date_str: str,
-    model: str,
-    sources_cfg: dict,
-) -> dict:
-    allowed_domains = sources_cfg.get("allowed_domains") or []
-    reads_prompt = build_selected_reads_prompt(
-        date_str=date_str,
-        sources_cfg=sources_cfg,
-        allowed_domains=allowed_domains,
-    )
+def load_rss_items(inbox_dir: Path, date_str: str) -> list[dict]:
+    rss_path = inbox_dir / f"{date_str}-rss.json"
+    if not rss_path.is_file():
+        return []
+    try:
+        payload = json.loads(rss_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        log(f"  Warning: could not read {rss_path.name}: {exc}")
+        return []
+    return payload.get("items") or []
 
-    started = time.monotonic()
-    log(f"  [selected_reads] started (min {SELECTED_READS_MIN})...")
-    client = make_client()
-    result = fetch_structured(
-        client=client,
-        model=model,
-        prompt=reads_prompt,
-        schema=SELECTED_READS_RESULT_SCHEMA,
-        schema_name="briefing_selected_reads",
-        domains=allowed_domains,
-    )
-    count = len(result.get("selected_read_candidates") or [])
-    elapsed = time.monotonic() - started
-    log(f"  [selected_reads] done in {elapsed:.0f}s ({count} candidates)")
-    return result
+
+def merge_rss_items(openai_items: list[dict], rss_items: list[dict]) -> tuple[list[dict], int]:
+    """Merge RSS headlines; OpenAI items win on URL collision (richer fields)."""
+    seen: set[str] = set()
+    merged: list[dict] = []
+
+    for item in openai_items:
+        for src in item.get("sources") or []:
+            url = src.get("url") or ""
+            if url:
+                seen.add(normalize_url(url))
+        merged.append(item)
+
+    added = 0
+    for item in rss_items:
+        urls = [normalize_url(s.get("url") or "") for s in (item.get("sources") or [])]
+        urls = [u for u in urls if u]
+        if not urls or any(u in seen for u in urls):
+            continue
+        for u in urls:
+            seen.add(u)
+        merged.append(item)
+        added += 1
+
+    return merged, added
 
 
 def fetch_all_research(
@@ -408,6 +371,7 @@ def fetch_all_research(
     model: str,
     topics_cfg: dict,
     sources_cfg: dict,
+    rss_items: list[dict] | None = None,
 ) -> dict:
     topics = topic_by_id(topics_cfg)
     section_ids = [
@@ -420,10 +384,9 @@ def fetch_all_research(
     all_gaps: list[str] = []
     notes: list[str] = []
     section_counts: dict[str, int] = {}
-    reads_result: dict = {"selected_read_candidates": [], "search_notes": ""}
 
     started = time.monotonic()
-    log(f"  Launching {len(section_ids) + 1} fetches in parallel...")
+    log(f"  Launching {len(section_ids)} section fetches in parallel...")
 
     with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as executor:
         futures = {
@@ -437,23 +400,9 @@ def fetch_all_research(
             ): section_id
             for section_id in section_ids
         }
-        futures[
-            executor.submit(
-                fetch_selected_reads,
-                date_str=date_str,
-                model=model,
-                sources_cfg=sources_cfg,
-            )
-        ] = "selected_reads"
 
         for future in as_completed(futures):
-            task_name = futures[future]
-            if task_name == "selected_reads":
-                reads_result = future.result()
-                if reads_result.get("search_notes"):
-                    notes.append(f"selected_reads: {reads_result['search_notes']}")
-                continue
-
+            section_id = futures[future]
             section_id, result = future.result()
             items = result.get("items") or []
             all_items.extend(items)
@@ -463,10 +412,19 @@ def fetch_all_research(
                 notes.append(f"{section_id}: {result['search_notes']}")
 
     elapsed = time.monotonic() - started
-    log(f"  All fetches finished in {elapsed:.0f}s")
+    log(f"  All OpenAI fetches finished in {elapsed:.0f}s")
+
+    rss_merged = 0
+    if rss_items:
+        all_items, rss_merged = merge_rss_items(all_items, rss_items)
+        if rss_merged:
+            log(f"  Merged {rss_merged} RSS items (deduped against OpenAI)")
 
     publishers: dict[str, int] = {}
+    ingestion: dict[str, int] = {"openai": 0, "rss": 0}
     for item in all_items:
+        source = item.get("ingestion_source") or "openai"
+        ingestion[source] = ingestion.get(source, 0) + 1
         for src in item.get("sources") or []:
             pub = src.get("publisher") or "unknown"
             publishers[pub] = publishers.get(pub, 0) + 1
@@ -476,10 +434,11 @@ def fetch_all_research(
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "model": model,
         "items": all_items,
-        "selected_read_candidates": reads_result.get("selected_read_candidates") or [],
         "gaps": all_gaps,
         "search_notes": (
-            f"Section counts: {section_counts}. "
+            f"Section counts (OpenAI): {section_counts}. "
+            f"Ingestion: {ingestion}. "
+            f"RSS merged: {rss_merged}. "
             f"Publisher mix: {publishers}. "
             + " ".join(notes)
         ).strip(),
@@ -491,6 +450,11 @@ def main() -> int:
     parser.add_argument("--date", help="YYYY-MM-DD (default: today UTC)")
     parser.add_argument("--model", default=os.environ.get("OPENAI_RESEARCH_MODEL", DEFAULT_MODEL))
     parser.add_argument("--dry-run", action="store_true", help="Print first section prompt only; do not call API")
+    parser.add_argument(
+        "--no-rss-merge",
+        action="store_true",
+        help="Do not merge inbox/YYYY-MM-DD-rss.json even if present",
+    )
     args = parser.parse_args()
 
     date_str = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -518,6 +482,12 @@ def main() -> int:
     inbox_dir.mkdir(parents=True, exist_ok=True)
     out_path = inbox_dir / f"{date_str}-raw.json"
 
+    rss_items: list[dict] = []
+    if not args.no_rss_merge:
+        rss_items = load_rss_items(inbox_dir, date_str)
+        if rss_items:
+            log(f"  Found {len(rss_items)} RSS items to merge")
+
     log(f"Fetching research for {date_str} with model {args.model}...")
     try:
         payload = fetch_all_research(
@@ -525,6 +495,7 @@ def main() -> int:
             model=args.model,
             topics_cfg=topics_cfg,
             sources_cfg=sources_cfg,
+            rss_items=rss_items,
         )
     except Exception as exc:
         err_path = inbox_dir / f"{date_str}-raw.error.txt"

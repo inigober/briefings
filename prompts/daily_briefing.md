@@ -17,7 +17,7 @@ Produce today's personal daily briefing. Read all inputs before writing.
 
 Maximize novelty for a daily reader. Reject stories already covered unless materially new. Prefer structural insight over headline churn.
 
-The inbox is a **large research warehouse** (60–80+ items). Select the best 3 per section after dedup — if one section is thin after filtering, draw the next-best alternative from inbox rather than leaving gaps.
+The inbox is a **research warehouse** (~30–50 items from OpenAI + RSS). Items may include `ingestion_source: "rss"` (headlines only) or OpenAI items (richer summaries). Select the best 3 per section after dedup — if one section is thin after filtering, draw the next-best alternative from inbox rather than leaving gaps.
 
 ## Section requirements
 
@@ -28,7 +28,7 @@ The inbox is a **large research warehouse** (60–80+ items). Select the best 3 
 | Berlin 🏙️ | 3 | Local only |
 | World 🌐 | 3 | ≥2 non-European regions; distinct from ES/DE |
 | What Matters Today 🧠 | 3–4 themes | Not story summaries |
-| Selected Reads 🗞️ | ~4 | Separate memory; source mix; Reuters/AP ≤1 |
+| Selected Reads 🗞️ | ~4 | Pick from inbox (incl. RSS think-tank/long-form items); separate memory; Reuters/AP ≤1 |
 
 ## Story format
 
@@ -39,6 +39,7 @@ If inbox file date ≠ briefing date, add `*Research accessed DD Month YYYY.*` u
 ## Rules
 
 - Synthesize **only from inbox and config** unless inbox is empty (then note gap; do not browse).
+- **Selected Reads:** no longer pre-fetched — choose from inbox items (especially think-tank RSS, long-form, specialist outlets). Do not duplicate today's news stories.
 - Run novelty test and anti-repetition checks before including any item.
 - Selected Reads: never repeat a URL from last 5 briefings; do not duplicate today's news articles.
 - World must not echo Spain/Germany topics.

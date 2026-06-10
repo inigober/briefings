@@ -7,9 +7,9 @@ Pipeline: **pre-fetch research → Cursor cloud synthesis → Resend email deliv
 ## Architecture
 
 ```
-OpenAI web_search (GitHub Action, weekdays)
+RSS headlines + OpenAI web_search (GitHub Action, weekdays)
         ↓
-   inbox/YYYY-MM-DD-raw.json
+   inbox/YYYY-MM-DD-rss.json → merged into inbox/YYYY-MM-DD-raw.json
         ↓
 Cursor Automation (cloud agent, weekdays)
         ↓
@@ -92,7 +92,7 @@ Editorial rules live in `.cursor/rules/briefing-style.mdc`. Section-specific avo
 
 | Variable | Example | Purpose |
 |----------|---------|---------|
-| `OPENAI_RESEARCH_MODEL` | `gpt-5.5` | Pre-fetch model (GPT-5.5 + web_search) |
+| `OPENAI_RESEARCH_MODEL` | `gpt-4.1` | Pre-fetch model (`web_search`; set `gpt-5.5` if quality drops) |
 | `BRIEFING_FROM_EMAIL` | `Daily Briefing <onboarding@resend.dev>` | Resend sender (see below) |
 | `BRIEFING_TO_EMAIL` | `you@example.com` | Recipient — must match Resend account email if using sandbox |
 

@@ -29,7 +29,7 @@ Produce a novelty-first briefing with exactly these sections:
 3. Berlin 🏙️ (3 stories, local only)
 4. World 🌐 (3 stories, ≥2 non-European regions, distinct from ES/DE)
 5. What Matters Today 🧠 (3–4 themes, not recaps)
-6. Selected Reads 🗞️ (~4 items, diversified mix, Reuters/AP ≤1)
+6. Selected Reads 🗞️ (~4 items from inbox — incl. RSS think-tank/long-form; no separate pre-fetch; Reuters/AP ≤1)
 
 Title: `# Daily Briefing — DD Month YYYY`
 

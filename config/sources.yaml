@@ -160,7 +160,110 @@ news_analysis:
 editorial_note: >
   Favour critical, left-leaning outlets where quality reporting aligns with reader preferences.
 
-rss_feeds: []
+# RSS: free headline ingestion (scripts/fetch_rss.py → inbox/YYYY-MM-DD-rss.json).
+# OpenAI pre-fetch merges these into inbox/YYYY-MM-DD-raw.json and dedupes by URL.
+# Fields: url (required), publisher, section_ids ([spain|germany|berlin|world]),
+#         max_items (per feed, default 12), max_age_hours (default 72),
+#         region/country (optional overrides).
+rss_feeds:
+  # Spain
+  - url: https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada
+    publisher: EL PAÍS
+    section_ids: [spain]
+    max_items: 10
+  - url: https://www.eldiario.es/rss/
+    publisher: eldiario.es
+    section_ids: [spain]
+    max_items: 10
+  - url: https://www.lavanguardia.com/rss/home.xml
+    publisher: La Vanguardia
+    section_ids: [spain]
+    max_items: 8
+  - url: https://www.elconfidencial.com/rss/noticias.xml
+    publisher: El Confidencial
+    section_ids: [spain]
+    max_items: 8
+  # Germany
+  - url: https://www.tagesspiegel.de/contentexport/feed/home
+    publisher: Tagesspiegel
+    section_ids: [germany, berlin]
+    max_items: 10
+  - url: https://newsfeed.zeit.de/index
+    publisher: Die Zeit
+    section_ids: [germany]
+    max_items: 8
+  - url: https://rss.sueddeutsche.de/rss/Topthemen
+    publisher: Süddeutsche Zeitung
+    section_ids: [germany]
+    max_items: 8
+  - url: https://www.handelsblatt.com/contentexport/feed/schlagzeilen
+    publisher: Handelsblatt
+    section_ids: [germany]
+    max_items: 8
+  - url: https://www.faz.net/rss/aktuell/
+    publisher: Frankfurter Allgemeine
+    section_ids: [germany]
+    max_items: 8
+  - url: https://www.cidob.org/en/rss.xml
+    publisher: CIDOB
+    section_ids: [spain, world]
+    max_items: 5
+  # World / international
+  - url: https://www.theguardian.com/world/rss
+    publisher: The Guardian
+    section_ids: [world]
+    max_items: 10
+  - url: https://restofworld.org/feed/
+    publisher: Rest of World
+    section_ids: [world]
+    max_items: 8
+  - url: https://feeds.reuters.com/reuters/worldNews
+    publisher: Reuters
+    section_ids: [world]
+    max_items: 8
+  - url: https://www.politico.eu/feed/
+    publisher: Politico Europe
+    section_ids: [world]
+    max_items: 8
+  - url: https://foreignpolicy.com/feed/
+    publisher: Foreign Policy
+    section_ids: [world]
+    max_items: 8
+  # OpenAI web_search often blocked (robots/paywall) — RSS headlines as fallback
+  - url: https://feeds.bloomberg.com/markets/news.rss
+    publisher: Bloomberg
+    section_ids: [world]
+    max_items: 8
+  - url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+    publisher: The New York Times
+    section_ids: [world]
+    max_items: 8
+  - url: https://www.ft.com/?format=rss
+    publisher: Financial Times
+    section_ids: [world]
+    max_items: 8
+  - url: https://www.economist.com/the-world-this-week/rss.xml
+    publisher: The Economist
+    section_ids: [world]
+    max_items: 8
+  - url: https://asia.nikkei.com/rss/feed/nar
+    publisher: Nikkei Asia
+    section_ids: [world]
+    max_items: 8
+  - url: https://www.theatlantic.com/feed/all/
+    publisher: The Atlantic
+    section_ids: [world]
+    max_items: 6
+  - url: https://www.newyorker.com/feed/news
+    publisher: The New Yorker
+    section_ids: [world]
+    max_items: 6
+  # Think tanks & research (useful for Selected Reads + structural stories)
+  - url: https://www.bruegel.org/rss.xml
+    publisher: Bruegel
+    section_ids: [germany, world]
+    max_items: 5
+
 newsletters: []
 blocklist_domains:
   - facebook.com
