@@ -93,8 +93,26 @@ Editorial rules live in `.cursor/rules/briefing-style.mdc`. Section-specific avo
 | Variable | Example | Purpose |
 |----------|---------|---------|
 | `OPENAI_RESEARCH_MODEL` | `gpt-4.1` | Pre-fetch model |
-| `BRIEFING_FROM_EMAIL` | `briefing@yourdomain.com` | Resend sender |
-| `BRIEFING_TO_EMAIL` | `you@example.com` | Recipient(s), comma-separated |
+| `BRIEFING_FROM_EMAIL` | `Daily Briefing <onboarding@resend.dev>` | Resend sender (see below) |
+| `BRIEFING_TO_EMAIL` | `you@example.com` | Recipient — must match Resend account email if using sandbox |
+
+#### Resend without your own domain
+
+You **do not** need a custom domain for a personal daily briefing.
+
+Resend provides a built-in test sender: `onboarding@resend.dev`
+
+| Setting | Value |
+|---------|--------|
+| `BRIEFING_FROM_EMAIL` | `Daily Briefing <onboarding@resend.dev>` |
+| `BRIEFING_TO_EMAIL` | **The exact email you used to sign up for Resend** |
+
+**PM analogy:** This is sandbox mode — like Stripe test keys. It works for 1 email/day to yourself; you cannot send to other addresses until you verify a domain.
+
+Restrictions:
+- Only delivers to your Resend account email (not a work alias unless that's your signup email)
+- "From" must use `@resend.dev`, not Gmail or another public provider
+- Fine for this project; add a ~$10/yr domain later only if you want a custom sender or multiple recipients
 
 Resend free tier: 3,000 emails/mo, 100/day.
 
