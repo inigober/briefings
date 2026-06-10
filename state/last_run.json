@@ -1,9 +1,11 @@
 {
   "date": "2026-06-10",
+  "briefing_date": "2026-06-10",
+  "inbox_date": "2026-06-10",
   "status": "success",
   "briefing_path": "briefings/2026-06-10.md",
   "inbox_path": "inbox/2026-06-10-raw.json",
-  "items_count": 6,
+  "items_count": 12,
   "selected_reads_count": 4,
-  "notes": "Pipeline synthesis. Spain/World thin due to dedup + inbox gaps; see Not covered today section."
+  "notes": "Full synthesis from merged raw + RSS inbox. Replaced incomplete pipeline draft."
 }

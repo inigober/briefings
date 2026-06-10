@@ -4,12 +4,12 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
-## 2026-06-10 (pipeline synthesis)
+## 2026-06-10
 
-- [La base mestiza del crecimiento español](https://elpais.com/economia/negocios/2026-06-06/la-base-mestiza-del-crecimiento-espanol-asi-contribuyen-cada-vez-mas-los-inmigrantes-al-pib.html) — El País
-- [1,15 Millionen Stellen bleiben unbesetzt](https://www.handelsblatt.com/politik/deutschland/offene-stellen-115-millionen-stellen-bleiben-in-deutschland-unbesetzt/100231223.html) — Handelsblatt
-- [Zahl der Arbeitskräfte bis 2045 stabil – der Osten verliert](https://www.handelsblatt.com/politik/deutschland/hochrechnung-zahl-der-arbeitskraefte-bis-2045-stabil-der-osten-verliert/100212103.html) — Handelsblatt
-- [Experten werfen Verkehrsverwaltung vor, Tramstrecken zu blockieren](https://www.tagesspiegel.de/berlin/vorwurf-von-fachleuten-in-berlin-scheitert-die-strassenbahn-an-der-politik-15674289.html) — Tagesspiegel
+- [What Comes After Global Order](https://foreignpolicy.com/2026/06/10/global-order-china-united-states-ordering/) — Foreign Policy
+- [Big Tech, big cons: Scammers are hiding in the apps that make your life easy](https://restofworld.org/2026/tech-facebook-google-whatsapp-scams/) — Rest of World
+- [Wirtschaft wächst in zwölf Bundesländern](https://www.ifo.de/pressemitteilung/2026-06-09/wirtschaft-waechst-zwoelf-bundeslaendern) — ifo Institut
+- [Walsturz in der Tiefsee: Forscher entdecken den weltweit größten Friedhof der Wale](https://www.zeit.de/wissenschaft/umwelt/2026-06/walsturz-tiefsee-nekropole-meeresboden-indischer-ozean) — Die Zeit
 
 ## 2026-06-09
 

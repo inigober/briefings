@@ -6,14 +6,20 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
-## 2026-06-10 (pipeline synthesis)
+## 2026-06-10
 
-- **spain-bbva-housing-12pct-2026** — BBVA forecasts 12% price rise, construction +12.4% (section: spain)
-- **germany-employment-q1-drop-486k** — Q1 2026 employment −486k (section: germany)
-- **germany-vacancies-1-15m-q1** — 1.15M open jobs, skills mismatch (section: germany)
-- **germany-workforce-2045-bbsr-east-decline** — BBSR projection stable nationally, east loses (section: germany)
-- **berlin-tram-expansion-blocked** — Transport admin accused of blocking tram routes (section: berlin)
-- **berlin-tram-routes-postponed-fiscal** — Tram extensions delayed/cancelled in NVP (section: berlin)
+- **spain-dana-mazon-whatsapp** — Mazón WhatsApp messages during Valencia floods; Cecopi testimony (section: spain)
+- **spain-aquifer-bankruptcy** — Groundwater overextraction, illegal wells (section: spain)
+- **spain-defense-rd-record** — Public R&D €15.7bn record, defense spending tripled (section: spain)
+- **germany-tankrabatt-expiry** — Fuel tax rebate ends 1 July (section: germany)
+- **germany-merz-reform-summit** — Chancellery meeting with unions/employers (section: germany)
+- **germany-ifo-laender-uneven-q1** — Growth in 12/16 Länder, NRW/Hamburg lag (section: germany)
+- **berlin-stoschek-foundation-closure** — Julia Stoschek leaves Leipziger Straße (section: berlin)
+- **berlin-oak-processionary-moth** — Citizen map tracking caterpillar nests (section: berlin)
+- **berlin-tu-hauptgebaeude-closure** — TU main building closed indefinitely (section: berlin)
+- **world-drc-coltan-m23** — Global Witness coltan supply chain investigation (section: world)
+- **world-modi-nehru-tenure** — Modi surpasses Nehru as longest-serving PM (section: world)
+- **world-trump-climate-immigration** — US curbs target climate-vulnerable countries (section: world)
 
 ## 2026-06-09
 
