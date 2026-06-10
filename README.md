@@ -92,7 +92,7 @@ Editorial rules live in `.cursor/rules/briefing-style.mdc`. Section-specific avo
 
 | Variable | Example | Purpose |
 |----------|---------|---------|
-| `OPENAI_RESEARCH_MODEL` | `gpt-4.1` | Pre-fetch model |
+| `OPENAI_RESEARCH_MODEL` | `gpt-5.5` | Pre-fetch model (GPT-5.5 + web_search) |
 | `BRIEFING_FROM_EMAIL` | `Daily Briefing <onboarding@resend.dev>` | Resend sender (see below) |
 | `BRIEFING_TO_EMAIL` | `you@example.com` | Recipient — must match Resend account email if using sandbox |
 

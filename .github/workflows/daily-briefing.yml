@@ -32,7 +32,7 @@ jobs:
       - name: Fetch research
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_RESEARCH_MODEL: ${{ vars.OPENAI_RESEARCH_MODEL || 'gpt-4.1' }}
+          OPENAI_RESEARCH_MODEL: ${{ vars.OPENAI_RESEARCH_MODEL || 'gpt-5.5' }}
         run: |
           ARGS=""
           if [ -n "${{ github.event.inputs.date }}" ]; then
