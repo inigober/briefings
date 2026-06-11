@@ -9,5 +9,15 @@
   "briefing_path": "briefings/berlin-culture/2026-06-09.md",
   "inbox_path": "inbox/berlin-culture/2026-06-09-synthesis.json",
   "items_count": 19,
-  "notes": "Manual pipeline test — pre-fetch simulated from verified venue pages; synthesis verified key URLs."
+  "section_counts": {
+    "top_picks": 3,
+    "exhibitions": 3,
+    "film": 4,
+    "performing_arts": 3,
+    "music": 2,
+    "wildcards": 1,
+    "advance_radar": 3
+  },
+  "verification_fetches": 5,
+  "notes": "Spot-checked Top Picks and closing-soon URLs; dropped mu-3 (before week), film-4 (after week_end), Xiao Wu for venue balance."
 }
