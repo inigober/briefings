@@ -7,7 +7,7 @@ Pipeline: **pre-fetch research → Cursor cloud synthesis → Resend email deliv
 ## Architecture
 
 ```
-RSS headlines + OpenAI web_search (GitHub Action, weekdays)
+RSS headlines + OpenAI web_search (GitHub Action, daily 06:30 CET)
         ↓
    inbox/YYYY-MM-DD-rss.json → merged into inbox/YYYY-MM-DD-raw.json
         ↓
@@ -129,7 +129,15 @@ Create an automation in [Cursor Automations](https://cursor.com/automations):
 
 Pipeline: pre-fetch commits `inbox/` → push triggers synthesis → synthesis commits `briefings/` → email workflow sends.
 
-Optional backup cron: `0 7 * * 1-5` UTC if pre-fetch was missed.
+Optional backup cron on synthesis automation if pre-fetch was missed.
+
+### Schedule & timezone
+
+Pre-fetch cron: **`30 5 * * *`** in GitHub Actions (= **06:30 CET**, UTC+1).
+
+GitHub only supports UTC cron. Spain/Germany use **CEST** (UTC+2) from late March–late October, so in summer the job runs at **07:30 local** unless you change the cron to `30 4 * * *` (06:30 CEST). Switch twice a year, or pick one offset and accept ±1h in the other season.
+
+Synthesis is **push-triggered** (inbox commit) — no separate cron needed if pre-fetch runs daily.
 
 ### 4. Manual test run
 
@@ -150,7 +158,7 @@ python scripts/send_briefing_email.py --file briefings/YYYY-MM-DD.md --dry-run
 
 | Workflow | Trigger | Action |
 |----------|---------|--------|
-| `daily-briefing.yml` | Weekdays 06:30 UTC + manual | Pre-fetch → commit `inbox/` |
+| `daily-briefing.yml` | Daily 06:30 CET (05:30 UTC) + manual | Pre-fetch → commit `inbox/` |
 | `send-briefing-email.yml` | Push to `briefings/*.md` on `main` | Send styled email |
 
 ## Rollout checklist
@@ -167,7 +175,7 @@ python scripts/send_briefing_email.py --file briefings/YYYY-MM-DD.md --dry-run
 
 Still to configure before going fully unattended:
 
-- Cron time + timezone (workflows default to UTC)
+- ~~Cron time + timezone~~ — pre-fetch set to daily 06:30 CET (adjust for CEST in summer if desired)
 - Email recipient(s) and Resend sending domain
 - RSS feeds / newsletter forwards for paywalled subscriptions
 - Optional tweaks to `avoid_unless_material` lists in `config/topics.yaml`

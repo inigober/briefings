@@ -2,8 +2,8 @@ name: Daily research pre-fetch
 
 on:
   schedule:
-    # Weekdays 06:30 UTC — runs before 07:00 synthesis automation
-    - cron: "30 6 * * 1-5"
+    # Daily 06:30 CET = 05:30 UTC (GitHub cron is UTC-only; see README for CEST note)
+    - cron: "30 5 * * *"
   workflow_dispatch:
     inputs:
       date:
