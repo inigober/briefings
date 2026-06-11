@@ -1,11 +1,11 @@
 {
-  "date": "2026-06-10",
-  "briefing_date": "2026-06-10",
-  "inbox_date": "2026-06-10",
+  "date": "2026-06-11",
+  "briefing_date": "2026-06-11",
+  "inbox_date": "2026-06-11",
   "status": "success",
-  "briefing_path": "briefings/2026-06-10.md",
-  "inbox_path": "inbox/2026-06-10-raw.json",
+  "briefing_path": "briefings/2026-06-11.md",
+  "inbox_path": "inbox/2026-06-11-raw.json",
   "items_count": 12,
   "selected_reads_count": 4,
-  "notes": "Full synthesis from merged raw + RSS inbox. Replaced incomplete pipeline draft."
+  "notes": "Full weekday synthesis from merged OpenAI + RSS inbox; no stale inbox fallback used."
 }

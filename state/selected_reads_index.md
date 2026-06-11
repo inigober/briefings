@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-11
+
+- [Germany's innovation deficit undermines value of high R&D funding](https://www.diw.de/de/diw_01.c.876543.en/current-press-releases/2026-06-10_germany_innovation_deficit.html) — DIW Berlin
+- [Could Switzerland Become the First Country to Cap Its Population?](https://www.newyorker.com/magazine/2026/06/15/could-switzerland-become-the-first-country-to-limit-its-population) — The New Yorker
+- [The Great AI Divide: Navigating U.S. and Chinese dominance](https://restofworld.org/2026/ai-divide-america-china-world/) — Rest of World
+- [Exporting U.S. Military AI Won't Be Easy](https://foreignpolicy.com/2026/06/10/military-ai-middle-power-anthropic-pentagon-pax-silica/) — Foreign Policy
+
 ## 2026-06-10
 
 - [What Comes After Global Order](https://foreignpolicy.com/2026/06/10/global-order-china-united-states-ordering/) — Foreign Policy

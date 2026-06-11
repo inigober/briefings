@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-11
+
+- **spain-housing-price-map** — Street-level notarial housing sale price map across 33,000 grid cells (section: spain)
+- **spain-education-strikes-costs** — Education stoppages impose costs on teachers, families and disadvantaged pupils (section: spain)
+- **spain-pp-vox-national-priority-migration** — PP-Vox "prioridad nacional" rhetoric becomes concrete regional migration policy (section: spain)
+- **germany-ifo-real-wages-2026** — ifo projects further German real wage growth despite weak macro backdrop (section: germany)
+- **germany-electric-trucks-eu-standards** — German truckmakers accelerate electric heavy-vehicle transition under EU emissions rules (section: germany)
+- **germany-heating-law-first-reading** — Revised Gebäudeenergiegesetz enters Bundestag under criticism from business, Länder and legal experts (section: germany)
+- **berlin-bvg-u-bahn-warning-strike** — BVG U-Bahn workers plan 13 June warning strike after wage talks stall (section: berlin)
+- **berlin-charite-microplastics** — Charité expands microplastic reduction programme across hospital waste and laundry streams (section: berlin)
+- **berlin-rent-cap-lawsuit** — Property owners sue over Berlin Senate citywide rent-cap plan (section: berlin)
+- **world-gulf-clean-energy-capital** — Gulf sovereign funds scale renewable-energy investment across Africa, South Asia and Southeast Asia (section: world)
+- **world-china-overseas-semiconductor-capacity** — Chinese chipmakers expand overseas foundries to route around export controls (section: world)
+- **world-global-south-youth-unemployment** — Record youth unemployment in Sub-Saharan Africa and South Asia tests demographic dividend (section: world)
+
 ## 2026-06-10
 
 - **spain-dana-mazon-whatsapp** — Mazón WhatsApp messages during Valencia floods; Cecopi testimony (section: spain)
