@@ -55,7 +55,7 @@ Use the exact per-entry format from the style rule:
 Add `(good value)` or `(potentially overpriced)` only when the candidate has that exact `value_label`.
 
 After each `###` heading, add email metadata from the inbox item (omit lines when null):
-- `**Hours:**` from `google_maps_hours_compact`
+- `**Hours:**` from `google_maps_hours_compact` (already shortened, e.g. `Tue–Sun 12:00–22:00 (closed Mon)` — copy verbatim)
 - `**Rating:**` from `google_maps_rating` and `google_maps_review_count` (format `4.5 (412)`)
 - `**Maps:**` from `google_maps_url`
 

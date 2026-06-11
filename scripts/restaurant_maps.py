@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import re
 from typing import Any
 from urllib.parse import quote_plus
 
@@ -65,15 +66,170 @@ def business_status_flags(status: str | None) -> tuple[bool, bool]:
     return permanently_closed, temporarily_closed
 
 
+WEEKDAYS = (
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+)
+DAY_SHORT = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+DAY_INDEX = {name.lower(): index for index, name in enumerate(WEEKDAYS)}
+
+HOURS_LINE_RE = re.compile(
+    r"^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s*:\s*(.+)$",
+    re.IGNORECASE,
+)
+TIME_TOKEN_RE = re.compile(
+    r"(\d{1,2})(?::(\d{2}))?\s*(AM|PM)?",
+    re.IGNORECASE,
+)
+
+
+def _parse_time_token(hour_str: str, minute_str: str | None, ampm: str | None) -> str:
+    hour = int(hour_str)
+    minute = int(minute_str or 0)
+    if ampm:
+        meridiem = ampm.upper()
+        if meridiem == "PM" and hour != 12:
+            hour += 12
+        elif meridiem == "AM" and hour == 12:
+            hour = 0
+    return f"{hour:02d}:{minute:02d}"
+
+
+def _infer_start_meridiem(start_hour: int, end_hour: int, end_meridiem: str) -> str:
+    if end_meridiem.upper() != "PM":
+        return end_meridiem
+    if start_hour == 12:
+        return "PM"
+    if end_hour <= 6 and start_hour <= 11:
+        return "AM"
+    if start_hour >= 5:
+        return "PM"
+    return "AM"
+
+
+def _normalize_time_range(segment: str) -> str:
+    tokens = list(TIME_TOKEN_RE.finditer(segment.strip()))
+    if len(tokens) < 2:
+        return segment.strip()
+    start_hour = int(tokens[0].group(1))
+    end_hour = int(tokens[1].group(1))
+    start_meridiem = tokens[0].group(3)
+    end_meridiem = tokens[1].group(3)
+    if not start_meridiem and end_meridiem:
+        start_meridiem = _infer_start_meridiem(start_hour, end_hour, end_meridiem)
+    elif start_meridiem and not end_meridiem:
+        end_meridiem = start_meridiem
+    start = _parse_time_token(
+        tokens[0].group(1),
+        tokens[0].group(2),
+        start_meridiem,
+    )
+    end = _parse_time_token(
+        tokens[1].group(1),
+        tokens[1].group(2),
+        end_meridiem,
+    )
+    return f"{start}–{end}"
+
+
+def _normalize_hours_blob(blob: str) -> str:
+    cleaned = blob.strip()
+    if cleaned.lower() == "closed":
+        return "closed"
+    shifts = [_normalize_time_range(part) for part in re.split(r"\s*,\s*", cleaned) if part.strip()]
+    if not shifts:
+        return cleaned
+    if len(shifts) == 1:
+        return shifts[0]
+    return " & ".join(shifts)
+
+
+def _parse_weekday_line(line: str) -> tuple[int, str] | None:
+    match = HOURS_LINE_RE.match(line.strip())
+    if not match:
+        return None
+    day_name = match.group(1).lower()
+    day_index = DAY_INDEX.get(day_name)
+    if day_index is None:
+        return None
+    return day_index, _normalize_hours_blob(match.group(2))
+
+
+def _format_day_span(start: int, end: int) -> str:
+    if start == end:
+        return DAY_SHORT[start]
+    return f"{DAY_SHORT[start]}–{DAY_SHORT[end]}"
+
+
+def _format_closed_days(day_indices: list[int]) -> str:
+    if not day_indices:
+        return ""
+    groups: list[tuple[int, int]] = []
+    start = prev = day_indices[0]
+    for day in day_indices[1:]:
+        if day == prev + 1:
+            prev = day
+            continue
+        groups.append((start, prev))
+        start = prev = day
+    groups.append((start, prev))
+    return ", ".join(_format_day_span(s, e) for s, e in groups)
+
+
+def compact_weekday_descriptions(descriptions: list[str]) -> str | None:
+    """Turn Places weekdayDescriptions into a short line, e.g. Tue–Sun 12:00–22:00 (closed Mon)."""
+    schedule: list[tuple[int, str]] = []
+    for line in descriptions:
+        parsed = _parse_weekday_line(str(line))
+        if parsed is not None:
+            schedule.append(parsed)
+    if not schedule:
+        return None
+
+    schedule.sort(key=lambda entry: entry[0])
+    open_groups: list[tuple[int, int, str]] = []
+    closed_days: list[int] = []
+
+    for day_index, hours in schedule:
+        if hours == "closed":
+            closed_days.append(day_index)
+            continue
+        if open_groups and open_groups[-1][2] == hours and open_groups[-1][1] == day_index - 1:
+            open_groups[-1] = (open_groups[-1][0], day_index, hours)
+        else:
+            open_groups.append((day_index, day_index, hours))
+
+    if not open_groups:
+        return f"Closed ({_format_closed_days(closed_days)})"
+
+    if (
+        len(open_groups) == 1
+        and open_groups[0][0] == 0
+        and open_groups[0][1] == 6
+        and not closed_days
+    ):
+        return f"Daily {open_groups[0][2]}"
+
+    segments = [f"{_format_day_span(start, end)} {hours}" for start, end, hours in open_groups]
+    if closed_days:
+        closed = f"(closed {_format_closed_days(closed_days)})"
+        if len(segments) == 1:
+            return f"{segments[0]} {closed}"
+        segments.append(closed)
+    return "; ".join(segments)
+
+
 def format_hours_compact(place: dict) -> str | None:
     hours = place.get("regularOpeningHours") or {}
     descriptions = hours.get("weekdayDescriptions") or []
     if not descriptions:
         return None
-    compact = "; ".join(str(line).strip() for line in descriptions if str(line).strip())
-    if len(compact) > 140:
-        return compact[:137].rstrip() + "..."
-    return compact
+    return compact_weekday_descriptions([str(line) for line in descriptions if str(line).strip()])
 
 
 def place_id_from_resource(resource_id: str) -> str:

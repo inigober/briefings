@@ -17,6 +17,7 @@ from restaurant_maps import (  # noqa: E402
     apply_places_result,
     build_search_query,
     business_status_flags,
+    compact_weekday_descriptions,
     format_hours_compact,
     is_in_berlin,
     is_verified,
@@ -45,7 +46,38 @@ class RestaurantMapsTests(unittest.TestCase):
         place = {"formattedAddress": "Goebenstraße 23, 10783 Berlin, Germany"}
         self.assertTrue(is_in_berlin(place))
 
-    def test_format_hours_compact_joins_weekday_descriptions(self) -> None:
+    def test_compact_hours_closed_monday(self) -> None:
+        descriptions = [
+            "Monday: Closed",
+            "Tuesday: 12:00 – 10:00 PM",
+            "Wednesday: 12:00 – 10:00 PM",
+            "Thursday: 12:00 – 10:00 PM",
+            "Friday: 12:00 – 10:00 PM",
+            "Saturday: 12:00 – 10:00 PM",
+            "Sunday: 12:00 – 10:00 PM",
+        ]
+        self.assertEqual(
+            compact_weekday_descriptions(descriptions),
+            "Tue–Sun 12:00–22:00 (closed Mon)",
+        )
+
+    def test_compact_hours_daily(self) -> None:
+        descriptions = [f"{day}: 12:00 PM – 10:00 PM" for day in (
+            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        )]
+        self.assertEqual(compact_weekday_descriptions(descriptions), "Daily 12:00–22:00")
+
+    def test_compact_hours_split_shift(self) -> None:
+        descriptions = [
+            "Monday: 12:00 – 3:00 PM, 5:30 – 10:00 PM",
+            "Tuesday: Closed",
+        ]
+        self.assertEqual(
+            compact_weekday_descriptions(descriptions),
+            "Mon 12:00–15:00 & 17:30–22:00 (closed Tue)",
+        )
+
+    def test_format_hours_compact_from_place(self) -> None:
         place = {
             "regularOpeningHours": {
                 "weekdayDescriptions": [
@@ -54,7 +86,7 @@ class RestaurantMapsTests(unittest.TestCase):
                 ]
             }
         }
-        self.assertIn("Monday", format_hours_compact(place) or "")
+        self.assertEqual(format_hours_compact(place), "Tue 12:00–22:00 (closed Mon)")
 
     def test_is_verified_strict_requires_place_id(self) -> None:
         item = {

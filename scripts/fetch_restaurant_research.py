@@ -203,7 +203,7 @@ If Google Maps is ambiguous, missing, says closed, or suggests the restaurant re
 For every verified candidate, also copy from Google Maps when visible:
 - google_maps_rating: star rating as a number (e.g. 4.5), or null if missing
 - google_maps_review_count: integer review count, or null if missing
-- google_maps_hours_compact: one-line opening hours in compact form (e.g. "Tue–Sun 12:00–22:00 (closed Mon)"), or null if unavailable
+- google_maps_hours_compact: null here is fine — post-fetch Places verification compacts hours (e.g. "Tue–Sun 12:00–22:00 (closed Mon)")
 
 ## Candidate quality rules
 - Prefer restaurants with clear culinary identity, specialization, strong value, technical competence, or regional authenticity
