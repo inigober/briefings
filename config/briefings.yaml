@@ -34,3 +34,20 @@ briefings:
       spend_cap_usd: 2.0  # documented default; live cap = GitHub variable OPENAI_DAILY_SPEND_CAP_USD or code default $2
     email:
       preheader_section: "Top Picks"
+
+  berlin-restaurants:
+    display_name: Berlin Restaurant Briefing
+    schedule_cron: "0 6 * * 4" # Thursday 07:00 CET pre-fetch; email target 09:00 CET
+    inbox_dir: inbox/berlin-restaurants
+    output_dir: briefings/berlin-restaurants
+    state_dir: state/berlin-restaurants
+    config_dir: config/briefings/berlin-restaurants
+    synthesis_prompt: prompts/berlin-restaurants/synthesis-run.md
+    style_rule: .cursor/rules/berlin-restaurants-briefing-style.mdc
+    prefetch:
+      rss: false
+      openai_script: fetch_restaurant_research
+      slim: true
+      spend_cap_usd: 2.0  # documented default; live cap = GitHub variable OPENAI_DAILY_SPEND_CAP_USD or code default $2
+    email:
+      preheader_section: "This week's strongest bets"

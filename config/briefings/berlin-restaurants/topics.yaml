@@ -1,0 +1,98 @@
+# Berlin restaurant briefing sections — used for pre-fetch candidate diversity, not published section headings.
+
+topics:
+  - id: regional_chinese
+    name: Regional Chinese
+    enabled: true
+    max_items: 3
+    slim_cap: 8
+    description: >
+      Regional Chinese restaurants and specialists, including Sichuan, Hunan,
+      Dongbei, Lanzhou/noodle specialists, dumpling specialists, hotpot, and
+      Cantonese or Hong Kong-style cooking when execution is strong.
+
+  - id: southeast_asian
+    name: Southeast Asian
+    enabled: true
+    max_items: 3
+    slim_cap: 8
+    description: >
+      Thai, Vietnamese regional specialists, Malaysian, Indonesian, Filipino,
+      Lao, Burmese, and related Southeast Asian cooking. Prioritize spice
+      handling, freshness, balance, and regional specificity over decor.
+
+  - id: turkish_middle_eastern_caucasus
+    name: Turkish, Middle Eastern, Caucasus
+    enabled: true
+    max_items: 3
+    slim_cap: 8
+    description: >
+      Turkish grills, ocakbasi, borek, Yemeni and Gulf-influenced kitchens,
+      Levantine specialists, Georgian, Armenian, Azerbaijani, Persian, and
+      adjacent regional cuisines. Prefer specialist kitchens and clear
+      technique over generic broad menus.
+
+  - id: mediterranean_european
+    name: Mediterranean and European
+    enabled: true
+    max_items: 3
+    slim_cap: 8
+    description: >
+      Italian, Spanish, Greek, Austrian, Central European, Balkan, and broader
+      Mediterranean/European restaurants where product quality, technique, or
+      regional identity is stronger than average.
+
+  - id: specialist_neighborhood
+    name: Specialist Neighborhood Restaurants
+    enabled: true
+    max_items: 3
+    slim_cap: 8
+    description: >
+      Affordable or mid-range specialists from any cuisine that do one thing
+      unusually well: noodles, tacos, grills, dumplings, sandwiches, soups,
+      bakeries with savory food, canteens, or neighborhood restaurants with a
+      clear point of view.
+
+  - id: fine_dining
+    name: Fine Dining
+    enabled: true
+    max_items: 1
+    slim_cap: 4
+    optional: true
+    description: >
+      Modern European, tasting-menu, or higher-end restaurants. Include only
+      where food quality or technical identity justifies the price. Synthesis
+      may select at most one fine dining recommendation.
+
+preferences:
+  target_price_mix:
+    - mostly € and €€
+    - occasional €€€
+    - at most one €€€€ entry
+  preferred_neighborhoods:
+    - Neukolln
+    - Kreuzberg
+    - Wedding
+    - Charlottenburg
+    - Wilmersdorf
+    - Schoneberg
+    - Friedrichshain
+    - Prenzlauer Berg
+    - Moabit
+    - Tiergarten
+    - Tempelhof
+    - Reinickendorf
+    - Steglitz
+  avoid:
+    - hype-only openings
+    - restaurants selected mainly for decor or social media visibility
+    - tourist-trap lists
+    - generic "best restaurants in Berlin" claims without food-specific evidence
+    - restaurants with unclear Google Maps status
+
+rules:
+  max_fine_dining_items: 1
+  neighborhood_diversity: >
+    Avoid more than two final recommendations from the same neighborhood unless
+    there is a strong editorial reason.
+  reader_home_base: Neukolln

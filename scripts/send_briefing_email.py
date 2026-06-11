@@ -166,10 +166,10 @@ def extract_preheader(md_text: str, section_name: str = "What Matters Today", ma
 
     for line in md_text.splitlines():
         stripped = line.strip()
-        if stripped.startswith("## ") and section_name in stripped:
+        if stripped.startswith(("## ", "### ")) and section_name in stripped:
             in_section = True
             continue
-        if in_section and stripped.startswith("## "):
+        if in_section and stripped.startswith(("## ", "### ")):
             break
         if in_section and re.match(r"^\d+\.\s+", stripped):
             text = re.sub(r"^\d+\.\s*", "", stripped)
@@ -190,7 +190,12 @@ def extract_preheader(md_text: str, section_name: str = "What Matters Today", ma
             return h3.group(1)[:max_len]
 
     title = extract_title(md_text, "Briefing")
-    for prefix in ("News Briefing — ", "Berlin Culture Briefing — ", "Daily Briefing — "):
+    for prefix in (
+        "News Briefing — ",
+        "Berlin Culture Briefing — ",
+        "Berlin Restaurant Briefing — ",
+        "Daily Briefing — ",
+    ):
         if title.startswith(prefix):
             return title.replace(prefix, "")[:max_len]
     return title[:max_len]

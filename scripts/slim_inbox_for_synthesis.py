@@ -56,6 +56,32 @@ CULTURE_SLIM_ITEM_KEYS = (
     "ingestion_source",
 )
 
+RESTAURANT_SLIM_ITEM_KEYS = (
+    "id",
+    "topic_ids",
+    "name",
+    "neighborhood",
+    "address",
+    "cuisine",
+    "price_tier",
+    "value_label",
+    "fine_dining",
+    "strengths",
+    "weaknesses",
+    "comparative_context",
+    "critical_assessment",
+    "google_maps_name",
+    "google_maps_url",
+    "google_maps_address",
+    "exists_in_berlin",
+    "permanently_closed",
+    "temporarily_closed",
+    "verified",
+    "verification_notes",
+    "source_urls",
+    "ingestion_source",
+)
+
 
 def log(message: str) -> None:
     print(message, flush=True)
@@ -140,6 +166,29 @@ def score_culture_item(item: dict, priority_venues: set[str]) -> int:
     return score
 
 
+def score_restaurant_item(item: dict) -> int:
+    score = 0
+    if item.get("verified"):
+        score += 40
+    if item.get("value_label") == "good value":
+        score += 8
+    if item.get("value_label") == "potentially overpriced":
+        score -= 5
+    if not item.get("fine_dining"):
+        score += 5
+    if item.get("strengths"):
+        score += min(len(item["strengths"]), 4) * 3
+    if item.get("weaknesses"):
+        score += 4
+    if (item.get("comparative_context") or "").strip():
+        score += 8
+    if (item.get("critical_assessment") or "").strip():
+        score += 8
+    if (item.get("google_maps_url") or "").startswith("http"):
+        score += 10
+    return score
+
+
 def news_section_id(item: dict) -> str:
     tags = item.get("topic_ids") or []
     for sid in NEWS_SECTION_IDS:
@@ -151,6 +200,11 @@ def news_section_id(item: dict) -> str:
 def culture_section_id(item: dict) -> str:
     tags = item.get("topic_ids") or []
     return tags[0] if tags else "exhibitions"
+
+
+def restaurant_section_id(item: dict) -> str:
+    tags = item.get("topic_ids") or []
+    return tags[0] if tags else "specialist_neighborhood"
 
 
 def slim_item(item: dict, keys: tuple[str, ...]) -> dict:
@@ -174,6 +228,12 @@ def pick_top_culture(items: list[dict], cap: int, priority_venues: set[str]) -> 
     return [slim_item(i, CULTURE_SLIM_ITEM_KEYS) for i in ranked[:cap]]
 
 
+def pick_top_restaurants(items: list[dict], cap: int) -> list[dict]:
+    verified = [item for item in items if item.get("verified")]
+    ranked = sorted(verified, key=score_restaurant_item, reverse=True)
+    return [slim_item(i, RESTAURANT_SLIM_ITEM_KEYS) for i in ranked[:cap]]
+
+
 def news_section_caps(topics_cfg: dict) -> dict[str, int]:
     topics = topic_by_id(topics_cfg)
     caps: dict[str, int] = {}
@@ -191,6 +251,19 @@ def culture_section_caps(topics_cfg: dict) -> dict[str, int]:
         if not tid or not topic.get("enabled", True):
             continue
         caps[tid] = int(topic.get("slim_cap") or (topic.get("max_items", 3) * 2))
+    return caps
+
+
+def restaurant_section_caps(topics_cfg: dict) -> dict[str, int]:
+    topics = topic_by_id(topics_cfg)
+    caps: dict[str, int] = {}
+    for topic in topics_cfg.get("topics") or []:
+        tid = topic.get("id")
+        if not tid or not topic.get("enabled", True):
+            continue
+        caps[tid] = int(topic.get("slim_cap") or (topic.get("max_items", 3) * 2))
+    if "fine_dining" in topics:
+        caps["fine_dining"] = min(caps.get("fine_dining", 4), 4)
     return caps
 
 
@@ -282,6 +355,42 @@ def build_culture_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: d
     }
 
 
+def build_restaurant_synthesis_inbox(raw: dict, *, topics_cfg: dict) -> dict:
+    section_caps = restaurant_section_caps(topics_cfg)
+    items = raw.get("items") or []
+    by_section: dict[str, list[dict]] = {sid: [] for sid in section_caps}
+
+    for item in items:
+        sid = restaurant_section_id(item)
+        if sid in by_section:
+            by_section[sid].append(item)
+
+    section_items: list[dict] = []
+    section_counts: dict[str, int] = {}
+    for sid, cap in section_caps.items():
+        picked = pick_top_restaurants(by_section[sid], cap)
+        section_counts[sid] = len(picked)
+        section_items.extend(picked)
+
+    rel_inbox = str(raw.get("inbox_dir") or "inbox/berlin-restaurants")
+    return {
+        "briefing_type": "berlin-restaurants",
+        "date": raw.get("date"),
+        "source_raw": f"{rel_inbox}/{raw.get('date')}-raw.json",
+        "built_at": datetime.now(timezone.utc).isoformat(),
+        "model": raw.get("model"),
+        "raw_item_count": len(items),
+        "verified_count": sum(1 for item in items if item.get("verified")),
+        "section_counts": section_counts,
+        "items": section_items,
+        "note": (
+            "Token-light restaurant slice for synthesis. Items included here have verified:true, "
+            "which means pre-fetch found a Berlin Google Maps listing and no closed status. "
+            "Do not recommend unverified restaurants."
+        ),
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Slim inbox JSON for Cursor synthesis")
     parser.add_argument("--type", default="news", help="Briefing type (default: news)")
@@ -309,6 +418,8 @@ def main() -> int:
 
     if args.type == "berlin-culture":
         payload = build_culture_synthesis_inbox(raw, sources_cfg=sources_cfg, topics_cfg=topics_cfg)
+    elif args.type == "berlin-restaurants":
+        payload = build_restaurant_synthesis_inbox(raw, topics_cfg=topics_cfg)
     else:
         payload = build_news_synthesis_inbox(raw, sources_cfg=sources_cfg, topics_cfg=topics_cfg)
 
@@ -318,6 +429,12 @@ def main() -> int:
         log(
             f"Wrote {out_path} — {payload['raw_item_count']} raw → "
             f"{len(payload['items'])} culture items ({counts})"
+        )
+    elif args.type == "berlin-restaurants":
+        log(
+            f"Wrote {out_path} — {payload['raw_item_count']} raw / "
+            f"{payload['verified_count']} verified → {len(payload['items'])} restaurant candidates "
+            f"({counts})"
         )
     else:
         log(

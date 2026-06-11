@@ -1,0 +1,102 @@
+allowed_domains:
+  # Google Maps / local profile verification
+  - google.com
+  - google.de
+  - maps.google.com
+
+  # Berlin food/culture publications and roundups
+  - tip-berlin.de
+  - mitvergnuegen.com
+  - ceecee.cc
+  - the-berliner.com
+  - exberliner.com
+  - stilinberlin.de
+  - berlinfoodstories.com
+  - cremeguides.com
+  - top10berlin.de
+  - qiez.de
+  - visitberlin.de
+
+  # Restaurant discovery/reference
+  - michelin.com
+  - guide.michelin.com
+  - falstaff.com
+  - gastroguide.de
+  - speisekarte.de
+  - tripadvisor.de
+  - foursquare.com
+  - restaurantguru.com
+  - happycow.net
+
+blocklist_domains:
+  - facebook.com
+  - instagram.com
+  - tiktok.com
+  - deliveryhero.com
+  - lieferando.de
+
+source_priorities:
+  regional_chinese:
+    - google.com
+    - google.de
+    - berlinfoodstories.com
+    - tip-berlin.de
+    - mitvergnuegen.com
+  southeast_asian:
+    - google.com
+    - google.de
+    - berlinfoodstories.com
+    - tip-berlin.de
+    - ceecee.cc
+  turkish_middle_eastern_caucasus:
+    - google.com
+    - google.de
+    - tip-berlin.de
+    - mitvergnuegen.com
+    - qiez.de
+  mediterranean_european:
+    - google.com
+    - google.de
+    - tip-berlin.de
+    - cremeguides.com
+    - stilinberlin.de
+  specialist_neighborhood:
+    - google.com
+    - google.de
+    - berlinfoodstories.com
+    - ceecee.cc
+    - mitvergnuegen.com
+  fine_dining:
+    - google.com
+    - google.de
+    - guide.michelin.com
+    - michelin.com
+    - falstaff.com
+
+google_maps_status_terms:
+  include_if_seen:
+    - open
+    - hours
+    - address in Berlin
+    - reviews
+  exclude_if_seen:
+    - permanently closed
+    - temporarily closed
+    - closed
+    - moved outside Berlin
+    - no Google Maps listing found
+
+neighborhoods_to_diversify:
+  - Neukolln
+  - Kreuzberg
+  - Wedding
+  - Charlottenburg
+  - Wilmersdorf
+  - Schoneberg
+  - Friedrichshain
+  - Prenzlauer Berg
+  - Moabit
+  - Tiergarten
+  - Tempelhof
+  - Reinickendorf
+  - Steglitz
