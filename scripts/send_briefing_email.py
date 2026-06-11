@@ -35,15 +35,43 @@ CULTURE_SECTION_EMOJI: dict[str, str] = {
     "Advance Radar": "📡",
 }
 
-CULTURE_FIELD_EMOJI: dict[str, str] = {
+CULTURE_META_FIELDS: dict[str, str] = {
     "Venue": "📍",
     "Date(s)": "🗓️",
     "Time(s)": "⏰",
-    "Short Context": "🧠",
 }
 
-LINK_STYLE = "color:#2563eb;text-decoration:none;"
-TITLE_LINK_STYLE = "color:#1d4ed8;text-decoration:none;"
+# Culture palette: body darkest, meta/callout/footer stepped down — all dark gray for readability.
+CULTURE_COLOR_BODY = "#1a1a1a"
+CULTURE_COLOR_META = "#52525b"
+CULTURE_COLOR_CALLOUT = "#3f3f46"
+CULTURE_COLOR_LABEL = "#57534e"
+CULTURE_COLOR_FOOTER = "#6b7280"
+CULTURE_COLOR_BORDER = "#9ca3af"
+
+CULTURE_LINK_STYLE = (
+    f"color:{CULTURE_COLOR_BODY};text-decoration:underline;text-underline-offset:2px;"
+)
+CULTURE_TITLE_LINK_STYLE = (
+    "color:#111111;text-decoration:underline;text-underline-offset:3px;"
+)
+CULTURE_META_STYLE = (
+    f"margin:0 0 6px;padding:0;font-size:14px;color:{CULTURE_COLOR_META};line-height:1.5;"
+)
+CULTURE_CONTEXT_STYLE = (
+    f"margin:12px 0 0;padding:0;font-size:16px;color:{CULTURE_COLOR_BODY};line-height:1.65;"
+)
+CULTURE_FOOTER_TEXT = "Sent by AI with love from Berlin."
+CULTURE_WHY_CALLOUT_STYLE = (
+    "margin:14px 0 0;padding:10px 14px;background:#f4f4f5;"
+    f"border-left:3px solid {CULTURE_COLOR_BORDER};border-radius:4px;"
+    f"font-size:14px;color:{CULTURE_COLOR_CALLOUT};line-height:1.55;"
+)
+CULTURE_WHY_LABEL_STYLE = f"font-size:12px;font-weight:600;color:{CULTURE_COLOR_LABEL};"
+CULTURE_WHY_MINIMAL_STYLE = (
+    f"margin:14px 0 0;padding:0;font-size:14px;color:{CULTURE_COLOR_CALLOUT};"
+    "line-height:1.55;font-style:italic;"
+)
 
 CULTURE_FIELD_RE = re.compile(r"^\*\*(.+?):\*\*\s*(.*)")
 CULTURE_LINK_RE = re.compile(r"\[([^\]]*)\]\(([^)]+)\)")
@@ -87,9 +115,18 @@ hr {
   line-height: 1.5;
 }
 .footnotes p { margin: 0 0 6px; }
-.culture-meta { margin: 0 0 16px; padding: 0; list-style: none; }
-.culture-meta li { margin: 0 0 8px; padding: 0; }
+.culture-meta { margin: 0 0 0; padding: 0; list-style: none; }
+.culture-meta li { margin: 0 0 6px; padding: 0; }
 .culture-entry { margin: 0 0 8px; }
+.culture-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e8e8e8;
+  text-align: center;
+  font-size: 13px;
+  color: #6b7280;
+  font-style: italic;
+}
 """
 
 H1_STYLE = (
@@ -463,7 +500,7 @@ def _parse_official_url(value: str) -> str | None:
     return None
 
 
-def _email_link(text: str, url: str, *, style: str = LINK_STYLE) -> str:
+def _email_link(text: str, url: str, *, style: str = CULTURE_LINK_STYLE) -> str:
     return f'<a href="{url}" style="{style}">{text}</a>'
 
 
@@ -473,17 +510,34 @@ def _google_maps_url(venue: str) -> str:
 
 
 def _culture_meta_line(
-    emoji: str, content: str, footnotes: dict[str, tuple[str, str]]
+    emoji: str, content: str, footnotes: dict[str, tuple[str, str]], *, linked: str | None = None
 ) -> str:
-    body = format_story_body(content, footnotes)
-    return f'<li style="margin:0 0 8px;padding:0;">{emoji} {body}</li>'
+    body = linked if linked is not None else format_story_body(content, footnotes)
+    return f'<li style="{CULTURE_META_STYLE}">{emoji} {body}</li>'
 
 
 def _culture_venue_line(venue: str, footnotes: dict[str, tuple[str, str]]) -> str:
     label = format_story_body(venue, footnotes)
     maps_url = _google_maps_url(venue)
     linked = _email_link(label, maps_url)
-    return f'<li style="margin:0 0 8px;padding:0;">📍 {linked}</li>'
+    return _culture_meta_line("📍", venue, footnotes, linked=linked)
+
+
+def _culture_why_html(
+    why: str, footnotes: dict[str, tuple[str, str]], *, style: str
+) -> str:
+    body = format_story_body(why, footnotes)
+    if style == "minimal":
+        return (
+            f'<p style="{CULTURE_WHY_MINIMAL_STYLE}">'
+            f'<span style="font-style:normal;font-weight:600;color:{CULTURE_COLOR_LABEL};">'
+            f"Why it fits · </span>{body}</p>"
+        )
+    return (
+        f'<div style="{CULTURE_WHY_CALLOUT_STYLE}">'
+        f'<div style="{CULTURE_WHY_LABEL_STYLE}">WHY IT FITS</div>'
+        f"<div style=\"margin:4px 0 0;\">{body}</div></div>"
+    )
 
 
 def render_culture_entry_html(
@@ -491,22 +545,23 @@ def render_culture_entry_html(
     *,
     number: int | None,
     footnotes: dict[str, tuple[str, str]],
+    why_style: str = "callout",
 ) -> str:
     title = format_story_body(entry.title, footnotes)
     official_url = _parse_official_url(entry.fields.get("Official Link", ""))
     if official_url:
-        title = _email_link(title, official_url, style=TITLE_LINK_STYLE)
+        title = _email_link(title, official_url, style=CULTURE_TITLE_LINK_STYLE)
 
     prefix = f"{number}. " if number is not None else ""
     heading = f"{prefix}{title}"
 
     parts = [
-        f'<div class="culture-entry" style="margin:0 0 8px;">',
+        '<div class="culture-entry" style="margin:0 0 8px;">',
         f'<h3 style="{H3_STYLE}">{heading}</h3>',
-        '<ul class="culture-meta" style="margin:0 0 16px;padding:0;list-style:none;">',
+        '<ul class="culture-meta" style="margin:0;padding:0;list-style:none;">',
     ]
 
-    for field_name, emoji in CULTURE_FIELD_EMOJI.items():
+    for field_name, emoji in CULTURE_META_FIELDS.items():
         value = entry.fields.get(field_name, "").strip()
         if not value:
             continue
@@ -515,19 +570,30 @@ def render_culture_entry_html(
         else:
             parts.append(_culture_meta_line(emoji, value, footnotes))
 
+    parts.append("</ul>")
+
+    context = entry.fields.get("Short Context", "").strip()
+    if context:
+        body = format_story_body(context, footnotes)
+        parts.append(f'<p style="{CULTURE_CONTEXT_STYLE}">{body}</p>')
+
     why = entry.fields.get("Why It Fits", "").strip()
     if why:
-        body = format_story_body(why, footnotes)
-        parts.append(
-            f'<li style="margin:0 0 8px;padding:0;">'
-            f"<strong>Why it fits:</strong> {body}</li>"
-        )
+        parts.append(_culture_why_html(why, footnotes, style=why_style))
 
-    parts.extend(["</ul>", "</div>"])
+    parts.append("</div>")
     return "\n".join(parts)
 
 
-def render_culture_body_html(md_text: str) -> str:
+def render_culture_footer_html() -> str:
+    return (
+        f'<div class="culture-footer" style="margin-top:40px;padding-top:20px;'
+        f'border-top:1px solid #e8e8e8;text-align:center;font-size:13px;'
+        f'color:{CULTURE_COLOR_FOOTER};font-style:italic;">{CULTURE_FOOTER_TEXT}</div>'
+    )
+
+
+def render_culture_body_html(md_text: str, *, why_style: str = "callout") -> str:
     footnotes = parse_footnotes(md_text)
     title, intro, sections = parse_culture_briefing(md_text)
     hr = f'<hr style="{HR_STYLE}" />'
@@ -563,15 +629,20 @@ def render_culture_body_html(md_text: str) -> str:
                 number = item_number
 
             parts.append(
-                render_culture_entry_html(entry, number=number, footnotes=footnotes)
+                render_culture_entry_html(
+                    entry, number=number, footnotes=footnotes, why_style=why_style
+                )
             )
 
+    parts.append(render_culture_footer_html())
     return "\n".join(parts)
 
 
-def render_culture_html(md_text: str, *, preheader_section: str = "Top Picks") -> str:
+def render_culture_html(
+    md_text: str, *, preheader_section: str = "Top Picks", why_style: str = "callout"
+) -> str:
     preheader = extract_preheader(md_text, section_name=preheader_section)
-    body_html = render_culture_body_html(md_text)
+    body_html = render_culture_body_html(md_text, why_style=why_style)
     _, footnotes_md = split_footnotes(md_text)
     footnotes_html = render_footnotes_html(footnotes_md)
     preheader_html = render_preheader_html(preheader)
@@ -599,9 +670,14 @@ def render_html(
     use_callouts: bool = True,
     preheader_section: str = "What Matters Today",
     briefing_type: str | None = None,
+    culture_why_style: str = "callout",
 ) -> str:
     if briefing_type == "berlin-culture":
-        return render_culture_html(md_text, preheader_section=preheader_section)
+        return render_culture_html(
+            md_text,
+            preheader_section=preheader_section,
+            why_style=culture_why_style,
+        )
     footnotes = parse_footnotes(md_text)
     body_md, footnotes_md = split_footnotes(md_text)
     body_md = normalize_horizontal_rules(body_md)
@@ -744,20 +820,38 @@ def main() -> int:
 
         if args.dry_run:
             previews: list[Path] = []
-            for use_callouts in callout_modes if args.compare else callout_modes:
-                suffix = ".preview-callouts" if use_callouts else ".preview"
-                html = render_html(
-                    md_text,
-                    use_callouts=use_callouts,
-                    preheader_section=preheader_section,
-                    briefing_type=type_id,
-                )
-                preview = briefing_path.parent / f"{briefing_path.stem}{suffix}.html"
-                preview.write_text(html, encoding="utf-8")
-                previews.append(preview)
-                label = "callout boxes" if use_callouts else "plain"
-                print(f"Wrote {label} preview: {preview}")
-                print(f"  file://{preview.resolve()}")
+            if type_id == "berlin-culture":
+                culture_variants: list[tuple[str, str, str]] = [("callout", ".preview", "callout why-it-fits")]
+                if args.compare:
+                    culture_variants.append(("minimal", ".preview-minimal", "minimal why-it-fits"))
+                for why_style, suffix, label in culture_variants:
+                    html = render_html(
+                        md_text,
+                        use_callouts=use_callouts,
+                        preheader_section=preheader_section,
+                        briefing_type=type_id,
+                        culture_why_style=why_style,
+                    )
+                    preview = briefing_path.parent / f"{briefing_path.stem}{suffix}.html"
+                    preview.write_text(html, encoding="utf-8")
+                    previews.append(preview)
+                    print(f"Wrote {label} preview: {preview}")
+                    print(f"  file://{preview.resolve()}")
+            else:
+                for use_callouts in callout_modes if args.compare else callout_modes:
+                    suffix = ".preview-callouts" if use_callouts else ".preview"
+                    html = render_html(
+                        md_text,
+                        use_callouts=use_callouts,
+                        preheader_section=preheader_section,
+                        briefing_type=type_id,
+                    )
+                    preview = briefing_path.parent / f"{briefing_path.stem}{suffix}.html"
+                    preview.write_text(html, encoding="utf-8")
+                    previews.append(preview)
+                    label = "callout boxes" if use_callouts else "plain"
+                    print(f"Wrote {label} preview: {preview}")
+                    print(f"  file://{preview.resolve()}")
 
             if args.open:
                 import subprocess
