@@ -38,7 +38,7 @@ From the synthesis inbox:
 
 1. Include only items with `"verified": true`.
 2. Exclude candidates whose Google Maps fields suggest ambiguity, closure, relocation outside Berlin, or non-Berlin location.
-3. Apply anti-repetition using `restaurants_index.md`; avoid repeating restaurants from the last 12 weeks unless there is a material reason.
+3. Apply anti-repetition using `restaurants_index.md`; avoid repeating restaurants from the last **10 weekly briefings** unless there is a material reason. Repeats after 10 weeks are fine.
 4. Select mostly affordable and mid-range restaurants. Include at most one fine dining item.
 5. Diversify neighborhoods. Avoid more than two final recommendations from the same neighborhood unless the candidate pool makes that unavoidable.
 6. Prioritize clear culinary identity, strong value, regional specificity, technical execution, and flavor over hype.
@@ -54,11 +54,16 @@ Use the exact per-entry format from the style rule:
 
 Add `(good value)` or `(potentially overpriced)` only when the candidate has that exact `value_label`.
 
+After each `###` heading, add email metadata from the inbox item (omit lines when null):
+- `**Hours:**` from `google_maps_hours_compact`
+- `**Rating:**` from `google_maps_rating` and `google_maps_review_count` (format `4.5 (412)`)
+- `**Maps:**` from `google_maps_url`
+
 End with `### This week's strongest bets` and choose three from the current briefing.
 
 ## Step 3 — Update state
 
-1. Append included restaurants to `state/berlin-restaurants/restaurants_index.md`; trim entries older than 12 weeks.
+1. Append included restaurants to `state/berlin-restaurants/restaurants_index.md`; trim entries older than 10 weeks.
 2. Update `state/berlin-restaurants/last_run.json` with `briefing_type`, date, paths, counts, and selected restaurant names.
 
 ## Step 4 — Commit and push

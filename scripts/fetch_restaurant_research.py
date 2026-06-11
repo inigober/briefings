@@ -70,6 +70,9 @@ RESTAURANT_ITEM_SCHEMA = {
         "google_maps_name": {"type": "string"},
         "google_maps_url": {"type": "string"},
         "google_maps_address": {"type": "string"},
+        "google_maps_rating": {"type": ["number", "null"]},
+        "google_maps_review_count": {"type": ["integer", "null"]},
+        "google_maps_hours_compact": {"type": ["string", "null"]},
         "exists_in_berlin": {"type": "boolean"},
         "permanently_closed": {"type": "boolean"},
         "temporarily_closed": {"type": "boolean"},
@@ -93,6 +96,9 @@ RESTAURANT_ITEM_SCHEMA = {
         "google_maps_name",
         "google_maps_url",
         "google_maps_address",
+        "google_maps_rating",
+        "google_maps_review_count",
+        "google_maps_hours_compact",
         "exists_in_berlin",
         "permanently_closed",
         "temporarily_closed",
@@ -192,6 +198,11 @@ Only return candidates where:
 - Google Maps does not mark it temporarily closed
 
 If Google Maps is ambiguous, missing, says closed, or suggests the restaurant relocated outside Berlin, exclude the restaurant entirely. Do not rely on old press, Michelin, social media, websites, or prior knowledge when Google Maps contradicts them.
+
+For every verified candidate, also copy from Google Maps when visible:
+- google_maps_rating: star rating as a number (e.g. 4.5), or null if missing
+- google_maps_review_count: integer review count, or null if missing
+- google_maps_hours_compact: one-line opening hours in compact form (e.g. "Tue–Sun 12:00–22:00 (closed Mon)"), or null if unavailable
 
 ## Candidate quality rules
 - Prefer restaurants with clear culinary identity, specialization, strong value, technical competence, or regional authenticity

@@ -92,6 +92,7 @@ preferences:
 
 rules:
   max_fine_dining_items: 1
+  repeat_briefings_soft_limit: 10
   neighborhood_diversity: >
     Avoid more than two final recommendations from the same neighborhood unless
     there is a strong editorial reason.

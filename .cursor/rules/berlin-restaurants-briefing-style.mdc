@@ -63,10 +63,18 @@ Short introductory paragraph summarizing the week's theme.
 
 ### Restaurant Name — Neighborhood — € / €€ / €€€ / €€€€
 
+**Hours:** Tue–Sun 12:00–22:00 (closed Mon)
+
+**Rating:** 4.5 (412)
+
+**Maps:** https://maps.google.com/...
+
 Critical assessment paragraph.
 ```
 
-Use one paragraph per restaurant entry. Do not include address, phone, web link, or Google Maps metadata in the published briefing unless there is a specific editorial reason.
+Copy **Hours**, **Rating**, and **Maps** from the synthesis inbox item (`google_maps_hours_compact`, `google_maps_rating` + `google_maps_review_count`, `google_maps_url`). Omit a line only when the inbox value is null or missing. Rating format: `4.5 (412)` when review count is known, else `4.5`. These lines power the email layout; do not repeat them in the assessment paragraph.
+
+Use one critical assessment paragraph per restaurant entry. Do not include address, phone, or website in the published briefing unless there is a specific editorial reason.
 
 ## Pricing
 
@@ -164,9 +172,9 @@ Pick the three strongest restaurants from the current briefing, not generic favo
 
 ## Anti-Repetition
 
-Read `state/berlin-restaurants/restaurants_index.md` and the last 4 `briefings/berlin-restaurants/*.md` files. Avoid repeating recently covered restaurants unless there is a material reason.
+Read `state/berlin-restaurants/restaurants_index.md` and the last 4 `briefings/berlin-restaurants/*.md` files. Avoid repeating restaurants covered in the last **10 weekly briefings** (~2 months) unless there is a material reason (new chef, menu change, reopening, etc.). After 10 weeks, a repeat is acceptable.
 
-After writing: append included restaurants to `restaurants_index.md`; trim entries older than 12 weeks.
+After writing: append included restaurants to `restaurants_index.md`; trim entries older than 10 weeks.
 
 ## Commits
 

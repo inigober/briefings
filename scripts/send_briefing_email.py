@@ -76,6 +76,23 @@ CULTURE_WHY_MINIMAL_STYLE = (
 CULTURE_FIELD_RE = re.compile(r"^\*\*(.+?):\*\*\s*(.*)")
 CULTURE_LINK_RE = re.compile(r"\[([^\]]*)\]\(([^)]+)\)")
 
+RESTAURANT_ENTRY_RE = re.compile(
+    r"^###\s+(.+?)\s+—\s+(.+?)\s+—\s+(€+|€€+|€€€+|€€€€+)"
+    r"(?:\s+\((good value|potentially overpriced)\))?$"
+)
+RESTAURANT_STRONGEST_BETS = "This week's strongest bets"
+RESTAURANT_META_FIELDS = ("Hours", "Rating", "Maps")
+RESTAURANT_FOOTER_TEXT = "Sent by AI with love from Berlin."
+RESTAURANT_TITLE_LINK_STYLE = (
+    "color:#111111;text-decoration:underline;text-underline-offset:3px;"
+)
+RESTAURANT_META_STYLE = (
+    f"margin:0 0 10px;padding:0;font-size:14px;color:{CULTURE_COLOR_META};line-height:1.5;"
+)
+RESTAURANT_BODY_STYLE = (
+    f"margin:0;padding:0;font-size:16px;color:{CULTURE_COLOR_BODY};line-height:1.65;"
+)
+
 EMAIL_CSS = """
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -119,6 +136,16 @@ hr {
 .culture-meta li { margin: 0 0 6px; padding: 0; }
 .culture-entry { margin: 0 0 8px; }
 .culture-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e8e8e8;
+  text-align: center;
+  font-size: 13px;
+  color: #6b7280;
+  font-style: italic;
+}
+.restaurant-entry { margin: 0 0 8px; }
+.restaurant-footer {
   margin-top: 40px;
   padding-top: 20px;
   border-top: 1px solid #e8e8e8;
@@ -643,6 +670,248 @@ def render_culture_body_html(md_text: str, *, why_style: str = "callout") -> str
     return "\n".join(parts)
 
 
+@dataclass
+class RestaurantEntry:
+    name: str
+    neighborhood: str
+    price_tier: str
+    value_label: str | None = None
+    fields: dict[str, str] = field(default_factory=dict)
+    body_paragraphs: list[str] = field(default_factory=list)
+
+
+@dataclass
+class RestaurantBriefing:
+    title: str
+    intro: list[str] = field(default_factory=list)
+    entries: list[RestaurantEntry] = field(default_factory=list)
+    strongest_bets_intro: str = ""
+    strongest_bets: list[str] = field(default_factory=list)
+
+
+def parse_restaurant_briefing(md_text: str) -> RestaurantBriefing:
+    """Parse restaurant markdown into title, intro, entries, and strongest bets."""
+    body_md, _ = split_footnotes(md_text)
+    briefing = RestaurantBriefing(title="")
+    current_entry: RestaurantEntry | None = None
+    past_title = False
+    in_strongest_bets = False
+
+    for line in body_md.splitlines():
+        stripped = line.strip()
+        if not stripped or stripped == "---":
+            continue
+
+        if stripped.startswith("# ") and not stripped.startswith("## "):
+            briefing.title = stripped[2:].strip()
+            past_title = True
+            continue
+
+        if stripped.startswith("## "):
+            continue
+
+        entry_match = RESTAURANT_ENTRY_RE.match(stripped)
+        if entry_match:
+            in_strongest_bets = False
+            current_entry = RestaurantEntry(
+                name=entry_match.group(1).strip(),
+                neighborhood=entry_match.group(2).strip(),
+                price_tier=entry_match.group(3).strip(),
+                value_label=entry_match.group(4),
+            )
+            briefing.entries.append(current_entry)
+            continue
+
+        if stripped.startswith("### ") and RESTAURANT_STRONGEST_BETS in stripped:
+            in_strongest_bets = True
+            current_entry = None
+            continue
+
+        field_match = CULTURE_FIELD_RE.match(stripped)
+        if field_match and current_entry is not None:
+            field_name = field_match.group(1).strip()
+            if field_name in RESTAURANT_META_FIELDS:
+                current_entry.fields[field_name] = field_match.group(2).strip()
+            continue
+
+        if in_strongest_bets:
+            list_match = re.match(r"^\d+\.\s+(.+)", stripped)
+            if list_match:
+                briefing.strongest_bets.append(list_match.group(1).strip())
+            elif not briefing.strongest_bets:
+                briefing.strongest_bets_intro = stripped
+            continue
+
+        if current_entry is not None:
+            current_entry.body_paragraphs.append(stripped)
+            continue
+
+        if past_title:
+            briefing.intro.append(stripped)
+
+    return briefing
+
+
+def _split_restaurant_title(title: str) -> tuple[str, str | None]:
+    marker = " — Week of "
+    if marker in title:
+        main, week = title.split(marker, 1)
+        return main.strip(), f"Week of {week.strip()}"
+    return title, None
+
+
+def render_restaurant_title_html(title: str) -> str:
+    main, week = _split_restaurant_title(title)
+    parts = [f'<h1 style="{H1_STYLE}">', f'<span style="display:block;">{main}</span>']
+    if week:
+        week_style = (
+            "display:block;font-size:20px;font-weight:600;margin-top:8px;"
+            "color:#444444;line-height:1.3;"
+        )
+        parts.append(f'<span style="{week_style}">{week}</span>')
+    parts.append("</h1>")
+    return "".join(parts)
+
+
+def _restaurant_maps_url(entry: RestaurantEntry) -> str:
+    maps_value = entry.fields.get("Maps", "").strip()
+    if maps_value:
+        parsed = _parse_official_url(maps_value)
+        if parsed:
+            return parsed
+        if maps_value.startswith("http"):
+            return maps_value
+    return _google_maps_url(f"{entry.name}, {entry.neighborhood}")
+
+
+def _format_restaurant_rating(value: str) -> str:
+    match = re.search(r"(\d+\.?\d*)", value)
+    if not match:
+        return value
+    rating = match.group(1)
+    reviews = re.search(r"\((\d+)\)", value)
+    if reviews:
+        return f"⭐ {rating} · {reviews.group(1)} reviews"
+    return f"⭐ {rating}"
+
+
+def _restaurant_location_line_html(
+    entry: RestaurantEntry, *, maps_url: str, footnotes: dict[str, tuple[str, str]]
+) -> str:
+    chunks: list[str] = []
+    linked_hood = _email_link(entry.neighborhood, maps_url, style=RESTAURANT_TITLE_LINK_STYLE)
+    chunks.append(f"📍 {linked_hood}")
+    price = entry.price_tier
+    if entry.value_label:
+        price = f"{price} ({entry.value_label})"
+    chunks.append(price)
+    rating = entry.fields.get("Rating", "").strip()
+    if rating:
+        chunks.append(_format_restaurant_rating(rating))
+    return f'<p style="{RESTAURANT_META_STYLE}">{" · ".join(chunks)}</p>'
+
+
+def _restaurant_hours_line_html(
+    entry: RestaurantEntry, footnotes: dict[str, tuple[str, str]]
+) -> str:
+    hours = entry.fields.get("Hours", "").strip()
+    if not hours:
+        return ""
+    body = format_story_body(hours, footnotes)
+    return f'<p style="{RESTAURANT_META_STYLE}">🕐 {body}</p>'
+
+
+def render_restaurant_entry_html(
+    entry: RestaurantEntry, *, footnotes: dict[str, tuple[str, str]]
+) -> str:
+    maps_url = _restaurant_maps_url(entry)
+
+    parts = [
+        '<div class="restaurant-entry" style="margin:0 0 8px;">',
+        f'<h3 style="{H3_STYLE}">{entry.name}</h3>',
+        _restaurant_location_line_html(entry, maps_url=maps_url, footnotes=footnotes),
+    ]
+    hours_line = _restaurant_hours_line_html(entry, footnotes)
+    if hours_line:
+        parts.append(hours_line)
+    for paragraph in entry.body_paragraphs:
+        body = format_story_body(paragraph, footnotes)
+        parts.append(f'<p style="{RESTAURANT_BODY_STYLE}">{body}</p>')
+    parts.append("</div>")
+    return "\n".join(parts)
+
+
+def render_restaurant_footer_html() -> str:
+    return (
+        f'<div class="restaurant-footer" style="margin-top:40px;padding-top:20px;'
+        f'border-top:1px solid #e8e8e8;text-align:center;font-size:13px;'
+        f'color:{CULTURE_COLOR_FOOTER};font-style:italic;">{RESTAURANT_FOOTER_TEXT}</div>'
+    )
+
+
+def render_restaurant_body_html(md_text: str) -> str:
+    footnotes = parse_footnotes(md_text)
+    briefing = parse_restaurant_briefing(md_text)
+    hr = f'<hr style="{HR_STYLE}" />'
+    parts: list[str] = []
+
+    if briefing.title:
+        parts.append(render_restaurant_title_html(briefing.title))
+
+    for paragraph in briefing.intro:
+        body = format_story_body(paragraph, footnotes)
+        parts.append(f'<p style="margin:0 0 16px;">{body}</p>')
+
+    if briefing.intro:
+        parts.append(hr)
+
+    for entry_index, entry in enumerate(briefing.entries):
+        if entry_index > 0:
+            parts.append(hr)
+        parts.append(render_restaurant_entry_html(entry, footnotes=footnotes))
+
+    if briefing.strongest_bets:
+        parts.append(hr)
+        parts.append(f'<h3 style="{H3_STYLE}">🏆 {RESTAURANT_STRONGEST_BETS}</h3>')
+        if briefing.strongest_bets_intro:
+            intro_body = format_story_body(briefing.strongest_bets_intro, footnotes)
+            parts.append(f'<p style="margin:0 0 12px;">{intro_body}</p>')
+        items = "".join(
+            f'<li style="margin:0 0 10px;">{format_story_body(bet, footnotes)}</li>'
+            for bet in briefing.strongest_bets
+        )
+        parts.append(
+            f'<ol style="margin:0 0 20px;padding-left:20px;color:{CULTURE_COLOR_BODY};">{items}</ol>'
+        )
+
+    parts.append(render_restaurant_footer_html())
+    return "\n".join(parts)
+
+
+def render_restaurant_html(md_text: str, *, preheader_section: str = "This week's strongest bets") -> str:
+    preheader = extract_preheader(md_text, section_name=preheader_section)
+    body_html = render_restaurant_body_html(md_text)
+    _, footnotes_md = split_footnotes(md_text)
+    footnotes_html = render_footnotes_html(footnotes_md)
+    preheader_html = render_preheader_html(preheader)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="supported-color-schemes" content="light">
+  <style>{EMAIL_CSS}</style>
+</head>
+<body>
+{preheader_html}
+{body_html}
+{footnotes_html}
+</body>
+</html>"""
+
+
 def render_culture_html(
     md_text: str, *, preheader_section: str = "Top Picks", why_style: str = "callout"
 ) -> str:
@@ -683,6 +952,8 @@ def render_html(
             preheader_section=preheader_section,
             why_style=culture_why_style,
         )
+    if briefing_type == "berlin-restaurants":
+        return render_restaurant_html(md_text, preheader_section=preheader_section)
     footnotes = parse_footnotes(md_text)
     body_md, footnotes_md = split_footnotes(md_text)
     body_md = normalize_horizontal_rules(body_md)
@@ -842,6 +1113,18 @@ def main() -> int:
                     previews.append(preview)
                     print(f"Wrote {label} preview: {preview}")
                     print(f"  file://{preview.resolve()}")
+            elif type_id == "berlin-restaurants":
+                html = render_html(
+                    md_text,
+                    use_callouts=use_callouts,
+                    preheader_section=preheader_section,
+                    briefing_type=type_id,
+                )
+                preview = briefing_path.parent / f"{briefing_path.stem}.preview.html"
+                preview.write_text(html, encoding="utf-8")
+                previews.append(preview)
+                print(f"Wrote restaurant preview: {preview}")
+                print(f"  file://{preview.resolve()}")
             else:
                 for use_callouts in callout_modes if args.compare else callout_modes:
                     suffix = ".preview-callouts" if use_callouts else ".preview"
