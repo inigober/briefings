@@ -4,6 +4,17 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 <!-- Format: YYYY-MM-DD | name | neighborhood | google_maps_url -->
 
+## 2026-06-18
+
+- Liu Nudelhaus (Mitte)
+- Chuan Garden 川园 (Mitte)
+- Da Jia Le (Schöneberg)
+- Chungking Noodles (Kreuzberg)
+- Pamfilya (Wedding)
+- Ägäis (Neukölln)
+- Big Bascha (Moabit)
+- Adana Grillhaus (Kreuzberg)
+
 ## 2026-06-11
 
 - Khao Taan (Friedrichshain)

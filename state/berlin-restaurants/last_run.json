@@ -1,20 +1,20 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-06-11",
+  "date": "2026-06-18",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-06-11.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-06-11-synthesis.json",
+  "briefing_path": "briefings/berlin-restaurants/2026-06-18.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-06-18-synthesis.json",
   "verified_count": 12,
   "selected_count": 8,
   "selected_restaurants": [
-    "Khao Taan",
-    "Pagode Thai Kitchen",
-    "Hasir Ocakbaşı",
-    "Mira",
-    "Dao by Meo",
-    "Sara & Gogi",
-    "SimSim Levantine Eatery",
-    "Mae Charoen"
+    "Liu Nudelhaus",
+    "Chuan Garden 川园",
+    "Da Jia Le",
+    "Chungking Noodles",
+    "Pamfilya",
+    "Ägäis",
+    "Big Bascha",
+    "Adana Grillhaus"
   ],
-  "notes": "First berlin-restaurants briefing. Verified pool was Thai-heavy (6) and Turkish/Middle Eastern/Caucasus (6); no regional Chinese, Mediterranean, specialist-neighborhood, or fine-dining candidates in inbox. Excluded Boii Boii (€€€, third Kreuzberg slot), Kinnaree Thai, Defne, and Tsomi for neighborhood and cuisine diversity."
+  "notes": "Verified pool was regional Chinese (6) and Turkish/Middle Eastern/Caucasus (6); southeast Asian section returned zero verified candidates after budget-limited prefetch. Excluded Ming Dynastie and The Tree to cap Mitte at two entries; excluded Lahmacun Kebab Haus to avoid a third Wedding slot; excluded Fes Turkish BBQ for experience-over-technique profile. No repeats from 2026-06-11 briefing."
 }
