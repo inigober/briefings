@@ -18,6 +18,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 from briefing_paths import load_briefing_type
 from fetch_openai_research import (
@@ -78,6 +79,69 @@ CULTURE_ITEM_SCHEMA = {
     "additionalProperties": False,
 }
 
+EVENT_PATH_KEYWORDS = (
+    "event",
+    "exhibition",
+    "exhibitions",
+    "stueck",
+    "festival",
+    "film-screening",
+    "programm",
+    "program",
+    "fair",
+    "konzert",
+    "concert",
+    "ticket",
+)
+
+VAGUE_SCHEDULE_MARKERS = ("tba", "various", "check website", "see website", "uhrzeit folgt", "time tbd")
+
+
+def is_deep_event_url(url: str) -> bool:
+    parsed = urlparse((url or "").strip())
+    if parsed.scheme not in ("http", "https"):
+        return False
+    path = parsed.path.lower().rstrip("/")
+    if not path:
+        return False
+    segments = [s for s in path.split("/") if s]
+    if not segments or segments in (["en"], ["de"]):
+        return False
+    if len(segments) == 1 and segments[0] in ("en", "de"):
+        return False
+    if any(kw in path for kw in EVENT_PATH_KEYWORDS):
+        return True
+    if len(segments) >= 3:
+        return True
+    if len(segments) >= 2 and any(ch.isdigit() for ch in segments[-1]):
+        return True
+    return False
+
+
+def has_concrete_schedule(dates: str, times: str, *, section_id: str) -> bool:
+    d = (dates or "").strip().lower()
+    t = (times or "").strip().lower()
+    if not d or any(m in d for m in VAGUE_SCHEDULE_MARKERS):
+        return False
+    if section_id == "exhibitions":
+        return True
+    if not t or any(m in t for m in VAGUE_SCHEDULE_MARKERS):
+        return False
+    return True
+
+
+def mark_item_verified(item: dict) -> None:
+    section_id = (item.get("topic_ids") or ["exhibitions"])[0]
+    item["verified"] = (
+        is_deep_event_url(item.get("official_url") or "")
+        and has_concrete_schedule(
+            item.get("dates") or "",
+            item.get("times") or "",
+            section_id=section_id,
+        )
+    )
+
+
 SECTION_RESULT_SCHEMA = {
     "type": "object",
     "properties": {
@@ -88,6 +152,22 @@ SECTION_RESULT_SCHEMA = {
     "required": ["items", "gaps", "search_notes"],
     "additionalProperties": False,
 }
+
+
+def normalize_tuesday_run_date(date_str: str) -> tuple[str, datetime]:
+    """Culture briefings use the Tuesday run date as the file key. Snap non-Tuesdays back."""
+    run_dt = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    if run_dt.weekday() != 1:
+        # Monday=0 … Sunday=6; distance back to previous Tuesday (never 0 here).
+        days_since_tuesday = (run_dt.weekday() - 1) % 7 or 7
+        snapped = run_dt - timedelta(days=days_since_tuesday)
+        log(
+            f"  Warning: {date_str} is not a Tuesday — using previous Tuesday "
+            f"{snapped.strftime('%Y-%m-%d')} for week window and file naming"
+        )
+        run_dt = snapped
+        date_str = run_dt.strftime("%Y-%m-%d")
+    return date_str, run_dt
 
 
 def culture_week_window(run_date: datetime) -> tuple[datetime, datetime]:
@@ -175,8 +255,9 @@ OR exhibitions that remain open through at least Wednesday of that week.
 Exclude events already finished before Wednesday.
 
 ## Output rules
-- official_url MUST be the venue/organizer/festival event page (never aggregators or social media)
+- official_url MUST be the **specific** event/exhibition page URL (never a venue homepage, aggregators, or social media)
 - Include artist names where applicable
+- dates and times must be concrete (not "TBA" or "check website") — synthesis trusts items with deep URLs + schedules
 - For exhibitions: note opening/closing dates; set closing_soon true if closing within 10 days
 - topic_ids MUST start with "{section_id}"
 - why_candidate: one sentence on thematic/artistic fit
@@ -257,11 +338,15 @@ def fetch_culture_section(
             )
 
     items = result.get("items") or []
+    verified_count = 0
     for item in items:
         tags = [t for t in (item.get("topic_ids") or []) if t != section_id]
         item["topic_ids"] = [section_id, *tags]
         item["ingestion_source"] = "openai"
-    log(f"  [{section_id}] done ({len(items)} items)")
+        mark_item_verified(item)
+        if item.get("verified"):
+            verified_count += 1
+    log(f"  [{section_id}] done ({len(items)} items, {verified_count} verified)")
     return section_id, result
 
 
@@ -273,7 +358,7 @@ def fetch_all_culture(
     sources_cfg: dict,
     spend_ledger: DailySpendLedger | None = None,
 ) -> dict:
-    run_dt = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    date_str, run_dt = normalize_tuesday_run_date(date_str)
     week_start, week_end = culture_week_window(run_dt)
     week_label = format_week_range(week_start, week_end)
 
@@ -352,11 +437,11 @@ def main() -> int:
 
     briefing = load_briefing_type(args.type)
     date_str = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    date_str, run_dt = normalize_tuesday_run_date(date_str)
     topics_cfg = load_yaml(briefing.topics_path)
     sources_cfg = load_yaml(briefing.sources_path)
     allowed = sources_cfg.get("allowed_domains") or []
 
-    run_dt = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
     week_start, week_end = culture_week_window(run_dt)
     week_label = format_week_range(week_start, week_end)
 

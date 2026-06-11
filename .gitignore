@@ -5,11 +5,12 @@ __pycache__/
 venv/
 .env
 .env.*
+!.env.example
 
 # Local previews
-briefings/*.preview.html
-briefings/*.preview-callouts.html
-briefings/_preview-sample.md
+briefings/**/*.preview.html
+briefings/**/*.preview-callouts.html
+briefings/**/_preview-sample.md
 inbox/*.error.txt
 
 # OS / editor

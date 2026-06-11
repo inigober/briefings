@@ -13,11 +13,16 @@ Single source of truth for the news briefing synthesis agent. Edit this file in 
 
 If this run was triggered by a git push to `main`:
 
-1. Inspect which files changed in the triggering push.
-2. If **no** file under `inbox/news/` was added or modified, **stop immediately** — log "No news inbox changes; skipping synthesis." and exit. Do not read files, write briefings, or commit.
-3. If `briefings/news/YYYY-MM-DD.md` already exists for today's UTC date **and** inbox was not updated in this push, stop.
+1. Inspect the **triggering commit only** (`git log -1 --name-only`, `git log -1 --format=%s`).
+2. Consider only research files: `inbox/news/YYYY-MM-DD-synthesis.json` or `inbox/news/YYYY-MM-DD-raw.json`. Ignore `*-rss.json`, `*-spend.json`, `*-spend-cap.error.txt`, `.gitkeep`.
+3. If **no** research file above was added or modified in this commit, **stop** — log "No news inbox research in this commit; skipping synthesis." Exit without reading or writing.
+4. Decide if this commit is a **fresh pre-fetch** (continue) or a **repo/test/migration commit** (stop):
+   - **Continue** if the commit message starts with `inbox/news:` (GitHub Actions pre-fetch uses this prefix).
+   - **Else continue** only if a changed `*-synthesis.json` has `built_at` within the **last 24 hours** (UTC).
+   - **Otherwise stop** — log "Inbox path changed but not a fresh pre-fetch; skipping synthesis."
+5. If `briefings/news/YYYY-MM-DD.md` already exists for the inbox file's date **and** no `*-synthesis.json` for that date was modified in this commit, stop.
 
-Only continue when fresh news inbox research was just committed.
+Only continue when step 4 confirms fresh research was just committed.
 
 ## Step 1 — Read context (minimal set)
 

@@ -1,5 +1,13 @@
 {
   "briefing_type": "berlin-culture",
-  "status": "pending",
-  "notes": "No culture briefing run yet."
+  "date": "2026-06-09",
+  "briefing_date": "2026-06-09",
+  "inbox_date": "2026-06-09",
+  "week_start": "2026-06-10",
+  "week_end": "2026-06-16",
+  "status": "success",
+  "briefing_path": "briefings/berlin-culture/2026-06-09.md",
+  "inbox_path": "inbox/berlin-culture/2026-06-09-synthesis.json",
+  "items_count": 19,
+  "notes": "Manual pipeline test — pre-fetch simulated from verified venue pages; synthesis verified key URLs."
 }

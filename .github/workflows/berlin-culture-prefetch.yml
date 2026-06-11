@@ -75,6 +75,7 @@ jobs:
           python scripts/slim_inbox_for_synthesis.py $ARGS
 
       - name: Commit inbox if changed
+        if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

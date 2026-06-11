@@ -147,6 +147,26 @@ Push guards in each `synthesis-run.md` ensure only the matching inbox change tri
 
 Synthesis is push-triggered (inbox commit). Optional backup crons on each automation if pre-fetch was missed.
 
+### Local OpenAI API key (safe setup)
+
+**A `.env` file in the repo is not a security risk** as long as it stays **local only**:
+
+| Safe | Unsafe |
+|------|--------|
+| `.env` on your Mac (listed in `.gitignore`) | Committing `.env` to git |
+| `cp .env.example .env` and paste your key | Pasting keys into tracked files (README, YAML, prompts) |
+| GitHub secret `OPENAI_API_KEY` for Actions | Sharing `.env` in Slack/email |
+
+```bash
+cp .env.example .env
+# Edit .env — add OPENAI_API_KEY=sk-...
+
+set -a && source .env && set +a
+python3 scripts/fetch_culture_research.py --type berlin-culture --date 2026-06-09
+```
+
+**PM analogy:** `.env` is like a sticky note on your desk — fine at home; never photocopy it into the employee handbook (the repo).
+
 ### Manual test
 
 ```bash

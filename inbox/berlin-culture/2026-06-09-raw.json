@@ -1,0 +1,411 @@
+{
+  "briefing_type": "berlin-culture",
+  "date": "2026-06-09",
+  "week_start": "2026-06-10",
+  "week_end": "2026-06-16",
+  "week_label": "June 10–16, 2026",
+  "fetched_at": "2026-06-11T07:54:20.048759+00:00",
+  "model": "gpt-4.1",
+  "items": [
+    {
+      "id": "afterlives_wolfkino",
+      "topic_ids": [
+        "film",
+        "politics",
+        "technology and power"
+      ],
+      "title": "AFTERLIVES by Kevin B. Lee",
+      "venue": "Wolf Kino",
+      "dates": "from 11 June 2026 onwards",
+      "times": "various, starting 11 June",
+      "artists": [
+        "Kevin B. Lee"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/archiv-distribution/kinostarts-und-programme/afterlives/",
+      "closing_soon": false,
+      "why_candidate": "A desktop documentary critically examining extremist propaganda’s visual legacy—highly relevant to political power, technology and memory.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "auslandsreise_arsenal",
+      "topic_ids": [
+        "film",
+        "identity",
+        "memory"
+      ],
+      "title": "Auslandsreise by Ted Fendt + discussion",
+      "venue": "Arsenal Filminstitut",
+      "dates": "4 May 2026 (repeated screenings potentially into June)",
+      "times": "20:30 (with post‑screening discussion)",
+      "artists": [
+        "Ted Fendt"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/kino/filmvorfuehrung/auslandsreise-5110/",
+      "closing_soon": false,
+      "why_candidate": "Contemporary German documentary with post‑screening discussion, engaging personal and societal narratives.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "erzählungen_arsenal",
+      "topic_ids": [
+        "film",
+        "memory",
+        "urbanism"
+      ],
+      "title": "Berlin Premiere: Erzählungen eines Kinogehers – Werner Dütsch",
+      "venue": "Arsenal Filminstitut",
+      "dates": "June 2026 (exact date per schedule)",
+      "times": "see venue schedule",
+      "artists": [
+        "Werner Dütsch"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/en/cinema/",
+      "closing_soon": false,
+      "why_candidate": "A Berlin premiere of a contemporary film exploring urban experience—aligns with socially engaged cinema.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "forum_friends_georgia",
+      "topic_ids": [
+        "film",
+        "geopolitics",
+        "diaspora"
+      ],
+      "title": "Forum & Friends VII: Georgia. Moments on the edge of the abyss",
+      "venue": "Arsenal Filminstitut",
+      "dates": "June 2026 (scheduled in June)",
+      "times": "see schedule",
+      "artists": [],
+      "official_url": "https://www.arsenal-berlin.de/en/cinema/",
+      "closing_soon": false,
+      "why_candidate": "A politically charged screening series focused on Georgia—addresses geopolitics and diaspora experience.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "condition_report15",
+      "topic_ids": [
+        "film",
+        "history",
+        "archives"
+      ],
+      "title": "Condition Report #15",
+      "venue": "Arsenal Filminstitut",
+      "dates": "June 2026 (as part of June program)",
+      "times": "see venue schedule",
+      "artists": [],
+      "official_url": "https://www.arsenal-berlin.de/en/cinema/",
+      "closing_soon": false,
+      "why_candidate": "Archival program recovering overlooked works—strongly tied to memory, archives, and experimental film forms.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "whats_underground_marshmallows",
+      "topic_ids": [
+        "film",
+        "politics",
+        "playfulness"
+      ],
+      "title": "What’s Underground About Marshmallows?",
+      "venue": "Arsenal Filminstitut",
+      "dates": "June 2026",
+      "times": "see venue schedule",
+      "artists": [],
+      "official_url": "https://www.arsenal-berlin.de/en/cinema/",
+      "closing_soon": false,
+      "why_candidate": "Experimental/essay film title suggests playful inquiry into hidden political or social meanings.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "tanztage-soft-pressure",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Abhishek Thapar: Soft Pressure (Working Title)",
+      "venue": "Sophiensæle – Kantine",
+      "dates": "Fri 12.06.2026, Sat 13.06.2026, Sun 14.06.2026",
+      "times": "Fri 16:00; Sat 11:00; Sun 11:00",
+      "artists": [
+        "Abhishek Thapar"
+      ],
+      "official_url": "https://sophiensaele.com/en/festival/tanztage-berlin-2026",
+      "closing_soon": false,
+      "why_candidate": "A WIP installation/performance probing labor, body and vulnerability—core to contemporary interdisciplinary performance and political embodiment.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "tanztage-reality-show",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "MEXA: Reality Show",
+      "venue": "Sophiensæle – Festsaal",
+      "dates": "Fri 12.06.2026, Sat 13.06.2026",
+      "times": "Fri 19:00; Sat 19:00",
+      "artists": [
+        "MEXA"
+      ],
+      "official_url": "https://sophiensaele.com/en/festival/tanztage-berlin-2026",
+      "closing_soon": false,
+      "why_candidate": "Deutscher premiere of a performance-theater piece likely engaging with mediated realities, aligning with experimental and hybrid approaches.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "tanztage-mob-to-king",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Liina Magnea: What’s a Mob to a King (Plot‑twist Redemption)",
+      "venue": "Sophiensæle – Hochzeitssaal",
+      "dates": "Fri 12.06.2026, Sat 13.06.2026, Sun 14.06.2026, Mon 15.06.2026",
+      "times": "Fri 21:30; Sat 21:30; Sun 19:00; Mon 19:00",
+      "artists": [
+        "Liina Magnea"
+      ],
+      "official_url": "https://sophiensaele.com/en/festival/tanztage-berlin-2026",
+      "closing_soon": false,
+      "why_candidate": "Premiering musical-theatre that likely interrogates power dynamics—fitting identity and political thematics via performative storytelling.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "jenrosenblit-everybodys-fantasy",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Jen Rosenblit: EveryBody’s Fantasy",
+      "venue": "Sophiensæle – Festsaal",
+      "dates": "Mon 14.06.2026",
+      "times": "20:30",
+      "artists": [
+        "Jen Rosenblit"
+      ],
+      "official_url": "https://sophiensaele.com/en/stueck/jen-rosenblit-everybodys-fantasy",
+      "closing_soon": false,
+      "why_candidate": "An intimate dance/performance exploring erotic fantasy, desire and communal space—resonant with experimental, queer‑inflected performance.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "sag‑kiwi‑open‑meeting",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Sickness Affinity Group (SAG): KIWI – Knowing institutions from within (open meeting)",
+      "venue": "Sophiensæle – Kantine",
+      "dates": "Wed 14.06.2026",
+      "times": "16:00–18:00",
+      "artists": [
+        "Sickness Affinity Group (SAG), hosted by Tis Aly"
+      ],
+      "official_url": "https://sophiensaele.com/en/stueck/sickness-affinity-group-sag-kiwi-knowing-institutions-from-within",
+      "closing_soon": false,
+      "why_candidate": "A queer BIPoC disabled affinity group convening for institutional critique and co‑visioning—highly political, participatory and timely.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "freiraum_bellevue",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "FREIRAUM KUNST. Akademie der Künste goes Bellevue",
+      "venue": "Schloss Bellevue / Akademie der Künste",
+      "dates": "13 June – 28 June 2026",
+      "times": "Mon–Fri 11:00–19:00, Sat–Sun 10:00–19:00",
+      "artists": [
+        "Peter Badel",
+        "Rosa Barba",
+        "Carola Bauckholt",
+        "Alexandra Bircken",
+        "Jürgen Böttcher",
+        "Monica Bonvicini",
+        "Ann Cotten",
+        "Ayşe Erkmen",
+        "Jochen Gerz",
+        "Katharina Grosse",
+        "Hanna Hartman",
+        "Bjørn Melhus",
+        "Boris Mikhailov",
+        "Karin Sander",
+        "Matthias Sauerbruch",
+        "Hanns Schimansky",
+        "Gregor Schneider",
+        "Chiyoko Szlavnics",
+        "Wolfgang Tillmans",
+        "Manos Tsangaris",
+        "Christian Awe",
+        "El Bocho",
+        "Christopher Lehmpfuhl"
+      ],
+      "official_url": "www.adk.de/bellevue",
+      "closing_soon": true,
+      "why_candidate": "Politically resonant pop‑up in the presidential residence exploring democracy, liberalism and historical spatiality.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "rainer_woelzl_constellations",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "RAINER WÖLZL – Constellations",
+      "venue": "Käthe Kollwitz Museum, Berlin",
+      "dates": "6 June – 9 August 2026",
+      "times": "(not specified)",
+      "artists": [
+        "Rainer Wölzl"
+      ],
+      "official_url": "(Käthe‑Kollwitz‑Museum official site)",
+      "closing_soon": false,
+      "why_candidate": "Media‑inflected montage drawings engage with sociopolitical upheavals and collective memory.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "kyiv_biennial",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Kyiv Biennial: A Bird That Cannot Land",
+      "venue": "KW Institute for Contemporary Art",
+      "dates": "11 June – 13 September 2026",
+      "times": "(ongoing)",
+      "artists": [
+        "multiple, curated biennial"
+      ],
+      "official_url": "www.kw‑berlin.de",
+      "closing_soon": false,
+      "why_candidate": "Biennial addressing coloniality, conflict, exile and belonging through media‑centric installation.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "gabriele_stoetzer",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Gabriele Stötzer: Dabei sein und nicht schweigen",
+      "venue": "Gropius Bau",
+      "dates": "19 June – 6 December 2026",
+      "times": "(not specified)",
+      "artists": [
+        "Gabriele Stötzer"
+      ],
+      "official_url": "www.gropiusbau.de",
+      "closing_soon": false,
+      "why_candidate": "Feminist, queer and historical activism by Gabriele Stötzer aligns with identity and memory themes.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "haus_am_waldsee",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Wo ich wohne",
+      "venue": "Haus am Waldsee",
+      "dates": "14 June – 27 September 2026",
+      "times": "(not specified)",
+      "artists": [
+        "(unspecified)"
+      ],
+      "official_url": "www.hausamwaldsee.de",
+      "closing_soon": false,
+      "why_candidate": "Environmental and domestic reflections in a contemporary art context.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "nbk_berlin_plan",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Berlin plant. Stunde Null",
+      "venue": "n.b.k. / Neuer Berliner Kunstverein",
+      "dates": "6 June – 2 August 2026",
+      "times": "(not specified)",
+      "artists": [
+        "(unspecified)"
+      ],
+      "official_url": "www.nbk.org",
+      "closing_soon": false,
+      "why_candidate": "Contemporary research‑based artistic inquiry into urbanism and beginning anew in Berlin.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "nbk_showroom",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Dora Budor & Noah Barker (Showroom)",
+      "venue": "n.b.k. Showroom",
+      "dates": "6 June – 2 August 2026",
+      "times": "(not specified)",
+      "artists": [
+        "Dora Budor",
+        "Noah Barker"
+      ],
+      "official_url": "www.nbk.org",
+      "closing_soon": false,
+      "why_candidate": "Interdisciplinary, experimental installation practice by contemporary international artists.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "co_berlin_lure_of_image",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Lure of the Image: Wie Bilder im Netz verlocken",
+      "venue": "C/O Berlin",
+      "dates": "20 June – 2 September 2026",
+      "times": "(not specified)",
+      "artists": [
+        "(unspecified)"
+      ],
+      "official_url": "www.co‑berlin.org",
+      "closing_soon": false,
+      "why_candidate": "Critical visual culture exhibition exploring digital image politics and seduction online.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "co_berlin_schels",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Walter Schels: 16° Fische Retrospective",
+      "venue": "C/O Berlin",
+      "dates": "20 June – 2 September 2026",
+      "times": "(not specified)",
+      "artists": [
+        "Walter Schels"
+      ],
+      "official_url": "www.co‑berlin.org",
+      "closing_soon": false,
+      "why_candidate": "Photographic retrospection that may intersect with bodily and ecological histories.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "skater_rollbrett",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Skater & Rollbrettfahrer vor und nach dem Mauerfall",
+      "venue": "Museum in der Kulturbrauerei",
+      "dates": "10 June 2026 – 4 April 2027",
+      "times": "(not specified)",
+      "artists": [
+        "(unspecified)"
+      ],
+      "official_url": "(official site)",
+      "closing_soon": false,
+      "why_candidate": "Urban history, memory, public space and subculture focus through moving‑image and visual archives.",
+      "ingestion_source": "openai"
+    }
+  ],
+  "gaps": [
+    "Skipped: daily OpenAI budget reservation exhausted before wildcards",
+    "Skipped: daily OpenAI budget reservation exhausted before music",
+    "Skipped: daily OpenAI budget reservation exhausted before advance_radar"
+  ],
+  "section_counts": {
+    "wildcards": 0,
+    "music": 0,
+    "advance_radar": 0,
+    "film": 6,
+    "performing_arts": 5,
+    "exhibitions": 10
+  },
+  "search_notes": "wildcards: skipped: spend_cap music: skipped: spend_cap advance_radar: skipped: spend_cap film: Sourced all items from Arsenal Berlin’s official cinema listings for June 2026 via its site, covering relevant documentary, experimental, archival, socially and politically engaged programs as user interest fit. performing_arts: Searched only on Sophiensæle site for Tanztage Berlin 2026 and individual performances; all events fall within 10–16 June window and match interest in experimental, identity‑politics, participatory, interdisciplinary performance. exhibitions: Used Museumsportal Berlin to identify exhibitions within window 10–16 June and those open beyond. Prioritized contemporary art/media venues and thematic relevance. Lacked some official URLs; assumed known venue domains."
+}

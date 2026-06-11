@@ -51,6 +51,7 @@ CULTURE_SLIM_ITEM_KEYS = (
     "artists",
     "official_url",
     "closing_soon",
+    "verified",
     "why_candidate",
     "ingestion_source",
 )
@@ -120,6 +121,8 @@ def score_news_item(item: dict) -> int:
 
 def score_culture_item(item: dict, priority_venues: set[str]) -> int:
     score = 0
+    if item.get("verified"):
+        score += 20
     if item.get("closing_soon"):
         score += 25
     venue = (item.get("venue") or "").lower()
@@ -264,6 +267,7 @@ def build_culture_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: d
         "date": raw.get("date"),
         "week_start": raw.get("week_start"),
         "week_end": raw.get("week_end"),
+        "week_label": raw.get("week_label"),
         "source_raw": f"{rel_inbox}/{raw.get('date')}-raw.json",
         "built_at": datetime.now(timezone.utc).isoformat(),
         "model": raw.get("model"),
@@ -271,8 +275,9 @@ def build_culture_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: d
         "section_counts": section_counts,
         "items": section_items,
         "note": (
-            "Token-light culture slice for synthesis. Synthesis must verify official_url "
-            "for each shortlisted pick before including."
+            "Token-light culture slice for synthesis. Items with verified:true passed "
+            "pre-fetch URL/schedule checks; synthesis spot-checks only unverified Top Picks "
+            "and closing-soon items."
         ),
     }
 
