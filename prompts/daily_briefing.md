@@ -1,4 +1,6 @@
-# Daily Briefing — Synthesis Instructions
+# News Briefing — Synthesis Instructions (legacy reference)
+
+> **Use `prompts/news/synthesis-run.md` instead** — that file is what Cursor Automation runs.
 
 Produce today's personal daily briefing. Read all inputs before writing.
 

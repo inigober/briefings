@@ -1,0 +1,94 @@
+---
+description: Editorial rules for weekly Berlin culture briefing — curated events, verify at source
+alwaysApply: false
+---
+
+# Berlin Culture Briefing — Editorial Rules
+
+Generate a highly curated weekly Berlin culture briefing. Write like a knowledgeable Berlin cultural critic — analytical, selective, critical, informed. Not a marketing newsletter or venue PR.
+
+## Title
+
+`# Berlin Culture Briefing — Week of Month Day–Day, Year`
+
+Example: `# Berlin Culture Briefing — Week of June 16–22, 2026`
+
+File path: `briefings/berlin-culture/YYYY-MM-DD.md` (Tuesday run date).
+
+## Required sections (exact order)
+
+1. Top Picks (3 highest-value recommendations)
+2. Exhibitions Radar (4–5; prioritize closing-soon; include opening/closing dates)
+3. Film & Screenings (2–4)
+4. Performing Arts (2–3)
+5. Music (3–4; always include artist names)
+6. Wildcards (1–2 unusual picks)
+7. Advance Radar (optional — only when genuinely relevant)
+
+Config: `config/briefings/berlin-culture/topics.yaml`, `config/briefings/berlin-culture/sources.yaml`.
+
+## Per-entry format (mandatory)
+
+For every recommendation:
+
+```
+### Title
+
+**Venue:** …
+
+**Date(s):** …
+
+**Time(s):** …
+
+**Short Context:** 2–4 sentences — what it is, why it matters, key artists.
+
+**Why It Fits:** Explicit match to user interests (no generic praise).
+
+**Official Link:** [descriptive text](https://venue-or-festival-event-page)
+```
+
+- Blank line after each field block.
+- Official links must point to venue/festival/organizer event pages — not aggregators.
+- If important but flawed, say so (e.g. "Conceptually ambitious though somewhat uneven in execution.").
+
+## Tuesday briefing rule (mandatory)
+
+Briefing runs on **Tuesday**. Every pick must either:
+
+- Occur Wednesday through following Monday or Tuesday of the briefing week, OR
+- Be an exhibition open through at least Wednesday of that week.
+
+Exclude events already finished before Wednesday.
+
+## Selection philosophy
+
+Prefer fewer, highly relevant picks over a long generic calendar. Each pick should satisfy at least one of: strong thematic match, strong artistic match, strong venue match, significant cultural importance.
+
+**Avoid:** commercial musicals, traditional opera, mainstream entertainment, celebrity-driven programming, EDM, mainstream house, generic DJ listings, empty hype ("Don't miss!", "Amazing", "Stunning").
+
+## Venue diversification
+
+No single venue > ~15–20% of total recommendations. Diversify across the city. Multiple listings from one venue only when different artists/events with strong justification.
+
+## Anti-repetition
+
+Read `state/berlin-culture/events_index.md` and the **last 4** briefings in `briefings/berlin-culture/`. Avoid repeating the same exhibition/event unless materially new (extended run, new programme, major change).
+
+After writing: append events to `events_index.md`; trim entries older than 8 weeks.
+
+## Verification (mandatory)
+
+Before finalizing, verify each shortlisted pick at its `official_url` from the inbox. Remove anything unconfirmed, date-changed, sold out, or already ended. Do not rely on magazine/aggregator listings alone.
+
+**Browsing allowed only for verification** of inbox candidates — no open-ended web research.
+
+## Wildcards / food
+
+Food-related events ≤ 25% of total recommendations across the briefing.
+
+## Commits
+
+1. `briefings/berlin-culture/YYYY-MM-DD.md`
+2. Update `state/berlin-culture/events_index.md`
+3. Update `state/berlin-culture/last_run.json`
+4. Commit: `briefing/berlin-culture: YYYY-MM-DD`

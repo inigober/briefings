@@ -1,181 +1,181 @@
-# Personal Daily Briefing
+# Personal Briefings
 
-Repo-based, unattended daily briefing for a reader focused on **Spain, Germany, Berlin, and international affairs** — novelty-first, FT/Economist-style analysis.
-
-Pipeline: **pre-fetch research → Cursor cloud synthesis → Resend email delivery**.
+Repo-based briefing platform: **news** (daily) and **Berlin culture** (weekly). Novelty-first editorial, automated pre-fetch, Cursor cloud synthesis, Resend email.
 
 ## Architecture
 
 ```
-RSS headlines + OpenAI web_search (GitHub Action, daily 06:30 CET)
+config/briefings.yaml          ← registry (paths, schedules, prompts)
         ↓
-   inbox/YYYY-MM-DD-rss.json → merged into inbox/YYYY-MM-DD-raw.json → slimmed to inbox/YYYY-MM-DD-synthesis.json
+┌───────────────────────────────────────────────────────────────┐
+│ news (daily)                                                  │
+│   RSS + OpenAI → inbox/news/ → synthesis → briefings/news/    │
+├───────────────────────────────────────────────────────────────┤
+│ berlin-culture (Tuesday)                                      │
+│   OpenAI → inbox/berlin-culture/ → synthesis → briefings/…   │
+└───────────────────────────────────────────────────────────────┘
         ↓
-Cursor Automation (cloud agent, weekdays)
-        ↓
-   briefings/YYYY-MM-DD.md + state updates
-        ↓
-GitHub Action on push → styled HTML email (Resend)
+GitHub Action on push → styled HTML email (Resend, same recipient)
 ```
 
 | Layer | Responsibility |
 |-------|----------------|
-| Repo files | Rules, topics, sources, dedup, history |
-| `scripts/fetch_openai_research.py` | Breadth + publisher-domain research |
-| Cursor Automation | Rule-bound synthesis from slim inbox, no repetition |
+| `config/briefings.yaml` | Briefing type registry |
+| `config/briefings/{type}/` | Topics, sources per type |
+| Pre-fetch scripts | Research → typed `inbox/` |
+| Cursor Automations | Rule-bound synthesis (one per type) |
 | `scripts/send_briefing_email.py` | Markdown → HTML → inbox |
 
 ## Repository layout
 
 ```
-├── .cursor/rules/briefing-style.mdc   # editorial rules (always applied)
 ├── config/
-│   ├── topics.yaml                    # sections and limits
-│   └── sources.yaml                   # domains, RSS, newsletters
+│   ├── briefings.yaml                 # type registry
+│   └── briefings/
+│       ├── news/                      # topics.yaml, sources.yaml
+│       └── berlin-culture/
+├── .cursor/rules/
+│   ├── news-briefing-style.mdc
+│   └── berlin-culture-briefing-style.mdc
 ├── prompts/
-│   ├── daily_briefing.md              # synthesis instructions
-│   ├── research_brief.md              # OpenAI pre-fetch prompt
-│   ├── synthesis-run.md               # synthesis steps (edit this; automation reads from repo)
-│   └── cursor-automation-synthesis.md # one-time automation setup + pointer prompt
-├── templates/daily_briefing.md        # output skeleton
-├── briefings/YYYY-MM-DD.md            # committed daily outputs
-├── state/
-│   ├── last_run.json
-│   ├── dedup_index.md              # story/topic memory (14 days)
-│   └── selected_reads_index.md     # article URLs (5 briefings)
-├── inbox/                             # raw research JSON
+│   ├── news/synthesis-run.md
+│   └── berlin-culture/synthesis-run.md
+├── inbox/{type}/                      # pre-fetch JSON
+├── briefings/{type}/                  # committed outputs
+├── state/{type}/                      # dedup / events memory
 └── scripts/
-    ├── fetch_openai_research.py
-    └── send_briefing_email.py
+    ├── briefing_paths.py
+    ├── fetch_openai_research.py       # news
+    ├── fetch_culture_research.py      # berlin-culture
+    └── slim_inbox_for_synthesis.py
 ```
 
 ## For PMs (learning as you go)
 
-This repo is designed to be run **with Cursor as your technical partner**. You don't need to write code.
-
 | You care about | File / place |
 |----------------|--------------|
-| Editorial rules (tone, sections, no-repeat) | `.cursor/rules/briefing-style.mdc` |
-| Topics and source priorities | `config/topics.yaml`, `config/sources.yaml` |
-| What the AI reads before writing | `prompts/daily_briefing.md` |
-| Past stories to avoid repeating | `state/dedup_index.md` |
-| Past articles to avoid recommending | `state/selected_reads_index.md` |
-| Scheduled research | `.github/workflows/daily-briefing.yml` |
-| Scheduled email | `.github/workflows/send-briefing-email.yml` |
+| Which briefings exist | `config/briefings.yaml` |
+| News editorial rules | `.cursor/rules/news-briefing-style.mdc` |
+| Culture editorial rules | `.cursor/rules/berlin-culture-briefing-style.mdc` |
+| News topics & sources | `config/briefings/news/` |
+| Culture topics & sources | `config/briefings/berlin-culture/` |
+| News synthesis steps | `prompts/news/synthesis-run.md` |
+| Culture synthesis steps | `prompts/berlin-culture/synthesis-run.md` |
+| News pre-fetch schedule | `.github/workflows/news-prefetch.yml` |
+| Culture pre-fetch (Tuesdays) | `.github/workflows/berlin-culture-prefetch.yml` |
+| OpenAI pre-fetch spend cap | `scripts/openai_spend.py`, `OPENAI_DAILY_SPEND_CAP_USD` |
+| Email delivery | `.github/workflows/send-briefing-email.yml` |
 
-Ask Cursor to explain any change in plain language — project rules require it.
+## Briefing types
+
+### News Briefing (daily)
+
+Sections: Spain, Germany, Berlin, World, What Matters Today, Selected Reads.
+
+Title: `# News Briefing — DD Month YYYY`
+
+### Berlin Culture Briefing (weekly, Tuesday)
+
+Sections: Top Picks, Exhibitions, Film, Performing Arts, Music, Wildcards, Advance Radar (optional).
+
+Title: `# Berlin Culture Briefing — Week of June 16–22, 2026`
 
 ## Setup
 
-### 1. Briefing sections
+### GitHub secrets and variables
 
-Each edition follows this structure:
+**Secrets:** `OPENAI_API_KEY`, `RESEND_API_KEY`
 
-1. Spain 🇪🇸 (3 stories)
-2. Germany 🇩🇪 (3 stories)
-3. Berlin 🏙️ (3 stories, local)
-4. World 🌐 (3 stories, ≥2 non-European regions)
-5. What Matters Today 🧠 (3–4 themes)
-6. Selected Reads 🗞️ (~4 curated articles)
+**Variables:**
 
-Editorial rules live in `.cursor/rules/briefing-style.mdc`. Section-specific avoid lists and priorities in `config/topics.yaml`. Sources in `config/sources.yaml`.
-
-### 2. GitHub secrets and variables
-
-**Secrets** (Settings → Secrets and variables → Actions):
-
-| Secret | Purpose |
-|--------|---------|
-| `OPENAI_API_KEY` | Research pre-fetch |
-| `RESEND_API_KEY` | Email delivery |
-
-**Variables**:
-
-| Variable | Example | Purpose |
+| Variable | Default | Purpose |
 |----------|---------|---------|
-| `OPENAI_RESEARCH_MODEL` | `gpt-4.1` | Pre-fetch model (`web_search`; set `gpt-5.5` if quality drops) |
-| `BRIEFING_FROM_EMAIL` | `Daily Briefing <onboarding@resend.dev>` | Resend sender (see below) |
-| `BRIEFING_TO_EMAIL` | `you@example.com` | Recipient — must match Resend account email if using sandbox |
+| `OPENAI_RESEARCH_MODEL` | `gpt-4.1` | Pre-fetch model |
+| `OPENAI_DAILY_SPEND_CAP_USD` | `2` (built-in default) | Hard daily cap for OpenAI pre-fetch. **Optional** — only add this variable if you want a value other than $2; no code change needed. |
+| `BRIEFING_FROM_EMAIL` | — | Resend sender (briefing email + spend-cap alerts) |
+| `BRIEFING_TO_EMAIL` | — | Recipient |
 
-#### Resend without your own domain
+Both briefing types email the **same recipient**; subjects come from each briefing's H1 title.
 
-You **do not** need a custom domain for a personal daily briefing.
+### OpenAI pre-fetch spend cap
 
-Resend provides a built-in test sender: `onboarding@resend.dev`
+Pre-fetch scripts (`fetch_openai_research.py`, `fetch_culture_research.py`) track **estimated** daily OpenAI spend and **abort** when the cap is reached.
 
-| Setting | Value |
-|---------|--------|
-| `BRIEFING_FROM_EMAIL` | `Daily Briefing <onboarding@resend.dev>` |
-| `BRIEFING_TO_EMAIL` | **The exact email you used to sign up for Resend** |
+**Default cap: $2/day** per briefing type (UTC date), hard-coded in `scripts/openai_spend.py` and the pre-fetch workflows. You do **not** need to create a GitHub variable unless you want a different limit.
 
-**PM analogy:** This is sandbox mode — like Stripe test keys. It works for 1 email/day to yourself; you cannot send to other addresses until you verify a domain.
+**To change the cap without touching code:** repo **Settings → Secrets and variables → Actions → Variables** → add or edit `OPENAI_DAILY_SPEND_CAP_USD` (e.g. `3`). The next pre-fetch run picks it up.
 
-Restrictions:
-- Only delivers to your Resend account email (not a work alias unless that's your signup email)
-- "From" must use `@resend.dev`, not Gmail or another public provider
-- Fine for this project; add a ~$10/yr domain later only if you want a custom sender or multiple recipients
+| What | Where |
+|------|--------|
+| Default ($2) | `scripts/openai_spend.py` + workflow shell fallback |
+| Change cap (no deploy) | GitHub variable `OPENAI_DAILY_SPEND_CAP_USD` |
+| Local override | `export OPENAI_DAILY_SPEND_CAP_USD=3` before running scripts |
+| Per-section usage logs | GitHub Action log output |
+| Daily ledger (committed) | `inbox/{type}/YYYY-MM-DD-spend.json` |
+| Cap abort marker | `inbox/{type}/YYYY-MM-DD-spend-cap.error.txt` |
 
-Resend free tier: 3,000 emails/mo, 100/day.
+**When the cap is hit:**
 
-### 3. Cursor Automation (synthesis)
+1. Pre-fetch stops immediately (no `*-raw.json` for that run)
+2. The GitHub workflow **fails** (enable [Actions failure notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#github-actions-notifications) on your GitHub profile)
+3. An **email alert** is sent via Resend if `RESEND_API_KEY` + `BRIEFING_*` are set (same credentials as briefing delivery)
+4. The spend ledger is committed so a manual re-run the same day does not bypass the cap
 
-Create an automation in [Cursor Automations](https://cursor.com/automations):
+Costs are **estimates** from API token usage + web-search call counts (see `scripts/openai_spend.py`). Pair with [OpenAI billing alerts](https://platform.openai.com/settings/organization/limits) as a platform-level backstop.
 
-- **Trigger:** GitHub → **New push to branch** → `main` on this repo
-- **Runtime:** Cloud agent
-- **Repo:** `inigober/briefings`
-- **Prompt:** Paste the short pointer from `prompts/cursor-automation-synthesis.md` once; edit `prompts/synthesis-run.md` in git for ongoing changes
-- **Spending cap:** $10–15/mo on-demand safety net
+**PM analogy:** Repo cap = circuit breaker on the research wire. OpenAI billing limits = utility company shutoff. Cursor synthesis cap = separate editor budget.
 
-Pipeline: pre-fetch commits `inbox/` → push triggers synthesis → synthesis commits `briefings/` → email workflow sends.
+### Cursor Automations (synthesis)
 
-Optional backup cron on synthesis automation if pre-fetch was missed.
+Create **two** automations in [Cursor Automations](https://cursor.com/automations):
 
-### Schedule & timezone
+| Automation | Pointer prompt |
+|------------|----------------|
+| News | `prompts/news/cursor-automation-synthesis.md` |
+| Berlin culture | `prompts/berlin-culture/cursor-automation-synthesis.md` |
 
-Pre-fetch cron: **`30 5 * * *`** in GitHub Actions (= **06:30 CET**, UTC+1).
+Each automation: trigger on push to `main`, cloud agent, paste the short pointer block once.
 
-GitHub only supports UTC cron. Spain/Germany use **CEST** (UTC+2) from late March–late October, so in summer the job runs at **07:30 local** unless you change the cron to `30 4 * * *` (06:30 CEST). Switch twice a year, or pick one offset and accept ±1h in the other season.
+Push guards in each `synthesis-run.md` ensure only the matching inbox change triggers work.
 
-Synthesis is **push-triggered** (inbox commit) — no separate cron needed if pre-fetch runs daily.
+### Schedules
 
-### 4. Manual test run
+| Workflow | Cron (UTC) | Local (CET) |
+|----------|------------|-------------|
+| `news-prefetch.yml` | `30 5 * * *` | 06:30 daily |
+| `berlin-culture-prefetch.yml` | `0 5 * * 2` | 06:00 Tuesday |
+
+Synthesis is push-triggered (inbox commit). Optional backup crons on each automation if pre-fetch was missed.
+
+### Manual test
 
 ```bash
-# Research (requires OPENAI_API_KEY)
 pip install -r scripts/requirements.txt
-export OPENAI_API_KEY=sk-...
-python scripts/fetch_openai_research.py --dry-run   # preview prompt
-python scripts/fetch_openai_research.py             # write inbox/
 
-# Synthesis — run Cursor automation manually or agent locally with prompts/daily_briefing.md
+# News pre-fetch
+python3 scripts/fetch_rss.py --type news
+python3 scripts/fetch_openai_research.py --type news
+python3 scripts/slim_inbox_for_synthesis.py --type news
 
-# Email preview (no send)
-python scripts/send_briefing_email.py --file briefings/YYYY-MM-DD.md --dry-run
+# Culture pre-fetch (dry-run prompt)
+python3 scripts/fetch_culture_research.py --dry-run --date 2026-06-10
+
+# Email preview
+python3 scripts/send_briefing_email.py --file briefings/news/2026-06-11.md --dry-run
 ```
 
 ## Workflows
 
 | Workflow | Trigger | Action |
 |----------|---------|--------|
-| `daily-briefing.yml` | Daily 06:30 CET (05:30 UTC) + manual | Pre-fetch → commit `inbox/` |
-| `send-briefing-email.yml` | Push to `briefings/*.md` on `main` | Send styled email |
+| `news-prefetch.yml` | Daily 06:30 CET + manual | RSS → OpenAI → slim → commit `inbox/news/` |
+| `berlin-culture-prefetch.yml` | Tuesday 06:00 CET + manual | Culture OpenAI → slim → commit `inbox/berlin-culture/` |
+| `send-briefing-email.yml` | Push to `briefings/**/*.md` | Send styled email |
 
 ## Rollout checklist
 
-- [ ] Fill in topics, sources, and editorial rules
-- [ ] Add GitHub secrets/variables
-- [ ] 3–4 manual synthesis runs; refine output
-- [ ] Test pre-fetch vs ChatGPT coverage (1-week A/B)
-- [ ] Verify email HTML in inbox
-- [ ] Enable Cursor Automation cron
-- [ ] Monitor [Cursor usage](https://cursor.com/dashboard?tab=cloud-agents) for 2 weeks
-
-## Open items
-
-Still to configure before going fully unattended:
-
-- ~~Cron time + timezone~~ — pre-fetch set to daily 06:30 CET (adjust for CEST in summer if desired)
-- Email recipient(s) and Resend sending domain
-- RSS feeds / newsletter forwards for paywalled subscriptions
-- Optional tweaks to `avoid_unless_material` lists in `config/topics.yaml`
+- [x] Multi-briefing abstraction
+- [ ] Update GitHub workflow files on `main` (rename daily → news-prefetch)
+- [ ] Create second Cursor Automation for Berlin culture
+- [ ] First manual Tuesday culture dry-run
+- [ ] Verify both email subjects in inbox

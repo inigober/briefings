@@ -3,10 +3,18 @@
 
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+_SCRIPTS_DIR = Path(__file__).resolve().parent
+if str(_SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS_DIR))
+
 import argparse
 import json
 import os
 import re
+import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
@@ -17,7 +25,18 @@ from urllib.parse import urlparse
 
 import yaml
 
+from briefing_paths import load_briefing_type
+from openai_spend import (
+    DailySpendLedger,
+    SpendCapExceeded,
+    handle_cap_abort,
+    resolve_daily_cap,
+    usage_from_response,
+)
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
+NEWS_SECTION_IDS = ("spain", "germany", "berlin", "world")
 
 # gpt-4.1: cheaper than gpt-5.5, still strong for web_search orchestration.
 # Override via OPENAI_RESEARCH_MODEL (e.g. gpt-5.5) if quality drops.
@@ -430,7 +449,7 @@ def fetch_structured(
     schema: dict,
     schema_name: str,
     domains: list[str],
-) -> dict:
+) -> tuple[dict, Any]:
     tools: list[dict] = [{"type": "web_search"}]
     if domains:
         tools[0]["filters"] = {"allowed_domains": domains}
@@ -454,7 +473,7 @@ def fetch_structured(
         raise RuntimeError("Empty response from OpenAI")
 
     try:
-        return extract_json(output_text)
+        return extract_json(output_text), response
     except ValueError as exc:
         raise ValueError(f"{exc}\n\nRaw output:\n{output_text[:4000]}") from exc
 
@@ -467,6 +486,8 @@ def fetch_section(
     topics_cfg: dict,
     sources_cfg: dict,
     rss_ctx: SectionRssContext | None = None,
+    spend_ledger: DailySpendLedger | None = None,
+    cap_abort: threading.Event | None = None,
 ) -> tuple[str, dict]:
     topics = topic_by_id(topics_cfg)
     allowed_domains = sources_cfg.get("allowed_domains") or []
@@ -513,8 +534,25 @@ def fetch_section(
         )
     else:
         log(f"  [{section_id}] started (min {min_items} items)...")
+
+    if cap_abort and cap_abort.is_set():
+        log(f"  [{section_id}] skipped — daily spend cap already reached")
+        return section_id, {
+            "items": [],
+            "gaps": [f"Skipped: daily OpenAI spend cap reached before {section_id}"],
+            "search_notes": "skipped: spend_cap",
+        }
+
+    if spend_ledger and not spend_ledger.try_reserve_section_budget():
+        log(f"  [{section_id}] skipped — insufficient daily budget remaining")
+        return section_id, {
+            "items": [],
+            "gaps": [f"Skipped: daily OpenAI budget reservation exhausted before {section_id}"],
+            "search_notes": "skipped: spend_cap",
+        }
+
     client = make_client()
-    result = fetch_structured(
+    result, response = fetch_structured(
         client=client,
         model=model,
         prompt=prompt,
@@ -522,6 +560,18 @@ def fetch_section(
         schema_name=f"briefing_section_{section_id}",
         domains=search_domains,
     )
+    if spend_ledger:
+        usage = usage_from_response(response=response, model=model, section=section_id)
+        spend_ledger.record_usage(usage)
+        if spend_ledger.is_over_cap():
+            spend_ledger.mark_cap_exceeded()
+            if cap_abort:
+                cap_abort.set()
+            raise SpendCapExceeded(
+                f"Daily OpenAI spend cap reached after {section_id} "
+                f"(${spend_ledger.spent_usd:.4f} >= ${spend_ledger.cap_usd:.2f})"
+            )
+
     items = result.get("items") or []
     for item in items:
         tags = [t for t in (item.get("topic_ids") or []) if t != section_id]
@@ -576,11 +626,12 @@ def fetch_all_research(
     topics_cfg: dict,
     sources_cfg: dict,
     rss_items: list[dict] | None = None,
+    spend_ledger: DailySpendLedger | None = None,
 ) -> dict:
     topics = topic_by_id(topics_cfg)
     section_ids = [
         section_id
-        for section_id in ("spain", "germany", "berlin", "world")
+        for section_id in NEWS_SECTION_IDS
         if (topics.get(section_id) or {}).get("enabled", True)
     ]
 
@@ -602,6 +653,14 @@ def fetch_all_research(
         )
         log(f"  RSS-aware targets: {summary}")
 
+    if spend_ledger and spend_ledger.cap_enabled():
+        log(
+            f"  Daily spend cap: ${spend_ledger.cap_usd:.2f} "
+            f"(already spent today: ${spend_ledger.spent_usd:.4f})"
+        )
+        spend_ledger.assert_not_over_cap()
+
+    cap_abort = threading.Event()
     started = time.monotonic()
     log(f"  Launching {len(section_ids)} section fetches in parallel...")
 
@@ -615,13 +674,19 @@ def fetch_all_research(
                 topics_cfg=topics_cfg,
                 sources_cfg=sources_cfg,
                 rss_ctx=rss_contexts[section_id],
+                spend_ledger=spend_ledger,
+                cap_abort=cap_abort,
             ): section_id
             for section_id in section_ids
         }
 
         for future in as_completed(futures):
             section_id = futures[future]
-            section_id, result = future.result()
+            try:
+                section_id, result = future.result()
+            except SpendCapExceeded:
+                cap_abort.set()
+                raise
             items = result.get("items") or []
             all_items.extend(items)
             section_counts[section_id] = len(items)
@@ -673,23 +738,25 @@ def fetch_all_research(
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Fetch daily briefing research via OpenAI web_search")
+    parser = argparse.ArgumentParser(description="Fetch news briefing research via OpenAI web_search")
+    parser.add_argument("--type", default="news", help="Briefing type (default: news)")
     parser.add_argument("--date", help="YYYY-MM-DD (default: today UTC)")
     parser.add_argument("--model", default=None, help=f"Override model (default: {DEFAULT_MODEL})")
     parser.add_argument("--dry-run", action="store_true", help="Print first section prompt only; do not call API")
     parser.add_argument(
         "--no-rss-merge",
         action="store_true",
-        help="Do not merge inbox/YYYY-MM-DD-rss.json even if present",
+        help="Do not merge inbox/{type}/YYYY-MM-DD-rss.json even if present",
     )
     args = parser.parse_args()
 
+    briefing = load_briefing_type(args.type)
     date_str = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    topics_cfg = load_yaml(REPO_ROOT / "config" / "topics.yaml")
-    sources_cfg = load_yaml(REPO_ROOT / "config" / "sources.yaml")
+    topics_cfg = load_yaml(briefing.topics_path)
+    sources_cfg = load_yaml(briefing.sources_path)
 
     allowed_domains = sources_cfg.get("allowed_domains") or []
-    inbox_dir = REPO_ROOT / "inbox"
+    inbox_dir = briefing.inbox_dir
     dry_rss = [] if args.no_rss_merge else load_rss_items(inbox_dir, date_str)
     dry_ctx = analyze_rss_section("spain", group_rss_by_section(dry_rss).get("spain", []), allowed_domains)
     dry_min = openai_min_for_section("spain", dry_ctx.item_count)
@@ -735,6 +802,10 @@ def main() -> int:
         if rss_items:
             log(f"  Found {len(rss_items)} RSS items for merge + prompt tuning")
 
+    cap_usd = resolve_daily_cap()
+    spend_path = inbox_dir / f"{date_str}-spend.json"
+    spend_ledger = DailySpendLedger.load_or_create(spend_path, date_str=date_str, cap_usd=cap_usd)
+
     log(f"Fetching research for {date_str} with model {model} (build: no-reasoning-param)...")
     try:
         payload = fetch_all_research(
@@ -743,12 +814,31 @@ def main() -> int:
             topics_cfg=topics_cfg,
             sources_cfg=sources_cfg,
             rss_items=rss_items,
+            spend_ledger=spend_ledger,
         )
+    except SpendCapExceeded as exc:
+        handle_cap_abort(
+            ledger=spend_ledger,
+            spend_path=spend_path,
+            error_path=inbox_dir / f"{date_str}-spend-cap.error.txt",
+            briefing_label=briefing.display_name,
+            date_str=date_str,
+        )
+        log(str(exc))
+        return 1
     except Exception as exc:
+        spend_ledger.save(spend_path)
         err_path = inbox_dir / f"{date_str}-raw.error.txt"
         err_path.write_text(str(exc) + "\n", encoding="utf-8")
         log(str(exc))
         return 1
+
+    spend_ledger.save(spend_path)
+    if spend_ledger.cap_enabled():
+        log(
+            f"  Run spend total: ${spend_ledger.spent_usd:.4f} "
+            f"(daily cap ${spend_ledger.cap_usd:.2f})"
+        )
 
     out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     log(f"Wrote {out_path} ({len(payload.get('items') or [])} items)")

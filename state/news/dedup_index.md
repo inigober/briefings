@@ -2,7 +2,7 @@
 
 Topics and stories covered in news sections. Read before writing; append after each run; remove entries older than **14 days**.
 
-Before including a story ask: "Has this topic appeared recently?" Reject unless materially new (see `briefing-style.mdc`).
+Before including a story ask: "Has this topic appeared recently?" Reject unless materially new (see `news-briefing-style.mdc`).
 
 ---
 

@@ -1,4 +1,4 @@
-name: Daily research pre-fetch
+name: News research pre-fetch
 
 on:
   schedule:
@@ -33,34 +33,56 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
         run: |
-          ARGS=""
+          ARGS="--type news"
           if [ -n "${{ github.event.inputs.date }}" ]; then
-            ARGS="--date ${{ github.event.inputs.date }}"
+            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
           fi
           python scripts/fetch_rss.py $ARGS
 
       - name: Fetch OpenAI research
+        id: openai_fetch
         env:
           PYTHONUNBUFFERED: "1"
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_RESEARCH_MODEL: ${{ vars.OPENAI_RESEARCH_MODEL }}
+          OPENAI_DAILY_SPEND_CAP_USD: ${{ vars.OPENAI_DAILY_SPEND_CAP_USD }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}
+          BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
         run: |
           echo "Checkout commit: $(git rev-parse HEAD)"
           echo "Model: ${OPENAI_RESEARCH_MODEL:-gpt-4.1}"
-          ARGS=""
+          echo "Daily spend cap: ${OPENAI_DAILY_SPEND_CAP_USD:-2} USD"
+          ARGS="--type news"
           if [ -n "${{ github.event.inputs.date }}" ]; then
-            ARGS="--date ${{ github.event.inputs.date }}"
+            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
           fi
           export OPENAI_RESEARCH_MODEL="${OPENAI_RESEARCH_MODEL:-gpt-4.1}"
+          export OPENAI_DAILY_SPEND_CAP_USD="${OPENAI_DAILY_SPEND_CAP_USD:-2}"
           python scripts/fetch_openai_research.py $ARGS
 
+      - name: Commit spend ledger on cap abort
+        if: failure() && steps.openai_fetch.outcome == 'failure'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add inbox/news/*-spend.json inbox/news/*-spend-cap.error.txt 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No spend ledger to commit"
+            exit 0
+          fi
+          git commit -m "inbox/news: spend cap abort $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main || true
+          git push origin main || true
+
       - name: Slim inbox for synthesis
+        if: success()
         env:
           PYTHONUNBUFFERED: "1"
         run: |
-          ARGS=""
+          ARGS="--type news"
           if [ -n "${{ github.event.inputs.date }}" ]; then
-            ARGS="--date ${{ github.event.inputs.date }}"
+            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
           fi
           python scripts/slim_inbox_for_synthesis.py $ARGS
 
@@ -68,13 +90,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add inbox/
+          git add inbox/news/
           if git diff --cached --quiet; then
             echo "No inbox changes to commit"
             exit 0
           fi
-          git commit -m "inbox: $(date -u +%Y-%m-%d) research pre-fetch"
-          # Remote may move while OpenAI calls run; rebase then push (retry once).
+          git commit -m "inbox/news: $(date -u +%Y-%m-%d) research pre-fetch"
           for attempt in 1 2; do
             git pull --rebase origin main
             if git push origin main; then

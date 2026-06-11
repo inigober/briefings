@@ -1,0 +1,128 @@
+allowed_domains:
+  - ceecee.cc
+  - 20percent.berlin
+  - the-berliner.com
+  - exberliner.com
+  - museumsportal-berlin.de
+  - berlinartlink.com
+  - indexberlin.com
+  - arsenal-berlin.de
+  - sinematranstopia.com
+  - wolfberlin.org
+  - acudkino.de
+  - hebbel-am-ufer.de
+  - sophiensaele.com
+  - radialsystem.de
+  - monom.com
+  - morphine.space
+  - km28.de
+  - a-trane.de
+  - ausland-berlin.de
+  - arkaoda.com
+  - gropiusbau.org
+  - hkw.de
+  - kindl.org
+  - berlinische-galerie.de
+  - julia-stoschek-stiftung.de
+  - schinkelpavillon.de
+  - daadgalerie.de
+  - savvy-contemporary.com
+  - nbk.org
+  - kw-berlin.de
+  - palaispopulaire.de
+  - adk.de
+  - hausamwaldsee.de
+  - silent-green.net
+  - dock11-berlin.de
+  - tanzfabrik-berlin.de
+  - ballhausnaunynstrasse.de
+
+blocklist_domains:
+  - facebook.com
+  - instagram.com
+  - tiktok.com
+  - eventbrite.com
+  - meetup.com
+  - timeout.com
+  - visitberlin.de
+
+primary_calendars:
+  - name: Cee Cee Berlin
+    url: https://ceecee.cc
+    use_for: [new openings, pop-ups, small exhibitions, one-offs]
+  - name: 20% Berlin
+    url: https://20percent.berlin
+    use_for: [alternative programming, artist-led events]
+  - name: The Berliner
+    url: https://www.the-berliner.com
+    use_for: [exhibition roundups, reviews, festival coverage]
+  - name: Exberliner
+    url: https://www.exberliner.com
+    use_for: [film, politics, art, alternative culture]
+  - name: Museumsportal Berlin
+    url: https://www.museumsportal-berlin.de
+    use_for: [comprehensive exhibition listings]
+  - name: Berlin Art Link
+    url: https://www.berlinartlink.com
+    use_for: [contemporary art, openings, independent spaces]
+  - name: Index Berlin
+    url: https://www.indexberlin.com
+    use_for: [gallery exhibitions, independent spaces]
+
+priority_venues:
+  contemporary_art:
+    - Gropius Bau
+    - Haus der Kulturen der Welt
+    - HKW
+    - Kindl
+    - Berlinische Galerie
+    - Julia Stoschek Foundation
+    - Schinkel Pavillon
+    - daadgalerie
+    - SAVVY Contemporary
+    - Neuer Berliner Kunstverein
+    - n.b.k.
+    - KW Institute for Contemporary Art
+    - PalaisPopulaire
+    - Akademie der Künste
+    - Haus am Waldsee
+  film:
+    - Arsenal
+    - Sinema Transtopia
+    - Wolf Kino
+    - Kino Krokodil
+    - Sputnik Kino
+    - fsk Kino
+    - ACUDkino
+  performance:
+    - HAU Hebbel am Ufer
+    - Sophiensæle
+    - Radialsystem
+    - Ballhaus Naunynstraße
+    - Tanzfabrik
+    - Dock 11
+  music:
+    - Silent Green
+    - MONOM
+    - Morphine Raum
+    - KM28
+    - A-Trane
+    - Au Topsi Pohl
+    - Kühlspot
+    - Pierre Boulez Saal
+    - Ausland
+    - Arkaoda
+    - Kantine am Berghain
+    - Volksbühne
+
+festivals_to_monitor:
+  - Berlinale-related programming
+  - CTM
+  - MaerzMusik
+  - transmediale
+  - Doxumentale
+  - ALFILM
+  - Zebra Poetry Film Festival
+  - Berlin Jazz Week
+  - XJAZZ
+  - Tanz im August

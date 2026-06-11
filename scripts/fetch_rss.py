@@ -1,22 +1,29 @@
 #!/usr/bin/env python3
-"""Fetch recent headlines from RSS feeds configured in config/sources.yaml."""
+"""Fetch recent headlines from RSS feeds configured per briefing type."""
 
 from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+_SCRIPTS_DIR = Path(__file__).resolve().parent
+if str(_SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS_DIR))
 
 import argparse
 import hashlib
 import json
 import re
-import sys
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from html import unescape
-from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
 
 import feedparser
 import yaml
+
+from briefing_paths import load_briefing_type
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -247,7 +254,8 @@ def fetch_all_rss(
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Fetch RSS headlines into inbox/")
+    parser = argparse.ArgumentParser(description="Fetch RSS headlines into typed inbox/")
+    parser.add_argument("--type", default="news", help="Briefing type (default: news)")
     parser.add_argument("--date", help="YYYY-MM-DD (default: today UTC)")
     parser.add_argument(
         "--max-age-hours",
@@ -257,16 +265,21 @@ def main() -> int:
     )
     args = parser.parse_args()
 
+    briefing = load_briefing_type(args.type)
+    if not briefing.prefetch_rss:
+        log(f"Briefing type '{args.type}' does not use RSS pre-fetch — skipping")
+        return 0
+
     date_str = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    sources_cfg = load_yaml(REPO_ROOT / "config" / "sources.yaml")
+    sources_cfg = load_yaml(briefing.sources_path)
     feeds = sources_cfg.get("rss_feeds") or []
 
-    inbox_dir = REPO_ROOT / "inbox"
+    inbox_dir = briefing.inbox_dir
     inbox_dir.mkdir(parents=True, exist_ok=True)
     out_path = inbox_dir / f"{date_str}-rss.json"
 
     if not feeds:
-        log("No rss_feeds configured in config/sources.yaml — writing empty inbox file")
+        log(f"No rss_feeds configured in {briefing.sources_path} — writing empty inbox file")
         payload = {
             "date": date_str,
             "fetched_at": datetime.now(timezone.utc).isoformat(),

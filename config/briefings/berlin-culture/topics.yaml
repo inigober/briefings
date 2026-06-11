@@ -1,0 +1,146 @@
+# Berlin culture briefing sections — order = output order.
+
+topics:
+  - id: exhibitions
+    name: Exhibitions Radar
+    enabled: true
+    max_items: 5
+    slim_cap: 10
+    description: >
+      Contemporary art, video/sound/media art, research-based practices.
+      Prioritize closing-soon exhibitions. Include opening and closing dates.
+
+  - id: film
+    name: Film & Screenings
+    enabled: true
+    max_items: 4
+    slim_cap: 8
+    description: >
+      Socially engaged documentary, essay film, political cinema, experimental
+      moving image, hybrid documentary, international cinema, post-screening discussions.
+
+  - id: performing_arts
+    name: Performing Arts
+    enabled: true
+    max_items: 3
+    slim_cap: 6
+    description: >
+      Contemporary dance, interdisciplinary performance, experimental theatre,
+      choreography, participatory performance, performance art.
+
+  - id: music
+    name: Music
+    enabled: true
+    max_items: 4
+    slim_cap: 8
+    description: >
+      Ambient, experimental electronic, electroacoustic, sound art, drone, leftfield jazz,
+      free improvisation, contemporary composition, global experimental music.
+      Secondary: deep/hypnotic techno, experimental club, avant-pop.
+
+  - id: wildcards
+    name: Wildcards
+    enabled: true
+    max_items: 2
+    slim_cap: 4
+    description: >
+      Talks, lectures, research events, hybrid formats. Food/culture events sparingly
+      (max 25% of total recommendations across the briefing).
+
+  - id: advance_radar
+    name: Advance Radar
+    enabled: true
+    max_items: 3
+    slim_cap: 5
+    optional: true
+    description: >
+      Upcoming exhibitions, festivals, sell-out performances, major openings.
+      Include only when genuinely relevant.
+
+interests:
+  film:
+    - socially engaged documentary
+    - essay films
+    - political cinema
+    - experimental moving image
+    - hybrid documentary
+    - contemporary international cinema
+    - post-screening discussions
+  visual_art:
+    - contemporary art
+    - video art
+    - sound art
+    - audiovisual installations
+    - media art
+    - interdisciplinary practices
+    - research-based artistic practices
+  performance:
+    - contemporary dance
+    - interdisciplinary performance
+    - experimental theatre
+    - choreographic work
+    - participatory performance
+    - performance art
+  music_primary:
+    - ambient
+    - experimental electronic
+    - electroacoustic music
+    - sound art
+    - drone
+    - leftfield jazz
+    - free improvisation
+    - contemporary composition
+    - global experimental music
+  music_secondary:
+    - deep techno
+    - hypnotic techno
+    - experimental club culture
+    - avant-pop
+
+avoid:
+  - commercial musicals
+  - traditional opera
+  - mainstream entertainment
+  - celebrity-driven programming
+  - prestige events with little artistic substance
+  - EDM
+  - mainstream house
+  - commercial club nights
+  - generic DJ listings
+
+thematic_priorities:
+  politics_society:
+    - geopolitics
+    - democracy
+    - migration
+    - borders
+    - urbanism
+    - labor
+    - technology and power
+  identity:
+    - LGBTQ+ themes
+    - queer history
+    - gender
+    - feminism
+    - diaspora experiences
+  history:
+    - memory
+    - archives
+    - colonialism
+    - postcolonialism
+    - decolonial thought
+    - historical trauma
+  environment:
+    - ecology
+    - climate
+    - multispecies thinking
+    - environmental justice
+
+rules:
+  tuesday_briefing: >
+    Generated on Tuesdays. Each event must occur Wed–Sun or following Mon/Tue of the
+    briefing week, OR be an exhibition open through at least Wednesday. Exclude events
+    finished before Wednesday.
+  venue_diversification: >
+    No single venue should exceed ~15–20% of recommendations. Diversify across Berlin.
+  food_cap: 0.25

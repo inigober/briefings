@@ -1,9 +1,9 @@
 ---
-description: Editorial rules for daily briefing — Spain, Germany, Berlin, World, novelty-first
-alwaysApply: true
+description: Editorial rules for news briefing — Spain, Germany, Berlin, World, novelty-first
+alwaysApply: false
 ---
 
-# Daily Briefing — Editorial Rules
+# News Briefing — Editorial Rules
 
 Produce a carefully edited daily newspaper, not a headline list. Maximize **novelty, insight, and relevance** for a reader who consumes this every day.
 
@@ -13,17 +13,17 @@ Not: "What are the biggest stories today?"
 
 ## Title
 
-`# Daily Briefing — DD Month YYYY` (e.g. `# Daily Briefing — 10 June 2026`)
+`# News Briefing — DD Month YYYY` (e.g. `# News Briefing — 10 June 2026`)
 
 ### Stale inbox (rare)
 
-If synthesis uses `inbox/YYYY-MM-DD-raw.json` from a **previous day** (allowed when today's pre-fetch failed), add immediately under the title:
+If synthesis uses `inbox/news/YYYY-MM-DD-raw.json` from a **previous day** (allowed when today's pre-fetch failed), add immediately under the title:
 
 `*Research accessed DD Month YYYY.*`
 
-Example: briefing dated 11 June 2026 built from `inbox/2026-06-10-raw.json` → `*Research accessed 10 June 2026.*`
+Example: briefing dated 11 June 2026 built from `inbox/news/2026-06-10-raw.json` → `*Research accessed 10 June 2026.*`
 
-Record both dates in `state/last_run.json` (`briefing_date`, `inbox_date`).
+Record both dates in `state/news/last_run.json` (`briefing_date`, `inbox_date`).
 
 ## Required sections (exact order)
 
@@ -34,7 +34,7 @@ Record both dates in `state/last_run.json` (`briefing_date`, `inbox_date`).
 5. What Matters Today 🧠
 6. Selected Reads 🗞️
 
-Section targets and priorities: `config/topics.yaml`. Sources: `config/sources.yaml`.
+Section targets and priorities: `config/briefings/news/topics.yaml`. Sources: `config/briefings/news/sources.yaml`.
 
 ## Writing style
 
@@ -79,7 +79,7 @@ Use full article URLs — never a publisher homepage.
 
 ## Anti-repetition (mandatory)
 
-Before selecting any story, read `state/dedup_index.md` and the **last 7** briefings in `briefings/`.
+Before selecting any story, read `state/news/dedup_index.md` and the **last 7** briefings in `briefings/news/`.
 
 **Reject** if the topic appeared recently unless there is a **material development:**
 
@@ -91,11 +91,11 @@ Before selecting any story, read `state/dedup_index.md` and the **last 7** brief
 
 **Novelty test:** "If someone read the previous 7 briefings, would they learn something genuinely new?" If no → reject.
 
-After writing: append topics/stories to `state/dedup_index.md`; trim entries older than 14 days.
+After writing: append topics/stories to `state/news/dedup_index.md`; trim entries older than 14 days.
 
 ## Selected Reads (separate memory)
 
-Read `state/selected_reads_index.md` before writing Selected Reads.
+Read `state/news/selected_reads_index.md` before writing Selected Reads.
 
 - **Hard rule:** Never recommend the same article twice within **5 briefings**. Track exact URLs.
 - **Soft rule:** Diversify publications; do not repeat articles already used in news sections today.
@@ -104,7 +104,7 @@ Read `state/selected_reads_index.md` before writing Selected Reads.
 
 Format: title, short summary, link.
 
-After writing: append URLs to `state/selected_reads_index.md`; trim entries older than 5 briefings.
+After writing: append URLs to `state/news/selected_reads_index.md`; trim entries older than 5 briefings.
 
 ## What Matters Today
 
@@ -120,10 +120,10 @@ After writing: append URLs to `state/selected_reads_index.md`; trim entries olde
 
 ## Sourcing
 
-- **Synthesize only from** `inbox/`, `config/`, and repo context. Do not browse unless inbox is empty.
+- **Synthesize only from** `inbox/news/`, `config/briefings/news/`, and repo context. Do not browse unless inbox is empty.
 - Prefer structural change, long-term trends, important data, underreported developments, second-order effects.
 - Reject: stories essentially identical to yesterday, incremental-only updates, media-driven non-events.
-- Favour critical, left-leaning outlets per `config/sources.yaml`.
+- Favour critical, left-leaning outlets per `config/briefings/news/sources.yaml`.
 
 ## Final checklist (revise if any answer is no)
 
@@ -137,7 +137,7 @@ After writing: append URLs to `state/selected_reads_index.md`; trim entries olde
 
 ## Commits
 
-1. `briefings/YYYY-MM-DD.md`
-2. Update `state/dedup_index.md` and `state/selected_reads_index.md`
-3. Update `state/last_run.json`
-4. Commit: `briefing: YYYY-MM-DD`
+1. `briefings/news/YYYY-MM-DD.md`
+2. Update `state/news/dedup_index.md` and `state/news/selected_reads_index.md`
+3. Update `state/news/last_run.json`
+4. Commit: `briefing/news: YYYY-MM-DD`

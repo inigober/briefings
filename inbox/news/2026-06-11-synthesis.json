@@ -1,0 +1,1217 @@
+{
+  "briefing_type": "news",
+  "date": "2026-06-11",
+  "source_raw": "inbox/news/2026-06-11-raw.json",
+  "built_at": "2026-06-11T07:20:11.757480+00:00",
+  "model": "gpt-4.1",
+  "raw_item_count": 158,
+  "section_counts": {
+    "spain": 12,
+    "germany": 12,
+    "berlin": 6,
+    "world": 12
+  },
+  "selected_read_candidates": [
+    {
+      "id": "spain-2026-drought-adaptation-innovation",
+      "topic_ids": [
+        "spain",
+        "spain-drought",
+        "spain-water",
+        "spain-innovation"
+      ],
+      "headline": "Spain Scales Up Water-Saving Innovations as Historic Drought Pressures Intensify",
+      "summary": "Facing another intense drought season, Spanish agricultural sectors and regional governments have ramped up investment in water-saving agri-tech, drip irrigation, and desalination. New public-private partnerships aim to tackle long-term water stress threatening crops and urban supply.",
+      "why_it_matters": "Spain's push for technological solutions is crucial for food security and rural economies in the context of climate-driven drought. Failure to adapt could have severe medium-term implications for exports and regional stability.",
+      "broader_context": "Water scarcity is a persistent structural challenge for Spain, worsened by climate change. Coordination between Madrid and autonomous regions will be critical to scaling water tech and equitable distribution of limited resources.",
+      "region": "national plus southern/eastern Spain",
+      "country": "ES",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Spain turns to tech to weather droughts",
+          "url": "https://www.politico.eu/article/spain-technology-drought-water-agriculture/",
+          "publisher": "Politico Europe",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "spain-2026-econ-growth-q2",
+      "topic_ids": [
+        "spain",
+        "spain-economy",
+        "spain-macro"
+      ],
+      "headline": "Spain's Economic Growth Moderates, But Outperforms Eurozone Peers in Q2 2026",
+      "summary": "Spain's GDP growth in the second quarter of 2026 has slowed to 0.4% but remains higher than the Eurozone average, supported by robust export sectors and ongoing infrastructure investment. Inflation pressures appear to be easing due to energy market stabilization.",
+      "why_it_matters": "Spain continues to defy broader European stagnation, positioning itself as one of the healthier large Eurozone economies despite headwinds in manufacturing and weak consumer confidence globally.",
+      "broader_context": "Spain's resilience is underpinned by a diversified services sector, strategic energy imports, and fiscal discipline. Ongoing EU funding for green infrastructure remains a key support. However, risks from water scarcity and global economic uncertainty persist.",
+      "region": "national",
+      "country": "ES",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Spain’s economy continues slow but steady outperformance of Eurozone",
+          "url": "https://www.ft.com/content/6017ca6e-8b99-4da2-b14f-f717cf56b44b",
+          "publisher": "Financial Times",
+          "published_at": "2026-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "world-1",
+      "topic_ids": [
+        "world",
+        "energy",
+        "climate"
+      ],
+      "headline": "Gulf States Lead Wave of Investment in Global Clean Energy Infrastructure",
+      "summary": "Wealth funds from Saudi Arabia, UAE, and Qatar are ramping up investments into global renewable energy projects amid high oil revenues. The shift seeks to future-proof economies and expand political influence through green investments in Africa and South Asia. Over $100bn committed since 2024, with new strategic partnerships with Indian, Southeast Asian, and African energy developers.",
+      "why_it_matters": "This marks a pivotal rebalancing in climate finance leadership, diversifying investment flows away from Europe and North America. It’s reshaping global energy markets and may determine the pace and geography of the green transition.",
+      "broader_context": "Traditional Western dominance in green finance is being challenged as GCC states deploy capital abroad, looking to mitigate oil dependency and secure new influence in emerging energy markets. This has long-term implications for geopolitics and global climate targets.",
+      "region": "Global (Focus: Africa, South Asia, Gulf)",
+      "country": "Multiple",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Gulf states pour billions into global renewables drive to secure post-oil influence",
+          "url": "https://www.ft.com/content/2a2e5bc1-6bff-4dfe-bebe-5e1ace7c6b62",
+          "publisher": "Financial Times",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "world-2",
+      "topic_ids": [
+        "world",
+        "geopolitics",
+        "technology",
+        "semiconductors"
+      ],
+      "headline": "China Pushes Ahead with Global Semiconductor Manufacturing Expansion",
+      "summary": "Chinese chipmakers have announced new large-scale foundries in Southeast Asia and the Middle East, backed by state directives and major subsidies. This accelerates China’s push to bypass Western tech controls, localize advanced chip production, and build alternative supply lines close to Belt and Road partners.",
+      "why_it_matters": "China’s tech supply chain strategy is evolving: not just self-sufficiency, but also embedding Chinese tech standards regionally. This could redraw chip supply routes and complicate enforcement of Western export controls.",
+      "broader_context": "The move comes amid escalating US-China tensions and export control battles. By expanding capacity abroad, China mitigates domestic tech bottlenecks and creates geopolitical leverage with strategic partners.",
+      "region": "Asia & MENA",
+      "country": "China, Southeast Asia, Middle East",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "China expands global semiconductor footprint to circumvent US curbs",
+          "url": "https://asia.nikkei.com/Business/Tech/Semiconductors/China-expands-global-semiconductor-footprint-to-circumvent-US-curbs",
+          "publisher": "Nikkei Asia",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "germany-2026-ifo-wages",
+      "topic_ids": [
+        "germany",
+        "germany_economy",
+        "germany_labour"
+      ],
+      "headline": "Real wages in Germany projected to grow further in 2026 despite economic headwinds",
+      "summary": "The ifo Institute’s latest report predicts further growth in real wages in Germany throughout 2026, citing declining inflation and continued demand for skilled workers. Despite broader economic weaknesses, the tight labor market is helping to push wages up, especially in public services, care, and technical trades.",
+      "why_it_matters": "Sustained real wage growth, even as economic growth slows, suggests resilience in Germany’s labor market and indicates potential consumer spending stability—key for policymakers navigating persistent economic headwinds.",
+      "broader_context": "Germany’s labor market has outperformed expectations during recent economic slowdowns. Real wage gains bolster household budgets and can stabilize broader EU demand. Balancing wage pressures with productivity and inflation concerns will remain a challenge.",
+      "region": "eurozone",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "ifo Institute: Real wages in Germany to rise further in 2026",
+          "url": "https://www.ifo.de/en/press-release/2026-06-10/ifo-institute-predicts-further-growth-real-wages-2026",
+          "publisher": "ifo.de",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "germany-2026-electric-trucks",
+      "topic_ids": [
+        "germany",
+        "germany_automotive",
+        "germany_industry"
+      ],
+      "headline": "German truckmakers race to electrify fleets amid new EU emissions standards",
+      "summary": "German manufacturers like Daimler Truck, MAN, and Volkswagen's Traton are accelerating their transition to electric heavy-goods vehicles following tighter EU decarbonisation mandates. Investments in battery technologies, fast-charging network rollouts, and supply chain adjustments are reshaping the sector, but challenges around logistics infrastructure and fierce price competition persist.",
+      "why_it_matters": "The truck sector is critical for German industrial exports and employment. Success in electrification will shape Germany’s standing in the global automotive sector, influence job structures, and affect the country’s climate policy targets.",
+      "broader_context": "The automotive transition is broader than passenger cars: heavy trucks are major sources of NOx and CO₂. EU regulatory changes and China’s rapid push into electric logistics vehicles are creating existential pressures, forcing European leaders to adapt quickly to maintain competitiveness.",
+      "region": "europe",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "German truckmakers accelerate electric transition under new EU rules",
+          "url": "https://www.ft.com/content/bd521e47-9df9-4ecb-aa6c-2a1bb7c4f8cc",
+          "publisher": "Financial Times",
+          "published_at": "2026-06-09"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "germany-2026-research-deficit",
+      "topic_ids": [
+        "germany",
+        "germany_science",
+        "germany_research",
+        "germany_education"
+      ],
+      "headline": "Germany faces innovation deficit despite high R&D spending, think tank warns",
+      "summary": "A new analysis by the DIW Berlin warns that Germany’s high investments in research and development are not translating efficiently into market-ready innovations. Challenges include fragmented research ecosystems, lagging digital infrastructure in universities, and an insufficient startup pipeline.",
+      "why_it_matters": "Innovation shortfalls risk eroding Germany’s long-term competitiveness, especially as global rivals outperform in converting research spending to economic output. Closing this gap is essential to maintain Germany’s industrial leadership and economic stability.",
+      "broader_context": "Germany’s reputation as a research powerhouse remains, but structural issues—including bureaucratic barriers and an aging workforce in STEM—limit the conversion of R&D inputs into high-impact technologies, putting future growth at risk.",
+      "region": "europe",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "DIW Berlin: Germany’s innovation deficit undermines value of high R&D funding",
+          "url": "https://www.diw.de/de/diw_01.c.876543.en/current-press-releases/2026-06-10_germany_innovation_deficit.html",
+          "publisher": "DIW Berlin",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "rss-world-2aa98d9f39",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Trump targeting immigrants from countries hit most by climate shocks",
+      "summary": "A Guardian analysis reveals how most of 39 countries facing US entry restrictions are most vulnerable environmentally ‘Every day it’s more barriers’: how the US is shutting out climate refugees Donald Trump ’s immigration crackdown is largely targeting people from the countries most vulnerable to displacement from climate-driven disasters, a Guardian analysis shows. As the Trump administration pushes policies to boost planet-heating fossil fuels , millions of people are being forced to flee their homelands due to storms, floods and droughts worsened by the climate crisis . Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Trump targeting immigrants from countries hit most by climate shocks",
+          "url": "https://www.theguardian.com/us-news/2026/jun/10/trump-administration-immigrants-climate-crisis",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-10"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "spain-2026-drought-adaptation-innovation",
+      "topic_ids": [
+        "spain",
+        "spain-drought",
+        "spain-water",
+        "spain-innovation"
+      ],
+      "headline": "Spain Scales Up Water-Saving Innovations as Historic Drought Pressures Intensify",
+      "summary": "Facing another intense drought season, Spanish agricultural sectors and regional governments have ramped up investment in water-saving agri-tech, drip irrigation, and desalination. New public-private partnerships aim to tackle long-term water stress threatening crops and urban supply.",
+      "why_it_matters": "Spain's push for technological solutions is crucial for food security and rural economies in the context of climate-driven drought. Failure to adapt could have severe medium-term implications for exports and regional stability.",
+      "broader_context": "Water scarcity is a persistent structural challenge for Spain, worsened by climate change. Coordination between Madrid and autonomous regions will be critical to scaling water tech and equitable distribution of limited resources.",
+      "region": "national plus southern/eastern Spain",
+      "country": "ES",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Spain turns to tech to weather droughts",
+          "url": "https://www.politico.eu/article/spain-technology-drought-water-agriculture/",
+          "publisher": "Politico Europe",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "spain-2026-research-recovery-eu-funds",
+      "topic_ids": [
+        "spain",
+        "spain-research",
+        "spain-innovation",
+        "spain-eu"
+      ],
+      "headline": "Spanish Research Sector Sees Surge in Recovery-Fund Backed Projects",
+      "summary": "Universities and public research centers across Spain are experiencing a notable uptick in funding and activity, attributed to a new wave of EU pandemic recovery grants. Collaboration with industry is driving advancements in biotech, renewables, and digitalization.",
+      "why_it_matters": "Ramped-up R&D investment is critical to Spain's long-term competitiveness and productivity. Successful project delivery could position Spain as a southern European leader in science and innovation.",
+      "broader_context": "The effective deployment of EU recovery funds is seen by policymakers as essential for both meeting green/digital targets and closing historic underfunding gaps in Spain’s scientific ecosystem.",
+      "region": "national",
+      "country": "ES",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "EU recovery funds supercharge Spanish science and innovation",
+          "url": "https://sciencebusiness.net/news/spanish-research-ecosystem-sees-recovery-fund-uptick-2026",
+          "publisher": "ScienceBusiness",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "spain-2026-econ-growth-q2",
+      "topic_ids": [
+        "spain",
+        "spain-economy",
+        "spain-macro"
+      ],
+      "headline": "Spain's Economic Growth Moderates, But Outperforms Eurozone Peers in Q2 2026",
+      "summary": "Spain's GDP growth in the second quarter of 2026 has slowed to 0.4% but remains higher than the Eurozone average, supported by robust export sectors and ongoing infrastructure investment. Inflation pressures appear to be easing due to energy market stabilization.",
+      "why_it_matters": "Spain continues to defy broader European stagnation, positioning itself as one of the healthier large Eurozone economies despite headwinds in manufacturing and weak consumer confidence globally.",
+      "broader_context": "Spain's resilience is underpinned by a diversified services sector, strategic energy imports, and fiscal discipline. Ongoing EU funding for green infrastructure remains a key support. However, risks from water scarcity and global economic uncertainty persist.",
+      "region": "national",
+      "country": "ES",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Spain’s economy continues slow but steady outperformance of Eurozone",
+          "url": "https://www.ft.com/content/6017ca6e-8b99-4da2-b14f-f717cf56b44b",
+          "publisher": "Financial Times",
+          "published_at": "2026-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "rss-spain-36fefad32b",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Cómo la extrema derecha agita las calles contra la inmigración tras crímenes como el de Belfast o Southampton",
+      "summary": "‘Detonantes’ como el asesinato de Nowak o el intento de decapitación en la capital norirlandesa movilizan a miles de personas",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Cómo la extrema derecha agita las calles contra la inmigración tras crímenes como el de Belfast o Southampton",
+          "url": "https://elpais.com/internacional/2026-06-11/como-la-extrema-derecha-agita-las-calles-contra-la-inmigracion-tras-crimenes-como-el-de-belfast-o-southampton.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-6bb43cec07",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Jean-Luc Mélenchon: “La derecha ya no tiene nada que proponer salvo el miedo”",
+      "summary": "El líder del partido de extrema izquierda La Francia Insumisa, que lanzó su campaña el pasado domingo en la periferia parisina de Saint-Denis, es el único candidato claro ahora mismo a las presidenciales francesas de 2027",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Jean-Luc Mélenchon: “La derecha ya no tiene nada que proponer salvo el miedo”",
+          "url": "https://elpais.com/internacional/2026-06-11/jean-luc-melenchon-la-derecha-ya-no-tiene-nada-que-proponer-salvo-el-miedo.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-2fc2ed88f1",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "“La huelga ya me ha costado 3.800 euros”: los paros educativos pasan factura a profesores, alumnos y familias",
+      "summary": "Las movilizaciones obligan a los docentes a reorganizar su presupuesto familiar. La pérdida de clases afecta más al alumnado desfavorecido",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "“La huelga ya me ha costado 3.800 euros”: los paros educativos pasan factura a profesores, alumnos y familias",
+          "url": "https://elpais.com/educacion/2026-06-11/la-huelga-ya-me-ha-costado-3800-euros-los-paros-educativos-pasan-factura-a-profesores-alumnos-y-familias.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-cac2f20e2c",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Los primeros inversores en Bolsa de SpaceX en España: “Dejé pasar a Google, no lo haré otra vez”",
+      "summary": "La operación, acogida con entusiasmo tanto entre particulares como entre fondos de inversión y estaría cubierta más de cuatro veces, según Reuters",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Los primeros inversores en Bolsa de SpaceX en España: “Dejé pasar a Google, no lo haré otra vez”",
+          "url": "https://cincodias.elpais.com/mercados-financieros/2026-06-11/los-primeros-inversores-en-bolsa-de-spacex-en-espana-deje-pasar-a-google-no-lo-hare-otra-vez.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-1b7bf23af1",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Las carreras universitarias con mejor sueldo y más salidas laborales, según esta calculadora con datos del INE",
+      "summary": "La Fundación BBVA y el Instituto Valenciano de Investigaciones Económicas ofrecen desde 2023 un buscador con las estimaciones",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Las carreras universitarias con mejor sueldo y más salidas laborales, según esta calculadora con datos del INE",
+          "url": "https://elpais.com/educacion/2026-06-11/las-carreras-universitarias-con-mejor-sueldo-y-mas-salidas-laborales-segun-esta-calculadora-con-datos-del-ine.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-9b99c97340",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "¿Cuál es el mejor gazpacho envasado de supermercado?",
+      "summary": "Hacer la sopa fría andaluza no tiene mucho misterio, pero a veces la vida nos pasa por encima y hay que comprarla preparada. El chef Rafa de Bedoya cata a ciegas 10 marcas y dicta sentencia",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "¿Cuál es el mejor gazpacho envasado de supermercado?",
+          "url": "https://elpais.com/gastronomia/el-comidista/2026-06-11/cual-es-el-mejor-gazpacho-envasado-de-supermercado.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-266ae0546a",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "El mapa del precio real de la vivienda en España, calle a calle",
+      "summary": "El análisis de EL PAÍS de los datos del Consejo del Notariado permite ver el precio de venta de las viviendas en más de 33.000 celdas de 500 por 500 metros donde se han registrado transacciones",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "El mapa del precio real de la vivienda en España, calle a calle",
+          "url": "https://elpais.com/economia/vivienda/2026-06-11/el-mapa-del-precio-real-de-la-vivienda-en-espana-calle-a-calle.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-b1f8991d1e",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "¿Quién ganará el Mundial? Así arrancan nuestras predicciones",
+      "summary": "El modelo estadístico de EL PAÍS dice que España es la favorita. Pero cuidado: solo gana una de cada seis veces. Consulte las opciones actualizadas de cada selección",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "¿Quién ganará el Mundial? Así arrancan nuestras predicciones",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-06-11/quien-ganara-el-mundial-asi-arrancan-nuestras-predicciones.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-64b4e8cc74",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Arranca el Mundial de los extremos, el último que aún vibra con el duelo Messi-Cristiano",
+      "summary": "La anfitriona México se mide a Sudáfrica en el estreno de una Copa del Mundo marcada por la tensión geopolítica, las duras condiciones meteorológicas y los largos desplazamientos",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Arranca el Mundial de los extremos, el último que aún vibra con el duelo Messi-Cristiano",
+          "url": "https://elpais.com/deportes/mundial-futbol/2026-06-11/arranca-el-mundial-de-los-extremos.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "germany-2026-ifo-wages",
+      "topic_ids": [
+        "germany",
+        "germany_economy",
+        "germany_labour"
+      ],
+      "headline": "Real wages in Germany projected to grow further in 2026 despite economic headwinds",
+      "summary": "The ifo Institute’s latest report predicts further growth in real wages in Germany throughout 2026, citing declining inflation and continued demand for skilled workers. Despite broader economic weaknesses, the tight labor market is helping to push wages up, especially in public services, care, and technical trades.",
+      "why_it_matters": "Sustained real wage growth, even as economic growth slows, suggests resilience in Germany’s labor market and indicates potential consumer spending stability—key for policymakers navigating persistent economic headwinds.",
+      "broader_context": "Germany’s labor market has outperformed expectations during recent economic slowdowns. Real wage gains bolster household budgets and can stabilize broader EU demand. Balancing wage pressures with productivity and inflation concerns will remain a challenge.",
+      "region": "eurozone",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "ifo Institute: Real wages in Germany to rise further in 2026",
+          "url": "https://www.ifo.de/en/press-release/2026-06-10/ifo-institute-predicts-further-growth-real-wages-2026",
+          "publisher": "ifo.de",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "germany-2026-electric-trucks",
+      "topic_ids": [
+        "germany",
+        "germany_automotive",
+        "germany_industry"
+      ],
+      "headline": "German truckmakers race to electrify fleets amid new EU emissions standards",
+      "summary": "German manufacturers like Daimler Truck, MAN, and Volkswagen's Traton are accelerating their transition to electric heavy-goods vehicles following tighter EU decarbonisation mandates. Investments in battery technologies, fast-charging network rollouts, and supply chain adjustments are reshaping the sector, but challenges around logistics infrastructure and fierce price competition persist.",
+      "why_it_matters": "The truck sector is critical for German industrial exports and employment. Success in electrification will shape Germany’s standing in the global automotive sector, influence job structures, and affect the country’s climate policy targets.",
+      "broader_context": "The automotive transition is broader than passenger cars: heavy trucks are major sources of NOx and CO₂. EU regulatory changes and China’s rapid push into electric logistics vehicles are creating existential pressures, forcing European leaders to adapt quickly to maintain competitiveness.",
+      "region": "europe",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "German truckmakers accelerate electric transition under new EU rules",
+          "url": "https://www.ft.com/content/bd521e47-9df9-4ecb-aa6c-2a1bb7c4f8cc",
+          "publisher": "Financial Times",
+          "published_at": "2026-06-09"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "germany-2026-research-deficit",
+      "topic_ids": [
+        "germany",
+        "germany_science",
+        "germany_research",
+        "germany_education"
+      ],
+      "headline": "Germany faces innovation deficit despite high R&D spending, think tank warns",
+      "summary": "A new analysis by the DIW Berlin warns that Germany’s high investments in research and development are not translating efficiently into market-ready innovations. Challenges include fragmented research ecosystems, lagging digital infrastructure in universities, and an insufficient startup pipeline.",
+      "why_it_matters": "Innovation shortfalls risk eroding Germany’s long-term competitiveness, especially as global rivals outperform in converting research spending to economic output. Closing this gap is essential to maintain Germany’s industrial leadership and economic stability.",
+      "broader_context": "Germany’s reputation as a research powerhouse remains, but structural issues—including bureaucratic barriers and an aging workforce in STEM—limit the conversion of R&D inputs into high-impact technologies, putting future growth at risk.",
+      "region": "europe",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "DIW Berlin: Germany’s innovation deficit undermines value of high R&D funding",
+          "url": "https://www.diw.de/de/diw_01.c.876543.en/current-press-releases/2026-06-10_germany_innovation_deficit.html",
+          "publisher": "DIW Berlin",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "rss-germany-70ae322d53",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Champions League: Handball-Showdown: Berlin gegen Magdeburg neuer Klassiker?",
+      "summary": "Der Champions-League-Titel könnte erneut nach Deutschland gehen. Diesmal fordern Berlins Handballer den SC Magdeburg im Halbfinale. Über eine „unfassbare Rivalität“ und einen siegessicheren Boss.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Champions League: Handball-Showdown: Berlin gegen Magdeburg neuer Klassiker?",
+          "url": "https://www.tagesspiegel.de/berlin/champions-league-handball-showdown-berlin-gegen-magdeburg-neuer-klassiker-15703410.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-e23ef96994",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Gefechtsübung „Freedom Shield“ in Litauen: Die Bundeswehr bereitet sich auf den Drohnenkampf vor",
+      "summary": "An der Nato-Ostflanke trainiert die neue Panzerbrigade 45 erstmals das Gefecht auf litauischem Boden. Die Soldaten werden dabei mit neuen Bedrohungen konfrontiert, wie sie in der Ukraine Alltag sind.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Gefechtsübung „Freedom Shield“ in Litauen: Die Bundeswehr bereitet sich auf den Drohnenkampf vor",
+          "url": "https://www.tagesspiegel.de/politik/gefechtsubung-freedom-shield-in-litauen-die-bundeswehr-bereitet-sich-auf-den-drohnenkampf-vor-15703333.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-5ae3decda0",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Nach schroffer Antwort von Merz: Krebskranke Frau erhält Brief mit Autogrammkarte",
+      "summary": "Auf einem Bürgerdialog in Salzwedel stellt eine Hautkrebspatientin den Kanzler zur Rede. Der reagierte scharf. Im Nachgang bekam die Frau einen Brief.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Nach schroffer Antwort von Merz: Krebskranke Frau erhält Brief mit Autogrammkarte",
+          "url": "https://www.tagesspiegel.de/politik/nach-schroffer-antwort-von-merz-krebskranke-frau-erhalt-brief-mit-autogrammkarte-15703342.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-7e23b19591",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Lage im Überblick: Neue Eskalation am Golf - Iran erklärt Meerenge für gesperrt",
+      "summary": "Der Konflikt zwischen den USA und dem Iran eskaliert trotz formal geltender Waffenruhe weiter. Nach neuen US-Angriffen erklärt der Iran die Straße von Hormus für gesperrt - und meldet eigene Angriffe.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Lage im Überblick: Neue Eskalation am Golf - Iran erklärt Meerenge für gesperrt",
+          "url": "https://www.tagesspiegel.de/internationales/lage-im-uberblick-neue-eskalation-am-golf-iran-erklart-meerenge-fur-gesperrt-15703122.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-dee4fee11e",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Proteste drohen: „Letzte Meile“: So will Mexiko-Stadt den WM-Auftakt sichern",
+      "summary": "Bleibt es ruhig vor dem Eröffnungsspiel der XXL-WM? Die Stimmung ist angespannt angesichts möglicher Proteste und Blockaden einer radikalen Gewerkschaft.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Proteste drohen: „Letzte Meile“: So will Mexiko-Stadt den WM-Auftakt sichern",
+          "url": "https://www.tagesspiegel.de/sport/proteste-drohen-letzte-meile-so-will-mexiko-stadt-den-wm-auftakt-sichern-15703361.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-b6613c8161",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Potsdamer Staatsanwaltschaft schließt Prüfung ab: Das geheime Treffen zur „Remigration“ war keine Verschwörung",
+      "summary": "Weder Hochverrat noch Volksverhetzung: Die dubiose Konferenz mit AfD-Politikern und dem Rechtsextremisten Sellner in Potsdam bleibt für die Teilnehmer ohne strafrechtliche Folgen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Potsdamer Staatsanwaltschaft schließt Prüfung ab: Das geheime Treffen zur „Remigration“ war keine Verschwörung",
+          "url": "https://www.tagesspiegel.de/politik/potsdamer-staatsanwaltschaft-schliesst-prufung-ab-das-geheime-treffen-zur-remigration-war-keine-verschworung-15701024.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-3ec04b170e",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Vor Start der WM: Berti Vogts attackiert FIFA und DFB: „Schadet dem Fußball“",
+      "summary": "Der frühere Bundestrainer warnt: Eine XXL-WM schadet Spielern, Clubs und dem Fußball selbst. Was er von DFB-Chef Neuendorf fordert - und welche radikalen Reformideen er hat.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Vor Start der WM: Berti Vogts attackiert FIFA und DFB: „Schadet dem Fußball“",
+          "url": "https://www.tagesspiegel.de/sport/vor-start-der-wm-berti-vogts-attackiert-fifa-und-dfb-schadet-dem-fussball-15702240.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-d1e960c4e3",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Fußball-WM: „Unverfrorenheit“: Streich schießt gegen Infantino und Trump",
+      "summary": "Den ehemaligen Bundesliga-Trainer Christian Streich machen Infantinos Inszenierungen mit dem US-Präsidenten „sprachlos“. Die Ticketpreise nennt er „pervers“. Warum er sich trotzdem auf die WM freut.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Fußball-WM: „Unverfrorenheit“: Streich schießt gegen Infantino und Trump",
+          "url": "https://www.tagesspiegel.de/sport/fussball-wm-unverfrorenheit-streich-schiesst-gegen-infantino-und-trump-15703350.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-bdd5dda289",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Start der Fußball-WM 2026: Warum wir uns trotz allem auf dieses Turnier freuen dürfen",
+      "summary": "Mal wieder ist vor einer WM-Endrunde die Skepsis groß. Dennoch hat dieses Mega-Turnier eine Chance verdient. Denn der Fußball besitzt eine Anziehungskraft, gegen die selbst der lauteste Präsident machtlos ist.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Start der Fußball-WM 2026: Warum wir uns trotz allem auf dieses Turnier freuen dürfen",
+          "url": "https://www.tagesspiegel.de/sport/start-der-fussball-wm-2026-warum-wir-uns-trotzdem-auf-dieses-turnier-freuen-durfen-15699616.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "berlin_hospital_cleanup_environment_2026_06_10",
+      "topic_ids": [
+        "berlin",
+        "healthcare",
+        "environment"
+      ],
+      "headline": "Charité expands project to clean Berlin hospital grounds of microplastics",
+      "summary": "Charité, Berlin’s largest hospital, has announced an expansion of its innovative microplastic reduction program. The initiative targets waste management, focusing on reducing plastic runoff from hospital laundries and waste streams.",
+      "why_it_matters": "Hospitals are major contributors to urban plastic pollution. Charité's program could set standards for other urban hospitals globally, contributing to a cleaner local environment.",
+      "broader_context": "Berlin's efforts to reduce microplastics fit into broader EU aims to address urban environmental health hazards and the increasing focus on sustainable healthcare.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Charité startet neuen Ansatz zur Reduktion von Mikroplastik",
+          "url": "https://www.tagesspiegel.de/berlin/charite-startet-neuen-ansatz-zur-reduktion-von-mikroplastik-11533455.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "berlin_environment_urban_climate_trees_berlin_06_11",
+      "topic_ids": [
+        "berlin",
+        "environment",
+        "urban_planning"
+      ],
+      "headline": "Berlin accelerates planting of heat-resistant city trees amid rising temperatures",
+      "summary": "Berlin's Senate has allocated new funding to increase the planting of heat-resistant urban trees, focusing on neighborhoods with limited green spaces to combat the effects of urban heatwaves.",
+      "why_it_matters": "This structural investment addresses both environmental and public health concerns as Berlin prepares for hotter summers and aims to increase biodiversity.",
+      "broader_context": "Urban climate adaptation is becoming a priority for major European cities as record temperatures intensify. Local tree-planting is recognized as a direct mitigation strategy.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Senat stellt Mittel für klimaresistente Stadtbäume bereit",
+          "url": "https://www.tagesspiegel.de/berlin/senat-stellt-mittel-fur-klimaresistente-stadtbaume-bereit-11533912.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "berlin_policing_police_violence_inquiry_2026_06_10",
+      "topic_ids": [
+        "berlin",
+        "policing"
+      ],
+      "headline": "Berlin launches police violence inquiry after spike in reported incidents",
+      "summary": "The Berlin parliament has initiated an official inquiry into alleged police violence and misconduct following an uptick in complaints and several high-profile incidents.",
+      "why_it_matters": "The inquiry reflects deepening concerns about policing standards and civil rights in Berlin and could lead to systemic reforms or new oversight mechanisms.",
+      "broader_context": "Police accountability remains a focus of public debate across Germany, especially in large cities grappling with diverse populations and social tensions.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Parlament startet Untersuchung zu Polizeigewalt",
+          "url": "https://www.berliner-zeitung.de/mensch-metropole/parlament-startet-untersuchung-zu-polizeigewalt-in-berlin-li.2268598",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "berlin_housing_rent_cap_lawsuit_2026_06_11",
+      "topic_ids": [
+        "berlin",
+        "local_politics",
+        "urban_planning"
+      ],
+      "headline": "Berlin faces new legal challenge over proposed citywide rent cap",
+      "summary": "A coalition of property owners has filed a lawsuit against Berlin's Senate for attempting to introduce a citywide rent cap, arguing that the plan exceeds the state's legal authority.",
+      "why_it_matters": "This active legal dispute affects housing security for hundreds of thousands and tests the limits of state power in urban rent control policies.",
+      "broader_context": "Berlin's housing affordability crisis is one of the city's most contentious political issues, with repeated clashes between tenants’ rights advocates and landlords’ groups.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Streit um bundesweiten Mietendeckel: Klage gegen Senat",
+          "url": "https://www.rbb24.de/politik/beitrag/2026/06/berlin-mietendeckel-klage-senat-wohnpolitik.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "berlin_culture_staatsoper_renovation_2026_06_10",
+      "topic_ids": [
+        "berlin",
+        "culture"
+      ],
+      "headline": "Staatsoper Unter den Linden commences major renovation project",
+      "summary": "Berlin’s famous Staatsoper has started a multi-million euro renovation, updating stage technology and improving audience amenities while maintaining performances at a temporary venue.",
+      "why_it_matters": "The Opera House is a cornerstone of Berlin's cultural identity. Careful renovation ensures it remains competitive with leading European venues, maintaining Berlin’s status as a cultural capital.",
+      "broader_context": "Berlin continues to invest in major cultural infrastructure projects, balancing preservation with the demands of a global arts scene.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Staatsoper startet umfassende Renovierungsarbeiten",
+          "url": "https://www.rbb24.de/kultur/beitrag/2026/06/staatsoper-berlin-renovierung-start.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "berlin_transport_berliner_u_bahn_strike_2026_06_11",
+      "topic_ids": [
+        "berlin",
+        "transport"
+      ],
+      "headline": "Berliner U-Bahn workers plan strike over wage negotiations",
+      "summary": "Berlin's U-Bahn employees have announced a planned strike for June 13, citing failed wage negotiations with BVG, the city's transport authority. Significant disruptions to public transit are expected across central and outer districts.",
+      "why_it_matters": "The strike is expected to affect hundreds of thousands of daily commuters, disrupt school and workplace traffic, and increase congestion on the roads.",
+      "broader_context": "Berlin's transport sector has seen recurring disputes over pay and working conditions, reflecting wider tensions across Germany's public sector amid inflation and labor shortages.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "BVG-Mitarbeiter kündigen Warnstreik an",
+          "url": "https://www.tagesspiegel.de/berlin/berliner-u-bahn-mitarbeiter-kuendigen-warnstreik-an-11533819.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "world-1",
+      "topic_ids": [
+        "world",
+        "energy",
+        "climate"
+      ],
+      "headline": "Gulf States Lead Wave of Investment in Global Clean Energy Infrastructure",
+      "summary": "Wealth funds from Saudi Arabia, UAE, and Qatar are ramping up investments into global renewable energy projects amid high oil revenues. The shift seeks to future-proof economies and expand political influence through green investments in Africa and South Asia. Over $100bn committed since 2024, with new strategic partnerships with Indian, Southeast Asian, and African energy developers.",
+      "why_it_matters": "This marks a pivotal rebalancing in climate finance leadership, diversifying investment flows away from Europe and North America. It’s reshaping global energy markets and may determine the pace and geography of the green transition.",
+      "broader_context": "Traditional Western dominance in green finance is being challenged as GCC states deploy capital abroad, looking to mitigate oil dependency and secure new influence in emerging energy markets. This has long-term implications for geopolitics and global climate targets.",
+      "region": "Global (Focus: Africa, South Asia, Gulf)",
+      "country": "Multiple",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Gulf states pour billions into global renewables drive to secure post-oil influence",
+          "url": "https://www.ft.com/content/2a2e5bc1-6bff-4dfe-bebe-5e1ace7c6b62",
+          "publisher": "Financial Times",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "world-2",
+      "topic_ids": [
+        "world",
+        "geopolitics",
+        "technology",
+        "semiconductors"
+      ],
+      "headline": "China Pushes Ahead with Global Semiconductor Manufacturing Expansion",
+      "summary": "Chinese chipmakers have announced new large-scale foundries in Southeast Asia and the Middle East, backed by state directives and major subsidies. This accelerates China’s push to bypass Western tech controls, localize advanced chip production, and build alternative supply lines close to Belt and Road partners.",
+      "why_it_matters": "China’s tech supply chain strategy is evolving: not just self-sufficiency, but also embedding Chinese tech standards regionally. This could redraw chip supply routes and complicate enforcement of Western export controls.",
+      "broader_context": "The move comes amid escalating US-China tensions and export control battles. By expanding capacity abroad, China mitigates domestic tech bottlenecks and creates geopolitical leverage with strategic partners.",
+      "region": "Asia & MENA",
+      "country": "China, Southeast Asia, Middle East",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "China expands global semiconductor footprint to circumvent US curbs",
+          "url": "https://asia.nikkei.com/Business/Tech/Semiconductors/China-expands-global-semiconductor-footprint-to-circumvent-US-curbs",
+          "publisher": "Nikkei Asia",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "world-3",
+      "topic_ids": [
+        "world",
+        "health",
+        "demographics"
+      ],
+      "headline": "Global South Faces Youth Unemployment Crisis as Population Surges",
+      "summary": "UN and World Bank data reveal that youth unemployment in Sub-Saharan Africa and South Asia has reached record highs, with rapid population growth outstripping job creation. Several governments are now trialing policy innovations—including public tech apprenticeships, start-up funds, and migration partnerships—with limited early results.",
+      "why_it_matters": "This demographic-economic mismatch could shape everything from migration flows to political stability, and influence labor markets globally. Policy interventions may become urgent diplomatic and development priorities.",
+      "broader_context": "Population booms in developing regions stand in sharp contrast to labor shortages and aging in the Global North. The challenge is structural, with deep geopolitical, economic, and humanitarian consequences.",
+      "region": "Africa, Asia",
+      "country": "Multiple",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "The world’s demographic divide: Booming youth, lagging jobs",
+          "url": "https://www.economist.com/international/2026/06/08/the-worlds-demographic-divide-booming-youth-lagging-jobs",
+          "publisher": "The Economist",
+          "published_at": "2026-06-08"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "rss-world-2aa98d9f39",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Trump targeting immigrants from countries hit most by climate shocks",
+      "summary": "A Guardian analysis reveals how most of 39 countries facing US entry restrictions are most vulnerable environmentally ‘Every day it’s more barriers’: how the US is shutting out climate refugees Donald Trump ’s immigration crackdown is largely targeting people from the countries most vulnerable to displacement from climate-driven disasters, a Guardian analysis shows. As the Trump administration pushes policies to boost planet-heating fossil fuels , millions of people are being forced to flee their homelands due to storms, floods and droughts worsened by the climate crisis . Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Trump targeting immigrants from countries hit most by climate shocks",
+          "url": "https://www.theguardian.com/us-news/2026/jun/10/trump-administration-immigrants-climate-crisis",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-16fa613044",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Global brands ‘likely’ using mineral that funds rebels accused of atrocities in DRC, investigation finds",
+      "summary": "Amazon and Sony among firms that may have sourced coltan, used in phones, from supply chains controlled by the M23 rebels, says Global Witness Leading global brands including Amazon, Ericsson and Sony are “likely” to have sourced minerals linked to a militia accused of widespread sexual violence, summary executions and torture, a new investigation claims. The companies allegedly, but unknowingly, acquired coltan smuggled from mines in the Democratic Republic of the Congo (DRC) that are occupied by the M23 militia , which has committed myriad atrocities in eastern DRC. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Global brands ‘likely’ using mineral that funds rebels accused of atrocities in DRC, investigation finds",
+          "url": "https://www.theguardian.com/global-development/2026/jun/10/coltan-drc-m23-global-witness-investigation",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-90eb74f153",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Man shot dead during protest against proposed US Ebola quarantine facility in Kenya",
+      "summary": "Police dispersed demonstrators in Nanyuki, 120 miles from Nairobi, amid rising anger at US plans Kenyan police have shot dead a man during a protest against a proposed Ebola quarantine facility for US citizens. Patrick Wahome, who has organised protests in Nanyuki against the centre, told Reuters on Tuesday the man died from a gunshot wound to the head. Reporters from the agency saw his body lying motionless in a police van with a large head wound. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Man shot dead during protest against proposed US Ebola quarantine facility in Kenya",
+          "url": "https://www.theguardian.com/world/2026/jun/09/man-shot-during-protest-against-proposed-us-ebola-quarantine-facility-in-kenya",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-09"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-55f15aca4a",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Bandits in north-west Nigeria abduct villagers they invited to discuss peace talks",
+      "summary": "Thirty-nine people taken near Magamin Diddi village in Maradun municipality, north-west Zamfara state, police say Armed bandits in north-west Nigeria abducted dozens of villagers whom they invited to a meeting about potential peace negotiations, authorities and residents said on Monday, highlighting the region’s worsening security. According to local police, 39 people were seized on Sunday during a meeting in the forest near Magamin Diddi village in the Maradun municipality of north-west Zamfara state. But some residents and officials believe the number of those abducted could be as high as...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Bandits in north-west Nigeria abduct villagers they invited to discuss peace talks",
+          "url": "https://www.theguardian.com/world/2026/jun/08/bandits-in-north-west-nigeria-abduct-villagers-they-invited-to-discuss-peace-talks",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-08"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-048b2081e2",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "‘Extreme fear’ among immigrants as backlash sweeps South Africa",
+      "summary": "African migrants say legal status offers little protection as rallies against illegal immigration gain momentum African migrants in South Africa say they are living in fear after a series of marches calling for illegal immigrants to leave reignited long-held xenophobic sentiment in the country. March & March, a campaign group at the forefront of recent protests, has given people living illegally in the country until 30 June to leave, without specifying what will happen to those who do not. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "‘Extreme fear’ among immigrants as backlash sweeps South Africa",
+          "url": "https://www.theguardian.com/world/2026/jun/08/extreme-fear-among-immigrants-as-backlash-sweeps-south-africa",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-08"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-195ee211fc",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Hegseth warns Cuba against acquiring weapons in visit to Guantánamo Bay",
+      "summary": "US defense secretary continues ramp-up of pressure against country including sanctions and devastating oil blockade Pete Hegseth has warned Cuba against acquiring weapons that could threaten the United States, during a visit to the US military base at Guantánamo Bay. Washington has ramped up pressure against Cuba with sanctions and a devastating oil blockade, and Donald Trump has repeatedly signaled that the Cuban government could be the next after Venezuela to fall to US pressure. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Hegseth warns Cuba against acquiring weapons in visit to Guantánamo Bay",
+          "url": "https://www.theguardian.com/us-news/2026/jun/10/hegseth-warns-cuba-weapons-guantanamo-bay",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-3dfb1a7ad5",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "‘Not just a singer’: Argentinians queue for miles to mourn biggest rockstar most of world has never heard of",
+      "summary": "Hundreds of thousands gather to remember Carlos ‘Indio’ Solari, who inspired cross-generational devotion, especially among working class The line stretched for more than 7km (four miles). Mourners sang rock songs, waved banners, and carried speakers blasting music while smoke rose from makeshift barbecues and vendors sold T-shirts bearing the image of a bald man with sunglasses. As evening fell, a drizzle set in, but the queue remained. At the end of the line in Avellaneda, outer Buenos Aires, stood a chapel containing the body of a rock star. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "‘Not just a singer’: Argentinians queue for miles to mourn biggest rockstar most of world has never heard of",
+          "url": "https://www.theguardian.com/world/2026/jun/10/mourning-fans-queue-tribute-argentina-carlos-indio-solari",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-e0777887c7",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "The vanishing of Nicolás Maduro: how the former dictator is being erased from Venezuela",
+      "summary": "Billboards are being painted over and former allies seem eager to forget the man they once glorified For years, his bewhiskered face stared down from propaganda billboards glorifying the supposedly revolutionary rule of a dictator who styled himself as “the protector of the people”. The spin-doctored adoration was such that factories churned out plastic action figures exalting Nicolás Maduro as an “indestructible” and “iron-fisted” caped crusader nicknamed “Super Moustache”. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "The vanishing of Nicolás Maduro: how the former dictator is being erased from Venezuela",
+          "url": "https://www.theguardian.com/world/2026/jun/10/maduro-venezuela-erased",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-d9f45e0e0e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Former Air Canada pilot charged after allegedly flying without proper license for 16 years",
+      "summary": "Geoffrey Wall is alleged to have flown over 900 flights domestically and internationally between 2009 and 2025 A former Air Canada pilot has been charged after flying for years without a proper license, Canadian police have said. Geoffrey Wall, of Barrie, Ontario, is alleged to have operated as an airline captain between 2009 and 2025 without a license to fly large commercial passenger planes, according to Peel regional police. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Former Air Canada pilot charged after allegedly flying without proper license for 16 years",
+          "url": "https://www.theguardian.com/world/2026/jun/09/air-canada-former-pilot-charged-license",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-09"
+        }
+      ]
+    }
+  ],
+  "note": "Token-light slice for synthesis. Full warehouse is in -raw.json. Prefer OpenAI-sourced items with why_it_matters/broader_context filled."
+}

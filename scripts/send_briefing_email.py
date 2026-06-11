@@ -3,6 +3,13 @@
 
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+_SCRIPTS_DIR = Path(__file__).resolve().parent
+if str(_SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS_DIR))
+
 import argparse
 import os
 import re
@@ -12,7 +19,7 @@ from pathlib import Path
 import markdown
 import requests
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
+from briefing_paths import REPO_ROOT, infer_type_from_briefing_path, load_briefing_type
 
 INSIGHT_MARKERS = ("💡", "🧭")
 
@@ -87,19 +94,19 @@ def extract_title(md_text: str, fallback: str) -> str:
     return fallback
 
 
-def extract_preheader(md_text: str, max_len: int = 100) -> str:
-    """Short inbox-preview line from What Matters Today themes, else first headline."""
-    in_themes = False
+def extract_preheader(md_text: str, section_name: str = "What Matters Today", max_len: int = 100) -> str:
+    """Short inbox-preview line from a named section, else first headline."""
+    in_section = False
     snippets: list[str] = []
 
     for line in md_text.splitlines():
         stripped = line.strip()
-        if stripped.startswith("## ") and "What Matters Today" in stripped:
-            in_themes = True
+        if stripped.startswith("## ") and section_name in stripped:
+            in_section = True
             continue
-        if in_themes and stripped.startswith("## "):
+        if in_section and stripped.startswith("## "):
             break
-        if in_themes and re.match(r"^\d+\.\s+", stripped):
+        if in_section and re.match(r"^\d+\.\s+", stripped):
             text = re.sub(r"^\d+\.\s*", "", stripped)
             text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
             text = text.split(".")[0].strip()
@@ -113,9 +120,15 @@ def extract_preheader(md_text: str, max_len: int = 100) -> str:
         match = re.match(r"^\*\s+\*\*(.+?)\*\*", line.strip())
         if match:
             return match.group(1)[:max_len]
+        h3 = re.match(r"^###\s+(.+)", stripped := line.strip())
+        if h3:
+            return h3.group(1)[:max_len]
 
-    title = extract_title(md_text, "Daily Briefing")
-    return title.replace("Daily Briefing — ", "")[:max_len]
+    title = extract_title(md_text, "Briefing")
+    for prefix in ("News Briefing — ", "Berlin Culture Briefing — ", "Daily Briefing — "):
+        if title.startswith(prefix):
+            return title.replace(prefix, "")[:max_len]
+    return title[:max_len]
 
 
 def parse_footnotes(md_text: str) -> dict[str, tuple[str, str]]:
@@ -355,12 +368,12 @@ def render_preheader_html(preheader: str) -> str:
     )
 
 
-def render_html(md_text: str, *, use_callouts: bool = True) -> str:
+def render_html(md_text: str, *, use_callouts: bool = True, preheader_section: str = "What Matters Today") -> str:
     footnotes = parse_footnotes(md_text)
     body_md, footnotes_md = split_footnotes(md_text)
     body_md = normalize_horizontal_rules(body_md)
     prepared = preprocess_briefing_markdown(body_md, footnotes, use_callouts)
-    preheader = extract_preheader(md_text)
+    preheader = extract_preheader(md_text, section_name=preheader_section)
 
     body_html = markdown.markdown(
         prepared,
@@ -427,7 +440,8 @@ def resolve_briefing_path(explicit: str | None, changed_files: list[str]) -> Pat
             candidates.append(REPO_ROOT / raw)
 
     if not candidates:
-        briefings = sorted((REPO_ROOT / "briefings").glob("*.md"))
+        briefings = sorted((REPO_ROOT / "briefings").glob("**/*.md"))
+        briefings = [p for p in briefings if not p.name.startswith("_")]
         if not briefings:
             raise FileNotFoundError("No briefing markdown files found")
         return briefings[-1]
@@ -471,6 +485,10 @@ def main() -> int:
 
     md_text = briefing_path.read_text(encoding="utf-8")
     title = extract_title(md_text, briefing_path.stem)
+    type_id = infer_type_from_briefing_path(briefing_path)
+    preheader_section = "What Matters Today"
+    if type_id:
+        preheader_section = load_briefing_type(type_id).email_preheader_section or preheader_section
 
     use_callouts_env = os.environ.get("BRIEFING_EMAIL_CALLOUTS", "true").lower() not in (
         "0",
@@ -484,8 +502,10 @@ def main() -> int:
         previews: list[Path] = []
         for use_callouts in callout_modes if args.compare else callout_modes:
             suffix = ".preview-callouts" if use_callouts else ".preview"
-            html = render_html(md_text, use_callouts=use_callouts)
-            preview = REPO_ROOT / "briefings" / f"{briefing_path.stem}{suffix}.html"
+            html = render_html(
+                md_text, use_callouts=use_callouts, preheader_section=preheader_section
+            )
+            preview = briefing_path.parent / f"{briefing_path.stem}{suffix}.html"
             preview.write_text(html, encoding="utf-8")
             previews.append(preview)
             label = "callout boxes" if use_callouts else "plain"
@@ -499,7 +519,7 @@ def main() -> int:
                 subprocess.run(["open", str(preview.resolve())], check=False)
         return 0
 
-    html = render_html(md_text, use_callouts=use_callouts)
+    html = render_html(md_text, use_callouts=use_callouts, preheader_section=preheader_section)
 
     api_key = os.environ.get("RESEND_API_KEY")
     from_addr = os.environ.get("BRIEFING_FROM_EMAIL")

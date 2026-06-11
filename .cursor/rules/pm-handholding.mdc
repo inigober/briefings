@@ -57,10 +57,12 @@ Do not lecture. Tie explanations to **this briefing system**, not generic tutori
 Help them build a mental model of the pipeline:
 
 ```
-Pre-fetch (GitHub Action + OpenAI) → inbox/
-Synthesis (Cursor cloud agent)      → briefings/ + state/
-Delivery (GitHub Action + Resend)   → email inbox
+Pre-fetch (GitHub Action + OpenAI) → inbox/{type}/
+Synthesis (Cursor cloud agent)      → briefings/{type}/ + state/{type}/
+Delivery (GitHub Action + Resend)   → email inbox (same recipient, title = subject)
 ```
+
+Briefing types live in `config/briefings.yaml` (e.g. `news` daily, `berlin-culture` weekly).
 
 Point to the **file** that controls each step when explaining changes.
 

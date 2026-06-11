@@ -1,10 +1,11 @@
 {
+  "briefing_type": "news",
   "date": "2026-06-11",
   "briefing_date": "2026-06-11",
   "inbox_date": "2026-06-11",
   "status": "success",
-  "briefing_path": "briefings/2026-06-11.md",
-  "inbox_path": "inbox/2026-06-11-raw.json",
+  "briefing_path": "briefings/news/2026-06-11.md",
+  "inbox_path": "inbox/news/2026-06-11-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "notes": "Full weekday synthesis from merged OpenAI + RSS inbox; no stale inbox fallback used."
