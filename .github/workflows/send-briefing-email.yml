@@ -19,6 +19,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          # Need parent commits so git diff(before, sha) works; depth=1 caused
+          # "fatal: bad object" and an empty CHANGED_FILES → wrong briefing sent.
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -35,8 +39,29 @@ jobs:
             echo "files=" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          FILES=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- 'briefings/**/*.md' | tr '\n' ' ')
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+          FILES=""
+          if git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+            FILES=$(git diff --name-only "${BEFORE}" "${AFTER}" -- 'briefings/**/*.md' | tr '\n' ' ')
+          else
+            echo "::warning::Parent commit ${BEFORE} not in checkout; using push event file list"
+            FILES=$(python3 -c "
+          import json, os
+          commits = json.loads(os.environ['COMMITS_JSON'])
+          paths = set()
+          for commit in commits:
+              for key in ('added', 'modified', 'removed'):
+                  for path in commit.get(key) or []:
+                      if path.startswith('briefings/') and path.endswith('.md'):
+                          paths.add(path)
+          print(' '.join(sorted(paths)))
+          ")
+          fi
+          echo "Detected briefing files: ${FILES:-<none>}"
           echo "files=$FILES" >> "$GITHUB_OUTPUT"
+        env:
+          COMMITS_JSON: ${{ toJson(github.event.commits) }}
 
       - name: Send via Resend
         env:

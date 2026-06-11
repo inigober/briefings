@@ -429,10 +429,10 @@ def send_resend(*, api_key: str, from_addr: str, to_addrs: list[str], subject: s
     return response.json()
 
 
-def resolve_briefing_path(explicit: str | None, changed_files: list[str]) -> Path:
+def resolve_briefing_paths(explicit: str | None, changed_files: list[str]) -> list[Path]:
     if explicit:
         path = Path(explicit)
-        return path if path.is_absolute() else REPO_ROOT / path
+        return [path if path.is_absolute() else REPO_ROOT / path]
 
     candidates: list[Path] = []
     for raw in changed_files:
@@ -440,13 +440,12 @@ def resolve_briefing_path(explicit: str | None, changed_files: list[str]) -> Pat
             candidates.append(REPO_ROOT / raw)
 
     if not candidates:
-        briefings = sorted((REPO_ROOT / "briefings").glob("**/*.md"))
-        briefings = [p for p in briefings if not p.name.startswith("_")]
-        if not briefings:
-            raise FileNotFoundError("No briefing markdown files found")
-        return briefings[-1]
+        raise FileNotFoundError(
+            "No briefing file specified and CHANGED_FILES is empty. "
+            "Pass --file or fix changed-file detection in the workflow."
+        )
 
-    return sorted(candidates)[-1]
+    return sorted(candidates)
 
 
 def main() -> int:
@@ -474,21 +473,10 @@ def main() -> int:
     changed_files = [f.strip() for f in changed_raw.split() if f.strip()]
 
     try:
-        briefing_path = resolve_briefing_path(args.file, changed_files)
+        briefing_paths = resolve_briefing_paths(args.file, changed_files)
     except FileNotFoundError as exc:
         print(exc, file=sys.stderr)
         return 1
-
-    if not briefing_path.exists():
-        print(f"Briefing not found: {briefing_path}", file=sys.stderr)
-        return 1
-
-    md_text = briefing_path.read_text(encoding="utf-8")
-    title = extract_title(md_text, briefing_path.stem)
-    type_id = infer_type_from_briefing_path(briefing_path)
-    preheader_section = "What Matters Today"
-    if type_id:
-        preheader_section = load_briefing_type(type_id).email_preheader_section or preheader_section
 
     use_callouts_env = os.environ.get("BRIEFING_EMAIL_CALLOUTS", "true").lower() not in (
         "0",
@@ -498,46 +486,60 @@ def main() -> int:
     use_callouts = (not args.no_callouts) and use_callouts_env
     callout_modes = [False, True] if args.dry_run and args.compare else [use_callouts]
 
-    if args.dry_run:
-        previews: list[Path] = []
-        for use_callouts in callout_modes if args.compare else callout_modes:
-            suffix = ".preview-callouts" if use_callouts else ".preview"
-            html = render_html(
-                md_text, use_callouts=use_callouts, preheader_section=preheader_section
-            )
-            preview = briefing_path.parent / f"{briefing_path.stem}{suffix}.html"
-            preview.write_text(html, encoding="utf-8")
-            previews.append(preview)
-            label = "callout boxes" if use_callouts else "plain"
-            print(f"Wrote {label} preview: {preview}")
-            print(f"  file://{preview.resolve()}")
-
-        if args.open:
-            import subprocess
-
-            for preview in previews:
-                subprocess.run(["open", str(preview.resolve())], check=False)
-        return 0
-
-    html = render_html(md_text, use_callouts=use_callouts, preheader_section=preheader_section)
-
     api_key = os.environ.get("RESEND_API_KEY")
     from_addr = os.environ.get("BRIEFING_FROM_EMAIL")
     to_raw = os.environ.get("BRIEFING_TO_EMAIL", "")
 
-    if not api_key or not from_addr or not to_raw:
+    if not args.dry_run and (not api_key or not from_addr or not to_raw):
         print("RESEND_API_KEY, BRIEFING_FROM_EMAIL, and BRIEFING_TO_EMAIL are required", file=sys.stderr)
         return 1
 
     to_addrs = [e.strip() for e in re.split(r"[,;]", to_raw) if e.strip()]
-    result = send_resend(
-        api_key=api_key,
-        from_addr=from_addr,
-        to_addrs=to_addrs,
-        subject=title,
-        html=html,
-    )
-    print(f"Sent email for {briefing_path.name}: {result.get('id', result)}")
+
+    for briefing_path in briefing_paths:
+        if not briefing_path.exists():
+            print(f"Briefing not found: {briefing_path}", file=sys.stderr)
+            return 1
+
+        print(f"Using briefing file: {briefing_path.relative_to(REPO_ROOT)}")
+        md_text = briefing_path.read_text(encoding="utf-8")
+        title = extract_title(md_text, briefing_path.stem)
+        type_id = infer_type_from_briefing_path(briefing_path)
+        preheader_section = "What Matters Today"
+        if type_id:
+            preheader_section = load_briefing_type(type_id).email_preheader_section or preheader_section
+
+        if args.dry_run:
+            previews: list[Path] = []
+            for use_callouts in callout_modes if args.compare else callout_modes:
+                suffix = ".preview-callouts" if use_callouts else ".preview"
+                html = render_html(
+                    md_text, use_callouts=use_callouts, preheader_section=preheader_section
+                )
+                preview = briefing_path.parent / f"{briefing_path.stem}{suffix}.html"
+                preview.write_text(html, encoding="utf-8")
+                previews.append(preview)
+                label = "callout boxes" if use_callouts else "plain"
+                print(f"Wrote {label} preview: {preview}")
+                print(f"  file://{preview.resolve()}")
+
+            if args.open:
+                import subprocess
+
+                for preview in previews:
+                    subprocess.run(["open", str(preview.resolve())], check=False)
+            continue
+
+        html = render_html(md_text, use_callouts=use_callouts, preheader_section=preheader_section)
+        result = send_resend(
+            api_key=api_key,
+            from_addr=from_addr,
+            to_addrs=to_addrs,
+            subject=title,
+            html=html,
+        )
+        print(f"Sent email for {briefing_path.name}: {result.get('id', result)}")
+
     return 0
 
 
