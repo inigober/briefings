@@ -35,7 +35,8 @@ GitHub Action on push → styled HTML email (Resend)
 ├── prompts/
 │   ├── daily_briefing.md              # synthesis instructions
 │   ├── research_brief.md              # OpenAI pre-fetch prompt
-│   └── cursor-automation-synthesis.md # automation prompt draft
+│   ├── synthesis-run.md               # synthesis steps (edit this; automation reads from repo)
+│   └── cursor-automation-synthesis.md # one-time automation setup + pointer prompt
 ├── templates/daily_briefing.md        # output skeleton
 ├── briefings/YYYY-MM-DD.md            # committed daily outputs
 ├── state/
@@ -123,7 +124,7 @@ Create an automation in [Cursor Automations](https://cursor.com/automations):
 - **Trigger:** GitHub → **New push to branch** → `main` on this repo
 - **Runtime:** Cloud agent
 - **Repo:** `inigober/briefings`
-- **Prompt:** Copy from `prompts/cursor-automation-synthesis.md` (includes a guard so only `inbox/` pushes run synthesis)
+- **Prompt:** Paste the short pointer from `prompts/cursor-automation-synthesis.md` once; edit `prompts/synthesis-run.md` in git for ongoing changes
 - **Spending cap:** $10–15/mo on-demand safety net
 
 Pipeline: pre-fetch commits `inbox/` → push triggers synthesis → synthesis commits `briefings/` → email workflow sends.
