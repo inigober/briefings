@@ -1,7 +1,20 @@
 {
   "briefing_type": "berlin-restaurants",
-  "last_run": null,
-  "briefing_path": null,
-  "inbox_path": null,
-  "selected_restaurants": []
+  "date": "2026-06-11",
+  "status": "success",
+  "briefing_path": "briefings/berlin-restaurants/2026-06-11.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-06-11-synthesis.json",
+  "verified_count": 12,
+  "selected_count": 8,
+  "selected_restaurants": [
+    "Khao Taan",
+    "Pagode Thai Kitchen",
+    "Hasir Ocakbaşı",
+    "Mira",
+    "Dao by Meo",
+    "Sara & Gogi",
+    "SimSim Levantine Eatery",
+    "Mae Charoen"
+  ],
+  "notes": "First berlin-restaurants briefing. Verified pool was Thai-heavy (6) and Turkish/Middle Eastern/Caucasus (6); no regional Chinese, Mediterranean, specialist-neighborhood, or fine-dining candidates in inbox. Excluded Boii Boii (€€€, third Kreuzberg slot), Kinnaree Thai, Defne, and Tsomi for neighborhood and cuisine diversity."
 }
