@@ -1,15 +1,27 @@
 # Cursor Automation — Daily Briefing Synthesis
 
-- **Trigger:** Cron `0 7 * * 1-5` (weekdays 07:00 UTC — adjust in editor)
+- **Trigger:** GitHub → **New push to branch** → `main` on `inigober/briefings`
 - **Runtime:** Cloud agent
-- **Repo:** This repository (GitHub integration enabled)
+- **Repo:** `inigober/briefings` (GitHub integration enabled)
 - **Model:** Cheaper/fast model when inbox is pre-fetched
+
+Optional backup: cron `0 7 * * 1-5` if you want a scheduled run when pre-fetch was missed.
 
 ---
 
 ## Prompt (paste into automation)
 
 You are running the weekday daily briefing synthesis for this repo.
+
+### Step 0 — Push guard (skip unrelated pushes)
+
+If this run was triggered by a git push to `main`:
+
+1. Inspect which files changed in the triggering push.
+2. If **no** file under `inbox/` was added or modified, **stop immediately** — log "No inbox changes; skipping synthesis." and exit. Do not read files, write briefings, or commit.
+3. If `briefings/YYYY-MM-DD.md` already exists for today's UTC date **and** inbox was not updated in this push, stop.
+
+Only continue when fresh inbox research was just committed.
 
 ### Step 1 — Read context
 

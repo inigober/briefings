@@ -439,7 +439,6 @@ def fetch_structured(
         model=model,
         tools=tools,
         input=prompt,
-        reasoning={"effort": "low"},
         text={
             "format": {
                 "type": "json_schema",

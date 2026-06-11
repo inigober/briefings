@@ -120,13 +120,15 @@ Resend free tier: 3,000 emails/mo, 100/day.
 
 Create an automation in [Cursor Automations](https://cursor.com/automations):
 
-- **Trigger:** Cron `0 7 * * 1-5` (weekdays — adjust timezone in editor)
+- **Trigger:** GitHub → **New push to branch** → `main` on this repo
 - **Runtime:** Cloud agent
-- **Repo:** This repository
-- **Prompt:** Copy from `prompts/cursor-automation-synthesis.md`
+- **Repo:** `inigober/briefings`
+- **Prompt:** Copy from `prompts/cursor-automation-synthesis.md` (includes a guard so only `inbox/` pushes run synthesis)
 - **Spending cap:** $10–15/mo on-demand safety net
 
-Schedule pre-fetch **before** synthesis (workflow uses `30 6 * * 1-5` UTC).
+Pipeline: pre-fetch commits `inbox/` → push triggers synthesis → synthesis commits `briefings/` → email workflow sends.
+
+Optional backup cron: `0 7 * * 1-5` UTC if pre-fetch was missed.
 
 ### 4. Manual test run
 
