@@ -735,7 +735,7 @@ def main() -> int:
         if rss_items:
             log(f"  Found {len(rss_items)} RSS items for merge + prompt tuning")
 
-    log(f"Fetching research for {date_str} with model {model}...")
+    log(f"Fetching research for {date_str} with model {model} (build: no-reasoning-param)...")
     try:
         payload = fetch_all_research(
             date_str=date_str,
