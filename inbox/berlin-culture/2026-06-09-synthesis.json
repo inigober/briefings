@@ -5,409 +5,252 @@
   "week_end": "2026-06-16",
   "week_label": "June 10–16, 2026",
   "source_raw": "inbox/berlin-culture/2026-06-09-raw.json",
-  "built_at": "2026-06-11T07:40:58.047301+00:00",
-  "model": "manual-test",
-  "raw_item_count": 22,
+  "built_at": "2026-06-11T08:09:27.411407+00:00",
+  "model": "gpt-4.1",
+  "raw_item_count": 13,
   "section_counts": {
-    "exhibitions": 5,
+    "exhibitions": 2,
     "film": 6,
-    "performing_arts": 4,
-    "music": 3,
-    "wildcards": 2,
-    "advance_radar": 2
+    "performing_arts": 5,
+    "music": 0,
+    "wildcards": 0,
+    "advance_radar": 0
   },
   "items": [
     {
-      "id": "ex-2",
+      "id": "starmirror-kw",
       "topic_ids": [
         "exhibitions"
       ],
-      "title": "In Other Realms",
-      "venue": "Capitain Petzel",
-      "dates": "1 May – 13 June 2026",
-      "times": "Tue–Sat 11:00–18:00",
+      "title": "Holly Herndon & Mat Dryhurst – Starmirror",
+      "venue": "KW Institute for Contemporary Art",
+      "dates": "27 June – 11 October 2026",
+      "times": "Wed–Mon 11:00–19:00 (closed Tue)",
       "artists": [
-        "Rodney McMillian"
+        "Holly Herndon",
+        "Mat Dryhurst"
       ],
-      "official_url": "https://www.capitainpetzel.de/exhibitions/145-rodney-mcmillian-in-other-realms-as-part-of-gallery-weekend-berlin-1/",
-      "closing_soon": true,
-      "why_candidate": "First Berlin solo show; film from Ida B. Wells-Barnett speech plus Black Paintings on racial politics.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "ex-3",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "Zip: 01-01-2024 – 12-31-2024",
-      "venue": "Galerie Buchholz",
-      "dates": "until 20 June 2026",
-      "times": "Tue–Sat 11:00–18:00",
-      "artists": [
-        "Yuji Agematsu"
-      ],
-      "official_url": "https://galeriebuchholz.de/exhibitions/yuji-agematsu-zip-01-01-2024-12-31-2024/",
-      "closing_soon": true,
-      "why_candidate": "Archival, time-based sculpture assembling daily urban detritus — research-based conceptual practice.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "ex-1",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "Who does the earth belong to while painting the wind?!",
-      "venue": "ChertLüdde",
-      "dates": "2 May – 25 July 2026",
-      "times": "Tue–Sat 11:00–18:00",
-      "artists": [
-        "Petrit Halilaj"
-      ],
-      "official_url": "https://chertluedde.com/exhibition/51332/",
+      "official_url": "https://www.kw-berlin.de/files/250730_KW_Herndon-Dryhurst_Press-Release_EN.pdf",
       "closing_soon": false,
-      "why_candidate": "Research-based installation engaging Kosovo history, collective memory, and decolonial politics.",
+      "verified": true,
+      "why_candidate": "Interdisciplinary sound‑media installation interrogating AI, collective agency, and technological power.",
       "ingestion_source": "openai"
     },
     {
-      "id": "ex-4",
+      "id": "kyiv-biennial-kw",
       "topic_ids": [
         "exhibitions"
       ],
-      "title": "Imitationen von Paul",
-      "venue": "BQ",
-      "dates": "until 4 July 2026",
-      "times": "by appointment",
-      "artists": [
-        "Philipp Gufler"
-      ],
-      "official_url": "https://bq.berlin/",
+      "title": "Kyiv Biennial – A Bird That Cannot Land",
+      "venue": "KW Institute for Contemporary Art",
+      "dates": "11 June – 13 September 2026",
+      "times": "Wed–Mon 11:00–19:00 (closed Tue)",
+      "artists": [],
+      "official_url": "https://www.kw-berlin.de/",
       "closing_soon": false,
-      "why_candidate": "Queer archival practice interrogating identity and media history.",
+      "verified": false,
+      "why_candidate": "Addresses geopolitics, migration, exile and post‑colonial themes through contemporary, live‑inflected biennial programming.",
       "ingestion_source": "openai"
     },
     {
-      "id": "ex-5",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "Rooted In Time Rooted In The Sky",
-      "venue": "Buchmann Galerie",
-      "dates": "until 31 August 2026",
-      "times": "Tue–Sat",
-      "artists": [
-        "Bernd Koberling"
-      ],
-      "official_url": "https://www.buchmanngalerie.com/",
-      "closing_soon": false,
-      "why_candidate": "Painterly engagement with landscape and ecological perception.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "film-1",
+      "id": "fragile_freiheit_arsenal",
       "topic_ids": [
         "film"
       ],
-      "title": "Werckmeister Harmóniák",
-      "venue": "Arsenal – Institut für Film und Videokunst",
-      "dates": "13 June 2026",
-      "times": "20:00",
-      "artists": [
-        "Béla Tarr"
-      ],
-      "official_url": "https://www.arsenal-berlin.de/en/",
-      "closing_soon": false,
-      "why_candidate": "Landmark political allegory on 35mm — essential repertory cinema.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "film-2",
-      "topic_ids": [
-        "film"
-      ],
-      "title": "Dhakira al Khasba (Fertile Memory)",
+      "title": "Fragile Freiheit – Georgian Documentary Program",
       "venue": "Arsenal",
-      "dates": "15 June 2026",
-      "times": "20:00",
-      "artists": [
-        "Michel Khleifi"
-      ],
-      "official_url": "https://www.arsenal-berlin.de/en/",
-      "closing_soon": false,
-      "why_candidate": "Palestinian memory and gender on 16mm with post-screening discussion — politically engaged documentary-fiction hybrid.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "film-3",
-      "topic_ids": [
-        "film"
-      ],
-      "title": "What's Underground About Marshmallows? Texts by and about Jack Smith",
-      "venue": "Arsenal",
-      "dates": "11 June 2026",
-      "times": "20:00",
-      "artists": [
-        "Jack Smith",
-        "Marc Siegel"
-      ],
-      "official_url": "https://www.arsenal-berlin.de/en/",
-      "closing_soon": false,
-      "why_candidate": "Experimental moving-image history; editor Marc Siegel in person.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "film-4",
-      "topic_ids": [
-        "film"
-      ],
-      "title": "Bajo las banderas, el sol",
-      "venue": "Arsenal",
-      "dates": "17 June 2026",
+      "dates": "Saturday, 27 June 2026",
       "times": "19:00",
       "artists": [
-        "Juanjo Pereira"
+        "Salomé Jashi (curator)",
+        "Tamuna Karumidze"
       ],
-      "official_url": "https://www.arsenal-berlin.de/en/",
+      "official_url": "https://www.arsenal-berlin.de/kino/filmvorfuehrung/fragile-freiheit-5340/",
       "closing_soon": false,
-      "why_candidate": "Contemporary Paraguayan cinema with director discussion — underseen political filmmaking.",
+      "verified": true,
+      "why_candidate": "A politically charged, essayistic program on youth, women and family in Georgia, with post-screening discussion.",
       "ingestion_source": "openai"
     },
     {
-      "id": "film-5",
+      "id": "ein_abend_fur_hartmut_bitomsky",
       "topic_ids": [
         "film"
       ],
-      "title": "Xiao Wu",
-      "venue": "Arsenal",
-      "dates": "13 June 2026",
+      "title": "Ein Abend für Hartmut Bitomsky (Bresson & Bitomsky Shorts + Talk)",
+      "venue": "Kino Arsenal",
+      "dates": "Sunday, 14 June 2026",
+      "times": "18:00 & 20:30",
+      "artists": [
+        "Manfred Blank",
+        "Hartmut Bitomsky"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/assets/Kino/PDFs/26-06_Kalendarium-Plakat_arsenal_A1_cmyk_Web.pdf",
+      "closing_soon": false,
+      "verified": true,
+      "why_candidate": "An experimental-programmatic evening combining political-historical shorts and critical conversation.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "magical_history_tour",
+      "topic_ids": [
+        "film"
+      ],
+      "title": "Magical History Tour – Something Different by Věra Chytilová",
+      "venue": "Kino Arsenal",
+      "dates": "Friday, 12 June 2026",
       "times": "17:00",
       "artists": [
-        "Jia Zhang-ke"
+        "Věra Chytilová"
       ],
-      "official_url": "https://www.arsenal-berlin.de/en/",
+      "official_url": "https://www.arsenal-berlin.de/assets/Kino/PDFs/26-06_Kalendarium-Plakat_arsenal_A1_cmyk_Web.pdf",
       "closing_soon": false,
-      "why_candidate": "Early Jia Zhang-ke on 16mm — urban displacement and informal economies.",
+      "verified": true,
+      "why_candidate": "An experimental, international art‑cinema classic from feminist Eastern European director fitting identity and political themes.",
       "ingestion_source": "openai"
     },
     {
-      "id": "film-6",
+      "id": "daumenkino",
       "topic_ids": [
         "film"
       ],
-      "title": "Zirkuskind",
-      "venue": "Arsenal",
-      "dates": "13 June 2026",
+      "title": "Daumenkino – Zirkuskind by Julia Lemke & Anna Koch",
+      "venue": "Kino Arsenal",
+      "dates": "Sunday, 13 June 2026",
       "times": "15:00",
       "artists": [
         "Julia Lemke",
         "Anna Koch"
       ],
-      "official_url": "https://www.arsenal-berlin.de/en/",
+      "official_url": "https://www.arsenal-berlin.de/assets/Kino/PDFs/26-06_Kalendarium-Plakat_arsenal_A1_cmyk_Web.pdf",
       "closing_soon": false,
-      "why_candidate": "New German documentary on circus childhood — socially engaged debut.",
+      "verified": true,
+      "why_candidate": "A contemporary German film blending narrative and experimental moving image practices by women artists.",
       "ingestion_source": "openai"
     },
     {
-      "id": "pa-1",
+      "id": "shorts_attack_acudkino",
       "topic_ids": [
-        "performing_arts"
+        "film"
       ],
-      "title": "Festival Never Work",
-      "venue": "Sophiensæle",
-      "dates": "12–27 June 2026",
-      "times": "various",
-      "artists": [
-        "multiple"
-      ],
-      "official_url": "https://sophiensaele.com/en/festival/never-work",
-      "closing_soon": false,
-      "why_candidate": "International performance festival on labour, precarity, and working conditions in art.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "pa-2",
-      "topic_ids": [
-        "performing_arts"
-      ],
-      "title": "Soft Pressure (Working Title)",
-      "venue": "Sophiensæle",
-      "dates": "12–14 June 2026",
-      "times": "16:00 (12 Jun premiere)",
-      "artists": [
-        "Abhishek Thapar"
-      ],
-      "official_url": "https://sophiensaele.com/en/festival/never-work",
-      "closing_soon": false,
-      "why_candidate": "Choreographic exploration of pressure and labour in Never Work festival.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "pa-3",
-      "topic_ids": [
-        "performing_arts"
-      ],
-      "title": "Reality Show",
-      "venue": "Sophiensæle – Festsaal",
-      "dates": "12–13 June 2026",
-      "times": "19:00 (13 Jun)",
-      "artists": [
-        "MEXA"
-      ],
-      "official_url": "https://sophiensaele.com/en/festival/never-work",
-      "closing_soon": false,
-      "why_candidate": "Participatory performance interrogating visibility, precarity, and reality-TV aesthetics.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "pa-4",
-      "topic_ids": [
-        "performing_arts"
-      ],
-      "title": "After Work Tours #1",
-      "venue": "Sophiensæle",
-      "dates": "12–14 June 2026",
-      "times": "17:30",
-      "artists": [
-        "Laurie Young"
-      ],
-      "official_url": "https://sophiensaele.com/de/stueck/after-work-tours",
-      "closing_soon": false,
-      "why_candidate": "Site-specific performance tour through a building shaped by labour history.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "mu-1",
-      "topic_ids": [
-        "music"
-      ],
-      "title": "Beyond Innocence Workshop Series Final Concert 2026",
-      "venue": "ausland",
-      "dates": "21 June 2026",
-      "times": "Doors 17:30, start 18:00",
-      "artists": [
-        "Liz Allbee",
-        "Kazuhisa Uchihashi",
-        "Ute Wassermann",
-        "Sofia Borges",
-        "Elena Kakaliagou",
-        "Michael Thieke",
-        "Michael Vorfeld",
-        "Theater Thikwa"
-      ],
-      "official_url": "https://ausland.berlin/event/beyond-innocence-workshop-series-final-concert-2026",
-      "closing_soon": false,
-      "why_candidate": "Radically inclusive free-improvisation finale — experimental electronic/acoustic hybrid.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "mu-2",
-      "topic_ids": [
-        "music"
-      ],
-      "title": "Beyond Innocence Open Workshop",
-      "venue": "ausland",
-      "dates": "19–20 June 2026",
-      "times": "17:30",
-      "artists": [
-        "Liz Allbee",
-        "Kazuhisa Uchihashi",
-        "Ute Wassermann",
-        "Theater Thikwa"
-      ],
-      "official_url": "https://www.ausland.berlin/de/event/beyond-innocence-workshop-series-special-1",
-      "closing_soon": false,
-      "why_candidate": "Open improvisation workshops with leading Berlin improvisers — process over product.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "mu-3",
-      "topic_ids": [
-        "music"
-      ],
-      "title": "biegungen im ausland: Augustė Vickunaitė / Lara Jones / ZA!",
-      "venue": "ausland",
-      "dates": "5 June 2026",
-      "times": "20:00",
-      "artists": [
-        "Augustė Vickunaitė",
-        "Lara Jones",
-        "ZA!"
-      ],
-      "official_url": "https://www.ausland.berlin/",
-      "closing_soon": false,
-      "why_candidate": "Experimental improv series — note: verify if encore; listed on venue homepage.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "wc-1",
-      "topic_ids": [
-        "wildcards"
-      ],
-      "title": "Never Work Talks: Helen Hester, Anajara Amarante, Olivia Hyunsin Kim",
-      "venue": "Sophiensæle",
-      "dates": "24 June 2026",
-      "times": "evening",
-      "artists": [
-        "Helen Hester",
-        "Anajara Amarante",
-        "Olivia Hyunsin Kim"
-      ],
-      "official_url": "https://sophiensaele.com/en/festival/never-work",
-      "closing_soon": false,
-      "why_candidate": "Feminist labour theory meets performance — research event within festival frame.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "wc-2",
-      "topic_ids": [
-        "wildcards"
-      ],
-      "title": "Projectionist's Workshop Berlin",
-      "venue": "Arsenal",
-      "dates": "22–24 July 2026 (advance notice)",
-      "times": "3-day workshop",
+      "title": "Sonnenbrand & Mückenstich – shorts attack Kurzfilmprogramm",
+      "venue": "ACUDkino",
+      "dates": "Wednesday, 17 June 2026",
+      "times": "21:15",
       "artists": [],
-      "official_url": "https://www.arsenal-berlin.de/en/",
+      "official_url": "https://acudkino.de/Programm/sonnenbrand_muckenstich/20483/58436",
       "closing_soon": false,
-      "why_candidate": "Analog film craft education — structural support for repertory cinema culture.",
+      "verified": true,
+      "why_candidate": "A playful, yet formally varied short‑film program showcasing experimental animation and thematic shorts with post‑screening talk.",
       "ingestion_source": "openai"
     },
     {
-      "id": "ar-1",
+      "id": "afterlives_wolfkino",
       "topic_ids": [
-        "advance_radar"
+        "film"
       ],
-      "title": "Art Basel 2026 — ChertLüdde",
-      "venue": "Art Basel, Booth N7 Hall 2.1",
-      "dates": "16–21 June 2026",
-      "times": "fair hours",
+      "title": "Afterlives by Kevin B. Lee (Desktop Documentary)",
+      "venue": "Wolf Kino",
+      "dates": "Thursday, 11 June 2026",
+      "times": "TBA (on release date)",
       "artists": [
-        "Petrit Halilaj",
-        "Sofía Salazar Rosales",
-        "Selma Selman",
-        "others"
+        "Kevin B. Lee"
       ],
-      "official_url": "https://chertluedde.com/fair/art-basel-2026/",
+      "official_url": "https://www.arsenal-berlin.de/archiv-distribution/kinostarts-und-programme/afterlives/",
       "closing_soon": false,
-      "why_candidate": "Major fair presentation overlapping end of week — book travel early.",
+      "verified": false,
+      "why_candidate": "A socially engaged, experimental desktop documentary interrogating extremist propaganda, with a Berlin guest appearance.",
       "ingestion_source": "openai"
     },
     {
-      "id": "ar-2",
+      "id": "re-searching_joy",
       "topic_ids": [
-        "advance_radar"
+        "performing_arts"
       ],
-      "title": "Yuji Agematsu — Marseille 1994",
-      "venue": "Galerie Buchholz",
-      "dates": "opens 26 June 2026",
-      "times": "TBA",
+      "title": "re‑searching joy",
+      "venue": "Ballhaus Naunynstraße",
+      "dates": "4–6 June 2026",
+      "times": "not specified",
       "artists": [
-        "Yuji Agematsu"
+        "akademie der autodidakten, led by Bishop Black"
       ],
-      "official_url": "https://galeriebuchholz.de/exhibitions/yuji-agematsu-zip-01-01-2024-12-31-2024/",
+      "official_url": "https://ballhausnaunynstrasse.de/news?language=en",
+      "closing_soon": true,
+      "verified": false,
+      "why_candidate": "A participatory, BIPOC‑led dance and contact improvisation exploration of reclaiming joy and vitality for self‑empowerment and liberation.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "into_the_chronosphere",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Into the Chronosphere",
+      "venue": "Ballhaus Naunynstraße",
+      "dates": "13–17 June 2026",
+      "times": "20:00 (Sat 13.06), other dates not specified",
+      "artists": [
+        "Sisi Bo’wale"
+      ],
+      "official_url": "https://ballhausnaunynstrasse.de/play/into-the-chronosphere?language=en",
       "closing_soon": false,
-      "why_candidate": "Follow-on exhibition opening days after this briefing week.",
+      "verified": false,
+      "why_candidate": "A queering of time via performance, video, sound and design exploring archival, colonial and afrofuturist themes in line with politically urgent, experimental performance.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "abdruckkoerper",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Abdruckkörper",
+      "venue": "Ballhaus Naunynstraße",
+      "dates": "17–21 June 2026",
+      "times": "not specified",
+      "artists": [
+        "Yatri Niehaus"
+      ],
+      "official_url": "https://ballhausnaunynstrasse.de/news?language=en",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "The theatre debut of film director Yatri Niehaus, a post‑migrant reflection on embodied memory and belonging, fitting the identity and history thematic focus.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "auf_meinen_schultern",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Auf meinen Schultern",
+      "venue": "Ballhaus Naunynstraße",
+      "dates": "27–30 June 2026",
+      "times": "not specified",
+      "artists": [
+        "Raphael Moussa Hillebrand, Eurico Ferreira Mathias"
+      ],
+      "official_url": "https://ballhausnaunynstrasse.de/news?language=en",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "A memory‑laden dance performance reflecting intergenerational experience in Berlin, interweaving choreography and cello in a politically resonant form.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "arrival_of_the_village",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Arrival of the Village",
+      "venue": "Ballhaus Naunynstraße",
+      "dates": "1–5 July 2026",
+      "times": "20:00 (1 July)",
+      "artists": [
+        "Magda Korsinsky"
+      ],
+      "official_url": "https://ballhausnaunynstrasse.de/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "An interdisciplinary performance by Magda Korsinsky investigating heteronormative family forms, care, empowerment and collective responsibility, addressing politics, identity, and decolonial care.",
       "ingestion_source": "openai"
     }
   ],
-  "note": "Token-light culture slice for synthesis. Synthesis must verify official_url for each shortlisted pick before including."
+  "note": "Token-light culture slice for synthesis. Items with verified:true passed pre-fetch URL/schedule checks; synthesis spot-checks only unverified Top Picks and closing-soon items."
 }

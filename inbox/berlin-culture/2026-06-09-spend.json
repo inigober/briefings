@@ -1,7 +1,7 @@
 {
   "date": "2026-06-09",
   "cap_usd": 2.0,
-  "spent_usd": 0.16614,
+  "spent_usd": 0.313694,
   "estimated": true,
   "cap_exceeded": false,
   "calls": [
@@ -34,7 +34,37 @@
       "web_search_calls": 1,
       "cost_usd": 0.057762,
       "at": "2026-06-11T07:54:20.047392+00:00"
+    },
+    {
+      "section": "exhibitions",
+      "model": "gpt-4.1",
+      "input_tokens": 16093,
+      "cached_tokens": 1024,
+      "output_tokens": 352,
+      "web_search_calls": 1,
+      "cost_usd": 0.043466,
+      "at": "2026-06-11T08:08:42.211495+00:00"
+    },
+    {
+      "section": "performing_arts",
+      "model": "gpt-4.1",
+      "input_tokens": 18776,
+      "cached_tokens": 1024,
+      "output_tokens": 728,
+      "web_search_calls": 1,
+      "cost_usd": 0.05184,
+      "at": "2026-06-11T08:08:46.162033+00:00"
+    },
+    {
+      "section": "film",
+      "model": "gpt-4.1",
+      "input_tokens": 18300,
+      "cached_tokens": 1024,
+      "output_tokens": 898,
+      "web_search_calls": 1,
+      "cost_usd": 0.052248,
+      "at": "2026-06-11T08:08:47.366259+00:00"
     }
   ],
-  "last_run_at": "2026-06-11T07:54:20.047483+00:00"
+  "last_run_at": "2026-06-11T08:08:47.366403+00:00"
 }
