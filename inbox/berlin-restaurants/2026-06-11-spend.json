@@ -1,0 +1,40 @@
+{
+  "date": "2026-06-11",
+  "cap_usd": 2.0,
+  "spent_usd": 0.268222,
+  "estimated": true,
+  "cap_exceeded": false,
+  "calls": [
+    {
+      "section": "regional_chinese",
+      "model": "gpt-4.1",
+      "input_tokens": 29017,
+      "cached_tokens": 0,
+      "output_tokens": 1983,
+      "web_search_calls": 1,
+      "cost_usd": 0.083898,
+      "at": "2026-06-11T13:21:50.387133+00:00"
+    },
+    {
+      "section": "southeast_asian",
+      "model": "gpt-4.1",
+      "input_tokens": 33225,
+      "cached_tokens": 0,
+      "output_tokens": 2118,
+      "web_search_calls": 1,
+      "cost_usd": 0.093394,
+      "at": "2026-06-11T13:21:51.388307+00:00"
+    },
+    {
+      "section": "turkish_middle_eastern_caucasus",
+      "model": "gpt-4.1",
+      "input_tokens": 33017,
+      "cached_tokens": 0,
+      "output_tokens": 1862,
+      "web_search_calls": 1,
+      "cost_usd": 0.09093,
+      "at": "2026-06-11T13:21:51.529964+00:00"
+    }
+  ],
+  "last_run_at": "2026-06-11T13:21:51.529991+00:00"
+}
