@@ -1,6 +1,6 @@
 # Personal Briefings
 
-Repo-based briefing platform: **news** (daily) and **Berlin culture** (weekly). Novelty-first editorial, automated pre-fetch, Cursor cloud synthesis, Resend email.
+Repo-based briefing platform: **news** (daily), **Berlin culture** (weekly Tuesday), and **Berlin restaurants** (weekly Thursday). Novelty-first editorial, automated pre-fetch, Cursor cloud synthesis, Resend email.
 
 ## Architecture
 
@@ -13,6 +13,9 @@ config/briefings.yaml          ← registry (paths, schedules, prompts)
 ├───────────────────────────────────────────────────────────────┤
 │ berlin-culture (Tuesday)                                      │
 │   OpenAI → inbox/berlin-culture/ → synthesis → briefings/…   │
+├───────────────────────────────────────────────────────────────┤
+│ berlin-restaurants (Thursday)                                 │
+│   OpenAI → inbox/berlin-restaurants/ → synthesis → briefings/…│
 └───────────────────────────────────────────────────────────────┘
         ↓
 GitHub Action on push → styled HTML email (Resend, same recipient)
@@ -23,7 +26,8 @@ GitHub Action on push → styled HTML email (Resend, same recipient)
 | `config/briefings.yaml` | Briefing type registry |
 | `config/briefings/{type}/` | Topics, sources per type |
 | Pre-fetch scripts | Research → typed `inbox/` |
-| Cursor Automations | Rule-bound synthesis (one per type) |
+| **One** Cursor Automation (dispatcher) | Routes push → correct synthesis |
+| `scripts/detect_synthesis_trigger.py` | Testable routing logic |
 | `scripts/send_briefing_email.py` | Markdown → HTML → inbox |
 
 ## Repository layout
@@ -31,23 +35,19 @@ GitHub Action on push → styled HTML email (Resend, same recipient)
 ```
 ├── config/
 │   ├── briefings.yaml                 # type registry
-│   └── briefings/
-│       ├── news/                      # topics.yaml, sources.yaml
-│       └── berlin-culture/
-├── .cursor/rules/
-│   ├── news-briefing-style.mdc
-│   └── berlin-culture-briefing-style.mdc
+│   └── briefings/{type}/              # topics.yaml, sources.yaml
+├── .cursor/rules/                       # editorial rules per type
 ├── prompts/
-│   ├── news/synthesis-run.md
-│   └── berlin-culture/synthesis-run.md
-├── inbox/{type}/                      # pre-fetch JSON
-├── briefings/{type}/                  # committed outputs
-├── state/{type}/                      # dedup / events memory
+│   ├── cursor-automation-synthesis.md   # single automation setup
+│   ├── synthesis-dispatcher-run.md      # dispatcher steps
+│   └── {type}/synthesis-run.md          # per-type synthesis steps
+├── inbox/{type}/                        # pre-fetch JSON
+├── briefings/{type}/                    # committed outputs
+├── state/{type}/                        # dedup / memory
 └── scripts/
+    ├── detect_synthesis_trigger.py
     ├── briefing_paths.py
-    ├── fetch_openai_research.py       # news
-    ├── fetch_culture_research.py      # berlin-culture
-    └── slim_inbox_for_synthesis.py
+    └── fetch_*.py, slim_inbox_for_synthesis.py, send_briefing_email.py
 ```
 
 ## For PMs (learning as you go)
@@ -55,14 +55,12 @@ GitHub Action on push → styled HTML email (Resend, same recipient)
 | You care about | File / place |
 |----------------|--------------|
 | Which briefings exist | `config/briefings.yaml` |
-| News editorial rules | `.cursor/rules/news-briefing-style.mdc` |
-| Culture editorial rules | `.cursor/rules/berlin-culture-briefing-style.mdc` |
-| News topics & sources | `config/briefings/news/` |
-| Culture topics & sources | `config/briefings/berlin-culture/` |
-| News synthesis steps | `prompts/news/synthesis-run.md` |
-| Culture synthesis steps | `prompts/berlin-culture/synthesis-run.md` |
-| News pre-fetch schedule | `.github/workflows/news-prefetch.yml` |
-| Culture pre-fetch (Tuesdays) | `.github/workflows/berlin-culture-prefetch.yml` |
+| Editorial rules | `.cursor/rules/{type}-briefing-style.mdc` |
+| Topics & sources | `config/briefings/{type}/` |
+| Synthesis steps (per type) | `prompts/{type}/synthesis-run.md` |
+| Synthesis dispatcher | `prompts/synthesis-dispatcher-run.md` |
+| Trigger routing (testable) | `scripts/detect_synthesis_trigger.py` |
+| Pre-fetch schedules | `.github/workflows/*-prefetch.yml` |
 | OpenAI pre-fetch spend cap | `scripts/openai_spend.py`, `OPENAI_DAILY_SPEND_CAP_USD` |
 | Email delivery | `.github/workflows/send-briefing-email.yml` |
 
@@ -80,6 +78,12 @@ Sections: Top Picks, Exhibitions, Film, Performing Arts, Music, Wildcards, Advan
 
 Title: `# Berlin Culture Briefing — Week of June 16–22, 2026`
 
+### Berlin Restaurant Briefing (weekly, Thursday)
+
+Sections: restaurant entries + This week's strongest bets.
+
+Title: `# Berlin Restaurant Briefing — Week of YYYY-MM-DD`
+
 ## Setup
 
 ### GitHub secrets and variables
@@ -95,11 +99,11 @@ Title: `# Berlin Culture Briefing — Week of June 16–22, 2026`
 | `BRIEFING_FROM_EMAIL` | — | Resend sender (briefing email + spend-cap alerts) |
 | `BRIEFING_TO_EMAIL` | — | Recipient |
 
-Both briefing types email the **same recipient**; subjects come from each briefing's H1 title.
+All briefing types email the **same recipient**; subjects come from each briefing's H1 title.
 
 ### OpenAI pre-fetch spend cap
 
-Pre-fetch scripts (`fetch_openai_research.py`, `fetch_culture_research.py`) track **estimated** daily OpenAI spend and **abort** when the cap is reached.
+Pre-fetch scripts track **estimated** daily OpenAI spend and **abort** when the cap is reached.
 
 **Default cap: $2/day** per briefing type (UTC date), hard-coded in `scripts/openai_spend.py` and the pre-fetch workflows. You do **not** need to create a GitHub variable unless you want a different limit.
 
@@ -127,16 +131,25 @@ Costs are **estimates** from API token usage + web-search call counts (see `scri
 
 ### Cursor Automations (synthesis)
 
-Create **two** automations in [Cursor Automations](https://cursor.com/automations):
+Create **one** automation in [Cursor Automations](https://cursor.com/automations):
 
-| Automation | Pointer prompt |
-|------------|----------------|
-| News | `prompts/news/cursor-automation-synthesis.md` |
-| Berlin culture | `prompts/berlin-culture/cursor-automation-synthesis.md` |
+| Automation | Setup guide |
+|------------|-------------|
+| Briefing synthesis dispatcher | `prompts/cursor-automation-synthesis.md` |
 
-Each automation: trigger on push to `main`, cloud agent, paste the short pointer block once.
+- Trigger: push to `main`
+- Runtime: cloud agent
+- Paste the short pointer block from the setup guide once
 
-Push guards in each `synthesis-run.md` ensure only the matching inbox change triggers work.
+The dispatcher runs `scripts/detect_synthesis_trigger.py` to decide which briefing type (if any) should synthesize, then executes that type's `prompts/{type}/synthesis-run.md` steps 1–4.
+
+**Disable** any legacy per-type push automations (news, berlin-culture, berlin-restaurants) after the dispatcher is live.
+
+Test routing locally:
+
+```bash
+python scripts/detect_synthesis_trigger.py --json
+```
 
 ### Schedules
 
@@ -144,8 +157,9 @@ Push guards in each `synthesis-run.md` ensure only the matching inbox change tri
 |----------|------------|-------------|
 | `news-prefetch.yml` | `30 5 * * *` | 06:30 daily |
 | `berlin-culture-prefetch.yml` | `0 5 * * 2` | 06:00 Tuesday |
+| `berlin-restaurants-prefetch.yml` | `0 6 * * 4` | 07:00 Thursday |
 
-Synthesis is push-triggered (inbox commit). Optional backup crons on each automation if pre-fetch was missed.
+Synthesis is push-triggered (inbox commit). Optional backup crons on the dispatcher automation if pre-fetch was missed (see `prompts/cursor-automation-synthesis.md`).
 
 ### Local OpenAI API key (safe setup)
 
@@ -180,8 +194,14 @@ python3 scripts/slim_inbox_for_synthesis.py --type news
 # Culture pre-fetch (dry-run prompt)
 python3 scripts/fetch_culture_research.py --dry-run --date 2026-06-10
 
+# Trigger routing (after a pre-fetch commit)
+python3 scripts/detect_synthesis_trigger.py --json
+
 # Email preview
 python3 scripts/send_briefing_email.py --file briefings/news/2026-06-11.md --dry-run
+
+# Unit tests
+python3 -m unittest discover -s tests -v
 ```
 
 ## Workflows
@@ -190,12 +210,15 @@ python3 scripts/send_briefing_email.py --file briefings/news/2026-06-11.md --dry
 |----------|---------|--------|
 | `news-prefetch.yml` | Daily 06:30 CET + manual | RSS → OpenAI → slim → commit `inbox/news/` |
 | `berlin-culture-prefetch.yml` | Tuesday 06:00 CET + manual | Culture OpenAI → slim → commit `inbox/berlin-culture/` |
-| `send-briefing-email.yml` | Push to `briefings/**/*.md` | Send styled email |
+| `berlin-restaurants-prefetch.yml` | Thursday 07:00 CET + manual | Restaurant OpenAI → slim → commit `inbox/berlin-restaurants/` |
+| `send-briefing-email.yml` | Push to `briefings/**/*.md` | Send styled email (newest per type by default) |
+
+Pre-fetch workflows use **concurrency groups** so overlapping manual + scheduled runs queue instead of racing. The email workflow sends only the **newest dated briefing per type** when a push changes multiple files; use workflow dispatch with **all_changed** or `--all-changed` to replay every file.
 
 ## Rollout checklist
 
-- [x] Multi-briefing abstraction
-- [ ] Update GitHub workflow files on `main` (rename daily → news-prefetch)
-- [ ] Create second Cursor Automation for Berlin culture
-- [ ] First manual Tuesday culture dry-run
-- [ ] Verify both email subjects in inbox
+- [x] Multi-briefing abstraction (news, berlin-culture, berlin-restaurants)
+- [x] Single synthesis dispatcher + `detect_synthesis_trigger.py`
+- [ ] Create one Cursor dispatcher automation; disable three legacy automations
+- [ ] Verify one full cycle per briefing type (prefetch → synthesis → email)
+- [ ] Confirm email sends only the intended briefing on normal pushes

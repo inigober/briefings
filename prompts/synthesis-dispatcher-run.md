@@ -1,0 +1,35 @@
+# Briefing synthesis dispatcher — run instructions
+
+Single source of truth for the **one** Cursor synthesis automation. Routes each push to at most one briefing type.
+
+## Cost discipline
+
+- **Stop early:** Run the trigger script first; exit immediately on `skip`.
+- **No browsing:** Synthesis agents only use pre-fetched inbox files.
+- **One type per run:** Never run two briefing syntheses in the same automation run.
+
+## Step 0 — Route (mandatory)
+
+1. From the repo root, run:
+   ```bash
+   python scripts/detect_synthesis_trigger.py --json
+   ```
+2. Parse the JSON:
+   - If `type_id` is `null` or the script prints `skip`, log the `reason` and **stop** — do not read inbox or write briefings.
+   - If `type_id` is set (`news`, `berlin-culture`, or `berlin-restaurants`), log which type and why, then continue.
+3. Open the matching synthesis prompt from `config/briefings.yaml`:
+   - `news` → `prompts/news/synthesis-run.md`
+   - `berlin-culture` → `prompts/berlin-culture/synthesis-run.md`
+   - `berlin-restaurants` → `prompts/berlin-restaurants/synthesis-run.md`
+
+**Do not** re-run Step 0 (push guard) from the per-type synthesis file — routing is already done.
+
+## Step 1 — Execute per-type synthesis
+
+Read the chosen `synthesis-run.md` and execute **Steps 1–4 only** exactly as written in that file.
+
+## Step 2 — Confirm completion
+
+Log the briefing type, output path, and commit SHA pushed to `main`.
+
+If push fails, `git pull --rebase origin main` then push again. Do not mark success until the briefing is on `main`.

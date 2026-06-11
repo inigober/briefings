@@ -1,5 +1,7 @@
 # Cursor Automation — Berlin Restaurant Briefing Synthesis
 
+> **Deprecated:** Use the single dispatcher automation instead — see `prompts/cursor-automation-synthesis.md`.
+
 Setup guide for [Cursor Automations](https://cursor.com/automations). **Runnable steps live in `prompts/berlin-restaurants/synthesis-run.md`.**
 
 ## Automation settings

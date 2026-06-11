@@ -1014,7 +1014,28 @@ def send_resend(*, api_key: str, from_addr: str, to_addrs: list[str], subject: s
     return response.json()
 
 
-def resolve_briefing_paths(explicit: str | None, changed_files: list[str]) -> list[Path]:
+def _briefing_date_from_path(path: Path) -> str:
+    """Sort key from briefings/{type}/YYYY-MM-DD.md filename stem."""
+    return path.stem
+
+
+def _latest_per_type(paths: list[Path]) -> list[Path]:
+    """Keep only the newest-dated briefing per briefing type."""
+    by_type: dict[str, Path] = {}
+    for path in paths:
+        type_id = infer_type_from_briefing_path(path) or ""
+        existing = by_type.get(type_id)
+        if existing is None or _briefing_date_from_path(path) > _briefing_date_from_path(existing):
+            by_type[type_id] = path
+    return sorted(by_type.values(), key=lambda p: str(p.relative_to(REPO_ROOT)))
+
+
+def resolve_briefing_paths(
+    explicit: str | None,
+    changed_files: list[str],
+    *,
+    all_changed: bool = False,
+) -> list[Path]:
     if explicit:
         path = Path(explicit)
         return [path if path.is_absolute() else REPO_ROOT / path]
@@ -1030,7 +1051,10 @@ def resolve_briefing_paths(explicit: str | None, changed_files: list[str]) -> li
             "Pass --file or fix changed-file detection in the workflow."
         )
 
-    return sorted(candidates)
+    if all_changed:
+        return sorted(candidates)
+
+    return _latest_per_type(candidates)
 
 
 def main() -> int:
@@ -1052,16 +1076,39 @@ def main() -> int:
         action="store_true",
         help="Open preview(s) in default browser after dry-run (macOS)",
     )
+    parser.add_argument(
+        "--all-changed",
+        action="store_true",
+        help="Send every changed briefing file (default: newest date per type only)",
+    )
     args = parser.parse_args()
 
     changed_raw = os.environ.get("CHANGED_FILES", "")
     changed_files = [f.strip() for f in changed_raw.split() if f.strip()]
+    all_changed = args.all_changed or os.environ.get("BRIEFING_EMAIL_ALL_CHANGED", "").lower() in (
+        "1",
+        "true",
+        "yes",
+    )
 
     try:
-        briefing_paths = resolve_briefing_paths(args.file, changed_files)
+        briefing_paths = resolve_briefing_paths(
+            args.file, changed_files, all_changed=all_changed
+        )
     except FileNotFoundError as exc:
         print(exc, file=sys.stderr)
         return 1
+
+    if changed_files and not args.file and not all_changed and len(changed_files) > len(
+        briefing_paths
+    ):
+        skipped = set(changed_files) - {
+            str(p.relative_to(REPO_ROOT)) for p in briefing_paths
+        }
+        print(
+            f"Email: sending {len(briefing_paths)} file(s); "
+            f"skipped older duplicates: {', '.join(sorted(skipped)) or 'none'}"
+        )
 
     use_callouts_env = os.environ.get("BRIEFING_EMAIL_CALLOUTS", "true").lower() not in (
         "0",

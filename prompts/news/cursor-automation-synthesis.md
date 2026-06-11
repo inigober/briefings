@@ -1,5 +1,7 @@
 # Cursor Automation — News Briefing Synthesis
 
+> **Deprecated:** Use the single dispatcher automation instead — see `prompts/cursor-automation-synthesis.md`. Keep this file only if you still run a legacy per-type automation.
+
 Setup guide for [Cursor Automations](https://cursor.com/automations). **Runnable steps live in `prompts/news/synthesis-run.md`** — edit that file in git; the automation reads it from the repo each run.
 
 ## Automation settings

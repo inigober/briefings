@@ -12,6 +12,15 @@ on:
         description: "Path to briefing markdown (optional)"
         required: false
         type: string
+      all_changed:
+        description: "Send every changed briefing file (default: newest per type only)"
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: send-briefing-email
+  cancel-in-progress: false
 
 jobs:
   send:
@@ -70,9 +79,13 @@ jobs:
           BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
           BRIEFING_EMAIL_CALLOUTS: "true"
           CHANGED_FILES: ${{ steps.changed.outputs.files }}
+          BRIEFING_EMAIL_ALL_CHANGED: ${{ github.event.inputs.all_changed && 'true' || '' }}
         run: |
           ARGS=""
           if [ -n "${{ github.event.inputs.file }}" ]; then
             ARGS="--file ${{ github.event.inputs.file }}"
+          fi
+          if [ "${{ github.event.inputs.all_changed }}" = "true" ]; then
+            ARGS="$ARGS --all-changed"
           fi
           python scripts/send_briefing_email.py $ARGS
