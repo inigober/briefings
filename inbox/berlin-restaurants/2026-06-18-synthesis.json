@@ -1,0 +1,475 @@
+{
+  "briefing_type": "berlin-restaurants",
+  "date": "2026-06-18",
+  "source_raw": "inbox/berlin-restaurants/2026-06-18-raw.json",
+  "built_at": "2026-06-11T14:46:39.334112+00:00",
+  "model": "gpt-4.1",
+  "raw_item_count": 18,
+  "verified_count": 12,
+  "section_counts": {
+    "regional_chinese": 6,
+    "southeast_asian": 0,
+    "turkish_middle_eastern_caucasus": 6,
+    "mediterranean_european": 0,
+    "specialist_neighborhood": 0,
+    "fine_dining": 0
+  },
+  "items": [
+    {
+      "id": "chuan_garden",
+      "topic_ids": [
+        "regional_chinese",
+        "Sichuan",
+        "Rabbit dishes",
+        "Regional Chinese"
+      ],
+      "name": "Chuan Garden 川园",
+      "neighborhood": "Mitte",
+      "address": "Torstraße 189, 10115 Berlin",
+      "cuisine": "Sichuan",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Run by Sichuan‑trained chefs offering regionally authentic dishes like Zigong rabbit and whole fish",
+        "Bold, clean flavours with slow‑building heat and technical competence"
+      ],
+      "weaknesses": [
+        "Lengthy, uneven menu with many oily wet dishes",
+        "Orders of similar‑ingredient dishes can feel repetitive"
+      ],
+      "comparative_context": "More polished and authentic than most Mitte Sichuan restaurants, especially given its chef pedigree and rabbit‑focused dishes ([berlinfoodstories.com](https://www.berlinfoodstories.com/reviews/chuan-garden-the-sichuan-rabbit-hole?utm_source=openai))",
+      "critical_assessment": "A high‑level Sichuan experience that rewards thoughtful ordering—avoid over‑ordering similar spicy plates.",
+      "google_maps_name": "Chuan Garden 川园",
+      "google_maps_url": "https://maps.google.com/?q=Chuan+Garden+Berlin",
+      "google_maps_address": "Torstraße 189, 10115 Berlin",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Google Maps entry exists and open (not marked closed).",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/reviews/chuan-garden-the‑sichuan‑rabbit‑hole"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "liu_nudelhaus",
+      "topic_ids": [
+        "regional_chinese",
+        "Sichuan",
+        "Noodles",
+        "Regional Chinese"
+      ],
+      "name": "LIU Nudelhaus",
+      "neighborhood": "Mitte",
+      "address": "Kronenstraße (off Friedrichstraße), 10117 Berlin",
+      "cuisine": "Sichuan / Noodles",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Exceptional Sichuan-style noodles and dumplings with precise technique",
+        "Limited menu tuned for maximum flavour impact"
+      ],
+      "weaknesses": [
+        "Lunch lines can be long, limited quantity of signature noodles",
+        "Very focused menu—may not suit broader dinner expectations"
+      ],
+      "comparative_context": "One of the city's most emotionally resonant Sichuan noodle spots; changed Berlin’s perception of the category ([berlinfoodstories.com](https://www.berlinfoodstories.com/reviews/the-chengdu-noodle-spot?utm_source=openai))",
+      "critical_assessment": "A cult favorite for noodle obsessives; rush early or pre‑order to secure the magical Tianshui noodles.",
+      "google_maps_name": "LIU Nudelhaus",
+      "google_maps_url": "https://maps.google.com/?q=LIU+Nudelhaus+Berlin",
+      "google_maps_address": "Kronenstraße, 10117 Berlin",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Google Maps entry exists and open.",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/reviews/the‑chengdu‑noodle‑spot"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "ming_dynastie",
+      "topic_ids": [
+        "regional_chinese",
+        "Regional Chinese",
+        "Sichuan",
+        "Dongbei",
+        "Cantonese"
+      ],
+      "name": "Ming Dynastie",
+      "neighborhood": "Mitte / Charlottenburg (two branches)",
+      "address": "Brückenstraße 6, 10179 Berlin (East branch); Europa-Center (West branch)",
+      "cuisine": "Pan‑Chinese, regional specialties",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Extensive menu spanning Sichuan, Dongbei, Northern, Cantonese—all executed with finesse",
+        "Reliable institution beloved by chefs and serious diners"
+      ],
+      "weaknesses": [
+        "Vast menu can feel overwhelming and intimidating",
+        "Not niche—lack of focused regional identity"
+      ],
+      "comparative_context": "Berlin’s standard‑bearer for regional Chinese cooking; icons among local professionals ([berlinfoodstories.com](https://berlinfoodstories.com/reviews/the-undisputed-icon-of-chinese-dining-in-berlin?utm_source=openai))",
+      "critical_assessment": "When you want competent, broad‑spectrum Chinese cuisine in gravity‑and‑flavour mode, this is it—though not the most daring option.",
+      "google_maps_name": "Ming Dynastie",
+      "google_maps_url": "https://maps.google.com/?q=Ming+Dynastie+Berlin",
+      "google_maps_address": "Brückenstraße 6, 10179 Berlin",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Google Maps entry exists and open.",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/reviews/the‑undisputed‑icon‑of‑chinese‑dining‑in‑berlin"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "da_jia_le",
+      "topic_ids": [
+        "regional_chinese",
+        "Dongbei",
+        "Other regional"
+      ],
+      "name": "Da Jia Le",
+      "neighborhood": "Schöneberg",
+      "address": "Goebenstraße 23, 10783 Berlin",
+      "cuisine": "North‑Eastern Chinese",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Authentic North‑Eastern Chinese cuisine rarely found elsewhere in Berlin",
+        "Solid technique and quality ingredients in underrated neighborhood"
+      ],
+      "weaknesses": [
+        "Unattractive surroundings may deter casual diners",
+        "Older review, may need checking for consistency"
+      ],
+      "comparative_context": "A hidden gem of authentic regional cooking in Schöneberg, high cooking standards despite modest setting ([berlinfoodstories.com](https://berlinfoodstories.com/reviews/spin-me-round-baby-my-chinese-heaven?utm_source=openai))",
+      "critical_assessment": "Go for regional authenticity over ambiance—technique-driven meals worth tracking down.",
+      "google_maps_name": "Da Jia Le",
+      "google_maps_url": "https://maps.google.com/?q=Da+Jia+Le+Berlin",
+      "google_maps_address": "Goebenstraße 23, 10783 Berlin",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Google Maps entry exists and open.",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/reviews/spin‑me‑round‑baby‑my‑chinese‑heaven",
+        "https://www.berlinfoodstories.com/top‑lists/the‑best‑chinese‑restaurants‑in‑berlin"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "the_tree",
+      "topic_ids": [
+        "regional_chinese",
+        "Sichuan",
+        "Dongbei",
+        "Noodles"
+      ],
+      "name": "The Tree",
+      "neighborhood": "Mitte",
+      "address": "Brunnenstraße 167, 10119 Berlin",
+      "cuisine": "Sichuan / Dongbei noodles",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Modern‑fresh execution of Sichuan and Dongbei cold starters and handmade noodles",
+        "Creative, refined noodle dishes like Ahorn with numbing Sichuan pepper potency"
+      ],
+      "weaknesses": [
+        "Stylistic modernity might underplay regional roots for purists",
+        "Limited menu focus on noodles; not a full‑meal venue"
+      ],
+      "comparative_context": "A rare modern take on traditional noodle heritage, unique in Berlin in both concept and execution ([berlinfoodstories.com](https://berlinfoodstories.com/reviews/a-beautiful-space?utm_source=openai))",
+      "critical_assessment": "Best for refined noodle devotees; not broad enough for full‑scale dinner outings.",
+      "google_maps_name": "The Tree",
+      "google_maps_url": "https://maps.google.com/?q=The+Tree+Berlin",
+      "google_maps_address": "Brunnenstraße 167, 10119 Berlin",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Google Maps entry exists and open.",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/reviews/a‑beautiful‑space"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "chungking_noodles",
+      "topic_ids": [
+        "regional_chinese",
+        "Sichuan",
+        "Noodles",
+        "Regional Chinese"
+      ],
+      "name": "Chungking Noodles",
+      "neighborhood": "Kreuzberg",
+      "address": "Reichenberger Straße 35, 10999 Berlin",
+      "cuisine": "Sichuan / Noodles",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Vibrant Sichuan noodle concept with strong supplier transparency and spice authenticity",
+        "Design‑forward but focused on authentic flavour"
+      ],
+      "weaknesses": [
+        "Hip aesthetic may overshadow cooking for some traditionalists",
+        "May lean toward trend‑iness in presentation"
+      ],
+      "comparative_context": "A stylish but substance‑oriented needle‑drop of Sichuan noodle culture in Kreuzberg ([berlinfoodstories.com](https://berlinfoodstories.com/top-lists/the-best-chinese-restaurants-in-berlin?utm_source=openai))",
+      "critical_assessment": "Great balance of visual appeal and regional faithfulness; still a noodle niche though.",
+      "google_maps_name": "Chungking Noodles",
+      "google_maps_url": "https://maps.google.com/?q=Chungking+Noodles+Berlin",
+      "google_maps_address": "Reichenberger Straße 35, 10999 Berlin",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Google Maps entry exists and open.",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/top‑lists/the‑best‑chinese‑restaurants‑in‑berlin"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "Pamfilya",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus",
+        "turkish",
+        "ocakbasi",
+        "döner"
+      ],
+      "name": "Pamfilya",
+      "neighborhood": "Wedding",
+      "address": "Luxemburger Straße 1, 13353 Berlin",
+      "cuisine": "Turkish grill / doner",
+      "price_tier": "€€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Exceptional veal yaprak döner, charcoal grill, traditional atmosphere",
+        "Good value: high quality meat and sizable menu for price"
+      ],
+      "weaknesses": [
+        "Touristic at peak times, limited vegetarian options"
+      ],
+      "comparative_context": "Wedding classic sustaining authentic doner craft over decades, favored by locals and connoisseurs.",
+      "critical_assessment": "A go‑to for lean, well‑grilled döner; simple but solid— lacks innovation but excels in execution.",
+      "google_maps_name": "Pamfilya Restaurant",
+      "google_maps_url": "https://maps.google.com/?q=Pamfilya+Berlin",
+      "google_maps_address": "Luxemburger Straße 1, 13353 Berlin",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Verified active location and hours via restaurantguru and Falstaff.",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/pamfilya",
+        "https://restaurantguru.com/Pamfilya‑Berlin"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "Ägäis",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus",
+        "Turkish",
+        "fish"
+      ],
+      "name": "Ägäis",
+      "neighborhood": "Neukölln",
+      "address": "Weigandufer 35, 12053 Berlin",
+      "cuisine": "Turkish fish",
+      "price_tier": "€€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Highly refined grilled fish dishes (dorade, red mullet) with minimalist treatment",
+        "Subtle mezze, thoughtful execution by former Ergün’s chef"
+      ],
+      "weaknesses": [
+        "Sparse menu, less lively ambiance, only few vegan options"
+      ],
+      "comparative_context": "A rare example of Turkish fish specialty in Neukölln, elevating technique above show.",
+      "critical_assessment": "For those looking for clean, expertly grilled fish grounded in Turkish tradition—not flash, but finesse at restrained pricing.",
+      "google_maps_name": "Ägäis",
+      "google_maps_url": "https://maps.google.com/?q=Ägäis+Berlin",
+      "google_maps_address": "Weigandufer 35, 12053 Berlin",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Verified active via tip‑berlin review.",
+      "source_urls": [
+        "https://mitvergnuegen.com/tipps/aegaeis‑tuerkische‑fischgerichte‑in‑neukoelln",
+        "https://www.tip-berlin.de/essen-trinken/restaurants/aegaeis-neukoelln-fisch-restaurant/"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "Big Bascha",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus",
+        "Levantine",
+        "Lebanese",
+        "breakfast"
+      ],
+      "name": "Big Bascha",
+      "neighborhood": "Moabit",
+      "address": "Huttenstraße 5, 10553 Berlin",
+      "cuisine": "Lebanese / Levantine breakfast",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Authentic Lebanese classics (fatteh, hummus, manakish) at breakfast/lunch",
+        "Unpretentious, simple, reliable",
+        "Great outdoor seating in summer"
+      ],
+      "weaknesses": [
+        "Limited by narrow time window (breakfast/lunch), more casual setting"
+      ],
+      "comparative_context": "One of the rare reliable Lebanese breakfast spots in Moabit, valued for flavor over presentation.",
+      "critical_assessment": "Ideal for regional technique-first Levantine morning fare; not for evening or lavish experience.",
+      "google_maps_name": "Big Bascha",
+      "google_maps_url": "https://maps.google.com/?q=Big+Bascha+Berlin",
+      "google_maps_address": "Huttenstraße 5, 10553 Berlin",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Google Maps listing verified via Berlin Food Stories mapping.",
+      "source_urls": [
+        "https://mitvergnuegen.com/tipps/arabisch‑fruehstuecken‑im‑big‑bascha‑in‑moabit",
+        "https://www.berlinfoodstories.com/map/big‑bascha"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "Adana Grillhaus (Kreuzberg)",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus",
+        "turkish",
+        "grill"
+      ],
+      "name": "Adana Grillhaus",
+      "neighborhood": "Kreuzberg",
+      "address": "Manteuffelstraße 86, 10997 Berlin",
+      "cuisine": "Turkish grill",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Consistently strong classic Turkish grill dishes (Adana kebap, lamb chops, köfte)",
+        "Longstanding local reputation across multiple locations"
+      ],
+      "weaknesses": [
+        "Some mixed reports about inconsistent service or meat quality"
+      ],
+      "comparative_context": "Reliable mid‑range grill specialist in Kreuzberg among few that sustain authenticity despite local fame.",
+      "critical_assessment": "Meets enthusiast’s expectations for technique and flavor, though casual setting may lack polish; ordering early may avoid crowd and variability.",
+      "google_maps_name": "Adana Grillhaus",
+      "google_maps_url": "https://maps.google.com/?q=Adana+Grillhaus+Berlin",
+      "google_maps_address": "Manteuffelstraße 86, 10997 Berlin",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Google Maps confirms active location, positive rating.",
+      "source_urls": [
+        "https://www.qiez.de/tuerkische‑restaurants‑berlin‑tuerkisch‑essen‑top‑10‑qiez/",
+        "https://www.tripadvisor.de/Restaurant_Review‑g187323‑d2232771‑Reviews‑Adana_Grillhaus‑Berlin.html"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "Lahmacun Kebab Haus (Küsleme)",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus",
+        "Turkish",
+        "Levantine",
+        "lahmacun"
+      ],
+      "name": "Lahmacun Kebab Haus (Küsleme)",
+      "neighborhood": "Wedding",
+      "address": "Luxemburger Straße 6, 13353 Berlin",
+      "cuisine": "Turkish / Levantine",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Outstanding lahmacun and kelle paça, underrated gem",
+        "Excellent technical execution in simple format"
+      ],
+      "weaknesses": [
+        "Very limited menu and almost no atmosphere—focused on the food."
+      ],
+      "comparative_context": "Next‑door to Pamfilya but more focused, offering standout lahmacun in minimalist setting.",
+      "critical_assessment": "Though unassuming, it serves some of the most technically adept Turkish snacks in Wedding; ideal for focused purist visits.",
+      "google_maps_name": "Lahmacun Kebab Haus [Küsleme]",
+      "google_maps_url": "https://maps.google.com/?q=Lahmacun+Kebab+Haus+Berlin",
+      "google_maps_address": "Luxemburger Straße 6, 13353 Berlin",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Verified via Berlin Food Stories.",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/lahmacun‑kebab‑haus"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "Fes Turkish BBQ",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus",
+        "Turkish",
+        "BBQ",
+        "grill"
+      ],
+      "name": "Fes Turkish BBQ",
+      "neighborhood": "Kreuzberg",
+      "address": "Hasenheide 58, 10967 Berlin",
+      "cuisine": "Turkish BBQ",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Table‑grill shared BBQ with marinated lamb, chicken, steak; interactive, lively terrace",
+        "Strong marinades and communal experience"
+      ],
+      "weaknesses": [
+        "Casual ambiance may not suit those focused purely on technique",
+        "Possibly more about experience than precision cooking"
+      ],
+      "comparative_context": "Offers a more social, BBQ‑centric take within the Turkish spectrum, contrasting grill‑house stalwarts.",
+      "critical_assessment": "Fun and delicious group‑oriented BBQ with solid execution of marinades; less disciplined than ocakbasi classics.",
+      "google_maps_name": "Fes Turkish BBQ",
+      "google_maps_url": "https://maps.google.com/?q=Fes+Turkish+BBQ+Berlin",
+      "google_maps_address": "Hasenheide 58, 10967 Berlin",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Verified presence via Qiez listing.",
+      "source_urls": [
+        "https://www.qiez.de/tuerkische‑restaurants‑berlin‑tuerkisch‑essen‑top‑10‑qiez/"
+      ],
+      "ingestion_source": "openai"
+    }
+  ],
+  "note": "Token-light restaurant slice for synthesis. Items included here have verified:true, which means pre-fetch found a Berlin Google Maps listing and no closed status. Do not recommend unverified restaurants."
+}
