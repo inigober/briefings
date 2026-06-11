@@ -14,7 +14,9 @@ import argparse
 import os
 import re
 import sys
+from dataclasses import dataclass, field
 from pathlib import Path
+from urllib.parse import quote_plus
 
 import markdown
 import requests
@@ -22,6 +24,29 @@ import requests
 from briefing_paths import REPO_ROOT, infer_type_from_briefing_path, load_briefing_type
 
 INSIGHT_MARKERS = ("💡", "🧭")
+
+CULTURE_SECTION_EMOJI: dict[str, str] = {
+    "Top Picks": "🔥",
+    "Exhibitions Radar": "🖼️",
+    "Film & Screenings": "🎬",
+    "Performing Arts": "🎭",
+    "Music": "🎧",
+    "Wildcards": "🧪",
+    "Advance Radar": "📡",
+}
+
+CULTURE_FIELD_EMOJI: dict[str, str] = {
+    "Venue": "📍",
+    "Date(s)": "🗓️",
+    "Time(s)": "⏰",
+    "Short Context": "🧠",
+}
+
+LINK_STYLE = "color:#2563eb;text-decoration:none;"
+TITLE_LINK_STYLE = "color:#1d4ed8;text-decoration:none;"
+
+CULTURE_FIELD_RE = re.compile(r"^\*\*(.+?):\*\*\s*(.*)")
+CULTURE_LINK_RE = re.compile(r"\[([^\]]*)\]\(([^)]+)\)")
 
 EMAIL_CSS = """
 body {
@@ -62,6 +87,9 @@ hr {
   line-height: 1.5;
 }
 .footnotes p { margin: 0 0 6px; }
+.culture-meta { margin: 0 0 16px; padding: 0; list-style: none; }
+.culture-meta li { margin: 0 0 8px; padding: 0; }
+.culture-entry { margin: 0 0 8px; }
 """
 
 H1_STYLE = (
@@ -368,7 +396,212 @@ def render_preheader_html(preheader: str) -> str:
     )
 
 
-def render_html(md_text: str, *, use_callouts: bool = True, preheader_section: str = "What Matters Today") -> str:
+@dataclass
+class CultureEntry:
+    title: str
+    fields: dict[str, str] = field(default_factory=dict)
+
+
+@dataclass
+class CultureSection:
+    name: str
+    entries: list[CultureEntry] = field(default_factory=list)
+
+
+def parse_culture_briefing(md_text: str) -> tuple[str, list[str], list[CultureSection]]:
+    """Parse structured culture markdown into title, intro paragraphs, and sections."""
+    body_md, _ = split_footnotes(md_text)
+    title = ""
+    intro: list[str] = []
+    sections: list[CultureSection] = []
+    current_section: CultureSection | None = None
+    current_entry: CultureEntry | None = None
+    past_title = False
+
+    for line in body_md.splitlines():
+        stripped = line.strip()
+        if not stripped or stripped == "---":
+            continue
+
+        if stripped.startswith("# ") and not stripped.startswith("## "):
+            title = stripped[2:].strip()
+            past_title = True
+            continue
+
+        if stripped.startswith("## "):
+            current_section = CultureSection(name=stripped[3:].strip())
+            sections.append(current_section)
+            current_entry = None
+            continue
+
+        if stripped.startswith("### "):
+            if current_section is None:
+                current_section = CultureSection(name="")
+                sections.append(current_section)
+            current_entry = CultureEntry(title=stripped[4:].strip())
+            current_section.entries.append(current_entry)
+            continue
+
+        field_match = CULTURE_FIELD_RE.match(stripped)
+        if field_match and current_entry is not None:
+            current_entry.fields[field_match.group(1).strip()] = field_match.group(2).strip()
+            continue
+
+        if past_title and current_section is None:
+            intro.append(stripped)
+
+    return title, intro, sections
+
+
+def _parse_official_url(value: str) -> str | None:
+    link_match = CULTURE_LINK_RE.search(value)
+    if link_match:
+        return link_match.group(2)
+    stripped = value.strip()
+    if stripped.startswith("http://") or stripped.startswith("https://"):
+        return stripped
+    return None
+
+
+def _email_link(text: str, url: str, *, style: str = LINK_STYLE) -> str:
+    return f'<a href="{url}" style="{style}">{text}</a>'
+
+
+def _google_maps_url(venue: str) -> str:
+    query = quote_plus(f"{venue}, Berlin, Germany")
+    return f"https://www.google.com/maps/search/?api=1&query={query}"
+
+
+def _culture_meta_line(
+    emoji: str, content: str, footnotes: dict[str, tuple[str, str]]
+) -> str:
+    body = format_story_body(content, footnotes)
+    return f'<li style="margin:0 0 8px;padding:0;">{emoji} {body}</li>'
+
+
+def _culture_venue_line(venue: str, footnotes: dict[str, tuple[str, str]]) -> str:
+    label = format_story_body(venue, footnotes)
+    maps_url = _google_maps_url(venue)
+    linked = _email_link(label, maps_url)
+    return f'<li style="margin:0 0 8px;padding:0;">📍 {linked}</li>'
+
+
+def render_culture_entry_html(
+    entry: CultureEntry,
+    *,
+    number: int | None,
+    footnotes: dict[str, tuple[str, str]],
+) -> str:
+    title = format_story_body(entry.title, footnotes)
+    official_url = _parse_official_url(entry.fields.get("Official Link", ""))
+    if official_url:
+        title = _email_link(title, official_url, style=TITLE_LINK_STYLE)
+
+    prefix = f"{number}. " if number is not None else ""
+    heading = f"{prefix}{title}"
+
+    parts = [
+        f'<div class="culture-entry" style="margin:0 0 8px;">',
+        f'<h3 style="{H3_STYLE}">{heading}</h3>',
+        '<ul class="culture-meta" style="margin:0 0 16px;padding:0;list-style:none;">',
+    ]
+
+    for field_name, emoji in CULTURE_FIELD_EMOJI.items():
+        value = entry.fields.get(field_name, "").strip()
+        if not value:
+            continue
+        if field_name == "Venue":
+            parts.append(_culture_venue_line(value, footnotes))
+        else:
+            parts.append(_culture_meta_line(emoji, value, footnotes))
+
+    why = entry.fields.get("Why It Fits", "").strip()
+    if why:
+        body = format_story_body(why, footnotes)
+        parts.append(
+            f'<li style="margin:0 0 8px;padding:0;">'
+            f"<strong>Why it fits:</strong> {body}</li>"
+        )
+
+    parts.extend(["</ul>", "</div>"])
+    return "\n".join(parts)
+
+
+def render_culture_body_html(md_text: str) -> str:
+    footnotes = parse_footnotes(md_text)
+    title, intro, sections = parse_culture_briefing(md_text)
+    hr = f'<hr style="{HR_STYLE}" />'
+    parts: list[str] = []
+
+    if title:
+        parts.append(f'<h1 style="{H1_STYLE}">{title}</h1>')
+
+    for paragraph in intro:
+        body = format_story_body(paragraph, footnotes)
+        parts.append(f'<p style="margin:0 0 16px;">{body}</p>')
+
+    if intro:
+        parts.append(hr)
+
+    item_number = 0
+    for section_index, section in enumerate(sections):
+        if section_index > 0:
+            parts.append(hr)
+
+        emoji = CULTURE_SECTION_EMOJI.get(section.name, "")
+        section_label = f"{emoji} {section.name}".strip()
+        parts.append(f'<h2 style="{H2_STYLE}">{section_label}</h2>')
+
+        numbered = section.name != "Advance Radar"
+        for entry_index, entry in enumerate(section.entries):
+            if entry_index > 0:
+                parts.append(hr)
+
+            number: int | None = None
+            if numbered:
+                item_number += 1
+                number = item_number
+
+            parts.append(
+                render_culture_entry_html(entry, number=number, footnotes=footnotes)
+            )
+
+    return "\n".join(parts)
+
+
+def render_culture_html(md_text: str, *, preheader_section: str = "Top Picks") -> str:
+    preheader = extract_preheader(md_text, section_name=preheader_section)
+    body_html = render_culture_body_html(md_text)
+    _, footnotes_md = split_footnotes(md_text)
+    footnotes_html = render_footnotes_html(footnotes_md)
+    preheader_html = render_preheader_html(preheader)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="supported-color-schemes" content="light">
+  <style>{EMAIL_CSS}</style>
+</head>
+<body>
+{preheader_html}
+{body_html}
+{footnotes_html}
+</body>
+</html>"""
+
+
+def render_html(
+    md_text: str,
+    *,
+    use_callouts: bool = True,
+    preheader_section: str = "What Matters Today",
+    briefing_type: str | None = None,
+) -> str:
+    if briefing_type == "berlin-culture":
+        return render_culture_html(md_text, preheader_section=preheader_section)
     footnotes = parse_footnotes(md_text)
     body_md, footnotes_md = split_footnotes(md_text)
     body_md = normalize_horizontal_rules(body_md)
@@ -514,7 +747,10 @@ def main() -> int:
             for use_callouts in callout_modes if args.compare else callout_modes:
                 suffix = ".preview-callouts" if use_callouts else ".preview"
                 html = render_html(
-                    md_text, use_callouts=use_callouts, preheader_section=preheader_section
+                    md_text,
+                    use_callouts=use_callouts,
+                    preheader_section=preheader_section,
+                    briefing_type=type_id,
                 )
                 preview = briefing_path.parent / f"{briefing_path.stem}{suffix}.html"
                 preview.write_text(html, encoding="utf-8")
@@ -530,7 +766,12 @@ def main() -> int:
                     subprocess.run(["open", str(preview.resolve())], check=False)
             continue
 
-        html = render_html(md_text, use_callouts=use_callouts, preheader_section=preheader_section)
+        html = render_html(
+            md_text,
+            use_callouts=use_callouts,
+            preheader_section=preheader_section,
+            briefing_type=type_id,
+        )
         result = send_resend(
             api_key=api_key,
             from_addr=from_addr,
