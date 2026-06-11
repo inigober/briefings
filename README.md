@@ -9,7 +9,7 @@ Pipeline: **pre-fetch research → Cursor cloud synthesis → Resend email deliv
 ```
 RSS headlines + OpenAI web_search (GitHub Action, daily 06:30 CET)
         ↓
-   inbox/YYYY-MM-DD-rss.json → merged into inbox/YYYY-MM-DD-raw.json
+   inbox/YYYY-MM-DD-rss.json → merged into inbox/YYYY-MM-DD-raw.json → slimmed to inbox/YYYY-MM-DD-synthesis.json
         ↓
 Cursor Automation (cloud agent, weekdays)
         ↓
@@ -22,7 +22,7 @@ GitHub Action on push → styled HTML email (Resend)
 |-------|----------------|
 | Repo files | Rules, topics, sources, dedup, history |
 | `scripts/fetch_openai_research.py` | Breadth + publisher-domain research |
-| Cursor Automation | Rule-bound synthesis, no repetition |
+| Cursor Automation | Rule-bound synthesis from slim inbox, no repetition |
 | `scripts/send_briefing_email.py` | Markdown → HTML → inbox |
 
 ## Repository layout

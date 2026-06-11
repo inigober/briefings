@@ -9,8 +9,8 @@ Setup guide for [Cursor Automations](https://cursor.com/automations). **Runnable
 | **Trigger** | GitHub → **New push to branch** → `main` |
 | **Repo** | `inigober/briefings` |
 | **Runtime** | Cloud agent |
-| **Model** | Fast/cheaper model (inbox is pre-fetched) |
-| **Spending cap** | ~$10–15/mo |
+| **Model** | **Composer 2.5** (or Cursor Fast). Avoid GPT 5.5 High — synthesis is rule-bound editing from pre-fetched inbox, not research. |
+| **Spending cap** | ~$8–10/mo on-demand safety net |
 
 Optional backup: cron `0 7 * * 1-5` UTC if pre-fetch was missed.
 

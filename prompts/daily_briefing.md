@@ -6,12 +6,12 @@ Produce today's personal daily briefing. Read all inputs before writing.
 
 1. `.cursor/rules/briefing-style.mdc` — mandatory editorial rules
 2. `config/topics.yaml` — sections, limits, avoid lists, World geographic rules
-3. `config/sources.yaml` — source priorities and Selected Reads mix
-4. `inbox/YYYY-MM-DD-raw.json` — today's pre-fetched research (primary)
-5. `state/dedup_index.md` — story/topic memory (~14 days)
-6. `state/selected_reads_index.md` — article URL memory (5 briefings)
-7. Last **7** files in `briefings/` — novelty and tone reference
-8. `templates/daily_briefing.md` — output skeleton
+3. `inbox/YYYY-MM-DD-synthesis.json` — token-light pre-fetch slice (primary; fallback: `*-raw.json`)
+4. `state/dedup_index.md` — story/topic memory (~14 days)
+5. `state/selected_reads_index.md` — article URL memory (5 briefings)
+6. Last **3** files in `briefings/` — tone reference only
+
+Full runnable steps: `prompts/synthesis-run.md`.
 
 ## Philosophy
 
