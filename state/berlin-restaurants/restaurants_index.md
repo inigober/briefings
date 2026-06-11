@@ -6,10 +6,10 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 ## 2026-06-18
 
-- Liu Nudelhaus (Mitte)
+- LIU Nudelhaus (Mitte)
 - Chuan Garden 川园 (Mitte)
-- Da Jia Le (Schöneberg)
-- Chungking Noodles (Kreuzberg)
+- Larb Koi (Friedrichshain)
+- Hanuman Thai Curry House (Kreuzberg)
 - Pamfilya (Wedding)
 - Ägäis (Neukölln)
 - Big Bascha (Moabit)

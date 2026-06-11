@@ -4,17 +4,17 @@
   "status": "success",
   "briefing_path": "briefings/berlin-restaurants/2026-06-18.md",
   "inbox_path": "inbox/berlin-restaurants/2026-06-18-synthesis.json",
-  "verified_count": 12,
+  "verified_count": 16,
   "selected_count": 8,
   "selected_restaurants": [
-    "Liu Nudelhaus",
+    "LIU Nudelhaus",
     "Chuan Garden 川园",
-    "Da Jia Le",
-    "Chungking Noodles",
+    "Larb Koi",
+    "Hanuman Thai Curry House",
     "Pamfilya",
     "Ägäis",
     "Big Bascha",
     "Adana Grillhaus"
   ],
-  "notes": "Verified pool was regional Chinese (6) and Turkish/Middle Eastern/Caucasus (6); southeast Asian section returned zero verified candidates after budget-limited prefetch. Excluded Ming Dynastie and The Tree to cap Mitte at two entries; excluded Lahmacun Kebab Haus to avoid a third Wedding slot; excluded Fes Turkish BBQ for experience-over-technique profile. No repeats from 2026-06-11 briefing."
+  "notes": "Places API verification rejected Da Jia Le and Chungking Noodles (permanently closed). Re-synthesized with maps_api_verified pool; replaced Chungking with Larb Koi, added Hanuman for Thai diversity without repeating 2026-06-11 picks. Capped Mitte at two (Liu, Chuan). Hours/ratings from Places API."
 }

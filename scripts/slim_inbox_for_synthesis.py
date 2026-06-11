@@ -73,6 +73,11 @@ RESTAURANT_SLIM_ITEM_KEYS = (
     "google_maps_name",
     "google_maps_url",
     "google_maps_address",
+    "google_maps_place_id",
+    "google_maps_rating",
+    "google_maps_review_count",
+    "google_maps_hours_compact",
+    "maps_api_verified",
     "exists_in_berlin",
     "permanently_closed",
     "temporarily_closed",
@@ -170,6 +175,8 @@ def score_restaurant_item(item: dict) -> int:
     score = 0
     if item.get("verified"):
         score += 40
+    if item.get("maps_api_verified"):
+        score += 25
     if item.get("value_label") == "good value":
         score += 8
     if item.get("value_label") == "potentially overpriced":
@@ -384,8 +391,8 @@ def build_restaurant_synthesis_inbox(raw: dict, *, topics_cfg: dict) -> dict:
         "section_counts": section_counts,
         "items": section_items,
         "note": (
-            "Token-light restaurant slice for synthesis. Items included here have verified:true, "
-            "which means pre-fetch found a Berlin Google Maps listing and no closed status. "
+            "Token-light restaurant slice for synthesis. Items included here have verified:true "
+            "after Google Places API post-fetch verification when GOOGLE_MAPS_API_KEY is set. "
             "Do not recommend unverified restaurants."
         ),
     }

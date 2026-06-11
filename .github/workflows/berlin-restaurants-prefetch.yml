@@ -67,6 +67,18 @@ jobs:
           git pull --rebase origin main || true
           git push origin main || true
 
+      - name: Verify restaurants via Google Places API
+        if: success()
+        env:
+          PYTHONUNBUFFERED: "1"
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+        run: |
+          ARGS="--date $(date -u +%Y-%m-%d)"
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            ARGS="--date ${{ github.event.inputs.date }}"
+          fi
+          python scripts/verify_restaurant_maps.py $ARGS
+
       - name: Slim inbox for synthesis
         if: success()
         env:

@@ -88,7 +88,7 @@ Title: `# Berlin Restaurant Briefing — Week of YYYY-MM-DD`
 
 ### GitHub secrets and variables
 
-**Secrets:** `OPENAI_API_KEY`, `RESEND_API_KEY`
+**Secrets:** `OPENAI_API_KEY`, `RESEND_API_KEY`, `GOOGLE_MAPS_API_KEY` (restaurant pre-fetch Places verification)
 
 **Variables:**
 
@@ -194,6 +194,10 @@ python3 scripts/slim_inbox_for_synthesis.py --type news
 # Culture pre-fetch (dry-run prompt)
 python3 scripts/fetch_culture_research.py --dry-run --date 2026-06-10
 
+# Restaurant Places verification + slim (after pre-fetch)
+python3 scripts/verify_restaurant_maps.py --date 2026-06-18
+python3 scripts/slim_inbox_for_synthesis.py --type berlin-restaurants --date 2026-06-18
+
 # Trigger routing (after a pre-fetch commit)
 python3 scripts/detect_synthesis_trigger.py --json
 
@@ -210,7 +214,7 @@ python3 -m unittest discover -s tests -v
 |----------|---------|--------|
 | `news-prefetch.yml` | Daily 06:30 CET + manual | RSS → OpenAI → slim → commit `inbox/news/` |
 | `berlin-culture-prefetch.yml` | Tuesday 06:00 CET + manual | Culture OpenAI → slim → commit `inbox/berlin-culture/` |
-| `berlin-restaurants-prefetch.yml` | Thursday 07:00 CET + manual | Restaurant OpenAI → slim → commit `inbox/berlin-restaurants/` |
+| `berlin-restaurants-prefetch.yml` | Thursday 07:00 CET + manual | Restaurant OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
 | `send-briefing-email.yml` | Push to `briefings/**/*.md` | Send styled email (newest per type by default) |
 
 Pre-fetch workflows use **concurrency groups** so overlapping manual + scheduled runs queue instead of racing. The email workflow sends only the **newest dated briefing per type** when a push changes multiple files; use workflow dispatch with **all_changed** or `--all-changed` to replay every file.

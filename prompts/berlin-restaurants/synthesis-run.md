@@ -5,7 +5,7 @@ Single source of truth for the weekly Berlin restaurant briefing synthesis agent
 ## Cost discipline
 
 - **Single draft** after selection.
-- **Trust pre-fetch only when verified:** Items with `"verified": true` passed the pre-fetch Google Maps checks. Do not recommend unverified restaurants.
+- **Trust pre-fetch only when verified:** Items with `"verified": true` passed Google Places API checks when `GOOGLE_MAPS_API_KEY` is configured (`maps_api_verified: true`). Do not recommend unverified restaurants.
 - **No open-ended browsing:** If the verified candidate pool is thin, write a shorter briefing rather than searching broadly.
 - **Minimal turns:** Read inputs -> select -> write briefing -> update state -> commit -> push.
 
@@ -36,7 +36,7 @@ Read these files, in order:
 
 From the synthesis inbox:
 
-1. Include only items with `"verified": true`.
+1. Include only items with `"verified": true` (and `maps_api_verified: true` when present in the inbox).
 2. Exclude candidates whose Google Maps fields suggest ambiguity, closure, relocation outside Berlin, or non-Berlin location.
 3. Apply anti-repetition using `restaurants_index.md`; avoid repeating restaurants from the last **10 weekly briefings** unless there is a material reason. Repeats after 10 weeks are fine.
 4. Select mostly affordable and mid-range restaurants. Include at most one fine dining item.

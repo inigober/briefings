@@ -36,6 +36,7 @@ from openai_spend import (
     resolve_daily_cap,
     usage_from_response,
 )
+from restaurant_maps import is_verified
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -219,16 +220,6 @@ web_search allowed domains:
 Return JSON: items, gaps, search_notes."""
 
 
-def is_verified(item: dict) -> bool:
-    url = (item.get("google_maps_url") or "").strip()
-    return (
-        url.startswith("http")
-        and bool(item.get("exists_in_berlin"))
-        and not bool(item.get("permanently_closed"))
-        and not bool(item.get("temporarily_closed"))
-    )
-
-
 def fetch_restaurant_section(
     *,
     section_id: str,
@@ -301,7 +292,7 @@ def fetch_restaurant_section(
         tags = [t for t in (item.get("topic_ids") or []) if t != section_id]
         item["topic_ids"] = [section_id, *tags]
         item["ingestion_source"] = "openai"
-        item["verified"] = is_verified(item)
+        item["verified"] = is_verified(item, require_places_api=False)
         if item["verified"]:
             verified_count += 1
     log(f"  [{section_id}] done ({len(items)} candidates, {verified_count} verified)")
