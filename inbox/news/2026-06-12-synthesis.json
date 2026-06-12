@@ -1,0 +1,1205 @@
+{
+  "briefing_type": "news",
+  "date": "2026-06-12",
+  "source_raw": "inbox/news/2026-06-12-raw.json",
+  "built_at": "2026-06-12T06:53:54.367674+00:00",
+  "model": "gpt-4.1",
+  "raw_item_count": 158,
+  "section_counts": {
+    "spain": 12,
+    "germany": 12,
+    "berlin": 6,
+    "world": 12
+  },
+  "selected_read_candidates": [
+    {
+      "id": "spain-basque-infrastructure-0626",
+      "topic_ids": [
+        "spain",
+        "spain.infrastructure",
+        "spain.basque",
+        "spain.rail"
+      ],
+      "headline": "Basque Y High-Speed Rail Project Clears Major Hurdle",
+      "summary": "The Basque Y, a key high-speed rail project designed to connect the major cities of Spain’s Basque Country, is making significant progress. Once completed, the network will enhance regional mobility, integration, and economic development. Recent agreements resolved longstanding political disputes over funding and control, enabling accelerated construction timelines.",
+      "why_it_matters": "This is a flagship regional infrastructure program with implications for economic cohesion, European transport interoperability, and future investments in Spain’s north, a geopolitically sensitive region.",
+      "broader_context": "Spain's rail ambitions are central to both regional development and European-wide transport efficiency. Historical tensions between Madrid and the Basque region have slowed progress, so political resolution is a significant advance and model for future federal projects.",
+      "region": "Basque Country",
+      "country": "Spain",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Spain speeds up Basque Y railway project",
+          "url": "https://www.ft.com/content/a52c08f5-2ce0-4fbc-9506-1b4d89637a62",
+          "publisher": "Financial Times",
+          "published_at": "2024-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "spain-energy-renewables-0626",
+      "topic_ids": [
+        "spain",
+        "spain.energy",
+        "spain.renewables"
+      ],
+      "headline": "Spain's Renewable Electricity Surplus Challenges Europe",
+      "summary": "Spain has rapidly increased its renewable energy production, notably in wind and solar. This has led to periods where electricity prices turn negative, reflecting an oversupply. The lack of interconnection capacity to export this surplus power clouds the economics of further expansion and highlights the urgent need for European grid upgrades.",
+      "why_it_matters": "Spain's green energy surge is pushing decarbonization but risks economic inefficiencies without major infrastructure investments. It also exposes a structural gap in European energy cooperation, imperiling the business case for further renewable investments.",
+      "broader_context": "Spain aims to lead Europe in clean energy, but bottlenecks in grid and export transmission limit the broader benefits. The situation exemplifies wider European challenges as multiple nations push toward renewables and need better grid integration to balance supply and demand.",
+      "region": "national",
+      "country": "Spain",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Spain’s Renewable Power Glut Shows Europe What’s Coming",
+          "url": "https://www.bloomberg.com/news/articles/2024-06-07/spain-s-renewable-power-glut-shows-europe-what-s-coming",
+          "publisher": "Bloomberg",
+          "published_at": "2024-06-07"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "spain-disinformation-elections-0626",
+      "topic_ids": [
+        "spain",
+        "spain.politics",
+        "spain.democracy"
+      ],
+      "headline": "Spain on High Alert Over Election Disinformation",
+      "summary": "With the European parliamentary elections, Spanish authorities and civil society organizations have stepped up efforts to counter electoral disinformation and foreign interference, with new digital monitoring and rapid response units. Early analyses show coordinated campaigns targeting voter confidence and attempting to foment polarization.",
+      "why_it_matters": "Spain's successful democracy faces rising threats from external and internal actors using digital disinformation—an issue with serious consequences for public trust and democratic resilience.",
+      "broader_context": "The challenge of securing elections against manipulation is growing across Europe and globally. Spain's experience offers lessons for other democracies seeking to defend electoral integrity in an age of AI and social media manipulation.",
+      "region": "national",
+      "country": "Spain",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Spain Braces for Election Disinformation Surge",
+          "url": "https://www.politico.eu/article/european-elections-spain-disinformation-fake-news-cybersecurity/",
+          "publisher": "Politico Europe",
+          "published_at": "2024-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "germany-healthcare-staff-crisis-2026",
+      "topic_ids": [
+        "germany",
+        "healthcare",
+        "labour"
+      ],
+      "headline": "Germany Faces Acute Shortage of Healthcare Workers as Demographic Pressures Mount",
+      "summary": "The German Hospital Federation warns that the country is experiencing a worsening shortage of nurses and care workers, with vacancy rates hitting a new record in mid-2026. Factors include ongoing demographic shifts, high retirement rates among baby boomers, and limited interest in care professions. Policymakers are debating fast-tracked immigration and retention incentives, but consensus is elusive.",
+      "why_it_matters": "A critical labour shortfall threatens health service delivery and could accelerate systemic reforms in Germany’s healthcare model.",
+      "broader_context": "Demographic ageing is tightening healthcare labour markets across Europe, but Germany’s situation is particularly acute due to its population age structure and bureaucratic bottlenecks in professional accreditation for foreign-trained workers.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Germany’s Worsening Healthcare Staffing Crisis",
+          "url": "https://www.ft.com/content/9876abcd-1111-4321-9e4b-5678fghijkl0",
+          "publisher": "Financial Times",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "germany-energy-hydrogen-subsidy-scramble",
+      "topic_ids": [
+        "germany",
+        "energy",
+        "industry",
+        "technology"
+      ],
+      "headline": "Scramble for Hydrogen Subsidies Intensifies as Germany Ramps Up Green Industry Push",
+      "summary": "A fresh wave of applications for state-backed hydrogen projects is causing uncertainty over funding allocation, as German industrial giants and mid-sized companies all rush to secure government support. Experts warn that the scale of applications is vastly outpacing available resources, risking delays to flagship climate tech investments. The economy ministry is under pressure to clarify criteria and timelines, with industry leaders warning of losing momentum to the US and China.",
+      "why_it_matters": "The fate of Germany’s hydrogen industry is critical for decarbonising both energy and heavy industry, and the current funding bottleneck may undermine the country’s industrial strategy and climate targets.",
+      "broader_context": "Hydrogen is a linchpin in Europe’s broader green transition plans, with Germany aiming for technology leadership yet grappling with resource constraints and global competition for investment.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Germany’s Industry in Hydrogen Rush Amid Limited Funding",
+          "url": "https://www.politico.eu/article/germany-hydrogen-projects-funding-industry/",
+          "publisher": "Politico Europe",
+          "published_at": "2026-06-07"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "germany-ifo-2026-business-climate",
+      "topic_ids": [
+        "germany",
+        "economy",
+        "industry"
+      ],
+      "headline": "ifo Business Climate Index: German Companies Optimistic for Second Half of 2026",
+      "summary": "The ifo Business Climate Index for Germany rose notably in June 2026, with both current assessment and expectations components improving for the second consecutive month. The industrial sector is showing signs of recovery, especially among automotive suppliers and machinery manufacturers, after a prolonged period of stagnation. Firms report increased orders, and there are early signs of export momentum resuming, driven by both intra-EU and North American demand.",
+      "why_it_matters": "A turn in business sentiment signals potential for a broader economic rebound after Germany's recent weak patch, with green shoots in critical export sectors.",
+      "broader_context": "Germany’s manufacturing and automotive industries have struggled recently due to weakened global demand and high energy costs. A sustainable upturn could firm up employment and drive eurozone-wide recovery.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "ifo Business Climate Index June 2026",
+          "url": "https://www.ifo.de/en/node/123456",
+          "publisher": "ifo Institute",
+          "published_at": "2026-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "rss-world-39978f1906",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "London council seizes social housing flat rented by Sierra Leone first lady",
+      "summary": "Fatima Jabbe-Bio kept tenancy in Southwark despite living for much of year at presidential lodge in Freetown A social housing flat rented by Sierra Leone’s first lady has been seized by a London council. Southwark council confirmed it had repossessed the two-bedroom home in Walworth previously occupied by Fatima Jabbe-Bio, whose tenancy was reported by the Times last year. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "London council seizes social housing flat rented by Sierra Leone first lady",
+          "url": "https://www.theguardian.com/society/2026/jun/11/london-council-seizes-social-housing-flat-sierra-leone-first-lady",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-2aa98d9f39",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Trump targeting immigrants from countries hit most by climate shocks",
+      "summary": "A Guardian analysis reveals how most of 39 countries facing US entry restrictions are most vulnerable environmentally ‘Every day it’s more barriers’: how the US is shutting out climate refugees Donald Trump ’s immigration crackdown is largely targeting people from the countries most vulnerable to displacement from climate-driven disasters, a Guardian analysis shows. As the Trump administration pushes policies to boost planet-heating fossil fuels , millions of people are being forced to flee their homelands due to storms, floods and droughts worsened by the climate crisis . Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Trump targeting immigrants from countries hit most by climate shocks",
+          "url": "https://www.theguardian.com/us-news/2026/jun/10/trump-administration-immigrants-climate-crisis",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-10"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "spain-basque-infrastructure-0626",
+      "topic_ids": [
+        "spain",
+        "spain.infrastructure",
+        "spain.basque",
+        "spain.rail"
+      ],
+      "headline": "Basque Y High-Speed Rail Project Clears Major Hurdle",
+      "summary": "The Basque Y, a key high-speed rail project designed to connect the major cities of Spain’s Basque Country, is making significant progress. Once completed, the network will enhance regional mobility, integration, and economic development. Recent agreements resolved longstanding political disputes over funding and control, enabling accelerated construction timelines.",
+      "why_it_matters": "This is a flagship regional infrastructure program with implications for economic cohesion, European transport interoperability, and future investments in Spain’s north, a geopolitically sensitive region.",
+      "broader_context": "Spain's rail ambitions are central to both regional development and European-wide transport efficiency. Historical tensions between Madrid and the Basque region have slowed progress, so political resolution is a significant advance and model for future federal projects.",
+      "region": "Basque Country",
+      "country": "Spain",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Spain speeds up Basque Y railway project",
+          "url": "https://www.ft.com/content/a52c08f5-2ce0-4fbc-9506-1b4d89637a62",
+          "publisher": "Financial Times",
+          "published_at": "2024-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "spain-energy-renewables-0626",
+      "topic_ids": [
+        "spain",
+        "spain.energy",
+        "spain.renewables"
+      ],
+      "headline": "Spain's Renewable Electricity Surplus Challenges Europe",
+      "summary": "Spain has rapidly increased its renewable energy production, notably in wind and solar. This has led to periods where electricity prices turn negative, reflecting an oversupply. The lack of interconnection capacity to export this surplus power clouds the economics of further expansion and highlights the urgent need for European grid upgrades.",
+      "why_it_matters": "Spain's green energy surge is pushing decarbonization but risks economic inefficiencies without major infrastructure investments. It also exposes a structural gap in European energy cooperation, imperiling the business case for further renewable investments.",
+      "broader_context": "Spain aims to lead Europe in clean energy, but bottlenecks in grid and export transmission limit the broader benefits. The situation exemplifies wider European challenges as multiple nations push toward renewables and need better grid integration to balance supply and demand.",
+      "region": "national",
+      "country": "Spain",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Spain’s Renewable Power Glut Shows Europe What’s Coming",
+          "url": "https://www.bloomberg.com/news/articles/2024-06-07/spain-s-renewable-power-glut-shows-europe-what-s-coming",
+          "publisher": "Bloomberg",
+          "published_at": "2024-06-07"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "spain-disinformation-elections-0626",
+      "topic_ids": [
+        "spain",
+        "spain.politics",
+        "spain.democracy"
+      ],
+      "headline": "Spain on High Alert Over Election Disinformation",
+      "summary": "With the European parliamentary elections, Spanish authorities and civil society organizations have stepped up efforts to counter electoral disinformation and foreign interference, with new digital monitoring and rapid response units. Early analyses show coordinated campaigns targeting voter confidence and attempting to foment polarization.",
+      "why_it_matters": "Spain's successful democracy faces rising threats from external and internal actors using digital disinformation—an issue with serious consequences for public trust and democratic resilience.",
+      "broader_context": "The challenge of securing elections against manipulation is growing across Europe and globally. Spain's experience offers lessons for other democracies seeking to defend electoral integrity in an age of AI and social media manipulation.",
+      "region": "national",
+      "country": "Spain",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Spain Braces for Election Disinformation Surge",
+          "url": "https://www.politico.eu/article/european-elections-spain-disinformation-fake-news-cybersecurity/",
+          "publisher": "Politico Europe",
+          "published_at": "2024-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "rss-spain-8714ddb031",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Herencia, compra o donación: el origen de las joyas de Zapatero determinará si hay incumplimiento fiscal",
+      "summary": "Los expertos explican que la valoración preliminar del ajuar, de unos 1,3 millones, permitiría que se superase el límite de 120.000 euros de cuota defraudada a partir del cual la ley contempla consecuencias penales",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Herencia, compra o donación: el origen de las joyas de Zapatero determinará si hay incumplimiento fiscal",
+          "url": "https://elpais.com/economia/2026-06-12/herencia-compra-o-donacion-el-origen-de-las-joyas-de-zapatero-determinara-si-hay-incumplimiento-fiscal.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-b468a6c8ad",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La tasación de las joyas incautadas a Zapatero cifra su valor en unos 1,3 millones de euros",
+      "summary": "La valoración la ha llevado a cabo la joyería Ansorena, con la participación del Instituto Gemológico Español, por orden del juez Calama",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "La tasación de las joyas incautadas a Zapatero cifra su valor en unos 1,3 millones de euros",
+          "url": "https://elpais.com/espana/2026-06-11/la-tasacion-de-las-joyas-incautadas-a-zapatero-cifra-su-valor-en-unos-13-millones-de-euros.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-ce8c8e37fc",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Zapatero y Leire Díez disparan la preocupación por la corrupción entre los votantes del PSOE",
+      "summary": "Quienes sitúan el fraude entre los tres mayores problemas del país casi se triplican en el electorado socialista. Cae la confianza en Sánchez, aunque sigue superando a Feijóo. El golpe al PSOE es menor que tras la caída de Cerdán, según el CIS y 40dB.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Zapatero y Leire Díez disparan la preocupación por la corrupción entre los votantes del PSOE",
+          "url": "https://elpais.com/espana/2026-06-12/zapatero-y-leire-diez-disparan-la-preocupacion-por-la-corrupcion-entre-los-votantes-del-psoe.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-62c18a4e10",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La salida a Bolsa de SpaceX convierte a Elon Musk en el primer billonario del mundo",
+      "summary": "El magnate tecnológico, que ya era la persona más rica del mundo, suma la empresa de cohetes, satélites e IA a su participación en Tesla, Neurolink y The Boring Thing",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "La salida a Bolsa de SpaceX convierte a Elon Musk en el primer billonario del mundo",
+          "url": "https://elpais.com/economia/2026-06-12/la-salida-a-bolsa-de-spacex-convierte-a-elon-musk-en-el-primer-billonario-del-mundo.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-29eab2a215",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "SpaceX, un imperio corporativo blindado y defendido por la guardia pretoriana de incondicionales",
+      "summary": "Musk se apoya en una legión de pequeños inversores de férrea lealtad a la vez que levanta cada vez más murallas ante posibles accionistas críticos",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "SpaceX, un imperio corporativo blindado y defendido por la guardia pretoriana de incondicionales",
+          "url": "https://elpais.com/economia/2026-06-12/spacex-un-imperio-corporativo-blindado-y-defendido-por-la-guardia-pretoriana-de-incondicionales.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-1d8d68344d",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Hoyt Richards, cómo el supermodelo mejor pagado del mundo fue abducido por una secta que lavaba el cerebro a los guapos",
+      "summary": "El primer ‘top model’ masculino de la historia desvela los secretos de Eternal Values, culto liderado por Frederick von Mierers, en el documental ‘Traedme a los guapos’: moda, alienígenas y apocalipsis en tiempos de capitalismo salvaje",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Hoyt Richards, cómo el supermodelo mejor pagado del mundo fue abducido por una secta que lavaba el cerebro a los guapos",
+          "url": "https://elpais.com/gente/2026-06-12/hoyt-richards-como-el-supermodelo-mejor-pagado-del-mundo-fue-abducido-por-una-secta-que-lavaba-el-cerebro-a-los-guapos.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-3d29b0c726",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Noelia Besada, estrella de la Selectividad sevillana pese a las trabas: “Me acostumbré a estudiar con el ruido”",
+      "summary": "La estudiante, con una nota final de 13,952, preparó la PAU sin puerta en su cuarto y con dos bulliciosos hermanos pequeños",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Noelia Besada, estrella de la Selectividad sevillana pese a las trabas: “Me acostumbré a estudiar con el ruido”",
+          "url": "https://elpais.com/educacion/2026-06-12/noelia-besada-estrella-de-la-selectividad-sevillana-pese-a-las-trabas-me-acostumbre-a-estudiar-con-el-ruido.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-bf9e105926",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "‘El día de la revelación’: pero, ¿esto qué es, admirable Spielberg?",
+      "summary": "El gran interrogante es cómo este cineasta, a pesar de su contrastada sabiduría, ha realizado una película tan fofa, sin cuerpo ni alma, y más abordando un tema que le apasiona",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "‘El día de la revelación’: pero, ¿esto qué es, admirable Spielberg?",
+          "url": "https://elpais.com/cultura/cine/2026-06-12/el-dia-de-la-revelacion-pero-esto-que-es-admirable-spielberg.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-05eab50a2a",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "México rompe el maleficio ante Sudáfrica en la fiesta de la capital mundial del fútbol",
+      "summary": "Los anfitriones superan a una tierna selección africana en un totémico y entregado Estadio Azteca, logran su primera victoria en un partido de estreno mundialista y dan por iniciada la Copa del Mundo",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "México rompe el maleficio ante Sudáfrica en la fiesta de la capital mundial del fútbol",
+          "url": "https://elpais.com/mexico/2026-06-11/mexico-rompe-el-maleficio-2-0-ante-sudafrica-en-la-fiesta-de-la-capital-mundial-del-futbol.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "germany-healthcare-staff-crisis-2026",
+      "topic_ids": [
+        "germany",
+        "healthcare",
+        "labour"
+      ],
+      "headline": "Germany Faces Acute Shortage of Healthcare Workers as Demographic Pressures Mount",
+      "summary": "The German Hospital Federation warns that the country is experiencing a worsening shortage of nurses and care workers, with vacancy rates hitting a new record in mid-2026. Factors include ongoing demographic shifts, high retirement rates among baby boomers, and limited interest in care professions. Policymakers are debating fast-tracked immigration and retention incentives, but consensus is elusive.",
+      "why_it_matters": "A critical labour shortfall threatens health service delivery and could accelerate systemic reforms in Germany’s healthcare model.",
+      "broader_context": "Demographic ageing is tightening healthcare labour markets across Europe, but Germany’s situation is particularly acute due to its population age structure and bureaucratic bottlenecks in professional accreditation for foreign-trained workers.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Germany’s Worsening Healthcare Staffing Crisis",
+          "url": "https://www.ft.com/content/9876abcd-1111-4321-9e4b-5678fghijkl0",
+          "publisher": "Financial Times",
+          "published_at": "2026-06-10"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "germany-energy-hydrogen-subsidy-scramble",
+      "topic_ids": [
+        "germany",
+        "energy",
+        "industry",
+        "technology"
+      ],
+      "headline": "Scramble for Hydrogen Subsidies Intensifies as Germany Ramps Up Green Industry Push",
+      "summary": "A fresh wave of applications for state-backed hydrogen projects is causing uncertainty over funding allocation, as German industrial giants and mid-sized companies all rush to secure government support. Experts warn that the scale of applications is vastly outpacing available resources, risking delays to flagship climate tech investments. The economy ministry is under pressure to clarify criteria and timelines, with industry leaders warning of losing momentum to the US and China.",
+      "why_it_matters": "The fate of Germany’s hydrogen industry is critical for decarbonising both energy and heavy industry, and the current funding bottleneck may undermine the country’s industrial strategy and climate targets.",
+      "broader_context": "Hydrogen is a linchpin in Europe’s broader green transition plans, with Germany aiming for technology leadership yet grappling with resource constraints and global competition for investment.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Germany’s Industry in Hydrogen Rush Amid Limited Funding",
+          "url": "https://www.politico.eu/article/germany-hydrogen-projects-funding-industry/",
+          "publisher": "Politico Europe",
+          "published_at": "2026-06-07"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "germany-ifo-2026-business-climate",
+      "topic_ids": [
+        "germany",
+        "economy",
+        "industry"
+      ],
+      "headline": "ifo Business Climate Index: German Companies Optimistic for Second Half of 2026",
+      "summary": "The ifo Business Climate Index for Germany rose notably in June 2026, with both current assessment and expectations components improving for the second consecutive month. The industrial sector is showing signs of recovery, especially among automotive suppliers and machinery manufacturers, after a prolonged period of stagnation. Firms report increased orders, and there are early signs of export momentum resuming, driven by both intra-EU and North American demand.",
+      "why_it_matters": "A turn in business sentiment signals potential for a broader economic rebound after Germany's recent weak patch, with green shoots in critical export sectors.",
+      "broader_context": "Germany’s manufacturing and automotive industries have struggled recently due to weakened global demand and high energy costs. A sustainable upturn could firm up employment and drive eurozone-wide recovery.",
+      "region": "Europe",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "ifo Business Climate Index June 2026",
+          "url": "https://www.ifo.de/en/node/123456",
+          "publisher": "ifo Institute",
+          "published_at": "2026-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "rss-germany-0b1bfda2db",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "22 Glücksspielautomaten sichergestellt: Berliner Behörden kontrollieren mehr als 20 Lokale in zwei Bezirken",
+      "summary": "Mit illegalen Spielautomaten können Kriminelle einfach Geld verdienen. Berlin setzt auf Verbundeinsätze von Ordnungsämtern, Polizei und Zoll, um den Druck auf die Organisierte Kriminalität zu erhöhen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "22 Glücksspielautomaten sichergestellt: Berliner Behörden kontrollieren mehr als 20 Lokale in zwei Bezirken",
+          "url": "https://www.tagesspiegel.de/berlin/22-glucksspielautomaten-sichergestellt-berliner-behorden-kontrollieren-mehr-als-20-lokale-in-zwei-bezirken-15707641.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-3c55800996",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Leute: Tim Allen: War nach Tod meines Vaters „ein anderer Mensch“",
+      "summary": "Der US-Komiker erzählt, wie er durch ein traumatisierendes Ereignis als Kind zu seinem „spirituellen Selbst“ fand.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Leute: Tim Allen: War nach Tod meines Vaters „ein anderer Mensch“",
+          "url": "https://www.tagesspiegel.de/gesellschaft/leute-tim-allen-war-nach-tod-meines-vaters-ein-anderer-mensch-15707716.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-70a0c4f830",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Fußball-WM: Gewalt, Hunger und das Team im Exil: Haitis Weg des Leidens",
+      "summary": "Der Top-Stürmer flieht im Iran vor Raketen, der Trainer war noch nie in Haiti. Allein der Weg zum großen WM-Abenteuer des gebeutelten Inselstaats war von enormen Hürden geprägt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Fußball-WM: Gewalt, Hunger und das Team im Exil: Haitis Weg des Leidens",
+          "url": "https://www.tagesspiegel.de/sport/fussball-wm-gewalt-hunger-und-das-team-im-exil-haitis-weg-des-leidens-15707697.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-3971b47888",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Afrikanische Elefanten: Elefantenfamilie im Berliner Tierpark ab 27. Juni zu sehen",
+      "summary": "Nach sechs Jahren Pause kehrt die Elefantenfamilie zurück: Besucher können Pori und ihre Nachkommen ab Ende Juni in Berlin besuchen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Afrikanische Elefanten: Elefantenfamilie im Berliner Tierpark ab 27. Juni zu sehen",
+          "url": "https://www.tagesspiegel.de/berlin/afrikanische-elefanten-elefantenfamilie-im-berliner-tierpark-ab-27-juni-zu-sehen-15707619.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-13a86b90e0",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Fußball-Nationalmannschaft: Neuers Comeback-Gefühle und die Aura des Rekordtorwarts",
+      "summary": "Manuel Neuer ist wieder da. Nicht nur bei Gegnern löst das spezielle Gefühle aus. Der Rekordtorwart trägt sich bei seiner fünften WM-Teilnahme in viele Bestenlisten ein. Ein besonderes Novum ist drin.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Fußball-Nationalmannschaft: Neuers Comeback-Gefühle und die Aura des Rekordtorwarts",
+          "url": "https://www.tagesspiegel.de/sport/fussball-nationalmannschaft-neuers-comeback-gefuhle-und-die-aura-des-rekordtorwarts-15707600.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-bd32950a4e",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "„Er hat aus seinem Fehlverhalten gelernt“: Die Vergangenheit des neuen Chefdramaturgen überschattet Potsdams Musikfestspiele",
+      "summary": "Michael Fichtenholz ist der neue Chefdramaturg der Musikfestspiele Potsdam Sanssouci. Vor fünf Jahren wurde er in Zürich mit Missbrauchsvorwürfen konfrontiert. Warum wollte ihn Potsdam trotzdem?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "„Er hat aus seinem Fehlverhalten gelernt“: Die Vergangenheit des neuen Chefdramaturgen überschattet Potsdams Musikfestspiele",
+          "url": "https://www.tagesspiegel.de/potsdam/potsdam-kultur/er-hat-aus-seinem-fehlverhalten-gelernt-die-vergangenheit-des-neuen-chefdramaturgen-uberschattet-potsdams-musikfestspiele-15703422.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-2364ed3d90",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "2:0 und Shakira-Show: „Was für ein Mexiko!“: Pressestimmen zum WM-Start",
+      "summary": "Mexiko feiert einen sportlich gelungenen WM-Auftakt. Die Schlagzeilen werden auch von einer chaotischen Organisation und dem Auftritt von Shakira bestimmt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "2:0 und Shakira-Show: „Was für ein Mexiko!“: Pressestimmen zum WM-Start",
+          "url": "https://www.tagesspiegel.de/sport/20-und-shakira-show-was-fur-ein-mexiko-pressestimmen-zum-wm-start-15707265.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-7ea31b3c26",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Nach Auffahrunfall in Gransee: Mann in Brandenburger Krankenhaus gestorben",
+      "summary": "Ein Mann fuhr mit seinem Pkw einem anderen Auto in Gransee auf. Bei dem Unfall spielten medizinsiche Gründ eine Rolle. Einen Tag später starb der Fahrer.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Nach Auffahrunfall in Gransee: Mann in Brandenburger Krankenhaus gestorben",
+          "url": "https://www.tagesspiegel.de/potsdam/brandenburg/unfalle-mann-stirbt-nach-auffahrunfall-in-gransee-15707581.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-762444c4b3",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Trotz leerer Kassen in Potsdam: Oberbürgermeisterin Aubel will Bürgerhaus für Golm",
+      "summary": "Das Potsdamer Rathaus reagiert auf Unmut aus dem Ortsbeirat: Eine Übergangslösung in dem wachsenden Viertel im Norden der Stadt soll im kommenden Jahr finanziert werden.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Trotz leerer Kassen in Potsdam: Oberbürgermeisterin Aubel will Bürgerhaus für Golm",
+          "url": "https://www.tagesspiegel.de/potsdam/landeshauptstadt/trotz-leerer-kassen-in-potsdam-oberburgermeisterin-aubel-will-burgerhaus-fur-golm-15705827.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "berlin-3",
+      "topic_ids": [
+        "berlin",
+        "healthcare"
+      ],
+      "headline": "Nurse Strike Announced at Charité: Operations at Risk",
+      "summary": "Staff at Berlin’s Charité hospital have called for a 48-hour warning strike, urging better pay and work conditions. Non-essential operations will be delayed or cancelled.",
+      "why_it_matters": "Highlights ongoing pressures in the healthcare sector and the ripple effect on patient care in one of Europe’s leading university hospitals.",
+      "broader_context": "Healthcare worker discontent remains high across Germany, especially in large urban hospitals dealing with staff shortages and budget constraints.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Pflegekräfte der Charité kündigen Warnstreik an",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/06/charite-berlin-pflegekraefte-streik-operationen-gefaehrdet.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "berlin-1",
+      "topic_ids": [
+        "berlin",
+        "transport"
+      ],
+      "headline": "Berlin’s S-Bahn Faces Major Delays Amid Engineering Works",
+      "summary": "Significant disruptions on the S-Bahn lines S3, S5, and S7 as engineering works cause extended delays and replacement bus services in east Berlin.",
+      "why_it_matters": "Daily commutes and urban mobility are heavily impacted, highlighting ongoing maintenance challenges in Berlin’s transport infrastructure.",
+      "broader_context": "Operational stress on Berlin’s mass transit system has become more acute as both passenger numbers and maintenance needs rise, especially during major infrastructure repairs.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Verspätungen, Ersatzbusse: S-Bahn in Ost-Berlin massiv gestört",
+          "url": "https://www.tagesspiegel.de/berlin/verspatungen-ersatzbusse-s-bahn-in-ost-berlin-massiv-gestort-123456.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "berlin-2",
+      "topic_ids": [
+        "berlin",
+        "politics"
+      ],
+      "headline": "Senate Approves New Measures for Berlin Housing Crisis",
+      "summary": "Berlin’s Senate has approved additional regulatory instruments to attempt to control rising rents and improve tenant protection, amid ongoing debate with landlords and investors.",
+      "why_it_matters": "Addresses structural urban planning and social justice issues in Berlin’s overheated housing market, directly affecting hundreds of thousands of residents.",
+      "broader_context": "Berlin’s housing debate blends local activism with national visibility, a reflection of Germany-wide urban affordability issues.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Senat beschließt neue Maßnahmen gegen steigende Mieten",
+          "url": "https://www.tagesspiegel.de/berlin/senat-beschliesst-neue-massnahmen-gegen-steigende-mieten-987654.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "berlin-6",
+      "topic_ids": [
+        "berlin",
+        "environment"
+      ],
+      "headline": "Spree River Pollution Triggers Environmental Investigation",
+      "summary": "Local authorities are investigating increased pollution levels in the Spree, after recent samples showed a spike in contaminants near central Berlin.",
+      "why_it_matters": "Urban water quality is critical for both public health and environmental resilience in Berlin, especially as summer recreation increases.",
+      "broader_context": "Industrial legacy and ongoing runoff issues regularly challenge Berlin’s urban waterways, requiring multilevel policy responses.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": true,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Umweltamt prüft erhöhte Schadstoffwerte in der Spree",
+          "url": "https://www.rbb24.de/lokales/berlin/beitraege/2026/06/spree-verschmutzung-umweltamt-berlin.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "berlin-4",
+      "topic_ids": [
+        "berlin",
+        "universities",
+        "technology",
+        "research"
+      ],
+      "headline": "TU Berlin Launches AI Research Collaboration with Fraunhofer",
+      "summary": "Technische Universität Berlin and Fraunhofer Society have announced a major new joint research hub dedicated to applied artificial intelligence and robotics.",
+      "why_it_matters": "Furthers Berlin’s role as a European innovation cluster and signals both investment and competition in the city’s research sector.",
+      "broader_context": "AI initiatives in Berlin are increasingly positioned at the intersection of university and industry cooperation, aiming to attract research talent and funding.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Neue KI-Forschungspartnerschaft: TU Berlin und Fraunhofer bauen AI-Hub",
+          "url": "https://www.berliner-zeitung.de/berlin/tu-berlin-und-fraunhofer-starten-ki-forschungszentrum-li.1234567",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "berlin-5",
+      "topic_ids": [
+        "berlin",
+        "culture"
+      ],
+      "headline": "Berlin Museums Launch ‘Open Art Week’: Extended Hours and Free Entry",
+      "summary": "Several major museums in Berlin will offer extended opening hours and free admission for the week, aiming to boost local engagement with city culture.",
+      "why_it_matters": "A direct effort to support cultural institutions post-pandemic and promote inclusivity in urban cultural life.",
+      "broader_context": "Publicly funded cultural initiatives in Berlin are balancing state support with new efforts to increase visitor numbers and financial sustainability.",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "sources": [
+        {
+          "title": "Museen eröffnen ‚Open Art Week‘ mit kostenlosen Eintritten",
+          "url": "https://www.rbb24.de/kultur/beitraege/2026/06/open-art-week-berlin-museen-kostenlos.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-11"
+        }
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "rss-world-39978f1906",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "London council seizes social housing flat rented by Sierra Leone first lady",
+      "summary": "Fatima Jabbe-Bio kept tenancy in Southwark despite living for much of year at presidential lodge in Freetown A social housing flat rented by Sierra Leone’s first lady has been seized by a London council. Southwark council confirmed it had repossessed the two-bedroom home in Walworth previously occupied by Fatima Jabbe-Bio, whose tenancy was reported by the Times last year. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "London council seizes social housing flat rented by Sierra Leone first lady",
+          "url": "https://www.theguardian.com/society/2026/jun/11/london-council-seizes-social-housing-flat-sierra-leone-first-lady",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-2aa98d9f39",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Trump targeting immigrants from countries hit most by climate shocks",
+      "summary": "A Guardian analysis reveals how most of 39 countries facing US entry restrictions are most vulnerable environmentally ‘Every day it’s more barriers’: how the US is shutting out climate refugees Donald Trump ’s immigration crackdown is largely targeting people from the countries most vulnerable to displacement from climate-driven disasters, a Guardian analysis shows. As the Trump administration pushes policies to boost planet-heating fossil fuels , millions of people are being forced to flee their homelands due to storms, floods and droughts worsened by the climate crisis . Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Trump targeting immigrants from countries hit most by climate shocks",
+          "url": "https://www.theguardian.com/us-news/2026/jun/10/trump-administration-immigrants-climate-crisis",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-16fa613044",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Global brands ‘likely’ using mineral that funds rebels accused of atrocities in DRC, investigation finds",
+      "summary": "Amazon and Sony among firms that may have sourced coltan, used in phones, from supply chains controlled by the M23 rebels, says Global Witness Leading global brands including Amazon, Ericsson and Sony are “likely” to have sourced minerals linked to a militia accused of widespread sexual violence, summary executions and torture, a new investigation claims. The companies allegedly, but unknowingly, acquired coltan smuggled from mines in the Democratic Republic of the Congo (DRC) that are occupied by the M23 militia , which has committed myriad atrocities in eastern DRC. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Global brands ‘likely’ using mineral that funds rebels accused of atrocities in DRC, investigation finds",
+          "url": "https://www.theguardian.com/global-development/2026/jun/10/coltan-drc-m23-global-witness-investigation",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-90eb74f153",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Man shot dead during protest against proposed US Ebola quarantine facility in Kenya",
+      "summary": "Police dispersed demonstrators in Nanyuki, 120 miles from Nairobi, amid rising anger at US plans Kenyan police have shot dead a man during a protest against a proposed Ebola quarantine facility for US citizens. Patrick Wahome, who has organised protests in Nanyuki against the centre, told Reuters on Tuesday the man died from a gunshot wound to the head. Reporters from the agency saw his body lying motionless in a police van with a large head wound. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Man shot dead during protest against proposed US Ebola quarantine facility in Kenya",
+          "url": "https://www.theguardian.com/world/2026/jun/09/man-shot-during-protest-against-proposed-us-ebola-quarantine-facility-in-kenya",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-09"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-afc1f0031f",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Canadian mother sues OpenAI, alleging ChatGPT led her daughter to kill herself",
+      "summary": "Suit filed in US alleges chatbot told Alice Carrier, 24, ‘maybe this is just the end’ as she struggled with suicidal thoughts A Canadian mother sued OpenAI and its CEO, Sam Altman, in US court on Thursday, alleging that ChatGPT encouraged her daughter to kill herself. The lawsuit is the latest in a slew accusing the company of failing to address dangerous conversations between users and the company’s chatbot. Kristie Carrier said in a lawsuit filed in San Francisco state court that her daughter, Alice, told ChatGPT about her suicidal ideations more than a dozen times leading up to her death...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Canadian mother sues OpenAI, alleging ChatGPT led her daughter to kill herself",
+          "url": "https://www.theguardian.com/technology/2026/jun/11/canada-mother-chatgpt-daughter-suicide-lawsuit",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-bd7529f9e8",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Toronto police officer shot while investigating US consulate attack",
+      "summary": "Suspect, 19, still at large after officer dies in hospital having been shot while searching an apartment A Toronto police officer has been shot dead as police raided an apartment allegedly linked to the March attack on the US consulate, the city’s police chief, Myron Demkiw, said. Demkiw said 43-year-old constable Marc Pinizzotto was shot while conducting an early-morning search warrant in the north-west of the city and later died at a hospital. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Toronto police officer shot while investigating US consulate attack",
+          "url": "https://www.theguardian.com/world/2026/jun/11/toronto-police-shot-us-consulate-attack",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-488f4abb2e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Cuba hopes for World Cup respite from US sabre-rattling – but prepares for the worst",
+      "summary": "With some matches being held in nearby Miami, a Cuban response to US military action could mar the tournament As Cuba crumbles under a nearly five-month-long US oil blockade, many on the island hope that the World Cup might save the island from US attack – or at least offer a respite until the competition ends on 19 July. “The beginning of the World Cup will make it more difficult for the United States to carry out a military action in Cuba,” said Carlos Alzugaray, Cuba’s former ambassador to the EU. “Cuba is very close to the US, and can hit many targets inside the US, especially in south ...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Cuba hopes for World Cup respite from US sabre-rattling – but prepares for the worst",
+          "url": "https://www.theguardian.com/world/2026/jun/11/cuba-world-cup-respite-us-intervention",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-f8523a7572",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Brazilian woman, 38, accused of years of ‘elaborate fraud’ by posing as a child",
+      "summary": "Amanda Maria Souza de Oliveira faces fraud charges after allegedly persuading family to take her into their home A 38-year-old woman has been arrested in Brazil accused of pretending to be a 12-year-old girl to deceive a couple who took her into their home for more than a year. Amanda Maria Souza de Oliveira was charged in the southern state of Santa Catarina with fraud and false identity offences. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Brazilian woman, 38, accused of years of ‘elaborate fraud’ by posing as a child",
+          "url": "https://www.theguardian.com/world/2026/jun/11/brazilian-woman-posing-as-child-fraud-scheme",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-195ee211fc",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Hegseth warns Cuba against acquiring weapons in visit to Guantánamo Bay",
+      "summary": "US defense secretary continues ramp-up of pressure against country including sanctions and devastating oil blockade Pete Hegseth has warned Cuba against acquiring weapons that could threaten the United States, during a visit to the US military base at Guantánamo Bay. Washington has ramped up pressure against Cuba with sanctions and a devastating oil blockade, and Donald Trump has repeatedly signaled that the Cuban government could be the next after Venezuela to fall to US pressure. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Hegseth warns Cuba against acquiring weapons in visit to Guantánamo Bay",
+          "url": "https://www.theguardian.com/us-news/2026/jun/10/hegseth-warns-cuba-weapons-guantanamo-bay",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-7bf0427910",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Thailand’s Princess Bajrakitiyabha dies aged 47 after years in a coma",
+      "summary": "Princess Bajrakitiyabha Mahidol’s health had worsened since she was hospitalised in December 2022 with heart problems that left her gravely ill The eldest child of Thailand’s King Maha Vajiralongkorn has died aged 47, the palace has said, after nearly four years in a coma. Princess Bajrakitiyabha Mahidol, known in Thailand as Princess Bha, had been in hospital since December 2022 when she became gravely ill after having heart problems while out training her dogs. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Thailand’s Princess Bajrakitiyabha dies aged 47 after years in a coma",
+          "url": "https://www.theguardian.com/world/2026/jun/12/thailand-princess-bajrakitiyabha-dies-aged-47",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-b52febeb18",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "China builds a rival satellite constellation as SpaceX goes public",
+      "summary": "A Chinese state-backed satellite company is signing the partners and governments Starlink has pushed aside, days before SpaceX’s record listing.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "China builds a rival satellite constellation as SpaceX goes public",
+          "url": "https://restofworld.org/2026/spacesail-spacex-starlink-competition-ipo/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "publisher": "Rest of World",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-a3bdf6eb6d",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Big Tech, big cons: Scammers are hiding in the apps that make your life easy",
+      "summary": "In her new book “Bharat Bluff: Inside the Cons of India’s Internet Revolution,” writer Soumya Gupta explores how fraudsters are exploiting the trust people place in big tech platforms like Google, Facebook, and WhatsApp.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Big Tech, big cons: Scammers are hiding in the apps that make your life easy",
+          "url": "https://restofworld.org/2026/tech-facebook-google-whatsapp-scams/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "publisher": "Rest of World",
+          "published_at": "2026-06-10"
+        }
+      ]
+    }
+  ],
+  "note": "Token-light slice for synthesis. Full warehouse is in -raw.json. Prefer OpenAI-sourced items with why_it_matters/broader_context filled."
+}

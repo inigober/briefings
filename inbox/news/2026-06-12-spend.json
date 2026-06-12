@@ -1,0 +1,40 @@
+{
+  "date": "2026-06-12",
+  "cap_usd": 2.0,
+  "spent_usd": 0.03496,
+  "estimated": true,
+  "cap_exceeded": false,
+  "calls": [
+    {
+      "section": "spain",
+      "model": "gpt-4.1",
+      "input_tokens": 1334,
+      "cached_tokens": 0,
+      "output_tokens": 1008,
+      "web_search_calls": 0,
+      "cost_usd": 0.010732,
+      "at": "2026-06-12T06:53:52.737633+00:00"
+    },
+    {
+      "section": "berlin",
+      "model": "gpt-4.1",
+      "input_tokens": 1068,
+      "cached_tokens": 0,
+      "output_tokens": 1426,
+      "web_search_calls": 0,
+      "cost_usd": 0.013544,
+      "at": "2026-06-12T06:53:54.012729+00:00"
+    },
+    {
+      "section": "germany",
+      "model": "gpt-4.1",
+      "input_tokens": 1346,
+      "cached_tokens": 0,
+      "output_tokens": 999,
+      "web_search_calls": 0,
+      "cost_usd": 0.010684,
+      "at": "2026-06-12T06:53:54.100839+00:00"
+    }
+  ],
+  "last_run_at": "2026-06-12T06:53:54.100871+00:00"
+}
