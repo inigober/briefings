@@ -2,10 +2,11 @@ name: Pre-fetch health check
 
 on:
   schedule:
-    # 08:00 CEST / 07:00 CET — news (pre-fetch 05:35 UTC) + culture (Tuesday 05:00 UTC)
-    - cron: "0 6 * * *"
+    # ~08:07 CEST / ~07:07 CET — news (pre-fetch 05:35 UTC) + culture (Tuesday 05:00 UTC)
+    # :07 avoids GitHub cron drops at :00/:30 (same rationale as news-prefetch :35)
+    - cron: "7 6 * * *"
     # Thursday — restaurants (pre-fetch 06:00 UTC; allow 2h buffer)
-    - cron: "0 8 * * 4"
+    - cron: "7 8 * * 4"
   workflow_dispatch:
     inputs:
       profile:

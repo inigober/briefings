@@ -14,7 +14,7 @@ Setup guide for [Cursor Automations](https://cursor.com/automations). **Runnable
 | **Model** | **Composer 2.5** (verification + curation from pre-fetched inbox) |
 | **Spending cap** | ~$5–8/mo (weekly) |
 
-Optional backup cron: `0 7 * * 2` UTC (Tuesday) if Tuesday pre-fetch was missed.
+Missed pre-fetch: `prefetch-health-check.yml` emails you — re-run pre-fetch from GitHub Actions.
 
 ## Instructions (paste once)
 

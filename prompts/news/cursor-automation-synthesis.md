@@ -14,7 +14,7 @@ Setup guide for [Cursor Automations](https://cursor.com/automations). **Runnable
 | **Model** | **Composer 2.5** (or Cursor Fast). Avoid GPT 5.5 High — synthesis is rule-bound editing from pre-fetched inbox, not research. |
 | **Spending cap** | ~$8–10/mo on-demand safety net |
 
-Optional backup: cron `0 7 * * 1-5` UTC if pre-fetch was missed.
+Missed pre-fetch: `prefetch-health-check.yml` emails you — re-run pre-fetch from GitHub Actions. No Cursor backup cron (see `prompts/cursor-automation-synthesis.md`).
 
 ## Instructions (paste once into automation — do not edit here)
 

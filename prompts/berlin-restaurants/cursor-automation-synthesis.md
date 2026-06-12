@@ -14,7 +14,7 @@ Setup guide for [Cursor Automations](https://cursor.com/automations). **Runnable
 | **Model** | **Composer 2.5** (curation from pre-verified restaurant inbox) |
 | **Spending cap** | ~$5-8/mo (weekly) |
 
-Optional backup cron: `0 7 * * 4` UTC (Thursday 08:00 CET) if Thursday pre-fetch was missed.
+Missed pre-fetch: `prefetch-health-check.yml` emails you — re-run pre-fetch from GitHub Actions.
 
 ## Instructions (paste once)
 

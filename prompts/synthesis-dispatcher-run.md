@@ -10,22 +10,19 @@ Single source of truth for the **one** Cursor synthesis automation. Routes each 
 
 ## Step 0 — Route (mandatory)
 
-1. From the repo root, run push routing first:
+1. From the repo root, run:
    ```bash
    python scripts/detect_synthesis_trigger.py --json
    ```
-2. If `type_id` is `null`, run backup routing (inbox exists for today but briefing is missing):
-   ```bash
-   python scripts/detect_synthesis_trigger.py --json --backup
-   ```
-   Use whichever result has a non-null `type_id`. If **both** skip, log both `reason` values and **stop**.
-3. When a `type_id` is set (`news`, `berlin-culture`, or `berlin-restaurants`), log which type and why, then continue.
-4. Open the matching synthesis prompt from `config/briefings.yaml`:
+2. Parse the JSON:
+   - If `type_id` is `null` or the script prints `skip`, log the `reason` and **stop** — do not read inbox or write briefings.
+   - If `type_id` is set (`news`, `berlin-culture`, or `berlin-restaurants`), log which type and why, then continue.
+3. Open the matching synthesis prompt from `config/briefings.yaml`:
    - `news` → `prompts/news/synthesis-run.md`
    - `berlin-culture` → `prompts/berlin-culture/synthesis-run.md`
    - `berlin-restaurants` → `prompts/berlin-restaurants/synthesis-run.md`
 
-**Do not** re-run Step 0 (push guard) from the per-type synthesis file — routing is already done. On backup cron runs there may be no new push commit; proceed with the `type_id` from `--backup`.
+**Do not** re-run Step 0 (push guard) from the per-type synthesis file — routing is already done.
 
 ## Step 1 — Execute per-type synthesis
 
