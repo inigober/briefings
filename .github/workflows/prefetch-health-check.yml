@@ -1,0 +1,67 @@
+name: Pre-fetch health check
+
+on:
+  schedule:
+    # 08:00 CEST / 07:00 CET — news (pre-fetch 05:35 UTC) + culture (Tuesday 05:00 UTC)
+    - cron: "0 6 * * *"
+    # Thursday — restaurants (pre-fetch 06:00 UTC; allow 2h buffer)
+    - cron: "0 8 * * 4"
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: "morning (news+culture) or restaurants"
+        required: false
+        default: morning
+        type: choice
+        options:
+          - morning
+          - restaurants
+      date:
+        description: "YYYY-MM-DD UTC (optional)"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: prefetch-health-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Check inbox landed
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}
+          BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            PROFILE="${{ github.event.inputs.profile }}"
+          else
+            HOUR=$(date -u +%H)
+            DOW=$(date -u +%u)
+            if [ "$HOUR" = "08" ] && [ "$DOW" = "4" ]; then
+              PROFILE=restaurants
+            else
+              PROFILE=morning
+            fi
+          fi
+          ARGS="--profile $PROFILE"
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
+          fi
+          python scripts/check_prefetch_health.py $ARGS

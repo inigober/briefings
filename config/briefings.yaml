@@ -3,7 +3,7 @@
 briefings:
   news:
     display_name: News Briefing
-    schedule_cron: "30 5 * * *" # daily 06:30 CET
+    schedule_cron: "35 5 * * *" # daily 06:35 CET (05:35 UTC)
     inbox_dir: inbox/news
     output_dir: briefings/news
     state_dir: state/news

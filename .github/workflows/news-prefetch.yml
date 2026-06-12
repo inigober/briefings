@@ -2,8 +2,8 @@ name: News research pre-fetch
 
 on:
   schedule:
-    # Daily 06:30 CET = 05:30 UTC (GitHub cron is UTC-only; see README for CEST note)
-    - cron: "30 5 * * *"
+    # Daily 06:35 CET = 05:35 UTC (:35 avoids GitHub cron drops at :00/:30)
+    - cron: "35 5 * * *"
   workflow_dispatch:
     inputs:
       date:

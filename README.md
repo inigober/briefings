@@ -155,11 +155,12 @@ python scripts/detect_synthesis_trigger.py --json
 
 | Workflow | Cron (UTC) | Local (CET) |
 |----------|------------|-------------|
-| `news-prefetch.yml` | `30 5 * * *` | 06:30 daily |
+| `news-prefetch.yml` | `35 5 * * *` | 06:35 daily (`:35` avoids GitHub cron drops at `:00`/`:30`) |
 | `berlin-culture-prefetch.yml` | `0 5 * * 2` | 06:00 Tuesday |
 | `berlin-restaurants-prefetch.yml` | `0 6 * * 4` | 07:00 Thursday |
+| `prefetch-health-check.yml` | `0 6 * * *` + `0 8 * * 4` | Missed pre-fetch alert (~08:00 CEST news; Thursday restaurants) |
 
-Synthesis is push-triggered (inbox commit). Optional backup crons on the dispatcher automation if pre-fetch was missed (see `prompts/cursor-automation-synthesis.md`).
+Synthesis is push-triggered (inbox commit). **Backup crons** on the Cursor dispatcher catch missed synthesis when inbox landed but the briefing did not (see `prompts/cursor-automation-synthesis.md`).
 
 ### Local OpenAI API key (safe setup)
 
@@ -200,6 +201,10 @@ python3 scripts/slim_inbox_for_synthesis.py --type berlin-restaurants --date 202
 
 # Trigger routing (after a pre-fetch commit)
 python3 scripts/detect_synthesis_trigger.py --json
+python3 scripts/detect_synthesis_trigger.py --json --backup
+
+# Pre-fetch health check (dry-run — no email)
+python3 scripts/check_prefetch_health.py --dry-run
 
 # Email preview
 python3 scripts/send_briefing_email.py --file briefings/news/2026-06-11.md --dry-run
@@ -212,9 +217,10 @@ python3 -m unittest discover -s tests -v
 
 | Workflow | Trigger | Action |
 |----------|---------|--------|
-| `news-prefetch.yml` | Daily 06:30 CET + manual | RSS → OpenAI → slim → commit `inbox/news/` |
+| `news-prefetch.yml` | Daily 06:35 CET + manual | RSS → OpenAI → slim → commit `inbox/news/` |
 | `berlin-culture-prefetch.yml` | Tuesday 06:00 CET + manual | Culture OpenAI → slim → commit `inbox/berlin-culture/` |
 | `berlin-restaurants-prefetch.yml` | Thursday 07:00 CET + manual | Restaurant OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
+| `prefetch-health-check.yml` | Daily 06:00 UTC + Thu 08:00 UTC | Email alert if scheduled inbox missing (Resend) |
 | `send-briefing-email.yml` | Push to `briefings/**/*.md` | Send styled email (newest per type by default) |
 
 Pre-fetch workflows use **concurrency groups** so overlapping manual + scheduled runs queue instead of racing. The email workflow sends only the **newest dated briefing per type** when a push changes multiple files; use workflow dispatch with **all_changed** or `--all-changed` to replay every file.
@@ -223,6 +229,8 @@ Pre-fetch workflows use **concurrency groups** so overlapping manual + scheduled
 
 - [x] Multi-briefing abstraction (news, berlin-culture, berlin-restaurants)
 - [x] Single synthesis dispatcher + `detect_synthesis_trigger.py`
-- [ ] Create one Cursor dispatcher automation; disable three legacy automations
+- [x] Pre-fetch health check + missed-run email alert
+- [ ] Add backup crons to **Briefing synthesis** Cursor automation (see `prompts/cursor-automation-synthesis.md`)
+- [ ] Disable three legacy per-type Cursor automations if still enabled
 - [ ] Verify one full cycle per briefing type (prefetch → synthesis → email)
 - [ ] Confirm email sends only the intended briefing on normal pushes

@@ -21,6 +21,7 @@ if str(_SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS_DIR))
 
 from briefing_paths import REPO_ROOT, load_briefing_type, load_manifest
+from cron_schedule import is_scheduled_on_date
 
 RESEARCH_SUFFIXES = ("-synthesis.json", "-raw.json")
 IGNORED_INBOX_SUFFIXES = (
@@ -177,7 +178,69 @@ def evaluate_type(
     return True, fresh_reason, tuple(research_files)
 
 
-def detect_trigger(commit_sha: str | None = None) -> TriggerDecision:
+def _type_priority(type_id: str) -> int:
+    order = {tid: idx for idx, tid in enumerate(("news", "berlin-culture", "berlin-restaurants"))}
+    return order.get(type_id, 99)
+
+
+def detect_backup_trigger(date_str: str | None = None) -> TriggerDecision:
+    """Find inbox research waiting for synthesis (cron backup path)."""
+    date_str = date_str or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    candidates: list[tuple[str, str, tuple[str, ...]]] = []
+
+    for type_id in load_manifest():
+        bt = load_briefing_type(type_id)
+        cron = bt.schedule_cron
+        if cron:
+            day = datetime.strptime(date_str, "%Y-%m-%d")
+            if not is_scheduled_on_date(cron, day):
+                continue
+
+        synthesis_path = bt.inbox_path(date_str, "synthesis")
+        raw_path = bt.inbox_path(date_str, "raw")
+        briefing_path = bt.briefing_path(date_str)
+
+        inbox_files: list[str] = []
+        if synthesis_path.exists():
+            inbox_files.append(str(synthesis_path.relative_to(REPO_ROOT)))
+        elif raw_path.exists():
+            inbox_files.append(str(raw_path.relative_to(REPO_ROOT)))
+        else:
+            continue
+
+        if briefing_path.exists():
+            continue
+
+        candidates.append(
+            (
+                type_id,
+                f"backup: inbox ready for {date_str}, briefing missing",
+                tuple(inbox_files),
+            )
+        )
+
+    if not candidates:
+        return TriggerDecision(
+            type_id=None,
+            reason=f"No unprocessed inbox for {date_str}",
+            commit_sha="",
+            commit_subject="(backup cron)",
+            matched_files=(),
+        )
+
+    type_id, reason, matched = sorted(candidates, key=lambda item: _type_priority(item[0]))[0]
+    return TriggerDecision(
+        type_id=type_id,
+        reason=reason,
+        commit_sha="",
+        commit_subject="(backup cron)",
+        matched_files=matched,
+    )
+
+
+def detect_trigger(commit_sha: str | None = None, *, backup: bool = False) -> TriggerDecision:
+    if backup:
+        return detect_backup_trigger()
     sha = resolve_commit_sha(commit_sha)
     subject = commit_subject(sha)
     changed = changed_files_in_commit(sha)
@@ -226,10 +289,15 @@ def main() -> int:
         action="store_true",
         help="Emit JSON instead of type id or 'skip'",
     )
+    parser.add_argument(
+        "--backup",
+        action="store_true",
+        help="Cron backup: inbox exists for today but briefing is missing",
+    )
     args = parser.parse_args()
 
     try:
-        decision = detect_trigger(args.commit)
+        decision = detect_trigger(args.commit, backup=args.backup)
     except subprocess.CalledProcessError as exc:
         print(exc.stderr or exc, file=sys.stderr)
         return 1
