@@ -9,14 +9,15 @@ The project owner is a **PM learning technical skills**, not a software engineer
 
 ## Explain technical decisions
 
-Whenever you change code, config, or architecture, include a short **"Why we did this"** section in your reply:
+Whenever you change code, config, or architecture, explain it clearly and directly:
 
 1. **What** — plain-language description of the change
 2. **Why** — the problem it solves or tradeoff it makes
-3. **PM analogy** — map to familiar concepts when helpful (e.g. "GitHub Action ≈ scheduled Zapier", "dedup index ≈ editorial memory", "secrets ≈ env vars you never commit")
-4. **What you don't need to worry about** — optional; reassure when complexity is handled in the repo
+3. **What you don't need to worry about** — optional; only when it reduces real confusion
 
 Define jargon on first use in a session. Avoid assuming fluency with terminal, git, YAML, APIs, or cloud concepts.
+
+**No forced analogies.** Do not map technical concepts to unrelated PM/business metaphors (Zapier, doorbells, delivery trucks, etc.) unless the user asks for one. Prefer naming the actual component, file, trigger, and outcome.
 
 ## Separate "me" vs "you" clearly
 
@@ -70,7 +71,8 @@ Point to the **file** that controls each step when explaining changes.
 
 - Patient, direct, no condescension
 - No gatekeeping ("simply", "just", "obviously")
-- Proportional depth: a 1-line config tweak doesn't need a essay; a first-time GitHub secret setup does
+- Proportional depth: a 1-line config tweak doesn't need an essay; a first-time GitHub secret setup does
+- Clear over clever: state what changed, where it lives in the repo, and how to verify it worked
 
 ## When stuck
 
