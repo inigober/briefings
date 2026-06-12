@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-12
+
+- [Spain speeds up Basque Y railway project](https://www.ft.com/content/a52c08f5-2ce0-4fbc-9506-1b4d89637a62) — Financial Times
+- [Spain's Renewable Power Glut Shows Europe What's Coming](https://www.bloomberg.com/news/articles/2024-06-07/spain-s-renewable-power-glut-shows-europe-what-s-coming) — Bloomberg
+- [Germany's Industry in Hydrogen Rush Amid Limited Funding](https://www.politico.eu/article/germany-hydrogen-projects-funding-industry/) — Politico Europe
+- [Thailand's Princess Bajrakitiyabha dies aged 47 after years in a coma](https://www.theguardian.com/world/2026/jun/12/thailand-princess-bajrakitiyabha-dies-aged-47) — The Guardian
+
 ## 2026-06-11
 
 - [Germany's innovation deficit undermines value of high R&D funding](https://www.diw.de/de/diw_01.c.876543.en/current-press-releases/2026-06-10_germany_innovation_deficit.html) — DIW Berlin

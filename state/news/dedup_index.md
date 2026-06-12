@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-12
+
+- **spain-zapatero-jewels-valuation** — Court-ordered appraisal values seized jewellery at €1.3M; tax-fraud threshold implications (section: spain)
+- **spain-psoe-voter-corruption-polling** — CIS/40dB polling shows corruption concern tripling among PSOE voters (section: spain)
+- **spain-renewable-surplus-negative-prices** — Wind/solar glut produces negative electricity prices; grid interconnection bottleneck (section: spain)
+- **germany-healthcare-staff-vacancies** — Hospital Federation reports record nurse and care-worker vacancy rates (section: germany)
+- **germany-hydrogen-subsidy-scramble** — Hydrogen project applications outpace federal funding envelope (section: germany)
+- **germany-ifo-business-climate-june** — ifo index rises second month; automotive suppliers and machinery show recovery signs (section: germany)
+- **berlin-charite-nurse-strike** — Charité nursing staff announce 48-hour warning strike over pay and conditions (section: berlin)
+- **berlin-s-bahn-engineering-disruption** — S3/S5/S7 engineering works cause major east Berlin delays (section: berlin)
+- **berlin-spree-pollution-investigation** — Elevated contaminant levels trigger environmental probe near central Berlin (section: berlin)
+- **world-thailand-princess-death** — Princess Bajrakitiyabha dies after years in coma; succession symbolism (section: world)
+- **world-china-spacesail-starlink-rival** — Chinese Spacesail constellation competes with SpaceX ahead of IPO (section: world)
+- **world-kenya-ebola-facility-protest** — Police kill protester opposing proposed US Ebola quarantine site in Nanyuki (section: world)
+
 ## 2026-06-11
 
 - **spain-housing-price-map** — Street-level notarial housing sale price map across 33,000 grid cells (section: spain)
