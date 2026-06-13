@@ -2,168 +2,16 @@
   "briefing_type": "news",
   "date": "2026-06-12",
   "source_raw": "inbox/news/2026-06-12-raw.json",
-  "built_at": "2026-06-12T06:53:54.367674+00:00",
+  "built_at": "2026-06-13T18:19:21.849122+00:00",
   "model": "gpt-4.1",
   "raw_item_count": 158,
   "section_counts": {
     "spain": 12,
     "germany": 12,
-    "berlin": 6,
+    "berlin": 0,
     "world": 12
   },
   "selected_read_candidates": [
-    {
-      "id": "spain-basque-infrastructure-0626",
-      "topic_ids": [
-        "spain",
-        "spain.infrastructure",
-        "spain.basque",
-        "spain.rail"
-      ],
-      "headline": "Basque Y High-Speed Rail Project Clears Major Hurdle",
-      "summary": "The Basque Y, a key high-speed rail project designed to connect the major cities of Spain’s Basque Country, is making significant progress. Once completed, the network will enhance regional mobility, integration, and economic development. Recent agreements resolved longstanding political disputes over funding and control, enabling accelerated construction timelines.",
-      "why_it_matters": "This is a flagship regional infrastructure program with implications for economic cohesion, European transport interoperability, and future investments in Spain’s north, a geopolitically sensitive region.",
-      "broader_context": "Spain's rail ambitions are central to both regional development and European-wide transport efficiency. Historical tensions between Madrid and the Basque region have slowed progress, so political resolution is a significant advance and model for future federal projects.",
-      "region": "Basque Country",
-      "country": "Spain",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Spain speeds up Basque Y railway project",
-          "url": "https://www.ft.com/content/a52c08f5-2ce0-4fbc-9506-1b4d89637a62",
-          "publisher": "Financial Times",
-          "published_at": "2024-06-11"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "spain-energy-renewables-0626",
-      "topic_ids": [
-        "spain",
-        "spain.energy",
-        "spain.renewables"
-      ],
-      "headline": "Spain's Renewable Electricity Surplus Challenges Europe",
-      "summary": "Spain has rapidly increased its renewable energy production, notably in wind and solar. This has led to periods where electricity prices turn negative, reflecting an oversupply. The lack of interconnection capacity to export this surplus power clouds the economics of further expansion and highlights the urgent need for European grid upgrades.",
-      "why_it_matters": "Spain's green energy surge is pushing decarbonization but risks economic inefficiencies without major infrastructure investments. It also exposes a structural gap in European energy cooperation, imperiling the business case for further renewable investments.",
-      "broader_context": "Spain aims to lead Europe in clean energy, but bottlenecks in grid and export transmission limit the broader benefits. The situation exemplifies wider European challenges as multiple nations push toward renewables and need better grid integration to balance supply and demand.",
-      "region": "national",
-      "country": "Spain",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Spain’s Renewable Power Glut Shows Europe What’s Coming",
-          "url": "https://www.bloomberg.com/news/articles/2024-06-07/spain-s-renewable-power-glut-shows-europe-what-s-coming",
-          "publisher": "Bloomberg",
-          "published_at": "2024-06-07"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "spain-disinformation-elections-0626",
-      "topic_ids": [
-        "spain",
-        "spain.politics",
-        "spain.democracy"
-      ],
-      "headline": "Spain on High Alert Over Election Disinformation",
-      "summary": "With the European parliamentary elections, Spanish authorities and civil society organizations have stepped up efforts to counter electoral disinformation and foreign interference, with new digital monitoring and rapid response units. Early analyses show coordinated campaigns targeting voter confidence and attempting to foment polarization.",
-      "why_it_matters": "Spain's successful democracy faces rising threats from external and internal actors using digital disinformation—an issue with serious consequences for public trust and democratic resilience.",
-      "broader_context": "The challenge of securing elections against manipulation is growing across Europe and globally. Spain's experience offers lessons for other democracies seeking to defend electoral integrity in an age of AI and social media manipulation.",
-      "region": "national",
-      "country": "Spain",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Spain Braces for Election Disinformation Surge",
-          "url": "https://www.politico.eu/article/european-elections-spain-disinformation-fake-news-cybersecurity/",
-          "publisher": "Politico Europe",
-          "published_at": "2024-06-10"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "germany-healthcare-staff-crisis-2026",
-      "topic_ids": [
-        "germany",
-        "healthcare",
-        "labour"
-      ],
-      "headline": "Germany Faces Acute Shortage of Healthcare Workers as Demographic Pressures Mount",
-      "summary": "The German Hospital Federation warns that the country is experiencing a worsening shortage of nurses and care workers, with vacancy rates hitting a new record in mid-2026. Factors include ongoing demographic shifts, high retirement rates among baby boomers, and limited interest in care professions. Policymakers are debating fast-tracked immigration and retention incentives, but consensus is elusive.",
-      "why_it_matters": "A critical labour shortfall threatens health service delivery and could accelerate systemic reforms in Germany’s healthcare model.",
-      "broader_context": "Demographic ageing is tightening healthcare labour markets across Europe, but Germany’s situation is particularly acute due to its population age structure and bureaucratic bottlenecks in professional accreditation for foreign-trained workers.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Germany’s Worsening Healthcare Staffing Crisis",
-          "url": "https://www.ft.com/content/9876abcd-1111-4321-9e4b-5678fghijkl0",
-          "publisher": "Financial Times",
-          "published_at": "2026-06-10"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "germany-energy-hydrogen-subsidy-scramble",
-      "topic_ids": [
-        "germany",
-        "energy",
-        "industry",
-        "technology"
-      ],
-      "headline": "Scramble for Hydrogen Subsidies Intensifies as Germany Ramps Up Green Industry Push",
-      "summary": "A fresh wave of applications for state-backed hydrogen projects is causing uncertainty over funding allocation, as German industrial giants and mid-sized companies all rush to secure government support. Experts warn that the scale of applications is vastly outpacing available resources, risking delays to flagship climate tech investments. The economy ministry is under pressure to clarify criteria and timelines, with industry leaders warning of losing momentum to the US and China.",
-      "why_it_matters": "The fate of Germany’s hydrogen industry is critical for decarbonising both energy and heavy industry, and the current funding bottleneck may undermine the country’s industrial strategy and climate targets.",
-      "broader_context": "Hydrogen is a linchpin in Europe’s broader green transition plans, with Germany aiming for technology leadership yet grappling with resource constraints and global competition for investment.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Germany’s Industry in Hydrogen Rush Amid Limited Funding",
-          "url": "https://www.politico.eu/article/germany-hydrogen-projects-funding-industry/",
-          "publisher": "Politico Europe",
-          "published_at": "2026-06-07"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "germany-ifo-2026-business-climate",
-      "topic_ids": [
-        "germany",
-        "economy",
-        "industry"
-      ],
-      "headline": "ifo Business Climate Index: German Companies Optimistic for Second Half of 2026",
-      "summary": "The ifo Business Climate Index for Germany rose notably in June 2026, with both current assessment and expectations components improving for the second consecutive month. The industrial sector is showing signs of recovery, especially among automotive suppliers and machinery manufacturers, after a prolonged period of stagnation. Firms report increased orders, and there are early signs of export momentum resuming, driven by both intra-EU and North American demand.",
-      "why_it_matters": "A turn in business sentiment signals potential for a broader economic rebound after Germany's recent weak patch, with green shoots in critical export sectors.",
-      "broader_context": "Germany’s manufacturing and automotive industries have struggled recently due to weakened global demand and high energy costs. A sustainable upturn could firm up employment and drive eurozone-wide recovery.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": false,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "ifo Business Climate Index June 2026",
-          "url": "https://www.ifo.de/en/node/123456",
-          "publisher": "ifo Institute",
-          "published_at": "2026-06-11"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
     {
       "id": "rss-world-39978f1906",
       "topic_ids": [
@@ -184,6 +32,52 @@
           "url": "https://www.theguardian.com/society/2026/jun/11/london-council-seizes-social-housing-flat-sierra-leone-first-lady",
           "publisher": "The Guardian",
           "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-b52febeb18",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "China builds a rival satellite constellation as SpaceX goes public",
+      "summary": "A Chinese state-backed satellite company is signing the partners and governments Starlink has pushed aside, days before SpaceX’s record listing.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "China builds a rival satellite constellation as SpaceX goes public",
+          "url": "https://restofworld.org/2026/spacesail-spacex-starlink-competition-ipo/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "publisher": "Rest of World",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-c441317764",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Trumps Iran-Krieg – und die Zinsfalle",
+      "summary": "Donald Trumps aggressive Iran-Rhetorik sorgt für Nervosität an den Märkten und treibt die Ölpreise sowie die Inflation nach oben. Damit manövriert sich der US-Präsident mitten in ein wirtschaftspolitisches Dilemma: Eigentlich fordert er vor den Midterms im November dringend Zinssenkungen, doch der anhaltende Inflationsdruck zwingt die Notenbanken zum Gegenteil. Rixa Fürsen bespricht gemeinsam mit Jonathan Martin […]",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Trumps Iran-Krieg – und die Zinsfalle",
+          "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/trumps-iran-krieg-und-die-zinsfalle/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "publisher": "Politico Europe",
+          "published_at": "2026-06-12"
         }
       ]
     },
@@ -209,85 +103,101 @@
           "published_at": "2026-06-10"
         }
       ]
+    },
+    {
+      "id": "rss-world-a3bdf6eb6d",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Big Tech, big cons: Scammers are hiding in the apps that make your life easy",
+      "summary": "In her new book “Bharat Bluff: Inside the Cons of India’s Internet Revolution,” writer Soumya Gupta explores how fraudsters are exploiting the trust people place in big tech platforms like Google, Facebook, and WhatsApp.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Big Tech, big cons: Scammers are hiding in the apps that make your life easy",
+          "url": "https://restofworld.org/2026/tech-facebook-google-whatsapp-scams/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "publisher": "Rest of World",
+          "published_at": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-c6f40592d9",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "With British politics in chaos, the Liberal Democrats are getting election-ready",
+      "summary": "The centrist party — eyeing a role in government — is speeding up its candidate selection and overhauling its digital operation.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "With British politics in chaos, the Liberal Democrats are getting election-ready",
+          "url": "https://www.politico.eu/article/ed-davey-british-politics-liberal-democrats-getting-election-ready/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "publisher": "Politico Europe",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-a66122129b",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Peru’s Photo-Finish Election",
+      "summary": "The presidential race could hinge on just a few thousand votes.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Peru’s Photo-Finish Election",
+          "url": "https://foreignpolicy.com/2026/06/11/peru-president-election-results-fujimori-sanchez/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-f4e149d634",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "War and Circuses",
+      "summary": "Trump juggles Iran, a World Cup, and a UFC cage fight.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "War and Circuses",
+          "url": "https://foreignpolicy.com/2026/06/11/trump-iran-war-world-cup-ufc-fight-white-house/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-06-11"
+        }
+      ]
     }
   ],
   "items": [
-    {
-      "id": "spain-basque-infrastructure-0626",
-      "topic_ids": [
-        "spain",
-        "spain.infrastructure",
-        "spain.basque",
-        "spain.rail"
-      ],
-      "headline": "Basque Y High-Speed Rail Project Clears Major Hurdle",
-      "summary": "The Basque Y, a key high-speed rail project designed to connect the major cities of Spain’s Basque Country, is making significant progress. Once completed, the network will enhance regional mobility, integration, and economic development. Recent agreements resolved longstanding political disputes over funding and control, enabling accelerated construction timelines.",
-      "why_it_matters": "This is a flagship regional infrastructure program with implications for economic cohesion, European transport interoperability, and future investments in Spain’s north, a geopolitically sensitive region.",
-      "broader_context": "Spain's rail ambitions are central to both regional development and European-wide transport efficiency. Historical tensions between Madrid and the Basque region have slowed progress, so political resolution is a significant advance and model for future federal projects.",
-      "region": "Basque Country",
-      "country": "Spain",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Spain speeds up Basque Y railway project",
-          "url": "https://www.ft.com/content/a52c08f5-2ce0-4fbc-9506-1b4d89637a62",
-          "publisher": "Financial Times",
-          "published_at": "2024-06-11"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "spain-energy-renewables-0626",
-      "topic_ids": [
-        "spain",
-        "spain.energy",
-        "spain.renewables"
-      ],
-      "headline": "Spain's Renewable Electricity Surplus Challenges Europe",
-      "summary": "Spain has rapidly increased its renewable energy production, notably in wind and solar. This has led to periods where electricity prices turn negative, reflecting an oversupply. The lack of interconnection capacity to export this surplus power clouds the economics of further expansion and highlights the urgent need for European grid upgrades.",
-      "why_it_matters": "Spain's green energy surge is pushing decarbonization but risks economic inefficiencies without major infrastructure investments. It also exposes a structural gap in European energy cooperation, imperiling the business case for further renewable investments.",
-      "broader_context": "Spain aims to lead Europe in clean energy, but bottlenecks in grid and export transmission limit the broader benefits. The situation exemplifies wider European challenges as multiple nations push toward renewables and need better grid integration to balance supply and demand.",
-      "region": "national",
-      "country": "Spain",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Spain’s Renewable Power Glut Shows Europe What’s Coming",
-          "url": "https://www.bloomberg.com/news/articles/2024-06-07/spain-s-renewable-power-glut-shows-europe-what-s-coming",
-          "publisher": "Bloomberg",
-          "published_at": "2024-06-07"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "spain-disinformation-elections-0626",
-      "topic_ids": [
-        "spain",
-        "spain.politics",
-        "spain.democracy"
-      ],
-      "headline": "Spain on High Alert Over Election Disinformation",
-      "summary": "With the European parliamentary elections, Spanish authorities and civil society organizations have stepped up efforts to counter electoral disinformation and foreign interference, with new digital monitoring and rapid response units. Early analyses show coordinated campaigns targeting voter confidence and attempting to foment polarization.",
-      "why_it_matters": "Spain's successful democracy faces rising threats from external and internal actors using digital disinformation—an issue with serious consequences for public trust and democratic resilience.",
-      "broader_context": "The challenge of securing elections against manipulation is growing across Europe and globally. Spain's experience offers lessons for other democracies seeking to defend electoral integrity in an age of AI and social media manipulation.",
-      "region": "national",
-      "country": "Spain",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Spain Braces for Election Disinformation Surge",
-          "url": "https://www.politico.eu/article/european-elections-spain-disinformation-fake-news-cybersecurity/",
-          "publisher": "Politico Europe",
-          "published_at": "2024-06-10"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
     {
       "id": "rss-spain-8714ddb031",
       "topic_ids": [
@@ -496,80 +406,73 @@
       ]
     },
     {
-      "id": "germany-healthcare-staff-crisis-2026",
+      "id": "rss-spain-4ce1d59e28",
       "topic_ids": [
-        "germany",
-        "healthcare",
-        "labour"
+        "spain"
       ],
-      "headline": "Germany Faces Acute Shortage of Healthcare Workers as Demographic Pressures Mount",
-      "summary": "The German Hospital Federation warns that the country is experiencing a worsening shortage of nurses and care workers, with vacancy rates hitting a new record in mid-2026. Factors include ongoing demographic shifts, high retirement rates among baby boomers, and limited interest in care professions. Policymakers are debating fast-tracked immigration and retention incentives, but consensus is elusive.",
-      "why_it_matters": "A critical labour shortfall threatens health service delivery and could accelerate systemic reforms in Germany’s healthcare model.",
-      "broader_context": "Demographic ageing is tightening healthcare labour markets across Europe, but Germany’s situation is particularly acute due to its population age structure and bureaucratic bottlenecks in professional accreditation for foreign-trained workers.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Germany’s Worsening Healthcare Staffing Crisis",
-          "url": "https://www.ft.com/content/9876abcd-1111-4321-9e4b-5678fghijkl0",
-          "publisher": "Financial Times",
-          "published_at": "2026-06-10"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "germany-energy-hydrogen-subsidy-scramble",
-      "topic_ids": [
-        "germany",
-        "energy",
-        "industry",
-        "technology"
-      ],
-      "headline": "Scramble for Hydrogen Subsidies Intensifies as Germany Ramps Up Green Industry Push",
-      "summary": "A fresh wave of applications for state-backed hydrogen projects is causing uncertainty over funding allocation, as German industrial giants and mid-sized companies all rush to secure government support. Experts warn that the scale of applications is vastly outpacing available resources, risking delays to flagship climate tech investments. The economy ministry is under pressure to clarify criteria and timelines, with industry leaders warning of losing momentum to the US and China.",
-      "why_it_matters": "The fate of Germany’s hydrogen industry is critical for decarbonising both energy and heavy industry, and the current funding bottleneck may undermine the country’s industrial strategy and climate targets.",
-      "broader_context": "Hydrogen is a linchpin in Europe’s broader green transition plans, with Germany aiming for technology leadership yet grappling with resource constraints and global competition for investment.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Germany’s Industry in Hydrogen Rush Amid Limited Funding",
-          "url": "https://www.politico.eu/article/germany-hydrogen-projects-funding-industry/",
-          "publisher": "Politico Europe",
-          "published_at": "2026-06-07"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "germany-ifo-2026-business-climate",
-      "topic_ids": [
-        "germany",
-        "economy",
-        "industry"
-      ],
-      "headline": "ifo Business Climate Index: German Companies Optimistic for Second Half of 2026",
-      "summary": "The ifo Business Climate Index for Germany rose notably in June 2026, with both current assessment and expectations components improving for the second consecutive month. The industrial sector is showing signs of recovery, especially among automotive suppliers and machinery manufacturers, after a prolonged period of stagnation. Firms report increased orders, and there are early signs of export momentum resuming, driven by both intra-EU and North American demand.",
-      "why_it_matters": "A turn in business sentiment signals potential for a broader economic rebound after Germany's recent weak patch, with green shoots in critical export sectors.",
-      "broader_context": "Germany’s manufacturing and automotive industries have struggled recently due to weakened global demand and high energy costs. A sustainable upturn could firm up employment and drive eurozone-wide recovery.",
-      "region": "Europe",
-      "country": "Germany",
+      "headline": "Una ceremonia neutra para un Mundial revuelto",
+      "summary": "Si Bad Bunny enumeró con orgullo los países latinos en la Super Bowl, aquí J Balvin hizo la cuenta pero con mujeres y Shakira, con jugadores retirados",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
       "is_structural": false,
       "material_development": true,
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "ifo Business Climate Index June 2026",
-          "url": "https://www.ifo.de/en/node/123456",
-          "publisher": "ifo Institute",
+          "title": "Una ceremonia neutra para un Mundial revuelto",
+          "url": "https://elpais.com/mexico/2026-06-11/una-ceremonia-neutra-para-un-mundial-revuelto.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-396b9259f1",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "El nuevo juez adormece la investigación a la pareja de Ayuso por el presunto soborno a un directivo de Quirón",
+      "summary": "Antonio Viejo tarda seis meses en autorizar el acceso a las cuentas de Alberto González Amador y rechaza el resto de peticiones de la UCO, pese a que los agentes se guiaban por las directrices de la anterior magistada y su sospecha de la existencia de un grupo criminal que blanqueó dinero El juez autoriza a la UCO a acceder a las cuentas de la pareja de Ayuso seis meses después de que se lo pidiera Todos los problemas de Alberto González Amador con la justicia se congregan ya en un espacio donde el tiempo discurre con lentitud. Al colapso administrativo que retrasará el juicio por fraude fi...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "El nuevo juez adormece la investigación a la pareja de Ayuso por el presunto soborno a un directivo de Quirón",
+          "url": "https://www.eldiario.es/politica/nuevo-juez-adormece-investigacion-pareja-ayuso-presunto-soborno-directivo-quiron_1_13294929.html",
+          "publisher": "eldiario.es",
           "published_at": "2026-06-11"
         }
+      ]
+    },
+    {
+      "id": "rss-spain-9beea98b13",
+      "topic_ids": [
+        "spain"
       ],
-      "ingestion_source": "openai"
+      "headline": "El PP se encomienda a la Virgen de la Bien Aparecida para mantener el bloqueo a la renovación del Tribunal Constitucional",
+      "summary": "El Senado vuelve a posponer, ahora a petición del Parlamento de Cantabria, la elección de los candidatos al tribunal de garantías, que acumula ya medio año con cuatro magistrados en funciones, entre ellos el presidente, Cándido Conde-Pumpido La derecha replica estrategias de bloqueo en el Constitucional y el Poder Judicial El PP considera que el Tribunal Constitucional es una de esas instituciones “invadidas” por el ‘sanchismo’. Un órgano tomado al asalto por el PSOE para ponerlo al servicio del Gobierno con sentencias como la de la ley de amnistía. Su principal ‘infiltrado’ es el president...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "El PP se encomienda a la Virgen de la Bien Aparecida para mantener el bloqueo a la renovación del Tribunal Constitucional",
+          "url": "https://www.eldiario.es/politica/pp-encomienda-virgen-aparecida-mantener-bloqueo-renovacion-tribunal-constitucional_1_13279283.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-06-11"
+        }
+      ]
     },
     {
       "id": "rss-germany-0b1bfda2db",
@@ -779,150 +682,73 @@
       ]
     },
     {
-      "id": "berlin-3",
+      "id": "rss-germany-54b3e8465f",
       "topic_ids": [
-        "berlin",
-        "healthcare"
+        "germany"
       ],
-      "headline": "Nurse Strike Announced at Charité: Operations at Risk",
-      "summary": "Staff at Berlin’s Charité hospital have called for a 48-hour warning strike, urging better pay and work conditions. Non-essential operations will be delayed or cancelled.",
-      "why_it_matters": "Highlights ongoing pressures in the healthcare sector and the ripple effect on patient care in one of Europe’s leading university hospitals.",
-      "broader_context": "Healthcare worker discontent remains high across Germany, especially in large urban hospitals dealing with staff shortages and budget constraints.",
-      "region": "Berlin",
-      "country": "Germany",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Pflegekräfte der Charité kündigen Warnstreik an",
-          "url": "https://www.rbb24.de/panorama/beitrag/2026/06/charite-berlin-pflegekraefte-streik-operationen-gefaehrdet.html",
-          "publisher": "rbb24",
-          "published_at": "2026-06-11"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "berlin-1",
-      "topic_ids": [
-        "berlin",
-        "transport"
-      ],
-      "headline": "Berlin’s S-Bahn Faces Major Delays Amid Engineering Works",
-      "summary": "Significant disruptions on the S-Bahn lines S3, S5, and S7 as engineering works cause extended delays and replacement bus services in east Berlin.",
-      "why_it_matters": "Daily commutes and urban mobility are heavily impacted, highlighting ongoing maintenance challenges in Berlin’s transport infrastructure.",
-      "broader_context": "Operational stress on Berlin’s mass transit system has become more acute as both passenger numbers and maintenance needs rise, especially during major infrastructure repairs.",
-      "region": "Berlin",
-      "country": "Germany",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Verspätungen, Ersatzbusse: S-Bahn in Ost-Berlin massiv gestört",
-          "url": "https://www.tagesspiegel.de/berlin/verspatungen-ersatzbusse-s-bahn-in-ost-berlin-massiv-gestort-123456.html",
-          "publisher": "Tagesspiegel",
-          "published_at": "2026-06-11"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "berlin-2",
-      "topic_ids": [
-        "berlin",
-        "politics"
-      ],
-      "headline": "Senate Approves New Measures for Berlin Housing Crisis",
-      "summary": "Berlin’s Senate has approved additional regulatory instruments to attempt to control rising rents and improve tenant protection, amid ongoing debate with landlords and investors.",
-      "why_it_matters": "Addresses structural urban planning and social justice issues in Berlin’s overheated housing market, directly affecting hundreds of thousands of residents.",
-      "broader_context": "Berlin’s housing debate blends local activism with national visibility, a reflection of Germany-wide urban affordability issues.",
-      "region": "Berlin",
-      "country": "Germany",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Senat beschließt neue Maßnahmen gegen steigende Mieten",
-          "url": "https://www.tagesspiegel.de/berlin/senat-beschliesst-neue-massnahmen-gegen-steigende-mieten-987654.html",
-          "publisher": "Tagesspiegel",
-          "published_at": "2026-06-11"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "berlin-6",
-      "topic_ids": [
-        "berlin",
-        "environment"
-      ],
-      "headline": "Spree River Pollution Triggers Environmental Investigation",
-      "summary": "Local authorities are investigating increased pollution levels in the Spree, after recent samples showed a spike in contaminants near central Berlin.",
-      "why_it_matters": "Urban water quality is critical for both public health and environmental resilience in Berlin, especially as summer recreation increases.",
-      "broader_context": "Industrial legacy and ongoing runoff issues regularly challenge Berlin’s urban waterways, requiring multilevel policy responses.",
-      "region": "Berlin",
-      "country": "Germany",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Umweltamt prüft erhöhte Schadstoffwerte in der Spree",
-          "url": "https://www.rbb24.de/lokales/berlin/beitraege/2026/06/spree-verschmutzung-umweltamt-berlin.html",
-          "publisher": "rbb24",
-          "published_at": "2026-06-11"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "berlin-4",
-      "topic_ids": [
-        "berlin",
-        "universities",
-        "technology",
-        "research"
-      ],
-      "headline": "TU Berlin Launches AI Research Collaboration with Fraunhofer",
-      "summary": "Technische Universität Berlin and Fraunhofer Society have announced a major new joint research hub dedicated to applied artificial intelligence and robotics.",
-      "why_it_matters": "Furthers Berlin’s role as a European innovation cluster and signals both investment and competition in the city’s research sector.",
-      "broader_context": "AI initiatives in Berlin are increasingly positioned at the intersection of university and industry cooperation, aiming to attract research talent and funding.",
-      "region": "Berlin",
+      "headline": "Dreimal Rot in einem Spiel: Schiedsrichter nach WM-Eröffnung in der Kritik",
+      "summary": "Mexiko jubelt über einen verdienten Auftaktsieg. Doch nach dem ersten Spiel der WM steht der Schiedsrichter im Fokus. Selten zuvor gab es bei einem Turnier so viele Platzverweise auf einmal.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
       "country": "Germany",
       "is_structural": false,
       "material_development": true,
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Neue KI-Forschungspartnerschaft: TU Berlin und Fraunhofer bauen AI-Hub",
-          "url": "https://www.berliner-zeitung.de/berlin/tu-berlin-und-fraunhofer-starten-ki-forschungszentrum-li.1234567",
-          "publisher": "Berliner Zeitung",
-          "published_at": "2026-06-11"
+          "title": "Dreimal Rot in einem Spiel: Schiedsrichter nach WM-Eröffnung in der Kritik",
+          "url": "https://www.tagesspiegel.de/sport/dreimal-rot-in-einem-spiel-schiedsrichter-nach-wm-eroffnung-in-der-kritik-15707516.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-12"
         }
-      ],
-      "ingestion_source": "openai"
+      ]
     },
     {
-      "id": "berlin-5",
+      "id": "rss-germany-c8a61186f2",
       "topic_ids": [
-        "berlin",
-        "culture"
+        "germany"
       ],
-      "headline": "Berlin Museums Launch ‘Open Art Week’: Extended Hours and Free Entry",
-      "summary": "Several major museums in Berlin will offer extended opening hours and free admission for the week, aiming to boost local engagement with city culture.",
-      "why_it_matters": "A direct effort to support cultural institutions post-pandemic and promote inclusivity in urban cultural life.",
-      "broader_context": "Publicly funded cultural initiatives in Berlin are balancing state support with new efforts to increase visitor numbers and financial sustainability.",
-      "region": "Berlin",
+      "headline": "Inflation in Deutschland: Tankrabatt lässt Inflation im Mai auf 2,6 Prozent sinken",
+      "summary": "Die Inflation in Deutschland ist im Mai leicht gesunken. Die Preise stiegen nur um 2,6 Prozent. Der Tankrabatt dämpfte die zuvor starke Teuerung bei der Energie.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
       "country": "Germany",
       "is_structural": false,
       "material_development": true,
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Museen eröffnen ‚Open Art Week‘ mit kostenlosen Eintritten",
-          "url": "https://www.rbb24.de/kultur/beitraege/2026/06/open-art-week-berlin-museen-kostenlos.html",
-          "publisher": "rbb24",
-          "published_at": "2026-06-11"
+          "title": "Inflation in Deutschland: Tankrabatt lässt Inflation im Mai auf 2,6 Prozent sinken",
+          "url": "https://www.zeit.de/wirtschaft/2026-06/inflation-deutschland-tankrabatt-energiepreise",
+          "publisher": "Die Zeit",
+          "published_at": "2026-06-12"
         }
+      ]
+    },
+    {
+      "id": "rss-germany-ed8b6a3e54",
+      "topic_ids": [
+        "germany"
       ],
-      "ingestion_source": "openai"
+      "headline": "Monarchie: Trauer in Thailand: Beliebte Prinzessin Bha gestorben",
+      "summary": "Monarchie: Trauer in Thailand: Beliebte Prinzessin Bha gestorben",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Monarchie: Trauer in Thailand: Beliebte Prinzessin Bha gestorben",
+          "url": "https://www.zeit.de/news/2026-06/12/trauer-in-thailand-beliebte-prinzessin-bha-gestorben",
+          "publisher": "Die Zeit",
+          "published_at": "2026-06-12"
+        }
+      ]
     },
     {
       "id": "rss-world-39978f1906",
@@ -1201,5 +1027,5 @@
       ]
     }
   ],
-  "note": "Token-light slice for synthesis. Full warehouse is in -raw.json. Prefer OpenAI-sourced items with why_it_matters/broader_context filled."
+  "note": "Token-light slice for synthesis. Full warehouse is in -raw.json. All items come from RSS or WordPress feeds — copy source URLs verbatim."
 }

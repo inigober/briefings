@@ -29,8 +29,9 @@ The inbox is a **research warehouse** (~30–50 items from OpenAI + RSS). Items 
 | Germany 🇩🇪 | 3 | Same |
 | Berlin 🏙️ | 3 | Local only |
 | World 🌐 | 3 | ≥2 non-European regions; distinct from ES/DE |
+| Other Headlines Today 📋 | 3–8 themes | Unused inbox threads; crisp; no links |
 | What Matters Today 🧠 | 3–4 themes | Not story summaries |
-| Selected Reads 🗞️ | ~4 | Pick from inbox (incl. RSS think-tank/long-form items); separate memory; Reuters/AP ≤1 |
+| Selected Reads 🗞️ | ~4 | ≥3 publishers, Guardian ≤1; from diversified `selected_read_candidates`; Reuters/AP ≤1 |
 
 ## Story format
 

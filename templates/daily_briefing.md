@@ -102,6 +102,13 @@
 💡 {One-line.}
 
 🧩 {One-line.}
+## Other Headlines Today 📋
+
+* **{Theme}:** {Crisp one-line scan of related unused inbox stories — no links.}
+
+* **{Theme}:** {…}
+
+* **{Theme}:** {…}
 ## What Matters Today 🧠
 
 1. **{Theme}** {Why it matters today — not a story recap.}

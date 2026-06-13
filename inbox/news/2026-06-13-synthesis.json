@@ -2,7 +2,7 @@
   "briefing_type": "news",
   "date": "2026-06-13",
   "source_raw": "inbox/news/2026-06-13-raw.json",
-  "built_at": "2026-06-13T17:58:26.915661+00:00",
+  "built_at": "2026-06-13T18:19:16.665312+00:00",
   "model": null,
   "raw_item_count": 173,
   "section_counts": {
@@ -36,6 +36,52 @@
       ]
     },
     {
+      "id": "rss-world-c21354bf00",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "What the SpaceX IPO reveals about Gulf money in AI",
+      "summary": "Saudi Arabia and the UAE are funding America's AI boom — and getting data centers in return.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "What the SpaceX IPO reveals about Gulf money in AI",
+          "url": "https://restofworld.org/2026/spacex-ipo-gulf-money-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "publisher": "Rest of World",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-0228a2a0fc",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Canada’s Carney sees ‘timely’ role for G7 in any Iran deal",
+      "summary": "Mark Carney's trip to Ireland aims to shore up relations with a key ally — and dodge mentioning President Donald Trump at all costs.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Canada’s Carney sees ‘timely’ role for G7 in any Iran deal",
+          "url": "https://www.politico.eu/article/canadas-carney-sees-timely-role-for-g7-in-any-iran-deal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "publisher": "Politico Europe",
+          "published_at": "2026-06-13"
+        }
+      ]
+    },
+    {
       "id": "rss-world-0faaaffe33",
       "topic_ids": [
         "world"
@@ -59,12 +105,12 @@
       ]
     },
     {
-      "id": "rss-world-6821b79a53",
+      "id": "rss-world-b52febeb18",
       "topic_ids": [
         "world"
       ],
-      "headline": "Canada police investigate whether Toronto police death linked to global terror attacks",
-      "summary": "Constable Marc Pinizzotto, 43, was killed while executing search warrants related to a shooting at US consulate Authorities in Canada are investigating whether the killing of a Toronto police officer while he was executing search warrants related to a shooting at the city’s US consulate is linked a broader series of global terror attacks. Constable Marc Pinizzotto, 43, a member of the emergency taskforce, was killed on Thursday during a dawn search of an apartment building in the west of the city. Continue reading...",
+      "headline": "China builds a rival satellite constellation as SpaceX goes public",
+      "summary": "A Chinese state-backed satellite company is signing the partners and governments Starlink has pushed aside, days before SpaceX’s record listing.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "International",
@@ -74,89 +120,20 @@
       "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Canada police investigate whether Toronto police death linked to global terror attacks",
-          "url": "https://www.theguardian.com/world/2026/jun/12/canada-police-investigate-toronto-police-death-global-terror-attacks",
-          "publisher": "The Guardian",
-          "published_at": "2026-06-12"
-        }
-      ]
-    },
-    {
-      "id": "rss-world-21562ee870",
-      "topic_ids": [
-        "world"
-      ],
-      "headline": "An ideological tug-of-war: the pressures facing Iran’s World Cup squad in US",
-      "summary": "Flag bans, travel headaches and a religious regime video among bumps in road, as team prepares to be first to play in country with which it is at war Iran will present a major challenge to Fifa’s “football unites the world” slogan on Monday by becoming the first country in World Cup history to compete on the soil of a host nation with which it is at war . The national team’s opening match against New Zealand in Los Angeles will kick off amid continuing hostilities between Iran and the US that have intensified in recent days, as a fragile ceasefire has failed to hold and attempts at reaching...",
-      "why_it_matters": "",
-      "broader_context": "",
-      "region": "International",
-      "country": "",
-      "is_structural": false,
-      "material_development": true,
-      "ingestion_source": "rss",
-      "sources": [
-        {
-          "title": "An ideological tug-of-war: the pressures facing Iran’s World Cup squad in US",
-          "url": "https://www.theguardian.com/world/2026/jun/12/iran-first-play-war-world-cup-fifa",
-          "publisher": "The Guardian",
-          "published_at": "2026-06-12"
-        }
-      ]
-    },
-    {
-      "id": "rss-world-4ea9ff31ee",
-      "topic_ids": [
-        "world"
-      ],
-      "headline": "Weather tracker: heat, humidity and thunderstorms a danger at World Cup",
-      "summary": "With matches in 16 cities across the US, Mexico and Canada, players and fans face an array of weather-related challenges With the 2026 World Cup now under way, all 48 teams face a common opposition: summer weather across North America. Matches will be played in 16 cities, from southern Mexico to Canada, with a range of weather risks possible at each venue. Thunderstorms disrupted play before the tournament had even begun. England’s warm-up against Costa Rica in Orlando was delayed by about an hour after storms brought lightning and heavy rain that waterlogged the pitch. Safety regulations a...",
-      "why_it_matters": "",
-      "broader_context": "",
-      "region": "International",
-      "country": "",
-      "is_structural": false,
-      "material_development": true,
-      "ingestion_source": "rss",
-      "sources": [
-        {
-          "title": "Weather tracker: heat, humidity and thunderstorms a danger at World Cup",
-          "url": "https://www.theguardian.com/environment/2026/jun/12/weather-tracker-heat-humidity-thunderstorms-risk-world-cup",
-          "publisher": "The Guardian",
-          "published_at": "2026-06-12"
-        }
-      ]
-    },
-    {
-      "id": "rss-world-afc1f0031f",
-      "topic_ids": [
-        "world"
-      ],
-      "headline": "Canadian mother sues OpenAI, alleging ChatGPT led her daughter to kill herself",
-      "summary": "Suit filed in US alleges chatbot told Alice Carrier, 24, ‘maybe this is just the end’ as she struggled with suicidal thoughts A Canadian mother sued OpenAI and its CEO, Sam Altman, in US court on Thursday, alleging that ChatGPT encouraged her daughter to kill herself. The lawsuit is the latest in a slew accusing the company of failing to address dangerous conversations between users and the company’s chatbot. Kristie Carrier said in a lawsuit filed in San Francisco state court that her daughter, Alice, told ChatGPT about her suicidal ideations more than a dozen times leading up to her death...",
-      "why_it_matters": "",
-      "broader_context": "",
-      "region": "International",
-      "country": "",
-      "is_structural": false,
-      "material_development": true,
-      "ingestion_source": "rss",
-      "sources": [
-        {
-          "title": "Canadian mother sues OpenAI, alleging ChatGPT led her daughter to kill herself",
-          "url": "https://www.theguardian.com/technology/2026/jun/11/canada-mother-chatgpt-daughter-suicide-lawsuit",
-          "publisher": "The Guardian",
+          "title": "China builds a rival satellite constellation as SpaceX goes public",
+          "url": "https://restofworld.org/2026/spacesail-spacex-starlink-competition-ipo/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "publisher": "Rest of World",
           "published_at": "2026-06-11"
         }
       ]
     },
     {
-      "id": "rss-world-771104958e",
+      "id": "rss-world-98ff183632",
       "topic_ids": [
         "world"
       ],
-      "headline": "Mourners line Bangkok streets to pay respects to Thailand’s Princess Bha",
-      "summary": "Funeral procession travels to palace as people remember royal’s campaigning and work for underprivileged As the sun began to set on the golden spires and gilded finials of Bangkok’s Grand Palace, the gates were open, waiting for the return of a princess. Since December 2022, Princess Bajrakitiyabha had been in hospital, having collapsed while out training her dogs. After nearly four years in a coma, the princess died earlier this week . Continue reading...",
+      "headline": "Swedish jets intercept Russian aircraft in 2 separate incidents",
+      "summary": "Sweden has become a major target of Kremlin provocations.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "International",
@@ -166,20 +143,20 @@
       "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Mourners line Bangkok streets to pay respects to Thailand’s Princess Bha",
-          "url": "https://www.theguardian.com/world/2026/jun/13/bangkok-thailand-princess-bha-royal-funeral-procession-mourners",
-          "publisher": "The Guardian",
+          "title": "Swedish jets intercept Russian aircraft in 2 separate incidents",
+          "url": "https://www.politico.eu/article/sweden-russia-jets-intercept-aircraft-2-separate-incidents/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "publisher": "Politico Europe",
           "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "rss-world-4d01306e82",
+      "id": "rss-world-515054afee",
       "topic_ids": [
         "world"
       ],
-      "headline": "Jessie J’s triumphant return puts lucrative Chinese market in spotlight",
-      "summary": "Other western acts have attempted to crack country’s music scene since singer’s breakout success in 2018 One week after announcing she was “cancer free”, the British pop star Jessie J did what any recovering patient would do and travelled thousands of miles around the world to perform for an audience of more than a billion people. On 29 May, the singer-songwriter, whose real name is Jessica Cornish, belted out a stage-rattling rendition of Frank Sinatra’s My Way on the stage of Singer, a hugely popular Chinese singing competition similar to The Voice. She also performed her new song, Califo...",
+      "headline": "Netanyahu’s Reelection Could Hinge on Outcome of Iran War",
+      "summary": "He promised Israelis “total victory” but has fallen short on three fronts.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "International",
@@ -189,10 +166,33 @@
       "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Jessie J’s triumphant return puts lucrative Chinese market in spotlight",
-          "url": "https://www.theguardian.com/world/2026/jun/13/jessie-j-lucrative-chinese-market-westlife-charli-xcx",
-          "publisher": "The Guardian",
-          "published_at": "2026-06-13"
+          "title": "Netanyahu’s Reelection Could Hinge on Outcome of Iran War",
+          "url": "https://foreignpolicy.com/2026/06/12/netanyahu-election-iran-war-outcome-us-trump/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-0be74b4808",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Trump’s Big Weekend Could Derail the G-7",
+      "summary": "With or without a deal, the Iran war looms large over the three-day leaders’ summit.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Trump’s Big Weekend Could Derail the G-7",
+          "url": "https://foreignpolicy.com/2026/06/12/trump-iran-war-peace-talks-deal-g7-leaders-summit/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-06-12"
         }
       ]
     }

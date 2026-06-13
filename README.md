@@ -68,7 +68,7 @@ GitHub Action on push → styled HTML email (Resend, same recipient)
 
 ### News Briefing (daily)
 
-Sections: Spain, Germany, Berlin, World, What Matters Today, Selected Reads.
+Sections: Spain, Germany, Berlin, World, Other Headlines Today, What Matters Today, Selected Reads.
 
 Title: `# News Briefing — DD Month YYYY`
 

@@ -161,6 +161,10 @@ news_analysis:
 editorial_note: >
   Favour critical, left-leaning outlets where quality reporting aligns with reader preferences.
 
+# Selected Reads pool: reject articles older than this (days) at slim time.
+selected_reads_max_age_days: 30
+selected_reads_max_per_publisher: 2
+
 # RSS: headline ingestion (scripts/fetch_rss.py → inbox/YYYY-MM-DD-rss.json).
 # WordPress: REST API posts (scripts/fetch_wordpress.py → inbox/YYYY-MM-DD-wordpress.json).
 # merge_news_inbox.py combines both into inbox/YYYY-MM-DD-raw.json.

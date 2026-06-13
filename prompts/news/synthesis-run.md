@@ -38,7 +38,7 @@ Read **only** these files, in order:
 
 **Do not read:** `inbox/news/*-rss.json` (already merged into raw), full `*-raw.json` when `*-synthesis.json` exists, or `config/briefings/news/sources.yaml` unless a section is genuinely thin after selection.
 
-The synthesis file contains pre-ranked items per section plus `selected_read_candidates` — enough to write all six sections.
+The synthesis file contains pre-ranked items per section plus diversified `selected_read_candidates` — enough to write all seven sections.
 
 **URL discipline:** All items are from RSS or WordPress feeds. Copy footnote URLs verbatim from `sources[0].url` — never invent paths.
 
@@ -50,8 +50,9 @@ Produce a novelty-first briefing with exactly these sections:
 2. Germany 🇩🇪 (3 stories)
 3. Berlin 🏙️ (3 stories, local only)
 4. World 🌐 (3 stories, ≥2 non-European regions, distinct from ES/DE)
-5. What Matters Today 🧠 (3–4 themes, not recaps)
-6. Selected Reads 🗞️ (~4 items from `selected_read_candidates` or inbox items; Reuters/AP ≤1)
+5. Other Headlines Today 📋 (3–8 crisp thematic bullets from **unused** synthesis `items`; no links)
+6. What Matters Today 🧠 (3–4 themes, not recaps)
+7. Selected Reads 🗞️ (~4 items; **≥3 publishers**, Guardian ≤1; from `selected_read_candidates` first; Reuters/AP ≤1)
 
 Title: `# News Briefing — DD Month YYYY`
 
@@ -59,7 +60,7 @@ If inbox date ≠ briefing date, add under title: `*Research accessed DD Month Y
 
 Each news story: headline, summary, 💡 insight, 🧩 broader context, source link.
 
-Apply anti-repetition using `dedup_index.md` — reject topics unless materially new. Selected Reads: reject URLs in `selected_reads_index.md` (last 5 briefings).
+Apply anti-repetition using `dedup_index.md` — reject topics unless materially new. Selected Reads: reject URLs in `selected_reads_index.md` (last 5 briefings). For Other Headlines Today, scan inbox items **not** chosen for sections 1–4 and merge into short thematic lines (e.g. Iran deal signing, Hormuz, Venezuela strike).
 
 Before writing, mentally run the checklist in `news-briefing-style.mdc`. Fix only failing items — do not polish prose twice.
 

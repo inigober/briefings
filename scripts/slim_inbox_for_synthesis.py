@@ -12,7 +12,7 @@ if str(_SCRIPTS_DIR) not in sys.path:
 
 import argparse
 import json
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
@@ -28,6 +28,14 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 NEWS_SECTION_IDS = ("spain", "germany", "berlin", "world")
 SELECTED_READS_CAP = 8
+SELECTED_READS_CATEGORY_KEYS = (
+    "long_form_features",
+    "think_tanks",
+    "specialist_publications",
+    "news_analysis",
+)
+DEFAULT_SELECTED_READS_MAX_AGE_DAYS = 30
+DEFAULT_SELECTED_READS_MAX_PER_PUBLISHER = 2
 
 NEWS_SLIM_ITEM_KEYS = (
     "id",
@@ -115,14 +123,120 @@ def host_domain(url: str) -> str:
 
 def selected_read_domains(sources_cfg: dict) -> set[str]:
     domains: set[str] = set()
-    for key in (
-        "long_form_features",
-        "think_tanks",
-        "specialist_publications",
-        "news_analysis",
-    ):
+    for key in SELECTED_READS_CATEGORY_KEYS:
         domains.update(sources_cfg.get(key) or [])
     return domains
+
+
+def selected_reads_max_age_days(sources_cfg: dict) -> int:
+    value = sources_cfg.get("selected_reads_max_age_days")
+    if value is not None:
+        return int(value)
+    return DEFAULT_SELECTED_READS_MAX_AGE_DAYS
+
+
+def selected_reads_max_per_publisher(sources_cfg: dict) -> int:
+    value = sources_cfg.get("selected_reads_max_per_publisher")
+    if value is not None:
+        return int(value)
+    return DEFAULT_SELECTED_READS_MAX_PER_PUBLISHER
+
+
+def item_published_date(item: dict) -> date | None:
+    for src in item.get("sources") or []:
+        published_at = (src.get("published_at") or "").strip()
+        if not published_at:
+            continue
+        try:
+            return date.fromisoformat(published_at[:10])
+        except ValueError:
+            continue
+    return None
+
+
+def item_is_fresh_enough(
+    item: dict,
+    *,
+    reference_date: date,
+    max_age_days: int,
+) -> bool:
+    published = item_published_date(item)
+    if published is None:
+        return True
+    return (reference_date - published).days <= max_age_days
+
+
+def item_publisher_name(item: dict) -> str:
+    for src in item.get("sources") or []:
+        publisher = (src.get("publisher") or "").strip()
+        if publisher:
+            return publisher
+    domain = item_domain(item)
+    return domain or "unknown"
+
+
+def item_read_categories(domain: str, sources_cfg: dict) -> set[str]:
+    categories: set[str] = set()
+    for key in SELECTED_READS_CATEGORY_KEYS:
+        if matches_domain(domain, set(sources_cfg.get(key) or [])):
+            categories.add(key)
+    return categories
+
+
+def pick_diversified_selected_reads(
+    items: list[dict],
+    cap: int,
+    sources_cfg: dict,
+    *,
+    reference_date: date | None = None,
+) -> list[dict]:
+    """Rank read-pool items, enforce publisher caps, and reserve category diversity."""
+    ref = reference_date or datetime.now(timezone.utc).date()
+    max_age_days = selected_reads_max_age_days(sources_cfg)
+    max_per_publisher = selected_reads_max_per_publisher(sources_cfg)
+
+    eligible = [
+        item
+        for item in items
+        if item_is_citable(item)
+        and item_is_fresh_enough(item, reference_date=ref, max_age_days=max_age_days)
+    ]
+    ranked = sorted(eligible, key=score_news_item, reverse=True)
+
+    picked: list[dict] = []
+    publisher_counts: dict[str, int] = {}
+
+    def can_add(item: dict) -> bool:
+        return publisher_counts.get(item_publisher_name(item), 0) < max_per_publisher
+
+    def add(item: dict) -> None:
+        picked.append(item)
+        publisher = item_publisher_name(item)
+        publisher_counts[publisher] = publisher_counts.get(publisher, 0) + 1
+
+    category_buckets: dict[str, list[dict]] = {key: [] for key in SELECTED_READS_CATEGORY_KEYS}
+    for item in ranked:
+        domain = item_domain(item) or ""
+        for category in item_read_categories(domain, sources_cfg):
+            category_buckets[category].append(item)
+
+    for category in SELECTED_READS_CATEGORY_KEYS:
+        if len(picked) >= cap:
+            break
+        for item in category_buckets[category]:
+            if item in picked or not can_add(item):
+                continue
+            add(item)
+            break
+
+    for item in ranked:
+        if len(picked) >= cap:
+            break
+        if item in picked or not can_add(item):
+            continue
+        add(item)
+
+    return [slim_item(item, NEWS_SLIM_ITEM_KEYS) for item in picked]
 
 
 def item_domain(item: dict) -> str | None:
@@ -341,6 +455,15 @@ def culture_priority_venues(sources_cfg: dict) -> set[str]:
     return venues
 
 
+def _parse_briefing_date(date_str: str | None) -> date | None:
+    if not date_str:
+        return None
+    try:
+        return date.fromisoformat(str(date_str)[:10])
+    except ValueError:
+        return None
+
+
 def build_news_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: dict) -> dict:
     section_caps = news_section_caps(topics_cfg)
     items = raw.get("items") or []
@@ -363,7 +486,12 @@ def build_news_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: dict
         section_counts[sid] = len(picked)
         section_items.extend(picked)
 
-    selected_reads = pick_top_news(read_pool, SELECTED_READS_CAP)
+    selected_reads = pick_diversified_selected_reads(
+        read_pool,
+        SELECTED_READS_CAP,
+        sources_cfg,
+        reference_date=_parse_briefing_date(raw.get("date")),
+    )
 
     rel_inbox = str(raw.get("inbox_dir") or "inbox/news")
     return {

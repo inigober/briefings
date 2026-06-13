@@ -136,6 +136,15 @@ topics:
       - health
       - infrastructure
       - geopolitics
+  - id: other_headlines
+    name: Other Headlines Today 📋
+    enabled: true
+    max_items: 8
+    min_items: 3
+    description: >
+      Crisp thematic scan of notable inbox stories not elevated to Spain/Germany/Berlin/World.
+      Group by theme (not by article); no links or publishers; one short line per theme.
+
   - id: what_matters
     name: What Matters Today 🧠
     enabled: true

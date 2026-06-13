@@ -31,8 +31,9 @@ Record both dates in `state/news/last_run.json` (`briefing_date`, `inbox_date`).
 2. Germany 🇩🇪
 3. Berlin 🏙️
 4. World 🌐
-5. What Matters Today 🧠
-6. Selected Reads 🗞️
+5. Other Headlines Today 📋
+6. What Matters Today 🧠
+7. Selected Reads 🗞️
 
 Section targets and priorities: `config/briefings/news/topics.yaml`. Sources: `config/briefings/news/sources.yaml`.
 
@@ -109,13 +110,30 @@ After writing: append topics/stories to `state/news/dedup_index.md`; trim entrie
 Read `state/news/selected_reads_index.md` before writing Selected Reads.
 
 - **Hard rule:** Never recommend the same article twice within **5 briefings**. Track exact URLs.
-- **Soft rule:** Diversify publications; do not repeat articles already used in news sections today.
+- **Hard rule:** Use **≥3 different publishers** across ~4 items. Max **1** item from The Guardian.
+- **Hard rule:** Do not repeat articles already used in news sections today.
 - **Reuters rule:** Max **1** Reuters/AP item in Selected Reads per briefing.
-- Ideal mix each day: 1 long-form feature, 1 think-tank/research paper, 1 specialist publication, 1 news analysis.
+- **Freshness:** Pre-fetch drops Selected Read candidates older than **30 days** (`selected_reads_max_age_days` in `sources.yaml`).
+- **Ideal mix:** 1 long-form feature, 1 think-tank/research piece, 1 specialist publication, 1 news analysis — pick from `selected_read_candidates` first; if the pool lacks diversity, use other eligible inbox items.
 
 Format: title, short summary, link.
 
 After writing: append URLs to `state/news/selected_reads_index.md`; trim entries older than 5 briefings.
+
+## Other Headlines Today
+
+After choosing Spain/Germany/Berlin/World stories, scan **remaining** items in the synthesis inbox (`items` not used above).
+
+- **Purpose:** Capture major same-day threads the main sections skipped (e.g. Iran deal timeline, Venezuela strike) without duplicating chosen stories.
+- **Format:** 3–8 crisp thematic bullets — not article-by-article summaries.
+
+```
+* **{Theme label}:** {One short line, ≤25 words; merge related headlines into one theme.}
+```
+
+- **No links**, no publisher names, no 💡/🧩 lines.
+- Group by **theme** (Middle East diplomacy, Latin America security, EU bureaucracy, etc.), not by section or outlet.
+- Skip local Berlin-only filler unless city-relevant; skip stories already covered in main sections.
 
 ## What Matters Today
 
@@ -143,10 +161,11 @@ After writing: append URLs to `state/news/selected_reads_index.md`; trim entries
 2. Spain, Germany, Berlin each contain **new** information?
 3. World includes ≥2 non-European regions?
 4. World distinct from Spain/Germany?
-5. Selected Reads diversified? Reuters/AP ≤1?
+5. Selected Reads diversified (≥3 publishers, Guardian ≤1)? Reuters/AP ≤1?
 6. No Selected Read URL in last 5 briefings?
-7. Every footnote URL copied verbatim from inbox `sources[0].url`?
-8. Would a daily reader learn something genuinely new?
+7. Other Headlines Today captures major unused inbox themes (crisp, no links)?
+8. Every footnote URL copied verbatim from inbox `sources[0].url`?
+9. Would a daily reader learn something genuinely new?
 
 ## Commits
 
