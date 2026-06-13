@@ -167,6 +167,8 @@ def build_section_requirements(
 
 
 CULTURE_SEARCH_MAX_TOOL_CALLS = 8
+CULTURE_SEARCH_MIN_CALLS = 4
+CULTURE_CORE_SEARCH_SECTIONS = ("exhibitions", "film", "performing_arts", "music")
 
 
 def _culture_prompt_context(
@@ -243,15 +245,20 @@ Event window: {week_label}
 
 {ctx["novelty_block"]}{ctx["programme_block"]}{ctx["press_block"]}{ctx["warehouse_block"]}{ctx["section_requirements"]}
 
-## Your task (web_search REQUIRED)
-You MUST use the web_search tool before writing your answer. Search venue programme pages listed above.
+## Your task (web_search REQUIRED — minimum {CULTURE_SEARCH_MIN_CALLS} searches)
+You MUST use the web_search tool before writing your answer.
+
+**Minimum {CULTURE_SEARCH_MIN_CALLS} separate web_search calls**, at least one per core section:
+{", ".join(CULTURE_CORE_SEARCH_SECTIONS)}
+
+Do not stop after a single venue (e.g. do not only search HKW). Each core section needs its own search on programme URLs listed above.
 
 For each section — exhibitions, film, performing_arts, music (and wildcards/advance_radar if relevant):
-1. Run web_search on the programme URLs for that section (site-specific queries encouraged, e.g. "site:arsenal-berlin.de June 2026").
+1. Run web_search on **different** programme URLs for that section (site-specific queries encouraged, e.g. "site:arsenal-berlin.de cinema June 2026", "site:km28.de program June 2026").
 2. For each qualifying event in the event window, record:
    - section id
    - title, venue, dates, times, artists (if known)
-   - **official_url copied exactly from search results** (specific event page, never a homepage)
+   - **official_url copied exactly from search results** (specific event page — never a homepage, /en, or /programme listing)
    - one-line why it fits the reader interests
 3. Skip events already in the novelty index unless materially new (opening week, closing within 10 days).
 4. If a venue page has no in-window events, say so — do not invent placeholders.
@@ -472,13 +479,15 @@ def fetch_all_culture(
         domains=allowed,
         require_web_search=True,
         max_tool_calls=CULTURE_SEARCH_MAX_TOOL_CALLS,
+        search_context_size="low",
     )
     web_search_calls = count_web_search_calls(search_response)
     log(f"  Phase 1 done: {web_search_calls} web_search call(s), {len(research_notes)} chars of notes")
-    if web_search_calls == 0:
+    if web_search_calls < CULTURE_SEARCH_MIN_CALLS:
         raise RuntimeError(
-            "Culture pre-fetch aborted: OpenAI made 0 web_search calls in phase 1. "
-            "Refusing to structure hallucinated URLs."
+            f"Culture pre-fetch aborted: OpenAI made {web_search_calls} web_search call(s) "
+            f"in phase 1 (minimum {CULTURE_SEARCH_MIN_CALLS} required — one per core section). "
+            "Refusing to structure incomplete research."
         )
 
     if spend_ledger:

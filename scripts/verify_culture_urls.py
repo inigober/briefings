@@ -67,8 +67,8 @@ def main() -> int:
 
     log(
         f"  URL verify: checked={stats['checked']} live={stats['live']} "
-        f"dead={stats['dead']} verified_after={stats['verified_after']} "
-        f"skipped={stats['skipped']}"
+        f"dead={stats['dead']} shallow={stats.get('shallow', 0)} "
+        f"verified_after={stats['verified_after']} skipped={stats['skipped']}"
     )
     return 0
 

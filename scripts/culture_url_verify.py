@@ -59,16 +59,19 @@ def verify_culture_item(
         mark_item_verified(item, require_url_live=True)
         return {"checked": True, "url_live": False}
 
-    live, note = check_url_live(url, session=session)
-    item["url_live"] = live
-    item["url_verify_notes"] = note or ("ok" if live else "unreachable")
-    if live and not is_deep_event_url(url):
+    http_ok, note = check_url_live(url, session=session)
+    deep_ok = is_deep_event_url(url)
+    if http_ok and not deep_ok:
+        item["url_live"] = False
         item["url_verify_notes"] = "reachable but shallow URL (homepage/listing)"
+    else:
+        item["url_live"] = http_ok
+        item["url_verify_notes"] = note or ("ok" if http_ok else "unreachable")
     mark_item_verified(item, require_url_live=True)
 
     if sleep_ms > 0:
         time.sleep(sleep_ms / 1000.0)
-    return {"checked": True, "url_live": live}
+    return {"checked": True, "url_live": item["url_live"], "shallow": http_ok and not deep_ok}
 
 
 def verify_culture_items(
@@ -77,7 +80,7 @@ def verify_culture_items(
     sleep_ms: int = DEFAULT_SLEEP_MS,
     only_openai: bool = True,
 ) -> dict[str, int]:
-    stats = {"checked": 0, "live": 0, "dead": 0, "verified_after": 0, "skipped": 0}
+    stats = {"checked": 0, "live": 0, "dead": 0, "shallow": 0, "verified_after": 0, "skipped": 0}
     session = requests.Session()
     for item in items:
         source = item.get("ingestion_source") or "openai"
@@ -94,7 +97,10 @@ def verify_culture_items(
             stats["skipped"] += 1
             continue
         stats["checked"] += 1
-        if result.get("url_live"):
+        if result.get("shallow"):
+            stats["shallow"] += 1
+            stats["dead"] += 1
+        elif result.get("url_live"):
             stats["live"] += 1
         else:
             stats["dead"] += 1

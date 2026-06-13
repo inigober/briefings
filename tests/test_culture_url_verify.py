@@ -44,6 +44,21 @@ class TestCultureUrlVerify(unittest.TestCase):
         self.assertTrue(result["url_live"])
         self.assertTrue(item["verified"])
 
+    def test_shallow_homepage_url_marked_dead(self) -> None:
+        item = {
+            "ingestion_source": "openai",
+            "topic_ids": ["exhibitions"],
+            "official_url": "https://www.hkw.de/en?utm_source=openai",
+            "dates": "10 June – 1 September 2026",
+            "times": "",
+        }
+        session = MagicMock()
+        with patch("culture_url_verify.check_url_live", return_value=(True, "")):
+            result = verify_culture_item(item, session=session, sleep_ms=0)
+        self.assertTrue(result["shallow"])
+        self.assertFalse(result["url_live"])
+        self.assertFalse(item["verified"])
+
     def test_skips_non_openai_by_default(self) -> None:
         item = {
             "ingestion_source": "rss",

@@ -42,6 +42,8 @@ class TestCombinedCultureFetch(unittest.TestCase):
         )
         self.assertIn("PHASE 1", prompt)
         self.assertIn("web_search REQUIRED", prompt)
+        self.assertIn("minimum 4 separate web_search", prompt.lower())
+        self.assertIn("exhibitions, film, performing_arts, music", prompt)
         self.assertIn("exhibitions", prompt)
         self.assertIn("HKW", prompt)
         self.assertIn("Already recommended", prompt)
