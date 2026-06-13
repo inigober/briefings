@@ -29,6 +29,7 @@ class BriefingType:
     prefetch_merge_script: str
     prefetch_slim: bool
     email_preheader_section: str
+    email_subject_emoji: str
 
     @property
     def topics_path(self) -> Path:
@@ -79,6 +80,7 @@ def load_briefing_type(type_id: str) -> BriefingType:
         prefetch_merge_script=str(prefetch.get("merge_script") or ""),
         prefetch_slim=bool(prefetch.get("slim", True)),
         email_preheader_section=str(email.get("preheader_section") or ""),
+        email_subject_emoji=str(email.get("subject_emoji") or "").strip(),
     )
 
 

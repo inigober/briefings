@@ -99,7 +99,7 @@ Title: `# Berlin Restaurant Briefing — Week of YYYY-MM-DD`
 | `BRIEFING_FROM_EMAIL` | — | Resend sender (briefing email + spend-cap alerts) |
 | `BRIEFING_TO_EMAIL` | — | Recipient |
 
-All briefing types email the **same recipient**; subjects come from each briefing's H1 title.
+All briefing types email the **same recipient**; subjects are each briefing's H1 title prefixed with a type emoji (`📰` news, `🎭` culture, `🍽️` restaurants — set in `config/briefings.yaml`).
 
 ### OpenAI pre-fetch spend cap
 

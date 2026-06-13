@@ -17,6 +17,7 @@ briefings:
       slim: true
     email:
       preheader_section: "What Matters Today"
+      subject_emoji: "📰"
 
   berlin-culture:
     display_name: Berlin Culture Briefing
@@ -34,6 +35,7 @@ briefings:
       spend_cap_usd: 2.0  # documented default; live cap = GitHub variable OPENAI_DAILY_SPEND_CAP_USD or code default $2
     email:
       preheader_section: "Top Picks"
+      subject_emoji: "🎭"
 
   berlin-restaurants:
     display_name: Berlin Restaurant Briefing
@@ -51,3 +53,4 @@ briefings:
       spend_cap_usd: 2.0  # documented default; live cap = GitHub variable OPENAI_DAILY_SPEND_CAP_USD or code default $2
     email:
       preheader_section: "This week's strongest bets"
+      subject_emoji: "🍽️"

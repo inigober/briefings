@@ -186,6 +186,14 @@ def extract_title(md_text: str, fallback: str) -> str:
     return fallback
 
 
+def format_email_subject(title: str, emoji: str = "") -> str:
+    """Prefix inbox subject with a briefing-type emoji (idempotent)."""
+    emoji = (emoji or "").strip()
+    if not emoji or title.startswith(emoji):
+        return title
+    return f"{emoji} {title}"
+
+
 def extract_preheader(md_text: str, section_name: str = "What Matters Today", max_len: int = 100) -> str:
     """Short inbox-preview line from a named section, else first headline."""
     in_section = False
@@ -1138,8 +1146,12 @@ def main() -> int:
         title = extract_title(md_text, briefing_path.stem)
         type_id = infer_type_from_briefing_path(briefing_path)
         preheader_section = "What Matters Today"
+        subject_emoji = ""
         if type_id:
-            preheader_section = load_briefing_type(type_id).email_preheader_section or preheader_section
+            briefing_cfg = load_briefing_type(type_id)
+            preheader_section = briefing_cfg.email_preheader_section or preheader_section
+            subject_emoji = briefing_cfg.email_subject_emoji
+        subject = format_email_subject(title, subject_emoji)
 
         if args.dry_run:
             previews: list[Path] = []
@@ -1193,6 +1205,7 @@ def main() -> int:
 
                 for preview in previews:
                     subprocess.run(["open", str(preview.resolve())], check=False)
+            print(f"Subject: {subject}")
             continue
 
         html = render_html(
@@ -1205,7 +1218,7 @@ def main() -> int:
             api_key=api_key,
             from_addr=from_addr,
             to_addrs=to_addrs,
-            subject=title,
+            subject=subject,
             html=html,
         )
         print(f"Sent email for {briefing_path.name}: {result.get('id', result)}")
