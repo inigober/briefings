@@ -159,11 +159,10 @@ Pre-fetch and health-check workflows have **no GitHub `schedule:` trigger** — 
 
 | Job (cron-job.org) | Local time (Europe/Berlin) | GitHub workflow |
 |--------------------|----------------------------|-----------------|
-| News pre-fetch | Daily **06:35** | `news-prefetch.yml` |
-| Culture pre-fetch | Tuesday **06:00** | `berlin-culture-prefetch.yml` |
-| Restaurants pre-fetch | Thursday **07:00** | `berlin-restaurants-prefetch.yml` |
-| Health check (morning) | Daily **08:05** | `prefetch-health-check.yml` (`profile: morning`) |
-| Health check (restaurants) | Thursday **09:05** | `prefetch-health-check.yml` (`profile: restaurants`) |
+| News pre-fetch | Daily **06:30** | `news-prefetch.yml` |
+| Culture pre-fetch | Tuesday **10:00** | `berlin-culture-prefetch.yml` |
+| Restaurants pre-fetch | Thursday **10:00** | `berlin-restaurants-prefetch.yml` |
+| Health check | Daily **11:00** | `prefetch-health-check.yml` (`profile: all`) |
 
 Synthesis is **push-triggered** via the **Briefing synthesis** Cursor automation when pre-fetch commits to `inbox/`. Recover missed runs from health-check emails or re-trigger from GitHub Actions → **Run workflow**.
 
@@ -224,7 +223,7 @@ python3 -m unittest discover -s tests -v
 | `news-prefetch.yml` | cron-job.org daily 06:35 Berlin + manual | RSS → OpenAI → slim → commit `inbox/news/` |
 | `berlin-culture-prefetch.yml` | cron-job.org Tue 06:00 Berlin + manual | Culture OpenAI → slim → commit `inbox/berlin-culture/` |
 | `berlin-restaurants-prefetch.yml` | cron-job.org Thu 07:00 Berlin + manual | Restaurant OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
-| `prefetch-health-check.yml` | cron-job.org (see `docs/external-scheduling.md`) | Email alert if scheduled inbox missing (Resend) |
+| `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if scheduled inbox missing (Resend) |
 | `send-briefing-email.yml` | Push to `briefings/**/*.md` | Send styled email (newest per type by default) |
 
 Pre-fetch workflows use **concurrency groups** so overlapping manual + scheduled runs queue instead of racing. The email workflow sends only the **newest dated briefing per type** when a push changes multiple files; use workflow dispatch with **all_changed** or `--all-changed` to replay every file.
@@ -235,7 +234,7 @@ Pre-fetch workflows use **concurrency groups** so overlapping manual + scheduled
 - [x] Single synthesis dispatcher + `detect_synthesis_trigger.py`
 - [x] External scheduling via cron-job.org (see `docs/external-scheduling.md`)
 - [x] Push-only **Briefing synthesis** Cursor automation (no backup schedule crons)
-- [ ] Configure five cron-job.org jobs (PAT + test **Run now** on news pre-fetch)
+- [ ] Configure four cron-job.org jobs (see `docs/external-scheduling.md`)
 - [ ] Disable three legacy per-type Cursor automations if still enabled
 - [ ] Verify one full cycle per briefing type (prefetch → synthesis → email)
 - [ ] Confirm email sends only the intended briefing on normal pushes

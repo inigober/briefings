@@ -68,6 +68,8 @@ def check_type(type_id: str, date_str: str) -> PrefetchStatus:
 
 
 def types_for_profile(profile: str) -> tuple[str, ...]:
+    if profile == "all":
+        return tuple(sorted(load_manifest()))
     if profile == "restaurants":
         return ("berlin-restaurants",)
     return ("news", "berlin-culture")
@@ -130,9 +132,9 @@ def main() -> int:
     )
     parser.add_argument(
         "--profile",
-        choices=("morning", "restaurants"),
-        default="morning",
-        help="morning = news + culture; restaurants = Thursday restaurant check",
+        choices=("all", "morning", "restaurants"),
+        default="all",
+        help="all = every briefing type scheduled today; morning = news + culture; restaurants = Thursday only",
     )
     parser.add_argument(
         "--dry-run",

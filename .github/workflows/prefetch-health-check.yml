@@ -4,11 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       profile:
-        description: "morning (news+culture) or restaurants"
+        description: "all (default), morning (news+culture), or restaurants"
         required: false
-        default: morning
+        default: all
         type: choice
         options:
+          - all
           - morning
           - restaurants
       date:
@@ -44,7 +45,7 @@ jobs:
           BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}
           BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
         run: |
-          PROFILE="${{ github.event.inputs.profile || 'morning' }}"
+          PROFILE="${{ github.event.inputs.profile || 'all' }}"
           ARGS="--profile $PROFILE"
           if [ -n "${{ github.event.inputs.date }}" ]; then
             ARGS="$ARGS --date ${{ github.event.inputs.date }}"

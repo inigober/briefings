@@ -4,51 +4,63 @@ GitHub's built-in `schedule:` trigger is best-effort and can start workflows hou
 
 [cron-job.org](https://cron-job.org) is free (donation-supported) and fires HTTP requests on time in any timezone, including `Europe/Berlin` (handles CET/CEST automatically).
 
-## 1. Create a GitHub token
+## Recommended schedule (Europe/Berlin)
 
-1. Go to [https://github.com/settings/tokens?type=beta](https://github.com/settings/tokens?type=beta)
-2. **Generate new token** → fine-grained personal access token
-3. **Repository access:** Only select repositories → `inigober/briefings`
-4. **Permissions → Repository permissions:**
-   - **Actions:** Read and write
-   - **Contents:** Read-only
-   - **Metadata:** Read-only (usually auto-granted)
-5. Generate and **copy the token** — you won't see it again
+| Job | When | Workflow |
+|-----|------|----------|
+| News pre-fetch | Daily **06:30** | `news-prefetch.yml` |
+| Culture pre-fetch | Tuesday **10:00** | `berlin-culture-prefetch.yml` |
+| Restaurants pre-fetch | Thursday **10:00** | `berlin-restaurants-prefetch.yml` |
+| Health check | Daily **11:00** | `prefetch-health-check.yml` (`profile: all`) |
 
-**If you get HTTP 403**, use a **classic** token instead (often simpler for private repos):
+The health check at 11:00 covers every briefing type scheduled that day (news daily; culture on Tuesdays; restaurants on Thursdays).
 
-1. Go to [https://github.com/settings/tokens](https://github.com/settings/tokens) → **Generate new token (classic)**
-2. Scope: **`repo`** (full control of private repositories)
-3. Use the same `Authorization: Bearer …` header in cron-job.org
+## 1. GitHub token
 
-Store the token only in cron-job.org (or your password manager). Never commit it to the repo.
+### cron-job.org (production trigger)
 
-### Token expiry — will you get an alert?
+Store the token in cron-job.org only — see headers in section 3.
+
+### Local testing (optional)
+
+Add to `.env` (gitignored — never commit):
+
+```bash
+cp .env.example .env
+# Edit .env:
+GITHUB_TOKEN=github_pat_...
+```
+
+Load before curl:
+
+```bash
+set -a && source .env && set +a
+```
+
+**Create the token:**
+
+1. [github.com/settings/tokens?type=beta](https://github.com/settings/tokens?type=beta) → fine-grained PAT
+2. Repository: **`inigober/briefings`**
+3. **Actions: Read and write** (Read-only causes HTTP 403)
+4. Or classic PAT with **`repo`** scope
+
+### Token expiry
 
 | Source | What happens |
 |--------|----------------|
-| **GitHub** | Sends an email to your account as the token nears expiry (GitHub does not publish the exact lead time — treat it as a heads-up, not a guarantee) |
-| **cron-job.org** | If you enable **Notifications → on failure**, a expired/revoked token causes **403** on the next scheduled run and cron-job.org emails you |
-| **Health-check email** | Does **not** detect a dead cron token — it only checks whether inbox files landed |
+| **GitHub** | Email as expiry approaches |
+| **cron-job.org** | Failure notification on **403** after expiry |
 
-**Recommendation:** Enable cron-job.org failure notifications on the news pre-fetch job, and put a calendar reminder ~2 weeks before the token expiry date shown when you created it.
+Enable cron-job.org **Notifications → on failure** on at least the news job.
 
-## 2. Create a cron-job.org account
+## 2. cron-job.org setup
 
-1. Go to [https://console.cron-job.org/signup](https://console.cron-job.org/signup)
-2. Sign up and verify email
-3. Open [https://console.cron-job.org/jobs/create](https://console.cron-job.org/jobs/create)
+1. [console.cron-job.org/signup](https://console.cron-job.org/signup)
+2. Create each job via **Import from cURL** or manually
+3. Set **Timezone: Europe/Berlin** and the schedule from the table above
+4. **Run now** → expect **HTTP 204**
 
-## 3. Shared HTTP settings (all jobs)
-
-Every job uses the same request shape; only the URL, schedule, and body differ.
-
-| Field | Value |
-|-------|--------|
-| Request method | **POST** |
-| Request timeout | 30 seconds (default is fine) |
-
-**Headers** (add each one):
+## 3. Shared headers (every job)
 
 | Header | Value |
 |--------|--------|
@@ -57,149 +69,9 @@ Every job uses the same request shape; only the URL, schedule, and body differ.
 | `Content-Type` | `application/json` |
 | `X-GitHub-Api-Version` | `2022-11-28` |
 
-**Body type:** JSON
+## 4. cURL commands (import into cron-job.org)
 
-## 4. Jobs to create
-
-Create **five** separate cron jobs. After saving each one, click **Run now** and confirm the matching workflow appears under [GitHub Actions](https://github.com/inigober/briefings/actions).
-
-### Job A — News pre-fetch (daily)
-
-| Setting | Value |
-|---------|--------|
-| Title | `briefings — news pre-fetch` |
-| URL | `https://api.github.com/repos/inigober/briefings/actions/workflows/news-prefetch.yml/dispatches` |
-| Schedule | Every day at **06:30** (or any time you prefer) |
-| Timezone | **Europe/Berlin** |
-
-Body:
-
-```json
-{"ref":"main"}
-```
-
-### Job B — Berlin culture pre-fetch (Tuesday)
-
-| Setting | Value |
-|---------|--------|
-| Title | `briefings — culture pre-fetch` |
-| URL | `https://api.github.com/repos/inigober/briefings/actions/workflows/berlin-culture-prefetch.yml/dispatches` |
-| Schedule | Every **Tuesday** at **06:00** |
-| Timezone | **Europe/Berlin** |
-
-Body:
-
-```json
-{"ref":"main"}
-```
-
-### Job C — Berlin restaurants pre-fetch (Thursday)
-
-| Setting | Value |
-|---------|--------|
-| Title | `briefings — restaurants pre-fetch` |
-| URL | `https://api.github.com/repos/inigober/briefings/actions/workflows/berlin-restaurants-prefetch.yml/dispatches` |
-| Schedule | Every **Thursday** at **07:00** |
-| Timezone | **Europe/Berlin** |
-
-Body:
-
-```json
-{"ref":"main"}
-```
-
-### Job D — Pre-fetch health check, morning (daily)
-
-Runs ~90 minutes after news pre-fetch (e.g. **08:00** if pre-fetch is 06:30).
-
-| Setting | Value |
-|---------|--------|
-| Title | `briefings — health check (morning)` |
-| URL | `https://api.github.com/repos/inigober/briefings/actions/workflows/prefetch-health-check.yml/dispatches` |
-| Schedule | Every day at **08:00** |
-| Timezone | **Europe/Berlin** |
-
-Body:
-
-```json
-{"ref":"main","inputs":{"profile":"morning"}}
-```
-
-### Job E — Pre-fetch health check, restaurants (Thursday)
-
-| Setting | Value |
-|---------|--------|
-| Title | `briefings — health check (restaurants)` |
-| URL | `https://api.github.com/repos/inigober/briefings/actions/workflows/prefetch-health-check.yml/dispatches` |
-| Schedule | Every **Thursday** at **09:05** |
-| Timezone | **Europe/Berlin** |
-
-Body:
-
-```json
-{"ref":"main","inputs":{"profile":"restaurants"}}
-```
-
-## 5. Enable failure notifications (recommended)
-
-In cron-job.org → job → **Notifications**: turn on email when a job fails (HTTP non-2xx). This catches expired tokens (**403**), wrong permissions, and bad URLs — not just OpenAI failures inside the workflow.
-
-## 6. Verify
-
-1. **Run now** on Job A (news pre-fetch)
-2. Within ~1 minute, [Actions → News research pre-fetch](https://github.com/inigober/briefings/actions/workflows/news-prefetch.yml) should show a new run triggered by your GitHub user (workflow_dispatch)
-3. When the run finishes, `main` should have a commit like `inbox/news: YYYY-MM-DD research pre-fetch`
-4. That push triggers the **Briefing synthesis** Cursor automation
-
-## Troubleshooting
-
-### HTTP 403 Forbidden
-
-Open the failed run in cron-job.org → **History** → click the execution → read the **response body**. GitHub returns a JSON `message` field that narrows it down.
-
-| Response message | Fix |
-|------------------|-----|
-| `Must have admin rights to Repository` | Usually a **malformed request**, not missing admin. Check: POST method, JSON body `{"ref":"main"}`, `Content-Type: application/json`, token in `Authorization: Bearer …` |
-| `Resource not accessible by personal access token` | Token lacks permission — regenerate with **Actions: Read and write** (fine-grained) or **`repo`** scope (classic) |
-| `Not Found` | Wrong repo name or workflow filename in URL |
-| (empty / rate limit) | Wait and retry; check `X-RateLimit-Remaining` if testing with curl |
-
-**Checklist (most 403s are one of these):**
-
-1. **Token type:** Try **classic PAT** with **`repo`** scope if fine-grained keeps failing
-2. **Repository access:** Fine-grained token must explicitly include `inigober/briefings`
-3. **Body:** cron-job.org body type must be **JSON**, not form data — exactly `{"ref":"main"}`
-4. **Headers:** All four headers from section 3; no extra spaces in the token
-5. **Actions enabled:** Repo → **Settings → Actions → General** → allow actions
-6. **Branch:** `ref` must be `main` (your default branch)
-
-**Test from your Mac** (paste token locally, never commit):
-
-```bash
-curl -i -X POST \
-  -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer YOUR_TOKEN" \
-  -H "X-GitHub-Api-Version: 2022-11-28" \
-  -H "Content-Type: application/json" \
-  -d '{"ref":"main"}' \
-  https://api.github.com/repos/inigober/briefings/actions/workflows/news-prefetch.yml/dispatches
-```
-
-Success = **HTTP 204** with an empty body. If curl works but cron-job.org fails, compare headers/body in cron-job.org's job editor.
-
-### Other errors
-
-| Symptom | Fix |
-|---------|-----|
-| HTTP 401 | Token expired or wrong value in `Authorization` header |
-| HTTP 404 | Check workflow filename in URL (must match `.github/workflows/*.yml`) |
-| HTTP 422 | Body must be valid JSON; include `"ref":"main"` |
-| Workflow runs but no inbox commit | Open the run log — likely OpenAI spend cap or script error |
-| cron-job.org shows 204 / empty response | Normal — GitHub returns 204 No Content on success |
-
-## curl reference (manual test)
-
-Replace `YOUR_GITHUB_TOKEN`:
+### News pre-fetch — daily 06:30
 
 ```bash
 curl -X POST \
@@ -207,6 +79,85 @@ curl -X POST \
   -H "Authorization: Bearer YOUR_GITHUB_TOKEN" \
   -H "X-GitHub-Api-Version: 2022-11-28" \
   -H "Content-Type: application/json" \
-  https://api.github.com/repos/inigober/briefings/actions/workflows/news-prefetch.yml/dispatches \
-  -d '{"ref":"main"}'
+  -d '{"ref":"main"}' \
+  https://api.github.com/repos/inigober/briefings/actions/workflows/news-prefetch.yml/dispatches
 ```
+
+### Culture pre-fetch — Tuesday 10:00
+
+```bash
+curl -X POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer YOUR_GITHUB_TOKEN" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  -H "Content-Type: application/json" \
+  -d '{"ref":"main"}' \
+  https://api.github.com/repos/inigober/briefings/actions/workflows/berlin-culture-prefetch.yml/dispatches
+```
+
+### Restaurants pre-fetch — Thursday 10:00
+
+```bash
+curl -X POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer YOUR_GITHUB_TOKEN" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  -H "Content-Type: application/json" \
+  -d '{"ref":"main"}' \
+  https://api.github.com/repos/inigober/briefings/actions/workflows/berlin-restaurants-prefetch.yml/dispatches
+```
+
+### Health check — daily 11:00 (all types scheduled today)
+
+```bash
+curl -X POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer YOUR_GITHUB_TOKEN" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  -H "Content-Type: application/json" \
+  -d '{"ref":"main","inputs":{"profile":"all"}}' \
+  https://api.github.com/repos/inigober/briefings/actions/workflows/prefetch-health-check.yml/dispatches
+```
+
+### Local test with `.env`
+
+```bash
+set -a && source .env && set +a
+
+curl -i -X POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer $GITHUB_TOKEN" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  -H "Content-Type: application/json" \
+  -d '{"ref":"main"}' \
+  https://api.github.com/repos/inigober/briefings/actions/workflows/news-prefetch.yml/dispatches
+```
+
+Success = **HTTP 204**.
+
+## 5. Verify end-to-end
+
+1. Pre-fetch run → green in [Actions](https://github.com/inigober/briefings/actions)
+2. `inbox/{type}/` commit on `main`
+3. **Briefing synthesis** Cursor automation runs (one push → one run)
+4. `briefings/{type}/` commit → email workflow sends
+
+**Duplicate pre-fetch same day:** If a briefing file already exists for that date, synthesis **skips** (guard in `detect_synthesis_trigger.py`).
+
+## Troubleshooting
+
+### HTTP 403 — Resource not accessible by personal access token
+
+Response header `x-accepted-github-permissions: actions=write` → token needs **Actions: Read and write**, not Read-only.
+
+### HTTP 401
+
+Token expired or wrong `Authorization` header.
+
+### Synthesis ran twice
+
+Each `inbox/` push triggers the Cursor automation once. Two synthesis runs = two pre-fetch commits (e.g. morning schedule + afternoon test). Check [git log for `inbox/` commits](https://github.com/inigober/briefings/commits/main). Also confirm only **one** Cursor automation is enabled (**Briefing synthesis** — disable legacy per-type automations).
+
+### Workflow runs but no inbox commit
+
+Open the Actions log — likely OpenAI spend cap or script error.

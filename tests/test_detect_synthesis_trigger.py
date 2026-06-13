@@ -44,7 +44,32 @@ class TestInboxResearchDetection(unittest.TestCase):
         self.assertFalse(synthesis_file_modified(paths, "inbox/news", "2026-06-10"))
 
 
-class TestLatestPerType(unittest.TestCase):
+class TestBriefingExistsGuard(unittest.TestCase):
+    def test_skips_when_briefing_already_exists(self) -> None:
+        from detect_synthesis_trigger import evaluate_type
+
+        date_str = "2099-06-03"
+        synthesis = REPO_ROOT / f"inbox/news/{date_str}-synthesis.json"
+        briefing = REPO_ROOT / f"briefings/news/{date_str}.md"
+        synthesis.parent.mkdir(parents=True, exist_ok=True)
+        briefing.parent.mkdir(parents=True, exist_ok=True)
+        synthesis.write_text('{"built_at":"2099-06-03T10:00:00Z"}', encoding="utf-8")
+        briefing.write_text("# test\n", encoding="utf-8")
+
+        try:
+            should_run, reason, _ = evaluate_type(
+                "news",
+                commit_sha="deadbeef",
+                subject=f"inbox/news: {date_str} research pre-fetch",
+                changed=[f"inbox/news/{date_str}-synthesis.json"],
+            )
+            self.assertFalse(should_run)
+            self.assertIn("already exists", reason)
+        finally:
+            synthesis.unlink(missing_ok=True)
+            briefing.unlink(missing_ok=True)
+
+
     def test_keeps_newest_date_per_type(self) -> None:
         paths = [
             REPO_ROOT / "briefings/news/2026-06-09.md",

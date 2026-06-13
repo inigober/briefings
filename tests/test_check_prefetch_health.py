@@ -40,6 +40,12 @@ class TestPrefetchHealth(unittest.TestCase):
         self.assertFalse(status.ok)
         self.assertEqual(status.type_id, "news")
 
+    def test_all_profile_types(self) -> None:
+        self.assertEqual(
+            set(types_for_profile("all")),
+            {"news", "berlin-culture", "berlin-restaurants"},
+        )
+
     def test_culture_skips_non_tuesday(self) -> None:
         status = check_type("berlin-culture", "2026-06-12")  # Friday
         self.assertTrue(status.ok)

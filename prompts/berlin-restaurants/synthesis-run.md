@@ -20,7 +20,7 @@ If triggered by a git push to `main`:
    - **Continue** if the commit message starts with `inbox/berlin-restaurants:`.
    - **Else continue** only if a changed `*-synthesis.json` has `built_at` within the **last 24 hours** (UTC).
    - **Otherwise stop** — log "Inbox path changed but not a fresh pre-fetch; skipping synthesis."
-5. If `briefings/berlin-restaurants/YYYY-MM-DD.md` exists for the inbox file's Thursday date **and** no `*-synthesis.json` for that date was modified in this commit, stop.
+5. If `briefings/berlin-restaurants/YYYY-MM-DD.md` exists for the inbox file's Thursday date, **stop** — log "Briefing already exists; skipping duplicate synthesis."
 
 ## Step 1 — Read context
 

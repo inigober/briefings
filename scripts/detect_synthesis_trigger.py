@@ -166,12 +166,10 @@ def evaluate_type(
         if not date_str:
             continue
         briefing_path = bt.briefing_path(date_str)
-        if briefing_path.exists() and not synthesis_file_modified(
-            changed, inbox_rel, date_str
-        ):
+        if briefing_path.exists():
             return (
                 False,
-                f"Briefing already exists for {date_str} without new synthesis inbox",
+                f"Briefing already exists for {date_str}",
                 tuple(research_files),
             )
 
