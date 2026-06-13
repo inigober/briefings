@@ -1,7 +1,7 @@
 {
   "date": "2026-06-09",
   "cap_usd": 2.0,
-  "spent_usd": 0.748444,
+  "spent_usd": 0.820534,
   "estimated": true,
   "cap_exceeded": false,
   "calls": [
@@ -134,7 +134,27 @@
       "web_search_calls": 0,
       "cost_usd": 0.029326,
       "at": "2026-06-13T17:39:41.932530+00:00"
+    },
+    {
+      "section": "culture_search",
+      "model": "gpt-4.1",
+      "input_tokens": 19659,
+      "cached_tokens": 4608,
+      "output_tokens": 1415,
+      "web_search_calls": 1,
+      "cost_usd": 0.053726,
+      "at": "2026-06-13T17:57:43.521552+00:00"
+    },
+    {
+      "section": "culture_structure",
+      "model": "gpt-4.1",
+      "input_tokens": 2102,
+      "cached_tokens": 0,
+      "output_tokens": 1770,
+      "web_search_calls": 0,
+      "cost_usd": 0.018364,
+      "at": "2026-06-13T17:57:55.205776+00:00"
     }
   ],
-  "last_run_at": "2026-06-13T17:39:41.932570+00:00"
+  "last_run_at": "2026-06-13T17:57:55.205806+00:00"
 }

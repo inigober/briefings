@@ -5,551 +5,361 @@
   "week_end": "2026-06-16",
   "week_label": "June 10–16, 2026",
   "source_raw": "inbox/berlin-culture/2026-06-09-raw.json",
-  "built_at": "2026-06-13T17:40:16.222494+00:00",
+  "built_at": "2026-06-13T17:58:13.334296+00:00",
   "model": "gpt-4.1",
-  "raw_item_count": 42,
+  "raw_item_count": 43,
   "section_counts": {
-    "exhibitions": 7,
-    "film": 5,
+    "exhibitions": 10,
+    "film": 0,
     "performing_arts": 4,
-    "music": 5,
+    "music": 0,
     "wildcards": 4,
-    "advance_radar": 2
+    "advance_radar": 1
   },
   "items": [
     {
-      "id": "ex1",
+      "id": "exh-2",
       "topic_ids": [
         "exhibitions",
-        "video_art"
+        "video",
+        "sound",
+        "installation"
       ],
-      "title": "Sabel Gavaldon: Hours of Ceremony",
-      "venue": "n.b.k.",
-      "dates": "May 11 – June 15, 2026",
-      "times": "During regular gallery hours",
+      "title": "Wùn Ná Kre (Zas Ieluhee)",
+      "venue": "Haus der Kulturen der Welt (HKW), Bessie Head Foyer",
+      "dates": "May 22 – June 14, 2026",
+      "times": "Wed–Mon 12:00–19:00 (Fri until 20:00)",
       "artists": [
-        "Sabel Gavaldon"
+        "Zas Ieluhee"
       ],
-      "official_url": "https://www.nbk.org/en/exhibitions/sabel-gavaldon.html",
-      "closing_soon": true,
-      "verified": true,
-      "url_live": true,
-      "why_candidate": "Research-based video installations centering historical ritual and political subjectivity, closing soon.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "ex3",
-      "topic_ids": [
-        "exhibitions",
-        "contemporary_art"
-      ],
-      "title": "Karrabing Film Collective: The Road Is a Circular Song",
-      "venue": "Gropius Bau",
-      "dates": "April 29 – August 16, 2026",
-      "times": "Wed–Mon, 10–19h",
-      "artists": [
-        "Karrabing Film Collective"
-      ],
-      "official_url": "https://www.gropiusbau.de/en/exhibition/karrabing-film-collective",
-      "closing_soon": false,
-      "verified": true,
-      "url_live": true,
-      "why_candidate": "Urgent Indigenous perspectives on land, colonialism, and memory—moving image installations from acclaimed Australian collective.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "ex6",
-      "topic_ids": [
-        "exhibitions",
-        "audiovisual"
-      ],
-      "title": "Synesthesia – Hearing the Invisible",
-      "venue": "PalaisPopulaire",
-      "dates": "Opening June 13, 2026",
-      "times": "Thu–Mon, 11–18h",
-      "artists": [
-        "Group exhibition"
-      ],
-      "official_url": "https://www.palaispopulaire.de/en/programme/synesthesia-hearing-the-invisible",
-      "closing_soon": false,
-      "verified": true,
-      "url_live": true,
-      "why_candidate": "Brand new show investigating cross-sensory perception via sound, video, and immersive installation.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "ex2",
-      "topic_ids": [
-        "exhibitions",
-        "sound_art"
-      ],
-      "title": "Heba Y. Amin: The General’s Stork",
-      "venue": "Kindl – Centre for Contemporary Art",
-      "dates": "March 22 – June 14, 2026",
-      "times": "Wed–Sun, 12–18h",
-      "artists": [
-        "Heba Y. Amin"
-      ],
-      "official_url": "https://kindl.org/en/exhibition/heba-y-amin-the-generals-stork/",
+      "official_url": "https://www.hkw.de/en?utm_source=openai",
       "closing_soon": true,
       "verified": false,
-      "url_live": false,
-      "why_candidate": "Politically charged multimedia exhibition on surveillance, geopolitics, and colonial legacies in North Africa, closing soon.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "ex4",
-      "topic_ids": [
-        "exhibitions",
-        "feminism"
-      ],
-      "title": "Silvia Giambrone: Taming the Self",
-      "venue": "KW Institute for Contemporary Art",
-      "dates": "May 17 – August 3, 2026",
-      "times": "Wed–Mon, 11–19h",
-      "artists": [
-        "Silvia Giambrone"
-      ],
-      "official_url": "https://www.kw-berlin.de/en/taming-the-self/",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Feminist, interdisciplinary work with performative objects and installations addressing violence and self-determination.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "ex5",
-      "topic_ids": [
-        "exhibitions",
-        "contemporary_art"
-      ],
-      "title": "Free Flow – Water as Material, Method, and Metaphor",
-      "venue": "Berlinische Galerie",
-      "dates": "June 6 – September 21, 2026",
-      "times": "Wed–Mon, 10–18h",
-      "artists": [
-        "Group exhibition"
-      ],
-      "official_url": "https://www.berlinische-galerie.de/en/exhibitions/current-exhibitions/free-flow/",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "New group show exploring intersectional ecologies, migration, and urban water politics across diverse media.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "ex7",
-      "topic_ids": [
-        "exhibitions",
-        "queer"
-      ],
-      "title": "At the Edge: Narratives of Queer Diaspora",
-      "venue": "SAVVY Contemporary",
-      "dates": "June 2 – July 13, 2026",
-      "times": "Wed–Sun, 14–19h",
-      "artists": [
-        "Group exhibition"
-      ],
-      "official_url": "https://savvy-contemporary.com/en/projects/2026/at-the-edge/",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Timely group exhibition zooming in on migration, exile, and queer/feminist memory from diasporic positions.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "film3",
-      "topic_ids": [
-        "film",
-        "ecology"
-      ],
-      "title": "WETLANDS: Documenting Ecology and Displacement",
-      "venue": "ACUDkino",
-      "dates": "June 15, 2026",
-      "times": "19:30",
-      "artists": [
-        "Curated program"
-      ],
-      "official_url": "https://acudkino.de/en/programm/wetlands-june2026",
-      "closing_soon": false,
-      "verified": true,
       "url_live": true,
-      "why_candidate": "Hybrid docu/essay program blending environmental justice with migration and multispecies narratives.",
+      "why_candidate": "Research-based video/sound installation; explores culture, data, and identity; closing soon.",
       "ingestion_source": "openai"
     },
     {
-      "id": "film4",
+      "id": "exh-1",
       "topic_ids": [
-        "film",
-        "archive"
+        "exhibitions",
+        "postcolonial",
+        "research"
       ],
-      "title": "Memory Traces: Colonial Legacies in the Archive",
-      "venue": "Arsenal Filminstitut",
-      "dates": "June 12, 2026",
-      "times": "19:00",
-      "artists": [
-        "Curated",
-        "Guest researcher"
-      ],
-      "official_url": "https://arsenal-berlin.de/en/cinema/programm/memory-traces-archive-june2026/",
-      "closing_soon": false,
-      "verified": true,
+      "title": "Tirailleurs: Trials and Tribulations",
+      "venue": "Haus der Kulturen der Welt (HKW)",
+      "dates": "March 21 – June 14, 2026",
+      "times": "Wed–Mon 12:00–19:00 (Fri until 20:00)",
+      "artists": [],
+      "official_url": "https://www.hkw.de/en?utm_source=openai",
+      "closing_soon": true,
+      "verified": false,
       "url_live": true,
-      "why_candidate": "Researcher-led historical screenings probing postcolonial archives, memory, and resistance in moving image.",
+      "why_candidate": "Major research-based exhibition confronting colonial/postcolonial history; closes within the event window.",
       "ingestion_source": "openai"
     },
     {
-      "id": "film1",
+      "id": "rss-exhibitions-1ad7983b49",
       "topic_ids": [
-        "film",
-        "political_cinema"
-      ],
-      "title": "Kübra Kocak: Looking for Freedom + Discussion",
-      "venue": "Sinema Transtopia",
-      "dates": "June 13, 2026",
-      "times": "19:00",
-      "artists": [
-        "Kübra Kocak"
-      ],
-      "official_url": "https://www.sinematranstopia.com/en/events/looking-for-freedom-discussion",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Intimate political doc on life in exile and Berlin activism, followed by Q&A with the filmmaker.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "film2",
-      "topic_ids": [
-        "film",
-        "experimental"
-      ],
-      "title": "NOW! Selected Short Films (Experimental Program)",
-      "venue": "Wolf Kino",
-      "dates": "June 13, 2026",
-      "times": "20:00",
-      "artists": [
-        "Various"
-      ],
-      "official_url": "https://wolfberlin.org/en/programme/now-shorts-june-2026",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Experimental, hybrid moving image—politics, history, and ecology recur across this contemporary shorts showcase.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "film5",
-      "topic_ids": [
-        "film",
-        "migration"
-      ],
-      "title": "Crossing Spaces: Diaspora Cinema",
-      "venue": "fsk Kino",
-      "dates": "June 15, 2026",
-      "times": "20:30",
-      "artists": [
-        "Various"
-      ],
-      "official_url": "https://www.fsk-kino.de/kino/program/crossing-spaces-june2026",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "A program of essay/documentary shorts on migration and border crossings in contemporary Europe.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "pa1",
-      "topic_ids": [
-        "performing_arts",
-        "contemporary_dance"
-      ],
-      "title": "John the Houseband: Uncanny Movement",
-      "venue": "HAU Hebbel am Ufer",
-      "dates": "June 13–14, 2026",
-      "times": "20:00",
-      "artists": [
-        "John the Houseband"
-      ],
-      "official_url": "https://www.hebbel-am-ufer.de/programm/termine/john-the-houseband-june-2026/",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Experimental live performance group blurring boundaries between dance, sound, and participatory theatre.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "pa2",
-      "topic_ids": [
-        "performing_arts",
-        "choreography"
-      ],
-      "title": "Ivana Müller: Slowly but Surely",
-      "venue": "Sophiensæle",
-      "dates": "June 11–13, 2026",
-      "times": "20:00 each night",
-      "artists": [
-        "Ivana Müller"
-      ],
-      "official_url": "https://sophiensaele.com/en/timetable/ivana-mueller-slowly-but-surely-june2026",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Choreographic participatory performance exploring utopia and social imagination in unstable times.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "pa3",
-      "topic_ids": [
-        "performing_arts",
-        "experimental"
-      ],
-      "title": "s.a.bineh: Fragments of Speechlessness",
-      "venue": "Tanzfabrik",
-      "dates": "June 13, 2026",
-      "times": "19:00",
-      "artists": [
-        "s.a.bineh"
-      ],
-      "official_url": "https://www.tanzfabrik-berlin.de/en/programme/fragments-of-speechlessness-june2026",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Solo performance on gendered silence, vulnerability, and the body as archive.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "pa4",
-      "topic_ids": [
-        "performing_arts",
-        "interdisciplinary"
-      ],
-      "title": "Minna Tiikkainen & Working Group: Burnt Out",
-      "venue": "Radialsystem",
-      "dates": "June 14, 2026",
-      "times": "18:00",
-      "artists": [
-        "Minna Tiikkainen",
-        "Working Group"
-      ],
-      "official_url": "https://www.radialsystem.de/en/programm/burnt-out-june2026/",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Interdisciplinary project merging voice, light, and movement to tackle burnout and emotional ecology.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "mu1",
-      "topic_ids": [
-        "music",
-        "sound_art"
-      ],
-      "title": "Maja S.K. Ratkje: Between Voice and Machines",
-      "venue": "MONOM 4D Sound",
-      "dates": "June 12, 2026",
-      "times": "20:00",
-      "artists": [
-        "Maja S.K. Ratkje"
-      ],
-      "official_url": "https://monom.berlin/en/events/ratkje-june2026",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Renowned electroacoustic composer presents expanded voice and multichannel audio works.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "mu2",
-      "topic_ids": [
-        "music",
-        "electroacoustic"
-      ],
-      "title": "Tarek Atoui: Waters' Witness",
-      "venue": "KM28",
-      "dates": "June 14, 2026",
-      "times": "20:00",
-      "artists": [
-        "Tarek Atoui"
-      ],
-      "official_url": "https://www.km28.de/en/program/tarek-atoui-waters-witness-june2026/",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Seminal sound installation/performer fusing field recordings and electronics—ecologies of water and geopolitics.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "mu3",
-      "topic_ids": [
-        "music",
-        "experimental_electronic"
-      ],
-      "title": "Reece Cox + Tatjana Doms: Expanded Listening",
-      "venue": "Morphine Raum",
-      "dates": "June 13, 2026",
-      "times": "20:30",
-      "artists": [
-        "Reece Cox",
-        "Tatjana Doms"
-      ],
-      "official_url": "https://morphine.space/events/reece-cox-tatjana-doms-june-2026",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Duo night of experimental club/electronic with immersive, conceptual sound design.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "mu4",
-      "topic_ids": [
-        "music",
-        "ambient"
-      ],
-      "title": "Lamin Fofana: Resonances of Restitution",
-      "venue": "Silent Green",
-      "dates": "June 15, 2026",
-      "times": "21:00",
-      "artists": [
-        "Lamin Fofana"
-      ],
-      "official_url": "https://www.silent-green.net/en/program/lamin-fofana-june2026/",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Ambient and diasporic music reflecting colonial histories and black futurism.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "mu5",
-      "topic_ids": [
-        "music",
-        "avant_pop"
-      ],
-      "title": "Tender Matter (Live): Interference",
-      "venue": "Arkaoda",
-      "dates": "June 12, 2026",
-      "times": "21:00",
-      "artists": [
-        "Tender Matter"
-      ],
-      "official_url": "https://www.arkaoda.com/events/tender-matter-interference-june2026",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Berlin-based experimental live electronics/avant-pop project with poetic, narrative-driven sets.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "wild1",
-      "topic_ids": [
-        "wildcards",
-        "urbanism"
-      ],
-      "title": "Borders Unframed: Decolonise the Map! Workshop/Panel",
-      "venue": "HKW",
-      "dates": "June 12, 2026",
-      "times": "17:00–20:00",
-      "artists": [
-        "Multiple speakers"
-      ],
-      "official_url": "https://hkw.de/en/events/borders-unframed-june-2026",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Interactive research event on borders, mapping, and post/de-colonial urbanism linked to current geopolitics.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "wild2",
-      "topic_ids": [
-        "wildcards",
-        "queer"
-      ],
-      "title": "Queer Ecologies: Rethinking Safe Spaces (Talk + Listening Session)",
-      "venue": "SAVVY Contemporary",
-      "dates": "June 15, 2026",
-      "times": "18:00–21:00",
-      "artists": [
-        "Panel + DJ"
-      ],
-      "official_url": "https://savvy-contemporary.com/en/events/2026/queer-ecologies-talk/",
-      "closing_soon": false,
-      "verified": false,
-      "url_live": false,
-      "why_candidate": "Hybrid event on queer ecology, migration, and intersectional safe spaces—discussion followed by sound session.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "rss-wildcards-bd38829a23",
-      "topic_ids": [
-        "wildcards"
-      ],
-      "title": "#501: New Goebbels villa owner, Müggelsee island for sale, driverless cars",
-      "venue": "20% Berlin",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.20percent.berlin/p/501-new-goebbels-villa-owner-muggelsee",
-      "closing_soon": false,
-      "verified": false,
-      "why_candidate": "Eels. Lots of eels.",
-      "ingestion_source": "rss"
-    },
-    {
-      "id": "rss-wildcards-3175cc09ff",
-      "topic_ids": [
-        "wildcards"
-      ],
-      "title": "#500: Uber, BVG, NIUS, raves, podcast",
-      "venue": "20% Berlin",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.20percent.berlin/p/500-uber-bvg-nius-raves-podcast",
-      "closing_soon": false,
-      "verified": false,
-      "why_candidate": "Berlin businesses are not happy",
-      "ingestion_source": "rss"
-    },
-    {
-      "id": "adv2",
-      "topic_ids": [
-        "advance_radar",
         "exhibitions"
       ],
-      "title": "Ghislaine Leung: Score",
-      "venue": "Haus am Waldsee",
-      "dates": "Opening June 27, 2026",
-      "times": "Wed–Sun, 11–18h",
-      "artists": [
-        "Ghislaine Leung"
-      ],
-      "official_url": "https://www.hausamwaldsee.de/en/programme/ghislaine-leung-score-june2026",
+      "title": "Resisting Habituation: ‘Pedagogies of War’ at Thyssen-Bornemisza Madrid",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/12/pedagogies-of-war-thyssen-bornemisza-madrid-exhibition-review/",
       "closing_soon": false,
-      "verified": true,
+      "verified": false,
+      "why_candidate": "by Adela Lovric // June 12, 2026 In collaboration with TBA21, the Thyssen-Bornemisza National Museum in Madrid presents ‘Pedagogies of War,’ an exhibition by Ukrainian artists Roman Khimei and Yarema Malashchuk. In the exhibition foreword …[read on]",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-exhibitions-6e59e86434",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Queer Pastoral: ‘Cruising the Countryside’ at Schwules Museum",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/12/cruising-the-countryside-schwules-museum-group-exhibition-review/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "by Olivia Noss // June 12, 2026 In a time before social media, queer publications offered a lifeline to those isolated within their small towns. They were a source of escape for many young people and, in some cases, their only foray into queer culture in general. The Schwules Museum …[read on]",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-exhibitions-97b6519e67",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Weight of Words: Shilpa Gupta at Hamburger Bahnhof",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/12/shilpa-gupta-hamburger-bahnhof-exhibition-review-scale/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "by Carolin Kralapp // June 12, 2026 Some words are meant to be read. Others, insists Shilpa Gupta, must be walked through. In her current solo exhibition, 'What Still Holds' at Hamburger Bahnhof in Berlin, both approaches prove essential. The Mumbai-based artist confronts …[read on]",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-exhibitions-daa36708b7",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "From Noise to New Media: Polish Art Week and Avant Art Festival in Berlin",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/09/polish-art-week-berlin-preview-announcement/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "June 9, 2026 Polish Art Week and the 7th Avant Art Festival return to venues across Berlin for an interdisciplinary program dedicated to contemporary experimental practices in music, performance and audiovisual art. From June 22nd …[read on]",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-exhibitions-2ceabe4481",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Oat Montien",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/08/oat-montien-studio-visit-bangkok/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "by Adela Lovric // June 8, 2026 To reach Oat Montien’s two-story studio, you first walk through the leafy, serene garden of his family’s restaurant in northern Bangkok. Then past an art venue …[read on]",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-exhibitions-46442c9cdc",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Week June 8–14, 2026",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/08/things-to-do-in-berlin-art-opening-performances-june8-june14-2026/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Openings and events at KW Institute for Contemporary Art, Haus am Waldsee, Sophiensæle, Schinkel Pavillon, Kunstbrücke am Wildenbruch, SAP Space, Co-Making Matters, Gropius Bau, Project Space Festival Berlin, super bien!, Galerie im Turm, Neun Kelche, Haus am Lützowplatz, HKW, Klemm’s, TD Berlin,...",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-exhibitions-26dead8452",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "No Such Thing as a Small Thing: Florentina Holzinger in Venice",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/05/florentina-holzinger-seaworld-venice-review-scale/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "by Louise Trueheart // June 5, 2026 A massive shipping crane and a set of bleachers towered out of the water, moored somewhere in the middle of Venice’s lagoon. A subwoofer droned through the pouring rain, its fine plastic covering the only fragile-looking …[read on]",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-exhibitions-4f6fc1ad55",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Power of Secrets: Richard Hawkins at Kestner Gesellschaft",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/02/richard-hawkins-kestner-gesellschaft-exhibition-review/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "by Mia Butter // June 2, 2026 It’s been over a decade since Germany has held an extensive survey of the Los Angeles-based artist Richard Hawkins’ work. After an Austrian iteration of ‘Potentialities’ at Kunsthalle Wien, the show was recently refreshed …[read on]",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "perf-2",
+      "topic_ids": [
+        "performing_arts",
+        "hybrid",
+        "conversation"
+      ],
+      "title": "Where the Tirailleurs’ Stories Meet (Samia Chabani)",
+      "venue": "Haus der Kulturen der Welt (HKW)",
+      "dates": "June 13, 2026",
+      "times": "15:00–16:00",
+      "artists": [
+        "Samia Chabani"
+      ],
+      "official_url": "https://www.hkw.de/en?utm_source=openai",
+      "closing_soon": false,
+      "verified": false,
       "url_live": true,
-      "why_candidate": "Highly anticipated solo exhibition merging conceptual art and participatory scoring systems.",
+      "why_candidate": "Conversation and performance hybrid about colonial memory and storytelling.",
       "ingestion_source": "openai"
     },
     {
-      "id": "adv1",
+      "id": "perf-4",
       "topic_ids": [
-        "advance_radar",
-        "festival"
+        "performing_arts",
+        "poetry",
+        "performance"
       ],
-      "title": "Forecast Forum 2026 – International Mentoring Platform",
-      "venue": "Radialsystem",
-      "dates": "June 29 – July 5, 2026",
-      "times": "Programme TBA",
+      "title": "Mesdames Tirailleurs (Matilda TheeGreat)",
+      "venue": "Haus der Kulturen der Welt (HKW)",
+      "dates": "June 13, 2026",
+      "times": "(time unspecified)",
       "artists": [
-        "Emerging artists/mentors"
+        "Matilda TheeGreat"
       ],
-      "official_url": "https://www.radialsystem.de/en/programm/forecast-forum-2026/",
+      "official_url": "https://www.hkw.de/en?utm_source=openai",
       "closing_soon": false,
       "verified": false,
-      "url_live": false,
-      "why_candidate": "Advance heads-up: global research festival of experimental art, performance, and interdisciplinary dialogue.",
+      "url_live": true,
+      "why_candidate": "Poetry performance exploring marginalized histories as part of Tirailleurs.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "perf-1",
+      "topic_ids": [
+        "performing_arts",
+        "interdisciplinary",
+        "postcolonial"
+      ],
+      "title": "The Color Scheme",
+      "venue": "Haus der Kulturen der Welt (HKW), Miriam Makeba Auditorium",
+      "dates": "June 12, 2026",
+      "times": "20:00",
+      "artists": [],
+      "official_url": "https://www.hkw.de/en?utm_source=openai",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Performance critically engaging with postcolonial heritage as part of 'Tirailleurs'.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "perf-3",
+      "topic_ids": [
+        "performing_arts",
+        "lecture_performance"
+      ],
+      "title": "Violent Encounters: Rethinking War Experiences through the Prism of Gender",
+      "venue": "Haus der Kulturen der Welt (HKW)",
+      "dates": "June 13, 2026",
+      "times": "(time unspecified)",
+      "artists": [],
+      "official_url": "https://www.hkw.de/en?utm_source=openai",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Keynote lecture performance on memory, gender, and war experience; interdisciplinary.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "wild-1",
+      "topic_ids": [
+        "wildcards",
+        "participatory",
+        "workshop"
+      ],
+      "title": "Sabar Workshops 2026 (Nago Guèye Koité, SAF SAP)",
+      "venue": "Haus der Kulturen der Welt (HKW), Haunani‑Kay Trask Hall",
+      "dates": "June 10, 2026",
+      "times": "19:00–21:00",
+      "artists": [
+        "Nago Guèye Koité",
+        "SAF SAP"
+      ],
+      "official_url": "https://www.hkw.de/en/programme/sabar-polyrhythm-and-the-politics-of-body-movement/sabar-workshops-2026?utm_source=openai",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Participatory drum & dance session on political rhythm, diasporic practice, and embodied culture.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "perf-wildcard-1",
+      "topic_ids": [
+        "wildcards",
+        "performing_arts",
+        "lecture_performance"
+      ],
+      "title": "Slavs and Tatars – I Utter Other (Lecture Performance)",
+      "venue": "Haus der Kulturen der Welt (HKW)",
+      "dates": "June 13, 2026",
+      "times": "(time unspecified)",
+      "artists": [
+        "Slavs and Tatars"
+      ],
+      "official_url": "https://www.hkw.de/en?utm_source=openai",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Lecture-performance blurring boundaries between talk and performance; post-Soviet and identity politics.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "perf-walk-1",
+      "topic_ids": [
+        "wildcards",
+        "performing_arts",
+        "guided_tour"
+      ],
+      "title": "A Walk Through the Exhibition with…",
+      "venue": "Haus der Kulturen der Welt (HKW)",
+      "dates": "June 13, 2026",
+      "times": "14:00–15:00",
+      "artists": [],
+      "official_url": "https://www.hkw.de/en?utm_source=openai",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Guided tour featuring participatory and performative elements within the exhibition.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "rss-wildcards-e42b77966e",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "EIN FANG IN MITTE: AUSTERN, CEVICHE & YUZU HIGHLIGHTS BEI FAT HENRY",
+      "venue": "Cee Cee Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://ceecee.cc/ein-fang-in-mitte-austern-ceviche-yuzu-highlights-bei-fat-henry/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Vor einigen Jahren machte sich Fabi Eberlein auf Weltreise, um neue Abenteuer zu erleben. Stattdessen...",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "advance-1",
+      "topic_ids": [
+        "advance_radar",
+        "music",
+        "festival"
+      ],
+      "title": "Sonic Pluriverse Festival: Global Echoes of Gnawa",
+      "venue": "Haus der Kulturen der Welt (HKW)",
+      "dates": "June 26, 2026 and following days",
+      "times": "(various)",
+      "artists": [],
+      "official_url": "https://www.hkw.de/en/the-house/press/press-releases/2026/05-05-2026-Sonic-Pluriverse-Festival?utm_source=openai",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Major summer festival announced relevant for wider international music/sound art audiences.",
       "ingestion_source": "openai"
     }
   ],
