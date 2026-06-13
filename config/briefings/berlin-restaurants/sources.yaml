@@ -1,10 +1,5 @@
 allowed_domains:
-  # Google Maps / local profile verification
-  - google.com
-  - google.de
-  - maps.google.com
-
-  # Berlin food/culture publications and roundups
+  # Editorial / discovery only — Google Maps verification is via Places API post-fetch
   - tip-berlin.de
   - mitvergnuegen.com
   - ceecee.cc
@@ -37,38 +32,26 @@ blocklist_domains:
 
 source_priorities:
   regional_chinese:
-    - google.com
-    - google.de
     - berlinfoodstories.com
     - tip-berlin.de
     - mitvergnuegen.com
   southeast_asian:
-    - google.com
-    - google.de
     - berlinfoodstories.com
     - tip-berlin.de
     - ceecee.cc
   turkish_middle_eastern_caucasus:
-    - google.com
-    - google.de
     - tip-berlin.de
     - mitvergnuegen.com
     - qiez.de
   mediterranean_european:
-    - google.com
-    - google.de
     - tip-berlin.de
     - cremeguides.com
     - stilinberlin.de
   specialist_neighborhood:
-    - google.com
-    - google.de
     - berlinfoodstories.com
     - ceecee.cc
     - mitvergnuegen.com
   fine_dining:
-    - google.com
-    - google.de
     - guide.michelin.com
     - michelin.com
     - falstaff.com

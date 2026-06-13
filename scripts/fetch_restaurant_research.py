@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Pre-fetch Berlin restaurant candidates via OpenAI Responses API + web_search."""
+"""Pre-fetch Berlin restaurant candidates via a single OpenAI call + web_search.
+
+Google Maps verification runs afterward via ``verify_restaurant_maps.py`` (Places API).
+"""
 
 from __future__ import annotations
 
@@ -13,15 +16,11 @@ if str(_SCRIPTS_DIR) not in sys.path:
 import argparse
 import json
 import os
-import threading
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime, timedelta, timezone
-from typing import Any
+from datetime import datetime, timezone
 
 from briefing_paths import load_briefing_type
 from fetch_openai_research import (
     DEFAULT_MODEL,
-    PARALLEL_WORKERS,
     fetch_structured,
     load_yaml,
     log,
@@ -36,20 +35,15 @@ from openai_spend import (
     resolve_daily_cap,
     usage_from_response,
 )
-from restaurant_maps import is_verified
+from restaurant_dates import normalize_thursday_run_date
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-RESTAURANT_SECTION_MIN: dict[str, int] = {
-    "regional_chinese": 6,
-    "southeast_asian": 6,
-    "turkish_middle_eastern_caucasus": 6,
-    "mediterranean_european": 6,
-    "specialist_neighborhood": 6,
-    "fine_dining": 3,
-}
+# Minimum candidates per section in the single combined fetch (synthesis picks fewer).
+DEFAULT_SECTION_MIN = 3
+FINE_DINING_SECTION_MIN = 2
 
-RESTAURANT_ITEM_SCHEMA = {
+RESTAURANT_CANDIDATE_SCHEMA = {
     "type": "object",
     "properties": {
         "id": {"type": "string"},
@@ -68,16 +62,6 @@ RESTAURANT_ITEM_SCHEMA = {
         "weaknesses": {"type": "array", "items": {"type": "string"}},
         "comparative_context": {"type": "string"},
         "critical_assessment": {"type": "string"},
-        "google_maps_name": {"type": "string"},
-        "google_maps_url": {"type": "string"},
-        "google_maps_address": {"type": "string"},
-        "google_maps_rating": {"type": ["number", "null"]},
-        "google_maps_review_count": {"type": ["integer", "null"]},
-        "google_maps_hours_compact": {"type": ["string", "null"]},
-        "exists_in_berlin": {"type": "boolean"},
-        "permanently_closed": {"type": "boolean"},
-        "temporarily_closed": {"type": "boolean"},
-        "verification_notes": {"type": "string"},
         "source_urls": {"type": "array", "items": {"type": "string"}},
     },
     "required": [
@@ -94,25 +78,15 @@ RESTAURANT_ITEM_SCHEMA = {
         "weaknesses",
         "comparative_context",
         "critical_assessment",
-        "google_maps_name",
-        "google_maps_url",
-        "google_maps_address",
-        "google_maps_rating",
-        "google_maps_review_count",
-        "google_maps_hours_compact",
-        "exists_in_berlin",
-        "permanently_closed",
-        "temporarily_closed",
-        "verification_notes",
         "source_urls",
     ],
     "additionalProperties": False,
 }
 
-SECTION_RESULT_SCHEMA = {
+COMBINED_RESULT_SCHEMA = {
     "type": "object",
     "properties": {
-        "items": {"type": "array", "items": RESTAURANT_ITEM_SCHEMA},
+        "items": {"type": "array", "items": RESTAURANT_CANDIDATE_SCHEMA},
         "gaps": {"type": "array", "items": {"type": "string"}},
         "search_notes": {"type": "string"},
     },
@@ -121,20 +95,10 @@ SECTION_RESULT_SCHEMA = {
 }
 
 
-def normalize_thursday_run_date(date_str: str) -> tuple[str, datetime]:
-    """Restaurant briefings use the Thursday run date as the week key."""
-    run_dt = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-    if run_dt.weekday() != 3:
-        # Monday=0 … Sunday=6; distance back to previous Thursday (never 0 here).
-        days_since_thursday = (run_dt.weekday() - 3) % 7 or 7
-        snapped = run_dt - timedelta(days=days_since_thursday)
-        log(
-            f"  Warning: {date_str} is not a Thursday — using previous Thursday "
-            f"{snapped.strftime('%Y-%m-%d')} for file naming"
-        )
-        run_dt = snapped
-        date_str = run_dt.strftime("%Y-%m-%d")
-    return date_str, run_dt
+def section_min_items(topic: dict) -> int:
+    if topic.get("optional"):
+        return FINE_DINING_SECTION_MIN
+    return int(topic.get("prefetch_min") or DEFAULT_SECTION_MIN)
 
 
 def build_preferences_block(topics_cfg: dict) -> str:
@@ -149,154 +113,104 @@ def build_preferences_block(topics_cfg: dict) -> str:
     return "\n".join(lines)
 
 
-def build_sources_block(sources_cfg: dict, section_id: str) -> str:
-    priorities = (sources_cfg.get("source_priorities") or {}).get(section_id) or []
-    neighborhoods = sources_cfg.get("neighborhoods_to_diversify") or []
-    lines = ["## Search guidance"]
-    if priorities:
-        lines.append(f"- Priority sources for this section: {', '.join(priorities)}")
-    if neighborhoods:
-        lines.append(f"- Actively diversify neighborhoods: {', '.join(neighborhoods)}")
-    lines.append("- Google Maps is mandatory for verification; other sources are candidate discovery only.")
+def build_section_requirements(topics_cfg: dict) -> str:
+    lines = ["## Section targets (assign each candidate to one primary topic_id)"]
+    for topic in topics_cfg.get("topics") or []:
+        if not topic.get("enabled", True):
+            continue
+        sid = topic.get("id", "")
+        min_items = section_min_items(topic)
+        optional = " (optional section — include only if genuinely strong)" if topic.get("optional") else ""
+        lines.append(
+            f"- **{topic.get('name')}** (`{sid}`): at least {min_items} candidates{optional}\n"
+            f"  {str(topic.get('description', '')).strip()}"
+        )
     return "\n".join(lines)
 
 
-def build_section_prompt(
+def build_combined_prompt(
     *,
-    section_id: str,
-    topic: dict,
     date_str: str,
-    min_items: int,
     topics_cfg: dict,
     sources_cfg: dict,
     search_domains: list[str],
 ) -> str:
     domains = "\n".join(f"- {d}" for d in search_domains)
-    return f"""You are pre-fetching candidates for a weekly Berlin restaurant briefing.
+    neighborhoods = sources_cfg.get("neighborhoods_to_diversify") or []
+    neighborhood_line = (
+        f"- Actively diversify neighborhoods: {', '.join(neighborhoods)}"
+        if neighborhoods
+        else ""
+    )
+    return f"""You are pre-fetching candidates for a weekly Berlin restaurant briefing in ONE combined pass.
 
 Briefing week date: {date_str}
-Section: {topic.get('name')} ({section_id})
-Minimum candidates: {min_items}
 
 Audience:
 - Serious Berlin food enthusiast
 - Values flavor, technique, craft, regional identity, and execution over aesthetics or hype
-- Generally prefers affordable and mid-range restaurants, with at most one fine dining pick later
+- Generally prefers affordable and mid-range restaurants, with at most one fine dining pick in synthesis
 - Likes restaurants such as Liu Nudelhaus, Nini e Petirosso, Adana Grillhaus, Euro Imbiss 2, Jemenitisches Restaurant on Karl-Marx-Strasse, Gotxa, Alaska Bar, Asia Farmhouse, Myxa, St. Bart, Bottega N.6, Ma-Makan, Larb Koi, Khao Taan, Taqueria El Oso, Dan Thai Food, Ming Dynastie, and Tian Fu
 
 {build_preferences_block(topics_cfg)}
 
-{build_sources_block(sources_cfg, section_id)}
+{build_section_requirements(topics_cfg)}
 
-## Section focus
-{topic.get('description', '')}
-
-## Mandatory Google Maps verification
-For every candidate, search Google Maps or a Google local profile and fill the Google Maps fields.
-Only return candidates where:
-- The restaurant exists in Berlin
-- Google Maps does not mark it permanently closed
-- Google Maps does not mark it temporarily closed
-
-If Google Maps is ambiguous, missing, says closed, or suggests the restaurant relocated outside Berlin, exclude the restaurant entirely. Do not rely on old press, Michelin, social media, websites, or prior knowledge when Google Maps contradicts them.
-
-For every verified candidate, also copy from Google Maps when visible:
-- google_maps_rating: star rating as a number (e.g. 4.5), or null if missing
-- google_maps_review_count: integer review count, or null if missing
-- google_maps_hours_compact: null here is fine — post-fetch Places verification compacts hours (e.g. "Tue–Sun 12:00–22:00 (closed Mon)")
-
-## Candidate quality rules
-- Prefer restaurants with clear culinary identity, specialization, strong value, technical competence, or regional authenticity
-- Do not select restaurants only because they are fashionable
-- Include both strengths and weaknesses
-- Avoid generic praise; use critical, comparative language
-- Prefer neighborhood diversity and avoid over-concentrating Mitte
+## Discovery rules (no Google Maps in this step)
+- Use food press, guides, and editorial sources only — **do not** open Google Maps or fill Maps URLs/ratings/hours.
+- A separate Google Places step verifies existence, closure status, and Maps metadata after this run.
+- Include **name**, **neighborhood**, and **street address** (or cross-street) so Places can match the venue.
+- Exclude candidates you strongly believe are permanently closed based on recent press, but do not spend searches on Maps verification.
+- Prefer restaurants with clear culinary identity, specialization, strong value, or regional authenticity.
+- Include both strengths and weaknesses; avoid generic praise.
+- Prefer neighborhood diversity; avoid over-concentrating Mitte.
 - Price tiers: € under roughly 15 EUR, €€ roughly 15-35 EUR, €€€ roughly 35-70 EUR, €€€€ 70 EUR+
 - value_label must be null unless "good value" or "potentially overpriced" is genuinely noteworthy
+{neighborhood_line}
 
 web_search allowed domains:
 {domains}
 
-Return JSON: items, gaps, search_notes."""
+Return JSON: items (all sections combined), gaps, search_notes."""
 
 
-def fetch_restaurant_section(
-    *,
-    section_id: str,
-    date_str: str,
-    model: str,
-    topics_cfg: dict,
-    sources_cfg: dict,
-    spend_ledger: DailySpendLedger | None = None,
-    cap_abort: threading.Event | None = None,
-) -> tuple[str, dict]:
-    topics = topic_by_id(topics_cfg)
-    topic = topics.get(section_id)
-    if not topic or not topic.get("enabled", True):
-        return section_id, {"items": [], "gaps": [], "search_notes": ""}
+def enrich_candidate(item: dict) -> dict:
+    """Add Places placeholders — verification runs in verify_restaurant_maps.py."""
+    topic_ids = [t for t in (item.get("topic_ids") or []) if t]
+    section_id = topic_ids[0] if topic_ids else "specialist_neighborhood"
+    extra = [t for t in topic_ids if t != section_id]
+    item["topic_ids"] = [section_id, *extra]
+    item["ingestion_source"] = "openai"
+    name = (item.get("name") or "").strip()
+    address = (item.get("address") or "").strip()
+    item["google_maps_name"] = name
+    item["google_maps_address"] = address
+    item["google_maps_url"] = ""
+    item["google_maps_place_id"] = None
+    item["google_maps_rating"] = None
+    item["google_maps_review_count"] = None
+    item["google_maps_hours_compact"] = None
+    item["exists_in_berlin"] = False
+    item["permanently_closed"] = False
+    item["temporarily_closed"] = False
+    item["maps_api_verified"] = False
+    item["verification_notes"] = "Pending Google Places verification"
+    item["verified"] = False
+    return item
 
-    min_items = RESTAURANT_SECTION_MIN.get(section_id, 5)
-    allowed = sources_cfg.get("allowed_domains") or []
-    prompt = build_section_prompt(
-        section_id=section_id,
-        topic=topic,
-        date_str=date_str,
-        min_items=min_items,
-        topics_cfg=topics_cfg,
-        sources_cfg=sources_cfg,
-        search_domains=allowed,
-    )
 
-    log(f"  [{section_id}] started (min {min_items} candidates)...")
-
-    if cap_abort and cap_abort.is_set():
-        log(f"  [{section_id}] skipped — daily spend cap already reached")
-        return section_id, {
-            "items": [],
-            "gaps": [f"Skipped: daily OpenAI spend cap reached before {section_id}"],
-            "search_notes": "skipped: spend_cap",
-        }
-
-    if spend_ledger and not spend_ledger.try_reserve_section_budget():
-        log(f"  [{section_id}] skipped — insufficient daily budget remaining")
-        return section_id, {
-            "items": [],
-            "gaps": [f"Skipped: daily OpenAI budget reservation exhausted before {section_id}"],
-            "search_notes": "skipped: spend_cap",
-        }
-
-    client = make_client()
-    result, response = fetch_structured(
-        client=client,
-        model=model,
-        prompt=prompt,
-        schema=SECTION_RESULT_SCHEMA,
-        schema_name=f"restaurant_section_{section_id}",
-        domains=allowed,
-    )
-    if spend_ledger:
-        usage = usage_from_response(response=response, model=model, section=section_id)
-        spend_ledger.record_usage(usage)
-        if spend_ledger.is_over_cap():
-            spend_ledger.mark_cap_exceeded()
-            if cap_abort:
-                cap_abort.set()
-            raise SpendCapExceeded(
-                f"Daily OpenAI spend cap reached after {section_id} "
-                f"(${spend_ledger.spent_usd:.4f} >= ${spend_ledger.cap_usd:.2f})"
-            )
-
-    items = result.get("items") or []
-    verified_count = 0
+def section_counts(items: list[dict], topics_cfg: dict) -> dict[str, int]:
+    enabled = {
+        t["id"]
+        for t in topics_cfg.get("topics") or []
+        if t.get("enabled", True) and t.get("id")
+    }
+    counts = {sid: 0 for sid in enabled}
     for item in items:
-        tags = [t for t in (item.get("topic_ids") or []) if t != section_id]
-        item["topic_ids"] = [section_id, *tags]
-        item["ingestion_source"] = "openai"
-        item["verified"] = is_verified(item, require_places_api=False)
-        if item["verified"]:
-            verified_count += 1
-    log(f"  [{section_id}] done ({len(items)} candidates, {verified_count} verified)")
-    return section_id, result
+        topic_ids = item.get("topic_ids") or []
+        if topic_ids and topic_ids[0] in counts:
+            counts[topic_ids[0]] += 1
+    return counts
 
 
 def fetch_all_restaurants(
@@ -308,17 +222,7 @@ def fetch_all_restaurants(
     spend_ledger: DailySpendLedger | None = None,
 ) -> dict:
     date_str, _ = normalize_thursday_run_date(date_str)
-    topics = topic_by_id(topics_cfg)
-    section_ids = [
-        sid
-        for sid, t in topics.items()
-        if t.get("enabled", True)
-    ]
-
-    all_items: list[dict] = []
-    all_gaps: list[str] = []
-    notes: list[str] = []
-    section_counts: dict[str, int] = {}
+    allowed = sources_cfg.get("allowed_domains") or []
 
     if spend_ledger and spend_ledger.cap_enabled():
         log(
@@ -327,79 +231,91 @@ def fetch_all_restaurants(
         )
         spend_ledger.assert_not_over_cap()
 
-    cap_abort = threading.Event()
-    log(f"  Launching {len(section_ids)} restaurant section fetches...")
+    prompt = build_combined_prompt(
+        date_str=date_str,
+        topics_cfg=topics_cfg,
+        sources_cfg=sources_cfg,
+        search_domains=allowed,
+    )
+    log("  Running single combined restaurant research fetch...")
 
-    with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as executor:
-        futures = {
-            executor.submit(
-                fetch_restaurant_section,
-                section_id=sid,
-                date_str=date_str,
-                model=model,
-                topics_cfg=topics_cfg,
-                sources_cfg=sources_cfg,
-                spend_ledger=spend_ledger,
-                cap_abort=cap_abort,
-            ): sid
-            for sid in section_ids
-        }
-        for future in as_completed(futures):
-            try:
-                sid, result = future.result()
-            except SpendCapExceeded:
-                cap_abort.set()
-                raise
-            items = result.get("items") or []
-            section_counts[sid] = len(items)
-            all_items.extend(items)
-            all_gaps.extend(result.get("gaps") or [])
-            if result.get("search_notes"):
-                notes.append(f"{sid}: {result['search_notes']}")
+    if spend_ledger and not spend_ledger.try_reserve_section_budget():
+        raise RuntimeError("Insufficient daily OpenAI budget remaining")
 
-    verified_count = sum(1 for item in all_items if item.get("verified"))
+    client = make_client()
+    result, response = fetch_structured(
+        client=client,
+        model=model,
+        prompt=prompt,
+        schema=COMBINED_RESULT_SCHEMA,
+        schema_name="restaurant_combined",
+        domains=allowed,
+    )
+    if spend_ledger:
+        usage = usage_from_response(response=response, model=model, section="combined")
+        spend_ledger.record_usage(usage)
+        if spend_ledger.is_over_cap():
+            spend_ledger.mark_cap_exceeded()
+            raise SpendCapExceeded(
+                f"Daily OpenAI spend cap reached (${spend_ledger.spent_usd:.4f} "
+                f">= ${spend_ledger.cap_usd:.2f})"
+            )
+
+    raw_items = result.get("items") or []
+    items = [enrich_candidate(dict(item)) for item in raw_items]
+    counts = section_counts(items, topics_cfg)
+    log(
+        f"  Combined fetch done ({len(items)} candidates; "
+        f"Places verification next) — {counts}"
+    )
+
     return {
         "briefing_type": "berlin-restaurants",
         "date": date_str,
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "model": model,
-        "items": all_items,
-        "gaps": all_gaps,
-        "section_counts": section_counts,
-        "verified_count": verified_count,
-        "search_notes": " ".join(notes),
+        "fetch_mode": "combined",
+        "items": items,
+        "gaps": result.get("gaps") or [],
+        "section_counts": counts,
+        "verified_count": 0,
+        "search_notes": result.get("search_notes") or "",
     }
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Fetch Berlin restaurant research via OpenAI web_search")
-    parser.add_argument("--type", default="berlin-restaurants", help="Briefing type (default: berlin-restaurants)")
-    parser.add_argument("--date", help="YYYY-MM-DD Thursday run date (default: today UTC)")
+    parser = argparse.ArgumentParser(
+        description="Fetch Berlin restaurant research via one OpenAI web_search call"
+    )
+    parser.add_argument("--type", default="berlin-restaurants")
+    parser.add_argument("--date", help="YYYY-MM-DD run date (default: today UTC)")
     parser.add_argument("--model", default=None, help=f"Override model (default: {DEFAULT_MODEL})")
-    parser.add_argument("--dry-run", action="store_true", help="Print first section prompt only")
+    parser.add_argument("--dry-run", action="store_true", help="Print combined prompt only")
     args = parser.parse_args()
 
     briefing = load_briefing_type(args.type)
     date_str = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    original = date_str
     date_str, _ = normalize_thursday_run_date(date_str)
+    if date_str != original:
+        log(
+            f"  Warning: {original} is not a Thursday — using previous Thursday "
+            f"{date_str} for file naming"
+        )
+
     topics_cfg = load_yaml(briefing.topics_path)
     sources_cfg = load_yaml(briefing.sources_path)
     allowed = sources_cfg.get("allowed_domains") or []
 
     if args.dry_run:
-        topics = topic_by_id(topics_cfg)
-        first_section = next(iter(topics))
-        topic = topics.get(first_section) or {}
-        prompt = build_section_prompt(
-            section_id=first_section,
-            topic=topic,
-            date_str=date_str,
-            min_items=RESTAURANT_SECTION_MIN.get(first_section, 5),
-            topics_cfg=topics_cfg,
-            sources_cfg=sources_cfg,
-            search_domains=allowed,
+        log(
+            build_combined_prompt(
+                date_str=date_str,
+                topics_cfg=topics_cfg,
+                sources_cfg=sources_cfg,
+                search_domains=allowed,
+            )
         )
-        log(prompt)
         return 0
 
     if not os.environ.get("OPENAI_API_KEY"):
@@ -413,7 +329,9 @@ def main() -> int:
 
     cap_usd = resolve_daily_cap()
     spend_path = inbox_dir / f"{date_str}-spend.json"
-    spend_ledger = DailySpendLedger.load_or_create(spend_path, date_str=date_str, cap_usd=cap_usd)
+    spend_ledger = DailySpendLedger.load_or_create(
+        spend_path, date_str=date_str, cap_usd=cap_usd
+    )
 
     log(f"Fetching Berlin restaurant research for {date_str} with model {model}...")
     try:
@@ -450,8 +368,8 @@ def main() -> int:
 
     out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     log(
-        f"Wrote {out_path} ({len(payload.get('items') or [])} candidates, "
-        f"{payload.get('verified_count', 0)} verified)"
+        f"Wrote {out_path} ({len(payload.get('items') or [])} candidates; "
+        "run verify_restaurant_maps.py next)"
     )
     return 0
 

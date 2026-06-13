@@ -17,6 +17,7 @@ import time
 
 from briefing_paths import load_briefing_type
 from fetch_openai_research import log
+from restaurant_dates import normalize_thursday_run_date
 from restaurant_maps import verify_restaurant_item
 
 
@@ -25,7 +26,7 @@ def main() -> int:
         description="Verify restaurant raw inbox via Google Places API"
     )
     parser.add_argument("--type", default="berlin-restaurants")
-    parser.add_argument("--date", required=True, help="YYYY-MM-DD Thursday run date")
+    parser.add_argument("--date", help="YYYY-MM-DD run date (default: today UTC; snaps to Thursday week key)")
     parser.add_argument(
         "--dry-run",
         action="store_true",
@@ -44,6 +45,16 @@ def main() -> int:
     )
     args = parser.parse_args()
 
+    date_str = args.date or __import__("datetime").datetime.now(
+        __import__("datetime").timezone.utc
+    ).strftime("%Y-%m-%d")
+    original = date_str
+    date_str, _ = normalize_thursday_run_date(date_str)
+    if date_str != original:
+        log(
+            f"  Note: {original} is not a Thursday — using week key {date_str}"
+        )
+
     briefing = load_briefing_type(args.type)
     if args.type != "berlin-restaurants":
         log(f"Only berlin-restaurants is supported (got {args.type})")
@@ -57,7 +68,7 @@ def main() -> int:
         )
         return 0
 
-    raw_path = briefing.inbox_dir / f"{args.date}-raw.json"
+    raw_path = briefing.inbox_dir / f"{date_str}-raw.json"
     if not raw_path.is_file():
         log(f"Missing {raw_path} — run pre-fetch first")
         return 1

@@ -30,6 +30,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
+      - name: Resolve run date
+        id: run_date
+        run: |
+          INPUT="${{ github.event.inputs.date }}"
+          if [ -z "$INPUT" ]; then INPUT=$(date -u +%Y-%m-%d); fi
+          RESOLVED=$(python3 -c "
+          import sys
+          sys.path.insert(0, 'scripts')
+          from restaurant_dates import normalize_thursday_run_date
+          print(normalize_thursday_run_date('$INPUT')[0])
+          ")
+          echo "value=$RESOLVED" >> "$GITHUB_OUTPUT"
+          echo "Using restaurant week key: $RESOLVED"
+
       - name: Fetch OpenAI restaurant research
         id: openai_fetch
         env:
@@ -42,10 +56,7 @@ jobs:
           BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
         run: |
           echo "Daily spend cap: ${OPENAI_DAILY_SPEND_CAP_USD:-2} USD"
-          ARGS="--type berlin-restaurants"
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
-          fi
+          ARGS="--type berlin-restaurants --date ${{ steps.run_date.outputs.value }}"
           export OPENAI_RESEARCH_MODEL="${OPENAI_RESEARCH_MODEL:-gpt-4.1}"
           export OPENAI_DAILY_SPEND_CAP_USD="${OPENAI_DAILY_SPEND_CAP_USD:-2}"
           python scripts/fetch_restaurant_research.py $ARGS
@@ -70,22 +81,14 @@ jobs:
           PYTHONUNBUFFERED: "1"
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: |
-          ARGS="--date $(date -u +%Y-%m-%d)"
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            ARGS="--date ${{ github.event.inputs.date }}"
-          fi
-          python scripts/verify_restaurant_maps.py $ARGS
+          python scripts/verify_restaurant_maps.py --date ${{ steps.run_date.outputs.value }}
 
       - name: Slim inbox for synthesis
         if: success()
         env:
           PYTHONUNBUFFERED: "1"
         run: |
-          ARGS="--type berlin-restaurants"
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
-          fi
-          python scripts/slim_inbox_for_synthesis.py $ARGS
+          python scripts/slim_inbox_for_synthesis.py --type berlin-restaurants --date ${{ steps.run_date.outputs.value }}
 
       - name: Commit inbox if changed
         if: success()
@@ -97,7 +100,7 @@ jobs:
             echo "No inbox changes to commit"
             exit 0
           fi
-          git commit -m "inbox/berlin-restaurants: $(date -u +%Y-%m-%d) research pre-fetch"
+          git commit -m "inbox/berlin-restaurants: ${{ steps.run_date.outputs.value }} research pre-fetch"
           for attempt in 1 2; do
             git pull --rebase origin main
             if git push origin main; then

@@ -222,7 +222,7 @@ python3 -m unittest discover -s tests -v
 |----------|---------|--------|
 | `news-prefetch.yml` | cron-job.org daily 06:35 Berlin + manual | RSS → OpenAI → slim → commit `inbox/news/` |
 | `berlin-culture-prefetch.yml` | cron-job.org Tue 06:00 Berlin + manual | Culture OpenAI → slim → commit `inbox/berlin-culture/` |
-| `berlin-restaurants-prefetch.yml` | cron-job.org Thu 07:00 Berlin + manual | Restaurant OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
+| `berlin-restaurants-prefetch.yml` | cron-job.org Thu 10:00 Berlin + manual | One OpenAI call → Places verify → slim → commit `inbox/berlin-restaurants/` |
 | `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if scheduled inbox missing (Resend) |
 | `send-briefing-email.yml` | Push to `briefings/**/*.md` | Send styled email (newest per type by default) |
 
