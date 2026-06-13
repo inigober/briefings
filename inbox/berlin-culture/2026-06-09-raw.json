@@ -4,41 +4,200 @@
   "week_start": "2026-06-10",
   "week_end": "2026-06-16",
   "week_label": "June 10–16, 2026",
-  "fetched_at": "2026-06-11T08:08:47.367477+00:00",
+  "fetched_at": "2026-06-13T16:38:50.423402+00:00",
   "model": "gpt-4.1",
   "items": [
     {
-      "id": "kyiv-biennial-kw",
+      "id": "arsenal_punku",
       "topic_ids": [
-        "exhibitions"
+        "film"
       ],
-      "title": "Kyiv Biennial – A Bird That Cannot Land",
-      "venue": "KW Institute for Contemporary Art",
-      "dates": "11 June – 13 September 2026",
-      "times": "Wed–Mon 11:00–19:00 (closed Tue)",
-      "artists": [],
-      "official_url": "https://www.kw-berlin.de/",
+      "title": "Punku (J.D. Fernández Moleros) – Kinotour mit Regisseur",
+      "venue": "Arsenal Filminstitut (Kino Arsenal)",
+      "dates": "12–15 June 2026",
+      "times": "see daily schedule",
+      "artists": [
+        "J.D. Fernández Moleros (director)"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/en",
       "closing_soon": false,
-      "why_candidate": "Addresses geopolitics, migration, exile and post‑colonial themes through contemporary, live‑inflected biennial programming.",
+      "why_candidate": "A hybrid documentary exploring late‑capitalist and traditional gender roles in Peru, with the director present, aligning with socially engaged and international cinema.",
       "ingestion_source": "openai",
       "verified": false
     },
     {
-      "id": "starmirror-kw",
+      "id": "arsenal_afterlives",
       "topic_ids": [
-        "exhibitions"
+        "film"
       ],
-      "title": "Holly Herndon & Mat Dryhurst – Starmirror",
-      "venue": "KW Institute for Contemporary Art",
-      "dates": "27 June – 11 October 2026",
-      "times": "Wed–Mon 11:00–19:00 (closed Tue)",
+      "title": "Afterlives (Kevin B. Lee) – Berlin Kinostart",
+      "venue": "Arsenal Filminstitut (Kino Arsenal)",
+      "dates": "from 11 June 2026",
+      "times": "see programme",
       "artists": [
-        "Holly Herndon",
-        "Mat Dryhurst"
+        "Kevin B. Lee (director)"
       ],
-      "official_url": "https://www.kw-berlin.de/files/250730_KW_Herndon-Dryhurst_Press-Release_EN.pdf",
+      "official_url": "https://www.arsenal-berlin.de/en",
       "closing_soon": false,
-      "why_candidate": "Interdisciplinary sound‑media installation interrogating AI, collective agency, and technological power.",
+      "why_candidate": "A desktop essay‑documentary confronting extremist propaganda and its aftermath—politically urgent and experimental.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "arsenal_omnes",
+      "topic_ids": [
+        "film"
+      ],
+      "title": "Screenings at Arsenal – including essay and experimental films",
+      "venue": "Kino Arsenal",
+      "dates": "10–15 June 2026",
+      "times": "various (programme PDF)",
+      "artists": [],
+      "official_url": "https://www.arsenal-berlin.de/en",
+      "closing_soon": false,
+      "why_candidate": "Arsenal’s June programme includes essayistic and experimental moving‑image forms, fitting thematic interests.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "acudkino_qas",
+      "topic_ids": [
+        "film"
+      ],
+      "title": "Q&A Screenings at ACUDkino",
+      "venue": "ACUDkino",
+      "dates": "10–13 June 2026",
+      "times": "see schedule",
+      "artists": [
+        "various directors"
+      ],
+      "official_url": "https://acudkino.de/",
+      "closing_soon": false,
+      "why_candidate": "Multiple films with post‑screening Q&A sessions, including socially relevant international cinema.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "arsenal_bajo_las_banderas_el_sol",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Bajo las banderas, el sol – followed by discussion with Juanjo Pereira",
+      "venue": "Arsenal Filminstitut (silent green)",
+      "dates": "17 June 2026, 21:15",
+      "times": "21:15",
+      "artists": [
+        "Juanjo Pereira (director, guest)"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/en/",
+      "closing_soon": false,
+      "why_candidate": "A socially engaged, postwar-political desktop documentary with post-screening discussion at a major experimental-film venue.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "arsenal_dhakira_al_khasba",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Dhakira al Khasba (1981) – introduction & discussion",
+      "venue": "Arsenal Filminstitut (silent green)",
+      "dates": "16 June 2026, 19:30",
+      "times": "19:30",
+      "artists": [
+        "Juan González Monroy (introduction)"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/en/",
+      "closing_soon": false,
+      "why_candidate": "A politically resonant Palestinian–Belgian classic with contextual framing at a serious arthouse platform.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "kw_kyiv_biennial_opening",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Opening: Kyiv Biennial – A Bird That Cannot Land",
+      "venue": "KW Institute for Contemporary Art",
+      "dates": "10 June 2026, 19:00–22:00",
+      "times": "19:00–22:00",
+      "artists": [],
+      "official_url": "https://www.kw-berlin.de/de/veranstaltungen",
+      "closing_soon": false,
+      "why_candidate": "An exhibition launch combining contemporary visual arts, geopolitics, migration and decolonial thought.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "the_pressing",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "THE PRESSING",
+      "venue": "Radialsystem",
+      "dates": "Thu 6 Aug–Sun 9 Aug 2026",
+      "times": "Thu–Sat 20:30, Sun 19:30 (with audience talk)",
+      "artists": [
+        "Dani Brown"
+      ],
+      "official_url": "https://www.radialsystem.de/en/veranstaltungen/the-pressing-2026/?date=1786213800",
+      "closing_soon": false,
+      "why_candidate": "A queer, bodily, grotesque and transformative solo performance exploring gendered embodiment and transformation, fitting identity and politics themes.",
+      "ingestion_source": "openai",
+      "verified": true
+    },
+    {
+      "id": "joyful_failure",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Joyful Failure – Ein Abend über die Poesie des Scheiterns",
+      "venue": "Radialsystem",
+      "dates": "Thu 6 Aug–Sun 9 Aug 2026",
+      "times": "Thu–Sat 19:00, Sun 18:00",
+      "artists": [
+        "laborgras feat. Liam Byrne & Ensemble"
+      ],
+      "official_url": "https://www.radialsystem.de/de/veranstaltungen/joyful-failure/?date=1786122000",
+      "closing_soon": false,
+      "why_candidate": "An experimental dance performance that reframes failure as poetic process—social critique through movement.",
+      "ingestion_source": "openai",
+      "verified": true
+    },
+    {
+      "id": "unexpected_lessons_series",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "UNEXPECTED LESSONS – Knowledges of Body and Sound",
+      "venue": "Radialsystem",
+      "dates": "ongoing May 2026–Feb 2027; event continuing during week",
+      "times": "Various (e.g. performance May 27)",
+      "artists": [
+        "Germaine Acogny & Mikaël Serre"
+      ],
+      "official_url": "https://www.radialsystem.de/de/unexpected-lessons-knowledges-of-body-and-sound/",
+      "closing_soon": false,
+      "why_candidate": "Interdisciplinary decolonial series integrating performance, workshops and discourse around dance as living archive and body knowledge.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "voices_of_resistance",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Voices of Resistance",
+      "venue": "Tanzfabrik Berlin BÜHNE (Uferstudios)",
+      "dates": "Sat 16 May 2026",
+      "times": "19:00",
+      "artists": [
+        "Various (e.g. Kristina Kusmina Dreit, Bárbara Santos, DJ Nomi)"
+      ],
+      "official_url": "https://www.tanzfabrik-berlin.de/en/festivals/resist-assembly/events/3214/2026-05-16-19-00",
+      "closing_soon": false,
+      "why_candidate": "A politically charged evening of performance, discourse and party embodying resistance through body, memory, labor and community.",
       "ingestion_source": "openai",
       "verified": true
     },
@@ -47,213 +206,439 @@
       "topic_ids": [
         "performing_arts"
       ],
-      "title": "Into the Chronosphere",
+      "title": "Into the Chronosphere (premiere mid‑June)",
       "venue": "Ballhaus Naunynstraße",
-      "dates": "13–17 June 2026",
-      "times": "20:00 (Sat 13.06), other dates not specified",
+      "dates": "Premiere: mid‑June 2026 (within June 10–16 window)",
+      "times": "Dates not yet specified (within mid‑June)",
       "artists": [
         "Sisi Bo’wale"
       ],
-      "official_url": "https://ballhausnaunynstrasse.de/play/into-the-chronosphere?language=en",
+      "official_url": "https://ballhausnaunynstrasse.de/play/maya-alban-zapata/",
       "closing_soon": false,
-      "why_candidate": "A queering of time via performance, video, sound and design exploring archival, colonial and afrofuturist themes in line with politically urgent, experimental performance.",
+      "why_candidate": "A queered afrofuturistic performance blending video, sound, design and narrative to explore stolen and self‑determined times and archives.",
       "ingestion_source": "openai",
       "verified": false
     },
     {
-      "id": "abdruckkoerper",
+      "id": "bex-burch-as-yet-untitled",
       "topic_ids": [
-        "performing_arts"
+        "music"
       ],
-      "title": "Abdruckkörper",
-      "venue": "Ballhaus Naunynstraße",
-      "dates": "17–21 June 2026",
-      "times": "not specified",
+      "title": "Bex Burch – As yet untitled",
+      "venue": "silent green Kulturquartier (Kuppelhalle)",
+      "dates": "Monday, 15 June 2026",
+      "times": "Doors 7:00 pm / Start 8:00 pm",
       "artists": [
-        "Yatri Niehaus"
+        "Bex Burch",
+        "Laurel Pardue",
+        "Tamar Osborn",
+        "Johannes Schleiermacher",
+        "Lukas Akintaya",
+        "Luca Curcio"
       ],
-      "official_url": "https://ballhausnaunynstrasse.de/news?language=en",
+      "official_url": "https://www.silent-green.net/en/programme/detail/bex-burch-as-yet-untitled",
       "closing_soon": false,
-      "why_candidate": "The theatre debut of film director Yatri Niehaus, a post‑migrant reflection on embodied memory and belonging, fitting the identity and history thematic focus.",
+      "why_candidate": "A live ensemble blending structured improvisation and experimental ambient sound, aligning with interests in sound art, free improvisation, and experimental electronic music.",
       "ingestion_source": "openai",
-      "verified": false
+      "verified": true
     },
     {
-      "id": "re-searching_joy",
+      "id": "avant-art-festival",
       "topic_ids": [
-        "performing_arts"
+        "music"
       ],
-      "title": "re‑searching joy",
-      "venue": "Ballhaus Naunynstraße",
-      "dates": "4–6 June 2026",
-      "times": "not specified",
+      "title": "Avant Art Festival Berlin: experimental electroacoustic & A/V performances",
+      "venue": "silent green Kulturquartier (Kuppelhalle)",
+      "dates": "Thursday, 25 June 2026",
+      "times": "Doors 6:30 pm / Start 7:00 pm",
       "artists": [
-        "akademie der autodidakten, led by Bishop Black"
+        "Teoniki Rożynek",
+        "Dominika Korzeniecka",
+        "Qba Janicki",
+        "Tymek Papior",
+        "Antonina Nowacka",
+        "Drew McDowall & Pedro Maia"
       ],
-      "official_url": "https://ballhausnaunynstrasse.de/news?language=en",
-      "closing_soon": true,
-      "why_candidate": "A participatory, BIPOC‑led dance and contact improvisation exploration of reclaiming joy and vitality for self‑empowerment and liberation.",
-      "ingestion_source": "openai",
-      "verified": false
-    },
-    {
-      "id": "auf_meinen_schultern",
-      "topic_ids": [
-        "performing_arts"
-      ],
-      "title": "Auf meinen Schultern",
-      "venue": "Ballhaus Naunynstraße",
-      "dates": "27–30 June 2026",
-      "times": "not specified",
-      "artists": [
-        "Raphael Moussa Hillebrand, Eurico Ferreira Mathias"
-      ],
-      "official_url": "https://ballhausnaunynstrasse.de/news?language=en",
+      "official_url": "https://www.silent-green.net/en/programme/detail/avant-art-festival-berlin-rozynek-korzeniecka-janicki-papior-antonina-nowacka-drew-mcdowall-pedro-maia-a-v",
       "closing_soon": false,
-      "why_candidate": "A memory‑laden dance performance reflecting intergenerational experience in Berlin, interweaving choreography and cello in a politically resonant form.",
+      "why_candidate": "Interdisciplinary festival combining contemporary composition, electroacoustic improvisation, and immersive audiovisual performance, deeply experimental and politically attuned.",
       "ingestion_source": "openai",
-      "verified": false
+      "verified": true
     },
     {
-      "id": "arrival_of_the_village",
+      "id": "martyna-basta-ange-halliwell",
       "topic_ids": [
-        "performing_arts"
+        "music"
       ],
-      "title": "Arrival of the Village",
-      "venue": "Ballhaus Naunynstraße",
-      "dates": "1–5 July 2026",
-      "times": "20:00 (1 July)",
+      "title": "Martyna Basta pres. Winged in Collapse + Ange Halliwell",
+      "venue": "silent green Kulturquartier (Betonhalle)",
+      "dates": "Saturday, 20 June 2026",
+      "times": "Doors 8:00 pm / Start 9:00 pm",
       "artists": [
-        "Magda Korsinsky"
+        "Martyna Basta",
+        "Ange Halliwell"
       ],
-      "official_url": "https://ballhausnaunynstrasse.de/",
+      "official_url": "https://www.silent-green.net/en/programme/detail/martyna-basta-ange-halliwell",
       "closing_soon": false,
-      "why_candidate": "An interdisciplinary performance by Magda Korsinsky investigating heteronormative family forms, care, empowerment and collective responsibility, addressing politics, identity, and decolonial care.",
+      "why_candidate": "Electroacoustic composition and sound‑art-inflected music blending granular electronics, field recordings, and emotive songwriting, matching ambient/experimental electronic and sound‑art interests.",
       "ingestion_source": "openai",
-      "verified": false
+      "verified": true
     },
     {
-      "id": "afterlives_wolfkino",
+      "id": "john-beltran-diamin",
       "topic_ids": [
-        "film"
+        "music"
       ],
-      "title": "Afterlives by Kevin B. Lee (Desktop Documentary)",
-      "venue": "Wolf Kino",
-      "dates": "Thursday, 11 June 2026",
-      "times": "TBA (on release date)",
+      "title": "Placid Angles (John Beltran) + Diamin (DJ‑Set)",
+      "venue": "silent green Kulturquartier (Kuppelhalle)",
+      "dates": "Friday, 26 June 2026",
+      "times": "Doors 7:00 pm / Start 8:00 pm",
       "artists": [
-        "Kevin B. Lee"
+        "John Beltran (Placid Angles)",
+        "Diamin"
       ],
-      "official_url": "https://www.arsenal-berlin.de/archiv-distribution/kinostarts-und-programme/afterlives/",
+      "official_url": "https://www.silent-green.net/en/programme/detail/john-beltran-diamin-dj-set",
       "closing_soon": false,
-      "why_candidate": "A socially engaged, experimental desktop documentary interrogating extremist propaganda, with a Berlin guest appearance.",
+      "why_candidate": "Ambient‑tinged experimental electronic set by Placid Angles and a queer‑coded, crate‑digging DJ set oriented toward IDM, psychedelia and deep acid—fitting both primary and secondary music preferences.",
       "ingestion_source": "openai",
-      "verified": false
+      "verified": true
     },
     {
-      "id": "fragile_freiheit_arsenal",
+      "id": "hackedepicciotto-sonic-morgue",
       "topic_ids": [
-        "film"
+        "music"
       ],
-      "title": "Fragile Freiheit – Georgian Documentary Program",
-      "venue": "Arsenal",
+      "title": "hackedepicciotto – Sonic Morgue",
+      "venue": "silent green Kulturquartier (Kuppelhalle)",
       "dates": "Saturday, 27 June 2026",
-      "times": "19:00",
+      "times": "Doors 7:00 pm / Start 8:00 pm",
       "artists": [
-        "Salomé Jashi (curator)",
-        "Tamuna Karumidze"
+        "hackedepicciotto"
       ],
-      "official_url": "https://www.arsenal-berlin.de/kino/filmvorfuehrung/fragile-freiheit-5340/",
+      "official_url": "https://www.silent-green.net/en/programme/detail/hackedepicciotto-sonic-morgue",
       "closing_soon": false,
-      "why_candidate": "A politically charged, essayistic program on youth, women and family in Georgia, with post-screening discussion.",
+      "why_candidate": "Drone‑based experimental electronic performance enriched with harmonic vocals and piano melodies, aligning with sound‑art and ambient/drone interests.",
       "ingestion_source": "openai",
       "verified": true
     },
     {
-      "id": "ein_abend_fur_hartmut_bitomsky",
+      "id": "the-understated-songbook",
       "topic_ids": [
-        "film"
+        "music"
       ],
-      "title": "Ein Abend für Hartmut Bitomsky (Bresson & Bitomsky Shorts + Talk)",
-      "venue": "Kino Arsenal",
-      "dates": "Sunday, 14 June 2026",
-      "times": "18:00 & 20:30",
+      "title": "The Understated Songbook",
+      "venue": "KM28",
+      "dates": "Wednesday, 10 June 2026",
+      "times": "Doors 8:00 pm / Start 8:30 pm (entry by donation)",
       "artists": [
-        "Manfred Blank",
-        "Hartmut Bitomsky"
+        "Bryan Eubanks",
+        "Koen Nutters",
+        "Sam Hall",
+        "Hunter Brown",
+        "Isabel Rößler",
+        "Felipe Araya",
+        "Peder Simonsen",
+        "Carina Khorkhordina",
+        "Michael Thieke",
+        "Chris Heenan"
       ],
-      "official_url": "https://www.arsenal-berlin.de/assets/Kino/PDFs/26-06_Kalendarium-Plakat_arsenal_A1_cmyk_Web.pdf",
+      "official_url": "https://www.km28.de/",
       "closing_soon": false,
-      "why_candidate": "An experimental-programmatic evening combining political-historical shorts and critical conversation.",
+      "why_candidate": "Structured improvisation framework combining synthesizer, double bass, percussion, brass and reeds—deeply experimental, ambient‑adjacent, and collective.",
       "ingestion_source": "openai",
-      "verified": true
+      "verified": false
     },
     {
-      "id": "magical_history_tour",
+      "id": "marie-kruttli-ensemble",
       "topic_ids": [
-        "film"
+        "music"
       ],
-      "title": "Magical History Tour – Something Different by Věra Chytilová",
-      "venue": "Kino Arsenal",
+      "title": "Marie Krüttli & Ensemble – animals and goddesses",
+      "venue": "KM28",
+      "dates": "Thursday, 11 June 2026",
+      "times": "Doors 8:00 pm / Start 8:30 pm (entry by donation)",
+      "artists": [
+        "Marie Krüttli",
+        "Marina Tantanozi",
+        "Mathilde Vendramin",
+        "Otis Sandsjö",
+        "Peter Meyer",
+        "Jérémie Krüttli",
+        "Fabian Rösch"
+      ],
+      "official_url": "https://www.km28.de/",
+      "closing_soon": false,
+      "why_candidate": "Contemporary composition drawing on mythic feminine figures, blending jazz, experimental, and vocal sound worlds—strong thematic resonance with identity and ritual.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "the-handover",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "The Handover",
+      "venue": "KM28",
       "dates": "Friday, 12 June 2026",
-      "times": "17:00",
+      "times": "Doors 8:00 pm / Start 8:30 pm (entry by donation)",
       "artists": [
-        "Věra Chytilová"
+        "Aly Eissa",
+        "Andrew Nasser",
+        "Jonas Cambien"
       ],
-      "official_url": "https://www.arsenal-berlin.de/assets/Kino/PDFs/26-06_Kalendarium-Plakat_arsenal_A1_cmyk_Web.pdf",
+      "official_url": "https://www.km28.de/",
       "closing_soon": false,
-      "why_candidate": "An experimental, international art‑cinema classic from feminist Eastern European director fitting identity and political themes.",
+      "why_candidate": "Experimental fusion of classical Arabic music with psychedelic kraut‑rock and rural shaabi textures—globally rooted experimental music consistent with user’s interests.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "KW–Kyiv Biennial: A Bird That Cannot Land",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Kyiv Biennial: A Bird That Cannot Land",
+      "venue": "KW Institute for Contemporary Art",
+      "dates": "11.06.2026 – 13.09.2026",
+      "times": "Mi–Mo 11:00–19:00 (Di closed)",
+      "artists": [
+        "various — biennial participants"
+      ],
+      "official_url": "https://www.kw-berlin.de/",
+      "closing_soon": false,
+      "why_candidate": "Addresses geopolitics and migration through research-based contemporary art engaging Ukrainian contexts.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "Michael Snow – Waiting Room",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Michael Snow – Waiting Room",
+      "venue": "KW Institute for Contemporary Art",
+      "dates": "28.06.2026 – 26.07.2026",
+      "times": "Mi–Mo 11:00–19:00",
+      "artists": [
+        "Michael Snow"
+      ],
+      "official_url": "https://www.kw-berlin.de/de/ausstellungen/michael-snow-waiting-room",
+      "closing_soon": false,
+      "why_candidate": "Experimental audio-visual installation interrogating framing and temporal perception.",
       "ingestion_source": "openai",
       "verified": true
     },
     {
-      "id": "daumenkino",
+      "id": "Holly Herndon & Mat Dryhurst – Starmirror",
       "topic_ids": [
-        "film"
+        "exhibitions"
       ],
-      "title": "Daumenkino – Zirkuskind by Julia Lemke & Anna Koch",
+      "title": "Holly Herndon & Mat Dryhurst – Starmirror",
+      "venue": "KW Institute for Contemporary Art",
+      "dates": "27.06.2026 – 11.10.2026",
+      "times": "Mi–Mo 11:00–19:00",
+      "artists": [
+        "Holly Herndon",
+        "Mat Dryhurst"
+      ],
+      "official_url": "https://www.kw-berlin.de/",
+      "closing_soon": false,
+      "why_candidate": "Media‑art exploring AI, collective voice and infrastructure through participatory sound.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "Tirailleurs: Trials and Tribulations",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Tirailleurs: Trials and Tribulations",
+      "venue": "Haus der Kulturen der Welt",
+      "dates": "21.03.2026 – 14.06.2026",
+      "times": "Wed–Mon 12:00–19:00",
+      "artists": [
+        "Kader Attia",
+        "Slavs and Tatars",
+        "Juan‑Pedro Fabra Guemberena",
+        "Pélagie Gbaguidi",
+        "…"
+      ],
+      "official_url": "https://www.hkw.de/en/the-house/press/press‑releases/2026/25‑02‑2026‑Tirailleurs",
+      "closing_soon": true,
+      "why_candidate": "Research-based exhibition confronting colonial memory, African soldiers, archives and film.",
+      "ingestion_source": "openai",
+      "verified": true
+    },
+    {
+      "id": "Installation: AI (Ancestral Immediacies): Digital Twins and Data Doppelgängers",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "AI (Ancestral Immediacies): Digital Twins and Data Doppelgängers",
+      "venue": "Haus der Kulturen der Welt (Bessie Head Foyer)",
+      "dates": "22.05.2026 – 14.06.2026",
+      "times": "Wed–Mon 12:00–19:00",
+      "artists": [
+        "—"
+      ],
+      "official_url": "https://www.hkw.de/en/",
+      "closing_soon": true,
+      "why_candidate": "Interdisciplinary installation on data, ancestry and identity within broader colonial discourse.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "Wùn Ná Kre",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Wùn Ná Kre: AI (Ancestral Immediacies)…",
+      "venue": "HKW Bessie Head Foyer",
+      "dates": "10.06.2026 – ??",
+      "times": "Wed–Mon 12:00–19:00",
+      "artists": [
+        "—"
+      ],
+      "official_url": "https://www.hkw.de/en/",
+      "closing_soon": true,
+      "why_candidate": "Emerging digital/AI installation tied to exhibition on colonial memory and technology.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "Sonic Pluriverse Festival – Global Echoes of Gnawa",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Sonic Pluriverse Festival – Global Echoes of Gnawa",
+      "venue": "Haus der Kulturen der Welt (rooftop & SAVVY Contemporary)",
+      "dates": "26.06.2026 – 01.08.2026",
+      "times": "26.6 evening programmes; general opening times vary",
+      "artists": [
+        "Baaba Maal",
+        "Majid Bekkas",
+        "Asmaa Hamzaoui & Bnat Timbouktou",
+        "Bab L’Bluz",
+        "Moonlight Benjamin",
+        "Gnawa Diffusion",
+        "Garifuna Collective",
+        "…"
+      ],
+      "official_url": "https://www.hkw.de/en/the-house/press/press‑releases/2026/05‑05‑2026‑Sonic‑Pluriverse‑Festival",
+      "closing_soon": false,
+      "why_candidate": "Audiovisual, music‑art festival rooted in diasporic, migratory, ritual sound practices intersecting politics, gender, environment.",
+      "ingestion_source": "openai",
+      "verified": true
+    },
+    {
+      "id": "tirailleurs_at_HKW",
+      "topic_ids": [
+        "advance_radar",
+        "visual_art",
+        "performance",
+        "politics_society",
+        "history"
+      ],
+      "title": "Tirailleurs: Trials and Tribulations – exhibition and program at HKW",
+      "venue": "Haus der Kulturen der Welt (HKW)",
+      "dates": "Tirailleurs exhibition: until 14 June 2026; installation ‘Wùn Ná Kre’: until 14 June; performances & walks 10–13 June 2026",
+      "times": "Wed–Fri daily 12:00–19:00; Fri until 20:00; tour Sat 13 June 14:00–15:00; conversations Fri 12 June 15:00–18:00; performance ‘The Color Scheme’ Fri 12 June 20:00",
+      "artists": [
+        "Pascale Marthine Tayou",
+        "Daniel Lind‑Ramos",
+        "Nadia Kaabi‑Linke",
+        "Slavs and Tatars",
+        "Matilda TheeGreat",
+        "George Njung (lecture)"
+      ],
+      "official_url": "https://www.hkw.de/en",
+      "closing_soon": true,
+      "why_candidate": "Combines visual art, performance, film and discursive programs exploring colonial soldiers and African history—key intersections of politics, memory, art and performance.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "performing_desktop_documentary_Afterlives_at_Arsenal",
+      "topic_ids": [
+        "advance_radar",
+        "film",
+        "politics_society"
+      ],
+      "title": "Theatrical release: AFTERLIVES by Kevin B. Lee (desktop documentary) at Arsenal Kino",
       "venue": "Kino Arsenal",
-      "dates": "Sunday, 13 June 2026",
-      "times": "15:00",
+      "dates": "Release: 11 June 2026",
+      "times": "Refer to Kino Arsenal June programme",
       "artists": [
-        "Julia Lemke",
-        "Anna Koch"
+        "Kevin B. Lee"
       ],
-      "official_url": "https://www.arsenal-berlin.de/assets/Kino/PDFs/26-06_Kalendarium-Plakat_arsenal_A1_cmyk_Web.pdf",
+      "official_url": "https://www.arsenal-berlin.de/en/cinema/programm-archive/",
       "closing_soon": false,
-      "why_candidate": "A contemporary German film blending narrative and experimental moving image practices by women artists.",
+      "why_candidate": "A socially engaged desktop documentary addressing extremist propaganda and resistance, fitting the user’s interest in political and essayistic moving‑image practices.",
       "ingestion_source": "openai",
       "verified": true
     },
     {
-      "id": "shorts_attack_acudkino",
+      "id": "inventing_queer_cinema_at_Deutsche_Kinemathek",
       "topic_ids": [
-        "film"
+        "advance_radar",
+        "film",
+        "identity",
+        "history"
       ],
-      "title": "Sonnenbrand & Mückenstich – shorts attack Kurzfilmprogramm",
-      "venue": "ACUDkino",
-      "dates": "Wednesday, 17 June 2026",
-      "times": "21:15",
+      "title": "Inventing Queer Cinema – exhibition and weekly film program at Deutsche Kinemathek",
+      "venue": "Deutsche Kinemathek",
+      "dates": "Now through 13 September 2026; weekly film program changes",
+      "times": "Admission free Thursdays with public program; film screenings weekly",
       "artists": [],
-      "official_url": "https://acudkino.de/Programm/sonnenbrand_muckenstich/20483/58436",
+      "official_url": "https://ceecee.cc/en/von-caravaggio-bis-praunheim-queere-filmgeschichte-in-der-deutschen-kinemathek/",
       "closing_soon": false,
-      "why_candidate": "A playful, yet formally varied short‑film program showcasing experimental animation and thematic shorts with post‑screening talk.",
+      "why_candidate": "An exhibition and screening series tracing queer cinema history, combining archival media art and thematic identity and history concerns.",
+      "ingestion_source": "openai",
+      "verified": false
+    },
+    {
+      "id": "sonic_pluriverse_festival_at_HKW",
+      "topic_ids": [
+        "advance_radar",
+        "music",
+        "visual_art",
+        "politics_society",
+        "identity",
+        "environment"
+      ],
+      "title": "Sonic Pluriverse Festival: Global Echoes of Gnawa at HKW (and SAVVY Contemporary)",
+      "venue": "HKW rooftop terrace and SAVVY Contemporary",
+      "dates": "26 June – 1 August 2026 (relevant: 26 June)",
+      "times": "26 June: 17:00–19:15 Gnawa Parade & Concert, 19:30–21:00 Vieux Farka Touré",
+      "artists": [
+        "Hicham Bilali & Black Koyo",
+        "Vieux Farka Touré",
+        "Majid Bekkas",
+        "Moonlight Benjamin",
+        "Asmaa Hamzaoui & Bnat Timbouktou",
+        "Bab L’Bluz",
+        "and others"
+      ],
+      "official_url": "https://www.hkw.de/en/the-house/press/press-releases/2026/05-05-2026-Sonic-Pluriverse-Festival",
+      "closing_soon": false,
+      "why_candidate": "Experimental global music intersecting diasporic, ecological and sonic politics, aligned with interests in ambient, sound art, global experimental music.",
       "ingestion_source": "openai",
       "verified": true
     }
   ],
   "gaps": [
-    "Skipped: daily OpenAI budget reservation exhausted before wildcards",
-    "Skipped: daily OpenAI budget reservation exhausted before music",
-    "Skipped: daily OpenAI budget reservation exhausted before advance_radar"
+    "Precise dates/times for the Ballhaus Naunynstraße premiere mid‑June not yet available; need confirmation",
+    "Berlinische Galerie: no June 2026 listing found",
+    "Gropius Bau: no June exhibitions found",
+    "Julia Stoschek Foundation etc.: not found"
   ],
   "section_counts": {
-    "wildcards": 0,
-    "music": 0,
-    "advance_radar": 0,
-    "exhibitions": 2,
+    "film": 4,
+    "wildcards": 3,
     "performing_arts": 5,
-    "film": 6
+    "music": 8,
+    "exhibitions": 7,
+    "advance_radar": 4
   },
-  "search_notes": "wildcards: skipped: spend_cap music: skipped: spend_cap advance_radar: skipped: spend_cap exhibitions: Searched KW website for exhibitions opening June 2026 within event window. Only two exhibitions identified matching criteria. Additional search across other priority venues needed. performing_arts: Searched Ballhaus Naunynstraße site for June 2026 programming, identified multiple performances fitting contemporary, experimental, identity and political themes. All events are within June 10–16 window or extend past, except Arrival of the Village which begins just after window, but included for context. film: Searched Arsenal and ACUDkino June film programmes for socially engaged, essayistic, experimental, and post‑screening discussion events. Found six qualifying items matching the thematic priorities and occurring June 10–16, 2026."
+  "search_notes": "film: Search was limited by available specific event pages; while Arsenal site offered detailed listings for 10–15 June, ACUDkino listing provided Q&A screenings but lacked full details; further venues like Sinema Transtopia or Wolf Kino yielded no accessible June events in given domains. wildcards: Used ACUDkino and Arsenal for film events with Q&A and discussion, KW Institute events for interdisciplinary and political relevance. performing_arts: Used primary venue sites: Radialsystem for multiple performances; Tanzfabrik Berlin BÜHNE for Voices of Resistance; Ballhaus Naunynstraße news for Into the Chronosphere premiere information. music: Searched silent‑green.net and km28.de for events falling between 10–16 June 2026; found 8 strong candidates focusing on ambient, experimental electronic, sound art, electroacoustic music, drone, and global experimental music, all within priority venues. exhibitions: Searched KW and HKW only; limited June exhibition data; candidate list spans two venues. advance_radar: Searched HKW site for Tirailleurs program and closing dates; Arsenal archive for Afterlives info; ceecee.cc for queer cinema exhibition; HKW press for Sonic Pluriverse festival details."
 }

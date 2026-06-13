@@ -1,7 +1,7 @@
 {
   "date": "2026-06-09",
-  "cap_usd": 2.0,
-  "spent_usd": 0.313694,
+  "cap_usd": 5.0,
+  "spent_usd": 0.719118,
   "estimated": true,
   "cap_exceeded": false,
   "calls": [
@@ -64,7 +64,67 @@
       "web_search_calls": 1,
       "cost_usd": 0.052248,
       "at": "2026-06-11T08:08:47.366259+00:00"
+    },
+    {
+      "section": "film",
+      "model": "gpt-4.1",
+      "input_tokens": 18712,
+      "cached_tokens": 1536,
+      "output_tokens": 551,
+      "web_search_calls": 1,
+      "cost_usd": 0.049528,
+      "at": "2026-06-13T16:38:41.670329+00:00"
+    },
+    {
+      "section": "wildcards",
+      "model": "gpt-4.1",
+      "input_tokens": 33634,
+      "cached_tokens": 0,
+      "output_tokens": 455,
+      "web_search_calls": 1,
+      "cost_usd": 0.080908,
+      "at": "2026-06-13T16:38:42.751587+00:00"
+    },
+    {
+      "section": "performing_arts",
+      "model": "gpt-4.1",
+      "input_tokens": 33302,
+      "cached_tokens": 0,
+      "output_tokens": 827,
+      "web_search_calls": 1,
+      "cost_usd": 0.08322,
+      "at": "2026-06-13T16:38:43.968716+00:00"
+    },
+    {
+      "section": "music",
+      "model": "gpt-4.1",
+      "input_tokens": 16418,
+      "cached_tokens": 0,
+      "output_tokens": 1426,
+      "web_search_calls": 1,
+      "cost_usd": 0.054244,
+      "at": "2026-06-13T16:38:45.724572+00:00"
+    },
+    {
+      "section": "exhibitions",
+      "model": "gpt-4.1",
+      "input_tokens": 33462,
+      "cached_tokens": 1536,
+      "output_tokens": 1107,
+      "web_search_calls": 1,
+      "cost_usd": 0.083476,
+      "at": "2026-06-13T16:38:47.659970+00:00"
+    },
+    {
+      "section": "advance_radar",
+      "model": "gpt-4.1",
+      "input_tokens": 18364,
+      "cached_tokens": 0,
+      "output_tokens": 915,
+      "web_search_calls": 1,
+      "cost_usd": 0.054048,
+      "at": "2026-06-13T16:38:50.422642+00:00"
     }
   ],
-  "last_run_at": "2026-06-11T08:08:47.366403+00:00"
+  "last_run_at": "2026-06-13T16:38:50.422671+00:00"
 }
