@@ -4,222 +4,460 @@
   "week_start": "2026-06-10",
   "week_end": "2026-06-16",
   "week_label": "June 10–16, 2026",
-  "fetched_at": "2026-06-13T17:57:55.206448+00:00",
+  "fetched_at": "2026-06-13T18:12:19.129418+00:00",
   "model": "gpt-4.1",
-  "fetch_mode": "search_then_structure",
-  "web_search_calls": 1,
-  "research_notes_chars": 5410,
+  "fetch_mode": "search_per_section_then_structure",
+  "web_search_calls": 4,
+  "research_notes_chars": 23819,
   "items": [
     {
-      "id": "exh-1",
+      "id": "exhibitions-1",
       "topic_ids": [
         "exhibitions",
-        "postcolonial",
-        "research"
+        "research",
+        "postcolonial"
       ],
-      "title": "Tirailleurs: Trials and Tribulations",
-      "venue": "Haus der Kulturen der Welt (HKW)",
+      "title": "Tirailleurs: Trials and Tribulations – Exhibition and Research Project",
+      "venue": "HKW (Haus der Kulturen der Welt)",
       "dates": "March 21 – June 14, 2026",
-      "times": "Wed–Mon 12:00–19:00 (Fri until 20:00)",
-      "artists": [],
-      "official_url": "https://www.hkw.de/en?utm_source=openai",
+      "times": "Wed–Tue (June 10–14): 12:00–19:00 (Fri June 12 until 20:00)",
+      "artists": [
+        "Zas Ieluhee (includes Wùn Ná Kre installation)"
+      ],
+      "official_url": "https://www.hkw.de/en",
       "closing_soon": true,
-      "why_candidate": "Major research-based exhibition confronting colonial/postcolonial history; closes within the event window.",
+      "why_candidate": "Major research exhibition, closing shortly after briefing release. Focuses on colonial memory, African Tirailleurs, and archival politics – highly aligned with Radar priorities.",
       "ingestion_source": "openai",
-      "url_live": true,
+      "url_live": false,
       "verified": false,
       "url_verify_notes": "reachable but shallow URL (homepage/listing)"
     },
     {
-      "id": "exh-2",
+      "id": "exhibitions-2",
       "topic_ids": [
         "exhibitions",
-        "video",
-        "sound",
         "installation"
       ],
-      "title": "Wùn Ná Kre (Zas Ieluhee)",
-      "venue": "Haus der Kulturen der Welt (HKW), Bessie Head Foyer",
+      "title": "Wùn Ná Kre – Installation by Zas Ieluhee",
+      "venue": "HKW, Bessie Head Foyer",
       "dates": "May 22 – June 14, 2026",
-      "times": "Wed–Mon 12:00–19:00 (Fri until 20:00)",
+      "times": "Daily 12:00–19:00",
       "artists": [
         "Zas Ieluhee"
       ],
-      "official_url": "https://www.hkw.de/en?utm_source=openai",
+      "official_url": "https://www.hkw.de/en",
       "closing_soon": true,
-      "why_candidate": "Research-based video/sound installation; explores culture, data, and identity; closing soon.",
+      "why_candidate": "Notable installation within the wider Tirailleurs project; closing soon, focused on identity and memory. Eligible for 'closing soon' priority.",
       "ingestion_source": "openai",
-      "url_live": true,
+      "url_live": false,
       "verified": false,
       "url_verify_notes": "reachable but shallow URL (homepage/listing)"
     },
     {
-      "id": "perf-1",
+      "id": "exhibitions-3",
       "topic_ids": [
-        "performing_arts",
-        "interdisciplinary",
-        "postcolonial"
+        "exhibitions",
+        "urbanism",
+        "history"
       ],
-      "title": "The Color Scheme",
-      "venue": "Haus der Kulturen der Welt (HKW), Miriam Makeba Auditorium",
-      "dates": "June 12, 2026",
-      "times": "20:00",
+      "title": "Berlin plant. Stunde Null",
+      "venue": "n.b.k. (Ground Floor)",
+      "dates": "June 6 – August 2, 2026",
+      "times": "Not specified",
       "artists": [],
-      "official_url": "https://www.hkw.de/en?utm_source=openai",
+      "official_url": "https://www.nbk.org/en/ausstellungen",
       "closing_soon": false,
-      "why_candidate": "Performance critically engaging with postcolonial heritage as part of 'Tirailleurs'.",
+      "why_candidate": "Newly opened exhibition on Berlin's postwar urbanism, archive-based, relevant for research/exhibition Radar focus.",
       "ingestion_source": "openai",
-      "url_live": true,
+      "url_live": false,
       "verified": false,
       "url_verify_notes": "reachable but shallow URL (homepage/listing)"
     },
     {
-      "id": "perf-2",
+      "id": "exhibitions-4",
       "topic_ids": [
-        "performing_arts",
-        "hybrid",
-        "conversation"
+        "exhibitions",
+        "politics_society",
+        "identity"
       ],
-      "title": "Where the Tirailleurs’ Stories Meet (Samia Chabani)",
-      "venue": "Haus der Kulturen der Welt (HKW)",
-      "dates": "June 13, 2026",
-      "times": "15:00–16:00",
+      "title": "Dora Budor & Noah Barker",
+      "venue": "n.b.k. Showroom",
+      "dates": "June 6 – August 2, 2026",
+      "times": "Not specified",
       "artists": [
-        "Samia Chabani"
+        "Dora Budor",
+        "Noah Barker"
       ],
-      "official_url": "https://www.hkw.de/en?utm_source=openai",
+      "official_url": "https://www.nbk.org/en/ausstellungen",
       "closing_soon": false,
-      "why_candidate": "Conversation and performance hybrid about colonial memory and storytelling.",
+      "why_candidate": "Fresh opening, explores cartographies of power, architectural history and psychological themes – strong fit for critic-driven exhibition curation.",
       "ingestion_source": "openai",
-      "url_live": true,
+      "url_live": false,
       "verified": false,
       "url_verify_notes": "reachable but shallow URL (homepage/listing)"
     },
     {
-      "id": "perf-3",
+      "id": "exhibitions-5",
       "topic_ids": [
-        "performing_arts",
-        "lecture_performance"
+        "exhibitions",
+        "sound_art",
+        "music"
       ],
-      "title": "Violent Encounters: Rethinking War Experiences through the Prism of Gender",
-      "venue": "Haus der Kulturen der Welt (HKW)",
-      "dates": "June 13, 2026",
-      "times": "(time unspecified)",
+      "title": "Sonic Pluriverse Festival – Global Echoes of Gnawa (visual art / installation formats)",
+      "venue": "HKW (various spaces)",
+      "dates": "June – August 2026 (main festival June 26–27; ongoing installation program spans June)",
+      "times": "Various",
       "artists": [],
-      "official_url": "https://www.hkw.de/en?utm_source=openai",
+      "official_url": "https://www.hkw.de/en/programme/sonic-pluriverse-festival-global-echoes-of-gnawa",
       "closing_soon": false,
-      "why_candidate": "Keynote lecture performance on memory, gender, and war experience; interdisciplinary.",
-      "ingestion_source": "openai",
-      "url_live": true,
-      "verified": false,
-      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
-    },
-    {
-      "id": "perf-4",
-      "topic_ids": [
-        "performing_arts",
-        "poetry",
-        "performance"
-      ],
-      "title": "Mesdames Tirailleurs (Matilda TheeGreat)",
-      "venue": "Haus der Kulturen der Welt (HKW)",
-      "dates": "June 13, 2026",
-      "times": "(time unspecified)",
-      "artists": [
-        "Matilda TheeGreat"
-      ],
-      "official_url": "https://www.hkw.de/en?utm_source=openai",
-      "closing_soon": false,
-      "why_candidate": "Poetry performance exploring marginalized histories as part of Tirailleurs.",
-      "ingestion_source": "openai",
-      "url_live": true,
-      "verified": false,
-      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
-    },
-    {
-      "id": "perf-wildcard-1",
-      "topic_ids": [
-        "wildcards",
-        "performing_arts",
-        "lecture_performance"
-      ],
-      "title": "Slavs and Tatars – I Utter Other (Lecture Performance)",
-      "venue": "Haus der Kulturen der Welt (HKW)",
-      "dates": "June 13, 2026",
-      "times": "(time unspecified)",
-      "artists": [
-        "Slavs and Tatars"
-      ],
-      "official_url": "https://www.hkw.de/en?utm_source=openai",
-      "closing_soon": false,
-      "why_candidate": "Lecture-performance blurring boundaries between talk and performance; post-Soviet and identity politics.",
-      "ingestion_source": "openai",
-      "url_live": true,
-      "verified": false,
-      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
-    },
-    {
-      "id": "perf-walk-1",
-      "topic_ids": [
-        "wildcards",
-        "performing_arts",
-        "guided_tour"
-      ],
-      "title": "A Walk Through the Exhibition with…",
-      "venue": "Haus der Kulturen der Welt (HKW)",
-      "dates": "June 13, 2026",
-      "times": "14:00–15:00",
-      "artists": [],
-      "official_url": "https://www.hkw.de/en?utm_source=openai",
-      "closing_soon": false,
-      "why_candidate": "Guided tour featuring participatory and performative elements within the exhibition.",
-      "ingestion_source": "openai",
-      "url_live": true,
-      "verified": false,
-      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
-    },
-    {
-      "id": "wild-1",
-      "topic_ids": [
-        "wildcards",
-        "participatory",
-        "workshop"
-      ],
-      "title": "Sabar Workshops 2026 (Nago Guèye Koité, SAF SAP)",
-      "venue": "Haus der Kulturen der Welt (HKW), Haunani‑Kay Trask Hall",
-      "dates": "June 10, 2026",
-      "times": "19:00–21:00",
-      "artists": [
-        "Nago Guèye Koité",
-        "SAF SAP"
-      ],
-      "official_url": "https://www.hkw.de/en/programme/sabar-polyrhythm-and-the-politics-of-body-movement/sabar-workshops-2026?utm_source=openai",
-      "closing_soon": false,
-      "why_candidate": "Participatory drum & dance session on political rhythm, diasporic practice, and embodied culture.",
+      "why_candidate": "Newly launching festival with audio-visual/sound art installations and interdisciplinary program, addressing migration, diaspora and sound politics; aligns with exhibition radar (institutional/format overlap).",
       "ingestion_source": "openai",
       "url_live": true,
       "verified": true,
       "url_verify_notes": "ok"
     },
     {
-      "id": "advance-1",
+      "id": "exhibitions-6",
       "topic_ids": [
-        "advance_radar",
-        "music",
-        "festival"
+        "exhibitions",
+        "performance_art"
       ],
-      "title": "Sonic Pluriverse Festival: Global Echoes of Gnawa",
-      "venue": "Haus der Kulturen der Welt (HKW)",
-      "dates": "June 26, 2026 and following days",
-      "times": "(various)",
-      "artists": [],
-      "official_url": "https://www.hkw.de/en/the-house/press/press-releases/2026/05-05-2026-Sonic-Pluriverse-Festival?utm_source=openai",
+      "title": "The Color Scheme – Performance by Aria Dean",
+      "venue": "HKW, Miriam Makeba Auditorium",
+      "dates": "June 12, 2026",
+      "times": "20:00",
+      "artists": [
+        "Aria Dean"
+      ],
+      "official_url": "https://www.hkw.de/en",
       "closing_soon": false,
-      "why_candidate": "Major summer festival announced relevant for wider international music/sound art audiences.",
+      "why_candidate": "One-off performance in exhibition context by acclaimed artist Aria Dean, exemplifies the boundary of performance/art installation hybridity.",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film-1",
+      "topic_ids": [
+        "film",
+        "historical"
+      ],
+      "title": "Till Eulenspiegel (DEFA-Literatur | 35mm Series)",
+      "venue": "ACUDkino",
+      "dates": "June 10, 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://acudkino.de/Event/Detail/1080",
+      "closing_soon": false,
+      "why_candidate": "Canonically resonant 1975 DEFA adaptation on 35mm – folkloric but carries oppositional/political subtext; fits historical/essay screening Radar.",
       "ingestion_source": "openai",
       "url_live": true,
-      "verified": false,
+      "verified": true,
       "url_verify_notes": "ok"
+    },
+    {
+      "id": "film-2",
+      "topic_ids": [
+        "film",
+        "documentary",
+        "urbanism"
+      ],
+      "title": "Die Allee (with Q&A: Sven Boeck)",
+      "venue": "ACUDkino",
+      "dates": "June 11, 2026",
+      "times": "18:00",
+      "artists": [
+        "Sven Boeck (director guest)"
+      ],
+      "official_url": "https://acudkino.de/",
+      "closing_soon": false,
+      "why_candidate": "Strong Berlin urban history doc with filmmaker Q&A, blending documentary and local stories; fits socially engaged doc/essay focus.",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film-3",
+      "topic_ids": [
+        "film",
+        "shorts"
+      ],
+      "title": "Sonnenbrand & Mückenstich: Shorts Attack – Kurzfilmprogramm",
+      "venue": "ACUDkino",
+      "dates": "June 17, 2026",
+      "times": "21:15",
+      "artists": [],
+      "official_url": "https://acudkino.de/BaldImProgramm",
+      "closing_soon": false,
+      "why_candidate": "Monthly politically/socially-engaged short film program; near the window (a day after), included for breadth.",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "film-4",
+      "topic_ids": [
+        "film",
+        "contemporary"
+      ],
+      "title": "My Wife Cries (Angela Schanelec)",
+      "venue": "Wolf Cinema Berlin",
+      "dates": "from June 11, 2026 (runs daily)",
+      "times": "see venue timetable",
+      "artists": [
+        "Angela Schanelec"
+      ],
+      "official_url": "https://wolfberlin.org/en/programme/films/my-wife-cries",
+      "closing_soon": false,
+      "why_candidate": "Premiere from acclaimed Berlin School director, combines essayistic urban drama with hybrid cinematic style.",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "film-5",
+      "topic_ids": [
+        "film",
+        "transnational"
+      ],
+      "title": "Dao (Alain Gomis)",
+      "venue": "Wolf Cinema Berlin",
+      "dates": "from June 4, 2026 (ongoing 10–16 June)",
+      "times": "see venue timetable",
+      "artists": [
+        "Alain Gomis"
+      ],
+      "official_url": "https://wolfberlin.org/en/programme/films/dao",
+      "closing_soon": false,
+      "why_candidate": "Berlinale-premiered, family and migration epic by Gomis, deeply engaged with ritual, identity, diaspora topics.",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "film-6",
+      "topic_ids": [
+        "film",
+        "essay",
+        "guest"
+      ],
+      "title": "Joanna Arnow zu Gast: The Feeling That The Time For Doing Something Has Passed + Bad At Dancing",
+      "venue": "Wolf Cinema Berlin",
+      "dates": "June 16, 2026",
+      "times": "18:30–20:45",
+      "artists": [
+        "Joanna Arnow"
+      ],
+      "official_url": "https://wolfberlin.org/en",
+      "closing_soon": false,
+      "why_candidate": "Double feature with US independent/essayistic filmmaker Joanna Arnow present; rare in-person discussion of contemporary essay cinema.",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film-7",
+      "topic_ids": [
+        "film",
+        "political",
+        "desktop_doc"
+      ],
+      "title": "Afterlives (Kevin B. Lee)",
+      "venue": "Arsenal Filminstitut",
+      "dates": "from June 11, 2026",
+      "times": "see venue schedule",
+      "artists": [
+        "Kevin B. Lee"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/en/cinema/programm-archive/translate-to-english-2023/translate-to-english-kinoarchiv-detail/?cHash=929a439b012d3a5b3c6586f2c48a1439&tx_news_pi1%5Baction%5D=detail",
+      "closing_soon": false,
+      "why_candidate": "Feature-length digital desktop doc on extremism, propaganda, and resistance by major global essayist—strongly fits political/experimental film priorities.",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "performing_arts-1",
+      "topic_ids": [
+        "performing_arts",
+        "theatre",
+        "memory"
+      ],
+      "title": "Memory Distortion. M I X T A P E (German Premiere)",
+      "venue": "HAU Hebbel am Ufer, HAU2",
+      "dates": "June 10–11, 2026",
+      "times": "19:00",
+      "artists": [
+        "Nicoleta Esinencu & teatru-spălătorie"
+      ],
+      "official_url": "https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/",
+      "closing_soon": false,
+      "why_candidate": "Interdisciplinary performance with memory/media focus, German premiere; aligns with experimental theatre curation.",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "performing_arts-2",
+      "topic_ids": [
+        "performing_arts",
+        "talk",
+        "justice"
+      ],
+      "title": "On Justice #10: Racial (In)Justice in Authoritarian Times",
+      "venue": "HAU Hebbel am Ufer, HAU1",
+      "dates": "June 11, 2026",
+      "times": "19:30",
+      "artists": [
+        "Kimberlé W. Crenshaw",
+        "Alice Hasters",
+        "Cengiz Barskanmaz"
+      ],
+      "official_url": "https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/",
+      "closing_soon": false,
+      "why_candidate": "Live dialogue/discussion at the crossroads of performance and politics featuring major international scholars; highly topical.",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "performing_arts-3",
+      "topic_ids": [
+        "performing_arts",
+        "cross-genre",
+        "sound_art"
+      ],
+      "title": "Und dann? – Ein Abend über den Tod",
+      "venue": "Radialsystem",
+      "dates": "June 11, 2026",
+      "times": "20:00",
+      "artists": [
+        "Rundfunkchor Berlin",
+        "Misaki Yoshida",
+        "Mathis Koch",
+        "Eva Meckbach",
+        "Gijs Leenaars"
+      ],
+      "official_url": "https://www.radialsystem.de/en/veranstaltungen/und-dann-ein-abend-uber-den-tod/",
+      "closing_soon": false,
+      "why_candidate": "Experimental, cross-genre (choral+text+dramaturgy) performance; existential and atmospheric – at the boundary of music/performance/sound art.",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "performing_arts-4",
+      "topic_ids": [
+        "performing_arts",
+        "sound_art",
+        "digital"
+      ],
+      "title": "Reclaiming Data – Live performance by Jiawen Wang",
+      "venue": "Flutgraben e.V. (DOCK 11 project)",
+      "dates": "June 13, 2026",
+      "times": "Exhibition opens 17:00, performance 19:00",
+      "artists": [
+        "Jiawen Wang"
+      ],
+      "official_url": "https://dock11-berlin.de/en/digital/program/projects/reclaiming-data-art-and-memory-in-the-age-of-digital-archives",
+      "closing_soon": false,
+      "why_candidate": "Hybrid performance/installation at the intersection of data, archives, sound and digital art—exemplifies new directions in live art.",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "music-1",
+      "topic_ids": [
+        "music",
+        "improvisation",
+        "ensemble"
+      ],
+      "title": "The Understated Songbook",
+      "venue": "KM28",
+      "dates": "June 10, 2026",
+      "times": "Doors 20:00 / Start 20:30",
+      "artists": [
+        "Bryan Eubanks",
+        "Koen Nutters",
+        "Sam Hall",
+        "Hunter Brown",
+        "Isabel Rößler",
+        "Felipe Araya",
+        "Peder Simonsen",
+        "Carina Khorkhordina",
+        "Michael Thieke",
+        "Chris Heenan"
+      ],
+      "official_url": "https://www.km28.de/",
+      "closing_soon": false,
+      "why_candidate": "Dense experimental ensemble project crossing boundaries between improvisation, composition and expanded sound.",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "music-2",
+      "topic_ids": [
+        "music",
+        "contemporary_composition"
+      ],
+      "title": "Marie Krüttli & Ensemble – animals and goddesses",
+      "venue": "KM28",
+      "dates": "June 11, 2026",
+      "times": "Not specified (evening)",
+      "artists": [
+        "Marie Krüttli",
+        "Marina Tantanozi",
+        "Mathilde Vendramin",
+        "Otis Sandsjö",
+        "Peter Meyer",
+        "Jérémie Krüttli",
+        "Fabian Rösch"
+      ],
+      "official_url": "https://www.km28.de/",
+      "closing_soon": false,
+      "why_candidate": "New music ensemble exploring themes of myth, feminism, and environment via contemporary/jazz channels.",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "music-3",
+      "topic_ids": [
+        "music",
+        "postcolonial",
+        "hybrid"
+      ],
+      "title": "The Handover",
+      "venue": "KM28",
+      "dates": "June 12, 2026",
+      "times": "Not specified (evening)",
+      "artists": [
+        "Aly Eissa",
+        "Andrew Nasser",
+        "Jonas Cambien"
+      ],
+      "official_url": "https://www.km28.de/",
+      "closing_soon": false,
+      "why_candidate": "Improvised trio mixing classical Arabic, shaabi, and electronic sound – embodies postcolonial sonic strategies.",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
     },
     {
       "id": "rss-wildcards-e42b77966e",
@@ -751,20 +989,16 @@
     }
   ],
   "gaps": [
-    "exhibitions: 5 more candidates needed (only 2 found, both at HKW)",
-    "film: 5 candidates needed (none found in the window at any venue)",
-    "performing_arts: 0 gap (at least 4 qualifying events documented via HKW performances as part of 'Tirailleurs')",
-    "music: 5 candidates needed (none found for June 10–16)",
-    "wildcards: 0 gap (at least 2 qualifying events with workshop, tour, and lecture-performance hybrid)",
-    "advance_radar: 1 more candidate could be included if discovered"
+    "exhibitions: Only 6 (target 7), no additional qualifying openings/closings documented.",
+    "music: Only 3 (target 5), unable to source fitting events in window from allowed sources. Arkaoda events available but not closely aligned with brief's focus (mostly club/mainstream)."
   ],
   "section_counts": {
-    "film": 0,
     "performing_arts": 4,
-    "music": 0,
-    "wildcards": 25,
-    "exhibitions": 13,
-    "advance_radar": 1
+    "music": 3,
+    "advance_radar": 0,
+    "film": 7,
+    "wildcards": 22,
+    "exhibitions": 17
   },
   "programme_counts": {},
   "press_counts": {
@@ -774,21 +1008,22 @@
   "calendar_counts": {},
   "rss_counts": {},
   "openai_targets": {
-    "film": 5,
     "performing_arts": 4,
     "music": 5,
+    "advance_radar": 2,
+    "film": 5,
     "wildcards": 2,
-    "exhibitions": 7,
-    "advance_radar": 2
+    "exhibitions": 7
   },
   "calendar_merged": 33,
-  "search_notes": "Phase 1 web_search_calls=1. Programme counts: {}. Press counts: {'wildcards': 22, 'exhibitions': 11}. OpenAI targets: {'film': 5, 'performing_arts': 4, 'music': 5, 'wildcards': 2, 'exhibitions': 7, 'advance_radar': 2}. Calendar merged: 33. All identified events for June 10–16, 2026 are from HKW; especially the Tirailleurs program. No film or music events at other venues were found in web research for this week. Most sections under-filled due to lack of external data; further venue sources would be required to meet quota for exhibitions, film, and music.",
-  "url_verified_at": "2026-06-13T17:58:13.207844+00:00",
+  "search_notes": "Phase 1 web_search_calls=4. Programme counts: {}. Press counts: {'wildcards': 22, 'exhibitions': 11}. OpenAI targets: {'performing_arts': 4, 'music': 5, 'advance_radar': 2, 'film': 5, 'wildcards': 2, 'exhibitions': 7}. Calendar merged: 33. All items strictly sourced from detailed Phase 1 research. Where time/date ambiguous, copied verbatim. Only official URLs referenced in research notes included. No new events invented or assumed. Summaries and thematics are based on the descriptive content in research notes – no secondary sources used. If sections under quota (e.g. exhibitions, music), this is explicitly flagged under 'gaps'.",
+  "url_verified_at": "2026-06-13T18:12:37.813682+00:00",
   "url_verify_stats": {
-    "checked": 10,
+    "checked": 20,
     "live": 10,
-    "dead": 0,
-    "verified_after": 1,
+    "dead": 10,
+    "shallow": 10,
+    "verified_after": 10,
     "skipped": 33
   }
 }
