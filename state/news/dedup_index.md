@@ -8,18 +8,18 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ## 2026-06-13
 
-- **spain-green-hydrogen-andalusia** — Europe's largest green hydrogen plant launches in Andalusia (section: spain)
-- **spain-agrifood-tech-investment** — Record agrifood-tech startup funding in Catalonia and Valencia (section: spain)
-- **spain-funcas-teacher-shortage** — Funcas report warns 25%+ of educators retiring within decade (section: spain)
-- **germany-ai-rnd-5bn** — €5 billion five-year AI and R&D initiative announced (section: germany)
-- **germany-heat-pump-industry-scale** — Major engineering groups invest in domestic heat pump production (section: germany)
-- **germany-berlin-hamburg-rail-reopen** — Berlin–Hamburg corridor reopens after generalsanierung (section: germany)
-- **berlin-fhain-kreuzberg-highrise-block** — District council blocks three high-rise residential projects (section: berlin)
-- **berlin-climate-adaptation-research-centre** — Three universities launch joint climate adaptation centre (section: berlin)
-- **berlin-neukoelln-stop-search-renewed** — Police extend controversial stop-and-search zones in Neukölln (section: berlin)
-- **world-china-min-zin-arrest** — China arrests US academic Min Zin on espionage charges (section: world)
-- **world-venezuela-tren-aragua-strike** — US strike kills Tren de Aragua gang leader with Venezuelan cooperation (section: world)
-- **world-openai-chatgpt-suicide-lawsuit** — Canadian mother sues OpenAI over daughter's suicide (section: world)
+- **spain-green-energy-investment** — Spanish renewables sector accelerates solar/wind and grid investment amid EU incentives (section: spain)
+- **spain-catalonia-hydropower-drought** — Catalonia drought cuts hydropower to historic lows; water restrictions imposed (section: spain)
+- **spain-banking-eu-consolidation** — Mid-tier Spanish banks face merger pressure under new EU capital rules (section: spain)
+- **germany-ifo-pension-gap-500bn** — ifo projects €500 billion public pension shortfall by 2045 (section: germany)
+- **germany-ai-factory-automation** — Siemens, Bosch scale smart-factory AI as Mittelstand lags (section: germany)
+- **germany-hamburg-green-hydrogen-100mw** — 100MW Vattenfall–Shell green hydrogen plant launches in Hamburg (section: germany)
+- **berlin-emergency-exercise-fire-police** — Large-scale chemical-spill evacuation drill tests inter-agency coordination (section: berlin)
+- **berlin-bvg-tram-bus-strike** — Day-long BVG tram and bus warning strike over wage talks (section: berlin)
+- **berlin-universities-ai-admissions** — Humboldt, TU and FU deploy AI for admissions and plagiarism checks (section: berlin)
+- **world-canada-toronto-officer-terror** — Toronto constable killed during consulate-linked warrants; global terror probe (section: world)
+- **world-china-spy-turtles-fish** — Beijing alleges foreign agencies use sensor-fitted marine animals for espionage (section: world)
+- **world-sierra-leone-first-lady-housing** — London council repossesses social housing rented by Sierra Leone first lady (section: world)
 
 ## 2026-06-12
 

@@ -6,10 +6,10 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ## 2026-06-13
 
-- [What the SpaceX IPO reveals about Gulf money in AI](https://restofworld.org/2026/spacex-ipo-gulf-money-ai/) — Rest of World
-- [Los primeros estudiantes del grado de Matemáticas y Filosofía, único en España](https://elpais.com/educacion/2026-06-13/los-primeros-estudiantes-del-grado-de-matematicas-y-filosofia-unico-en-espana-hay-que-aprender-a-utilizar-la-ia-con-etica.html) — EL PAÍS
-- [Staff Shortages Threaten German Healthcare](https://www.diw.de/en/diw_01.c.857964.en/publications/reports/2026_13_staff_shortages_german_healthcare.html) — DIW Berlin
-- [An ideological tug-of-war: the pressures facing Iran's World Cup squad in US](https://www.theguardian.com/world/2026/jun/12/iran-first-play-war-world-cup-fifa) — The Guardian
+- [Germany faces €500 billion pension gap over next two decades, warns ifo Institute](https://www.ifo.de/en/press-release/2026-06-12/germany-faces-500bn-euro-pension-gap-over-next-two-decades) — ifo Institute
+- [La oposición más codiciada de Europa: más de 5.500 euros al mes en Bruselas](https://elpais.com/economia/negocios/carta-del-corresponsal/2026-06-13/la-oposicion-mas-codiciada-de-europa-mas-de-5500-euros-al-mes-en-bruselas.html) — EL PAÍS
+- [German industry doubles down on AI-driven automation amid productivity stagnation](https://www.bloomberg.com/news/articles/2026-06-11/germany-s-ai-industrialization-push-to-fill-labour-gaps-stave-off-productivity-slump) — Bloomberg
+- [Canada police investigate whether Toronto police death linked to global terror attacks](https://www.theguardian.com/world/2026/jun/12/canada-police-investigate-toronto-police-death-global-terror-attacks) — The Guardian
 
 ## 2026-06-12
 
