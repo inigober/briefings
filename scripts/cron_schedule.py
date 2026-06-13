@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Helpers for briefing schedule cron expressions (POSIX 5-field, UTC)."""
+"""Helpers for briefing schedule cron expressions (POSIX 5-field).
+
+Day-of-week is evaluated in **UTC** on the date passed to ``is_scheduled_on_date``.
+Cron-job.org triggers use Europe/Berlin wall-clock times; the UTC weekday usually
+matches Berlin for morning jobs but can diverge near midnight — see
+``docs/external-scheduling.md``.
+"""
 
 from __future__ import annotations
 

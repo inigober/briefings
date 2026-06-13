@@ -16,6 +16,7 @@ if str(_SCRIPTS_DIR) not in sys.path:
 
 from briefing_paths import REPO_ROOT, load_briefing_type, load_manifest  # noqa: E402
 from cron_schedule import is_scheduled_on_date  # noqa: E402
+from prefetch_dates import resolve_inbox_date_key  # noqa: E402
 
 try:
     import requests
@@ -42,26 +43,33 @@ def inbox_ready(bt, date_str: str) -> tuple[bool, str]:
     if synthesis.exists():
         return True, f"found {synthesis.relative_to(REPO_ROOT)}"
     if raw.exists():
-        return True, f"found {raw.relative_to(REPO_ROOT)} (raw only — slim step may have failed)"
+        return (
+            False,
+            f"found {raw.relative_to(REPO_ROOT)} only — slim step may have failed",
+        )
     return False, f"missing {date_str}-synthesis.json and {date_str}-raw.json"
 
 
 def check_type(type_id: str, date_str: str) -> PrefetchStatus:
     bt = load_briefing_type(type_id)
-    if not is_scheduled_on_date(bt.schedule_cron, datetime.strptime(date_str, "%Y-%m-%d")):
-        return PrefetchStatus(
-            type_id=type_id,
-            display_name=bt.display_name,
-            date_str=date_str,
-            ok=True,
-            detail="not scheduled today",
-        )
+    inbox_date = resolve_inbox_date_key(type_id, date_str)
 
-    ok, detail = inbox_ready(bt, date_str)
+    if type_id == "news":
+        day = datetime.strptime(date_str, "%Y-%m-%d")
+        if not is_scheduled_on_date(bt.schedule_cron, day):
+            return PrefetchStatus(
+                type_id=type_id,
+                display_name=bt.display_name,
+                date_str=inbox_date,
+                ok=True,
+                detail="not scheduled today",
+            )
+
+    ok, detail = inbox_ready(bt, inbox_date)
     return PrefetchStatus(
         type_id=type_id,
         display_name=bt.display_name,
-        date_str=date_str,
+        date_str=inbox_date,
         ok=ok,
         detail=detail,
     )

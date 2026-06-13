@@ -14,7 +14,7 @@ SCRIPTS = REPO_ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-from check_prefetch_health import check_type, types_for_profile  # noqa: E402
+from check_prefetch_health import check_type, inbox_ready, types_for_profile  # noqa: E402
 from cron_schedule import is_scheduled_on_date  # noqa: E402
 
 
@@ -46,10 +46,28 @@ class TestPrefetchHealth(unittest.TestCase):
             {"news", "berlin-culture", "berlin-restaurants"},
         )
 
-    def test_culture_skips_non_tuesday(self) -> None:
-        status = check_type("berlin-culture", "2026-06-12")  # Friday
+    def test_culture_checks_normalized_week_key_on_friday(self) -> None:
+        with patch("check_prefetch_health.inbox_ready", return_value=(True, "found synthesis")):
+            status = check_type("berlin-culture", "2026-06-12")  # Friday
         self.assertTrue(status.ok)
-        self.assertEqual(status.detail, "not scheduled today")
+        self.assertEqual(status.date_str, "2026-06-09")
+        self.assertNotEqual(status.detail, "not scheduled today")
+
+    def test_raw_only_inbox_counts_as_missed(self) -> None:
+        from unittest.mock import MagicMock
+
+        bt = MagicMock()
+        synthesis = MagicMock()
+        synthesis.exists.return_value = False
+        synthesis.relative_to.return_value = Path("inbox/news/2099-01-01-synthesis.json")
+        raw = MagicMock()
+        raw.exists.return_value = True
+        raw.relative_to.return_value = Path("inbox/news/2099-01-01-raw.json")
+        bt.inbox_path.side_effect = lambda _date, suffix: synthesis if suffix == "synthesis" else raw
+
+        ok, detail = inbox_ready(bt, "2099-01-01")
+        self.assertFalse(ok)
+        self.assertIn("slim step may have failed", detail)
 
 
 if __name__ == "__main__":

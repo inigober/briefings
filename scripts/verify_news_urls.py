@@ -30,9 +30,9 @@ def main() -> int:
         help="Delay between HTTP checks (default: 80ms)",
     )
     parser.add_argument(
-        "--all-sources",
+        "--openai-only",
         action="store_true",
-        help="Also HTTP-check RSS items (default: OpenAI only)",
+        help="Only HTTP-check OpenAI items; trust RSS/WordPress URLs (legacy)",
     )
     args = parser.parse_args()
 
@@ -53,7 +53,7 @@ def main() -> int:
     stats = verify_news_items(
         items,
         sleep_ms=args.sleep_ms,
-        only_openai=not args.all_sources,
+        only_openai=args.openai_only,
     )
     payload["url_verified_at"] = datetime.now(timezone.utc).isoformat()
     payload["url_verify_stats"] = stats
@@ -65,6 +65,9 @@ def main() -> int:
         f"suspicious={stats['suspicious']} verified_after={stats['verified_after']} "
         f"skipped={stats['skipped']}"
     )
+    if stats["dead"] > 0 or stats["suspicious"] > 0:
+        log("FAIL: dead or suspicious news URLs found — fix sources before slim.")
+        return 1
     return 0
 
 

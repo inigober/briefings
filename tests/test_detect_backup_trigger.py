@@ -53,6 +53,28 @@ class TestBackupTrigger(unittest.TestCase):
             synthesis.unlink(missing_ok=True)
             briefing.unlink(missing_ok=True)
 
+    def test_culture_uses_tuesday_key_on_friday(self) -> None:
+        date_str = "2099-06-09"  # Tuesday key
+        friday = "2099-06-13"
+        synthesis = REPO_ROOT / f"inbox/berlin-culture/{date_str}-synthesis.json"
+        briefing = REPO_ROOT / f"briefings/berlin-culture/{date_str}.md"
+        synthesis.parent.mkdir(parents=True, exist_ok=True)
+        briefing.parent.mkdir(parents=True, exist_ok=True)
+        synthesis.write_text("{}", encoding="utf-8")
+        if briefing.exists():
+            briefing.unlink()
+
+        try:
+            with patch(
+                "detect_synthesis_trigger.load_manifest",
+                return_value={"berlin-culture": {}},
+            ):
+                decision = detect_backup_trigger(friday)
+            self.assertEqual(decision.type_id, "berlin-culture")
+            self.assertIn(date_str, decision.reason)
+        finally:
+            synthesis.unlink(missing_ok=True)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -71,13 +71,38 @@ class TestBriefingExistsGuard(unittest.TestCase):
             briefing.unlink(missing_ok=True)
 
     def test_detect_trigger_surfaces_briefing_exists_reason(self) -> None:
+        from unittest.mock import patch
+
         from detect_synthesis_trigger import detect_trigger
 
-        decision = detect_trigger("2e987902")
-        self.assertIsNone(decision.type_id)
-        self.assertIn("Briefing already exists for 2026-06-09", decision.reason)
-        self.assertIn("berlin-culture", decision.reason)
-        self.assertTrue(decision.matched_files)
+        date_str = "2099-06-04"
+        synthesis = REPO_ROOT / f"inbox/berlin-culture/{date_str}-synthesis.json"
+        briefing = REPO_ROOT / f"briefings/berlin-culture/{date_str}.md"
+        synthesis.parent.mkdir(parents=True, exist_ok=True)
+        briefing.parent.mkdir(parents=True, exist_ok=True)
+        synthesis.write_text('{"built_at":"2099-06-04T10:00:00Z"}', encoding="utf-8")
+        briefing.write_text("# test\n", encoding="utf-8")
+
+        try:
+            with (
+                patch("detect_synthesis_trigger.resolve_commit_sha", return_value="abc123"),
+                patch(
+                    "detect_synthesis_trigger.commit_subject",
+                    return_value=f"inbox/berlin-culture: {date_str} research pre-fetch",
+                ),
+                patch(
+                    "detect_synthesis_trigger.changed_files_in_commit",
+                    return_value=[f"inbox/berlin-culture/{date_str}-synthesis.json"],
+                ),
+            ):
+                decision = detect_trigger("abc123")
+            self.assertIsNone(decision.type_id)
+            self.assertIn(f"Briefing already exists for {date_str}", decision.reason)
+            self.assertIn("berlin-culture", decision.reason)
+            self.assertTrue(decision.matched_files)
+        finally:
+            synthesis.unlink(missing_ok=True)
+            briefing.unlink(missing_ok=True)
 
     def test_best_skip_rejection_prefers_briefing_exists(self) -> None:
         reason, matched = _best_skip_rejection(

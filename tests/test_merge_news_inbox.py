@@ -65,6 +65,14 @@ class TestNewsWordPressAndMerge(unittest.TestCase):
         urls = [f.get("url", "") for f in feeds]
         self.assertTrue(any("the-berliner.com/wp-json" in url for url in urls))
 
+    def test_news_openai_fetch_disabled(self) -> None:
+        from unittest.mock import patch
+
+        from fetch_openai_research import main
+
+        with patch("sys.argv", ["fetch_openai_research.py", "--type", "news"]):
+            self.assertEqual(main(), 1)
+
 
 if __name__ == "__main__":
     unittest.main()

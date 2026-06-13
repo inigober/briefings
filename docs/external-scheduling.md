@@ -9,11 +9,11 @@ GitHub's built-in `schedule:` trigger is best-effort and can start workflows hou
 | Job | When | Workflow |
 |-----|------|----------|
 | News pre-fetch | Daily **06:30** | `news-prefetch.yml` |
-| Culture pre-fetch | Tuesday **10:00** | `berlin-culture-prefetch.yml` |
-| Restaurants pre-fetch | Thursday **10:00** | `berlin-restaurants-prefetch.yml` |
+| Culture pre-fetch | Tuesday **06:00** | `berlin-culture-prefetch.yml` |
+| Restaurants pre-fetch | Thursday **07:00** | `berlin-restaurants-prefetch.yml` |
 | Health check | Daily **11:00** | `prefetch-health-check.yml` (`profile: all`) |
 
-The health check at 11:00 covers every briefing type scheduled that day (news daily; culture on Tuesdays; restaurants on Thursdays).
+The health check at 11:00 Berlin uses each briefing type's **inbox date key** (Tuesday/Thursday week keys for weekly types), so a missed Tuesday culture pre-fetch still alerts on Wednesday.
 
 ## 1. GitHub token
 

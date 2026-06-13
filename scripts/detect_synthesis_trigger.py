@@ -22,10 +22,12 @@ if str(_SCRIPTS_DIR) not in sys.path:
 
 from briefing_paths import REPO_ROOT, load_briefing_type, load_manifest
 from cron_schedule import is_scheduled_on_date
+from prefetch_dates import resolve_inbox_date_key
 
 RESEARCH_SUFFIXES = ("-synthesis.json", "-raw.json")
 IGNORED_INBOX_SUFFIXES = (
     "-rss.json",
+    "-wordpress.json",
     "-spend.json",
     "-spend-cap.error.txt",
 )
@@ -188,15 +190,11 @@ def detect_backup_trigger(date_str: str | None = None) -> TriggerDecision:
 
     for type_id in load_manifest():
         bt = load_briefing_type(type_id)
-        cron = bt.schedule_cron
-        if cron:
-            day = datetime.strptime(date_str, "%Y-%m-%d")
-            if not is_scheduled_on_date(cron, day):
-                continue
+        inbox_date = resolve_inbox_date_key(type_id, date_str)
 
-        synthesis_path = bt.inbox_path(date_str, "synthesis")
-        raw_path = bt.inbox_path(date_str, "raw")
-        briefing_path = bt.briefing_path(date_str)
+        synthesis_path = bt.inbox_path(inbox_date, "synthesis")
+        raw_path = bt.inbox_path(inbox_date, "raw")
+        briefing_path = bt.briefing_path(inbox_date)
 
         inbox_files: list[str] = []
         if synthesis_path.exists():
@@ -212,7 +210,7 @@ def detect_backup_trigger(date_str: str | None = None) -> TriggerDecision:
         candidates.append(
             (
                 type_id,
-                f"backup: inbox ready for {date_str}, briefing missing",
+                f"backup: inbox ready for {inbox_date}, briefing missing",
                 tuple(inbox_files),
             )
         )

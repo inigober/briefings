@@ -31,9 +31,9 @@ def main() -> int:
         help="Delay between HTTP checks (default: 80ms)",
     )
     parser.add_argument(
-        "--all-sources",
+        "--openai-only",
         action="store_true",
-        help="Also check RSS/WordPress items (default: OpenAI only)",
+        help="Only check OpenAI items; trust RSS/WordPress URLs (legacy)",
     )
     args = parser.parse_args()
 
@@ -59,7 +59,7 @@ def main() -> int:
     stats = verify_culture_items(
         items,
         sleep_ms=args.sleep_ms,
-        only_openai=not args.all_sources,
+        only_openai=args.openai_only,
     )
     payload["url_verified_at"] = datetime.now(timezone.utc).isoformat()
     payload["url_verify_stats"] = stats
@@ -70,6 +70,9 @@ def main() -> int:
         f"dead={stats['dead']} shallow={stats.get('shallow', 0)} "
         f"verified_after={stats['verified_after']} skipped={stats['skipped']}"
     )
+    if stats.get("dead", 0) > 0:
+        log("FAIL: dead culture URLs found — fix or drop items before slim.")
+        return 1
     return 0
 
 

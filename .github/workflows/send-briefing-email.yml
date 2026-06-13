@@ -85,6 +85,23 @@ jobs:
         env:
           COMMITS_JSON: ${{ toJson(github.event.commits) }}
 
+      - name: Verify news briefing sources
+        if: github.event_name == 'workflow_dispatch' || steps.changed.outputs.files != ''
+        run: |
+          FILES="${{ steps.changed.outputs.files }}"
+          if [ -n "${{ github.event.inputs.file }}" ]; then
+            FILES="${{ github.event.inputs.file }}"
+          fi
+          for path in $FILES; do
+            case "$path" in
+              briefings/news/*.md)
+                DATE=$(basename "$path" .md)
+                echo "Verifying news sources for $DATE"
+                python scripts/verify_briefing_sources.py --type news --date "$DATE"
+                ;;
+            esac
+          done
+
       - name: Send via Resend
         if: github.event_name == 'workflow_dispatch' || steps.changed.outputs.files != ''
         env:

@@ -98,7 +98,7 @@ def verify_news_item(
     *,
     session: requests.Session,
     sleep_ms: int = DEFAULT_SLEEP_MS,
-    only_openai: bool = True,
+    only_openai: bool = False,
 ) -> dict[str, Any]:
     source = item.get("ingestion_source") or "openai"
     if only_openai and source != "openai":
@@ -145,7 +145,7 @@ def verify_news_items(
     items: list[dict],
     *,
     sleep_ms: int = DEFAULT_SLEEP_MS,
-    only_openai: bool = True,
+    only_openai: bool = False,
 ) -> dict[str, int]:
     stats = {
         "checked": 0,

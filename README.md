@@ -12,10 +12,10 @@ config/briefings.yaml          ← registry (paths, schedules, prompts)
 │   RSS + WordPress → inbox/news/ → synthesis → briefings/news/ │
 ├───────────────────────────────────────────────────────────────┤
 │ berlin-culture (Tuesday)                                      │
-│   OpenAI → inbox/berlin-culture/ → synthesis → briefings/…   │
+│   RSS + WordPress + OpenAI (web_search) → verify URLs → slim │
 ├───────────────────────────────────────────────────────────────┤
 │ berlin-restaurants (Thursday)                                 │
-│   OpenAI → inbox/berlin-restaurants/ → synthesis → briefings/…│
+│   OpenAI → Places verify → slim → briefings/…                │
 └───────────────────────────────────────────────────────────────┘
         ↓
 GitHub Action on push → styled HTML email (Resend, same recipient)
@@ -160,8 +160,8 @@ Pre-fetch and health-check workflows have **no GitHub `schedule:` trigger** — 
 | Job (cron-job.org) | Local time (Europe/Berlin) | GitHub workflow |
 |--------------------|----------------------------|-----------------|
 | News pre-fetch | Daily **06:30** | `news-prefetch.yml` |
-| Culture pre-fetch | Tuesday **10:00** | `berlin-culture-prefetch.yml` |
-| Restaurants pre-fetch | Thursday **10:00** | `berlin-restaurants-prefetch.yml` |
+| Culture pre-fetch | Tuesday **06:00** | `berlin-culture-prefetch.yml` |
+| Restaurants pre-fetch | Thursday **07:00** | `berlin-restaurants-prefetch.yml` |
 | Health check | Daily **11:00** | `prefetch-health-check.yml` (`profile: all`) |
 
 Synthesis is **push-triggered** via the **Briefing synthesis** Cursor automation when pre-fetch commits to `inbox/`. Recover missed runs from health-check emails or re-trigger from GitHub Actions → **Run workflow**.
@@ -195,6 +195,7 @@ pip install -r scripts/requirements.txt
 python3 scripts/fetch_rss.py --type news
 python3 scripts/fetch_wordpress.py --type news
 python3 scripts/merge_news_inbox.py --type news
+python3 scripts/verify_news_urls.py --type news
 python3 scripts/slim_inbox_for_synthesis.py --type news
 
 # After writing a briefing (synthesis agent)
@@ -224,12 +225,13 @@ python3 -m unittest discover -s tests -v
 
 | Workflow | Trigger | Action |
 |----------|---------|--------|
-| `news-prefetch.yml` | cron-job.org daily 06:35 Berlin + manual | RSS → WordPress → merge → slim → commit `inbox/news/` |
+| `test.yml` | push / PR to `main` | `python -m unittest discover -s tests` |
+| `news-prefetch.yml` | cron-job.org daily 06:30 Berlin + manual | RSS → WordPress → merge → verify URLs → slim → commit `inbox/news/` |
 | `verify-briefing-sources.yml` | push to `briefings/news/` + manual | Ensures footnote URLs exist in synthesis inbox |
-| `berlin-culture-prefetch.yml` | cron-job.org Tue 06:00 Berlin + manual | Culture OpenAI → slim → commit `inbox/berlin-culture/` |
-| `berlin-restaurants-prefetch.yml` | cron-job.org Thu 10:00 Berlin + manual | One OpenAI call → Places verify → slim → commit `inbox/berlin-restaurants/` |
-| `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if scheduled inbox missing (Resend) |
-| `send-briefing-email.yml` | Push to `briefings/**/*.md` | Send styled email (newest per type by default) |
+| `berlin-culture-prefetch.yml` | cron-job.org Tue 06:00 Berlin + manual | RSS + WordPress + OpenAI → verify URLs → slim → commit `inbox/berlin-culture/` |
+| `berlin-restaurants-prefetch.yml` | cron-job.org Thu 07:00 Berlin + manual | OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
+| `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if inbox missing or slim incomplete (Resend) |
+| `send-briefing-email.yml` | Push to `briefings/**/*.md` | Verify news sources, then send styled email (newest per type by default) |
 
 Pre-fetch workflows use **concurrency groups** so overlapping manual + scheduled runs queue instead of racing. The email workflow sends only the **newest dated briefing per type** when a push changes multiple files; use workflow dispatch with **all_changed** or `--all-changed` to replay every file.
 

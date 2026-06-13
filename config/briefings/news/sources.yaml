@@ -1,5 +1,8 @@
 # News pre-fetch: RSS + WordPress only (scripts/fetch_rss.py, fetch_wordpress.py,
 # merge_news_inbox.py). No OpenAI web_search.
+#
+# allowed_domains below is legacy metadata for fetch_openai_research.py --type news
+# (disabled in production — see scripts/fetch_openai_research.py).
 
 allowed_domains:
   # International

@@ -14,7 +14,7 @@ Single source of truth for the news briefing synthesis agent. Edit this file in 
 If this run was triggered by a git push to `main`:
 
 1. Inspect the **triggering commit only** (`git log -1 --name-only`, `git log -1 --format=%s`).
-2. Consider only research files: `inbox/news/YYYY-MM-DD-synthesis.json` or `inbox/news/YYYY-MM-DD-raw.json`. Ignore `*-rss.json`, `*-spend.json`, `*-spend-cap.error.txt`, `.gitkeep`.
+2. Consider only research files: `inbox/news/YYYY-MM-DD-synthesis.json` or `inbox/news/YYYY-MM-DD-raw.json`. Ignore `*-rss.json`, `*-wordpress.json`, `*-spend.json`, `*-spend-cap.error.txt`, `.gitkeep`.
 3. If **no** research file above was added or modified in this commit, **stop** — log "No news inbox research in this commit; skipping synthesis." Exit without reading or writing.
 4. Decide if this commit is a **fresh pre-fetch** (continue) or a **repo/test/migration commit** (stop):
    - **Continue** if the commit message starts with `inbox/news:` (GitHub Actions pre-fetch uses this prefix).

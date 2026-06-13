@@ -825,6 +825,14 @@ def main() -> int:
     args = parser.parse_args()
 
     briefing = load_briefing_type(args.type)
+    if args.type == "news" and briefing.prefetch_merge_script:
+        log(
+            "News uses the RSS + WordPress pipeline "
+            "(fetch_rss.py → fetch_wordpress.py → merge_news_inbox.py). "
+            "fetch_openai_research.py --type news is disabled."
+        )
+        return 1
+
     date_str = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
     topics_cfg = load_yaml(briefing.topics_path)
     sources_cfg = load_yaml(briefing.sources_path)

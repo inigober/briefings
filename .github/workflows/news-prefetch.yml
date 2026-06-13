@@ -30,36 +30,43 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
+      - name: Resolve run date
+        id: run_date
+        run: |
+          INPUT="${{ github.event.inputs.date }}"
+          if [ -z "$INPUT" ]; then INPUT=$(date -u +%Y-%m-%d); fi
+          echo "value=$INPUT" >> "$GITHUB_OUTPUT"
+          echo "Using news date key: $INPUT"
+
       - name: Fetch RSS headlines
         env:
           PYTHONUNBUFFERED: "1"
         run: |
-          ARGS="--type news"
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
-          fi
-          python scripts/fetch_rss.py $ARGS
+          python scripts/fetch_rss.py --type news --date ${{ steps.run_date.outputs.value }}
 
       - name: Fetch WordPress posts
         env:
           PYTHONUNBUFFERED: "1"
         run: |
-          ARGS="--type news"
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
-          fi
-          python scripts/fetch_wordpress.py $ARGS
+          python scripts/fetch_wordpress.py --type news --date ${{ steps.run_date.outputs.value }}
 
-      - name: Merge inbox for synthesis
+      - name: Merge inbox
         env:
           PYTHONUNBUFFERED: "1"
         run: |
-          ARGS="--type news"
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
-          fi
-          python scripts/merge_news_inbox.py $ARGS
-          python scripts/slim_inbox_for_synthesis.py $ARGS
+          python scripts/merge_news_inbox.py --type news --date ${{ steps.run_date.outputs.value }}
+
+      - name: Verify news URLs
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python scripts/verify_news_urls.py --type news --date ${{ steps.run_date.outputs.value }}
+
+      - name: Slim inbox for synthesis
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python scripts/slim_inbox_for_synthesis.py --type news --date ${{ steps.run_date.outputs.value }}
 
       - name: Commit inbox if changed
         run: |
@@ -70,7 +77,7 @@ jobs:
             echo "No inbox changes to commit"
             exit 0
           fi
-          git commit -m "inbox/news: $(date -u +%Y-%m-%d) research pre-fetch"
+          git commit -m "inbox/news: ${{ steps.run_date.outputs.value }} research pre-fetch"
           for attempt in 1 2; do
             git pull --rebase origin main
             if git push origin main; then

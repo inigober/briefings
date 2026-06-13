@@ -666,7 +666,7 @@ def fetch_all_culture(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Fetch Berlin culture research via one OpenAI web_search call"
+        description="Fetch Berlin culture research via web_search (phase 1) + JSON structuring (phase 2)"
     )
     parser.add_argument("--type", default="berlin-culture", help="Briefing type (default: berlin-culture)")
     parser.add_argument("--date", help="YYYY-MM-DD Tuesday run date (default: today UTC)")

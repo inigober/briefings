@@ -14,7 +14,7 @@ Single source of truth for the weekly Berlin culture briefing synthesis agent.
 If triggered by a git push to `main`:
 
 1. Inspect the **triggering commit only** (`git log -1 --name-only`, `git log -1 --format=%s`).
-2. Consider only research files: `inbox/berlin-culture/YYYY-MM-DD-synthesis.json` or `inbox/berlin-culture/YYYY-MM-DD-raw.json`. Ignore `*-spend.json`, `*-spend-cap.error.txt`, `.gitkeep`.
+2. Consider only research files: `inbox/berlin-culture/YYYY-MM-DD-synthesis.json` or `inbox/berlin-culture/YYYY-MM-DD-raw.json`. Ignore `*-rss.json`, `*-wordpress.json`, `*-spend.json`, `*-spend-cap.error.txt`, `.gitkeep`.
 3. If **no** research file above was added or modified in this commit, **stop** — log "No berlin-culture inbox research in this commit; skipping synthesis."
 4. Decide if this commit is a **fresh pre-fetch** (continue) or **repo/test/migration** (stop):
    - **Continue** if the commit message starts with `inbox/berlin-culture:`.
