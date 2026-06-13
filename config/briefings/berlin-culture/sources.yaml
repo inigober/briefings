@@ -23,10 +23,6 @@ rss_feeds:
     url: https://www.a-trane.de/feed/
     section_ids: [music]
     max_items: 10
-  - publisher: MONOM
-    url: https://www.monom.com/feed/
-    section_ids: [music]
-    max_items: 10
 
 wordpress_feeds:
   - publisher: The Berliner

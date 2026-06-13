@@ -1,23 +1,23 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-06-09",
-  "briefing_date": "2026-06-09",
-  "inbox_date": "2026-06-09",
-  "week_start": "2026-06-10",
-  "week_end": "2026-06-16",
+  "date": "2026-06-16",
+  "briefing_date": "2026-06-16",
+  "inbox_date": "2026-06-16",
+  "week_start": "2026-06-17",
+  "week_end": "2026-06-23",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-06-09.md",
-  "inbox_path": "inbox/berlin-culture/2026-06-09-synthesis.json",
-  "items_count": 8,
+  "briefing_path": "briefings/berlin-culture/2026-06-16.md",
+  "inbox_path": "inbox/berlin-culture/2026-06-16-synthesis.json",
+  "items_count": 14,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 1,
-    "film": 1,
-    "performing_arts": 0,
-    "music": 0,
-    "wildcards": 0,
-    "advance_radar": 3
+    "exhibitions": 3,
+    "film": 2,
+    "performing_arts": 1,
+    "music": 1,
+    "wildcards": 1,
+    "advance_radar": 1
   },
-  "verification_fetches": 5,
-  "notes": "Token-light inbox (13 items). Spot-checked Kyiv Biennial, Afterlives, Into the Chronosphere (cancelled — dropped), Abdruckkörper. Omitted re-searching joy (ended), Zirkuskind repeat, out-of-week performing arts. No music/wildcards in inbox."
+  "verification_fetches": 4,
+  "notes": "Combined pre-fetch inbox (50 raw items; RSS+WordPress warehouse). Dropped hallucinated OpenAI venue URLs after spot-checks; kept Arsenal programme, n.b.k., Schwules Museum, Ballhaus Raising Hope, BAL-sourced exhibitions/festival."
 }
