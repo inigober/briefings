@@ -1,20 +1,19 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-06-18",
+  "date": "2026-06-11",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-06-18.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-06-18-synthesis.json",
-  "verified_count": 16,
-  "selected_count": 8,
+  "briefing_path": "briefings/berlin-restaurants/2026-06-11.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-06-11-synthesis.json",
+  "verified_count": 10,
+  "selected_count": 7,
   "selected_restaurants": [
-    "LIU Nudelhaus",
-    "Chuan Garden 川园",
-    "Larb Koi",
-    "Hanuman Thai Curry House",
-    "Pamfilya",
-    "Ägäis",
-    "Big Bascha",
-    "Adana Grillhaus"
+    "Lei's Küche",
+    "Willing (formerly Le Moon)",
+    "Ming Dynastie",
+    "Meet You",
+    "Shaam Restaurant",
+    "Boii Boii",
+    "Loumi Dining"
   ],
-  "notes": "Places API verification rejected Da Jia Le and Chungking Noodles (permanently closed). Refreshed 2026-06-18 with compact Places hours and live ratings. Selection unchanged: Liu, Chuan, Larb Koi, Hanuman, Pamfilya, Ägäis, Big Bascha, Adana."
+  "notes": "7 entries from 10 verified candidates. Kreuzberg capped at 2 (Boii Boii, Loumi). Excluded Baraka, Bang Bang Handpulled Noodles, Simitdchi Cafe und Backhaus due to neighborhood diversity limits."
 }
