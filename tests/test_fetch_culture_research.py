@@ -11,9 +11,9 @@ SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
+from culture_calendar import culture_openai_min  # noqa: E402
 from fetch_culture_research import (  # noqa: E402
     build_combined_prompt,
-    culture_openai_min,
     enrich_candidate,
     merge_calendar_items,
     section_counts,
@@ -28,6 +28,7 @@ class TestCombinedCultureFetch(unittest.TestCase):
     def setUp(self) -> None:
         self.topics_cfg = load_yaml(REPO_ROOT / "config/briefings/berlin-culture/topics.yaml")
         self.sources_cfg = load_yaml(REPO_ROOT / "config/briefings/berlin-culture/sources.yaml")
+        self.state_dir = REPO_ROOT / "state/berlin-culture"
 
     def test_prompt_is_single_combined_pass(self) -> None:
         prompt = build_combined_prompt(
@@ -36,18 +37,25 @@ class TestCombinedCultureFetch(unittest.TestCase):
             topics_cfg=self.topics_cfg,
             sources_cfg=self.sources_cfg,
             search_domains=self.sources_cfg.get("allowed_domains") or [],
+            state_dir=self.state_dir,
         )
         self.assertIn("ONE combined pass", prompt)
         self.assertIn("exhibitions", prompt)
         self.assertIn("advance_radar", prompt)
+        self.assertIn("HKW", prompt)
+        self.assertIn("Already recommended", prompt)
         self.assertNotIn("web_search allowed domains:\n- ceecee.cc", prompt)
 
-    def test_prompt_shows_rss_reduction(self) -> None:
+    def test_prompt_shows_programme_reduction(self) -> None:
         rss_items = [
             {
+                "ingestion_source": "rss",
                 "topic_ids": ["exhibitions"],
                 "title": "Sample Show",
-                "official_url": "https://example.com/show",
+                "venue": "KW Institute for Contemporary Art",
+                "official_url": "https://www.kw-berlin.de/en/exhibitions/sample-show",
+                "dates": "10 June – 1 September 2026",
+                "times": "",
             }
         ]
         prompt = build_combined_prompt(
@@ -57,9 +65,32 @@ class TestCombinedCultureFetch(unittest.TestCase):
             sources_cfg=self.sources_cfg,
             search_domains=[],
             calendar_items=rss_items,
+            state_dir=self.state_dir,
         )
-        self.assertIn("Calendar warehouse", prompt)
+        self.assertIn("Venue programme warehouse", prompt)
         self.assertIn("reduced from 7", prompt)
+
+    def test_prompt_separates_press_from_programme(self) -> None:
+        items = [
+            {
+                "ingestion_source": "rss",
+                "venue": "Berlin Art Link",
+                "title": "Review: Some Show",
+                "official_url": "https://www.berlinartlink.com/review",
+                "topic_ids": ["exhibitions"],
+            }
+        ]
+        prompt = build_combined_prompt(
+            date_str="2026-06-09",
+            week_label="June 10–16, 2026",
+            topics_cfg=self.topics_cfg,
+            sources_cfg=self.sources_cfg,
+            search_domains=[],
+            calendar_items=items,
+            state_dir=self.state_dir,
+        )
+        self.assertIn("Editorial leads", prompt)
+        self.assertNotIn("reduced from 7", prompt)
 
     def test_prefetch_mins_from_topics_yaml(self) -> None:
         topics = {t["id"]: t for t in self.topics_cfg.get("topics") or []}
@@ -67,12 +98,12 @@ class TestCombinedCultureFetch(unittest.TestCase):
         self.assertEqual(section_min_items(topics["music"]), 5)
         self.assertEqual(section_min_items(topics["advance_radar"]), 2)
 
-    def test_culture_openai_min_respects_rss_saturation(self) -> None:
+    def test_culture_openai_min_respects_programme_saturation(self) -> None:
         self.assertEqual(culture_openai_min("exhibitions", 0, 7), 7)
         self.assertEqual(culture_openai_min("exhibitions", 3, 7), 4)
         self.assertEqual(culture_openai_min("exhibitions", 6, 7), 2)
 
-    def test_enrich_candidate_marks_verified(self) -> None:
+    def test_enrich_candidate_verified_only_with_url_live(self) -> None:
         item = enrich_candidate(
             {
                 "id": "test-1",
@@ -87,8 +118,13 @@ class TestCombinedCultureFetch(unittest.TestCase):
                 "why_candidate": "Essay film",
             }
         )
-        self.assertTrue(item["verified"])
+        self.assertFalse(item["verified"])
+        self.assertIsNone(item["url_live"])
         self.assertEqual(item["ingestion_source"], "openai")
+
+        item["url_live"] = True
+        enrich_candidate(item)
+        self.assertTrue(item["verified"])
 
     def test_merge_culture_rss_dedupes_by_official_url(self) -> None:
         openai_items = [

@@ -31,6 +31,99 @@ wordpress_feeds:
     section_ids: [wildcards]
     max_items: 12
 
+# Editorial feeds — context only; do not count as venue programme coverage.
+press_publishers:
+  - Berlin Art Link
+  - The Berliner
+  - Cee Cee Berlin
+  - 20% Berlin
+  - Exberliner
+
+press_domains:
+  - berlinartlink.com
+  - ceecee.cc
+  - 20percent.berlin
+  - the-berliner.com
+  - exberliner.com
+
+# Stable venue programme/listing pages — OpenAI must web_search these for thin sections.
+programme_urls:
+  exhibitions:
+    - venue: HKW
+      url: https://hkw.de/en/events
+    - venue: Gropius Bau
+      url: https://www.gropiusbau.de/en/programme
+    - venue: KW Institute for Contemporary Art
+      url: https://www.kw-berlin.de/en/events
+    - venue: n.b.k.
+      url: https://www.nbk.org/en/programm
+    - venue: Kindl
+      url: https://kindl.org/en/exhibitions
+      note: use /en/exhibitions if /programme empty
+    - venue: Berlinische Galerie
+      url: https://www.berlinische-galerie.de/en/exhibitions
+    - venue: Julia Stoschek Foundation
+      url: https://www.julia-stoschek-stiftung.de/en/exhibitions
+    - venue: Schinkel Pavillon
+      url: https://www.schinkelpavillon.de/en/programme
+    - venue: daadgalerie
+      url: https://www.daadgalerie.de/en/programme
+    - venue: SAVVY Contemporary
+      url: https://savvy-contemporary.com/en/events
+    - venue: PalaisPopulaire
+      url: https://www.palaispopulaire.de/en/programme
+    - venue: Haus am Waldsee
+      url: https://www.hausamwaldsee.de/en/programme
+    - venue: Hamburger Bahnhof
+      url: https://www.smb.museum/en/museums-institutions/hamburger-bahnhof/exhibitions/
+    - venue: Museumsportal Berlin
+      url: https://www.museumsportal-berlin.de/en/exhibitions/
+  film:
+    - venue: Arsenal Filminstitut
+      url: https://www.arsenal-berlin.de/en/cinema
+    - venue: Sinema Transtopia
+      url: https://www.sinematranstopia.com/en/events
+    - venue: Wolf Kino
+      url: https://www.wolfberlin.org/en/programme
+    - venue: ACUDkino
+      url: https://www.acudkino.de/en/programm
+    - venue: fsk Kino
+      url: https://www.fsk-kino.de/kino
+    - venue: Kino Krokodil
+      url: https://www.kino-krokodil.de/programm
+  performing_arts:
+    - venue: HAU Hebbel am Ufer
+      url: https://www.hebbel-am-ufer.de/programm
+    - venue: Sophiensæle
+      url: https://www.sophiensaele.com/en/timetable
+    - venue: Radialsystem
+      url: https://www.radialsystem.de/en/programm
+    - venue: Ballhaus Naunynstraße
+      url: https://ballhausnaunynstrasse.de/en/programm
+    - venue: Dock 11
+      url: https://www.dock11-berlin.de/en/program
+    - venue: Tanzfabrik
+      url: https://www.tanzfabrik-berlin.de/en/programme
+    - venue: Volksbühne
+      url: https://www.volksbuehne.berlin/en/program
+  music:
+    - venue: Silent Green
+      url: https://www.silent-green.net/en/program
+    - venue: KM28
+      url: https://www.km28.de/en/program
+    - venue: MONOM
+      url: https://monom.berlin/en/events
+    - venue: Morphine Raum
+      url: https://morphine.space/events
+    - venue: A-Trane
+      url: https://www.a-trane.de/events
+    - venue: Ausland
+      url: https://www.ausland-berlin.de/events
+    - venue: Arkaoda
+      url: https://www.arkaoda.com/events
+    - venue: Pierre Boulez Saal
+      url: https://www.pierre-boulez-saal.de/en/programme
+
 allowed_domains:
   - ceecee.cc
   - 20percent.berlin
@@ -47,6 +140,15 @@ allowed_domains:
   - sophiensaele.com
   - radialsystem.de
   - monom.com
+  - monom.berlin
+  - gropiusbau.de
+  - smb.museum
+  - schwulesmuseum.de
+  - pierre-boulez-saal.de
+  - volksbuehne.berlin
+  - sputnik-kino.de
+  - fsk-kino.de
+  - kino-krokodil.de
   - morphine.space
   - km28.de
   - a-trane.de

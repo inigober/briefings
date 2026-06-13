@@ -20,6 +20,7 @@ from urllib.parse import urlparse
 import yaml
 
 from briefing_paths import load_briefing_type
+from culture_calendar import is_publisher_venue_item
 from culture_dates import normalize_tuesday_run_date
 from restaurant_dates import normalize_thursday_run_date
 
@@ -54,6 +55,7 @@ CULTURE_SLIM_ITEM_KEYS = (
     "official_url",
     "closing_soon",
     "verified",
+    "url_live",
     "why_candidate",
     "ingestion_source",
 )
@@ -152,12 +154,29 @@ def score_news_item(item: dict) -> int:
     return score
 
 
-def score_culture_item(item: dict, priority_venues: set[str]) -> int:
+def score_culture_item(item: dict, priority_venues: set[str], sources_cfg: dict | None = None) -> int:
     score = 0
-    if item.get("ingestion_source") not in ("rss", "wordpress"):
-        score += 12
-    if item.get("verified"):
-        score += 20
+    source = item.get("ingestion_source") or "openai"
+    url_live = item.get("url_live")
+
+    if source == "openai":
+        if url_live is True:
+            score += 18
+        elif url_live is False:
+            score -= 25
+        else:
+            score += 4
+    elif source in ("rss", "wordpress"):
+        score += 2
+
+    if item.get("verified") and url_live is not False:
+        score += 22
+    elif item.get("verified") and url_live is False:
+        score -= 10
+
+    if sources_cfg and is_publisher_venue_item(item, sources_cfg):
+        score -= 18
+
     if item.get("closing_soon"):
         score += 25
     venue = (item.get("venue") or "").lower()
@@ -171,7 +190,9 @@ def score_culture_item(item: dict, priority_venues: set[str]) -> int:
     if artists:
         score += 5
     if (item.get("official_url") or "").startswith("http"):
-        score += 10
+        score += 6
+    if (item.get("dates") or "").strip():
+        score += 6
     return score
 
 
@@ -230,10 +251,10 @@ def pick_top_news(items: list[dict], cap: int) -> list[dict]:
     return [slim_item(i, NEWS_SLIM_ITEM_KEYS) for i in ranked[:cap]]
 
 
-def pick_top_culture(items: list[dict], cap: int, priority_venues: set[str]) -> list[dict]:
+def pick_top_culture(items: list[dict], cap: int, priority_venues: set[str], sources_cfg: dict) -> list[dict]:
     ranked = sorted(
         items,
-        key=lambda i: score_culture_item(i, priority_venues),
+        key=lambda i: score_culture_item(i, priority_venues, sources_cfg),
         reverse=True,
     )
     return [slim_item(i, CULTURE_SLIM_ITEM_KEYS) for i in ranked[:cap]]
@@ -341,7 +362,7 @@ def build_culture_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: d
     section_items: list[dict] = []
     section_counts: dict[str, int] = {}
     for sid, cap in section_caps.items():
-        picked = pick_top_culture(by_section[sid], cap, priority_venues)
+        picked = pick_top_culture(by_section[sid], cap, priority_venues, sources_cfg)
         section_counts[sid] = len(picked)
         section_items.extend(picked)
 

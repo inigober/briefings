@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Pre-fetch Berlin culture events via one OpenAI Responses API call + web_search.
 
-Optional RSS calendar feeds (fetch_rss.py) are merged first to reduce OpenAI minimums.
+RSS/WordPress calendars merge first; venue programme URLs and events index steer novelty.
+HTTP URL verification runs via verify_culture_urls.py before slim.
 """
 
 from __future__ import annotations
@@ -18,10 +19,19 @@ import json
 import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Any
-from urllib.parse import urlparse
 
-from briefing_paths import load_briefing_type
+from briefing_paths import REPO_ROOT, load_briefing_type
+from culture_calendar import (
+    SECTIONS_REQUIRING_WEB_SEARCH,
+    build_novelty_block,
+    build_press_warehouse_block,
+    build_programme_urls_block,
+    build_programme_warehouse_block,
+    culture_openai_min,
+    mark_item_verified,
+    press_counts,
+    programme_counts,
+)
 from culture_dates import normalize_tuesday_run_date
 from fetch_openai_research import (
     DEFAULT_MODEL,
@@ -42,11 +52,7 @@ from openai_spend import (
     usage_from_response,
 )
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
-
 CULTURE_OPENAI_MIN_FLOOR = 2
-CULTURE_RSS_SATURATION_HIGH = 6
-CULTURE_RSS_SATURATION_MID = 3
 
 CULTURE_ITEM_SCHEMA = {
     "type": "object",
@@ -88,26 +94,8 @@ COMBINED_RESULT_SCHEMA = {
     "additionalProperties": False,
 }
 
-EVENT_PATH_KEYWORDS = (
-    "event",
-    "exhibition",
-    "exhibitions",
-    "stueck",
-    "festival",
-    "film-screening",
-    "programm",
-    "program",
-    "fair",
-    "konzert",
-    "concert",
-    "ticket",
-)
-
-VAGUE_SCHEDULE_MARKERS = ("tba", "various", "check website", "see website", "uhrzeit folgt", "time tbd")
-
 
 def culture_week_window(run_date: datetime) -> tuple[datetime, datetime]:
-    """Tuesday run → events Wed through following Tue."""
     week_start = run_date + timedelta(days=1)
     week_end = run_date + timedelta(days=7)
     return week_start, week_end
@@ -126,24 +114,6 @@ def section_min_items(topic: dict) -> int:
     return int(topic.get("prefetch_min") or 5)
 
 
-def culture_openai_min(section_id: str, rss_count: int, base_min: int) -> int:
-    floor = CULTURE_OPENAI_MIN_FLOOR
-    if topic_is_optional(section_id):
-        floor = 1
-    if rss_count == 0:
-        return base_min
-    if rss_count >= CULTURE_RSS_SATURATION_HIGH:
-        return floor
-    if rss_count >= CULTURE_RSS_SATURATION_MID:
-        return max(floor, (base_min + floor) // 2)
-    reduction = min(rss_count, base_min - floor)
-    return max(floor, base_min - reduction)
-
-
-def topic_is_optional(section_id: str) -> bool:
-    return section_id == "advance_radar"
-
-
 def build_compact_interests_block(topics_cfg: dict) -> str:
     interests = topics_cfg.get("interests") or {}
     parts = [f"{key.replace('_', ' ')}: {', '.join(values[:4])}" for key, values in interests.items()]
@@ -160,30 +130,12 @@ def build_compact_themes_block(topics_cfg: dict) -> str:
     return "## Thematic priorities\n" + "; ".join(parts)
 
 
-def build_compact_venues_block(sources_cfg: dict) -> str:
-    lines = ["## Priority venues (search venue sites directly)"]
-    for discipline, venues in (sources_cfg.get("priority_venues") or {}).items():
-        lines.append(f"- {discipline}: {', '.join(venues)}")
-    festivals = sources_cfg.get("festivals_to_monitor") or []
-    if festivals:
-        lines.append(f"- Festivals: {', '.join(festivals[:8])}")
-    return "\n".join(lines)
-
-
-def build_compact_calendars_block(sources_cfg: dict) -> str:
-    calendars = sources_cfg.get("primary_calendars") or []
-    names = [cal.get("name") for cal in calendars if cal.get("name")]
-    if not names:
-        return ""
-    return "## Primary calendars (cross-reference first)\n" + ", ".join(names)
-
-
 def build_section_requirements(
     topics_cfg: dict,
     *,
-    rss_counts: dict[str, int] | None = None,
+    programme_coverage: dict[str, int] | None = None,
 ) -> str:
-    rss_counts = rss_counts or {}
+    programme_coverage = programme_coverage or {}
     lines = ["## Section targets (assign each candidate to one primary topic_id)"]
     for topic in topics_cfg.get("topics") or []:
         if not topic.get("enabled", True):
@@ -192,13 +144,16 @@ def build_section_requirements(
         if sid == "top_picks":
             continue
         base_min = section_min_items(topic)
-        openai_min = culture_openai_min(sid, rss_counts.get(sid, 0), base_min)
+        openai_min = culture_openai_min(sid, programme_coverage.get(sid, 0), base_min)
         optional = " (optional — include only if genuinely relevant)" if topic.get("optional") else ""
-        min_note = (
-            f"at least {openai_min} new candidates (reduced from {base_min} — RSS already covers this section)"
-            if rss_counts.get(sid, 0) > 0 and openai_min < base_min
-            else f"at least {openai_min} candidates"
-        )
+        prog_count = programme_coverage.get(sid, 0)
+        if prog_count > 0 and openai_min < base_min:
+            min_note = (
+                f"at least {openai_min} new candidates (reduced from {base_min} — "
+                f"{prog_count} venue-programme warehouse items)"
+            )
+        else:
+            min_note = f"at least {openai_min} candidates"
         desc = str(topic.get("description", "")).strip()
         if len(desc) > 180:
             desc = desc[:177] + "..."
@@ -206,53 +161,6 @@ def build_section_requirements(
             f"- **{topic.get('name')}** (`{sid}`): {min_note}{optional}\n  {desc}"
         )
     return "\n".join(lines)
-
-
-def build_calendar_warehouse_block(
-    *,
-    calendar_items: list[dict],
-    topics_cfg: dict,
-) -> str:
-    if not calendar_items:
-        return ""
-
-    topics = topic_by_id(topics_cfg)
-    section_ids = [
-        t["id"]
-        for t in topics_cfg.get("topics") or []
-        if t.get("enabled", True) and t.get("id") not in ("top_picks",)
-    ]
-    counts = {sid: 0 for sid in section_ids}
-    samples: dict[str, list[str]] = {sid: [] for sid in section_ids}
-    source_counts: dict[str, int] = {}
-
-    for item in calendar_items:
-        sid = (item.get("topic_ids") or ["exhibitions"])[0]
-        source = item.get("ingestion_source") or "calendar"
-        source_counts[source] = source_counts.get(source, 0) + 1
-        if sid not in counts:
-            continue
-        counts[sid] += 1
-        title = (item.get("title") or "").strip()
-        if title and len(samples[sid]) < 4:
-            samples[sid].append(title)
-
-    source_summary = ", ".join(f"{k}={v}" for k, v in sorted(source_counts.items()))
-    lines = [
-        "## Calendar warehouse (already collected — do not duplicate)",
-        f"- {len(calendar_items)} items already ingested via RSS/WordPress ({source_summary}).",
-        "- OpenAI targets above are reduced per section — search for **gaps only**.",
-        "- Prefer venue programme pages and calendars the warehouse missed; do not re-list feed headlines.",
-    ]
-    for sid in section_ids:
-        if counts[sid] == 0:
-            continue
-        sample_text = "; ".join(samples[sid][:3])
-        lines.append(
-            f"- {sid}: {counts[sid]} warehouse items"
-            + (f" (e.g. {sample_text})" if sample_text else "")
-        )
-    return "\n".join(lines) + "\n\n"
 
 
 def build_combined_prompt(
@@ -263,18 +171,49 @@ def build_combined_prompt(
     sources_cfg: dict,
     search_domains: list[str],
     calendar_items: list[dict] | None = None,
+    state_dir: Path | None = None,
 ) -> str:
     calendar_items = calendar_items or []
-    calendar_counts: dict[str, int] = {}
-    for item in calendar_items:
-        sid = (item.get("topic_ids") or ["exhibitions"])[0]
-        calendar_counts[sid] = calendar_counts.get(sid, 0) + 1
+    prog_counts = programme_counts(calendar_items, sources_cfg)
+    sections_needing_search = {
+        sid
+        for sid in SECTIONS_REQUIRING_WEB_SEARCH
+        if prog_counts.get(sid, 0) == 0
+    }
 
-    calendars = build_compact_calendars_block(sources_cfg)
-    warehouse_block = build_calendar_warehouse_block(
-        calendar_items=calendar_items,
+    novelty_block = build_novelty_block(
+        state_dir=state_dir or REPO_ROOT / "state" / "berlin-culture",
+        run_date=date_str,
         topics_cfg=topics_cfg,
     )
+    programme_block = build_programme_urls_block(
+        sources_cfg,
+        sections_needing_search=sections_needing_search,
+    )
+    press_block = build_press_warehouse_block(
+        calendar_items=calendar_items,
+        sources_cfg=sources_cfg,
+    )
+    warehouse_block = build_programme_warehouse_block(
+        calendar_items=calendar_items,
+        sources_cfg=sources_cfg,
+        topics_cfg=topics_cfg,
+    )
+
+    search_rules = []
+    if sections_needing_search:
+        search_rules.append(
+            "- **Required:** use web_search on programme URLs for sections with no "
+            f"venue-programme warehouse: {', '.join(sorted(sections_needing_search))}."
+        )
+    search_rules.append(
+        "- Never invent URLs — only include events found on programme pages or calendars."
+    )
+    search_rules.append(
+        "- For exhibitions: prefer **new openings** and **closing within 10 days** over "
+        "long-running shows already listed in the novelty index."
+    )
+    search_rules_str = "\n".join(search_rules)
 
     return f"""You are pre-fetching candidates for a weekly Berlin culture briefing in ONE combined pass.
 
@@ -285,74 +224,25 @@ Event window: {week_label}
 
 {build_compact_themes_block(topics_cfg)}
 
-{calendars}
+{novelty_block}{programme_block}{press_block}{warehouse_block}{build_section_requirements(topics_cfg, programme_coverage=prog_counts)}
 
-{build_compact_venues_block(sources_cfg)}
-
-{build_section_requirements(topics_cfg, rss_counts=calendar_counts)}
-
-{warehouse_block}## Tuesday rule
+## Tuesday rule
 Include only events occurring Wednesday through the following Monday/Tuesday of the briefing week,
 OR exhibitions open through at least Wednesday of that week.
 Exclude events already finished before Wednesday.
 
 ## Output rules
-- official_url MUST be the **specific** event/exhibition page (never a homepage or social media)
+- official_url MUST be the **specific** event/exhibition page (never a homepage, review, or social media)
 - dates and times must be concrete (not "TBA") when possible
 - For exhibitions: set closing_soon true if closing within 10 days
 - topic_ids: primary section id first, then optional theme tags
 - why_candidate: one sentence on thematic/artistic fit
 
-## Search scope
-web_search is domain-filtered automatically ({len(search_domains)} allowed domains).
-Prioritize primary calendars, then venue programme pages for exhibitions, film, performance, and music.
+## Search discipline
+{search_rules_str}
+web_search is domain-filtered ({len(search_domains)} allowed domains).
 
 Return JSON: items (all sections combined), gaps, search_notes."""
-
-
-def is_deep_event_url(url: str) -> bool:
-    parsed = urlparse((url or "").strip())
-    if parsed.scheme not in ("http", "https"):
-        return False
-    path = parsed.path.lower().rstrip("/")
-    if not path:
-        return False
-    segments = [s for s in path.split("/") if s]
-    if not segments or segments in (["en"], ["de"]):
-        return False
-    if len(segments) == 1 and segments[0] in ("en", "de"):
-        return False
-    if any(kw in path for kw in EVENT_PATH_KEYWORDS):
-        return True
-    if len(segments) >= 3:
-        return True
-    if len(segments) >= 2 and any(ch.isdigit() for ch in segments[-1]):
-        return True
-    return False
-
-
-def has_concrete_schedule(dates: str, times: str, *, section_id: str) -> bool:
-    d = (dates or "").strip().lower()
-    t = (times or "").strip().lower()
-    if not d or any(m in d for m in VAGUE_SCHEDULE_MARKERS):
-        return False
-    if section_id == "exhibitions":
-        return True
-    if not t or any(m in t for m in VAGUE_SCHEDULE_MARKERS):
-        return False
-    return True
-
-
-def mark_item_verified(item: dict) -> None:
-    section_id = (item.get("topic_ids") or ["exhibitions"])[0]
-    item["verified"] = (
-        is_deep_event_url(item.get("official_url") or "")
-        and has_concrete_schedule(
-            item.get("dates") or "",
-            item.get("times") or "",
-            section_id=section_id,
-        )
-    )
 
 
 def enrich_candidate(item: dict) -> dict:
@@ -361,7 +251,9 @@ def enrich_candidate(item: dict) -> dict:
     extra = [t for t in topic_ids if t != section_id]
     item["topic_ids"] = [section_id, *extra]
     item["ingestion_source"] = item.get("ingestion_source") or "openai"
-    mark_item_verified(item)
+    if item["ingestion_source"] == "openai" and "url_live" not in item:
+        item["url_live"] = None
+    mark_item_verified(item, require_url_live=True)
     return item
 
 
@@ -408,7 +300,6 @@ def load_calendar_items(inbox_dir: Path, date_str: str) -> list[dict]:
 
 
 def merge_calendar_items(openai_items: list[dict], calendar_items: list[dict]) -> tuple[list[dict], int]:
-    """Merge RSS candidates; OpenAI items win on official_url collision."""
     seen: set[str] = set()
     merged: list[dict] = []
 
@@ -436,17 +327,18 @@ def fetch_all_culture(
     model: str,
     topics_cfg: dict,
     sources_cfg: dict,
-    rss_items: list[dict] | None = None,
     calendar_items: list[dict] | None = None,
     spend_ledger: DailySpendLedger | None = None,
+    state_dir: Path | None = None,
 ) -> dict:
     date_str, run_dt = normalize_tuesday_run_date(date_str)
     week_start, week_end = culture_week_window(run_dt)
     week_label = format_week_range(week_start, week_end)
     allowed = sources_cfg.get("allowed_domains") or []
-    if calendar_items is None:
-        calendar_items = rss_items or []
     calendar_items = calendar_items or []
+
+    prog_counts = programme_counts(calendar_items, sources_cfg)
+    editorial_counts = press_counts(calendar_items, sources_cfg)
 
     if spend_ledger and spend_ledger.cap_enabled():
         log(
@@ -462,10 +354,14 @@ def fetch_all_culture(
         sources_cfg=sources_cfg,
         search_domains=allowed,
         calendar_items=calendar_items,
+        state_dir=state_dir,
     )
     log(f"  Running single combined culture research fetch (week: {week_label})...")
     if calendar_items:
-        log(f"  Calendar warehouse: {len(calendar_items)} items (RSS + WordPress) merged after OpenAI")
+        log(
+            f"  Calendar warehouse: {len(calendar_items)} items "
+            f"(programme={sum(prog_counts.values())}, press={sum(editorial_counts.values())})"
+        )
 
     if spend_ledger and not spend_ledger.try_reserve_section_budget(
         reserve_usd=COMBINED_FETCH_BUDGET_RESERVE_USD
@@ -502,18 +398,12 @@ def fetch_all_culture(
 
     counts = section_counts(items, topics_cfg)
     verified_count = sum(1 for item in items if item.get("verified"))
-    log(f"  Combined fetch done ({len(items)} items, {verified_count} verified) — {counts}")
-
-    calendar_counts = {sid: 0 for sid in counts}
-    for item in calendar_items:
-        sid = (item.get("topic_ids") or ["exhibitions"])[0]
-        if sid in calendar_counts:
-            calendar_counts[sid] += 1
+    log(f"  Combined fetch done ({len(items)} items, {verified_count} pre-URL-check verified) — {counts}")
 
     openai_targets = {
         sid: culture_openai_min(
             sid,
-            calendar_counts.get(sid, 0),
+            prog_counts.get(sid, 0),
             section_min_items(topic_by_id(topics_cfg).get(sid) or {}),
         )
         for sid in counts
@@ -531,13 +421,16 @@ def fetch_all_culture(
         "items": items,
         "gaps": result.get("gaps") or [],
         "section_counts": counts,
-        "calendar_counts": calendar_counts,
-        "rss_counts": calendar_counts,
+        "programme_counts": prog_counts,
+        "press_counts": editorial_counts,
+        "calendar_counts": {**prog_counts},
+        "rss_counts": prog_counts,
         "openai_targets": openai_targets,
         "calendar_merged": calendar_merged,
         "search_notes": (
-            f"Calendar counts: {calendar_counts}. OpenAI targets: {openai_targets}. "
-            f"Calendar merged: {calendar_merged}. {result.get('search_notes') or ''}"
+            f"Programme counts: {prog_counts}. Press counts: {editorial_counts}. "
+            f"OpenAI targets: {openai_targets}. Calendar merged: {calendar_merged}. "
+            f"{result.get('search_notes') or ''}"
         ).strip(),
     }
 
@@ -586,6 +479,7 @@ def main() -> int:
                 sources_cfg=sources_cfg,
                 search_domains=allowed,
                 calendar_items=calendar_items,
+                state_dir=briefing.state_dir,
             )
         )
         return 0
@@ -612,6 +506,7 @@ def main() -> int:
             sources_cfg=sources_cfg,
             calendar_items=calendar_items,
             spend_ledger=spend_ledger,
+            state_dir=briefing.state_dir,
         )
     except SpendCapExceeded as exc:
         handle_cap_abort(
@@ -639,6 +534,7 @@ def main() -> int:
 
     out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     log(f"Wrote {out_path} ({len(payload.get('items') or [])} items)")
+    log("  Next: python scripts/verify_culture_urls.py")
     return 0
 
 

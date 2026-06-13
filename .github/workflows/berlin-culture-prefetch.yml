@@ -87,6 +87,13 @@ jobs:
           git pull --rebase origin main || true
           git push origin main || true
 
+      - name: Verify culture URLs
+        if: success()
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python scripts/verify_culture_urls.py --type berlin-culture --date ${{ steps.run_date.outputs.value }}
+
       - name: Slim inbox for synthesis
         if: success()
         env:
