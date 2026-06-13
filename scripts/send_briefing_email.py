@@ -1059,10 +1059,15 @@ def resolve_briefing_paths(
             "Pass --file or fix changed-file detection in the workflow."
         )
 
-    if all_changed:
-        return sorted(candidates)
+    existing_candidates = [p for p in candidates if p.is_file()]
 
-    return _latest_per_type(candidates)
+    if not existing_candidates:
+        return []
+
+    if all_changed:
+        return sorted(existing_candidates)
+
+    return _latest_per_type(existing_candidates)
 
 
 def main() -> int:
@@ -1107,6 +1112,29 @@ def main() -> int:
         print(exc, file=sys.stderr)
         return 1
 
+    if not briefing_paths:
+        if changed_files:
+            missing = [
+                raw
+                for raw in changed_files
+                if raw.endswith(".md")
+                and raw.startswith("briefings/")
+                and not (REPO_ROOT / raw).is_file()
+            ]
+            print(
+                "Email: no briefing files to send "
+                f"({len(missing)} changed path(s) were deletions or missing)."
+            )
+            for raw in sorted(missing):
+                print(f"  skipped: {raw}")
+            return 0
+        print("No briefing files to send.", file=sys.stderr)
+        return 1
+
+    if args.file and not briefing_paths[0].is_file():
+        print(f"Briefing not found: {briefing_paths[0]}", file=sys.stderr)
+        return 1
+
     if changed_files and not args.file and not all_changed and len(changed_files) > len(
         briefing_paths
     ):
@@ -1138,8 +1166,8 @@ def main() -> int:
 
     for briefing_path in briefing_paths:
         if not briefing_path.exists():
-            print(f"Briefing not found: {briefing_path}", file=sys.stderr)
-            return 1
+            print(f"Briefing not found (skipped): {briefing_path}", file=sys.stderr)
+            continue
 
         print(f"Using briefing file: {briefing_path.relative_to(REPO_ROOT)}")
         md_text = briefing_path.read_text(encoding="utf-8")

@@ -52,7 +52,7 @@ jobs:
           AFTER="${{ github.sha }}"
           FILES=""
           if git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
-            FILES=$(git diff --name-only "${BEFORE}" "${AFTER}" -- 'briefings/**/*.md' | tr '\n' ' ')
+            FILES=$(git diff --name-only --diff-filter=AM "${BEFORE}" "${AFTER}" -- 'briefings/**/*.md' | tr '\n' ' ')
           else
             echo "::warning::Parent commit ${BEFORE} not in checkout; using push event file list"
             FILES=$(python3 -c "
@@ -60,19 +60,33 @@ jobs:
           commits = json.loads(os.environ['COMMITS_JSON'])
           paths = set()
           for commit in commits:
-              for key in ('added', 'modified', 'removed'):
+              for key in ('added', 'modified'):
                   for path in commit.get(key) or []:
                       if path.startswith('briefings/') and path.endswith('.md'):
                           paths.add(path)
           print(' '.join(sorted(paths)))
           ")
           fi
+          # Drop paths that no longer exist (e.g. deletions still listed in push payload).
+          EXISTING=""
+          for path in $FILES; do
+            if [ -f "$path" ]; then
+              EXISTING="$EXISTING $path"
+            else
+              echo "Skipping missing briefing path: $path"
+            fi
+          done
+          FILES="${EXISTING# }"
           echo "Detected briefing files: ${FILES:-<none>}"
+          if [ -z "$FILES" ]; then
+            echo "No existing briefing files to email (deletions only)."
+          fi
           echo "files=$FILES" >> "$GITHUB_OUTPUT"
         env:
           COMMITS_JSON: ${{ toJson(github.event.commits) }}
 
       - name: Send via Resend
+        if: github.event_name == 'workflow_dispatch' || steps.changed.outputs.files != ''
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}
