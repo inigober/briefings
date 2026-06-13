@@ -13,7 +13,7 @@ GitHub's built-in `schedule:` trigger is best-effort and can start workflows hou
 | Restaurants pre-fetch | Thursday **07:00** | `berlin-restaurants-prefetch.yml` |
 | Health check | Daily **11:00** | `prefetch-health-check.yml` (`profile: all`) |
 
-The health check at 11:00 Berlin uses each briefing type's **inbox date key** (Tuesday/Thursday week keys for weekly types), so a missed Tuesday culture pre-fetch still alerts on Wednesday.
+**Health check timing:** One job at 11:00 Berlin covers all types. On a prefetch day (e.g. Tuesday culture at 06:00), the 11:00 run is the primary check that the inbox landed (~5 hours later). On other days, the same job re-checks the current week's culture/restaurant inbox keys as a backup — not the main alert path.
 
 ## 1. GitHub token
 

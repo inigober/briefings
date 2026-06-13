@@ -143,6 +143,10 @@ Create **one** automation in [Cursor Automations](https://cursor.com/automations
 
 The dispatcher runs `scripts/detect_synthesis_trigger.py` to decide which briefing type (if any) should synthesize, then executes that type's `prompts/{type}/synthesis-run.md` steps 1–4.
 
+**Push-only by design.** Synthesis runs when pre-fetch commits to `inbox/` and triggers a push. There is no scheduled synthesis cron in Cursor or GitHub Actions.
+
+**Optional backup (not wired):** The same script supports `--backup`, which scans the repo for "inbox ready but briefing file missing" (prefetch succeeded, synthesis never ran). It is tested but nothing calls it in production — recovery today is manual (re-run the Cursor automation or synthesis steps). To automate later, you could add a cron-job.org job that runs the script and triggers synthesis when it returns a type; see `detect_backup_trigger()` in `scripts/detect_synthesis_trigger.py`.
+
 **Disable** any legacy per-type push automations (news, berlin-culture, berlin-restaurants) after the dispatcher is live.
 
 Test routing locally:
@@ -164,7 +168,7 @@ Pre-fetch and health-check workflows have **no GitHub `schedule:` trigger** — 
 | Restaurants pre-fetch | Thursday **07:00** | `berlin-restaurants-prefetch.yml` |
 | Health check | Daily **11:00** | `prefetch-health-check.yml` (`profile: all`) |
 
-Synthesis is **push-triggered** via the **Briefing synthesis** Cursor automation when pre-fetch commits to `inbox/`. Recover missed runs from health-check emails or re-trigger from GitHub Actions → **Run workflow**.
+Synthesis is **push-triggered** via the **Briefing synthesis** Cursor automation when pre-fetch commits to `inbox/`. If pre-fetch failed, recover from health-check emails or re-run the matching `*-prefetch.yml` workflow. If pre-fetch succeeded but no briefing appeared, re-run the Cursor automation manually (`--backup` detection exists in the script but is not scheduled — see **Cursor Automations** above).
 
 ### Local OpenAI API key (safe setup)
 
