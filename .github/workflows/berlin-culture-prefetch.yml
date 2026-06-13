@@ -44,6 +44,18 @@ jobs:
           echo "value=$RESOLVED" >> "$GITHUB_OUTPUT"
           echo "Using culture week key: $RESOLVED"
 
+      - name: Fetch RSS culture calendars
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python scripts/fetch_rss.py --type berlin-culture --date ${{ steps.run_date.outputs.value }}
+
+      - name: Fetch WordPress culture posts
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python scripts/fetch_wordpress.py --type berlin-culture --date ${{ steps.run_date.outputs.value }}
+
       - name: Fetch OpenAI culture research
         id: openai_fetch
         env:

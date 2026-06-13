@@ -6,6 +6,7 @@ topics:
     enabled: true
     max_items: 5
     slim_cap: 10
+    prefetch_min: 7
     description: >
       Contemporary art, video/sound/media art, research-based practices.
       Prioritize closing-soon exhibitions. Include opening and closing dates.
@@ -15,6 +16,7 @@ topics:
     enabled: true
     max_items: 4
     slim_cap: 8
+    prefetch_min: 5
     description: >
       Socially engaged documentary, essay film, political cinema, experimental
       moving image, hybrid documentary, international cinema, post-screening discussions.
@@ -24,6 +26,7 @@ topics:
     enabled: true
     max_items: 3
     slim_cap: 6
+    prefetch_min: 4
     description: >
       Contemporary dance, interdisciplinary performance, experimental theatre,
       choreography, participatory performance, performance art.
@@ -33,6 +36,7 @@ topics:
     enabled: true
     max_items: 4
     slim_cap: 8
+    prefetch_min: 5
     description: >
       Ambient, experimental electronic, electroacoustic, sound art, drone, leftfield jazz,
       free improvisation, contemporary composition, global experimental music.
@@ -43,6 +47,7 @@ topics:
     enabled: true
     max_items: 2
     slim_cap: 4
+    prefetch_min: 2
     description: >
       Talks, lectures, research events, hybrid formats. Food/culture events sparingly
       (max 25% of total recommendations across the briefing).
@@ -52,6 +57,7 @@ topics:
     enabled: true
     max_items: 3
     slim_cap: 5
+    prefetch_min: 2
     optional: true
     description: >
       Upcoming exhibitions, festivals, sell-out performances, major openings.

@@ -13,6 +13,7 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 from detect_synthesis_trigger import (  # noqa: E402
+    _best_skip_rejection,
     is_research_inbox_file,
     research_date_from_path,
     synthesis_file_modified,
@@ -68,6 +69,33 @@ class TestBriefingExistsGuard(unittest.TestCase):
         finally:
             synthesis.unlink(missing_ok=True)
             briefing.unlink(missing_ok=True)
+
+    def test_detect_trigger_surfaces_briefing_exists_reason(self) -> None:
+        from detect_synthesis_trigger import detect_trigger
+
+        decision = detect_trigger("2e987902")
+        self.assertIsNone(decision.type_id)
+        self.assertIn("Briefing already exists for 2026-06-09", decision.reason)
+        self.assertIn("berlin-culture", decision.reason)
+        self.assertTrue(decision.matched_files)
+
+    def test_best_skip_rejection_prefers_briefing_exists(self) -> None:
+        reason, matched = _best_skip_rejection(
+            [
+                (
+                    "news",
+                    "No news inbox research in commit",
+                    (),
+                ),
+                (
+                    "berlin-culture",
+                    "Briefing already exists for 2026-06-09",
+                    ("inbox/berlin-culture/2026-06-09-synthesis.json",),
+                ),
+            ]
+        )
+        self.assertEqual(reason, "berlin-culture: Briefing already exists for 2026-06-09")
+        self.assertEqual(len(matched), 1)
 
 
     def test_keeps_newest_date_per_type(self) -> None:

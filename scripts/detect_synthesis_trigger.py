@@ -236,6 +236,27 @@ def detect_backup_trigger(date_str: str | None = None) -> TriggerDecision:
     )
 
 
+def _skip_rejection_priority(reason: str) -> int:
+    if reason.startswith("Briefing already exists"):
+        return 0
+    if reason.startswith("Inbox changed but not a fresh pre-fetch"):
+        return 1
+    return 2
+
+
+def _best_skip_rejection(
+    rejections: list[tuple[str, str, tuple[str, ...]]],
+) -> tuple[str, tuple[str, ...]] | None:
+    """Pick the most informative near-miss from per-type evaluation."""
+    if not rejections:
+        return None
+    type_id, reason, matched = sorted(
+        rejections,
+        key=lambda item: (_skip_rejection_priority(item[1]), _type_priority(item[0])),
+    )[0]
+    return f"{type_id}: {reason}", matched
+
+
 def detect_trigger(commit_sha: str | None = None, *, backup: bool = False) -> TriggerDecision:
     if backup:
         return detect_backup_trigger()
@@ -243,6 +264,7 @@ def detect_trigger(commit_sha: str | None = None, *, backup: bool = False) -> Tr
     subject = commit_subject(sha)
     changed = changed_files_in_commit(sha)
 
+    rejections: list[tuple[str, str, tuple[str, ...]]] = []
     for type_id in sorted(load_manifest()):
         should_run, reason, matched = evaluate_type(
             type_id, commit_sha=sha, subject=subject, changed=changed
@@ -255,6 +277,8 @@ def detect_trigger(commit_sha: str | None = None, *, backup: bool = False) -> Tr
                 commit_subject=subject,
                 matched_files=matched,
             )
+        if matched:
+            rejections.append((type_id, reason, matched))
 
     if not changed:
         return TriggerDecision(
@@ -263,6 +287,17 @@ def detect_trigger(commit_sha: str | None = None, *, backup: bool = False) -> Tr
             commit_sha=sha,
             commit_subject=subject,
             matched_files=(),
+        )
+
+    skip = _best_skip_rejection(rejections)
+    if skip:
+        reason, matched = skip
+        return TriggerDecision(
+            type_id=None,
+            reason=reason,
+            commit_sha=sha,
+            commit_subject=subject,
+            matched_files=matched,
         )
 
     return TriggerDecision(

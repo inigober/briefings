@@ -154,6 +154,8 @@ def score_news_item(item: dict) -> int:
 
 def score_culture_item(item: dict, priority_venues: set[str]) -> int:
     score = 0
+    if item.get("ingestion_source") not in ("rss", "wordpress"):
+        score += 12
     if item.get("verified"):
         score += 20
     if item.get("closing_soon"):

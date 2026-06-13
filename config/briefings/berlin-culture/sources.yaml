@@ -1,3 +1,40 @@
+# Berlin culture — domains, calendars, and RSS feeds for pre-fetch.
+
+rss_max_age_hours: 336  # 14 days — weekly briefing window
+
+rss_feeds:
+  - publisher: Cee Cee Berlin
+    url: https://ceecee.cc/feed/
+    section_ids: [wildcards]
+    max_items: 10
+  - publisher: Berlin Art Link
+    url: https://www.berlinartlink.com/feed/
+    section_ids: [exhibitions]
+    max_items: 12
+  - publisher: 20% Berlin
+    url: https://20percent.berlin/feed/
+    section_ids: [wildcards]
+    max_items: 10
+  - publisher: Ballhaus Naunynstraße
+    url: https://ballhausnaunynstrasse.de/feed/
+    section_ids: [performing_arts]
+    max_items: 10
+  - publisher: A-Trane
+    url: https://www.a-trane.de/feed/
+    section_ids: [music]
+    max_items: 10
+  - publisher: MONOM
+    url: https://www.monom.com/feed/
+    section_ids: [music]
+    max_items: 10
+
+wordpress_feeds:
+  - publisher: The Berliner
+    url: https://www.the-berliner.com/wp-json/wp/v2/posts
+    venue: The Berliner
+    section_ids: [wildcards]
+    max_items: 12
+
 allowed_domains:
   - ceecee.cc
   - 20percent.berlin

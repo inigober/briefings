@@ -16,6 +16,8 @@ import requests
 
 # Conservative per-section reservation so parallel workers do not overshoot the cap.
 SECTION_BUDGET_RESERVE_USD = 0.55
+# Single combined OpenAI call (culture, restaurants) — actual cost ~$0.06–0.15.
+COMBINED_FETCH_BUDGET_RESERVE_USD = 0.15
 
 # Web search tool: $10 / 1k calls (OpenAI pricing page, 2026).
 WEB_SEARCH_COST_PER_CALL_USD = 0.01
@@ -151,6 +153,7 @@ class DailySpendLedger:
 
     _lock: threading.Lock = field(default_factory=threading.Lock, repr=False)
     _reserved_usd: float = field(default=0.0, repr=False)
+    _last_reserve_usd: float = field(default=SECTION_BUDGET_RESERVE_USD, repr=False)
 
     @classmethod
     def load_or_create(cls, path: Path, *, date_str: str, cap_usd: float) -> DailySpendLedger:
@@ -183,20 +186,27 @@ class DailySpendLedger:
     def cap_enabled(self) -> bool:
         return self.cap_usd > 0
 
-    def try_reserve_section_budget(self) -> bool:
+    def try_reserve_section_budget(
+        self,
+        *,
+        reserve_usd: float | None = None,
+    ) -> bool:
+        amount = SECTION_BUDGET_RESERVE_USD if reserve_usd is None else reserve_usd
         if not self.cap_enabled():
             return True
         with self._lock:
             if self.spent_usd >= self.cap_usd:
                 return False
-            if self.spent_usd + self._reserved_usd + SECTION_BUDGET_RESERVE_USD > self.cap_usd:
+            if self.spent_usd + self._reserved_usd + amount > self.cap_usd:
                 return False
-            self._reserved_usd += SECTION_BUDGET_RESERVE_USD
+            self._reserved_usd += amount
+            self._last_reserve_usd = amount
             return True
 
     def record_usage(self, usage: UsageRecord) -> None:
         with self._lock:
-            self._reserved_usd = max(0.0, self._reserved_usd - SECTION_BUDGET_RESERVE_USD)
+            self._reserved_usd = max(0.0, self._reserved_usd - self._last_reserve_usd)
+            self._last_reserve_usd = SECTION_BUDGET_RESERVE_USD
             self.spent_usd = round(self.spent_usd + usage.cost_usd, 6)
             self.calls.append(asdict(usage))
             self.last_run_at = datetime.now(timezone.utc).isoformat()

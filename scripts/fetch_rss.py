@@ -28,6 +28,7 @@ from briefing_paths import load_briefing_type
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULT_MAX_AGE_HOURS = 72
+DEFAULT_CULTURE_MAX_AGE_HOURS = 336  # 14 days — weekly briefing window
 DEFAULT_MAX_ITEMS = 12
 
 REGION_DEFAULTS: dict[str, dict[str, str]] = {
@@ -103,6 +104,52 @@ def make_item_id(url: str, section_id: str) -> str:
     return f"rss-{section_id}-{digest}"
 
 
+def entry_to_culture_item(
+    entry: Any,
+    *,
+    feed_cfg: dict,
+    section_id: str,
+    blocklist: list[str],
+) -> dict | None:
+    url = entry_url(entry)
+    if not url or not url.startswith("http"):
+        return None
+    if is_blocked(url, blocklist):
+        return None
+
+    title = strip_html(getattr(entry, "title", "") or "").strip()
+    if not title:
+        return None
+
+    summary = strip_html(
+        getattr(entry, "summary", "")
+        or getattr(entry, "description", "")
+        or ""
+    )
+    if len(summary) > 400:
+        summary = summary[:397] + "..."
+
+    venue = feed_cfg.get("venue") or feed_cfg.get("publisher") or urlparse(url).netloc
+    why = summary or title
+    if len(why) > 300:
+        why = why[:297] + "..."
+
+    return {
+        "id": make_item_id(url, section_id),
+        "topic_ids": [section_id],
+        "title": title,
+        "venue": venue,
+        "dates": "",
+        "times": "",
+        "artists": [],
+        "official_url": url,
+        "closing_soon": False,
+        "why_candidate": why,
+        "ingestion_source": "rss",
+        "verified": False,
+    }
+
+
 def entry_to_item(
     entry: Any,
     *,
@@ -165,6 +212,7 @@ def fetch_feed(
     *,
     cutoff: datetime,
     blocklist: list[str],
+    item_format: str = "news",
 ) -> tuple[list[dict], str | None]:
     url = feed_cfg.get("url")
     if not url:
@@ -195,12 +243,22 @@ def fetch_feed(
         if entry_dt and entry_dt < cutoff:
             continue
 
-        item = entry_to_item(entry, feed_cfg=feed_cfg, section_id=section_id, blocklist=blocklist)
+        if item_format == "culture":
+            item = entry_to_culture_item(
+                entry, feed_cfg=feed_cfg, section_id=section_id, blocklist=blocklist
+            )
+        else:
+            item = entry_to_item(
+                entry, feed_cfg=feed_cfg, section_id=section_id, blocklist=blocklist
+            )
         if not item:
             continue
 
-        norm = normalize_url(item["sources"][0]["url"])
-        if norm in seen_urls:
+        if item_format == "culture":
+            norm = normalize_url(item.get("official_url") or "")
+        else:
+            norm = normalize_url(item["sources"][0]["url"])
+        if not norm or norm in seen_urls:
             continue
         seen_urls.add(norm)
         items.append(item)
@@ -213,6 +271,7 @@ def fetch_all_rss(
     date_str: str,
     sources_cfg: dict,
     max_age_hours: int = DEFAULT_MAX_AGE_HOURS,
+    item_format: str = "news",
 ) -> dict:
     feeds = sources_cfg.get("rss_feeds") or []
     blocklist = sources_cfg.get("blocklist_domains") or []
@@ -224,7 +283,12 @@ def fetch_all_rss(
 
     for feed_cfg in feeds:
         label = feed_cfg.get("publisher") or feed_cfg.get("url", "unknown")
-        items, err = fetch_feed(feed_cfg, cutoff=cutoff, blocklist=blocklist)
+        items, err = fetch_feed(
+            feed_cfg,
+            cutoff=cutoff,
+            blocklist=blocklist,
+            item_format=item_format,
+        )
         if err:
             errors.append(f"{label}: {err}")
             log(f"  [{label}] skipped — {err}")
@@ -237,8 +301,11 @@ def fetch_all_rss(
     seen: set[str] = set()
     deduped: list[dict] = []
     for item in all_items:
-        url = normalize_url(item["sources"][0]["url"])
-        if url in seen:
+        if item_format == "culture":
+            url = normalize_url(item.get("official_url") or "")
+        else:
+            url = normalize_url(item["sources"][0]["url"])
+        if not url or url in seen:
             continue
         seen.add(url)
         deduped.append(item)
@@ -247,10 +314,25 @@ def fetch_all_rss(
         "date": date_str,
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "source": "rss",
+        "item_format": item_format,
         "items": deduped,
         "feed_counts": feed_notes,
         "errors": errors,
     }
+
+
+def resolve_max_age_hours(*, briefing_type: str, sources_cfg: dict) -> int:
+    if sources_cfg.get("rss_max_age_hours") is not None:
+        return int(sources_cfg["rss_max_age_hours"])
+    if briefing_type == "berlin-culture":
+        return DEFAULT_CULTURE_MAX_AGE_HOURS
+    return DEFAULT_MAX_AGE_HOURS
+
+
+def resolve_item_format(briefing_type: str) -> str:
+    if briefing_type == "berlin-culture":
+        return "culture"
+    return "news"
 
 
 def main() -> int:
@@ -273,6 +355,13 @@ def main() -> int:
     date_str = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
     sources_cfg = load_yaml(briefing.sources_path)
     feeds = sources_cfg.get("rss_feeds") or []
+    max_age_hours = args.max_age_hours
+    if max_age_hours == DEFAULT_MAX_AGE_HOURS:
+        max_age_hours = resolve_max_age_hours(
+            briefing_type=args.type,
+            sources_cfg=sources_cfg,
+        )
+    item_format = resolve_item_format(args.type)
 
     inbox_dir = briefing.inbox_dir
     inbox_dir.mkdir(parents=True, exist_ok=True)
@@ -284,6 +373,7 @@ def main() -> int:
             "date": date_str,
             "fetched_at": datetime.now(timezone.utc).isoformat(),
             "source": "rss",
+            "item_format": item_format,
             "items": [],
             "feed_counts": [],
             "errors": [],
@@ -291,11 +381,12 @@ def main() -> int:
         out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         return 0
 
-    log(f"Fetching RSS for {date_str} ({len(feeds)} feeds, max age {args.max_age_hours}h)...")
+    log(f"Fetching RSS for {date_str} ({len(feeds)} feeds, max age {max_age_hours}h)...")
     payload = fetch_all_rss(
         date_str=date_str,
         sources_cfg=sources_cfg,
-        max_age_hours=args.max_age_hours,
+        max_age_hours=max_age_hours,
+        item_format=item_format,
     )
 
     out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

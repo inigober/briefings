@@ -29,6 +29,7 @@ from fetch_openai_research import (
     topic_by_id,
 )
 from openai_spend import (
+    COMBINED_FETCH_BUDGET_RESERVE_USD,
     DailySpendLedger,
     SpendCapExceeded,
     handle_cap_abort,
@@ -239,7 +240,9 @@ def fetch_all_restaurants(
     )
     log("  Running single combined restaurant research fetch...")
 
-    if spend_ledger and not spend_ledger.try_reserve_section_budget():
+    if spend_ledger and not spend_ledger.try_reserve_section_budget(
+        reserve_usd=COMBINED_FETCH_BUDGET_RESERVE_USD
+    ):
         raise RuntimeError("Insufficient daily OpenAI budget remaining")
 
     client = make_client()
