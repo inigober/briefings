@@ -1,310 +1,9 @@
 {
+  "briefing_type": "news",
   "date": "2026-06-13",
-  "fetched_at": "2026-06-13T15:47:00.515143+00:00",
-  "model": "gpt-4.1",
+  "fetched_at": "2026-06-13T17:50:00.181883+00:00",
+  "source": "rss+wordpress",
   "items": [
-    {
-      "id": "spain-ec-energy-transition-20260613",
-      "topic_ids": [
-        "spain",
-        "energy",
-        "economy"
-      ],
-      "headline": "Spanish Green Energy Sector Accelerates Investment Amid European Policy Shifts",
-      "summary": "Spain’s green energy industry is ramping up investment in solar and wind infrastructure, spurred by updated EU targets and new financing incentives from both the EU and national government. Major Spanish firms, including Iberdrola and Acciona, have announced further capacity expansions for 2026-2028, with a focus on grid modernization to support rising electricity demand and decarbonization of industry.",
-      "why_it_matters": "This heightened investment wave solidifies Spain’s leadership in renewable energy, driving economic growth, job creation, and energy security while aligning the country with the EU Green Deal. Changes in policy frameworks and funding will impact domestic energy prices and the competitiveness of Spanish industry.",
-      "broader_context": "Renewables accounted for over 50% of Spanish power generation for parts of 2025. However, grid integration, storage, and permitting are bottlenecks. The current investment push aims to overcome these, with government and EU cooperation accelerating the timeline.",
-      "region": "National",
-      "country": "Spain",
-      "is_structural": true,
-      "is_follow_up": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Spain’s clean energy drive accelerates with new EU incentives",
-          "url": "https://www.ft.com/content/6b0eec25-6b1e-4319-a6f3-bec4085b8e6b",
-          "publisher": "Financial Times",
-          "published_at": "2026-06-12"
-        }
-      ]
-    },
-    {
-      "id": "spain-banking-consolidation-20260613",
-      "topic_ids": [
-        "spain",
-        "banking",
-        "economy"
-      ],
-      "headline": "Spanish Banking Sector Faces New EU Regulatory Demands—Preparing for Consolidation",
-      "summary": "The Spanish banking sector is under pressure as new EU regulatory requirements on liquidity and capital come into force in June 2026. Market analysts signal likely mergers among mid-tier banks to reach compliance and maintain profitability. CaixaBank and Banco Sabadell are named among institutions restructuring branch networks and digital services to strengthen balance sheets and respond to competitive pressures from fintech.",
-      "why_it_matters": "Banking stability and consolidation will affect lending, consumer access to credit, regional employment, and the pace of digital banking innovation. The looming wave of mergers could reshape Spain’s financial system and affect Spanish SMEs and household credit availability.",
-      "broader_context": "Spanish banks have made progress building capital buffers since the financial crisis, but face cost pressures and a rapidly digitizing competitive landscape. EU rules are raising the bar on risk management and solvency post-pandemic.",
-      "region": "National",
-      "country": "Spain",
-      "is_structural": true,
-      "is_follow_up": false,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Spanish banks eye mergers under stricter EU rules",
-          "url": "https://www.elconfidencial.com/empresas/2026-06-12/banca-fusion-europa-regulacion_3990125/",
-          "publisher": "El Confidencial",
-          "published_at": "2026-06-12"
-        }
-      ]
-    },
-    {
-      "id": "spain-catalonia-hydropower-drought-20260613",
-      "topic_ids": [
-        "spain",
-        "catalonia",
-        "energy",
-        "drought",
-        "infrastructure"
-      ],
-      "headline": "Persistent Drought Threatens Catalonia’s Hydropower Output and Water Supply",
-      "summary": "Catalonia faces continued drought conditions, with hydropower output at historic lows and major reservoirs nearing minimum capacity levels. Authorities are imposing new water usage restrictions in affected areas and accelerating projects for alternative water sources, including desalination and groundwater extraction. The drought places added pressure on energy security and agricultural output in the region.",
-      "why_it_matters": "Hydropower has historically provided both electricity and grid stability in Catalonia, but climate-driven drought is shifting regional energy and infrastructure policy. Water scarcity adds to the urgency for both desalination investment and improved water management, with downstream impacts for households, business, and agriculture.",
-      "broader_context": "The Mediterranean basin is increasingly vulnerable to prolonged dry spells linked to climate change, affecting multiple sectors. Structural adaptation in energy, water, and social policy is becoming a pressing regional issue.",
-      "region": "Catalonia",
-      "country": "Spain",
-      "is_structural": true,
-      "is_follow_up": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Catalonia’s reservoirs hit record lows as drought deepens energy worries",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-11/catalonia-s-water-crisis-hydropower-drought-energy-impact",
-          "publisher": "Bloomberg",
-          "published_at": "2026-06-11"
-        }
-      ]
-    },
-    {
-      "id": "berlin-transport-strike-june2026",
-      "topic_ids": [
-        "berlin",
-        "transport"
-      ],
-      "headline": "Berlin's Tram and Bus Services Halted by Day-long Strike",
-      "summary": "Berlin's public transport is heavily disrupted following a one-day warning strike by hundreds of BVG tram and bus drivers over ongoing wage disputes. The strike has left many Berliners scrambling to find alternative ways to commute, with U-Bahn trains unaffected but above-ground mobility sharply reduced.",
-      "why_it_matters": "This large-scale service interruption highlights ongoing tensions in public sector wage negotiations—a recurring structural issue within Berlin’s transit sector that affects daily city life and commuter reliability.",
-      "broader_context": "Berlin's BVG workforce has staged several strikes over the past two years, demanding higher wages in light of inflation and labor shortages. Public transport reliability is vital for Berlin's dense urban structure and climate goals.",
-      "region": "Berlin",
-      "country": "Germany",
-      "is_structural": true,
-      "is_follow_up": false,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Warnstreik bei BVG treibt Berliner am Freitag ins Chaos",
-          "url": "https://www.tagesspiegel.de/berlin/warnstreik-bei-bvg-treibr-berliner-am-freitag-ins-chaos-12345678.html",
-          "publisher": "Tagesspiegel",
-          "published_at": "2026-06-13"
-        }
-      ]
-    },
-    {
-      "id": "berlin-universities-admissions-ai2026",
-      "topic_ids": [
-        "berlin",
-        "universities",
-        "technology"
-      ],
-      "headline": "Berlin Universities Turn to AI for Admissions and Plagiarism Checks",
-      "summary": "All three major Berlin universities have implemented AI-driven tools for processing admissions essays and detecting plagiarism. Admin leaders argue it will streamline workloads and improve fairness, though student groups voice concerns over bias and error rates.",
-      "why_it_matters": "AI's accelerated adoption in education policy shapes both the fairness and workload of Berlin’s higher education institutions, setting precedents for national reforms.",
-      "broader_context": "Berlin’s universities are at the forefront of Germany's digitalization push, facing high demand and limited staff. New AI systems could become a model—or a flashpoint—for nationwide adoption.",
-      "region": "Berlin",
-      "country": "Germany",
-      "is_structural": true,
-      "is_follow_up": false,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Künstliche Intelligenz an Berliner Hochschulen: Hilfe oder Gefahr?",
-          "url": "https://www.tagesspiegel.de/berlin/kuenstliche-intelligenz-an-berliner-hochschulen-hilfe-oder-gefahr-12345999.html",
-          "publisher": "Tagesspiegel",
-          "published_at": "2026-06-13"
-        }
-      ]
-    },
-    {
-      "id": "berlin-firepolice-coordination-exercise2026",
-      "topic_ids": [
-        "berlin",
-        "policing",
-        "environment"
-      ],
-      "headline": "Major Emergency Exercise Tests Berlin’s Fire and Police Coordination",
-      "summary": "Berlin emergency services conducted a large-scale joint exercise at a city park, simulating a chemical spill and mass evacuation with both police and fire brigade units. Observers praised the improved digital communication tools now used on-site.",
-      "why_it_matters": "Strengthening inter-agency response to environmental hazards is crucial, given Berlin's dense population and history of infrastructure challenges.",
-      "broader_context": "The city regularly reviews disaster preparedness, particularly in light of climate risks and past emergency shortfalls. This exercise tests new protocols and digital equipment for crisis management.",
-      "region": "Berlin",
-      "country": "Germany",
-      "is_structural": true,
-      "is_follow_up": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Feuerwehr und Polizei Berlin proben Ernstfall im Park",
-          "url": "https://www.rbb24.de/panorama/beitrag/2026/06/berlin-grossuebung-feuerwehr-polizei--evakuierung.html",
-          "publisher": "rbb24",
-          "published_at": "2026-06-13"
-        }
-      ]
-    },
-    {
-      "id": "berlin-airport-illegal-cab-crackdown2026",
-      "topic_ids": [
-        "berlin",
-        "airports",
-        "policing"
-      ],
-      "headline": "BER Airport Launches Crackdown on Illegal Cab Operations",
-      "summary": "Berlin Brandenburg Airport’s management has initiated a coordinated effort with police to step up controls against illegal taxi and rideshare services operating around terminals. Early inspections have led to several fines and impounded vehicles.",
-      "why_it_matters": "Persistent illegal transport services threaten both passenger safety and the regulated sector, putting pressure on local law enforcement and airport management.",
-      "broader_context": "Berlin’s main airport deals with chronic issues balancing service demand with legal compliance among ground transport operators, which has undermined public confidence in recent years.",
-      "region": "Berlin",
-      "country": "Germany",
-      "is_structural": false,
-      "is_follow_up": false,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "BER: Taxi-Kontrollen gegen illegale Fahrdienste verstärkt",
-          "url": "https://www.rbb24.de/wirtschaft/beitrag/2026/06/ber-taxi-kontrollen-illegal.html",
-          "publisher": "rbb24",
-          "published_at": "2026-06-12"
-        }
-      ]
-    },
-    {
-      "id": "berlin-heatwave-hospital-impact2026",
-      "topic_ids": [
-        "berlin",
-        "healthcare",
-        "environment"
-      ],
-      "headline": "Heatwave Strains Berlin Hospitals as Emergency Visits Rise",
-      "summary": "Ongoing high temperatures in Berlin have forced hospitals to set up extra cooling zones and update emergency care protocols after a surge in heat-related admissions, particularly among seniors and children.",
-      "why_it_matters": "The health system’s resilience to extreme weather is a growing policy concern, illustrating Berlin’s ongoing adaptation to climate change at a city service level.",
-      "broader_context": "Berlin’s hospitals face regular peaks in demand during summer heatwaves, raising debates about infrastructure investment and public health outreach.",
-      "region": "Berlin",
-      "country": "Germany",
-      "is_structural": true,
-      "is_follow_up": false,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Hitzewelle bringt Berliner Kliniken an die Belastungsgrenze",
-          "url": "https://www.berliner-zeitung.de/mensch-metropole/hitzewelle-bringt-berliner-kliniken-an-die-belastungsgrenze-li.259973",
-          "publisher": "Berliner Zeitung",
-          "published_at": "2026-06-13"
-        }
-      ]
-    },
-    {
-      "id": "berlin-urban-planning-youth-housing2026",
-      "topic_ids": [
-        "berlin",
-        "urban planning"
-      ],
-      "headline": "Berlin Maps Out New Youth Housing Projects Amid Affordability Crisis",
-      "summary": "The Senate has released a detailed plan for several new subsidized youth housing complexes in Neukölln, Wedding, and Marzahn, aimed at students and apprentices. The move responds to mounting rental pressure and rising youth homelessness statistics.",
-      "why_it_matters": "Affordable youth housing directly addresses a major local social challenge and tests the city’s stated housing policy ambitions ahead of local elections.",
-      "broader_context": "Berlin has struggled to balance rapid population growth, new construction, and affordability, especially for young residents, for over a decade. Effectiveness of targeted subsidies is closely watched across German cities.",
-      "region": "Berlin",
-      "country": "Germany",
-      "is_structural": true,
-      "is_follow_up": false,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Senat stellt neue Pläne für Jugendwohnungen vor",
-          "url": "https://www.tagesspiegel.de/berlin/senat-stellt-neue-plane-fur-jugendwohnungen-vor-12346089.html",
-          "publisher": "Tagesspiegel",
-          "published_at": "2026-06-13"
-        }
-      ]
-    },
-    {
-      "id": "germany-iforesearch-pensiongap-2026-06-13",
-      "topic_ids": [
-        "germany",
-        "demographics",
-        "labour"
-      ],
-      "headline": "Germany faces €500 billion pension gap over next two decades, warns ifo Institute",
-      "summary": "A new ifo Institute report highlights a looming pension gap of €500 billion in Germany by 2045, driven by an aging population, shrinking workforce, and insufficient reforms. The study urges increased pension age and greater private retirement savings as the government’s current measures are deemed inadequate.",
-      "why_it_matters": "This is a major structural threat to Germany’s public finances, labour market, and social stability, with demographic ageing accelerating. The issue has direct implications for tax policy, intergenerational equity, and economic competitiveness.",
-      "broader_context": "Germany, like many European countries, is grappling with demographic decline. Previous attempts at reform—such as small increases to retirement age or voluntary private schemes—have fallen short. The issue is politically sensitive, especially as elections approach.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": true,
-      "is_follow_up": false,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Germany faces €500 billion pension gap over next two decades, warns ifo Institute",
-          "url": "https://www.ifo.de/en/press-release/2026-06-12/germany-faces-500bn-euro-pension-gap-over-next-two-decades",
-          "publisher": "ifo Institute",
-          "published_at": "2026-06-12"
-        }
-      ]
-    },
-    {
-      "id": "germany-aiindustrialization-2026-06-13",
-      "topic_ids": [
-        "germany",
-        "industry",
-        "technology",
-        "research"
-      ],
-      "headline": "German industry doubles down on AI-driven automation amid productivity stagnation",
-      "summary": "German manufacturers are accelerating deployment of AI and robotics to address chronic labour shortages and stagnant productivity. Large firms like Siemens and Bosch are ramping investments in ‘smart factories’, while SMEs struggle with costs and skills gaps.",
-      "why_it_matters": "AI industrialization is critical to Germany’s industrial competitiveness. Germany lags international peers in AI adoption outside of large conglomerates, risking a dual-track economy.",
-      "broader_context": "With demographic crunch tightening the labour market, and China and the US outpacing Europe in AI manufacturing, Germany’s Mittelstand risks falling behind without targeted public-private strategies.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": true,
-      "is_follow_up": false,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "German industry doubles down on AI-driven automation amid productivity stagnation",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-11/germany-s-ai-industrialization-push-to-fill-labour-gaps-stave-off-productivity-slump",
-          "publisher": "Bloomberg",
-          "published_at": "2026-06-11"
-        }
-      ]
-    },
-    {
-      "id": "germany-greenhydrogenproduction-2026-06-13",
-      "topic_ids": [
-        "germany",
-        "energy",
-        "industry",
-        "technology"
-      ],
-      "headline": "Europe’s largest green hydrogen plant launches in Hamburg, a boost for German energy transition",
-      "summary": "The new facility, co-led by Vattenfall and Shell, comes online with 100MW capacity, targeting decarbonization of local steel and chemical industries. Regulatory hurdles and high energy costs remain, but the launch marks a milestone for Germany’s hydrogen ambitions.",
-      "why_it_matters": "Green hydrogen is a pillar of Germany’s post-fossil energy strategy, key for heavy industry resilience and emissions reduction. Early industrial-scale deployments are make-or-break for the sector’s viability.",
-      "broader_context": "Germany’s 2025-2030 energy policy bets on scaling green hydrogen, but faces competition for supply, regulatory fragmentation, and global cost pressure. The Hamburg project will test the model for future replication.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": true,
-      "is_follow_up": false,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Europe’s largest green hydrogen plant launches in Hamburg, a boost for German energy transition",
-          "url": "https://www.ft.com/content/green-hydrogen-hamburg-germany",
-          "publisher": "Financial Times",
-          "published_at": "2026-06-12"
-        }
-      ]
-    },
     {
       "id": "rss-spain-91e8474643",
       "topic_ids": [
@@ -3808,27 +3507,233 @@
           "published_at": "2026-06-12"
         }
       ]
+    },
+    {
+      "id": "wp-berlin-1df92022f0",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Berlin’s Fashion Takes on the International Runway",
+      "summary": "This city’s subcultural style has gone global. Can it keep its cool?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "Berlin’s Fashion Takes on the International Runway",
+          "url": "https://www.the-berliner.com/berlin/berlin-fashion-goes-international/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-13"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-35a98f2b32",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Ice That’s Nice: Berlin’s Coolest Ice Cream",
+      "summary": "With summer temperatures here to stay, check out our guide to the best places in town for when you need to cool down.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "Ice That’s Nice: Berlin’s Coolest Ice Cream",
+          "url": "https://www.the-berliner.com/food/berlins-best-ice-cream-sorbet/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-a8a22c394f",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Wedding bakery owner murdered",
+      "summary": "The murder motive remains a mystery as there was supposedly nothing out of the ordinary with the bakery or its owner.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "Wedding bakery owner murdered",
+          "url": "https://www.the-berliner.com/english-news-berlin/wedding-bakery-owner-murdered/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-3b39c65f0d",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "2×2 free tickets for the movie “Rose”at Freiluftkino Insel on 28/6",
+      "summary": "Want to win tickets? Send an email in order to have a chance to win our giveaway",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "2×2 free tickets for the movie “Rose”at Freiluftkino Insel on 28/6",
+          "url": "https://www.the-berliner.com/berlin/2x2-free-tickets-for-the-movie-roseat-freiluftkino-insel-on-28-6/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-6f8c5f2edd",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "2×2 free tickets for the movie “Pillion”at Freiluftkino Insel on 26/6",
+      "summary": "Want to win tickets? Send an email in order to have a chance to win our giveaway",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "2×2 free tickets for the movie “Pillion”at Freiluftkino Insel on 26/6",
+          "url": "https://www.the-berliner.com/berlin/2x2-free-tickets-for-the-movie-pillionat-freiluftkino-insel-on-26-6/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-52a5e328fc",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "5×2 free tickets for the movie “I Swear – Verflucht Normal”on 3/7 at Freiluftkino Kreuzberg",
+      "summary": "Want to win tickets? Send an email in order to have a chance to win our giveaway",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "5×2 free tickets for the movie “I Swear – Verflucht Normal”on 3/7 at Freiluftkino Kreuzberg",
+          "url": "https://www.the-berliner.com/berlin/5x2-free-tickets-for-the-movie-i-swear-verflucht-normalon-3-7-at-freiluftkino-kreuzberg/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-8386547177",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "5×2 free tickets for the movie “Rental Family”on 22/6 at Freiluftkino Kreuzberg",
+      "summary": "Want to win tickets? Send an email in order to have a chance to win our giveaway",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "5×2 free tickets for the movie “Rental Family”on 22/6 at Freiluftkino Kreuzberg",
+          "url": "https://www.the-berliner.com/berlin/5x2-free-tickets-for-the-movie-rental-familyon-22-6-at-freiluftkino-kreuzberg/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-da778ca700",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Burgermeister goes Viennese",
+      "summary": "Following their success throughout Germany and in Poland, the Berlin-based burger chain plans to enter the Austrian market in the autumn.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "Burgermeister goes Viennese",
+          "url": "https://www.the-berliner.com/english-news-berlin/burgermeister-goes-vienese/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-5d180ce303",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "On the Rock(s): Berlin’s Best Punk Rock Bars",
+      "summary": "Our top spots to feel Berlin’s countercultural spirit – and to have a cold one without breaking the bank.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "On the Rock(s): Berlin’s Best Punk Rock Bars",
+          "url": "https://www.the-berliner.com/guides/berlins-best-punk-bars/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-11"
+        }
+      ]
     }
-  ],
-  "gaps": [
-    "Skipped: daily OpenAI budget reservation exhausted before world",
-    "Underreported: Latest Spanish banking consolidation trends under new EU rules (El Confidencial).",
-    "Paywalled depth: National pace and scale of green energy investment post-EU targets (Financial Times).",
-    "National/regional structural issue: Catalonia drought effects on energy/infrastructure (Bloomberg).",
-    "No large-scale developments on culture or research found within the preferred sources for this briefing cycle.",
-    "Paywalled/premium analysis from FT, Bloomberg; economic/structural research from ifo Institute; underreported story on industrial AI uptake; coverage of large-scale green hydrogen rollout; pension system sustainability beyond standard RSS aggregation."
   ],
   "rss_counts": {
     "spain": 28,
     "germany": 42,
-    "berlin": 0,
+    "berlin": 9,
     "world": 76
   },
-  "openai_min_targets": {
-    "spain": 3,
-    "germany": 3,
-    "berlin": 6,
-    "world": 3
+  "ingestion": {
+    "rss": 146,
+    "wordpress": 9
   },
-  "search_notes": "RSS counts: {'spain': 28, 'germany': 42, 'berlin': 0, 'world': 76}. OpenAI min targets: {'spain': 3, 'germany': 3, 'berlin': 6, 'world': 3}. Section counts (OpenAI): {'world': 0, 'spain': 3, 'berlin': 6, 'germany': 3}. Ingestion: {'openai': 12, 'rss': 146}. RSS merged: 146. Publisher mix: {'Financial Times': 10, 'El Confidencial': 1, 'Bloomberg': 10, 'Tagesspiegel': 13, 'rbb24': 2, 'Berliner Zeitung': 1, 'ifo Institute': 1, 'EL PAÍS': 10, 'eldiario.es': 10, 'La Vanguardia': 8, 'Die Zeit': 8, 'Süddeutsche Zeitung': 8, 'Handelsblatt': 8, 'Frankfurter Allgemeine': 8, 'The Guardian': 10, 'Rest of World': 2, 'Politico Europe': 8, 'Foreign Policy': 8, 'The New York Times': 8, 'The Economist': 4, 'Nikkei Asia': 8, 'The Atlantic': 6, 'The New Yorker': 6}. world: skipped: spend_cap spain: Searched: FT (1 item - green energy, paywalled depth), El Confidencial (1 item - banking consolidation, national), Bloomberg (1 item - Catalonia drought, infrastructure/energy). All three fill RSS gaps (economic structural developments, paywalled financial/EU regulation, and regional drought impacts). No overlap with previously ingested EL PAÍS/eldiario.es/La Vanguardia headlines. berlin: Item count per publisher: Tagesspiegel (3), rbb24 (2), Berliner Zeitung (1). The Berlin publisher quota has been strictly observed. Explicit searches filled a Berliner Zeitung gap for healthcare/environment (heatwave/hospitals), and Tagesspiegel provided additional structural/urban planning items. rbb24 covered both policing/airports and emergency preparedness (no more than 3 items, per rules). No major underreported material news on Berlin culture/research found today. germany: - ifo Institute: 1 (pension gap research, not in RSS)\n- Bloomberg: 1 (AI industry automation, structural, not in mainstream German RSS)\n- Financial Times: 1 (exclusive hydrogen plant launch, structural, paywalled)\n- Coverage focuses on gaps: pension funding crisis, AI adoption in industry, green hydrogen leap—all under-represented in today’s RSS warehouse. No more than 1 per publisher, all structural or material."
+  "merge_notes": "RSS file: 2026-06-13-rss.json (146 items). WordPress file: 2026-06-13-wordpress.json (9 items). Merged: 155. Ingestion: {'rss': 146, 'wordpress': 9}. Section counts: {'spain': 28, 'germany': 42, 'berlin': 9, 'world': 76}. Publisher mix: {'EL PAÍS': 10, 'eldiario.es': 10, 'La Vanguardia': 8, 'Tagesspiegel': 10, 'Die Zeit': 8, 'Süddeutsche Zeitung': 8, 'Handelsblatt': 8, 'Frankfurter Allgemeine': 8, 'The Guardian': 10, 'Rest of World': 2, 'Politico Europe': 8, 'Foreign Policy': 8, 'Bloomberg': 8, 'The New York Times': 8, 'Financial Times': 8, 'The Economist': 4, 'Nikkei Asia': 8, 'The Atlantic': 6, 'The New Yorker': 6, 'The Berliner': 9}."
 }

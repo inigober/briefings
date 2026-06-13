@@ -63,7 +63,18 @@ Summary paragraph. ([Publisher][N])
 - Section dividers in email are added automatically — do not rely on `---` in markdown.
 - **Reject** Facebook, Instagram, TikTok, or homepage-only links as primary sources.
 
-### Selected Reads format
+### Source URL integrity (mandatory)
+
+All inbox items come from **RSS or WordPress feeds** — URLs are publisher-provided, not model-generated.
+
+**Hard rules:**
+
+- **Copy `sources[0].url` verbatim** into footnotes. Never invent, edit, or guess paths.
+- **Reject** homepage-only links, Facebook, Instagram, TikTok.
+- If a section is thin after dedup filtering, pick from another inbox item or note the gap — do not fabricate a story or URL.
+
+**Paywalled outlets (Bloomberg, FT, etc.):** RSS headlines link to real articles; some may require a subscription. Cite them anyway.
+
 
 ```
 * **Publisher — Article title**
@@ -121,6 +132,7 @@ After writing: append URLs to `state/news/selected_reads_index.md`; trim entries
 ## Sourcing
 
 - **Synthesize only from** `inbox/news/`, `config/briefings/news/`, and repo context. Do not browse unless inbox is empty.
+- **RSS + WordPress only:** Pre-fetch ingests publisher feeds; there is no OpenAI research step. Every URL in the inbox came from a feed.
 - Prefer structural change, long-term trends, important data, underreported developments, second-order effects.
 - Reject: stories essentially identical to yesterday, incremental-only updates, media-driven non-events.
 - Favour critical, left-leaning outlets per `config/briefings/news/sources.yaml`.
@@ -133,7 +145,8 @@ After writing: append URLs to `state/news/selected_reads_index.md`; trim entries
 4. World distinct from Spain/Germany?
 5. Selected Reads diversified? Reuters/AP ≤1?
 6. No Selected Read URL in last 5 briefings?
-7. Would a daily reader learn something genuinely new?
+7. Every footnote URL copied verbatim from inbox `sources[0].url`?
+8. Would a daily reader learn something genuinely new?
 
 ## Commits
 

@@ -216,6 +216,24 @@ def analyze_rss_section(
     return ctx
 
 
+def openai_prefetch_cfg(sources_cfg: dict) -> dict:
+    cfg = sources_cfg.get("openai_prefetch") or {}
+    return {
+        "enabled": cfg.get("enabled", True),
+        "skip_when_section_rss_at_least": int(cfg.get("skip_when_section_rss_at_least", 8)),
+    }
+
+
+def should_skip_openai_section(section_id: str, rss_count: int, sources_cfg: dict) -> bool:
+    cfg = openai_prefetch_cfg(sources_cfg)
+    if not cfg["enabled"]:
+        return True
+    threshold = cfg["skip_when_section_rss_at_least"]
+    if threshold <= 0:
+        return False
+    return rss_count >= threshold
+
+
 def openai_min_for_section(section_id: str, rss_count: int) -> int:
     base = SECTION_MIN_ITEMS[section_id]
     floor = OPENAI_MIN_FLOOR
@@ -441,6 +459,41 @@ def make_client() -> Any:
     )
 
 
+def fetch_web_research(
+    *,
+    client: Any,
+    model: str,
+    prompt: str,
+    domains: list[str],
+    require_web_search: bool = True,
+    max_tool_calls: int = 8,
+    search_context_size: str = "medium",
+) -> tuple[str, Any]:
+    """Run a web_search-only Responses call. Returns research text + raw response."""
+    tool: dict[str, Any] = {
+        "type": "web_search",
+        "search_context_size": search_context_size,
+    }
+    if domains:
+        tool["filters"] = {"allowed_domains": domains}
+
+    create_kwargs: dict[str, Any] = {
+        "model": model,
+        "tools": [tool],
+        "input": prompt,
+    }
+    if require_web_search:
+        create_kwargs["tool_choice"] = "required"
+    if max_tool_calls > 0:
+        create_kwargs["max_tool_calls"] = max_tool_calls
+
+    response = client.responses.create(**create_kwargs)
+    output_text = collect_output_text(response)
+    if not output_text:
+        raise RuntimeError("Empty response from OpenAI web research")
+    return output_text, response
+
+
 def fetch_structured(
     *,
     client: Any,
@@ -449,16 +502,14 @@ def fetch_structured(
     schema: dict,
     schema_name: str,
     domains: list[str],
+    enable_web_search: bool = True,
+    require_web_search: bool = False,
+    max_tool_calls: int | None = None,
 ) -> tuple[dict, Any]:
-    tools: list[dict] = [{"type": "web_search"}]
-    if domains:
-        tools[0]["filters"] = {"allowed_domains": domains}
-
-    response = client.responses.create(
-        model=model,
-        tools=tools,
-        input=prompt,
-        text={
+    create_kwargs: dict[str, Any] = {
+        "model": model,
+        "input": prompt,
+        "text": {
             "format": {
                 "type": "json_schema",
                 "name": schema_name,
@@ -466,7 +517,18 @@ def fetch_structured(
                 "schema": schema,
             }
         },
-    )
+    }
+    if enable_web_search:
+        tool: dict[str, Any] = {"type": "web_search"}
+        if domains:
+            tool["filters"] = {"allowed_domains": domains}
+        create_kwargs["tools"] = [tool]
+        if require_web_search:
+            create_kwargs["tool_choice"] = "required"
+        if max_tool_calls is not None and max_tool_calls > 0:
+            create_kwargs["max_tool_calls"] = max_tool_calls
+
+    response = client.responses.create(**create_kwargs)
 
     output_text = collect_output_text(response)
     if not output_text:
@@ -634,6 +696,7 @@ def fetch_all_research(
         for section_id in NEWS_SECTION_IDS
         if (topics.get(section_id) or {}).get("enabled", True)
     ]
+    skipped_sections: list[str] = []
 
     all_items: list[dict] = []
     all_gaps: list[str] = []
@@ -652,6 +715,13 @@ def fetch_all_research(
             for sid in section_ids
         )
         log(f"  RSS-aware targets: {summary}")
+        for sid in section_ids:
+            count = rss_contexts[sid].item_count
+            if should_skip_openai_section(sid, count, sources_cfg):
+                skipped_sections.append(sid)
+                log(f"  [{sid}] skipping OpenAI fetch — RSS has {count} items")
+
+    openai_section_ids = [sid for sid in section_ids if sid not in skipped_sections]
 
     if spend_ledger and spend_ledger.cap_enabled():
         log(
@@ -662,7 +732,7 @@ def fetch_all_research(
 
     cap_abort = threading.Event()
     started = time.monotonic()
-    log(f"  Launching {len(section_ids)} section fetches in parallel...")
+    log(f"  Launching {len(openai_section_ids)} section fetches in parallel...")
 
     with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as executor:
         futures = {
@@ -677,7 +747,7 @@ def fetch_all_research(
                 spend_ledger=spend_ledger,
                 cap_abort=cap_abort,
             ): section_id
-            for section_id in section_ids
+            for section_id in openai_section_ids
         }
 
         for future in as_completed(futures):
@@ -696,6 +766,10 @@ def fetch_all_research(
 
     elapsed = time.monotonic() - started
     log(f"  All OpenAI fetches finished in {elapsed:.0f}s")
+
+    for sid in skipped_sections:
+        section_counts[sid] = 0
+        notes.append(f"{sid}: skipped OpenAI — RSS coverage sufficient")
 
     rss_merged = 0
     if rss_items:

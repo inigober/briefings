@@ -41,6 +41,9 @@ NEWS_SLIM_ITEM_KEYS = (
     "is_structural",
     "material_development",
     "ingestion_source",
+    "verified",
+    "url_live",
+    "url_verify_notes",
     "sources",
 )
 
@@ -139,8 +142,25 @@ def matches_domain(host: str, allowed: set[str]) -> bool:
 
 def score_news_item(item: dict) -> int:
     score = 0
-    if item.get("ingestion_source") != "rss":
-        score += 20
+    source = item.get("ingestion_source") or "openai"
+    url_live = item.get("url_live")
+
+    if source in ("rss", "wordpress"):
+        score += 35
+    elif url_live == "live":
+        score += 18
+    elif url_live == "paywalled":
+        score += 8
+    elif url_live == "dead":
+        score -= 80
+    elif source == "openai":
+        score -= 15
+
+    if item.get("verified") and url_live != "dead":
+        score += 12
+    elif item.get("verified") is False and source == "openai":
+        score -= 20
+
     if (item.get("why_it_matters") or "").strip():
         score += 8
     if (item.get("broader_context") or "").strip():
@@ -246,14 +266,29 @@ def slim_item(item: dict, keys: tuple[str, ...]) -> dict:
     return slim
 
 
+def item_is_citable(item: dict) -> bool:
+    if item.get("ingestion_source") in ("rss", "wordpress"):
+        return True
+    return item.get("url_live") in ("live", "paywalled")
+
+
 def pick_top_news(items: list[dict], cap: int) -> list[dict]:
-    ranked = sorted(items, key=score_news_item, reverse=True)
+    citable = [i for i in items if item_is_citable(i)]
+    ranked = sorted(citable, key=score_news_item, reverse=True)
     return [slim_item(i, NEWS_SLIM_ITEM_KEYS) for i in ranked[:cap]]
 
 
+def culture_item_eligible(item: dict) -> bool:
+    """Drop OpenAI candidates whose URL failed HTTP verification."""
+    if item.get("ingestion_source") == "openai" and item.get("url_live") is False:
+        return False
+    return True
+
+
 def pick_top_culture(items: list[dict], cap: int, priority_venues: set[str], sources_cfg: dict) -> list[dict]:
+    eligible = [i for i in items if culture_item_eligible(i)]
     ranked = sorted(
-        items,
+        eligible,
         key=lambda i: score_culture_item(i, priority_venues, sources_cfg),
         reverse=True,
     )
@@ -343,7 +378,7 @@ def build_news_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: dict
         "items": section_items,
         "note": (
             "Token-light slice for synthesis. Full warehouse is in -raw.json. "
-            "Prefer OpenAI-sourced items with why_it_matters/broader_context filled."
+            "All items come from RSS or WordPress feeds — copy source URLs verbatim."
         ),
     }
 

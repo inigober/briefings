@@ -150,6 +150,15 @@ def entry_to_culture_item(
     }
 
 
+def resolve_news_section_id(feed_cfg: dict, url: str) -> str:
+    """Pick section for a feed entry; route Tagesspiegel /berlin/ URLs to berlin."""
+    section_ids = feed_cfg.get("section_ids") or ["world"]
+    default = section_ids[0]
+    if "berlin" in section_ids and "/berlin/" in urlparse(url).path.lower():
+        return "berlin"
+    return default
+
+
 def entry_to_item(
     entry: Any,
     *,
@@ -219,7 +228,6 @@ def fetch_feed(
         return [], "missing url"
 
     section_ids = feed_cfg.get("section_ids") or ["world"]
-    section_id = section_ids[0]
     max_items = int(feed_cfg.get("max_items") or DEFAULT_MAX_ITEMS)
 
     agent = "Mozilla/5.0 (compatible; BriefingBot/1.0)"
@@ -242,6 +250,13 @@ def fetch_feed(
         entry_dt = parse_entry_date(entry)
         if entry_dt and entry_dt < cutoff:
             continue
+
+        entry_url_value = entry_url(entry)
+        section_id = (
+            resolve_news_section_id(feed_cfg, entry_url_value or "")
+            if item_format != "culture"
+            else section_ids[0]
+        )
 
         if item_format == "culture":
             item = entry_to_culture_item(

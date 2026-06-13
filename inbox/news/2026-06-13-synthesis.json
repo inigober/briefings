@@ -2,145 +2,16 @@
   "briefing_type": "news",
   "date": "2026-06-13",
   "source_raw": "inbox/news/2026-06-13-raw.json",
-  "built_at": "2026-06-13T15:47:00.819228+00:00",
-  "model": "gpt-4.1",
-  "raw_item_count": 158,
+  "built_at": "2026-06-13T17:50:00.287927+00:00",
+  "model": null,
+  "raw_item_count": 155,
   "section_counts": {
     "spain": 12,
     "germany": 12,
-    "berlin": 6,
+    "berlin": 9,
     "world": 12
   },
   "selected_read_candidates": [
-    {
-      "id": "spain-ec-energy-transition-20260613",
-      "topic_ids": [
-        "spain",
-        "energy",
-        "economy"
-      ],
-      "headline": "Spanish Green Energy Sector Accelerates Investment Amid European Policy Shifts",
-      "summary": "Spain’s green energy industry is ramping up investment in solar and wind infrastructure, spurred by updated EU targets and new financing incentives from both the EU and national government. Major Spanish firms, including Iberdrola and Acciona, have announced further capacity expansions for 2026-2028, with a focus on grid modernization to support rising electricity demand and decarbonization of industry.",
-      "why_it_matters": "This heightened investment wave solidifies Spain’s leadership in renewable energy, driving economic growth, job creation, and energy security while aligning the country with the EU Green Deal. Changes in policy frameworks and funding will impact domestic energy prices and the competitiveness of Spanish industry.",
-      "broader_context": "Renewables accounted for over 50% of Spanish power generation for parts of 2025. However, grid integration, storage, and permitting are bottlenecks. The current investment push aims to overcome these, with government and EU cooperation accelerating the timeline.",
-      "region": "National",
-      "country": "Spain",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Spain’s clean energy drive accelerates with new EU incentives",
-          "url": "https://www.ft.com/content/6b0eec25-6b1e-4319-a6f3-bec4085b8e6b",
-          "publisher": "Financial Times",
-          "published_at": "2026-06-12"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "spain-catalonia-hydropower-drought-20260613",
-      "topic_ids": [
-        "spain",
-        "catalonia",
-        "energy",
-        "drought",
-        "infrastructure"
-      ],
-      "headline": "Persistent Drought Threatens Catalonia’s Hydropower Output and Water Supply",
-      "summary": "Catalonia faces continued drought conditions, with hydropower output at historic lows and major reservoirs nearing minimum capacity levels. Authorities are imposing new water usage restrictions in affected areas and accelerating projects for alternative water sources, including desalination and groundwater extraction. The drought places added pressure on energy security and agricultural output in the region.",
-      "why_it_matters": "Hydropower has historically provided both electricity and grid stability in Catalonia, but climate-driven drought is shifting regional energy and infrastructure policy. Water scarcity adds to the urgency for both desalination investment and improved water management, with downstream impacts for households, business, and agriculture.",
-      "broader_context": "The Mediterranean basin is increasingly vulnerable to prolonged dry spells linked to climate change, affecting multiple sectors. Structural adaptation in energy, water, and social policy is becoming a pressing regional issue.",
-      "region": "Catalonia",
-      "country": "Spain",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Catalonia’s reservoirs hit record lows as drought deepens energy worries",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-11/catalonia-s-water-crisis-hydropower-drought-energy-impact",
-          "publisher": "Bloomberg",
-          "published_at": "2026-06-11"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "germany-iforesearch-pensiongap-2026-06-13",
-      "topic_ids": [
-        "germany",
-        "demographics",
-        "labour"
-      ],
-      "headline": "Germany faces €500 billion pension gap over next two decades, warns ifo Institute",
-      "summary": "A new ifo Institute report highlights a looming pension gap of €500 billion in Germany by 2045, driven by an aging population, shrinking workforce, and insufficient reforms. The study urges increased pension age and greater private retirement savings as the government’s current measures are deemed inadequate.",
-      "why_it_matters": "This is a major structural threat to Germany’s public finances, labour market, and social stability, with demographic ageing accelerating. The issue has direct implications for tax policy, intergenerational equity, and economic competitiveness.",
-      "broader_context": "Germany, like many European countries, is grappling with demographic decline. Previous attempts at reform—such as small increases to retirement age or voluntary private schemes—have fallen short. The issue is politically sensitive, especially as elections approach.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Germany faces €500 billion pension gap over next two decades, warns ifo Institute",
-          "url": "https://www.ifo.de/en/press-release/2026-06-12/germany-faces-500bn-euro-pension-gap-over-next-two-decades",
-          "publisher": "ifo Institute",
-          "published_at": "2026-06-12"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "germany-aiindustrialization-2026-06-13",
-      "topic_ids": [
-        "germany",
-        "industry",
-        "technology",
-        "research"
-      ],
-      "headline": "German industry doubles down on AI-driven automation amid productivity stagnation",
-      "summary": "German manufacturers are accelerating deployment of AI and robotics to address chronic labour shortages and stagnant productivity. Large firms like Siemens and Bosch are ramping investments in ‘smart factories’, while SMEs struggle with costs and skills gaps.",
-      "why_it_matters": "AI industrialization is critical to Germany’s industrial competitiveness. Germany lags international peers in AI adoption outside of large conglomerates, risking a dual-track economy.",
-      "broader_context": "With demographic crunch tightening the labour market, and China and the US outpacing Europe in AI manufacturing, Germany’s Mittelstand risks falling behind without targeted public-private strategies.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "German industry doubles down on AI-driven automation amid productivity stagnation",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-11/germany-s-ai-industrialization-push-to-fill-labour-gaps-stave-off-productivity-slump",
-          "publisher": "Bloomberg",
-          "published_at": "2026-06-11"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "germany-greenhydrogenproduction-2026-06-13",
-      "topic_ids": [
-        "germany",
-        "energy",
-        "industry",
-        "technology"
-      ],
-      "headline": "Europe’s largest green hydrogen plant launches in Hamburg, a boost for German energy transition",
-      "summary": "The new facility, co-led by Vattenfall and Shell, comes online with 100MW capacity, targeting decarbonization of local steel and chemical industries. Regulatory hurdles and high energy costs remain, but the launch marks a milestone for Germany’s hydrogen ambitions.",
-      "why_it_matters": "Green hydrogen is a pillar of Germany’s post-fossil energy strategy, key for heavy industry resilience and emissions reduction. Early industrial-scale deployments are make-or-break for the sector’s viability.",
-      "broader_context": "Germany’s 2025-2030 energy policy bets on scaling green hydrogen, but faces competition for supply, regulatory fragmentation, and global cost pressure. The Hamburg project will test the model for future replication.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Europe’s largest green hydrogen plant launches in Hamburg, a boost for German energy transition",
-          "url": "https://www.ft.com/content/green-hydrogen-hamburg-germany",
-          "publisher": "Financial Times",
-          "published_at": "2026-06-12"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
     {
       "id": "rss-world-39978f1906",
       "topic_ids": [
@@ -209,86 +80,124 @@
           "published_at": "2026-06-12"
         }
       ]
+    },
+    {
+      "id": "rss-world-21562ee870",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "An ideological tug-of-war: the pressures facing Iran’s World Cup squad in US",
+      "summary": "Flag bans, travel headaches and a religious regime video among bumps in road, as team prepares to be first to play in country with which it is at war Iran will present a major challenge to Fifa’s “football unites the world” slogan on Monday by becoming the first country in World Cup history to compete on the soil of a host nation with which it is at war . The national team’s opening match against New Zealand in Los Angeles will kick off amid continuing hostilities between Iran and the US that have intensified in recent days, as a fragile ceasefire has failed to hold and attempts at reaching...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "An ideological tug-of-war: the pressures facing Iran’s World Cup squad in US",
+          "url": "https://www.theguardian.com/world/2026/jun/12/iran-first-play-war-world-cup-fifa",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-4ea9ff31ee",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Weather tracker: heat, humidity and thunderstorms a danger at World Cup",
+      "summary": "With matches in 16 cities across the US, Mexico and Canada, players and fans face an array of weather-related challenges With the 2026 World Cup now under way, all 48 teams face a common opposition: summer weather across North America. Matches will be played in 16 cities, from southern Mexico to Canada, with a range of weather risks possible at each venue. Thunderstorms disrupted play before the tournament had even begun. England’s warm-up against Costa Rica in Orlando was delayed by about an hour after storms brought lightning and heavy rain that waterlogged the pitch. Safety regulations a...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Weather tracker: heat, humidity and thunderstorms a danger at World Cup",
+          "url": "https://www.theguardian.com/environment/2026/jun/12/weather-tracker-heat-humidity-thunderstorms-risk-world-cup",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-afc1f0031f",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Canadian mother sues OpenAI, alleging ChatGPT led her daughter to kill herself",
+      "summary": "Suit filed in US alleges chatbot told Alice Carrier, 24, ‘maybe this is just the end’ as she struggled with suicidal thoughts A Canadian mother sued OpenAI and its CEO, Sam Altman, in US court on Thursday, alleging that ChatGPT encouraged her daughter to kill herself. The lawsuit is the latest in a slew accusing the company of failing to address dangerous conversations between users and the company’s chatbot. Kristie Carrier said in a lawsuit filed in San Francisco state court that her daughter, Alice, told ChatGPT about her suicidal ideations more than a dozen times leading up to her death...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Canadian mother sues OpenAI, alleging ChatGPT led her daughter to kill herself",
+          "url": "https://www.theguardian.com/technology/2026/jun/11/canada-mother-chatgpt-daughter-suicide-lawsuit",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-771104958e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Mourners line Bangkok streets to pay respects to Thailand’s Princess Bha",
+      "summary": "Funeral procession travels to palace as people remember royal’s campaigning and work for underprivileged As the sun began to set on the golden spires and gilded finials of Bangkok’s Grand Palace, the gates were open, waiting for the return of a princess. Since December 2022, Princess Bajrakitiyabha had been in hospital, having collapsed while out training her dogs. After nearly four years in a coma, the princess died earlier this week . Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Mourners line Bangkok streets to pay respects to Thailand’s Princess Bha",
+          "url": "https://www.theguardian.com/world/2026/jun/13/bangkok-thailand-princess-bha-royal-funeral-procession-mourners",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-13"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-4d01306e82",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Jessie J’s triumphant return puts lucrative Chinese market in spotlight",
+      "summary": "Other western acts have attempted to crack country’s music scene since singer’s breakout success in 2018 One week after announcing she was “cancer free”, the British pop star Jessie J did what any recovering patient would do and travelled thousands of miles around the world to perform for an audience of more than a billion people. On 29 May, the singer-songwriter, whose real name is Jessica Cornish, belted out a stage-rattling rendition of Frank Sinatra’s My Way on the stage of Singer, a hugely popular Chinese singing competition similar to The Voice. She also performed her new song, Califo...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Jessie J’s triumphant return puts lucrative Chinese market in spotlight",
+          "url": "https://www.theguardian.com/world/2026/jun/13/jessie-j-lucrative-chinese-market-westlife-charli-xcx",
+          "publisher": "The Guardian",
+          "published_at": "2026-06-13"
+        }
+      ]
     }
   ],
   "items": [
-    {
-      "id": "spain-ec-energy-transition-20260613",
-      "topic_ids": [
-        "spain",
-        "energy",
-        "economy"
-      ],
-      "headline": "Spanish Green Energy Sector Accelerates Investment Amid European Policy Shifts",
-      "summary": "Spain’s green energy industry is ramping up investment in solar and wind infrastructure, spurred by updated EU targets and new financing incentives from both the EU and national government. Major Spanish firms, including Iberdrola and Acciona, have announced further capacity expansions for 2026-2028, with a focus on grid modernization to support rising electricity demand and decarbonization of industry.",
-      "why_it_matters": "This heightened investment wave solidifies Spain’s leadership in renewable energy, driving economic growth, job creation, and energy security while aligning the country with the EU Green Deal. Changes in policy frameworks and funding will impact domestic energy prices and the competitiveness of Spanish industry.",
-      "broader_context": "Renewables accounted for over 50% of Spanish power generation for parts of 2025. However, grid integration, storage, and permitting are bottlenecks. The current investment push aims to overcome these, with government and EU cooperation accelerating the timeline.",
-      "region": "National",
-      "country": "Spain",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Spain’s clean energy drive accelerates with new EU incentives",
-          "url": "https://www.ft.com/content/6b0eec25-6b1e-4319-a6f3-bec4085b8e6b",
-          "publisher": "Financial Times",
-          "published_at": "2026-06-12"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "spain-catalonia-hydropower-drought-20260613",
-      "topic_ids": [
-        "spain",
-        "catalonia",
-        "energy",
-        "drought",
-        "infrastructure"
-      ],
-      "headline": "Persistent Drought Threatens Catalonia’s Hydropower Output and Water Supply",
-      "summary": "Catalonia faces continued drought conditions, with hydropower output at historic lows and major reservoirs nearing minimum capacity levels. Authorities are imposing new water usage restrictions in affected areas and accelerating projects for alternative water sources, including desalination and groundwater extraction. The drought places added pressure on energy security and agricultural output in the region.",
-      "why_it_matters": "Hydropower has historically provided both electricity and grid stability in Catalonia, but climate-driven drought is shifting regional energy and infrastructure policy. Water scarcity adds to the urgency for both desalination investment and improved water management, with downstream impacts for households, business, and agriculture.",
-      "broader_context": "The Mediterranean basin is increasingly vulnerable to prolonged dry spells linked to climate change, affecting multiple sectors. Structural adaptation in energy, water, and social policy is becoming a pressing regional issue.",
-      "region": "Catalonia",
-      "country": "Spain",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Catalonia’s reservoirs hit record lows as drought deepens energy worries",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-11/catalonia-s-water-crisis-hydropower-drought-energy-impact",
-          "publisher": "Bloomberg",
-          "published_at": "2026-06-11"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "spain-banking-consolidation-20260613",
-      "topic_ids": [
-        "spain",
-        "banking",
-        "economy"
-      ],
-      "headline": "Spanish Banking Sector Faces New EU Regulatory Demands—Preparing for Consolidation",
-      "summary": "The Spanish banking sector is under pressure as new EU regulatory requirements on liquidity and capital come into force in June 2026. Market analysts signal likely mergers among mid-tier banks to reach compliance and maintain profitability. CaixaBank and Banco Sabadell are named among institutions restructuring branch networks and digital services to strengthen balance sheets and respond to competitive pressures from fintech.",
-      "why_it_matters": "Banking stability and consolidation will affect lending, consumer access to credit, regional employment, and the pace of digital banking innovation. The looming wave of mergers could reshape Spain’s financial system and affect Spanish SMEs and household credit availability.",
-      "broader_context": "Spanish banks have made progress building capital buffers since the financial crisis, but face cost pressures and a rapidly digitizing competitive landscape. EU rules are raising the bar on risk management and solvency post-pandemic.",
-      "region": "National",
-      "country": "Spain",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Spanish banks eye mergers under stricter EU rules",
-          "url": "https://www.elconfidencial.com/empresas/2026-06-12/banca-fusion-europa-regulacion_3990125/",
-          "publisher": "El Confidencial",
-          "published_at": "2026-06-12"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
     {
       "id": "rss-spain-91e8474643",
       "topic_ids": [
@@ -497,81 +406,73 @@
       ]
     },
     {
-      "id": "germany-iforesearch-pensiongap-2026-06-13",
+      "id": "rss-spain-5fe47d6f10",
       "topic_ids": [
-        "germany",
-        "demographics",
-        "labour"
+        "spain"
       ],
-      "headline": "Germany faces €500 billion pension gap over next two decades, warns ifo Institute",
-      "summary": "A new ifo Institute report highlights a looming pension gap of €500 billion in Germany by 2045, driven by an aging population, shrinking workforce, and insufficient reforms. The study urges increased pension age and greater private retirement savings as the government’s current measures are deemed inadequate.",
-      "why_it_matters": "This is a major structural threat to Germany’s public finances, labour market, and social stability, with demographic ageing accelerating. The issue has direct implications for tax policy, intergenerational equity, and economic competitiveness.",
-      "broader_context": "Germany, like many European countries, is grappling with demographic decline. Previous attempts at reform—such as small increases to retirement age or voluntary private schemes—have fallen short. The issue is politically sensitive, especially as elections approach.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": true,
+      "headline": "Esperando a Zapatero",
+      "summary": "El gobierno contiene el aliento ante las 48 horas que el expresidente estará frente al juez de la Audiencia Nacional explicando las acusaciones de tráfico de influencias y el origen de las joyas",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
       "material_development": true,
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Germany faces €500 billion pension gap over next two decades, warns ifo Institute",
-          "url": "https://www.ifo.de/en/press-release/2026-06-12/germany-faces-500bn-euro-pension-gap-over-next-two-decades",
-          "publisher": "ifo Institute",
-          "published_at": "2026-06-12"
+          "title": "Esperando a Zapatero",
+          "url": "https://elpais.com/videos/2026-06-13/esperando-a-zapatero.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-13"
         }
-      ],
-      "ingestion_source": "openai"
+      ]
     },
     {
-      "id": "germany-aiindustrialization-2026-06-13",
+      "id": "rss-spain-6ac0399243",
       "topic_ids": [
-        "germany",
-        "industry",
-        "technology",
-        "research"
+        "spain"
       ],
-      "headline": "German industry doubles down on AI-driven automation amid productivity stagnation",
-      "summary": "German manufacturers are accelerating deployment of AI and robotics to address chronic labour shortages and stagnant productivity. Large firms like Siemens and Bosch are ramping investments in ‘smart factories’, while SMEs struggle with costs and skills gaps.",
-      "why_it_matters": "AI industrialization is critical to Germany’s industrial competitiveness. Germany lags international peers in AI adoption outside of large conglomerates, risking a dual-track economy.",
-      "broader_context": "With demographic crunch tightening the labour market, and China and the US outpacing Europe in AI manufacturing, Germany’s Mittelstand risks falling behind without targeted public-private strategies.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": true,
+      "headline": "Pakistán anuncia que el acuerdo de paz entre Irán y EEUU se cerrará este domingo y Teherán retrasa la firma",
+      "summary": "El primer ministro pakistaní Shehbaz Sharif ha insistido este sábado en que Estados Unidos e Irán están \"más cerca de un acuerdo de paz que nunca antes\" y ha detallado que su \"finalización\" se espera en las próximas 24 horas y que están preparando ya la firma electrónica del acuerdo Pakistán confirma que EEUU e Irán han alcanzado “un texto definitivo y consensuado del acuerdo de paz” Análisis - Qué son los activos congelados que Irán exige a EEUU y por qué son tan importantes en las negociaciones El primer ministro de Pakistán Shehbaz Sharif ha insistido este sábado en que Estados Unidos e ...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
       "material_development": true,
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "German industry doubles down on AI-driven automation amid productivity stagnation",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-11/germany-s-ai-industrialization-push-to-fill-labour-gaps-stave-off-productivity-slump",
-          "publisher": "Bloomberg",
-          "published_at": "2026-06-11"
+          "title": "Pakistán anuncia que el acuerdo de paz entre Irán y EEUU se cerrará este domingo y Teherán retrasa la firma",
+          "url": "https://www.eldiario.es/internacional/primer-ministro-pakistan-asegura-eeuu-e-iran-cerraran-acuerdo-paz-proximas-24-horas_1_13299641.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-06-13"
         }
-      ],
-      "ingestion_source": "openai"
+      ]
     },
     {
-      "id": "germany-greenhydrogenproduction-2026-06-13",
+      "id": "rss-spain-c968817136",
       "topic_ids": [
-        "germany",
-        "energy",
-        "industry",
-        "technology"
+        "spain"
       ],
-      "headline": "Europe’s largest green hydrogen plant launches in Hamburg, a boost for German energy transition",
-      "summary": "The new facility, co-led by Vattenfall and Shell, comes online with 100MW capacity, targeting decarbonization of local steel and chemical industries. Regulatory hurdles and high energy costs remain, but the launch marks a milestone for Germany’s hydrogen ambitions.",
-      "why_it_matters": "Green hydrogen is a pillar of Germany’s post-fossil energy strategy, key for heavy industry resilience and emissions reduction. Early industrial-scale deployments are make-or-break for the sector’s viability.",
-      "broader_context": "Germany’s 2025-2030 energy policy bets on scaling green hydrogen, but faces competition for supply, regulatory fragmentation, and global cost pressure. The Hamburg project will test the model for future replication.",
-      "region": "Europe",
-      "country": "Germany",
-      "is_structural": true,
+      "headline": "Al menos dos muertos en nuevos ataques de Israel en el sur de Líbano en medio de las negociaciones entre EEUU e Irán",
+      "summary": "Estos bombardeos tienen lugar después de que el Ejército israelí pidiera la evacuación de una veintena de localidades tras acusar al grupo chií Hizbulá de violar el frágil alto el fuego en vigor Análisis - Qué son los activos congelados que Irán exige a EEUU y por qué son tan importantes en las negociaciones de paz Al menos dos personas ha muerto este sábado en una nueva oleada de bombardeos de Israel contra el sur del Líbano, después de que el Ejército israelí ordenara a los residentes de una veintena de localidades evacuar la zona pese al frágil alto el fuego y los avances en las conversa...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
       "material_development": true,
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Europe’s largest green hydrogen plant launches in Hamburg, a boost for German energy transition",
-          "url": "https://www.ft.com/content/green-hydrogen-hamburg-germany",
-          "publisher": "Financial Times",
-          "published_at": "2026-06-12"
+          "title": "Al menos dos muertos en nuevos ataques de Israel en el sur de Líbano en medio de las negociaciones entre EEUU e Irán",
+          "url": "https://www.eldiario.es/internacional/muerto-nuevos-ataques-israel-sur-libano-medio-negociaciones-eeuu-e-iran_1_13299406.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-06-13"
         }
-      ],
-      "ingestion_source": "openai"
+      ]
     },
     {
       "id": "rss-germany-9110d96c4b",
@@ -781,152 +682,280 @@
       ]
     },
     {
-      "id": "berlin-firepolice-coordination-exercise2026",
+      "id": "rss-germany-81570d9f11",
       "topic_ids": [
-        "berlin",
-        "policing",
-        "environment"
+        "germany"
       ],
-      "headline": "Major Emergency Exercise Tests Berlin’s Fire and Police Coordination",
-      "summary": "Berlin emergency services conducted a large-scale joint exercise at a city park, simulating a chemical spill and mass evacuation with both police and fire brigade units. Observers praised the improved digital communication tools now used on-site.",
-      "why_it_matters": "Strengthening inter-agency response to environmental hazards is crucial, given Berlin's dense population and history of infrastructure challenges.",
-      "broader_context": "The city regularly reviews disaster preparedness, particularly in light of climate risks and past emergency shortfalls. This exercise tests new protocols and digital equipment for crisis management.",
-      "region": "Berlin",
+      "headline": "Tennis: Ehrung für Zverev in Halle schon vor Turnierbeginn",
+      "summary": "Bevor er beim Rasentennisturnier auch nur einen Ball spielt, wird French-Open-Sieger Alexander Zverev in Ostwestfalen bereits geehrt. Nicht zuletzt für seine „Bedeutung für den deutschen Tennissport“.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
       "country": "Germany",
-      "is_structural": true,
+      "is_structural": false,
       "material_development": true,
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Feuerwehr und Polizei Berlin proben Ernstfall im Park",
-          "url": "https://www.rbb24.de/panorama/beitrag/2026/06/berlin-grossuebung-feuerwehr-polizei--evakuierung.html",
-          "publisher": "rbb24",
-          "published_at": "2026-06-13"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "berlin-transport-strike-june2026",
-      "topic_ids": [
-        "berlin",
-        "transport"
-      ],
-      "headline": "Berlin's Tram and Bus Services Halted by Day-long Strike",
-      "summary": "Berlin's public transport is heavily disrupted following a one-day warning strike by hundreds of BVG tram and bus drivers over ongoing wage disputes. The strike has left many Berliners scrambling to find alternative ways to commute, with U-Bahn trains unaffected but above-ground mobility sharply reduced.",
-      "why_it_matters": "This large-scale service interruption highlights ongoing tensions in public sector wage negotiations—a recurring structural issue within Berlin’s transit sector that affects daily city life and commuter reliability.",
-      "broader_context": "Berlin's BVG workforce has staged several strikes over the past two years, demanding higher wages in light of inflation and labor shortages. Public transport reliability is vital for Berlin's dense urban structure and climate goals.",
-      "region": "Berlin",
-      "country": "Germany",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Warnstreik bei BVG treibt Berliner am Freitag ins Chaos",
-          "url": "https://www.tagesspiegel.de/berlin/warnstreik-bei-bvg-treibr-berliner-am-freitag-ins-chaos-12345678.html",
+          "title": "Tennis: Ehrung für Zverev in Halle schon vor Turnierbeginn",
+          "url": "https://www.tagesspiegel.de/sport/tennis-ehrung-fur-zverev-in-halle-schon-vor-turnierbeginn-15711982.html",
           "publisher": "Tagesspiegel",
           "published_at": "2026-06-13"
         }
-      ],
-      "ingestion_source": "openai"
+      ]
     },
     {
-      "id": "berlin-universities-admissions-ai2026",
+      "id": "rss-germany-af58222ace",
       "topic_ids": [
-        "berlin",
-        "universities",
-        "technology"
+        "germany"
       ],
-      "headline": "Berlin Universities Turn to AI for Admissions and Plagiarism Checks",
-      "summary": "All three major Berlin universities have implemented AI-driven tools for processing admissions essays and detecting plagiarism. Admin leaders argue it will streamline workloads and improve fairness, though student groups voice concerns over bias and error rates.",
-      "why_it_matters": "AI's accelerated adoption in education policy shapes both the fairness and workload of Berlin’s higher education institutions, setting precedents for national reforms.",
-      "broader_context": "Berlin’s universities are at the forefront of Germany's digitalization push, facing high demand and limited staff. New AI systems could become a model—or a flashpoint—for nationwide adoption.",
-      "region": "Berlin",
+      "headline": "Pflegereform: Warken will größere steuerliche Förderung von privater Pflegevorsorge",
+      "summary": "Die Gesundheitsministerin will Anreize schaffen, dass Privatpersonen künftig zusätzlich eine eigene Pflegeversicherung abschließen. Das will sie steuerlich fördern.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
       "country": "Germany",
-      "is_structural": true,
+      "is_structural": false,
       "material_development": true,
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Künstliche Intelligenz an Berliner Hochschulen: Hilfe oder Gefahr?",
-          "url": "https://www.tagesspiegel.de/berlin/kuenstliche-intelligenz-an-berliner-hochschulen-hilfe-oder-gefahr-12345999.html",
-          "publisher": "Tagesspiegel",
+          "title": "Pflegereform: Warken will größere steuerliche Förderung von privater Pflegevorsorge",
+          "url": "https://www.zeit.de/politik/deutschland/2026-06/warken-pflegereform-gesundheitsministerium-privat-vorsorge",
+          "publisher": "Die Zeit",
           "published_at": "2026-06-13"
         }
-      ],
-      "ingestion_source": "openai"
+      ]
     },
     {
-      "id": "berlin-heatwave-hospital-impact2026",
+      "id": "rss-germany-ec1b9719c8",
       "topic_ids": [
-        "berlin",
-        "healthcare",
-        "environment"
+        "germany"
       ],
-      "headline": "Heatwave Strains Berlin Hospitals as Emergency Visits Rise",
-      "summary": "Ongoing high temperatures in Berlin have forced hospitals to set up extra cooling zones and update emergency care protocols after a surge in heat-related admissions, particularly among seniors and children.",
-      "why_it_matters": "The health system’s resilience to extreme weather is a growing policy concern, illustrating Berlin’s ongoing adaptation to climate change at a city service level.",
-      "broader_context": "Berlin’s hospitals face regular peaks in demand during summer heatwaves, raising debates about infrastructure investment and public health outreach.",
-      "region": "Berlin",
+      "headline": "Hoffnungsträger: Jochen Ott führt NRW-SPD mit Kampfansage in den Wahlkampf",
+      "summary": "Hoffnungsträger: Jochen Ott führt NRW-SPD mit Kampfansage in den Wahlkampf",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
       "country": "Germany",
-      "is_structural": true,
+      "is_structural": false,
       "material_development": true,
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Hitzewelle bringt Berliner Kliniken an die Belastungsgrenze",
-          "url": "https://www.berliner-zeitung.de/mensch-metropole/hitzewelle-bringt-berliner-kliniken-an-die-belastungsgrenze-li.259973",
-          "publisher": "Berliner Zeitung",
+          "title": "Hoffnungsträger: Jochen Ott führt NRW-SPD mit Kampfansage in den Wahlkampf",
+          "url": "https://www.zeit.de/news/2026-06/13/nrw-spd-will-ott-zum-spitzenkandidaten-kueren",
+          "publisher": "Die Zeit",
           "published_at": "2026-06-13"
         }
-      ],
-      "ingestion_source": "openai"
+      ]
     },
     {
-      "id": "berlin-urban-planning-youth-housing2026",
+      "id": "wp-berlin-1df92022f0",
       "topic_ids": [
-        "berlin",
-        "urban planning"
+        "berlin"
       ],
-      "headline": "Berlin Maps Out New Youth Housing Projects Amid Affordability Crisis",
-      "summary": "The Senate has released a detailed plan for several new subsidized youth housing complexes in Neukölln, Wedding, and Marzahn, aimed at students and apprentices. The move responds to mounting rental pressure and rising youth homelessness statistics.",
-      "why_it_matters": "Affordable youth housing directly addresses a major local social challenge and tests the city’s stated housing policy ambitions ahead of local elections.",
-      "broader_context": "Berlin has struggled to balance rapid population growth, new construction, and affordability, especially for young residents, for over a decade. Effectiveness of targeted subsidies is closely watched across German cities.",
-      "region": "Berlin",
-      "country": "Germany",
-      "is_structural": true,
-      "material_development": true,
-      "sources": [
-        {
-          "title": "Senat stellt neue Pläne für Jugendwohnungen vor",
-          "url": "https://www.tagesspiegel.de/berlin/senat-stellt-neue-plane-fur-jugendwohnungen-vor-12346089.html",
-          "publisher": "Tagesspiegel",
-          "published_at": "2026-06-13"
-        }
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "berlin-airport-illegal-cab-crackdown2026",
-      "topic_ids": [
-        "berlin",
-        "airports",
-        "policing"
-      ],
-      "headline": "BER Airport Launches Crackdown on Illegal Cab Operations",
-      "summary": "Berlin Brandenburg Airport’s management has initiated a coordinated effort with police to step up controls against illegal taxi and rideshare services operating around terminals. Early inspections have led to several fines and impounded vehicles.",
-      "why_it_matters": "Persistent illegal transport services threaten both passenger safety and the regulated sector, putting pressure on local law enforcement and airport management.",
-      "broader_context": "Berlin’s main airport deals with chronic issues balancing service demand with legal compliance among ground transport operators, which has undermined public confidence in recent years.",
+      "headline": "Berlin’s Fashion Takes on the International Runway",
+      "summary": "This city’s subcultural style has gone global. Can it keep its cool?",
+      "why_it_matters": "",
+      "broader_context": "",
       "region": "Berlin",
       "country": "Germany",
       "is_structural": false,
       "material_development": true,
+      "ingestion_source": "wordpress",
       "sources": [
         {
-          "title": "BER: Taxi-Kontrollen gegen illegale Fahrdienste verstärkt",
-          "url": "https://www.rbb24.de/wirtschaft/beitrag/2026/06/ber-taxi-kontrollen-illegal.html",
-          "publisher": "rbb24",
+          "title": "Berlin’s Fashion Takes on the International Runway",
+          "url": "https://www.the-berliner.com/berlin/berlin-fashion-goes-international/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-13"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-35a98f2b32",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Ice That’s Nice: Berlin’s Coolest Ice Cream",
+      "summary": "With summer temperatures here to stay, check out our guide to the best places in town for when you need to cool down.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "Ice That’s Nice: Berlin’s Coolest Ice Cream",
+          "url": "https://www.the-berliner.com/food/berlins-best-ice-cream-sorbet/",
+          "publisher": "The Berliner",
           "published_at": "2026-06-12"
         }
+      ]
+    },
+    {
+      "id": "wp-berlin-a8a22c394f",
+      "topic_ids": [
+        "berlin"
       ],
-      "ingestion_source": "openai"
+      "headline": "Wedding bakery owner murdered",
+      "summary": "The murder motive remains a mystery as there was supposedly nothing out of the ordinary with the bakery or its owner.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "Wedding bakery owner murdered",
+          "url": "https://www.the-berliner.com/english-news-berlin/wedding-bakery-owner-murdered/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-3b39c65f0d",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "2×2 free tickets for the movie “Rose”at Freiluftkino Insel on 28/6",
+      "summary": "Want to win tickets? Send an email in order to have a chance to win our giveaway",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "2×2 free tickets for the movie “Rose”at Freiluftkino Insel on 28/6",
+          "url": "https://www.the-berliner.com/berlin/2x2-free-tickets-for-the-movie-roseat-freiluftkino-insel-on-28-6/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-6f8c5f2edd",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "2×2 free tickets for the movie “Pillion”at Freiluftkino Insel on 26/6",
+      "summary": "Want to win tickets? Send an email in order to have a chance to win our giveaway",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "2×2 free tickets for the movie “Pillion”at Freiluftkino Insel on 26/6",
+          "url": "https://www.the-berliner.com/berlin/2x2-free-tickets-for-the-movie-pillionat-freiluftkino-insel-on-26-6/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-52a5e328fc",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "5×2 free tickets for the movie “I Swear – Verflucht Normal”on 3/7 at Freiluftkino Kreuzberg",
+      "summary": "Want to win tickets? Send an email in order to have a chance to win our giveaway",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "5×2 free tickets for the movie “I Swear – Verflucht Normal”on 3/7 at Freiluftkino Kreuzberg",
+          "url": "https://www.the-berliner.com/berlin/5x2-free-tickets-for-the-movie-i-swear-verflucht-normalon-3-7-at-freiluftkino-kreuzberg/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-8386547177",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "5×2 free tickets for the movie “Rental Family”on 22/6 at Freiluftkino Kreuzberg",
+      "summary": "Want to win tickets? Send an email in order to have a chance to win our giveaway",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "5×2 free tickets for the movie “Rental Family”on 22/6 at Freiluftkino Kreuzberg",
+          "url": "https://www.the-berliner.com/berlin/5x2-free-tickets-for-the-movie-rental-familyon-22-6-at-freiluftkino-kreuzberg/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-da778ca700",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Burgermeister goes Viennese",
+      "summary": "Following their success throughout Germany and in Poland, the Berlin-based burger chain plans to enter the Austrian market in the autumn.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "Burgermeister goes Viennese",
+          "url": "https://www.the-berliner.com/english-news-berlin/burgermeister-goes-vienese/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-11"
+        }
+      ]
+    },
+    {
+      "id": "wp-berlin-5d180ce303",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "On the Rock(s): Berlin’s Best Punk Rock Bars",
+      "summary": "Our top spots to feel Berlin’s countercultural spirit – and to have a cold one without breaking the bank.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "On the Rock(s): Berlin’s Best Punk Rock Bars",
+          "url": "https://www.the-berliner.com/guides/berlins-best-punk-bars/",
+          "publisher": "The Berliner",
+          "published_at": "2026-06-11"
+        }
+      ]
     },
     {
       "id": "rss-world-39978f1906",
@@ -1205,5 +1234,5 @@
       ]
     }
   ],
-  "note": "Token-light slice for synthesis. Full warehouse is in -raw.json. Prefer OpenAI-sourced items with why_it_matters/broader_context filled."
+  "note": "Token-light slice for synthesis. Full warehouse is in -raw.json. All items come from RSS or WordPress feeds — copy source URLs verbatim."
 }

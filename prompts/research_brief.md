@@ -1,5 +1,7 @@
 # Research Brief — OpenAI Pre-fetch Prompt
 
+> **Note:** The **news** briefing no longer uses this prompt — it uses RSS + WordPress only (`merge_news_inbox.py`). This file remains relevant for culture/restaurant OpenAI pre-fetch.
+
 Gather raw research for a personal daily briefing. Today is **{date}**.
 
 ## Important: inbox is a warehouse, not the briefing

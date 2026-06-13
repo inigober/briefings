@@ -40,6 +40,8 @@ Read **only** these files, in order:
 
 The synthesis file contains pre-ranked items per section plus `selected_read_candidates` — enough to write all six sections.
 
+**URL discipline:** All items are from RSS or WordPress feeds. Copy footnote URLs verbatim from `sources[0].url` — never invent paths.
+
 ## Step 2 — Synthesize (one pass)
 
 Produce a novelty-first briefing with exactly these sections:
@@ -67,11 +69,16 @@ Before writing, mentally run the checklist in `news-briefing-style.mdc`. Fix onl
 2. Append to `state/news/selected_reads_index.md` (trim >5 briefings)
 3. Update `state/news/last_run.json` — include `briefing_type: "news"`, `inbox_path` pointing to the synthesis file used
 
-## Step 4 — Commit and push to GitHub main branch (required)
+## Step 4 — Verify sources, commit, and push (required)
 
-1. Stage: `briefings/news/YYYY-MM-DD.md`, `state/news/dedup_index.md`, `state/news/selected_reads_index.md`, `state/news/last_run.json`
-2. Commit message: `briefing/news: YYYY-MM-DD`
-3. **Push to `origin main`** — mandatory; email workflow triggers on `briefings/**/*.md`
-4. Log commit SHA; confirm push succeeded
+1. Run source verification (must pass before commit):
+   ```bash
+   python scripts/verify_briefing_sources.py --type news --date YYYY-MM-DD
+   ```
+   Every footnote and Selected Read URL must exist in the synthesis inbox used for this run. If it fails, fix URLs in the briefing — do not commit until it passes.
+2. Stage: `briefings/news/YYYY-MM-DD.md`, `state/news/dedup_index.md`, `state/news/selected_reads_index.md`, `state/news/last_run.json`
+3. Commit message: `briefing/news: YYYY-MM-DD`
+4. **Push to `origin main`** — mandatory; email workflow triggers on `briefings/**/*.md`
+5. Log commit SHA; confirm push succeeded
 
 If push fails, `git pull --rebase origin main` then push again. Do not mark success until the briefing is on `main`.

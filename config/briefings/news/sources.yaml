@@ -1,4 +1,5 @@
-# Domains for OpenAI web_search pre-fetch (fetch_openai_research.py)
+# News pre-fetch: RSS + WordPress only (scripts/fetch_rss.py, fetch_wordpress.py,
+# merge_news_inbox.py). No OpenAI web_search.
 
 allowed_domains:
   # International
@@ -160,11 +161,11 @@ news_analysis:
 editorial_note: >
   Favour critical, left-leaning outlets where quality reporting aligns with reader preferences.
 
-# RSS: free headline ingestion (scripts/fetch_rss.py → inbox/YYYY-MM-DD-rss.json).
-# OpenAI pre-fetch merges these into inbox/YYYY-MM-DD-raw.json and dedupes by URL.
+# RSS: headline ingestion (scripts/fetch_rss.py → inbox/YYYY-MM-DD-rss.json).
+# WordPress: REST API posts (scripts/fetch_wordpress.py → inbox/YYYY-MM-DD-wordpress.json).
+# merge_news_inbox.py combines both into inbox/YYYY-MM-DD-raw.json.
 # Fields: url (required), publisher, section_ids ([spain|germany|berlin|world]),
-#         max_items (per feed, default 12), max_age_hours (default 72),
-#         region/country (optional overrides).
+#         max_items (per feed, default 12), max_age_hours (default 72 for news).
 rss_feeds:
   # Spain
   - url: https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada
@@ -188,6 +189,14 @@ rss_feeds:
     publisher: Tagesspiegel
     section_ids: [germany, berlin]
     max_items: 10
+  - url: https://www.rbb24.de/aktuell/index.xml/feed=rss.xml
+    publisher: rbb24
+    section_ids: [berlin]
+    max_items: 10
+  - url: https://www.berliner-zeitung.de/feed.id_news.xml
+    publisher: Berliner Zeitung
+    section_ids: [berlin]
+    max_items: 8
   - url: https://newsfeed.zeit.de/index
     publisher: Die Zeit
     section_ids: [germany]
@@ -263,6 +272,12 @@ rss_feeds:
     publisher: Bruegel
     section_ids: [germany, world]
     max_items: 5
+
+wordpress_feeds:
+  - publisher: The Berliner
+    url: https://www.the-berliner.com/wp-json/wp/v2/posts
+    section_ids: [berlin]
+    max_items: 12
 
 newsletters: []
 blocklist_domains:

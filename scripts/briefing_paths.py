@@ -25,7 +25,8 @@ class BriefingType:
     synthesis_prompt: Path
     style_rule: Path
     prefetch_rss: bool
-    prefetch_openai_script: str
+    prefetch_wordpress: bool
+    prefetch_merge_script: str
     prefetch_slim: bool
     email_preheader_section: str
 
@@ -74,7 +75,8 @@ def load_briefing_type(type_id: str) -> BriefingType:
         synthesis_prompt=p(cfg["synthesis_prompt"]),
         style_rule=p(cfg["style_rule"]),
         prefetch_rss=bool(prefetch.get("rss")),
-        prefetch_openai_script=str(prefetch.get("openai_script") or ""),
+        prefetch_wordpress=bool(prefetch.get("wordpress")),
+        prefetch_merge_script=str(prefetch.get("merge_script") or ""),
         prefetch_slim=bool(prefetch.get("slim", True)),
         email_preheader_section=str(email.get("preheader_section") or ""),
     )

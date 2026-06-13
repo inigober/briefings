@@ -9,7 +9,7 @@ config/briefings.yaml          ← registry (paths, schedules, prompts)
         ↓
 ┌───────────────────────────────────────────────────────────────┐
 │ news (daily)                                                  │
-│   RSS + OpenAI → inbox/news/ → synthesis → briefings/news/    │
+│   RSS + WordPress → inbox/news/ → synthesis → briefings/news/ │
 ├───────────────────────────────────────────────────────────────┤
 │ berlin-culture (Tuesday)                                      │
 │   OpenAI → inbox/berlin-culture/ → synthesis → briefings/…   │
@@ -193,8 +193,12 @@ pip install -r scripts/requirements.txt
 
 # News pre-fetch
 python3 scripts/fetch_rss.py --type news
-python3 scripts/fetch_openai_research.py --type news
+python3 scripts/fetch_wordpress.py --type news
+python3 scripts/merge_news_inbox.py --type news
 python3 scripts/slim_inbox_for_synthesis.py --type news
+
+# After writing a briefing (synthesis agent)
+python3 scripts/verify_briefing_sources.py --type news --date YYYY-MM-DD
 
 # Culture pre-fetch (dry-run prompt)
 python3 scripts/fetch_culture_research.py --dry-run --date 2026-06-10
@@ -220,7 +224,8 @@ python3 -m unittest discover -s tests -v
 
 | Workflow | Trigger | Action |
 |----------|---------|--------|
-| `news-prefetch.yml` | cron-job.org daily 06:35 Berlin + manual | RSS → OpenAI → slim → commit `inbox/news/` |
+| `news-prefetch.yml` | cron-job.org daily 06:35 Berlin + manual | RSS → WordPress → merge → slim → commit `inbox/news/` |
+| `verify-briefing-sources.yml` | push to `briefings/news/` + manual | Ensures footnote URLs exist in synthesis inbox |
 | `berlin-culture-prefetch.yml` | cron-job.org Tue 06:00 Berlin + manual | Culture OpenAI → slim → commit `inbox/berlin-culture/` |
 | `berlin-restaurants-prefetch.yml` | cron-job.org Thu 10:00 Berlin + manual | One OpenAI call → Places verify → slim → commit `inbox/berlin-restaurants/` |
 | `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if scheduled inbox missing (Resend) |

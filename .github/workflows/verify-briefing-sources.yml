@@ -1,0 +1,44 @@
+name: Verify briefing sources
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "briefings/news/**"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "YYYY-MM-DD (optional; default from briefing filename)"
+        required: false
+        type: string
+
+jobs:
+  verify-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Verify news briefing URLs
+        run: |
+          DATE="${{ github.event.inputs.date }}"
+          if [ -z "$DATE" ]; then
+            CHANGED=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- briefings/news/ 2>/dev/null | grep -E 'briefings/news/[0-9]{4}-[0-9]{2}-[0-9]{2}\.md$' | head -1 || true)
+            if [ -z "$CHANGED" ]; then
+              CHANGED=$(ls -1t briefings/news/*.md 2>/dev/null | head -1 || true)
+            fi
+            if [ -n "$CHANGED" ]; then
+              DATE=$(basename "$CHANGED" .md)
+            fi
+          fi
+          if [ -z "$DATE" ]; then
+            echo "No news briefing to verify"
+            exit 0
+          fi
+          echo "Verifying briefing/news for $DATE"
+          python scripts/verify_briefing_sources.py --type news --date "$DATE"
