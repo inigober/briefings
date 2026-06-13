@@ -154,7 +154,10 @@ SECTION_RESULT_SCHEMA = {
 }
 
 
-from culture_dates import normalize_tuesday_run_date(run_date: datetime) -> tuple[datetime, datetime]:
+from culture_dates import normalize_tuesday_run_date
+
+
+def culture_week_window(run_date: datetime) -> tuple[datetime, datetime]:
     """Tuesday run → events Wed through following Tue."""
     week_start = run_date + timedelta(days=1)
     week_end = run_date + timedelta(days=7)
