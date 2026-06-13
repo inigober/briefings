@@ -20,6 +20,7 @@ from urllib.parse import urlparse
 import yaml
 
 from briefing_paths import load_briefing_type
+from culture_dates import normalize_tuesday_run_date
 from restaurant_dates import normalize_thursday_run_date
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -411,7 +412,9 @@ def main() -> int:
         return 0
 
     date_str = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    if args.type == "berlin-restaurants":
+    if args.type == "berlin-culture":
+        date_str, _ = normalize_tuesday_run_date(date_str)
+    elif args.type == "berlin-restaurants":
         date_str, _ = normalize_thursday_run_date(date_str)
     inbox_dir = briefing.inbox_dir
     raw_path = inbox_dir / f"{date_str}-raw.json"

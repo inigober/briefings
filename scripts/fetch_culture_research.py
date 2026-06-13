@@ -154,23 +154,7 @@ SECTION_RESULT_SCHEMA = {
 }
 
 
-def normalize_tuesday_run_date(date_str: str) -> tuple[str, datetime]:
-    """Culture briefings use the Tuesday run date as the file key. Snap non-Tuesdays back."""
-    run_dt = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-    if run_dt.weekday() != 1:
-        # Monday=0 … Sunday=6; distance back to previous Tuesday (never 0 here).
-        days_since_tuesday = (run_dt.weekday() - 1) % 7 or 7
-        snapped = run_dt - timedelta(days=days_since_tuesday)
-        log(
-            f"  Warning: {date_str} is not a Tuesday — using previous Tuesday "
-            f"{snapped.strftime('%Y-%m-%d')} for week window and file naming"
-        )
-        run_dt = snapped
-        date_str = run_dt.strftime("%Y-%m-%d")
-    return date_str, run_dt
-
-
-def culture_week_window(run_date: datetime) -> tuple[datetime, datetime]:
+from culture_dates import normalize_tuesday_run_date(run_date: datetime) -> tuple[datetime, datetime]:
     """Tuesday run → events Wed through following Tue."""
     week_start = run_date + timedelta(days=1)
     week_end = run_date + timedelta(days=7)
@@ -437,7 +421,13 @@ def main() -> int:
 
     briefing = load_briefing_type(args.type)
     date_str = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    original = date_str
     date_str, run_dt = normalize_tuesday_run_date(date_str)
+    if date_str != original:
+        log(
+            f"  Warning: {original} is not a Tuesday — using previous Tuesday "
+            f"{date_str} for week window and file naming"
+        )
     topics_cfg = load_yaml(briefing.topics_path)
     sources_cfg = load_yaml(briefing.sources_path)
     allowed = sources_cfg.get("allowed_domains") or []
