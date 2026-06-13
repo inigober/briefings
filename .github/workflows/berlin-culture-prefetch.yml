@@ -1,9 +1,6 @@
 name: Berlin culture research pre-fetch
 
 on:
-  schedule:
-    # Tuesday 06:00 CET = 05:00 UTC
-    - cron: "0 5 * * 2"
   workflow_dispatch:
     inputs:
       date:

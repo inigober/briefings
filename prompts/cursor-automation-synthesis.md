@@ -13,7 +13,7 @@ Setup guide for [Cursor Automations](https://cursor.com/automations). **One auto
 | **Model** | **Composer 2.5** (or Cursor Fast) |
 | **Spending cap** | ~$10–15/mo safety net |
 
-**Push trigger only.** Do not add schedule/backup crons — they add ~30+ low-value agent runs per month and do not help when pre-fetch itself was missed. Use `prefetch-health-check.yml` (GitHub) for missed pre-fetch alerts; recover manually or re-run pre-fetch from Actions.
+**Push trigger only.** Do not add schedule crons in Cursor. Pre-fetch timing is handled by cron-job.org → GitHub `workflow_dispatch` (see `docs/external-scheduling.md`). Use `prefetch-health-check.yml` for missed pre-fetch alerts.
 
 ## Instructions (paste once into automation)
 

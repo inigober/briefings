@@ -1,12 +1,6 @@
 name: Pre-fetch health check
 
 on:
-  schedule:
-    # ~08:07 CEST / ~07:07 CET — news (pre-fetch 05:35 UTC) + culture (Tuesday 05:00 UTC)
-    # :07 avoids GitHub cron drops at :00/:30 (same rationale as news-prefetch :35)
-    - cron: "7 6 * * *"
-    # Thursday — restaurants (pre-fetch 06:00 UTC; allow 2h buffer)
-    - cron: "7 8 * * 4"
   workflow_dispatch:
     inputs:
       profile:
@@ -50,17 +44,7 @@ jobs:
           BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}
           BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            PROFILE="${{ github.event.inputs.profile }}"
-          else
-            HOUR=$(date -u +%H)
-            DOW=$(date -u +%u)
-            if [ "$HOUR" = "08" ] && [ "$DOW" = "4" ]; then
-              PROFILE=restaurants
-            else
-              PROFILE=morning
-            fi
-          fi
+          PROFILE="${{ github.event.inputs.profile || 'morning' }}"
           ARGS="--profile $PROFILE"
           if [ -n "${{ github.event.inputs.date }}" ]; then
             ARGS="$ARGS --date ${{ github.event.inputs.date }}"

@@ -1,9 +1,6 @@
 name: Berlin restaurant research pre-fetch
 
 on:
-  schedule:
-    # Thursday 07:00 CET = 06:00 UTC (pre-fetch; synthesis + email target ~09:00 CET)
-    - cron: "0 6 * * 4"
   workflow_dispatch:
     inputs:
       date:

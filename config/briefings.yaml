@@ -3,7 +3,7 @@
 briefings:
   news:
     display_name: News Briefing
-    schedule_cron: "35 5 * * *" # daily 06:35 CET (05:35 UTC)
+    schedule_cron: "35 6 * * *" # daily 06:35 Europe/Berlin — triggered via cron-job.org (see docs/external-scheduling.md)
     inbox_dir: inbox/news
     output_dir: briefings/news
     state_dir: state/news
@@ -20,7 +20,7 @@ briefings:
 
   berlin-culture:
     display_name: Berlin Culture Briefing
-    schedule_cron: "0 5 * * 2" # Tuesday 06:00 CET
+    schedule_cron: "0 6 * * 2" # Tuesday 06:00 Europe/Berlin — cron-job.org
     inbox_dir: inbox/berlin-culture
     output_dir: briefings/berlin-culture
     state_dir: state/berlin-culture
@@ -37,7 +37,7 @@ briefings:
 
   berlin-restaurants:
     display_name: Berlin Restaurant Briefing
-    schedule_cron: "0 6 * * 4" # Thursday 07:00 CET pre-fetch; email target 09:00 CET
+    schedule_cron: "0 7 * * 4" # Thursday 07:00 Europe/Berlin — cron-job.org
     inbox_dir: inbox/berlin-restaurants
     output_dir: briefings/berlin-restaurants
     state_dir: state/berlin-restaurants
