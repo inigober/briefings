@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-13
+
+- **spain-green-hydrogen-andalusia** — Europe's largest green hydrogen plant launches in Andalusia (section: spain)
+- **spain-agrifood-tech-investment** — Record agrifood-tech startup funding in Catalonia and Valencia (section: spain)
+- **spain-funcas-teacher-shortage** — Funcas report warns 25%+ of educators retiring within decade (section: spain)
+- **germany-ai-rnd-5bn** — €5 billion five-year AI and R&D initiative announced (section: germany)
+- **germany-heat-pump-industry-scale** — Major engineering groups invest in domestic heat pump production (section: germany)
+- **germany-berlin-hamburg-rail-reopen** — Berlin–Hamburg corridor reopens after generalsanierung (section: germany)
+- **berlin-fhain-kreuzberg-highrise-block** — District council blocks three high-rise residential projects (section: berlin)
+- **berlin-climate-adaptation-research-centre** — Three universities launch joint climate adaptation centre (section: berlin)
+- **berlin-neukoelln-stop-search-renewed** — Police extend controversial stop-and-search zones in Neukölln (section: berlin)
+- **world-china-min-zin-arrest** — China arrests US academic Min Zin on espionage charges (section: world)
+- **world-venezuela-tren-aragua-strike** — US strike kills Tren de Aragua gang leader with Venezuelan cooperation (section: world)
+- **world-openai-chatgpt-suicide-lawsuit** — Canadian mother sues OpenAI over daughter's suicide (section: world)
+
 ## 2026-06-12
 
 - **spain-zapatero-jewels-valuation** — Court-ordered appraisal values seized jewellery at €1.3M; tax-fraud threshold implications (section: spain)

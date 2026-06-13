@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-13
+
+- [What the SpaceX IPO reveals about Gulf money in AI](https://restofworld.org/2026/spacex-ipo-gulf-money-ai/) — Rest of World
+- [Los primeros estudiantes del grado de Matemáticas y Filosofía, único en España](https://elpais.com/educacion/2026-06-13/los-primeros-estudiantes-del-grado-de-matematicas-y-filosofia-unico-en-espana-hay-que-aprender-a-utilizar-la-ia-con-etica.html) — EL PAÍS
+- [Staff Shortages Threaten German Healthcare](https://www.diw.de/en/diw_01.c.857964.en/publications/reports/2026_13_staff_shortages_german_healthcare.html) — DIW Berlin
+- [An ideological tug-of-war: the pressures facing Iran's World Cup squad in US](https://www.theguardian.com/world/2026/jun/12/iran-first-play-war-world-cup-fifa) — The Guardian
+
 ## 2026-06-12
 
 - [Spain speeds up Basque Y railway project](https://www.ft.com/content/a52c08f5-2ce0-4fbc-9506-1b4d89637a62) — Financial Times
@@ -25,14 +32,7 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Wirtschaft wächst in zwölf Bundesländern](https://www.ifo.de/pressemitteilung/2026-06-09/wirtschaft-waechst-zwoelf-bundeslaendern) — ifo Institut
 - [Walsturz in der Tiefsee: Forscher entdecken den weltweit größten Friedhof der Wale](https://www.zeit.de/wissenschaft/umwelt/2026-06/walsturz-tiefsee-nekropole-meeresboden-indischer-ozean) — Die Zeit
 
-## 2026-06-09
-
-- [Spain, a country of 50 million people with infrastructure for 40 million](https://english.elpais.com/spain/2026-06-05/spain-a-country-of-50-million-people-with-infrastructure-for-40-million-the-cracks-are-starting-to-show.html) — El País
-- [The Spanish Exception](https://www.theatlantic.com/ideas/2026/06/spain-economy-immigration-backlash/687371/) — The Atlantic
-- [Armenia Chose Continuity Over Ties to Russia](https://www.gmfus.org/news/armenia-chose-continuity-over-ties-russia) — GMF
-- [German labour agency faces over €8 billion deficit](https://www.reuters.com/business/german-labour-agency-faces-over-8-bln-euro-deficit-2026-report-says-2026-06-02/) — Reuters
-
 ## Blocked until 5+ briefings have passed
 
-- `english.elpais.com/.../spain-a-country-of-50-million-people...` (used 9 June)
-- `theatlantic.com/ideas/2026/06/spain-economy-immigration-backlash/687371/` (used 9 June)
+- `english.elpais.com/.../spain-a-country-of-50-million-people...` (used 9 June, trimmed)
+- `theatlantic.com/ideas/2026/06/spain-economy-immigration-backlash/687371/` (used 9 June, trimmed)
