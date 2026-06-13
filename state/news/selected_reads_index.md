@@ -6,10 +6,10 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ## 2026-06-13
 
-- [Germany faces €500 billion pension gap over next two decades, warns ifo Institute](https://www.ifo.de/en/press-release/2026-06-12/germany-faces-500bn-euro-pension-gap-over-next-two-decades) — ifo Institute
-- [La oposición más codiciada de Europa: más de 5.500 euros al mes en Bruselas](https://elpais.com/economia/negocios/carta-del-corresponsal/2026-06-13/la-oposicion-mas-codiciada-de-europa-mas-de-5500-euros-al-mes-en-bruselas.html) — EL PAÍS
-- [German industry doubles down on AI-driven automation amid productivity stagnation](https://www.bloomberg.com/news/articles/2026-06-11/germany-s-ai-industrialization-push-to-fill-labour-gaps-stave-off-productivity-slump) — Bloomberg
-- [Canada police investigate whether Toronto police death linked to global terror attacks](https://www.theguardian.com/world/2026/jun/12/canada-police-investigate-toronto-police-death-global-terror-attacks) — The Guardian
+- [An ideological tug-of-war: the pressures facing Iran's World Cup squad](https://www.theguardian.com/world/2026/jun/12/iran-first-play-war-world-cup-fifa) — The Guardian
+- [Weather tracker: heat, humidity and thunderstorms a danger at World Cup](https://www.theguardian.com/environment/2026/jun/12/weather-tracker-heat-humidity-thunderstorms-risk-world-cup) — The Guardian
+- [Jessie J's triumphant return puts lucrative Chinese market in spotlight](https://www.theguardian.com/world/2026/jun/13/jessie-j-lucrative-chinese-market-westlife-charli-xcx) — The Guardian
+- [Trump says leader of Venezuelan Tren de Aragua gang killed in US strike](https://www.theguardian.com/us-news/2026/jun/12/trump-venezuela-tren-de-aragua-leader-killed) — The Guardian
 
 ## 2026-06-12
 

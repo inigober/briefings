@@ -8,18 +8,18 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ## 2026-06-13
 
-- **spain-green-energy-investment** — Spanish renewables sector accelerates solar/wind and grid investment amid EU incentives (section: spain)
-- **spain-catalonia-hydropower-drought** — Catalonia drought cuts hydropower to historic lows; water restrictions imposed (section: spain)
-- **spain-banking-eu-consolidation** — Mid-tier Spanish banks face merger pressure under new EU capital rules (section: spain)
-- **germany-ifo-pension-gap-500bn** — ifo projects €500 billion public pension shortfall by 2045 (section: germany)
-- **germany-ai-factory-automation** — Siemens, Bosch scale smart-factory AI as Mittelstand lags (section: germany)
-- **germany-hamburg-green-hydrogen-100mw** — 100MW Vattenfall–Shell green hydrogen plant launches in Hamburg (section: germany)
-- **berlin-emergency-exercise-fire-police** — Large-scale chemical-spill evacuation drill tests inter-agency coordination (section: berlin)
-- **berlin-bvg-tram-bus-strike** — Day-long BVG tram and bus warning strike over wage talks (section: berlin)
-- **berlin-universities-ai-admissions** — Humboldt, TU and FU deploy AI for admissions and plagiarism checks (section: berlin)
+- **spain-anthropic-export-model-lockout** — Anthropic blocks advanced Claude for foreign users after US export curbs (section: spain)
+- **spain-podemos-belarra-madrid** — Ione Belarra to lead Podemos Madrid regional list (section: spain)
+- **spain-zapatero-fiscal-investigation** — Zapatero tax probe over jewels limits regularisation path (section: spain)
+- **germany-berlin-hamburg-ice-reopening** — Berlin–Hamburg high-speed line reopens after troubled upgrade (section: germany)
+- **germany-northern-ireland-anti-racism-marches** — Large Belfast counter-demonstrations against racist unrest (section: germany)
+- **germany-leimbach-house-fire** — Twin house fire kills family in Rhineland-Palatinate (section: germany)
+- **berlin-tu-third-building-closure** — TU Berlin closes third building over fire-safety defects (section: berlin)
+- **berlin-db-megaproject-accountability** — Berlin politicians demand honest DB mega-project accounting (section: berlin)
+- **berlin-bellevue-freiraum-kunst** — Schloss Bellevue opens as temporary art venue before renovation (section: berlin)
 - **world-canada-toronto-officer-terror** — Toronto constable killed during consulate-linked warrants; global terror probe (section: world)
-- **world-china-spy-turtles-fish** — Beijing alleges foreign agencies use sensor-fitted marine animals for espionage (section: world)
-- **world-sierra-leone-first-lady-housing** — London council repossesses social housing rented by Sierra Leone first lady (section: world)
+- **world-thailand-princess-funeral** — Bangkok mourns Princess Bajrakitiyabha funeral procession (section: world)
+- **world-canada-openai-suicide-lawsuit** — Canadian mother sues OpenAI over daughter's suicide (section: world)
 
 ## 2026-06-12
 

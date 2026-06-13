@@ -2,13 +2,13 @@
   "briefing_type": "news",
   "date": "2026-06-13",
   "source_raw": "inbox/news/2026-06-13-raw.json",
-  "built_at": "2026-06-13T17:50:00.287927+00:00",
+  "built_at": "2026-06-13T17:58:26.915661+00:00",
   "model": null,
-  "raw_item_count": 155,
+  "raw_item_count": 173,
   "section_counts": {
     "spain": 12,
     "germany": 12,
-    "berlin": 9,
+    "berlin": 12,
     "world": 12
   },
   "selected_read_candidates": [
@@ -199,6 +199,52 @@
   ],
   "items": [
     {
+      "id": "rss-spain-fe5c7a2d92",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Última hora de la guerra de Estados Unidos e Israel contra Irán, en directo | Trump asegura que Estados Unidos firmará mañana la tregua con Irán y que abrirá “inmediatamente” Ormuz",
+      "summary": "Irán había anunciado que retrasaba la firma con Estados Unidos, que afirma que ya hay un “acuerdo sólido” | Israel emite una orden de evacuación para 20 localidades en el sur de Líbano y reanuda los bombardeos",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Última hora de la guerra de Estados Unidos e Israel contra Irán, en directo | Trump asegura que Estados Unidos firmará mañana la tregua con Irán y que abrirá “inmediatamente” Ormuz",
+          "url": "https://elpais.com/internacional/2026-06-13/ultima-hora-de-la-guerra-de-estados-unidos-e-israel-contra-iran-en-directo.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-13"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-88b3be80d9",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La operación para matar en Venezuela al líder del Tren de Aragua refuerza el intervencionismo de Trump en América Latina",
+      "summary": "Aferrado a la resurrección de la Doctrina Monroe, Estados Unidos ahonda en su plan de injerencia en terceros países con el pretexto de desarticular las bandas criminales más peligrosas de la región",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "La operación para matar en Venezuela al líder del Tren de Aragua refuerza el intervencionismo de Trump en América Latina",
+          "url": "https://elpais.com/america/2026-06-13/la-operacion-para-matar-en-venezuela-al-lider-del-tren-de-aragua-refuerza-el-intervencionismo-de-trump-en-america-latina.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-13"
+        }
+      ]
+    },
+    {
       "id": "rss-spain-91e8474643",
       "topic_ids": [
         "spain"
@@ -216,52 +262,6 @@
         {
           "title": "Anthropic suspende el acceso a sus modelos más avanzados de inteligencia artificial por el veto de EE UU a los extranjeros",
           "url": "https://elpais.com/economia/2026-06-13/anthropic-suspende-el-acceso-a-sus-modelos-mas-avanzados-de-inteligencia-artificial-por-el-veto-de-ee-uu-a-los-extranjeros.html",
-          "publisher": "EL PAÍS",
-          "published_at": "2026-06-13"
-        }
-      ]
-    },
-    {
-      "id": "rss-spain-fe5c7a2d92",
-      "topic_ids": [
-        "spain"
-      ],
-      "headline": "Última hora de la guerra de Estados Unidos e Israel contra Irán, en directo | Irán retrasa la firma de la tregua con Estados Unidos, que asegura que ya hay un “acuerdo sólido”",
-      "summary": "Israel emite una orden de evacuación para 20 localidades en el sur de Líbano y reanuda los bombardeos",
-      "why_it_matters": "",
-      "broader_context": "",
-      "region": "Spain",
-      "country": "Spain",
-      "is_structural": false,
-      "material_development": true,
-      "ingestion_source": "rss",
-      "sources": [
-        {
-          "title": "Última hora de la guerra de Estados Unidos e Israel contra Irán, en directo | Irán retrasa la firma de la tregua con Estados Unidos, que asegura que ya hay un “acuerdo sólido”",
-          "url": "https://elpais.com/internacional/2026-06-13/ultima-hora-de-la-guerra-de-estados-unidos-e-israel-contra-iran-en-directo.html",
-          "publisher": "EL PAÍS",
-          "published_at": "2026-06-13"
-        }
-      ]
-    },
-    {
-      "id": "rss-spain-203638a32e",
-      "topic_ids": [
-        "spain"
-      ],
-      "headline": "Ione Belarra anuncia que encabezará la candidatura de Podemos a la Comunidad de Madrid",
-      "summary": "La líder del partido se propone ante la militancia para dar el paso como hizo Pablo Iglesias en 2021",
-      "why_it_matters": "",
-      "broader_context": "",
-      "region": "Spain",
-      "country": "Spain",
-      "is_structural": false,
-      "material_development": true,
-      "ingestion_source": "rss",
-      "sources": [
-        {
-          "title": "Ione Belarra anuncia que encabezará la candidatura de Podemos a la Comunidad de Madrid",
-          "url": "https://elpais.com/espana/2026-06-13/ione-belarra-anuncia-que-encabezara-la-candidatura-de-podemos-a-la-comunidad-de-madrid.html",
           "publisher": "EL PAÍS",
           "published_at": "2026-06-13"
         }
@@ -291,12 +291,12 @@
       ]
     },
     {
-      "id": "rss-spain-d27696e8e6",
+      "id": "rss-spain-203638a32e",
       "topic_ids": [
         "spain"
       ],
-      "headline": "El álbum inédito de los zulos del ‘Anodino’, el policía que escondía millones de euros del narco entre sus paredes",
-      "summary": "Los 19 millones intervenidos en la vivienda familiar del inspector jefe Óscar Sánchez, estaban ocultos en dobles techos, una habitación del pánico o maceteros",
+      "headline": "Ione Belarra anuncia que encabezará la candidatura de Podemos a la Comunidad de Madrid",
+      "summary": "La líder del partido se propone ante la militancia para dar el paso como hizo Pablo Iglesias en 2021",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Spain",
@@ -306,31 +306,8 @@
       "ingestion_source": "rss",
       "sources": [
         {
-          "title": "El álbum inédito de los zulos del ‘Anodino’, el policía que escondía millones de euros del narco entre sus paredes",
-          "url": "https://elpais.com/espana/2026-06-13/el-album-inedito-de-los-zulos-del-anodino-el-policia-que-escondia-millones-de-euros-del-narco-entre-sus-paredes.html",
-          "publisher": "EL PAÍS",
-          "published_at": "2026-06-13"
-        }
-      ]
-    },
-    {
-      "id": "rss-spain-115ee3c5d3",
-      "topic_ids": [
-        "spain"
-      ],
-      "headline": "La oposición más codiciada de Europa: más de 5.500 euros al mes en Bruselas",
-      "summary": "Con más de 174.000 aspirantes para 1.490 plazas que ni siquiera están garantizadas, el mayor proceso de selección para la función pública de la UE revela una batalla poco visible: la de los gobiernos que intentan aumentar la presencia de sus nacionales en la burocracia europea",
-      "why_it_matters": "",
-      "broader_context": "",
-      "region": "Spain",
-      "country": "Spain",
-      "is_structural": false,
-      "material_development": true,
-      "ingestion_source": "rss",
-      "sources": [
-        {
-          "title": "La oposición más codiciada de Europa: más de 5.500 euros al mes en Bruselas",
-          "url": "https://elpais.com/economia/negocios/carta-del-corresponsal/2026-06-13/la-oposicion-mas-codiciada-de-europa-mas-de-5500-euros-al-mes-en-bruselas.html",
+          "title": "Ione Belarra anuncia que encabezará la candidatura de Podemos a la Comunidad de Madrid",
+          "url": "https://elpais.com/espana/2026-06-13/ione-belarra-anuncia-que-encabezara-la-candidatura-de-podemos-a-la-comunidad-de-madrid.html",
           "publisher": "EL PAÍS",
           "published_at": "2026-06-13"
         }
@@ -429,6 +406,52 @@
       ]
     },
     {
+      "id": "rss-spain-115ee3c5d3",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La oposición más codiciada de Europa: más de 5.500 euros al mes en Bruselas",
+      "summary": "Con más de 174.000 aspirantes para 1.490 plazas que ni siquiera están garantizadas, el mayor proceso de selección para la función pública de la UE revela una batalla poco visible: la de los gobiernos que intentan aumentar la presencia de sus nacionales en la burocracia europea",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "La oposición más codiciada de Europa: más de 5.500 euros al mes en Bruselas",
+          "url": "https://elpais.com/economia/negocios/carta-del-corresponsal/2026-06-13/la-oposicion-mas-codiciada-de-europa-mas-de-5500-euros-al-mes-en-bruselas.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-06-13"
+        }
+      ]
+    },
+    {
+      "id": "rss-spain-a947e07fbe",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Trump anuncia que el acuerdo con Irán se firmará este domingo mientras Teherán da largas",
+      "summary": "\"Está previsto que el acuerdo se firme mañana e, inmediatamente después de su firma, el estrecho de Ormuz quedará abierto para todos\", asegura Trump Pakistán anuncia que el acuerdo de paz entre Irán y EEUU se cerrará este domingo y Teherán retrasa la firma ¿Se firmará el acuerdo este domingo? Los mediadores, Pakistán, dicen que sí. Y también el presidente de EEUU, Donald Trump. Irán, sin embargo, enfría esta posibilidad y da largas. La primera reacción iraní al anuncio de Pakistán cuestionaba el momento de la hipotética firma del llamado memorando de entendimiento. Según un portavoz del Min...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Trump anuncia que el acuerdo con Irán se firmará este domingo mientras Teherán da largas",
+          "url": "https://www.eldiario.es/internacional/trump-anuncia-acuerdo-iran-firmara-domingo-iran-da-largas_1_13299994.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-06-13"
+        }
+      ]
+    },
+    {
       "id": "rss-spain-6ac0399243",
       "topic_ids": [
         "spain"
@@ -452,35 +475,12 @@
       ]
     },
     {
-      "id": "rss-spain-c968817136",
-      "topic_ids": [
-        "spain"
-      ],
-      "headline": "Al menos dos muertos en nuevos ataques de Israel en el sur de Líbano en medio de las negociaciones entre EEUU e Irán",
-      "summary": "Estos bombardeos tienen lugar después de que el Ejército israelí pidiera la evacuación de una veintena de localidades tras acusar al grupo chií Hizbulá de violar el frágil alto el fuego en vigor Análisis - Qué son los activos congelados que Irán exige a EEUU y por qué son tan importantes en las negociaciones de paz Al menos dos personas ha muerto este sábado en una nueva oleada de bombardeos de Israel contra el sur del Líbano, después de que el Ejército israelí ordenara a los residentes de una veintena de localidades evacuar la zona pese al frágil alto el fuego y los avances en las conversa...",
-      "why_it_matters": "",
-      "broader_context": "",
-      "region": "Spain",
-      "country": "Spain",
-      "is_structural": false,
-      "material_development": true,
-      "ingestion_source": "rss",
-      "sources": [
-        {
-          "title": "Al menos dos muertos en nuevos ataques de Israel en el sur de Líbano en medio de las negociaciones entre EEUU e Irán",
-          "url": "https://www.eldiario.es/internacional/muerto-nuevos-ataques-israel-sur-libano-medio-negociaciones-eeuu-e-iran_1_13299406.html",
-          "publisher": "eldiario.es",
-          "published_at": "2026-06-13"
-        }
-      ]
-    },
-    {
-      "id": "rss-germany-9110d96c4b",
+      "id": "rss-germany-992472f0dd",
       "topic_ids": [
         "germany"
       ],
-      "headline": "An Nordwand zu Tode gestürzt: Drei Bergsteiger sterben an italienischem Viertausender",
-      "summary": "Auf dem Weg zum Gipfel des Gran Paradiso kommen drei Alpinisten ums Leben. Die Bergwacht findet ihre Leichen auf einer Höhe von 3600 Metern.",
+      "headline": "Radsport: Blut auf weißem Trikot: Top-Talent Seixas stürzt bei Abfahrt",
+      "summary": "Frankreichs Radsport-Talent Paul Seixas ist bei der Tour Auvergne-Rhone-Alpe gestürzt. Der 19-Jährige kämpfte sich am Grand Colombier mit Blut und Löchern auf dem Trikot zurück ans Feld.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Germany",
@@ -490,20 +490,20 @@
       "ingestion_source": "rss",
       "sources": [
         {
-          "title": "An Nordwand zu Tode gestürzt: Drei Bergsteiger sterben an italienischem Viertausender",
-          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/an-nordwand-zu-tode-gesturzt-drei-bergsteiger-sterben-an-italienischem-viertausender-15711764.html",
+          "title": "Radsport: Blut auf weißem Trikot: Top-Talent Seixas stürzt bei Abfahrt",
+          "url": "https://www.tagesspiegel.de/sport/radsport-blut-auf-weissem-trikot-top-talent-seixas-sturzt-bei-abfahrt-15712060.html",
           "publisher": "Tagesspiegel",
           "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "rss-germany-89c71ceb72",
+      "id": "rss-germany-f30ee15182",
       "topic_ids": [
         "germany"
       ],
-      "headline": "Angriff auf Polizisten: Polizei nimmt bei WM-Spiel Bosnien-Fans aus Deutschland fest",
-      "summary": "Kanada und Bosnien-Herzegowina trennen sich bei der Fußball-WM schiedlich-friedlich 1:1. Auf der Tribüne sieht es anders aus. Zwei in Deutschland lebende Fans werden festgenommen.",
+      "headline": "Krieg in Nahost: Trump: Iran-Vereinbarung soll morgen unterzeichnet werden",
+      "summary": "Zuletzt mehrten sich bereits die Zeichen, dass eine vorläufige Einigung im Iran-Krieg kurz bevorsteht. Nun nennt Trump einen konkreten Zeitpunkt für eine Unterzeichnung - lässt vieles aber offen.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Germany",
@@ -513,20 +513,20 @@
       "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Angriff auf Polizisten: Polizei nimmt bei WM-Spiel Bosnien-Fans aus Deutschland fest",
-          "url": "https://www.tagesspiegel.de/sport/angriff-auf-polizisten-polizei-nimmt-bei-wm-spiel-bosnien-fans-aus-deutschland-fest-15712009.html",
+          "title": "Krieg in Nahost: Trump: Iran-Vereinbarung soll morgen unterzeichnet werden",
+          "url": "https://www.tagesspiegel.de/internationales/krieg-in-nahost-trump-iran-vereinbarung-soll-morgen-unterzeichnet-werden-15712042.html",
           "publisher": "Tagesspiegel",
           "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "rss-germany-524e443e57",
+      "id": "rss-germany-6f8be670b2",
       "topic_ids": [
         "germany"
       ],
-      "headline": "Fußball-WM: Trump gratuliert US-Nationalmannschaft zum Auftaktsieg",
-      "summary": "Den USA gelingt gegen Paraguay ein perfekter Start in ihre Heim-WM - doch Präsident Trump ist nicht unter den jubelnden Fans im Stadion. Nun reagiert er in sozialen Medien auf den US-Sieg.",
+      "headline": "Niederlage für Trump: Kennedy Center: Haben Trumps Namen vom Gebäude entfernt",
+      "summary": "Ob an Gebäuden, auf Nationalpark-Pässen oder Regierungsprogrammen: Trumps Name und Abbild taucht in den USA an immer mehr Orten auf. In einem Fall war Widerstand dagegen nun erfolgreich.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Germany",
@@ -536,20 +536,20 @@
       "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Fußball-WM: Trump gratuliert US-Nationalmannschaft zum Auftaktsieg",
-          "url": "https://www.tagesspiegel.de/sport/fussball-wm-trump-gratuliert-us-nationalmannschaft-zum-auftaktsieg-15712005.html",
+          "title": "Niederlage für Trump: Kennedy Center: Haben Trumps Namen vom Gebäude entfernt",
+          "url": "https://www.tagesspiegel.de/internationales/niederlage-fur-trump-kennedy-center-haben-trumps-namen-vom-gebaude-entfernt-15712052.html",
           "publisher": "Tagesspiegel",
           "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "rss-germany-fb676b12dc",
+      "id": "rss-germany-f682ca6cfa",
       "topic_ids": [
         "germany"
       ],
-      "headline": "Drittes Gebäude der TU Berlin geschlossen: Brandschutzmängel führen zur nächsten Sperrung – Bezirksamt prüft intensiv",
-      "summary": "Schon wieder wird ein Gebäude der Technischen Universität Berlin geschlossen. Bei einer Prüfung wurden Mängel am Brandschutzsystem festgestellt. Laut Wissenschaftssenatorin kein Einzelfall.",
+      "headline": "Zusammenstoß mit Sattelzug: Familie mit Kleinkind stirbt bei Autounfall in Bayern",
+      "summary": "Bei einem Frontalzusammenstoß mit einem Sattelzug kommt in Oberbayern eine dreiköpfige Familie ums Leben – darunter ein zweijähriges Kleinkind. Für den Fahrer des Lkws geht der Unfall glimpflich aus.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Germany",
@@ -559,20 +559,20 @@
       "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Drittes Gebäude der TU Berlin geschlossen: Brandschutzmängel führen zur nächsten Sperrung – Bezirksamt prüft intensiv",
-          "url": "https://www.tagesspiegel.de/berlin/nach-hauptgebaude-und-bibliothek-noch-ein-weiteres-gebaude-der-tu-berlin-gesperrt-15711191.html",
+          "title": "Zusammenstoß mit Sattelzug: Familie mit Kleinkind stirbt bei Autounfall in Bayern",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/zusammenstoss-mit-sattelzug-familie-mit-kleinkind-stirbt-bei-autounfall-in-bayern-15711877.html",
           "publisher": "Tagesspiegel",
           "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "rss-germany-d0e2d936de",
+      "id": "rss-germany-30af59b64c",
       "topic_ids": [
         "germany"
       ],
-      "headline": "Tat in Deutschland geplant?: Explosion in Amsterdam – Polizei vermutet Sprengstoffbande",
-      "summary": "In einem Amsterdamer Wohnblock soll eine Gruppe junge Männer Sprengsätze gebaut haben – offenbar für einen geplanten Überfall in Deutschland. Die Polizei ermittelt.",
+      "headline": "Berlin / Brandenburg: Trump droht mit „vollständiger Kontrolle“ über Irans Öl",
+      "summary": "Trump droht mit „vollständiger Kontrolle“ über Irans Öl",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Germany",
@@ -582,20 +582,43 @@
       "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Tat in Deutschland geplant?: Explosion in Amsterdam – Polizei vermutet Sprengstoffbande",
-          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/tat-in-deutschland-geplant-explosion-in-amsterdam--polizei-vermutet-sprengstoffbande-15711999.html",
+          "title": "Berlin / Brandenburg: Trump droht mit „vollständiger Kontrolle“ über Irans Öl",
+          "url": "https://www.tagesspiegel.de/berlin-brandenburg-trump-droht-mit-vollstandiger-kontrolle-uber-irans-ol-15710304.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-12"
+        }
+      ]
+    },
+    {
+      "id": "rss-germany-5bfd1c04c6",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Ende des Pannen-Bauprojekts Berlin–Hamburg: Die Bahn kämpft mit der Technik – und der Verkehrsminister verliert die Geduld",
+      "summary": "Ab Sonntag fahren die ICE wieder über die Schnellstrecke von Berlin nach Hamburg – aber langsamer als geplant. Der Verkehrsminister reagiert unwirsch auf neue Geldforderungen der Bahn.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Ende des Pannen-Bauprojekts Berlin–Hamburg: Die Bahn kämpft mit der Technik – und der Verkehrsminister verliert die Geduld",
+          "url": "https://www.tagesspiegel.de/politik/ende-des-pannen-bauprojekts-berlinhamburg-die-bahn-kampft-mit-der-technik--und-der-verkehrsminister-verliert-die-geduld-15711730.html",
           "publisher": "Tagesspiegel",
           "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "rss-germany-79b48326ff",
+      "id": "rss-germany-9333780d6e",
       "topic_ids": [
         "germany"
       ],
-      "headline": "Fußball-Nationalmannschaft: Muskelspiele beim DFB-Training: „Jeder bei 100 Prozent“",
-      "summary": "Das Abschlusstraining absolvieren die deutschen Spieler noch im Stammquartier in Winston-Salem. Und sie zeigen dem Außenseiter Curaçao, dass sie vor Kraft strotzen.",
+      "headline": "ATP-Turnier: Finale in US-Hand: Fritz fordert Shelton in Stuttgart",
+      "summary": "Taylor Fritz zieht erneut ins Endspiel des Tennisturniers in Stuttgart ein. Sein Gegner am Sonntag ist der an Position eins gesetzte Ben Shelton.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Germany",
@@ -605,20 +628,20 @@
       "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Fußball-Nationalmannschaft: Muskelspiele beim DFB-Training: „Jeder bei 100 Prozent“",
-          "url": "https://www.tagesspiegel.de/sport/fussball-nationalmannschaft-muskelspiele-beim-dfb-training-jeder-bei-100-prozent-15711994.html",
+          "title": "ATP-Turnier: Finale in US-Hand: Fritz fordert Shelton in Stuttgart",
+          "url": "https://www.tagesspiegel.de/sport/atp-turnier-finale-in-us-hand-fritz-fordert-shelton-in-stuttgart-15711816.html",
           "publisher": "Tagesspiegel",
           "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "rss-germany-6de3b6de30",
+      "id": "rss-germany-51a2e6048c",
       "topic_ids": [
         "germany"
       ],
-      "headline": "Formel 1 in Spanien: Russell rast in Barcelona zur Pole - Antonelli nur Dritter",
-      "summary": "Hochspannung auf dem Circuit de Barcelona-Catalunya. In der Qualifikation zum Formel-1-Rennen in Spanien verpasst WM-Spitzenreiter Kimi Antonelli die erste Startreihe.",
+      "headline": "Mexikanische Region gilt als gefährlich: Polizei findet Leiche am Trainingsplatz der iranischen Fußball-Nationalmannschaft",
+      "summary": "Tijuana liegt an der Grenze zum US-Bundesstaat Kalifornien. Die iranische Mannschaft hatte ihr WM-Quartier wegen des Krieges mit den USA hierhin verlegt.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Germany",
@@ -628,20 +651,20 @@
       "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Formel 1 in Spanien: Russell rast in Barcelona zur Pole - Antonelli nur Dritter",
-          "url": "https://www.tagesspiegel.de/sport/formel-1-in-spanien-russell-rast-in-barcelona-zur-pole-antonelli-nur-dritter-15711634.html",
+          "title": "Mexikanische Region gilt als gefährlich: Polizei findet Leiche am Trainingsplatz der iranischen Fußball-Nationalmannschaft",
+          "url": "https://www.tagesspiegel.de/sport/mexikanische-region-gilt-als-gefahrlich-polizei-findet-leiche-am-trainingsplatz-der-iranischen-fussball-nationalmannschaft-15710931.html",
           "publisher": "Tagesspiegel",
           "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "rss-germany-5bb82cf72d",
+      "id": "rss-germany-3c1b56e111",
       "topic_ids": [
         "germany"
       ],
-      "headline": "Begehrte Kapitalanlagen : Hunderte Wohnungen im neuen Potsdamer Stadtteil Krampnitz sind bereits verkauft",
-      "summary": "Bei einem Baustellenfest in Krampnitz zeigten sich Investorenvertreter sehr zufrieden mit dem Interesse ihrer Kundschaft. Weitere Eigentumswohnungen können erworben werden.",
+      "headline": "Feuer: Zwei Einfamilienhäuser brennen in Leimbach",
+      "summary": "Feuer: Zwei Einfamilienhäuser brennen in Leimbach",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Germany",
@@ -651,89 +674,20 @@
       "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Begehrte Kapitalanlagen : Hunderte Wohnungen im neuen Potsdamer Stadtteil Krampnitz sind bereits verkauft",
-          "url": "https://www.tagesspiegel.de/potsdam/landeshauptstadt/begehrte-kapitalanlagen-hunderte-wohnungen-im-neuen-potsdamer-stadtteil-krampnitz-sind-bereits-verkauft-15711257.html",
-          "publisher": "Tagesspiegel",
-          "published_at": "2026-06-13"
-        }
-      ]
-    },
-    {
-      "id": "rss-germany-3ef5bc9f9f",
-      "topic_ids": [
-        "germany"
-      ],
-      "headline": "Royale Goldhochzeit: Schwedens Königspaar feiert die Liebe – nur Estelle fehlt",
-      "summary": "Wenn das Königspaar Carl Gustaf und Silvia am Freitag Goldhochzeit hat, feiert ganz Schweden Mittsommer. Die große Party zu 50 Jahren Royal-Ehe stieg deshalb schon jetzt. Inklusive Kutsche natürlich.",
-      "why_it_matters": "",
-      "broader_context": "",
-      "region": "Germany",
-      "country": "Germany",
-      "is_structural": false,
-      "material_development": true,
-      "ingestion_source": "rss",
-      "sources": [
-        {
-          "title": "Royale Goldhochzeit: Schwedens Königspaar feiert die Liebe – nur Estelle fehlt",
-          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/royale-goldhochzeit-schwedens-konigspaar-feiert-die-liebe--nur-estelle-fehlt-15711810.html",
-          "publisher": "Tagesspiegel",
-          "published_at": "2026-06-13"
-        }
-      ]
-    },
-    {
-      "id": "rss-germany-81570d9f11",
-      "topic_ids": [
-        "germany"
-      ],
-      "headline": "Tennis: Ehrung für Zverev in Halle schon vor Turnierbeginn",
-      "summary": "Bevor er beim Rasentennisturnier auch nur einen Ball spielt, wird French-Open-Sieger Alexander Zverev in Ostwestfalen bereits geehrt. Nicht zuletzt für seine „Bedeutung für den deutschen Tennissport“.",
-      "why_it_matters": "",
-      "broader_context": "",
-      "region": "Germany",
-      "country": "Germany",
-      "is_structural": false,
-      "material_development": true,
-      "ingestion_source": "rss",
-      "sources": [
-        {
-          "title": "Tennis: Ehrung für Zverev in Halle schon vor Turnierbeginn",
-          "url": "https://www.tagesspiegel.de/sport/tennis-ehrung-fur-zverev-in-halle-schon-vor-turnierbeginn-15711982.html",
-          "publisher": "Tagesspiegel",
-          "published_at": "2026-06-13"
-        }
-      ]
-    },
-    {
-      "id": "rss-germany-af58222ace",
-      "topic_ids": [
-        "germany"
-      ],
-      "headline": "Pflegereform: Warken will größere steuerliche Förderung von privater Pflegevorsorge",
-      "summary": "Die Gesundheitsministerin will Anreize schaffen, dass Privatpersonen künftig zusätzlich eine eigene Pflegeversicherung abschließen. Das will sie steuerlich fördern.",
-      "why_it_matters": "",
-      "broader_context": "",
-      "region": "Germany",
-      "country": "Germany",
-      "is_structural": false,
-      "material_development": true,
-      "ingestion_source": "rss",
-      "sources": [
-        {
-          "title": "Pflegereform: Warken will größere steuerliche Förderung von privater Pflegevorsorge",
-          "url": "https://www.zeit.de/politik/deutschland/2026-06/warken-pflegereform-gesundheitsministerium-privat-vorsorge",
+          "title": "Feuer: Zwei Einfamilienhäuser brennen in Leimbach",
+          "url": "https://www.zeit.de/news/2026-06/13/zwei-einfamilienhaeuser-brennen-in-leimbach",
           "publisher": "Die Zeit",
           "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "rss-germany-ec1b9719c8",
+      "id": "rss-germany-65f7f5969e",
       "topic_ids": [
         "germany"
       ],
-      "headline": "Hoffnungsträger: Jochen Ott führt NRW-SPD mit Kampfansage in den Wahlkampf",
-      "summary": "Hoffnungsträger: Jochen Ott führt NRW-SPD mit Kampfansage in den Wahlkampf",
+      "headline": "Iran-Krieg: Trump kündigt Abkommen mit Iran für Sonntag an – trotz Widerspruch",
+      "summary": "An diesem Sonntag wird laut US-Präsident Trump eine Vereinbarung über das Ende des Krieges mit dem Iran unterzeichnet. Der Iran hatte dem zuvor schon widersprochen.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Germany",
@@ -743,217 +697,332 @@
       "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Hoffnungsträger: Jochen Ott führt NRW-SPD mit Kampfansage in den Wahlkampf",
-          "url": "https://www.zeit.de/news/2026-06/13/nrw-spd-will-ott-zum-spitzenkandidaten-kueren",
+          "title": "Iran-Krieg: Trump kündigt Abkommen mit Iran für Sonntag an – trotz Widerspruch",
+          "url": "https://www.zeit.de/politik/ausland/2026-06/iran-krieg-donald-trump-vereinbarung-strasse-von-hormus",
           "publisher": "Die Zeit",
           "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "wp-berlin-1df92022f0",
+      "id": "rss-germany-f598a05236",
       "topic_ids": [
-        "berlin"
+        "germany"
       ],
-      "headline": "Berlin’s Fashion Takes on the International Runway",
-      "summary": "This city’s subcultural style has gone global. Can it keep its cool?",
+      "headline": "Nordirland: Tausende gehen in Nordirland gegen Rassismus auf die Straße",
+      "summary": "Tausende haben in Belfast gegen Rassismus demonstriert. Nach einer Messerattacke am Montag war es tagelang zu gewalttätigen Ausschreitungen gegen Einwanderer gekommen.",
       "why_it_matters": "",
       "broader_context": "",
-      "region": "Berlin",
+      "region": "Germany",
       "country": "Germany",
       "is_structural": false,
       "material_development": true,
-      "ingestion_source": "wordpress",
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Berlin’s Fashion Takes on the International Runway",
-          "url": "https://www.the-berliner.com/berlin/berlin-fashion-goes-international/",
-          "publisher": "The Berliner",
+          "title": "Nordirland: Tausende gehen in Nordirland gegen Rassismus auf die Straße",
+          "url": "https://www.zeit.de/politik/ausland/2026-06/rassismus-gegendemonstration-belfast-nordirland",
+          "publisher": "Die Zeit",
           "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "wp-berlin-35a98f2b32",
+      "id": "rss-germany-9022a60104",
       "topic_ids": [
-        "berlin"
+        "germany"
       ],
-      "headline": "Ice That’s Nice: Berlin’s Coolest Ice Cream",
-      "summary": "With summer temperatures here to stay, check out our guide to the best places in town for when you need to cool down.",
+      "headline": "Krieg in Nahost: Trump: Iran-Vereinbarung soll morgen unterzeichnet werden",
+      "summary": "Krieg in Nahost: Trump: Iran-Vereinbarung soll morgen unterzeichnet werden",
       "why_it_matters": "",
       "broader_context": "",
-      "region": "Berlin",
+      "region": "Germany",
       "country": "Germany",
       "is_structural": false,
       "material_development": true,
-      "ingestion_source": "wordpress",
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Ice That’s Nice: Berlin’s Coolest Ice Cream",
-          "url": "https://www.the-berliner.com/food/berlins-best-ice-cream-sorbet/",
-          "publisher": "The Berliner",
-          "published_at": "2026-06-12"
+          "title": "Krieg in Nahost: Trump: Iran-Vereinbarung soll morgen unterzeichnet werden",
+          "url": "https://www.zeit.de/news/2026-06/13/trump-iran-vereinbarung-soll-morgen-unterzeichnet-werden",
+          "publisher": "Die Zeit",
+          "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "wp-berlin-a8a22c394f",
+      "id": "rss-berlin-791c9ff7ed",
       "topic_ids": [
         "berlin"
       ],
-      "headline": "Wedding bakery owner murdered",
-      "summary": "The murder motive remains a mystery as there was supposedly nothing out of the ordinary with the bakery or its owner.",
+      "headline": "Generalsanierung bei der Bahn: Politiker fordern ehrliche Bilanz bei Bahn-Großprojekten",
+      "summary": "Nach der langen Sanierung der Strecke Berlin-Hamburg verlangen Politiker mehr Offenheit bei Problemen. Was sie vom Bahn-Management künftig erwarten.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Berlin",
       "country": "Germany",
       "is_structural": false,
       "material_development": true,
-      "ingestion_source": "wordpress",
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Wedding bakery owner murdered",
-          "url": "https://www.the-berliner.com/english-news-berlin/wedding-bakery-owner-murdered/",
-          "publisher": "The Berliner",
-          "published_at": "2026-06-12"
+          "title": "Generalsanierung bei der Bahn: Politiker fordern ehrliche Bilanz bei Bahn-Großprojekten",
+          "url": "https://www.tagesspiegel.de/berlin/generalsanierung-bei-der-bahn-politiker-fordern-ehrliche-bilanz-bei-bahn-grossprojekten-15712033.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "wp-berlin-3b39c65f0d",
+      "id": "rss-berlin-72d1791e88",
       "topic_ids": [
         "berlin"
       ],
-      "headline": "2×2 free tickets for the movie “Rose”at Freiluftkino Insel on 28/6",
-      "summary": "Want to win tickets? Send an email in order to have a chance to win our giveaway",
+      "headline": "WM-Orakel: Schaf Tina tippt auf Unentschieden bei Deutschland-Spiel",
+      "summary": "Im Weltfußball ist Curaçao Neuling und in der Weltranglisten auf Platz 82. Klarer Sieg also für Deutschland beim WM-Auftakt am Sonntag? Ein Lamm hat da so seine Zweifel.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Berlin",
       "country": "Germany",
       "is_structural": false,
       "material_development": true,
-      "ingestion_source": "wordpress",
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "2×2 free tickets for the movie “Rose”at Freiluftkino Insel on 28/6",
-          "url": "https://www.the-berliner.com/berlin/2x2-free-tickets-for-the-movie-roseat-freiluftkino-insel-on-28-6/",
-          "publisher": "The Berliner",
-          "published_at": "2026-06-11"
+          "title": "WM-Orakel: Schaf Tina tippt auf Unentschieden bei Deutschland-Spiel",
+          "url": "https://www.tagesspiegel.de/berlin/wm-orakel-schaf-tina-tippt-auf-unentschieden-bei-deutschland-spiel-15712031.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "wp-berlin-6f8c5f2edd",
+      "id": "rss-berlin-c0eef23560",
       "topic_ids": [
         "berlin"
       ],
-      "headline": "2×2 free tickets for the movie “Pillion”at Freiluftkino Insel on 26/6",
-      "summary": "Want to win tickets? Send an email in order to have a chance to win our giveaway",
+      "headline": "Viele Brandenburger Theater erhöhen die Eintrittspreise",
+      "summary": "Viele Brandenburger Theater erhöhen die Eintrittspreise",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Berlin",
       "country": "Germany",
       "is_structural": false,
       "material_development": true,
-      "ingestion_source": "wordpress",
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "2×2 free tickets for the movie “Pillion”at Freiluftkino Insel on 26/6",
-          "url": "https://www.the-berliner.com/berlin/2x2-free-tickets-for-the-movie-pillionat-freiluftkino-insel-on-26-6/",
-          "publisher": "The Berliner",
-          "published_at": "2026-06-11"
+          "title": "Viele Brandenburger Theater erhöhen die Eintrittspreise",
+          "url": "https://www.rbb24.de/kultur/beitrag/2026/06/theater-brandenburg-preiserhoehung-tickets-eintrittskarten.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "wp-berlin-52a5e328fc",
+      "id": "rss-berlin-db2b4566fc",
       "topic_ids": [
         "berlin"
       ],
-      "headline": "5×2 free tickets for the movie “I Swear – Verflucht Normal”on 3/7 at Freiluftkino Kreuzberg",
-      "summary": "Want to win tickets? Send an email in order to have a chance to win our giveaway",
+      "headline": "Teilnehmer des CSD in Eberswalde demonstrieren für Vielfalt und Akzeptanz",
+      "summary": "Teilnehmer des CSD in Eberswalde demonstrieren für Vielfalt und Akzeptanz",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Berlin",
       "country": "Germany",
       "is_structural": false,
       "material_development": true,
-      "ingestion_source": "wordpress",
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "5×2 free tickets for the movie “I Swear – Verflucht Normal”on 3/7 at Freiluftkino Kreuzberg",
-          "url": "https://www.the-berliner.com/berlin/5x2-free-tickets-for-the-movie-i-swear-verflucht-normalon-3-7-at-freiluftkino-kreuzberg/",
-          "publisher": "The Berliner",
-          "published_at": "2026-06-11"
+          "title": "Teilnehmer des CSD in Eberswalde demonstrieren für Vielfalt und Akzeptanz",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/06/eberswalde-csd-demonstration-toleranz.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "wp-berlin-8386547177",
+      "id": "rss-berlin-9eb8305b6a",
       "topic_ids": [
         "berlin"
       ],
-      "headline": "5×2 free tickets for the movie “Rental Family”on 22/6 at Freiluftkino Kreuzberg",
-      "summary": "Want to win tickets? Send an email in order to have a chance to win our giveaway",
+      "headline": "Schiedsrichter Siebert über Champions-League-Finale und die WM",
+      "summary": "Der Berliner Schiedsrichter Daniel Siebert durfte zuletzt das Champions-League-Finale pfeifen - als erst fünfter Deutscher überhaupt. Im Interview spricht er über das besondere Erlebnis und wie er damit umgeht, trotzdem nicht für die WM nominiert worden zu sein.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Berlin",
       "country": "Germany",
       "is_structural": false,
       "material_development": true,
-      "ingestion_source": "wordpress",
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "5×2 free tickets for the movie “Rental Family”on 22/6 at Freiluftkino Kreuzberg",
-          "url": "https://www.the-berliner.com/berlin/5x2-free-tickets-for-the-movie-rental-familyon-22-6-at-freiluftkino-kreuzberg/",
-          "publisher": "The Berliner",
-          "published_at": "2026-06-11"
+          "title": "Schiedsrichter Siebert über Champions-League-Finale und die WM",
+          "url": "https://www.rbb24.de/sport/beitrag/2026/06/fussball-berlin-interview-schiedsrichter-daniel-siebert.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "wp-berlin-da778ca700",
+      "id": "rss-berlin-d4f7367c7c",
       "topic_ids": [
         "berlin"
       ],
-      "headline": "Burgermeister goes Viennese",
-      "summary": "Following their success throughout Germany and in Poland, the Berlin-based burger chain plans to enter the Austrian market in the autumn.",
+      "headline": "Schloss Bellevue ist jetzt eine Kunstgalerie auf Zeit",
+      "summary": "Normalerweise residiert im Schloss Bellevue im Berliner Tiergarten der Bundespräsident. Nun soll der Amtssitz saniert werden. Und die Zeit zwischen Leerräumen und Baustart wird genutzt für eine Kunstausstellung.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Berlin",
       "country": "Germany",
       "is_structural": false,
       "material_development": true,
-      "ingestion_source": "wordpress",
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "Burgermeister goes Viennese",
-          "url": "https://www.the-berliner.com/english-news-berlin/burgermeister-goes-vienese/",
-          "publisher": "The Berliner",
-          "published_at": "2026-06-11"
+          "title": "Schloss Bellevue ist jetzt eine Kunstgalerie auf Zeit",
+          "url": "https://www.rbb24.de/kultur/beitrag/2026/06/freiraum-kunst-eroeffnet-schloss-bellevue-berlin.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-13"
         }
       ]
     },
     {
-      "id": "wp-berlin-5d180ce303",
+      "id": "rss-berlin-f12318ef8a",
       "topic_ids": [
         "berlin"
       ],
-      "headline": "On the Rock(s): Berlin’s Best Punk Rock Bars",
-      "summary": "Our top spots to feel Berlin’s countercultural spirit – and to have a cold one without breaking the bank.",
+      "headline": "Technische Universität Berlin muss weiteres Gebäude schließen",
+      "summary": "Erst musste das Hauptgebäude schließen, dann vorrübergehend eine Bibliothek - nun macht ein weiteres Gebäude der TU Berlin Probleme. Mehrere Hörsäle und Seminarräume sind betroffen.",
       "why_it_matters": "",
       "broader_context": "",
       "region": "Berlin",
       "country": "Germany",
       "is_structural": false,
       "material_development": true,
-      "ingestion_source": "wordpress",
+      "ingestion_source": "rss",
       "sources": [
         {
-          "title": "On the Rock(s): Berlin’s Best Punk Rock Bars",
-          "url": "https://www.the-berliner.com/guides/berlins-best-punk-bars/",
-          "publisher": "The Berliner",
-          "published_at": "2026-06-11"
+          "title": "Technische Universität Berlin muss weiteres Gebäude schließen",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/06/tu-berlin-maengel-gebaeude-schliessen.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-13"
+        }
+      ]
+    },
+    {
+      "id": "rss-berlin-f886dbc8e9",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Brandenburger Landpartie: Mehr als 130 Höfe und Betriebe öffnen für Besucher",
+      "summary": "Brandenburger Landpartie: Mehr als 130 Höfe und Betriebe öffnen für Besucher",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Brandenburger Landpartie: Mehr als 130 Höfe und Betriebe öffnen für Besucher",
+          "url": "https://www.rbb24.de/wirtschaft/beitrag/2026/06/brandenburger-landpartie-landwirtschaft-hanka-mittelstaedt.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-13"
+        }
+      ]
+    },
+    {
+      "id": "rss-berlin-48b9a6c843",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Schüsse im Kreuzberger Graefekiez: \"Ich habe keine Angst. Also eigentlich\"",
+      "summary": "Im idyllisch anmutenden Graefekiez wurde kürzlich mehrfach auf offener Straße geschossen. Es handele sich um Clan-Kriminalität, wird vermutet. Wie sich das Leben dann für die dort lebenden Menschen anfühlt, hat uns ein Anwohner berichtet.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Schüsse im Kreuzberger Graefekiez: \"Ich habe keine Angst. Also eigentlich\"",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/06/berlin-schuesse-graefekiez-suedstern-anwohner-geschaefte-interview.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-13"
+        }
+      ]
+    },
+    {
+      "id": "rss-berlin-3a31cc7178",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "30 Jahre nach rassistischer Attacke: Noël Martin und der Stein von Mahlow",
+      "summary": "Vor 30 Jahren wurde der britisch-jamaikanische Bauunternehmer Noël Martin in Mahlow Opfer eines rassistischen Angriffs. Dieser Angriff wurde aber lange gar nicht als solcher gesehen. Das rbb Fernsehen sendet am 16.6. um 23:10 Uhr den Film \"Noel Martin: ein Opfer kehrt zurück\" von 2001",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "30 Jahre nach rassistischer Attacke: Noël Martin und der Stein von Mahlow",
+          "url": "https://www.rbb24.de/politik/beitrag/2026/06/noel-martin-gedenken-mahlow-rassismus-opfer-birmingham.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-13"
+        }
+      ]
+    },
+    {
+      "id": "rss-berlin-49dbd6b5ea",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Kulturfördergesetz: Berliner Kulturschaffende wollen politische Eingriffe in die Kunst verhindern",
+      "summary": "Schon seit längerem gibt es Forderungen nach einem Kulturfördergesetz in Berlin, Ereignisse wie die Fördergeld-Affäre verschärfen sie. Kurz vor der Wahl bekommt die Idee nun Rückenwind - aus Sachsen-Anhalt und durch ein Gutachten.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "Kulturfördergesetz: Berliner Kulturschaffende wollen politische Eingriffe in die Kunst verhindern",
+          "url": "https://www.rbb24.de/kultur/beitrag/2026/06/kultur-foerderung-gesetz-entwurf-berlin-einsparung.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-13"
+        }
+      ]
+    },
+    {
+      "id": "rss-berlin-b85f1e807d",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "\"Freiraum Kunst\": Ausstellung im Schloss Bellevue",
+      "summary": "Bevor der Amtssitz des Bundespräsidenten für acht Jahre saniert wird, zieht die Kunst ins Schloss Bellevue ein. Die Akademie der Künste bespielt die leeren Räume mit der Ausstellung \"Freiraum Kunst\". Die Leere des Schlosses wird dabei selbst Teil der Inszenierung.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "sources": [
+        {
+          "title": "\"Freiraum Kunst\": Ausstellung im Schloss Bellevue",
+          "url": "https://www.rbb24.de/kultur/beitrag/2026/06/kunst-im-schloss-bellevue-ausstellung-steinmeier-amtssitz.html",
+          "publisher": "rbb24",
+          "published_at": "2026-06-13"
         }
       ]
     },
