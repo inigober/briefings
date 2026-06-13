@@ -1,686 +1,426 @@
 {
   "briefing_type": "berlin-restaurants",
   "date": "2026-06-11",
-  "fetched_at": "2026-06-11T13:21:51.530570+00:00",
+  "fetched_at": "2026-06-13T16:27:33.812842+00:00",
   "model": "gpt-4.1",
+  "fetch_mode": "combined",
   "items": [
     {
-      "id": "chungsichuan",
+      "id": "ming_dynastie",
       "topic_ids": [
-        "regional_chinese",
-        "noodle specialist",
-        "Sichuan"
+        "regional_chinese"
       ],
-      "name": "ChungKing Noodles",
-      "neighborhood": "Kreuzberg",
-      "address": "Reichenberger Straße 35, 10999 Berlin",
-      "cuisine": "Sichuan noodle specialist",
-      "price_tier": "€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Extremely fiery, authentic Chongqing‑style noodles with house‑made noodles and chili oil",
-        "Vegan‑friendly toppings and deep technical craft in noodle and chili oil preparation"
-      ],
-      "weaknesses": [
-        "Extremely spicy—may overwhelm less hardy palates",
-        "Small seating, no reservations, frequent queues"
-      ],
-      "comparative_context": "By contrast with flashier venues, ChungKing emphasizes sheer regional technique and ingredient quality over décor.",
-      "critical_assessment": "A crucible of chili craftsmanship: if you prize precise balance of mala heat and hand‑made noodles, it’s hard to beat—though seating is Spartan and spice is punishing.",
-      "google_maps_name": "ChungKing Noodles",
-      "google_maps_url": "View on Google Maps",
-      "google_maps_address": "Reichenberger Straße 35, 10999 Berlin",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verification_notes": "Verified via Berlin Food Stories Google Maps link ([berlinfoodstories.com](https://berlinfoodstories.com/map/chung-king-noodles?utm_source=openai))",
-      "source_urls": [
-        "https://www.berlinfoodstories.com/map/chung-king-noodles",
-        "https://www.cremeguides.com/berlin/chungking-noodles"
-      ],
-      "ingestion_source": "openai",
-      "verified": false
-    },
-    {
-      "id": "weihouse",
-      "topic_ids": [
-        "regional_chinese",
-        "Sichuan"
-      ],
-      "name": "Wei House (Chuan House)",
-      "neighborhood": "Friedrichshain",
-      "address": "Landsberger Allee 6, 10249 Berlin",
-      "cuisine": "Sichuan",
+      "name": "Ming Dynastie",
+      "neighborhood": "Mitte",
+      "address": "Brückenstraße 6, 10179",
+      "cuisine": "Regional Chinese",
       "price_tier": "€€",
       "value_label": null,
       "fine_dining": false,
       "strengths": [
-        "Authentic Sichuan flavor profile with malà depth and well‑balanced heat and acidity",
-        "Dim sum options and handmade dumplings are standout"
+        "Strong representation of multiple Chinese regional cuisines (Sichuan, Dongbei, Northern, Cantonese) executed with precision and finesse",
+        "Culinary institution respected by chefs, consistent and dependable quality"
       ],
       "weaknesses": [
-        "Under‑the‑radar, potentially limited seating or awareness of availability window for fresh dim sum"
+        "Large, pan‑Chinese menu may feel intimidating or broad to some",
+        "Located in Mitte – less of a neighborhood niche, more mainstream"
       ],
-      "comparative_context": "Less flamboyant than mid‑town Sichuan spots, but depth of regional rigor sets it apart.",
-      "critical_assessment": "A clandestine gem: Sichuan‑centric cooking that braves true mala techniques and freshness—worth seeking out despite low visibility.",
-      "google_maps_name": "Wei House",
-      "google_maps_url": "View on Google Maps",
-      "google_maps_address": "Landsberger Allee 6, 10249 Berlin",
+      "comparative_context": "A revered staple for serious Chinese regional cooking across styles, more reliable than hype‑built new venues.",
+      "critical_assessment": "While not flashy, Ming Dynastie remains the most dependable venue for exploring a range of regional Chinese dishes with real depth and technique.",
+      "source_urls": [
+        "berlinfoodstories.com review"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Ming Dynastie Jannowitzbrücke Berlin",
+      "google_maps_address": "Brückenstraße 6, 10179 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=261247375087039031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJy3vdsCROqEcRN_KQfhojoAM",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 3605,
+      "google_maps_hours_compact": "Daily 12:00–22:00",
       "exists_in_berlin": true,
       "permanently_closed": false,
       "temporarily_closed": false,
-      "verification_notes": "Verified by tip‑berlin article including address ([tip-berlin.de](https://www.tip-berlin.de/essen-trinken/restaurants/wei-house-chuan-house-chinesisches-restaurant/?utm_source=openai))",
-      "source_urls": [
-        "https://www.tip-berlin.de/essen-trinken/restaurants/wei-house-chuan-house-chinesisches-restaurant/"
-      ],
-      "ingestion_source": "openai",
-      "verified": false
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
     },
     {
-      "id": "chenbeef",
+      "id": "willing_le_moon",
       "topic_ids": [
-        "regional_chinese",
-        "Lanzhou/noodle specialist",
-        "Uighur fusion"
+        "regional_chinese"
       ],
-      "name": "Chen’s Beef Noodle House",
-      "neighborhood": "Neukölln",
-      "address": "Karl‑Marx‑Straße 78, 12043 Berlin",
-      "cuisine": "Lanzhou/Uighur‑influenced noodle soups",
+      "name": "Willing (formerly Le Moon)",
+      "neighborhood": "Schöneberg",
+      "address": "Bundesplatz 12, 10715",
+      "cuisine": "Regional Chinese",
+      "price_tier": "€€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Cozy under‑the‑tracks setting with authentic Sichuan heat and Mandarin‑language menu for Chinese‑German diners",
+        "Friendly service and unique offerings like deep‑fried corn kernels"
+      ],
+      "weaknesses": [
+        "Further out in Schöneberg – not central for some",
+        "Less extensive than big institutions, limited scale"
+      ],
+      "comparative_context": "A more neighborhood‑scale, authentic Sichuan highlight compared to the grander Ming Dynastie.",
+      "critical_assessment": "Great for fans of fiery, no‑frills Sichuan in a welcoming, local setting offering genuine regional touches.",
+      "source_urls": [
+        "berlinfoodstories.com map"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Willing China Restaurant",
+      "google_maps_address": "Bundespl. 12, 10715 Berlin-Bezirk Charlottenburg-Wilmersdorf",
+      "google_maps_url": "https://maps.google.com/?cid=16686157901964203064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJJz7oCGNQqEcROFSnbDQkkec",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 379,
+      "google_maps_hours_compact": "Mon 12:00–22:00; Wed–Sun 12:00–22:00; (closed Tue)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "leis_kueche",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Lei’s Küche",
+      "neighborhood": "Wedding",
+      "address": "Seestraße 41, 13353",
+      "cuisine": "Regional Chinese",
       "price_tier": "€",
       "value_label": "good value",
       "fine_dining": false,
       "strengths": [
-        "Hand‑pulled Biang Biang and Lanzhou‑style noodles, Uighur‑influenced dishes like big‑plate chicken and skewers",
-        "Very accessible prices, casual atmosphere, excellent value delivered"
+        "Solid, gritty corner‑Chinese classics like mapo tofu, hotpot, dim sum executed reliably",
+        "Casual, unpretentious, neighborhood institution in Wedding"
       ],
       "weaknesses": [
-        "Self‑service counter format limits service polish, mixed reviews on consistency across branches"
+        "Nothing mind‑blowing or highly innovative",
+        "Very basic ambiance"
       ],
-      "comparative_context": "Offers stronger regional diversity (Xinjiang) than many Chinese noodle places focused only on Sichuan.",
-      "critical_assessment": "A robust, affordable introduction to China’s northwest noodles and Central Asian influences—real character, limited pretension.",
-      "google_maps_name": "Chen’s Beef Noodle House",
-      "google_maps_url": "View on Google Maps",
-      "google_maps_address": "Karl‑Marx‑Straße 78, Berlin",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verification_notes": "Address and existence verified via tip‑berlin and restaurantguru ([tip-berlin.de](https://www.tip-berlin.de/essen-trinken/chens-beef-noodle-house-chinesisch/?utm_source=openai))",
+      "comparative_context": "A working‑class staple offering comfort Chinese at great value, ideal before exploring more ambitious regional offerings.",
+      "critical_assessment": "Not flashy, but consistent and familiar—serves its niche of hearty, classical Chinese fare at approachable prices.",
       "source_urls": [
-        "https://www.tip-berlin.de/essen-trinken/chens-beef-noodle-house-chinesisch/",
-        "https://restaurantguru.com/Chens-Beef-Noodle-House-Berlin"
+        "berlinfoodstories.com map"
       ],
       "ingestion_source": "openai",
-      "verified": false
-    },
-    {
-      "id": "susuvegan",
-      "topic_ids": [
-        "regional_chinese",
-        "Sichuan/vegan"
-      ],
-      "name": "Sùsù Vegan Food",
-      "neighborhood": "Prenzlauer Berg",
-      "address": "Eberswalder Str. 29, 10437 Berlin",
-      "cuisine": "Sichuan‑style vegan",
-      "price_tier": "€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Genuinely spicy Sichuan classics in plant‑based form, unusually daring for vegan kitchen",
-        "Creative re‑interpretation of Sichuan with lighter, health‑minded touch"
-      ],
-      "weaknesses": [
-        "Limited to plant‑based format—may not satisfy those seeking meat, small‑scale so seating or opening hours limited"
-      ],
-      "comparative_context": "Unlike vegan places that shy from heat, Sùsù maneuvers true Sichuan spice in vegan context—rare in Berlin.",
-      "critical_assessment": "A refreshing pivot: Sichuan spice meets vegan restraint, with thoughtful technique even if quantity is modest.",
-      "google_maps_name": "Sùsù Vegan Food",
-      "google_maps_url": "View on Google Maps",
-      "google_maps_address": "Eberswalder Str. 29, 10437 Berlin",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verification_notes": "Address verified via tip‑berlin review ([tip-berlin.de](https://www.tip-berlin.de/essen-trinken/susu-vegan-food/?utm_source=openai))",
-      "source_urls": [
-        "https://www.tip-berlin.de/essen-trinken/susu-vegan-food/"
-      ],
-      "ingestion_source": "openai",
-      "verified": false
-    },
-    {
-      "id": "leis",
-      "topic_ids": [
-        "regional_chinese",
-        "corner Chinese",
-        "mapo tofu"
-      ],
-      "name": "Lei’s Küche",
-      "neighborhood": "Wedding",
-      "address": "Seestraße 41, 13353 Berlin",
-      "cuisine": "Regional Chinese classics",
-      "price_tier": "€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Solid, no‑frills mapo tofu, stir fries and dim sum, reliable neighborhood staple",
-        "Casual, take‑out friendly, with outdoor seating and good comfort‑food execution"
-      ],
-      "weaknesses": [
-        "Not ambitious—comfort over innovation, limited culinary flair"
-      ],
-      "comparative_context": "A reliable baseline of regional Chinese classics—less experimental but consistent in technique.",
-      "critical_assessment": "Comfortable, honest Chinese corner food done well; not for novelty seekers, but satisfying craft in routine dishes.",
-      "google_maps_name": "Lei’s Küche",
-      "google_maps_url": "View on Google Maps",
+      "google_maps_name": "Lei's Küche",
       "google_maps_address": "Seestraße 41, 13353 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=3177998244866261940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJg4ZeB9ZTqEcRtIMR4pCEGiw",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 926,
+      "google_maps_hours_compact": "Daily 12:00–23:00",
       "exists_in_berlin": true,
       "permanently_closed": false,
       "temporarily_closed": false,
-      "verification_notes": "Verified via Berlin Food Stories and restaurantguru ([berlinfoodstories.com](https://berlinfoodstories.com/map/lei-s-kuche?utm_source=openai))",
-      "source_urls": [
-        "https://www.berlinfoodstories.com/map/lei-s-kuche",
-        "https://restaurantguru.com/Leis-Kuche-Berlin"
-      ],
-      "ingestion_source": "openai",
-      "verified": false
-    },
-    {
-      "id": "lonmens",
-      "topic_ids": [
-        "regional_chinese",
-        "Taiwanese noodle specialist"
-      ],
-      "name": "Lon‑Men’s Noodle House",
-      "neighborhood": "Charlottenburg",
-      "address": "Kantstraße 33, 10625 Berlin",
-      "cuisine": "Taiwanese noodle soups",
-      "price_tier": "€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Taiwanese soups and dim sum with aromatic clarity, popular among knowledgeable cooks",
-        "Simple interior emphasizes cooking and atmosphere of home soup kitchen"
-      ],
-      "weaknesses": [
-        "Simple décor, limited to standard noodle‑soup repertoire without broader regional depth"
-      ],
-      "comparative_context": "Offers clear, focused Taiwanese noodle authenticity rarely found in West Berlin.",
-      "critical_assessment": "Unassuming Taiwanese noodle tradition—solid, aromatic soups and dim sum, ideal when technique and flavor matter more than style.",
-      "google_maps_name": "Lon‑Men’s Noodle House",
-      "google_maps_url": "View on Google Maps",
-      "google_maps_address": "Kantstraße 33, 10625 Berlin",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verification_notes": "Verified via Creme Guides entry including address ([cremeguides.com](https://www.cremeguides.com/en/berlin/lon-mens-noodle-house-taiwanese-noodle-soups/?utm_source=openai))",
-      "source_urls": [
-        "https://www.cremeguides.com/berlin/lon-mens-noodle-house-taiwanese-noodle-soups/"
-      ],
-      "ingestion_source": "openai",
-      "verified": false
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
     },
     {
       "id": "boii_boii",
       "topic_ids": [
-        "southeast_asian",
-        "Thai",
-        "Contemporary"
+        "southeast_asian"
       ],
       "name": "Boii Boii",
       "neighborhood": "Kreuzberg",
-      "address": "Lausitzer Str. 25, Kreuzberg, Berlin",
-      "cuisine": "Contemporary Thai",
+      "address": "Lausitzer Str. 25, Kreuzberg",
+      "cuisine": "Contemporary Thai (Southeast Asian)",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Contemporary Thai with regional authenticity and creative twists, balance and depth of flavor, locally sourced ingredients",
+        "Warm hospitality and flexible dining (bar, casual, group) with excellent dishes like Kiam Boii soup and Pad Thai"
+      ],
+      "weaknesses": [
+        "Not traditional—some may expect classic street‑food intensity",
+        "Ambiance has design but isn’t the primary draw"
+      ],
+      "comparative_context": "One of the most thoughtful Thai kitchens in Berlin, marrying technique with local produce.",
+      "critical_assessment": "A confident, modern take on Thai cooking that respects tradition while being inventive and grounded in the neighborhood.",
+      "source_urls": [
+        "tip‑berlin.de review"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Boii Boii",
+      "google_maps_address": "Lausitzer Str. 25, 10999 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=892377658793402051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJm8vpiuRPqEcRwx7grcBcYgw",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 204,
+      "google_maps_hours_compact": "Tue–Sat 18:00–23:30 (closed Mon, Sun)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "bang_bang_handpulled_noodles",
+      "topic_ids": [
+        "specialist_neighborhood",
+        "regional_chinese"
+      ],
+      "name": "Bang Bang Handpulled Noodles",
+      "neighborhood": "Kreuzberg",
+      "address": "Mehringdamm 5, Kreuzberg",
+      "cuisine": "Regional Chinese (noodles)",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Specialist in hand‑pulled Biang Biang noodles, bold flavors and texture, standout sesame and chili‑rich dishes",
+        "Focused menu with authentic noodle technique executed well"
+      ],
+      "weaknesses": [
+        "Some toppings like tofu may be served cold",
+        "Very small and popular – queues likely"
+      ],
+      "comparative_context": "A focused, specialist counterpoint to broader Chinese regional menus—great for noodle enthusiasts.",
+      "critical_assessment": "A noodle temple delivering real regional technique in a concise form, though execution occasionally uneven in minor details.",
+      "source_urls": [
+        "tip‑berlin.de review"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "bang bang noodles",
+      "google_maps_address": "Mehringdamm 51, 10961 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=828937961865445472&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJO4VQR8lRqEcRYIDTNa_6gAs",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 1146,
+      "google_maps_hours_compact": "Tue–Thu 12:00–21:00; Fri–Sat 12:00–22:00; Sun 12:00–21:00; (closed Mon)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "meet_you",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Meet You",
+      "neighborhood": "Charlottenburg",
+      "address": "Fasanenstraße 41, 10719",
+      "cuisine": "Regional Chinese (seafood, dim sum)",
       "price_tier": "€€€",
       "value_label": null,
       "fine_dining": false,
       "strengths": [
-        "Nuanced, well-balanced Thai flavours",
-        "Regional consciousness (using local produce respectfully)",
-        "Warm hospitality and adaptable ordering formats"
+        "Well‑executed dim sum brunch and seafood dishes, poised and polished experience",
+        "Known for lobster, crab, xiao long bao, and creative specialties like 'cran ma po tofu'"
       ],
       "weaknesses": [
-        "Slightly pricier compared to casual Thai spots",
-        "Conceptual contemporary approach may eschew traditional dishes"
+        "Higher price tier (€€€) relative to others",
+        "More formal—less local/neighborhood cookhouse feel"
       ],
-      "comparative_context": "More refined and concept-driven than street‑food style spots, less formal than fine‑dining Thai restaurants.",
-      "critical_assessment": "An inspired take on Thai cuisine that values balance and terroir-aware cooking. While execution is excellent, price point may limit more frequent visits.",
-      "google_maps_name": "Boii Boii",
-      "google_maps_url": "https://maps.google.com/?q=Boii+Boii+Lausitzer+Str.+25+Berlin",
-      "google_maps_address": "Lausitzer Str. 25, 10999 Berlin",
+      "comparative_context": "Brings semi‑elevated regional Chinese offering with seafood focus, a step above casual spots but less elaborate than full fine dining.",
+      "critical_assessment": "Great for a polished dim sum or seafood‑centric Chinese meal when price is less of a constraint.",
+      "source_urls": [
+        "berlinfoodstories.com map"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Meet You Restaurant",
+      "google_maps_address": "Fasanenstraße 41, 10719 Berlin-Bezirk Charlottenburg-Wilmersdorf",
+      "google_maps_url": "https://maps.google.com/?cid=17428014459240498453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJvaQ5_PlQqEcRFcVmJ9C-3PE",
+      "google_maps_rating": 4.3,
+      "google_maps_review_count": 1053,
+      "google_maps_hours_compact": "Mon 11:30–22:00; Wed–Fri 11:30–22:00; Sat–Sun 11:00–22:00; (closed Tue)",
       "exists_in_berlin": true,
       "permanently_closed": false,
       "temporarily_closed": false,
-      "verification_notes": "Verified via Google Maps; listing active.",
-      "source_urls": [
-        "https://www.tip-berlin.de/essen-trinken/boii-boii/"
-      ],
-      "ingestion_source": "openai",
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
       "verified": true
     },
     {
-      "id": "khao_taan",
+      "id": "baraka",
       "topic_ids": [
-        "southeast_asian",
-        "Thai",
-        "Family-style"
+        "turkish_middle_eastern_caucasus"
       ],
-      "name": "Khao Taan",
-      "neighborhood": "Friedrichshain",
-      "address": "Gryphiusstraße 10, Friedrichshain, Berlin",
-      "cuisine": "Thai (Family-style menus)",
-      "price_tier": "€€",
-      "value_label": "good value",
+      "name": "Baraka",
+      "neighborhood": "Kreuzberg",
+      "address": "Lausitzer Platz 6, Kreuzberg",
+      "cuisine": "Moroccan/Middle Eastern",
+      "price_tier": "€",
+      "value_label": null,
       "fine_dining": false,
       "strengths": [
-        "Focused family-style Thai menu",
-        "Balanced seven-course menu at fair price"
+        "Authentic Moroccan platters, hospitable vibe, generous service like free black tea",
+        "Cozy, homey, relaxed environment in Kreuzberg"
       ],
       "weaknesses": [
-        "Menu is fixed—less flexibility for diners",
-        "Located slightly off central tourist routes"
+        "Decor may feel stereotypical, but warmth compensates",
+        "Menu limited to platters—less variety"
       ],
-      "comparative_context": "More structured and homely than street stalls, but more affordable than high-end Thai fine dining.",
-      "critical_assessment": "A rare balance of thoughtful Thai home cooking in a calm setting for a modest €35 prix-fixe—great value for what it delivers.",
-      "google_maps_name": "Khao Taan",
-      "google_maps_url": "https://maps.google.com/?q=Khao+Taan+Gryphiusstrasse+10+Berlin",
-      "google_maps_address": "Gryphiusstraße 10, 10245 Berlin",
+      "comparative_context": "A comforting, affordable Moroccan choice among Middle Eastern picks—strong on warmth and value.",
+      "critical_assessment": "Not flashy, but soulful and authentic Moroccan cooking in a neighborhood atmosphere.",
+      "source_urls": [
+        "tip‑berlin.de English article"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "BARAKA Restaurant",
+      "google_maps_address": "Lausitzer Pl. 6, 10997 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=1383092026515745363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJx3KaWUpOqEcRU2olxN66MRM",
+      "google_maps_rating": 4.4,
+      "google_maps_review_count": 4284,
+      "google_maps_hours_compact": "Mon 12:00–00:00; Tue–Thu 11:00–00:00; Fri–Sat 11:00–01:00; Sun 11:00–00:00",
       "exists_in_berlin": true,
       "permanently_closed": false,
       "temporarily_closed": false,
-      "verification_notes": "Active listing on Google Maps.",
-      "source_urls": [
-        "https://www.tip-berlin.de/essen-trinken/restaurants/thailaendische-restaurants-tipps-berlin/"
-      ],
-      "ingestion_source": "openai",
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
       "verified": true
     },
     {
-      "id": "mae_charoen",
+      "id": "shaam_restaurant",
       "topic_ids": [
-        "southeast_asian",
-        "Thai",
-        "Street-style"
+        "turkish_middle_eastern_caucasus"
       ],
-      "name": "Mae Charoen",
+      "name": "Shaam Restaurant",
       "neighborhood": "Neukölln",
-      "address": "Sonnenallee 134, Neukölln, Berlin",
-      "cuisine": "Thai (Street-style)",
+      "address": "Karl‑Marx‑Straße 177, 12043",
+      "cuisine": "Syrian/Middle Eastern",
       "price_tier": "€",
       "value_label": null,
       "fine_dining": false,
       "strengths": [
-        "Authentic home‑style Thai dishes",
-        "Very affordable, casual vibe"
+        "Well‑made Syrian‑style falafel, halloumi, standout dips and sauces, friendly neighborhood venue",
+        "Consistent quality and sauces are a highlight"
       ],
       "weaknesses": [
-        "Small space can be crowded",
-        "Simpler interior and amenities"
+        "Imbiss‑style, limited setting",
+        "Menu breadth modest"
       ],
-      "comparative_context": "Less formal and more affordable compared to sit-down Thai restaurants; closer to a genuine street‑food stall.",
-      "critical_assessment": "Simple and unpretentious, delivering spicy, homely food with strong flavour fidelity—an honest and reliable choice.",
-      "google_maps_name": "Mae Charoen",
-      "google_maps_url": "https://maps.google.com/?q=Mae+Charoen+Sonnenallee+134+Berlin",
-      "google_maps_address": "Sonnenallee 134, 12045 Berlin",
+      "comparative_context": "Reliable, casual Middle Eastern specialist with strong flavor identity.",
+      "critical_assessment": "Comfort food driven by sauces and technique—simple but satisfying in Neukölln.",
+      "source_urls": [
+        "tip‑berlin.de English article"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Shaam Restaurant",
+      "google_maps_address": "Karl-Marx-Straße 177, 12043 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=10807055050397092288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJyXCe26FPqEcRwIkCY09f-pU",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 2236,
+      "google_maps_hours_compact": "Mon–Thu 11:00–00:00; Fri–Sat 11:00–00:30; Sun 11:00–00:00",
       "exists_in_berlin": true,
       "permanently_closed": false,
       "temporarily_closed": false,
-      "verification_notes": "Confirmed active Google Maps listing.",
-      "source_urls": [
-        "https://www.tip-berlin.de/essen-trinken/restaurants/thailaendische-restaurants-tipps-berlin/"
-      ],
-      "ingestion_source": "openai",
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
       "verified": true
     },
     {
-      "id": "kinnaree_thai",
+      "id": "simitdchi_cafe",
       "topic_ids": [
-        "southeast_asian",
-        "Thai",
-        "Casual"
+        "specialist_neighborhood",
+        "turkish_middle_eastern_caucasus"
       ],
-      "name": "Kinnaree Thai",
-      "neighborhood": "Kreuzberg (Südstern)",
-      "address": "Südstern 14, Kreuzberg, Berlin",
-      "cuisine": "Thai (Homestyle + tofu focus)",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Strong tofu offerings",
-        "Good wine pairing options",
-        "Casual yet thoughtful homestyle cooking"
-      ],
-      "weaknesses": [
-        "Can be busy at peak times",
-        "Service occasionally slow"
-      ],
-      "comparative_context": "More relaxed and homey compared to upscale Thai venues; more variety than street‑food ilk.",
-      "critical_assessment": "A laid‑back spot with credible house‑cooked flavours and engaging vegetarian options; stylish yet accessible.",
-      "google_maps_name": "Kinnaree Thai",
-      "google_maps_url": "https://maps.google.com/?q=Kinnaree+Thai+Südstern+14+Berlin",
-      "google_maps_address": "Südstern 14, 10961 Berlin",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verification_notes": "Google Maps listing active and verified.",
-      "source_urls": [
-        "https://www.tip-berlin.de/essen-trinken/restaurants/thailaendische-restaurants-tipps-berlin/"
-      ],
-      "ingestion_source": "openai",
-      "verified": true
-    },
-    {
-      "id": "dao_by_meo",
-      "topic_ids": [
-        "southeast_asian",
-        "Thai",
-        "Casual"
-      ],
-      "name": "Dao by Meo",
-      "neighborhood": "Charlottenburg",
-      "address": "Kantstraße 133, Charlottenburg, Berlin",
-      "cuisine": "Thai (Authentic curries)",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Authentic slow‑cooked curries",
-        "Use of imported Thai ingredients",
-        "Offers cooking classes"
-      ],
-      "weaknesses": [
-        "Somewhat out of center",
-        "Interior less distinctive"
-      ],
-      "comparative_context": "Less touristy than central Mitte offerings; more focused than generic Thai restaurants.",
-      "critical_assessment": "Quietly grounded and earnest, with a clear dedication to Thai technique and ingredient sourcing—especially for curry lovers.",
-      "google_maps_name": "Dao by Meo",
-      "google_maps_url": "https://maps.google.com/?q=Dao+by+Meo+Kantstrasse+133+Berlin",
-      "google_maps_address": "Kantstraße 133, 10627 Berlin",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verification_notes": "Verified Google Maps entry.",
-      "source_urls": [
-        "https://www.tip-berlin.de/essen-trinken/restaurants/thailaendische-restaurants-tipps-berlin/"
-      ],
-      "ingestion_source": "openai",
-      "verified": true
-    },
-    {
-      "id": "pagode_thai_kitchen",
-      "topic_ids": [
-        "southeast_asian",
-        "Thai",
-        "Casual"
-      ],
-      "name": "Pagode Thai Kitchen",
+      "name": "Simitdchi Cafe und Backhaus",
       "neighborhood": "Kreuzberg",
-      "address": "Bergmannstraße 88, Kreuzberg, Berlin",
-      "cuisine": "Thai (Casual street‑food style)",
+      "address": "Adalbertstraße 97, Kreuzberg",
+      "cuisine": "Turkish bakery/specialist",
       "price_tier": "€",
       "value_label": null,
       "fine_dining": false,
       "strengths": [
-        "Longstanding Kreuzberg institution",
-        "Fresh, fast and affordable dishes",
-        "Highly consistent quality"
+        "Exceptional homemade simit, trustworthy Turkish breakfast offerings like menemen",
+        "Authentic baker’s craft in a casual cafe"
       ],
       "weaknesses": [
-        "Minimalist decor, casual service",
-        "Cash only"
+        "Breakfast/ bakery focus may limit dinner options",
+        "Not a full restaurant setting"
       ],
-      "comparative_context": "Closer to street‑counter concept, less expensive than sit‑down Thai places.",
-      "critical_assessment": "A reliable classic offering Bangkok‑style freshness and speed without fuss—strong execution despite simple premises.",
-      "google_maps_name": "Pagode Thai Kitchen",
-      "google_maps_url": "https://maps.google.com/?q=Pagode+Thai+Kitchen+Bergmannstrasse+88+Berlin",
-      "google_maps_address": "Bergmannstraße 88, 10961 Berlin",
+      "comparative_context": "Best for Turkish baked goods and breakfast specialty—unique niche among candidates.",
+      "critical_assessment": "An artisanal, regionally rooted bakery‑cafe excelling in simple Turkish savory staples.",
+      "source_urls": [
+        "tip‑berlin.de city‑life piece"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Simitdchi Cafe & Backhaus",
+      "google_maps_address": "Adalbertstraße 97, 10999 Berlin-Bezirk Friedrichshain-Kreuzberg",
+      "google_maps_url": "https://maps.google.com/?cid=14131623560540591311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJVVYrajNOqEcRzxSQecGcHcQ",
+      "google_maps_rating": 4.2,
+      "google_maps_review_count": 448,
+      "google_maps_hours_compact": "Mon–Sat 06:30–20:00; Sun 07:00–20:00",
       "exists_in_berlin": true,
       "permanently_closed": false,
       "temporarily_closed": false,
-      "verification_notes": "Active Google Maps listing confirmed.",
-      "source_urls": [
-        "https://www.tripadvisor.de/Restaurant_Review-g187323-d808030-Reviews-Pagode_Thai_Kitchen-Berlin.html"
-      ],
-      "ingestion_source": "openai",
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
       "verified": true
     },
     {
-      "id": "Mira",
+      "id": "loumi",
       "topic_ids": [
-        "turkish_middle_eastern_caucasus",
-        "turkish",
-        "ocakbasi"
+        "fine_dining",
+        "mediterranean_european"
       ],
-      "name": "Mira",
-      "neighborhood": "Neukölln",
-      "address": "Hermannstraße 157, 12051 Berlin",
-      "cuisine": "Turkish (Ocakbaşı)",
-      "price_tier": "€€",
-      "value_label": "good value",
-      "fine_dining": false,
-      "strengths": [
-        "Specialized ocakbaşı grilling with exceptional veal kebap and lamb chops",
-        "Generous selection of well-executed starters and dips"
-      ],
-      "weaknesses": [
-        "Can be noisy or crowded when in demand",
-        "Relatively limited visibility, hidden gem not widely hyped"
-      ],
-      "comparative_context": "Among Berlin’s few true ocakbaşı grills, excels in technique and regional authenticity compared to broader Turkish‑style kebab joints.",
-      "critical_assessment": "Strong technical execution with authentic charcoal grilling, standout for flavor and regional identity despite modest ambiance.",
-      "google_maps_name": "Mira",
-      "google_maps_url": "https://maps.google.com/?q=Mira+Hermannstrasse+157+Berlin",
-      "google_maps_address": "Hermannstraße 157, 12051 Berlin",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verification_notes": "Verified existing and open via Google Maps local profile.",
-      "source_urls": [
-        "https://berlinfoodstories.com/map/mira"
-      ],
-      "ingestion_source": "openai",
-      "verified": true
-    },
-    {
-      "id": "Hasir Ocakbaşı",
-      "topic_ids": [
-        "turkish_middle_eastern_caucasus",
-        "turkish",
-        "ocakbasi"
-      ],
-      "name": "Hasir Ocakbaşı",
+      "name": "Loumi Dining",
       "neighborhood": "Kreuzberg",
-      "address": "Adalbertstraße 12, 10999 Berlin",
-      "cuisine": "Turkish (Ocakbaşı)",
-      "price_tier": "€€",
+      "address": "Ritterstraße 2, Kreuzberg",
+      "cuisine": "Modern European (French/Japanese/Nordic fusion)",
+      "price_tier": "€€€",
       "value_label": null,
-      "fine_dining": false,
+      "fine_dining": true,
       "strengths": [
-        "Long‑standing family tradition, authentic mezze and charcoal‑grilled meats",
-        "Bread and meat from in‑house production, strong regional heritage"
+        "Ambitious fine dining with fusion French, Japanese and Nordic technique, strong product focus, theatrical service with counter seating",
+        "High craftsmanship in each dish, strong sense of design and hospitality"
       ],
       "weaknesses": [
-        "Well‑known, may feel more tourist‑accessible than off‑the‑beaten‑path",
-        "Can get crowded and less intimate"
+        "Higher price point (€€€), small scale",
+        "Some may find cross‑regional stylistic mix less cohesive than classic cuisine"
       ],
-      "comparative_context": "A venerable institution compared to newer trendy spots, retains deep roots in Turkish grill tradition.",
-      "critical_assessment": "A reliable anchor of Berlin’s Turkish grill scene offering genuine technique and history, though service may feel less personalized during peak.",
-      "google_maps_name": "Hasir Ocakbaşı",
-      "google_maps_url": "https://maps.google.com/?q=Hasir+Ocakbaş%C4%B1+Adalbertstra%C3%9Fe+12+Berlin",
-      "google_maps_address": "Adalbertstraße 12, 10999 Berlin",
+      "comparative_context": "Most refined, technical fine‑dining choice—only one under fine dining limit.",
+      "critical_assessment": "A standout fine‑dining experience balancing precision, creativity, and theater—worthy inclusion as the sole €€€ fine‑dining pick.",
+      "source_urls": [
+        "tip‑berlin.de review"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "LOUMI",
+      "google_maps_address": "Ritterstraße 2, 10969 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=11932174364994117585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJ5WgX8MtPqEcR0R9_l12Zl6U",
+      "google_maps_rating": 4.8,
+      "google_maps_review_count": 203,
+      "google_maps_hours_compact": "Wed–Sat 18:45–23:00 (closed Mon–Tue, Sun)",
       "exists_in_berlin": true,
       "permanently_closed": false,
       "temporarily_closed": false,
-      "verification_notes": "Verified via Google Maps.",
-      "source_urls": [
-        "https://www.cremeguides.com/berlin/hasir-ocakbasi/"
-      ],
-      "ingestion_source": "openai",
-      "verified": true
-    },
-    {
-      "id": "SimSim Levantine Eatery",
-      "topic_ids": [
-        "turkish_middle_eastern_caucasus",
-        "levantine"
-      ],
-      "name": "SimSim Levantine Eatery",
-      "neighborhood": "Prenzlauer Berg",
-      "address": "Husemannstraße 1, 10435 Berlin",
-      "cuisine": "Levantine (Syrian/Lebanese/Palestinian)",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Warm hospitality and authentic Levantine mezze, wide vegetarian/vegan options",
-        "Strong sharing ethos, standout dishes like kibbeh, knafeh, makanak"
-      ],
-      "weaknesses": [
-        "Ambience can be noisy at peak times",
-        "Popular—may require waiting without reservation for small groups"
-      ],
-      "comparative_context": "Among Levantine specialists in Berlin, notable for quality and sincerity over trendiness.",
-      "critical_assessment": "Authentic and homey Levantine execution with focus on flavor and craft; some crowding but worth navigating for food.",
-      "google_maps_name": "SimSim Levantine Eatery",
-      "google_maps_url": "https://maps.google.com/?q=SimSim+Levantine+Eatery+Berlin",
-      "google_maps_address": "Husemannstraße 1, 10435 Berlin",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verification_notes": "Verified via Google Maps.",
-      "source_urls": [
-        "https://mitvergnuegen.com/2019/levantinische-kueche-im-simsim-in-prenzlauer-berg"
-      ],
-      "ingestion_source": "openai",
-      "verified": true
-    },
-    {
-      "id": "Defne",
-      "topic_ids": [
-        "turkish_middle_eastern_caucasus",
-        "turkish",
-        "anatolian"
-      ],
-      "name": "Defne Restaurant",
-      "neighborhood": "Kreuzberg",
-      "address": "Planufer 29c, 10967 Berlin",
-      "cuisine": "Turkish (Anatolian specialties)",
-      "price_tier": "€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Diverse, lesser‑known Anatolian dishes beyond börek and döner",
-        "Very affordable small plates ideal for groups"
-      ],
-      "weaknesses": [
-        "Less focus on technique, more casual home‑style cooking",
-        "Ambience may feel generic compared to focused specialist venues"
-      ],
-      "comparative_context": "Stands apart from standard Turkish fast food by offering broader Anatolian palette at low price.",
-      "critical_assessment": "Solid value for those seeking regional Turkish variety at bargain price, though less refined.",
-      "google_maps_name": "Defne Restaurant",
-      "google_maps_url": "https://maps.google.com/?q=Defne+Restaurant+Planufer+29c+Berlin",
-      "google_maps_address": "Planufer 29c, 10967 Berlin",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verification_notes": "Verified via Google Maps.",
-      "source_urls": [
-        "https://www.top10berlin.de/en/cat/eating-257/oriental-restaurants-2787/defne-restaurant-3863/"
-      ],
-      "ingestion_source": "openai",
-      "verified": true
-    },
-    {
-      "id": "Sara & Gogi",
-      "topic_ids": [
-        "turkish_middle_eastern_caucasus",
-        "georgian",
-        "fusion"
-      ],
-      "name": "Sara & Gogi",
-      "neighborhood": "Charlottenburg",
-      "address": "Suarezstraße 20, 14057 Berlin",
-      "cuisine": "Georgian‑Israeli fusion",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Inventive cross‑regional fusion, creative dishes like 'Ein Georgier in Tel Aviv'",
-        "Strong wine program with georgian heritage"
-      ],
-      "weaknesses": [
-        "Fusion may dilute pure Georgian technique for purists",
-        "Design‑forward ambiance may distract from cooking focus"
-      ],
-      "comparative_context": "More innovative than traditional Georgian restaurants, bridging regional flavors thoughtfully.",
-      "critical_assessment": "Creative fusion with strong flavor intelligence; best for those open to reinterpretations rather than strict tradition.",
-      "google_maps_name": "Sara & Gogi",
-      "google_maps_url": "https://maps.google.com/?q=Sara+%26+Gogi+Berlin",
-      "google_maps_address": "Suarezstraße 20, 14057 Berlin",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verification_notes": "Verified via Google Maps.",
-      "source_urls": [
-        "https://www.qiez.de/restaurant-berlin-georgische-kueche-bestenliste/"
-      ],
-      "ingestion_source": "openai",
-      "verified": true
-    },
-    {
-      "id": "Tsomi",
-      "topic_ids": [
-        "turkish_middle_eastern_caucasus",
-        "georgian"
-      ],
-      "name": "Tsomi",
-      "neighborhood": "Prenzlauer Berg",
-      "address": "Kollwitzstraße 66, 10435 Berlin",
-      "cuisine": "Georgian",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Faithful Georgian classics with modern accents, natural Georgian wines",
-        "Stylish yet focused on craft"
-      ],
-      "weaknesses": [
-        "Stylish setting may feel trendy",
-        "Wine focus may overshadow food for some, small menu breadth"
-      ],
-      "comparative_context": "Among Georgian restaurants, manages balance between tradition and style without sacrificing technique.",
-      "critical_assessment": "Well‑executed Georgian cuisine in balanced modern setting; good for enthusiasts seeking both flavor and ambiance.",
-      "google_maps_name": "Tsomi",
-      "google_maps_url": "https://maps.google.com/?q=Tsomi+Berlin",
-      "google_maps_address": "Kollwitzstraße 66, 10435 Berlin",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verification_notes": "Verified via Google Maps.",
-      "source_urls": [
-        "https://www.qiez.de/restaurant-berlin-georgische-kueche-bestenliste/"
-      ],
-      "ingestion_source": "openai",
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
       "verified": true
     }
   ],
   "gaps": [
-    "Skipped: daily OpenAI budget reservation exhausted before mediterranean_european",
-    "Skipped: daily OpenAI budget reservation exhausted before specialist_neighborhood",
-    "Skipped: daily OpenAI budget reservation exhausted before fine_dining"
+    "Southeast Asian section only has one candidate; need at least three."
   ],
   "section_counts": {
+    "regional_chinese": 4,
     "mediterranean_european": 0,
-    "specialist_neighborhood": 0,
-    "fine_dining": 0,
-    "regional_chinese": 6,
-    "southeast_asian": 6,
-    "turkish_middle_eastern_caucasus": 6
+    "turkish_middle_eastern_caucasus": 2,
+    "fine_dining": 1,
+    "southeast_asian": 1,
+    "specialist_neighborhood": 2
   },
-  "verified_count": 12,
-  "search_notes": "mediterranean_european: skipped: spend_cap specialist_neighborhood: skipped: spend_cap fine_dining: skipped: spend_cap regional_chinese: Candidates selected to cover Sichuan (ChungKing, Wei House, Sùsù), northwest/Uighur (Chen’s), Taiwanese (Lon‑Men’s), and solid classics (Lei’s). All verified via map or trusted guide. Additional exploration could target hot‑pot or Dongbei, but Google Maps verification would be needed. southeast_asian: Candidates drawn from tip‑berlin.de and tripadvisor.de, with Google Maps verification for active status. turkish_middle_eastern_caucasus: Identified six candidates across neighborhoods Neukölln, Kreuzberg, Prenzlauer Berg, Charlottenburg—covering Turkish ocakbaşı, Levantine, Anatolian, Georgian and a fusion option. All verified on Google Maps for existence and open status. Sources limited to mitvergnuegen.com, berlinfoodstories.com, cremeguides.com, top10berlin.de, qiez.de."
+  "verified_count": 10,
+  "search_notes": "Used Berlin Food Stories for Chinese picks, tip‑berlin.de for Thai, Middle Eastern, bakery and fine dining. Need more Southeast Asian candidates—should search for Vietnamese, Thai or Indonesian neighborhood spots in Berlin via allowed domains.",
+  "maps_verified_at": "2026-06-13T16:27:37.932083+00:00"
 }
