@@ -166,9 +166,79 @@ def build_section_requirements(
     return "\n".join(lines)
 
 
-CULTURE_SEARCH_MAX_TOOL_CALLS = 8
+CULTURE_SEARCH_MAX_TOOL_CALLS = 3
 CULTURE_SEARCH_MIN_CALLS = 4
 CULTURE_CORE_SEARCH_SECTIONS = ("exhibitions", "film", "performing_arts", "music")
+
+
+def build_section_programme_block(sources_cfg: dict, section_id: str) -> str:
+    entries = (sources_cfg.get("programme_urls") or {}).get(section_id) or []
+    if not entries:
+        return ""
+    label = section_id.replace("_", " ")
+    lines = [f"### Programme pages ({label})"]
+    for entry in entries:
+        venue = entry.get("venue") or "Venue"
+        url = entry.get("url") or ""
+        note = entry.get("note") or ""
+        suffix = f" — {note}" if note else ""
+        lines.append(f"- {venue}: {url}{suffix}")
+    return "\n".join(lines) + "\n\n"
+
+
+def build_section_search_prompt(
+    *,
+    section_id: str,
+    date_str: str,
+    week_label: str,
+    topics_cfg: dict,
+    sources_cfg: dict,
+    search_domains: list[str],
+    calendar_items: list[dict] | None = None,
+    state_dir: Path | None = None,
+) -> str:
+    calendar_items = calendar_items or []
+    ctx = _culture_prompt_context(
+        date_str=date_str,
+        week_label=week_label,
+        topics_cfg=topics_cfg,
+        sources_cfg=sources_cfg,
+        calendar_items=calendar_items,
+        state_dir=state_dir,
+    )
+    topics = topic_by_id(topics_cfg)
+    topic = topics.get(section_id) or {}
+    topic_name = topic.get("name") or section_id
+    base_min = section_min_items(topic)
+    prog_count = ctx["prog_counts"].get(section_id, 0)
+    openai_min = culture_openai_min(section_id, prog_count, base_min)
+
+    return f"""You are researching Berlin culture events for ONE section. PHASE 1: web research only.
+
+Section: **{topic_name}** (`{section_id}`)
+Briefing run date (Tuesday): {date_str}
+Event window: {week_label}
+Target: find at least {openai_min} qualifying events for this section.
+
+{ctx["interests_block"]}
+
+{ctx["themes_block"]}
+
+{ctx["novelty_block"]}{build_section_programme_block(sources_cfg, section_id)}
+## Your task (web_search REQUIRED)
+You MUST call web_search at least once before answering. Search the programme pages above for `{section_id}` events in the event window.
+
+1. Use site-specific queries (e.g. for film: "site:arsenal-berlin.de cinema June 2026").
+2. For each event, record: title, venue, dates, times, artists (if known),
+   **official_url copied exactly from search** (specific event page — never a homepage, /en, or listing).
+3. Skip events in the novelty index unless materially new (opening week, closing within 10 days).
+4. If no in-window events exist, say so — do not invent placeholders.
+
+## Tuesday rule
+Include only events occurring Wednesday through the following Monday/Tuesday of the briefing week,
+OR exhibitions open through at least Wednesday of that week.
+
+Return research notes in plain text — **NOT JSON**. web_search domains: {len(search_domains)} allowed."""
 
 
 def _culture_prompt_context(
@@ -450,16 +520,7 @@ def fetch_all_culture(
         )
         spend_ledger.assert_not_over_cap()
 
-    search_prompt = build_search_phase_prompt(
-        date_str=date_str,
-        week_label=week_label,
-        topics_cfg=topics_cfg,
-        sources_cfg=sources_cfg,
-        search_domains=allowed,
-        calendar_items=calendar_items,
-        state_dir=state_dir,
-    )
-    log(f"  Running culture research (week: {week_label}) — phase 1 web_search...")
+    log(f"  Running culture research (week: {week_label}) — phase 1 web_search per section...")
     if calendar_items:
         log(
             f"  Calendar warehouse: {len(calendar_items)} items "
@@ -472,28 +533,56 @@ def fetch_all_culture(
         raise RuntimeError("Insufficient daily OpenAI budget remaining")
 
     client = make_client()
-    research_notes, search_response = fetch_web_research(
-        client=client,
-        model=model,
-        prompt=search_prompt,
-        domains=allowed,
-        require_web_search=True,
-        max_tool_calls=CULTURE_SEARCH_MAX_TOOL_CALLS,
-        search_context_size="low",
+    research_parts: list[str] = []
+    web_search_calls = 0
+    for section_id in CULTURE_CORE_SEARCH_SECTIONS:
+        section_prompt = build_section_search_prompt(
+            section_id=section_id,
+            date_str=date_str,
+            week_label=week_label,
+            topics_cfg=topics_cfg,
+            sources_cfg=sources_cfg,
+            search_domains=allowed,
+            calendar_items=calendar_items,
+            state_dir=state_dir,
+        )
+        log(f"  Phase 1 [{section_id}]: web_search...")
+        notes, search_response = fetch_web_research(
+            client=client,
+            model=model,
+            prompt=section_prompt,
+            domains=allowed,
+            require_web_search=True,
+            max_tool_calls=CULTURE_SEARCH_MAX_TOOL_CALLS,
+            search_context_size="low",
+        )
+        calls = count_web_search_calls(search_response)
+        web_search_calls += calls
+        log(f"    {section_id}: {calls} web_search call(s), {len(notes)} chars")
+        if calls == 0:
+            raise RuntimeError(
+                f"Culture pre-fetch aborted: 0 web_search calls for section '{section_id}'."
+            )
+        research_parts.append(f"## Section: {section_id}\n{notes}")
+        if spend_ledger:
+            usage = usage_from_response(
+                response=search_response,
+                model=model,
+                section=f"culture_search_{section_id}",
+            )
+            spend_ledger.record_usage(usage)
+            spend_ledger.assert_not_over_cap()
+
+    research_notes = "\n\n".join(research_parts)
+    log(
+        f"  Phase 1 done: {web_search_calls} total web_search call(s), "
+        f"{len(research_notes)} chars of notes"
     )
-    web_search_calls = count_web_search_calls(search_response)
-    log(f"  Phase 1 done: {web_search_calls} web_search call(s), {len(research_notes)} chars of notes")
     if web_search_calls < CULTURE_SEARCH_MIN_CALLS:
         raise RuntimeError(
-            f"Culture pre-fetch aborted: OpenAI made {web_search_calls} web_search call(s) "
-            f"in phase 1 (minimum {CULTURE_SEARCH_MIN_CALLS} required — one per core section). "
-            "Refusing to structure incomplete research."
+            f"Culture pre-fetch aborted: {web_search_calls} total web_search calls "
+            f"(minimum {CULTURE_SEARCH_MIN_CALLS} required)."
         )
-
-    if spend_ledger:
-        usage = usage_from_response(response=search_response, model=model, section="culture_search")
-        spend_ledger.record_usage(usage)
-        spend_ledger.assert_not_over_cap()
 
     structure_prompt = build_structure_phase_prompt(
         date_str=date_str,
@@ -554,7 +643,7 @@ def fetch_all_culture(
         "week_label": week_label,
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "model": model,
-        "fetch_mode": "search_then_structure",
+        "fetch_mode": "search_per_section_then_structure",
         "web_search_calls": web_search_calls,
         "research_notes_chars": len(research_notes),
         "items": items,

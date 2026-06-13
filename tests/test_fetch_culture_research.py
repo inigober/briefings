@@ -15,6 +15,7 @@ from culture_calendar import culture_openai_min  # noqa: E402
 from fetch_culture_research import (  # noqa: E402
     build_combined_prompt,
     build_search_phase_prompt,
+    build_section_search_prompt,
     enrich_candidate,
     merge_calendar_items,
     section_counts,
@@ -47,6 +48,21 @@ class TestCombinedCultureFetch(unittest.TestCase):
         self.assertIn("exhibitions", prompt)
         self.assertIn("HKW", prompt)
         self.assertIn("Already recommended", prompt)
+        self.assertNotIn("Return JSON", prompt)
+
+    def test_section_search_prompt_for_film_lists_arsenal(self) -> None:
+        prompt = build_section_search_prompt(
+            section_id="film",
+            date_str="2026-06-09",
+            week_label="June 10–16, 2026",
+            topics_cfg=self.topics_cfg,
+            sources_cfg=self.sources_cfg,
+            search_domains=self.sources_cfg.get("allowed_domains") or [],
+            state_dir=self.state_dir,
+        )
+        self.assertIn("Section: **Film", prompt)
+        self.assertIn("Arsenal Filminstitut", prompt)
+        self.assertIn("web_search REQUIRED", prompt)
         self.assertNotIn("Return JSON", prompt)
 
     def test_combined_prompt_dry_run_includes_search_phase(self) -> None:
