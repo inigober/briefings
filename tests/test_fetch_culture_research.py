@@ -14,6 +14,7 @@ if str(SCRIPTS) not in sys.path:
 from culture_calendar import culture_openai_min  # noqa: E402
 from fetch_culture_research import (  # noqa: E402
     build_combined_prompt,
+    build_search_phase_prompt,
     enrich_candidate,
     merge_calendar_items,
     section_counts,
@@ -30,7 +31,23 @@ class TestCombinedCultureFetch(unittest.TestCase):
         self.sources_cfg = load_yaml(REPO_ROOT / "config/briefings/berlin-culture/sources.yaml")
         self.state_dir = REPO_ROOT / "state/berlin-culture"
 
-    def test_prompt_is_single_combined_pass(self) -> None:
+    def test_prompt_is_search_phase_with_required_web_search(self) -> None:
+        prompt = build_search_phase_prompt(
+            date_str="2026-06-09",
+            week_label="June 10–16, 2026",
+            topics_cfg=self.topics_cfg,
+            sources_cfg=self.sources_cfg,
+            search_domains=self.sources_cfg.get("allowed_domains") or [],
+            state_dir=self.state_dir,
+        )
+        self.assertIn("PHASE 1", prompt)
+        self.assertIn("web_search REQUIRED", prompt)
+        self.assertIn("exhibitions", prompt)
+        self.assertIn("HKW", prompt)
+        self.assertIn("Already recommended", prompt)
+        self.assertNotIn("Return JSON", prompt)
+
+    def test_combined_prompt_dry_run_includes_search_phase(self) -> None:
         prompt = build_combined_prompt(
             date_str="2026-06-09",
             week_label="June 10–16, 2026",
@@ -39,12 +56,7 @@ class TestCombinedCultureFetch(unittest.TestCase):
             search_domains=self.sources_cfg.get("allowed_domains") or [],
             state_dir=self.state_dir,
         )
-        self.assertIn("ONE combined pass", prompt)
-        self.assertIn("exhibitions", prompt)
-        self.assertIn("advance_radar", prompt)
-        self.assertIn("HKW", prompt)
-        self.assertIn("Already recommended", prompt)
-        self.assertNotIn("web_search allowed domains:\n- ceecee.cc", prompt)
+        self.assertIn("PHASE 1", prompt)
 
     def test_prompt_shows_programme_reduction(self) -> None:
         rss_items = [
@@ -58,7 +70,7 @@ class TestCombinedCultureFetch(unittest.TestCase):
                 "times": "",
             }
         ]
-        prompt = build_combined_prompt(
+        prompt = build_search_phase_prompt(
             date_str="2026-06-09",
             week_label="June 10–16, 2026",
             topics_cfg=self.topics_cfg,
@@ -80,7 +92,7 @@ class TestCombinedCultureFetch(unittest.TestCase):
                 "topic_ids": ["exhibitions"],
             }
         ]
-        prompt = build_combined_prompt(
+        prompt = build_search_phase_prompt(
             date_str="2026-06-09",
             week_label="June 10–16, 2026",
             topics_cfg=self.topics_cfg,

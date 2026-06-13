@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pre-fetch Berlin culture events via one OpenAI Responses API call + web_search.
+"""Pre-fetch Berlin culture events via required web_search, then JSON structuring.
 
 RSS/WordPress calendars merge first; venue programme URLs and events index steer novelty.
 HTTP URL verification runs via verify_culture_urls.py before slim.
@@ -19,6 +19,7 @@ import json
 import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Any
 
 from briefing_paths import REPO_ROOT, load_briefing_type
 from culture_calendar import (
@@ -36,6 +37,7 @@ from culture_dates import normalize_tuesday_run_date
 from fetch_openai_research import (
     DEFAULT_MODEL,
     fetch_structured,
+    fetch_web_research,
     load_yaml,
     log,
     make_client,
@@ -44,9 +46,10 @@ from fetch_openai_research import (
     topic_by_id,
 )
 from openai_spend import (
-    COMBINED_FETCH_BUDGET_RESERVE_USD,
+    CULTURE_FETCH_BUDGET_RESERVE_USD,
     DailySpendLedger,
     SpendCapExceeded,
+    count_web_search_calls,
     handle_cap_abort,
     resolve_daily_cap,
     usage_from_response,
@@ -163,7 +166,53 @@ def build_section_requirements(
     return "\n".join(lines)
 
 
-def build_combined_prompt(
+CULTURE_SEARCH_MAX_TOOL_CALLS = 8
+
+
+def _culture_prompt_context(
+    *,
+    date_str: str,
+    week_label: str,
+    topics_cfg: dict,
+    sources_cfg: dict,
+    calendar_items: list[dict],
+    state_dir: Path | None,
+) -> dict[str, Any]:
+    prog_counts = programme_counts(calendar_items, sources_cfg)
+    sections_needing_search = set(SECTIONS_REQUIRING_WEB_SEARCH)
+    return {
+        "prog_counts": prog_counts,
+        "sections_needing_search": sections_needing_search,
+        "novelty_block": build_novelty_block(
+            state_dir=state_dir or REPO_ROOT / "state" / "berlin-culture",
+            run_date=date_str,
+            topics_cfg=topics_cfg,
+        ),
+        "programme_block": build_programme_urls_block(
+            sources_cfg,
+            sections_needing_search=sections_needing_search,
+        ),
+        "press_block": build_press_warehouse_block(
+            calendar_items=calendar_items,
+            sources_cfg=sources_cfg,
+        ),
+        "warehouse_block": build_programme_warehouse_block(
+            calendar_items=calendar_items,
+            sources_cfg=sources_cfg,
+            topics_cfg=topics_cfg,
+        ),
+        "section_requirements": build_section_requirements(
+            topics_cfg,
+            programme_coverage=prog_counts,
+        ),
+        "interests_block": build_compact_interests_block(topics_cfg),
+        "themes_block": build_compact_themes_block(topics_cfg),
+        "week_label": week_label,
+        "date_str": date_str,
+    }
+
+
+def build_search_phase_prompt(
     *,
     date_str: str,
     week_label: str,
@@ -174,75 +223,122 @@ def build_combined_prompt(
     state_dir: Path | None = None,
 ) -> str:
     calendar_items = calendar_items or []
-    prog_counts = programme_counts(calendar_items, sources_cfg)
-    sections_needing_search = {
-        sid
-        for sid in SECTIONS_REQUIRING_WEB_SEARCH
-        if prog_counts.get(sid, 0) == 0
-    }
-
-    novelty_block = build_novelty_block(
-        state_dir=state_dir or REPO_ROOT / "state" / "berlin-culture",
-        run_date=date_str,
+    ctx = _culture_prompt_context(
+        date_str=date_str,
+        week_label=week_label,
         topics_cfg=topics_cfg,
-    )
-    programme_block = build_programme_urls_block(
-        sources_cfg,
-        sections_needing_search=sections_needing_search,
-    )
-    press_block = build_press_warehouse_block(
-        calendar_items=calendar_items,
         sources_cfg=sources_cfg,
-    )
-    warehouse_block = build_programme_warehouse_block(
         calendar_items=calendar_items,
-        sources_cfg=sources_cfg,
-        topics_cfg=topics_cfg,
+        state_dir=state_dir,
     )
 
-    search_rules = []
-    if sections_needing_search:
-        search_rules.append(
-            "- **Required:** use web_search on programme URLs for sections with no "
-            f"venue-programme warehouse: {', '.join(sorted(sections_needing_search))}."
-        )
-    search_rules.append(
-        "- Never invent URLs — only include events found on programme pages or calendars."
-    )
-    search_rules.append(
-        "- For exhibitions: prefer **new openings** and **closing within 10 days** over "
-        "long-running shows already listed in the novelty index."
-    )
-    search_rules_str = "\n".join(search_rules)
-
-    return f"""You are pre-fetching candidates for a weekly Berlin culture briefing in ONE combined pass.
+    return f"""You are researching Berlin culture events for a weekly briefing. This is PHASE 1: web research only.
 
 Briefing run date (Tuesday): {date_str}
 Event window: {week_label}
 
-{build_compact_interests_block(topics_cfg)}
+{ctx["interests_block"]}
 
-{build_compact_themes_block(topics_cfg)}
+{ctx["themes_block"]}
 
-{novelty_block}{programme_block}{press_block}{warehouse_block}{build_section_requirements(topics_cfg, programme_coverage=prog_counts)}
+{ctx["novelty_block"]}{ctx["programme_block"]}{ctx["press_block"]}{ctx["warehouse_block"]}{ctx["section_requirements"]}
+
+## Your task (web_search REQUIRED)
+You MUST use the web_search tool before writing your answer. Search venue programme pages listed above.
+
+For each section — exhibitions, film, performing_arts, music (and wildcards/advance_radar if relevant):
+1. Run web_search on the programme URLs for that section (site-specific queries encouraged, e.g. "site:arsenal-berlin.de June 2026").
+2. For each qualifying event in the event window, record:
+   - section id
+   - title, venue, dates, times, artists (if known)
+   - **official_url copied exactly from search results** (specific event page, never a homepage)
+   - one-line why it fits the reader interests
+3. Skip events already in the novelty index unless materially new (opening week, closing within 10 days).
+4. If a venue page has no in-window events, say so — do not invent placeholders.
 
 ## Tuesday rule
 Include only events occurring Wednesday through the following Monday/Tuesday of the briefing week,
 OR exhibitions open through at least Wednesday of that week.
-Exclude events already finished before Wednesday.
 
-## Output rules
-- official_url MUST be the **specific** event/exhibition page (never a homepage, review, or social media)
-- dates and times must be concrete (not "TBA") when possible
-- For exhibitions: set closing_soon true if closing within 10 days
+## Output format
+Return detailed research notes in plain text or markdown — **NOT JSON**.
+Every event MUST include the exact official_url string from web_search results.
+web_search is domain-filtered ({len(search_domains)} allowed domains)."""
+
+
+def build_structure_phase_prompt(
+    *,
+    date_str: str,
+    week_label: str,
+    topics_cfg: dict,
+    sources_cfg: dict,
+    calendar_items: list[dict] | None = None,
+    state_dir: Path | None = None,
+    research_notes: str,
+) -> str:
+    calendar_items = calendar_items or []
+    ctx = _culture_prompt_context(
+        date_str=date_str,
+        week_label=week_label,
+        topics_cfg=topics_cfg,
+        sources_cfg=sources_cfg,
+        calendar_items=calendar_items,
+        state_dir=state_dir,
+    )
+
+    return f"""You are pre-fetching candidates for a weekly Berlin culture briefing. This is PHASE 2: JSON only.
+
+Briefing run date (Tuesday): {date_str}
+Event window: {week_label}
+
+{ctx["section_requirements"]}
+
+## Rules (strict)
+- Convert ONLY events documented in the web research notes below into JSON items.
+- Copy official_url values **verbatim** from the research notes — do not modify, guess, or construct URLs.
+- Do NOT use web_search in this step. Do NOT add events missing from the research notes.
+- If a section has fewer candidates than the target, list gaps — never invent filler.
 - topic_ids: primary section id first, then optional theme tags
-- why_candidate: one sentence on thematic/artistic fit
+- For exhibitions: set closing_soon true if closing within 10 days
 
-## Search discipline
-{search_rules_str}
-web_search is domain-filtered ({len(search_domains)} allowed domains).
+## Web research notes (from Phase 1 web_search)
+{research_notes}
 
 Return JSON: items (all sections combined), gaps, search_notes."""
+
+
+def build_combined_prompt(
+    *,
+    date_str: str,
+    week_label: str,
+    topics_cfg: dict,
+    sources_cfg: dict,
+    search_domains: list[str],
+    calendar_items: list[dict] | None = None,
+    state_dir: Path | None = None,
+) -> str:
+    """Legacy single-pass prompt (dry-run). Production uses search + structure phases."""
+    calendar_items = calendar_items or []
+    ctx = _culture_prompt_context(
+        date_str=date_str,
+        week_label=week_label,
+        topics_cfg=topics_cfg,
+        sources_cfg=sources_cfg,
+        calendar_items=calendar_items,
+        state_dir=state_dir,
+    )
+    return (
+        build_search_phase_prompt(
+            date_str=date_str,
+            week_label=week_label,
+            topics_cfg=topics_cfg,
+            sources_cfg=sources_cfg,
+            search_domains=search_domains,
+            calendar_items=calendar_items,
+            state_dir=state_dir,
+        )
+        + "\n\n--- PHASE 2 (structure) would follow with research notes ---\n"
+    )
 
 
 def enrich_candidate(item: dict) -> dict:
@@ -347,7 +443,7 @@ def fetch_all_culture(
         )
         spend_ledger.assert_not_over_cap()
 
-    prompt = build_combined_prompt(
+    search_prompt = build_search_phase_prompt(
         date_str=date_str,
         week_label=week_label,
         topics_cfg=topics_cfg,
@@ -356,7 +452,7 @@ def fetch_all_culture(
         calendar_items=calendar_items,
         state_dir=state_dir,
     )
-    log(f"  Running single combined culture research fetch (week: {week_label})...")
+    log(f"  Running culture research (week: {week_label}) — phase 1 web_search...")
     if calendar_items:
         log(
             f"  Calendar warehouse: {len(calendar_items)} items "
@@ -364,21 +460,53 @@ def fetch_all_culture(
         )
 
     if spend_ledger and not spend_ledger.try_reserve_section_budget(
-        reserve_usd=COMBINED_FETCH_BUDGET_RESERVE_USD
+        reserve_usd=CULTURE_FETCH_BUDGET_RESERVE_USD
     ):
         raise RuntimeError("Insufficient daily OpenAI budget remaining")
 
     client = make_client()
-    result, response = fetch_structured(
+    research_notes, search_response = fetch_web_research(
         client=client,
         model=model,
-        prompt=prompt,
+        prompt=search_prompt,
+        domains=allowed,
+        require_web_search=True,
+        max_tool_calls=CULTURE_SEARCH_MAX_TOOL_CALLS,
+    )
+    web_search_calls = count_web_search_calls(search_response)
+    log(f"  Phase 1 done: {web_search_calls} web_search call(s), {len(research_notes)} chars of notes")
+    if web_search_calls == 0:
+        raise RuntimeError(
+            "Culture pre-fetch aborted: OpenAI made 0 web_search calls in phase 1. "
+            "Refusing to structure hallucinated URLs."
+        )
+
+    if spend_ledger:
+        usage = usage_from_response(response=search_response, model=model, section="culture_search")
+        spend_ledger.record_usage(usage)
+        spend_ledger.assert_not_over_cap()
+
+    structure_prompt = build_structure_phase_prompt(
+        date_str=date_str,
+        week_label=week_label,
+        topics_cfg=topics_cfg,
+        sources_cfg=sources_cfg,
+        calendar_items=calendar_items,
+        state_dir=state_dir,
+        research_notes=research_notes,
+    )
+    log("  Phase 2: structuring research into JSON (web_search disabled)...")
+    result, structure_response = fetch_structured(
+        client=client,
+        model=model,
+        prompt=structure_prompt,
         schema=COMBINED_RESULT_SCHEMA,
         schema_name="culture_combined",
-        domains=allowed,
+        domains=[],
+        enable_web_search=False,
     )
     if spend_ledger:
-        usage = usage_from_response(response=response, model=model, section="combined")
+        usage = usage_from_response(response=structure_response, model=model, section="culture_structure")
         spend_ledger.record_usage(usage)
         if spend_ledger.is_over_cap():
             spend_ledger.mark_cap_exceeded()
@@ -417,7 +545,9 @@ def fetch_all_culture(
         "week_label": week_label,
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "model": model,
-        "fetch_mode": "combined",
+        "fetch_mode": "search_then_structure",
+        "web_search_calls": web_search_calls,
+        "research_notes_chars": len(research_notes),
         "items": items,
         "gaps": result.get("gaps") or [],
         "section_counts": counts,
@@ -428,6 +558,7 @@ def fetch_all_culture(
         "openai_targets": openai_targets,
         "calendar_merged": calendar_merged,
         "search_notes": (
+            f"Phase 1 web_search_calls={web_search_calls}. "
             f"Programme counts: {prog_counts}. Press counts: {editorial_counts}. "
             f"OpenAI targets: {openai_targets}. Calendar merged: {calendar_merged}. "
             f"{result.get('search_notes') or ''}"

@@ -16,8 +16,10 @@ import requests
 
 # Conservative per-section reservation so parallel workers do not overshoot the cap.
 SECTION_BUDGET_RESERVE_USD = 0.55
-# Single combined OpenAI call (culture, restaurants) — actual cost ~$0.06–0.15.
+# Single combined OpenAI call (restaurants) — actual cost ~$0.06–0.15.
 COMBINED_FETCH_BUDGET_RESERVE_USD = 0.15
+# Culture: search phase (required web_search) + JSON structure phase — ~$0.08–0.30.
+CULTURE_FETCH_BUDGET_RESERVE_USD = 0.30
 
 # Web search tool: $10 / 1k calls (OpenAI pricing page, 2026).
 WEB_SEARCH_COST_PER_CALL_USD = 0.01
