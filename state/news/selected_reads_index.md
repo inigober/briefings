@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-14
+
+- [Russland vor dem Kollaps. Mit Moritz Schularick](https://www.politico.eu/podcast/berlin-playbook-podcast/russland-vor-dem-kollaps-mit-moritz-schularick/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Trump's Big Weekend Could Derail the G-7](https://foreignpolicy.com/2026/06/12/trump-iran-war-peace-talks-deal-g7-leaders-summit/) — Foreign Policy
+- [Andy Burnham: the man who wants to be PM](https://www.politico.eu/podcast/westminster-insider/andy-burnham-the-man-who-wants-to-be-pm/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- ['Spy turtles' and 'spy fish' being used to monitor Chinese waters, Beijing claims](https://www.theguardian.com/world/2026/jun/12/china-spy-turtles-spy-fish-monitor-waters-claims) — The Guardian
+
 ## 2026-06-13
 
 - [An ideological tug-of-war: the pressures facing Iran's World Cup squad](https://www.theguardian.com/world/2026/jun/12/iran-first-play-war-world-cup-fifa) — The Guardian
