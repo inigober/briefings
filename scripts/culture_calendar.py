@@ -106,6 +106,9 @@ def is_deep_event_url(url: str) -> bool:
         return True
     if len(segments) >= 2 and any(ch.isdigit() for ch in segments[-1]):
         return True
+    # Single-segment editorial slugs (e.g. ceecee.cc/long-article-title/).
+    if len(segments) == 1 and len(segments[0]) >= 24 and "-" in segments[0]:
+        return True
     return False
 
 

@@ -396,8 +396,8 @@ def pick_top_news(items: list[dict], cap: int) -> list[dict]:
 
 
 def culture_item_eligible(item: dict) -> bool:
-    """Drop OpenAI candidates whose URL failed HTTP verification."""
-    if item.get("ingestion_source") == "openai" and item.get("url_live") is False:
+    """Drop candidates whose official_url failed HTTP verification."""
+    if item.get("url_live") is False:
         return False
     return True
 

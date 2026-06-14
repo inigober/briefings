@@ -16,6 +16,7 @@ from culture_calendar import (  # noqa: E402
     build_novelty_block,
     build_programme_urls_block,
     culture_openai_min,
+    is_deep_event_url,
     is_press_item,
     is_programme_warehouse_item,
     mark_item_verified,
@@ -114,6 +115,12 @@ class TestCultureCalendar(unittest.TestCase):
         item["url_live"] = True
         mark_item_verified(item, require_url_live=True)
         self.assertTrue(item["verified"])
+
+    def test_long_single_segment_slug_is_deep(self) -> None:
+        url = (
+            "https://ceecee.cc/ein-fang-in-mitte-austern-ceviche-yuzu-highlights-bei-fat-henry/"
+        )
+        self.assertTrue(is_deep_event_url(url))
 
     def test_culture_openai_min_floor(self) -> None:
         self.assertEqual(culture_openai_min("exhibitions", 6, 7), 2)
