@@ -1,12 +1,12 @@
 {
   "briefing_type": "news",
-  "date": "2026-06-13",
-  "briefing_date": "2026-06-13",
-  "inbox_date": "2026-06-13",
+  "date": "2026-06-14",
+  "briefing_date": "2026-06-14",
+  "inbox_date": "2026-06-14",
   "status": "success",
-  "briefing_path": "briefings/news/2026-06-13.md",
-  "inbox_path": "inbox/news/2026-06-13-synthesis.json",
+  "briefing_path": "briefings/news/2026-06-14.md",
+  "inbox_path": "inbox/news/2026-06-14-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
-  "notes": "E2E test: RSS+WordPress pre-fetch (173 raw → 48 slim); synthesis verified 16/16 URLs against inbox; replaced hallucinated 13 June briefing."
+  "notes": "Synthesis from 2026-06-14 pre-fetch; novelty-first selection with dedup against 9–13 June briefings."
 }

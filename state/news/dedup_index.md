@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-14
+
+- **spain-defense-post-conscription** — Spain debates army model 25 years after mandatory military service ended (section: spain)
+- **spain-selectividad-perfecta-10-years** — Top 2016 entrance-exam graduates revisit career paths a decade on (section: spain)
+- **spain-zapatero-plus-ultra-phone-evidence-chain** — Five-year US-to-Spain timeline for Reyes phone data in Zapatero probe (section: spain)
+- **germany-uk-shadow-fleet-tanker-intercept** — Royal Navy stops Russian oil tanker in English Channel (section: germany)
+- **germany-swiss-population-cap-referendum** — Switzerland votes on ten-million resident ceiling (section: germany)
+- **germany-swiss-emigrant-returns** — Germans returning from Switzerland cite cost and social isolation (section: germany)
+- **berlin-dementia-tierpark-outing** — Structured zoo visits trigger memories for dementia patients (section: berlin)
+- **berlin-freddy-leck-waschsalon-fire** — Cult Moabit laundromat damaged by fire; operators pledge rebuild (section: berlin)
+- **berlin-phone-booth-depot-closure** — Michendorf telephone-box refurbishment yard shutting (section: berlin)
+- **world-china-min-zin-arrest** — Beijing detains US scholar Min Zin on espionage allegations (section: world)
+- **world-sierra-leone-first-lady-social-housing** — London council repossesses flat rented by Sierra Leone first lady (section: world)
+- **world-spacex-ipo-gulf-ai-capital** — Gulf sovereign wealth funding US AI via SpaceX listing narrative (section: world)
+
 ## 2026-06-13
 
 - **spain-anthropic-export-model-lockout** — Anthropic blocks advanced Claude for foreign users after US export curbs (section: spain)
