@@ -13,9 +13,72 @@ if str(SCRIPTS) not in sys.path:
 
 from briefing_paths import load_briefing_type  # noqa: E402
 from send_briefing_email import (  # noqa: E402
+    extract_lead_paragraphs,
+    extract_preheader,
     format_email_subject,
     resolve_briefing_paths,
 )
+
+
+class TestExtractLeadParagraphs(unittest.TestCase):
+    SAMPLE = """# News Briefing — 13 June 2026
+
+*Research accessed 12 June 2026.*
+
+US export controls and infrastructure delivery dominate today's edition.
+
+## Spain 🇪🇸
+
+* **First story**
+"""
+
+    def test_extracts_plain_intro(self) -> None:
+        self.assertEqual(
+            extract_lead_paragraphs(self.SAMPLE),
+            "US export controls and infrastructure delivery dominate today's edition.",
+        )
+
+    def test_skips_research_accessed_line(self) -> None:
+        lead = extract_lead_paragraphs(self.SAMPLE)
+        self.assertNotIn("Research accessed", lead)
+
+
+class TestExtractPreheader(unittest.TestCase):
+    def test_prefers_lead_intro(self) -> None:
+        md = """# News Briefing — 13 June 2026
+
+Export controls and rail delays frame a day of state-capacity stress tests across Europe.
+
+## Spain 🇪🇸
+
+* **Anthropic blocks advanced Claude access**
+
+## What Matters Today 🧠
+
+1. **US tech controls are biting in Europe.** Details here.
+"""
+        self.assertEqual(
+            extract_preheader(md),
+            "Export controls and rail delays frame a day of state-capacity stress tests across Europe.",
+        )
+
+    def test_falls_back_to_what_matters_today(self) -> None:
+        md = """# News Briefing — 13 June 2026
+
+## Spain 🇪🇸
+
+* **Anthropic blocks advanced Claude access**
+
+## What Matters Today 🧠
+
+1. **US tech controls are biting in Europe.** Details here.
+
+2. **Infrastructure promises face delivery audits.** More details.
+"""
+        self.assertEqual(
+            extract_preheader(md),
+            "US tech controls are biting in Europe · Infrastructure promises face delivery audits",
+        )
 
 
 class TestFormatEmailSubject(unittest.TestCase):

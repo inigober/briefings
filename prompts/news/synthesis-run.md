@@ -58,6 +58,8 @@ Title: `# News Briefing — DD Month YYYY`
 
 If inbox date ≠ briefing date, add under title: `*Research accessed DD Month YYYY.*`
 
+Add a **1–2 sentence intro** immediately after the title (before `## Spain`): frame the day's connecting themes in plain prose — no bullets. This becomes the visible email opener and inbox preview.
+
 Each news story: headline, summary, 💡 insight, 🧩 broader context, source link.
 
 Apply anti-repetition using `dedup_index.md` — reject topics unless materially new. Selected Reads: reject URLs in `selected_reads_index.md` (last 5 briefings). For Other Headlines Today, scan inbox items **not** chosen for sections 1–4 and merge into short thematic lines (e.g. Iran deal signing, Hormuz, Venezuela strike).

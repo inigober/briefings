@@ -194,8 +194,35 @@ def format_email_subject(title: str, emoji: str = "") -> str:
     return f"{emoji} {title}"
 
 
+def extract_lead_paragraphs(md_text: str) -> str:
+    """Plain prose between the H1 title and the first H2 section (news intro)."""
+    past_title = False
+    parts: list[str] = []
+
+    for line in md_text.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("# ") and not stripped.startswith("## "):
+            past_title = True
+            continue
+        if stripped.startswith("## "):
+            break
+        if not past_title or not stripped or stripped == "---":
+            continue
+        if is_research_accessed_line(stripped):
+            continue
+        if stripped.startswith(("* ", "- ")) or re.match(r"^\d+\.\s", stripped):
+            continue
+        parts.append(stripped)
+
+    return " ".join(parts).strip()
+
+
 def extract_preheader(md_text: str, section_name: str = "What Matters Today", max_len: int = 100) -> str:
-    """Short inbox-preview line from a named section, else first headline."""
+    """Short inbox-preview line: lead intro, named section themes, else first headline."""
+    lead = extract_lead_paragraphs(md_text)
+    if lead:
+        return lead[:max_len]
+
     in_section = False
     snippets: list[str] = []
 
@@ -367,6 +394,7 @@ def preprocess_briefing_markdown(
             flush_story()
             story_lines = [lines[i]]
             i += 1
+            flush_story()
             continue
 
         if (stripped.startswith("* **") or stripped.startswith("- **")) and not stripped.startswith(

@@ -25,6 +25,20 @@ Example: briefing dated 11 June 2026 built from `inbox/news/2026-06-10-raw.json`
 
 Record both dates in `state/news/last_run.json` (`briefing_date`, `inbox_date`).
 
+## Intro (required)
+
+Immediately after the title (and optional stale-inbox line), add **1–2 sentences** that frame the day's through-line — not a section recap.
+
+- Plain paragraph(s); no heading, bullets, or emoji lines.
+- Analytical tone; name the themes that connect Spain, Germany, Berlin, and World today.
+- This text appears at the top of the email and drives the inbox preview line.
+
+Example:
+
+```
+US export controls on frontier AI and a week of infrastructure delivery tests — in Germany's rail corridors and Berlin's university buildings — set the frame for today's edition.
+```
+
 ## Required sections (exact order)
 
 1. Spain 🇪🇸
@@ -158,7 +172,8 @@ After choosing Spain/Germany/Berlin/World stories, scan **remaining** items in t
 ## Final checklist (revise if any answer is no)
 
 1. Date in title?
-2. Spain, Germany, Berlin each contain **new** information?
+2. Short intro framing today's through-line (1–2 sentences)?
+3. Spain, Germany, Berlin each contain **new** information?
 3. World includes ≥2 non-European regions?
 4. World distinct from Spain/Germany?
 5. Selected Reads diversified (≥3 publishers, Guardian ≤1)? Reuters/AP ≤1?
