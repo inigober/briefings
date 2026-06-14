@@ -64,6 +64,63 @@ class TestBuildNewsSynthesisInbox(unittest.TestCase):
         self.assertGreaterEqual(len(payload["selected_read_candidates"]), 1)
         self.assertIn("spain", payload["section_counts"])
 
+    def test_drops_dead_urls_from_sections_and_reads(self) -> None:
+        raw = {
+            "date": "2026-06-14",
+            "inbox_dir": "inbox/news",
+            "items": [
+                {
+                    "topic_ids": ["spain"],
+                    "headline": "Live Spain story",
+                    "sources": [
+                        {
+                            "url": "https://elpais.com/espana/live-story.html",
+                            "publisher": "EL PAÍS",
+                        }
+                    ],
+                    "ingestion_source": "rss",
+                    "url_live": "live",
+                    "verified": True,
+                },
+                {
+                    "topic_ids": ["spain"],
+                    "headline": "Dead Spain story",
+                    "sources": [
+                        {
+                            "url": "https://elpais.com/espana/dead-story.html",
+                            "publisher": "EL PAÍS",
+                        }
+                    ],
+                    "ingestion_source": "rss",
+                    "url_live": "dead",
+                    "verified": False,
+                },
+                {
+                    "topic_ids": ["world"],
+                    "headline": "Dead read",
+                    "sources": [
+                        {
+                            "url": "https://foreignpolicy.com/2026/dead-read/",
+                            "publisher": "Foreign Policy",
+                        }
+                    ],
+                    "ingestion_source": "rss",
+                    "url_live": "dead",
+                    "verified": False,
+                },
+            ],
+        }
+        payload = build_news_synthesis_inbox(
+            raw,
+            sources_cfg=self.sources_cfg,
+            topics_cfg=self.topics_cfg,
+        )
+        headlines = {item["headline"] for item in payload["items"]}
+        read_headlines = {item["headline"] for item in payload["selected_read_candidates"]}
+        self.assertIn("Live Spain story", headlines)
+        self.assertNotIn("Dead Spain story", headlines)
+        self.assertNotIn("Dead read", read_headlines)
+
 
 if __name__ == "__main__":
     unittest.main()

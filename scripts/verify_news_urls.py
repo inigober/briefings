@@ -65,9 +65,16 @@ def main() -> int:
         f"suspicious={stats['suspicious']} verified_after={stats['verified_after']} "
         f"skipped={stats['skipped']}"
     )
-    if stats["dead"] > 0 or stats["suspicious"] > 0:
-        log("FAIL: dead or suspicious news URLs found — fix sources before slim.")
-        return 1
+    if stats["suspicious"] > 0:
+        log(
+            f"WARN: {stats['suspicious']} suspicious (likely fabricated) URLs — "
+            "marked unverified; slim will drop them."
+        )
+    if stats["dead"] > 0:
+        log(
+            f"WARN: {stats['dead']} URLs failed HTTP check — marked unverified; "
+            "slim will drop them."
+        )
     return 0
 
 

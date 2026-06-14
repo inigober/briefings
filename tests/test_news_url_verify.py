@@ -32,6 +32,13 @@ class TestNewsUrlSuspicious(unittest.TestCase):
         )
         self.assertIsNone(reason)
 
+    def test_accepts_handelsblatt_numeric_article_id(self) -> None:
+        reason = url_looks_suspicious(
+            "https://www.handelsblatt.com/politik/international/"
+            "usa-macron-und-trump-planen-treffen-in-versailles/29669594.html"
+        )
+        self.assertIsNone(reason)
+
 
 class TestVerifyNewsItems(unittest.TestCase):
     def test_checks_rss_items_by_default(self) -> None:
@@ -56,12 +63,27 @@ class TestVerifyNewsItems(unittest.TestCase):
 
     def test_marks_suspicious_as_dead(self) -> None:
         item = {
-            "ingestion_source": "rss",
+            "ingestion_source": "openai",
             "sources": [{"url": "https://www.ft.com/content/fake-slug-only"}],
         }
         stats = verify_news_items([item], sleep_ms=0)
         self.assertEqual(stats["dead"], 1)
         self.assertFalse(item["verified"])
+
+    def test_rss_skips_suspicious_pattern_check(self) -> None:
+        item = {
+            "ingestion_source": "rss",
+            "sources": [
+                {
+                    "url": "https://www.handelsblatt.com/politik/international/"
+                    "usa-macron-und-trump-planen-treffen-in-versailles/29669594.html"
+                }
+            ],
+        }
+        with patch("news_url_verify.probe_url", return_value=("live", "")) as mock_probe:
+            verify_news_items([item], sleep_ms=0)
+        mock_probe.assert_called_once()
+        self.assertFalse(mock_probe.call_args.kwargs.get("check_suspicious", True))
 
 
 if __name__ == "__main__":

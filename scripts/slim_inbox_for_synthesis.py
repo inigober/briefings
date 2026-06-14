@@ -381,6 +381,9 @@ def slim_item(item: dict, keys: tuple[str, ...]) -> dict:
 
 
 def item_is_citable(item: dict) -> bool:
+    """Include items synthesis may cite; drop URLs that failed verify (dead/suspicious)."""
+    if item.get("url_live") == "dead":
+        return False
     if item.get("ingestion_source") in ("rss", "wordpress"):
         return True
     return item.get("url_live") in ("live", "paywalled")

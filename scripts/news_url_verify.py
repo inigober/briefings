@@ -14,11 +14,11 @@ from culture_url_verify import USER_AGENT, check_url_live
 
 DEFAULT_SLEEP_MS = 80
 
-# Obvious placeholder paths produced by model hallucination (e.g. Tagesspiegel …12345678.html).
-_PLACEHOLDER_PATH = re.compile(
-    r"(?:^|/)(?:\d{6,}|\d{4,}(?:\d)\.html)(?:$|[?#])|/12345\d+\.html$",
-    re.IGNORECASE,
-)
+# Pure numeric article filenames (e.g. /berlin/12345678.html) — common LLM hallucination.
+# Legitimate publishers (Handelsblatt, etc.) use a long slug segment before a numeric id:
+#   …/usa-macron-und-trump-planen-treffen-in-versailles/29669594.html
+_NUMERIC_ARTICLE_FILE = re.compile(r"/(\d{5,})\.html(?:$|[?#])", re.IGNORECASE)
+_PLACEHOLDER_12345 = re.compile(r"/12345\d+\.html$", re.IGNORECASE)
 
 # FT article IDs are UUIDs; slug-only paths are almost always invented.
 _FT_CONTENT_SLUG = re.compile(
@@ -36,8 +36,15 @@ def url_looks_suspicious(url: str) -> str | None:
         return "missing host"
 
     path = parsed.path or ""
-    if _PLACEHOLDER_PATH.search(path):
+    if _PLACEHOLDER_12345.search(path):
         return "placeholder path segment"
+    numeric_file = _NUMERIC_ARTICLE_FILE.search(path)
+    if numeric_file:
+        prefix = path[: numeric_file.start()]
+        prev_seg = prefix.rsplit("/", 1)[-1] if prefix.strip("/") else ""
+        # Short or hyphen-free preceding segment → likely invented, not a feed article id.
+        if len(prev_seg) < 15 or "-" not in prev_seg:
+            return "placeholder path segment"
 
     host = parsed.netloc.lower().removeprefix("www.")
     if host == "ft.com" and _FT_CONTENT_SLUG.match(path):
@@ -58,11 +65,17 @@ def classify_http_status(status_code: int) -> str:
     return "dead"
 
 
-def probe_url(url: str, *, session: requests.Session | None = None) -> tuple[str, str]:
+def probe_url(
+    url: str,
+    *,
+    session: requests.Session | None = None,
+    check_suspicious: bool = True,
+) -> tuple[str, str]:
     """Return (url_live, note) where url_live is live | paywalled | dead."""
-    suspicion = url_looks_suspicious(url)
-    if suspicion:
-        return "dead", f"suspicious URL: {suspicion}"
+    if check_suspicious:
+        suspicion = url_looks_suspicious(url)
+        if suspicion:
+            return "dead", f"suspicious URL: {suspicion}"
 
     sess = session or requests.Session()
     headers = {"User-Agent": USER_AGENT}
@@ -122,7 +135,11 @@ def verify_news_item(
             notes.append("missing url")
             continue
 
-        state, note = probe_url(url, session=session)
+        state, note = probe_url(
+            url,
+            session=session,
+            check_suspicious=(source == "openai"),
+        )
         src["url_live"] = state
         src["url_verify_notes"] = note or ("ok" if state == "live" else state)
         if state == "dead":
