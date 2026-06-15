@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-15
+
+- [The End of Neoliberalism](https://foreignpolicy.com/2026/06/15/neoliberalism-globalization-competition-cosmopolitanism-economics-reagan-thatcher/) — Foreign Policy
+- [What the SpaceX IPO reveals about Gulf money in AI](https://restofworld.org/2026/spacex-ipo-gulf-money-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [Bardella warns Brussels he won't moderate](https://www.politico.eu/podcast/brussels-playbook-podcast/bardella-warns-brussels-he-wont-moderate/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [The End of the U.S.-Israel Alliance](https://foreignpolicy.com/2026/06/15/israel-united-states-special-relationship-palestine-netanyahu-trump/) — Foreign Policy
+
 ## 2026-06-14
 
 - [Russland vor dem Kollaps. Mit Moritz Schularick](https://www.politico.eu/podcast/berlin-playbook-podcast/russland-vor-dem-kollaps-mit-moritz-schularick/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Could Switzerland Become the First Country to Cap Its Population?](https://www.newyorker.com/magazine/2026/06/15/could-switzerland-become-the-first-country-to-limit-its-population) — The New Yorker
 - [The Great AI Divide: Navigating U.S. and Chinese dominance](https://restofworld.org/2026/ai-divide-america-china-world/) — Rest of World
 - [Exporting U.S. Military AI Won't Be Easy](https://foreignpolicy.com/2026/06/10/military-ai-middle-power-anthropic-pentagon-pax-silica/) — Foreign Policy
-
-## 2026-06-10
-
-- [What Comes After Global Order](https://foreignpolicy.com/2026/06/10/global-order-china-united-states-ordering/) — Foreign Policy
-- [Big Tech, big cons: Scammers are hiding in the apps that make your life easy](https://restofworld.org/2026/tech-facebook-google-whatsapp-scams/) — Rest of World
-- [Wirtschaft wächst in zwölf Bundesländern](https://www.ifo.de/pressemitteilung/2026-06-09/wirtschaft-waechst-zwoelf-bundeslaendern) — ifo Institut
-- [Walsturz in der Tiefsee: Forscher entdecken den weltweit größten Friedhof der Wale](https://www.zeit.de/wissenschaft/umwelt/2026-06/walsturz-tiefsee-nekropole-meeresboden-indischer-ozean) — Die Zeit
 
 ## Blocked until 5+ briefings have passed
 

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-15
+
+- **spain-immigration-regularization-record-900k** — Regularisation drive reaches 900,000 applications with two weeks left (section: spain)
+- **spain-g7-france-western-unity** — G-7 summit in France tests transatlantic cohesion amid Iran and Ukraine crises (section: spain)
+- **spain-corruption-democratic-consensus** — Opinion argues corruption fight needs bipartisan consensus, not weaponisation (section: spain)
+- **germany-eon-power-grid-protection-limits** — Eon CEO says complete electricity-grid protection is impossible after attacks (section: germany)
+- **germany-iran-deal-economic-relief** — US–Iran framework deal raises hopes for German industry and energy costs (section: germany)
+- **germany-kyiv-lavra-unesco-fire** — Russian strike sets Kyiv cave monastery UNESCO site ablaze (section: germany)
+- **berlin-antisemitism-commissioner-selection** — Antisemitism officer pick for Berlin universities draws criticism over mandate (section: berlin)
+- **berlin-wegner-coalition-unpopular-cdu-leads** — Wegner coalition loses support; CDU leads poll as rivals weaken (section: berlin)
+- **berlin-sportstaetten-portal-rollout** — Senate sports-venue booking portal still unused by most boroughs (section: berlin)
+- **world-philippines-earthquake-coastal-uplift** — Mindanao quake raised seabed up to 2m, devastating coral and coastlines (section: world)
+- **world-jamaica-beach-privatization-court** — Activists sue to stop further Jamaican beach privatisation (section: world)
+- **world-global-education-attacks-40pct** — GCPEA study finds attacks on schools rose 40% across 83 countries (section: world)
+
 ## 2026-06-14
 
 - **spain-defense-post-conscription** — Spain debates army model 25 years after mandatory military service ended (section: spain)
