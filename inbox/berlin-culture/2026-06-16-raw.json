@@ -4,332 +4,458 @@
   "week_start": "2026-06-17",
   "week_end": "2026-06-23",
   "week_label": "June 17–23, 2026",
-  "fetched_at": "2026-06-13T17:08:54.252659+00:00",
+  "fetched_at": "2026-06-16T08:32:13.178813+00:00",
   "model": "gpt-4.1",
-  "fetch_mode": "combined",
+  "fetch_mode": "search_per_section_then_structure",
+  "web_search_calls": 4,
+  "research_notes_chars": 20924,
   "items": [
     {
-      "id": "exhibitions_01",
+      "id": "exh1",
       "topic_ids": [
         "exhibitions",
-        "sound_art"
+        "history",
+        "colonialism",
+        "research"
       ],
-      "title": "Hrvatska Radiotelevizija: Radio Symphony, Radio Drama, Radio Art",
-      "venue": "n.b.k. (Neuer Berliner Kunstverein)",
-      "dates": "March 1 – July 7, 2026",
-      "times": "Tue–Sun 12:00–18:00",
-      "artists": [
-        "Various, curated by Ute Holl"
-      ],
-      "official_url": "https://www.nbk.org/en/ausstellungen/hrvatska-radiotelevizija.html",
+      "title": "Tirailleurs: Trials and Tribulations",
+      "venue": "Haus der Kulturen der Welt (HKW)",
+      "dates": "21 March – 21 June 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.hkw.de/en/the-house/press/2026/16-02-2026-Jahresprogramm?utm_source=openai",
       "closing_soon": true,
-      "why_candidate": "A rare survey of Eastern European radio art and experimental sound practices, intersecting with media archeology and audio storytelling.",
+      "why_candidate": "Major research-based exhibition on African soldiers (Tirailleurs), focusing on history, society, and colonialism; notable for being the only major exhibition closing within the briefing's window.",
       "ingestion_source": "openai",
-      "verified": true
+      "url_live": true,
+      "verified": true,
+      "url_verify_notes": "ok"
     },
     {
-      "id": "film_01",
+      "id": "film1",
       "topic_ids": [
         "film",
-        "politics_society"
+        "documentary",
+        "discussion"
       ],
-      "title": "Geographies of Resistance: Documentary Shorts",
-      "venue": "Arsenal – Institut für Film und Videokunst",
-      "dates": "June 18, 2026",
+      "title": "Bajo las banderas, el sol",
+      "venue": "Arsenal Kino (silent green Kulturquartier)",
+      "dates": "June 17, 2026",
       "times": "19:00",
       "artists": [
-        "Various directors"
+        "Juanjo Pereira"
       ],
-      "official_url": "https://www.arsenal-berlin.de/en/cinema/film-screening-series/geographies-of-resistance/",
+      "official_url": "https://www.arsenal-berlin.de/?utm_source=openai",
       "closing_soon": false,
-      "why_candidate": "A program of contemporary documentary shorts exploring migration, borders, and social movements—core reader interests.",
+      "why_candidate": "Socially-engaged Latin American documentary; followed by a moderated discussion, aligning with political cinema and hybrid documentary interests.",
       "ingestion_source": "openai",
-      "verified": true
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
     },
     {
-      "id": "film_02",
+      "id": "film2",
       "topic_ids": [
         "film",
-        "experimental"
+        "essay",
+        "discussion"
       ],
-      "title": "Screening + Q&A: ‘Fragments of Memory’ (Essay Film)",
-      "venue": "Sinema Transtopia",
-      "dates": "June 20, 2026",
+      "title": "Erzählungen eines Kinogehers – Werner Dütsch",
+      "venue": "Arsenal Kino (silent green Kulturquartier)",
+      "dates": "June 19, 2026",
       "times": "18:00",
       "artists": [
-        "Directed by Elif Erkan"
+        "Christiane Büchner"
       ],
-      "official_url": "https://www.sinematranstopia.com/events/fragments-of-memory-elif-erkan/",
+      "official_url": "https://www.arsenal-berlin.de/?utm_source=openai",
       "closing_soon": false,
-      "why_candidate": "Experimental essay film weaving migration histories, identity, and archival footage, followed by discussion with the director.",
+      "why_candidate": "New essay film with director discussion; exemplary of contemporary reflections on cinema, identity and memory.",
       "ingestion_source": "openai",
-      "verified": true
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
     },
     {
-      "id": "film_03",
+      "id": "film3",
       "topic_ids": [
         "film",
-        "experimental"
+        "experimental",
+        "classic"
       ],
-      "title": "Feminist Film Night: ‘Queer Futures’",
-      "venue": "fsk Kino",
+      "title": "Je, tu, il, elle",
+      "venue": "Arsenal Kino",
       "dates": "June 21, 2026",
-      "times": "20:00",
+      "times": "18:00",
       "artists": [
-        "Multiple directors"
+        "Chantal Akerman"
       ],
-      "official_url": "https://fsk-kino.berlin/queer-futures-feminist-film-night-june-2026/",
+      "official_url": "https://www.arsenal-berlin.de/?utm_source=openai",
       "closing_soon": false,
-      "why_candidate": "An evening of new feminist and queer shorts tackling gender, diaspora, and decolonial futures.",
+      "why_candidate": "Seminal experimental/essay film by Chantal Akerman—rare theatrical screening with relevance for queer/feminist and avant-garde audiences.",
       "ingestion_source": "openai",
-      "verified": false
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
     },
     {
-      "id": "film_04",
+      "id": "film4",
       "topic_ids": [
         "film",
-        "politics_society"
+        "experimental",
+        "discussion"
       ],
-      "title": "‘Night Labor’ by David Redmon & Ashley Sabin + Director Talk",
-      "venue": "Wolf Kino",
-      "dates": "June 19, 2026",
-      "times": "19:00",
+      "title": "L’argent + Das Kino und der Tod",
+      "venue": "Arsenal Kino",
+      "dates": "June 21, 2026 (L’argent), June 22, 2026 (Das Kino und der Tod)",
+      "times": "L’argent: 20:30, Das Kino und der Tod: 19:30",
       "artists": [
-        "David Redmon & Ashley Sabin"
+        "Hartmut Bitomsky",
+        "Harun Farocki",
+        "Manfred Blank"
       ],
-      "official_url": "https://wolfberlin.org/night-labor-redmon-sabin-screening-june2026/",
+      "official_url": "https://www.arsenal-berlin.de/?utm_source=openai",
       "closing_soon": false,
-      "why_candidate": "Socially engaged cinema examining labor and dignity, with live discussion foregrounding class and gender politics.",
+      "why_candidate": "Analytical and essayistic works with distinctive postwar German critique; includes video preface and contextual discussions.",
       "ingestion_source": "openai",
-      "verified": false
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
     },
     {
-      "id": "film_05",
+      "id": "film5",
       "topic_ids": [
         "film",
-        "politics_society"
-      ],
-      "title": "Urban Archives – Collective Memory in Post-Socialist Cities",
-      "venue": "Kino Krokodil",
-      "dates": "June 23, 2026",
-      "times": "19:30",
-      "artists": [
-        "Various"
-      ],
-      "official_url": "https://www.kino-krokodil.de/urban-archives-filmreihe-juni-2026/",
-      "closing_soon": false,
-      "why_candidate": "Hybrid docu-essay screening series investigating memory, archives, and urban transformation in Central-Eastern Europe.",
-      "ingestion_source": "openai",
-      "verified": false
-    },
-    {
-      "id": "performing_arts_01",
-      "topic_ids": [
-        "performing_arts",
-        "choreography"
-      ],
-      "title": "Choreographies of Assembly – New Work by Modjgan Hashemian",
-      "venue": "Sophiensæle",
-      "dates": "June 19–22, 2026",
-      "times": "19:30 (Thu–Sat), 18:00 (Sun)",
-      "artists": [
-        "Modjgan Hashemian & Ensemble"
-      ],
-      "official_url": "https://sophiensaele.com/en/program/choreographies-of-assembly/",
-      "closing_soon": false,
-      "why_candidate": "Participatory choreographic performance exploring forms of gathering, protest, and collective care.",
-      "ingestion_source": "openai",
-      "verified": true
-    },
-    {
-      "id": "performing_arts_02",
-      "topic_ids": [
-        "performing_arts",
+        "shorts",
         "experimental"
       ],
-      "title": "Sound/Movement Experiments: Gia Garrison & Guests",
-      "venue": "Dock 11",
-      "dates": "June 20–22, 2026",
-      "times": "20:00",
-      "artists": [
-        "Gia Garrison"
-      ],
-      "official_url": "https://dock11-berlin.de/programm/sound-movement-experiments-gia-garrison-june2026/",
-      "closing_soon": false,
-      "why_candidate": "Interdisciplinary performance merging experimental sound art and contemporary dance practices.",
-      "ingestion_source": "openai",
-      "verified": true
-    },
-    {
-      "id": "performing_arts_03",
-      "topic_ids": [
-        "performing_arts",
-        "queer"
-      ],
-      "title": "Unfurling: A Queer Performance Cycle",
-      "venue": "Ballhaus Naunynstraße",
-      "dates": "June 17 & 18, 2026",
-      "times": "20:00",
-      "artists": [
-        "Various queer performers"
-      ],
-      "official_url": "https://ballhausnaunynstrasse.de/unfurling-queer-performance-june2026/",
-      "closing_soon": false,
-      "why_candidate": "Series spotlighting queer performance art, identity, and intersectional narratives.",
-      "ingestion_source": "openai",
-      "verified": false
-    },
-    {
-      "id": "performing_arts_04",
-      "topic_ids": [
-        "performing_arts",
-        "feminism"
-      ],
-      "title": "Bodies in Overdrive – Feminist Performance Lab",
-      "venue": "HAU Hebbel am Ufer (HAU2)",
-      "dates": "June 21–23, 2026",
-      "times": "19:00",
-      "artists": [
-        "Multiple artists"
-      ],
-      "official_url": "https://www.hebbel-am-ufer.de/en/programme/bodies-in-overdrive-june2026/",
-      "closing_soon": false,
-      "why_candidate": "Experimental theatre focusing on gender, kinship, and feminist resistance in movement.",
-      "ingestion_source": "openai",
-      "verified": true
-    },
-    {
-      "id": "music_01",
-      "topic_ids": [
-        "music",
-        "electroacoustic"
-      ],
-      "title": "MONOM Tonal Expansion: Xi & Thomas Ankersmit",
-      "venue": "MONOM",
-      "dates": "June 20, 2026",
-      "times": "20:00",
-      "artists": [
-        "Xi (live AV), Thomas Ankersmit (modular)"
-      ],
-      "official_url": "https://monom.berlin/xi-ankersmit-june2026/",
-      "closing_soon": false,
-      "why_candidate": "Cutting-edge spatial sound works in Berlin’s unique 4DSOUND environment merging modular synthesis with ambient audio.",
-      "ingestion_source": "openai",
-      "verified": false
-    },
-    {
-      "id": "music_02",
-      "topic_ids": [
-        "music",
-        "sound_art"
-      ],
-      "title": "Heroines of Sound Art: International Showcase",
-      "venue": "Silent Green Betonhalle",
-      "dates": "June 18–19, 2026",
-      "times": "19:30",
-      "artists": [
-        "Multiple international sound artists"
-      ],
-      "official_url": "https://www.silent-green.net/en/heroines-sound-art-2026/",
-      "closing_soon": false,
-      "why_candidate": "Features female-led experimental music exploring identity, technology, and sonic space.",
-      "ingestion_source": "openai",
-      "verified": true
-    },
-    {
-      "id": "music_03",
-      "topic_ids": [
-        "music",
-        "avant_pop"
-      ],
-      "title": "Lucia Udvardyová: Live AV Set + Listening Talk",
-      "venue": "KM28",
+      "title": "Sonnenbrand & Mückenstich – Kurzfilmprogramm",
+      "venue": "ACUDkino",
       "dates": "June 17, 2026",
+      "times": "21:15",
+      "artists": [
+        "interfilm Berlin"
+      ],
+      "official_url": "https://acudkino.de/Programm/sonnenbrand_muckenstich/20483/58436?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Experimental and social shorts, with introduction—showcases Berlin’s vibrant short film scene.",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "film6",
+      "topic_ids": [
+        "film",
+        "documentary"
+      ],
+      "title": "Rohbau",
+      "venue": "ACUDkino",
+      "dates": "June 19, 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://acudkino.de/?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Likely documentary/experimental film with Q&A; highlights Berliner film-artist community in dialogue.",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film7",
+      "topic_ids": [
+        "film",
+        "berlin",
+        "documentary"
+      ],
+      "title": "Mittendrin – Berlin Vortex",
+      "venue": "ACUDkino",
+      "dates": "June 20, 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://acudkino.de/?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Berlin-focused, likely socially/politically engaged documentary format; with guest Q&A.",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film8",
+      "topic_ids": [
+        "film",
+        "environmental",
+        "documentary"
+      ],
+      "title": "Saving Spoonie",
+      "venue": "ACUDkino",
+      "dates": "June 23, 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://acudkino.de/?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Investigative environmental doc with guest discussion; matches social issue documentary profile.",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film9",
+      "topic_ids": [
+        "film",
+        "fiction",
+        "international"
+      ],
+      "title": "The Love That Remains",
+      "venue": "Wolf Cinema Berlin",
+      "dates": "from June 18, 2026",
+      "times": "",
+      "artists": [
+        "Hlynur Pálmason"
+      ],
+      "official_url": "https://wolfberlin.org/en/programme/films?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "International independent fiction feature—new in cinemas this week, relevant for global art house audience.",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": false,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "film10",
+      "topic_ids": [
+        "film",
+        "premiere"
+      ],
+      "title": "Meine Frau Weint",
+      "venue": "Wolf Cinema Berlin",
+      "dates": "from June 11, 2026",
+      "times": "",
+      "artists": [
+        "Angela Schanelec"
+      ],
+      "official_url": "https://wolfberlin.org/de/programm/filme/meine-frau-weint?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "New release by Berlinale and art house staple, screening during week—recently premiered, ongoing.",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": false,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "perf1",
+      "topic_ids": [
+        "performing_arts",
+        "theatre",
+        "ritual"
+      ],
+      "title": "DER SOLDAT. Ein Übergangsritual",
+      "venue": "HAU2, Hebbel am Ufer",
+      "dates": "June 17, 2026",
+      "times": "19:00",
+      "artists": [
+        "Julian Warner"
+      ],
+      "official_url": "https://www.hebbel-am-ufer.de/?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Contemporary performance dealing with social ritual and identity—interdisciplinary, devised theatre.",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "perf2",
+      "topic_ids": [
+        "performing_arts",
+        "performance",
+        "social"
+      ],
+      "title": "Mi Madre y el Dinero",
+      "venue": "HAU3, Hebbel am Ufer",
+      "dates": "June 18, 2026",
       "times": "20:00",
       "artists": [
-        "Lucia Udvardyová"
+        "Anacarsis Ramos",
+        "Pornotráfico"
       ],
-      "official_url": "https://km28.de/lucia-udvardyova-live-av-set-june2026/",
+      "official_url": "https://www.hebbel-am-ufer.de/?utm_source=openai",
       "closing_soon": false,
-      "why_candidate": "Avant-pop/electronic set with reflective introductions; links diaspora pop sensitivities with experimental attitude.",
+      "why_candidate": "Performance exploring political economy, identity and gender; postcolonial, Latin American feminist lens.",
       "ingestion_source": "openai",
-      "verified": false
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
     },
     {
-      "id": "music_04",
+      "id": "perf3",
       "topic_ids": [
-        "music",
-        "ambient"
+        "performing_arts",
+        "dance",
+        "accessibility"
       ],
-      "title": "Ambient Leftfield Sessions: Ciarra Black + Guests",
-      "venue": "Arkaoda",
-      "dates": "June 23, 2026",
-      "times": "21:00",
+      "title": "NO LIMIT (Angela Alves – NO LIMIT BALLET)",
+      "venue": "Hochzeitssaal, Sophiensæle",
+      "dates": "June 16–18, 2026",
+      "times": "20:00",
       "artists": [
-        "Ciarra Black"
+        "Angela Alves",
+        "NO LIMIT BALLET"
       ],
-      "official_url": "https://arkaoda.com/events/ambient-leftfield-sessions-june2026/",
+      "official_url": "https://sophiensaele.com/de/download/5186/Programm%2004%2005%2006%2007%2008.pdf?utm_source=openai",
       "closing_soon": false,
-      "why_candidate": "Leftfield ambient, experimental electronics, and deep sonic explorations by a key Berlin figure.",
+      "why_candidate": "Contemporary dance with accessibility as central theme and practice; includes audio and sign language translation.",
       "ingestion_source": "openai",
-      "verified": true
+      "url_live": true,
+      "verified": true,
+      "url_verify_notes": "ok"
     },
     {
-      "id": "music_05",
+      "id": "perf4",
       "topic_ids": [
-        "music",
-        "deep_techno"
+        "performing_arts",
+        "experimental",
+        "film"
       ],
-      "title": "Hypnotic Techno Signal: Hysteric Host & Guests",
-      "venue": "Kantine am Berghain",
+      "title": "Kiez‑Monatsschau VOL. XXX: RAISING HOPE",
+      "venue": "Ballhaus Naunynstraße",
       "dates": "June 21, 2026",
-      "times": "22:30",
+      "times": "19:00",
       "artists": [
-        "Hysteric Host, Vesa-Matti, Vani-T"
+        "akademie der autodidakten"
       ],
-      "official_url": "https://berghain.berlin/de/events/hypnotic-techno-signal-june2026/",
+      "official_url": "https://ballhausnaunynstrasse.de/events/?utm_source=openai",
       "closing_soon": false,
-      "why_candidate": "Intimate night of deep, hypnotic techno—select Berlin underground regulars, not mainstream fare.",
+      "why_candidate": "Hybrid film and performance format under experimental banner—youth-driven and tied to Ballhaus’s community-based, progressive ethos.",
       "ingestion_source": "openai",
-      "verified": true
+      "url_live": true,
+      "verified": true,
+      "url_verify_notes": "ok"
     },
     {
-      "id": "wildcards_01",
+      "id": "music1",
       "topic_ids": [
-        "wildcards",
-        "politics_society"
+        "music",
+        "experimental",
+        "live"
       ],
-      "title": "Lecture: Networks of Refuge – Borders & Belonging in Europe",
-      "venue": "HKW (Haus der Kulturen der Welt)",
-      "dates": "June 18, 2026",
-      "times": "18:30",
+      "title": "Konser MILK ME presents: Laura Krieg + Schulverweis",
+      "venue": "Arkaoda",
+      "dates": "June 17, 2026",
+      "times": "",
       "artists": [
-        "Prof. Amara Soumah"
+        "Laura Krieg",
+        "Schulverweis"
       ],
-      "official_url": "https://www.hkw.de/en/networks-refuge-lecture-june2026/",
+      "official_url": "https://berlin.arkaoda.com/?utm_source=openai",
       "closing_soon": false,
-      "why_candidate": "Critical talk linking migration, global borders, and contemporary European politics—strong fit for engaged readers.",
+      "why_candidate": "Emerging international/experimental electronic acts presented in an avant-friendly club context.",
       "ingestion_source": "openai",
-      "verified": true
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
     },
     {
-      "id": "wildcards_02",
+      "id": "music2",
       "topic_ids": [
-        "wildcards",
-        "archives"
+        "music",
+        "experimental",
+        "club"
       ],
-      "title": "Artist Talk: Postcolonial Archives and Voicing Absence",
-      "venue": "KW Institute for Contemporary Art",
+      "title": "TEA SERVED [at your SERVICE]",
+      "venue": "Arkaoda",
+      "dates": "June 19, 2026",
+      "times": "",
+      "artists": [
+        "TEA SERVED [at your SERVICE]"
+      ],
+      "official_url": "https://berlin.arkaoda.com/?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Interdisciplinary/experimental music and social listening event; inclusive and genre-fluid.",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "music3",
+      "topic_ids": [
+        "music",
+        "experimental",
+        "noise"
+      ],
+      "title": "Brokenchord X Luna Vega",
+      "venue": "Arkaoda",
       "dates": "June 20, 2026",
-      "times": "16:00",
+      "times": "",
       "artists": [
-        "Khadija von Zinnenburg Carroll"
+        "Brokenchord",
+        "Luna Vega"
       ],
-      "official_url": "https://www.kw-berlin.de/en/postcolonial-archives-artist-talk-2026/",
+      "official_url": "https://berlin.arkaoda.com/?utm_source=openai",
       "closing_soon": false,
-      "why_candidate": "Insightful lecture connects decolonial archive theory with curatorial practice, framed by a critical art lens.",
+      "why_candidate": "Cross-genre / noise/psych and experimental electronics; international guests in Berlin’s club-performance crossover format.",
       "ingestion_source": "openai",
-      "verified": true
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "music4",
+      "topic_ids": [
+        "music",
+        "electronic",
+        "visuals"
+      ],
+      "title": "Radiant Reciprocity",
+      "venue": "Arkaoda",
+      "dates": "June 20, 2026",
+      "times": "from 23:00",
+      "artists": [
+        "Claude B",
+        "VJ Manuel Petrone",
+        "Missteikk",
+        "Pixi Exora",
+        "Jeune Louve",
+        "Drifty Kiddo",
+        "Future Frequencies",
+        "Anna K Mueller"
+      ],
+      "official_url": "https://berlin.arkaoda.com/?%2Fmobile%2Fdetail%2Fid=1298&utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Late-night experimental club night with VJ, live electronic set, multiple DJs, visual art—interdisciplinary and highly hybrid.",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "music5",
+      "topic_ids": [
+        "music",
+        "experimental",
+        "composition"
+      ],
+      "title": "Saȃdane Afif's Five Preludes Live",
+      "venue": "KM28",
+      "dates": "June 23, 2026",
+      "times": "",
+      "artists": [
+        "Lucie Nezri",
+        "Rebecca Lane",
+        "Kristia Michael",
+        "Ugne Uma"
+      ],
+      "official_url": "https://www.km28.de/?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Experimental deep listening and new composition for ensemble; highly curated, with interdisciplinary staging connecting music, art and performance.",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
     },
     {
       "id": "rss-wildcards-e42b77966e",
@@ -408,6 +534,22 @@
       "official_url": "https://ceecee.cc/tueren-auf-fuer-die-trauer-das-casa-coco-grief-collective/",
       "closing_soon": false,
       "why_candidate": "Trauer ist strange. Unterschiedliche Gemütslagen geben sich die Hand, werfen uns dabei aus der Bahn,...",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-exhibitions-86517d64b8",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Week June 15–21, 2026",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/15/things-to-do-in-berlin-art-openings-performances-june15-june21-2026/",
+      "closing_soon": false,
+      "why_candidate": "Openings and events at Gropius Bau, Müller Contemporary, Sophiensæle, C/O Berlin, die raum, panke.gallery, maḳām, Cittipunkt, Galerie im Turm, Kleine Humboldt Galerie, daadgalerie,Kunstquartier Bethanien, HILDEGARD, and more …[read on]",
       "ingestion_source": "rss",
       "verified": false
     },
@@ -540,54 +682,6 @@
       "verified": false
     },
     {
-      "id": "rss-exhibitions-de54189e98",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "Featured Exhibitions & Events June",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/01/things-to-do-in-berlin-featured-exhibitions-events-june/",
-      "closing_soon": false,
-      "why_candidate": "Exhibitions & Events at Akademie der Künste, Helmut Newton Foundation, Julia Stoschek Foundation, Gropius Bau, C/O Berlin, Schloss Biesdorf, TD, SCHWARZ CONTEMPORARY, Galerie Thomas Schulte, PalaisPopulaire, 68projects, Dock11, KORNFELD Galerie Berlin, KW Institute for Contemporary Art, Brücke Mu...",
-      "ingestion_source": "rss",
-      "verified": false
-    },
-    {
-      "id": "rss-exhibitions-e3f1cf88d0",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "Open Call for E.SUN Art Awards 2026",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/01/open-call-e-sun-art-awards-2026/",
-      "closing_soon": false,
-      "why_candidate": "June 1, 2026 E.SUN Bank is making an international appeal for artists to participate in the E.SUN Art Awards 2026. The competition invites painters from across the globe to artistically interpret the beauty and spirit of Yushan …[read on]",
-      "ingestion_source": "rss",
-      "verified": false
-    },
-    {
-      "id": "rss-exhibitions-2b03ef0cbb",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "The Week June 1–7, 2026",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/01/things-to-do-in-berlin-art-openings-performances-the-week-june1-june7-2026/",
-      "closing_soon": false,
-      "why_candidate": "Openings and events at C/O Berlin, ngbk, Britzenale, Tropez, Bärenzwinger, ACUD Galerie, Galeria Plan B, PASSAGE, ngbk, Brücke Museum, Solaris, Volksbühne am Rosa-Luxemburg-Platz, Project Space Festival Berlin, 68projects by KORNFELD, Julia Stoschek Foundation, Errant Sound, affair, C/O Berlin, a...",
-      "ingestion_source": "rss",
-      "verified": false
-    },
-    {
       "id": "rss-wildcards-bd38829a23",
       "topic_ids": [
         "wildcards"
@@ -665,6 +759,86 @@
       "closing_soon": false,
       "why_candidate": "We have one of the best hospitals in the world",
       "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-7dc689ee45",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Berlin’s CDU wants barriers in the U-Bahn",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/english-news-berlin/berlins-cdu-wants-barriers-in-the-u-bahn/",
+      "closing_soon": false,
+      "why_candidate": "Limiting access to U-Bahn stations could be the first step towards establishing a new ticketing system.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-495b05acb0",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Is this the end for Humboldthain?",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/english-news-berlin/mitte-building-authority-signs-humboldthains-death-warrant/",
+      "closing_soon": false,
+      "why_candidate": "A 50 dB noise protection (the volume of normal conversation) for a new hotel will likely kill Humboldthain club.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-59a0ac1a49",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Berlin Photo of the Week Winners: June 2026",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/photo-of-the-week-winners-june-2026/",
+      "closing_soon": false,
+      "why_candidate": "We asked our community to send in their best Berlin photos and got back some amazing results. Here are the top submissions we had in June 2026.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-401ecbae6a",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "What’s On This Week: Our Daily Tips",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/events/whats-on-this-week-daily-tips-berlin/",
+      "closing_soon": false,
+      "why_candidate": "A curated selection of the best things to do daily in Berlin.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-603776688e",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "The Tischtelefon: Berlin’s Original Dating App",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/features/tischtelefon-berlin-history-dating-phone-nightlife/",
+      "closing_soon": false,
+      "why_candidate": "In nightclubs of yesteryear, you could call someone you found cute across the room.",
+      "ingestion_source": "wordpress",
       "verified": false
     },
     {
@@ -778,125 +952,45 @@
       "why_candidate": "Want to win tickets? Send an email in order to have a chance to win our giveaway",
       "ingestion_source": "wordpress",
       "verified": false
-    },
-    {
-      "id": "wp-wildcards-da778ca700",
-      "topic_ids": [
-        "wildcards"
-      ],
-      "title": "Burgermeister goes Viennese",
-      "venue": "The Berliner",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.the-berliner.com/english-news-berlin/burgermeister-goes-vienese/",
-      "closing_soon": false,
-      "why_candidate": "Following their success throughout Germany and in Poland, the Berlin-based burger chain plans to enter the Austrian market in the autumn.",
-      "ingestion_source": "wordpress",
-      "verified": false
-    },
-    {
-      "id": "wp-wildcards-5d180ce303",
-      "topic_ids": [
-        "wildcards"
-      ],
-      "title": "On the Rock(s): Berlin’s Best Punk Rock Bars",
-      "venue": "The Berliner",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.the-berliner.com/guides/berlins-best-punk-bars/",
-      "closing_soon": false,
-      "why_candidate": "Our top spots to feel Berlin’s countercultural spirit – and to have a cold one without breaking the bank.",
-      "ingestion_source": "wordpress",
-      "verified": false
-    },
-    {
-      "id": "wp-wildcards-79f24a30fa",
-      "topic_ids": [
-        "wildcards"
-      ],
-      "title": "What to do this weekend: Berlin’s best events",
-      "venue": "The Berliner",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.the-berliner.com/berlin/what-to-do-this-weekend-best-events/",
-      "closing_soon": false,
-      "why_candidate": "In Berlin and don’t know what to do? Don’t worry. These are our picks of the best events happening in the city this weekend.",
-      "ingestion_source": "wordpress",
-      "verified": false
-    },
-    {
-      "id": "wp-wildcards-d3810b5fae",
-      "topic_ids": [
-        "wildcards"
-      ],
-      "title": "Toxic caterpillars terrorise Berlin",
-      "venue": "The Berliner",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.the-berliner.com/english-news-berlin/oak-processionary-caterpillars-terrorise-berlin/",
-      "closing_soon": false,
-      "why_candidate": "All 12 Berlin districts have united to fight against the critters, which cause rashes, respiratory issues and other allergic reactions.",
-      "ingestion_source": "wordpress",
-      "verified": false
-    },
-    {
-      "id": "wp-wildcards-fa3f08547f",
-      "topic_ids": [
-        "wildcards"
-      ],
-      "title": "The Other Fan Zones: Where to Watch the World Cup in 2026",
-      "venue": "The Berliner",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.the-berliner.com/berlin/where-to-watch-the-world-cup-berlin/",
-      "closing_soon": false,
-      "why_candidate": "The Fan Zone under Brandenburger Tor may not be happening this year, but there are still plenty of great spots to watch the games.",
-      "ingestion_source": "wordpress",
-      "verified": false
     }
   ],
   "gaps": [
-    "Exhibitions: 1 of 2 new non-feed exhibitions found. Most major contemporary shows already covered by warehouse/RSS. Consider further monitoring opening/closing updates at Kindl, Haus am Waldsee, and Schinkel Pavillon.",
-    "Wildcards: 2 strong candidates meet thematic edge. No contemporary food/culture hybrids surfaced for this window; threshold respected.",
-    "Advance Radar: No substantial additional leads surfaced in venue/festival calendars for this week—monitor for late-breaking summer launches."
+    "exhibitions: Only 1 qualifying exhibition (target: 7, gap: 6).",
+    "advance_radar: No advance radar (upcoming/major openings) entries found for this window.",
+    "wildcards: No qualifying talks/lectures, research events, or hybrid formats documented in notes for this window."
   ],
   "section_counts": {
-    "film": 5,
-    "music": 5,
-    "wildcards": 24,
     "advance_radar": 0,
+    "film": 10,
     "performing_arts": 4,
-    "exhibitions": 12
-  },
-  "calendar_counts": {
-    "film": 0,
-    "music": 0,
     "wildcards": 22,
-    "advance_radar": 0,
-    "performing_arts": 0,
-    "exhibitions": 11
+    "exhibitions": 10,
+    "music": 5
   },
-  "rss_counts": {
-    "film": 0,
-    "music": 0,
+  "programme_counts": {},
+  "press_counts": {
     "wildcards": 22,
-    "advance_radar": 0,
-    "performing_arts": 0,
-    "exhibitions": 11
+    "exhibitions": 9
   },
+  "calendar_counts": {},
+  "rss_counts": {},
   "openai_targets": {
-    "film": 5,
-    "music": 5,
-    "wildcards": 2,
     "advance_radar": 2,
+    "film": 5,
     "performing_arts": 4,
-    "exhibitions": 2
+    "wildcards": 2,
+    "exhibitions": 7,
+    "music": 5
   },
-  "calendar_merged": 33,
-  "search_notes": "Calendar counts: {'film': 0, 'music': 0, 'wildcards': 22, 'advance_radar': 0, 'performing_arts': 0, 'exhibitions': 11}. OpenAI targets: {'film': 5, 'music': 5, 'wildcards': 2, 'advance_radar': 2, 'performing_arts': 4, 'exhibitions': 2}. Calendar merged: 33. Primary venue calendars (n.b.k., Arsenal, Wolf, Dock 11, Sophiensaele, Ballhaus Naunynstraße, HAU, MONOM, Silent Green, KM28, Kantine am Berghain, Arkaoda, KW, HKW) and CeeCee/Exberliner/Index referred. Museum/large gallery feeds largely align with warehouse coverage; picked up closing-soon sound art at n.b.k. No late-breaking festival or premiere events for advance radar; ongoing film/theory/music programming rich this week."
+  "calendar_merged": 31,
+  "search_notes": "Phase 1 web_search_calls=4. Programme counts: {}. Press counts: {'wildcards': 22, 'exhibitions': 9}. OpenAI targets: {'advance_radar': 2, 'film': 5, 'performing_arts': 4, 'wildcards': 2, 'exhibitions': 7, 'music': 5}. Calendar merged: 31. All entries derive exclusively from documented results in Phase 1 research notes. For each section, only events explicitly confirmed as falling within June 17–23, 2026, and matching section guidelines, are included. No entries are invented or inferred beyond those sources. Gaps are listed for under-filled sections per briefing rules.",
+  "url_verified_at": "2026-06-16T08:32:26.740576+00:00",
+  "url_verify_stats": {
+    "checked": 20,
+    "live": 6,
+    "dead": 14,
+    "shallow": 14,
+    "verified_after": 4,
+    "skipped": 31
+  }
 }

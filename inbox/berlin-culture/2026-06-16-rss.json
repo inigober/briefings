@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16",
-  "fetched_at": "2026-06-13T17:08:26.472360+00:00",
+  "fetched_at": "2026-06-16T08:31:04.268753+00:00",
   "source": "rss",
   "item_format": "culture",
   "items": [
@@ -81,6 +81,22 @@
       "official_url": "https://ceecee.cc/tueren-auf-fuer-die-trauer-das-casa-coco-grief-collective/",
       "closing_soon": false,
       "why_candidate": "Trauer ist strange. Unterschiedliche Gemütslagen geben sich die Hand, werfen uns dabei aus der Bahn,...",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-exhibitions-86517d64b8",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Week June 15–21, 2026",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/15/things-to-do-in-berlin-art-openings-performances-june15-june21-2026/",
+      "closing_soon": false,
+      "why_candidate": "Openings and events at Gropius Bau, Müller Contemporary, Sophiensæle, C/O Berlin, die raum, panke.gallery, maḳām, Cittipunkt, Galerie im Turm, Kleine Humboldt Galerie, daadgalerie,Kunstquartier Bethanien, HILDEGARD, and more …[read on]",
       "ingestion_source": "rss",
       "verified": false
     },
@@ -213,54 +229,6 @@
       "verified": false
     },
     {
-      "id": "rss-exhibitions-de54189e98",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "Featured Exhibitions & Events June",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/01/things-to-do-in-berlin-featured-exhibitions-events-june/",
-      "closing_soon": false,
-      "why_candidate": "Exhibitions & Events at Akademie der Künste, Helmut Newton Foundation, Julia Stoschek Foundation, Gropius Bau, C/O Berlin, Schloss Biesdorf, TD, SCHWARZ CONTEMPORARY, Galerie Thomas Schulte, PalaisPopulaire, 68projects, Dock11, KORNFELD Galerie Berlin, KW Institute for Contemporary Art, Brücke Mu...",
-      "ingestion_source": "rss",
-      "verified": false
-    },
-    {
-      "id": "rss-exhibitions-e3f1cf88d0",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "Open Call for E.SUN Art Awards 2026",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/01/open-call-e-sun-art-awards-2026/",
-      "closing_soon": false,
-      "why_candidate": "June 1, 2026 E.SUN Bank is making an international appeal for artists to participate in the E.SUN Art Awards 2026. The competition invites painters from across the globe to artistically interpret the beauty and spirit of Yushan …[read on]",
-      "ingestion_source": "rss",
-      "verified": false
-    },
-    {
-      "id": "rss-exhibitions-2b03ef0cbb",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "The Week June 1–7, 2026",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/01/things-to-do-in-berlin-art-openings-performances-the-week-june1-june7-2026/",
-      "closing_soon": false,
-      "why_candidate": "Openings and events at C/O Berlin, ngbk, Britzenale, Tropez, Bärenzwinger, ACUD Galerie, Galeria Plan B, PASSAGE, ngbk, Brücke Museum, Solaris, Volksbühne am Rosa-Luxemburg-Platz, Project Space Festival Berlin, 68projects by KORNFELD, Julia Stoschek Foundation, Errant Sound, affair, C/O Berlin, a...",
-      "ingestion_source": "rss",
-      "verified": false
-    },
-    {
       "id": "rss-wildcards-bd38829a23",
       "topic_ids": [
         "wildcards"
@@ -343,11 +311,10 @@
   ],
   "feed_counts": [
     "Cee Cee Berlin: 5",
-    "Berlin Art Link: 11",
+    "Berlin Art Link: 9",
     "20% Berlin: 5",
     "Ballhaus Naunynstraße: 0",
-    "A-Trane: 0",
-    "MONOM: 0"
+    "A-Trane: 0"
   ],
   "errors": []
 }
