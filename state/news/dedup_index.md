@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-16
+
+- **spain-torrejon-mir-hospital-refusal** — Torrejón hospital asks Madrid region to stop assigning resident doctors as cost-saving measure (section: spain)
+- **spain-von-der-leyen-kallas-eu-diplomacy** — Von der Leyen–Kallas turf war undermines EU foreign-policy coherence (section: spain)
+- **spain-nutriscore-cereal-labeling-paradox** — Nutri-score rates identical cereals differently across countries (section: spain)
+- **germany-russia-sabotage-spies-bundesanwaltschaft** — Federal prosecutors pursue Russian sabotage networks using low-cost agents (section: germany)
+- **germany-ai-political-speeches-bundestag** — Senior politicians admit delivering AI-generated Bundestag speeches (section: germany)
+- **germany-musk-zdf-legal-threat** — Musk threatens legal action against ZDF over Northern Ireland coverage (section: germany)
+- **berlin-neukoelln-school-oversubscription** — Neukölln secondary schools oversubscribed; demand uneven across school types (section: berlin)
+- **berlin-emergency-water-fountains-broken** — Hundreds of Berlin Notwasserbrunnen out of service (section: berlin)
+- **berlin-raw-cassiopeia-club-closure** — RAW-Gelände redevelopment failure threatens Cassiopeia club with insolvency (section: berlin)
+- **world-canada-corporate-human-rights-ombudsperson-scrapped** — Canada abolishes watchdog for human-rights abuses by firms operating abroad (section: world)
+- **world-starbucks-korea-history-lesson-shutdown** — Starbucks Korea closes all stores for mandatory history lesson after promotion backlash (section: world)
+- **world-sri-lanka-cybercrime-hub-relocation** — Sri Lanka emerges as cyber-scam hub as networks flee south-east Asia crackdowns (section: world)
+
 ## 2026-06-15
 
 - **spain-immigration-regularization-record-900k** — Regularisation drive reaches 900,000 applications with two weeks left (section: spain)

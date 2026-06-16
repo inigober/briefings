@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-16
+
+- [How to Say No to an Imperial President](https://foreignpolicy.com/2026/06/16/nixon-irs-trump-executive-authority/) — Foreign Policy
+- [Can open-source beat OpenAI?](https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [The end of Brussels' most important dinner party](https://www.politico.eu/podcast/brussels-playbook-podcast/the-end-of-brussels-most-important-dinner-party/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [South African jazz pianist Abdullah Ibrahim dies aged 91](https://www.theguardian.com/music/2026/jun/15/pianist-abdullah-ibrahim-dies) — The Guardian
+
 ## 2026-06-15
 
 - [The End of Neoliberalism](https://foreignpolicy.com/2026/06/15/neoliberalism-globalization-competition-cosmopolitanism-economics-reagan-thatcher/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Spain's Renewable Power Glut Shows Europe What's Coming](https://www.bloomberg.com/news/articles/2024-06-07/spain-s-renewable-power-glut-shows-europe-what-s-coming) — Bloomberg
 - [Germany's Industry in Hydrogen Rush Amid Limited Funding](https://www.politico.eu/article/germany-hydrogen-projects-funding-industry/) — Politico Europe
 - [Thailand's Princess Bajrakitiyabha dies aged 47 after years in a coma](https://www.theguardian.com/world/2026/jun/12/thailand-princess-bajrakitiyabha-dies-aged-47) — The Guardian
-
-## 2026-06-11
-
-- [Germany's innovation deficit undermines value of high R&D funding](https://www.diw.de/de/diw_01.c.876543.en/current-press-releases/2026-06-10_germany_innovation_deficit.html) — DIW Berlin
-- [Could Switzerland Become the First Country to Cap Its Population?](https://www.newyorker.com/magazine/2026/06/15/could-switzerland-become-the-first-country-to-limit-its-population) — The New Yorker
-- [The Great AI Divide: Navigating U.S. and Chinese dominance](https://restofworld.org/2026/ai-divide-america-china-world/) — Rest of World
-- [Exporting U.S. Military AI Won't Be Easy](https://foreignpolicy.com/2026/06/10/military-ai-middle-power-anthropic-pentagon-pax-silica/) — Foreign Policy
 
 ## Blocked until 5+ briefings have passed
 
