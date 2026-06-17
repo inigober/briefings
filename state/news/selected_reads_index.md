@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-17
+
+- [Spotify's post-English AI future](https://restofworld.org/2026/spotify-global-ai-music-streaming-strategy/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [Myanmar Is What Happens When China Fills a Vacuum](https://foreignpolicy.com/2026/06/17/myanmar-china-election-junta/) — Foreign Policy
+- [Von der Leyen won't run for a third term. Or will she?](https://www.politico.eu/podcast/brussels-playbook-podcast/von-der-leyen-wont-run-for-a-third-term-or-will-she/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Why Anthropic Is Fighting With Trump (Again)](https://foreignpolicy.com/2026/06/16/anthropic-trump-fight-mythos-fable-5-hegseth/) — Foreign Policy
+
 ## 2026-06-16
 
 - [How to Say No to an Imperial President](https://foreignpolicy.com/2026/06/16/nixon-irs-trump-executive-authority/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Weather tracker: heat, humidity and thunderstorms a danger at World Cup](https://www.theguardian.com/environment/2026/jun/12/weather-tracker-heat-humidity-thunderstorms-risk-world-cup) — The Guardian
 - [Jessie J's triumphant return puts lucrative Chinese market in spotlight](https://www.theguardian.com/world/2026/jun/13/jessie-j-lucrative-chinese-market-westlife-charli-xcx) — The Guardian
 - [Trump says leader of Venezuelan Tren de Aragua gang killed in US strike](https://www.theguardian.com/us-news/2026/jun/12/trump-venezuela-tren-de-aragua-leader-killed) — The Guardian
-
-## 2026-06-12
-
-- [Spain speeds up Basque Y railway project](https://www.ft.com/content/a52c08f5-2ce0-4fbc-9506-1b4d89637a62) — Financial Times
-- [Spain's Renewable Power Glut Shows Europe What's Coming](https://www.bloomberg.com/news/articles/2024-06-07/spain-s-renewable-power-glut-shows-europe-what-s-coming) — Bloomberg
-- [Germany's Industry in Hydrogen Rush Amid Limited Funding](https://www.politico.eu/article/germany-hydrogen-projects-funding-industry/) — Politico Europe
-- [Thailand's Princess Bajrakitiyabha dies aged 47 after years in a coma](https://www.theguardian.com/world/2026/jun/12/thailand-princess-bajrakitiyabha-dies-aged-47) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
