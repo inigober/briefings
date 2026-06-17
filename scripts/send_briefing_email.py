@@ -222,22 +222,37 @@ def extract_lead_paragraphs(md_text: str) -> str:
     return " ".join(parts).strip()
 
 
+def _truncate_preheader(text: str, max_len: int) -> str:
+    text = text.strip()
+    if len(text) <= max_len:
+        return text
+    truncated = text[:max_len]
+    if " " in truncated:
+        return truncated.rsplit(" ", 1)[0].rstrip(".,;:")
+    return truncated
+
+
 def extract_preheader(md_text: str, section_name: str = "What Matters Today", max_len: int = 100) -> str:
     """Short inbox-preview line: lead intro, named section themes, else first headline."""
     lead = extract_lead_paragraphs(md_text)
     if lead:
-        return lead[:max_len]
+        return _truncate_preheader(lead, max_len)
 
     in_section = False
     snippets: list[str] = []
 
     for line in md_text.splitlines():
         stripped = line.strip()
-        if stripped.startswith(("## ", "### ")) and section_name in stripped:
+        if stripped.startswith("## ") and section_name in stripped:
             in_section = True
             continue
-        if in_section and stripped.startswith(("## ", "### ")):
+        if in_section and stripped.startswith("## "):
             break
+        if in_section and stripped.startswith("### "):
+            text = stripped[4:].strip()
+            if text:
+                snippets.append(text)
+            continue
         if in_section and re.match(r"^\d+\.\s+", stripped):
             text = re.sub(r"^\d+\.\s*", "", stripped)
             text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
@@ -246,7 +261,7 @@ def extract_preheader(md_text: str, section_name: str = "What Matters Today", ma
                 snippets.append(text)
 
     if snippets:
-        return " · ".join(snippets[:2])[:max_len]
+        return _truncate_preheader(" · ".join(snippets[:2]), max_len)
 
     for line in md_text.splitlines():
         match = re.match(r"^\*\s+\*\*(.+?)\*\*", line.strip())
@@ -956,7 +971,7 @@ def render_restaurant_html(md_text: str, *, preheader_section: str = "This week'
 def render_culture_html(
     md_text: str, *, preheader_section: str = "Top Picks", why_style: str = "callout"
 ) -> str:
-    preheader = extract_preheader(md_text, section_name=preheader_section)
+    preheader = extract_preheader(md_text, section_name=preheader_section, max_len=140)
     body_html = render_culture_body_html(md_text, why_style=why_style)
     _, footnotes_md = split_footnotes(md_text)
     footnotes_html = render_footnotes_html(footnotes_md)

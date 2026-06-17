@@ -1,5 +1,7 @@
 # Berlin Culture Briefing — Week of Month Day–Day, Year
 
+{1–2 sentence intro — week's through-line in plain prose.}
+
 ## Top Picks
 
 ### Event title

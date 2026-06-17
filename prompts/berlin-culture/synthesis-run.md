@@ -51,6 +51,8 @@ Target: **≤5 URL fetches** per weekly run (typically Top Picks + closing-soon 
 
 Title: `# Berlin Culture Briefing — Week of {start}–{end}, {year}` using `week_start` / `week_end` from inbox JSON when present.
 
+Add a **1–2 sentence intro** immediately after the title (before `## Top Picks`): frame the week's connecting themes in plain prose — no bullets. This becomes the visible email opener and inbox preview.
+
 Use per-entry format from the style rule (Title, Venue, Date(s), Time(s), Short Context, Why It Fits, Official Link).
 
 ## Step 3 — Update state

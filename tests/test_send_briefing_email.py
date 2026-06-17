@@ -16,6 +16,7 @@ from send_briefing_email import (  # noqa: E402
     extract_lead_paragraphs,
     extract_preheader,
     format_email_subject,
+    render_culture_body_html,
     resolve_briefing_paths,
 )
 
@@ -62,6 +63,40 @@ Export controls and rail delays frame a day of state-capacity stress tests acros
             "Export controls and rail delays frame a day of state-capacity stress tests across Europe.",
         )
 
+    def test_culture_prefers_intro(self) -> None:
+        md = """# Berlin Culture Briefing — Week of June 16–22, 2026
+
+Kyiv Biennial opens at KW while experimental film anchors a dense mid-June week.
+
+## Top Picks
+
+### Kyiv Biennial – A Bird That Cannot Land
+"""
+        self.assertEqual(
+            extract_preheader(md, section_name="Top Picks", max_len=140),
+            "Kyiv Biennial opens at KW while experimental film anchors a dense mid-June week.",
+        )
+
+    def test_culture_falls_back_to_top_picks_titles(self) -> None:
+        md = """# Berlin Culture Briefing — Week of June 16–22, 2026
+
+## Top Picks
+
+### Kyiv Biennial – A Bird That Cannot Land
+
+**Venue:** KW
+
+### Afterlives
+
+**Venue:** Wolf Kino
+
+## Exhibitions Radar
+"""
+        self.assertEqual(
+            extract_preheader(md, section_name="Top Picks"),
+            "Kyiv Biennial – A Bird That Cannot Land · Afterlives",
+        )
+
     def test_falls_back_to_what_matters_today(self) -> None:
         md = """# News Briefing — 13 June 2026
 
@@ -79,6 +114,35 @@ Export controls and rail delays frame a day of state-capacity stress tests acros
             extract_preheader(md),
             "US tech controls are biting in Europe · Infrastructure promises face delivery audits",
         )
+
+
+class TestCultureEmailIntro(unittest.TestCase):
+    SAMPLE = """# Berlin Culture Briefing — Week of June 16–22, 2026
+
+A politically charged opening week pairs biennial-scale art with essay film.
+
+## Top Picks
+
+### Kyiv Biennial – A Bird That Cannot Land
+
+**Venue:** KW Institute for Contemporary Art
+
+**Date(s):** 11 June – 13 September 2026
+
+**Time(s):** Wed–Mon 11:00–19:00
+
+**Short Context:** Opening week at KW.
+
+**Why It Fits:** Strong thematic match.
+
+**Official Link:** [KW](https://www.kw-berlin.de/en/exhibitions/kyiv-biennial)
+"""
+
+    def test_renders_intro_before_top_picks(self) -> None:
+        html = render_culture_body_html(self.SAMPLE)
+        intro_pos = html.index("politically charged opening week")
+        top_picks_pos = html.index("Top Picks")
+        self.assertLess(intro_pos, top_picks_pos)
 
 
 class TestFormatEmailSubject(unittest.TestCase):
