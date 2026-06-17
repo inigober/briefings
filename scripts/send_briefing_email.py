@@ -21,7 +21,12 @@ from urllib.parse import quote_plus
 import markdown
 import requests
 
-from briefing_paths import REPO_ROOT, infer_type_from_briefing_path, load_briefing_type
+from briefing_paths import (
+    REPO_ROOT,
+    infer_type_from_briefing_path,
+    is_test_briefing_path,
+    load_briefing_type,
+)
 
 INSIGHT_MARKERS = ("💡", "🧭")
 
@@ -1059,6 +1064,8 @@ def _latest_per_type(paths: list[Path]) -> list[Path]:
     """Keep only the newest-dated briefing per briefing type."""
     by_type: dict[str, Path] = {}
     for path in paths:
+        if is_test_briefing_path(path):
+            continue
         type_id = infer_type_from_briefing_path(path) or ""
         existing = by_type.get(type_id)
         if existing is None or _briefing_date_from_path(path) > _briefing_date_from_path(existing):
@@ -1079,7 +1086,9 @@ def resolve_briefing_paths(
     candidates: list[Path] = []
     for raw in changed_files:
         if raw.endswith(".md") and raw.startswith("briefings/"):
-            candidates.append(REPO_ROOT / raw)
+            path = REPO_ROOT / raw
+            if not is_test_briefing_path(path):
+                candidates.append(path)
 
     if not candidates:
         raise FileNotFoundError(

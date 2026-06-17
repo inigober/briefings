@@ -142,7 +142,7 @@ Success = **HTTP 204**.
 3. **Briefing synthesis** Cursor automation runs (one push → one run)
 4. `briefings/{type}/` commit → email workflow sends
 
-**Duplicate pre-fetch same day:** If a briefing file already exists for that date, synthesis **skips** (guard in `detect_synthesis_trigger.py`).
+**Duplicate pre-fetch same day:** If a briefing file already exists for that date, synthesis **skips** (guard in `detect_synthesis_trigger.py`). Test briefings must use `YYYY-MM-DD.test.md` so they never block production (see README **End-to-end testing**).
 
 ## Troubleshooting
 

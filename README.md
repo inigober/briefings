@@ -190,6 +190,22 @@ python3 scripts/fetch_culture_research.py --type berlin-culture --date 2026-06-0
 
 **PM analogy:** `.env` is like a sticky note on your desk — fine at home; never photocopy it into the employee handbook (the repo).
 
+### End-to-end testing
+
+When you run a full synthesis test and commit the result, **never** use the production filename `briefings/{type}/YYYY-MM-DD.md` for a future scheduled date. That file blocks real synthesis on the live day (push guard + email workflow).
+
+| Purpose | Filename | Commits to `main`? | Blocks production? | Auto-email? |
+|---------|----------|-------------------|--------------------|-------------|
+| **Production run** | `YYYY-MM-DD.md` | Yes | — | Yes |
+| **End-to-end test** | `YYYY-MM-DD.test.md` | Optional | No | No |
+| **Pre-fetch only** | `inbox/{type}/…` | Yes | No | No |
+
+**Rules:**
+
+1. Test briefings → `briefings/{type}/YYYY-MM-DD.test.md` (same date key as inbox is fine).
+2. Commit message for tests → include `end-to-end test` and **do not** use the `inbox/{type}:` prefix unless you intend to trigger synthesis.
+3. Prefer `fetch_* --dry-run` and `send_briefing_email.py --dry-run` when you only need to validate scripts locally without touching git.
+
 ### Manual test
 
 ```bash

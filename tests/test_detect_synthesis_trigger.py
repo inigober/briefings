@@ -12,6 +12,7 @@ SCRIPTS = REPO_ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
+from briefing_paths import load_briefing_type, production_briefing_exists  # noqa: E402
 from detect_synthesis_trigger import (  # noqa: E402
     _best_skip_rejection,
     is_research_inbox_file,
@@ -69,6 +70,31 @@ class TestBriefingExistsGuard(unittest.TestCase):
         finally:
             synthesis.unlink(missing_ok=True)
             briefing.unlink(missing_ok=True)
+
+    def test_test_briefing_does_not_block_synthesis(self) -> None:
+        from detect_synthesis_trigger import evaluate_type
+
+        date_str = "2099-06-05"
+        synthesis = REPO_ROOT / f"inbox/news/{date_str}-synthesis.json"
+        test_briefing = REPO_ROOT / f"briefings/news/{date_str}.test.md"
+        synthesis.parent.mkdir(parents=True, exist_ok=True)
+        test_briefing.parent.mkdir(parents=True, exist_ok=True)
+        synthesis.write_text('{"built_at":"2099-06-05T10:00:00Z"}', encoding="utf-8")
+        test_briefing.write_text("# sandbox\n", encoding="utf-8")
+
+        try:
+            bt = load_briefing_type("news")
+            self.assertFalse(production_briefing_exists(bt, date_str))
+            should_run, reason, _ = evaluate_type(
+                "news",
+                commit_sha="deadbeef",
+                subject=f"inbox/news: {date_str} research pre-fetch",
+                changed=[f"inbox/news/{date_str}-synthesis.json"],
+            )
+            self.assertTrue(should_run, reason)
+        finally:
+            synthesis.unlink(missing_ok=True)
+            test_briefing.unlink(missing_ok=True)
 
     def test_detect_trigger_surfaces_briefing_exists_reason(self) -> None:
         from unittest.mock import patch

@@ -45,6 +45,21 @@ class BriefingType:
     def briefing_path(self, date_str: str) -> Path:
         return self.output_dir / f"{date_str}.md"
 
+    def test_briefing_path(self, date_str: str) -> Path:
+        """Sandbox path for end-to-end tests — does not block production synthesis."""
+        return self.output_dir / f"{date_str}.test.md"
+
+
+def is_test_briefing_path(path: Path) -> bool:
+    """True for sandbox briefings (e.g. 2026-06-16.test.md)."""
+    return path.name.endswith(".test.md")
+
+
+def production_briefing_exists(bt: BriefingType, date_str: str) -> bool:
+    """True when a real (non-test) briefing file exists for this date."""
+    path = bt.briefing_path(date_str)
+    return path.is_file() and not is_test_briefing_path(path)
+
 
 def load_manifest() -> dict[str, Any]:
     with MANIFEST_PATH.open(encoding="utf-8") as f:

@@ -83,11 +83,17 @@ class TestCultureCalendar(unittest.TestCase):
         self.assertIn("MUST use web_search", block)
 
     def test_novelty_block_from_events_index(self) -> None:
-        block = build_novelty_block(
-            state_dir=REPO_ROOT / "state/berlin-culture",
-            run_date="2026-06-16",
-            topics_cfg=self.topics_cfg,
-        )
+        with tempfile.TemporaryDirectory() as tmp:
+            state_dir = Path(tmp)
+            (state_dir / "events_index.md").write_text(
+                "2026-06-16 | top_picks | Shilpa Gupta — What Still Holds | Hamburger Bahnhof | https://example.com\n",
+                encoding="utf-8",
+            )
+            block = build_novelty_block(
+                state_dir=state_dir,
+                run_date="2026-06-16",
+                topics_cfg=self.topics_cfg,
+            )
         self.assertIn("Already recommended", block)
         self.assertIn("Shilpa Gupta", block)
 

@@ -20,7 +20,12 @@ _SCRIPTS_DIR = Path(__file__).resolve().parent
 if str(_SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS_DIR))
 
-from briefing_paths import REPO_ROOT, load_briefing_type, load_manifest
+from briefing_paths import (
+    REPO_ROOT,
+    load_briefing_type,
+    load_manifest,
+    production_briefing_exists,
+)
 from cron_schedule import is_scheduled_on_date
 from prefetch_dates import resolve_inbox_date_key
 
@@ -167,8 +172,7 @@ def evaluate_type(
         date_str = research_date_from_path(path)
         if not date_str:
             continue
-        briefing_path = bt.briefing_path(date_str)
-        if briefing_path.exists():
+        if production_briefing_exists(bt, date_str):
             return (
                 False,
                 f"Briefing already exists for {date_str}",
@@ -194,8 +198,6 @@ def detect_backup_trigger(date_str: str | None = None) -> TriggerDecision:
 
         synthesis_path = bt.inbox_path(inbox_date, "synthesis")
         raw_path = bt.inbox_path(inbox_date, "raw")
-        briefing_path = bt.briefing_path(inbox_date)
-
         inbox_files: list[str] = []
         if synthesis_path.exists():
             inbox_files.append(str(synthesis_path.relative_to(REPO_ROOT)))
@@ -204,7 +206,7 @@ def detect_backup_trigger(date_str: str | None = None) -> TriggerDecision:
         else:
             continue
 
-        if briefing_path.exists():
+        if production_briefing_exists(bt, inbox_date):
             continue
 
         candidates.append(
