@@ -13,10 +13,12 @@ if str(SCRIPTS) not in sys.path:
 
 from briefing_paths import load_briefing_type  # noqa: E402
 from send_briefing_email import (  # noqa: E402
+    BRIEFING_FOOTER_TEXT,
     extract_lead_paragraphs,
     extract_preheader,
     format_email_subject,
     render_culture_body_html,
+    render_html,
     resolve_briefing_paths,
 )
 
@@ -143,6 +145,31 @@ A politically charged opening week pairs biennial-scale art with essay film.
         intro_pos = html.index("politically charged opening week")
         top_picks_pos = html.index("Top Picks")
         self.assertLess(intro_pos, top_picks_pos)
+
+    def test_renders_berlin_footer(self) -> None:
+        html = render_culture_body_html(self.SAMPLE)
+        self.assertIn(BRIEFING_FOOTER_TEXT, html)
+
+
+class TestNewsEmailFooter(unittest.TestCase):
+    SAMPLE = """# News Briefing — 17 June 2026
+
+*Research accessed 16 June 2026.*
+
+Export controls dominate today's edition.
+
+## Spain 🇪🇸
+
+* **First story**
+
+## What Matters Today 🧠
+
+1. **Theme one.** Details here.
+"""
+
+    def test_renders_berlin_footer(self) -> None:
+        html = render_html(self.SAMPLE, briefing_type="news")
+        self.assertIn(BRIEFING_FOOTER_TEXT, html)
 
 
 class TestFormatEmailSubject(unittest.TestCase):

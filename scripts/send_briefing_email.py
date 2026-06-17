@@ -66,7 +66,7 @@ CULTURE_META_STYLE = (
 CULTURE_CONTEXT_STYLE = (
     f"margin:12px 0 0;padding:0;font-size:16px;color:{CULTURE_COLOR_BODY};line-height:1.65;"
 )
-CULTURE_FOOTER_TEXT = "Sent by AI with love from Berlin."
+BRIEFING_FOOTER_TEXT = "Sent by AI with love from Berlin."
 CULTURE_WHY_CALLOUT_STYLE = (
     "margin:14px 0 0;padding:10px 14px;background:#f4f4f5;"
     f"border-left:3px solid {CULTURE_COLOR_BORDER};border-radius:4px;"
@@ -87,7 +87,6 @@ RESTAURANT_ENTRY_RE = re.compile(
 )
 RESTAURANT_STRONGEST_BETS = "This week's strongest bets"
 RESTAURANT_META_FIELDS = ("Hours", "Rating", "Maps")
-RESTAURANT_FOOTER_TEXT = "Sent by AI with love from Berlin."
 RESTAURANT_TITLE_LINK_STYLE = (
     "color:#111111;text-decoration:underline;text-underline-offset:3px;"
 )
@@ -140,16 +139,8 @@ hr {
 .culture-meta { margin: 0 0 0; padding: 0; list-style: none; }
 .culture-meta li { margin: 0 0 6px; padding: 0; }
 .culture-entry { margin: 0 0 8px; }
-.culture-footer {
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid #e8e8e8;
-  text-align: center;
-  font-size: 13px;
-  color: #6b7280;
-  font-style: italic;
-}
-.restaurant-entry { margin: 0 0 8px; }
+.briefing-footer,
+.culture-footer,
 .restaurant-footer {
   margin-top: 40px;
   padding-top: 20px;
@@ -159,6 +150,7 @@ hr {
   color: #6b7280;
   font-style: italic;
 }
+.restaurant-entry { margin: 0 0 8px; }
 """
 
 H1_STYLE = (
@@ -673,12 +665,16 @@ def render_culture_entry_html(
     return "\n".join(parts)
 
 
-def render_culture_footer_html() -> str:
+def render_briefing_footer_html(*, css_class: str = "briefing-footer") -> str:
     return (
-        f'<div class="culture-footer" style="margin-top:40px;padding-top:20px;'
+        f'<div class="{css_class}" style="margin-top:40px;padding-top:20px;'
         f'border-top:1px solid #e8e8e8;text-align:center;font-size:13px;'
-        f'color:{CULTURE_COLOR_FOOTER};font-style:italic;">{CULTURE_FOOTER_TEXT}</div>'
+        f'color:{CULTURE_COLOR_FOOTER};font-style:italic;">{BRIEFING_FOOTER_TEXT}</div>'
     )
+
+
+def render_culture_footer_html() -> str:
+    return render_briefing_footer_html(css_class="culture-footer")
 
 
 def render_culture_body_html(md_text: str, *, why_style: str = "callout") -> str:
@@ -898,11 +894,7 @@ def render_restaurant_entry_html(
 
 
 def render_restaurant_footer_html() -> str:
-    return (
-        f'<div class="restaurant-footer" style="margin-top:40px;padding-top:20px;'
-        f'border-top:1px solid #e8e8e8;text-align:center;font-size:13px;'
-        f'color:{CULTURE_COLOR_FOOTER};font-style:italic;">{RESTAURANT_FOOTER_TEXT}</div>'
-    )
+    return render_briefing_footer_html(css_class="restaurant-footer")
 
 
 def render_restaurant_body_html(md_text: str) -> str:
@@ -1031,6 +1023,7 @@ def render_html(
     )
 
     footnotes_html = render_footnotes_html(footnotes_md)
+    footer_html = render_briefing_footer_html()
     preheader_html = render_preheader_html(preheader)
 
     return f"""<!DOCTYPE html>
@@ -1045,6 +1038,7 @@ def render_html(
 <body>
 {preheader_html}
 {body_html}
+{footer_html}
 {footnotes_html}
 </body>
 </html>"""
