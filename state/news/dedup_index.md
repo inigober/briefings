@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-17
+
+- **spain-zapatero-audiencia-nacional-appearance** — First ex-PM appears before Audiencia Nacional as investigatee in Plus Ultra probe (section: spain)
+- **spain-madrid-school-heat-37c-new-build** — Madrid primary school hits 37°C in newly built classrooms (section: spain)
+- **spain-barcelona-school-ac-tourism-tax** — Barcelona air-conditions 84 schools using tourism-levy revenue (section: spain)
+- **germany-leipzig-chemnitz-rail-cost-overrun** — Cost explosion forces scope cuts on Leipzig–Chemnitz rail upgrade (section: germany)
+- **germany-eu-gene-editing-food-labels** — EU vote on biotechnology reform raises consumer-labelling questions (section: germany)
+- **germany-pentagon-grok-iran-targeting** — Pentagon admits xAI Grok used in Iran-war precision strikes (section: germany)
+- **berlin-gedaechtniskirche-paid-entry** — Kaiser Wilhelm Memorial Church plans partial paid admission for refurbishment (section: berlin)
+- **berlin-jehovah-witnesses-memorial-tiergarten** — New Tiergarten memorial honours Jehovah's Witnesses persecuted under Nazism (section: berlin)
+- **berlin-leegebruch-rent-spillover** — Brandenburg town Leegebruch faces rent pressure from Berlin spillover (section: berlin)
+- **world-boj-rate-hike-1pct** — Bank of Japan raises policy rate to 1%, 31-year high (section: world)
+- **world-eduardo-bolsonaro-prison-sentence** — Brazil supreme court jails Bolsonaro son for US interference in coup trial (section: world)
+- **world-toronto-gun-for-hire-network** — Toronto police link consulate shooting to encrypted gun-for-hire network (section: world)
+
 ## 2026-06-16
 
 - **spain-torrejon-mir-hospital-refusal** — Torrejón hospital asks Madrid region to stop assigning resident doctors as cost-saving measure (section: spain)
