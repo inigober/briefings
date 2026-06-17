@@ -1,23 +1,23 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-06-09",
-  "briefing_date": "2026-06-09",
-  "inbox_date": "2026-06-09",
-  "week_start": "2026-06-10",
-  "week_end": "2026-06-16",
+  "date": "2026-06-16",
+  "briefing_date": "2026-06-16",
+  "inbox_date": "2026-06-16",
+  "week_start": "2026-06-17",
+  "week_end": "2026-06-23",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-06-09.md",
-  "inbox_path": "inbox/berlin-culture/2026-06-09-synthesis.json",
-  "items_count": 8,
+  "briefing_path": "briefings/berlin-culture/2026-06-16.md",
+  "inbox_path": "inbox/berlin-culture/2026-06-16-synthesis.json",
+  "items_count": 12,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 1,
+    "exhibitions": 4,
     "film": 1,
-    "performing_arts": 0,
+    "performing_arts": 2,
     "music": 0,
-    "wildcards": 0,
-    "advance_radar": 3
+    "wildcards": 1,
+    "advance_radar": 0
   },
   "verification_fetches": 5,
-  "notes": "Token-light inbox (13 items). Spot-checked Kyiv Biennial, Afterlives, Into the Chronosphere (cancelled — dropped), Abdruckkörper. Omitted re-searching joy (ended), Zirkuskind repeat, out-of-week performing arts. No music/wildcards in inbox."
+  "notes": "Token-light synthesis inbox (19 items, 0 music). Spot-checked Schwules Museum exhibitions, Polish Art Week preview, Meine Frau Weint. Dropped Shilpa Gupta (SMB page 404), Sonnenbrand repeat, food wildcards, unverified Wolf homepage listing. Omitted music — no items in synthesis slice."
 }
