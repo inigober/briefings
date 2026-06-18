@@ -2,51 +2,88 @@
   "briefing_type": "berlin-restaurants",
   "date": "2026-06-18",
   "source_raw": "inbox/berlin-restaurants/2026-06-18-raw.json",
-  "built_at": "2026-06-11T15:26:23.877897+00:00",
+  "built_at": "2026-06-18T08:01:12.421786+00:00",
   "model": "gpt-4.1",
-  "raw_item_count": 18,
-  "verified_count": 16,
+  "raw_item_count": 8,
+  "verified_count": 8,
   "section_counts": {
-    "regional_chinese": 4,
-    "southeast_asian": 6,
-    "turkish_middle_eastern_caucasus": 6,
-    "mediterranean_european": 0,
+    "regional_chinese": 0,
+    "southeast_asian": 3,
+    "turkish_middle_eastern_caucasus": 4,
+    "mediterranean_european": 1,
     "specialist_neighborhood": 0,
     "fine_dining": 0
   },
   "items": [
     {
-      "id": "chuan_garden",
+      "id": "Papaya (Schöneberg)",
       "topic_ids": [
-        "regional_chinese",
-        "Sichuan",
-        "Rabbit dishes",
-        "Regional Chinese"
+        "southeast_asian"
       ],
-      "name": "Chuan Garden 川园",
-      "neighborhood": "Mitte",
-      "address": "Torstraße 189, 10115 Berlin",
-      "cuisine": "Sichuan",
+      "name": "Papaya",
+      "neighborhood": "Schöneberg",
+      "address": "Winterfeldtstraße 42",
+      "cuisine": "Thai (varied regional)",
       "price_tier": "€€",
       "value_label": null,
       "fine_dining": false,
       "strengths": [
-        "Run by Sichuan‑trained chefs offering regionally authentic dishes like Zigong rabbit and whole fish",
-        "Bold, clean flavours with slow‑building heat and technical competence"
+        "Bold, unapologetic regional Thai flavors—from Isaan salads to grilled meats and curries",
+        "No‑frills execution with consistent heat and intensity"
       ],
       "weaknesses": [
-        "Lengthy, uneven menu with many oily wet dishes",
-        "Orders of similar‑ingredient dishes can feel repetitive"
+        "Spice level intense—may overwhelm some diners",
+        "Chain‑style multiple locations may feel less intimate"
       ],
-      "comparative_context": "More polished and authentic than most Mitte Sichuan restaurants, especially given its chef pedigree and rabbit‑focused dishes ([berlinfoodstories.com](https://www.berlinfoodstories.com/reviews/chuan-garden-the-sichuan-rabbit-hole?utm_source=openai))",
-      "critical_assessment": "A high‑level Sichuan experience that rewards thoughtful ordering—avoid over‑ordering similar spicy plates.",
-      "google_maps_name": "Chuan Garden 川园",
-      "google_maps_url": "https://maps.google.com/?cid=3614477287672776716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Torstraße 189, 10115 Berlin",
-      "google_maps_place_id": "ChIJt8HAbABRqEcRDAh0XPEzKTI",
+      "comparative_context": "A reliable mainstay for serious Thai enthusiasts looking for real heat and regional variety",
+      "critical_assessment": "Essential for fans of authentic, fiery Thai across regions—solid value and execution.",
+      "google_maps_name": "Papaya am Winterfeldtplatz",
+      "google_maps_url": "https://maps.google.com/?cid=2456362811345032783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Winterfeldtstraße 42, 10781 Berlin",
+      "google_maps_place_id": "ChIJdVAoHE9QqEcRT1azafbAFiI",
+      "google_maps_rating": 4.3,
+      "google_maps_review_count": 628,
+      "google_maps_hours_compact": "Daily 12:00–16:00 & 17:00–22:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "turn0search3"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "Khao Taan",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Khao Taan",
+      "neighborhood": "Friedrichshain",
+      "address": "Gryphiusstraße 10",
+      "cuisine": "Thai (homestyle/family style)",
+      "price_tier": "€€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Refined, personal set‑menu rooted in childhood and Thai family recipes",
+        "High craftsmanship: house‑pressed coconut milk, premium ingredients, natural wine pairing"
+      ],
+      "weaknesses": [
+        "Set menu may restrict choice or flexibility",
+        "Higher price tier for intimate Thai cooking"
+      ],
+      "comparative_context": "Elevates Thai cooking with thoughtful, intimate execution beyond casual fare",
+      "critical_assessment": "A thoughtful, elevated Thai experience with heart and depth—worth the occasional splurge.",
+      "google_maps_name": "Khao Taan",
+      "google_maps_url": "https://maps.google.com/?cid=1368696323655479600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Gryphiusstraße 10, 10245 Berlin-Bezirk Friedrichshain-Kreuzberg",
+      "google_maps_place_id": "ChIJ1fx6VmhOqEcRMDHeAA6W_hI",
       "google_maps_rating": 4.7,
-      "google_maps_review_count": 334,
-      "google_maps_hours_compact": "Daily 12:00–23:00",
+      "google_maps_review_count": 447,
+      "google_maps_hours_compact": "Tue–Sat 18:00–23:00 (closed Mon, Sun)",
       "maps_api_verified": true,
       "exists_in_berlin": true,
       "permanently_closed": false,
@@ -54,328 +91,38 @@
       "verified": true,
       "verification_notes": "Places API verified (OPERATIONAL)",
       "source_urls": [
-        "https://www.berlinfoodstories.com/reviews/chuan-garden-the‑sichuan‑rabbit‑hole"
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "liu_nudelhaus",
-      "topic_ids": [
-        "regional_chinese",
-        "Sichuan",
-        "Noodles",
-        "Regional Chinese"
-      ],
-      "name": "LIU Nudelhaus",
-      "neighborhood": "Mitte",
-      "address": "Kronenstraße (off Friedrichstraße), 10117 Berlin",
-      "cuisine": "Sichuan / Noodles",
-      "price_tier": "€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Exceptional Sichuan-style noodles and dumplings with precise technique",
-        "Limited menu tuned for maximum flavour impact"
-      ],
-      "weaknesses": [
-        "Lunch lines can be long, limited quantity of signature noodles",
-        "Very focused menu—may not suit broader dinner expectations"
-      ],
-      "comparative_context": "One of the city's most emotionally resonant Sichuan noodle spots; changed Berlin’s perception of the category ([berlinfoodstories.com](https://www.berlinfoodstories.com/reviews/the-chengdu-noodle-spot?utm_source=openai))",
-      "critical_assessment": "A cult favorite for noodle obsessives; rush early or pre‑order to secure the magical Tianshui noodles.",
-      "google_maps_name": "LIU 成都味道面馆 Nudelhaus",
-      "google_maps_url": "https://maps.google.com/?cid=5978374952795598817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Kronenstraße 72, 10117 Berlin",
-      "google_maps_place_id": "ChIJ_ekwy59RqEcR4W95Q1h091I",
-      "google_maps_rating": 4.5,
-      "google_maps_review_count": 2401,
-      "google_maps_hours_compact": "Mon–Tue 11:30–15:00; Wed–Fri 11:30–15:00 & 17:00–19:30; (closed Sat–Sun)",
-      "maps_api_verified": true,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "source_urls": [
-        "https://www.berlinfoodstories.com/reviews/the‑chengdu‑noodle‑spot"
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "ming_dynastie",
-      "topic_ids": [
-        "regional_chinese",
-        "Regional Chinese",
-        "Sichuan",
-        "Dongbei",
-        "Cantonese"
-      ],
-      "name": "Ming Dynastie",
-      "neighborhood": "Mitte / Charlottenburg (two branches)",
-      "address": "Brückenstraße 6, 10179 Berlin (East branch); Europa-Center (West branch)",
-      "cuisine": "Pan‑Chinese, regional specialties",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Extensive menu spanning Sichuan, Dongbei, Northern, Cantonese—all executed with finesse",
-        "Reliable institution beloved by chefs and serious diners"
-      ],
-      "weaknesses": [
-        "Vast menu can feel overwhelming and intimidating",
-        "Not niche—lack of focused regional identity"
-      ],
-      "comparative_context": "Berlin’s standard‑bearer for regional Chinese cooking; icons among local professionals ([berlinfoodstories.com](https://berlinfoodstories.com/reviews/the-undisputed-icon-of-chinese-dining-in-berlin?utm_source=openai))",
-      "critical_assessment": "When you want competent, broad‑spectrum Chinese cuisine in gravity‑and‑flavour mode, this is it—though not the most daring option.",
-      "google_maps_name": "Ming Dynastie Jannowitzbrücke Berlin",
-      "google_maps_url": "https://maps.google.com/?cid=261247375087039031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Brückenstraße 6, 10179 Berlin",
-      "google_maps_place_id": "ChIJy3vdsCROqEcRN_KQfhojoAM",
-      "google_maps_rating": 4.7,
-      "google_maps_review_count": 3602,
-      "google_maps_hours_compact": "Daily 12:00–22:00",
-      "maps_api_verified": true,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "source_urls": [
-        "https://www.berlinfoodstories.com/reviews/the‑undisputed‑icon‑of‑chinese‑dining‑in‑berlin"
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "the_tree",
-      "topic_ids": [
-        "regional_chinese",
-        "Sichuan",
-        "Dongbei",
-        "Noodles"
-      ],
-      "name": "The Tree",
-      "neighborhood": "Mitte",
-      "address": "Brunnenstraße 167, 10119 Berlin",
-      "cuisine": "Sichuan / Dongbei noodles",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Modern‑fresh execution of Sichuan and Dongbei cold starters and handmade noodles",
-        "Creative, refined noodle dishes like Ahorn with numbing Sichuan pepper potency"
-      ],
-      "weaknesses": [
-        "Stylistic modernity might underplay regional roots for purists",
-        "Limited menu focus on noodles; not a full‑meal venue"
-      ],
-      "comparative_context": "A rare modern take on traditional noodle heritage, unique in Berlin in both concept and execution ([berlinfoodstories.com](https://berlinfoodstories.com/reviews/a-beautiful-space?utm_source=openai))",
-      "critical_assessment": "Best for refined noodle devotees; not broad enough for full‑scale dinner outings.",
-      "google_maps_name": "The Tree",
-      "google_maps_url": "https://maps.google.com/?cid=17950918673787389901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Brunnenstraße 167, 10119 Berlin",
-      "google_maps_place_id": "ChIJFRjYpfpRqEcRzQcG_2x5Hvk",
-      "google_maps_rating": 4.6,
-      "google_maps_review_count": 1142,
-      "google_maps_hours_compact": "Mon–Fri 12:00–15:00 & 17:30–22:00; Sat–Sun 01:00–22:00",
-      "maps_api_verified": true,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "source_urls": [
-        "https://www.berlinfoodstories.com/reviews/a‑beautiful‑space"
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "Khao Soi (pop‑up)",
-      "topic_ids": [
-        "southeast_asian",
-        "Thai"
-      ],
-      "name": "Khao Soi",
-      "neighborhood": "Neukölln",
-      "address": "Karl‑Marx‑Platz 16‑18, 12043 Berlin",
-      "cuisine": "Thai (northern, Khao Soi)",
-      "price_tier": "€",
-      "value_label": "good value",
-      "fine_dining": false,
-      "strengths": [
-        "Specialist in Khao Soi with handmade noodles and unapologetic heat",
-        "Chef‑run authenticity with hands‑on production"
-      ],
-      "weaknesses": [
-        "Pop‑up format means inconsistent availability and limited permanence"
-      ],
-      "comparative_context": "Far more focused and artisan than general Thai places; feels like homemade regional cooking.",
-      "critical_assessment": "A rare passion‑project that delivers regional specificity and technical authenticity at great value, though access is limited by its pop‑up nature.",
-      "google_maps_name": "Khao Soi Berlin",
-      "google_maps_url": "https://maps.google.com/?cid=9604530647532537398&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Weserstr. 59, 12045 Berlin",
-      "google_maps_place_id": "ChIJK2gTq9lPqEcRNoaHqLwlSoU",
-      "google_maps_rating": 4.6,
-      "google_maps_review_count": 28,
-      "google_maps_hours_compact": "Fri 18:30–22:00; Sat 18:00–22:00; (closed Mon–Thu, Sun)",
-      "maps_api_verified": true,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "source_urls": [
-        "berlinfoodstories.com"
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "Mae Charoen",
-      "topic_ids": [
-        "southeast_asian",
-        "Thai"
-      ],
-      "name": "Mae Charoen",
-      "neighborhood": "Neukölln",
-      "address": "Sonnenallee 134, 12045 Berlin",
-      "cuisine": "Thai (street‑food style)",
-      "price_tier": "€",
-      "value_label": "good value",
-      "fine_dining": false,
-      "strengths": [
-        "Intensely seasoned, classic street food dishes (Tom Yum, Massaman, Som Tam)",
-        "Unpretentious kebap‑shop aesthetics keep focus on flavour"
-      ],
-      "weaknesses": [
-        "Very small, often crowded and waits likely"
-      ],
-      "comparative_context": "Closer to hawker‑stand authenticity than sit‑down dining, with uncompromising seasoning.",
-      "critical_assessment": "A dependable go‑to for raw street‑food intensity at great price—packed, but uncompromising in flavour.",
-      "google_maps_name": "Mae Charoen Thai Imbiss",
-      "google_maps_url": "https://maps.google.com/?cid=14504970869180508866&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Sonnenallee 134, 12059 Berlin",
-      "google_maps_place_id": "ChIJT3td16ZPqEcRwqrkpicCTMk",
-      "google_maps_rating": 4.4,
-      "google_maps_review_count": 1072,
-      "google_maps_hours_compact": "Mon–Tue 11:30–23:00; Thu–Sun 11:30–23:00; (closed Wed)",
-      "maps_api_verified": true,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "source_urls": [
-        "tip‑berlin.de"
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "Boii Boii",
-      "topic_ids": [
-        "southeast_asian",
-        "Thai"
-      ],
-      "name": "Boii Boii",
-      "neighborhood": "Kreuzberg",
-      "address": "Lausitzer Straße 25, 10999 Berlin",
-      "cuisine": "Thai (modern)",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Refined interpretation of authentic Thai flavours using local ingredients",
-        "Bold seasoning and technical precision (e.g. crispy pork belly)"
-      ],
-      "weaknesses": [
-        "More elevated, less casual street‑food vibe may feel formal compared to rustic Thai dishes"
-      ],
-      "comparative_context": "Compared to street‑food purists, Boii Boii elevates presentation and wine pairing, focusing on thoughtful refinement.",
-      "critical_assessment": "A contemporary take on Thai cuisine that balances authenticity with technique; excellent if you appreciate craft over simplicity, though might miss the bare‑bones charm of traditional hawker stalls.",
-      "google_maps_name": "Boii Boii",
-      "google_maps_url": "https://maps.google.com/?cid=892377658793402051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Lausitzer Str. 25, 10999 Berlin",
-      "google_maps_place_id": "ChIJm8vpiuRPqEcRwx7grcBcYgw",
-      "google_maps_rating": 4.6,
-      "google_maps_review_count": 204,
-      "google_maps_hours_compact": "Tue–Sat 18:00–23:30 (closed Mon, Sun)",
-      "maps_api_verified": true,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "source_urls": [
-        "berlinfoodstories.com"
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "Hanuman Thai Curry House",
-      "topic_ids": [
-        "southeast_asian",
-        "Thai"
-      ],
-      "name": "Hanuman Thai Curry House",
-      "neighborhood": "Kreuzberg",
-      "address": "Skalitzer Straße 96, 10997 Berlin",
-      "cuisine": "Thai (curries)",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Focused menu of soulful, regionally rooted Thai curries",
-        "Stand‑out snacks like Miang Kam and homemade Thai sausage"
-      ],
-      "weaknesses": [
-        "Compact space, limited menu may not satisfy multi‑dish diners"
-      ],
-      "comparative_context": "Unlike broad Thai menus, Hanuman zeroes in on curry craftsmanship and intensity.",
-      "critical_assessment": "An outstanding curry specialist for anyone seeking depth of flavour and regional precision, albeit with a narrow but well‑executed focus.",
-      "google_maps_name": "Hanuman Thai Curry House",
-      "google_maps_url": "https://maps.google.com/?cid=10805004978977801651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Skalitzer Str. 96, 10997 Berlin",
-      "google_maps_place_id": "ChIJV1rq5RRPqEcRs4VM8McW85U",
-      "google_maps_rating": 4.7,
-      "google_maps_review_count": 355,
-      "google_maps_hours_compact": "Tue–Thu 12:00–15:30 & 17:00–22:00; Fri–Sun 12:00–22:00; (closed Mon)",
-      "maps_api_verified": true,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "source_urls": [
-        "berlinfoodstories.com"
+        "turn0search3"
       ],
       "ingestion_source": "openai"
     },
     {
       "id": "Larb Koi",
       "topic_ids": [
-        "southeast_asian",
-        "Thai"
+        "southeast_asian"
       ],
       "name": "Larb Koi",
       "neighborhood": "Friedrichshain",
-      "address": "Krossener Straße 15, 10245 Berlin",
-      "cuisine": "Thai (house‑style)",
+      "address": "Krossener Straße 15",
+      "cuisine": "Thai (Isaan-inspired, bold flavors)",
       "price_tier": "€€",
       "value_label": null,
       "fine_dining": false,
       "strengths": [
-        "Authentic, assertive house‑style Thai cooking",
-        "Signature dishes like Oktopus‑Curry and papaya salad well‑executed"
+        "Home‑cooking style Thai with bright, bold flavor combinations",
+        "Standout dishes like whole fish, oysters, octopus curry—seriously spicy, highly praised"
       ],
       "weaknesses": [
-        "Interior leans on stylish design, may distract from food focus"
+        "Some dishes (e.g. octopus) need pre‑order and selective serving",
+        "Spice may be intense for timid diners"
       ],
-      "comparative_context": "More polished than street stalls but less formal than fine‑dining, straddling authenticity and comfort.",
-      "critical_assessment": "A stalwart for robust Thai flavours in a polished setting; delivers intensity and confidence, though ambience leans design‑forward.",
+      "comparative_context": "A fierce, flavor-first Thai spot beloved among chefs for its boldness and technique",
+      "critical_assessment": "Best in class for unapologetic, intense Thai cooking with serious craftsmanship.",
       "google_maps_name": "Larb Koi",
       "google_maps_url": "https://maps.google.com/?cid=1837714750978964420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "google_maps_address": "Krossener Str. 15, 10245 Berlin",
       "google_maps_place_id": "ChIJe945CEZPqEcRxLuYUtTfgBk",
       "google_maps_rating": 4.6,
-      "google_maps_review_count": 684,
+      "google_maps_review_count": 686,
       "google_maps_hours_compact": "Wed–Thu 18:00–22:00; Fri–Sat 18:00–23:00; Sun 03:00–22:00; (closed Mon–Tue)",
       "maps_api_verified": true,
       "exists_in_berlin": true,
@@ -384,81 +131,39 @@
       "verified": true,
       "verification_notes": "Places API verified (OPERATIONAL)",
       "source_urls": [
-        "tip‑berlin.de"
+        "turn0search3"
       ],
       "ingestion_source": "openai"
     },
     {
-      "id": "PHO Noodlebar Kreuzberg",
+      "id": "Hasir Ocakbaşı",
       "topic_ids": [
-        "southeast_asian",
-        "Vietnamese"
+        "turkish_middle_eastern_caucasus"
       ],
-      "name": "PHO Noodlebar Kreuzberg",
+      "name": "Hasir Ocakbaşı",
       "neighborhood": "Kreuzberg",
-      "address": "Adalbertstraße 9, 10999 Berlin",
-      "cuisine": "Vietnamese (pho, noodle soups)",
-      "price_tier": "€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Fresh, honest Vietnamese pho and street‑style dishes",
-        "Affordable, fast, intense flavour"
-      ],
-      "weaknesses": [
-        "Casual chain‑style lacks individuality or regional depth beyond pho"
-      ],
-      "comparative_context": "Less concept‑heavy than stylized Vietnamese places, focusing on essential bowls.",
-      "critical_assessment": "A solid, uncomplicated pho bar that delivers the basics well—great for a quick fix but not for depth of regional exploration.",
-      "google_maps_name": "PHO - Noodlebar (Kreuzberg)",
-      "google_maps_url": "https://maps.google.com/?cid=16055962147337026381&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Adalbertstraße 9, 10999 Berlin-Bezirk Friedrichshain-Kreuzberg",
-      "google_maps_place_id": "ChIJbxEbh9ZPqEcRTTskP4E80t4",
-      "google_maps_rating": 4.4,
-      "google_maps_review_count": 1402,
-      "google_maps_hours_compact": "Daily 11:30–23:00",
-      "maps_api_verified": true,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "source_urls": [
-        "top10berlin.de"
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "Pamfilya",
-      "topic_ids": [
-        "turkish_middle_eastern_caucasus",
-        "turkish",
-        "ocakbasi",
-        "döner"
-      ],
-      "name": "Pamfilya",
-      "neighborhood": "Wedding",
-      "address": "Luxemburger Straße 1, 13353 Berlin",
-      "cuisine": "Turkish grill / doner",
+      "address": "Adalbertstraße 12",
+      "cuisine": "Traditional Turkish ocakbaşı",
       "price_tier": "€€",
       "value_label": "good value",
       "fine_dining": false,
       "strengths": [
-        "Exceptional veal yaprak döner, charcoal grill, traditional atmosphere",
-        "Good value: high quality meat and sizable menu for price"
+        "Authentic Turkish charcoal‑grill classics with house-made mezze and breads",
+        "Deep roots as the birthplace of the Berlin döner, rich family heritage and consistent execution"
       ],
       "weaknesses": [
-        "Touristic at peak times, limited vegetarian options"
+        "Can be crowded or touristy given fame",
+        "Décor less of a draw, focus squarely on food"
       ],
-      "comparative_context": "Wedding classic sustaining authentic doner craft over decades, favored by locals and connoisseurs.",
-      "critical_assessment": "A go‑to for lean, well‑grilled döner; simple but solid— lacks innovation but excels in execution.",
-      "google_maps_name": "Pamfilya Restaurant",
-      "google_maps_url": "https://maps.google.com/?cid=9414198761911637931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Luxemburger Str. 1, 13353 Berlin",
-      "google_maps_place_id": "ChIJ77BjMIBRqEcRq1eqOOXzpYI",
-      "google_maps_rating": 4.0,
-      "google_maps_review_count": 2494,
-      "google_maps_hours_compact": "Mon–Thu 08:00–00:00; Fri–Sat 08:00–01:00; Sun 08:00–00:00",
+      "comparative_context": "A Kreuzberg institution known for its authentic technique and legacy rather than flash",
+      "critical_assessment": "A reliable mid‑range ocakbaşı delivering genuine Turkish flavors and value grounded in Berlin culinary history.",
+      "google_maps_name": "Hasir Restaurant",
+      "google_maps_url": "https://maps.google.com/?cid=11943487455487135675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Adalbertstraße 12, 10999 Berlin-Bezirk Friedrichshain-Kreuzberg",
+      "google_maps_place_id": "ChIJeQEO3FBPqEcRuw-lu4_Kv6U",
+      "google_maps_rating": 4.5,
+      "google_maps_review_count": 1910,
+      "google_maps_hours_compact": "Mon–Thu 12:00–00:00; Fri–Sat 12:00–01:00; Sun 12:00–00:00",
       "maps_api_verified": true,
       "exists_in_berlin": true,
       "permanently_closed": false,
@@ -466,212 +171,38 @@
       "verified": true,
       "verification_notes": "Places API verified (OPERATIONAL)",
       "source_urls": [
-        "https://www.berlinfoodstories.com/map/pamfilya",
-        "https://restaurantguru.com/Pamfilya‑Berlin"
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "Ägäis",
-      "topic_ids": [
-        "turkish_middle_eastern_caucasus",
-        "Turkish",
-        "fish"
-      ],
-      "name": "Ägäis",
-      "neighborhood": "Neukölln",
-      "address": "Weigandufer 35, 12053 Berlin",
-      "cuisine": "Turkish fish",
-      "price_tier": "€€",
-      "value_label": "good value",
-      "fine_dining": false,
-      "strengths": [
-        "Highly refined grilled fish dishes (dorade, red mullet) with minimalist treatment",
-        "Subtle mezze, thoughtful execution by former Ergün’s chef"
-      ],
-      "weaknesses": [
-        "Sparse menu, less lively ambiance, only few vegan options"
-      ],
-      "comparative_context": "A rare example of Turkish fish specialty in Neukölln, elevating technique above show.",
-      "critical_assessment": "For those looking for clean, expertly grilled fish grounded in Turkish tradition—not flash, but finesse at restrained pricing.",
-      "google_maps_name": "Ägäis Fisch Restaurant",
-      "google_maps_url": "https://maps.google.com/?cid=12452059319223732937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Hermannstraße 117, 12051 Berlin",
-      "google_maps_place_id": "ChIJ1RZM0pBPqEcRyUpsHPqZzqw",
-      "google_maps_rating": 5.0,
-      "google_maps_review_count": 110,
-      "google_maps_hours_compact": "Mon–Thu 13:00–00:00; Fri–Sat 13:00–02:00; Sun 13:00–00:00",
-      "maps_api_verified": true,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "source_urls": [
-        "https://mitvergnuegen.com/tipps/aegaeis‑tuerkische‑fischgerichte‑in‑neukoelln",
-        "https://www.tip-berlin.de/essen-trinken/restaurants/aegaeis-neukoelln-fisch-restaurant/"
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "Big Bascha",
-      "topic_ids": [
-        "turkish_middle_eastern_caucasus",
-        "Levantine",
-        "Lebanese",
-        "breakfast"
-      ],
-      "name": "Big Bascha",
-      "neighborhood": "Moabit",
-      "address": "Huttenstraße 5, 10553 Berlin",
-      "cuisine": "Lebanese / Levantine breakfast",
-      "price_tier": "€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Authentic Lebanese classics (fatteh, hummus, manakish) at breakfast/lunch",
-        "Unpretentious, simple, reliable",
-        "Great outdoor seating in summer"
-      ],
-      "weaknesses": [
-        "Limited by narrow time window (breakfast/lunch), more casual setting"
-      ],
-      "comparative_context": "One of the rare reliable Lebanese breakfast spots in Moabit, valued for flavor over presentation.",
-      "critical_assessment": "Ideal for regional technique-first Levantine morning fare; not for evening or lavish experience.",
-      "google_maps_name": "Big Bascha",
-      "google_maps_url": "https://maps.google.com/?cid=15970551625816792714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Huttenstraße 5, 10553 Berlin",
-      "google_maps_place_id": "ChIJoZ5ZDBNRqEcRit7YixbMot0",
-      "google_maps_rating": 4.8,
-      "google_maps_review_count": 2330,
-      "google_maps_hours_compact": "Daily 08:30–17:00",
-      "maps_api_verified": true,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "source_urls": [
-        "https://mitvergnuegen.com/tipps/arabisch‑fruehstuecken‑im‑big‑bascha‑in‑moabit",
-        "https://www.berlinfoodstories.com/map/big‑bascha"
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "Adana Grillhaus (Kreuzberg)",
-      "topic_ids": [
-        "turkish_middle_eastern_caucasus",
-        "turkish",
-        "grill"
-      ],
-      "name": "Adana Grillhaus",
-      "neighborhood": "Kreuzberg",
-      "address": "Manteuffelstraße 86, 10997 Berlin",
-      "cuisine": "Turkish grill",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Consistently strong classic Turkish grill dishes (Adana kebap, lamb chops, köfte)",
-        "Longstanding local reputation across multiple locations"
-      ],
-      "weaknesses": [
-        "Some mixed reports about inconsistent service or meat quality"
-      ],
-      "comparative_context": "Reliable mid‑range grill specialist in Kreuzberg among few that sustain authenticity despite local fame.",
-      "critical_assessment": "Meets enthusiast’s expectations for technique and flavor, though casual setting may lack polish; ordering early may avoid crowd and variability.",
-      "google_maps_name": "Cevats Adana Grillhaus® \"The Original\"",
-      "google_maps_url": "https://maps.google.com/?cid=3901475484461481539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Audre-Lorde-Straße 77, 10997 Berlin",
-      "google_maps_place_id": "ChIJrSyqfzVOqEcRQ744P0jTJDY",
-      "google_maps_rating": 4.7,
-      "google_maps_review_count": 2319,
-      "google_maps_hours_compact": "Mon–Thu 12:00–03:00; Fri–Sat 12:00–04:00; Sun 12:00–03:00",
-      "maps_api_verified": true,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "source_urls": [
-        "https://www.qiez.de/tuerkische‑restaurants‑berlin‑tuerkisch‑essen‑top‑10‑qiez/",
-        "https://www.tripadvisor.de/Restaurant_Review‑g187323‑d2232771‑Reviews‑Adana_Grillhaus‑Berlin.html"
-      ],
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "Lahmacun Kebab Haus (Küsleme)",
-      "topic_ids": [
-        "turkish_middle_eastern_caucasus",
-        "Turkish",
-        "Levantine",
-        "lahmacun"
-      ],
-      "name": "Lahmacun Kebab Haus (Küsleme)",
-      "neighborhood": "Wedding",
-      "address": "Luxemburger Straße 6, 13353 Berlin",
-      "cuisine": "Turkish / Levantine",
-      "price_tier": "€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Outstanding lahmacun and kelle paça, underrated gem",
-        "Excellent technical execution in simple format"
-      ],
-      "weaknesses": [
-        "Very limited menu and almost no atmosphere—focused on the food."
-      ],
-      "comparative_context": "Next‑door to Pamfilya but more focused, offering standout lahmacun in minimalist setting.",
-      "critical_assessment": "Though unassuming, it serves some of the most technically adept Turkish snacks in Wedding; ideal for focused purist visits.",
-      "google_maps_name": "Lahmacun Kebab Haus",
-      "google_maps_url": "https://maps.google.com/?cid=8096592926846417793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_address": "Luxemburger Str. 6, 13353 Berlin",
-      "google_maps_place_id": "ChIJdU8UKOFRqEcRgfuej17gXHA",
-      "google_maps_rating": 4.8,
-      "google_maps_review_count": 850,
-      "google_maps_hours_compact": "Mon–Thu 08:00–00:00; Fri–Sat 08:00–02:00; Sun 08:00–23:50",
-      "maps_api_verified": true,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "source_urls": [
-        "https://www.berlinfoodstories.com/map/lahmacun‑kebab‑haus"
+        "turn0search2"
       ],
       "ingestion_source": "openai"
     },
     {
       "id": "Fes Turkish BBQ",
       "topic_ids": [
-        "turkish_middle_eastern_caucasus",
-        "Turkish",
-        "BBQ",
-        "grill"
+        "turkish_middle_eastern_caucasus"
       ],
       "name": "Fes Turkish BBQ",
       "neighborhood": "Kreuzberg",
-      "address": "Hasenheide 58, 10967 Berlin",
-      "cuisine": "Turkish BBQ",
+      "address": "Hasenheide 58",
+      "cuisine": "Turkish/Mediterranean grill",
       "price_tier": "€€",
       "value_label": null,
       "fine_dining": false,
       "strengths": [
-        "Table‑grill shared BBQ with marinated lamb, chicken, steak; interactive, lively terrace",
-        "Strong marinades and communal experience"
+        "Indoor Turkish grill experience with built‑in tabletop grills for a playful DIY element",
+        "Classic meze and well‑marinated meats served with flatbread and rice—strong regional identity"
       ],
       "weaknesses": [
-        "Casual ambiance may not suit those focused purely on technique",
-        "Possibly more about experience than precision cooking"
+        "Focuses more on the experience and meat selection rather than deep regional dishes",
+        "Price tier moderate but may feel slightly elevated for a casual grill"
       ],
-      "comparative_context": "Offers a more social, BBQ‑centric take within the Turkish spectrum, contrasting grill‑house stalwarts.",
-      "critical_assessment": "Fun and delicious group‑oriented BBQ with solid execution of marinades; less disciplined than ocakbasi classics.",
+      "comparative_context": "Unlike generic döner stands, Fes offers a hands‑on ocakbaşı style grill in Kreuzberg with real craft",
+      "critical_assessment": "A playful, solid-value Turkish grill spot that excels in shared meze and DIY grilling, though it leans more toward fun than deep regional nuance.",
       "google_maps_name": "Fes",
       "google_maps_url": "https://maps.google.com/?cid=17901661913376805960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "google_maps_address": "Hasenheide 58, 10967 Berlin-Bezirk Friedrichshain-Kreuzberg",
       "google_maps_place_id": "ChIJdQablM9PqEcRSNT2w6l6b_g",
       "google_maps_rating": 4.7,
-      "google_maps_review_count": 1561,
+      "google_maps_review_count": 1564,
       "google_maps_hours_compact": "Tue–Sun 17:00–23:00 (closed Mon)",
       "maps_api_verified": true,
       "exists_in_berlin": true,
@@ -680,7 +211,130 @@
       "verified": true,
       "verification_notes": "Places API verified (OPERATIONAL)",
       "source_urls": [
-        "https://www.qiez.de/tuerkische‑restaurants‑berlin‑tuerkisch‑essen‑top‑10‑qiez/"
+        "turn0search0"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "Toros Tantuni",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus",
+        "specialist_neighborhood"
+      ],
+      "name": "Toros Tantuni",
+      "neighborhood": "Kreuzberg",
+      "address": "Oranienplatz 2",
+      "cuisine": "Turkish Mersin‑style tantuni",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Highly focused on Mersin regional specialty—fresh entrecote cubes with spices and handmade dürüm",
+        "Affordable, snack‑style specialist with strong technique"
+      ],
+      "weaknesses": [
+        "Very limited menu—specialist only",
+        "Casual street‑food vibe, not for sit‑down dining"
+      ],
+      "comparative_context": "A neighborhood gem offering deep focus on a single southern Turkish street food",
+      "critical_assessment": "A standout specialist for what it does—tantuni done very well at an accessible price.",
+      "google_maps_name": "Pizzeria Toros",
+      "google_maps_url": "https://maps.google.com/?cid=1543942635703526120&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Oppelner Str. 40, 10997 Berlin",
+      "google_maps_place_id": "ChIJWU8hvk1OqEcR6GKwoqUvbRU",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 741,
+      "google_maps_hours_compact": "Mon–Fri 12:00–21:30; Sun 12:00–21:30; (closed Sat)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "turn0search5"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "Osmans Töchter",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus",
+        "mediterranean_european"
+      ],
+      "name": "Osmans Töchter",
+      "neighborhood": "Prenzlauer Berg",
+      "address": "Prenzlauer Allee 242‑247",
+      "cuisine": "Anatolian/Mediterranean Turkish",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Elevated Anatolian cuisine with Mediterranean influences and refined presentation",
+        "Lovely mezze with creativity and regional depth"
+      ],
+      "weaknesses": [
+        "Interior more stylized—somewhat less neighborhood‑casual",
+        "Prices may lean upward for mezze-sharing concept"
+      ],
+      "comparative_context": "A refined Turkish‑Mediterranean spot that blends regional authenticity with polish",
+      "critical_assessment": "A madrange choice for refined mezze and Turkish regional depth in Prenzlauer Berg.",
+      "google_maps_name": "Osmans Töchter",
+      "google_maps_url": "https://maps.google.com/?cid=13278237169014365985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Bötzow Areal, Prenzlauer Allee 247, 10405 Berlin",
+      "google_maps_place_id": "ChIJhxeXxp0hZUERIV99plrGRbg",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 1964,
+      "google_maps_hours_compact": "Mon–Thu 17:00–00:00; Fri–Sat 17:00–01:00; (closed Sun)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "turn0search6"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "ITA Bistro",
+      "topic_ids": [
+        "mediterranean_european",
+        "specialist_neighborhood"
+      ],
+      "name": "ITA Bistro",
+      "neighborhood": "Prenzlauer Berg",
+      "address": "Lettestraße 9",
+      "cuisine": "International/wood‑oven seasonal",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Creative seasonal sharing menu cooked in a wood‑oven, globally influenced",
+        "Open‑kitchen offers craft‑driven, warm, social atmosphere"
+      ],
+      "weaknesses": [
+        "Concept is eclectic—not strongly tied to one cuisine or region",
+        "Menu varies—may lack consistent signature dishes"
+      ],
+      "comparative_context": "A neighborhood bistro with global inspirations executed confidently and accessibly",
+      "critical_assessment": "An inventive, mid‑range option showcasing technique and seasonal creativity in a convivial setting.",
+      "google_maps_name": "ITA Bistro",
+      "google_maps_url": "https://maps.google.com/?cid=11092233695097909376&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Lettestraße 9, 10437 Berlin",
+      "google_maps_place_id": "ChIJS-ccbnBNqEcRgPDtycaH75k",
+      "google_maps_rating": 4.5,
+      "google_maps_review_count": 325,
+      "google_maps_hours_compact": "Mon 18:00–23:30; Thu–Sat 18:00–23:30; Sun 01:00–21:30; (closed Tue–Wed)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "turn0search4"
       ],
       "ingestion_source": "openai"
     }
