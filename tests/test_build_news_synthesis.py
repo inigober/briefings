@@ -63,6 +63,9 @@ class TestBuildNewsSynthesisInbox(unittest.TestCase):
         self.assertGreaterEqual(len(payload["items"]), 1)
         self.assertGreaterEqual(len(payload["selected_read_candidates"]), 1)
         self.assertIn("spain", payload["section_counts"])
+        self.assertIn("editorial_context", payload)
+        self.assertIn("recent_topics", payload["editorial_context"])
+        self.assertIn("rejected_candidates", payload["editorial_context"])
 
     def test_drops_dead_urls_from_sections_and_reads(self) -> None:
         raw = {

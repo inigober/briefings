@@ -40,9 +40,24 @@ Read **only** these files, in order:
 
 The synthesis file contains pre-ranked items per section plus diversified `selected_read_candidates` — enough to write all seven sections.
 
+**Editorial context in synthesis JSON:** Read `editorial_context.recent_topics` (last 7 days from `dedup_index.md`) and `editorial_context.rejected_candidates` (items demoted at slim time with reasons). Treat `avoid_unless_material` hits in `recent_topics` as **hard rejects** unless the story has a material trigger. Prefer higher `relevance_score` items when choosing among remaining candidates.
+
 **URL discipline:** All items are from RSS or WordPress feeds. Copy footnote URLs verbatim from `sources[0].url` — never invent paths.
 
 ## Step 2 — Synthesize (one pass)
+
+### Hard selection rules (before writing)
+
+Apply in order for Spain, Germany, Berlin, and World (3 stories each):
+
+1. **Dedup / novelty:** Reject any story matching `editorial_context.recent_topics` or `dedup_index.md` unless there is a **material development** (court ruling, resignation, legislation passed, election result, major data release, significant escalation/de-escalation). `avoid_unless_material` in `topics.yaml` is a **hard reject** unless material.
+2. **One theme per section:** Never publish two stories on the same theme in one section (e.g. two school-heat pieces, two Zapatero/Plus Ultra pieces, two EU institutional pieces). If the inbox still contains theme duplicates, keep the strongest one only.
+3. **Geographic fit:**
+   - **Germany 🇩🇪** — developments in or about **Germany** (policy, economy, society). US/Iran/Middle East stories belong in **World** even if the URL is zeit.de or tagesspiegel.de/internationales.
+   - **Berlin 🏙️** — **inside Berlin** or direct city governance. Brandenburg commuter towns are World/Other Headlines unless there is a Berlin policy angle.
+   - **Spain 🇪🇸** — Spain-focused; EU stories belong in Germany or World unless Spain is the primary actor.
+4. **Reject slim-time noise:** Do not elevate items listed in `rejected_candidates` with `noise:` or low relevance unless no better citable item exists for that section (note the gap instead).
+5. **Audit trail:** After selecting stories, append to `state/news/last_run.json` a `rejected_at_synthesis` array: `{headline, section, reason}` for any inbox item you considered but rejected under rules 1–4 (keep ≤12 entries).
 
 Produce a novelty-first briefing with exactly these sections:
 
@@ -62,7 +77,7 @@ Add a **1–2 sentence intro** immediately after the title (before `## Spain`): 
 
 Each news story: headline, summary, 💡 insight, 🧩 broader context, source link.
 
-Apply anti-repetition using `dedup_index.md` — reject topics unless materially new. Selected Reads: reject URLs in `selected_reads_index.md` (last 5 briefings). For Other Headlines Today, scan inbox items **not** chosen for sections 1–4 and merge into short thematic lines (e.g. Iran deal signing, Hormuz, Venezuela strike).
+Apply anti-repetition using `dedup_index.md` and `editorial_context.recent_topics` in the synthesis inbox — reject topics unless materially new. Selected Reads: reject URLs in `selected_reads_index.md` (last 5 briefings). For Other Headlines Today, scan inbox items **not** chosen for sections 1–4 and merge into short thematic lines (e.g. Iran deal signing, Hormuz, Venezuela strike).
 
 Before writing, mentally run the checklist in `news-briefing-style.mdc`. Fix only failing items — do not polish prose twice.
 
@@ -70,7 +85,7 @@ Before writing, mentally run the checklist in `news-briefing-style.mdc`. Fix onl
 
 1. Append to `state/news/dedup_index.md` (trim >14 days)
 2. Append to `state/news/selected_reads_index.md` (trim >5 briefings)
-3. Update `state/news/last_run.json` — include `briefing_type: "news"`, `inbox_path` pointing to the synthesis file used
+3. Update `state/news/last_run.json` — include `briefing_type: "news"`, `inbox_path` pointing to the synthesis file used, and `rejected_at_synthesis` from Step 2 rule 5
 
 ## Step 4 — Verify sources, commit, and push (required)
 

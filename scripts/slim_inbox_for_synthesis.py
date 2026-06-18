@@ -22,6 +22,12 @@ import yaml
 from briefing_paths import load_briefing_type
 from culture_calendar import is_publisher_venue_item
 from culture_dates import normalize_tuesday_run_date
+from news_relevance import (
+    item_theme_keys,
+    load_dedup_entries,
+    relevance_cfg,
+    score_news_item_with_context,
+)
 from restaurant_dates import normalize_thursday_run_date
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -52,8 +58,11 @@ NEWS_SLIM_ITEM_KEYS = (
     "verified",
     "url_live",
     "url_verify_notes",
+    "relevance_score",
     "sources",
 )
+
+NEWS_DEDUP_INDEX_PATH = REPO_ROOT / "state" / "news" / "dedup_index.md"
 
 CULTURE_SLIM_ITEM_KEYS = (
     "id",
@@ -189,11 +198,15 @@ def pick_diversified_selected_reads(
     sources_cfg: dict,
     *,
     reference_date: date | None = None,
+    topic_cfg: dict | None = None,
+    dedup_entries: list[dict] | None = None,
 ) -> list[dict]:
     """Rank read-pool items, enforce publisher caps, and reserve category diversity."""
     ref = reference_date or datetime.now(timezone.utc).date()
     max_age_days = selected_reads_max_age_days(sources_cfg)
     max_per_publisher = selected_reads_max_per_publisher(sources_cfg)
+    world_topic = topic_cfg or {}
+    dedup = dedup_entries or []
 
     eligible = [
         item
@@ -201,7 +214,17 @@ def pick_diversified_selected_reads(
         if item_is_citable(item)
         and item_is_fresh_enough(item, reference_date=ref, max_age_days=max_age_days)
     ]
-    ranked = sorted(eligible, key=score_news_item, reverse=True)
+    ranked = sorted(
+        eligible,
+        key=lambda item: score_news_item(
+            item,
+            section_id="world",
+            topic_cfg=world_topic,
+            sources_cfg=sources_cfg,
+            dedup_entries=dedup,
+        ),
+        reverse=True,
+    )
 
     picked: list[dict] = []
     publisher_counts: dict[str, int] = {}
@@ -254,37 +277,21 @@ def matches_domain(host: str, allowed: set[str]) -> bool:
     return any(host == d or host.endswith(f".{d}") for d in allowed)
 
 
-def score_news_item(item: dict) -> int:
-    score = 0
-    source = item.get("ingestion_source") or "openai"
-    url_live = item.get("url_live")
-
-    if source in ("rss", "wordpress"):
-        score += 35
-    elif url_live == "live":
-        score += 18
-    elif url_live == "paywalled":
-        score += 8
-    elif url_live == "dead":
-        score -= 80
-    elif source == "openai":
-        score -= 15
-
-    if item.get("verified") and url_live != "dead":
-        score += 12
-    elif item.get("verified") is False and source == "openai":
-        score -= 20
-
-    if (item.get("why_it_matters") or "").strip():
-        score += 8
-    if (item.get("broader_context") or "").strip():
-        score += 8
-    if item.get("is_structural"):
-        score += 5
-    if item.get("material_development"):
-        score += 5
-    if item.get("is_follow_up"):
-        score += 1
+def score_news_item(
+    item: dict,
+    *,
+    section_id: str = "world",
+    topic_cfg: dict | None = None,
+    sources_cfg: dict | None = None,
+    dedup_entries: list[dict] | None = None,
+) -> int:
+    score, _ = score_news_item_with_context(
+        item,
+        section_id=section_id,
+        topic_cfg=topic_cfg or {},
+        sources_cfg=sources_cfg or {},
+        dedup_entries=dedup_entries or [],
+    )
     return score
 
 
@@ -389,10 +396,76 @@ def item_is_citable(item: dict) -> bool:
     return item.get("url_live") in ("live", "paywalled")
 
 
-def pick_top_news(items: list[dict], cap: int) -> list[dict]:
-    citable = [i for i in items if item_is_citable(i)]
-    ranked = sorted(citable, key=score_news_item, reverse=True)
-    return [slim_item(i, NEWS_SLIM_ITEM_KEYS) for i in ranked[:cap]]
+def pick_top_news(
+    items: list[dict],
+    cap: int,
+    *,
+    section_id: str,
+    topic_cfg: dict,
+    sources_cfg: dict,
+    dedup_entries: list[dict],
+) -> tuple[list[dict], list[dict]]:
+    """Pick top news items with editorial scoring, theme de-duplication, and audit trail."""
+    cfg = relevance_cfg(sources_cfg)
+    citable = [item for item in items if item_is_citable(item)]
+
+    scored: list[tuple[dict, int, list[str], list[str]]] = []
+    for item in citable:
+        score, notes = score_news_item_with_context(
+            item,
+            section_id=section_id,
+            topic_cfg=topic_cfg,
+            sources_cfg=sources_cfg,
+            dedup_entries=dedup_entries,
+        )
+        themes = item_theme_keys(item, cfg)
+        scored.append((item, score, notes, themes))
+
+    scored.sort(key=lambda row: row[1], reverse=True)
+
+    picked: list[dict] = []
+    used_themes: set[str] = set()
+    rejections: list[dict] = []
+    audit_window = cap * int(cfg.get("audit_rank_multiplier") or 2)
+
+    for index, (item, score, notes, themes) in enumerate(scored):
+        headline = item.get("headline") or item.get("id") or "unknown"
+        item_id = item.get("id") or headline
+
+        if len(picked) >= cap:
+            if index < audit_window:
+                rejections.append(
+                    {
+                        "id": item_id,
+                        "headline": headline,
+                        "section": section_id,
+                        "reason": "rank_below_cap",
+                        "relevance_score": score,
+                        "notes": notes,
+                    }
+                )
+            continue
+
+        theme_conflict = next((theme for theme in themes if theme in used_themes), None)
+        if theme_conflict:
+            rejections.append(
+                {
+                    "id": item_id,
+                    "headline": headline,
+                    "section": section_id,
+                    "reason": f"theme_cap:{theme_conflict}",
+                    "relevance_score": score,
+                    "notes": notes,
+                }
+            )
+            continue
+
+        slim = slim_item(item, NEWS_SLIM_ITEM_KEYS)
+        slim["relevance_score"] = score
+        picked.append(slim)
+        used_themes.update(themes)
+
+    return picked, rejections
 
 
 def culture_item_eligible(item: dict) -> bool:
@@ -467,12 +540,27 @@ def _parse_briefing_date(date_str: str | None) -> date | None:
         return None
 
 
-def build_news_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: dict) -> dict:
+def build_news_synthesis_inbox(
+    raw: dict,
+    *,
+    sources_cfg: dict,
+    topics_cfg: dict,
+    dedup_path: Path | None = None,
+) -> dict:
     section_caps = news_section_caps(topics_cfg)
+    topics = topic_by_id(topics_cfg)
     items = raw.get("items") or []
     by_section: dict[str, list[dict]] = {sid: [] for sid in section_caps}
     read_domains = selected_read_domains(sources_cfg)
     read_pool: list[dict] = []
+
+    reference_date = _parse_briefing_date(raw.get("date")) or datetime.now(timezone.utc).date()
+    rel_cfg = relevance_cfg(sources_cfg)
+    dedup_entries = load_dedup_entries(
+        dedup_path or NEWS_DEDUP_INDEX_PATH,
+        reference_date=reference_date,
+        lookback_days=int(rel_cfg.get("dedup_lookback_days") or 7),
+    )
 
     for item in items:
         sid = news_section_id(item)
@@ -484,17 +572,37 @@ def build_news_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: dict
 
     section_items: list[dict] = []
     section_counts: dict[str, int] = {}
+    rejected_candidates: list[dict] = []
     for sid, cap in section_caps.items():
-        picked = pick_top_news(by_section[sid], cap)
+        picked, rejections = pick_top_news(
+            by_section[sid],
+            cap,
+            section_id=sid,
+            topic_cfg=topics.get(sid) or {},
+            sources_cfg=sources_cfg,
+            dedup_entries=dedup_entries,
+        )
         section_counts[sid] = len(picked)
         section_items.extend(picked)
+        rejected_candidates.extend(rejections)
 
     selected_reads = pick_diversified_selected_reads(
         read_pool,
         SELECTED_READS_CAP,
         sources_cfg,
-        reference_date=_parse_briefing_date(raw.get("date")),
+        reference_date=reference_date,
+        topic_cfg=topics.get("world") or {},
+        dedup_entries=dedup_entries,
     )
+
+    recent_topics = [
+        {
+            "slug": entry["slug"],
+            "section": entry["section"],
+            "date": entry["date"],
+        }
+        for entry in dedup_entries
+    ]
 
     rel_inbox = str(raw.get("inbox_dir") or "inbox/news")
     return {
@@ -507,6 +615,15 @@ def build_news_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: dict
         "section_counts": section_counts,
         "selected_read_candidates": selected_reads,
         "items": section_items,
+        "editorial_context": {
+            "recent_topics": recent_topics,
+            "rejected_candidates": rejected_candidates,
+            "note": (
+                "Pre-ranked with editorial relevance from topics.yaml, dedup_index.md, "
+                "and news_relevance rules in sources.yaml. Synthesis must still apply "
+                "hard reject rules in news-briefing-style.mdc."
+            ),
+        },
         "note": (
             "Token-light slice for synthesis. Full warehouse is in -raw.json. "
             "All items come from RSS or WordPress feeds — copy source URLs verbatim."

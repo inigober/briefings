@@ -105,15 +105,25 @@ Use full article URLs — never a publisher homepage.
 
 ## Anti-repetition (mandatory)
 
-Before selecting any story, read `state/news/dedup_index.md` and the **last 7** briefings in `briefings/news/`.
+Before selecting any story, read `state/news/dedup_index.md`, `editorial_context.recent_topics` in the synthesis inbox, and the **last 7** briefings in `briefings/news/`.
 
-**Reject** if the topic appeared recently unless there is a **material development:**
+**Hard reject** if the topic appeared recently unless there is a **material development:**
 
 - legislation passed, court ruling, resignation, election result
 - major investment, major data release, major policy change
 - significant escalation or de-escalation
 
+**`avoid_unless_material` in `topics.yaml` is a hard reject** unless the inbox item clearly matches a `material_return_examples` trigger (e.g. court ruling, resignation).
+
 **Not material:** another article on the same story, politicians repeating positions, analysts commenting again, same trend with no new development.
+
+**One theme per section:** Do not publish two stories on the same theme within Spain, Germany, Berlin, or World (e.g. two school-heat pieces, two Zapatero pieces).
+
+**Geographic fit (hard):**
+
+- **Germany 🇩🇪** — Germany-relevant only; US/Middle East/global security stories go in **World** even from German outlets.
+- **Berlin 🏙️** — Berlin city proper; Brandenburg spillover only if structurally important.
+- **World 🌐** — distinct from Spain/Germany; no European institution story if already covered elsewhere unless new material.
 
 **Novelty test:** "If someone read the previous 7 briefings, would they learn something genuinely new?" If no → reject.
 
@@ -174,13 +184,15 @@ After choosing Spain/Germany/Berlin/World stories, scan **remaining** items in t
 1. Date in title?
 2. Short intro framing today's through-line (1–2 sentences)?
 3. Spain, Germany, Berlin each contain **new** information?
-3. World includes ≥2 non-European regions?
-4. World distinct from Spain/Germany?
-5. Selected Reads diversified (≥3 publishers, Guardian ≤1)? Reuters/AP ≤1?
-6. No Selected Read URL in last 5 briefings?
-7. Other Headlines Today captures major unused inbox themes (crisp, no links)?
-8. Every footnote URL copied verbatim from inbox `sources[0].url`?
-9. Would a daily reader learn something genuinely new?
+4. No duplicate themes within any one section?
+5. Germany/Berlin stories geographically fit their section?
+6. World includes ≥2 non-European regions?
+7. World distinct from Spain/Germany?
+8. Selected Reads diversified (≥3 publishers, Guardian ≤1)? Reuters/AP ≤1?
+9. No Selected Read URL in last 5 briefings?
+10. Other Headlines Today captures major unused inbox themes (crisp, no links)?
+11. Every footnote URL copied verbatim from inbox `sources[0].url`?
+12. Would a daily reader learn something genuinely new?
 
 ## Commits
 

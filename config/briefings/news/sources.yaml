@@ -168,6 +168,56 @@ editorial_note: >
 selected_reads_max_age_days: 30
 selected_reads_max_per_publisher: 2
 
+# Editorial relevance for slim_inbox_for_synthesis.py (section ranking + audit).
+news_relevance:
+  dedup_lookback_days: 7
+  noise_title_patterns:
+    - fußball-wm
+    - fußball wm
+    - weltmeisterschaft
+    - wettervorhersage
+    - bilder des tages
+    - liveticker
+    - pressestimmen
+    - tennis open
+    - serena-mania
+    - "fotografie:"
+    - militärmusik
+    - restaurant
+  theme_cluster_keywords:
+    school_heat:
+      - school
+      - classroom
+      - climatiz
+      - aula
+      - cole achicharr
+      - refrigerat
+    zapatero_plus_ultra:
+      - zapatero
+      - plus ultra
+      - leire díez
+      - leire diez
+    eu_institutions:
+      - von der leyen
+      - european commission
+      - brussels playbook
+      - kallas
+    world_cup:
+      - world cup
+      - fußball-wm
+      - messi
+      - mbappé
+      - mbappe
+      - ronaldo
+    memorial_ceremony:
+      - mahnmal
+      - memorial
+      - gedenkt
+    paid_heritage_entry:
+      - eintrittsgeld
+      - paid entry
+      - admission fee
+
 # RSS: headline ingestion (scripts/fetch_rss.py → inbox/YYYY-MM-DD-rss.json).
 # WordPress: REST API posts (scripts/fetch_wordpress.py → inbox/YYYY-MM-DD-wordpress.json).
 # merge_news_inbox.py combines both into inbox/YYYY-MM-DD-raw.json.
