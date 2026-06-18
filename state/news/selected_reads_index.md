@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-18
+
+- [When Americans choose Chinese AI](https://restofworld.org/2026/when-americans-choose-chinese-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [Europe's budget war starts now](https://www.politico.eu/podcast/brussels-playbook-podcast/europes-budget-war-starts-now/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Trump Defends His Iran Deal](https://foreignpolicy.com/2026/06/17/us-iran-peace-deal-draft-text-mou-trump-g7-lebanon-war-israel/) — Foreign Policy
+- [Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his ability to walk](https://www.theguardian.com/global-development/2026/jun/17/boy-injured-us-strike-somalia-ability-walk-operation-abdiqadir-salah-surgery-civilians-november-attack) — The Guardian
+
 ## 2026-06-17
 
 - [Spotify's post-English AI future](https://restofworld.org/2026/spotify-global-ai-music-streaming-strategy/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Trump's Big Weekend Could Derail the G-7](https://foreignpolicy.com/2026/06/12/trump-iran-war-peace-talks-deal-g7-leaders-summit/) — Foreign Policy
 - [Andy Burnham: the man who wants to be PM](https://www.politico.eu/podcast/westminster-insider/andy-burnham-the-man-who-wants-to-be-pm/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - ['Spy turtles' and 'spy fish' being used to monitor Chinese waters, Beijing claims](https://www.theguardian.com/world/2026/jun/12/china-spy-turtles-spy-fish-monitor-waters-claims) — The Guardian
-
-## 2026-06-13
-
-- [An ideological tug-of-war: the pressures facing Iran's World Cup squad](https://www.theguardian.com/world/2026/jun/12/iran-first-play-war-world-cup-fifa) — The Guardian
-- [Weather tracker: heat, humidity and thunderstorms a danger at World Cup](https://www.theguardian.com/environment/2026/jun/12/weather-tracker-heat-humidity-thunderstorms-risk-world-cup) — The Guardian
-- [Jessie J's triumphant return puts lucrative Chinese market in spotlight](https://www.theguardian.com/world/2026/jun/13/jessie-j-lucrative-chinese-market-westlife-charli-xcx) — The Guardian
-- [Trump says leader of Venezuelan Tren de Aragua gang killed in US strike](https://www.theguardian.com/us-news/2026/jun/12/trump-venezuela-tren-de-aragua-leader-killed) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-18
+
+- **spain-zapatero-judge-maintains-imputation** — Judge keeps imputation after closed interrogation citing four evidence streams (section: spain)
+- **spain-zapatero-jewels-gift-timing-legal** — Tax experts see limited penal scope if jewels were presidential gifts (section: spain)
+- **spain-latin-wealth-la-moraleja** — Latin American rich shift from Salamanca to La Moraleja (section: spain)
+- **germany-hannover-berlin-rail-october** — Hannover–Berlin corridor faces long diversions from October (section: germany)
+- **germany-green-chemistry-berlin-hub** — €30m green-chemistry research hub positions Berlin as industry brain (section: germany)
+- **germany-iran-mou-not-a-deal** — Zeit analysis: published Iran MOU is deal that helps Trump little (section: germany)
+- **berlin-mietenkataster-wuchermiete** — Senate advances citywide rent registry against gouging (section: berlin)
+- **berlin-alexanderplatz-tunnel-closure** — Straßentunnel at Alexanderplatz fully closed from Monday (section: berlin)
+- **berlin-steglitz-school-seventh-grade-outsourcing** — Steglitz-Zehlendorf school protests relocating seventh-year classes (section: berlin)
+- **world-ghana-reparatory-justice-accra** — Ghana hosts major reparations conference after UN slavery resolution (section: world)
+- **world-titan-sub-canadian-report** — Canadian inquiry blames Titan implosion on design flaws and groupthink (section: world)
+- **world-ebola-bunia-drc-workers** — Ebola outbreak paralyses Bunia schools and informal economy (section: world)
+
 ## 2026-06-17
 
 - **spain-zapatero-audiencia-nacional-appearance** — First ex-PM appears before Audiencia Nacional as investigatee in Plus Ultra probe (section: spain)
