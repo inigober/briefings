@@ -1,12 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-06-18",
-  "briefing_date": "2026-06-18",
-  "inbox_date": "2026-06-18",
+  "date": "2026-06-19",
+  "briefing_date": "2026-06-19",
+  "inbox_date": "2026-06-19",
   "status": "success",
-  "briefing_path": "briefings/news/2026-06-18.md",
-  "inbox_path": "inbox/news/2026-06-18-synthesis.json",
+  "briefing_path": "briefings/news/2026-06-19.md",
+  "inbox_path": "inbox/news/2026-06-19-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
-  "notes": "Synthesis from 2026-06-18 pre-fetch; Zapatero post-hearing imputation, Berlin Mietenkataster, Hannover–Berlin rail diversions, Ghana reparations conference."
+  "rejected_at_synthesis": [
+    {"headline": "Zapatero reconoció que recomendó a sus hijas pero defendió su labor", "section": "spain", "reason": "recent_topics: Zapatero/Plus Ultra probe covered 12–18 June"},
+    {"headline": "Un informe de Hacienda revela que la pareja de Ayuso facturó 4,4 millones a Quirón", "section": "spain", "reason": "theme_duplicate: kept EL PAÍS Ayuso–Quirón tax-report story"},
+    {"headline": "Qué piensan los expertos sobre el acuerdo de Irán y EEUU", "section": "spain", "reason": "geographic_misfit: Iran diplomacy belongs in World/Germany"},
+    {"headline": "Morning Briefing Podcast: Iran: Die Mullahs und ihr Kill Switch", "section": "germany", "reason": "recent_topics: Iran MOU/deal covered 15–18 June"},
+    {"headline": "Wenn die Hitze zur Gefahr wird: Kinder verlieren bis zu 700 Milliliter Flüssigkeit", "section": "germany", "reason": "avoid_unless_material: heatwave adaptation without new policy trigger"},
+    {"headline": "New York feiert 250. Geburtstag: Und entdeckt das Wasser wieder", "section": "germany", "reason": "geographic_misfit: US urban story belongs in World"},
+    {"headline": "Senate launches citywide rent registry to hunt gouging landlords", "section": "berlin", "reason": "recent_topics: Mietenkataster covered 18 June"},
+    {"headline": "Alexanderplatz road tunnel closes fully from Monday", "section": "berlin", "reason": "recent_topics: tunnel closure covered 18 June"},
+    {"headline": "Ghana hosts first major reparations conference", "section": "world", "reason": "recent_topics: Ghana reparations covered 18 June"},
+    {"headline": "Seven-year-old Abdiqadir was hit in a US airstrike", "section": "world", "reason": "selected_reads_index: URL used in 2026-06-18 briefing"},
+    {"headline": "When Americans choose Chinese AI", "section": "selected_reads", "reason": "selected_reads_index: URL used in 2026-06-18 briefing"},
+    {"headline": "Feijóo se felicita por la paz en Irán tras jalear la guerra", "section": "spain", "reason": "theme_duplicate: Iran ceasefire commentary, not Spain-primary"}
+  ],
+  "notes": "Synthesis from 2026-06-19 pre-fetch; Ayuso–Quirón Hacienda report, Sánchez Q1 2027 election signal, Boiron homeopathy pivot, Berlin Nova/Q*ube, Chile undersea cable veto."
 }

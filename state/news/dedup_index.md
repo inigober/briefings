@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-19
+
+- **spain-ayuso-quiron-partner-tax-report** — Hacienda documents €4.4M Quirón billing to Ayuso's partner (section: spain)
+- **spain-sanchez-pnv-election-q1-2027** — Sánchez accepts Q1 2027 election window if budget fails (section: spain)
+- **spain-boiron-homeopathy-supplement-pivot** — Boiron shifts to food supplements as pharmacy sales fall 37.6% (section: spain)
+- **germany-fake-online-shops-enforcement** — Consumer ministers target fraudulent e-commerce defrauding thousands (section: germany)
+- **germany-renault-r4-e-tech-plein-sud** — Renault launches folding-roof electric R4 variant (section: germany)
+- **germany-solstice-sunset-calendar-mismatch** — Latest sunset does not fall on longest day due to time-zone mechanics (section: germany)
+- **berlin-nova-exhibition-funding-dispute** — Senate internal papers show wrangling over €1.4M 7 October memorial grant (section: berlin)
+- **berlin-qube-queer-youth-centre-neukoelln** — Q*ube marks five years serving LGBTQ+ youth on precarious funding (section: berlin)
+- **berlin-blue-algae-swimming-risk** — Water ecologist warns bathers underestimate algae and cercaria risk (section: berlin)
+- **world-chile-china-undersea-cable-blocked** — US pressure stalls Chile–Hong Kong submarine cable project (section: world)
+- **world-india-private-nuclear-caution** — Regulators warn private firms against rushing into nuclear generation (section: world)
+- **world-south-africa-rhino-horn-sentencing** — Court sentences traffickers in 'world's largest' rhino-horn case (section: world)
+
 ## 2026-06-18
 
 - **spain-zapatero-judge-maintains-imputation** — Judge keeps imputation after closed interrogation citing four evidence streams (section: spain)

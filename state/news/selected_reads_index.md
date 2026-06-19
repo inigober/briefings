@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-19
+
+- [SpaceX warns EU satellite plan risks undermining connectivity in Ukraine](https://www.ft.com/content/0b012610-8132-4549-afd9-14bacd9db8cb) — Financial Times
+- [America Is Headed Toward the Infinite Workweek](https://www.theatlantic.com/technology/2026/06/ai-agents-jobs-exhaustion/687596/?utm_source=feed) — The Atlantic
+- [Macron, Merz attack EU's stance on Putin talks](https://www.politico.eu/article/macron-merz-attack-eus-stance-on-putin-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Cannabis commercialisation not decriminalisation drives up usage, study finds](https://www.theguardian.com/society/2026/jun/17/cannabis-commercialisation-not-decriminalisation-drives-up-usage-study) — The Guardian
+
 ## 2026-06-18
 
 - [When Americans choose Chinese AI](https://restofworld.org/2026/when-americans-choose-chinese-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [What the SpaceX IPO reveals about Gulf money in AI](https://restofworld.org/2026/spacex-ipo-gulf-money-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
 - [Bardella warns Brussels he won't moderate](https://www.politico.eu/podcast/brussels-playbook-podcast/bardella-warns-brussels-he-wont-moderate/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [The End of the U.S.-Israel Alliance](https://foreignpolicy.com/2026/06/15/israel-united-states-special-relationship-palestine-netanyahu-trump/) — Foreign Policy
-
-## 2026-06-14
-
-- [Russland vor dem Kollaps. Mit Moritz Schularick](https://www.politico.eu/podcast/berlin-playbook-podcast/russland-vor-dem-kollaps-mit-moritz-schularick/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Trump's Big Weekend Could Derail the G-7](https://foreignpolicy.com/2026/06/12/trump-iran-war-peace-talks-deal-g7-leaders-summit/) — Foreign Policy
-- [Andy Burnham: the man who wants to be PM](https://www.politico.eu/podcast/westminster-insider/andy-burnham-the-man-who-wants-to-be-pm/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- ['Spy turtles' and 'spy fish' being used to monitor Chinese waters, Beijing claims](https://www.theguardian.com/world/2026/jun/12/china-spy-turtles-spy-fish-monitor-waters-claims) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
