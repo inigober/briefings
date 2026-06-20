@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-20
+
+- **spain-ibex-foreign-fund-ownership** — BlackRock, Vanguard and Norway SWF dominate Ibex 35 share registers (section: spain)
+- **spain-hotels-booking-collective-lawsuit** — 1,400+ Spanish hotel firms prepare group claim against Booking.com (section: spain)
+- **spain-merz-eu-budget-spain-italy-alliance** — Merz hard line on EU budget as Madrid and Rome align on revenue tools (section: spain)
+- **germany-data-centre-green-power-survey** — Majority backs data-centre expansion conditional on renewables (section: germany)
+- **germany-cannabis-commercialisation-psychosis-study** — Global review links retail cannabis markets to higher usage and psychosis (section: germany)
+- **germany-munich-freight-wagons-bridge-fall** — Two freight wagons plunge from Munich bridge (section: germany)
+- **berlin-icc-investor-plan-unveil** — Senate expected to present long-delayed ICC congress-centre options (section: berlin)
+- **berlin-alba-basketball-finals-game-five** — Alba Berlin forces deciding championship game against Bayern Munich (section: berlin)
+- **berlin-zdf-schoenbohm-accountability** — Berliner Zeitung presses ZDF after second court loss in Schönbohm reporting (section: berlin)
+- **world-iran-hormuz-insurance-fees** — Tehran to require Iran-approved insurance for Hormuz transit (section: world)
+- **world-wcfo-cambodia-optical-cable-ai** — WCFO expands Cambodian fibre capacity for AI data-centre demand (section: world)
+- **world-china-leapmotor-e-bike-growth** — Leapmotor scales from repair shop to national e-bike brand (section: world)
+
 ## 2026-06-19
 
 - **spain-ayuso-quiron-partner-tax-report** — Hacienda documents €4.4M Quirón billing to Ayuso's partner (section: spain)

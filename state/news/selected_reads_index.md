@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-20
+
+- [Why dignity is the measure that matters](https://www.ft.com/content/4b57127a-357a-46ef-a0ee-4da37a624e3a) — Financial Times
+- [A Tale of Two AI Policy Regimes](https://foreignpolicy.com/2026/06/19/brazil-argentina-ai-policy-data-centers-milei/) — Foreign Policy
+- [GoPro and Roomba were U.S. pioneers. Chinese rivals now dominate](https://restofworld.org/2026/chinese-consumer-tech-brands/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [Exploring Taipingshan, Taiwan's primeval mountain escape](https://asia.nikkei.com/life-arts/life/destinations/exploring-taipingshan-taiwan-s-primeval-mountain-escape) — Nikkei Asia
+
 ## 2026-06-19
 
 - [SpaceX warns EU satellite plan risks undermining connectivity in Ukraine](https://www.ft.com/content/0b012610-8132-4549-afd9-14bacd9db8cb) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Can open-source beat OpenAI?](https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
 - [The end of Brussels' most important dinner party](https://www.politico.eu/podcast/brussels-playbook-podcast/the-end-of-brussels-most-important-dinner-party/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [South African jazz pianist Abdullah Ibrahim dies aged 91](https://www.theguardian.com/music/2026/jun/15/pianist-abdullah-ibrahim-dies) — The Guardian
-
-## 2026-06-15
-
-- [The End of Neoliberalism](https://foreignpolicy.com/2026/06/15/neoliberalism-globalization-competition-cosmopolitanism-economics-reagan-thatcher/) — Foreign Policy
-- [What the SpaceX IPO reveals about Gulf money in AI](https://restofworld.org/2026/spacex-ipo-gulf-money-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [Bardella warns Brussels he won't moderate](https://www.politico.eu/podcast/brussels-playbook-podcast/bardella-warns-brussels-he-wont-moderate/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [The End of the U.S.-Israel Alliance](https://foreignpolicy.com/2026/06/15/israel-united-states-special-relationship-palestine-netanyahu-trump/) — Foreign Policy
 
 ## Blocked until 5+ briefings have passed
 
