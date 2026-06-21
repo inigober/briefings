@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-21
+
+- [Putin's war machine sputters in drone age](https://www.ft.com/content/b409d72f-ccff-4952-8b71-dfd62d75a1cd) — Financial Times
+- [SpaceX handed lowest possible ESG rating by MSCI](https://www.ft.com/content/a0dd4ea7-ef3d-4460-a96c-8c6975a053e3) — Financial Times
+- [New museum brings Thai artist Tang Chang back into focus](https://asia.nikkei.com/life-arts/arts/new-museum-brings-thai-artist-tang-chang-back-into-focus) — Nikkei Asia
+- [Pauline Hanson's stance on paid parental leave and childcare could turn clock back by decades, economists warn](https://www.theguardian.com/australia-news/2026/jun/21/pauline-hanson-women-working-mothers-paid-parental-leave-childcare-income-gender-gap-economy-one-nation-ntwnfb) — The Guardian
+
 ## 2026-06-20
 
 - [Why dignity is the measure that matters](https://www.ft.com/content/4b57127a-357a-46ef-a0ee-4da37a624e3a) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Myanmar Is What Happens When China Fills a Vacuum](https://foreignpolicy.com/2026/06/17/myanmar-china-election-junta/) — Foreign Policy
 - [Von der Leyen won't run for a third term. Or will she?](https://www.politico.eu/podcast/brussels-playbook-podcast/von-der-leyen-wont-run-for-a-third-term-or-will-she/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [Why Anthropic Is Fighting With Trump (Again)](https://foreignpolicy.com/2026/06/16/anthropic-trump-fight-mythos-fable-5-hegseth/) — Foreign Policy
-
-## 2026-06-16
-
-- [How to Say No to an Imperial President](https://foreignpolicy.com/2026/06/16/nixon-irs-trump-executive-authority/) — Foreign Policy
-- [Can open-source beat OpenAI?](https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [The end of Brussels' most important dinner party](https://www.politico.eu/podcast/brussels-playbook-podcast/the-end-of-brussels-most-important-dinner-party/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [South African jazz pianist Abdullah Ibrahim dies aged 91](https://www.theguardian.com/music/2026/jun/15/pianist-abdullah-ibrahim-dies) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

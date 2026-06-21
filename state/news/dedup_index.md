@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-21
+
+- **spain-begona-gomez-audiencia-appeal-trial** — Audiencia Provincial last route as Peinado sends Gómez to trial with travel ban (section: spain)
+- **spain-feijoo-vox-coalition-reversal** — Feijóo abandons pledge to govern without Vox (section: spain)
+- **spain-summer-heatwave-early-june** — First summer heatwave exposes 27M to elevated health risk (section: spain)
+- **germany-pension-commission-contribution-reform** — Alterssicherungskommission widens pension insurance, spares Beamte (section: germany)
+- **germany-us-drug-price-investigation** — Washington probes German pharmaceutical pricing (section: germany)
+- **germany-heat-days-frequency-data** — Climate data show sharply rising German heat-day counts (section: germany)
+- **berlin-school-mobbing-violence-study** — Senate commissions study on bullying and violence in schools (section: berlin)
+- **berlin-veteranentag-reichstag-closures** — Veterans Day citizen festival closes government quarter (section: berlin)
+- **berlin-ki-journalism-niggemeier-debate** — AI summarisation dispute between Berlin media critics (section: berlin)
+- **world-colombia-paramilitary-runoff** — Presidential runoff shaped by paramilitary histories (section: world)
+- **world-japan-chip-tools-china-sales-drop** — Japanese equipment suppliers report 10% China sales fall (section: world)
+- **world-australia-h5n1-mainland** — First mainland H5N1 case confirmed in Western Australia (section: world)
+
 ## 2026-06-20
 
 - **spain-ibex-foreign-fund-ownership** — BlackRock, Vanguard and Norway SWF dominate Ibex 35 share registers (section: spain)
