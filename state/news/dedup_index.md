@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-22
+
+- **spain-justice-impartiality-poll** — Majority tell Ateneo del Dato poll courts lack impartiality (section: spain)
+- **spain-valencia-teacher-police-assault** — Valencia judge probes riot-police assault on striking teacher (section: spain)
+- **spain-world-cup-saudi-victory** — Spain routs Saudi Arabia with Lamine and Oyarzabal goals (section: spain)
+- **germany-arbeitszeugnis-grade-inflation** — Employers inflate reference grades to avoid dismissal suits (section: germany)
+- **germany-work-messenger-monitoring** — Labour-law column on when bosses may read work chats (section: germany)
+- **germany-ryanair-oleary-contract-extension** — O'Leary extends as Ryanair CEO to 2032 with rich options (section: germany)
+- **berlin-vergesellschaftung-national-debate** — Federal Länder join Berlin expropriation argument five years after vote (section: berlin)
+- **berlin-mitte-open-air-permit-reform** — Mitte pilots simpler outdoor-event permits (section: berlin)
+- **berlin-charlottenburg-antisemitic-assault** — Police arrest suspect after Uhlandstraße attacks (section: berlin)
+- **world-colombia-de-la-espriella-election-win** — De la Espriella wins presidency by ~250,000 votes in precount (section: world)
+- **world-bolivia-state-emergency-protests** — Arce deploys military against nationwide roadblocks (section: world)
+- **world-china-appliances-southeast-asia** — Chinese brands gain ASEAN appliance share (section: world)
+
 ## 2026-06-21
 
 - **spain-begona-gomez-audiencia-appeal-trial** — Audiencia Provincial last route as Peinado sends Gómez to trial with travel ban (section: spain)

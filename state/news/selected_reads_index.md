@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-22
+
+- [Starmer on brink of quitting as UK prime minister](https://www.ft.com/content/ed96e673-8d46-4dec-aebc-d69863b9e801) — Financial Times
+- [Chinese appliance brands gain ground in Southeast Asia](https://asia.nikkei.com/business/electronics/chinese-appliance-brands-gain-ground-in-southeast-asia) — Nikkei Asia
+- [I'd Rather Risk Cancer Than See AI Move This Fast](https://www.theatlantic.com/technology/2026/06/ai-cancer-progress/687654/?utm_source=feed) — The Atlantic
+- [Canada's policies force asylum seekers into US to face deportation, critics say](https://www.theguardian.com/world/2026/jun/21/canada-immigration-us-deportation) — The Guardian
+
 ## 2026-06-21
 
 - [Putin's war machine sputters in drone age](https://www.ft.com/content/b409d72f-ccff-4952-8b71-dfd62d75a1cd) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Europe's budget war starts now](https://www.politico.eu/podcast/brussels-playbook-podcast/europes-budget-war-starts-now/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [Trump Defends His Iran Deal](https://foreignpolicy.com/2026/06/17/us-iran-peace-deal-draft-text-mou-trump-g7-lebanon-war-israel/) — Foreign Policy
 - [Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his ability to walk](https://www.theguardian.com/global-development/2026/jun/17/boy-injured-us-strike-somalia-ability-walk-operation-abdiqadir-salah-surgery-civilians-november-attack) — The Guardian
-
-## 2026-06-17
-
-- [Spotify's post-English AI future](https://restofworld.org/2026/spotify-global-ai-music-streaming-strategy/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [Myanmar Is What Happens When China Fills a Vacuum](https://foreignpolicy.com/2026/06/17/myanmar-china-election-junta/) — Foreign Policy
-- [Von der Leyen won't run for a third term. Or will she?](https://www.politico.eu/podcast/brussels-playbook-podcast/von-der-leyen-wont-run-for-a-third-term-or-will-she/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Why Anthropic Is Fighting With Trump (Again)](https://foreignpolicy.com/2026/06/16/anthropic-trump-fight-mythos-fable-5-hegseth/) — Foreign Policy
 
 ## Blocked until 5+ briefings have passed
 
