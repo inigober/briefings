@@ -1,0 +1,575 @@
+{
+  "briefing_type": "berlin-culture",
+  "date": "2026-06-23",
+  "week_start": "2026-06-24",
+  "week_end": "2026-06-30",
+  "week_label": "June 24–30, 2026",
+  "source_raw": "inbox/berlin-culture/2026-06-23-raw.json",
+  "built_at": "2026-06-23T08:37:05.870301+00:00",
+  "model": "gpt-4.1",
+  "raw_item_count": 51,
+  "section_counts": {
+    "exhibitions": 10,
+    "film": 6,
+    "performing_arts": 5,
+    "music": 4,
+    "wildcards": 4,
+    "advance_radar": 0
+  },
+  "items": [
+    {
+      "id": "ex3",
+      "topic_ids": [
+        "exhibitions",
+        "sculpture",
+        "sound_art"
+      ],
+      "title": "Ayumi Paul – Fischmond am Waldsee",
+      "venue": "Haus am Waldsee (Sculpture Garden)",
+      "dates": "14 June 2026 – 23 May 2027",
+      "times": "",
+      "artists": [
+        "Ayumi Paul"
+      ],
+      "official_url": "https://hausamwaldsee.de/en/anniversary-80-years-haus-am-waldsee/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Sound/sculpture installation as part of the Haus am Waldsee 80th anniversary cycle, by a Berlin-based artist.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "ex4",
+      "topic_ids": [
+        "exhibitions",
+        "biennial",
+        "politics",
+        "sound"
+      ],
+      "title": "Kyiv Biennial – A Bird That Cannot Land",
+      "venue": "KW Institute for Contemporary Art",
+      "dates": "11 June – 13 September 2026",
+      "times": "",
+      "artists": [
+        "Multiple international artists (biennial format)"
+      ],
+      "official_url": "https://www.kw-berlin.de/en/events/opening-kyiv-biennial-2026",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "A key international biennial event in Berlin, with focus on art, sound, and current politics.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "ex5",
+      "topic_ids": [
+        "exhibitions",
+        "workshop",
+        "participatory"
+      ],
+      "title": "Somatic Exercises in the Exhibition",
+      "venue": "KW Institute for Contemporary Art",
+      "dates": "Saturday, 27 June 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.kw-berlin.de/en/events/somatic-exercises-in-the-exhibition",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Experimental, participatory workshop activating the exhibitions through embodied movement; expands the boundaries of exhibition engagement.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "rss-exhibitions-a1258cff5f",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Week June 22–28, 2026",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/22/things-to-do-in-berlin-art-openings-june22-june28-2026/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Openings and events at ngbk, Polish Art Week Berlin, ifa-Galerie Berlin, Gropius Bau, Schering Stiftung, carlier | gebauer, Galerie im Körnerpark, Sophiensæle, KVOST, Werkbundarchiv - Museum der Dinge, Galerie Thomas Fischer, gr_und, GUTS, BETON Berlin, BARAZANI.berlin, Pickle Bar, stay hungry, T...",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-exhibitions-ebbe10d83c",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Democracy’s Distress Call: ‘Freiraum Kunst’ at Schloss Bellevue",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/19/freiraum-kunst-schloss-bellevue-akademie-der-kuenste-review/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "by Dagmara Genda // June 19, 2026 ‘Freiraum Kunst,’ the two-week temporary exhibition in Schloss Bellevue, was a missed opportunity to back up words with action. “A stable democracy must be able to endure a difference of opinion,” proclaimed Federal President …[read on]",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-exhibitions-625cd49cd6",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Leaking Liveliness: Project Space Festival 2026",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/18/project-space-festival-2026-review/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "by Jesse Slater // June 18, 2026 Mary Shelley’s ‘Frankenstein’ has been on my mind lately. I like thinking about her monster; what it means to be feared, what happens when animation teeters over into existence. Somehow, as I traversed around Berlin’s …[read on]",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-exhibitions-86517d64b8",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Week June 15–21, 2026",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/15/things-to-do-in-berlin-art-openings-performances-june15-june21-2026/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Openings and events at Gropius Bau, Müller Contemporary, Sophiensæle, C/O Berlin, die raum, panke.gallery, maḳām, Cittipunkt, Galerie im Turm, Kleine Humboldt Galerie, daadgalerie,Kunstquartier Bethanien, HILDEGARD, and more …[read on]",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-exhibitions-1ad7983b49",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Resisting Habituation: ‘Pedagogies of War’ at Thyssen-Bornemisza Madrid",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/12/pedagogies-of-war-thyssen-bornemisza-madrid-exhibition-review/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "by Adela Lovric // June 12, 2026 In collaboration with TBA21, the Thyssen-Bornemisza National Museum in Madrid presents ‘Pedagogies of War,’ an exhibition by Ukrainian artists Roman Khimei and Yarema Malashchuk. In the exhibition foreword …[read on]",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-exhibitions-6e59e86434",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Queer Pastoral: ‘Cruising the Countryside’ at Schwules Museum",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/12/cruising-the-countryside-schwules-museum-group-exhibition-review/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "by Olivia Noss // June 12, 2026 In a time before social media, queer publications offered a lifeline to those isolated within their small towns. They were a source of escape for many young people and, in some cases, their only foray into queer culture in general. The Schwules Museum …[read on]",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-exhibitions-97b6519e67",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Weight of Words: Shilpa Gupta at Hamburger Bahnhof",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/12/shilpa-gupta-hamburger-bahnhof-exhibition-review-scale/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "by Carolin Kralapp // June 12, 2026 Some words are meant to be read. Others, insists Shilpa Gupta, must be walked through. In her current solo exhibition, 'What Still Holds' at Hamburger Bahnhof in Berlin, both approaches prove essential. The Mumbai-based artist confronts …[read on]",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "f6",
+      "topic_ids": [
+        "film",
+        "classic",
+        "noir"
+      ],
+      "title": "Night and the City",
+      "venue": "Kino Arsenal",
+      "dates": "Friday, 26 June 2026",
+      "times": "20:00",
+      "artists": [
+        "Jules Dassin (director)"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/assets/Kino/PDFs/26-06_Kalendarium-Plakat_arsenal_A1_cmyk_Web.pdf",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Postwar noir classic dealing with urban dislocation, crime, and global city life.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "f1",
+      "topic_ids": [
+        "film",
+        "shorts",
+        "german"
+      ],
+      "title": "Scherbenland",
+      "venue": "ACUDkino",
+      "dates": "Wednesday, 24 June 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://acudkino.de/Programm/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Short film programme with a focus on contemporary German-language shorts, subtitled in English.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "f2",
+      "topic_ids": [
+        "film",
+        "international",
+        "drama"
+      ],
+      "title": "Ein Sommer in Paris",
+      "venue": "ACUDkino",
+      "dates": "Wednesday, 24 June 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://acudkino.de/Programm/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Feature-length film with international focus, presented in original version with German subtitles.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "f3",
+      "topic_ids": [
+        "film",
+        "adaptation",
+        "literature"
+      ],
+      "title": "Glennkill: Ein Schafskrimi",
+      "venue": "ACUDkino",
+      "dates": "Wednesday, 24 June 2026",
+      "times": "20:00",
+      "artists": [],
+      "official_url": "https://acudkino.de/Programm/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Experimental literary adaptation; contemporary film in the 'Krimi' (crime) genre with unique approach.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "f9",
+      "topic_ids": [
+        "film",
+        "contemporary",
+        "identity"
+      ],
+      "title": "Donkey Days",
+      "venue": "Wolf Kino",
+      "dates": "from 25 June 2026 (ongoing)",
+      "times": "",
+      "artists": [
+        "Rosanne Pel"
+      ],
+      "official_url": "https://wolfberlin.org/de/programm/filme/donkey-days",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Premiere Berlin run for a psychodramatic feature exploring family, diaspora, and identity.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "f10",
+      "topic_ids": [
+        "film",
+        "experimental",
+        "asian"
+      ],
+      "title": "Resurrection",
+      "venue": "Wolf Kino",
+      "dates": "from 25 June 2026 (ongoing)",
+      "times": "",
+      "artists": [
+        "Bi Gan"
+      ],
+      "official_url": "https://wolfberlin.org/de/programm/filme/resurrection",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "New experimental feature by Chinese director Bi Gan; dreamlike, avant-garde contemporary cinema.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "pa2",
+      "topic_ids": [
+        "performing_arts",
+        "festival",
+        "choreography"
+      ],
+      "title": "Mash Dance Berlin 2026 – THISISPAIN",
+      "venue": "DOCK11",
+      "dates": "Thursday, 25 June 2026",
+      "times": "19:30",
+      "artists": [
+        "Hillel Kogan"
+      ],
+      "official_url": "https://dock11-berlin.de/en/theater/program/calendar/victims-images-vol-2",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Festival highlight; political and conceptual choreography from Israeli artist.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "pa3",
+      "topic_ids": [
+        "performing_arts",
+        "festival",
+        "collaborative"
+      ],
+      "title": "Mash Dance Berlin 2026 – The War Within",
+      "venue": "DOCK11",
+      "dates": "Friday, 26 June 2026",
+      "times": "19:30",
+      "artists": [
+        "Iris Erez",
+        "Elad Vazana"
+      ],
+      "official_url": "https://dock11-berlin.de/en/theater/program/calendar/victims-images-vol-2",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Strong collaborative performance exploring war, trauma and internal struggle — festival premiere.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "pa4",
+      "topic_ids": [
+        "performing_arts",
+        "festival",
+        "intermedia"
+      ],
+      "title": "Mash Dance Berlin 2026 – Sounds Alive",
+      "venue": "DOCK11",
+      "dates": "Saturday, 27 June 2026",
+      "times": "19:30",
+      "artists": [
+        "Ofra Idel"
+      ],
+      "official_url": "https://dock11-berlin.de/en/theater/program/calendar/victims-images-vol-2",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Contemporary choreography focusing on the live body and sound, with improvisational elements.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "pa5",
+      "topic_ids": [
+        "performing_arts",
+        "festival",
+        "identity"
+      ],
+      "title": "Mash Dance Berlin 2026 – Victims & Images: Vol 2",
+      "venue": "DOCK11",
+      "dates": "Sunday, 28 June 2026",
+      "times": "19:30",
+      "artists": [
+        "Roni Chadash"
+      ],
+      "official_url": "https://dock11-berlin.de/en/theater/program/calendar/victims-images-vol-2",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Solo performance interrogating bodily image and subjectivity; festival centerpiece.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "pa6",
+      "topic_ids": [
+        "performing_arts",
+        "workshop",
+        "digital"
+      ],
+      "title": "My Virtual Bodies (Workshop)",
+      "venue": "DOCK11, Saal 4",
+      "dates": "28–30 June 2026",
+      "times": "10:00–12:30",
+      "artists": [
+        "Maya Weinberg"
+      ],
+      "official_url": "https://dock11-berlin.de/en/digital/program/schedule/my-virtual-bodies",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Experimental workshop merging movement practice with digital embodiment and avatar research.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "m1",
+      "topic_ids": [
+        "music",
+        "jazz",
+        "improvisation"
+      ],
+      "title": "Maria Baptist Trio: Five Special Nights – DAY 2",
+      "venue": "A-Trane",
+      "dates": "Wednesday, 24 June 2026",
+      "times": "20:30",
+      "artists": [
+        "Maria Baptist",
+        "Fabian Timm",
+        "Heinz Lichius"
+      ],
+      "official_url": "https://a-trane.de/Events-Directory/a-trane-praesentiert-summerweekconcerts-day2jazz-versus-soccermaria-baptist-triofive-special-nights-trio-guestsfeat-today-fabian-timm-heinz-lichius/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Innovative jazz trio evening focused on improvisational structures; part of a special concert series.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "m2",
+      "topic_ids": [
+        "music",
+        "jazz",
+        "ensemble"
+      ],
+      "title": "Maria Baptist Trio: Five Special Nights – DAY 3 (feat. Philipp Sindy)",
+      "venue": "A-Trane",
+      "dates": "Thursday, 25 June 2026",
+      "times": "",
+      "artists": [
+        "Maria Baptist Trio",
+        "Philipp Sindy"
+      ],
+      "official_url": "https://a-trane.de/event-type/modern-contemporary-jazz/",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Trio plus guest ensemble interactions; continuing a contemporary jazz improvisation series.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "m3",
+      "topic_ids": [
+        "music",
+        "jazz",
+        "ensemble"
+      ],
+      "title": "Maria Baptist Trio: Five Special Nights – DAY 4 (feat. Gabriel Coburger)",
+      "venue": "A-Trane",
+      "dates": "Friday, 26 June 2026",
+      "times": "",
+      "artists": [
+        "Maria Baptist Trio",
+        "Gabriel Coburger"
+      ],
+      "official_url": "https://a-trane.de/event-type/modern-contemporary-jazz/",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Another permutation of the Maria Baptist trio with acclaimed guest artist; contemporary, improvisational.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "m4",
+      "topic_ids": [
+        "music",
+        "jazz",
+        "ensemble"
+      ],
+      "title": "Maria Baptist Trio: Five Special Nights – DAY 5 (feat. Jan von Klewitz)",
+      "venue": "A-Trane",
+      "dates": "Saturday, 27 June 2026",
+      "times": "",
+      "artists": [
+        "Maria Baptist Trio",
+        "Jan von Klewitz"
+      ],
+      "official_url": "https://a-trane.de/event-type/modern-contemporary-jazz/",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Final night of this experimental jazz week, with renowned saxophonist; closing arc of the improvisation series.",
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "rss-wildcards-63e66b37de",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "#503: Landlord registry, lake water quality, shooting raids",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/503-landlord-registry-lake-water",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Berlin is falling out of love with cars",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-wildcards-c305832361",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "#502: Dump truck fire, trash tax, RAW deal, dogs at IKEA, P'dam bomb",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/502-dump-truck-fire-trash-tax-raw",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "The population grew last year, but just in Berlin",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-wildcards-bd38829a23",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "#501: New Goebbels villa owner, Müggelsee island for sale, driverless cars",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/501-new-goebbels-villa-owner-muggelsee",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Eels. Lots of eels.",
+      "ingestion_source": "rss"
+    },
+    {
+      "id": "rss-wildcards-3175cc09ff",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "#500: Uber, BVG, NIUS, raves, podcast",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/500-uber-bvg-nius-raves-podcast",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Berlin businesses are not happy",
+      "ingestion_source": "rss"
+    }
+  ],
+  "note": "Token-light culture slice for synthesis. Items with verified:true passed pre-fetch URL/schedule checks; synthesis spot-checks only unverified Top Picks and closing-soon items."
+}
