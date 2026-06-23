@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-23
+
+- [Citadel: the hedge fund that became an energy giant](https://www.ft.com/content/3d0842dd-a8f4-435d-b888-5587b4b9eeda) — Financial Times
+- [Private bank LGT sees AI and inflation as Japan tailwinds](https://asia.nikkei.com/editor-s-picks/interview/private-bank-lgt-sees-ai-and-inflation-as-japan-tailwinds) — Nikkei Asia
+- [Cities must set the terms for the AI infrastructure boom](https://www.politico.eu/sponsored-content/cities-must-set-the-terms-for-the-ai-infrastructure-boom/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [OpenAI pitches ChatGPT ads to Cannes marketers ahead of IPO](https://www.ft.com/content/9717a042-fd09-4d08-972d-29b68f7985a4) — Financial Times
+
 ## 2026-06-22
 
 - [Starmer on brink of quitting as UK prime minister](https://www.ft.com/content/ed96e673-8d46-4dec-aebc-d69863b9e801) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [America Is Headed Toward the Infinite Workweek](https://www.theatlantic.com/technology/2026/06/ai-agents-jobs-exhaustion/687596/?utm_source=feed) — The Atlantic
 - [Macron, Merz attack EU's stance on Putin talks](https://www.politico.eu/article/macron-merz-attack-eus-stance-on-putin-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [Cannabis commercialisation not decriminalisation drives up usage, study finds](https://www.theguardian.com/society/2026/jun/17/cannabis-commercialisation-not-decriminalisation-drives-up-usage-study) — The Guardian
-
-## 2026-06-18
-
-- [When Americans choose Chinese AI](https://restofworld.org/2026/when-americans-choose-chinese-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [Europe's budget war starts now](https://www.politico.eu/podcast/brussels-playbook-podcast/europes-budget-war-starts-now/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Trump Defends His Iran Deal](https://foreignpolicy.com/2026/06/17/us-iran-peace-deal-draft-text-mou-trump-g7-lebanon-war-israel/) — Foreign Policy
-- [Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his ability to walk](https://www.theguardian.com/global-development/2026/jun/17/boy-injured-us-strike-somalia-ability-walk-operation-abdiqadir-salah-surgery-civilians-november-attack) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
