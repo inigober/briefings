@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-06-22",
-  "briefing_date": "2026-06-22",
-  "inbox_date": "2026-06-22",
+  "date": "2026-06-23",
+  "briefing_date": "2026-06-23",
+  "inbox_date": "2026-06-23",
   "status": "success",
-  "briefing_path": "briefings/news/2026-06-22.md",
-  "inbox_path": "inbox/news/2026-06-22-synthesis.json",
+  "briefing_path": "briefings/news/2026-06-23.md",
+  "inbox_path": "inbox/news/2026-06-23-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Más allá de la prioridad nacional: el PP y Vox ejecutan ya en tres gobiernos su amplio proyecto común", "section": "spain", "reason": "recent_topics: PP–Vox coalition theme covered 2026-06-21; not material beyond regional execution detail"},
-    {"headline": "El ultra De la Espriella será el próximo presidente de Colombia (duplicate Colombia coverage)", "section": "spain", "reason": "geographic_misfit: Colombia election elevated once in World section"},
-    {"headline": "Morning Briefing Podcast: Reformen: Das Dilemma mit der Rente", "section": "germany", "reason": "recent_topics: pension commission covered 2026-06-21"},
-    {"headline": "Wetter: Wetterdienst warnt vor Hitze und Gewittern im Südwesten", "section": "germany", "reason": "avoid_unless_material: heatwave adaptation; noted in Other Headlines"},
-    {"headline": "Handel: China verhängt im Streit um Exportkontrollen Sanktionen gegen US-Firmen", "section": "germany", "reason": "geographic_misfit: US–China sanctions belong in Other Headlines, not Germany"},
+    {"headline": "El Supremo premia la aportación de Aldama para descubrir unos delitos que la UCO acreditó mucho antes", "section": "spain", "reason": "one_theme: duplicate Ábalos sentencing angle; strongest items retained"},
+    {"headline": "La recompensa de Aldama por confesar: una condena inferior a la del concejal del PP que destapó la trama Gürtel", "section": "spain", "reason": "one_theme: Aldama cooperation outcome covered in dedicated story"},
+    {"headline": "+++ Ukraine-Krieg +++: Russland – Mit Raketen bestückte Tu-160-Bomber absolvieren Testflug über Barentssee", "section": "germany", "reason": "geographic_misfit: Ukraine/Russia escalation belongs in Other Headlines"},
+    {"headline": "Raumfahrt: SpaceX verliert binnen drei Tagen mehr als 600 Milliarden Dollar an Börsenwert", "section": "germany", "reason": "one_theme: SpaceX selloff elevated in Other Headlines; avoid Germany/World duplicate"},
+    {"headline": "Wetter: Hitze in Berlin und Brandenburg: Bis zu 34 Grad in Sicht", "section": "berlin", "reason": "avoid_unless_material: heatwave adaptation; noted in Other Headlines"},
     {"headline": "Debatte um KI im Journalismus: Wie viel NSDAP steckt in Stefan Niggemeier?", "section": "berlin", "reason": "recent_topics: berlin-ki-journalism-niggemeier-debate covered 2026-06-21"},
-    {"headline": "Nach 30 Jahren ist Schluss: Waschmaschinenproduktion verlässt Ostdeutschland", "section": "berlin", "reason": "geographic_misfit: Bosch Nauen plant is Brandenburg"},
-    {"headline": "Knappste Stichwahl der Geschichte: Kolumbien rückt nach rechts", "section": "berlin", "reason": "geographic_misfit: Colombia election covered in World"},
-    {"headline": "Bain tests software takeover targets by vibecoding AI replicas", "section": "selected_reads", "reason": "publisher_diversity: retained FT Starmer; Bain also FT"},
-    {"headline": "Bolivian president declares state of emergency", "section": "selected_reads", "reason": "publisher_diversity: already used Guardian Canada; Bolivia used in World"},
-    {"headline": "A Tale of Two AI Policy Regimes", "section": "selected_reads", "reason": "selected_reads_index: URL used in 2026-06-20 briefing"},
-    {"headline": "GoPro and Roomba were U.S. pioneers. Chinese rivals now dominate", "section": "selected_reads", "reason": "selected_reads_index: URL used in 2026-06-20 briefing"}
+    {"headline": "Stichwahl in Kolumbien: De la Espriella und Cepeda liefern sich Kopf-an-Kopf-Rennen", "section": "berlin", "reason": "geographic_misfit: Colombia election covered 2026-06-22 World section"},
+    {"headline": "Nach 30 Jahren ist Schluss: Waschmaschinenproduktion verlässt Ostdeutschland", "section": "berlin", "reason": "geographic_misfit: Bosch Nauen plant is Brandenburg, not Berlin"},
+    {"headline": "SpaceX sheds $400bn in market value as debut rally hits reverse", "section": "selected_reads", "reason": "publisher_diversity: retained FT Citadel and OpenAI; SpaceX also in Other Headlines"},
+    {"headline": "Lost memoir of Hiroshima survivor found after decades in US archive", "section": "selected_reads", "reason": "duplicate: URL used in World section today"},
+    {"headline": "Canadian healthcare staff decry 'cruel hoax' after scam email promises paid day off", "section": "selected_reads", "reason": "duplicate: URL used in World section today"},
+    {"headline": "Psychiater im Interview: Kleine Kicks, bessere Balance: Wie hilft Sport bei ADHS?", "section": "germany", "reason": "rank_below_cap: weaker structural fit after pension handoff and eldercare picks"}
   ],
-  "notes": "Synthesis from 2026-06-22 pre-fetch; justice impartiality poll, Valencia teacher assault probe, Ryanair O'Leary deal, Berlin expropriation debate, Colombia election result, Bolivia emergency, Chinese appliances ASEAN."
+  "notes": "Synthesis from 2026-06-23 pre-fetch; Ábalos 24-year sentence, Aldama non-custodial outcome, China eldercare lessons, pension commission delivery, Berlin cash-heist sentences, school religion pressure, Canada healthcare phishing test, Hiroshima memoir, Australia war memorial dispute."
 }

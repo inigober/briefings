@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-23
+
+- **spain-abalos-24-year-mascarillas-sentence** — Supreme Court convicts ex-minister Ábalos to 24 years over mask-contract graft (section: spain)
+- **spain-aldama-no-prison-keeps-proceeds** — Cooperating businessman Aldama avoids custody and retains mask commissions (section: spain)
+- **spain-abalos-constitutional-appeal-strategy** — Defendants plan amparo route, citing political verdict (section: spain)
+- **germany-china-neighbourhood-eldercare-model** — German experts study Beijing/Shanghai community senior-support schemes (section: germany)
+- **germany-classic-degree-career-roi** — Handelsblatt on whether Jura, Medizin and BWL still pay off (section: germany)
+- **germany-pension-commission-package-delivered** — Alterssicherungskommission hands full reform blueprint to Merz government (section: germany)
+- **berlin-cash-transporter-robbery-sentences** — Courts jail three over March 2025 armoured-van heist in Marzahn (section: berlin)
+- **berlin-schools-religious-rules-pressure** — Crisis barometer finds religious norms trumping school rules for many pupils (section: berlin)
+- **berlin-us-german-fighter-jet-flyover** — Joint Bundeswehr–US formation flight planned over Charlottenburg (section: berlin)
+- **world-canada-healthcare-phishing-test** — Newfoundland unions condemn fake paid-day-off cybersecurity drill (section: world)
+- **world-hiroshima-survivor-memoir-published** — Tanimoto's 1947 account recovered from US archive for August release (section: world)
+- **world-australia-war-memorial-roberts-smith** — Government defends inviting contested VC holder to memorial reopening (section: world)
+
 ## 2026-06-22
 
 - **spain-justice-impartiality-poll** — Majority tell Ateneo del Dato poll courts lack impartiality (section: spain)
@@ -200,21 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-drc-coltan-m23** — Global Witness coltan supply chain investigation (section: world)
 - **world-modi-nehru-tenure** — Modi surpasses Nehru as longest-serving PM (section: world)
 - **world-trump-climate-immigration** — US curbs target climate-vulnerable countries (section: world)
-
-## 2026-06-09
-
-- **spain-demographics-50m** — Approaching 50M residents faster than expected (section: spain)
-- **spain-services-pmi-may** — Services sector marginal growth in May PMI (section: spain)
-- **spain-economic-outperformance** — International analyses on faster-than-eurozone growth (section: spain)
-- **germany-labour-agency-deficit** — Federal Employment Agency €8bn+ deficit projected (section: germany)
-- **germany-regional-elections-2026** — State elections shaping national politics (section: germany)
-- **germany-skilled-labour-shortage** — Foreign worker attraction measures debated (section: germany)
-- **berlin-universities-careers-beyond-academia** — PhD career pathways outside academia (section: berlin)
-- **berlin-labour-slowdown-services** — National employment weakness hits service economy (section: berlin)
-- **berlin-research-hub-talent** — International academic collaborations (section: berlin)
-- **world-armenia-geopolitics-russia** — Armenia balancing act reducing Russia dependence (section: world)
-- **world-migration-economic-force** — Migration as labour-force expansion (section: world) [mirrors Spain — avoid]
-- **world-ai-employment-uncertainty** — AI impact on jobs debated (section: world)
 
 ## Saturated topics — do not return without material development
 
