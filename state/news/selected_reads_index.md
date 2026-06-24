@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-24
+
+- [Five years on, Apple Daily staffers reflect on Hong Kong paper's demise](https://asia.nikkei.com/spotlight/hong-kong-security-law/five-years-on-apple-daily-staffers-reflect-on-hong-kong-paper-s-demise) — Nikkei Asia
+- [America Desperately Needs More Sterile Screwworms](https://www.theatlantic.com/science/2026/06/screwworm-problem-worse/687668/?utm_source=feed) — The Atlantic
+- [Heatwave shows we are marinating in a crisis of our own making](https://www.ft.com/content/f059869e-294b-42b7-bf38-fe55b46ad812) — Financial Times
+- [Play puts spotlight on Kenya's crisis of gender-based violence](https://www.theguardian.com/world/2026/jun/24/kenya-play-free-me-gender-based-violence) — The Guardian
+
 ## 2026-06-23
 
 - [Citadel: the hedge fund that became an energy giant](https://www.ft.com/content/3d0842dd-a8f4-435d-b888-5587b4b9eeda) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [A Tale of Two AI Policy Regimes](https://foreignpolicy.com/2026/06/19/brazil-argentina-ai-policy-data-centers-milei/) — Foreign Policy
 - [GoPro and Roomba were U.S. pioneers. Chinese rivals now dominate](https://restofworld.org/2026/chinese-consumer-tech-brands/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
 - [Exploring Taipingshan, Taiwan's primeval mountain escape](https://asia.nikkei.com/life-arts/life/destinations/exploring-taipingshan-taiwan-s-primeval-mountain-escape) — Nikkei Asia
-
-## 2026-06-19
-
-- [SpaceX warns EU satellite plan risks undermining connectivity in Ukraine](https://www.ft.com/content/0b012610-8132-4549-afd9-14bacd9db8cb) — Financial Times
-- [America Is Headed Toward the Infinite Workweek](https://www.theatlantic.com/technology/2026/06/ai-agents-jobs-exhaustion/687596/?utm_source=feed) — The Atlantic
-- [Macron, Merz attack EU's stance on Putin talks](https://www.politico.eu/article/macron-merz-attack-eus-stance-on-putin-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Cannabis commercialisation not decriminalisation drives up usage, study finds](https://www.theguardian.com/society/2026/jun/17/cannabis-commercialisation-not-decriminalisation-drives-up-usage-study) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-24
+
+- **spain-soria-ayuntamiento-corruption-raid** — Guardia Civil detains six in Soria town-hall money-laundering probe (section: spain)
+- **spain-kitchen-trial-pp-political-brigade** — Operación Kitchen resumes with PP political-police brigade testimony (section: spain)
+- **spain-supremo-rejects-aldama-montero-aide-claims** — Supreme Court rejects Aldama bribery claims against finance minister's chief of staff (section: spain)
+- **germany-merz-pension-reform-all-in** — Merz frames Alterssicherungskommission package as defining coalition wager (section: germany)
+- **germany-renewables-jobs-energy-pivot-risk** — Study warns renewables employment boom at risk from government course change (section: germany)
+- **germany-teilkrankschreibung-partial-sick-leave** — Doctors and economists debate graded sick-leave reform (section: germany)
+- **berlin-db-radio-disruption-nationwide** — Digital train-radio failure halts nationwide rail traffic (section: berlin)
+- **berlin-icc-senate-recommendation-approved** — Senate approves recommendation for ICC congress-centre redevelopment (section: berlin)
+- **berlin-prenzlauer-tram-stop-fatal-crash** — Pedestrian killed in Prenzlauer Berg collision at tram halt (section: berlin)
+- **world-nvidia-chips-china-grey-market** — Banned Nvidia AI processors trade at double price on China black market (section: world)
+- **world-kenya-ebola-facility-halt** — Kenyan health minister orders halt to US Ebola quarantine facility (section: world)
+- **world-ecuador-whistleblower-murder** — Activists say researcher probing president's family business was murdered (section: world)
+
 ## 2026-06-23
 
 - **spain-abalos-24-year-mascarillas-sentence** — Supreme Court convicts ex-minister Ábalos to 24 years over mask-contract graft (section: spain)
@@ -200,21 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-gulf-clean-energy-capital** — Gulf sovereign funds scale renewable-energy investment across Africa, South Asia and Southeast Asia (section: world)
 - **world-china-overseas-semiconductor-capacity** — Chinese chipmakers expand overseas foundries to route around export controls (section: world)
 - **world-global-south-youth-unemployment** — Record youth unemployment in Sub-Saharan Africa and South Asia tests demographic dividend (section: world)
-
-## 2026-06-10
-
-- **spain-dana-mazon-whatsapp** — Mazón WhatsApp messages during Valencia floods; Cecopi testimony (section: spain)
-- **spain-aquifer-bankruptcy** — Groundwater overextraction, illegal wells (section: spain)
-- **spain-defense-rd-record** — Public R&D €15.7bn record, defense spending tripled (section: spain)
-- **germany-tankrabatt-expiry** — Fuel tax rebate ends 1 July (section: germany)
-- **germany-merz-reform-summit** — Chancellery meeting with unions/employers (section: germany)
-- **germany-ifo-laender-uneven-q1** — Growth in 12/16 Länder, NRW/Hamburg lag (section: germany)
-- **berlin-stoschek-foundation-closure** — Julia Stoschek leaves Leipziger Straße (section: berlin)
-- **berlin-oak-processionary-moth** — Citizen map tracking caterpillar nests (section: berlin)
-- **berlin-tu-hauptgebaeude-closure** — TU main building closed indefinitely (section: berlin)
-- **world-drc-coltan-m23** — Global Witness coltan supply chain investigation (section: world)
-- **world-modi-nehru-tenure** — Modi surpasses Nehru as longest-serving PM (section: world)
-- **world-trump-climate-immigration** — US curbs target climate-vulnerable countries (section: world)
 
 ## Saturated topics — do not return without material development
 

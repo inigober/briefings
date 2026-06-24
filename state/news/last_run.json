@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-06-23",
-  "briefing_date": "2026-06-23",
-  "inbox_date": "2026-06-23",
+  "date": "2026-06-24",
+  "briefing_date": "2026-06-24",
+  "inbox_date": "2026-06-24",
   "status": "success",
-  "briefing_path": "briefings/news/2026-06-23.md",
-  "inbox_path": "inbox/news/2026-06-23-synthesis.json",
+  "briefing_path": "briefings/news/2026-06-24.md",
+  "inbox_path": "inbox/news/2026-06-24-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "El Supremo premia la aportación de Aldama para descubrir unos delitos que la UCO acreditó mucho antes", "section": "spain", "reason": "one_theme: duplicate Ábalos sentencing angle; strongest items retained"},
-    {"headline": "La recompensa de Aldama por confesar: una condena inferior a la del concejal del PP que destapó la trama Gürtel", "section": "spain", "reason": "one_theme: Aldama cooperation outcome covered in dedicated story"},
-    {"headline": "+++ Ukraine-Krieg +++: Russland – Mit Raketen bestückte Tu-160-Bomber absolvieren Testflug über Barentssee", "section": "germany", "reason": "geographic_misfit: Ukraine/Russia escalation belongs in Other Headlines"},
-    {"headline": "Raumfahrt: SpaceX verliert binnen drei Tagen mehr als 600 Milliarden Dollar an Börsenwert", "section": "germany", "reason": "one_theme: SpaceX selloff elevated in Other Headlines; avoid Germany/World duplicate"},
-    {"headline": "Wetter: Hitze in Berlin und Brandenburg: Bis zu 34 Grad in Sicht", "section": "berlin", "reason": "avoid_unless_material: heatwave adaptation; noted in Other Headlines"},
-    {"headline": "Debatte um KI im Journalismus: Wie viel NSDAP steckt in Stefan Niggemeier?", "section": "berlin", "reason": "recent_topics: berlin-ki-journalism-niggemeier-debate covered 2026-06-21"},
+    {"headline": "Sánchez se enfrenta al Congreso más hostil desde que es presidente para dar explicaciones sobre corrupción", "section": "spain", "reason": "one_theme: PSOE corruption fallout covered via Soria raid and Kitchen trial; Congress appearance noted in Other Headlines"},
+    {"headline": "González y Page unen fuerzas contra Sánchez", "section": "spain", "reason": "one_theme: intra-PSOE criticism duplicate of corruption-politics angle"},
+    {"headline": "Un calor extremo que no se va: por qué este verano es \"un aviso para el futuro\"", "section": "spain", "reason": "avoid_unless_material: heatwave adaptation; recent_topics spain-summer-heatwave-early-june"},
+    {"headline": "Kleines Wunder im Regenwald: Orang-Utan Himba ausgewildert", "section": "germany", "reason": "geographic_misfit: Borneo wildlife story belongs in World/Other Headlines"},
+    {"headline": "Es reicht mit dem Sanierungsstau: So viel Geld fordert die HU Berlin jetzt vom Land zurück", "section": "germany", "reason": "rank_below_cap: weaker fit after pension, renewables jobs and sick-leave picks"},
+    {"headline": "Kampfjets aus den USA und Deutschland donnerten über Berlin", "section": "berlin", "reason": "recent_topics: berlin-us-german-fighter-jet-flyover covered 2026-06-23"},
+    {"headline": "\"Frühhitzewelle\" bringt neue Höchsttemperaturen in Berlin und Brandenburg", "section": "berlin", "reason": "avoid_unless_material: heatwave adaptation; noted in Other Headlines"},
     {"headline": "Stichwahl in Kolumbien: De la Espriella und Cepeda liefern sich Kopf-an-Kopf-Rennen", "section": "berlin", "reason": "geographic_misfit: Colombia election covered 2026-06-22 World section"},
-    {"headline": "Nach 30 Jahren ist Schluss: Waschmaschinenproduktion verlässt Ostdeutschland", "section": "berlin", "reason": "geographic_misfit: Bosch Nauen plant is Brandenburg, not Berlin"},
-    {"headline": "SpaceX sheds $400bn in market value as debut rally hits reverse", "section": "selected_reads", "reason": "publisher_diversity: retained FT Citadel and OpenAI; SpaceX also in Other Headlines"},
-    {"headline": "Lost memoir of Hiroshima survivor found after decades in US archive", "section": "selected_reads", "reason": "duplicate: URL used in World section today"},
-    {"headline": "Canadian healthcare staff decry 'cruel hoax' after scam email promises paid day off", "section": "selected_reads", "reason": "duplicate: URL used in World section today"},
-    {"headline": "Psychiater im Interview: Kleine Kicks, bessere Balance: Wie hilft Sport bei ADHS?", "section": "germany", "reason": "rank_below_cap: weaker structural fit after pension handoff and eldercare picks"}
+    {"headline": "Heatwave shows we are marinating in a crisis of our own making", "section": "world", "reason": "one_theme: heatwave editorial elevated to Selected Reads; World needs non-European regions"},
+    {"headline": "Canadian police warn of possible copycat attacks after deadly shootout in Montreal", "section": "world", "reason": "rank_below_cap: North America angle noted in Other Headlines; stronger Africa/LatAm/Asia picks retained"},
+    {"headline": "Dogs, drones and AI: Australian agriculture is going high-tech", "section": "selected_reads", "reason": "publisher_diversity: retained Nikkei Apple Daily, Atlantic, FT and Guardian mix"},
+    {"headline": "The decade that made Andy Burnham", "section": "selected_reads", "reason": "publisher_diversity: UK profile skipped to keep Guardian count at one and diversify beyond FT-heavy pool"}
   ],
-  "notes": "Synthesis from 2026-06-23 pre-fetch; Ábalos 24-year sentence, Aldama non-custodial outcome, China eldercare lessons, pension commission delivery, Berlin cash-heist sentences, school religion pressure, Canada healthcare phishing test, Hiroshima memoir, Australia war memorial dispute."
+  "notes": "Synthesis from 2026-06-24 pre-fetch; Soria town-hall raid, Kitchen PP brigade trial, Aldama-Montero aide rejection, Merz pension all-in, renewables jobs risk, partial sick leave, DB radio failure, ICC Senate recommendation, Prenzlauer fatal crash, Nvidia China grey market, Kenya Ebola facility halt, Ecuador whistleblower murder."
 }
