@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-25
+
+- **spain-almeria-pp-mordidas-parade** — Ex-Diputación chief and Tíjola mayor close PP Almería judicial parade over mask and works kickbacks (section: spain)
+- **spain-canal-sur-adm-forged-equality-plan** — Canal Sur producer filed equality plan with absent union delegate's signature before CEO sex-assault charges (section: spain)
+- **spain-pp-ayuso-eldiaario-festival-challenge** — Madrid PP seeks last-minute cancellation of elDiario culture festival (section: spain)
+- **germany-wehrdienst-530-volunteers** — First balance sheet: 530 Bundeswehr volunteers from 300,000 conscription questionnaires (section: germany)
+- **germany-merz-laender-finance-summit-berlin** — Merz hosts state premiers in Berlin for fiscal-relief negotiations (section: germany)
+- **germany-merz-danzig-ukraine-rebuild** — Chancellor joins Gdańsk reconstruction conference as Tusk backs Ukraine aid (section: germany)
+- **berlin-checkpoint-datenschutz-pannen** — Tagesspiegel catalogues Berlin GDPR breaches from salons to university exams (section: berlin)
+- **berlin-icc-culture-towers-financing-gap** — Senate ICC plan adds culture towers but lacks financing model (section: berlin)
+- **berlin-db-brandenburg-last-mile-glosse** — Berliner Zeitung columnist satirises final Brandenburg rail leg after global trip (section: berlin)
+- **world-anthropic-alibaba-distillation-attack** — Anthropic accuses Alibaba of largest known Claude distillation campaign (section: world)
+- **world-venezuela-twin-earthquakes-caracas** — Twin 7.2/7.5 quakes hit northern Venezuela; emergency declared in Caracas (section: world)
+- **world-micron-ai-memory-profit-surge** — Micron posts 15-fold profit jump on AI memory demand (section: world)
+
 ## 2026-06-24
 
 - **spain-soria-ayuntamiento-corruption-raid** — Guardia Civil detains six in Soria town-hall money-laundering probe (section: spain)
@@ -200,21 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-thailand-princess-death** — Princess Bajrakitiyabha dies after years in coma; succession symbolism (section: world)
 - **world-china-spacesail-starlink-rival** — Chinese Spacesail constellation competes with SpaceX ahead of IPO (section: world)
 - **world-kenya-ebola-facility-protest** — Police kill protester opposing proposed US Ebola quarantine site in Nanyuki (section: world)
-
-## 2026-06-11
-
-- **spain-housing-price-map** — Street-level notarial housing sale price map across 33,000 grid cells (section: spain)
-- **spain-education-strikes-costs** — Education stoppages impose costs on teachers, families and disadvantaged pupils (section: spain)
-- **spain-pp-vox-national-priority-migration** — PP-Vox "prioridad nacional" rhetoric becomes concrete regional migration policy (section: spain)
-- **germany-ifo-real-wages-2026** — ifo projects further German real wage growth despite weak macro backdrop (section: germany)
-- **germany-electric-trucks-eu-standards** — German truckmakers accelerate electric heavy-vehicle transition under EU emissions rules (section: germany)
-- **germany-heating-law-first-reading** — Revised Gebäudeenergiegesetz enters Bundestag under criticism from business, Länder and legal experts (section: germany)
-- **berlin-bvg-u-bahn-warning-strike** — BVG U-Bahn workers plan 13 June warning strike after wage talks stall (section: berlin)
-- **berlin-charite-microplastics** — Charité expands microplastic reduction programme across hospital waste and laundry streams (section: berlin)
-- **berlin-rent-cap-lawsuit** — Property owners sue over Berlin Senate citywide rent-cap plan (section: berlin)
-- **world-gulf-clean-energy-capital** — Gulf sovereign funds scale renewable-energy investment across Africa, South Asia and Southeast Asia (section: world)
-- **world-china-overseas-semiconductor-capacity** — Chinese chipmakers expand overseas foundries to route around export controls (section: world)
-- **world-global-south-youth-unemployment** — Record youth unemployment in Sub-Saharan Africa and South Asia tests demographic dividend (section: world)
 
 ## Saturated topics — do not return without material development
 

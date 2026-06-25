@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-25
+
+- [Insurers slash war premiums for Strait of Hormuz ships](https://www.ft.com/content/b62d823c-865b-4fa6-a492-1cd65d3400cb) — Financial Times
+- [EU looks at tech to bulk up its police agency](https://www.politico.eu/article/eu-technology-police-agency-europol/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [UK prioritised ties with UAE over averting mass atrocities in Sudan, MPs to be told](https://www.theguardian.com/global-development/2026/jun/23/uk-ties-uae-mass-atrocities-sudan-mps-select-committee-nathaniel-raymond) — The Guardian
+- [SoftBank chipmaker Arm hits 50% share in top AI data centers: exec](https://asia.nikkei.com/editor-s-picks/interview/softbank-chipmaker-arm-hits-50-share-in-top-ai-data-centers-exec) — Nikkei Asia
+
 ## 2026-06-24
 
 - [Five years on, Apple Daily staffers reflect on Hong Kong paper's demise](https://asia.nikkei.com/spotlight/hong-kong-security-law/five-years-on-apple-daily-staffers-reflect-on-hong-kong-paper-s-demise) — Nikkei Asia
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [SpaceX handed lowest possible ESG rating by MSCI](https://www.ft.com/content/a0dd4ea7-ef3d-4460-a96c-8c6975a053e3) — Financial Times
 - [New museum brings Thai artist Tang Chang back into focus](https://asia.nikkei.com/life-arts/arts/new-museum-brings-thai-artist-tang-chang-back-into-focus) — Nikkei Asia
 - [Pauline Hanson's stance on paid parental leave and childcare could turn clock back by decades, economists warn](https://www.theguardian.com/australia-news/2026/jun/21/pauline-hanson-women-working-mothers-paid-parental-leave-childcare-income-gender-gap-economy-one-nation-ntwnfb) — The Guardian
-
-## 2026-06-20
-
-- [Why dignity is the measure that matters](https://www.ft.com/content/4b57127a-357a-46ef-a0ee-4da37a624e3a) — Financial Times
-- [A Tale of Two AI Policy Regimes](https://foreignpolicy.com/2026/06/19/brazil-argentina-ai-policy-data-centers-milei/) — Foreign Policy
-- [GoPro and Roomba were U.S. pioneers. Chinese rivals now dominate](https://restofworld.org/2026/chinese-consumer-tech-brands/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [Exploring Taipingshan, Taiwan's primeval mountain escape](https://asia.nikkei.com/life-arts/life/destinations/exploring-taipingshan-taiwan-s-primeval-mountain-escape) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 
