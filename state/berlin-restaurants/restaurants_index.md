@@ -18,3 +18,8 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-06-18 | Toros Tantuni | Kreuzberg | https://maps.google.com/?cid=1543942635703526120&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-06-18 | Osmans Töchter | Prenzlauer Berg | https://maps.google.com/?cid=13278237169014365985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-06-18 | ITA Bistro | Prenzlauer Berg | https://maps.google.com/?cid=11092233695097909376&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-06-25 | Kotti Dang | Neukölln | https://maps.google.com/?cid=1366842234553923275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-06-25 | Hanuman Thai Curry House | Kreuzberg | https://maps.google.com/?cid=10805004978977801651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-06-25 | Simitdchi Cafe und Backhaus | Kreuzberg | https://maps.google.com/?cid=14131623560540591311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-06-25 | Malafemmena | Schöneberg | https://maps.google.com/?cid=13383657543209065497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-06-25 | Lavanderia Vecchia | Neukölln | https://maps.google.com/?cid=3264297671270047681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

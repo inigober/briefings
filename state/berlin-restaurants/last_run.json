@@ -1,19 +1,17 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-06-18",
+  "date": "2026-06-25",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-06-18.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-06-18-synthesis.json",
-  "verified_count": 8,
-  "selected_count": 7,
+  "briefing_path": "briefings/berlin-restaurants/2026-06-25.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-06-25-synthesis.json",
+  "verified_count": 6,
+  "selected_count": 5,
   "selected_restaurants": [
-    "Papaya",
-    "Khao Taan",
-    "Larb Koi",
-    "Hasir Ocakbaşı",
-    "Toros Tantuni",
-    "Osmans Töchter",
-    "ITA Bistro"
+    "Kotti Dang",
+    "Hanuman Thai Curry House",
+    "Simitdchi Cafe und Backhaus",
+    "Malafemmena",
+    "Lavanderia Vecchia"
   ],
-  "notes": "7 entries from 8 verified candidates. Kreuzberg capped at 2 (Hasir Ocakbaşı, Toros Tantuni). Excluded Fes Turkish BBQ due to neighborhood diversity limits."
+  "notes": "5 entries from 6 verified candidates. Excluded Ming Dynastie (covered 2026-06-11, within 10-week anti-repetition window). Kreuzberg capped at 2; Neukölln at 2. No fine-dining entry in verified pool."
 }
