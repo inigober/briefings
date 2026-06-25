@@ -1,0 +1,339 @@
+{
+  "briefing_type": "berlin-restaurants",
+  "date": "2026-06-25",
+  "fetched_at": "2026-06-25T08:01:19.105979+00:00",
+  "model": "gpt-4.1",
+  "fetch_mode": "combined",
+  "items": [
+    {
+      "id": "1",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Ming Dynastie",
+      "neighborhood": "Mitte",
+      "address": "Alexanderplatz area",
+      "cuisine": "Regional Chinese (wider Chinese cuisine)",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Respected institution for Chinese cuisine",
+        "Noted for strong execution and flavors, especially dumplings and regional dishes"
+      ],
+      "weaknesses": [
+        "Located in tourist-heavy Mitte, potentially crowded",
+        "Not strictly regional specialism but broader Chinese"
+      ],
+      "comparative_context": "Among Berlin’s longstanding Chinese restaurants with solid reputation beyond hyped openings.",
+      "critical_assessment": "While in Mitte, this place delivers reliably on Chinese culinary standards, though perhaps not as specialized as niche Sichuan or Hunan.",
+      "source_urls": [
+        "berlinfoodstories.com"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Ming Dynastie Jannowitzbrücke Berlin",
+      "google_maps_address": "Brückenstraße 6, 10179 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=261247375087039031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJy3vdsCROqEcRN_KQfhojoAM",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 3610,
+      "google_maps_hours_compact": "Daily 12:00–22:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "2",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Hanuman Thai Curry House",
+      "neighborhood": "Kreuzberg",
+      "address": "Kreuzberg (exact street not given)",
+      "cuisine": "Thai (Southeast Asian)",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Emphasis on Thai curries, regional specificity",
+        "Featured as a new temple of Thai curries, strong flavor orientation"
+      ],
+      "weaknesses": [
+        "Possible less visibility of non-curry dishes",
+        "Limited address details"
+      ],
+      "comparative_context": "A focused Thai curry specialist amidst broader Thai selections in Berlin.",
+      "critical_assessment": "A compelling curry specialist worth trying for enthusiasts seeking Thai regionality.",
+      "source_urls": [
+        "berlinfoodstories.com"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Hanuman Thai Curry House",
+      "google_maps_address": "Skalitzer Str. 96, 10997 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=10805004978977801651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJV1rq5RRPqEcRs4VM8McW85U",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 360,
+      "google_maps_hours_compact": "Tue–Thu 12:00–15:30 & 17:00–22:00; Fri–Sun 12:00–22:00; (closed Mon)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "3",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Kotti Dang",
+      "neighborhood": "Neukölln",
+      "address": "Lenaustraße 28",
+      "cuisine": "Vietnamese (Southeast Asian)",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Homemade pho and broth with depth, strong vegan-friendly execution",
+        "Affordable pricing (~7–8 €)"
+      ],
+      "weaknesses": [
+        "Quirky decor may distract from seriousness",
+        "Focused mainly on pho, less variety"
+      ],
+      "comparative_context": "Reliable, affordable Vietnamese pho specialist in Neukölln, standing out for flavor and value.",
+      "critical_assessment": "A great go-to for serious lovers of Vietnamese pho at neighbourhood prices.",
+      "source_urls": [
+        "mitvergnuegen.com"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Kotti Dang",
+      "google_maps_address": "Kottbusserdamm 73 Ecke, Lenaustraße 27, 12047 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=1366842234553923275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJK_lRF45PqEcRy3aWPsX_9xI",
+      "google_maps_rating": 4.8,
+      "google_maps_review_count": 1508,
+      "google_maps_hours_compact": "Daily 11:30–23:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "4",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Cooquin Café",
+      "neighborhood": "Lichtenberg",
+      "address": "Möllendorffstraße 115",
+      "cuisine": "Vietnamese/Fusion (Southeast Asian)",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Fresh baguettes for banh mì, homemade wontons and spring rolls",
+        "Cozy cafe atmosphere"
+      ],
+      "weaknesses": [
+        "Located outside core target neighborhoods (Lichtenberg)"
+      ],
+      "comparative_context": "An outlier by geography, but worthwhile for its fresh Vietnamese sandwiches and snacks.",
+      "critical_assessment": "Offers solid regional Vietnamese café staples, though a bit peripheral location.",
+      "source_urls": [
+        "mitvergnuegen.com"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Cooquin Café",
+      "google_maps_address": "Möllendorffstraße 115, 10367 Berlin-Bezirk Lichtenberg",
+      "google_maps_url": "https://maps.google.com/?cid=3191638437624118262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJJcsbz4tPqEcR9nsRvj_6Siw",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 484,
+      "google_maps_hours_compact": null,
+      "exists_in_berlin": true,
+      "permanently_closed": true,
+      "temporarily_closed": false,
+      "maps_api_verified": false,
+      "verification_notes": "Places API: permanently closed; Places API lookup for 'Cooquin Café Möllendorffstraße 115 Berlin Germany' did not pass verification",
+      "verified": false
+    },
+    {
+      "id": "5",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Simitdchi Cafe und Backhaus",
+      "neighborhood": "Kreuzberg",
+      "address": "Adalbertstraße 97",
+      "cuisine": "Turkish breakfast bakery (Middle Eastern)",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Authentic Turkish simit and menemen breakfast",
+        "Affordable and neighborhood-embedded"
+      ],
+      "weaknesses": [
+        "Primarily bakery/ breakfast spot—limited savory lunch/dinner scope"
+      ],
+      "comparative_context": "An authentic Turkish breakfast staple near Kotti, strong technique in baked goods.",
+      "critical_assessment": "Excellent for reflecting genuine Turkish morning flavors in a local setting.",
+      "source_urls": [
+        "tip-berlin.de"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Simitdchi Cafe & Backhaus",
+      "google_maps_address": "Adalbertstraße 97, 10999 Berlin-Bezirk Friedrichshain-Kreuzberg",
+      "google_maps_url": "https://maps.google.com/?cid=14131623560540591311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJVVYrajNOqEcRzxSQecGcHcQ",
+      "google_maps_rating": 4.2,
+      "google_maps_review_count": 449,
+      "google_maps_hours_compact": "Mon–Sat 06:30–20:00; Sun 07:00–20:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "6",
+      "topic_ids": [
+        "mediterranean_european"
+      ],
+      "name": "Lavanderia Vecchia",
+      "neighborhood": "Neukölln",
+      "address": "Hidden second‑courtyard in Neukölln",
+      "cuisine": "Italian (Mediterranean)",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Honest Italian fixed-menu in converted laundromat",
+        "Cozy, authentic atmosphere"
+      ],
+      "weaknesses": [
+        "Possibly limited choice due to fixed menu"
+      ],
+      "comparative_context": "An intimate Italian option in Neukölln with character and regional authenticity.",
+      "critical_assessment": "Delivers heartfelt Italian cooking in a neighbourhood setting, well-suited for enthusiasts over tourists.",
+      "source_urls": [
+        "top10berlin.de"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Lavanderia Vecchia",
+      "google_maps_address": "Flughafenstraße 46, 12053 Berlin-Bezirk Neukölln",
+      "google_maps_url": "https://maps.google.com/?cid=3264297671270047681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJT6ei_LtPqEcRwZ8v4W8dTS0",
+      "google_maps_rating": 4.4,
+      "google_maps_review_count": 912,
+      "google_maps_hours_compact": "Wed–Fri 12:30–23:00; Sat–Sun 17:30–23:00; (closed Mon–Tue)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "7",
+      "topic_ids": [
+        "mediterranean_european"
+      ],
+      "name": "Malafemmena",
+      "neighborhood": "Schöneberg",
+      "address": "Hauptstraße 85, Schöneberg",
+      "cuisine": "Italian (Pizza specialist)",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Neapolitan pizza in authentic style with licensed oven and Italian ingredients",
+        "Strong value (10–20 €)"
+      ],
+      "weaknesses": [
+        "Only pizza, limited broader menu"
+      ],
+      "comparative_context": "Perhaps Berlin’s best Neapolitan pizza, especially in Schöneberg market.",
+      "critical_assessment": "A must for pizza aficionados craving technical authenticity and value.",
+      "source_urls": [
+        "top10berlin.de"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Malafemmena",
+      "google_maps_address": "Hauptstraße 85, 12159 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=13383657543209065497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJvzCYEXBQqEcRGRx0OqBNvLk",
+      "google_maps_rating": 4.4,
+      "google_maps_review_count": 4122,
+      "google_maps_hours_compact": "Mon–Fri 04:00–23:00; Sat–Sun 12:00–23:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "8",
+      "topic_ids": [
+        "fine_dining"
+      ],
+      "name": "Ungeheuer",
+      "neighborhood": "Neukölln",
+      "address": "Emser Straße 23",
+      "cuisine": "Modern European (Fine Dining)",
+      "price_tier": "€€€",
+      "value_label": null,
+      "fine_dining": true,
+      "strengths": [
+        "Creative tasting menus with seasonal focus",
+        "Bright breakfast and elevated dinner quality"
+      ],
+      "weaknesses": [
+        "Recently closed permanently"
+      ],
+      "comparative_context": "Was a neighborhood fine‑dining standout in Neukölln before closure.",
+      "critical_assessment": "Though once compelling, it's no longer operational and should be omitted moving forward.",
+      "source_urls": [
+        "mitvergnuegen.com"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Restaurant Ungeheuer Neukölln",
+      "google_maps_address": "Emser Str. 23, 12051 Berlin-Bezirk Neukölln",
+      "google_maps_url": "https://maps.google.com/?cid=14982378422282062734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJfT45VplPqEcRjouZhssZ7M8",
+      "google_maps_rating": 4.1,
+      "google_maps_review_count": 396,
+      "google_maps_hours_compact": null,
+      "exists_in_berlin": true,
+      "permanently_closed": true,
+      "temporarily_closed": false,
+      "maps_api_verified": false,
+      "verification_notes": "Places API: permanently closed; Places API lookup for 'Ungeheuer Emser Straße 23 Berlin Germany' did not pass verification",
+      "verified": false
+    }
+  ],
+  "gaps": [
+    "Regional Chinese: only Ming Dynastie found—need two more from Sichuan/Dongbei specialties.",
+    "Turkish/Middle Eastern/Caucasus: only one candidate—need two more specialist kitchens."
+  ],
+  "section_counts": {
+    "southeast_asian": 3,
+    "specialist_neighborhood": 0,
+    "regional_chinese": 1,
+    "fine_dining": 1,
+    "mediterranean_european": 2,
+    "turkish_middle_eastern_caucasus": 1
+  },
+  "verified_count": 6,
+  "search_notes": "Searched across Berlin‑focused editorial domains for regional Chinese, Southeast Asian, Turkish/Middle Eastern, Mediterranean and fine dining. Found strong Vietnamese and Italian options, but limited regional Chinese and Turkish/Middle Eastern. One fine‑dining (Ungeheuer) is now closed so will be dropped. Further searches needed for Sichuan specialist and a Turkish grill.",
+  "maps_verified_at": "2026-06-25T08:01:22.333468+00:00"
+}
