@@ -1,12 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-06-18",
-  "briefing_date": "2026-06-18",
-  "inbox_date": "2026-06-18",
+  "date": "2026-06-26",
+  "briefing_date": "2026-06-26",
+  "inbox_date": "2026-06-26",
   "status": "success",
-  "briefing_path": "briefings/news/2026-06-18.md",
-  "inbox_path": "inbox/news/2026-06-18-synthesis.json",
+  "briefing_path": "briefings/news/2026-06-26.md",
+  "inbox_path": "inbox/news/2026-06-26-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
-  "notes": "Synthesis from 2026-06-18 pre-fetch; Zapatero post-hearing imputation, Berlin Mietenkataster, Hannover–Berlin rail diversions, Ghana reparations conference."
+  "rejected_at_synthesis": [
+    {"headline": "Rodolfo Reyes, sobre el rescate de Plus Ultra", "section": "spain", "reason": "recent_topics: Zapatero/Plus Ultra saga covered 2026-06-17–18; theme_cap at slim time"},
+    {"headline": "Un juzgado de Marbella cita a la alcaldesa para hacer inventario de la herencia", "section": "spain", "reason": "rank_below_cap: stronger foreign-policy and tech picks retained"},
+    {"headline": "Las empresas españolas en Venezuela confían en que el impacto sea moderado", "section": "spain", "reason": "one_theme: Venezuela earthquake thread covered 2026-06-25 World"},
+    {"headline": "Konflikt im Libanon: Libanon und Israel verhandeln weiter", "section": "germany", "reason": "geographic_misfit: Middle East diplomacy belongs in World/Other Headlines"},
+    {"headline": "Schwere Erdbeben in Venezuela: Zahl der Toten steigt auf 235", "section": "germany", "reason": "recent_topics: world-venezuela-twin-earthquakes-caracas covered 2026-06-25"},
+    {"headline": "Bad Langensalza: Bürger in Angst – Bedroht Messer-Gewalt nun auch friedliche Kurstädte?", "section": "berlin", "reason": "geographic_misfit: Thuringia town, not Berlin city governance"},
+    {"headline": "Europa wird zum Hitze-Hotspot", "section": "berlin", "reason": "avoid_unless_material: heatwave adaptation; continent-wide analysis not Berlin-local"},
+    {"headline": "Play puts spotlight on Kenya's crisis of gender-based violence", "section": "selected_reads", "reason": "repeat: same URL used 2026-06-24 Selected Reads"},
+    {"headline": "UK prioritised ties with UAE over averting mass atrocities in Sudan", "section": "selected_reads", "reason": "repeat: same URL used 2026-06-25 Selected Reads"},
+    {"headline": "How Rheinmetall gambled on Germany's doomed warship project", "section": "world", "reason": "geographic_misfit: German defence-industry story; stronger Africa/Asia/US picks"},
+    {"headline": "Kevin Warsh eases investors' doubts that he will be an inflation fighter", "section": "world", "reason": "rank_below_cap: constitutional AI governance and South Asia infrastructure preferred"},
+    {"headline": "Bundesweiter Ausfall bei der Deutschen Bahn", "section": "berlin", "reason": "recent_topics: berlin-db-radio-disruption-nationwide covered 2026-06-24"}
+  ],
+  "notes": "Synthesis from 2026-06-26 pre-fetch; Miriam González Democracia 21, Felipe–Sheinbaum Mexico reset, MANGOS AI kill-switch, DGB pension counter-plan, Hamburg Iran espionage trial, Merz anti-AfD reform wager, Philharmoniker heat dress code, Brandenburg Olympia survey, A2 heat closure, Zimbabwe term extension, Trump OpenAI staggered release, Bangladesh–China infrastructure."
 }

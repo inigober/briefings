@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-25",
+  "cap_usd": 2.0,
+  "spent_usd": 0.059038,
+  "estimated": true,
+  "cap_exceeded": false,
+  "calls": [
+    {
+      "section": "combined",
+      "model": "gpt-4.1",
+      "input_tokens": 18687,
+      "cached_tokens": 0,
+      "output_tokens": 1458,
+      "web_search_calls": 1,
+      "cost_usd": 0.059038,
+      "at": "2026-06-25T08:01:19.105852+00:00"
+    }
+  ],
+  "last_run_at": "2026-06-25T08:01:19.105893+00:00"
+}

@@ -6,6 +6,126 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-26
+
+- **spain-miriam-gonzalez-democracia-21-registration** — España Mejor founder registers Democracia 21 party ahead of possible general-election bid (section: spain)
+- **spain-felipe-sheinbaum-mexico-normalization** — King Felipe VI and President Sheinbaum reset Spain–Mexico ties after seven-year Catalan-letter freeze (section: spain)
+- **spain-mangos-tech-ai-kill-switch** — elDiario profiles MANGOS hyperscalers and US export-control kill switches over European critical systems (section: spain)
+- **germany-dgb-alternative-pension-plan** — DGB commission proposes higher pensions without longer work as counter to government reform (section: germany)
+- **germany-hamburg-iran-espionage-trial** — Hamburg court opens trial over alleged Iranian spying on Jewish community leaders (section: germany)
+- **germany-merz-reforms-afd-strategy** — Handelsblatt analysis: Merz bets painful social reforms can shrink AfD appeal (section: germany)
+- **berlin-philharmoniker-heat-dress-code** — Berliner Philharmoniker relax formal dress rules for heat-struck Waldbühne concert (section: berlin)
+- **berlin-brandenburg-olympia-2036-survey** — Forsa poll finds 51% in Brandenburg back four-state 2036 Olympics bid led by Berlin (section: berlin)
+- **berlin-a2-heat-autobahn-closure** — Extreme heat damages A2 near Berlin, closing Ziesar–Wollin stretch (section: berlin)
+- **world-zimbabwe-constitutional-term-extension** — Senate approves amendments extending presidential terms; opposition calls constitutional coup (section: world)
+- **world-trump-openai-gpt-staggered-release** — US agencies ask OpenAI to limit GPT-5.6 rollout for user vetting (section: world)
+- **world-bangladesh-china-infrastructure-push** — Dhaka deepens Beijing investment talks for ports and power amid Gulf energy risks (section: world)
+
+## 2026-06-25
+
+- **spain-almeria-pp-mordidas-parade** — Ex-Diputación chief and Tíjola mayor close PP Almería judicial parade over mask and works kickbacks (section: spain)
+- **spain-canal-sur-adm-forged-equality-plan** — Canal Sur producer filed equality plan with absent union delegate's signature before CEO sex-assault charges (section: spain)
+- **spain-pp-ayuso-eldiaario-festival-challenge** — Madrid PP seeks last-minute cancellation of elDiario culture festival (section: spain)
+- **germany-wehrdienst-530-volunteers** — First balance sheet: 530 Bundeswehr volunteers from 300,000 conscription questionnaires (section: germany)
+- **germany-merz-laender-finance-summit-berlin** — Merz hosts state premiers in Berlin for fiscal-relief negotiations (section: germany)
+- **germany-merz-danzig-ukraine-rebuild** — Chancellor joins Gdańsk reconstruction conference as Tusk backs Ukraine aid (section: germany)
+- **berlin-checkpoint-datenschutz-pannen** — Tagesspiegel catalogues Berlin GDPR breaches from salons to university exams (section: berlin)
+- **berlin-icc-culture-towers-financing-gap** — Senate ICC plan adds culture towers but lacks financing model (section: berlin)
+- **berlin-db-brandenburg-last-mile-glosse** — Berliner Zeitung columnist satirises final Brandenburg rail leg after global trip (section: berlin)
+- **world-anthropic-alibaba-distillation-attack** — Anthropic accuses Alibaba of largest known Claude distillation campaign (section: world)
+- **world-venezuela-twin-earthquakes-caracas** — Twin 7.2/7.5 quakes hit northern Venezuela; emergency declared in Caracas (section: world)
+- **world-micron-ai-memory-profit-surge** — Micron posts 15-fold profit jump on AI memory demand (section: world)
+
+## 2026-06-24
+
+- **spain-soria-ayuntamiento-corruption-raid** — Guardia Civil detains six in Soria town-hall money-laundering probe (section: spain)
+- **spain-kitchen-trial-pp-political-brigade** — Operación Kitchen resumes with PP political-police brigade testimony (section: spain)
+- **spain-supremo-rejects-aldama-montero-aide-claims** — Supreme Court rejects Aldama bribery claims against finance minister's chief of staff (section: spain)
+- **germany-merz-pension-reform-all-in** — Merz frames Alterssicherungskommission package as defining coalition wager (section: germany)
+- **germany-renewables-jobs-energy-pivot-risk** — Study warns renewables employment boom at risk from government course change (section: germany)
+- **germany-teilkrankschreibung-partial-sick-leave** — Doctors and economists debate graded sick-leave reform (section: germany)
+- **berlin-db-radio-disruption-nationwide** — Digital train-radio failure halts nationwide rail traffic (section: berlin)
+- **berlin-icc-senate-recommendation-approved** — Senate approves recommendation for ICC congress-centre redevelopment (section: berlin)
+- **berlin-prenzlauer-tram-stop-fatal-crash** — Pedestrian killed in Prenzlauer Berg collision at tram halt (section: berlin)
+- **world-nvidia-chips-china-grey-market** — Banned Nvidia AI processors trade at double price on China black market (section: world)
+- **world-kenya-ebola-facility-halt** — Kenyan health minister orders halt to US Ebola quarantine facility (section: world)
+- **world-ecuador-whistleblower-murder** — Activists say researcher probing president's family business was murdered (section: world)
+
+## 2026-06-23
+
+- **spain-abalos-24-year-mascarillas-sentence** — Supreme Court convicts ex-minister Ábalos to 24 years over mask-contract graft (section: spain)
+- **spain-aldama-no-prison-keeps-proceeds** — Cooperating businessman Aldama avoids custody and retains mask commissions (section: spain)
+- **spain-abalos-constitutional-appeal-strategy** — Defendants plan amparo route, citing political verdict (section: spain)
+- **germany-china-neighbourhood-eldercare-model** — German experts study Beijing/Shanghai community senior-support schemes (section: germany)
+- **germany-classic-degree-career-roi** — Handelsblatt on whether Jura, Medizin and BWL still pay off (section: germany)
+- **germany-pension-commission-package-delivered** — Alterssicherungskommission hands full reform blueprint to Merz government (section: germany)
+- **berlin-cash-transporter-robbery-sentences** — Courts jail three over March 2025 armoured-van heist in Marzahn (section: berlin)
+- **berlin-schools-religious-rules-pressure** — Crisis barometer finds religious norms trumping school rules for many pupils (section: berlin)
+- **berlin-us-german-fighter-jet-flyover** — Joint Bundeswehr–US formation flight planned over Charlottenburg (section: berlin)
+- **world-canada-healthcare-phishing-test** — Newfoundland unions condemn fake paid-day-off cybersecurity drill (section: world)
+- **world-hiroshima-survivor-memoir-published** — Tanimoto's 1947 account recovered from US archive for August release (section: world)
+- **world-australia-war-memorial-roberts-smith** — Government defends inviting contested VC holder to memorial reopening (section: world)
+
+## 2026-06-22
+
+- **spain-justice-impartiality-poll** — Majority tell Ateneo del Dato poll courts lack impartiality (section: spain)
+- **spain-valencia-teacher-police-assault** — Valencia judge probes riot-police assault on striking teacher (section: spain)
+- **spain-world-cup-saudi-victory** — Spain routs Saudi Arabia with Lamine and Oyarzabal goals (section: spain)
+- **germany-arbeitszeugnis-grade-inflation** — Employers inflate reference grades to avoid dismissal suits (section: germany)
+- **germany-work-messenger-monitoring** — Labour-law column on when bosses may read work chats (section: germany)
+- **germany-ryanair-oleary-contract-extension** — O'Leary extends as Ryanair CEO to 2032 with rich options (section: germany)
+- **berlin-vergesellschaftung-national-debate** — Federal Länder join Berlin expropriation argument five years after vote (section: berlin)
+- **berlin-mitte-open-air-permit-reform** — Mitte pilots simpler outdoor-event permits (section: berlin)
+- **berlin-charlottenburg-antisemitic-assault** — Police arrest suspect after Uhlandstraße attacks (section: berlin)
+- **world-colombia-de-la-espriella-election-win** — De la Espriella wins presidency by ~250,000 votes in precount (section: world)
+- **world-bolivia-state-emergency-protests** — Arce deploys military against nationwide roadblocks (section: world)
+- **world-china-appliances-southeast-asia** — Chinese brands gain ASEAN appliance share (section: world)
+
+## 2026-06-21
+
+- **spain-begona-gomez-audiencia-appeal-trial** — Audiencia Provincial last route as Peinado sends Gómez to trial with travel ban (section: spain)
+- **spain-feijoo-vox-coalition-reversal** — Feijóo abandons pledge to govern without Vox (section: spain)
+- **spain-summer-heatwave-early-june** — First summer heatwave exposes 27M to elevated health risk (section: spain)
+- **germany-pension-commission-contribution-reform** — Alterssicherungskommission widens pension insurance, spares Beamte (section: germany)
+- **germany-us-drug-price-investigation** — Washington probes German pharmaceutical pricing (section: germany)
+- **germany-heat-days-frequency-data** — Climate data show sharply rising German heat-day counts (section: germany)
+- **berlin-school-mobbing-violence-study** — Senate commissions study on bullying and violence in schools (section: berlin)
+- **berlin-veteranentag-reichstag-closures** — Veterans Day citizen festival closes government quarter (section: berlin)
+- **berlin-ki-journalism-niggemeier-debate** — AI summarisation dispute between Berlin media critics (section: berlin)
+- **world-colombia-paramilitary-runoff** — Presidential runoff shaped by paramilitary histories (section: world)
+- **world-japan-chip-tools-china-sales-drop** — Japanese equipment suppliers report 10% China sales fall (section: world)
+- **world-australia-h5n1-mainland** — First mainland H5N1 case confirmed in Western Australia (section: world)
+
+## 2026-06-20
+
+- **spain-ibex-foreign-fund-ownership** — BlackRock, Vanguard and Norway SWF dominate Ibex 35 share registers (section: spain)
+- **spain-hotels-booking-collective-lawsuit** — 1,400+ Spanish hotel firms prepare group claim against Booking.com (section: spain)
+- **spain-merz-eu-budget-spain-italy-alliance** — Merz hard line on EU budget as Madrid and Rome align on revenue tools (section: spain)
+- **germany-data-centre-green-power-survey** — Majority backs data-centre expansion conditional on renewables (section: germany)
+- **germany-cannabis-commercialisation-psychosis-study** — Global review links retail cannabis markets to higher usage and psychosis (section: germany)
+- **germany-munich-freight-wagons-bridge-fall** — Two freight wagons plunge from Munich bridge (section: germany)
+- **berlin-icc-investor-plan-unveil** — Senate expected to present long-delayed ICC congress-centre options (section: berlin)
+- **berlin-alba-basketball-finals-game-five** — Alba Berlin forces deciding championship game against Bayern Munich (section: berlin)
+- **berlin-zdf-schoenbohm-accountability** — Berliner Zeitung presses ZDF after second court loss in Schönbohm reporting (section: berlin)
+- **world-iran-hormuz-insurance-fees** — Tehran to require Iran-approved insurance for Hormuz transit (section: world)
+- **world-wcfo-cambodia-optical-cable-ai** — WCFO expands Cambodian fibre capacity for AI data-centre demand (section: world)
+- **world-china-leapmotor-e-bike-growth** — Leapmotor scales from repair shop to national e-bike brand (section: world)
+
+## 2026-06-19
+
+- **spain-ayuso-quiron-partner-tax-report** — Hacienda documents €4.4M Quirón billing to Ayuso's partner (section: spain)
+- **spain-sanchez-pnv-election-q1-2027** — Sánchez accepts Q1 2027 election window if budget fails (section: spain)
+- **spain-boiron-homeopathy-supplement-pivot** — Boiron shifts to food supplements as pharmacy sales fall 37.6% (section: spain)
+- **germany-fake-online-shops-enforcement** — Consumer ministers target fraudulent e-commerce defrauding thousands (section: germany)
+- **germany-renault-r4-e-tech-plein-sud** — Renault launches folding-roof electric R4 variant (section: germany)
+- **germany-solstice-sunset-calendar-mismatch** — Latest sunset does not fall on longest day due to time-zone mechanics (section: germany)
+- **berlin-nova-exhibition-funding-dispute** — Senate internal papers show wrangling over €1.4M 7 October memorial grant (section: berlin)
+- **berlin-qube-queer-youth-centre-neukoelln** — Q*ube marks five years serving LGBTQ+ youth on precarious funding (section: berlin)
+- **berlin-blue-algae-swimming-risk** — Water ecologist warns bathers underestimate algae and cercaria risk (section: berlin)
+- **world-chile-china-undersea-cable-blocked** — US pressure stalls Chile–Hong Kong submarine cable project (section: world)
+- **world-india-private-nuclear-caution** — Regulators warn private firms against rushing into nuclear generation (section: world)
+- **world-south-africa-rhino-horn-sentencing** — Court sentences traffickers in 'world's largest' rhino-horn case (section: world)
+
 ## 2026-06-18
 
 - **spain-zapatero-judge-maintains-imputation** — Judge keeps imputation after closed interrogation citing four evidence streams (section: spain)
@@ -95,66 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-canada-toronto-officer-terror** — Toronto constable killed during consulate-linked warrants; global terror probe (section: world)
 - **world-thailand-princess-funeral** — Bangkok mourns Princess Bajrakitiyabha funeral procession (section: world)
 - **world-canada-openai-suicide-lawsuit** — Canadian mother sues OpenAI over daughter's suicide (section: world)
-
-## 2026-06-12
-
-- **spain-zapatero-jewels-valuation** — Court-ordered appraisal values seized jewellery at €1.3M; tax-fraud threshold implications (section: spain)
-- **spain-psoe-voter-corruption-polling** — CIS/40dB polling shows corruption concern tripling among PSOE voters (section: spain)
-- **spain-renewable-surplus-negative-prices** — Wind/solar glut produces negative electricity prices; grid interconnection bottleneck (section: spain)
-- **germany-healthcare-staff-vacancies** — Hospital Federation reports record nurse and care-worker vacancy rates (section: germany)
-- **germany-hydrogen-subsidy-scramble** — Hydrogen project applications outpace federal funding envelope (section: germany)
-- **germany-ifo-business-climate-june** — ifo index rises second month; automotive suppliers and machinery show recovery signs (section: germany)
-- **berlin-charite-nurse-strike** — Charité nursing staff announce 48-hour warning strike over pay and conditions (section: berlin)
-- **berlin-s-bahn-engineering-disruption** — S3/S5/S7 engineering works cause major east Berlin delays (section: berlin)
-- **berlin-spree-pollution-investigation** — Elevated contaminant levels trigger environmental probe near central Berlin (section: berlin)
-- **world-thailand-princess-death** — Princess Bajrakitiyabha dies after years in coma; succession symbolism (section: world)
-- **world-china-spacesail-starlink-rival** — Chinese Spacesail constellation competes with SpaceX ahead of IPO (section: world)
-- **world-kenya-ebola-facility-protest** — Police kill protester opposing proposed US Ebola quarantine site in Nanyuki (section: world)
-
-## 2026-06-11
-
-- **spain-housing-price-map** — Street-level notarial housing sale price map across 33,000 grid cells (section: spain)
-- **spain-education-strikes-costs** — Education stoppages impose costs on teachers, families and disadvantaged pupils (section: spain)
-- **spain-pp-vox-national-priority-migration** — PP-Vox "prioridad nacional" rhetoric becomes concrete regional migration policy (section: spain)
-- **germany-ifo-real-wages-2026** — ifo projects further German real wage growth despite weak macro backdrop (section: germany)
-- **germany-electric-trucks-eu-standards** — German truckmakers accelerate electric heavy-vehicle transition under EU emissions rules (section: germany)
-- **germany-heating-law-first-reading** — Revised Gebäudeenergiegesetz enters Bundestag under criticism from business, Länder and legal experts (section: germany)
-- **berlin-bvg-u-bahn-warning-strike** — BVG U-Bahn workers plan 13 June warning strike after wage talks stall (section: berlin)
-- **berlin-charite-microplastics** — Charité expands microplastic reduction programme across hospital waste and laundry streams (section: berlin)
-- **berlin-rent-cap-lawsuit** — Property owners sue over Berlin Senate citywide rent-cap plan (section: berlin)
-- **world-gulf-clean-energy-capital** — Gulf sovereign funds scale renewable-energy investment across Africa, South Asia and Southeast Asia (section: world)
-- **world-china-overseas-semiconductor-capacity** — Chinese chipmakers expand overseas foundries to route around export controls (section: world)
-- **world-global-south-youth-unemployment** — Record youth unemployment in Sub-Saharan Africa and South Asia tests demographic dividend (section: world)
-
-## 2026-06-10
-
-- **spain-dana-mazon-whatsapp** — Mazón WhatsApp messages during Valencia floods; Cecopi testimony (section: spain)
-- **spain-aquifer-bankruptcy** — Groundwater overextraction, illegal wells (section: spain)
-- **spain-defense-rd-record** — Public R&D €15.7bn record, defense spending tripled (section: spain)
-- **germany-tankrabatt-expiry** — Fuel tax rebate ends 1 July (section: germany)
-- **germany-merz-reform-summit** — Chancellery meeting with unions/employers (section: germany)
-- **germany-ifo-laender-uneven-q1** — Growth in 12/16 Länder, NRW/Hamburg lag (section: germany)
-- **berlin-stoschek-foundation-closure** — Julia Stoschek leaves Leipziger Straße (section: berlin)
-- **berlin-oak-processionary-moth** — Citizen map tracking caterpillar nests (section: berlin)
-- **berlin-tu-hauptgebaeude-closure** — TU main building closed indefinitely (section: berlin)
-- **world-drc-coltan-m23** — Global Witness coltan supply chain investigation (section: world)
-- **world-modi-nehru-tenure** — Modi surpasses Nehru as longest-serving PM (section: world)
-- **world-trump-climate-immigration** — US curbs target climate-vulnerable countries (section: world)
-
-## 2026-06-09
-
-- **spain-demographics-50m** — Approaching 50M residents faster than expected (section: spain)
-- **spain-services-pmi-may** — Services sector marginal growth in May PMI (section: spain)
-- **spain-economic-outperformance** — International analyses on faster-than-eurozone growth (section: spain)
-- **germany-labour-agency-deficit** — Federal Employment Agency €8bn+ deficit projected (section: germany)
-- **germany-regional-elections-2026** — State elections shaping national politics (section: germany)
-- **germany-skilled-labour-shortage** — Foreign worker attraction measures debated (section: germany)
-- **berlin-universities-careers-beyond-academia** — PhD career pathways outside academia (section: berlin)
-- **berlin-labour-slowdown-services** — National employment weakness hits service economy (section: berlin)
-- **berlin-research-hub-talent** — International academic collaborations (section: berlin)
-- **world-armenia-geopolitics-russia** — Armenia balancing act reducing Russia dependence (section: world)
-- **world-migration-economic-force** — Migration as labour-force expansion (section: world) [mirrors Spain — avoid]
-- **world-ai-employment-uncertainty** — AI impact on jobs debated (section: world)
 
 ## Saturated topics — do not return without material development
 

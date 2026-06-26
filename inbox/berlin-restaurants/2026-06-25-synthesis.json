@@ -1,0 +1,257 @@
+{
+  "briefing_type": "berlin-restaurants",
+  "date": "2026-06-25",
+  "source_raw": "inbox/berlin-restaurants/2026-06-25-raw.json",
+  "built_at": "2026-06-25T08:01:22.452943+00:00",
+  "model": "gpt-4.1",
+  "raw_item_count": 8,
+  "verified_count": 6,
+  "section_counts": {
+    "regional_chinese": 1,
+    "southeast_asian": 2,
+    "turkish_middle_eastern_caucasus": 1,
+    "mediterranean_european": 2,
+    "specialist_neighborhood": 0,
+    "fine_dining": 0
+  },
+  "items": [
+    {
+      "id": "1",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Ming Dynastie",
+      "neighborhood": "Mitte",
+      "address": "Alexanderplatz area",
+      "cuisine": "Regional Chinese (wider Chinese cuisine)",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Respected institution for Chinese cuisine",
+        "Noted for strong execution and flavors, especially dumplings and regional dishes"
+      ],
+      "weaknesses": [
+        "Located in tourist-heavy Mitte, potentially crowded",
+        "Not strictly regional specialism but broader Chinese"
+      ],
+      "comparative_context": "Among Berlin’s longstanding Chinese restaurants with solid reputation beyond hyped openings.",
+      "critical_assessment": "While in Mitte, this place delivers reliably on Chinese culinary standards, though perhaps not as specialized as niche Sichuan or Hunan.",
+      "google_maps_name": "Ming Dynastie Jannowitzbrücke Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=261247375087039031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Brückenstraße 6, 10179 Berlin",
+      "google_maps_place_id": "ChIJy3vdsCROqEcRN_KQfhojoAM",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 3610,
+      "google_maps_hours_compact": "Daily 12:00–22:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "berlinfoodstories.com"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "3",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Kotti Dang",
+      "neighborhood": "Neukölln",
+      "address": "Lenaustraße 28",
+      "cuisine": "Vietnamese (Southeast Asian)",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Homemade pho and broth with depth, strong vegan-friendly execution",
+        "Affordable pricing (~7–8 €)"
+      ],
+      "weaknesses": [
+        "Quirky decor may distract from seriousness",
+        "Focused mainly on pho, less variety"
+      ],
+      "comparative_context": "Reliable, affordable Vietnamese pho specialist in Neukölln, standing out for flavor and value.",
+      "critical_assessment": "A great go-to for serious lovers of Vietnamese pho at neighbourhood prices.",
+      "google_maps_name": "Kotti Dang",
+      "google_maps_url": "https://maps.google.com/?cid=1366842234553923275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Kottbusserdamm 73 Ecke, Lenaustraße 27, 12047 Berlin",
+      "google_maps_place_id": "ChIJK_lRF45PqEcRy3aWPsX_9xI",
+      "google_maps_rating": 4.8,
+      "google_maps_review_count": 1508,
+      "google_maps_hours_compact": "Daily 11:30–23:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "mitvergnuegen.com"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "2",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Hanuman Thai Curry House",
+      "neighborhood": "Kreuzberg",
+      "address": "Kreuzberg (exact street not given)",
+      "cuisine": "Thai (Southeast Asian)",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Emphasis on Thai curries, regional specificity",
+        "Featured as a new temple of Thai curries, strong flavor orientation"
+      ],
+      "weaknesses": [
+        "Possible less visibility of non-curry dishes",
+        "Limited address details"
+      ],
+      "comparative_context": "A focused Thai curry specialist amidst broader Thai selections in Berlin.",
+      "critical_assessment": "A compelling curry specialist worth trying for enthusiasts seeking Thai regionality.",
+      "google_maps_name": "Hanuman Thai Curry House",
+      "google_maps_url": "https://maps.google.com/?cid=10805004978977801651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Skalitzer Str. 96, 10997 Berlin",
+      "google_maps_place_id": "ChIJV1rq5RRPqEcRs4VM8McW85U",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 360,
+      "google_maps_hours_compact": "Tue–Thu 12:00–15:30 & 17:00–22:00; Fri–Sun 12:00–22:00; (closed Mon)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "berlinfoodstories.com"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "5",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Simitdchi Cafe und Backhaus",
+      "neighborhood": "Kreuzberg",
+      "address": "Adalbertstraße 97",
+      "cuisine": "Turkish breakfast bakery (Middle Eastern)",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Authentic Turkish simit and menemen breakfast",
+        "Affordable and neighborhood-embedded"
+      ],
+      "weaknesses": [
+        "Primarily bakery/ breakfast spot—limited savory lunch/dinner scope"
+      ],
+      "comparative_context": "An authentic Turkish breakfast staple near Kotti, strong technique in baked goods.",
+      "critical_assessment": "Excellent for reflecting genuine Turkish morning flavors in a local setting.",
+      "google_maps_name": "Simitdchi Cafe & Backhaus",
+      "google_maps_url": "https://maps.google.com/?cid=14131623560540591311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Adalbertstraße 97, 10999 Berlin-Bezirk Friedrichshain-Kreuzberg",
+      "google_maps_place_id": "ChIJVVYrajNOqEcRzxSQecGcHcQ",
+      "google_maps_rating": 4.2,
+      "google_maps_review_count": 449,
+      "google_maps_hours_compact": "Mon–Sat 06:30–20:00; Sun 07:00–20:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "tip-berlin.de"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "7",
+      "topic_ids": [
+        "mediterranean_european"
+      ],
+      "name": "Malafemmena",
+      "neighborhood": "Schöneberg",
+      "address": "Hauptstraße 85, Schöneberg",
+      "cuisine": "Italian (Pizza specialist)",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Neapolitan pizza in authentic style with licensed oven and Italian ingredients",
+        "Strong value (10–20 €)"
+      ],
+      "weaknesses": [
+        "Only pizza, limited broader menu"
+      ],
+      "comparative_context": "Perhaps Berlin’s best Neapolitan pizza, especially in Schöneberg market.",
+      "critical_assessment": "A must for pizza aficionados craving technical authenticity and value.",
+      "google_maps_name": "Malafemmena",
+      "google_maps_url": "https://maps.google.com/?cid=13383657543209065497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Hauptstraße 85, 12159 Berlin",
+      "google_maps_place_id": "ChIJvzCYEXBQqEcRGRx0OqBNvLk",
+      "google_maps_rating": 4.4,
+      "google_maps_review_count": 4122,
+      "google_maps_hours_compact": "Mon–Fri 04:00–23:00; Sat–Sun 12:00–23:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "top10berlin.de"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "6",
+      "topic_ids": [
+        "mediterranean_european"
+      ],
+      "name": "Lavanderia Vecchia",
+      "neighborhood": "Neukölln",
+      "address": "Hidden second‑courtyard in Neukölln",
+      "cuisine": "Italian (Mediterranean)",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Honest Italian fixed-menu in converted laundromat",
+        "Cozy, authentic atmosphere"
+      ],
+      "weaknesses": [
+        "Possibly limited choice due to fixed menu"
+      ],
+      "comparative_context": "An intimate Italian option in Neukölln with character and regional authenticity.",
+      "critical_assessment": "Delivers heartfelt Italian cooking in a neighbourhood setting, well-suited for enthusiasts over tourists.",
+      "google_maps_name": "Lavanderia Vecchia",
+      "google_maps_url": "https://maps.google.com/?cid=3264297671270047681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Flughafenstraße 46, 12053 Berlin-Bezirk Neukölln",
+      "google_maps_place_id": "ChIJT6ei_LtPqEcRwZ8v4W8dTS0",
+      "google_maps_rating": 4.4,
+      "google_maps_review_count": 912,
+      "google_maps_hours_compact": "Wed–Fri 12:30–23:00; Sat–Sun 17:30–23:00; (closed Mon–Tue)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "top10berlin.de"
+      ],
+      "ingestion_source": "openai"
+    }
+  ],
+  "note": "Token-light restaurant slice for synthesis. Items included here have verified:true after Google Places API post-fetch verification when GOOGLE_MAPS_API_KEY is set. Do not recommend unverified restaurants."
+}

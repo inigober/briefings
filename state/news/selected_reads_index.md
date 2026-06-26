@@ -4,40 +4,40 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
-## 2026-06-18
+## 2026-06-26
 
-- [When Americans choose Chinese AI](https://restofworld.org/2026/when-americans-choose-chinese-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [Europe's budget war starts now](https://www.politico.eu/podcast/brussels-playbook-podcast/europes-budget-war-starts-now/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Trump Defends His Iran Deal](https://foreignpolicy.com/2026/06/17/us-iran-peace-deal-draft-text-mou-trump-g7-lebanon-war-israel/) — Foreign Policy
-- [Seven-year-old Abdiqadir was hit in a US airstrike. Without a $750 operation, he may lose his ability to walk](https://www.theguardian.com/global-development/2026/jun/17/boy-injured-us-strike-somalia-ability-walk-operation-abdiqadir-salah-surgery-civilians-november-attack) — The Guardian
+- [The Geopolitics of SpaceX and Elon Musk](https://foreignpolicy.com/2026/06/25/spacex-elon-musk-geopolitics-ai-x-quinn-slobodian/) — Foreign Policy
+- [SoftBank shares slipped over 12% on concerns of OpenAI IPO delay](https://asia.nikkei.com/business/markets/softbank-shares-slipped-over-12-on-concerns-of-openai-ipo-delay) — Nikkei Asia
+- [Attack in Strait of Hormuz halts evacuation plan for stranded ships](https://www.ft.com/content/5abcb3c1-8ce8-470f-8a37-f47af58b2f7c) — Financial Times
+- [How the DeepMind mafia brought the AI boom to London](https://www.ft.com/content/6a3a46b9-4725-469e-a909-917768a74afb) — Financial Times
 
-## 2026-06-17
+## 2026-06-25
 
-- [Spotify's post-English AI future](https://restofworld.org/2026/spotify-global-ai-music-streaming-strategy/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [Myanmar Is What Happens When China Fills a Vacuum](https://foreignpolicy.com/2026/06/17/myanmar-china-election-junta/) — Foreign Policy
-- [Von der Leyen won't run for a third term. Or will she?](https://www.politico.eu/podcast/brussels-playbook-podcast/von-der-leyen-wont-run-for-a-third-term-or-will-she/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Why Anthropic Is Fighting With Trump (Again)](https://foreignpolicy.com/2026/06/16/anthropic-trump-fight-mythos-fable-5-hegseth/) — Foreign Policy
+- [Insurers slash war premiums for Strait of Hormuz ships](https://www.ft.com/content/b62d823c-865b-4fa6-a492-1cd65d3400cb) — Financial Times
+- [EU looks at tech to bulk up its police agency](https://www.politico.eu/article/eu-technology-police-agency-europol/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [UK prioritised ties with UAE over averting mass atrocities in Sudan, MPs to be told](https://www.theguardian.com/global-development/2026/jun/23/uk-ties-uae-mass-atrocities-sudan-mps-select-committee-nathaniel-raymond) — The Guardian
+- [SoftBank chipmaker Arm hits 50% share in top AI data centers: exec](https://asia.nikkei.com/editor-s-picks/interview/softbank-chipmaker-arm-hits-50-share-in-top-ai-data-centers-exec) — Nikkei Asia
 
-## 2026-06-16
+## 2026-06-24
 
-- [How to Say No to an Imperial President](https://foreignpolicy.com/2026/06/16/nixon-irs-trump-executive-authority/) — Foreign Policy
-- [Can open-source beat OpenAI?](https://restofworld.org/2026/tiezhen-wang-china-us-open-source-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [The end of Brussels' most important dinner party](https://www.politico.eu/podcast/brussels-playbook-podcast/the-end-of-brussels-most-important-dinner-party/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [South African jazz pianist Abdullah Ibrahim dies aged 91](https://www.theguardian.com/music/2026/jun/15/pianist-abdullah-ibrahim-dies) — The Guardian
+- [Five years on, Apple Daily staffers reflect on Hong Kong paper's demise](https://asia.nikkei.com/spotlight/hong-kong-security-law/five-years-on-apple-daily-staffers-reflect-on-hong-kong-paper-s-demise) — Nikkei Asia
+- [America Desperately Needs More Sterile Screwworms](https://www.theatlantic.com/science/2026/06/screwworm-problem-worse/687668/?utm_source=feed) — The Atlantic
+- [Heatwave shows we are marinating in a crisis of our own making](https://www.ft.com/content/f059869e-294b-42b7-bf38-fe55b46ad812) — Financial Times
+- [Play puts spotlight on Kenya's crisis of gender-based violence](https://www.theguardian.com/world/2026/jun/24/kenya-play-free-me-gender-based-violence) — The Guardian
 
-## 2026-06-15
+## 2026-06-23
 
-- [The End of Neoliberalism](https://foreignpolicy.com/2026/06/15/neoliberalism-globalization-competition-cosmopolitanism-economics-reagan-thatcher/) — Foreign Policy
-- [What the SpaceX IPO reveals about Gulf money in AI](https://restofworld.org/2026/spacex-ipo-gulf-money-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [Bardella warns Brussels he won't moderate](https://www.politico.eu/podcast/brussels-playbook-podcast/bardella-warns-brussels-he-wont-moderate/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [The End of the U.S.-Israel Alliance](https://foreignpolicy.com/2026/06/15/israel-united-states-special-relationship-palestine-netanyahu-trump/) — Foreign Policy
+- [Citadel: the hedge fund that became an energy giant](https://www.ft.com/content/3d0842dd-a8f4-435d-b888-5587b4b9eeda) — Financial Times
+- [Private bank LGT sees AI and inflation as Japan tailwinds](https://asia.nikkei.com/editor-s-picks/interview/private-bank-lgt-sees-ai-and-inflation-as-japan-tailwinds) — Nikkei Asia
+- [Cities must set the terms for the AI infrastructure boom](https://www.politico.eu/sponsored-content/cities-must-set-the-terms-for-the-ai-infrastructure-boom/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [OpenAI pitches ChatGPT ads to Cannes marketers ahead of IPO](https://www.ft.com/content/9717a042-fd09-4d08-972d-29b68f7985a4) — Financial Times
 
-## 2026-06-14
+## 2026-06-22
 
-- [Russland vor dem Kollaps. Mit Moritz Schularick](https://www.politico.eu/podcast/berlin-playbook-podcast/russland-vor-dem-kollaps-mit-moritz-schularick/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Trump's Big Weekend Could Derail the G-7](https://foreignpolicy.com/2026/06/12/trump-iran-war-peace-talks-deal-g7-leaders-summit/) — Foreign Policy
-- [Andy Burnham: the man who wants to be PM](https://www.politico.eu/podcast/westminster-insider/andy-burnham-the-man-who-wants-to-be-pm/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- ['Spy turtles' and 'spy fish' being used to monitor Chinese waters, Beijing claims](https://www.theguardian.com/world/2026/jun/12/china-spy-turtles-spy-fish-monitor-waters-claims) — The Guardian
+- [Starmer on brink of quitting as UK prime minister](https://www.ft.com/content/ed96e673-8d46-4dec-aebc-d69863b9e801) — Financial Times
+- [Chinese appliance brands gain ground in Southeast Asia](https://asia.nikkei.com/business/electronics/chinese-appliance-brands-gain-ground-in-southeast-asia) — Nikkei Asia
+- [I'd Rather Risk Cancer Than See AI Move This Fast](https://www.theatlantic.com/technology/2026/06/ai-cancer-progress/687654/?utm_source=feed) — The Atlantic
+- [Canada's policies force asylum seekers into US to face deportation, critics say](https://www.theguardian.com/world/2026/jun/21/canada-immigration-us-deportation) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
