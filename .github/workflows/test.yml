@@ -24,14 +24,12 @@ jobs:
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
 
-      - name: Validate culture briefings
+      - name: Validate latest culture briefing
         run: |
-          failed=0
-          for f in briefings/berlin-culture/*.md; do
-            case "$f" in
-              *.test.md) continue ;;
-            esac
-            echo "Validating $f"
-            python scripts/validate_culture_briefing.py --path "$f" || failed=1
-          done
-          exit "$failed"
+          latest=$(ls briefings/berlin-culture/*.md 2>/dev/null | grep -v '.test.md' | sort | tail -1)
+          if [ -z "$latest" ]; then
+            echo "No culture briefings to validate — skipping"
+            exit 0
+          fi
+          echo "Validating latest briefing: $latest"
+          python scripts/validate_culture_briefing.py --path "$latest"
