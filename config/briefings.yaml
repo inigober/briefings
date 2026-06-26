@@ -31,6 +31,8 @@ briefings:
     prefetch:
       rss: true
       wordpress: true
+      ics: true
+      html_calendars: true
       openai_script: fetch_culture_research
       slim: true
       spend_cap_usd: 2.0  # documented default; live cap = GitHub variable OPENAI_DAILY_SPEND_CAP_USD or code default $2

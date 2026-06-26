@@ -17,12 +17,27 @@ rss_feeds:
     max_items: 10
   - publisher: Ballhaus Naunynstraße
     url: https://ballhausnaunynstrasse.de/feed/
+    venue: Ballhaus Naunynstraße
     section_ids: [performing_arts]
     max_items: 10
+    programme: true
   - publisher: A-Trane
-    url: https://www.a-trane.de/feed/
+    url: https://a-trane.de/events/feed/
+    venue: A-Trane
+    section_ids: [music]
+    max_items: 12
+    programme: true
+  - publisher: Exberliner
+    url: https://www.exberliner.com/feed/
+    section_ids: [wildcards, film, exhibitions]
+    max_items: 10
+  - publisher: Silent Green
+    url: https://www.silent-green.net/feed/
+    venue: Silent Green
     section_ids: [music]
     max_items: 10
+    programme: true
+    note: RSS XML often malformed — html_calendar_feeds is primary
 
 wordpress_feeds:
   - publisher: The Berliner
@@ -30,6 +45,34 @@ wordpress_feeds:
     venue: The Berliner
     section_ids: [wildcards]
     max_items: 12
+  - publisher: Exberliner
+    url: https://www.exberliner.com/wp-json/wp/v2/posts
+    venue: Exberliner
+    section_ids: [wildcards, film, exhibitions]
+    max_items: 12
+
+# WordPress event APIs — dated programme items (not editorial posts).
+wordpress_event_feeds:
+  - publisher: Exberliner
+    url: https://www.exberliner.com/wp-json/wp/v2/posts
+    api_kind: wp_rest
+    section_ids: [wildcards, film]
+    max_items: 12
+
+# ICS venue calendars — skipped gracefully when URL is not a real VCALENDAR export.
+ics_feeds: []
+
+# HTML / per-event ICS scrapers for venues without reliable RSS.
+html_calendar_feeds:
+  - publisher: Index Berlin
+    fetcher: index_berlin
+    section_ids: [exhibitions, wildcards]
+    max_items: 40
+  - publisher: Silent Green
+    fetcher: silent_green_programme
+    venue: Silent Green
+    section_ids: [music]
+    max_items: 30
 
 # Editorial feeds — context only; do not count as venue programme coverage.
 press_publishers:
@@ -78,6 +121,9 @@ programme_urls:
       url: https://www.smb.museum/en/museums-institutions/hamburger-bahnhof/exhibitions/
     - venue: Museumsportal Berlin
       url: https://www.museumsportal-berlin.de/en/exhibitions/
+    - venue: Index Berlin
+      url: https://www.indexberlin.com/
+      note: independent gallery listings — search for in-window openings
   film:
     - venue: Arsenal Filminstitut
       url: https://www.arsenal-berlin.de/en/cinema

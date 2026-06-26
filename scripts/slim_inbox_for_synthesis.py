@@ -20,8 +20,14 @@ from urllib.parse import urlparse
 import yaml
 
 from briefing_paths import load_briefing_type
-from culture_calendar import is_publisher_venue_item
-from culture_dates import normalize_tuesday_run_date
+from culture_calendar import (
+    enrich_culture_metadata,
+    is_publisher_venue_item,
+    normalize_event_key,
+    normalize_venue_key,
+)
+from culture_dates import culture_week_date_bounds, normalize_tuesday_run_date
+from culture_schedule import filter_items_to_briefing_window
 from news_relevance import (
     item_theme_keys,
     load_dedup_entries,
@@ -78,7 +84,12 @@ CULTURE_SLIM_ITEM_KEYS = (
     "url_live",
     "why_candidate",
     "ingestion_source",
+    "series_id",
+    "event_kind",
 )
+
+CULTURE_MAX_PER_VENUE = 2
+CULTURE_MAX_PER_SERIES = 1
 
 RESTAURANT_SLIM_ITEM_KEYS = (
     "id",
@@ -334,6 +345,8 @@ def score_culture_item(item: dict, priority_venues: set[str], sources_cfg: dict 
         score += 6
     if (item.get("dates") or "").strip():
         score += 6
+    if (item.get("event_kind") or "").strip().lower() == "festival_overview":
+        score -= 12
     return score
 
 
@@ -475,14 +488,83 @@ def culture_item_eligible(item: dict) -> bool:
     return True
 
 
-def pick_top_culture(items: list[dict], cap: int, priority_venues: set[str], sources_cfg: dict) -> list[dict]:
+class CulturePickState:
+    """Cross-section caps when building the culture synthesis slice."""
+
+    def __init__(self) -> None:
+        self.used_event_keys: set[str] = set()
+        self.used_series_ids: set[str] = set()
+        self.venue_counts: dict[str, int] = {}
+        self.rejected: list[dict] = []
+
+    def rejection_reason(self, item: dict) -> str | None:
+        event_key = normalize_event_key(item)
+        if event_key in self.used_event_keys:
+            return "event_duplicate"
+
+        series_id = (item.get("series_id") or "").strip()
+        if series_id and series_id in self.used_series_ids:
+            return f"series_cap:{series_id}"
+
+        venue_key = normalize_venue_key(item.get("venue") or "")
+        if venue_key and self.venue_counts.get(venue_key, 0) >= CULTURE_MAX_PER_VENUE:
+            return f"venue_cap:{venue_key}"
+
+        return None
+
+    def accept(self, item: dict) -> None:
+        event_key = normalize_event_key(item)
+        self.used_event_keys.add(event_key)
+        series_id = (item.get("series_id") or "").strip()
+        if series_id:
+            self.used_series_ids.add(series_id)
+        venue_key = normalize_venue_key(item.get("venue") or "")
+        if venue_key:
+            self.venue_counts[venue_key] = self.venue_counts.get(venue_key, 0) + 1
+
+
+def pick_top_culture(
+    items: list[dict],
+    cap: int,
+    priority_venues: set[str],
+    sources_cfg: dict,
+    *,
+    pick_state: CulturePickState | None = None,
+    section_id: str = "",
+) -> list[dict]:
     eligible = [i for i in items if culture_item_eligible(i)]
     ranked = sorted(
         eligible,
         key=lambda i: score_culture_item(i, priority_venues, sources_cfg),
         reverse=True,
     )
-    return [slim_item(i, CULTURE_SLIM_ITEM_KEYS) for i in ranked[:cap]]
+
+    picked: list[dict] = []
+    state = pick_state or CulturePickState()
+
+    for item in ranked:
+        if len(picked) >= cap:
+            break
+
+        enriched = enrich_culture_metadata(dict(item))
+        reason = state.rejection_reason(enriched)
+        if reason:
+            state.rejected.append(
+                {
+                    "id": enriched.get("id") or enriched.get("title"),
+                    "title": enriched.get("title"),
+                    "section": section_id,
+                    "reason": reason,
+                    "series_id": enriched.get("series_id") or "",
+                    "venue": enriched.get("venue") or "",
+                }
+            )
+            continue
+
+        state.accept(enriched)
+        picked.append(slim_item(enriched, CULTURE_SLIM_ITEM_KEYS))
+
+    return picked
 
 
 def pick_top_restaurants(items: list[dict], cap: int) -> list[dict]:
@@ -634,7 +716,24 @@ def build_news_synthesis_inbox(
 def build_culture_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: dict) -> dict:
     section_caps = culture_section_caps(topics_cfg)
     priority_venues = culture_priority_venues(sources_cfg)
-    items = raw.get("items") or []
+    items = list(raw.get("items") or [])
+
+    run_date_str = raw.get("date")
+    if run_date_str:
+        try:
+            _, run_dt = normalize_tuesday_run_date(str(run_date_str)[:10])
+            week_start, week_end = culture_week_date_bounds(run_dt)
+            items, dropped = filter_items_to_briefing_window(
+                items,
+                week_start,
+                week_end,
+                ingestion_sources={"silent_green_html", "index_berlin_ics"},
+            )
+            if dropped:
+                raw = {**raw, "window_filtered_count": dropped}
+        except ValueError:
+            pass
+
     by_section: dict[str, list[dict]] = {sid: [] for sid in section_caps}
 
     for item in items:
@@ -644,8 +743,24 @@ def build_culture_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: d
 
     section_items: list[dict] = []
     section_counts: dict[str, int] = {}
-    for sid, cap in section_caps.items():
-        picked = pick_top_culture(by_section[sid], cap, priority_venues, sources_cfg)
+    pick_state = CulturePickState()
+
+    # Core sections first so cross-section caps favour exhibitions/film/performance/music.
+    section_order = [
+        t.get("id")
+        for t in topics_cfg.get("topics") or []
+        if t.get("enabled", True) and t.get("id") in section_caps
+    ]
+    for sid in section_order:
+        cap = section_caps[sid]
+        picked = pick_top_culture(
+            by_section[sid],
+            cap,
+            priority_venues,
+            sources_cfg,
+            pick_state=pick_state,
+            section_id=sid,
+        )
         section_counts[sid] = len(picked)
         section_items.extend(picked)
 
@@ -662,6 +777,17 @@ def build_culture_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: d
         "raw_item_count": len(items),
         "section_counts": section_counts,
         "items": section_items,
+        "editorial_context": {
+            "rejected_candidates": pick_state.rejected,
+            "diversification_caps": {
+                "max_per_venue": CULTURE_MAX_PER_VENUE,
+                "max_per_series": CULTURE_MAX_PER_SERIES,
+            },
+            "note": (
+                "Pre-ranked with venue/series/event de-duplication across sections. "
+                "Synthesis must still apply one-event-one-slot and Top Picks cross-reference rules."
+            ),
+        },
         "note": (
             "Token-light culture slice for synthesis. Items with verified:true passed "
             "pre-fetch URL/schedule checks; synthesis spot-checks only unverified Top Picks "

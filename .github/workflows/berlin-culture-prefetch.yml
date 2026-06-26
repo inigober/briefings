@@ -56,6 +56,18 @@ jobs:
         run: |
           python scripts/fetch_wordpress.py --type berlin-culture --date ${{ steps.run_date.outputs.value }}
 
+      - name: Fetch ICS venue calendars
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python scripts/fetch_ics.py --type berlin-culture --date ${{ steps.run_date.outputs.value }}
+
+      - name: Fetch HTML venue calendars
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python scripts/fetch_html_calendars.py --type berlin-culture --date ${{ steps.run_date.outputs.value }}
+
       - name: Fetch OpenAI culture research
         id: openai_fetch
         env:

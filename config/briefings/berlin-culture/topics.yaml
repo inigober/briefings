@@ -36,7 +36,7 @@ topics:
     enabled: true
     max_items: 4
     slim_cap: 8
-    prefetch_min: 5
+    prefetch_min: 7
     description: >
       Ambient, experimental electronic, electroacoustic, sound art, drone, leftfield jazz,
       free improvisation, contemporary composition, global experimental music.
@@ -149,4 +149,7 @@ rules:
     finished before Wednesday.
   venue_diversification: >
     No single venue should exceed ~15–20% of recommendations. Diversify across Berlin.
+  one_event_one_slot: >
+    Each distinct event gets one full write-up. Top Picks may be cross-referenced elsewhere
+    but never duplicated as full entries. Max one listing per festival/series.
   food_cap: 0.25

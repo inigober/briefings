@@ -32,6 +32,19 @@ class TestCombinedCultureFetch(unittest.TestCase):
         self.sources_cfg = load_yaml(REPO_ROOT / "config/briefings/berlin-culture/sources.yaml")
         self.state_dir = REPO_ROOT / "state/berlin-culture"
 
+    def test_prompt_includes_festival_atomic_events(self) -> None:
+        prompt = build_search_phase_prompt(
+            date_str="2026-06-09",
+            week_label="June 10–16, 2026",
+            topics_cfg=self.topics_cfg,
+            sources_cfg=self.sources_cfg,
+            search_domains=self.sources_cfg.get("allowed_domains") or [],
+            state_dir=self.state_dir,
+        )
+        self.assertIn("Festival / series handling", prompt)
+        self.assertIn("festival_event", prompt)
+        self.assertIn("series_id", prompt)
+
     def test_prompt_is_search_phase_with_required_web_search(self) -> None:
         prompt = build_search_phase_prompt(
             date_str="2026-06-09",
@@ -44,7 +57,7 @@ class TestCombinedCultureFetch(unittest.TestCase):
         self.assertIn("PHASE 1", prompt)
         self.assertIn("web_search REQUIRED", prompt)
         self.assertIn("minimum 4 separate web_search", prompt.lower())
-        self.assertIn("exhibitions, film, performing_arts, music", prompt)
+        self.assertIn("music, exhibitions, film, performing_arts", prompt)
         self.assertIn("exhibitions", prompt)
         self.assertIn("HKW", prompt)
         self.assertIn("Already recommended", prompt)
@@ -125,7 +138,7 @@ class TestCombinedCultureFetch(unittest.TestCase):
     def test_prefetch_mins_from_topics_yaml(self) -> None:
         topics = {t["id"]: t for t in self.topics_cfg.get("topics") or []}
         self.assertEqual(section_min_items(topics["exhibitions"]), 7)
-        self.assertEqual(section_min_items(topics["music"]), 5)
+        self.assertEqual(section_min_items(topics["music"]), 7)
         self.assertEqual(section_min_items(topics["advance_radar"]), 2)
 
     def test_culture_openai_min_respects_programme_saturation(self) -> None:

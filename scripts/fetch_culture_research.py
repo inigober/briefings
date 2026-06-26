@@ -29,11 +29,12 @@ from culture_calendar import (
     build_programme_urls_block,
     build_programme_warehouse_block,
     culture_openai_min,
+    enrich_culture_metadata,
     mark_item_verified,
     press_counts,
     programme_counts,
 )
-from culture_dates import normalize_tuesday_run_date
+from culture_dates import culture_week_window, format_week_range, normalize_tuesday_run_date
 from fetch_openai_research import (
     DEFAULT_MODEL,
     fetch_structured,
@@ -70,6 +71,11 @@ CULTURE_ITEM_SCHEMA = {
         "official_url": {"type": "string"},
         "closing_soon": {"type": "boolean"},
         "why_candidate": {"type": "string"},
+        "series_id": {"type": "string"},
+        "event_kind": {
+            "type": "string",
+            "enum": ["single", "festival_overview", "festival_event"],
+        },
     },
     "required": [
         "id",
@@ -82,6 +88,8 @@ CULTURE_ITEM_SCHEMA = {
         "official_url",
         "closing_soon",
         "why_candidate",
+        "series_id",
+        "event_kind",
     ],
     "additionalProperties": False,
 }
@@ -96,21 +104,6 @@ COMBINED_RESULT_SCHEMA = {
     "required": ["items", "gaps", "search_notes"],
     "additionalProperties": False,
 }
-
-
-def culture_week_window(run_date: datetime) -> tuple[datetime, datetime]:
-    week_start = run_date + timedelta(days=1)
-    week_end = run_date + timedelta(days=7)
-    return week_start, week_end
-
-
-def format_week_range(week_start: datetime, week_end: datetime) -> str:
-    if week_start.month == week_end.month:
-        return f"{week_start.strftime('%B')} {week_start.day}–{week_end.day}, {week_end.year}"
-    return (
-        f"{week_start.strftime('%B')} {week_start.day}–"
-        f"{week_end.strftime('%B')} {week_end.day}, {week_end.year}"
-    )
 
 
 def section_min_items(topic: dict) -> int:
@@ -168,7 +161,7 @@ def build_section_requirements(
 
 CULTURE_SEARCH_MAX_TOOL_CALLS = 3
 CULTURE_SEARCH_MIN_CALLS = 4
-CULTURE_CORE_SEARCH_SECTIONS = ("exhibitions", "film", "performing_arts", "music")
+CULTURE_CORE_SEARCH_SECTIONS = ("music", "exhibitions", "film", "performing_arts")
 
 
 def build_section_programme_block(sources_cfg: dict, section_id: str) -> str:
@@ -231,6 +224,7 @@ You MUST call web_search at least once before answering. Search the programme pa
 1. Use site-specific queries (e.g. for film: "site:arsenal-berlin.de cinema June 2026").
 2. For each event, record: title, venue, dates, times, artists (if known),
    **official_url copied exactly from search** (specific event page — never a homepage, /en, or listing).
+   For festivals: prefer **atomic dated events** (single concerts, openings, performances) over umbrella listings.
 3. Skip events in the novelty index unless materially new (opening week, closing within 10 days).
 4. If no in-window events exist, say so — do not invent placeholders.
 
@@ -330,8 +324,14 @@ For each section — exhibitions, film, performing_arts, music (and wildcards/ad
    - title, venue, dates, times, artists (if known)
    - **official_url copied exactly from search results** (specific event page — never a homepage, /en, or /programme listing)
    - one-line why it fits the reader interests
-3. Skip events already in the novelty index unless materially new (opening week, closing within 10 days).
-4. If a venue page has no in-window events, say so — do not invent placeholders.
+   - **series_id** (stable slug, e.g. `polish-art-week-2026`) when the event belongs to a festival or recurring series
+   - **event_kind**: `single` (default), `festival_overview` (one umbrella per festival max), or `festival_event` (one dated event inside a festival)
+3. **Festival / series handling (strict):**
+   - Prefer **atomic events** with their own venue, dates, and deep URL over umbrella festival pages.
+   - At most **one** `festival_overview` per festival in the entire output.
+   - For multi-venue festivals, return individual `festival_event` items for standout gigs — share the same `series_id`.
+4. Skip events already in the novelty index unless materially new (opening week, closing within 10 days).
+5. If a venue page has no in-window events, say so — do not invent placeholders.
 
 ## Tuesday rule
 Include only events occurring Wednesday through the following Monday/Tuesday of the briefing week,
@@ -377,6 +377,9 @@ Event window: {week_label}
 - If a section has fewer candidates than the target, list gaps — never invent filler.
 - topic_ids: primary section id first, then optional theme tags
 - For exhibitions: set closing_soon true if closing within 10 days
+- **series_id**: stable slug for festivals/recurring series (shared across related items); empty string for one-offs
+- **event_kind**: `single` | `festival_overview` | `festival_event` — at most one `festival_overview` per series_id
+- Prefer atomic `single` / `festival_event` items; use `festival_overview` only when no atomic events were found
 
 ## Web research notes (from Phase 1 web_search)
 {research_notes}
@@ -426,6 +429,7 @@ def enrich_candidate(item: dict) -> dict:
     item["ingestion_source"] = item.get("ingestion_source") or "openai"
     if item["ingestion_source"] == "openai" and "url_live" not in item:
         item["url_live"] = None
+    enrich_culture_metadata(item)
     mark_item_verified(item, require_url_live=True)
     return item
 
@@ -468,8 +472,50 @@ def load_wordpress_items(inbox_dir: Path, date_str: str) -> list[dict]:
     return payload.get("items") or []
 
 
+def load_wordpress_event_items(inbox_dir: Path, date_str: str) -> list[dict]:
+    path = inbox_dir / f"{date_str}-wordpress-events.json"
+    if not path.is_file():
+        return []
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        log(f"  Warning: could not read {path.name}: {exc}")
+        return []
+    return payload.get("items") or []
+
+
+def load_ics_items(inbox_dir: Path, date_str: str) -> list[dict]:
+    path = inbox_dir / f"{date_str}-ics.json"
+    if not path.is_file():
+        return []
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        log(f"  Warning: could not read {path.name}: {exc}")
+        return []
+    return payload.get("items") or []
+
+
+def load_html_calendar_items(inbox_dir: Path, date_str: str) -> list[dict]:
+    path = inbox_dir / f"{date_str}-html-calendars.json"
+    if not path.is_file():
+        return []
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        log(f"  Warning: could not read {path.name}: {exc}")
+        return []
+    return payload.get("items") or []
+
+
 def load_calendar_items(inbox_dir: Path, date_str: str) -> list[dict]:
-    return load_rss_items(inbox_dir, date_str) + load_wordpress_items(inbox_dir, date_str)
+    return (
+        load_rss_items(inbox_dir, date_str)
+        + load_wordpress_items(inbox_dir, date_str)
+        + load_wordpress_event_items(inbox_dir, date_str)
+        + load_ics_items(inbox_dir, date_str)
+        + load_html_calendar_items(inbox_dir, date_str)
+    )
 
 
 def merge_calendar_items(openai_items: list[dict], calendar_items: list[dict]) -> tuple[list[dict], int]:
@@ -626,6 +672,52 @@ def fetch_all_culture(
     verified_count = sum(1 for item in items if item.get("verified"))
     log(f"  Combined fetch done ({len(items)} items, {verified_count} pre-URL-check verified) — {counts}")
 
+    music_supplement_meta: dict[str, Any] = {}
+    music_topic = topic_by_id(topics_cfg).get("music") or {}
+    music_target = culture_openai_min(
+        "music",
+        prog_counts.get("music", 0),
+        section_min_items(music_topic),
+    )
+    if counts.get("music", 0) < music_target:
+        try:
+            from fetch_culture_music import run_music_supplement
+
+            supplement = run_music_supplement(
+                date_str=date_str,
+                model=model,
+                topics_cfg=topics_cfg,
+                sources_cfg=sources_cfg,
+                calendar_items=calendar_items,
+                existing_items=items,
+                spend_ledger=spend_ledger,
+            )
+            web_search_calls += int(supplement.get("web_search_calls") or 0)
+            added = 0
+            seen_urls = {
+                normalize_url(i.get("official_url") or "")
+                for i in items
+                if i.get("official_url")
+            }
+            for si in supplement.get("items") or []:
+                url = normalize_url(si.get("official_url") or "")
+                if url and url not in seen_urls:
+                    items.append(si)
+                    seen_urls.add(url)
+                    added += 1
+            if added:
+                counts = section_counts(items, topics_cfg)
+                verified_count = sum(1 for item in items if item.get("verified"))
+                log(f"  Music supplement added {added} items — music now {counts.get('music', 0)}")
+            music_supplement_meta = {
+                "items_added": added,
+                "web_search_calls": supplement.get("web_search_calls"),
+                "skipped": supplement.get("skipped"),
+            }
+        except Exception as exc:
+            log(f"  Music supplement failed: {exc}")
+            music_supplement_meta = {"error": str(exc)}
+
     openai_targets = {
         sid: culture_openai_min(
             sid,
@@ -655,6 +747,7 @@ def fetch_all_culture(
         "rss_counts": prog_counts,
         "openai_targets": openai_targets,
         "calendar_merged": calendar_merged,
+        "music_supplement": music_supplement_meta,
         "search_notes": (
             f"Phase 1 web_search_calls={web_search_calls}. "
             f"Programme counts: {prog_counts}. Press counts: {editorial_counts}. "

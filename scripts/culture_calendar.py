@@ -62,6 +62,24 @@ def press_domains(sources_cfg: dict) -> set[str]:
     return {d.lower().removeprefix("www.") for d in (sources_cfg.get("press_domains") or []) if d}
 
 
+def venue_programme_publishers(sources_cfg: dict) -> set[str]:
+    """RSS/ICS feeds flagged as venue programme (not editorial press)."""
+    publishers: set[str] = set()
+    for feed in (sources_cfg.get("rss_feeds") or []):
+        if not feed.get("programme"):
+            continue
+        for key in ("publisher", "venue"):
+            value = (feed.get(key) or "").strip()
+            if value:
+                publishers.add(value)
+    for feed in (sources_cfg.get("ics_feeds") or []):
+        for key in ("publisher", "venue"):
+            value = (feed.get(key) or "").strip()
+            if value:
+                publishers.add(value)
+    return publishers
+
+
 def programme_domains(sources_cfg: dict) -> set[str]:
     domains: set[str] = set()
     for entries in (sources_cfg.get("programme_urls") or {}).values():
@@ -126,6 +144,10 @@ def has_concrete_schedule(dates: str, times: str, *, section_id: str) -> bool:
 
 def is_programme_warehouse_item(item: dict, sources_cfg: dict) -> bool:
     """True when a feed item signals real venue programme coverage (not editorial press)."""
+    if item.get("programme_feed"):
+        return True
+    if item.get("ingestion_source") in ("ics", "wordpress_events", "index_berlin_ics", "index_berlin_html", "silent_green_html"):
+        return True
     if is_press_item(item, sources_cfg):
         return False
     section_id = (item.get("topic_ids") or ["exhibitions"])[0]
@@ -140,6 +162,9 @@ def is_programme_warehouse_item(item: dict, sources_cfg: dict) -> bool:
         # Venue-domain RSS (e.g. Ballhaus feed) counts even without parsed dates.
         if item.get("ingestion_source") == "rss":
             return True
+    venue = (item.get("venue") or "").strip()
+    if venue in venue_programme_publishers(sources_cfg) and item.get("ingestion_source") == "rss":
+        return True
     if has_concrete_schedule(
         item.get("dates") or "",
         item.get("times") or "",
@@ -398,3 +423,103 @@ def is_publisher_venue_item(item: dict, sources_cfg: dict) -> bool:
         return True
     url_host = host_domain(item.get("official_url") or "")
     return bool(url_host and url_host in press_domains(sources_cfg))
+
+
+# --- Deduplication keys (series / venue / event) ---
+
+_SERIES_SLUG_RE = re.compile(r"[^a-z0-9]+")
+
+FESTIVAL_URL_HOSTS: dict[str, str] = {
+    "polishartweek.com": "polish-art-week",
+}
+
+FESTIVAL_TITLE_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
+    (re.compile(r"polish\s+art\s+week", re.I), "polish-art-week"),
+    (re.compile(r"avant\s+art\s+festival", re.I), "polish-art-week"),
+    (re.compile(r"kyiv\s+biennial", re.I), "kyiv-biennial"),
+    (re.compile(r"projekt\s*raum", re.I), "projekt-raum"),
+    (re.compile(r"open\s+studios?", re.I), "open-studios"),
+)
+
+UMBRELLA_TITLE_RE = re.compile(
+    r"\b(art\s+week|festival|biennial|open\s+studios?)\b",
+    re.I,
+)
+
+
+def normalize_text_key(text: str) -> str:
+    t = (text or "").strip().lower()
+    t = re.sub(r"\([^)]*\)", " ", t)
+    t = re.sub(r"[^\w\s-]", " ", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
+
+
+def normalize_venue_key(venue: str) -> str:
+    raw = (venue or "").strip()
+    if "," in raw:
+        parts = [normalize_text_key(p) for p in raw.split(",") if p.strip()]
+        if parts:
+            # "Hochzeitssaal, Sophiensæle" → parent institution
+            return parts[-1]
+    v = normalize_text_key(raw)
+    for sep in (" — ", " - "):
+        if sep in v:
+            v = v.split(sep, 1)[0].strip()
+    return v
+
+
+def normalize_event_key(item: dict) -> str:
+    title = normalize_text_key(item.get("title") or "")
+    venue = normalize_venue_key(item.get("venue") or "")
+    return f"{title}|{venue}"
+
+
+def slugify_series_id(text: str) -> str:
+    slug = _SERIES_SLUG_RE.sub("-", normalize_text_key(text)).strip("-")
+    return slug[:80]
+
+
+def infer_series_id(item: dict) -> str:
+    explicit = (item.get("series_id") or "").strip()
+    if explicit:
+        return slugify_series_id(explicit)
+
+    url = (item.get("official_url") or "").strip().lower()
+    for host, series in FESTIVAL_URL_HOSTS.items():
+        if host in url:
+            return series
+
+    title = item.get("title") or ""
+    for pattern, series in FESTIVAL_TITLE_PATTERNS:
+        if pattern.search(title):
+            return series
+
+    event_kind = (item.get("event_kind") or "").strip().lower()
+    if event_kind == "festival_overview" or UMBRELLA_TITLE_RE.search(title):
+        return slugify_series_id(title)
+
+    return ""
+
+
+def infer_event_kind(item: dict) -> str:
+    kind = (item.get("event_kind") or "").strip().lower()
+    if kind in ("single", "festival_overview", "festival_event"):
+        return kind
+
+    title = item.get("title") or ""
+    if UMBRELLA_TITLE_RE.search(title) and "&" in title:
+        return "festival_overview"
+    series = infer_series_id(item)
+    if series and not UMBRELLA_TITLE_RE.search(title):
+        return "festival_event"
+    if series:
+        return "festival_overview"
+    return "single"
+
+
+def enrich_culture_metadata(item: dict) -> dict:
+    """Attach series_id and event_kind for slim-inbox diversification."""
+    item["series_id"] = infer_series_id(item)
+    item["event_kind"] = infer_event_kind(item)
+    return item

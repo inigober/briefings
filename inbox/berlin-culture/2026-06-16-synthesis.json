@@ -5,351 +5,982 @@
   "week_end": "2026-06-23",
   "week_label": "June 17–23, 2026",
   "source_raw": "inbox/berlin-culture/2026-06-16-raw.json",
-  "built_at": "2026-06-17T06:50:00.000000+00:00",
+  "built_at": "2026-06-26T06:54:18.300237+00:00",
   "model": "gpt-4.1",
-  "raw_item_count": 51,
+  "raw_item_count": 156,
   "section_counts": {
-    "exhibitions": 10,
-    "film": 3,
-    "performing_arts": 2,
-    "music": 0,
+    "exhibitions": 5,
+    "film": 4,
+    "performing_arts": 4,
+    "music": 2,
     "wildcards": 4,
     "advance_radar": 0
   },
   "items": [
     {
-      "id": "exh1",
-      "topic_ids": [
-        "exhibitions",
-        "history",
-        "colonialism",
-        "research"
-      ],
-      "title": "Tirailleurs: Trials and Tribulations",
-      "venue": "Haus der Kulturen der Welt (HKW)",
-      "dates": "21 March – 21 June 2026",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.hkw.de/en/the-house/press/2026/16-02-2026-Jahresprogramm?utm_source=openai",
-      "closing_soon": true,
-      "verified": true,
-      "url_live": true,
-      "why_candidate": "Major research-based exhibition on African soldiers (Tirailleurs), focusing on history, society, and colonialism; notable for being the only major exhibition closing within the briefing's window.",
-      "ingestion_source": "openai"
-    },
-    {
-      "id": "rss-exhibitions-86517d64b8",
+      "id": "exhibitions-1",
       "topic_ids": [
         "exhibitions"
       ],
-      "title": "The Week June 15–21, 2026",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
+      "title": "Kyiv Biennial – A Bird That Cannot Land",
+      "venue": "KW Institute for Contemporary Art",
+      "dates": "June 11 – September 13, 2026",
+      "times": "Free Thursday June 18, 16:00–21:00",
       "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/15/things-to-do-in-berlin-art-openings-performances-june15-june21-2026/",
-      "closing_soon": false,
-      "verified": false,
-      "why_candidate": "Openings and events at Gropius Bau, Müller Contemporary, Sophiensæle, C/O Berlin, die raum, panke.gallery, maḳām, Cittipunkt, Galerie im Turm, Kleine Humboldt Galerie, daadgalerie,Kunstquartier Bethanien, HILDEGARD, and more …[read on]",
-      "ingestion_source": "rss"
-    },
-    {
-      "id": "rss-exhibitions-1ad7983b49",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "Resisting Habituation: ‘Pedagogies of War’ at Thyssen-Bornemisza Madrid",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/12/pedagogies-of-war-thyssen-bornemisza-madrid-exhibition-review/",
-      "closing_soon": false,
-      "verified": false,
-      "why_candidate": "by Adela Lovric // June 12, 2026 In collaboration with TBA21, the Thyssen-Bornemisza National Museum in Madrid presents ‘Pedagogies of War,’ an exhibition by Ukrainian artists Roman Khimei and Yarema Malashchuk. In the exhibition foreword …[read on]",
-      "ingestion_source": "rss"
-    },
-    {
-      "id": "rss-exhibitions-6e59e86434",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "The Queer Pastoral: ‘Cruising the Countryside’ at Schwules Museum",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/12/cruising-the-countryside-schwules-museum-group-exhibition-review/",
-      "closing_soon": false,
-      "verified": false,
-      "why_candidate": "by Olivia Noss // June 12, 2026 In a time before social media, queer publications offered a lifeline to those isolated within their small towns. They were a source of escape for many young people and, in some cases, their only foray into queer culture in general. The Schwules Museum …[read on]",
-      "ingestion_source": "rss"
-    },
-    {
-      "id": "rss-exhibitions-97b6519e67",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "The Weight of Words: Shilpa Gupta at Hamburger Bahnhof",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/12/shilpa-gupta-hamburger-bahnhof-exhibition-review-scale/",
-      "closing_soon": false,
-      "verified": false,
-      "why_candidate": "by Carolin Kralapp // June 12, 2026 Some words are meant to be read. Others, insists Shilpa Gupta, must be walked through. In her current solo exhibition, 'What Still Holds' at Hamburger Bahnhof in Berlin, both approaches prove essential. The Mumbai-based artist confronts …[read on]",
-      "ingestion_source": "rss"
-    },
-    {
-      "id": "rss-exhibitions-daa36708b7",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "From Noise to New Media: Polish Art Week and Avant Art Festival in Berlin",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/09/polish-art-week-berlin-preview-announcement/",
-      "closing_soon": false,
-      "verified": false,
-      "why_candidate": "June 9, 2026 Polish Art Week and the 7th Avant Art Festival return to venues across Berlin for an interdisciplinary program dedicated to contemporary experimental practices in music, performance and audiovisual art. From June 22nd …[read on]",
-      "ingestion_source": "rss"
-    },
-    {
-      "id": "rss-exhibitions-2ceabe4481",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "Oat Montien",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/08/oat-montien-studio-visit-bangkok/",
-      "closing_soon": false,
-      "verified": false,
-      "why_candidate": "by Adela Lovric // June 8, 2026 To reach Oat Montien’s two-story studio, you first walk through the leafy, serene garden of his family’s restaurant in northern Bangkok. Then past an art venue …[read on]",
-      "ingestion_source": "rss"
-    },
-    {
-      "id": "rss-exhibitions-46442c9cdc",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "The Week June 8–14, 2026",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/08/things-to-do-in-berlin-art-opening-performances-june8-june14-2026/",
-      "closing_soon": false,
-      "verified": false,
-      "why_candidate": "Openings and events at KW Institute for Contemporary Art, Haus am Waldsee, Sophiensæle, Schinkel Pavillon, Kunstbrücke am Wildenbruch, SAP Space, Co-Making Matters, Gropius Bau, Project Space Festival Berlin, super bien!, Galerie im Turm, Neun Kelche, Haus am Lützowplatz, HKW, Klemm’s, TD Berlin,...",
-      "ingestion_source": "rss"
-    },
-    {
-      "id": "rss-exhibitions-26dead8452",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "No Such Thing as a Small Thing: Florentina Holzinger in Venice",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/05/florentina-holzinger-seaworld-venice-review-scale/",
-      "closing_soon": false,
-      "verified": false,
-      "why_candidate": "by Louise Trueheart // June 5, 2026 A massive shipping crane and a set of bleachers towered out of the water, moored somewhere in the middle of Venice’s lagoon. A subwoofer droned through the pouring rain, its fine plastic covering the only fragile-looking …[read on]",
-      "ingestion_source": "rss"
-    },
-    {
-      "id": "rss-exhibitions-4f6fc1ad55",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "The Power of Secrets: Richard Hawkins at Kestner Gesellschaft",
-      "venue": "Berlin Art Link",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.berlinartlink.com/2026/06/02/richard-hawkins-kestner-gesellschaft-exhibition-review/",
-      "closing_soon": false,
-      "verified": false,
-      "why_candidate": "by Mia Butter // June 2, 2026 It’s been over a decade since Germany has held an extensive survey of the Los Angeles-based artist Richard Hawkins’ work. After an Austrian iteration of ‘Potentialities’ at Kunsthalle Wien, the show was recently refreshed …[read on]",
-      "ingestion_source": "rss"
-    },
-    {
-      "id": "film5",
-      "topic_ids": [
-        "film",
-        "shorts",
-        "experimental"
-      ],
-      "title": "Sonnenbrand & Mückenstich – Kurzfilmprogramm",
-      "venue": "ACUDkino",
-      "dates": "June 17, 2026",
-      "times": "21:15",
-      "artists": [
-        "interfilm Berlin"
-      ],
-      "official_url": "https://acudkino.de/Programm/sonnenbrand_muckenstich/20483/58436?utm_source=openai",
+      "official_url": "https://www.kw-berlin.de/en/info/plain-language?utm_source=openai",
       "closing_soon": false,
       "verified": true,
       "url_live": true,
-      "why_candidate": "Experimental and social shorts, with introduction—showcases Berlin’s vibrant short film scene.",
-      "ingestion_source": "openai"
+      "why_candidate": "Flagship international research-based biennial at KW spanning contemporary art, with a notable 'Free Thursday' special on June 18 for access and engagement.",
+      "ingestion_source": "openai",
+      "series_id": "kyiv-biennial",
+      "event_kind": "single"
     },
     {
-      "id": "film9",
+      "id": "index-berlin-html-exhibitions-63407772d8",
       "topic_ids": [
-        "film",
-        "fiction",
-        "international"
+        "exhibitions"
       ],
-      "title": "The Love That Remains",
-      "venue": "Wolf Cinema Berlin",
-      "dates": "from June 18, 2026",
+      "title": "The Appeal of Individualism",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until August 1, 2026",
       "times": "",
-      "artists": [
-        "Hlynur Pálmason"
-      ],
-      "official_url": "https://wolfberlin.org/en/programme/films?utm_source=openai",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/42591/the-appeal-of-individualism",
       "closing_soon": false,
       "verified": false,
-      "url_live": true,
-      "why_candidate": "International independent fiction feature—new in cinemas this week, relevant for global art house audience.",
-      "ingestion_source": "openai"
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single"
     },
     {
-      "id": "film10",
+      "id": "index-berlin-html-exhibitions-165cd15ea8",
       "topic_ids": [
-        "film",
-        "premiere"
+        "exhibitions"
       ],
-      "title": "Meine Frau Weint",
-      "venue": "Wolf Cinema Berlin",
-      "dates": "from June 11, 2026",
+      "title": "The Barcelona Pavilion (including work by Georg Kolbe)",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until August 1, 2026",
       "times": "",
-      "artists": [
-        "Angela Schanelec"
-      ],
-      "official_url": "https://wolfberlin.org/de/programm/filme/meine-frau-weint?utm_source=openai",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43619/the-barcelona-pavilion-including-work-by-georg-kolbe",
       "closing_soon": false,
       "verified": false,
-      "url_live": true,
-      "why_candidate": "New release by Berlinale and art house staple, screening during week—recently premiered, ongoing.",
-      "ingestion_source": "openai"
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single"
     },
     {
-      "id": "perf3",
+      "id": "rss-exhibitions-5db7c552c8",
       "topic_ids": [
-        "performing_arts",
-        "dance",
-        "accessibility"
+        "exhibitions"
       ],
-      "title": "NO LIMIT (Angela Alves – NO LIMIT BALLET)",
-      "venue": "Hochzeitssaal, Sophiensæle",
-      "dates": "June 16–18, 2026",
-      "times": "20:00",
-      "artists": [
-        "Angela Alves",
-        "NO LIMIT BALLET"
-      ],
-      "official_url": "https://sophiensaele.com/de/download/5186/Programm%2004%2005%2006%2007%2008.pdf?utm_source=openai",
+      "title": "The Politics of Redress: ‘Tide of Returns’ at Ocean Space",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/25/tide-of-returns-ocean-space-exhibition-review/",
       "closing_soon": false,
-      "verified": true,
-      "url_live": true,
-      "why_candidate": "Contemporary dance with accessibility as central theme and practice; includes audio and sign language translation.",
-      "ingestion_source": "openai"
+      "verified": false,
+      "why_candidate": "by Alison Hugill // June 25, 2026 Urgent questions around repatriation and reparations form the political backdrop of 'Tide of Returns,' an exhibition by Repatriates Collective and Verena Melgarejo Weinandt at Ocean Space in Venice. During the preview week …[read on]",
+      "ingestion_source": "rss",
+      "series_id": "",
+      "event_kind": "single"
     },
     {
-      "id": "perf4",
+      "id": "rss-exhibitions-5bc3d0b5b2",
       "topic_ids": [
-        "performing_arts",
-        "experimental",
+        "exhibitions"
+      ],
+      "title": "Fleeting Witnesses: An Interview with Oscar Murillo",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/23/oscar-murillo-das-minsk-museum-barberini-interview/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "by Adela Lovric // June 23, 2026 In ‘Collective Osmosis,’ presented at DAS MINSK Kunsthaus in Potsdam, Oscar Murillo extends his long-standing interest in circulation, collectivity, visibility and the political implications of artistic work …[read on]",
+      "ingestion_source": "rss",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "film-7",
+      "topic_ids": [
         "film"
       ],
-      "title": "Kiez‑Monatsschau VOL. XXX: RAISING HOPE",
-      "venue": "Ballhaus Naunynstraße",
+      "title": "Ich verstehe Ihren Unmut (Kilian Armando Friedrich, 2026)",
+      "venue": "ACUDkino, Kino 2",
       "dates": "June 21, 2026",
-      "times": "19:00",
+      "times": "18:00",
       "artists": [
-        "akademie der autodidakten"
+        "Kilian Armando Friedrich"
       ],
-      "official_url": "https://ballhausnaunynstrasse.de/events/?utm_source=openai",
+      "official_url": "https://acudkino.de/Programm/ich_verstehe_ihren_unmut/20467?utm_source=openai",
       "closing_soon": false,
       "verified": true,
       "url_live": true,
-      "why_candidate": "Hybrid film and performance format under experimental banner—youth-driven and tied to Ballhaus’s community-based, progressive ethos.",
-      "ingestion_source": "openai"
+      "why_candidate": "German social-realist drama on precarity in the workplace; uniquely Berlin set.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
     },
     {
-      "id": "rss-wildcards-e42b77966e",
+      "id": "film-8",
       "topic_ids": [
-        "wildcards"
+        "film"
       ],
-      "title": "EIN FANG IN MITTE: AUSTERN, CEVICHE & YUZU HIGHLIGHTS BEI FAT HENRY",
-      "venue": "Cee Cee Berlin",
+      "title": "Rose (Markus Schleinzer, 2026)",
+      "venue": "ACUDkino, Kino 2",
+      "dates": "June 21, 2026",
+      "times": "20:00",
+      "artists": [
+        "Markus Schleinzer"
+      ],
+      "official_url": "https://acudkino.de/Programm/rose/20471?utm_source=openai",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Historical gender/identity drama starring Sandra Hüller, probing social roles and history.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "film-9",
+      "topic_ids": [
+        "film"
+      ],
+      "title": "Gelbe Briefe (Sarı Zarflar) (Ilker Çatak, 2026)",
+      "venue": "ACUDkino, Kino 1",
+      "dates": "June 21, 2026",
+      "times": "18:15",
+      "artists": [
+        "Ilker Çatak"
+      ],
+      "official_url": "https://acudkino.de/Programm/gelbe_briefe/20423?utm_source=openai",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Political family drama on migration and surveillance, timely and resonant.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "film-6",
+      "topic_ids": [
+        "film"
+      ],
+      "title": "Sonnenbrand & Mückenstich (short film program)",
+      "venue": "ACUDkino, Kino 1",
+      "dates": "June 17, 2026",
+      "times": "21:15",
+      "artists": [],
+      "official_url": "https://acudkino.de/BaldImProgramm?utm_source=openai",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Monthly 'shorts attack' program celebrates experimental and essay film in a curated set: key for emerging filmmakers.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "performing-arts-1",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "DER SOLDAT. Ein Übergangsritual",
+      "venue": "HAU2 (Hebbel am Ufer)",
+      "dates": "June 17, 2026",
+      "times": "19:00",
+      "artists": [
+        "Julian Warner"
+      ],
+      "official_url": "https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Experimental performance bridging ritual and militarism, led by acclaimed interdisciplinary artist; world premiere week.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "performing-arts-2",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Mi Madre y el Dinero",
+      "venue": "HAU3 (Hebbel am Ufer)",
+      "dates": "June 18–19, 2026",
+      "times": "June 18, 20:00 / June 19, 19:00",
+      "artists": [
+        "Anacarsis Ramos",
+        "Pornotráfico"
+      ],
+      "official_url": "https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Interdisciplinary performance tackling family, gender, and economics; urgent Latin American voices.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "performing-arts-3",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Unsere Träume zu leben / Hayallerimizi yaşamak",
+      "venue": "HAU2 and HAU1 (Hebbel am Ufer)",
+      "dates": "June 21, 2026",
+      "times": "16:00 (HAU2, premiere) / 19:00 (HAU1, re-run)",
+      "artists": [
+        "MINA-Theatergruppe"
+      ],
+      "official_url": "https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Migratory perspectives in participatory theatre; bridges Turkish/German communities; relevant for new Berlin identities.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "rss-performing_arts-0d26a83944",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "In Erinnerung an Bianca Klose",
+      "venue": "Ballhaus Naunynstraße",
       "dates": "",
       "times": "",
       "artists": [],
-      "official_url": "https://ceecee.cc/ein-fang-in-mitte-austern-ceviche-yuzu-highlights-bei-fat-henry/",
+      "official_url": "https://ballhausnaunynstrasse.de/in-erinnerung-an-bianca-klose/",
       "closing_soon": false,
       "verified": false,
-      "why_candidate": "Vor einigen Jahren machte sich Fabi Eberlein auf Weltreise, um neue Abenteuer zu erleben. Stattdessen...",
-      "ingestion_source": "rss"
+      "why_candidate": "Selten hinterlassen Begegnungen solche stärkende Wirkung. Mit Bianca Klose haben wir nur eine gemeinsame Veranstaltung gemacht: gegen Rechts: die Kunst, politisch Stellung zu beziehen in 2017 am Ballhaus Naunynstraße. Akteur*innen aus Kunst, Kultur, Politik und Gesellschaft kamen hier zusammen, u...",
+      "ingestion_source": "rss",
+      "series_id": "",
+      "event_kind": "single"
     },
     {
-      "id": "rss-wildcards-9b181a73e2",
+      "id": "silent-green-html-music-a54b7b5291",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Zebra Poetry Film Festival 2026",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "07 June 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/zebra-poetry-film-festival-2026?tx_news_pi1%5Bday%5D=4&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=d82197c90b0a97aa93eef180cc29bdab",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Silent Green programme — 07 June 2026",
+      "ingestion_source": "silent_green_html",
+      "series_id": "zebra-poetry-film-festival-2026",
+      "event_kind": "festival_overview"
+    },
+    {
+      "id": "silent-green-html-music-57e23aec52",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Rencontres Internationales Paris/Berlin",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "07 June 2026",
+      "times": "01:30",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/rencontres-internationales-paris-berlin?tx_news_pi1%5Bday%5D=5&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=aed57d64c8235d6384ecc03d1d8eb883",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Silent Green programme — 07 June 2026",
+      "ingestion_source": "silent_green_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-4fdaded428",
       "topic_ids": [
         "wildcards"
       ],
-      "title": "EIN BUCH WIE EIN WOCHENENDAUSFLUG: MIT „VON SEE ZU SEE“ BRANDENBURG ENTDECKEN",
-      "venue": "Cee Cee Berlin",
-      "dates": "",
+      "title": "Monica Mussungo",
+      "venue": "Pasedagplatz 3-4 (Zugang über 'An der Industriebahn') 13088 Berlin",
+      "dates": "26 June 2026",
       "times": "",
       "artists": [],
-      "official_url": "https://ceecee.cc/ein-buch-wie-ein-wochenendausflug-mit-von-see-zu-see-brandenburg-entdecken/",
+      "official_url": "https://www.indexberlin.com/events/list/44482/n-a",
       "closing_soon": false,
       "verified": false,
-      "why_candidate": "Es gibt Bücher, die auf dem Couchtisch landen. Und es gibt Bücher, die dafür sorgen,...",
-      "ingestion_source": "rss"
+      "why_candidate": "Monica Mussungo",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
     },
     {
-      "id": "rss-wildcards-aa179f7a1e",
+      "id": "index-berlin-ics-wildcards-30c20c8086",
       "topic_ids": [
         "wildcards"
       ],
-      "title": "SEHEN, HÖREN, TANZEN: DER HAMBURGER BAHNHOF ÖFFNET SEINE TÜREN FÜR EIN KOSTENFREIES KULTURWOCHENENDE",
-      "venue": "Cee Cee Berlin",
-      "dates": "",
+      "title": "Kexin Hao Revolution Is a Dinner Party",
+      "venue": "Stephanstr. 11 10559 Berlin",
+      "dates": "26 June 2026",
       "times": "",
       "artists": [],
-      "official_url": "https://ceecee.cc/sehen-hoeren-tanzen-der-hamburger-bahnhof-oeffnet-seine-tueren-fuer-ein-kostenfreies-kulturwochenende/",
+      "official_url": "https://www.indexberlin.com/events/list/44722/revolution-is-a-dinner-party",
       "closing_soon": false,
       "verified": false,
-      "why_candidate": "Eines der kurioseren Exponate im Hamburger Bahnhof – Nationalgalerie der Gegenwart ist ein Peugeot 205, der in...",
-      "ingestion_source": "rss"
+      "why_candidate": "Kexin Hao Revolution Is a Dinner Party",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
     },
     {
-      "id": "rss-wildcards-8ca49952db",
+      "id": "index-berlin-ics-wildcards-bf9bbadf81",
       "topic_ids": [
         "wildcards"
       ],
-      "title": "ETWAS FÜR DIE BUCKETLIST — DIE CC CALENDAR TIPPS ZWISCHEN SUSAN SONTAG, SCHLOSS BELLEVUE UND SPARGELFELD",
-      "venue": "Cee Cee Berlin",
-      "dates": "",
-      "times": "",
+      "title": "Brandenboogie #1\\, Tattoos and Music with Marc Brandenburg",
+      "venue": "Alte Jakobstr. 124-128 10969 Berlin",
+      "dates": "26 June 2026",
+      "times": "17:00",
       "artists": [],
-      "official_url": "https://ceecee.cc/etwas-fuer-die-bucketlist-die-cc-calendar-tipps-zwischen-susan-sontag-schloss-bellevue-und-spargelfeld/",
+      "official_url": "https://www.indexberlin.com/events/list/43913/brandenboogie-1-tattoos-and-music-with-marc-brandenburg",
       "closing_soon": false,
       "verified": false,
-      "why_candidate": "Wir mögen Listen, die mit Susan Sontag anfangen und mit Spargel aufhören. Die Einträge dazwischen...",
-      "ingestion_source": "rss"
+      "why_candidate": "Brandenboogie #1\\, Tattoos and Music with Marc Brandenburg",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-85edd5c7c5",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Reading Group: Haunted Potentials",
+      "venue": "Auguststr. 21 10117 Berlin",
+      "dates": "26 June 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44743/reading-group-haunted-potentials",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Reading Group: Haunted Potentials",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
     }
   ],
+  "editorial_context": {
+    "rejected_candidates": [
+      {
+        "id": "index-berlin-html-exhibitions-d5a9616c6f",
+        "title": "Chrisalizing",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-2ac3c819ef",
+        "title": "Volveré y seré milliones",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-e5cebd3305",
+        "title": "Geometry of Light",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-6911b74500",
+        "title": "《89》 Ink-stained books",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-9cebe06c18",
+        "title": "A Guide to the Interior for a House on Ambiguous Grounds",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-dbd25f46c1",
+        "title": "Widerruf",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-8e077aa6b4",
+        "title": "Cabin Cluster",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-78324d2ade",
+        "title": "Breathe. As in. (shadow)",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-de93ea6bb6",
+        "title": "along – between",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-021594cdb8",
+        "title": "Georgia",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-c9832d8e13",
+        "title": "Markus Lüpertz oder Die Überwindung der Moderne",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-099093b1b5",
+        "title": "Field Conditions",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-98634842fd",
+        "title": "Was uns nicht mehr trägt",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-33cae689e0",
+        "title": "Remains",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-a3f67b70f5",
+        "title": "Persistence of Vision",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-cba343896d",
+        "title": "Queere Kunst in der DDR? Biografien zwischen Underground und Propaganda",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-c3641700cd",
+        "title": "The Heart is a Pump. Part III: Divine Withdrawal",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-d7b4da74d5",
+        "title": "Prototyp",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-c712c7568c",
+        "title": "Die Kunst ist kein Ziel für sich. In Beziehung mit der Konstruktivistin Asja Lācis",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-25e7c54fa8",
+        "title": "Queere Kunst in der DDR? Biografien zwischen Underground und Propaganda",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-e058deb2a3",
+        "title": "Queere Kunst in der DDR? Biografien zwischen Underground und Propaganda",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-d4bd546f59",
+        "title": "Interconnected Gestures",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-6cec9f1573",
+        "title": "Domesticity I: I was ready for Victorian tiles",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-0019dceeda",
+        "title": "FREIRAUM KUNST. Akademie der Künste goes Bellevue",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-c246ef22b4",
+        "title": "Queere Kunst in der DDR? Biografien zwischen Underground und Propaganda",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-7303d08010",
+        "title": "bartyful",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-4cd140e2e2",
+        "title": "ATLANTINNEN: deep dive. measuring. spirit. 52°/13°.",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-5d0cb25551",
+        "title": "Project Space Festival 2026",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "project-space-festival-2026",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-e6a1c09316",
+        "title": "Marseille 1994",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-db63caaf5d",
+        "title": "Ancora",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-9365374a71",
+        "title": "Proxy",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-96bfbf0c12",
+        "title": "One Third of Heaven",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-124dfeb067",
+        "title": "Beginnen im Rinnen der Zeit",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-cfe5b81f6e",
+        "title": "Difficult Times",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-8b6d6e61eb",
+        "title": "Caged Movements",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-25527b30ce",
+        "title": "Invertigo",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-63bd0b37fa",
+        "title": "Blind Spot",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-3d09eb4178",
+        "title": "A View from Patience Hill",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "rss-exhibitions-a1258cff5f",
+        "title": "The Week June 22–28, 2026",
+        "section": "exhibitions",
+        "reason": "venue_cap:berlin art link",
+        "series_id": "",
+        "venue": "Berlin Art Link"
+      },
+      {
+        "id": "rss-exhibitions-ebbe10d83c",
+        "title": "Democracy’s Distress Call: ‘Freiraum Kunst’ at Schloss Bellevue",
+        "section": "exhibitions",
+        "reason": "venue_cap:berlin art link",
+        "series_id": "",
+        "venue": "Berlin Art Link"
+      },
+      {
+        "id": "rss-exhibitions-625cd49cd6",
+        "title": "Leaking Liveliness: Project Space Festival 2026",
+        "section": "exhibitions",
+        "reason": "venue_cap:berlin art link",
+        "series_id": "leaking-liveliness-project-space-festival-2026",
+        "venue": "Berlin Art Link"
+      },
+      {
+        "id": "rss-exhibitions-86517d64b8",
+        "title": "The Week June 15–21, 2026",
+        "section": "exhibitions",
+        "reason": "venue_cap:berlin art link",
+        "series_id": "",
+        "venue": "Berlin Art Link"
+      },
+      {
+        "id": "rss-exhibitions-1ad7983b49",
+        "title": "Resisting Habituation: ‘Pedagogies of War’ at Thyssen-Bornemisza Madrid",
+        "section": "exhibitions",
+        "reason": "venue_cap:berlin art link",
+        "series_id": "",
+        "venue": "Berlin Art Link"
+      },
+      {
+        "id": "rss-exhibitions-6e59e86434",
+        "title": "The Queer Pastoral: ‘Cruising the Countryside’ at Schwules Museum",
+        "section": "exhibitions",
+        "reason": "venue_cap:berlin art link",
+        "series_id": "",
+        "venue": "Berlin Art Link"
+      },
+      {
+        "id": "rss-exhibitions-97b6519e67",
+        "title": "The Weight of Words: Shilpa Gupta at Hamburger Bahnhof",
+        "section": "exhibitions",
+        "reason": "venue_cap:berlin art link",
+        "series_id": "",
+        "venue": "Berlin Art Link"
+      },
+      {
+        "id": "film-10",
+        "title": "The North (Bart Schrijver, 2025)",
+        "section": "film",
+        "reason": "venue_cap:kino 2",
+        "series_id": "",
+        "venue": "ACUDkino, Kino 2"
+      },
+      {
+        "id": "silent-green-html-music-386054a709",
+        "title": "Bex Burch – As yet untitled",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-7e1f0cd7b0",
+        "title": "22nd Pictoplasma Festival",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "22nd-pictoplasma-festival",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-7263b2d8c3",
+        "title": "22nd Pictoplasma Festival: Open House – Character Market, Screenings, Exhibition & Workshop",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "22nd-pictoplasma-festival-open-house-character-market-screenings-exhibition-work",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-4c6f68a27a",
+        "title": "A MAZE. / Berlin 2026 – 15th International Games and Playful Media Festival",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "a-maze-berlin-2026-15th-international-games-and-playful-media-festival",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-b28412a87e",
+        "title": "Lucrecia Dalt pres. A Danger to Ourselves + Jonathan Castro (Live-Set)",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-3d821ada89",
+        "title": "Dobrawa Czocher + Laura Masotto",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-d102f63251",
+        "title": "Huerta Ensamble pres. S∞S (Sincronia) + Carla Boregas pres. Devoção",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-cca8baf71f",
+        "title": "Gender Equality Now",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-5217a78c1e",
+        "title": "Boards of Canada: Inferno Sessions – sold out",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-6ac743b04a",
+        "title": "JMSN + Thelonious Stokes",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-bb6f2fb186",
+        "title": "Historische Führung",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-e3ed58e7e9",
+        "title": "infinite bisous + Naran Ratan Ensemble Plays the Music of Naran Ratan",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-547bc22add",
+        "title": "Colleen pres. Libres antes del final + Midori Hirano",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-6ecbd10f2f",
+        "title": "divisio spiralis",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-c0db089824",
+        "title": "LAKE [sandbox]",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-5835a89ff6",
+        "title": "Psychic Liberation Night: Debit pres. Desaceleradas + Elif Gülin Soğuksu + Victor Burton",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a7a16081ad",
+        "title": "Historische Führung",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-597fa6ab5d",
+        "title": "silent green Open Lab – OPEN CALL",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-02ba7a4411",
+        "title": "singuhr XXX",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-91526c8acf",
+        "title": "Arsenal Making Space: killer.berlin.doc",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-9d0d409fc7",
+        "title": "Cara Delevingne",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a71aa426ef",
+        "title": "Poesiefestival Berlin 2026",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-719600dde7",
+        "title": "Cabaret Voltaire – Final EU tour – sold out",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-6baea1de63",
+        "title": "TOTALE 04 – magazine release",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-c244348f4f",
+        "title": "Historische Führung",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-f5b775e8a1",
+        "title": "Martyna Basta pres. Winged in Collapse + Ange Halliwell",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-1ce6a5409d",
+        "title": "Symposium Berlin plant. Stunde Null",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-18eb66b1de",
+        "title": "transmediale open studio",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "open-studios",
+        "venue": "Silent Green"
+      }
+    ],
+    "diversification_caps": {
+      "max_per_venue": 2,
+      "max_per_series": 1
+    },
+    "note": "Pre-ranked with venue/series/event de-duplication across sections. Synthesis must still apply one-event-one-slot and Top Picks cross-reference rules."
+  },
   "note": "Token-light culture slice for synthesis. Items with verified:true passed pre-fetch URL/schedule checks; synthesis spot-checks only unverified Top Picks and closing-soon items."
 }

@@ -25,6 +25,7 @@ import yaml
 from briefing_paths import load_briefing_type
 
 from fetch_rss import REGION_DEFAULTS, resolve_news_section_id
+from culture_schedule import extract_schedule_from_text
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -167,6 +168,217 @@ def post_to_news_item(
                 "published_at": published_at,
             }
         ],
+    }
+
+
+def make_event_item_id(url: str, section_id: str) -> str:
+    digest = hashlib.sha256(url.encode()).hexdigest()[:10]
+    return f"wpe-{section_id}-{digest}"
+
+
+def tribe_event_to_culture_item(
+    event: dict,
+    *,
+    feed_cfg: dict,
+    section_id: str,
+    blocklist: list[str],
+) -> dict | None:
+    url = (event.get("url") or event.get("website") or "").strip()
+    if not url.startswith("http") or is_blocked(url, blocklist):
+        return None
+    title = strip_html(event.get("title") or "")
+    if not title:
+        return None
+    venue = feed_cfg.get("venue") or (event.get("venue") or {}).get("venue") or feed_cfg.get("publisher") or ""
+    if isinstance(venue, dict):
+        venue = venue.get("venue") or ""
+    dates = (event.get("start_date") or "")[:10]
+    if event.get("end_date") and event.get("end_date") != event.get("start_date"):
+        dates = f"{event.get('start_date', '')[:10]} – {event.get('end_date', '')[:10]}"
+    times = (event.get("start_time") or "").strip()
+    desc = strip_html(event.get("description") or "")[:300]
+    if not dates:
+        dates, inferred = extract_schedule_from_text(f"{title} {desc}")
+        times = times or inferred
+    return {
+        "id": make_event_item_id(url, section_id),
+        "topic_ids": [section_id],
+        "title": title,
+        "venue": str(venue).strip() or urlparse(url).netloc,
+        "dates": dates,
+        "times": times,
+        "artists": [],
+        "official_url": url,
+        "closing_soon": False,
+        "why_candidate": desc or title,
+        "ingestion_source": "wordpress_events",
+        "programme_feed": True,
+        "verified": False,
+    }
+
+
+def wp_rest_event_to_culture_item(
+    post: dict,
+    *,
+    feed_cfg: dict,
+    section_id: str,
+    blocklist: list[str],
+) -> dict | None:
+    link = (post.get("link") or "").strip()
+    if not link.startswith("http") or is_blocked(link, blocklist):
+        return None
+    title = strip_html((post.get("title") or {}).get("rendered") or "")
+    if not title:
+        return None
+    excerpt = strip_html((post.get("excerpt") or {}).get("rendered") or "")
+    venue = feed_cfg.get("venue") or feed_cfg.get("publisher") or urlparse(link).netloc
+    post_dt = parse_post_date(post)
+    dates = post_dt.strftime("%d %B %Y") if post_dt else ""
+    dates_hint, times = extract_schedule_from_text(
+        f"{title} {excerpt}",
+        reference_year=post_dt.year if post_dt else None,
+    )
+    if dates_hint:
+        dates = dates_hint
+    return {
+        "id": make_event_item_id(link, section_id),
+        "topic_ids": [section_id],
+        "title": title,
+        "venue": venue,
+        "dates": dates,
+        "times": times,
+        "artists": [],
+        "official_url": link,
+        "closing_soon": False,
+        "why_candidate": (excerpt or title)[:300],
+        "ingestion_source": "wordpress_events",
+        "programme_feed": True,
+        "verified": False,
+    }
+
+
+def fetch_wordpress_event_feed(
+    feed_cfg: dict,
+    *,
+    cutoff: datetime,
+    blocklist: list[str],
+) -> tuple[list[dict], str | None]:
+    api_kind = (feed_cfg.get("api_kind") or "wp_rest").strip().lower()
+    api_url = (feed_cfg.get("url") or "").strip()
+    if not api_url:
+        return [], "missing url"
+
+    section_ids = feed_cfg.get("section_ids") or ["performing_arts"]
+    section_id = section_ids[0]
+    max_items = int(feed_cfg.get("max_items") or DEFAULT_MAX_ITEMS)
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; BriefingBot/1.0)"}
+    params: dict[str, str | int] = {"per_page": min(max_items, 100)}
+
+    if api_kind == "wp_rest":
+        params["_fields"] = "id,link,title,excerpt,date,date_gmt"
+    elif api_kind == "tribe_rest":
+        params["per_page"] = min(max_items, 50)
+
+    try:
+        response = requests.get(api_url, params=params, headers=headers, timeout=30)
+        response.raise_for_status()
+        records = response.json()
+    except requests.RequestException as exc:
+        return [], str(exc)
+    except ValueError as exc:
+        return [], f"invalid JSON: {exc}"
+
+    if api_kind == "tribe_rest":
+        if isinstance(records, dict):
+            records = records.get("events") or []
+    if not isinstance(records, list):
+        return [], "unexpected API response"
+
+    items: list[dict] = []
+    seen: set[str] = set()
+
+    for record in records:
+        if len(items) >= max_items:
+            break
+        if not isinstance(record, dict):
+            continue
+
+        if api_kind == "tribe_rest":
+            start_raw = record.get("start_date") or ""
+            try:
+                if start_raw:
+                    start_dt = datetime.strptime(start_raw[:10], "%Y-%m-%d").replace(tzinfo=timezone.utc)
+                    if start_dt < cutoff:
+                        continue
+            except ValueError:
+                pass
+            item = tribe_event_to_culture_item(
+                record, feed_cfg=feed_cfg, section_id=section_id, blocklist=blocklist
+            )
+        else:
+            post_dt = parse_post_date(record)
+            if post_dt and post_dt < cutoff:
+                continue
+            item = wp_rest_event_to_culture_item(
+                record, feed_cfg=feed_cfg, section_id=section_id, blocklist=blocklist
+            )
+        if not item:
+            continue
+        norm = normalize_url(item["official_url"])
+        if not norm or norm in seen:
+            continue
+        seen.add(norm)
+        items.append(item)
+
+    return items, None
+
+
+def fetch_all_wordpress_events(
+    *,
+    date_str: str,
+    sources_cfg: dict,
+    max_age_hours: int = DEFAULT_MAX_AGE_HOURS,
+) -> dict:
+    feeds = sources_cfg.get("wordpress_event_feeds") or []
+    blocklist = sources_cfg.get("blocklist_domains") or []
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=max_age_hours)
+
+    all_items: list[dict] = []
+    feed_notes: list[str] = []
+    errors: list[str] = []
+
+    for feed_cfg in feeds:
+        label = feed_cfg.get("publisher") or feed_cfg.get("url", "unknown")
+        items, err = fetch_wordpress_event_feed(
+            feed_cfg,
+            cutoff=cutoff,
+            blocklist=blocklist,
+        )
+        if err:
+            errors.append(f"{label}: {err}")
+            log(f"  [{label}] skipped — {err}")
+            continue
+        all_items.extend(items)
+        feed_notes.append(f"{label}: {len(items)}")
+        log(f"  [{label}] {len(items)} items")
+
+    seen: set[str] = set()
+    deduped: list[dict] = []
+    for item in all_items:
+        url = normalize_url(item.get("official_url") or "")
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        deduped.append(item)
+
+    return {
+        "date": date_str,
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "source": "wordpress_events",
+        "item_format": "culture",
+        "items": deduped,
+        "feed_counts": feed_notes,
+        "errors": errors,
     }
 
 
@@ -340,6 +552,7 @@ def main() -> int:
     inbox_dir = briefing.inbox_dir
     inbox_dir.mkdir(parents=True, exist_ok=True)
     out_path = inbox_dir / f"{date_str}-wordpress.json"
+    events_path = inbox_dir / f"{date_str}-wordpress-events.json"
 
     if not feeds:
         log(f"No wordpress_feeds configured in {briefing.sources_path} — writing empty inbox file")
@@ -353,20 +566,53 @@ def main() -> int:
             "errors": [],
         }
         out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        return 0
+    else:
+        log(f"Fetching WordPress for {date_str} ({len(feeds)} feeds, max age {max_age_hours}h)...")
+        payload = fetch_all_wordpress(
+            date_str=date_str,
+            sources_cfg=sources_cfg,
+            max_age_hours=max_age_hours,
+            item_format=item_format,
+        )
+        out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        log(f"Wrote {out_path} ({len(payload.get('items') or [])} items)")
+        if payload.get("errors"):
+            log(f"  {len(payload['errors'])} feed(s) had errors (see file)")
 
-    log(f"Fetching WordPress for {date_str} ({len(feeds)} feeds, max age {max_age_hours}h)...")
-    payload = fetch_all_wordpress(
-        date_str=date_str,
-        sources_cfg=sources_cfg,
-        max_age_hours=max_age_hours,
-        item_format=item_format,
-    )
+    event_feeds = sources_cfg.get("wordpress_event_feeds") or []
+    if item_format == "culture" and event_feeds:
+        log(f"Fetching WordPress events for {date_str} ({len(event_feeds)} feeds)...")
+        events_payload = fetch_all_wordpress_events(
+            date_str=date_str,
+            sources_cfg=sources_cfg,
+            max_age_hours=max_age_hours,
+        )
+        events_path.write_text(
+            json.dumps(events_payload, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+        log(f"Wrote {events_path} ({len(events_payload.get('items') or [])} items)")
+        if events_payload.get("errors"):
+            log(f"  {len(events_payload['errors'])} event feed(s) had errors (see file)")
+    elif item_format == "culture":
+        events_path.write_text(
+            json.dumps(
+                {
+                    "date": date_str,
+                    "fetched_at": datetime.now(timezone.utc).isoformat(),
+                    "source": "wordpress_events",
+                    "item_format": "culture",
+                    "items": [],
+                    "feed_counts": [],
+                    "errors": [],
+                },
+                indent=2,
+                ensure_ascii=False,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
 
-    out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    log(f"Wrote {out_path} ({len(payload.get('items') or [])} items)")
-    if payload.get("errors"):
-        log(f"  {len(payload['errors'])} feed(s) had errors (see file)")
     return 0
 
 

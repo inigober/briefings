@@ -3,7 +3,36 @@
 
 from __future__ import annotations
 
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
+
+
+def culture_week_window(run_date: datetime) -> tuple[datetime, datetime]:
+    """Wednesday through the following Tuesday of the briefing week (Tuesday run date)."""
+    week_start = run_date + timedelta(days=1)
+    week_end = run_date + timedelta(days=7)
+    return week_start, week_end
+
+
+def culture_week_date_bounds(run_date: datetime) -> tuple[date, date]:
+    week_start, week_end = culture_week_window(run_date)
+    return week_start.date(), week_end.date()
+
+
+def culture_programme_months(run_dt: datetime) -> list[tuple[int, int]]:
+    """Current and next calendar month — for venue HTML programme scrapers."""
+    year, month = run_dt.year, run_dt.month
+    if month == 12:
+        return [(year, month), (year + 1, 1)]
+    return [(year, month), (year, month + 1)]
+
+
+def format_week_range(week_start: datetime, week_end: datetime) -> str:
+    if week_start.month == week_end.month:
+        return f"{week_start.strftime('%B')} {week_start.day}–{week_end.day}, {week_end.year}"
+    return (
+        f"{week_start.strftime('%B')} {week_start.day}–"
+        f"{week_end.strftime('%B')} {week_end.day}, {week_end.year}"
+    )
 
 
 def normalize_tuesday_run_date(date_str: str) -> tuple[str, datetime]:

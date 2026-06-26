@@ -8,16 +8,19 @@
   "status": "success",
   "briefing_path": "briefings/berlin-culture/2026-06-16.md",
   "inbox_path": "inbox/berlin-culture/2026-06-16-synthesis.json",
-  "items_count": 12,
+  "items_count": 11,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 4,
+    "exhibitions": 2,
     "film": 1,
-    "performing_arts": 2,
+    "performing_arts": 0,
     "music": 0,
-    "wildcards": 1,
-    "advance_radar": 0
+    "wildcards": 0,
+    "advance_radar": 2
   },
-  "verification_fetches": 5,
-  "notes": "Token-light synthesis inbox (19 items, 0 music). Spot-checked Schwules Museum exhibitions, Polish Art Week preview, Meine Frau Weint. Dropped Shilpa Gupta (SMB page 404), Sonnenbrand repeat, food wildcards, unverified Wolf homepage listing. Omitted music — no items in synthesis slice."
+  "thin_sections": ["music", "performing_arts", "exhibitions", "film"],
+  "omitted_sections": ["wildcards"],
+  "validation_warnings": ["music below minimum (0/3)", "exhibitions below minimum (2/4)"],
+  "verification_fetches": 0,
+  "notes": "Regenerated after HTML calendar ingestion (Index Berlin + Silent Green). Music omitted — Silent Green scrape dates mostly pre-week; Index ICS music not in June 17–23 window. Wildcards moved to Advance Radar (26 June). Trusted verified OpenAI + programme warehouse picks."
 }

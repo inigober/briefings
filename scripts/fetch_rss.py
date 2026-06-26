@@ -24,6 +24,7 @@ import feedparser
 import yaml
 
 from briefing_paths import load_briefing_type
+from culture_schedule import extract_schedule_from_text
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -134,13 +135,18 @@ def entry_to_culture_item(
     if len(why) > 300:
         why = why[:297] + "..."
 
-    return {
+    schedule_blob = f"{title} {summary}"
+    published = parse_entry_date(entry)
+    ref_year = published.year if published else None
+    dates, times = extract_schedule_from_text(schedule_blob, reference_year=ref_year)
+
+    item = {
         "id": make_item_id(url, section_id),
         "topic_ids": [section_id],
         "title": title,
         "venue": venue,
-        "dates": "",
-        "times": "",
+        "dates": dates,
+        "times": times,
         "artists": [],
         "official_url": url,
         "closing_soon": False,
@@ -148,6 +154,9 @@ def entry_to_culture_item(
         "ingestion_source": "rss",
         "verified": False,
     }
+    if feed_cfg.get("programme"):
+        item["programme_feed"] = True
+    return item
 
 
 def resolve_news_section_id(feed_cfg: dict, url: str) -> str:

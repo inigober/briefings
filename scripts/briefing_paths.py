@@ -26,6 +26,8 @@ class BriefingType:
     style_rule: Path
     prefetch_rss: bool
     prefetch_wordpress: bool
+    prefetch_ics: bool
+    prefetch_html_calendars: bool
     prefetch_merge_script: str
     prefetch_slim: bool
     email_preheader_section: str
@@ -92,6 +94,8 @@ def load_briefing_type(type_id: str) -> BriefingType:
         style_rule=p(cfg["style_rule"]),
         prefetch_rss=bool(prefetch.get("rss")),
         prefetch_wordpress=bool(prefetch.get("wordpress")),
+        prefetch_ics=bool(prefetch.get("ics")),
+        prefetch_html_calendars=bool(prefetch.get("html_calendars")),
         prefetch_merge_script=str(prefetch.get("merge_script") or ""),
         prefetch_slim=bool(prefetch.get("slim", True)),
         email_preheader_section=str(email.get("preheader_section") or ""),

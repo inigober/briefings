@@ -70,9 +70,35 @@ Prefer fewer, highly relevant picks over a long generic calendar. Each pick shou
 
 **Avoid:** commercial musicals, traditional opera, mainstream entertainment, celebrity-driven programming, EDM, mainstream house, generic DJ listings, empty hype ("Don't miss!", "Amazing", "Stunning").
 
+## One event, one slot (mandatory)
+
+Each **distinct** exhibition, performance, screening, or concert gets **exactly one** full write-up in the briefing body.
+
+- **Top Picks are a summary layer.** If an event is a Top Pick, other sections may reference it with a single line (*"See Top Picks — …"*) — **not** a second full entry block (no duplicate Venue / Date / Context / Link blocks).
+- **Never list the same show twice** (e.g. Tirailleurs in Top Picks and Exhibitions Radar with full entries).
+- **Festival / series cap:** at most **one** listing per festival or recurring series umbrella (e.g. Polish Art Week, Kyiv Biennial chapter, Kiez-Monatsschau). Name 1–2 headline acts inside that single entry; do not split the same festival across Top Picks, Exhibitions, Music, and Wildcards.
+- When a festival is the week's main story, write **one** strong entry (usually Top Picks) with sub-bullets for 2–3 standout events — not separate section entries per sub-event.
+
+## Venue vs. programme (mandatory)
+
+- **Same venue, different shows** (e.g. two exhibitions at Schwules Museum): OK, max **2 per venue per week**.
+- **Same festival, multiple venues:** counts as **one programme** for diversification — not venue spread.
+- **Same venue, same show:** never list twice (use Top Picks cross-reference if needed).
+
 ## Venue diversification
 
-No single venue > ~15–20% of total recommendations. Diversify across the city. Multiple listings from one venue only when different artists/events with strong justification.
+No single venue > ~15–20% of total recommendations. Diversify across the city. Multiple listings from one venue only when different artists/events with strong justification (see caps above).
+
+## Thin-week fallback (mandatory)
+
+When the synthesis inbox is thin for a required section (especially **Music** or **Film**):
+
+1. **Do not pad** by duplicating events already selected or by splitting one festival into multiple slots.
+2. **Promote** verified `advance_radar` items into the main week if they fall Wed–Mon/Tue (or exhibitions open through Wed).
+3. **Omit the section** rather than repeat — note the gap in `state/berlin-culture/last_run.json` (`thin_sections`, `omitted_sections`).
+4. Prefer **one cross-reference** (*"See Top Picks"*) over a second full entry.
+
+Target section minimums: Exhibitions 4–5, Film 2–4, Performing Arts 2–3, Music 3–4, Wildcards 1–2. Falling short is acceptable; duplication is not.
 
 ## Anti-repetition
 
