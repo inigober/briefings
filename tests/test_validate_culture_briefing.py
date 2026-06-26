@@ -14,6 +14,18 @@ if str(SCRIPTS) not in sys.path:
 
 from validate_culture_briefing import validate_briefing  # noqa: E402
 
+CULTURE_BRIEFINGS_DIR = REPO_ROOT / "briefings/berlin-culture"
+
+
+def latest_culture_briefing_path() -> Path | None:
+    """Newest dated briefing (ignores *.test.md), matching CI validation."""
+    candidates = sorted(
+        p
+        for p in CULTURE_BRIEFINGS_DIR.glob("*.md")
+        if not p.name.endswith(".test.md")
+    )
+    return candidates[-1] if candidates else None
+
 
 class TestValidateCultureBriefing(unittest.TestCase):
     def test_detects_duplicate_events(self) -> None:
@@ -55,19 +67,13 @@ class TestValidateCultureBriefing(unittest.TestCase):
         error_text = " ".join(errors)
         self.assertIn("Duplicate event", error_text)
 
-    def test_regenerated_june_16_briefing_has_no_duplicate_errors(self) -> None:
-        path = REPO_ROOT / "briefings/berlin-culture/2026-06-16.md"
+    def test_latest_briefing_has_no_duplicate_errors(self) -> None:
+        path = latest_culture_briefing_path()
+        if path is None:
+            self.skipTest("no culture briefings in repo")
         text = path.read_text(encoding="utf-8")
         errors, _warnings = validate_briefing(text)
-        self.assertEqual(errors, [])
-
-    def test_june_23_briefing_has_no_duplicate_errors(self) -> None:
-        path = REPO_ROOT / "briefings/berlin-culture/2026-06-23.md"
-        if not path.is_file():
-            self.skipTest("briefing not present")
-        text = path.read_text(encoding="utf-8")
-        errors, _warnings = validate_briefing(text)
-        self.assertEqual(errors, [])
+        self.assertEqual(errors, [], f"{path.name} failed validation: {errors}")
 
     def test_clean_briefing_passes(self) -> None:
         text = """# Berlin Culture Briefing — Week of June 1–7, 2026
