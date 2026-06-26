@@ -4,8 +4,8 @@
 from __future__ import annotations
 
 import re
-from datetime import date, datetime
-from typing import Any
+from datetime import date, datetime, timedelta
+from typing import Any, Literal
 
 MONTHS = {
     "january": 1,
@@ -207,6 +207,106 @@ def parse_culture_date_bounds(
     return None, None
 
 
+EventTiming = Literal["in_week", "advance", "past", "beyond", "unknown"]
+
+PROGRAMME_TIMED_INGESTION_SOURCES = frozenset({"silent_green_html", "index_berlin_ics"})
+
+
+def classify_event_timing(
+    item: dict[str, Any],
+    week_start: date,
+    week_end: date,
+    *,
+    advance_horizon_end: date,
+) -> EventTiming:
+    """Classify timed programme items: in-week, advance, past, beyond horizon, or unknown."""
+    section_id = (item.get("topic_ids") or ["exhibitions"])[0]
+    if section_id == "exhibitions":
+        return "in_week"
+
+    start, end = parse_culture_date_bounds(
+        item.get("dates") or "",
+        reference_year=week_end.year,
+    )
+    if start is None and end is None:
+        return "unknown"
+
+    eff_start = start or end
+    eff_end = end or start
+    if eff_start is None or eff_end is None:
+        return "unknown"
+
+    if eff_end < week_start:
+        return "past"
+    if eff_start > advance_horizon_end:
+        return "beyond"
+    if eff_start <= week_end and eff_end >= week_start:
+        return "in_week"
+    if eff_start > week_end:
+        return "advance"
+    return "beyond"
+
+
+def route_programme_item_timing(
+    item: dict[str, Any],
+    timing: EventTiming,
+    *,
+    primary_section: str,
+) -> dict[str, Any] | None:
+    """Drop past/beyond; re-tag post-week items as advance_radar."""
+    if timing in ("past", "beyond"):
+        return None
+    out = dict(item)
+    if timing == "advance":
+        out["topic_ids"] = ["advance_radar"]
+        out["timing_bucket"] = "advance"
+        out["primary_section"] = primary_section
+    elif timing == "in_week":
+        out["timing_bucket"] = "in_week"
+    else:
+        out["timing_bucket"] = "unknown"
+    return out
+
+
+def filter_programme_items_by_timing(
+    items: list[dict[str, Any]],
+    week_start: date,
+    week_end: date,
+    *,
+    ingestion_sources: set[str] | frozenset[str] = PROGRAMME_TIMED_INGESTION_SOURCES,
+    horizon_days: int = 14,
+) -> tuple[list[dict[str, Any]], int, int]:
+    """Drop past/beyond programme items; re-tag advance items. Returns (kept, dropped, advance_count)."""
+    from culture_dates import culture_advance_horizon_end
+
+    advance_horizon_end = culture_advance_horizon_end(week_end, horizon_days=horizon_days)
+    kept: list[dict[str, Any]] = []
+    dropped = 0
+    advance_count = 0
+
+    for item in items:
+        source = (item.get("ingestion_source") or "").strip()
+        if source not in ingestion_sources:
+            kept.append(item)
+            continue
+        primary_section = (item.get("topic_ids") or ["wildcards"])[0]
+        timing = classify_event_timing(
+            item,
+            week_start,
+            week_end,
+            advance_horizon_end=advance_horizon_end,
+        )
+        routed = route_programme_item_timing(item, timing, primary_section=primary_section)
+        if routed is None:
+            dropped += 1
+            continue
+        if timing == "advance":
+            advance_count += 1
+        kept.append(routed)
+
+    return kept, dropped, advance_count
+
+
 def dates_overlap_briefing_window(
     start: date | None,
     end: date | None,
@@ -261,24 +361,19 @@ def filter_items_to_briefing_window(
     *,
     ingestion_sources: set[str] | None = None,
     require_parseable_date: bool = False,
+    horizon_days: int = 14,
 ) -> tuple[list[dict[str, Any]], int]:
-    """Drop items outside the briefing window; return (kept, dropped_count)."""
-    kept: list[dict[str, Any]] = []
-    dropped = 0
-    for item in items:
-        source = (item.get("ingestion_source") or "").strip()
-        if ingestion_sources is not None and source not in ingestion_sources:
-            kept.append(item)
-            continue
-        start, end = parse_culture_date_bounds(
-            item.get("dates") or "",
-            reference_year=week_end.year,
-        )
-        if require_parseable_date and start is None and end is None:
-            dropped += 1
-            continue
-        if item_in_briefing_window(item, week_start, week_end):
-            kept.append(item)
-        else:
-            dropped += 1
+    """Drop past programme items; re-tag post-week items for advance_radar."""
+    if ingestion_sources is None:
+        ingestion_sources = set(PROGRAMME_TIMED_INGESTION_SOURCES)
+    kept, dropped, _advance = filter_programme_items_by_timing(
+        items,
+        week_start,
+        week_end,
+        ingestion_sources=ingestion_sources,
+        horizon_days=horizon_days,
+    )
+    if require_parseable_date:
+        # Legacy flag — programme filter already drops unparseable past/beyond only.
+        pass
     return kept, dropped

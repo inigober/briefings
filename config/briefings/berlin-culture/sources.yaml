@@ -1,6 +1,7 @@
 # Berlin culture — domains, calendars, and RSS feeds for pre-fetch.
 
 rss_max_age_hours: 336  # 14 days — weekly briefing window
+advance_horizon_days: 14  # post-week programme items kept for Advance Radar
 
 rss_feeds:
   - publisher: Cee Cee Berlin
@@ -68,11 +69,13 @@ html_calendar_feeds:
     fetcher: index_berlin
     section_ids: [exhibitions, wildcards]
     max_items: 40
+    max_advance_items: 8
   - publisher: Silent Green
     fetcher: silent_green_programme
     venue: Silent Green
     section_ids: [music]
     max_items: 30
+    max_advance_items: 8
 
 # Editorial feeds — context only; do not count as venue programme coverage.
 press_publishers:

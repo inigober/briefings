@@ -22,8 +22,18 @@ from urllib.parse import urljoin
 import requests
 import yaml
 
-from culture_dates import culture_programme_months, culture_week_date_bounds, normalize_tuesday_run_date
-from culture_schedule import extract_schedule_from_text, item_in_briefing_window
+from culture_dates import (
+    DEFAULT_ADVANCE_HORIZON_DAYS,
+    culture_advance_horizon_end,
+    culture_programme_months,
+    culture_week_date_bounds,
+    normalize_tuesday_run_date,
+)
+from culture_schedule import (
+    classify_event_timing,
+    extract_schedule_from_text,
+    route_programme_item_timing,
+)
 from briefing_paths import load_briefing_type
 from culture_ics import is_ics_calendar, parse_ics_events
 from fetch_rss import DEFAULT_CULTURE_MAX_AGE_HOURS, is_blocked, normalize_url
@@ -90,15 +100,20 @@ def fetch_index_berlin_events(
     *,
     blocklist: list[str],
     max_items: int,
-    cutoff: datetime,
-) -> list[dict]:
+    max_advance_items: int,
+    week_start: date,
+    week_end: date,
+    advance_horizon_end: date,
+) -> tuple[list[dict], int, int]:
     html = http_get(f"{BASE_INDEX}/events/list/")
     ics_paths = list(dict.fromkeys(re.findall(r'href="(/events/list/\d+/[^"]+\.ics)"', html)))
     items: list[dict] = []
     seen: set[str] = set()
+    dropped = 0
+    advance_count = 0
 
     for path in ics_paths:
-        if len(items) >= max_items:
+        if len(items) >= max_items + max_advance_items:
             break
         ics_url = f"{BASE_INDEX}{path}"
         page_url = ics_url[:-4]
@@ -111,16 +126,6 @@ def fetch_index_berlin_events(
         if not is_ics_calendar(body):
             continue
         for event in parse_ics_events(body):
-            start_raw = event.get("dtstart") or ""
-            if start_raw:
-                try:
-                    start_dt = datetime.fromisoformat(start_raw)
-                    if start_dt.tzinfo is None:
-                        start_dt = start_dt.replace(tzinfo=timezone.utc)
-                    if start_dt < cutoff:
-                        continue
-                except ValueError:
-                    pass
             title = strip_html(event.get("title") or "")
             if title.lower().startswith("index berlin:"):
                 title = title.split(":", 1)[1].strip()
@@ -129,20 +134,37 @@ def fetch_index_berlin_events(
             if norm in seen:
                 continue
             seen.add(norm)
-            items.append(
-                culture_item(
-                    section_id="wildcards",
-                    title=title,
-                    venue=venue,
-                    dates=event.get("dates") or "",
-                    times=event.get("times") or "",
-                    official_url=page_url,
-                    why=event.get("description") or title,
-                    ingestion_source="index_berlin_ics",
-                )
+            candidate = culture_item(
+                section_id="wildcards",
+                title=title,
+                venue=venue,
+                dates=event.get("dates") or "",
+                times=event.get("times") or "",
+                official_url=page_url,
+                why=event.get("description") or title,
+                ingestion_source="index_berlin_ics",
             )
+            timing = classify_event_timing(
+                candidate,
+                week_start,
+                week_end,
+                advance_horizon_end=advance_horizon_end,
+            )
+            routed = route_programme_item_timing(candidate, timing, primary_section="wildcards")
+            if routed is None:
+                dropped += 1
+                break
+            in_week_cap = sum(1 for i in items if i.get("timing_bucket") != "advance")
+            advance_cap = sum(1 for i in items if i.get("timing_bucket") == "advance")
+            if timing == "advance":
+                if advance_cap >= max_advance_items:
+                    break
+                advance_count += 1
+            elif in_week_cap >= max_items:
+                break
+            items.append(routed)
             break  # one item per ICS file
-    return items
+    return items, dropped, advance_count
 
 
 def parse_index_exhibition_detail(html: str, page_url: str) -> dict[str, str] | None:
@@ -265,13 +287,16 @@ def fetch_silent_green_programme(
     *,
     blocklist: list[str],
     max_items: int,
+    max_advance_items: int,
     run_dt: datetime,
     week_start: date,
     week_end: date,
-) -> tuple[list[dict], int]:
+    advance_horizon_end: date,
+) -> tuple[list[dict], int, int]:
     items: list[dict] = []
     seen: set[str] = set()
-    dropped_out_of_window = 0
+    dropped = 0
+    advance_count = 0
 
     for year, month in culture_programme_months(run_dt):
         month_url = f"{BASE_SILENT_GREEN}/en/programme/{year}/{month}"
@@ -284,6 +309,10 @@ def fetch_silent_green_programme(
             dict.fromkeys(re.findall(r'href="(/en/programme/detail/[^"]+)"', html))
         )
         for path in detail_paths:
+            in_week_cap = sum(1 for i in items if i.get("timing_bucket") != "advance")
+            advance_cap = sum(1 for i in items if i.get("timing_bucket") == "advance")
+            if in_week_cap >= max_items and advance_cap >= max_advance_items:
+                break
             page_url = urljoin(BASE_SILENT_GREEN, path.replace("&amp;", "&"))
             if is_blocked(page_url, blocklist):
                 continue
@@ -308,15 +337,28 @@ def fetch_silent_green_programme(
                 why=f"Silent Green programme — {parsed['dates'] or 'see venue page'}",
                 ingestion_source="silent_green_html",
             )
-            if not item_in_briefing_window(candidate, week_start, week_end):
-                dropped_out_of_window += 1
+            timing = classify_event_timing(
+                candidate,
+                week_start,
+                week_end,
+                advance_horizon_end=advance_horizon_end,
+            )
+            routed = route_programme_item_timing(candidate, timing, primary_section="music")
+            if routed is None:
+                dropped += 1
                 continue
-            items.append(candidate)
-            if len(items) >= max_items:
-                break
-        if len(items) >= max_items:
+            if timing == "advance":
+                if advance_cap >= max_advance_items:
+                    continue
+                advance_count += 1
+            elif in_week_cap >= max_items:
+                continue
+            items.append(routed)
+        in_week_cap = sum(1 for i in items if i.get("timing_bucket") != "advance")
+        advance_cap = sum(1 for i in items if i.get("timing_bucket") == "advance")
+        if in_week_cap >= max_items and advance_cap >= max_advance_items:
             break
-    return items, dropped_out_of_window
+    return items, dropped, advance_count
 
 
 def fetch_all_html_calendars(
@@ -328,14 +370,16 @@ def fetch_all_html_calendars(
 ) -> dict:
     feeds = sources_cfg.get("html_calendar_feeds") or []
     blocklist = sources_cfg.get("blocklist_domains") or []
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=max_age_hours)
+    horizon_days = int(sources_cfg.get("advance_horizon_days") or DEFAULT_ADVANCE_HORIZON_DAYS)
     run_dt = run_dt or datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
     week_start, week_end = culture_week_date_bounds(run_dt)
+    advance_horizon_end = culture_advance_horizon_end(week_end, horizon_days=horizon_days)
 
     all_items: list[dict] = []
     feed_notes: list[str] = []
     errors: list[str] = []
     window_dropped: dict[str, int] = {}
+    window_advance: dict[str, int] = {}
 
     for feed_cfg in feeds:
         fetcher = (feed_cfg.get("fetcher") or "").strip()
@@ -343,27 +387,41 @@ def fetch_all_html_calendars(
         max_items = int(feed_cfg.get("max_items") or 40)
         try:
             if fetcher == "index_berlin":
-                events = fetch_index_berlin_events(
+                max_advance = int(feed_cfg.get("max_advance_items") or 8)
+                events, ev_dropped, ev_advance = fetch_index_berlin_events(
                     blocklist=blocklist,
                     max_items=min(max_items, 60),
-                    cutoff=cutoff,
+                    max_advance_items=max_advance,
+                    week_start=week_start,
+                    week_end=week_end,
+                    advance_horizon_end=advance_horizon_end,
                 )
                 exhibitions = fetch_index_berlin_exhibitions(
                     blocklist=blocklist,
                     max_items=max_items,
                 )
                 items = events + exhibitions
+                if ev_dropped:
+                    window_dropped[f"{label} events"] = ev_dropped
+                if ev_advance:
+                    window_advance[f"{label} events"] = ev_advance
             elif fetcher == "silent_green_programme":
-                items, dropped = fetch_silent_green_programme(
+                max_advance = int(feed_cfg.get("max_advance_items") or 8)
+                items, dropped, adv = fetch_silent_green_programme(
                     blocklist=blocklist,
                     max_items=max_items,
+                    max_advance_items=max_advance,
                     run_dt=run_dt,
                     week_start=week_start,
                     week_end=week_end,
+                    advance_horizon_end=advance_horizon_end,
                 )
                 if dropped:
                     window_dropped[label] = dropped
-                    log(f"  [{label}] dropped {dropped} out-of-window item(s)")
+                    log(f"  [{label}] dropped {dropped} past/beyond-horizon item(s)")
+                if adv:
+                    window_advance[label] = adv
+                    log(f"  [{label}] {adv} item(s) tagged advance_radar")
             else:
                 errors.append(f"{label}: unknown fetcher {fetcher}")
                 continue
@@ -393,8 +451,10 @@ def fetch_all_html_calendars(
         "items": deduped,
         "feed_counts": feed_notes,
         "window_dropped": window_dropped,
+        "window_advance": window_advance,
         "week_start": week_start.isoformat(),
         "week_end": week_end.isoformat(),
+        "advance_horizon_end": advance_horizon_end.isoformat(),
         "errors": errors,
     }
 

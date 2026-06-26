@@ -5,6 +5,8 @@ from __future__ import annotations
 
 from datetime import date, datetime, timedelta, timezone
 
+DEFAULT_ADVANCE_HORIZON_DAYS = 14
+
 
 def culture_week_window(run_date: datetime) -> tuple[datetime, datetime]:
     """Wednesday through the following Tuesday of the briefing week (Tuesday run date)."""
@@ -16,6 +18,11 @@ def culture_week_window(run_date: datetime) -> tuple[datetime, datetime]:
 def culture_week_date_bounds(run_date: datetime) -> tuple[date, date]:
     week_start, week_end = culture_week_window(run_date)
     return week_start.date(), week_end.date()
+
+
+def culture_advance_horizon_end(week_end: date, *, horizon_days: int = DEFAULT_ADVANCE_HORIZON_DAYS) -> date:
+    """Last calendar day kept for Advance Radar candidates after the briefing week."""
+    return week_end + timedelta(days=horizon_days)
 
 
 def culture_programme_months(run_dt: datetime) -> list[tuple[int, int]]:

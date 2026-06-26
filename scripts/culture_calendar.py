@@ -439,6 +439,20 @@ FESTIVAL_TITLE_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
     (re.compile(r"kyiv\s+biennial", re.I), "kyiv-biennial"),
     (re.compile(r"projekt\s*raum", re.I), "projekt-raum"),
     (re.compile(r"open\s+studios?", re.I), "open-studios"),
+    (re.compile(r"mash\s+dance", re.I), "mash-dance-berlin-2026"),
+    (re.compile(r"five\s+special\s+nights", re.I), "maria-baptist-five-special-nights"),
+)
+
+_SERIES_TITLE_PREFIX_RE = re.compile(r"^(.+?)\s*[–\-—:]\s*.+", re.UNICODE)
+_SERIES_DAY_EPISODE_RE = re.compile(r"^(.+?)\s*[–\-—]\s*(?:day|tag)\s+\d+", re.I)
+_RESIDENCY_MARKERS_RE = re.compile(
+    r"\b(festival|biennial|special\s+nights|residency|art\s+week|open\s+studios?)\b",
+    re.I,
+)
+
+_ROOM_FRAGMENT_RE = re.compile(
+    r"\b(saal|room|studio|space|hall|garage|café|cafe|floor|level)\b",
+    re.I,
 )
 
 UMBRELLA_TITLE_RE = re.compile(
@@ -455,18 +469,40 @@ def normalize_text_key(text: str) -> str:
     return t
 
 
+def _is_room_fragment(text: str) -> bool:
+    t = normalize_text_key(text)
+    if _ROOM_FRAGMENT_RE.search(t):
+        return True
+    return bool(re.match(r"^(saal|room|studio|space)\s+\d+$", t))
+
+
 def normalize_venue_key(venue: str) -> str:
     raw = (venue or "").strip()
     if "," in raw:
-        parts = [normalize_text_key(p) for p in raw.split(",") if p.strip()]
-        if parts:
-            # "Hochzeitssaal, Sophiensæle" → parent institution
-            return parts[-1]
+        parts = [p.strip() for p in raw.split(",") if p.strip()]
+        if len(parts) >= 2:
+            first_key = normalize_text_key(parts[0])
+            last_key = normalize_text_key(parts[-1])
+            first_room = _is_room_fragment(parts[0])
+            last_room = _is_room_fragment(parts[-1])
+            # "DOCK11, Saal 4" → DOCK11; "Hochzeitssaal, Sophiensæle" → Sophiensæle
+            if last_room and not first_room:
+                return first_key
+            if first_room and not last_room:
+                return last_key
+            return last_key
     v = normalize_text_key(raw)
     for sep in (" — ", " - "):
         if sep in v:
             v = v.split(sep, 1)[0].strip()
     return v
+
+
+def normalize_official_url(url: str) -> str:
+    parsed = urlparse((url or "").strip())
+    path = parsed.path.rstrip("/").lower()
+    host = parsed.netloc.lower().removeprefix("www.")
+    return f"{host}{path}"
 
 
 def normalize_event_key(item: dict) -> str:
@@ -478,6 +514,25 @@ def normalize_event_key(item: dict) -> str:
 def slugify_series_id(text: str) -> str:
     slug = _SERIES_SLUG_RE.sub("-", normalize_text_key(text)).strip("-")
     return slug[:80]
+
+
+def _series_id_from_title_prefix(title: str) -> str:
+    day_match = _SERIES_DAY_EPISODE_RE.match(title or "")
+    if day_match:
+        return slugify_series_id(day_match.group(1))
+
+    prefix_match = _SERIES_TITLE_PREFIX_RE.match(title or "")
+    if not prefix_match:
+        return ""
+
+    prefix = prefix_match.group(1).strip()
+    if _RESIDENCY_MARKERS_RE.search(prefix) or _RESIDENCY_MARKERS_RE.search(title):
+        return slugify_series_id(prefix)
+
+    if re.search(r"\b(berlin|202[0-9])\b", prefix, re.I) and len(prefix) >= 10:
+        return slugify_series_id(prefix)
+
+    return ""
 
 
 def infer_series_id(item: dict) -> str:
@@ -494,6 +549,10 @@ def infer_series_id(item: dict) -> str:
     for pattern, series in FESTIVAL_TITLE_PATTERNS:
         if pattern.search(title):
             return series
+
+    prefix_series = _series_id_from_title_prefix(title)
+    if prefix_series:
+        return prefix_series
 
     event_kind = (item.get("event_kind") or "").strip().lower()
     if event_kind == "festival_overview" or UMBRELLA_TITLE_RE.search(title):

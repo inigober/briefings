@@ -8,16 +8,23 @@
   "status": "success",
   "briefing_path": "briefings/berlin-culture/2026-06-23.md",
   "inbox_path": "inbox/berlin-culture/2026-06-23-synthesis.json",
-  "items_count": 16,
+  "items_count": 10,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 4,
+    "exhibitions": 2,
     "film": 3,
-    "performing_arts": 2,
-    "music": 3,
+    "performing_arts": 0,
+    "music": 1,
     "wildcards": 1,
     "advance_radar": 0
   },
+  "thin_sections": ["exhibitions", "music"],
+  "omitted_sections": ["performing_arts"],
+  "validation_warnings": [
+    "Section 'exhibitions' has 2 entries (style minimum 4)",
+    "Section 'performing_arts' has 0 entries (style minimum 2)",
+    "Section 'music' has 1 entries (style minimum 3)"
+  ],
   "verification_fetches": 6,
-  "notes": "Dropped Holly Herndon Starmirror (KW exhibition URL 404, not listed on events page). Dropped Kyiv Biennial, Schwules Museum shows, Polish Art Week (anti-repetition). Spot-checked Resurrection, Donkey Days, Cruising the Countryside; Starmirror failed. Trusted verified inbox items for Mash Dance, Maria Baptist Day 2, Haus am Waldsee anniversary cycle."
+  "notes": "Regenerated slim inbox with press exclusion, series/URL dedup, and venue-key fix. Briefing deduplicated: Mash Dance and Maria Baptist residency as single entries; Haus am Waldsee indoor shows merged; Ayumi Paul Top Pick only. Performing Arts omitted (Mash Dance in Top Picks). Dropped Kyiv Biennial (anti-repetition)."
 }

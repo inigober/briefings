@@ -61,6 +61,14 @@ class TestValidateCultureBriefing(unittest.TestCase):
         errors, _warnings = validate_briefing(text)
         self.assertEqual(errors, [])
 
+    def test_june_23_briefing_has_no_duplicate_errors(self) -> None:
+        path = REPO_ROOT / "briefings/berlin-culture/2026-06-23.md"
+        if not path.is_file():
+            self.skipTest("briefing not present")
+        text = path.read_text(encoding="utf-8")
+        errors, _warnings = validate_briefing(text)
+        self.assertEqual(errors, [])
+
     def test_clean_briefing_passes(self) -> None:
         text = """# Berlin Culture Briefing — Week of June 1–7, 2026
 

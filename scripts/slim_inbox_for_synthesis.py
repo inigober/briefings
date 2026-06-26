@@ -22,12 +22,14 @@ import yaml
 from briefing_paths import load_briefing_type
 from culture_calendar import (
     enrich_culture_metadata,
+    is_press_item,
     is_publisher_venue_item,
     normalize_event_key,
+    normalize_official_url,
     normalize_venue_key,
 )
 from culture_dates import culture_week_date_bounds, normalize_tuesday_run_date
-from culture_schedule import filter_items_to_briefing_window
+from culture_schedule import filter_programme_items_by_timing
 from news_relevance import (
     item_theme_keys,
     load_dedup_entries,
@@ -481,10 +483,13 @@ def pick_top_news(
     return picked, rejections
 
 
-def culture_item_eligible(item: dict) -> bool:
-    """Drop candidates whose official_url failed HTTP verification."""
+def culture_item_eligible(item: dict, *, sources_cfg: dict | None = None) -> bool:
+    """Drop dead URLs and editorial press items (not venue programme)."""
     if item.get("url_live") is False:
         return False
+    if sources_cfg:
+        if is_press_item(item, sources_cfg) or is_publisher_venue_item(item, sources_cfg):
+            return False
     return True
 
 
@@ -494,6 +499,7 @@ class CulturePickState:
     def __init__(self) -> None:
         self.used_event_keys: set[str] = set()
         self.used_series_ids: set[str] = set()
+        self.used_urls: set[str] = set()
         self.venue_counts: dict[str, int] = {}
         self.rejected: list[dict] = []
 
@@ -505,6 +511,10 @@ class CulturePickState:
         series_id = (item.get("series_id") or "").strip()
         if series_id and series_id in self.used_series_ids:
             return f"series_cap:{series_id}"
+
+        url = normalize_official_url(item.get("official_url") or "")
+        if url and url in self.used_urls:
+            return "duplicate_url"
 
         venue_key = normalize_venue_key(item.get("venue") or "")
         if venue_key and self.venue_counts.get(venue_key, 0) >= CULTURE_MAX_PER_VENUE:
@@ -518,6 +528,9 @@ class CulturePickState:
         series_id = (item.get("series_id") or "").strip()
         if series_id:
             self.used_series_ids.add(series_id)
+        url = normalize_official_url(item.get("official_url") or "")
+        if url:
+            self.used_urls.add(url)
         venue_key = normalize_venue_key(item.get("venue") or "")
         if venue_key:
             self.venue_counts[venue_key] = self.venue_counts.get(venue_key, 0) + 1
@@ -532,7 +545,7 @@ def pick_top_culture(
     pick_state: CulturePickState | None = None,
     section_id: str = "",
 ) -> list[dict]:
-    eligible = [i for i in items if culture_item_eligible(i)]
+    eligible = [i for i in items if culture_item_eligible(i, sources_cfg=sources_cfg)]
     ranked = sorted(
         eligible,
         key=lambda i: score_culture_item(i, priority_venues, sources_cfg),
@@ -723,14 +736,19 @@ def build_culture_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: d
         try:
             _, run_dt = normalize_tuesday_run_date(str(run_date_str)[:10])
             week_start, week_end = culture_week_date_bounds(run_dt)
-            items, dropped = filter_items_to_briefing_window(
+            horizon_days = int(sources_cfg.get("advance_horizon_days") or 14)
+            items, dropped, advance_routed = filter_programme_items_by_timing(
                 items,
                 week_start,
                 week_end,
-                ingestion_sources={"silent_green_html", "index_berlin_ics"},
+                horizon_days=horizon_days,
             )
-            if dropped:
-                raw = {**raw, "window_filtered_count": dropped}
+            if dropped or advance_routed:
+                raw = {
+                    **raw,
+                    "window_filtered_count": dropped,
+                    "window_advance_routed": advance_routed,
+                }
         except ValueError:
             pass
 

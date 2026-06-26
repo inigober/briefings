@@ -7,7 +7,6 @@ import argparse
 import re
 import sys
 from pathlib import Path
-from urllib.parse import urlparse
 
 _SCRIPTS_DIR = Path(__file__).resolve().parent
 if str(_SCRIPTS_DIR) not in sys.path:
@@ -17,6 +16,7 @@ from culture_calendar import (  # noqa: E402
     UMBRELLA_TITLE_RE,
     infer_series_id,
     normalize_event_key,
+    normalize_official_url,
     normalize_text_key,
     normalize_venue_key,
 )
@@ -47,10 +47,7 @@ SECTION_MINIMUMS = {
 
 
 def normalize_url(url: str) -> str:
-    parsed = urlparse((url or "").strip())
-    path = parsed.path.rstrip("/").lower()
-    host = parsed.netloc.lower().removeprefix("www.")
-    return f"{host}{path}"
+    return normalize_official_url(url)
 
 
 def parse_entries(text: str) -> list[dict]:
