@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-06-25",
-  "briefing_date": "2026-06-25",
-  "inbox_date": "2026-06-25",
+  "date": "2026-06-26",
+  "briefing_date": "2026-06-26",
+  "inbox_date": "2026-06-26",
   "status": "success",
-  "briefing_path": "briefings/news/2026-06-25.md",
-  "inbox_path": "inbox/news/2026-06-25-synthesis.json",
+  "briefing_path": "briefings/news/2026-06-26.md",
+  "inbox_path": "inbox/news/2026-06-26-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "La causa contra Zapatero cuestiona sus negocios privados en el extranjero", "section": "spain", "reason": "recent_topics: Zapatero/Plus Ultra saga covered 2026-06-17–18; foreign-business expansion not distinct enough from ongoing probe"},
-    {"headline": "Alberto Núñez Feijóo, contrabandista de cadáveres", "section": "spain", "reason": "one_theme: post-Ábalos political rhetoric duplicate of corruption-politics angle"},
-    {"headline": "Almeida recoloca en un día y con sueldo récord a la pareja del consejero de Ayuso", "section": "spain", "reason": "one_theme: Madrid PP patronage; festival and Almería picks retained for diversity"},
-    {"headline": "Morning Briefing: Das Palla-Missverständnis bei der Deutschen Bahn", "section": "germany", "reason": "recent_topics: berlin-db-radio-disruption-nationwide covered 2026-06-24"},
-    {"headline": "KI-Konzern: Anthropic wirft chinesischem Konzern Kopier-Attacke vor", "section": "germany", "reason": "one_theme: Anthropic–Alibaba story elevated in World via Nikkei"},
-    {"headline": "Der vergessene Helfer im Schrank: So schlafen Sie trotz Hitzewelle", "section": "berlin", "reason": "avoid_unless_material: heatwave adaptation"},
-    {"headline": "Bundesweiter Ausfall bei der Deutschen Bahn: Verkehr läuft langsam wieder an", "section": "berlin", "reason": "recent_topics: DB nationwide radio failure covered 2026-06-24"},
-    {"headline": "Ukraine trifft Russlands größten Satelliten-Teleport", "section": "berlin", "reason": "geographic_misfit: Ukraine war story belongs in World/Germany"},
+    {"headline": "Rodolfo Reyes, sobre el rescate de Plus Ultra", "section": "spain", "reason": "recent_topics: Zapatero/Plus Ultra saga covered 2026-06-17–18; theme_cap at slim time"},
+    {"headline": "Un juzgado de Marbella cita a la alcaldesa para hacer inventario de la herencia", "section": "spain", "reason": "rank_below_cap: stronger foreign-policy and tech picks retained"},
+    {"headline": "Las empresas españolas en Venezuela confían en que el impacto sea moderado", "section": "spain", "reason": "one_theme: Venezuela earthquake thread covered 2026-06-25 World"},
+    {"headline": "Konflikt im Libanon: Libanon und Israel verhandeln weiter", "section": "germany", "reason": "geographic_misfit: Middle East diplomacy belongs in World/Other Headlines"},
+    {"headline": "Schwere Erdbeben in Venezuela: Zahl der Toten steigt auf 235", "section": "germany", "reason": "recent_topics: world-venezuela-twin-earthquakes-caracas covered 2026-06-25"},
+    {"headline": "Bad Langensalza: Bürger in Angst – Bedroht Messer-Gewalt nun auch friedliche Kurstädte?", "section": "berlin", "reason": "geographic_misfit: Thuringia town, not Berlin city governance"},
+    {"headline": "Europa wird zum Hitze-Hotspot", "section": "berlin", "reason": "avoid_unless_material: heatwave adaptation; continent-wide analysis not Berlin-local"},
     {"headline": "Play puts spotlight on Kenya's crisis of gender-based violence", "section": "selected_reads", "reason": "repeat: same URL used 2026-06-24 Selected Reads"},
-    {"headline": "France Identifies Its First Case of Ebola", "section": "world", "reason": "rank_below_cap: stronger AI/Venezuela/Micron picks; Ebola noted in Other Headlines"},
-    {"headline": "Brazilian federal police arrest Spanish citizen at São Paulo airport for racism", "section": "world", "reason": "rank_below_cap: Latin America angle noted in Other Headlines"},
-    {"headline": "Milei sueña con convertir a Argentina en un laboratorio sin control para la IA", "section": "world", "reason": "geographic_misfit: Argentina AI deregulation noted in Other Headlines"}
+    {"headline": "UK prioritised ties with UAE over averting mass atrocities in Sudan", "section": "selected_reads", "reason": "repeat: same URL used 2026-06-25 Selected Reads"},
+    {"headline": "How Rheinmetall gambled on Germany's doomed warship project", "section": "world", "reason": "geographic_misfit: German defence-industry story; stronger Africa/Asia/US picks"},
+    {"headline": "Kevin Warsh eases investors' doubts that he will be an inflation fighter", "section": "world", "reason": "rank_below_cap: constitutional AI governance and South Asia infrastructure preferred"},
+    {"headline": "Bundesweiter Ausfall bei der Deutschen Bahn", "section": "berlin", "reason": "recent_topics: berlin-db-radio-disruption-nationwide covered 2026-06-24"}
   ],
-  "notes": "Synthesis from 2026-06-25 pre-fetch; Almería PP mordidas parade, Canal Sur forged equality plan, PP festival challenge, Bundeswehr 530 volunteers, Merz Länder finance summit, Merz Danzig Ukraine rebuild, Berlin datenschutz pannen, ICC financing gap, Brandenburg rail glosse, Anthropic–Alibaba distillation, Venezuela twin quakes, Micron AI memory surge."
+  "notes": "Synthesis from 2026-06-26 pre-fetch; Miriam González Democracia 21, Felipe–Sheinbaum Mexico reset, MANGOS AI kill-switch, DGB pension counter-plan, Hamburg Iran espionage trial, Merz anti-AfD reform wager, Philharmoniker heat dress code, Brandenburg Olympia survey, A2 heat closure, Zimbabwe term extension, Trump OpenAI staggered release, Bangladesh–China infrastructure."
 }

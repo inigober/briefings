@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-26
+
+- [The Geopolitics of SpaceX and Elon Musk](https://foreignpolicy.com/2026/06/25/spacex-elon-musk-geopolitics-ai-x-quinn-slobodian/) — Foreign Policy
+- [SoftBank shares slipped over 12% on concerns of OpenAI IPO delay](https://asia.nikkei.com/business/markets/softbank-shares-slipped-over-12-on-concerns-of-openai-ipo-delay) — Nikkei Asia
+- [Attack in Strait of Hormuz halts evacuation plan for stranded ships](https://www.ft.com/content/5abcb3c1-8ce8-470f-8a37-f47af58b2f7c) — Financial Times
+- [How the DeepMind mafia brought the AI boom to London](https://www.ft.com/content/6a3a46b9-4725-469e-a909-917768a74afb) — Financial Times
+
 ## 2026-06-25
 
 - [Insurers slash war premiums for Strait of Hormuz ships](https://www.ft.com/content/b62d823c-865b-4fa6-a492-1cd65d3400cb) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Chinese appliance brands gain ground in Southeast Asia](https://asia.nikkei.com/business/electronics/chinese-appliance-brands-gain-ground-in-southeast-asia) — Nikkei Asia
 - [I'd Rather Risk Cancer Than See AI Move This Fast](https://www.theatlantic.com/technology/2026/06/ai-cancer-progress/687654/?utm_source=feed) — The Atlantic
 - [Canada's policies force asylum seekers into US to face deportation, critics say](https://www.theguardian.com/world/2026/jun/21/canada-immigration-us-deportation) — The Guardian
-
-## 2026-06-21
-
-- [Putin's war machine sputters in drone age](https://www.ft.com/content/b409d72f-ccff-4952-8b71-dfd62d75a1cd) — Financial Times
-- [SpaceX handed lowest possible ESG rating by MSCI](https://www.ft.com/content/a0dd4ea7-ef3d-4460-a96c-8c6975a053e3) — Financial Times
-- [New museum brings Thai artist Tang Chang back into focus](https://asia.nikkei.com/life-arts/arts/new-museum-brings-thai-artist-tang-chang-back-into-focus) — Nikkei Asia
-- [Pauline Hanson's stance on paid parental leave and childcare could turn clock back by decades, economists warn](https://www.theguardian.com/australia-news/2026/jun/21/pauline-hanson-women-working-mothers-paid-parental-leave-childcare-income-gender-gap-economy-one-nation-ntwnfb) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-26
+
+- **spain-miriam-gonzalez-democracia-21-registration** — España Mejor founder registers Democracia 21 party ahead of possible general-election bid (section: spain)
+- **spain-felipe-sheinbaum-mexico-normalization** — King Felipe VI and President Sheinbaum reset Spain–Mexico ties after seven-year Catalan-letter freeze (section: spain)
+- **spain-mangos-tech-ai-kill-switch** — elDiario profiles MANGOS hyperscalers and US export-control kill switches over European critical systems (section: spain)
+- **germany-dgb-alternative-pension-plan** — DGB commission proposes higher pensions without longer work as counter to government reform (section: germany)
+- **germany-hamburg-iran-espionage-trial** — Hamburg court opens trial over alleged Iranian spying on Jewish community leaders (section: germany)
+- **germany-merz-reforms-afd-strategy** — Handelsblatt analysis: Merz bets painful social reforms can shrink AfD appeal (section: germany)
+- **berlin-philharmoniker-heat-dress-code** — Berliner Philharmoniker relax formal dress rules for heat-struck Waldbühne concert (section: berlin)
+- **berlin-brandenburg-olympia-2036-survey** — Forsa poll finds 51% in Brandenburg back four-state 2036 Olympics bid led by Berlin (section: berlin)
+- **berlin-a2-heat-autobahn-closure** — Extreme heat damages A2 near Berlin, closing Ziesar–Wollin stretch (section: berlin)
+- **world-zimbabwe-constitutional-term-extension** — Senate approves amendments extending presidential terms; opposition calls constitutional coup (section: world)
+- **world-trump-openai-gpt-staggered-release** — US agencies ask OpenAI to limit GPT-5.6 rollout for user vetting (section: world)
+- **world-bangladesh-china-infrastructure-push** — Dhaka deepens Beijing investment talks for ports and power amid Gulf energy risks (section: world)
+
 ## 2026-06-25
 
 - **spain-almeria-pp-mordidas-parade** — Ex-Diputación chief and Tíjola mayor close PP Almería judicial parade over mask and works kickbacks (section: spain)
@@ -200,21 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-canada-toronto-officer-terror** — Toronto constable killed during consulate-linked warrants; global terror probe (section: world)
 - **world-thailand-princess-funeral** — Bangkok mourns Princess Bajrakitiyabha funeral procession (section: world)
 - **world-canada-openai-suicide-lawsuit** — Canadian mother sues OpenAI over daughter's suicide (section: world)
-
-## 2026-06-12
-
-- **spain-zapatero-jewels-valuation** — Court-ordered appraisal values seized jewellery at €1.3M; tax-fraud threshold implications (section: spain)
-- **spain-psoe-voter-corruption-polling** — CIS/40dB polling shows corruption concern tripling among PSOE voters (section: spain)
-- **spain-renewable-surplus-negative-prices** — Wind/solar glut produces negative electricity prices; grid interconnection bottleneck (section: spain)
-- **germany-healthcare-staff-vacancies** — Hospital Federation reports record nurse and care-worker vacancy rates (section: germany)
-- **germany-hydrogen-subsidy-scramble** — Hydrogen project applications outpace federal funding envelope (section: germany)
-- **germany-ifo-business-climate-june** — ifo index rises second month; automotive suppliers and machinery show recovery signs (section: germany)
-- **berlin-charite-nurse-strike** — Charité nursing staff announce 48-hour warning strike over pay and conditions (section: berlin)
-- **berlin-s-bahn-engineering-disruption** — S3/S5/S7 engineering works cause major east Berlin delays (section: berlin)
-- **berlin-spree-pollution-investigation** — Elevated contaminant levels trigger environmental probe near central Berlin (section: berlin)
-- **world-thailand-princess-death** — Princess Bajrakitiyabha dies after years in coma; succession symbolism (section: world)
-- **world-china-spacesail-starlink-rival** — Chinese Spacesail constellation competes with SpaceX ahead of IPO (section: world)
-- **world-kenya-ebola-facility-protest** — Police kill protester opposing proposed US Ebola quarantine site in Nanyuki (section: world)
 
 ## Saturated topics — do not return without material development
 
