@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-27
+
+- **spain-valencia-dana-camarero-whatsapp-reticence** — Valencia vice-president nearly withheld Dana-day WhatsApp messages from investigating judge (section: spain)
+- **spain-housing-tax-public-spend-fiscal-gap** — OCDE data show Spain collects €52bn in housing taxes but spends €7bn on public housing (section: spain)
+- **spain-digital-forensics-expurgo-legal-gap** — Legal vacuum on cloned devices exposes private messages without wiretap-style expurgo rules (section: spain)
+- **germany-cement-consumption-wwii-low** — Industry association reports cement use at lowest level since Second World War (section: germany)
+- **germany-vw-china-models-germany-production** — Lower Saxony premier Olaf Lies urges VW to build Chinese-designed models in Germany (section: germany)
+- **germany-rente-mit-63-abolition-fight** — Pensions commission and coalition split over ending penalty-free early retirement at 63 (section: germany)
+- **berlin-zehlendorf-explosive-device-workshop** — Improvised explosive thrown onto car-repair yard in Berlin-Zehlendorf (section: berlin)
+- **berlin-hertha-cuisance-lens-transfer** — Hertha BSC sells Michaël Cuisance to RC Lens amid squad overhaul (section: berlin)
+- **berlin-brandenburg-kommunen-federal-cost-deal** — Brandenburg municipalities sceptical of Bund–Länder 80% cost-reimbursement pact (section: berlin)
+- **world-drc-ebola-missing-patients** — Africa CDC warns nearly 300 Ebola-positive people untraceable in eastern DR Congo (section: world)
+- **world-honda-ai-datacenter-batteries-us** — Honda repurposes Ohio battery plant for AI data-centre storage after EV pivot (section: world)
+- **world-lebanon-israel-framework-agreement** — Lebanon and Israel sign US-brokered framework in Washington without Hizbullah (section: world)
+
 ## 2026-06-26
 
 - **spain-miriam-gonzalez-democracia-21-registration** — España Mejor founder registers Democracia 21 party ahead of possible general-election bid (section: spain)
@@ -200,21 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-china-min-zin-arrest** — Beijing detains US scholar Min Zin on espionage allegations (section: world)
 - **world-sierra-leone-first-lady-social-housing** — London council repossesses flat rented by Sierra Leone first lady (section: world)
 - **world-spacex-ipo-gulf-ai-capital** — Gulf sovereign wealth funding US AI via SpaceX listing narrative (section: world)
-
-## 2026-06-13
-
-- **spain-anthropic-export-model-lockout** — Anthropic blocks advanced Claude for foreign users after US export curbs (section: spain)
-- **spain-podemos-belarra-madrid** — Ione Belarra to lead Podemos Madrid regional list (section: spain)
-- **spain-zapatero-fiscal-investigation** — Zapatero tax probe over jewels limits regularisation path (section: spain)
-- **germany-berlin-hamburg-ice-reopening** — Berlin–Hamburg high-speed line reopens after troubled upgrade (section: germany)
-- **germany-northern-ireland-anti-racism-marches** — Large Belfast counter-demonstrations against racist unrest (section: germany)
-- **germany-leimbach-house-fire** — Twin house fire kills family in Rhineland-Palatinate (section: germany)
-- **berlin-tu-third-building-closure** — TU Berlin closes third building over fire-safety defects (section: berlin)
-- **berlin-db-megaproject-accountability** — Berlin politicians demand honest DB mega-project accounting (section: berlin)
-- **berlin-bellevue-freiraum-kunst** — Schloss Bellevue opens as temporary art venue before renovation (section: berlin)
-- **world-canada-toronto-officer-terror** — Toronto constable killed during consulate-linked warrants; global terror probe (section: world)
-- **world-thailand-princess-funeral** — Bangkok mourns Princess Bajrakitiyabha funeral procession (section: world)
-- **world-canada-openai-suicide-lawsuit** — Canadian mother sues OpenAI over daughter's suicide (section: world)
 
 ## Saturated topics — do not return without material development
 

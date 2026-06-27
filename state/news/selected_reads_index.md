@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-27
+
+- [Britain's next leader faces a big call on North Sea drilling. Donald Trump is watching.](https://www.politico.eu/article/andy-burnham-donald-trump-labour-climate-north-sea-drilling/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- ['Tit-for-tat' trade warfare threatens global economy, says IMF chief economist](https://www.ft.com/content/8199cd6d-e513-4c9a-9beb-8a7acd2b65dc) — Financial Times
+- [Europe's Come-to-AC Moment](https://www.theatlantic.com/health/2026/06/europe-air-conditioning/687711/?utm_source=feed) — The Atlantic
+- ['Chock full of incredible animals': marine expedition uncovers 31 new species in two weeks](https://www.theguardian.com/environment/2026/jun/26/marine-expedition-uncovers-31-new-species-two-weeks-brazil) — The Guardian
+
 ## 2026-06-26
 
 - [The Geopolitics of SpaceX and Elon Musk](https://foreignpolicy.com/2026/06/25/spacex-elon-musk-geopolitics-ai-x-quinn-slobodian/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Private bank LGT sees AI and inflation as Japan tailwinds](https://asia.nikkei.com/editor-s-picks/interview/private-bank-lgt-sees-ai-and-inflation-as-japan-tailwinds) — Nikkei Asia
 - [Cities must set the terms for the AI infrastructure boom](https://www.politico.eu/sponsored-content/cities-must-set-the-terms-for-the-ai-infrastructure-boom/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [OpenAI pitches ChatGPT ads to Cannes marketers ahead of IPO](https://www.ft.com/content/9717a042-fd09-4d08-972d-29b68f7985a4) — Financial Times
-
-## 2026-06-22
-
-- [Starmer on brink of quitting as UK prime minister](https://www.ft.com/content/ed96e673-8d46-4dec-aebc-d69863b9e801) — Financial Times
-- [Chinese appliance brands gain ground in Southeast Asia](https://asia.nikkei.com/business/electronics/chinese-appliance-brands-gain-ground-in-southeast-asia) — Nikkei Asia
-- [I'd Rather Risk Cancer Than See AI Move This Fast](https://www.theatlantic.com/technology/2026/06/ai-cancer-progress/687654/?utm_source=feed) — The Atlantic
-- [Canada's policies force asylum seekers into US to face deportation, critics say](https://www.theguardian.com/world/2026/jun/21/canada-immigration-us-deportation) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
