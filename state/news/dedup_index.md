@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-28
+
+- **spain-psoe-page-federal-committee-election-call** — Castilla-La Mancha premier Page demands early elections at PSOE Federal Committee; Sánchez vows to fight on (section: spain)
+- **spain-feijoo-catalonia-electoral-key** — Feijóo tells Catalan PP to deliver historic result as key to ousting Sánchez (section: spain)
+- **spain-sumar-lara-hernandez-leadership-challenge** — Sumar critics unite behind rival list to replace leader Lara Hernández (section: spain)
+- **germany-tankrabatt-expiry-july** — €1.6bn petrol-tax rebate ends Tuesday as drivers face last fill-up decisions (section: germany)
+- **germany-branded-coffee-price-cuts** — Retailers cut branded coffee prices after years of post-shock increases (section: germany)
+- **germany-children-myopia-plateau** — German childhood short-sightedness prevalence stabilises despite global screen-time surge (section: germany)
+- **berlin-temperature-records-40c** — Berlin hits 39.9°C and Brandenburg sets state record at 40.8°C (section: berlin)
+- **berlin-trans-nonbinary-street-assault** — Men attack trans woman and non-binary person in Berlin hate-motivated assault (section: berlin)
+- **berlin-heatwave-swimming-warnings** — Authorities caution bathers as heat drives crowds to lakes with mixed water quality (section: berlin)
+- **world-venezuela-quake-death-toll-920** — Venezuela earthquake death toll nears 920 as rescue frustration mounts (section: world)
+- **world-sri-lanka-dengue-military-drones** — Sri Lanka deploys military drones against dengue surge amid Iran-war fuel strain (section: world)
+- **world-google-caps-meta-gemini-access** — Google limits Meta's Gemini use as AI compute scarcity bites (section: world)
+
 ## 2026-06-27
 
 - **spain-valencia-dana-camarero-whatsapp-reticence** — Valencia vice-president nearly withheld Dana-day WhatsApp messages from investigating judge (section: spain)
@@ -200,21 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-philippines-earthquake-coastal-uplift** — Mindanao quake raised seabed up to 2m, devastating coral and coastlines (section: world)
 - **world-jamaica-beach-privatization-court** — Activists sue to stop further Jamaican beach privatisation (section: world)
 - **world-global-education-attacks-40pct** — GCPEA study finds attacks on schools rose 40% across 83 countries (section: world)
-
-## 2026-06-14
-
-- **spain-defense-post-conscription** — Spain debates army model 25 years after mandatory military service ended (section: spain)
-- **spain-selectividad-perfecta-10-years** — Top 2016 entrance-exam graduates revisit career paths a decade on (section: spain)
-- **spain-zapatero-plus-ultra-phone-evidence-chain** — Five-year US-to-Spain timeline for Reyes phone data in Zapatero probe (section: spain)
-- **germany-uk-shadow-fleet-tanker-intercept** — Royal Navy stops Russian oil tanker in English Channel (section: germany)
-- **germany-swiss-population-cap-referendum** — Switzerland votes on ten-million resident ceiling (section: germany)
-- **germany-swiss-emigrant-returns** — Germans returning from Switzerland cite cost and social isolation (section: germany)
-- **berlin-dementia-tierpark-outing** — Structured zoo visits trigger memories for dementia patients (section: berlin)
-- **berlin-freddy-leck-waschsalon-fire** — Cult Moabit laundromat damaged by fire; operators pledge rebuild (section: berlin)
-- **berlin-phone-booth-depot-closure** — Michendorf telephone-box refurbishment yard shutting (section: berlin)
-- **world-china-min-zin-arrest** — Beijing detains US scholar Min Zin on espionage allegations (section: world)
-- **world-sierra-leone-first-lady-social-housing** — London council repossesses flat rented by Sierra Leone first lady (section: world)
-- **world-spacex-ipo-gulf-ai-capital** — Gulf sovereign wealth funding US AI via SpaceX listing narrative (section: world)
 
 ## Saturated topics — do not return without material development
 

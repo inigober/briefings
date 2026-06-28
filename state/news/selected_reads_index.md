@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-28
+
+- [Mines will hold back Strait of Hormuz shipping for months, CEO warns](https://www.ft.com/content/a0739198-318c-4ae8-9953-ba88201edc45) — Financial Times
+- [Sen. Armstrong: Permitting Is Key to Lower Energy Costs](https://www.bloomberg.com/news/videos/2026-06-27/sen-armstrong-permitting-is-key-to-lower-energy-costs-video) — Bloomberg
+- [Mitsubishi Heavy to invest over $618m in Japan, US gas turbine operations](https://asia.nikkei.com/business/energy/mitsubishi-heavy-to-invest-over-618m-in-japan-us-gas-turbine-operations) — Nikkei Asia
+- [Kathmandu's cocktail scene finds its own flavor](https://asia.nikkei.com/life-arts/life/eat-drink/kathmandu-s-cocktail-scene-finds-its-own-flavor) — Nikkei Asia
+
 ## 2026-06-27
 
 - [Britain's next leader faces a big call on North Sea drilling. Donald Trump is watching.](https://www.politico.eu/article/andy-burnham-donald-trump-labour-climate-north-sea-drilling/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [America Desperately Needs More Sterile Screwworms](https://www.theatlantic.com/science/2026/06/screwworm-problem-worse/687668/?utm_source=feed) — The Atlantic
 - [Heatwave shows we are marinating in a crisis of our own making](https://www.ft.com/content/f059869e-294b-42b7-bf38-fe55b46ad812) — Financial Times
 - [Play puts spotlight on Kenya's crisis of gender-based violence](https://www.theguardian.com/world/2026/jun/24/kenya-play-free-me-gender-based-violence) — The Guardian
-
-## 2026-06-23
-
-- [Citadel: the hedge fund that became an energy giant](https://www.ft.com/content/3d0842dd-a8f4-435d-b888-5587b4b9eeda) — Financial Times
-- [Private bank LGT sees AI and inflation as Japan tailwinds](https://asia.nikkei.com/editor-s-picks/interview/private-bank-lgt-sees-ai-and-inflation-as-japan-tailwinds) — Nikkei Asia
-- [Cities must set the terms for the AI infrastructure boom](https://www.politico.eu/sponsored-content/cities-must-set-the-terms-for-the-ai-infrastructure-boom/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [OpenAI pitches ChatGPT ads to Cannes marketers ahead of IPO](https://www.ft.com/content/9717a042-fd09-4d08-972d-29b68f7985a4) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

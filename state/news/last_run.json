@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-06-27",
-  "briefing_date": "2026-06-27",
-  "inbox_date": "2026-06-27",
+  "date": "2026-06-28",
+  "briefing_date": "2026-06-28",
+  "inbox_date": "2026-06-28",
   "status": "success",
-  "briefing_path": "briefings/news/2026-06-27.md",
-  "inbox_path": "inbox/news/2026-06-27-synthesis.json",
+  "briefing_path": "briefings/news/2026-06-28.md",
+  "inbox_path": "inbox/news/2026-06-28-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Sánchez busca el cierre de filas del PSOE ante el nuevo ciclo electoral", "section": "spain", "reason": "avoid_unless_material: PSOE scandals; no resignation or legislation passed"},
-    {"headline": "Las imágenes por satélite muestran el antes y el después del terremoto en Venezuela", "section": "spain", "reason": "recent_topics: world-venezuela-twin-earthquakes-caracas; theme duplicate"},
-    {"headline": "EEUU bombardea Irán en represalia por el ataque a un buque en el estrecho de Ormuz", "section": "spain", "reason": "geographic_misfit: Middle East security belongs in World/Other Headlines"},
-    {"headline": "Europa wird zum Hitze-Hotspot", "section": "berlin", "reason": "geographic_misfit + avoid_unless_material: continent-wide heat analysis, not Berlin-local governance"},
-    {"headline": "Bad Langensalza: Bürger in Angst – Bedroht Messer-Gewalt nun auch friedliche Kurstädte?", "section": "berlin", "reason": "geographic_misfit: Thuringia town, not Berlin city proper"},
-    {"headline": "A2 wegen Hitzeschäden gesperrt - Reparatur dauert noch ganzes Wochenende", "section": "berlin", "reason": "recent_topics: berlin-a2-heat-autobahn-closure covered 2026-06-26"},
-    {"headline": "España aguanta la descarga pendenciera de Uruguay", "section": "spain", "reason": "incremental: World Cup group-stage follow-up after spain-world-cup-saudi-victory 2026-06-22"},
-    {"headline": "„Unsere ganz frühen Prognosen treten ziemlich genau ein“: Klimaforscher Stefan Rahmstorf im Interview", "section": "germany", "reason": "avoid_unless_material: heatwave adaptation; germany-heat-days-frequency-data covered 2026-06-21"},
-    {"headline": "Small plane crashes into Beijing's tallest building", "section": "world", "reason": "rank_below_cap: stronger Africa health, US industrial and Middle East diplomacy picks retained"},
-    {"headline": "Venezuela quake death toll reaches 920", "section": "world", "reason": "recent_topics: world-venezuela-twin-earthquakes-caracas; death-toll update noted in Other Headlines"},
+    {"headline": "Pedro Sánchez, ante el Comité Federal del PSOE: \"Limpiaremos lo que haya que limpiar\"", "section": "spain", "reason": "theme_duplicate: same Comité Federal event as Page election-call story; kept stronger audio/leak angle"},
+    {"headline": "La vida privada de Zapatero y qué falla en el sistema judicial", "section": "spain", "reason": "recent_topics: spain-zapatero-plus-ultra and judicial-privacy threads covered 17–18 June"},
+    {"headline": "63.134 euros al año con un cursillo de 150 horas: los sueldos públicos de la pareja de un consejero de Ayuso", "section": "spain", "reason": "demoted to Other Headlines: Madrid patronage thread; three stronger national-party stories retained"},
+    {"headline": "Die Lage im Überblick: USA und Iran liefern sich Angriffe", "section": "germany", "reason": "geographic_misfit: US–Iran escalation belongs in World/Other Headlines"},
+    {"headline": "Kalt duschen verboten?: Unter Europas Hitzeglocke wird Wasser knapper", "section": "germany", "reason": "avoid_unless_material: heatwave adaptation; continent-wide water scarcity not Germany-specific policy change"},
+    {"headline": "Stuttgarter Autobauer: 100 Jahre Marke Mercedes-Benz", "section": "germany", "reason": "demoted to Other Headlines: anniversary feature; consumer-fiscal trio stronger for Germany section"},
+    {"headline": "Gluthitze in Brüssel: Ursula von der Leyen bleibt cool", "section": "berlin", "reason": "geographic_misfit: Brussels EU buildings, not Berlin city governance"},
+    {"headline": "Zwischen Schweiß und Tränen: Bruno Mars im Olympiastadion Berlin", "section": "berlin", "reason": "incremental: heat-concert colour piece after berlin-philharmoniker-heat-dress-code 2026-06-26"},
+    {"headline": "US carries out second day of strikes against Iran", "section": "world", "reason": "theme_duplicate: Middle East escalation captured in Other Headlines; kept Venezuela, Sri Lanka, AI compute"},
+    {"headline": "New Caledonia polls open in first local vote since 2019", "section": "world", "reason": "demoted to Other Headlines: Pacific vote noted thematically; three stronger non-European picks retained"},
     {"headline": "The Geopolitics of SpaceX and Elon Musk", "section": "selected_reads", "reason": "repeat: same URL used 2026-06-26 Selected Reads"},
-    {"headline": "Hitze-Liveticker: A2-Reparatur dauert an", "section": "berlin", "reason": "noise: slim-time demotion; duplicate heat/A2 thread"}
+    {"headline": "Venezuela quake death toll reaches 920 (Guardian)", "section": "selected_reads", "reason": "duplicate: same article URL used in World section today"}
   ],
-  "notes": "Synthesis from 2026-06-27 pre-fetch; Dana Camarero WhatsApp reticence, housing tax vs public spend gap, digital forensics expurgo gap, cement WWII low, VW China models in Germany, Rente mit 63 abolition fight, Zehlendorf explosive device, Hertha Cuisance transfer, Brandenburg kommunen finance scepticism, DRC Ebola missing patients, Honda AI datacenter batteries, Lebanon–Israel framework."
+  "notes": "Synthesis from 2026-06-28 pre-fetch; PSOE Page election call, Feijóo Catalonia key, Sumar leadership challenge, tankrabatt expiry, coffee price cuts, children myopia plateau, Berlin 40°C records, trans assault, swimming warnings, Venezuela 920 dead, Sri Lanka dengue drones, Google caps Meta Gemini."
 }
