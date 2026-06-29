@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-29
+
+- **spain-valencia-metro-pp-bribery-victims** — Cotino allegedly offered public jobs to 2006 metro-crash families to stop legal action ahead of twentieth anniversary (section: spain)
+- **spain-podemos-morocho-kitchen-guerra-sucia** — Podemos asks judge to summon inspector Morocho linking Kitchen trial to PP dirty-war operations (section: spain)
+- **spain-quiron-madrid-lab-workers-dismissal** — Quirón Salud workers protest day-one dismissals after winning Madrid central-lab concession (section: spain)
+- **germany-industrial-jobs-vanishing-inaction** — Handelsblatt warns VW/Mercedes/Bosch job losses outpace federal policy response (section: germany)
+- **germany-employer-training-cost-obligations** — Labour-law column clarifies when firms must fund mandatory worker training (section: germany)
+- **germany-hantavirus-cruise-who-all-clear** — WHO signals German-linked cruise-ship Hantavirus cluster is ending (section: germany)
+- **berlin-karl-marx-strasse-heat-mitigation** — Urban planners propose cooling alternatives where tree planting is impossible on Neukölln corridor (section: berlin)
+- **berlin-union-berlin-lustrinelli-squad-gaps** — Union Berlin faces roster holes as new coach Lustrinelli starts pre-season (section: berlin)
+- **berlin-dogue-pentathlon-world-cup** — Marvin Dogue becomes first German modern pentathlete to win overall World Cup (section: berlin)
+- **world-ai-us-power-ma-200bn** — AI data-centre demand drives record $200bn US utilities M&A wave (section: world)
+- **world-firmus-nvidia-ai-factory-indonesia** — Australia's Firmus announces Nvidia-backed AI campus in Indonesia (section: world)
+- **world-putin-fuel-shortages-refinery-drones** — Putin admits Ukrainian drone strikes on refineries are causing domestic fuel shortages (section: world)
+
 ## 2026-06-28
 
 - **spain-psoe-page-federal-committee-election-call** — Castilla-La Mancha premier Page demands early elections at PSOE Federal Committee; Sánchez vows to fight on (section: spain)
@@ -200,21 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-canada-corporate-human-rights-ombudsperson-scrapped** — Canada abolishes watchdog for human-rights abuses by firms operating abroad (section: world)
 - **world-starbucks-korea-history-lesson-shutdown** — Starbucks Korea closes all stores for mandatory history lesson after promotion backlash (section: world)
 - **world-sri-lanka-cybercrime-hub-relocation** — Sri Lanka emerges as cyber-scam hub as networks flee south-east Asia crackdowns (section: world)
-
-## 2026-06-15
-
-- **spain-immigration-regularization-record-900k** — Regularisation drive reaches 900,000 applications with two weeks left (section: spain)
-- **spain-g7-france-western-unity** — G-7 summit in France tests transatlantic cohesion amid Iran and Ukraine crises (section: spain)
-- **spain-corruption-democratic-consensus** — Opinion argues corruption fight needs bipartisan consensus, not weaponisation (section: spain)
-- **germany-eon-power-grid-protection-limits** — Eon CEO says complete electricity-grid protection is impossible after attacks (section: germany)
-- **germany-iran-deal-economic-relief** — US–Iran framework deal raises hopes for German industry and energy costs (section: germany)
-- **germany-kyiv-lavra-unesco-fire** — Russian strike sets Kyiv cave monastery UNESCO site ablaze (section: germany)
-- **berlin-antisemitism-commissioner-selection** — Antisemitism officer pick for Berlin universities draws criticism over mandate (section: berlin)
-- **berlin-wegner-coalition-unpopular-cdu-leads** — Wegner coalition loses support; CDU leads poll as rivals weaken (section: berlin)
-- **berlin-sportstaetten-portal-rollout** — Senate sports-venue booking portal still unused by most boroughs (section: berlin)
-- **world-philippines-earthquake-coastal-uplift** — Mindanao quake raised seabed up to 2m, devastating coral and coastlines (section: world)
-- **world-jamaica-beach-privatization-court** — Activists sue to stop further Jamaican beach privatisation (section: world)
-- **world-global-education-attacks-40pct** — GCPEA study finds attacks on schools rose 40% across 83 countries (section: world)
 
 ## Saturated topics — do not return without material development
 

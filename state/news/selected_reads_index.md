@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-29
+
+- [The new AI-based world order](https://www.ft.com/content/ce505663-9567-40a1-ab9d-91b6bdb90a17) — Financial Times
+- [How US-Iran conflict devastated infrastructure in the Middle East](https://asia.nikkei.com/spotlight/iran-tensions/iran-war/how-us-iran-conflict-devastated-infrastructure-in-the-middle-east) — Nikkei Asia
+- [Ireland prepares to play dealmaker on EU's biggest climate fight of the year](https://www.politico.eu/article/ireland-prepares-eu-presidency-play-dealmaker-climate-change-fight-of-the-year/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Why the EEAS is fighting for its future](https://www.politico.eu/article/european-external-action-service-eeas-fight-future-kaja-kallas-ursula-von-der-leyen/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+
 ## 2026-06-28
 
 - [Mines will hold back Strait of Hormuz shipping for months, CEO warns](https://www.ft.com/content/a0739198-318c-4ae8-9953-ba88201edc45) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [EU looks at tech to bulk up its police agency](https://www.politico.eu/article/eu-technology-police-agency-europol/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [UK prioritised ties with UAE over averting mass atrocities in Sudan, MPs to be told](https://www.theguardian.com/global-development/2026/jun/23/uk-ties-uae-mass-atrocities-sudan-mps-select-committee-nathaniel-raymond) — The Guardian
 - [SoftBank chipmaker Arm hits 50% share in top AI data centers: exec](https://asia.nikkei.com/editor-s-picks/interview/softbank-chipmaker-arm-hits-50-share-in-top-ai-data-centers-exec) — Nikkei Asia
-
-## 2026-06-24
-
-- [Five years on, Apple Daily staffers reflect on Hong Kong paper's demise](https://asia.nikkei.com/spotlight/hong-kong-security-law/five-years-on-apple-daily-staffers-reflect-on-hong-kong-paper-s-demise) — Nikkei Asia
-- [America Desperately Needs More Sterile Screwworms](https://www.theatlantic.com/science/2026/06/screwworm-problem-worse/687668/?utm_source=feed) — The Atlantic
-- [Heatwave shows we are marinating in a crisis of our own making](https://www.ft.com/content/f059869e-294b-42b7-bf38-fe55b46ad812) — Financial Times
-- [Play puts spotlight on Kenya's crisis of gender-based violence](https://www.theguardian.com/world/2026/jun/24/kenya-play-free-me-gender-based-violence) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
