@@ -1,0 +1,2693 @@
+{
+  "briefing_type": "berlin-culture",
+  "date": "2026-06-30",
+  "week_start": "2026-07-01",
+  "week_end": "2026-07-07",
+  "week_label": "July 1–7, 2026",
+  "fetched_at": "2026-06-30T08:33:29.926635+00:00",
+  "model": "gpt-4.1",
+  "fetch_mode": "search_per_section_then_structure",
+  "web_search_calls": 4,
+  "research_notes_chars": 15430,
+  "items": [
+    {
+      "id": "exh-nbk-stunde-null-2026",
+      "topic_ids": [
+        "exhibitions",
+        "urbanism",
+        "history",
+        "politics_society"
+      ],
+      "title": "Berlin plant. Stunde Null",
+      "venue": "Neuer Berliner Kunstverein (n.b.k.), ground floor",
+      "dates": "2026-06-06 – 2026-08-02",
+      "times": "Tue–Sun 12:00–18:00; Thu until 20:00",
+      "artists": [
+        "Hansjörg Schneider (curator)",
+        "Thomas Flierl (co-curator)",
+        "Simone Hain (co-curator)",
+        "Archival contributors"
+      ],
+      "official_url": "https://www.nbk.org/en/ausstellungen?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "This timely group exhibition revisits Berlin's 'Kollektivplan' at the radical postwar urban 'year zero' moment, with a sharp research focus on urbanism, ecology, and radical planning—archival, discursive, and critical, making it highly relevant for readers with interest in urban futures and postwar histories.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "exh-nbk-budor-barker-2026",
+      "topic_ids": [
+        "exhibitions",
+        "politics_society",
+        "identity"
+      ],
+      "title": "Dora Budor & Noah Barker",
+      "venue": "Neuer Berliner Kunstverein (n.b.k.), Showroom",
+      "dates": "2026-06-06 – 2026-08-02",
+      "times": "Tue–Sun 12:00–18:00; Thu until 20:00",
+      "artists": [
+        "Dora Budor",
+        "Noah Barker"
+      ],
+      "official_url": "https://www.nbk.org/en/ausstellungen?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "The collaborative duo explore power structures, economic development, and spatial frameworks in critical new work—fine-grained, research-based practice examining the resonance of political and psychological cartographies in contemporary Berlin.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film-arsenal-postschi-2026-07-01",
+      "topic_ids": [
+        "film",
+        "political_cinema",
+        "international"
+      ],
+      "title": "Postschi (Dariush Mehrjui, Iran 1971) + Intro (Video) by Ehsan Khoshbakht",
+      "venue": "Arsenal Kino",
+      "dates": "2026-07-01",
+      "times": "20:00",
+      "artists": [
+        "Dariush Mehrjui",
+        "Ehsan Khoshbakht"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Modernist classic of Iranian cinema, situating everyday life in pre-revolutionary Tehran; video intro by noted critic highlights film’s cultural and political stakes.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film-arsenal-paisley-city-2026-07-02",
+      "topic_ids": [
+        "film",
+        "socially_engaged",
+        "urbanism"
+      ],
+      "title": "L’homme-vertige: Tales of a City (Malaury Eloi Paisley, France 2024) + Discussion",
+      "venue": "Arsenal Kino",
+      "dates": "2026-07-02",
+      "times": "20:00",
+      "artists": [
+        "Malaury Eloi Paisley"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Essayistic, city-focused documentary followed by Q&A with the director and Birgit Kohler. Engages memory, displacement, the city’s contemporary meaning.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film-arsenal-the-river-2026-07-03",
+      "topic_ids": [
+        "film",
+        "experimental",
+        "international"
+      ],
+      "title": "The River (Tsai Ming-liang, Taiwan 1997) + Intro (EN) by M. E. Paisley",
+      "venue": "Arsenal Kino",
+      "dates": "2026-07-03",
+      "times": "17:00",
+      "artists": [
+        "Tsai Ming-liang",
+        "Malaury Eloi Paisley"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "A flagship of slow cinema and Asian queer allegory, introduced by contemporary filmmaker-discussant, heightening its resonance for Berlin cinephiles.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film-arsenal-pickpocket-2026-07-03",
+      "topic_ids": [
+        "film",
+        "experimental"
+      ],
+      "title": "Pickpocket (Robert Bresson, France 1959)",
+      "venue": "Arsenal Kino",
+      "dates": "2026-07-03",
+      "times": "20:00",
+      "artists": [
+        "Robert Bresson"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Classic of minimalist psychological cinema; rare chance to see on the big screen — foundational for understanding radical form and subjectivity in film.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film-wolfkino-alfimweds-2026-07-01",
+      "topic_ids": [
+        "film",
+        "experimental",
+        "hybrid"
+      ],
+      "title": "ALFILM Wednesdays #2: Home Movie on Location + Gespräch",
+      "venue": "Wolf Kino, Studio",
+      "dates": "2026-07-01",
+      "times": "18:30",
+      "artists": [],
+      "official_url": "https://wolfberlin.org/de?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "New experimental/essay series with guest conversation, launching its second chapter — highlights edge-of-mainstream and Arab/West Asian moving image work.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film-wolfkino-heimat-2026-07-04",
+      "topic_ids": [
+        "film",
+        "documentary",
+        "politics_society"
+      ],
+      "title": "48 Stunden Neukölln: One Homeland Two Homes (multiple screenings)",
+      "venue": "Wolf Kino, Studio",
+      "dates": "2026-07-04 – 2026-07-05",
+      "times": "multiple times daily",
+      "artists": [],
+      "official_url": "https://wolfberlin.org/de?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Urban focus on migration and city identity, stitched into the context of Neukölln’s vibrant festival — prime for those interested in Berlin’s social fabric.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film-wolfkino-dryleaf-2026-07-02",
+      "topic_ids": [
+        "film",
+        "experimental"
+      ],
+      "title": "Dry Leaf (Alexandre Koberidze)",
+      "venue": "Wolf Kino",
+      "dates": "from 2026-07-02",
+      "times": "",
+      "artists": [
+        "Alexandre Koberidze"
+      ],
+      "official_url": "https://wolfberlin.org/de?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Arthouse fiction with a singular poetic language — for fans of slow, meditative, contemporary cinema from the Caucasus/Georgia.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film-wolfkino-trobisch-2026-07-02",
+      "topic_ids": [
+        "film",
+        "socially_engaged",
+        "politics_society"
+      ],
+      "title": "Etwas Ganz Besonderes (Eva Trobisch)",
+      "venue": "Wolf Kino",
+      "dates": "from 2026-07-02",
+      "times": "",
+      "artists": [
+        "Eva Trobisch"
+      ],
+      "official_url": "https://wolfberlin.org/de?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Likely a sensitive, socially-aware drama by a celebrated new voice — recommended for contemporary European cinema enthusiasts.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "perf-hau-ohnebleibe-2026-07-01",
+      "topic_ids": [
+        "performing_arts",
+        "politics_society"
+      ],
+      "title": "Ohne Bleibe – Recht auf Wohnen als politischer Auftrag",
+      "venue": "HAU2",
+      "dates": "2026-07-01",
+      "times": "20:00",
+      "artists": [
+        "Philmon Ghirmai",
+        "Aziz Bozkurt",
+        "David Klässig",
+        "Ottilie Klein",
+        "Elke Löbel",
+        "Kerstin Wolter"
+      ],
+      "official_url": "https://www.hebbel-am-ufer.de/?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Politically engaged live dialogue with activists and policy-makers, focusing on housing rights and Berlin’s social future. Interdisciplinary and urgent.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "perf-hau-raumstrategien-2026-07-02",
+      "topic_ids": [
+        "performing_arts",
+        "interdisciplinary",
+        "urbanism"
+      ],
+      "title": "Raumstrategien (weißensee kunsthochschule berlin)",
+      "venue": "M40 (Hallesches Ufer 40)",
+      "dates": "2026-07-02",
+      "times": "14:00",
+      "artists": [
+        "weißensee kunsthochschule berlin (students)"
+      ],
+      "official_url": "https://www.hebbel-am-ufer.de/?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Experimental performative game/installation by art school students, engaging with questions of spatial strategies and urban design — interdisciplinary, playful, and contemporary.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "perf-radialsystem-sasha-youth-2026-07",
+      "topic_ids": [
+        "performing_arts",
+        "dance",
+        "community"
+      ],
+      "title": "School Performances of 'Rain' and 'BOLERO' – Sasha Waltz & Guests Children’s and Youth Dance Company",
+      "venue": "Radialsystem (Halle)",
+      "dates": "2026-07-04 17:00; 2026-07-05 17:00; 2026-07-06 11:00",
+      "times": "see dates above",
+      "artists": [
+        "Sasha Waltz & Guests Children’s/Youth Dance Company"
+      ],
+      "official_url": "https://www.radialsystem.de/en/programm/programm/?utm_source=openai",
+      "closing_soon": false,
+      "why_candidate": "Fresh choreography performed by Berlin’s celebrated youth company — contemporary dance at the threshold of collective creativity, with strong educational and identity themes.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-wildcards-0fd569bd9e",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "FUSIONSKÜCHE, DRINKS UND ITALO-DISCO IM BUSSI & AMORE IN POTSDAM",
+      "venue": "Cee Cee Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://ceecee.cc/fusionskueche-drinks-und-italo-disco-im-bussi-amore-in-potsdam/",
+      "closing_soon": false,
+      "why_candidate": "Potsdam? Viele verbinden die Stadt in erster Linie mit Schlössern und historischen Fassaden. Dabei lohnt...",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-wildcards-8d5cb76125",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "SOMMERLICH INS WOCHENENDE STARTEN: MIT UNSERER CROISSANT SESSION X HINGE X THAT GAY CREATION BEI WESTBERLIN",
+      "venue": "Cee Cee Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://ceecee.cc/sommerlich-ins-wochenende-starten-mit-unserer-croissant-session-x-hinge-x-that-gay-creation-bei-westberlin/",
+      "closing_soon": false,
+      "why_candidate": "Die beste Sommererinnerung des Jahres? Gut möglich, dass sie nächsten Samstag entsteht. Denn dann übernehmen...",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-wildcards-e1a7787115",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "URLAUBSGEFÜHL NEBENAN: EIN SOMMERTAG AM HEILIGEN SEE IN POTSDAM",
+      "venue": "Cee Cee Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://ceecee.cc/urlaubsgefuehl-nebenan-ein-sommertag-am-heiligen-see-in-potsdam/",
+      "closing_soon": false,
+      "why_candidate": "An heißen Sommertagen in Berlin gibt es nur zwei Möglichkeiten: Entweder Du bleibst in der...",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-wildcards-5267ec9dc6",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "WHEN IN POTSDAM… KÜHLE KUGELN UND KOFFEIN (ON THE ROCKS): DIE EISFRAU UND BUENA VIDA COFFEE ROASTERS",
+      "venue": "Cee Cee Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://ceecee.cc/when-in-potsdam-kuehle-kugeln-und-koffein-on-the-rocks-die-eisfrau-und-buena-vida-coffee-roasters/",
+      "closing_soon": false,
+      "why_candidate": "Reihenfolge egal, hauptsache beides mitnehmen – wenn man schon mal im schönen Potsdam ist… Du...",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-wildcards-c846661427",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "GNAWA, FLAMENCO, DESERT BLUES: DAS SONIC PLURIVERSE FESTIVAL STARTET IN DEN SOMMER",
+      "venue": "Cee Cee Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://ceecee.cc/gnawa-flamenco-desert-blues-das-sonic-pluriverse-festival-startet-in-den-sommer/",
+      "closing_soon": false,
+      "why_candidate": "Wenn Ende Juni auf dem Dach des HKW die ersten Qraqeb erklingen, beginnt das Sonic Pluriverse Festival. Dieses...",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-exhibitions-3f70670bfb",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Week June 29–July 5, 2026",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/29/things-to-do-in-berlin-art-openings-performances-june29-july5-2026/",
+      "closing_soon": false,
+      "why_candidate": "Openings and events at WIRWIR, KW Institute for Contemporary Art, SCHWARZ CONTEMPORARY, Kaleidoskop Kallinchen, Between Bridges, Galerie Thomas Schulte, Haus am Waldsee, KVOST, TD Berlin, Ballhaus Ost, Haus am Lützowplatz, 68projects by KORNFELD, KORNFELD, and more …[read on]",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-exhibitions-5db7c552c8",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Politics of Redress: ‘Tide of Returns’ at Ocean Space",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/25/tide-of-returns-ocean-space-exhibition-review/",
+      "closing_soon": false,
+      "why_candidate": "by Alison Hugill // June 25, 2026 Urgent questions around repatriation and reparations form the political backdrop of 'Tide of Returns,' an exhibition by Repatriates Collective and Verena Melgarejo Weinandt at …[read on]",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-exhibitions-5bc3d0b5b2",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Fleeting Witnesses: An Interview with Oscar Murillo",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/23/oscar-murillo-das-minsk-museum-barberini-interview/",
+      "closing_soon": false,
+      "why_candidate": "by Adela Lovric // June 23, 2026 In ‘Collective Osmosis,’ presented at DAS MINSK Kunsthaus in Potsdam, Oscar Murillo extends his long-standing interest in circulation, collectivity, visibility and the political …[read on]",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-exhibitions-a1258cff5f",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Week June 22–28, 2026",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/22/things-to-do-in-berlin-art-openings-june22-june28-2026/",
+      "closing_soon": false,
+      "why_candidate": "Openings and events at ngbk, Polish Art Week Berlin, ifa-Galerie Berlin, Gropius Bau, Schering Stiftung, carlier | gebauer, Galerie im Körnerpark, Sophiensæle, KVOST, Werkbundarchiv - Museum der Dinge, Galerie Thomas Fischer, gr_und, GUTS, BETON Berlin, BARAZANI.berlin, Pickle Bar, stay hungry, T...",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-exhibitions-ebbe10d83c",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Democracy’s Distress Call: ‘Freiraum Kunst’ at Schloss Bellevue",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/19/freiraum-kunst-schloss-bellevue-akademie-der-kuenste-review/",
+      "closing_soon": false,
+      "why_candidate": "by Dagmara Genda // June 19, 2026 ‘Freiraum Kunst,’ the two-week temporary exhibition in Schloss Bellevue, was a missed opportunity to back up words with action. “A stable democracy must be able to …[read on]",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-exhibitions-625cd49cd6",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Leaking Liveliness: Project Space Festival 2026",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/06/18/project-space-festival-2026-review/",
+      "closing_soon": false,
+      "why_candidate": "by Jesse Slater // June 18, 2026 Mary Shelley’s ‘Frankenstein’ has been on my mind lately. I like thinking about her monster; what it means to be feared, what happens when animation teeters over into existence …[read on]",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-wildcards-199de03aba",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "#505: Heat is HOT, flower pot manslaughter, the ICC's future",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/505-heat-is-hot-flower-pot-manslaughter",
+      "closing_soon": false,
+      "why_candidate": "Swimming in Berlin will get even better",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-wildcards-09c8a6acc3",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "#504: Housing expropriation, GDR vs housing, young drug mules, young voters",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/504-housing-expropriation-gdr-vs",
+      "closing_soon": false,
+      "why_candidate": "Latest pod out",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-wildcards-022e8419af",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "#36: Are lakes dangerous?, trash tax, RAW Gelände, landlord registry",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/36-are-lakes-dangerous-trash-tax",
+      "closing_soon": false,
+      "why_candidate": "I pick the government's Open House and Maurice the Urban Nation art museum as Bear's Knees.",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-wildcards-63e66b37de",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "#503: Landlord registry, lake water quality, shooting raids",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/503-landlord-registry-lake-water",
+      "closing_soon": false,
+      "why_candidate": "Berlin is falling out of love with cars",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-wildcards-c305832361",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "#502: Dump truck fire, trash tax, RAW deal, dogs at IKEA, P'dam bomb",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/502-dump-truck-fire-trash-tax-raw",
+      "closing_soon": false,
+      "why_candidate": "The population grew last year, but just in Berlin",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-performing_arts-0d26a83944",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "In Erinnerung an Bianca Klose",
+      "venue": "Ballhaus Naunynstraße",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://ballhausnaunynstrasse.de/in-erinnerung-an-bianca-klose/",
+      "closing_soon": false,
+      "why_candidate": "Selten hinterlassen Begegnungen solche stärkende Wirkung. Mit Bianca Klose haben wir nur eine gemeinsame Veranstaltung gemacht: gegen Rechts: die Kunst, politisch Stellung zu beziehen in 2017 am Ballhaus Naunynstraße. Akteur*innen aus Kunst, Kultur, Politik und Gesellschaft kamen hier zusammen, u...",
+      "ingestion_source": "rss",
+      "verified": false,
+      "programme_feed": true
+    },
+    {
+      "id": "wp-wildcards-c232e7d67f",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Lights, Camera, Action: Berlin’s Unmissable Film Events this Summer",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/events/film-events-berlin/",
+      "closing_soon": false,
+      "why_candidate": "From film festivals to retrospectives, these are the top events happening in the world of cinema in the city.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-4a3aeb1ca4",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Saturday was Berlin’s hottest day on record",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/english-news-berlin/saturday-was-berlins-hottest-day-on-record/",
+      "closing_soon": false,
+      "why_candidate": "At 39.9 degrees Celsius, it was one degree hotter than the previous maximum temperature recorded in the city.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-401ecbae6a",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "What’s On This Week: Our Daily Tips",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/events/whats-on-this-week-daily-tips-berlin/",
+      "closing_soon": false,
+      "why_candidate": "A curated selection of the best things to do daily in Berlin.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-66c16fee40",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "“The production’s greatest asset is Magnea herself.”",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/stage/liina-magnea-whats-a-mob-to-a-king-plot-twist-redemption-theatre-review-berlin/",
+      "closing_soon": false,
+      "why_candidate": "Stage Editor Rhyannon Styles reviews Liina Magnea’s new work ‘What’s a Mob to a King (Plot-twist Redemption)’ at Sophiensæle. (three stars)",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-08d29540a9",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "The Rise of FU Review",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/books/fu-review-berlin-literary-journal/",
+      "closing_soon": false,
+      "why_candidate": "How a student-run review made its mark in the Berlin literary scene.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-626abdb826",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "What to do this month: Our July Events Guide",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/what-do-this-july-our-events-guide-2-2-2/",
+      "closing_soon": false,
+      "why_candidate": "In Berlin and don’t know what to do this July? Don’t worry. These are our picks of the best events happening this month.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-3114c38f5f",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "From Stereo Total to Film Anecdotal: Brezel Göring on his New Film",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/film/brezel-goring-forever-16-film-berlin/",
+      "closing_soon": false,
+      "why_candidate": "‘Forever 16’ is a film based on the musician’s late partner’s unpublished novel.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-775e071a7c",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "17-year-old drowns at Krumme Lanke",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/english-news-berlin/17-year-old-drowns-at-krumme-lanke/",
+      "closing_soon": false,
+      "why_candidate": "His classmates called emergency services when they could not locate the boy; they subsequently found his lifeless body.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-7dfc39ee9f",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Sun, See and Screenings",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/film/lakeside-film-festival-berlin-brandenburg/",
+      "closing_soon": false,
+      "why_candidate": "Film editor Florence Scott-Anderton shares why she looks forward to Lakeside Film Festival every year.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-8abcc0cb95",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Closures and cancellations due to the heat",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/english-news-berlin/closures-and-cancellations-due-to-the-heat/",
+      "closing_soon": false,
+      "why_candidate": "With forecasts predicting 40 degrees this weekend, some events have been called off and regulations regarding others have changed.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-79f24a30fa",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "What to do this weekend: Berlin’s best events",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/what-to-do-this-weekend-best-events/",
+      "closing_soon": false,
+      "why_candidate": "In Berlin and don’t know what to do? Don’t worry. These are our picks of the best events happening in the city this weekend.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-ba8c235e2d",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Berlin Set to Hit Record Temperatures",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/english-news-berlin/berlin-heat-record-temperatures/",
+      "closing_soon": false,
+      "why_candidate": "On the weekend of June 27 and 28, 2026, temperatures are projected to soar in the city.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-ff6ab96f62",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Berlin launch: Acclaimed Historian and Artist Lilia Topouzova in conversation with Kate Connolly",
+      "venue": "Adalbertstr. 43\\n 10179 Berlin",
+      "dates": "01 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44739/berlin-launch-acclaimed-historian-and-artist-lilia-topouzova-in-conversation-with-kate-connolly",
+      "closing_soon": false,
+      "why_candidate": "Berlin launch: Acclaimed Historian and Artist Lilia Topouzova in conversation with Kate Connolly",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-8abdc708a6",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Cihan Çakmak breaking is reflection",
+      "venue": "Auguststr. 26 10117 Berlin",
+      "dates": "02 July 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44416/breaking-is-reflection",
+      "closing_soon": false,
+      "why_candidate": "Cihan Çakmak breaking is reflection",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-7c51a2cf13",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Inscape",
+      "venue": "Regina-Jonas-Str. 41/43 10999 Berlin",
+      "dates": "02 July 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44275/inscape",
+      "closing_soon": false,
+      "why_candidate": "Inscape",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-c24e544066",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Finissage & Presentation of the Special Edition on the theme »ATLANTINNEN & DAS (ER)HALTEN DER WELT«",
+      "venue": "Markgrafenstr. 67 10969 Berlin",
+      "dates": "02 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/42763/finissage-presentation-of-the-special-edition-on-the-theme-atlantinnen-das-er-halten-der-welt",
+      "closing_soon": false,
+      "why_candidate": "Finissage & Presentation of the Special Edition on the theme »ATLANTINNEN & DAS (ER)HALTEN DER WELT«",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-b7497fc8d8",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "[ materialistin ]",
+      "venue": "Invalidenstr. 50/51 10557 Berlin",
+      "dates": "02 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44567/materialistin",
+      "closing_soon": false,
+      "why_candidate": "[ materialistin ]",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-2948786b5a",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Lin Olschowka Brother Wolf",
+      "venue": "Schaperstr. 14 10719 Berlin",
+      "dates": "02 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44394/brother-wolf",
+      "closing_soon": false,
+      "why_candidate": "Lin Olschowka Brother Wolf",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-259e0d99d9",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Arthur Palhano Hours Without Edges",
+      "venue": "Schaperstr. 14 10719 Berlin",
+      "dates": "02 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44395/hours-without-edges",
+      "closing_soon": false,
+      "why_candidate": "Arthur Palhano Hours Without Edges",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-44f9ac1671",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Miriam Stoney Study of a Lion",
+      "venue": "Muskauer Str. 24 10997 Berlin",
+      "dates": "02 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44336/study-of-a-lion",
+      "closing_soon": false,
+      "why_candidate": "Miriam Stoney Study of a Lion",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-b466e94b66",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Die Philosophie des Sternenhimmels",
+      "venue": "Berliner Str. 86\\n 14467 Berlin",
+      "dates": "02 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44784/die-philosophie-des-sternenhimmels",
+      "closing_soon": false,
+      "why_candidate": "Die Philosophie des Sternenhimmels",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-5c0313b817",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "On Getting Lost: Queer Migration and the Promise of Disorientation mit Tunay Altay und Berkant Çağlar",
+      "venue": "Lützowplatz 9 10785 Berlin",
+      "dates": "02 July 2026",
+      "times": "18:30",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44825/on-getting-lost-queer-migration-and-the-promise-of-disorientation-mit-tunay-altay-und-berkant-caglar",
+      "closing_soon": false,
+      "why_candidate": "On Getting Lost: Queer Migration and the Promise of Disorientation mit Tunay Altay und Berkant Çağlar",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-2303c65a95",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Birgit Schneider spricht über Textilität im Werk von Ingrid Wiener",
+      "venue": "Schöneberger Ufer 65\\, 3rd Floor 10785 Berlin",
+      "dates": "02 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44436/birgit-schneider-spricht-uber-textilitat-im-werk-von-ingrid-wiener",
+      "closing_soon": false,
+      "why_candidate": "Birgit Schneider spricht über Textilität im Werk von Ingrid Wiener",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-77eaf207e3",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Talking Books. Clara Schöttke and Antonia Teichert: LG 500/R",
+      "venue": "Hardenbergstr. 22-24 10623 Berlin",
+      "dates": "02 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44760/talking-books-clara-schottke-and-antonia-teichert-lg-500-r",
+      "closing_soon": false,
+      "why_candidate": "Talking Books. Clara Schöttke and Antonia Teichert: LG 500/R",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-7c953c773b",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Berlin Beats: Dis Fig\\,",
+      "venue": "Invalidenstr. 50/51 10557 Berlin",
+      "dates": "02 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44568/berlin-beats-dis-fig",
+      "closing_soon": false,
+      "why_candidate": "Berlin Beats: Dis Fig\\,",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-3d5278ef56",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Performance von Luzie Meyer",
+      "venue": "Auguststr. 21 10117 Berlin",
+      "dates": "02 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44744/performance-von-luzie-meyer",
+      "closing_soon": false,
+      "why_candidate": "Performance von Luzie Meyer",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-83a99c7811",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Miete essen Seele auf. Film screening followed by a talk with the director Angelika Levi.",
+      "venue": "nGbK am Alex\\, Karl-Liebknecht-Str. 11/13 10178 Berlin",
+      "dates": "02 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44822/miete-essen-seele-auf-film-screening-followed-by-a-talk-with-the-director-angelika-levi",
+      "closing_soon": false,
+      "why_candidate": "Miete essen Seele auf. Film screening followed by a talk with the director Angelika Levi.",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-20be17ea63",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Imaginäre Architektur – Der Baumeister Hans Scharoun",
+      "venue": "Chausseestr. 128/129 10115 Berlin",
+      "dates": "02 July 2026",
+      "times": "20:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44800/imaginare-architektur-der-baumeister-hans-scharoun",
+      "closing_soon": false,
+      "why_candidate": "Imaginäre Architektur – Der Baumeister Hans Scharoun",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-780039e8a5",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Nikification. Niki de Saint Phalle and Germany",
+      "venue": "Potsdamer Str. 83 10785 Berlin",
+      "dates": "03 July 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44704/nikification-niki-de-saint-phalle-and-germany",
+      "closing_soon": false,
+      "why_candidate": "Nikification. Niki de Saint Phalle and Germany",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-aa4c6864f8",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Evan Roth A Hundred Thousand Years of Light",
+      "venue": "Potsdamer Str. 65 10785 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44321/a-hundred-thousand-years-of-light",
+      "closing_soon": false,
+      "why_candidate": "Evan Roth A Hundred Thousand Years of Light",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-d05f12716a",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Forking Paths",
+      "venue": "Potsdamer Str. 81 E 10785 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44834/forking-paths",
+      "closing_soon": false,
+      "why_candidate": "Forking Paths",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-20b370be46",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Self Studies",
+      "venue": "Meierottostr. 1 10719 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44411/self-studies",
+      "closing_soon": false,
+      "why_candidate": "Self Studies",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-cd5128039b",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "J. Parker Valentine Panthalassa",
+      "venue": "Hardenbergstr. 9A\\, 3. Hof 10623 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44480/panthalassa",
+      "closing_soon": false,
+      "why_candidate": "J. Parker Valentine Panthalassa",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-6a23fbbf1f",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Niloufar Emamifar\\, Lisa Jo\\, Laura Langer\\, Margaret Raspé\\, Marina Xenofontos Apophenia",
+      "venue": "Kurfürstenstr. 143 10785 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44332/apophenia",
+      "closing_soon": false,
+      "why_candidate": "Niloufar Emamifar\\, Lisa Jo\\, Laura Langer\\, Margaret Raspé\\, Marina Xenofontos Apophenia",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-84184ed09b",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Galerie Nordenhake Stockholm\\, Berlin\\, Mexico City\\, 50 Years",
+      "venue": "Lindenstr. 34 10969 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44542/galerie-nordenhake-stockholm-berlin-mexico-city-50-years",
+      "closing_soon": false,
+      "why_candidate": "Galerie Nordenhake Stockholm\\, Berlin\\, Mexico City\\, 50 Years",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-78bf036648",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Internationaler Literaturpreis 2026: Preis für übersetzte Gegenwartsliteraturen",
+      "venue": "John-Foster-Dulles-Allee 10 10557 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44812/internationaler-literaturpreis-2026-preis-fur-ubersetzte-gegenwartsliteraturen",
+      "closing_soon": false,
+      "why_candidate": "Internationaler Literaturpreis 2026: Preis für übersetzte Gegenwartsliteraturen",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-a238ab734d",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Eröffnung des zweiten Teils der aktuellen Ausstellung von Fiona Mackay",
+      "venue": "Leipziger Str. 58 10117 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44815/eroffnung-des-zweiten-teils-der-aktuellen-ausstellung-von-fiona-mackay",
+      "closing_soon": false,
+      "why_candidate": "Eröffnung des zweiten Teils der aktuellen Ausstellung von Fiona Mackay",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-2ba73c2fbf",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Publik Machen . Coda: Reenacting an Exhibition",
+      "venue": "Leipziger Str. 47 / Entrance Jerusalemer Str. 10117 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44318/publik-machen-coda-reenacting-an-exhibition",
+      "closing_soon": false,
+      "why_candidate": "Publik Machen . Coda: Reenacting an Exhibition",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-26ba539afd",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Lass es Liebe sein",
+      "venue": "Weydingerstr. 6\\n 10178 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44525/lass-es-liebe-sein",
+      "closing_soon": false,
+      "why_candidate": "Lass es Liebe sein",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-08689ec2a5",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "some random spot nearby",
+      "venue": "Rosa-Luxemburg-Str. 33 10178 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44401/some-random-spot-nearby",
+      "closing_soon": false,
+      "why_candidate": "some random spot nearby",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-6ec2761a4f",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Thaddeus Strode stairway to somewhere: a soundtrack",
+      "venue": "Linienstr. 155 10115 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44452/stairway-to-somewhere-a-soundtrack",
+      "closing_soon": false,
+      "why_candidate": "Thaddeus Strode stairway to somewhere: a soundtrack",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-c708101783",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Sandra Kantanen Bamboo Whispers in Fading Light",
+      "venue": "Lindenstr. 35 10969 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44415/bamboo-whispers-in-fading-light",
+      "closing_soon": false,
+      "why_candidate": "Sandra Kantanen Bamboo Whispers in Fading Light",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-0d00220665",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Gökçen Dilek Acay What time is it in the world",
+      "venue": "Schöneberger Ufer 61 10785 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44329/what-time-is-it-in-the-world",
+      "closing_soon": false,
+      "why_candidate": "Gökçen Dilek Acay What time is it in the world",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-565db620d4",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "escalators to: big bang",
+      "venue": "Revaler Str. 99 / Halle 16 10245 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44750/escalators-to-big-bang",
+      "closing_soon": false,
+      "why_candidate": "escalators to: big bang",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-d86e77c32e",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Maximilian Rödel Verdichtung",
+      "venue": "Kurfürstenstr. 24/25 10785 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44641/verdichtung",
+      "closing_soon": false,
+      "why_candidate": "Maximilian Rödel Verdichtung",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-bb9f95d8ae",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Performative guided tour von Alec Ross",
+      "venue": "Revaler Str. 99 / Halle 16 10245 Berlin",
+      "dates": "03 July 2026",
+      "times": "18:30",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44817/performative-guided-tour-von-alec-ross",
+      "closing_soon": false,
+      "why_candidate": "Performative guided tour von Alec Ross",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-2858c39ce0",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Richard Deacon Just Looking",
+      "venue": "Charlottenstr. 24 10117 Berlin",
+      "dates": "03 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/43607/just-looking",
+      "closing_soon": false,
+      "why_candidate": "Richard Deacon Just Looking",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-c60095baa2",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Allan McCollum A Moment in Time: Drawings 1991-1992",
+      "venue": "Potsdamer Str. 81b\\, 1st floor\\, not barrier-free\\n 10785 Berlin",
+      "dates": "03 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/43609/a-moment-in-time-drawings-1991-1992",
+      "closing_soon": false,
+      "why_candidate": "Allan McCollum A Moment in Time: Drawings 1991-1992",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-27e5dc09e3",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Berlin Review. Launch Reader 7",
+      "venue": "Klosterstr. 73a 10179 Berlin",
+      "dates": "03 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/43741/berlin-review-launch-reader-7",
+      "closing_soon": false,
+      "why_candidate": "Berlin Review. Launch Reader 7",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-d0d086e8b3",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Batter My ❤️ 3-Personed G0D. A lecture performance by Mark Leckey",
+      "venue": "Leipziger Str. 60 10117 Berlin",
+      "dates": "03 July 2026",
+      "times": "20:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44740/batter-my-3-personed-g0d-a-lecture-performance-by-mark-leckey",
+      "closing_soon": false,
+      "why_candidate": "Batter My ❤️ 3-Personed G0D. A lecture performance by Mark Leckey",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-f83fc5ab9a",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Lecture Performance von Héloïse Delcros",
+      "venue": "Revaler Str. 99 / Halle 16 10245 Berlin",
+      "dates": "03 July 2026",
+      "times": "20:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44818/lecture-performance-von-heloise-delcros",
+      "closing_soon": false,
+      "why_candidate": "Lecture Performance von Héloïse Delcros",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-6b6c4fab0b",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Kein Ort\\, nirgens – Utopien künstlerischer Forschung. Gesellschaft für künstlerische Forschung in Deutschland (gkfd)",
+      "venue": "Alte Jakobstr. 124-128 10969 Berlin",
+      "dates": "04 July 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44690/kein-ort-nirgens-utopien-kunstlerischer-forschung-gesellschaft-fur-kunstlerische-forschung-in-deutschland-gkfd",
+      "closing_soon": false,
+      "why_candidate": "Kein Ort\\, nirgens – Utopien künstlerischer Forschung. Gesellschaft für künstlerische Forschung in Deutschland (gkfd)",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-db76c4f1ae",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Concert-Week",
+      "venue": "Auguststr. 69 10117 Berlin",
+      "dates": "08 July 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44797/concert-week",
+      "closing_soon": false,
+      "why_candidate": "Concert-Week",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-2f4733760f",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Summer Party",
+      "venue": "Streustr. 90 13086 Berlin",
+      "dates": "08 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44367/summer-party",
+      "closing_soon": false,
+      "why_candidate": "Summer Party",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-ccfea9f87e",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Phelan O'Hara Towards Childhood",
+      "venue": "Niebuhrstr. 5 10629 Berlin",
+      "dates": "09 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44473/towards-childhood",
+      "closing_soon": false,
+      "why_candidate": "Phelan O'Hara Towards Childhood",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-c70eb7065b",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Calligraphy as a living image",
+      "venue": "Unter den Linden 5 10117 Berlin",
+      "dates": "09 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44798/calligraphy-as-a-living-image",
+      "closing_soon": false,
+      "why_candidate": "Calligraphy as a living image",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-3d54807e38",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Artist Talk with Evan Roth",
+      "venue": "Potsdamer Str. 65 10785 Berlin",
+      "dates": "09 July 2026",
+      "times": "18:30",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44322/artist-talk-with-evan-roth",
+      "closing_soon": false,
+      "why_candidate": "Artist Talk with Evan Roth",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-536d7cfe6b",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Disruptive Realities Vom Leben und Arbeiten zeitgenössischer Künstlerinnen",
+      "venue": "Pariser Platz 4 10117 Berlin",
+      "dates": "09 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44702/disruptive-realities-vom-leben-und-arbeiten-zeitgenossischer-kunstlerinnen",
+      "closing_soon": false,
+      "why_candidate": "Disruptive Realities Vom Leben und Arbeiten zeitgenössischer Künstlerinnen",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-8f977dbca0",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Lecture & Conversation: Isabel Millar @ Chapel of Kaiser Wilhem Memorial Church",
+      "venue": "Kaiser-Wilhelm-Gedächtniskirche\\, Foyergebäude\\, Breitscheidplatz 10789 Berlin",
+      "dates": "09 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44439/lecture-conversation-isabel-millar-chapel-of-kaiser-wilhem-memorial-church",
+      "closing_soon": false,
+      "why_candidate": "Lecture & Conversation: Isabel Millar @ Chapel of Kaiser Wilhem Memorial Church",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-5b142a31f3",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Multi-Sensory Listening Session with ezri_dax\\, Jingyun Li and Nguyễn + Transitory Forms of access: tacile sound\\, listening\\, live audio description",
+      "venue": "Kohlfurter Str. 41-43. Schauraum: Kottbusser Str. 10 10999 Berlin",
+      "dates": "09 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44621/multi-sensory-listening-session-with-ezri-dax-jingyun-li-and-nguyen-transitory-forms-of-access-tacile-sound-listening-live-audio-description",
+      "closing_soon": false,
+      "why_candidate": "Multi-Sensory Listening Session with ezri_dax\\, Jingyun Li and Nguyễn + Transitory Forms of access: tacile sound\\, listening\\, live audio description",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-9814d6fcd7",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Mechanical Drawings",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43596/mechanical-drawings",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-b040788b32",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Imitationen von Paul",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/42826/imitationen-von-paul",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-90b561cd40",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Auto-Paragone",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43347/auto-paragone",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-fe83df6d89",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Months Turn to Years",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43345/months-turn-to-years",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-3196755626",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Enter Thru Medieval Wounds",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/39874/enter-thru-medieval-wounds",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-4cd140e2e2",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "ATLANTINNEN: deep dive. measuring. spirit. 52°/13°.",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/42760/atlantinnen-deep-dive-measuring-spirit-52-13",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-8e2c753966",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Passage",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43713/passage",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-9383cd9506",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "…oder liebst du deine Scheuklappen?",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/42940/oder-liebst-du-deine-scheuklappen",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-d0947ceb08",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Rehearsal Room",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/42784/rehearsal-room",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-e6a1c09316",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Marseille 1994",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44125/marseille-1994",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-db63caaf5d",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Ancora",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43788/ancora",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-1bc6aa760a",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Guten Morgen Sonnenschein",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44135/guten-morgen-sonnenschein",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-6b72822016",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Empty Places, Crowded Hearts",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44376/empty-places-crowded-hearts",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-5cb89e7091",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "distractions",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43268/distractions",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-46a56bc5c7",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Tender Ground",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44371/tender-ground",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-cbcc4d861e",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "all we have – not even ours",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43434/all-we-have-not-even-ours",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-5378d63b93",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Duensing & Wollheim",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43370/duensing-wollheim",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-33f9cc2205",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Em torno do Aleph",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44427/em-torno-do-aleph",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-1a8dafc722",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Sonic Pluriverse Festival: Global Echoes of Gnawa",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44581/sonic-pluriverse-festival-global-echoes-of-gnawa",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-7c23642bae",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "When a whole group is coming too late",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44544/when-a-whole-group-is-coming-too-late",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-21429e315a",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Louder, Taller, Uglier, Weirder – Von Unkraut lernen",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43937/louder-taller-uglier-weirder-von-unkraut-lernen",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-575c729ade",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Rauschen – Arbeit und Wirken des Zentrums für Kunstausstellungen der DDR",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43733/rauschen-arbeit-und-wirken-des-zentrums-fur-kunstausstellungen-der-ddr",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-3203e0c75c",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Cosmos: Agendas, Networks, Friendships",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44650/cosmos-agendas-networks-friendships",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-9f665238fb",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Order of Chaos – Die Ordnung des Chaos",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44658/the-order-of-chaos-die-ordnung-des-chaos",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-7d63cf6734",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "wet wings",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44511/wet-wings",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": false
+    },
+    {
+      "id": "silent-green-html-music-91526c8acf",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Arsenal Making Space: killer.berlin.doc",
+      "venue": "Silent Green",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/arsenal-raumgeben-killerberlindoc?tx_news_pi1%5Bday%5D=1&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=d5201590da36931fa99819f51eb66992",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-9d0d409fc7",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Cara Delevingne",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/cara-delevingne?tx_news_pi1%5Bday%5D=1&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=d5201590da36931fa99819f51eb66992",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-a71aa426ef",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Poesiefestival Berlin 2026",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/poesiefestival-berlin-2026?tx_news_pi1%5Bday%5D=2&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=fac96660af4abaebf3f898c726cf533e",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-719600dde7",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Cabaret Voltaire – Final EU tour – sold out",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/cabaret-voltaire-final-eu-tour?tx_news_pi1%5Bday%5D=2&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=fac96660af4abaebf3f898c726cf533e",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-6baea1de63",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "TOTALE 04 – magazine release",
+      "venue": "Silent Green",
+      "dates": "",
+      "times": "07:30",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/totale-04-magazinrelease?tx_news_pi1%5Bday%5D=4&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=d82197c90b0a97aa93eef180cc29bdab",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-c244348f4f",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Historische Führung",
+      "venue": "Silent Green",
+      "dates": "",
+      "times": "12:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/historische-fuehrung-37?tx_news_pi1%5Bday%5D=7&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=bfdc92ea52e8def36e2745f1371f49fa",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-f5b775e8a1",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Martyna Basta pres. Winged in Collapse + Ange Halliwell",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "09:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/martyna-basta-ange-halliwell?tx_news_pi1%5Bday%5D=20&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=62962fa2f7a24655719d9811ff5c3e88",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-1ce6a5409d",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Symposium Berlin plant. Stunde Null",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "01:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/symposium-berlin-plant-stunde-null?tx_news_pi1%5Bday%5D=20&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=62962fa2f7a24655719d9811ff5c3e88",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-18eb66b1de",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "transmediale open studio",
+      "venue": "Silent Green",
+      "dates": "",
+      "times": "07:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/transmediale-open-studio-1?tx_news_pi1%5Bday%5D=24&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=2d82610d74ad662edc8f9e541e1c03ab",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-33e1e93075",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Avant Art Festival Berlin: Rożynek, Korzeniecka, Janicki, Papior + Antonina Nowacka + Drew McDowall & Pedro Maia (A/V)",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "07:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/avant-art-festival-berlin-rozynek-korzeniecka-janicki-papior-antonina-nowacka-drew-mcdowall-pedro-maia-a-v?tx_news_pi1%5Bday%5D=25&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=c9cb565c2bda541f15f17a4c11525162",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-76ca4d7bf2",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Placid Angles (John Beltran) + Diamin (DJ-Set)",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/john-beltran-diamin-dj-set?tx_news_pi1%5Bday%5D=26&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=9a2bbd09c7f5e26980d42fb0e0f44cf7",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-4042d12276",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "MISS READ: The Berlin Art Book Fair & Festival 2026",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "05:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/miss-read-the-berlin-art-book-fair-festival-2026?tx_news_pi1%5Bday%5D=26&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=9a2bbd09c7f5e26980d42fb0e0f44cf7",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-2ee5858f24",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "hackedepicciotto – Sonic Morgue",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/hackedepicciotto-sonic-morgue?tx_news_pi1%5Bday%5D=27&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=1dc06155228344ef6513401bc33180ec",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-9c5835a0d4",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Safety Trance pres. Safety Trance: DESTRUCCIÓN A/V + Evita Manji + Bungalovv (DJ-Set)",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "07:30",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/safety-trance-pres-safety-trance-destruccion-a-v-evita-manji-bungalovv-dj-set?tx_news_pi1%5Bday%5D=30&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=b9da40740cda20595f3daa9f29298a1f",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-3240e2ce26",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "MetropolCon 2026",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "05 July 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/metropolcon-2026?tx_news_pi1%5Bday%5D=2&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=6550140754453a1df6ebee0148fd77a5",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — 05 July 2026",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "in_week"
+    },
+    {
+      "id": "silent-green-html-music-3d59790579",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Sunn O))) – sold out",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/sunn-o?tx_news_pi1%5Bday%5D=6&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=1ff63dc14fd359d8655429e60eaec616",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-7f81cad56e",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Sunn O))) – sold out",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/sunn-o-1?tx_news_pi1%5Bday%5D=7&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=458bd4ef82b9993e10eaee681c755abd",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-7e79889758",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "THE LETTING GO – Book Launch",
+      "venue": "Silent Green",
+      "dates": "",
+      "times": "07:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/the-letting-go-buchpraesentation?tx_news_pi1%5Bday%5D=10&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=c0e91237aacb843ab3e46cae1d16f55e",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-763f2335ab",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Samba Jean-Baptiste + Static Cleaner Lost Reward (Tarquin Manek)",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/samba-jean-baptiste-tarquin-manek?tx_news_pi1%5Bday%5D=10&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=c0e91237aacb843ab3e46cae1d16f55e",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-6fccd53a6f",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "silent green Open Lab #6: Gregory Pearce + gega.fisk",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/silent-green-open-lab-6-gregory-pearce-gegafisk?tx_news_pi1%5Bday%5D=14&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=c5fd8bc009d7ce2e4d79aec113de6d45",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-fef3c9737d",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Bjørn Melhus: LOST IN FINITY – Opening Evening",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "16 July 2026",
+      "times": "07:30",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/bjoern-melhus-lost-in-finity-eroeffnungsabend?tx_news_pi1%5Bday%5D=16&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=2637fbf14c09ff1961211bb4903b6ce5",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — 16 July 2026",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "advance",
+      "primary_section": "music"
+    },
+    {
+      "id": "silent-green-html-music-ee37de6365",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Bjørn Melhus: LOST IN FINITY",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "17 July 2026",
+      "times": "07:30",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/bjoern-melhus-lost-in-finity?tx_news_pi1%5Bday%5D=17&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=23e6da090cfa4998b5d5332562aea309",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — 17 July 2026",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "advance",
+      "primary_section": "music"
+    },
+    {
+      "id": "silent-green-html-music-6fe843b533",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Bjørn Melhus: LOST IN FINITY – THE BEGINNING",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "07:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/bjoern-melhus-lost-in-finity-the-beginning?tx_news_pi1%5Bday%5D=17&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=23e6da090cfa4998b5d5332562aea309",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-395329582e",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Historische Führung",
+      "venue": "Silent Green",
+      "dates": "",
+      "times": "12:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/historische-fuehrung-38?tx_news_pi1%5Bday%5D=18&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=895fee24a9cce1d79b54c5c932de1db8",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-8c242cc44b",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Bjørn Melhus: LOST IN FINITY – THE END OF THE BEGINNING",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "07:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/bjoern-melhus-lost-in-finity-the-end-of-the-beginning?tx_news_pi1%5Bday%5D=19&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=aa1f24ee19d0ea5ec0d097fa4c2a317c",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-eb499a1444",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "silent green Open Lab #7: Shu and Frieda + GLTR Mauer",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/silent-green-open-lab-7-shu-and-frieda-gltr-mauer?tx_news_pi1%5Bday%5D=21&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=7fc07e6aecbe168306192d46463b2f2e",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-b1a426bac2",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "silent green & Music From Beyond pres. Maresz + Del Gesù + The Midnight Audience",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/silent-green-music-from-beyond-pres-maresz-del-gesu-the-midnight-audience?tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=7cc70058540b3e08ee9894e00a6b7b3d",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-a4c78f0465",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Bjørn Melhus: LOST IN FINITY – Screening MELANCHOLIA",
+      "venue": "Silent Green",
+      "dates": "",
+      "times": "09:30",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/bjoern-melhus-lost-in-finity-filmvorfuehrung-melancholia?tx_news_pi1%5Bday%5D=24&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=da6b61924a08a637e1ebfd2435470580",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-45788ba808",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "silent green Open Lab #8: aiel + Xingqi Liu",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/silent-green-open-lab-8-aiel-xingqi-liu?tx_news_pi1%5Bday%5D=28&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=52f575ed8036a117ed8e1785e04e7408",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    },
+    {
+      "id": "silent-green-html-music-a171125ea5",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Hanno Leichtmann: OSCILLAZIONI",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "02:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/hanno-leichtmann-oscillazioni?tx_news_pi1%5Bday%5D=31&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=c2d704e82b83549a281429443a68ff7a",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown"
+    }
+  ],
+  "gaps": [
+    "music",
+    "wildcards",
+    "advance_radar"
+  ],
+  "section_counts": {
+    "wildcards": 62,
+    "film": 8,
+    "exhibitions": 33,
+    "performing_arts": 4,
+    "advance_radar": 10,
+    "music": 28
+  },
+  "programme_counts": {
+    "performing_arts": 1,
+    "wildcards": 52,
+    "advance_radar": 10,
+    "exhibitions": 25,
+    "music": 28
+  },
+  "press_counts": {
+    "wildcards": 22,
+    "exhibitions": 6
+  },
+  "calendar_counts": {
+    "performing_arts": 1,
+    "wildcards": 52,
+    "advance_radar": 10,
+    "exhibitions": 25,
+    "music": 28
+  },
+  "rss_counts": {
+    "performing_arts": 1,
+    "wildcards": 52,
+    "advance_radar": 10,
+    "exhibitions": 25,
+    "music": 28
+  },
+  "openai_targets": {
+    "wildcards": 2,
+    "film": 5,
+    "exhibitions": 2,
+    "performing_arts": 3,
+    "advance_radar": 1,
+    "music": 2
+  },
+  "calendar_merged": 132,
+  "music_supplement": {},
+  "search_notes": "Phase 1 web_search_calls=4. Programme counts: {'performing_arts': 1, 'wildcards': 52, 'advance_radar': 10, 'exhibitions': 25, 'music': 28}. Press counts: {'wildcards': 22, 'exhibitions': 6}. OpenAI targets: {'wildcards': 2, 'film': 5, 'exhibitions': 2, 'performing_arts': 3, 'advance_radar': 1, 'music': 2}. Calendar merged: 132. No qualifying experimental music events with confirmed dates for July 1–7, 2026, were found across target venues (KM28 series lacks precise dates; other venues yield no results). No qualifying events in wildcards (talks/lectures) or advance radar (must-see future exhibitions/festivals) surfaced in the research notes for this period. All JSON items are strictly based on documented web research; no fabricated entries used.",
+  "url_verified_at": "2026-06-30T08:33:37.120014+00:00",
+  "url_verify_stats": {
+    "checked": 13,
+    "live": 1,
+    "dead": 12,
+    "shallow": 12,
+    "verified_after": 1,
+    "skipped": 132
+  }
+}
