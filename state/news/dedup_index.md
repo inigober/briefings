@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-06-30
+
+- **spain-budget-stability-path-july** — Government plans July stability-path votes and 2.6% GDP forecast to unlock September budget drafting (section: spain)
+- **spain-leire-sepi-25-imputations** — Judge Pedraz imputes SEPI president Losada and 24 others in expanding Leire Díez corruption probe (section: spain)
+- **spain-monedero-complutense-suspension** — Complutense bars Podemos founder Monedero for one year over sexist-harassment finding (section: spain)
+- **germany-bmw-us-ev-bet** — BMW holds US electrification course as German rivals scale back EV plans amid Trump hostility (section: germany)
+- **germany-assisted-telemedicine-pharmacy-july** — Nationwide assisted telemedicine via pharmacy booths launches 1 July (section: germany)
+- **germany-wm-exit-paraguay-press** — Germany eliminated on penalties; global press questions football identity as Nagelsmann stays (section: germany)
+- **berlin-wegner-blackout-phone-disclosure** — Court orders Senate to release Wegner's blackout-day call logs after misleading statements (section: berlin)
+- **berlin-kant-gymnasium-spandau-relocation** — Spandau studies moving prestigious Kant-Gymnasium from Charlottenburg after build-plan failure (section: berlin)
+- **berlin-pools-ai-drowning-detection** — Municipal pool operators to trial AI distress-detection cameras amid heat-driven attendance surge (section: berlin)
+- **world-china-smartphone-target-cuts** — Xiaomi, Oppo and Vivo cut 2026 handset targets again as demand softens (section: world)
+- **world-el-nino-agriculture-threat** — Intensifying El Niño threatens global harvests atop trade and energy stress (section: world)
+- **world-us-iran-hormuz-doha-talks** — Washington and Tehran position for Qatar talks focused on Hormuz shipping control (section: world)
+
 ## 2026-06-29
 
 - **spain-valencia-metro-pp-bribery-victims** — Cotino allegedly offered public jobs to 2006 metro-crash families to stop legal action ahead of twentieth anniversary (section: spain)
@@ -200,21 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-boj-rate-hike-1pct** — Bank of Japan raises policy rate to 1%, 31-year high (section: world)
 - **world-eduardo-bolsonaro-prison-sentence** — Brazil supreme court jails Bolsonaro son for US interference in coup trial (section: world)
 - **world-toronto-gun-for-hire-network** — Toronto police link consulate shooting to encrypted gun-for-hire network (section: world)
-
-## 2026-06-16
-
-- **spain-torrejon-mir-hospital-refusal** — Torrejón hospital asks Madrid region to stop assigning resident doctors as cost-saving measure (section: spain)
-- **spain-von-der-leyen-kallas-eu-diplomacy** — Von der Leyen–Kallas turf war undermines EU foreign-policy coherence (section: spain)
-- **spain-nutriscore-cereal-labeling-paradox** — Nutri-score rates identical cereals differently across countries (section: spain)
-- **germany-russia-sabotage-spies-bundesanwaltschaft** — Federal prosecutors pursue Russian sabotage networks using low-cost agents (section: germany)
-- **germany-ai-political-speeches-bundestag** — Senior politicians admit delivering AI-generated Bundestag speeches (section: germany)
-- **germany-musk-zdf-legal-threat** — Musk threatens legal action against ZDF over Northern Ireland coverage (section: germany)
-- **berlin-neukoelln-school-oversubscription** — Neukölln secondary schools oversubscribed; demand uneven across school types (section: berlin)
-- **berlin-emergency-water-fountains-broken** — Hundreds of Berlin Notwasserbrunnen out of service (section: berlin)
-- **berlin-raw-cassiopeia-club-closure** — RAW-Gelände redevelopment failure threatens Cassiopeia club with insolvency (section: berlin)
-- **world-canada-corporate-human-rights-ombudsperson-scrapped** — Canada abolishes watchdog for human-rights abuses by firms operating abroad (section: world)
-- **world-starbucks-korea-history-lesson-shutdown** — Starbucks Korea closes all stores for mandatory history lesson after promotion backlash (section: world)
-- **world-sri-lanka-cybercrime-hub-relocation** — Sri Lanka emerges as cyber-scam hub as networks flee south-east Asia crackdowns (section: world)
 
 ## Saturated topics — do not return without material development
 

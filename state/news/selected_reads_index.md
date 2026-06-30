@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-06-30
+
+- [Is AI an exoskeleton for the mind?](https://www.ft.com/content/b2eeb915-90db-4308-9a1e-f3c29553403c) — Financial Times
+- [What would multilateral 'AI arms control' look like?](https://www.ft.com/content/7aa4b53d-2e07-4971-9e30-8b0c63eb4ff2) — Financial Times
+- [The Billionaires' Vagina Club](https://www.newyorker.com/magazine/2026/07/06/the-billionaires-vagina-club) — The New Yorker
+- [Thailand's largest opposition gets reality check in Bangkok vote](https://asia.nikkei.com/politics/thailand-s-largest-opposition-gets-reality-check-in-bangkok-vote) — Nikkei Asia
+
 ## 2026-06-29
 
 - [The new AI-based world order](https://www.ft.com/content/ce505663-9567-40a1-ab9d-91b6bdb90a17) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [SoftBank shares slipped over 12% on concerns of OpenAI IPO delay](https://asia.nikkei.com/business/markets/softbank-shares-slipped-over-12-on-concerns-of-openai-ipo-delay) — Nikkei Asia
 - [Attack in Strait of Hormuz halts evacuation plan for stranded ships](https://www.ft.com/content/5abcb3c1-8ce8-470f-8a37-f47af58b2f7c) — Financial Times
 - [How the DeepMind mafia brought the AI boom to London](https://www.ft.com/content/6a3a46b9-4725-469e-a909-917768a74afb) — Financial Times
-
-## 2026-06-25
-
-- [Insurers slash war premiums for Strait of Hormuz ships](https://www.ft.com/content/b62d823c-865b-4fa6-a492-1cd65d3400cb) — Financial Times
-- [EU looks at tech to bulk up its police agency](https://www.politico.eu/article/eu-technology-police-agency-europol/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [UK prioritised ties with UAE over averting mass atrocities in Sudan, MPs to be told](https://www.theguardian.com/global-development/2026/jun/23/uk-ties-uae-mass-atrocities-sudan-mps-select-committee-nathaniel-raymond) — The Guardian
-- [SoftBank chipmaker Arm hits 50% share in top AI data centers: exec](https://asia.nikkei.com/editor-s-picks/interview/softbank-chipmaker-arm-hits-50-share-in-top-ai-data-centers-exec) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 

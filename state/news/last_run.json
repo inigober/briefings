@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-06-29",
-  "briefing_date": "2026-06-29",
-  "inbox_date": "2026-06-29",
+  "date": "2026-06-30",
+  "briefing_date": "2026-06-30",
+  "inbox_date": "2026-06-30",
   "status": "success",
-  "briefing_path": "briefings/news/2026-06-29.md",
-  "inbox_path": "inbox/news/2026-06-29-synthesis.json",
+  "briefing_path": "briefings/news/2026-06-30.md",
+  "inbox_path": "inbox/news/2026-06-30-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "La causa contra Zapatero se expande entre acusaciones de nulidad y filtraciones", "section": "spain", "reason": "recent_topics: spain-zapatero-plus-ultra covered 2026-06-17–18; expansion not materially distinct"},
-    {"headline": "La regularización de inmigrantes culmina con cifras que superan las previsiones iniciales", "section": "spain", "reason": "avoid_unless_material: migration regularization; demoted to Other Headlines"},
-    {"headline": "Algoritmos que predicen lesiones y analizan fichajes: el 'big data' cambia el fútbol", "section": "spain", "reason": "demoted to Other Headlines: World Cup tech feature; three stronger governance stories retained"},
-    {"headline": "Morning Briefing Podcast: Industrie: Die Jobs verschwinden – und niemand tut etwas", "section": "germany", "reason": "theme_duplicate: same industrial-jobs thesis as morning-briefing text piece; kept one"},
-    {"headline": "Hohe Temperaturen: Wirtschaft sorgt sich vor Folgen der Hitzewelle", "section": "germany", "reason": "avoid_unless_material: heatwave adaptation; demoted to Other Headlines"},
-    {"headline": "Lage im Überblick: USA setzen trotz Eskalation auf Dialog mit Iran", "section": "germany", "reason": "geographic_misfit: US–Iran diplomacy belongs in World/Other Headlines"},
-    {"headline": "41,7 Grad in Brandenburg – und trotzdem sagt einer: Früher war es auch heiß", "section": "berlin", "reason": "recent_topics: berlin-temperature-records-40c covered 2026-06-28"},
-    {"headline": "Hitzewelle in Berlin und Brandenburg: Hier wird vor dem Baden gewarnt", "section": "berlin", "reason": "recent_topics: berlin-heatwave-swimming-warnings covered 2026-06-28"},
-    {"headline": "Langjähriger SPD-Politiker bleibt Landrat in Ostprignitz-Ruppin", "section": "berlin", "reason": "geographic_misfit: Brandenburg local election, not Berlin city governance"},
-    {"headline": "US says it has agreed deal with Iran to halt strikes and resume talks", "section": "world", "reason": "theme_duplicate: Middle East truce captured in Other Headlines; kept AI power, Indonesia factory, Putin fuel admission"},
+    {"headline": "Últimas horas para pedir la regularización: el plazo acaba con más de un millón de solicitudes presentadas", "section": "spain", "reason": "avoid_unless_material: migration regularization; demoted to Other Headlines"},
+    {"headline": "El PP acusa al Gobierno de inflar los censos: No hay ley de nietos que oculte que España necesita reiniciarse", "section": "spain", "reason": "weaker than budget calendar, Leire imputations and Monedero sanction trio"},
+    {"headline": "La pareja de Ayuso declara en el juzgado por el señalamiento de Miguel Ángel Rodríguez a dos periodistas", "section": "spain", "reason": "court testimony noted in Other Headlines; three stronger governance stories retained"},
+    {"headline": "Morning Briefing: Endlich mal ein deutscher Autokonzern, der sich was traut", "section": "germany", "reason": "theme_duplicate: same BMW-US-EV thesis as podcast piece; kept one"},
+    {"headline": "Lage im Überblick: Treffen USA-Iran in Doha? - Streit um Straße von Hormus", "section": "germany", "reason": "geographic_misfit: US–Iran Hormuz diplomacy belongs in World/Other Headlines"},
+    {"headline": "41,7 Grad in Brandenburg – und trotzdem sagt einer: Früher war es auch heiß", "section": "berlin", "reason": "avoid_unless_material: heatwave adaptation; recent_topics berlin-temperature-records-40c"},
+    {"headline": "Polizei veröffentlicht Details zum Blutbad in Mutter-Kind-Heim", "section": "berlin", "reason": "geographic_misfit: Stade shooting is Lower Saxony, not Berlin city governance"},
+    {"headline": "Langjähriger SPD-Politiker bleibt Landrat in Ostprignitz-Ruppin", "section": "berlin", "reason": "geographic_misfit: Brandenburg local election outside Berlin proper"},
     {"headline": "Australian man charged with murder in Thailand after teenage girl's body found in suitcase", "section": "selected_reads", "reason": "crime tabloid; analysis pool stronger for Selected Reads mix"},
-    {"headline": "AI fuels record $200bn M&A boom in US power sector", "section": "selected_reads", "reason": "duplicate: same URL used in World section today"}
+    {"headline": "Heavy corporate AI spenders add staff faster than peers", "section": "selected_reads", "reason": "demoted to Other Headlines; FT AI feature pair plus New Yorker and Nikkei politics retained"},
+    {"headline": "China Tech Growth Makes Energy Demand Harder to Forecast", "section": "world", "reason": "theme_duplicate: China industrial story covered via smartphone target cuts"},
+    {"headline": "New Caledonia polls open in first local vote in the French territory since 2019", "section": "world", "reason": "demoted to Other Headlines; East Asia, El Niño and Hormuz trio retained for regional diversity"}
   ],
-  "notes": "Synthesis from 2026-06-29 pre-fetch; Valencia metro bribery, Morocho Kitchen testimony, Quirón lab clash, industrial jobs inaction, training-cost law, Hantavirus all-clear, Karl-Marx-Straße cooling, Union Berlin squad gaps, Dogue pentathlon, US power M&A, Firmus Indonesia AI factory, Putin fuel shortages."
+  "notes": "Synthesis from 2026-06-30 pre-fetch; budget July path, Leire/SEPI imputations, Monedero suspension, BMW US EV bet, pharmacy telemedicine, WM exit press, Wegner blackout disclosure, Kant-Gymnasium move, pool AI safety, China smartphone cuts, El Niño food risk, Hormuz Doha talks."
 }
