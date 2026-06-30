@@ -32,3 +32,12 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-06-23 | film | Donkey Days | Wolf Kino | https://wolfberlin.org/de/programm/filme/donkey-days
 2026-06-23 | music | Maria Baptist Trio: Five Special Nights | A-Trane | https://a-trane.de/Events-Directory/a-trane-praesentiert-summerweekconcerts-day2jazz-versus-soccermaria-baptist-triofive-special-nights-trio-guestsfeat-today-fabian-timm-heinz-lichius/
 2026-06-23 | wildcards | My Virtual Bodies (Workshop) | DOCK11, Saal 4 | https://dock11-berlin.de/en/digital/program/schedule/my-virtual-bodies
+2026-06-30 | top_picks | School Performances of 'Rain' and 'BOLERO' | Radialsystem (Halle) | https://www.radialsystem.de/en/programm/programm/
+2026-06-30 | top_picks | Philipp Gufler — Imitationen von Paul | BQ | https://www.indexberlin.com/exhibitions/list/42826/imitationen-von-paul
+2026-06-30 | top_picks | Berlin launch: Lilia Topouzova in conversation with Kate Connolly | Between Bridges | https://www.indexberlin.com/events/list/44739/berlin-launch-acclaimed-historian-and-artist-lilia-topouzova-in-conversation-with-kate-connolly
+2026-06-30 | exhibitions | Jeff Davis — Mechanical Drawings | OFFICE IMPART | https://www.indexberlin.com/exhibitions/list/43596/mechanical-drawings
+2026-06-30 | music | MetropolCon 2026 | Silent Green | https://www.silent-green.net/en/programme/detail/metropolcon-2026?tx_news_pi1%5Bday%5D=2&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=6550140754453a1df6ebee0148fd77a5
+2026-06-30 | wildcards | Cihan Çakmak — breaking is reflection | Galerie EIGEN + ART Berlin | https://www.indexberlin.com/events/list/44416/breaking-is-reflection
+2026-06-30 | wildcards | Finissage ATLANTINNEN | Deutscher Künstlerbund | https://www.indexberlin.com/events/list/42763/finissage-presentation-of-the-special-edition-on-the-theme-atlantinnen-das-er-halten-der-welt
+2026-06-30 | advance_radar | Artist Talk with Evan Roth | Potsdamer Str. 65 | https://www.indexberlin.com/events/list/44322/artist-talk-with-evan-roth
+2026-06-30 | advance_radar | Concert-Week | Auguststr. 69, Mitte | https://www.indexberlin.com/events/list/44797/concert-week
