@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-01
+
+- [The fragility of the world's economic resilience](https://www.ft.com/content/7d732c78-8d3d-4e10-a3a1-4e0c79e36d36) — Financial Times
+- [Qualcomm challenges Nvidia's AI grip with chip that ditches HBM](https://asia.nikkei.com/business/technology/artificial-intelligence/qualcomm-challenges-nvidia-s-ai-grip-with-chip-that-ditches-hbm) — Nikkei Asia
+- [Doomsday Climate Scenarios Were Wrong. That Doesn't Help Europe.](https://foreignpolicy.com/2026/06/30/science-climate-europe-global-warming-heat-wave/) — Foreign Policy
+- [Venezuelans Were Sorting Through the Rubble Alone](https://www.theatlantic.com/science/2026/06/venezuela-earthquake-towers/687747/?utm_source=feed) — The Atlantic
+
 ## 2026-06-30
 
 - [Is AI an exoskeleton for the mind?](https://www.ft.com/content/b2eeb915-90db-4308-9a1e-f3c29553403c) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - ['Tit-for-tat' trade warfare threatens global economy, says IMF chief economist](https://www.ft.com/content/8199cd6d-e513-4c9a-9beb-8a7acd2b65dc) — Financial Times
 - [Europe's Come-to-AC Moment](https://www.theatlantic.com/health/2026/06/europe-air-conditioning/687711/?utm_source=feed) — The Atlantic
 - ['Chock full of incredible animals': marine expedition uncovers 31 new species in two weeks](https://www.theguardian.com/environment/2026/jun/26/marine-expedition-uncovers-31-new-species-two-weeks-brazil) — The Guardian
-
-## 2026-06-26
-
-- [The Geopolitics of SpaceX and Elon Musk](https://foreignpolicy.com/2026/06/25/spacex-elon-musk-geopolitics-ai-x-quinn-slobodian/) — Foreign Policy
-- [SoftBank shares slipped over 12% on concerns of OpenAI IPO delay](https://asia.nikkei.com/business/markets/softbank-shares-slipped-over-12-on-concerns-of-openai-ipo-delay) — Nikkei Asia
-- [Attack in Strait of Hormuz halts evacuation plan for stranded ships](https://www.ft.com/content/5abcb3c1-8ce8-470f-8a37-f47af58b2f7c) — Financial Times
-- [How the DeepMind mafia brought the AI boom to London](https://www.ft.com/content/6a3a46b9-4725-469e-a909-917768a74afb) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

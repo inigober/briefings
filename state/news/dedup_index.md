@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-01
+
+- **spain-eu-recovery-fund-flexibilization-august** — Government agrees with Brussels to redeploy completed milestone savings on recovery spending after 31 August deadline (section: spain)
+- **spain-june-heatwave-900-deaths** — Carlos III monitoring links roughly 900 excess fatalities to June heatwave; second-hottest June on record (section: spain)
+- **spain-ley-mordaza-11th-year-repeal-stalled** — Citizens' security law marks eleventh anniversary with congressional repeal bill still frozen (section: spain)
+- **germany-six-figure-kuendigungsschutz-debate** — Employers push to end dismissal protection for high earners ahead of coalition reform summit (section: germany)
+- **germany-fine-dust-pm25-mortality-risk** — Handelsblatt analysis: PM2.5 remains hidden health risk despite falling national averages (section: germany)
+- **germany-wm-ticket-resale-tax-liability** — Tax office may classify profitable World Cup ticket flipping as taxable commercial activity (section: germany)
+- **berlin-epa-old-phones-july-lockout** — Outdated smartphones lose statutory-insurance app access to digital patient records from 1 July (section: berlin)
+- **berlin-spandau-7th-grade-enrollment-surge** — District posts record Gymnasium applications with shifting school preference tables (section: berlin)
+- **berlin-dahlem-luxury-flats-prime-prices-soften** — Sixty high-end units top out in Dahlem as citywide top-segment sale prices edge down (section: berlin)
+- **world-south-africa-anti-immigrant-protests** — Mass demonstrations and xenophobic violence drive undocumented migrants to flee major cities (section: world)
+- **world-qualcomm-ai-chip-no-hbm** — Qualcomm challenges Nvidia with AI accelerator architecture that forgoes high-bandwidth memory (section: world)
+- **world-white-house-lifts-anthropic-ban** — US government re-authorises federal use of Anthropic Mythos and Fable models (section: world)
+
 ## 2026-06-30
 
 - **spain-budget-stability-path-july** — Government plans July stability-path votes and 2.6% GDP forecast to unlock September budget drafting (section: spain)
@@ -200,21 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-ghana-reparatory-justice-accra** — Ghana hosts major reparations conference after UN slavery resolution (section: world)
 - **world-titan-sub-canadian-report** — Canadian inquiry blames Titan implosion on design flaws and groupthink (section: world)
 - **world-ebola-bunia-drc-workers** — Ebola outbreak paralyses Bunia schools and informal economy (section: world)
-
-## 2026-06-17
-
-- **spain-zapatero-audiencia-nacional-appearance** — First ex-PM appears before Audiencia Nacional as investigatee in Plus Ultra probe (section: spain)
-- **spain-madrid-school-heat-37c-new-build** — Madrid primary school hits 37°C in newly built classrooms (section: spain)
-- **spain-barcelona-school-ac-tourism-tax** — Barcelona air-conditions 84 schools using tourism-levy revenue (section: spain)
-- **germany-leipzig-chemnitz-rail-cost-overrun** — Cost explosion forces scope cuts on Leipzig–Chemnitz rail upgrade (section: germany)
-- **germany-eu-gene-editing-food-labels** — EU vote on biotechnology reform raises consumer-labelling questions (section: germany)
-- **germany-pentagon-grok-iran-targeting** — Pentagon admits xAI Grok used in Iran-war precision strikes (section: germany)
-- **berlin-gedaechtniskirche-paid-entry** — Kaiser Wilhelm Memorial Church plans partial paid admission for refurbishment (section: berlin)
-- **berlin-jehovah-witnesses-memorial-tiergarten** — New Tiergarten memorial honours Jehovah's Witnesses persecuted under Nazism (section: berlin)
-- **berlin-leegebruch-rent-spillover** — Brandenburg town Leegebruch faces rent pressure from Berlin spillover (section: berlin)
-- **world-boj-rate-hike-1pct** — Bank of Japan raises policy rate to 1%, 31-year high (section: world)
-- **world-eduardo-bolsonaro-prison-sentence** — Brazil supreme court jails Bolsonaro son for US interference in coup trial (section: world)
-- **world-toronto-gun-for-hire-network** — Toronto police link consulate shooting to encrypted gun-for-hire network (section: world)
 
 ## Saturated topics — do not return without material development
 
