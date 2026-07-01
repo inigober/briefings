@@ -6,6 +6,81 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-01
+
+- **spain-eu-recovery-fund-flexibilization-august** — Government agrees with Brussels to redeploy completed milestone savings on recovery spending after 31 August deadline (section: spain)
+- **spain-june-heatwave-900-deaths** — Carlos III monitoring links roughly 900 excess fatalities to June heatwave; second-hottest June on record (section: spain)
+- **spain-ley-mordaza-11th-year-repeal-stalled** — Citizens' security law marks eleventh anniversary with congressional repeal bill still frozen (section: spain)
+- **germany-six-figure-kuendigungsschutz-debate** — Employers push to end dismissal protection for high earners ahead of coalition reform summit (section: germany)
+- **germany-fine-dust-pm25-mortality-risk** — Handelsblatt analysis: PM2.5 remains hidden health risk despite falling national averages (section: germany)
+- **germany-wm-ticket-resale-tax-liability** — Tax office may classify profitable World Cup ticket flipping as taxable commercial activity (section: germany)
+- **berlin-epa-old-phones-july-lockout** — Outdated smartphones lose statutory-insurance app access to digital patient records from 1 July (section: berlin)
+- **berlin-spandau-7th-grade-enrollment-surge** — District posts record Gymnasium applications with shifting school preference tables (section: berlin)
+- **berlin-dahlem-luxury-flats-prime-prices-soften** — Sixty high-end units top out in Dahlem as citywide top-segment sale prices edge down (section: berlin)
+- **world-south-africa-anti-immigrant-protests** — Mass demonstrations and xenophobic violence drive undocumented migrants to flee major cities (section: world)
+- **world-qualcomm-ai-chip-no-hbm** — Qualcomm challenges Nvidia with AI accelerator architecture that forgoes high-bandwidth memory (section: world)
+- **world-white-house-lifts-anthropic-ban** — US government re-authorises federal use of Anthropic Mythos and Fable models (section: world)
+
+## 2026-06-30
+
+- **spain-budget-stability-path-july** — Government plans July stability-path votes and 2.6% GDP forecast to unlock September budget drafting (section: spain)
+- **spain-leire-sepi-25-imputations** — Judge Pedraz imputes SEPI president Losada and 24 others in expanding Leire Díez corruption probe (section: spain)
+- **spain-monedero-complutense-suspension** — Complutense bars Podemos founder Monedero for one year over sexist-harassment finding (section: spain)
+- **germany-bmw-us-ev-bet** — BMW holds US electrification course as German rivals scale back EV plans amid Trump hostility (section: germany)
+- **germany-assisted-telemedicine-pharmacy-july** — Nationwide assisted telemedicine via pharmacy booths launches 1 July (section: germany)
+- **germany-wm-exit-paraguay-press** — Germany eliminated on penalties; global press questions football identity as Nagelsmann stays (section: germany)
+- **berlin-wegner-blackout-phone-disclosure** — Court orders Senate to release Wegner's blackout-day call logs after misleading statements (section: berlin)
+- **berlin-kant-gymnasium-spandau-relocation** — Spandau studies moving prestigious Kant-Gymnasium from Charlottenburg after build-plan failure (section: berlin)
+- **berlin-pools-ai-drowning-detection** — Municipal pool operators to trial AI distress-detection cameras amid heat-driven attendance surge (section: berlin)
+- **world-china-smartphone-target-cuts** — Xiaomi, Oppo and Vivo cut 2026 handset targets again as demand softens (section: world)
+- **world-el-nino-agriculture-threat** — Intensifying El Niño threatens global harvests atop trade and energy stress (section: world)
+- **world-us-iran-hormuz-doha-talks** — Washington and Tehran position for Qatar talks focused on Hormuz shipping control (section: world)
+
+## 2026-06-29
+
+- **spain-valencia-metro-pp-bribery-victims** — Cotino allegedly offered public jobs to 2006 metro-crash families to stop legal action ahead of twentieth anniversary (section: spain)
+- **spain-podemos-morocho-kitchen-guerra-sucia** — Podemos asks judge to summon inspector Morocho linking Kitchen trial to PP dirty-war operations (section: spain)
+- **spain-quiron-madrid-lab-workers-dismissal** — Quirón Salud workers protest day-one dismissals after winning Madrid central-lab concession (section: spain)
+- **germany-industrial-jobs-vanishing-inaction** — Handelsblatt warns VW/Mercedes/Bosch job losses outpace federal policy response (section: germany)
+- **germany-employer-training-cost-obligations** — Labour-law column clarifies when firms must fund mandatory worker training (section: germany)
+- **germany-hantavirus-cruise-who-all-clear** — WHO signals German-linked cruise-ship Hantavirus cluster is ending (section: germany)
+- **berlin-karl-marx-strasse-heat-mitigation** — Urban planners propose cooling alternatives where tree planting is impossible on Neukölln corridor (section: berlin)
+- **berlin-union-berlin-lustrinelli-squad-gaps** — Union Berlin faces roster holes as new coach Lustrinelli starts pre-season (section: berlin)
+- **berlin-dogue-pentathlon-world-cup** — Marvin Dogue becomes first German modern pentathlete to win overall World Cup (section: berlin)
+- **world-ai-us-power-ma-200bn** — AI data-centre demand drives record $200bn US utilities M&A wave (section: world)
+- **world-firmus-nvidia-ai-factory-indonesia** — Australia's Firmus announces Nvidia-backed AI campus in Indonesia (section: world)
+- **world-putin-fuel-shortages-refinery-drones** — Putin admits Ukrainian drone strikes on refineries are causing domestic fuel shortages (section: world)
+
+## 2026-06-28
+
+- **spain-psoe-page-federal-committee-election-call** — Castilla-La Mancha premier Page demands early elections at PSOE Federal Committee; Sánchez vows to fight on (section: spain)
+- **spain-feijoo-catalonia-electoral-key** — Feijóo tells Catalan PP to deliver historic result as key to ousting Sánchez (section: spain)
+- **spain-sumar-lara-hernandez-leadership-challenge** — Sumar critics unite behind rival list to replace leader Lara Hernández (section: spain)
+- **germany-tankrabatt-expiry-july** — €1.6bn petrol-tax rebate ends Tuesday as drivers face last fill-up decisions (section: germany)
+- **germany-branded-coffee-price-cuts** — Retailers cut branded coffee prices after years of post-shock increases (section: germany)
+- **germany-children-myopia-plateau** — German childhood short-sightedness prevalence stabilises despite global screen-time surge (section: germany)
+- **berlin-temperature-records-40c** — Berlin hits 39.9°C and Brandenburg sets state record at 40.8°C (section: berlin)
+- **berlin-trans-nonbinary-street-assault** — Men attack trans woman and non-binary person in Berlin hate-motivated assault (section: berlin)
+- **berlin-heatwave-swimming-warnings** — Authorities caution bathers as heat drives crowds to lakes with mixed water quality (section: berlin)
+- **world-venezuela-quake-death-toll-920** — Venezuela earthquake death toll nears 920 as rescue frustration mounts (section: world)
+- **world-sri-lanka-dengue-military-drones** — Sri Lanka deploys military drones against dengue surge amid Iran-war fuel strain (section: world)
+- **world-google-caps-meta-gemini-access** — Google limits Meta's Gemini use as AI compute scarcity bites (section: world)
+
+## 2026-06-27
+
+- **spain-valencia-dana-camarero-whatsapp-reticence** — Valencia vice-president nearly withheld Dana-day WhatsApp messages from investigating judge (section: spain)
+- **spain-housing-tax-public-spend-fiscal-gap** — OCDE data show Spain collects €52bn in housing taxes but spends €7bn on public housing (section: spain)
+- **spain-digital-forensics-expurgo-legal-gap** — Legal vacuum on cloned devices exposes private messages without wiretap-style expurgo rules (section: spain)
+- **germany-cement-consumption-wwii-low** — Industry association reports cement use at lowest level since Second World War (section: germany)
+- **germany-vw-china-models-germany-production** — Lower Saxony premier Olaf Lies urges VW to build Chinese-designed models in Germany (section: germany)
+- **germany-rente-mit-63-abolition-fight** — Pensions commission and coalition split over ending penalty-free early retirement at 63 (section: germany)
+- **berlin-zehlendorf-explosive-device-workshop** — Improvised explosive thrown onto car-repair yard in Berlin-Zehlendorf (section: berlin)
+- **berlin-hertha-cuisance-lens-transfer** — Hertha BSC sells Michaël Cuisance to RC Lens amid squad overhaul (section: berlin)
+- **berlin-brandenburg-kommunen-federal-cost-deal** — Brandenburg municipalities sceptical of Bund–Länder 80% cost-reimbursement pact (section: berlin)
+- **world-drc-ebola-missing-patients** — Africa CDC warns nearly 300 Ebola-positive people untraceable in eastern DR Congo (section: world)
+- **world-honda-ai-datacenter-batteries-us** — Honda repurposes Ohio battery plant for AI data-centre storage after EV pivot (section: world)
+- **world-lebanon-israel-framework-agreement** — Lebanon and Israel sign US-brokered framework in Washington without Hizbullah (section: world)
+
 ## 2026-06-26
 
 - **spain-miriam-gonzalez-democracia-21-registration** — España Mejor founder registers Democracia 21 party ahead of possible general-election bid (section: spain)
@@ -140,81 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-ghana-reparatory-justice-accra** — Ghana hosts major reparations conference after UN slavery resolution (section: world)
 - **world-titan-sub-canadian-report** — Canadian inquiry blames Titan implosion on design flaws and groupthink (section: world)
 - **world-ebola-bunia-drc-workers** — Ebola outbreak paralyses Bunia schools and informal economy (section: world)
-
-## 2026-06-17
-
-- **spain-zapatero-audiencia-nacional-appearance** — First ex-PM appears before Audiencia Nacional as investigatee in Plus Ultra probe (section: spain)
-- **spain-madrid-school-heat-37c-new-build** — Madrid primary school hits 37°C in newly built classrooms (section: spain)
-- **spain-barcelona-school-ac-tourism-tax** — Barcelona air-conditions 84 schools using tourism-levy revenue (section: spain)
-- **germany-leipzig-chemnitz-rail-cost-overrun** — Cost explosion forces scope cuts on Leipzig–Chemnitz rail upgrade (section: germany)
-- **germany-eu-gene-editing-food-labels** — EU vote on biotechnology reform raises consumer-labelling questions (section: germany)
-- **germany-pentagon-grok-iran-targeting** — Pentagon admits xAI Grok used in Iran-war precision strikes (section: germany)
-- **berlin-gedaechtniskirche-paid-entry** — Kaiser Wilhelm Memorial Church plans partial paid admission for refurbishment (section: berlin)
-- **berlin-jehovah-witnesses-memorial-tiergarten** — New Tiergarten memorial honours Jehovah's Witnesses persecuted under Nazism (section: berlin)
-- **berlin-leegebruch-rent-spillover** — Brandenburg town Leegebruch faces rent pressure from Berlin spillover (section: berlin)
-- **world-boj-rate-hike-1pct** — Bank of Japan raises policy rate to 1%, 31-year high (section: world)
-- **world-eduardo-bolsonaro-prison-sentence** — Brazil supreme court jails Bolsonaro son for US interference in coup trial (section: world)
-- **world-toronto-gun-for-hire-network** — Toronto police link consulate shooting to encrypted gun-for-hire network (section: world)
-
-## 2026-06-16
-
-- **spain-torrejon-mir-hospital-refusal** — Torrejón hospital asks Madrid region to stop assigning resident doctors as cost-saving measure (section: spain)
-- **spain-von-der-leyen-kallas-eu-diplomacy** — Von der Leyen–Kallas turf war undermines EU foreign-policy coherence (section: spain)
-- **spain-nutriscore-cereal-labeling-paradox** — Nutri-score rates identical cereals differently across countries (section: spain)
-- **germany-russia-sabotage-spies-bundesanwaltschaft** — Federal prosecutors pursue Russian sabotage networks using low-cost agents (section: germany)
-- **germany-ai-political-speeches-bundestag** — Senior politicians admit delivering AI-generated Bundestag speeches (section: germany)
-- **germany-musk-zdf-legal-threat** — Musk threatens legal action against ZDF over Northern Ireland coverage (section: germany)
-- **berlin-neukoelln-school-oversubscription** — Neukölln secondary schools oversubscribed; demand uneven across school types (section: berlin)
-- **berlin-emergency-water-fountains-broken** — Hundreds of Berlin Notwasserbrunnen out of service (section: berlin)
-- **berlin-raw-cassiopeia-club-closure** — RAW-Gelände redevelopment failure threatens Cassiopeia club with insolvency (section: berlin)
-- **world-canada-corporate-human-rights-ombudsperson-scrapped** — Canada abolishes watchdog for human-rights abuses by firms operating abroad (section: world)
-- **world-starbucks-korea-history-lesson-shutdown** — Starbucks Korea closes all stores for mandatory history lesson after promotion backlash (section: world)
-- **world-sri-lanka-cybercrime-hub-relocation** — Sri Lanka emerges as cyber-scam hub as networks flee south-east Asia crackdowns (section: world)
-
-## 2026-06-15
-
-- **spain-immigration-regularization-record-900k** — Regularisation drive reaches 900,000 applications with two weeks left (section: spain)
-- **spain-g7-france-western-unity** — G-7 summit in France tests transatlantic cohesion amid Iran and Ukraine crises (section: spain)
-- **spain-corruption-democratic-consensus** — Opinion argues corruption fight needs bipartisan consensus, not weaponisation (section: spain)
-- **germany-eon-power-grid-protection-limits** — Eon CEO says complete electricity-grid protection is impossible after attacks (section: germany)
-- **germany-iran-deal-economic-relief** — US–Iran framework deal raises hopes for German industry and energy costs (section: germany)
-- **germany-kyiv-lavra-unesco-fire** — Russian strike sets Kyiv cave monastery UNESCO site ablaze (section: germany)
-- **berlin-antisemitism-commissioner-selection** — Antisemitism officer pick for Berlin universities draws criticism over mandate (section: berlin)
-- **berlin-wegner-coalition-unpopular-cdu-leads** — Wegner coalition loses support; CDU leads poll as rivals weaken (section: berlin)
-- **berlin-sportstaetten-portal-rollout** — Senate sports-venue booking portal still unused by most boroughs (section: berlin)
-- **world-philippines-earthquake-coastal-uplift** — Mindanao quake raised seabed up to 2m, devastating coral and coastlines (section: world)
-- **world-jamaica-beach-privatization-court** — Activists sue to stop further Jamaican beach privatisation (section: world)
-- **world-global-education-attacks-40pct** — GCPEA study finds attacks on schools rose 40% across 83 countries (section: world)
-
-## 2026-06-14
-
-- **spain-defense-post-conscription** — Spain debates army model 25 years after mandatory military service ended (section: spain)
-- **spain-selectividad-perfecta-10-years** — Top 2016 entrance-exam graduates revisit career paths a decade on (section: spain)
-- **spain-zapatero-plus-ultra-phone-evidence-chain** — Five-year US-to-Spain timeline for Reyes phone data in Zapatero probe (section: spain)
-- **germany-uk-shadow-fleet-tanker-intercept** — Royal Navy stops Russian oil tanker in English Channel (section: germany)
-- **germany-swiss-population-cap-referendum** — Switzerland votes on ten-million resident ceiling (section: germany)
-- **germany-swiss-emigrant-returns** — Germans returning from Switzerland cite cost and social isolation (section: germany)
-- **berlin-dementia-tierpark-outing** — Structured zoo visits trigger memories for dementia patients (section: berlin)
-- **berlin-freddy-leck-waschsalon-fire** — Cult Moabit laundromat damaged by fire; operators pledge rebuild (section: berlin)
-- **berlin-phone-booth-depot-closure** — Michendorf telephone-box refurbishment yard shutting (section: berlin)
-- **world-china-min-zin-arrest** — Beijing detains US scholar Min Zin on espionage allegations (section: world)
-- **world-sierra-leone-first-lady-social-housing** — London council repossesses flat rented by Sierra Leone first lady (section: world)
-- **world-spacex-ipo-gulf-ai-capital** — Gulf sovereign wealth funding US AI via SpaceX listing narrative (section: world)
-
-## 2026-06-13
-
-- **spain-anthropic-export-model-lockout** — Anthropic blocks advanced Claude for foreign users after US export curbs (section: spain)
-- **spain-podemos-belarra-madrid** — Ione Belarra to lead Podemos Madrid regional list (section: spain)
-- **spain-zapatero-fiscal-investigation** — Zapatero tax probe over jewels limits regularisation path (section: spain)
-- **germany-berlin-hamburg-ice-reopening** — Berlin–Hamburg high-speed line reopens after troubled upgrade (section: germany)
-- **germany-northern-ireland-anti-racism-marches** — Large Belfast counter-demonstrations against racist unrest (section: germany)
-- **germany-leimbach-house-fire** — Twin house fire kills family in Rhineland-Palatinate (section: germany)
-- **berlin-tu-third-building-closure** — TU Berlin closes third building over fire-safety defects (section: berlin)
-- **berlin-db-megaproject-accountability** — Berlin politicians demand honest DB mega-project accounting (section: berlin)
-- **berlin-bellevue-freiraum-kunst** — Schloss Bellevue opens as temporary art venue before renovation (section: berlin)
-- **world-canada-toronto-officer-terror** — Toronto constable killed during consulate-linked warrants; global terror probe (section: world)
-- **world-thailand-princess-funeral** — Bangkok mourns Princess Bajrakitiyabha funeral procession (section: world)
-- **world-canada-openai-suicide-lawsuit** — Canadian mother sues OpenAI over daughter's suicide (section: world)
 
 ## Saturated topics — do not return without material development
 

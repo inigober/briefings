@@ -1,0 +1,714 @@
+{
+  "briefing_type": "berlin-culture",
+  "date": "2026-06-30",
+  "week_start": "2026-07-01",
+  "week_end": "2026-07-07",
+  "week_label": "July 1–7, 2026",
+  "source_raw": "inbox/berlin-culture/2026-06-30-raw.json",
+  "built_at": "2026-06-30T08:33:37.275855+00:00",
+  "model": "gpt-4.1",
+  "raw_item_count": 145,
+  "section_counts": {
+    "exhibitions": 2,
+    "film": 0,
+    "performing_arts": 2,
+    "music": 2,
+    "wildcards": 4,
+    "advance_radar": 5
+  },
+  "items": [
+    {
+      "id": "index-berlin-html-exhibitions-9814d6fcd7",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Mechanical Drawings",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43596/mechanical-drawings",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-b040788b32",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Imitationen von Paul",
+      "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/42826/imitationen-von-paul",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "perf-radialsystem-sasha-youth-2026-07",
+      "topic_ids": [
+        "performing_arts",
+        "dance",
+        "community"
+      ],
+      "title": "School Performances of 'Rain' and 'BOLERO' – Sasha Waltz & Guests Children’s and Youth Dance Company",
+      "venue": "Radialsystem (Halle)",
+      "dates": "2026-07-04 17:00; 2026-07-05 17:00; 2026-07-06 11:00",
+      "times": "see dates above",
+      "artists": [
+        "Sasha Waltz & Guests Children’s/Youth Dance Company"
+      ],
+      "official_url": "https://www.radialsystem.de/en/programm/programm/?utm_source=openai",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Fresh choreography performed by Berlin’s celebrated youth company — contemporary dance at the threshold of collective creativity, with strong educational and identity themes.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "rss-performing_arts-0d26a83944",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "In Erinnerung an Bianca Klose",
+      "venue": "Ballhaus Naunynstraße",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://ballhausnaunynstrasse.de/in-erinnerung-an-bianca-klose/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Selten hinterlassen Begegnungen solche stärkende Wirkung. Mit Bianca Klose haben wir nur eine gemeinsame Veranstaltung gemacht: gegen Rechts: die Kunst, politisch Stellung zu beziehen in 2017 am Ballhaus Naunynstraße. Akteur*innen aus Kunst, Kultur, Politik und Gesellschaft kamen hier zusammen, u...",
+      "ingestion_source": "rss",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "silent-green-html-music-3240e2ce26",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "MetropolCon 2026",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "05 July 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/metropolcon-2026?tx_news_pi1%5Bday%5D=2&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=6550140754453a1df6ebee0148fd77a5",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Silent Green programme — 05 July 2026",
+      "ingestion_source": "silent_green_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "silent-green-html-music-91526c8acf",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Arsenal Making Space: killer.berlin.doc",
+      "venue": "Silent Green",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/arsenal-raumgeben-killerberlindoc?tx_news_pi1%5Bday%5D=1&tx_news_pi1%5Bmonth%5D=6&tx_news_pi1%5Byear%5D=2026&cHash=d5201590da36931fa99819f51eb66992",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-ff6ab96f62",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Berlin launch: Acclaimed Historian and Artist Lilia Topouzova in conversation with Kate Connolly",
+      "venue": "Adalbertstr. 43\\n 10179 Berlin",
+      "dates": "01 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44739/berlin-launch-acclaimed-historian-and-artist-lilia-topouzova-in-conversation-with-kate-connolly",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Berlin launch: Acclaimed Historian and Artist Lilia Topouzova in conversation with Kate Connolly",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "berlin-launch",
+      "event_kind": "festival_event"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-8abdc708a6",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Cihan Çakmak breaking is reflection",
+      "venue": "Auguststr. 26 10117 Berlin",
+      "dates": "02 July 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44416/breaking-is-reflection",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Cihan Çakmak breaking is reflection",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-7c51a2cf13",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Inscape",
+      "venue": "Regina-Jonas-Str. 41/43 10999 Berlin",
+      "dates": "02 July 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44275/inscape",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Inscape",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-c24e544066",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Finissage & Presentation of the Special Edition on the theme »ATLANTINNEN & DAS (ER)HALTEN DER WELT«",
+      "venue": "Markgrafenstr. 67 10969 Berlin",
+      "dates": "02 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/42763/finissage-presentation-of-the-special-edition-on-the-theme-atlantinnen-das-er-halten-der-welt",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Finissage & Presentation of the Special Edition on the theme »ATLANTINNEN & DAS (ER)HALTEN DER WELT«",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-db76c4f1ae",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Concert-Week",
+      "venue": "Auguststr. 69 10117 Berlin",
+      "dates": "08 July 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44797/concert-week",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Concert-Week",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-2f4733760f",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Summer Party",
+      "venue": "Streustr. 90 13086 Berlin",
+      "dates": "08 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44367/summer-party",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Summer Party",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-ccfea9f87e",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Phelan O'Hara Towards Childhood",
+      "venue": "Niebuhrstr. 5 10629 Berlin",
+      "dates": "09 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44473/towards-childhood",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Phelan O'Hara Towards Childhood",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-c70eb7065b",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Calligraphy as a living image",
+      "venue": "Unter den Linden 5 10117 Berlin",
+      "dates": "09 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44798/calligraphy-as-a-living-image",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Calligraphy as a living image",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-3d54807e38",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Artist Talk with Evan Roth",
+      "venue": "Potsdamer Str. 65 10785 Berlin",
+      "dates": "09 July 2026",
+      "times": "18:30",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44322/artist-talk-with-evan-roth",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Artist Talk with Evan Roth",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    }
+  ],
+  "editorial_context": {
+    "rejected_candidates": [
+      {
+        "id": "index-berlin-html-exhibitions-90b561cd40",
+        "title": "Auto-Paragone",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-fe83df6d89",
+        "title": "Months Turn to Years",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-3196755626",
+        "title": "Enter Thru Medieval Wounds",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-4cd140e2e2",
+        "title": "ATLANTINNEN: deep dive. measuring. spirit. 52°/13°.",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-8e2c753966",
+        "title": "Passage",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-9383cd9506",
+        "title": "…oder liebst du deine Scheuklappen?",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-d0947ceb08",
+        "title": "Rehearsal Room",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-e6a1c09316",
+        "title": "Marseille 1994",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-db63caaf5d",
+        "title": "Ancora",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-1bc6aa760a",
+        "title": "Guten Morgen Sonnenschein",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-6b72822016",
+        "title": "Empty Places, Crowded Hearts",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-5cb89e7091",
+        "title": "distractions",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-46a56bc5c7",
+        "title": "Tender Ground",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-cbcc4d861e",
+        "title": "all we have – not even ours",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-5378d63b93",
+        "title": "Duensing & Wollheim",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-33f9cc2205",
+        "title": "Em torno do Aleph",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-1a8dafc722",
+        "title": "Sonic Pluriverse Festival: Global Echoes of Gnawa",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "sonic-pluriverse-festival",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-7c23642bae",
+        "title": "When a whole group is coming too late",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-21429e315a",
+        "title": "Louder, Taller, Uglier, Weirder – Von Unkraut lernen",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-575c729ade",
+        "title": "Rauschen – Arbeit und Wirken des Zentrums für Kunstausstellungen der DDR",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-3203e0c75c",
+        "title": "Cosmos: Agendas, Networks, Friendships",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-9f665238fb",
+        "title": "The Order of Chaos – Die Ordnung des Chaos",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-7d63cf6734",
+        "title": "wet wings",
+        "section": "exhibitions",
+        "reason": "venue_cap:neue nationalgalerie weltkunst christiane löhr soffuso levy",
+        "series_id": "",
+        "venue": "Neue Nationalgalerie WELTKUNST Christiane Löhr Soffuso LEVY"
+      },
+      {
+        "id": "silent-green-html-music-9d0d409fc7",
+        "title": "Cara Delevingne",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a71aa426ef",
+        "title": "Poesiefestival Berlin 2026",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-719600dde7",
+        "title": "Cabaret Voltaire – Final EU tour – sold out",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-6baea1de63",
+        "title": "TOTALE 04 – magazine release",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-c244348f4f",
+        "title": "Historische Führung",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-f5b775e8a1",
+        "title": "Martyna Basta pres. Winged in Collapse + Ange Halliwell",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-1ce6a5409d",
+        "title": "Symposium Berlin plant. Stunde Null",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-18eb66b1de",
+        "title": "transmediale open studio",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "open-studios",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-33e1e93075",
+        "title": "Avant Art Festival Berlin: Rożynek, Korzeniecka, Janicki, Papior + Antonina Nowacka + Drew McDowall & Pedro Maia (A/V)",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "polish-art-week",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-76ca4d7bf2",
+        "title": "Placid Angles (John Beltran) + Diamin (DJ-Set)",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-4042d12276",
+        "title": "MISS READ: The Berlin Art Book Fair & Festival 2026",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "miss-read",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-2ee5858f24",
+        "title": "hackedepicciotto – Sonic Morgue",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-9c5835a0d4",
+        "title": "Safety Trance pres. Safety Trance: DESTRUCCIÓN A/V + Evita Manji + Bungalovv (DJ-Set)",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-3d59790579",
+        "title": "Sunn O))) – sold out",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-7f81cad56e",
+        "title": "Sunn O))) – sold out",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-7e79889758",
+        "title": "THE LETTING GO – Book Launch",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-763f2335ab",
+        "title": "Samba Jean-Baptiste + Static Cleaner Lost Reward (Tarquin Manek)",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-6fccd53a6f",
+        "title": "silent green Open Lab #6: Gregory Pearce + gega.fisk",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-6fe843b533",
+        "title": "Bjørn Melhus: LOST IN FINITY – THE BEGINNING",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-395329582e",
+        "title": "Historische Führung",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-8c242cc44b",
+        "title": "Bjørn Melhus: LOST IN FINITY – THE END OF THE BEGINNING",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-eb499a1444",
+        "title": "silent green Open Lab #7: Shu and Frieda + GLTR Mauer",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-b1a426bac2",
+        "title": "silent green & Music From Beyond pres. Maresz + Del Gesù + The Midnight Audience",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a4c78f0465",
+        "title": "Bjørn Melhus: LOST IN FINITY – Screening MELANCHOLIA",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-45788ba808",
+        "title": "silent green Open Lab #8: aiel + Xingqi Liu",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a171125ea5",
+        "title": "Hanno Leichtmann: OSCILLAZIONI",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-fef3c9737d",
+        "title": "Bjørn Melhus: LOST IN FINITY – Opening Evening",
+        "section": "advance_radar",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-ee37de6365",
+        "title": "Bjørn Melhus: LOST IN FINITY",
+        "section": "advance_radar",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      }
+    ],
+    "diversification_caps": {
+      "max_per_venue": 2,
+      "max_per_series": 1
+    },
+    "note": "Pre-ranked with venue/series/event de-duplication across sections. Synthesis must still apply one-event-one-slot and Top Picks cross-reference rules."
+  },
+  "note": "Token-light culture slice for synthesis. Items with verified:true passed pre-fetch URL/schedule checks; synthesis spot-checks only unverified Top Picks and closing-soon items."
+}
