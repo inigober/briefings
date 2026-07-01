@@ -140,6 +140,9 @@ programme_urls:
       url: https://www.fsk-kino.de/kino
     - venue: Kino Krokodil
       url: https://www.kino-krokodil.de/programm
+    - venue: Floating University
+      url: https://floating-berlin.org/calendar-2026/
+      note: open-air screenings and film programmes — use /calendar-YYYY/
   performing_arts:
     - venue: HAU Hebbel am Ufer
       url: https://www.hebbel-am-ufer.de/programm
@@ -147,6 +150,9 @@ programme_urls:
       url: https://www.sophiensaele.com/en/timetable
     - venue: Radialsystem
       url: https://www.radialsystem.de/en/programm
+    - venue: Floating University
+      url: https://floating-berlin.org/calendar-2026/
+      note: use /calendar-YYYY/ for current season (May–October)
     - venue: Ballhaus Naunynstraße
       url: https://ballhausnaunynstrasse.de/en/programm
     - venue: Dock 11
@@ -155,6 +161,10 @@ programme_urls:
       url: https://www.tanzfabrik-berlin.de/en/programme
     - venue: Volksbühne
       url: https://www.volksbuehne.berlin/en/program
+  wildcards:
+    - venue: Floating University
+      url: https://floating-berlin.org/calendar-2026/
+      note: talks, symposia, workshops, Open Thursdays — use /calendar-YYYY/
   music:
     - venue: Silent Green
       url: https://www.silent-green.net/en/program
@@ -220,6 +230,7 @@ allowed_domains:
   - dock11-berlin.de
   - tanzfabrik-berlin.de
   - ballhausnaunynstrasse.de
+  - floating-berlin.org
 
 blocklist_domains:
   - facebook.com
@@ -282,6 +293,7 @@ priority_venues:
     - HAU Hebbel am Ufer
     - Sophiensæle
     - Radialsystem
+    - Floating University
     - Ballhaus Naunynstraße
     - Tanzfabrik
     - Dock 11
