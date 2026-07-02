@@ -1,0 +1,375 @@
+{
+  "briefing_type": "berlin-restaurants",
+  "date": "2026-07-02",
+  "fetched_at": "2026-07-02T08:01:14.793509+00:00",
+  "model": "gpt-4.1",
+  "fetch_mode": "combined",
+  "items": [
+    {
+      "id": "wei_house",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Wei House (Chuan House)",
+      "neighborhood": "Friedrichshain",
+      "address": "Landsberger Allee 6",
+      "cuisine": "Sichuan Chinese",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Authentic sichuan‑style málà heat and numbing Sichuan pepper",
+        "Handmade dim sum, strong regional identity, balanced bold flavors"
+      ],
+      "weaknesses": [
+        "Under‑the‑radar visibility so may feel hidden",
+        "Opulent decor may contrast with humble execution but not a flaw"
+      ],
+      "comparative_context": "More technical and region‑specific than generic Chinese spots; strong Sichuan focus",
+      "critical_assessment": "Offers deep, well‑balanced Sichuan flavors and dim sum culture in a modest‑scale setting; a valuable find for enthusiasts seeking craft over hype.",
+      "source_urls": [
+        "wei_house"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Chuan House",
+      "google_maps_address": "Landsberger Allee 6, 10249 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=17257470551723575126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJ_ef_hP1PqEcRVoc_ZQjafu8",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 524,
+      "google_maps_hours_compact": "Tue–Sat 17:00–22:30; Sun 17:30–22:30; (closed Mon)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "tian_fu",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Tian Fu",
+      "neighborhood": "Wilmersdorf",
+      "address": "Uhlandstraße 142",
+      "cuisine": "Sichuan Chinese",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Hot pot tradition, well‑executed dim sum, emphasis on regional Sichuan technique"
+      ],
+      "weaknesses": [
+        "Possibly more familiar to tourists, less under‑the‑radar"
+      ],
+      "comparative_context": "A reliable traditional Sichuan hot‑pot and dim sum venue versus more under‑the‑radar specialists",
+      "critical_assessment": "A solid, technically grounded Sichuan spot delivering classic regional dishes; dependable execution though less niche.",
+      "source_urls": [
+        "das gute essen von sichuan"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Tian Fu",
+      "google_maps_address": "Uhlandstraße 142, 10719 Berlin-Bezirk Charlottenburg-Wilmersdorf",
+      "google_maps_url": "https://maps.google.com/?cid=9725218145076602110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJ-TBnKfFQqEcR_mR5ZGDq9oY",
+      "google_maps_rating": 4.3,
+      "google_maps_review_count": 1225,
+      "google_maps_hours_compact": "Tue–Fri 12:00–15:00 & 17:30–22:30; Sat–Sun 12:00–22:30; (closed Mon)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "liu_nudelhaus",
+      "topic_ids": [
+        "regional_chinese",
+        "specialist_neighborhood"
+      ],
+      "name": "Liu Nudelhaus",
+      "neighborhood": "Mitte",
+      "address": "Kronenstraße 72",
+      "cuisine": "Chinese noodles (Chuan Chuan Xiang)",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Noodle specialist with Chengdu spice authenticity",
+        "Focused menu, strong regional identity"
+      ],
+      "weaknesses": [
+        "Somewhat confusing opening hours noted in press"
+      ],
+      "comparative_context": "Niche noodle shop vs full‑menu restaurants; strong regional craft of Chengdu noodles",
+      "critical_assessment": "A focused, affordable noodle specialist with genuine Sichuan-Chengdu technique; check opening times before visiting.",
+      "source_urls": [
+        "das gute essen von sichuan"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "LIU 成都味道面馆 Nudelhaus",
+      "google_maps_address": "Kronenstraße 72, 10117 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=5978374952795598817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJ_ekwy59RqEcR4W95Q1h091I",
+      "google_maps_rating": 4.5,
+      "google_maps_review_count": 2419,
+      "google_maps_hours_compact": "Mon–Tue 11:30–15:00; Wed–Fri 11:30–15:00 & 17:00–19:30; (closed Sat–Sun)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "buddhas_kitchen",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Buddha’s Kitchen",
+      "neighborhood": "Kreuzberg",
+      "address": "Falckensteinstraße 42",
+      "cuisine": "Vietnamese / Pan‑Asian",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Fresh ingredients, traditional Vietnamese and pan‑Asian dishes",
+        "Simple ambiance supports the food focus"
+      ],
+      "weaknesses": [
+        "General pan‑Asian label may obscure regional nuance"
+      ],
+      "comparative_context": "More ingredient‑focused and restrained vs flashier Vietnamese offerings",
+      "critical_assessment": "Honest, ingredient‑driven Vietnamese pan‑Asian cooking in a modest setting; strong on flavor and authenticity.",
+      "source_urls": [
+        "buddha´s kitchen Vietnamese Neukölln"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Buddha's Kitchen Berlin",
+      "google_maps_address": "Falckensteinstraße 42, 10997 Berlin-Bezirk Friedrichshain-Kreuzberg",
+      "google_maps_url": "https://maps.google.com/?cid=11810730879772874644&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJtQq-DVJOqEcRlFeZwigl6KM",
+      "google_maps_rating": 4.1,
+      "google_maps_review_count": 247,
+      "google_maps_hours_compact": null,
+      "exists_in_berlin": true,
+      "permanently_closed": true,
+      "temporarily_closed": false,
+      "maps_api_verified": false,
+      "verification_notes": "Places API: permanently closed; Places API lookup for 'Buddha’s Kitchen Falckensteinstraße 42 Berlin Germany' did not pass verification",
+      "verified": false
+    },
+    {
+      "id": "pho_noodlebar",
+      "topic_ids": [
+        "southeast_asian",
+        "specialist_neighborhood"
+      ],
+      "name": "PHO – Noodlebar Kreuzberg",
+      "neighborhood": "Kreuzberg",
+      "address": "Adalbertstraße 9",
+      "cuisine": "Vietnamese noodle soups (Pho)",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Fresh, fast, affordable pho and street‑food style dishes",
+        "Focused concept supports technique over decor"
+      ],
+      "weaknesses": [
+        "Informal, not suited to fine‑dining preferences"
+      ],
+      "comparative_context": "Street‑food authenticity vs stylized eateries",
+      "critical_assessment": "A dependable, flavorful pho spot offering excellent value; great for neighborhood quick meals.",
+      "source_urls": [
+        "PHO - Noodlebar Kreuzberg"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "PHO - Noodlebar (Kreuzberg)",
+      "google_maps_address": "Adalbertstraße 9, 10999 Berlin-Bezirk Friedrichshain-Kreuzberg",
+      "google_maps_url": "https://maps.google.com/?cid=16055962147337026381&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJbxEbh9ZPqEcRTTskP4E80t4",
+      "google_maps_rating": 4.4,
+      "google_maps_review_count": 1407,
+      "google_maps_hours_compact": "Daily 11:30–23:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "boii_boii",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Boii Boii",
+      "neighborhood": "Kreuzberg",
+      "address": "Lausitzer Straße 25",
+      "cuisine": "Contemporary Thai",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Contemporary Thai with authentic flavor balance, local ingredients",
+        "Strong hospitality and atmosphere, thoughtful technique"
+      ],
+      "weaknesses": [
+        "Trendy presentation may appeal visually as much as culinarily"
+      ],
+      "comparative_context": "More thoughtful Thai versus casual street‑food Thai",
+      "critical_assessment": "Sophisticated Thai cooking balancing authenticity and innovation; strong in both technique and warmth.",
+      "source_urls": [
+        "Boii Boii | Berlin Food Stories",
+        "Boii Boii in Kreuzberg: So wie man hier ist, ist man richtig"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Boii Boii",
+      "google_maps_address": "Lausitzer Str. 25, 10999 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=892377658793402051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJm8vpiuRPqEcRwx7grcBcYgw",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 207,
+      "google_maps_hours_compact": "Tue–Sat 18:00–23:30; Sun 18:00–22:00; (closed Mon)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "adana_grillhaus",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Adana Grillhaus",
+      "neighborhood": "Kreuzberg",
+      "address": "Manteuffelstraße 86",
+      "cuisine": "Turkish grill",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Decades‑long reputation, charcoal‑grilled meats, Turkish home‑style quality"
+      ],
+      "weaknesses": [
+        "Meat‑centric, limited innovation"
+      ],
+      "comparative_context": "Reliable Turkish comfort versus avant‑garde Turkish spots",
+      "critical_assessment": "Classic, well‑executed Turkish grill with enduring value and flavor depth; authentic and unpretentious.",
+      "source_urls": [
+        "Top 10: Türkische Restaurants in Berlin"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Cevats Adana Grillhaus® \"The Original\"",
+      "google_maps_address": "Audre-Lorde-Straße 77, 10997 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=3901475484461481539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJrSyqfzVOqEcRQ744P0jTJDY",
+      "google_maps_rating": 4.8,
+      "google_maps_review_count": 2289,
+      "google_maps_hours_compact": "Mon–Thu 12:00–03:00; Fri–Sat 12:00–04:00; Sun 12:00–03:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "erguns_fischbude",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus",
+        "specialist_neighborhood"
+      ],
+      "name": "Ergün’s Fischbude",
+      "neighborhood": "Moabit",
+      "address": "Lüneburger Straße 382",
+      "cuisine": "Turkish fish specialist",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Fresh fish with strong Turkish flavors in an unpretentious setting",
+        "Rustic, neighborhood charm"
+      ],
+      "weaknesses": [
+        "Basic comfort, minimal ambiance"
+      ],
+      "comparative_context": "Neighborhood specialist vs full‑service Turkish dining",
+      "critical_assessment": "A hidden gem for fish lovers—authentic, affordable, and heavily focused on freshness and flavor.",
+      "source_urls": [
+        "Top 10: Türkische Restaurants in Berlin"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Ergün's Fischbude",
+      "google_maps_address": "Rudower Str. 27-29, 12351 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=11959334156022895069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJd-1b7aRRqEcR3dHwNw0X-KU",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 958,
+      "google_maps_hours_compact": "Mon–Thu 04:00–23:00; Fri–Sat 16:00–00:00; Sun 04:00–23:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "hasir_ocakbasi",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Hasır Ocakbaşı",
+      "neighborhood": "Kreuzberg (and other branches)",
+      "address": "Adalbertstraße 10",
+      "cuisine": "Turkish ocakbaşı grill",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Grilled meats from own production, solid meze, long‑standing legacy",
+        "Multiple neighborhoods, consistent quality"
+      ],
+      "weaknesses": [
+        "Chain‑like expansion may dilute uniqueness"
+      ],
+      "comparative_context": "Longstanding Turkish institution, consistent vs niche newcomers",
+      "critical_assessment": "Dependable Turkish grill with history and quality; consistent and satisfying though less discovery‑oriented.",
+      "source_urls": [
+        "Top 10: Türkische Restaurants in Berlin"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Hasir Restaurant",
+      "google_maps_address": "Adalbertstraße 12, 10999 Berlin-Bezirk Friedrichshain-Kreuzberg",
+      "google_maps_url": "https://maps.google.com/?cid=11943487455487135675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJeQEO3FBPqEcRuw-lu4_Kv6U",
+      "google_maps_rating": 4.5,
+      "google_maps_review_count": 3156,
+      "google_maps_hours_compact": "Mon–Thu 12:00–00:00; Fri–Sat 12:00–01:00; Sun 12:00–00:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    }
+  ],
+  "gaps": [],
+  "section_counts": {
+    "mediterranean_european": 0,
+    "southeast_asian": 3,
+    "fine_dining": 0,
+    "specialist_neighborhood": 0,
+    "turkish_middle_eastern_caucasus": 3,
+    "regional_chinese": 3
+  },
+  "verified_count": 8,
+  "search_notes": "Searched Berlin food guides for strongest candidates fitting segments; used tip‑berlin.com, berlinfoodstories.com, cremeguides.com, top10berlin.de domains only.",
+  "maps_verified_at": "2026-07-02T08:01:18.511300+00:00"
+}
