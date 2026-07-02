@@ -23,3 +23,9 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-06-25 | Simitdchi Cafe und Backhaus | Kreuzberg | https://maps.google.com/?cid=14131623560540591311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-06-25 | Malafemmena | Schöneberg | https://maps.google.com/?cid=13383657543209065497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-06-25 | Lavanderia Vecchia | Neukölln | https://maps.google.com/?cid=3264297671270047681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-02 | Liu Nudelhaus | Mitte | https://maps.google.com/?cid=5978374952795598817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-02 | Adana Grillhaus | Kreuzberg | https://maps.google.com/?cid=3901475484461481539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-02 | Wei House (Chuan House) | Friedrichshain | https://maps.google.com/?cid=17257470551723575126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-02 | Tian Fu | Wilmersdorf | https://maps.google.com/?cid=9725218145076602110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-02 | PHO – Noodlebar Kreuzberg | Kreuzberg | https://maps.google.com/?cid=16055962147337026381&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-02 | Ergün's Fischbude | Neukölln | https://maps.google.com/?cid=11959334156022895069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
