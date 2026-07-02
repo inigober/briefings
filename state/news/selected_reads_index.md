@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-02
+
+- [Trans-Atlanticism Isn't Dead—It's Being Renegotiated](https://foreignpolicy.com/2026/07/01/nato-summit-transatlantic-alliance-dead-alive-trump-russia-defense-geopolitics/) — Foreign Policy
+- [Takeda and Insilico strike AI-led drug discovery deal worth up to $600m](https://asia.nikkei.com/business/pharmaceuticals/takeda-and-insilico-strike-ai-led-drug-discovery-deal-worth-up-to-600m) — Nikkei Asia
+- [I Went to the Great American State Fair and I May Never Sleep Again](https://www.theatlantic.com/newsletters/2026/07/great-american-state-fair-maha-visit/687769/?utm_source=feed) — The Atlantic
+- [Has Ukraine found Russia's weak spot?](https://www.politico.eu/podcast/brussels-playbook-podcast/has-ukraine-found-russias-weak-spot/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+
 ## 2026-07-01
 
 - [The fragility of the world's economic resilience](https://www.ft.com/content/7d732c78-8d3d-4e10-a3a1-4e0c79e36d36) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Sen. Armstrong: Permitting Is Key to Lower Energy Costs](https://www.bloomberg.com/news/videos/2026-06-27/sen-armstrong-permitting-is-key-to-lower-energy-costs-video) — Bloomberg
 - [Mitsubishi Heavy to invest over $618m in Japan, US gas turbine operations](https://asia.nikkei.com/business/energy/mitsubishi-heavy-to-invest-over-618m-in-japan-us-gas-turbine-operations) — Nikkei Asia
 - [Kathmandu's cocktail scene finds its own flavor](https://asia.nikkei.com/life-arts/life/eat-drink/kathmandu-s-cocktail-scene-finds-its-own-flavor) — Nikkei Asia
-
-## 2026-06-27
-
-- [Britain's next leader faces a big call on North Sea drilling. Donald Trump is watching.](https://www.politico.eu/article/andy-burnham-donald-trump-labour-climate-north-sea-drilling/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- ['Tit-for-tat' trade warfare threatens global economy, says IMF chief economist](https://www.ft.com/content/8199cd6d-e513-4c9a-9beb-8a7acd2b65dc) — Financial Times
-- [Europe's Come-to-AC Moment](https://www.theatlantic.com/health/2026/06/europe-air-conditioning/687711/?utm_source=feed) — The Atlantic
-- ['Chock full of incredible animals': marine expedition uncovers 31 new species in two weeks](https://www.theguardian.com/environment/2026/jun/26/marine-expedition-uncovers-31-new-species-two-weeks-brazil) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

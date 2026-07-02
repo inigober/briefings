@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-07-01",
-  "briefing_date": "2026-07-01",
-  "inbox_date": "2026-07-01",
+  "date": "2026-07-02",
+  "briefing_date": "2026-07-02",
+  "inbox_date": "2026-07-02",
   "status": "success",
-  "briefing_path": "briefings/news/2026-07-01.md",
-  "inbox_path": "inbox/news/2026-07-01-synthesis.json",
+  "briefing_path": "briefings/news/2026-07-02.md",
+  "inbox_path": "inbox/news/2026-07-02-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Tres jueces conservadores del Supremo abren la vía europea sin amenazar la mayor parte de la regularización", "section": "spain", "reason": "avoid_unless_material: migration regularization; demoted to Other Headlines"},
-    {"headline": "Otra vez calor extremo: por qué vivimos en el continente que más se recalienta", "section": "spain", "reason": "theme_duplicate: Europe warming angle covered via June 900-death mortality data"},
-    {"headline": "Omán, el pequeño sultanato neutral convertido en la clave de la navegación por el estrecho de Ormuz", "section": "spain", "reason": "geographic_misfit: Hormuz diplomacy belongs in Other Headlines/World"},
-    {"headline": "Matthäus über das DFB-Aus: „Frauen, Familien, alles war dabei“", "section": "berlin", "reason": "theme_duplicate: recent_topics germany-wm-exit-paraguay-press"},
-    {"headline": "Fußball-Nationalmannschaft: Viele Scheinriesen und zu wenig Qualitäts-Kicker", "section": "germany", "reason": "theme_duplicate: World Cup squad-quality debate after WM exit"},
-    {"headline": "Polizei veröffentlicht Details zum Blutbad in Mutter-Kind-Heim", "section": "berlin", "reason": "geographic_misfit: Stade shooting is Lower Saxony, not Berlin governance"},
-    {"headline": "Morning Briefing: Reformen: Leute mit sechsstelligen Gehältern brauchen keinen Kündigungsschutz", "section": "germany", "reason": "theme_duplicate: podcast duplicate of Kündigungsschutz article; kept one"},
-    {"headline": "Police units deployed across South Africa before anti-immigration marches", "section": "world", "reason": "theme_duplicate: same South Africa protest thread; kept migrant-flee narrative"},
+    {"headline": "Regularización de migrantes: una necesidad económica bajo el ruido político", "section": "spain", "reason": "avoid_unless_material: migration regularization"},
+    {"headline": "PP y Vox callaron en las Cortes durante los 15 meses de tramitación de la ley de nietos", "section": "spain", "reason": "theme_duplicate: ley de nietos debate demoted to Other Headlines"},
+    {"headline": "Ukraine-Krieg: Russland fliegt heftige Luftangriffe auf ukrainische Städte", "section": "germany", "reason": "geographic_misfit: Ukraine war belongs in Other Headlines/World"},
+    {"headline": "Bündnisverteidigung: US-General Donahue tritt ab", "section": "germany", "reason": "avoid_unless_material: defence spending levels"},
+    {"headline": "Ab Juli ausgesperrt: Diese alten Handys verlieren den Zugang zur Patientenakte", "section": "berlin", "reason": "recent_topics: berlin-epa-old-phones-july-lockout"},
+    {"headline": "Deutschland scheitert – Merz jubelt: Wie ein Tweet zum politischen Eigentor wurde", "section": "berlin", "reason": "geographic_misfit: national WM politics not Berlin governance"},
+    {"headline": "Sudan's RSF committed crimes against humanity in El Fasher, Amnesty says", "section": "world", "reason": "theme_duplicate: Africa rights thread; Niger crackdown chosen for section"},
+    {"headline": "China's ethnic unity law denounced as forced assimilation", "section": "world", "reason": "theme_duplicate: China policy demoted to Other Headlines"},
     {"headline": "The Billionaires' Vagina Club", "section": "selected_reads", "reason": "URL in selected_reads_index within last 5 briefings (2026-06-30)"},
-    {"headline": "Europe's rearmament drive is sustaining 195,000 US defence jobs, Nato chief says", "section": "selected_reads", "reason": "defence-spending theme; FT economic resilience plus tech/climate mix retained"},
-    {"headline": "Sebastopol, un asedio del siglo XXI", "section": "spain", "reason": "geographic_misfit: Ukraine war story belongs in World"},
-    {"headline": "PP y Vox rivalizan en la campaña contra la 'ley de nietos'", "section": "spain", "reason": "weaker than EU funds flexibilisation, heat mortality and mordaza repeal trio"}
+    {"headline": "Witch-hunt in Niger as military regime rounds up LGBTQ+ population", "section": "selected_reads", "reason": "already used in World section today"},
+    {"headline": "Apple to launch 5 new iPhone models to gain market share amid memory crunch", "section": "selected_reads", "reason": "already used in World section today"},
+    {"headline": "Morning Briefing Podcast: Mercedes' Hoffnungsmodell macht Probleme", "section": "germany", "reason": "theme_duplicate: podcast duplicate of GLC supply story"}
   ],
-  "notes": "Synthesis from 2026-07-01 pre-fetch; EU recovery-fund flexibilisation, June heat deaths, ley mordaza anniversary, six-figure Kündigungsschutz debate, fine-dust risk, ticket-resale tax, ePA phone lockout, Spandau enrolment surge, Dahlem luxury housing, South Africa xenophobic protests, Qualcomm HBM-free AI chip, Anthropic federal ban lifted."
+  "notes": "Synthesis from 2026-07-02 pre-fetch; Andalucía PP–Vox coalition, renewables asset sales, Catalonia clinic probe, Mercedes GLC supply crunch, rail competition ruling, social-tracking liability, Mietenkataster vote, BerlinTrend CDU slump, political violence data, Niger LGBTQ crackdown, Apple iPhone segmentation, H-1B uncertainty tax."
 }

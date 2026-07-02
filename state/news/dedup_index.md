@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-02
+
+- **spain-andalucia-pp-vox-coalition-moreno** — Vox negotiates portfolios in Moreno's Andalucía government after blocking first investiture vote (section: spain)
+- **spain-energy-renewables-asset-sales-12gw** — Iberdrola, Endesa, Naturgy and Repsol sell 12 GW of renewables for €15bn amid price squeeze (section: spain)
+- **spain-catalonia-detox-center-abuse-probe** — Police investigate alleged coercion at award-winning Zeus addiction clinic in Catalonia (section: spain)
+- **germany-mercedes-electric-glc-supply-crunch** — Handelsblatt: demand strong for battery GLC but supply bottlenecks leave buyers waiting (section: germany)
+- **germany-bundesnetzagentur-db-rail-competition** — Rail regulator orders Deutsche Bahn to open long-distance tracks to rival operators (section: germany)
+- **germany-social-media-tracking-liability-ruling** — Stuttgart appeals court questions platform liability for third-party tracking (section: germany)
+- **berlin-mietenkataster-senate-vote** — Senate votes on Germany's first citywide rent registry to identify gouging (section: berlin)
+- **berlin-trend-linke-cdu-slump** — BerlinTrend puts Linke ahead as CDU support slides three months before elections (section: berlin)
+- **berlin-political-violence-rise** — Verfassungsschutz data show rising politically motivated violence in the capital (section: berlin)
+- **world-niger-lgbtq-crackdown** — Military junta arrests dozens under new penal code; HIV advocates fear health fallout (section: world)
+- **world-apple-five-iphone-memory-crunch** — Apple plans five-model 2026 lineup to defend share amid component shortage (section: world)
+- **world-us-h1b-immigration-uncertainty-tax** — Rest of World: visa policy whiplash pushes foreign tech workers to weigh exit from US (section: world)
+
 ## 2026-07-01
 
 - **spain-eu-recovery-fund-flexibilization-august** — Government agrees with Brussels to redeploy completed milestone savings on recovery spending after 31 August deadline (section: spain)
