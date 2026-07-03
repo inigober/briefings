@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-03
+
+- [Understanding Ebola’s wildlife origins is crucial to preventing next big outbreak](https://www.theguardian.com/environment/2026/jul/02/understanding-ebola-wildlife-origins-crucial-preventing-next-big-outbreak) — The Guardian
+- [Anthropic moves to close loopholes that allow Chinese access to Claude](https://www.ft.com/content/ad033063-60f9-4c0c-8d8a-9193a83e6f60) — Financial Times
+- [Japan aims to ignite 'animal spirits' with $2.3tn plan](https://asia.nikkei.com/economy/japan-aims-to-ignite-animal-spirits-with-2.3tn-plan) — Nikkei Asia
+- [All hail the King of the North! But which north?](https://www.ft.com/content/0da0a85f-ff66-41a5-b711-aa429cbaf88a) — Financial Times
+
 ## 2026-07-02
 
 - [Trans-Atlanticism Isn't Dead—It's Being Renegotiated](https://foreignpolicy.com/2026/07/01/nato-summit-transatlantic-alliance-dead-alive-trump-russia-defense-geopolitics/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [How US-Iran conflict devastated infrastructure in the Middle East](https://asia.nikkei.com/spotlight/iran-tensions/iran-war/how-us-iran-conflict-devastated-infrastructure-in-the-middle-east) — Nikkei Asia
 - [Ireland prepares to play dealmaker on EU's biggest climate fight of the year](https://www.politico.eu/article/ireland-prepares-eu-presidency-play-dealmaker-climate-change-fight-of-the-year/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [Why the EEAS is fighting for its future](https://www.politico.eu/article/european-external-action-service-eeas-fight-future-kaja-kallas-ursula-von-der-leyen/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-
-## 2026-06-28
-
-- [Mines will hold back Strait of Hormuz shipping for months, CEO warns](https://www.ft.com/content/a0739198-318c-4ae8-9953-ba88201edc45) — Financial Times
-- [Sen. Armstrong: Permitting Is Key to Lower Energy Costs](https://www.bloomberg.com/news/videos/2026-06-27/sen-armstrong-permitting-is-key-to-lower-energy-costs-video) — Bloomberg
-- [Mitsubishi Heavy to invest over $618m in Japan, US gas turbine operations](https://asia.nikkei.com/business/energy/mitsubishi-heavy-to-invest-over-618m-in-japan-us-gas-turbine-operations) — Nikkei Asia
-- [Kathmandu's cocktail scene finds its own flavor](https://asia.nikkei.com/life-arts/life/eat-drink/kathmandu-s-cocktail-scene-finds-its-own-flavor) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-03
+
+- **spain-guardia-civil-director-leire-imputation** — Anti-corruption prosecutors impute Guardia Civil director general Mercedes González in expanding Leire Díez probe (section: spain)
+- **spain-ayuso-fetal-personhood-law** — Ayuso's PP enacts Madrid law recognising embryos as family members with Vox support (section: spain)
+- **spain-sanchez-eu-offshore-deportation-opposition** — Sánchez isolated as EU partners push Brussels-funded offshore deportation centres (section: spain)
+- **germany-sick-note-day-one-reform** — Merz and Klingbeil defend Krankschreibung from first illness day as insurers warn of GP overload (section: germany)
+- **germany-meta-zuckerberg-ai-frustration** — Leaked audio captures Zuckerberg's dissatisfaction with Meta AI-agent progress (section: germany)
+- **germany-hamburg-trendviertel-housing** — Handelsblatt maps relative-value districts north of Hamburg's Elbe amid tight supply (section: germany)
+- **berlin-spreepark-2027-reopening** — DDR-era Spreepark targets spring 2027 reopening as cultural anchor in Plänterwald (section: berlin)
+- **berlin-drug-courier-recruitment-probe** — Berlin prosecutors investigate couple accused of recruiting women as airport drug mules via Signal (section: berlin)
+- **berlin-investor-housing-underbuilding** — Handelsblatt: Berlin remains investor magnet despite chronic under-building and Mieten pressure (section: berlin)
+- **world-russia-kyiv-11-hour-assault** — Russia launches 11-hour missile and drone barrage on Kyiv in infrastructure retaliation (section: world)
+- **world-japan-ai-factory-robots** — Japan integrates AI into industrial robotics to compete with China and Europe (section: world)
+- **world-cote-ivoire-west-africa-floods** — Côte d'Ivoire floods kill 59 as West African rainy season hits Benin, Ghana, Nigeria and Togo (section: world)
+
 ## 2026-07-02
 
 - **spain-andalucia-pp-vox-coalition-moreno** — Vox negotiates portfolios in Moreno's Andalucía government after blocking first investiture vote (section: spain)
@@ -215,21 +230,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-chile-china-undersea-cable-blocked** — US pressure stalls Chile–Hong Kong submarine cable project (section: world)
 - **world-india-private-nuclear-caution** — Regulators warn private firms against rushing into nuclear generation (section: world)
 - **world-south-africa-rhino-horn-sentencing** — Court sentences traffickers in 'world's largest' rhino-horn case (section: world)
-
-## 2026-06-18
-
-- **spain-zapatero-judge-maintains-imputation** — Judge keeps imputation after closed interrogation citing four evidence streams (section: spain)
-- **spain-zapatero-jewels-gift-timing-legal** — Tax experts see limited penal scope if jewels were presidential gifts (section: spain)
-- **spain-latin-wealth-la-moraleja** — Latin American rich shift from Salamanca to La Moraleja (section: spain)
-- **germany-hannover-berlin-rail-october** — Hannover–Berlin corridor faces long diversions from October (section: germany)
-- **germany-green-chemistry-berlin-hub** — €30m green-chemistry research hub positions Berlin as industry brain (section: germany)
-- **germany-iran-mou-not-a-deal** — Zeit analysis: published Iran MOU is deal that helps Trump little (section: germany)
-- **berlin-mietenkataster-wuchermiete** — Senate advances citywide rent registry against gouging (section: berlin)
-- **berlin-alexanderplatz-tunnel-closure** — Straßentunnel at Alexanderplatz fully closed from Monday (section: berlin)
-- **berlin-steglitz-school-seventh-grade-outsourcing** — Steglitz-Zehlendorf school protests relocating seventh-year classes (section: berlin)
-- **world-ghana-reparatory-justice-accra** — Ghana hosts major reparations conference after UN slavery resolution (section: world)
-- **world-titan-sub-canadian-report** — Canadian inquiry blames Titan implosion on design flaws and groupthink (section: world)
-- **world-ebola-bunia-drc-workers** — Ebola outbreak paralyses Bunia schools and informal economy (section: world)
 
 ## Saturated topics — do not return without material development
 
