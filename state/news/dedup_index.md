@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-04
+
+- **spain-marbella-munoz-corruption-wiretaps** — UDEF wiretaps on Marbella mayor's family left uninvestigated by Audiencia Nacional; court summons Muñoz on inheritance dispute (section: spain)
+- **spain-pp-trans-law-reform-de-los-santos** — PP equality chief Jaime de los Santos vows Feijóo will amend Ley Trans to require psychosocial reports for registry changes (section: spain)
+- **spain-global-ultra-lgtbi-backlash** — ILGA data show first decade-on-decade rise in countries criminalising homosexuality as ultra-right gains ground (section: spain)
+- **germany-rail-budget-2027-increase** — Federal draft budget lifts rail new-build grants to €2.2bn in 2027 from €1.8bn (section: germany)
+- **germany-afd-erfurt-hoecke-wing** — AfD federal congress in Erfurt becomes battleground as Höcke faction seeks board influence (section: germany)
+- **germany-ees-airport-border-queues** — New EU Entry/Exit System triggers multi-hour queues and missed flights at German airports (section: germany)
+- **berlin-filmreihe-orte-ost-ostsee** — Tagesspiegel "Orte Ost" series explores Baltic Sea as DDR holiday dream and sealed border (section: berlin)
+- **berlin-checkpoint-klischees-techno** — Checkpoint column tests Berlin stereotypes about techno and black clothing with street-style sociology (section: berlin)
+- **berlin-schroder-basketball-em-venue** — Dennis Schröder leads Germany to World Cup qualifying win at former EuroBasket triumph venue (section: berlin)
+- **world-sudan-rsf-amnesty-el-fasher** — Amnesty alleges RSF crimes against humanity and ethnic cleansing during El Fasher capture (section: world)
+- **world-india-offline-ai-hackathon** — India hosts Bhashini hackathon for offline, multilingual open-source AI outside Silicon Valley cloud model (section: world)
+- **world-trump-ai-regulation-opposition** — Outgoing White House adviser says Trump will resist creating centralised federal AI regulator (section: world)
+
 ## 2026-07-03
 
 - **spain-guardia-civil-director-leire-imputation** — Anti-corruption prosecutors impute Guardia Civil director general Mercedes González in expanding Leire Díez probe (section: spain)
@@ -200,36 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-colombia-paramilitary-runoff** — Presidential runoff shaped by paramilitary histories (section: world)
 - **world-japan-chip-tools-china-sales-drop** — Japanese equipment suppliers report 10% China sales fall (section: world)
 - **world-australia-h5n1-mainland** — First mainland H5N1 case confirmed in Western Australia (section: world)
-
-## 2026-06-20
-
-- **spain-ibex-foreign-fund-ownership** — BlackRock, Vanguard and Norway SWF dominate Ibex 35 share registers (section: spain)
-- **spain-hotels-booking-collective-lawsuit** — 1,400+ Spanish hotel firms prepare group claim against Booking.com (section: spain)
-- **spain-merz-eu-budget-spain-italy-alliance** — Merz hard line on EU budget as Madrid and Rome align on revenue tools (section: spain)
-- **germany-data-centre-green-power-survey** — Majority backs data-centre expansion conditional on renewables (section: germany)
-- **germany-cannabis-commercialisation-psychosis-study** — Global review links retail cannabis markets to higher usage and psychosis (section: germany)
-- **germany-munich-freight-wagons-bridge-fall** — Two freight wagons plunge from Munich bridge (section: germany)
-- **berlin-icc-investor-plan-unveil** — Senate expected to present long-delayed ICC congress-centre options (section: berlin)
-- **berlin-alba-basketball-finals-game-five** — Alba Berlin forces deciding championship game against Bayern Munich (section: berlin)
-- **berlin-zdf-schoenbohm-accountability** — Berliner Zeitung presses ZDF after second court loss in Schönbohm reporting (section: berlin)
-- **world-iran-hormuz-insurance-fees** — Tehran to require Iran-approved insurance for Hormuz transit (section: world)
-- **world-wcfo-cambodia-optical-cable-ai** — WCFO expands Cambodian fibre capacity for AI data-centre demand (section: world)
-- **world-china-leapmotor-e-bike-growth** — Leapmotor scales from repair shop to national e-bike brand (section: world)
-
-## 2026-06-19
-
-- **spain-ayuso-quiron-partner-tax-report** — Hacienda documents €4.4M Quirón billing to Ayuso's partner (section: spain)
-- **spain-sanchez-pnv-election-q1-2027** — Sánchez accepts Q1 2027 election window if budget fails (section: spain)
-- **spain-boiron-homeopathy-supplement-pivot** — Boiron shifts to food supplements as pharmacy sales fall 37.6% (section: spain)
-- **germany-fake-online-shops-enforcement** — Consumer ministers target fraudulent e-commerce defrauding thousands (section: germany)
-- **germany-renault-r4-e-tech-plein-sud** — Renault launches folding-roof electric R4 variant (section: germany)
-- **germany-solstice-sunset-calendar-mismatch** — Latest sunset does not fall on longest day due to time-zone mechanics (section: germany)
-- **berlin-nova-exhibition-funding-dispute** — Senate internal papers show wrangling over €1.4M 7 October memorial grant (section: berlin)
-- **berlin-qube-queer-youth-centre-neukoelln** — Q*ube marks five years serving LGBTQ+ youth on precarious funding (section: berlin)
-- **berlin-blue-algae-swimming-risk** — Water ecologist warns bathers underestimate algae and cercaria risk (section: berlin)
-- **world-chile-china-undersea-cable-blocked** — US pressure stalls Chile–Hong Kong submarine cable project (section: world)
-- **world-india-private-nuclear-caution** — Regulators warn private firms against rushing into nuclear generation (section: world)
-- **world-south-africa-rhino-horn-sentencing** — Court sentences traffickers in 'world's largest' rhino-horn case (section: world)
 
 ## Saturated topics — do not return without material development
 

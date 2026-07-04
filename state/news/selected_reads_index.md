@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-04
+
+- [Angsty in Ankara](https://foreignpolicy.com/2026/07/02/nato-summit-ankara-trump-rutte-erdogan-ukraine-iran/) — Foreign Policy
+- [A Twist in This Year's Strangest Literary AI Scandal](https://www.theatlantic.com/technology/2026/07/commonwealth-prize-ai-writing-jamir-nazir/687806/?utm_source=feed) — The Atlantic
+- [Canada, Philippines Agree to Sign Trade Deal This Year, Grow Defense Ties](https://www.bloomberg.com/news/articles/2026-07-02/canada-philippines-agree-to-sign-trade-deal-this-year-grow-defense-ties) — Bloomberg
+- [Von der Leyen admits 'technical problems' with new EU airport border checks](https://www.politico.eu/article/ursula-von-der-leyen-admits-technical-problems-with-new-eu-airport-border-checks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+
 ## 2026-07-03
 
 - [Understanding Ebola’s wildlife origins is crucial to preventing next big outbreak](https://www.theguardian.com/environment/2026/jul/02/understanding-ebola-wildlife-origins-crucial-preventing-next-big-outbreak) — The Guardian
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [What would multilateral 'AI arms control' look like?](https://www.ft.com/content/7aa4b53d-2e07-4971-9e30-8b0c63eb4ff2) — Financial Times
 - [The Billionaires' Vagina Club](https://www.newyorker.com/magazine/2026/07/06/the-billionaires-vagina-club) — The New Yorker
 - [Thailand's largest opposition gets reality check in Bangkok vote](https://asia.nikkei.com/politics/thailand-s-largest-opposition-gets-reality-check-in-bangkok-vote) — Nikkei Asia
-
-## 2026-06-29
-
-- [The new AI-based world order](https://www.ft.com/content/ce505663-9567-40a1-ab9d-91b6bdb90a17) — Financial Times
-- [How US-Iran conflict devastated infrastructure in the Middle East](https://asia.nikkei.com/spotlight/iran-tensions/iran-war/how-us-iran-conflict-devastated-infrastructure-in-the-middle-east) — Nikkei Asia
-- [Ireland prepares to play dealmaker on EU's biggest climate fight of the year](https://www.politico.eu/article/ireland-prepares-eu-presidency-play-dealmaker-climate-change-fight-of-the-year/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Why the EEAS is fighting for its future](https://www.politico.eu/article/european-external-action-service-eeas-fight-future-kaja-kallas-ursula-von-der-leyen/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 
 ## Blocked until 5+ briefings have passed
 
