@@ -153,11 +153,25 @@ Export controls dominate today's edition.
 ## Spain 🇪🇸
 
 * **First story**
+
+Body with a [source link](https://example.com/article).
 """
 
     def test_renders_berlin_footer(self) -> None:
         html = render_html(self.SAMPLE, briefing_type="news")
         self.assertIn(BRIEFING_FOOTER_TEXT, html)
+
+    def test_news_links_are_underlined(self) -> None:
+        html = render_html(self.SAMPLE, briefing_type="news")
+        self.assertIn("text-decoration:underline", html)
+        self.assertNotIn("text-decoration:none", html)
+
+    def test_email_css_includes_mobile_and_dark_mode(self) -> None:
+        html = render_html(self.SAMPLE, briefing_type="news")
+        self.assertIn("@media only screen and (max-width: 480px)", html)
+        self.assertIn("@media (prefers-color-scheme: dark)", html)
+        self.assertIn("color-scheme", html)
+        self.assertIn("light dark", html)
 
 
 class TestFormatEmailSubject(unittest.TestCase):

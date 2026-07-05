@@ -54,6 +54,12 @@ CULTURE_COLOR_LABEL = "#57534e"
 CULTURE_COLOR_FOOTER = "#6b7280"
 CULTURE_COLOR_BORDER = "#9ca3af"
 
+# Link blue: strong contrast on white; EMAIL_CSS overrides for dark mode (prefers-color-scheme).
+LINK_COLOR = "#1a56db"
+NEWS_LINK_STYLE = (
+    f"color:{LINK_COLOR};text-decoration:underline;text-underline-offset:2px;"
+)
+
 CULTURE_LINK_STYLE = (
     f"color:{CULTURE_COLOR_BODY};text-decoration:underline;text-underline-offset:2px;"
 )
@@ -61,7 +67,7 @@ CULTURE_TITLE_LINK_STYLE = (
     "color:#111111;text-decoration:underline;text-underline-offset:3px;"
 )
 CULTURE_META_STYLE = (
-    f"margin:0 0 6px;padding:0;font-size:14px;color:{CULTURE_COLOR_META};line-height:1.5;"
+    f"margin:0 0 6px;padding:0;font-size:15px;color:{CULTURE_COLOR_META};line-height:1.5;"
 )
 CULTURE_CONTEXT_STYLE = (
     f"margin:12px 0 0;padding:0;font-size:16px;color:{CULTURE_COLOR_BODY};line-height:1.65;"
@@ -70,11 +76,11 @@ BRIEFING_FOOTER_TEXT = "Sent by AI with love from Berlin."
 CULTURE_WHY_CALLOUT_STYLE = (
     "margin:14px 0 0;padding:10px 14px;background:#f4f4f5;"
     f"border-left:3px solid {CULTURE_COLOR_BORDER};border-radius:4px;"
-    f"font-size:14px;color:{CULTURE_COLOR_CALLOUT};line-height:1.55;"
+    f"font-size:15px;color:{CULTURE_COLOR_CALLOUT};line-height:1.55;"
 )
-CULTURE_WHY_LABEL_STYLE = f"font-size:12px;font-weight:600;color:{CULTURE_COLOR_LABEL};"
+CULTURE_WHY_LABEL_STYLE = f"font-size:13px;font-weight:600;color:{CULTURE_COLOR_LABEL};"
 CULTURE_WHY_MINIMAL_STYLE = (
-    f"margin:14px 0 0;padding:0;font-size:14px;color:{CULTURE_COLOR_CALLOUT};"
+    f"margin:14px 0 0;padding:0;font-size:15px;color:{CULTURE_COLOR_CALLOUT};"
     "line-height:1.55;font-style:italic;"
 )
 
@@ -91,7 +97,7 @@ RESTAURANT_TITLE_LINK_STYLE = (
     "color:#111111;text-decoration:underline;text-underline-offset:3px;"
 )
 RESTAURANT_META_STYLE = (
-    f"margin:0 0 10px;padding:0;font-size:14px;color:{CULTURE_COLOR_META};line-height:1.5;"
+    f"margin:0 0 10px;padding:0;font-size:15px;color:{CULTURE_COLOR_META};line-height:1.5;"
 )
 RESTAURANT_BODY_STYLE = (
     f"margin:0;padding:0;font-size:16px;color:{CULTURE_COLOR_BODY};line-height:1.65;"
@@ -115,7 +121,11 @@ ul, ol { margin: 0 0 20px; padding: 0; }
 .story p { margin: 0 0 10px; padding: 0; text-indent: 0; }
 ol.themes { padding-left: 20px; margin: 0 0 20px; }
 ol.themes > li { margin: 0 0 14px; }
-a { color: #2563eb; text-decoration: none; }
+a {
+  color: #1a56db;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 hr {
   border: none;
   border-top: 1px solid #e8e8e8;
@@ -123,7 +133,7 @@ hr {
 }
 .research-accessed {
   margin: 0 0 20px;
-  font-size: 14px;
+  font-size: 15px;
   color: #71717a;
   font-style: italic;
 }
@@ -131,7 +141,7 @@ hr {
   margin-top: 32px;
   padding-top: 16px;
   border-top: 1px solid #e8e8e8;
-  font-size: 13px;
+  font-size: 14px;
   color: #71717a;
   line-height: 1.5;
 }
@@ -146,11 +156,73 @@ hr {
   padding-top: 20px;
   border-top: 1px solid #e8e8e8;
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   color: #6b7280;
   font-style: italic;
 }
 .restaurant-entry { margin: 0 0 8px; }
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 18px !important;
+    line-height: 1.7 !important;
+    padding: 20px 18px !important;
+  }
+  h1 { font-size: 26px !important; }
+  h2 { font-size: 22px !important; }
+  h3 { font-size: 19px !important; }
+  .story p,
+  .story-body {
+    font-size: 18px !important;
+    margin-bottom: 14px !important;
+  }
+  .story-headline { font-size: 19px !important; }
+  .research-accessed { font-size: 16px !important; }
+  .footnotes,
+  .briefing-footer,
+  .culture-footer,
+  .restaurant-footer { font-size: 15px !important; }
+  .culture-meta li { font-size: 16px !important; }
+  ol.themes > li { font-size: 18px !important; }
+  p.insight,
+  p.context { font-size: 18px !important; }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e8e8e8 !important;
+    background: #1a1a1a !important;
+  }
+  h1, h2, h3 {
+    color: #f5f5f5 !important;
+  }
+  a {
+    color: #8ab4f8 !important;
+  }
+  hr {
+    border-top-color: #404040 !important;
+  }
+  .footnotes,
+  .briefing-footer,
+  .culture-footer,
+  .restaurant-footer {
+    border-top-color: #404040 !important;
+    color: #a1a1aa !important;
+  }
+  .research-accessed,
+  .footnotes {
+    color: #a1a1aa !important;
+  }
+  p.insight[style*="background"],
+  p.context[style*="background"] {
+    background: #2a2a2a !important;
+    border-left-color: #525252 !important;
+  }
+  div[style*="background:#f4f4f5"] {
+    background: #2a2a2a !important;
+    border-left-color: #525252 !important;
+  }
+}
 """
 
 H1_STYLE = (
@@ -290,7 +362,7 @@ def linkify_footnote_refs(text: str, footnotes: dict[str, tuple[str, str]]) -> s
         label, num = match.group(1), match.group(2)
         if num in footnotes:
             url, _ = footnotes[num]
-            return f'<a href="{url}" style="color:#2563eb;text-decoration:none;">{label}</a>'
+            return f'<a href="{url}" style="{NEWS_LINK_STYLE}">{label}</a>'
         return match.group(0)
 
     return re.sub(r"\[([^\]]+)\]\[(\d+)\]", repl, text)
@@ -299,7 +371,7 @@ def linkify_footnote_refs(text: str, footnotes: dict[str, tuple[str, str]]) -> s
 def linkify_inline_markdown(text: str) -> str:
     return re.sub(
         r"\[([^\]]+)\]\(([^)]+)\)",
-        r'<a href="\2" style="color:#2563eb;text-decoration:none;">\1</a>',
+        rf'<a href="\2" style="{NEWS_LINK_STYLE}">\1</a>',
         text,
     )
 
@@ -342,7 +414,7 @@ def _story_block_html(
         if is_research_accessed_line(stripped):
             inner = stripped.strip("_*")
             parts.append(
-                f'<p class="research-accessed" style="margin:0 0 20px;font-size:14px;'
+                f'<p class="research-accessed" style="margin:0 0 20px;font-size:15px;'
                 f'color:#71717a;font-style:italic;">{inner}</p>'
             )
             continue
@@ -350,13 +422,13 @@ def _story_block_html(
             title_match = re.match(r"^[*-]\s+\*\*(.+?)\*\*:?\s*(.*)", stripped)
             if title_match:
                 title, remainder = title_match.group(1), title_match.group(2).strip()
-                parts.append(f'<p style="margin:0 0 10px;font-weight:700;">{title}</p>')
+                parts.append(f'<p class="story-headline" style="margin:0 0 10px;font-weight:700;">{title}</p>')
                 if remainder:
                     parts.append(
-                        f'<p style="margin:0 0 10px;">{format_story_body(remainder, footnotes)}</p>'
+                        f'<p class="story-body" style="margin:0 0 10px;">{format_story_body(remainder, footnotes)}</p>'
                     )
             else:
-                parts.append(f'<p style="margin:0 0 10px;font-weight:700;">{stripped}</p>')
+                parts.append(f'<p class="story-headline" style="margin:0 0 10px;font-weight:700;">{stripped}</p>')
             continue
         if is_insight_line(stripped):
             parts.append(_insight_html(stripped, use_callouts))
@@ -364,7 +436,7 @@ def _story_block_html(
             parts.append(_context_html(stripped, use_callouts))
         else:
             body = format_story_body(stripped, footnotes)
-            parts.append(f'<p style="margin:0 0 10px;">{body}</p>')
+            parts.append(f'<p class="story-body" style="margin:0 0 10px;">{body}</p>')
     parts.append("</div>")
     return "\n".join(parts)
 
@@ -669,7 +741,7 @@ def render_culture_entry_html(
 def render_briefing_footer_html(*, css_class: str = "briefing-footer") -> str:
     return (
         f'<div class="{css_class}" style="margin-top:40px;padding-top:20px;'
-        f'border-top:1px solid #e8e8e8;text-align:center;font-size:13px;'
+        f'border-top:1px solid #e8e8e8;text-align:center;font-size:14px;'
         f'color:{CULTURE_COLOR_FOOTER};font-style:italic;">{BRIEFING_FOOTER_TEXT}</div>'
     )
 
@@ -949,8 +1021,8 @@ def render_restaurant_html(md_text: str, *, preheader_section: str = "This week'
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light">
-  <meta name="supported-color-schemes" content="light">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
   <style>{EMAIL_CSS}</style>
 </head>
 <body>
@@ -975,8 +1047,8 @@ def render_culture_html(
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light">
-  <meta name="supported-color-schemes" content="light">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
   <style>{EMAIL_CSS}</style>
 </head>
 <body>
@@ -1026,8 +1098,8 @@ def render_html(
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light">
-  <meta name="supported-color-schemes" content="light">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
   <style>{EMAIL_CSS}</style>
 </head>
 <body>
