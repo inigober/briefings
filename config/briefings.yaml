@@ -16,7 +16,6 @@ briefings:
       merge_script: merge_news_inbox
       slim: true
     email:
-      preheader_section: "What Matters Today"
       subject_emoji: "📰"
 
   berlin-culture:

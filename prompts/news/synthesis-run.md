@@ -38,7 +38,7 @@ Read **only** these files, in order:
 
 **Do not read:** `inbox/news/*-rss.json` (already merged into raw), full `*-raw.json` when `*-synthesis.json` exists, or `config/briefings/news/sources.yaml` unless a section is genuinely thin after selection.
 
-The synthesis file contains pre-ranked items per section plus diversified `selected_read_candidates` — enough to write all seven sections.
+The synthesis file contains pre-ranked items per section plus diversified `selected_read_candidates` — enough to write all six sections.
 
 **Editorial context in synthesis JSON:** Read `editorial_context.recent_topics` (last 7 days from `dedup_index.md`) and `editorial_context.rejected_candidates` (items demoted at slim time with reasons). Treat `avoid_unless_material` hits in `recent_topics` as **hard rejects** unless the story has a material trigger. Prefer higher `relevance_score` items when choosing among remaining candidates.
 
@@ -66,16 +66,15 @@ Produce a novelty-first briefing with exactly these sections:
 3. Berlin 🏙️ (3 stories, local only)
 4. World 🌐 (3 stories, ≥2 non-European regions, distinct from ES/DE)
 5. Other Headlines Today 📋 (3–8 crisp thematic bullets from **unused** synthesis `items`; no links)
-6. What Matters Today 🧠 (3–4 themes, not recaps)
-7. Selected Reads 🗞️ (~4 items; **≥3 publishers**, Guardian ≤1; from `selected_read_candidates` first; Reuters/AP ≤1)
+6. Selected Reads 🗞️ (~4 items; **≥3 publishers**, Guardian ≤1; from `selected_read_candidates` first; Reuters/AP ≤1)
 
 Title: `# News Briefing — DD Month YYYY`
 
 If inbox date ≠ briefing date, add under title: `*Research accessed DD Month YYYY.*`
 
-Add a **1–2 sentence intro** immediately after the title (before `## Spain`): frame the day's connecting themes in plain prose — no bullets. This becomes the visible email opener and inbox preview.
+Add a **one-sentence intro** immediately after the title (before `## Spain`): frame the day's connecting themes in plain prose — no bullets, ≤40 words when possible. This becomes the visible email opener and inbox preview.
 
-Each news story: headline, summary, 💡 insight, 🧩 broader context, source link.
+Each news story: headline, summary (≤2 sentences), optional 💡 insight (see style rules — max 4 per briefing, no 🧩 lines), source link.
 
 Apply anti-repetition using `dedup_index.md` and `editorial_context.recent_topics` in the synthesis inbox — reject topics unless materially new. Selected Reads: reject URLs in `selected_reads_index.md` (last 5 briefings). For Other Headlines Today, scan inbox items **not** chosen for sections 1–4 and merge into short thematic lines (e.g. Iran deal signing, Hormuz, Venezuela strike).
 

@@ -30,12 +30,11 @@ The inbox is a **research warehouse** (~30–50 items from OpenAI + RSS). Items 
 | Berlin 🏙️ | 3 | Local only |
 | World 🌐 | 3 | ≥2 non-European regions; distinct from ES/DE |
 | Other Headlines Today 📋 | 3–8 themes | Unused inbox threads; crisp; no links |
-| What Matters Today 🧠 | 3–4 themes | Not story summaries |
 | Selected Reads 🗞️ | ~4 | ≥3 publishers, Guardian ≤1; from diversified `selected_read_candidates`; Reuters/AP ≤1 |
 
 ## Story format
 
-Each news story: bullet + bold headline, summary with `([Publisher][N])`, 💡 and 🧩 lines, footnotes at file end.
+Each news story: bullet + bold headline, summary with `([Publisher][N])` (≤2 sentences), optional 💡 on max 4 stories (see style rules — no 🧩), footnotes at file end.
 
 If inbox file date ≠ briefing date, add `*Research accessed DD Month YYYY.*` under the title and set `inbox_date` in `last_run.json`.
 

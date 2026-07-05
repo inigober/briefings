@@ -224,8 +224,8 @@ def _truncate_preheader(text: str, max_len: int) -> str:
     return truncated
 
 
-def extract_preheader(md_text: str, section_name: str = "What Matters Today", max_len: int = 100) -> str:
-    """Short inbox-preview line: lead intro, named section themes, else first headline."""
+def extract_preheader(md_text: str, section_name: str = "", max_len: int = 100) -> str:
+    """Short inbox-preview line: lead intro, optional named section themes, else first headline."""
     lead = extract_lead_paragraphs(md_text)
     if lead:
         return _truncate_preheader(lead, max_len)
@@ -233,27 +233,28 @@ def extract_preheader(md_text: str, section_name: str = "What Matters Today", ma
     in_section = False
     snippets: list[str] = []
 
-    for line in md_text.splitlines():
-        stripped = line.strip()
-        if stripped.startswith("## ") and section_name in stripped:
-            in_section = True
-            continue
-        if in_section and stripped.startswith("## "):
-            break
-        if in_section and stripped.startswith("### "):
-            text = stripped[4:].strip()
-            if text:
-                snippets.append(text)
-            continue
-        if in_section and re.match(r"^\d+\.\s+", stripped):
-            text = re.sub(r"^\d+\.\s*", "", stripped)
-            text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
-            text = text.split(".")[0].strip()
-            if text:
-                snippets.append(text)
+    if section_name:
+        for line in md_text.splitlines():
+            stripped = line.strip()
+            if stripped.startswith("## ") and section_name in stripped:
+                in_section = True
+                continue
+            if in_section and stripped.startswith("## "):
+                break
+            if in_section and stripped.startswith("### "):
+                text = stripped[4:].strip()
+                if text:
+                    snippets.append(text)
+                continue
+            if in_section and re.match(r"^\d+\.\s+", stripped):
+                text = re.sub(r"^\d+\.\s*", "", stripped)
+                text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
+                text = text.split(".")[0].strip()
+                if text:
+                    snippets.append(text)
 
-    if snippets:
-        return _truncate_preheader(" · ".join(snippets[:2]), max_len)
+        if snippets:
+            return _truncate_preheader(" · ".join(snippets[:2]), max_len)
 
     for line in md_text.splitlines():
         match = re.match(r"^\*\s+\*\*(.+?)\*\*", line.strip())
@@ -990,7 +991,7 @@ def render_html(
     md_text: str,
     *,
     use_callouts: bool = True,
-    preheader_section: str = "What Matters Today",
+    preheader_section: str = "",
     briefing_type: str | None = None,
     culture_why_style: str = "callout",
 ) -> str:
@@ -1015,12 +1016,6 @@ def render_html(
     body_html = apply_inline_heading_styles(body_html)
     body_html = enhance_compass_paragraphs(body_html, use_callouts)
     body_html = insert_section_dividers(body_html)
-    body_html = re.sub(
-        r"(<h2[^>]*>What Matters Today[^<]*</h2>\s*)<ol>",
-        r'\1<ol class="themes">',
-        body_html,
-        count=1,
-    )
 
     footnotes_html = render_footnotes_html(footnotes_md)
     footer_html = render_briefing_footer_html()
@@ -1219,7 +1214,7 @@ def main() -> int:
         md_text = briefing_path.read_text(encoding="utf-8")
         title = extract_title(md_text, briefing_path.stem)
         type_id = infer_type_from_briefing_path(briefing_path)
-        preheader_section = "What Matters Today"
+        preheader_section = ""
         subject_emoji = ""
         if type_id:
             briefing_cfg = load_briefing_type(type_id)

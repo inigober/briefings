@@ -55,10 +55,6 @@ Export controls and rail delays frame a day of state-capacity stress tests acros
 ## Spain 🇪🇸
 
 * **Anthropic blocks advanced Claude access**
-
-## What Matters Today 🧠
-
-1. **US tech controls are biting in Europe.** Details here.
 """
         self.assertEqual(
             extract_preheader(md),
@@ -99,22 +95,18 @@ Kyiv Biennial opens at KW while experimental film anchors a dense mid-June week.
             "Kyiv Biennial – A Bird That Cannot Land · Afterlives",
         )
 
-    def test_falls_back_to_what_matters_today(self) -> None:
+    def test_falls_back_to_first_headline_without_intro(self) -> None:
         md = """# News Briefing — 13 June 2026
 
 ## Spain 🇪🇸
 
 * **Anthropic blocks advanced Claude access**
 
-## What Matters Today 🧠
-
-1. **US tech controls are biting in Europe.** Details here.
-
-2. **Infrastructure promises face delivery audits.** More details.
+* **Second story headline**
 """
         self.assertEqual(
             extract_preheader(md),
-            "US tech controls are biting in Europe · Infrastructure promises face delivery audits",
+            "Anthropic blocks advanced Claude access",
         )
 
 
@@ -161,10 +153,6 @@ Export controls dominate today's edition.
 ## Spain 🇪🇸
 
 * **First story**
-
-## What Matters Today 🧠
-
-1. **Theme one.** Details here.
 """
 
     def test_renders_berlin_footer(self) -> None:

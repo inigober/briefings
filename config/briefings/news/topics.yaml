@@ -147,19 +147,11 @@ topics:
 
   - id: what_matters
     name: What Matters Today 🧠
-    enabled: true
+    enabled: false
     max_items: 4
     min_items: 3
     description: >
-      3–4 cross-cutting themes (not story recaps). Explain why they matter today.
-    example_themes:
-      - demographic change
-      - industrial policy
-      - infrastructure bottlenecks
-      - climate adaptation
-      - labour shortages
-      - state capacity
-      - technological change
+      Removed — duplicated the intro and main sections. Do not include in output.
 
   - id: selected_reads
     name: Selected Reads 🗞️

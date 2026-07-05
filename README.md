@@ -68,7 +68,9 @@ GitHub Action on push → styled HTML email (Resend, same recipient)
 
 ### News Briefing (daily)
 
-Sections: Spain, Germany, Berlin, World, Other Headlines Today, What Matters Today, Selected Reads.
+Sections: Spain, Germany, Berlin, World, Other Headlines Today, Selected Reads.
+
+Each main story: headline + summary (≤2 sentences). Optional 💡 annotation on at most 4 stories per briefing (see style rules). One-sentence intro required.
 
 Title: `# News Briefing — DD Month YYYY`
 

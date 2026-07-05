@@ -27,16 +27,17 @@ Record both dates in `state/news/last_run.json` (`briefing_date`, `inbox_date`).
 
 ## Intro (required)
 
-Immediately after the title (and optional stale-inbox line), add **1–2 sentences** that frame the day's through-line — not a section recap.
+Immediately after the title (and optional stale-inbox line), add **one sentence** that frames the day's through-line — not a section recap.
 
-- Plain paragraph(s); no heading, bullets, or emoji lines.
+- Plain paragraph; no heading, bullets, or emoji lines.
 - Analytical tone; name the themes that connect Spain, Germany, Berlin, and World today.
+- Keep it tight — one sentence, ≤40 words when possible.
 - This text appears at the top of the email and drives the inbox preview line.
 
 Example:
 
 ```
-US export controls on frontier AI and a week of infrastructure delivery tests — in Germany's rail corridors and Berlin's university buildings — set the frame for today's edition.
+US export controls on frontier AI and infrastructure delivery tests in Germany's rail corridors and Berlin's university buildings set the frame for today's edition.
 ```
 
 ## Required sections (exact order)
@@ -46,8 +47,7 @@ US export controls on frontier AI and a week of infrastructure delivery tests �
 3. Berlin 🏙️
 4. World 🌐
 5. Other Headlines Today 📋
-6. What Matters Today 🧠
-7. Selected Reads 🗞️
+6. Selected Reads 🗞️
 
 Section targets and priorities: `config/briefings/news/topics.yaml`. Sources: `config/briefings/news/sources.yaml`.
 
@@ -65,13 +65,31 @@ Use bullet items, not `###` headings:
 * **Headline**
 
 Summary paragraph. ([Publisher][N])
-
-💡 One-line insight — why it matters (no label).
-
-🧩 One-line broader context (no label).
 ```
 
-- Blank line after headline, after summary, and before each 💡 / 🧩 line (aids email rendering).
+**Default: no annotation.** The summary must stand alone (≤2 sentences).
+
+**Optional 💡 (max 4 per briefing):** Add a single 💡 line only when the story passes the annotation gate below. Never add 🧩.
+
+```
+💡 One-line insight — why it matters (no label).
+```
+
+**Annotation gate** — include 💡 only if at least one is true:
+
+1. **Headline gap** — significance is not obvious from the headline + summary alone.
+2. **Second-order effect** — the story changes incentives, institutions, or supply chains, not just today's news cycle.
+3. **Cross-region link** — connects to a structural theme the reader tracks (demographics, state capacity, industrial policy).
+4. **Counterintuitive framing** — the obvious read is wrong or incomplete.
+
+**Hard exclude** (never annotate):
+
+- Insight merely rephrases the summary.
+- Forward-looking "if X then Y" political speculation not grounded in the article.
+- Sports, celebrity, one-off crime, earnings beats unless there is a structural angle.
+- A theme already annotated elsewhere in today's briefing.
+
+- Blank line after headline, after summary, and before 💡 when present (aids email rendering).
 - No indented continuation lines under bullets — every line starts at the left margin.
 
 - Cite with numbered reference links inline; define URLs in a **footnotes block** at the end of the file (`[N]: url "title"`).
@@ -159,10 +177,6 @@ After choosing Spain/Germany/Berlin/World stories, scan **remaining** items in t
 - Group by **theme** (Middle East diplomacy, Latin America security, EU bureaucracy, etc.), not by section or outlet.
 - Skip local Berlin-only filler unless city-relevant; skip stories already covered in main sections.
 
-## What Matters Today
-
-3–4 **themes** (not story summaries): e.g. demographic change, industrial policy, infrastructure bottlenecks, labour shortages, state capacity, technological change. Explain why these themes matter today.
-
 ## World section
 
 - Must **not** mirror Spain/Germany stories (if Germany covers defence, World should not repeat it).
@@ -182,17 +196,19 @@ After choosing Spain/Germany/Berlin/World stories, scan **remaining** items in t
 ## Final checklist (revise if any answer is no)
 
 1. Date in title?
-2. Short intro framing today's through-line (1–2 sentences)?
+2. One-sentence intro framing today's through-line?
 3. Spain, Germany, Berlin each contain **new** information?
 4. No duplicate themes within any one section?
 5. Germany/Berlin stories geographically fit their section?
 6. World includes ≥2 non-European regions?
 7. World distinct from Spain/Germany?
-8. Selected Reads diversified (≥3 publishers, Guardian ≤1)? Reuters/AP ≤1?
-9. No Selected Read URL in last 5 briefings?
-10. Other Headlines Today captures major unused inbox themes (crisp, no links)?
-11. Every footnote URL copied verbatim from inbox `sources[0].url`?
-12. Would a daily reader learn something genuinely new?
+8. At most **4** 💡 annotations across the whole briefing — and each passes the annotation gate?
+9. No 🧩 lines anywhere?
+10. Selected Reads diversified (≥3 publishers, Guardian ≤1)? Reuters/AP ≤1?
+11. No Selected Read URL in last 5 briefings?
+12. Other Headlines Today captures major unused inbox themes (crisp, no links)?
+13. Every footnote URL copied verbatim from inbox `sources[0].url`?
+14. Would a daily reader learn something genuinely new?
 
 ## Commits
 
