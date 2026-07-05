@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-05
+
+- **spain-cuerpo-housing-budget-path** — Economy minister Carlos Cuerpo says housing is top priority without a silver bullet as government targets September budget after three prorogued years (section: spain)
+- **spain-la-manada-decade-anniversary** — EL PAÍS marks ten years since Pamplona gang rape and traces how feminist mobilisation reshaped Spanish law and politics (section: spain)
+- **spain-pacific-demographics-archaeology** — CSIC-led PacificPeopleForest documents demographic and ecological collapse in Marianas after European contact (section: spain)
+- **germany-pistorius-lithuania-brigade-cap** — Defence minister plans under 1,000 conscripts for forward brigade in Lithuania ahead of NATO summit (section: germany)
+- **germany-post-delivery-oversight-gap** — Bundesnetzagentur can fine Deutsche Post for late letters but lacks practical enforcement tools (section: germany)
+- **germany-drought-south-east-summer** — Hydrologists warn southern and eastern Länder need unusually wet summer to offset deep soil-moisture deficits (section: germany)
+- **berlin-ostbahn-expansion-bund-scepticism** — Federal planners see no fast-track slot for Berlin–Poland Ostbahn upgrade despite Brandenburg pressure (section: berlin)
+- **berlin-lachgas-illegal-street-racing** — Police report nitrous-oxide use compounding Berlin's illegal street-racing enforcement challenge (section: berlin)
+- **berlin-a10-heat-damage-weekend-closure** — Heat-buckled A10 ring-road repairs near Potsdam trigger hours-long weekend queues toward Berlin (section: berlin)
+- **world-canada-pipeline-first-nations-deal** — Ottawa and Alberta advance Pacific oil pipeline after C$150bn package for BC and First Nations concerns (section: world)
+- **world-egypt-byzantine-dakhla-oasis** — Archaeologists uncover fourth-century Byzantine quarters with basilica in Egypt's western desert (section: world)
+- **world-sony-playstation-disc-phaseout** — Sony's shift away from physical game discs resets Asian gaming retail and broadband value chains (section: world)
+
 ## 2026-07-04
 
 - **spain-marbella-munoz-corruption-wiretaps** — UDEF wiretaps on Marbella mayor's family left uninvestigated by Audiencia Nacional; court summons Muñoz on inheritance dispute (section: spain)

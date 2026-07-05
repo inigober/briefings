@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-07-04",
-  "briefing_date": "2026-07-04",
-  "inbox_date": "2026-07-04",
+  "date": "2026-07-05",
+  "briefing_date": "2026-07-05",
+  "inbox_date": "2026-07-05",
   "status": "success",
-  "briefing_path": "briefings/news/2026-07-04.md",
-  "inbox_path": "inbox/news/2026-07-04-synthesis.json",
+  "briefing_path": "briefings/news/2026-07-05.md",
+  "inbox_path": "inbox/news/2026-07-05-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "La Abogacía del Estado se opone a que el Supremo eleve a la Justicia europea la regularización", "section": "spain", "reason": "avoid_unless_material: migration regularization"},
-    {"headline": "Mensaje a los líderes europeos antes de la cumbre de la OTAN", "section": "spain", "reason": "not Spain-primary: NATO spending opinion piece"},
-    {"headline": "Trump se apropia del 250 aniversario de EEUU para imponer su agenda ultra", "section": "spain", "reason": "geographic_misfit: US politics belongs in World/Other Headlines"},
-    {"headline": "Ukraine – Mindestens zehn Tote bei russischen Angriffen auf Sumy", "section": "germany", "reason": "geographic_misfit: Ukraine war belongs in World"},
-    {"headline": "Datenfirma: Schiffsverkehr in der Straße von Hormus erholt sich", "section": "germany", "reason": "geographic_misfit: Middle East shipping belongs in World"},
-    {"headline": "Hitzewelle beeinträchtigt Feiern zum Unabhängigkeitstag in den USA", "section": "germany", "reason": "geographic_misfit: US Independence Day belongs in World"},
-    {"headline": "Europaweites Problem: Flughäfen beklagen lange Wartezeiten an der Grenzkontrolle", "section": "germany", "reason": "theme_duplicate: EES airport queues story chosen"},
+    {"headline": "Aldama, el nexo corruptor que acabó entronizado como 'campeón' del antisanchismo", "section": "spain", "reason": "avoid_unless_material: PSOE scandal orbit"},
+    {"headline": "La estrategia de Junts detrás de la 'vía Starmer'", "section": "spain", "reason": "political saga around Sánchez without material development"},
+    {"headline": "Qué ha ocurrido con La Manada diez años después", "section": "spain", "reason": "theme_duplicate: La Manada anniversary piece chosen"},
+    {"headline": "Multitudes se congregan en Teherán al comenzar el funeral por el ayatolá Jamenei", "section": "spain", "reason": "geographic_misfit: Iran succession belongs in World/Other Headlines"},
+    {"headline": "EEUU juega a dos bandas en sus acuerdos con Irán y con Israel y Líbano", "section": "spain", "reason": "geographic_misfit: US Middle East diplomacy"},
+    {"headline": "La IA desata una guerra civil en el mundo MAGA y Trump aún no ha tomado partido", "section": "spain", "reason": "geographic_misfit: US tech politics belongs in World"},
+    {"headline": "Trump bietet nach Gesprächen mit Putin und Selenskyj Vermittlung im Ukraine-Krieg an", "section": "germany", "reason": "geographic_misfit: Ukraine diplomacy belongs in World"},
+    {"headline": "56 Prozent fühlen sich durch neue militärische Stärke sicherer", "section": "germany", "reason": "theme_duplicate: defence posture covered by Pistorius Lithuania story"},
+    {"headline": "Hochzeit des Jahres: So lief die Swift-Hochzeit ab", "section": "germany", "reason": "lifestyle noise"},
     {"headline": "Brand im Krankenhaus Ludwigslust: Landkreis nennt Schadenssumme", "section": "berlin", "reason": "geographic_misfit: Mecklenburg hospital fire not Berlin city"},
-    {"headline": "WM-Kolumne: Mit Heavy Metal gegen die Wand?", "section": "berlin", "reason": "not Berlin-local: national football coaching speculation"},
-    {"headline": "Iran begins mourning for Khamenei under tight security", "section": "world", "reason": "incremental: Iran succession covered in Other Headlines; Sudan/India/AI regulation prioritized"},
-    {"headline": "Understanding Ebola's wildlife origins is crucial to preventing next big outbreak", "section": "selected_reads", "reason": "URL repeated within last 5 briefings (2026-07-03)"},
-    {"headline": "Was es mit der Krankschreibung ab Tag 1 auf sich hat", "section": "berlin", "reason": "recent_topics: sick-note reform covered 2026-07-03"}
+    {"headline": "Moldau: Regierungschef Munteanu tritt zurück – Kabinett gestürzt", "section": "berlin", "reason": "geographic_misfit: Moldova government crisis not Berlin local"},
+    {"headline": "El mundo se precipita a una peligrosa espiral de gasto militar", "section": "spain", "reason": "global theme better suited to Other Headlines; Pacific research and defence stories prioritized"}
   ],
-  "notes": "Synthesis from 2026-07-04 pre-fetch; Marbella corruption wiretaps, PP Trans-law rollback pledge, global LGBTI backlash, rail budget increase, AfD Erfurt power struggle, EES airport queues, Orte Ost film series, Berlin clichés column, Schröder basketball, Sudan RSF Amnesty report, India offline AI hackathon, Trump anti-regulation stance."
+  "notes": "Synthesis from 2026-07-05 pre-fetch; Cuerpo housing/budget path, La Manada decade retrospective, Pacific demographics archaeology, Pistorius Lithuania brigade cap, Post delivery oversight gap, south/east drought, Ostbahn upgrade scepticism, laughing-gas street racing, A10 heat closure, Canada pipeline deal, Egypt Byzantine discovery, Sony disc phaseout."
 }

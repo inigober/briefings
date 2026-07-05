@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-05
+
+- [AI investors shouldn't choose between Wall Street and Asia](https://asia.nikkei.com/opinion/ai-investors-shouldn-t-choose-between-wall-street-and-asia) — Nikkei Asia
+- [Uber stalls European food delivery push as it pursues Delivery Hero takeover](https://www.ft.com/content/53f631ef-98e4-4eec-92e4-3dd023ed25f5) — Financial Times
+- [New pipeline in Canada to proceed after C$150bn pledged to ease BC and First Nations concerns](https://www.theguardian.com/world/2026/jul/03/canada-alberta-pipeline) — The Guardian
+- [Ukrainian woman wanted after Monaco attack](https://www.politico.eu/article/ukrainian-woman-wanted-after-monaco-attack/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+
 ## 2026-07-04
 
 - [Angsty in Ankara](https://foreignpolicy.com/2026/07/02/nato-summit-ankara-trump-rutte-erdogan-ukraine-iran/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Qualcomm challenges Nvidia's AI grip with chip that ditches HBM](https://asia.nikkei.com/business/technology/artificial-intelligence/qualcomm-challenges-nvidia-s-ai-grip-with-chip-that-ditches-hbm) — Nikkei Asia
 - [Doomsday Climate Scenarios Were Wrong. That Doesn't Help Europe.](https://foreignpolicy.com/2026/06/30/science-climate-europe-global-warming-heat-wave/) — Foreign Policy
 - [Venezuelans Were Sorting Through the Rubble Alone](https://www.theatlantic.com/science/2026/06/venezuela-earthquake-towers/687747/?utm_source=feed) — The Atlantic
-
-## 2026-06-30
-
-- [Is AI an exoskeleton for the mind?](https://www.ft.com/content/b2eeb915-90db-4308-9a1e-f3c29553403c) — Financial Times
-- [What would multilateral 'AI arms control' look like?](https://www.ft.com/content/7aa4b53d-2e07-4971-9e30-8b0c63eb4ff2) — Financial Times
-- [The Billionaires' Vagina Club](https://www.newyorker.com/magazine/2026/07/06/the-billionaires-vagina-club) — The New Yorker
-- [Thailand's largest opposition gets reality check in Bangkok vote](https://asia.nikkei.com/politics/thailand-s-largest-opposition-gets-reality-check-in-bangkok-vote) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 
