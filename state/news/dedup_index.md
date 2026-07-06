@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-06
+
+- **spain-rental-transfer-28bn-gdp** — eldiario.es maps €28bn annual rental flows as 1.6% of GDP, doubled in a decade with generational skew (section: spain)
+- **spain-punica-granados-sentencing** — Audiencia Nacional sentences ex-PP minister Francisco Granados to 2.5 years for Púnica contract steering (section: spain)
+- **spain-psoe-july-primaries-abalos-aftermath** — PSOE schedules 19 July regional primaries across five communities amid post-Ábalos judicial storm (section: spain)
+- **germany-innovation-growth-trap-research-gap** — Handelsblatt warns Germany under-invests in future R&D as Schwarz-Rot reforms fall short (section: germany)
+- **germany-business-afd-democracy-warning** — Study cited by Handelsblatt shows executives fear AfD strength threatens democratic stability (section: germany)
+- **germany-youth-depression-screen-content-debate** — Tagesspiegel covers argument that online content quality—not just usage time—drives adolescent depression (section: germany)
+- **berlin-blackout-expert-commission-report** — Independent panel delivers January citywide power-failure findings as Senate faces resilience questions (section: berlin)
+- **berlin-inclusion-assistant-funding-shortfall** — rbb24: school escort hours for disabled pupils lag legal need amid federal-local budget fights (section: berlin)
+- **berlin-cdu-campaign-video-pulled** — Tagesspiegel reports CDU removes Berlin election promo clip temporarily after criticism (section: berlin)
+- **world-japan-ai-chip-malaysia-oppstar** — Japanese AI chip startup partners with Malaysia's Oppstar to scale production (section: world)
+- **world-china-zion-church-founder-released** — Underground church leader Ezra Jin released from Chinese detention and reunites with family in US (section: world)
+- **world-shipping-green-retreat-fossil-nuclear** — FT: shipowners shelve alternative-fuel bets and explore fossil and nuclear propulsion (section: world)
+
 ## 2026-07-05
 
 - **spain-cuerpo-housing-budget-path** — Economy minister Carlos Cuerpo says housing is top priority without a silver bullet as government targets September budget after three prorogued years (section: spain)
@@ -200,36 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-canada-healthcare-phishing-test** — Newfoundland unions condemn fake paid-day-off cybersecurity drill (section: world)
 - **world-hiroshima-survivor-memoir-published** — Tanimoto's 1947 account recovered from US archive for August release (section: world)
 - **world-australia-war-memorial-roberts-smith** — Government defends inviting contested VC holder to memorial reopening (section: world)
-
-## 2026-06-22
-
-- **spain-justice-impartiality-poll** — Majority tell Ateneo del Dato poll courts lack impartiality (section: spain)
-- **spain-valencia-teacher-police-assault** — Valencia judge probes riot-police assault on striking teacher (section: spain)
-- **spain-world-cup-saudi-victory** — Spain routs Saudi Arabia with Lamine and Oyarzabal goals (section: spain)
-- **germany-arbeitszeugnis-grade-inflation** — Employers inflate reference grades to avoid dismissal suits (section: germany)
-- **germany-work-messenger-monitoring** — Labour-law column on when bosses may read work chats (section: germany)
-- **germany-ryanair-oleary-contract-extension** — O'Leary extends as Ryanair CEO to 2032 with rich options (section: germany)
-- **berlin-vergesellschaftung-national-debate** — Federal Länder join Berlin expropriation argument five years after vote (section: berlin)
-- **berlin-mitte-open-air-permit-reform** — Mitte pilots simpler outdoor-event permits (section: berlin)
-- **berlin-charlottenburg-antisemitic-assault** — Police arrest suspect after Uhlandstraße attacks (section: berlin)
-- **world-colombia-de-la-espriella-election-win** — De la Espriella wins presidency by ~250,000 votes in precount (section: world)
-- **world-bolivia-state-emergency-protests** — Arce deploys military against nationwide roadblocks (section: world)
-- **world-china-appliances-southeast-asia** — Chinese brands gain ASEAN appliance share (section: world)
-
-## 2026-06-21
-
-- **spain-begona-gomez-audiencia-appeal-trial** — Audiencia Provincial last route as Peinado sends Gómez to trial with travel ban (section: spain)
-- **spain-feijoo-vox-coalition-reversal** — Feijóo abandons pledge to govern without Vox (section: spain)
-- **spain-summer-heatwave-early-june** — First summer heatwave exposes 27M to elevated health risk (section: spain)
-- **germany-pension-commission-contribution-reform** — Alterssicherungskommission widens pension insurance, spares Beamte (section: germany)
-- **germany-us-drug-price-investigation** — Washington probes German pharmaceutical pricing (section: germany)
-- **germany-heat-days-frequency-data** — Climate data show sharply rising German heat-day counts (section: germany)
-- **berlin-school-mobbing-violence-study** — Senate commissions study on bullying and violence in schools (section: berlin)
-- **berlin-veteranentag-reichstag-closures** — Veterans Day citizen festival closes government quarter (section: berlin)
-- **berlin-ki-journalism-niggemeier-debate** — AI summarisation dispute between Berlin media critics (section: berlin)
-- **world-colombia-paramilitary-runoff** — Presidential runoff shaped by paramilitary histories (section: world)
-- **world-japan-chip-tools-china-sales-drop** — Japanese equipment suppliers report 10% China sales fall (section: world)
-- **world-australia-h5n1-mainland** — First mainland H5N1 case confirmed in Western Australia (section: world)
 
 ## Saturated topics — do not return without material development
 

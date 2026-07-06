@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-06
+
+- [Big investors commit billions to private credit despite turmoil](https://www.ft.com/content/ea275bbd-e411-4db5-a9d2-415666f2a923) — Financial Times
+- [Son remakes SoftBank in his own image](https://www.ft.com/content/a29a698c-3fb6-4e6f-ab02-1b7843786066) — Financial Times
+- [China's sea patrols and lawfare tighten 'all fronts' squeeze on Taiwan](https://asia.nikkei.com/politics/international-relations/taiwan-tensions/china-s-sea-patrols-and-lawfare-tighten-all-fronts-squeeze-on-taiwan) — Nikkei Asia
+- [Prepare for Airplane Purgatory](https://www.theatlantic.com/science/2026/07/airlines-flight-extended-tarmac-delay/687802/?utm_source=feed) — The Atlantic
+
 ## 2026-07-05
 
 - [AI investors shouldn't choose between Wall Street and Asia](https://asia.nikkei.com/opinion/ai-investors-shouldn-t-choose-between-wall-street-and-asia) — Nikkei Asia
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Takeda and Insilico strike AI-led drug discovery deal worth up to $600m](https://asia.nikkei.com/business/pharmaceuticals/takeda-and-insilico-strike-ai-led-drug-discovery-deal-worth-up-to-600m) — Nikkei Asia
 - [I Went to the Great American State Fair and I May Never Sleep Again](https://www.theatlantic.com/newsletters/2026/07/great-american-state-fair-maha-visit/687769/?utm_source=feed) — The Atlantic
 - [Has Ukraine found Russia's weak spot?](https://www.politico.eu/podcast/brussels-playbook-podcast/has-ukraine-found-russias-weak-spot/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-
-## 2026-07-01
-
-- [The fragility of the world's economic resilience](https://www.ft.com/content/7d732c78-8d3d-4e10-a3a1-4e0c79e36d36) — Financial Times
-- [Qualcomm challenges Nvidia's AI grip with chip that ditches HBM](https://asia.nikkei.com/business/technology/artificial-intelligence/qualcomm-challenges-nvidia-s-ai-grip-with-chip-that-ditches-hbm) — Nikkei Asia
-- [Doomsday Climate Scenarios Were Wrong. That Doesn't Help Europe.](https://foreignpolicy.com/2026/06/30/science-climate-europe-global-warming-heat-wave/) — Foreign Policy
-- [Venezuelans Were Sorting Through the Rubble Alone](https://www.theatlantic.com/science/2026/06/venezuela-earthquake-towers/687747/?utm_source=feed) — The Atlantic
 
 ## Blocked until 5+ briefings have passed
 
