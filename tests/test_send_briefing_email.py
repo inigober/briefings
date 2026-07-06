@@ -20,6 +20,7 @@ from send_briefing_email import (  # noqa: E402
     render_culture_body_html,
     render_html,
     resolve_briefing_paths,
+    transform_selected_reads,
 )
 
 
@@ -164,7 +165,16 @@ Body with a [source link](https://example.com/article).
     def test_news_links_are_underlined(self) -> None:
         html = render_html(self.SAMPLE, briefing_type="news")
         self.assertIn("text-decoration:underline", html)
+        self.assertIn('class="briefing-link"', html)
         self.assertNotIn("text-decoration:none", html)
+
+    def test_news_source_links_have_no_inline_color(self) -> None:
+        html = render_html(self.SAMPLE, briefing_type="news")
+        self.assertIn('class="briefing-link" href="https://example.com/article"', html)
+        self.assertNotRegex(
+            html,
+            r'class="briefing-link" href="https://example.com/article" style="color:',
+        )
 
     def test_email_css_includes_mobile_and_dark_mode(self) -> None:
         html = render_html(self.SAMPLE, briefing_type="news")
@@ -172,6 +182,53 @@ Body with a [source link](https://example.com/article).
         self.assertIn("@media (prefers-color-scheme: dark)", html)
         self.assertIn("color-scheme", html)
         self.assertIn("light dark", html)
+        self.assertIn("p.insight", html)
+        self.assertIn("color: #e8e8e8 !important", html)
+
+    def test_body_has_inline_font_size_for_mobile_clients(self) -> None:
+        html = render_html(self.SAMPLE, briefing_type="news")
+        self.assertIn('body style="', html)
+        self.assertIn("font-size:18px", html)
+
+
+class TestTransformSelectedReads(unittest.TestCase):
+    SAMPLE = """## Selected Reads 🗞️
+
+* **Nikkei Asia — AI investors shouldn't choose between Wall Street and Asia**
+
+Why it's worth reading: Regional capital flows matter.
+
+Read article: [AI investors shouldn't choose between Wall Street and Asia](https://asia.nikkei.com/opinion/example)
+
+* **Financial Times — Uber stalls European food delivery push**
+
+Why it's worth reading: Consolidation logic.
+
+Read article: [Uber stalls European food delivery push](https://www.ft.com/content/example)
+
+## Spain 🇪🇸
+"""
+
+    def test_merges_headline_with_read_article_url(self) -> None:
+        transformed = transform_selected_reads(self.SAMPLE)
+        self.assertIn(
+            "* [Nikkei Asia — AI investors shouldn't choose between Wall Street and Asia]"
+            "(https://asia.nikkei.com/opinion/example)",
+            transformed,
+        )
+        self.assertNotIn("Read article:", transformed)
+        link_pos = transformed.index("asia.nikkei.com/opinion/example")
+        why_pos = transformed.index("Why it's worth reading: Regional capital flows matter.")
+        self.assertLess(link_pos, why_pos)
+
+    def test_renders_linked_headline_in_html(self) -> None:
+        md = "# News Briefing — 5 July 2026\n\n" + self.SAMPLE
+        html = render_html(md, briefing_type="news")
+        self.assertIn('class="briefing-link"', html)
+        self.assertIn("selected-read-item", html)
+        self.assertIn("Why it", html)
+        self.assertNotIn("Read article:", html)
+        self.assertNotRegex(html, r"</a>\s*Why it[^<]+</li>")
 
 
 class TestFormatEmailSubject(unittest.TestCase):

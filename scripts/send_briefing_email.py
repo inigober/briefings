@@ -54,17 +54,30 @@ CULTURE_COLOR_LABEL = "#57534e"
 CULTURE_COLOR_FOOTER = "#6b7280"
 CULTURE_COLOR_BORDER = "#9ca3af"
 
-# Link blue: strong contrast on white; EMAIL_CSS overrides for dark mode (prefers-color-scheme).
-LINK_COLOR = "#1a56db"
-NEWS_LINK_STYLE = (
-    f"color:{LINK_COLOR};text-decoration:underline;text-underline-offset:2px;"
+# Link styling: color lives in EMAIL_CSS only (no inline color) so dark-mode rules apply
+# in clients like Spark that ignore @media for inline-styled elements.
+LINK_COLOR_LIGHT = "#1a56db"
+LINK_COLOR_DARK = "#8ab4f8"
+NEWS_LINK_STYLE = "text-decoration:underline;text-underline-offset:2px;"
+
+# Base typography — inline on <body style="{BODY_TAG_STYLE}"> and story paragraphs because many mobile clients
+# (e.g. Spark) ignore <style> @media blocks but honour inline font-size.
+BODY_FONT_SIZE = "18px"
+BODY_LINE_HEIGHT = "1.7"
+STORY_BODY_STYLE = (
+    f"margin:0 0 12px;font-size:{BODY_FONT_SIZE};line-height:{BODY_LINE_HEIGHT};"
+)
+STORY_HEADLINE_STYLE = "margin:0 0 10px;font-weight:700;font-size:19px;line-height:1.35;"
+BODY_TAG_STYLE = (
+    "font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;"
+    f"font-size:{BODY_FONT_SIZE};line-height:{BODY_LINE_HEIGHT};color:#1a1a1a;"
+    "max-width:600px;margin:0 auto;padding:24px 16px;background:#ffffff;"
+    "-webkit-text-size-adjust:100%;"
 )
 
-CULTURE_LINK_STYLE = (
-    f"color:{CULTURE_COLOR_BODY};text-decoration:underline;text-underline-offset:2px;"
-)
+CULTURE_LINK_STYLE = "text-decoration:underline;text-underline-offset:2px;"
 CULTURE_TITLE_LINK_STYLE = (
-    "color:#111111;text-decoration:underline;text-underline-offset:3px;"
+    "text-decoration:underline;text-underline-offset:3px;font-weight:600;"
 )
 CULTURE_META_STYLE = (
     f"margin:0 0 6px;padding:0;font-size:15px;color:{CULTURE_COLOR_META};line-height:1.5;"
@@ -94,7 +107,7 @@ RESTAURANT_ENTRY_RE = re.compile(
 RESTAURANT_STRONGEST_BETS = "This week's strongest bets"
 RESTAURANT_META_FIELDS = ("Hours", "Rating", "Maps")
 RESTAURANT_TITLE_LINK_STYLE = (
-    "color:#111111;text-decoration:underline;text-underline-offset:3px;"
+    "text-decoration:underline;text-underline-offset:3px;font-weight:600;"
 )
 RESTAURANT_META_STYLE = (
     f"margin:0 0 10px;padding:0;font-size:15px;color:{CULTURE_COLOR_META};line-height:1.5;"
@@ -106,8 +119,8 @@ RESTAURANT_BODY_STYLE = (
 EMAIL_CSS = """
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.65;
+  font-size: 18px;
+  line-height: 1.7;
   color: #1a1a1a;
   max-width: 600px;
   margin: 0 auto;
@@ -118,13 +131,20 @@ body {
 p { margin: 0 0 12px; }
 ul, ol { margin: 0 0 20px; padding: 0; }
 .story { margin: 0 0 28px; padding: 0; }
-.story p { margin: 0 0 10px; padding: 0; text-indent: 0; }
+.story p { margin: 0 0 12px; padding: 0; text-indent: 0; }
 ol.themes { padding-left: 20px; margin: 0 0 20px; }
 ol.themes > li { margin: 0 0 14px; }
-a {
+a,
+a.briefing-link {
   color: #1a56db;
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+a.entry-title-link {
+  color: #111111;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
 }
 hr {
   border: none;
@@ -133,7 +153,7 @@ hr {
 }
 .research-accessed {
   margin: 0 0 20px;
-  font-size: 15px;
+  font-size: 16px;
   color: #71717a;
   font-style: italic;
 }
@@ -141,7 +161,7 @@ hr {
   margin-top: 32px;
   padding-top: 16px;
   border-top: 1px solid #e8e8e8;
-  font-size: 14px;
+  font-size: 15px;
   color: #71717a;
   line-height: 1.5;
 }
@@ -156,7 +176,7 @@ hr {
   padding-top: 20px;
   border-top: 1px solid #e8e8e8;
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
   color: #6b7280;
   font-style: italic;
 }
@@ -164,28 +184,28 @@ hr {
 
 @media only screen and (max-width: 480px) {
   body {
-    font-size: 18px !important;
-    line-height: 1.7 !important;
+    font-size: 19px !important;
+    line-height: 1.75 !important;
     padding: 20px 18px !important;
   }
-  h1 { font-size: 26px !important; }
-  h2 { font-size: 22px !important; }
-  h3 { font-size: 19px !important; }
+  h1 { font-size: 27px !important; }
+  h2 { font-size: 23px !important; }
+  h3 { font-size: 20px !important; }
   .story p,
   .story-body {
-    font-size: 18px !important;
+    font-size: 19px !important;
     margin-bottom: 14px !important;
   }
-  .story-headline { font-size: 19px !important; }
-  .research-accessed { font-size: 16px !important; }
+  .story-headline { font-size: 20px !important; }
+  .research-accessed { font-size: 17px !important; }
   .footnotes,
   .briefing-footer,
   .culture-footer,
-  .restaurant-footer { font-size: 15px !important; }
-  .culture-meta li { font-size: 16px !important; }
-  ol.themes > li { font-size: 18px !important; }
+  .restaurant-footer { font-size: 16px !important; }
+  .culture-meta li { font-size: 17px !important; }
+  ol.themes > li { font-size: 19px !important; }
   p.insight,
-  p.context { font-size: 18px !important; }
+  p.context { font-size: 19px !important; }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -196,8 +216,12 @@ hr {
   h1, h2, h3 {
     color: #f5f5f5 !important;
   }
-  a {
+  a,
+  a.briefing-link {
     color: #8ab4f8 !important;
+  }
+  a.entry-title-link {
+    color: #f5f5f5 !important;
   }
   hr {
     border-top-color: #404040 !important;
@@ -213,14 +237,29 @@ hr {
   .footnotes {
     color: #a1a1aa !important;
   }
+  p.insight,
+  p.context {
+    color: #e8e8e8 !important;
+  }
+  p.context {
+    color: #d4d4d8 !important;
+  }
   p.insight[style*="background"],
   p.context[style*="background"] {
     background: #2a2a2a !important;
     border-left-color: #525252 !important;
+    color: #e8e8e8 !important;
   }
   div[style*="background:#f4f4f5"] {
     background: #2a2a2a !important;
     border-left-color: #525252 !important;
+    color: #e8e8e8 !important;
+  }
+  div[style*="background:#f4f4f5"] div {
+    color: #c4c4cc !important;
+  }
+  .selected-read-why {
+    color: #c4c4cc !important;
   }
 }
 """
@@ -236,15 +275,22 @@ H2_STYLE = (
 HR_STYLE = "border:none;border-top:1px solid #e8e8e8;margin:28px 0;"
 H3_STYLE = "font-size:17px;font-weight:600;margin:20px 0 10px;color:#222222;"
 
-INSIGHT_STYLE_PLAIN = "margin:14px 0 0;font-weight:500;color:#1a1a1a;"
-CONTEXT_STYLE_PLAIN = "margin:10px 0 0;color:#52525b;"
+INSIGHT_STYLE_PLAIN = (
+    f"margin:14px 0 0;font-weight:500;color:#1a1a1a;font-size:{BODY_FONT_SIZE};"
+    f"line-height:{BODY_LINE_HEIGHT};"
+)
+CONTEXT_STYLE_PLAIN = (
+    f"margin:10px 0 0;color:#52525b;font-size:{BODY_FONT_SIZE};line-height:{BODY_LINE_HEIGHT};"
+)
 INSIGHT_STYLE_CALLOUT = (
     "margin:14px 0 0;padding:10px 14px;background:#f4f4f5;"
-    "border-left:3px solid #71717a;border-radius:4px;font-weight:500;color:#1a1a1a;"
+    "border-left:3px solid #71717a;border-radius:4px;font-weight:500;"
+    f"color:#1a1a1a;font-size:{BODY_FONT_SIZE};line-height:{BODY_LINE_HEIGHT};"
 )
 CONTEXT_STYLE_CALLOUT = (
     "margin:10px 0 0;padding:10px 14px;background:#fafafa;"
-    "border-left:3px solid #d4d4d8;border-radius:4px;color:#52525b;"
+    "border-left:3px solid #d4d4d8;border-radius:4px;"
+    f"color:#52525b;font-size:{BODY_FONT_SIZE};line-height:{BODY_LINE_HEIGHT};"
 )
 
 
@@ -362,7 +408,7 @@ def linkify_footnote_refs(text: str, footnotes: dict[str, tuple[str, str]]) -> s
         label, num = match.group(1), match.group(2)
         if num in footnotes:
             url, _ = footnotes[num]
-            return f'<a href="{url}" style="{NEWS_LINK_STYLE}">{label}</a>'
+            return f'<a class="briefing-link" href="{url}" style="{NEWS_LINK_STYLE}">{label}</a>'
         return match.group(0)
 
     return re.sub(r"\[([^\]]+)\]\[(\d+)\]", repl, text)
@@ -371,7 +417,7 @@ def linkify_footnote_refs(text: str, footnotes: dict[str, tuple[str, str]]) -> s
 def linkify_inline_markdown(text: str) -> str:
     return re.sub(
         r"\[([^\]]+)\]\(([^)]+)\)",
-        rf'<a href="\2" style="{NEWS_LINK_STYLE}">\1</a>',
+        rf'<a class="briefing-link" href="\2" style="{NEWS_LINK_STYLE}">\1</a>',
         text,
     )
 
@@ -422,13 +468,18 @@ def _story_block_html(
             title_match = re.match(r"^[*-]\s+\*\*(.+?)\*\*:?\s*(.*)", stripped)
             if title_match:
                 title, remainder = title_match.group(1), title_match.group(2).strip()
-                parts.append(f'<p class="story-headline" style="margin:0 0 10px;font-weight:700;">{title}</p>')
+                parts.append(
+                    f'<p class="story-headline" style="{STORY_HEADLINE_STYLE}">{title}</p>'
+                )
                 if remainder:
                     parts.append(
-                        f'<p class="story-body" style="margin:0 0 10px;">{format_story_body(remainder, footnotes)}</p>'
+                        f'<p class="story-body" style="{STORY_BODY_STYLE}">'
+                        f"{format_story_body(remainder, footnotes)}</p>"
                     )
             else:
-                parts.append(f'<p class="story-headline" style="margin:0 0 10px;font-weight:700;">{stripped}</p>')
+                parts.append(
+                    f'<p class="story-headline" style="{STORY_HEADLINE_STYLE}">{stripped}</p>'
+                )
             continue
         if is_insight_line(stripped):
             parts.append(_insight_html(stripped, use_callouts))
@@ -436,7 +487,7 @@ def _story_block_html(
             parts.append(_context_html(stripped, use_callouts))
         else:
             body = format_story_body(stripped, footnotes)
-            parts.append(f'<p class="story-body" style="margin:0 0 10px;">{body}</p>')
+            parts.append(f'<p class="story-body" style="{STORY_BODY_STYLE}">{body}</p>')
     parts.append("</div>")
     return "\n".join(parts)
 
@@ -514,6 +565,102 @@ def preprocess_briefing_markdown(
 def normalize_horizontal_rules(md_text: str) -> str:
     """Remove markdown --- lines; section dividers are inserted in HTML between sections."""
     return "\n".join(line for line in md_text.splitlines() if line.strip() != "---")
+
+
+SELECTED_READS_SECTION_MARKER = "Selected Reads"
+READ_ARTICLE_LINE_RE = re.compile(
+    r"^Read article:\s*\[([^\]]*)\]\(([^)]+)\)\s*$",
+    re.IGNORECASE,
+)
+SELECTED_READ_TITLE_RE = re.compile(r"^\*\s+\*\*(.+?)\*\*\s*$")
+
+
+def transform_selected_reads(md_text: str) -> str:
+    """Put each Selected Read URL on the headline line; drop separate Read article lines."""
+    lines = md_text.splitlines()
+    out: list[str] = []
+    in_section = False
+    pending_title: str | None = None
+    pending_lines: list[str] = []
+
+    def flush_incomplete_item() -> None:
+        nonlocal pending_title, pending_lines
+        if pending_title is None:
+            return
+        out.append(f"* **{pending_title}**")
+        out.extend(pending_lines)
+        pending_title = None
+        pending_lines = []
+
+    for line in lines:
+        stripped = line.strip()
+
+        if stripped.startswith("## "):
+            flush_incomplete_item()
+            in_section = SELECTED_READS_SECTION_MARKER in stripped
+            out.append(line)
+            continue
+
+        if not in_section:
+            out.append(line)
+            continue
+
+        title_match = SELECTED_READ_TITLE_RE.match(stripped)
+        if title_match:
+            flush_incomplete_item()
+            pending_title = title_match.group(1)
+            continue
+
+        read_match = READ_ARTICLE_LINE_RE.match(stripped)
+        if read_match:
+            link_title = pending_title or read_match.group(1)
+            out.append(f"* [{link_title}]({read_match.group(2)})")
+            out.extend(pending_lines)
+            pending_title = None
+            pending_lines = []
+            continue
+
+        if pending_title is not None:
+            pending_lines.append(line)
+            continue
+
+        out.append(line)
+
+    flush_incomplete_item()
+    return "\n".join(out)
+
+
+def apply_briefing_link_class(html: str) -> str:
+    """Ensure markdown-generated anchors pick up shared link colours."""
+    return re.sub(
+        r'<a href="([^"]+)"(?![^>]*\bclass=)',
+        r'<a class="briefing-link" href="\1"',
+        html,
+    )
+
+
+SELECTED_READ_ITEM_RE = re.compile(
+    r"<li><a class=\"briefing-link\" href=\"([^\"]+)\">([^<]+)</a>\s*"
+    r"(Why it(?:&rsquo;|&#8217;|')s worth reading:[^<]+)</li>",
+    re.IGNORECASE,
+)
+
+
+def format_selected_reads_list(html: str) -> str:
+    """Split linked headline and rationale into separate blocks for readability."""
+    def repl(match: re.Match[str]) -> str:
+        url, title, why = match.group(1), match.group(2), match.group(3).strip()
+        return (
+            '<li class="selected-read-item" style="margin:0 0 20px;list-style:none;padding:0;">'
+            f'<p style="margin:0 0 6px;font-weight:700;font-size:19px;line-height:1.35;">'
+            f'<a class="briefing-link" href="{url}" style="{NEWS_LINK_STYLE}">{title}</a></p>'
+            f'<p class="selected-read-why" style="margin:0;font-size:16px;color:#52525b;'
+            f'line-height:1.55;">{why}</p></li>'
+        )
+
+    if "<h2" not in html or "Selected Reads" not in html:
+        return html
+    return SELECTED_READ_ITEM_RE.sub(repl, html)
 
 
 def insert_section_dividers(html: str) -> str:
@@ -653,8 +800,14 @@ def _parse_official_url(value: str) -> str | None:
     return None
 
 
-def _email_link(text: str, url: str, *, style: str = CULTURE_LINK_STYLE) -> str:
-    return f'<a href="{url}" style="{style}">{text}</a>'
+def _email_link(
+    text: str,
+    url: str,
+    *,
+    style: str = CULTURE_LINK_STYLE,
+    css_class: str = "briefing-link",
+) -> str:
+    return f'<a class="{css_class}" href="{url}" style="{style}">{text}</a>'
 
 
 def _google_maps_url(venue: str) -> str:
@@ -703,7 +856,12 @@ def render_culture_entry_html(
     title = format_story_body(entry.title, footnotes)
     official_url = _parse_official_url(entry.fields.get("Official Link", ""))
     if official_url:
-        title = _email_link(title, official_url, style=CULTURE_TITLE_LINK_STYLE)
+        title = _email_link(
+            title,
+            official_url,
+            style=CULTURE_TITLE_LINK_STYLE,
+            css_class="entry-title-link",
+        )
 
     prefix = f"{number}. " if number is not None else ""
     heading = f"{prefix}{title}"
@@ -741,7 +899,7 @@ def render_culture_entry_html(
 def render_briefing_footer_html(*, css_class: str = "briefing-footer") -> str:
     return (
         f'<div class="{css_class}" style="margin-top:40px;padding-top:20px;'
-        f'border-top:1px solid #e8e8e8;text-align:center;font-size:14px;'
+        f'border-top:1px solid #e8e8e8;text-align:center;font-size:15px;'
         f'color:{CULTURE_COLOR_FOOTER};font-style:italic;">{BRIEFING_FOOTER_TEXT}</div>'
     )
 
@@ -924,7 +1082,12 @@ def _restaurant_location_line_html(
     entry: RestaurantEntry, *, maps_url: str, footnotes: dict[str, tuple[str, str]]
 ) -> str:
     chunks: list[str] = []
-    linked_hood = _email_link(entry.neighborhood, maps_url, style=RESTAURANT_TITLE_LINK_STYLE)
+    linked_hood = _email_link(
+        entry.neighborhood,
+        maps_url,
+        style=RESTAURANT_TITLE_LINK_STYLE,
+        css_class="entry-title-link",
+    )
     chunks.append(f"📍 {linked_hood}")
     price = entry.price_tier
     if entry.value_label:
@@ -1025,7 +1188,7 @@ def render_restaurant_html(md_text: str, *, preheader_section: str = "This week'
   <meta name="supported-color-schemes" content="light dark">
   <style>{EMAIL_CSS}</style>
 </head>
-<body>
+<body style="{BODY_TAG_STYLE}">
 {preheader_html}
 {body_html}
 {footnotes_html}
@@ -1051,7 +1214,7 @@ def render_culture_html(
   <meta name="supported-color-schemes" content="light dark">
   <style>{EMAIL_CSS}</style>
 </head>
-<body>
+<body style="{BODY_TAG_STYLE}">
 {preheader_html}
 {body_html}
 {footnotes_html}
@@ -1078,6 +1241,7 @@ def render_html(
     footnotes = parse_footnotes(md_text)
     body_md, footnotes_md = split_footnotes(md_text)
     body_md = normalize_horizontal_rules(body_md)
+    body_md = transform_selected_reads(body_md)
     prepared = preprocess_briefing_markdown(body_md, footnotes, use_callouts)
     preheader = extract_preheader(md_text, section_name=preheader_section)
 
@@ -1088,6 +1252,8 @@ def render_html(
     body_html = apply_inline_heading_styles(body_html)
     body_html = enhance_compass_paragraphs(body_html, use_callouts)
     body_html = insert_section_dividers(body_html)
+    body_html = apply_briefing_link_class(body_html)
+    body_html = format_selected_reads_list(body_html)
 
     footnotes_html = render_footnotes_html(footnotes_md)
     footer_html = render_briefing_footer_html()
@@ -1102,7 +1268,7 @@ def render_html(
   <meta name="supported-color-schemes" content="light dark">
   <style>{EMAIL_CSS}</style>
 </head>
-<body>
+<body style="{BODY_TAG_STYLE}">
 {preheader_html}
 {body_html}
 {footer_html}
