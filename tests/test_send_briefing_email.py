@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -17,6 +18,7 @@ from send_briefing_email import (  # noqa: E402
     extract_lead_paragraphs,
     extract_preheader,
     format_email_subject,
+    format_story_body,
     render_culture_body_html,
     render_html,
     resolve_briefing_paths,
@@ -143,6 +145,41 @@ A politically charged opening week pairs biennial-scale art with essay film.
         html = render_culture_body_html(self.SAMPLE)
         self.assertIn(BRIEFING_FOOTER_TEXT, html)
 
+    def test_culture_body_and_why_use_18px_inline(self) -> None:
+        html = render_culture_body_html(self.SAMPLE)
+        self.assertIn("culture-context", html)
+        self.assertIn("culture-why-callout", html)
+        self.assertIn("font-size:18px", html)
+
+
+class TestRestaurantEmailTypography(unittest.TestCase):
+    SAMPLE = """# Berlin Restaurant Briefing — Week of June 16–22, 2026
+
+A strong week for Neukölln counters and Mitte wine bars.
+
+### Example Bistro — Neukölln — €€
+
+**Hours:** Tue–Sat 18:00–23:00
+
+**Rating:** 4.5 (Google)
+
+**Maps:** [Google Maps](https://maps.google.com/?q=Example+Bistro+Berlin)
+
+Excellent seasonal cooking with a short menu that changes weekly.
+
+## This week's strongest bets
+
+- Example Bistro for a reliable mid-week dinner
+"""
+
+    def test_restaurant_body_uses_18px_inline(self) -> None:
+        from send_briefing_email import render_restaurant_body_html  # noqa: E402
+
+        html = render_restaurant_body_html(self.SAMPLE)
+        self.assertIn("restaurant-body", html)
+        self.assertIn("font-size:18px", html)
+        self.assertIn(BRIEFING_FOOTER_TEXT, html)
+
 
 class TestNewsEmailFooter(unittest.TestCase):
     SAMPLE = """# News Briefing — 17 June 2026
@@ -229,6 +266,49 @@ Read article: [Uber stalls European food delivery push](https://www.ft.com/conte
         self.assertIn("Why it", html)
         self.assertNotIn("Read article:", html)
         self.assertNotRegex(html, r"</a>\s*Why it[^<]+</li>")
+
+
+class TestBareSourceLabels(unittest.TestCase):
+    FOOTNOTES = {
+        "1": ("https://www.eldiario.es/economia/example.html", "Example"),
+        "4": ("https://www.handelsblatt.com/example.html", "Example"),
+    }
+
+    def test_links_bare_outlet_name_when_footnoted_in_same_paragraph(self) -> None:
+        text = (
+            "eldiario.es maps rental flows across Spain. "
+            "([eldiario.es][1])"
+        )
+        html = format_story_body(text, self.FOOTNOTES)
+        self.assertEqual(html.count('class="briefing-link"'), 2)
+        self.assertLess(html.index("maps rental"), html.rindex("eldiario.es"))
+        self.assertTrue(html.startswith('<a class="briefing-link"'))
+
+    def test_does_not_break_footnote_markdown(self) -> None:
+        text = "([Handelsblatt][4])"
+        html = format_story_body(text, self.FOOTNOTES)
+        self.assertEqual(html.count('class="briefing-link"'), 1)
+
+    def test_renders_july_6_eldiario_lede_as_link(self) -> None:
+        md = Path(__file__).resolve().parent.parent / "briefings/news/2026-07-06.md"
+        if not md.is_file():
+            self.skipTest("fixture briefing missing")
+        sample = md.read_text(encoding="utf-8")
+        footnotes = {
+            m.group(1): (m.group(2), m.group(3) or "")
+            for line in sample.splitlines()
+            if (m := re.match(r'^\[(\d+)\]:\s+(\S+)(?:\s+"([^"]*)")?', line.strip()))
+        }
+        story = (
+            "eldiario.es maps how rent payments have doubled over a decade. "
+            "([eldiario.es][1])"
+        )
+        html = format_story_body(story, footnotes)
+        self.assertTrue(
+            html.startswith(
+                '<a class="briefing-link" href="https://www.eldiario.es/'
+            )
+        )
 
 
 class TestFormatEmailSubject(unittest.TestCase):

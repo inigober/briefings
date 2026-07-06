@@ -80,21 +80,27 @@ CULTURE_TITLE_LINK_STYLE = (
     "text-decoration:underline;text-underline-offset:3px;font-weight:600;"
 )
 CULTURE_META_STYLE = (
-    f"margin:0 0 6px;padding:0;font-size:15px;color:{CULTURE_COLOR_META};line-height:1.5;"
+    f"margin:0 0 6px;padding:0;font-size:16px;color:{CULTURE_COLOR_META};line-height:1.5;"
 )
 CULTURE_CONTEXT_STYLE = (
-    f"margin:12px 0 0;padding:0;font-size:16px;color:{CULTURE_COLOR_BODY};line-height:1.65;"
+    f"margin:12px 0 0;padding:0;font-size:{BODY_FONT_SIZE};color:{CULTURE_COLOR_BODY};"
+    f"line-height:{BODY_LINE_HEIGHT};"
+)
+BRIEFING_INTRO_STYLE = (
+    f"margin:0 0 16px;font-size:{BODY_FONT_SIZE};line-height:{BODY_LINE_HEIGHT};"
 )
 BRIEFING_FOOTER_TEXT = "Sent by AI with love from Berlin."
 CULTURE_WHY_CALLOUT_STYLE = (
     "margin:14px 0 0;padding:10px 14px;background:#f4f4f5;"
     f"border-left:3px solid {CULTURE_COLOR_BORDER};border-radius:4px;"
-    f"font-size:15px;color:{CULTURE_COLOR_CALLOUT};line-height:1.55;"
+    f"font-size:{BODY_FONT_SIZE};line-height:{BODY_LINE_HEIGHT};color:{CULTURE_COLOR_CALLOUT};"
 )
-CULTURE_WHY_LABEL_STYLE = f"font-size:13px;font-weight:600;color:{CULTURE_COLOR_LABEL};"
+CULTURE_WHY_LABEL_STYLE = (
+    f"font-size:14px;font-weight:600;color:{CULTURE_COLOR_LABEL};"
+)
 CULTURE_WHY_MINIMAL_STYLE = (
-    f"margin:14px 0 0;padding:0;font-size:15px;color:{CULTURE_COLOR_CALLOUT};"
-    "line-height:1.55;font-style:italic;"
+    f"margin:14px 0 0;padding:0;font-size:{BODY_FONT_SIZE};color:{CULTURE_COLOR_CALLOUT};"
+    f"line-height:{BODY_LINE_HEIGHT};font-style:italic;"
 )
 
 CULTURE_FIELD_RE = re.compile(r"^\*\*(.+?):\*\*\s*(.*)")
@@ -110,10 +116,14 @@ RESTAURANT_TITLE_LINK_STYLE = (
     "text-decoration:underline;text-underline-offset:3px;font-weight:600;"
 )
 RESTAURANT_META_STYLE = (
-    f"margin:0 0 10px;padding:0;font-size:15px;color:{CULTURE_COLOR_META};line-height:1.5;"
+    f"margin:0 0 10px;padding:0;font-size:16px;color:{CULTURE_COLOR_META};line-height:1.5;"
 )
 RESTAURANT_BODY_STYLE = (
-    f"margin:0;padding:0;font-size:16px;color:{CULTURE_COLOR_BODY};line-height:1.65;"
+    f"margin:0;padding:0;font-size:{BODY_FONT_SIZE};color:{CULTURE_COLOR_BODY};"
+    f"line-height:{BODY_LINE_HEIGHT};"
+)
+RESTAURANT_LIST_ITEM_STYLE = (
+    f"margin:0 0 10px;font-size:{BODY_FONT_SIZE};line-height:{BODY_LINE_HEIGHT};"
 )
 
 EMAIL_CSS = """
@@ -206,6 +216,12 @@ hr {
   ol.themes > li { font-size: 19px !important; }
   p.insight,
   p.context { font-size: 19px !important; }
+  .briefing-intro,
+  .culture-context,
+  .restaurant-body,
+  .culture-why-callout,
+  .culture-why-minimal { font-size: 19px !important; }
+  .culture-meta-item { font-size: 17px !important; }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -259,6 +275,27 @@ hr {
     color: #c4c4cc !important;
   }
   .selected-read-why {
+    color: #c4c4cc !important;
+  }
+  .culture-context,
+  .restaurant-body,
+  .briefing-intro {
+    color: #e8e8e8 !important;
+  }
+  .culture-meta-item {
+    color: #a1a1aa !important;
+  }
+  .culture-why-callout {
+    background: #2a2a2a !important;
+    border-left-color: #525252 !important;
+    color: #e8e8e8 !important;
+  }
+  .culture-why-body,
+  .culture-why-minimal {
+    color: #e8e8e8 !important;
+  }
+  .culture-why-label,
+  .culture-why-label-inline {
     color: #c4c4cc !important;
   }
 }
@@ -414,6 +451,34 @@ def linkify_footnote_refs(text: str, footnotes: dict[str, tuple[str, str]]) -> s
     return re.sub(r"\[([^\]]+)\]\[(\d+)\]", repl, text)
 
 
+def _source_labels_for_text(
+    text: str, footnotes: dict[str, tuple[str, str]]
+) -> list[tuple[str, str]]:
+    """Outlet labels cited in text, longest first to avoid partial replacements."""
+    pairs: list[tuple[str, str]] = []
+    seen: set[str] = set()
+    for label, num in re.findall(r"\[([^\]]+)\]\[(\d+)\]", text):
+        if num in footnotes and label not in seen:
+            seen.add(label)
+            pairs.append((label, footnotes[num][0]))
+    pairs.sort(key=lambda pair: len(pair[0]), reverse=True)
+    return pairs
+
+
+def linkify_bare_source_labels(text: str, footnotes: dict[str, tuple[str, str]]) -> str:
+    """Link outlet names in prose when the same label is footnoted in the paragraph.
+
+    Email clients such as Spark auto-detect bare domains (e.g. eldiario.es) and apply
+    their own link colour. Explicit <a> tags use our stylesheet instead.
+    """
+    for label, url in _source_labels_for_text(text, footnotes):
+        link = (
+            f'<a class="briefing-link" href="{url}" style="{NEWS_LINK_STYLE}">{label}</a>'
+        )
+        text = re.sub(rf"(?<!\[){re.escape(label)}(?!\]\[)", link, text)
+    return text
+
+
 def linkify_inline_markdown(text: str) -> str:
     return re.sub(
         r"\[([^\]]+)\]\(([^)]+)\)",
@@ -423,7 +488,9 @@ def linkify_inline_markdown(text: str) -> str:
 
 
 def format_story_body(text: str, footnotes: dict[str, tuple[str, str]]) -> str:
-    return linkify_inline_markdown(linkify_footnote_refs(text, footnotes))
+    text = linkify_bare_source_labels(text, footnotes)
+    text = linkify_footnote_refs(text, footnotes)
+    return linkify_inline_markdown(text)
 
 
 def is_insight_line(text: str) -> bool:
@@ -819,7 +886,7 @@ def _culture_meta_line(
     emoji: str, content: str, footnotes: dict[str, tuple[str, str]], *, linked: str | None = None
 ) -> str:
     body = linked if linked is not None else format_story_body(content, footnotes)
-    return f'<li style="{CULTURE_META_STYLE}">{emoji} {body}</li>'
+    return f'<li class="culture-meta-item" style="{CULTURE_META_STYLE}">{emoji} {body}</li>'
 
 
 def _culture_venue_line(venue: str, footnotes: dict[str, tuple[str, str]]) -> str:
@@ -835,14 +902,14 @@ def _culture_why_html(
     body = format_story_body(why, footnotes)
     if style == "minimal":
         return (
-            f'<p style="{CULTURE_WHY_MINIMAL_STYLE}">'
-            f'<span style="font-style:normal;font-weight:600;color:{CULTURE_COLOR_LABEL};">'
-            f"Why it fits · </span>{body}</p>"
+            f'<p class="culture-why-minimal" style="{CULTURE_WHY_MINIMAL_STYLE}">'
+            f'<span class="culture-why-label-inline" style="font-style:normal;font-weight:600;'
+            f'color:{CULTURE_COLOR_LABEL};">Why it fits · </span>{body}</p>'
         )
     return (
-        f'<div style="{CULTURE_WHY_CALLOUT_STYLE}">'
-        f'<div style="{CULTURE_WHY_LABEL_STYLE}">WHY IT FITS</div>'
-        f"<div style=\"margin:4px 0 0;\">{body}</div></div>"
+        f'<div class="culture-why-callout" style="{CULTURE_WHY_CALLOUT_STYLE}">'
+        f'<div class="culture-why-label" style="{CULTURE_WHY_LABEL_STYLE}">WHY IT FITS</div>'
+        f'<div class="culture-why-body" style="margin:4px 0 0;">{body}</div></div>'
     )
 
 
@@ -886,7 +953,7 @@ def render_culture_entry_html(
     context = entry.fields.get("Short Context", "").strip()
     if context:
         body = format_story_body(context, footnotes)
-        parts.append(f'<p style="{CULTURE_CONTEXT_STYLE}">{body}</p>')
+        parts.append(f'<p class="culture-context" style="{CULTURE_CONTEXT_STYLE}">{body}</p>')
 
     why = entry.fields.get("Why It Fits", "").strip()
     if why:
@@ -919,7 +986,7 @@ def render_culture_body_html(md_text: str, *, why_style: str = "callout") -> str
 
     for paragraph in intro:
         body = format_story_body(paragraph, footnotes)
-        parts.append(f'<p style="margin:0 0 16px;">{body}</p>')
+        parts.append(f'<p class="briefing-intro" style="{BRIEFING_INTRO_STYLE}">{body}</p>')
 
     if intro:
         parts.append(hr)
@@ -1124,7 +1191,7 @@ def render_restaurant_entry_html(
         parts.append(hours_line)
     for paragraph in entry.body_paragraphs:
         body = format_story_body(paragraph, footnotes)
-        parts.append(f'<p style="{RESTAURANT_BODY_STYLE}">{body}</p>')
+        parts.append(f'<p class="restaurant-body" style="{RESTAURANT_BODY_STYLE}">{body}</p>')
     parts.append("</div>")
     return "\n".join(parts)
 
@@ -1144,7 +1211,7 @@ def render_restaurant_body_html(md_text: str) -> str:
 
     for paragraph in briefing.intro:
         body = format_story_body(paragraph, footnotes)
-        parts.append(f'<p style="margin:0 0 16px;">{body}</p>')
+        parts.append(f'<p class="briefing-intro" style="{BRIEFING_INTRO_STYLE}">{body}</p>')
 
     if briefing.intro:
         parts.append(hr)
@@ -1159,9 +1226,12 @@ def render_restaurant_body_html(md_text: str) -> str:
         parts.append(f'<h3 style="{H3_STYLE}">🏆 {RESTAURANT_STRONGEST_BETS}</h3>')
         if briefing.strongest_bets_intro:
             intro_body = format_story_body(briefing.strongest_bets_intro, footnotes)
-            parts.append(f'<p style="margin:0 0 12px;">{intro_body}</p>')
+            parts.append(
+                f'<p class="briefing-intro" style="{BRIEFING_INTRO_STYLE}">{intro_body}</p>'
+            )
         items = "".join(
-            f'<li style="margin:0 0 10px;">{format_story_body(bet, footnotes)}</li>'
+            f'<li class="restaurant-body" style="{RESTAURANT_LIST_ITEM_STYLE}">'
+            f"{format_story_body(bet, footnotes)}</li>"
             for bet in briefing.strongest_bets
         )
         parts.append(
