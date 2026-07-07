@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-07
+
+- **spain-begona-gomez-travel-rulings** — Substitute judge allows London graduation trip but blocks NATO summit travel as Audiencia Madrid reviews Peinado case (section: spain)
+- **spain-heatwave-wildfire-negligence-wave** — eldiario.es: extreme heat plus human negligence drives forest-fire destruction 19% above decade average (section: spain)
+- **spain-psoe-ministers-campaign-from-office** — eldiario.es questions whether ministers like Diana Morant can win regions without leaving portfolios early (section: spain)
+- **germany-sick-leave-long-absence-cost-data** — Handelsblatt: insurers say chronic long absences—not short Krankschreibungen—are largest sickness-fund cost driver (section: germany)
+- **germany-canada-tkms-submarine-order** — Ottawa selects Thyssenkrupp Marine Systems for dozen next-gen submarines ahead of NATO summit (section: germany)
+- **germany-ai-startup-creation-record-h1** — Handelsblatt: 3,000+ German start-ups founded in first half 2026, an all-time high driven by AI tooling (section: germany)
+- **berlin-postbank-pankow-branch-exit** — Tagesspiegel: Postbank closures leave Berlin's most populous district without counter postal service (section: berlin)
+- **berlin-mietspiegel-2026-rent-increases** — rbb24: May rent index unlocks some legal hikes but many landlords still barred by caps and paperwork rules (section: berlin)
+- **berlin-fake-pflegedienst-burglary-scam** — Berliner Zeitung: criminals posing as care workers target seniors' apartments for theft (section: berlin)
+- **world-cuba-third-nationwide-blackout** — Guardian: third island-wide grid collapse in six months as US oil blockade depletes fuel stocks (section: world)
+- **world-samsung-profit-oversupply-share-fall** — Nikkei Asia: nineteenfold profit jump fails to lift shares as investors fear memory-chip oversupply (section: world)
+- **world-japan-maglev-construction-approval** — Nikkei Asia: Chuo Shinkansen maglev segment wins key regulatory clearance toward 500 km/h Tokyo–Nagoya link (section: world)
+
 ## 2026-07-06
 
 - **spain-rental-transfer-28bn-gdp** — eldiario.es maps €28bn annual rental flows as 1.6% of GDP, doubled in a decade with generational skew (section: spain)
@@ -200,21 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-nvidia-chips-china-grey-market** — Banned Nvidia AI processors trade at double price on China black market (section: world)
 - **world-kenya-ebola-facility-halt** — Kenyan health minister orders halt to US Ebola quarantine facility (section: world)
 - **world-ecuador-whistleblower-murder** — Activists say researcher probing president's family business was murdered (section: world)
-
-## 2026-06-23
-
-- **spain-abalos-24-year-mascarillas-sentence** — Supreme Court convicts ex-minister Ábalos to 24 years over mask-contract graft (section: spain)
-- **spain-aldama-no-prison-keeps-proceeds** — Cooperating businessman Aldama avoids custody and retains mask commissions (section: spain)
-- **spain-abalos-constitutional-appeal-strategy** — Defendants plan amparo route, citing political verdict (section: spain)
-- **germany-china-neighbourhood-eldercare-model** — German experts study Beijing/Shanghai community senior-support schemes (section: germany)
-- **germany-classic-degree-career-roi** — Handelsblatt on whether Jura, Medizin and BWL still pay off (section: germany)
-- **germany-pension-commission-package-delivered** — Alterssicherungskommission hands full reform blueprint to Merz government (section: germany)
-- **berlin-cash-transporter-robbery-sentences** — Courts jail three over March 2025 armoured-van heist in Marzahn (section: berlin)
-- **berlin-schools-religious-rules-pressure** — Crisis barometer finds religious norms trumping school rules for many pupils (section: berlin)
-- **berlin-us-german-fighter-jet-flyover** — Joint Bundeswehr–US formation flight planned over Charlottenburg (section: berlin)
-- **world-canada-healthcare-phishing-test** — Newfoundland unions condemn fake paid-day-off cybersecurity drill (section: world)
-- **world-hiroshima-survivor-memoir-published** — Tanimoto's 1947 account recovered from US archive for August release (section: world)
-- **world-australia-war-memorial-roberts-smith** — Government defends inviting contested VC holder to memorial reopening (section: world)
 
 ## Saturated topics — do not return without material development
 

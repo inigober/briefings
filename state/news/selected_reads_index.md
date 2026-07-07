@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-07
+
+- [Can China and US find common ground on AI governance in Geneva?](https://asia.nikkei.com/business/technology/artificial-intelligence/can-china-and-us-find-common-ground-on-ai-governance-in-geneva) — Nikkei Asia
+- [How to stop AI becoming the enemy of younger workers](https://www.ft.com/content/0b67e331-4ff0-4af6-85b7-0d7d6710d603) — Financial Times
+- [Erdogan Has Laid a Trap in Ankara](https://foreignpolicy.com/2026/07/06/erdogan-nato-summit-ankara/) — Foreign Policy
+- [Cuban zoo celebrates birth of Bengal tigers amid energy crisis](https://www.theguardian.com/world/2026/jul/06/cuban-zoo-celebrates-birth-of-bengal-tigers-amid-energy-crisis) — The Guardian
+
 ## 2026-07-06
 
 - [Big investors commit billions to private credit despite turmoil](https://www.ft.com/content/ea275bbd-e411-4db5-a9d2-415666f2a923) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Anthropic moves to close loopholes that allow Chinese access to Claude](https://www.ft.com/content/ad033063-60f9-4c0c-8d8a-9193a83e6f60) — Financial Times
 - [Japan aims to ignite 'animal spirits' with $2.3tn plan](https://asia.nikkei.com/economy/japan-aims-to-ignite-animal-spirits-with-2.3tn-plan) — Nikkei Asia
 - [All hail the King of the North! But which north?](https://www.ft.com/content/0da0a85f-ff66-41a5-b711-aa429cbaf88a) — Financial Times
-
-## 2026-07-02
-
-- [Trans-Atlanticism Isn't Dead—It's Being Renegotiated](https://foreignpolicy.com/2026/07/01/nato-summit-transatlantic-alliance-dead-alive-trump-russia-defense-geopolitics/) — Foreign Policy
-- [Takeda and Insilico strike AI-led drug discovery deal worth up to $600m](https://asia.nikkei.com/business/pharmaceuticals/takeda-and-insilico-strike-ai-led-drug-discovery-deal-worth-up-to-600m) — Nikkei Asia
-- [I Went to the Great American State Fair and I May Never Sleep Again](https://www.theatlantic.com/newsletters/2026/07/great-american-state-fair-maha-visit/687769/?utm_source=feed) — The Atlantic
-- [Has Ukraine found Russia's weak spot?](https://www.politico.eu/podcast/brussels-playbook-podcast/has-ukraine-found-russias-weak-spot/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 
 ## Blocked until 5+ briefings have passed
 
