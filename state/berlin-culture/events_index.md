@@ -41,3 +41,14 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-06-30 | wildcards | Finissage ATLANTINNEN | Deutscher Künstlerbund | https://www.indexberlin.com/events/list/42763/finissage-presentation-of-the-special-edition-on-the-theme-atlantinnen-das-er-halten-der-welt
 2026-06-30 | advance_radar | Artist Talk with Evan Roth | Potsdamer Str. 65 | https://www.indexberlin.com/events/list/44322/artist-talk-with-evan-roth
 2026-06-30 | advance_radar | Concert-Week | Auguststr. 69, Mitte | https://www.indexberlin.com/events/list/44797/concert-week
+2026-07-07 | top_picks | Heroines of Sound Festival 2026 | Radialsystem | https://www.radialsystem.de/de/programm/programm/
+2026-07-07 | top_picks | Concert-Week — Kyiv Biennial at KW | KW Institute for Contemporary Art | https://www.indexberlin.com/events/list/44797/concert-week
+2026-07-07 | top_picks | Wanda (Barbara Loden) | Wolf Kino | https://wolfberlin.org/de/programm/filme/wanda
+2026-07-07 | exhibitions | Luis in friendly company | carlier | gebauer | https://www.indexberlin.com/exhibitions/list/43310/luis-in-friendly-company
+2026-07-07 | exhibitions | Cruising Territories | Zilberman | https://www.indexberlin.com/exhibitions/list/43562/cruising-territories
+2026-07-07 | film | Etwas Ganz Besonderes (Eva Trobisch) | Wolf Kino | https://wolfberlin.org/de/programm/filme/etwas-ganz-besonderes
+2026-07-07 | music | Samba Jean-Baptiste + Static Cleaner Lost Reward (Tarquin Manek) | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/2026/7
+2026-07-07 | wildcards | Ea Torrado — Brown Madonna: Apparition as Embodied Practice | SAVVY Contemporary | https://www.indexberlin.com/events/list/44871/brown-madonna-apparition-as-embodied-practice
+2026-07-07 | wildcards | Phelan O'Hara — Towards Childhood | Galerie Michael Haas | https://www.indexberlin.com/events/list/44473/towards-childhood
+2026-07-07 | advance_radar | Forecast Festival 2026 | Radialsystem | https://www.indexberlin.com/events/list/44862/forecast-festival-2026
+2026-07-07 | advance_radar | Bjørn Melhus — LOST IN FINITY | silent green Kulturquartier | https://www.indexberlin.com/events/list/44517/lost-in-finity

@@ -1,31 +1,31 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-06-30",
-  "briefing_date": "2026-06-30",
-  "inbox_date": "2026-06-30",
-  "week_start": "2026-07-01",
-  "week_end": "2026-07-07",
+  "date": "2026-07-07",
+  "briefing_date": "2026-07-07",
+  "inbox_date": "2026-07-07",
+  "week_start": "2026-07-08",
+  "week_end": "2026-07-14",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-06-30.md",
-  "inbox_path": "inbox/berlin-culture/2026-06-30-synthesis.json",
-  "items_count": 9,
+  "briefing_path": "briefings/berlin-culture/2026-07-07.md",
+  "inbox_path": "inbox/berlin-culture/2026-07-07-synthesis.json",
+  "items_count": 11,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 1,
-    "film": 0,
+    "exhibitions": 2,
+    "film": 1,
     "performing_arts": 0,
     "music": 1,
     "wildcards": 2,
     "advance_radar": 2
   },
-  "thin_sections": ["exhibitions", "music"],
-  "omitted_sections": ["film", "performing_arts"],
+  "thin_sections": ["exhibitions", "film", "performing_arts", "music"],
+  "omitted_sections": ["performing_arts"],
   "validation_warnings": [
-    "Section 'exhibitions' has 1 entries (style minimum 4)",
-    "Section 'film' has 0 entries (style minimum 2)",
+    "Section 'exhibitions' has 2 entries (style minimum 4)",
+    "Section 'film' has 1 entries (style minimum 2)",
     "Section 'performing_arts' has 0 entries (style minimum 2)",
     "Section 'music' has 1 entries (style minimum 3)"
   ],
-  "verification_fetches": 5,
-  "notes": "Thin midsummer inbox (15 synthesis items, 0 film). Spot-checked Top Picks and unverified picks via INDEX Berlin and Silent Green. Corrected venue names from INDEX detail pages (BQ, OFFICE IMPART, Between Bridges, EIGEN + ART, Deutscher Künstlerbund). MetropolCon dates corrected to Jul 2–5. Dropped Ballhaus memorial (no event dates) and killer.berlin.doc (out-of-week/vague). Performing Arts omitted — Sasha Waltz in Top Picks only. Imitationen von Paul Top Pick with exhibitions cross-reference."
+  "verification_fetches": 6,
+  "notes": "Thin post-gallery-week inbox (18 synthesis items). Spot-checked Top Picks and unverified picks via Wolf Kino, INDEX Berlin, and venue pages. Corrected venues: Luis in friendly company at carlier | gebauer (not PSM), Cruising Territories at Zilberman (not PSM), Concert-Week at KW (promoted from advance radar). Dropped Bianca Klose memorial (no dates), Sunn O))) sold out, RESONANZEN Buchclub (Potsdam). Heroines of Sound and Concert-Week in Top Picks with cross-references in Performing Arts and Music. Performing Arts omitted as section; film thin with Wanda cross-referenced from Top Picks."
 }
