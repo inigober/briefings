@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-08
+
+- **spain-ayuso-quiron-payment-surge** — eldiario.es: audited accounts show Madrid regional payments to Quirón roughly doubled since 2021 alongside partner's €4.4m invoices (section: spain)
+- **spain-feijoo-sick-leave-benefit-cuts** — PP leader tells Basque employers he will cut wages and benefits for absent workers with or without union deal (section: spain)
+- **spain-2027-record-spending-ceiling** — Cabinet sets €226bn non-financial spending cap for 2027 budget, double last Rajoy-era ceiling (section: spain)
+- **germany-bundesbank-capital-pension-bid** — Bundesbank vice-president offers to manage state's €140bn Kapitalrente assets from day one (section: germany)
+- **germany-dax-iran-oil-market-jolt** — Handelsblatt: Dax cools after Iran escalation lifts oil and tech shares slip ahead of NATO summit (section: germany)
+- **germany-le-pen-judicial-populism-lesson** — Handelsblatt morning briefing warns legal fights against far-right can energise challengers across Europe (section: germany)
+- **berlin-palliativarzt-verdict-pending** — rbb24: Landgericht to rule Wednesday on physician accused of killing at least 15 palliative patients (section: berlin)
+- **berlin-hochsommer-heat-return-forecast** — Tagesspiegel: DWD expects summer temperatures to climb again across Berlin after mild spell (section: berlin)
+- **berlin-bmva-culture-showcase** — The Berliner profiles eclectic turnout at Berlin Music Video Awards red carpet (section: berlin)
+- **world-us-iran-oil-waiver-revoked** — FT: Washington ends Iranian crude export waiver after Hormuz tanker strikes near Oman (section: world)
+- **world-china-storms-tornado-deaths** — Guardian: severe convection kills 15 across Hubei and western China; Xi orders all-out rescue (section: world)
+- **world-cpu-ai-race-reshuffle** — Nikkei Asia: cloud cost pressure pushes CPUs back to centre of AI infrastructure strategy (section: world)
+
 ## 2026-07-07
 
 - **spain-begona-gomez-travel-rulings** — Substitute judge allows London graduation trip but blocks NATO summit travel as Audiencia Madrid reviews Peinado case (section: spain)
