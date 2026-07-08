@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-08
+
+- [The Corner of Hollywood That's Most Susceptible to AI](https://www.theatlantic.com/culture/2026/07/animation-industry-ai-hollywood-job-cuts/687830/?utm_source=feed) — The Atlantic
+- [China's Answer to AI Sticker Shock](https://www.theatlantic.com/technology/2026/07/glm-5-2-china-cheap-ai-agents/687828/?utm_source=feed) — The Atlantic
+- [French far-right leader Le Pen says she will run for president](https://www.ft.com/content/3c0ecc58-630b-4d74-8abd-b17eb73116cf) — Financial Times
+- [What will define Elon Musk's legacy? Doge cuts to USAID Ebola programs](https://www.theguardian.com/technology/2026/jul/07/elon-musk-doge-cuts-usaid-ebola) — The Guardian
+
 ## 2026-07-07
 
 - [Can China and US find common ground on AI governance in Geneva?](https://asia.nikkei.com/business/technology/artificial-intelligence/can-china-and-us-find-common-ground-on-ai-governance-in-geneva) — Nikkei Asia
