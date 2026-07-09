@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-09
+
+- **spain-trump-spain-trade-embargo-redemption** — EL PAÍS: Trump threatens commercial embargo then claims Spain "fully redeemed" after major payment pledge at NATO summit (section: spain)
+- **spain-sick-leave-data-debunks-feijoo-fraud** — eldiario.es: official figures contradict PP leader's mass absenteeism fraud narrative as sick-leave debate intensifies (section: spain)
+- **spain-nato-false-unity-trump-outbursts** — eldiario.es: alliance leaders project Western cohesion in Ankara despite Trump's attacks on Spain and Greenland (section: spain)
+- **germany-android-google-backup-quota** — Handelsblatt: Google to count Android system backups against cloud storage allowances (section: germany)
+- **germany-family-role-regression-psychology** — Tagesspiegel: clinicians explain why adults revert to teenage dynamics in parental homes (section: germany)
+- **germany-trump-nato-chaos-little-change** — Handelsblatt morning briefing argues Trump's Ankara theatrics unsettled Europe but altered few policies (section: germany)
+- **berlin-ringbahn-s47-overnight-closure** — Tagesspiegel: Ringbahn and S47 skip Tempelhof overnight for engineering work (section: berlin)
+- **berlin-junge-union-wegner-withdraw-demand** — Tagesspiegel: Berlin Young Union chief urges Wegner to abandon CDU lead candidacy (section: berlin)
+- **berlin-high-deck-siedlung-tenant-wall-of-shame** — Tagesspiegel: Neukölln residents protest mould and disrepair ahead of modernisation (section: berlin)
+- **world-us-iran-ceasefire-collapse-second-strikes** — FT: Washington resumes bombing as Trump declares June truce over (section: world)
+- **world-lg-vietnam-semiconductor-1bn** — Nikkei Asia: LG expands chip packaging investment as Vietnam climbs value chain (section: world)
+- **world-liberia-record-cocaine-seizure** — Guardian: five charged over 200kg cocaine haul disguised as seasoning cubes in Monrovia (section: world)
+
 ## 2026-07-08
 
 - **spain-ayuso-quiron-payment-surge** — eldiario.es: audited accounts show Madrid regional payments to Quirón roughly doubled since 2021 alongside partner's €4.4m invoices (section: spain)
@@ -200,36 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-zimbabwe-constitutional-term-extension** — Senate approves amendments extending presidential terms; opposition calls constitutional coup (section: world)
 - **world-trump-openai-gpt-staggered-release** — US agencies ask OpenAI to limit GPT-5.6 rollout for user vetting (section: world)
 - **world-bangladesh-china-infrastructure-push** — Dhaka deepens Beijing investment talks for ports and power amid Gulf energy risks (section: world)
-
-## 2026-06-25
-
-- **spain-almeria-pp-mordidas-parade** — Ex-Diputación chief and Tíjola mayor close PP Almería judicial parade over mask and works kickbacks (section: spain)
-- **spain-canal-sur-adm-forged-equality-plan** — Canal Sur producer filed equality plan with absent union delegate's signature before CEO sex-assault charges (section: spain)
-- **spain-pp-ayuso-eldiaario-festival-challenge** — Madrid PP seeks last-minute cancellation of elDiario culture festival (section: spain)
-- **germany-wehrdienst-530-volunteers** — First balance sheet: 530 Bundeswehr volunteers from 300,000 conscription questionnaires (section: germany)
-- **germany-merz-laender-finance-summit-berlin** — Merz hosts state premiers in Berlin for fiscal-relief negotiations (section: germany)
-- **germany-merz-danzig-ukraine-rebuild** — Chancellor joins Gdańsk reconstruction conference as Tusk backs Ukraine aid (section: germany)
-- **berlin-checkpoint-datenschutz-pannen** — Tagesspiegel catalogues Berlin GDPR breaches from salons to university exams (section: berlin)
-- **berlin-icc-culture-towers-financing-gap** — Senate ICC plan adds culture towers but lacks financing model (section: berlin)
-- **berlin-db-brandenburg-last-mile-glosse** — Berliner Zeitung columnist satirises final Brandenburg rail leg after global trip (section: berlin)
-- **world-anthropic-alibaba-distillation-attack** — Anthropic accuses Alibaba of largest known Claude distillation campaign (section: world)
-- **world-venezuela-twin-earthquakes-caracas** — Twin 7.2/7.5 quakes hit northern Venezuela; emergency declared in Caracas (section: world)
-- **world-micron-ai-memory-profit-surge** — Micron posts 15-fold profit jump on AI memory demand (section: world)
-
-## 2026-06-24
-
-- **spain-soria-ayuntamiento-corruption-raid** — Guardia Civil detains six in Soria town-hall money-laundering probe (section: spain)
-- **spain-kitchen-trial-pp-political-brigade** — Operación Kitchen resumes with PP political-police brigade testimony (section: spain)
-- **spain-supremo-rejects-aldama-montero-aide-claims** — Supreme Court rejects Aldama bribery claims against finance minister's chief of staff (section: spain)
-- **germany-merz-pension-reform-all-in** — Merz frames Alterssicherungskommission package as defining coalition wager (section: germany)
-- **germany-renewables-jobs-energy-pivot-risk** — Study warns renewables employment boom at risk from government course change (section: germany)
-- **germany-teilkrankschreibung-partial-sick-leave** — Doctors and economists debate graded sick-leave reform (section: germany)
-- **berlin-db-radio-disruption-nationwide** — Digital train-radio failure halts nationwide rail traffic (section: berlin)
-- **berlin-icc-senate-recommendation-approved** — Senate approves recommendation for ICC congress-centre redevelopment (section: berlin)
-- **berlin-prenzlauer-tram-stop-fatal-crash** — Pedestrian killed in Prenzlauer Berg collision at tram halt (section: berlin)
-- **world-nvidia-chips-china-grey-market** — Banned Nvidia AI processors trade at double price on China black market (section: world)
-- **world-kenya-ebola-facility-halt** — Kenyan health minister orders halt to US Ebola quarantine facility (section: world)
-- **world-ecuador-whistleblower-murder** — Activists say researcher probing president's family business was murdered (section: world)
 
 ## Saturated topics — do not return without material development
 

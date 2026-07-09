@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-09
+
+- [Data centers should benefit the cities that power them](https://restofworld.org/2026/data-centers-cities-communities-benefits/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [Trump Hands NATO a Mixed Bag](https://foreignpolicy.com/2026/07/08/trump-nato-ankara-summit-iran-ukraine-greenland-spain/) — Foreign Policy
+- [Russia fuel crisis spills over to Central Asia as drone strikes bite](https://asia.nikkei.com/business/energy/russia-fuel-crisis-spills-over-to-central-asia-as-drone-strikes-bite) — Nikkei Asia
+- [The century-old device choking the world's AI push](https://ig.ft.com/transformers/) — Financial Times
+
 ## 2026-07-08
 
 - [The Corner of Hollywood That's Most Susceptible to AI](https://www.theatlantic.com/culture/2026/07/animation-industry-ai-hollywood-job-cuts/687830/?utm_source=feed) — The Atlantic
@@ -32,19 +39,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [New pipeline in Canada to proceed after C$150bn pledged to ease BC and First Nations concerns](https://www.theguardian.com/world/2026/jul/03/canada-alberta-pipeline) — The Guardian
 - [Ukrainian woman wanted after Monaco attack](https://www.politico.eu/article/ukrainian-woman-wanted-after-monaco-attack/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 
-## 2026-07-04
-
-- [Angsty in Ankara](https://foreignpolicy.com/2026/07/02/nato-summit-ankara-trump-rutte-erdogan-ukraine-iran/) — Foreign Policy
-- [A Twist in This Year's Strangest Literary AI Scandal](https://www.theatlantic.com/technology/2026/07/commonwealth-prize-ai-writing-jamir-nazir/687806/?utm_source=feed) — The Atlantic
-- [Canada, Philippines Agree to Sign Trade Deal This Year, Grow Defense Ties](https://www.bloomberg.com/news/articles/2026-07-02/canada-philippines-agree-to-sign-trade-deal-this-year-grow-defense-ties) — Bloomberg
-- [Von der Leyen admits 'technical problems' with new EU airport border checks](https://www.politico.eu/article/ursula-von-der-leyen-admits-technical-problems-with-new-eu-airport-border-checks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-
-## 2026-07-03
-
-- [Understanding Ebola’s wildlife origins is crucial to preventing next big outbreak](https://www.theguardian.com/environment/2026/jul/02/understanding-ebola-wildlife-origins-crucial-preventing-next-big-outbreak) — The Guardian
-- [Anthropic moves to close loopholes that allow Chinese access to Claude](https://www.ft.com/content/ad033063-60f9-4c0c-8d8a-9193a83e6f60) — Financial Times
-- [Japan aims to ignite 'animal spirits' with $2.3tn plan](https://asia.nikkei.com/economy/japan-aims-to-ignite-animal-spirits-with-2.3tn-plan) — Nikkei Asia
-- [All hail the King of the North! But which north?](https://www.ft.com/content/0da0a85f-ff66-41a5-b711-aa429cbaf88a) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 
