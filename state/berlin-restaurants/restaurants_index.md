@@ -29,3 +29,7 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-07-02 | Tian Fu | Wilmersdorf | https://maps.google.com/?cid=9725218145076602110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-02 | PHO – Noodlebar Kreuzberg | Kreuzberg | https://maps.google.com/?cid=16055962147337026381&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-02 | Ergün's Fischbude | Neukölln | https://maps.google.com/?cid=11959334156022895069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-09 | Chuan Garden 川园 | Mitte | https://maps.google.com/?cid=3614477287672776716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-09 | Dal Tokki | Wedding | https://maps.google.com/?cid=15991654687140121839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-09 | Nusantara | Moabit | https://maps.google.com/?cid=6608885631759338744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-09 | Aleppo Supper Club | Friedrichshain | https://maps.google.com/?cid=16433895107034430658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
