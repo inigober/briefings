@@ -19,6 +19,7 @@ on:
 
 permissions:
   contents: read
+  actions: write
 
 concurrency:
   group: prefetch-health-check
@@ -41,12 +42,13 @@ jobs:
 
       - name: Check inbox landed
         env:
+          GITHUB_TOKEN: ${{ github.token }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}
           BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
         run: |
           PROFILE="${{ github.event.inputs.profile || 'all' }}"
-          ARGS="--profile $PROFILE"
+          ARGS="--profile $PROFILE --retry"
           if [ -n "${{ github.event.inputs.date }}" ]; then
             ARGS="$ARGS --date ${{ github.event.inputs.date }}"
           fi

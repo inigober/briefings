@@ -23,6 +23,12 @@ try:
 except ImportError:  # pragma: no cover
     requests = None  # type: ignore[assignment,misc]
 
+PREFETCH_WORKFLOW_BY_TYPE: dict[str, str] = {
+    "news": "news-prefetch.yml",
+    "berlin-culture": "berlin-culture-prefetch.yml",
+    "berlin-restaurants": "berlin-restaurants-prefetch.yml",
+}
+
 
 @dataclass(frozen=True)
 class PrefetchStatus:
@@ -81,6 +87,50 @@ def types_for_profile(profile: str) -> tuple[str, ...]:
     if profile == "restaurants":
         return ("berlin-restaurants",)
     return ("news", "berlin-culture")
+
+
+def dispatch_prefetch_retries(missed: list[PrefetchStatus]) -> list[str]:
+    """Re-trigger missed pre-fetch workflows via GitHub Actions API (CI only)."""
+    if requests is None:
+        log("  (Pre-fetch retry skipped — requests not installed)")
+        return []
+
+    token = (os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or "").strip()
+    repo = (os.environ.get("GITHUB_REPOSITORY") or "").strip()
+    if not token or not repo:
+        log("  (Pre-fetch retry skipped — GITHUB_TOKEN / GITHUB_REPOSITORY not set)")
+        return []
+
+    dispatched: list[str] = []
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    for status in missed:
+        workflow_file = PREFETCH_WORKFLOW_BY_TYPE.get(status.type_id)
+        if not workflow_file:
+            continue
+        url = f"https://api.github.com/repos/{repo}/actions/workflows/{workflow_file}/dispatches"
+        try:
+            response = requests.post(
+                url,
+                headers=headers,
+                json={"ref": "main"},
+                timeout=30,
+            )
+        except requests.RequestException as exc:
+            log(f"  Warning: could not dispatch {workflow_file}: {exc}")
+            continue
+        if response.status_code == 204:
+            log(f"  Re-triggered {workflow_file} for {status.display_name}")
+            dispatched.append(status.type_id)
+        else:
+            log(
+                f"  Warning: dispatch {workflow_file} failed ({response.status_code}): "
+                f"{response.text[:200]}"
+            )
+    return dispatched
 
 
 def send_missed_alert(missed: list[PrefetchStatus]) -> None:
@@ -147,7 +197,12 @@ def main() -> int:
     parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="Print results only; do not send alert email",
+        help="Print results only; do not send alert email or re-trigger workflows",
+    )
+    parser.add_argument(
+        "--retry",
+        action="store_true",
+        help="Re-dispatch missed pre-fetch workflows via GitHub Actions API",
     )
     args = parser.parse_args()
 
@@ -181,6 +236,8 @@ def main() -> int:
         )
 
     if not args.dry_run:
+        if args.retry:
+            dispatch_prefetch_retries(missed)
         send_missed_alert(missed)
 
     return 1

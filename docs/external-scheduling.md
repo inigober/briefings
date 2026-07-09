@@ -161,3 +161,7 @@ Each `inbox/` push triggers the Cursor automation once. Two synthesis runs = two
 ### Workflow runs but no inbox commit
 
 Open the Actions log — likely OpenAI spend cap or script error.
+
+### Job cancelled — "not acquired by Runner of type hosted"
+
+GitHub could not assign a hosted runner within ~15 minutes (queue saturation). The pre-fetch script never ran. **Fix:** re-run the workflow manually (Actions → workflow → **Run workflow**) or wait for the 11:00 health check, which re-dispatches missed pre-fetches automatically.
