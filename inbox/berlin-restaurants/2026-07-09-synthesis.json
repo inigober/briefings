@@ -1,0 +1,178 @@
+{
+  "briefing_type": "berlin-restaurants",
+  "date": "2026-07-09",
+  "source_raw": "inbox/berlin-restaurants/2026-07-09-raw.json",
+  "built_at": "2026-07-09T08:34:41.966133+00:00",
+  "model": "gpt-4.1",
+  "raw_item_count": 8,
+  "verified_count": 6,
+  "section_counts": {
+    "regional_chinese": 1,
+    "southeast_asian": 2,
+    "turkish_middle_eastern_caucasus": 1,
+    "mediterranean_european": 0,
+    "specialist_neighborhood": 0,
+    "fine_dining": 0
+  },
+  "items": [
+    {
+      "id": "chuan_garden",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Chuan Garden 川园",
+      "neighborhood": "Mitte",
+      "address": "Torstraße 189, 10115",
+      "cuisine": "Sichuan Chinese",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Bold, authentic Sichuan dishes including rabbit specialty and hot pot",
+        "Chefs from Himmelspagode bring serious technique",
+        "Large terrace suited for summer dining"
+      ],
+      "weaknesses": [
+        "Located in a spot with high turnover—past tenants failed quickly"
+      ],
+      "comparative_context": "Among the few honest, interesting Sichuan kitchens in East Berlin",
+      "critical_assessment": "Excellent execution and regional focus; price mid‑range, strong value for Sichuan aficionados.",
+      "google_maps_name": "Chuan Garden 川园",
+      "google_maps_url": "https://maps.google.com/?cid=3614477287672776716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Torstraße 189, 10115 Berlin",
+      "google_maps_place_id": "ChIJt8HAbABRqEcRDAh0XPEzKTI",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 341,
+      "google_maps_hours_compact": "Daily 12:00–23:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "Chuan Garden 川园 review Berlin Food Stories"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "dal_tokki",
+      "topic_ids": [
+        "southeast_asian",
+        "specialist_neighborhood"
+      ],
+      "name": "Dal Tokki",
+      "neighborhood": "Wedding",
+      "address": "Prinzenallee 83, Wedding",
+      "cuisine": "Korean vegan set‑menu",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Always vegan set menu, balanced components, extremely affordable",
+        "Family‑run, simple execution"
+      ],
+      "weaknesses": [
+        "Limited menu scope—set only, lunch only"
+      ],
+      "comparative_context": "Focused, cross‑category as both Southeast Asian and neighborhood specialist",
+      "critical_assessment": "Exceptional value and disciplined cuisine in a cozy setting.",
+      "google_maps_name": "Dal Tokki",
+      "google_maps_url": "https://maps.google.com/?cid=15991654687140121839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Prinzenallee 83, 13357 Berlin",
+      "google_maps_place_id": "ChIJwR4b8DJTqEcR74yy5TXF7d0",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 102,
+      "google_maps_hours_compact": "Mon–Tue 12:00–15:00 (closed Wed–Sun)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "Dal Tokki tip‑Berlin"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "nusantara",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Nusantara",
+      "neighborhood": "Moabit",
+      "address": "Turmstraße 18, Moabit",
+      "cuisine": "Indonesian",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Rare Indonesian regional cuisine in Berlin",
+        "Founded by Indonesians—culturally authentic"
+      ],
+      "weaknesses": [
+        "Relatively lesser‑known, possible inconsistent coverage"
+      ],
+      "comparative_context": "One of few Indonesian specialists",
+      "critical_assessment": "Unique Southeast Asian choice with freshness and specificity.",
+      "google_maps_name": "Nusantara Restaurant",
+      "google_maps_url": "https://maps.google.com/?cid=6608885631759338744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Turmstr. 18, 10559 Berlin",
+      "google_maps_place_id": "ChIJrUSvFKBRqEcR-Mwyend6t1s",
+      "google_maps_rating": 4.4,
+      "google_maps_review_count": 1707,
+      "google_maps_hours_compact": "Daily 12:00–21:30",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "Ramadan‑Ende tip‑Berlin"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "aleppo_supper_club",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Aleppo Supper Club",
+      "neighborhood": "Friedrichshain",
+      "address": "Rigaer Straße 58 / Wühlischstraße 21, Friedrichshain",
+      "cuisine": "Syrian Levantine",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Deeply personal Syrian dishes—Maqluba, Kabsa, Metabel",
+        "Rich regional authenticity and compelling backstory"
+      ],
+      "weaknesses": [
+        "Takeaway focus at one location; less formal restaurant setting"
+      ],
+      "comparative_context": "Hidden gem Levantine spot, outshines trendier options",
+      "critical_assessment": "Low‑priced but richly expressive Syrian cuisine.",
+      "google_maps_name": "Aleppo Supper Club",
+      "google_maps_url": "https://maps.google.com/?cid=16433895107034430658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Wühlischstraße 21, 10245 Berlin",
+      "google_maps_place_id": "ChIJqWC7RTBXqEcRwjzRgofsEOQ",
+      "google_maps_rating": 4.9,
+      "google_maps_review_count": 1251,
+      "google_maps_hours_compact": "Mon–Thu 11:00–23:00; Fri–Sat 11:00–23:30; Sun 11:00–23:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "Ramadan‑Ende tip‑Berlin"
+      ],
+      "ingestion_source": "openai"
+    }
+  ],
+  "note": "Token-light restaurant slice for synthesis. Items included here have verified:true after Google Places API post-fetch verification when GOOGLE_MAPS_API_KEY is set. Do not recommend unverified restaurants."
+}

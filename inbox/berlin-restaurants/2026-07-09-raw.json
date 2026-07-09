@@ -1,0 +1,338 @@
+{
+  "briefing_type": "berlin-restaurants",
+  "date": "2026-07-09",
+  "fetched_at": "2026-07-09T08:34:38.802892+00:00",
+  "model": "gpt-4.1",
+  "fetch_mode": "combined",
+  "items": [
+    {
+      "id": "chuan_garden",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Chuan Garden 川园",
+      "neighborhood": "Mitte",
+      "address": "Torstraße 189, 10115",
+      "cuisine": "Sichuan Chinese",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Bold, authentic Sichuan dishes including rabbit specialty and hot pot",
+        "Chefs from Himmelspagode bring serious technique",
+        "Large terrace suited for summer dining"
+      ],
+      "weaknesses": [
+        "Located in a spot with high turnover—past tenants failed quickly"
+      ],
+      "comparative_context": "Among the few honest, interesting Sichuan kitchens in East Berlin",
+      "critical_assessment": "Excellent execution and regional focus; price mid‑range, strong value for Sichuan aficionados.",
+      "source_urls": [
+        "Chuan Garden 川园 review Berlin Food Stories"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Chuan Garden 川园",
+      "google_maps_address": "Torstraße 189, 10115 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=3614477287672776716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJt8HAbABRqEcRDAh0XPEzKTI",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 341,
+      "google_maps_hours_compact": "Daily 12:00–23:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "kanaan",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Kanaan",
+      "neighborhood": "Prenzlauer Berg",
+      "address": "Kopenhagener Straße 17, Prenzlauer Berg",
+      "cuisine": "Israeli/Levantine",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Creamy, authentic hummus with hospitality",
+        "Clear Levantine identity"
+      ],
+      "weaknesses": [
+        "Was part of press‑hype in 2019—may feel dated"
+      ],
+      "comparative_context": "A Levantine specialist rooted in community not trend",
+      "critical_assessment": "Strong regional Levantine flavors at very approachable price.",
+      "source_urls": [
+        "The best Levantine food tip‑Berlin"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Kanaan",
+      "google_maps_address": "Schliemannstraße 15, 10437 Berlin-Bezirk Pankow",
+      "google_maps_url": "https://maps.google.com/?cid=6253256166315965690&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJq37sjQRSqEcR-rzIIloHyFY",
+      "google_maps_rating": 4.3,
+      "google_maps_review_count": 2139,
+      "google_maps_hours_compact": null,
+      "exists_in_berlin": true,
+      "permanently_closed": true,
+      "temporarily_closed": false,
+      "maps_api_verified": false,
+      "verification_notes": "Places API: permanently closed; Places API lookup for 'Kanaan Kopenhagener Straße 17, Prenzlauer Berg Berlin Germany' did not pass verification",
+      "verified": false
+    },
+    {
+      "id": "al_andalos",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Al‑Andalos",
+      "neighborhood": "Neukölln",
+      "address": "Sonnenallee 40, Neukölln",
+      "cuisine": "Lebanese",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Large mixed platter with diverse Lebanese specialties",
+        "Spice‑driven salads and mezzes"
+      ],
+      "weaknesses": [
+        "Diner‑style setting—less refined ambiance"
+      ],
+      "comparative_context": "Everyday Levantine fare beyond schawarma and falafel",
+      "critical_assessment": "Flavorful Lebanese regional cooking at very low price.",
+      "source_urls": [
+        "The best Levantine food tip‑Berlin"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Al Andalos",
+      "google_maps_address": "Sonnenallee 40, 12045 Berlin-Bezirk Neukölln",
+      "google_maps_url": "https://maps.google.com/?cid=17719959658445121160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJQ3DDebpPqEcRiKbfy2zx6fU",
+      "google_maps_rating": 4.2,
+      "google_maps_review_count": 1289,
+      "google_maps_hours_compact": null,
+      "exists_in_berlin": true,
+      "permanently_closed": true,
+      "temporarily_closed": false,
+      "maps_api_verified": false,
+      "verification_notes": "Places API: permanently closed; Places API lookup for 'Al‑Andalos Sonnenallee 40, Neukölln Berlin Germany' did not pass verification",
+      "verified": false
+    },
+    {
+      "id": "aleppo_supper_club",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Aleppo Supper Club",
+      "neighborhood": "Friedrichshain",
+      "address": "Rigaer Straße 58 / Wühlischstraße 21, Friedrichshain",
+      "cuisine": "Syrian Levantine",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Deeply personal Syrian dishes—Maqluba, Kabsa, Metabel",
+        "Rich regional authenticity and compelling backstory"
+      ],
+      "weaknesses": [
+        "Takeaway focus at one location; less formal restaurant setting"
+      ],
+      "comparative_context": "Hidden gem Levantine spot, outshines trendier options",
+      "critical_assessment": "Low‑priced but richly expressive Syrian cuisine.",
+      "source_urls": [
+        "Ramadan‑Ende tip‑Berlin"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Aleppo Supper Club",
+      "google_maps_address": "Wühlischstraße 21, 10245 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=16433895107034430658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJqWC7RTBXqEcRwjzRgofsEOQ",
+      "google_maps_rating": 4.9,
+      "google_maps_review_count": 1251,
+      "google_maps_hours_compact": "Mon–Thu 11:00–23:00; Fri–Sat 11:00–23:30; Sun 11:00–23:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "nusantara",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Nusantara",
+      "neighborhood": "Moabit",
+      "address": "Turmstraße 18, Moabit",
+      "cuisine": "Indonesian",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Rare Indonesian regional cuisine in Berlin",
+        "Founded by Indonesians—culturally authentic"
+      ],
+      "weaknesses": [
+        "Relatively lesser‑known, possible inconsistent coverage"
+      ],
+      "comparative_context": "One of few Indonesian specialists",
+      "critical_assessment": "Unique Southeast Asian choice with freshness and specificity.",
+      "source_urls": [
+        "Ramadan‑Ende tip‑Berlin"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Nusantara Restaurant",
+      "google_maps_address": "Turmstr. 18, 10559 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=6608885631759338744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJrUSvFKBRqEcR-Mwyend6t1s",
+      "google_maps_rating": 4.4,
+      "google_maps_review_count": 1707,
+      "google_maps_hours_compact": "Daily 12:00–21:30",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "dal_tokki",
+      "topic_ids": [
+        "southeast_asian",
+        "specialist_neighborhood"
+      ],
+      "name": "Dal Tokki",
+      "neighborhood": "Wedding",
+      "address": "Prinzenallee 83, Wedding",
+      "cuisine": "Korean vegan set‑menu",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Always vegan set menu, balanced components, extremely affordable",
+        "Family‑run, simple execution"
+      ],
+      "weaknesses": [
+        "Limited menu scope—set only, lunch only"
+      ],
+      "comparative_context": "Focused, cross‑category as both Southeast Asian and neighborhood specialist",
+      "critical_assessment": "Exceptional value and disciplined cuisine in a cozy setting.",
+      "source_urls": [
+        "Dal Tokki tip‑Berlin"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Dal Tokki",
+      "google_maps_address": "Prinzenallee 83, 13357 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=15991654687140121839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJwR4b8DJTqEcR74yy5TXF7d0",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 102,
+      "google_maps_hours_compact": "Mon–Tue 12:00–15:00 (closed Wed–Sun)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "halle_didi_pa",
+      "topic_ids": [
+        "african_specialist"
+      ],
+      "name": "Didi Pa",
+      "neighborhood": "Neukölln",
+      "address": "Sonnenallee 31, Neukölln",
+      "cuisine": "West African",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Excellent vegan‑friendly Jollof and grilled chicken, home‑made, fresh"
+      ],
+      "weaknesses": [
+        "Cuisine outside of core categories, but adds needed diversity"
+      ],
+      "comparative_context": "Not Southeast Asian but an affordable specialist; broadens neighborhood scope",
+      "critical_assessment": "Warm, fresh West African food at low cost—worth crossing category boundaries.",
+      "source_urls": [
+        "Westafrikanische Restaurants tip‑Berlin"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "DIDI PA - West African Kitchen",
+      "google_maps_address": "Sonnenallee 31, 12047 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=15958725258493353158&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJWWFOZ8ZPqEcRxtyM1BHIeN0",
+      "google_maps_rating": 4.5,
+      "google_maps_review_count": 830,
+      "google_maps_hours_compact": "Mon 04:00–21:00; Tue–Thu 03:00–21:00; Fri–Sat 01:00–22:00; Sun 01:00–21:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "bantou_village",
+      "topic_ids": [
+        "african_specialist"
+      ],
+      "name": "Bantou Village",
+      "neighborhood": "Wedding",
+      "address": "Kameruner Straße 2, Wedding",
+      "cuisine": "Cameroonian/West African",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Housemade West African stews, imported drinks, vegan options",
+        "Distinct regional tradition"
+      ],
+      "weaknesses": [
+        "Less coverage may mean variable consistency"
+      ],
+      "comparative_context": "Neighborhood‑level African specialist",
+      "critical_assessment": "Authentic and affordable African cooking in the north Berlin context.",
+      "source_urls": [
+        "Westafrikanische Restaurants tip‑Berlin"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Bantou Village",
+      "google_maps_address": "Kameruner Str. 2, 13351 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=13787721243908268439&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJw1AiU9ZTqEcRl2FCvWvTV78",
+      "google_maps_rating": 4.0,
+      "google_maps_review_count": 299,
+      "google_maps_hours_compact": "Daily 11:00–23:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    }
+  ],
+  "gaps": [
+    "Need one more Regional Chinese candidate (Chungking Noodles closing, don't include).",
+    "Need another Southeast Asian choice (e.g. Thai or Vietnamese specialist).",
+    "Add Mediterranean/European section (3 candidates)"
+  ],
+  "section_counts": {
+    "regional_chinese": 1,
+    "southeast_asian": 2,
+    "specialist_neighborhood": 0,
+    "mediterranean_european": 0,
+    "turkish_middle_eastern_caucasus": 3,
+    "fine_dining": 0
+  },
+  "verified_count": 6,
+  "search_notes": "Found strong entries for Chinese, Middle Eastern, Southeast Asian, African. Need additional searches for Mediterranean/European and another Southeast Asian and regional Chinese.",
+  "maps_verified_at": "2026-07-09T08:34:41.838630+00:00"
+}
