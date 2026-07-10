@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-10
+
+- [Why AI could be a financial 'sludge' buster](https://www.ft.com/content/da32dec7-bec6-483a-9595-18a3e9575a3f) — Financial Times
+- [Japan's Kirin bets on Asian expansion to grow health science business](https://asia.nikkei.com/business/food-beverage/japan-s-kirin-bets-on-asian-expansion-to-grow-health-science-business) — Nikkei Asia
+- [Senegal's Hidden-Debt Scandal Derails Its Infrastructure Dream](https://www.bloomberg.com/news/articles/2026-07-10/senegal-s-hidden-debt-crisis-puts-infrastructure-boom-at-risk-worries-investors) — Bloomberg
+- [Species' ingenious survival strategies no match for human destruction, red list reveals](https://www.theguardian.com/environment/2026/jul/09/species-ingenious-survival-strategies-no-match-human-destruction-red-list) — The Guardian
+
 ## 2026-07-09
 
 - [Data centers should benefit the cities that power them](https://restofworld.org/2026/data-centers-cities-communities-benefits/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
@@ -31,14 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Son remakes SoftBank in his own image](https://www.ft.com/content/a29a698c-3fb6-4e6f-ab02-1b7843786066) — Financial Times
 - [China's sea patrols and lawfare tighten 'all fronts' squeeze on Taiwan](https://asia.nikkei.com/politics/international-relations/taiwan-tensions/china-s-sea-patrols-and-lawfare-tighten-all-fronts-squeeze-on-taiwan) — Nikkei Asia
 - [Prepare for Airplane Purgatory](https://www.theatlantic.com/science/2026/07/airlines-flight-extended-tarmac-delay/687802/?utm_source=feed) — The Atlantic
-
-## 2026-07-05
-
-- [AI investors shouldn't choose between Wall Street and Asia](https://asia.nikkei.com/opinion/ai-investors-shouldn-t-choose-between-wall-street-and-asia) — Nikkei Asia
-- [Uber stalls European food delivery push as it pursues Delivery Hero takeover](https://www.ft.com/content/53f631ef-98e4-4eec-92e4-3dd023ed25f5) — Financial Times
-- [New pipeline in Canada to proceed after C$150bn pledged to ease BC and First Nations concerns](https://www.theguardian.com/world/2026/jul/03/canada-alberta-pipeline) — The Guardian
-- [Ukrainian woman wanted after Monaco attack](https://www.politico.eu/article/ukrainian-woman-wanted-after-monaco-attack/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-
 
 ## Blocked until 5+ briefings have passed
 

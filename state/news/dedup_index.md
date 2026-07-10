@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-10
+
+- **spain-kitchen-rajoy-cospedal-audios-reopened** — eldiario.es: judge orders Internal Affairs to recover RAC1 recordings implicating Cospedal and Rajoy in Kitchen case ahead of 30 July trial end (section: spain)
+- **spain-pp-dependency-funding-vote-contradiction** — eldiario.es: PP regional governments vote against 50% central dependency-cost share despite years demanding it (section: spain)
+- **spain-los-gallardos-wildfire-fatalities** — EL PAÍS: at least 12 dead in Andalucía's deadliest wildfire this season near Los Gallardos (section: spain)
+- **germany-vw-blume-shrink-plan-shelved** — Handelsblatt: VW supervisory board has not approved CEO Blume's plant-closure and job-cut blueprint (section: germany)
+- **germany-enteignungsverbot-constitutional-debate** — Handelsblatt: coalition housing expropriation ban raises questions about circumventing Basic Law socialisation clause (section: germany)
+- **germany-coalition-reform-package-economist-split** — Handelsblatt podcast: Rürup and Hüther doubt agreed growth package can end stagnation without deeper supply-side reform (section: germany)
+- **berlin-wegner-cdu-internal-letter-crisis** — Berliner Zeitung: confidential CDU letter questions Wegner's viability as lead candidate after blackout affair (section: berlin)
+- **berlin-federal-enteignung-block-berlin-referendum** — Tagesspiegel: legal scholars say federal ban could override Berlin's voted path to socialise large landlords (section: berlin)
+- **berlin-lindemann-triathlon-comeback** — rbb24: Berlin-born triathlete returns to World Cup form targeting 2028 Olympics after motivation slump (section: berlin)
+- **world-openai-google-china-ai-export-loophole** — FT: US AI firms supplied models to blacklisted Chinese groups via Singapore subsidiaries (section: world)
+- **world-sk-hynix-record-us-listing** — FT: South Korean memory-chip maker raises $26.5bn in largest foreign US market debut (section: world)
+- **world-nigeria-fake-federal-agency-budget** — Guardian: fictitious agency allocated 1.3bn naira in 2026 budget triggers Tinubu investigation before January election (section: world)
+
 ## 2026-07-09
 
 - **spain-trump-spain-trade-embargo-redemption** — EL PAÍS: Trump threatens commercial embargo then claims Spain "fully redeemed" after major payment pledge at NATO summit (section: spain)
