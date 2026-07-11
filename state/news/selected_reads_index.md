@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-11
+
+- [Prepare for a perilous summer in markets](https://www.ft.com/content/b04a8098-833f-4ca6-80b6-3a2cb595cbc3) — Financial Times
+- [Japan's scallop production feels heat of climate change](https://asia.nikkei.com/business/fisheries/japan-s-scallop-production-feels-heat-of-climate-change) — Nikkei Asia
+- [Developing countries spend more repaying foreign debt than on education, UN reveals](https://www.theguardian.com/global-development/2026/jul/10/developing-countries-spend-more-foreign-debt-education-aid-cuts-unesco) — The Guardian
+- [Fighting Fires With Figures, These Experts Are Trying to Stop Europe From Burning](https://www.nytimes.com/2026/07/10/world/europe/fire-climate-change-heat-wave-global-warming.html) — The New York Times
+
 ## 2026-07-10
 
 - [Why AI could be a financial 'sludge' buster](https://www.ft.com/content/da32dec7-bec6-483a-9595-18a3e9575a3f) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [How to stop AI becoming the enemy of younger workers](https://www.ft.com/content/0b67e331-4ff0-4af6-85b7-0d7d6710d603) — Financial Times
 - [Erdogan Has Laid a Trap in Ankara](https://foreignpolicy.com/2026/07/06/erdogan-nato-summit-ankara/) — Foreign Policy
 - [Cuban zoo celebrates birth of Bengal tigers amid energy crisis](https://www.theguardian.com/world/2026/jul/06/cuban-zoo-celebrates-birth-of-bengal-tigers-amid-energy-crisis) — The Guardian
-
-## 2026-07-06
-
-- [Big investors commit billions to private credit despite turmoil](https://www.ft.com/content/ea275bbd-e411-4db5-a9d2-415666f2a923) — Financial Times
-- [Son remakes SoftBank in his own image](https://www.ft.com/content/a29a698c-3fb6-4e6f-ab02-1b7843786066) — Financial Times
-- [China's sea patrols and lawfare tighten 'all fronts' squeeze on Taiwan](https://asia.nikkei.com/politics/international-relations/taiwan-tensions/china-s-sea-patrols-and-lawfare-tighten-all-fronts-squeeze-on-taiwan) — Nikkei Asia
-- [Prepare for Airplane Purgatory](https://www.theatlantic.com/science/2026/07/airlines-flight-extended-tarmac-delay/687802/?utm_source=feed) — The Atlantic
 
 ## Blocked until 5+ briefings have passed
 

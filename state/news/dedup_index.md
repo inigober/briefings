@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-11
+
+- **spain-bishops-arguello-church-state-rupture** — eldiario.es: CEE president Argüello calls government "band of thieves" and ruptures informal détente with Sánchez (section: spain)
+- **spain-resco-wildfire-predictable-almeria** — EL PAÍS: fire engineer Resco says Almería catastrophe was foreseeable amid Europe's wildfire death toll exceeding terrorism (section: spain)
+- **spain-world-cup-semifinals-merino-belgium** — eldiario.es: Merino scores late as Spain reach first World Cup semifinal in 16 years (section: spain)
+- **germany-china-shock-2-industrial-rivalry** — Handelsblatt: China graduates from customer to rival across autos, machinery and chemicals (section: germany)
+- **germany-post-parcel-complaints-surge** — Handelsblatt: tens of thousands of consumer complaints over damaged or late parcels as e-commerce volumes climb (section: germany)
+- **germany-ai-agent-medical-research-automation** — Tagesspiegel: biomedical AI agent completes 60-hour literature review in 40 minutes (section: germany)
+- **berlin-supermarket-hostage-crisis** — Tagesspiegel: man holds woman hostage in south Berlin grocery store as police mount large operation (section: berlin)
+- **berlin-1-4m-non-voters-election** — rbb24: record 1.4 million Berlin residents without voting rights ahead of September Abgeordnetenhaus election (section: berlin)
+- **berlin-e-scooter-rental-liability-law** — rbb24: Bundestag tightens hire-firm liability after e-scooter accidents (section: berlin)
+- **world-apple-openai-trade-secrets-lawsuit** — FT: Apple sues OpenAI alleging staff took confidential product information (section: world)
+- **world-venezuela-quake-4000-deaths** — Guardian: twin June earthquakes kill 4,118+ with thousands missing in La Guaira (section: world)
+- **world-mexico-us-cartel-capture-sovereignty-probe** — Guardian: Mexico investigates whether FBI participated inside territory in El Mayo Zambada seizure (section: world)
+
 ## 2026-07-10
 
 - **spain-kitchen-rajoy-cospedal-audios-reopened** — eldiario.es: judge orders Internal Affairs to recover RAC1 recordings implicating Cospedal and Rajoy in Kitchen case ahead of 30 July trial end (section: spain)
@@ -200,36 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-venezuela-quake-death-toll-920** — Venezuela earthquake death toll nears 920 as rescue frustration mounts (section: world)
 - **world-sri-lanka-dengue-military-drones** — Sri Lanka deploys military drones against dengue surge amid Iran-war fuel strain (section: world)
 - **world-google-caps-meta-gemini-access** — Google limits Meta's Gemini use as AI compute scarcity bites (section: world)
-
-## 2026-06-27
-
-- **spain-valencia-dana-camarero-whatsapp-reticence** — Valencia vice-president nearly withheld Dana-day WhatsApp messages from investigating judge (section: spain)
-- **spain-housing-tax-public-spend-fiscal-gap** — OCDE data show Spain collects €52bn in housing taxes but spends €7bn on public housing (section: spain)
-- **spain-digital-forensics-expurgo-legal-gap** — Legal vacuum on cloned devices exposes private messages without wiretap-style expurgo rules (section: spain)
-- **germany-cement-consumption-wwii-low** — Industry association reports cement use at lowest level since Second World War (section: germany)
-- **germany-vw-china-models-germany-production** — Lower Saxony premier Olaf Lies urges VW to build Chinese-designed models in Germany (section: germany)
-- **germany-rente-mit-63-abolition-fight** — Pensions commission and coalition split over ending penalty-free early retirement at 63 (section: germany)
-- **berlin-zehlendorf-explosive-device-workshop** — Improvised explosive thrown onto car-repair yard in Berlin-Zehlendorf (section: berlin)
-- **berlin-hertha-cuisance-lens-transfer** — Hertha BSC sells Michaël Cuisance to RC Lens amid squad overhaul (section: berlin)
-- **berlin-brandenburg-kommunen-federal-cost-deal** — Brandenburg municipalities sceptical of Bund–Länder 80% cost-reimbursement pact (section: berlin)
-- **world-drc-ebola-missing-patients** — Africa CDC warns nearly 300 Ebola-positive people untraceable in eastern DR Congo (section: world)
-- **world-honda-ai-datacenter-batteries-us** — Honda repurposes Ohio battery plant for AI data-centre storage after EV pivot (section: world)
-- **world-lebanon-israel-framework-agreement** — Lebanon and Israel sign US-brokered framework in Washington without Hizbullah (section: world)
-
-## 2026-06-26
-
-- **spain-miriam-gonzalez-democracia-21-registration** — España Mejor founder registers Democracia 21 party ahead of possible general-election bid (section: spain)
-- **spain-felipe-sheinbaum-mexico-normalization** — King Felipe VI and President Sheinbaum reset Spain–Mexico ties after seven-year Catalan-letter freeze (section: spain)
-- **spain-mangos-tech-ai-kill-switch** — elDiario profiles MANGOS hyperscalers and US export-control kill switches over European critical systems (section: spain)
-- **germany-dgb-alternative-pension-plan** — DGB commission proposes higher pensions without longer work as counter to government reform (section: germany)
-- **germany-hamburg-iran-espionage-trial** — Hamburg court opens trial over alleged Iranian spying on Jewish community leaders (section: germany)
-- **germany-merz-reforms-afd-strategy** — Handelsblatt analysis: Merz bets painful social reforms can shrink AfD appeal (section: germany)
-- **berlin-philharmoniker-heat-dress-code** — Berliner Philharmoniker relax formal dress rules for heat-struck Waldbühne concert (section: berlin)
-- **berlin-brandenburg-olympia-2036-survey** — Forsa poll finds 51% in Brandenburg back four-state 2036 Olympics bid led by Berlin (section: berlin)
-- **berlin-a2-heat-autobahn-closure** — Extreme heat damages A2 near Berlin, closing Ziesar–Wollin stretch (section: berlin)
-- **world-zimbabwe-constitutional-term-extension** — Senate approves amendments extending presidential terms; opposition calls constitutional coup (section: world)
-- **world-trump-openai-gpt-staggered-release** — US agencies ask OpenAI to limit GPT-5.6 rollout for user vetting (section: world)
-- **world-bangladesh-china-infrastructure-push** — Dhaka deepens Beijing investment talks for ports and power amid Gulf energy risks (section: world)
 
 ## Saturated topics — do not return without material development
 
