@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-12
+
+- **spain-vallejo-najera-gran-cruz-withdrawn** — eldiario.es: government strips Franco psychiatrist's top honour over republican-prisoner eugenic experiments (section: spain)
+- **spain-xenophobic-discourse-spiral** — EL PAÍS: year-long investigation traces hardening PP–Vox immigration rhetoric and social-media hostility (section: spain)
+- **spain-javier-negre-disinformation-network** — EL PAÍS: broadcaster built multinational propaganda business selling Trump and Milei access (section: spain)
+- **germany-o2-mass-layoffs** — Handelsblatt: Telefónica-owned carrier to cut roughly one in six jobs as unions attack planlessness (section: germany)
+- **germany-rente-pension-gap-data** — Handelsblatt: Bundestag figures document wide gap between statutory pensions and Beamten payouts (section: germany)
+- **germany-tempolimit-fatality-study** — Tagesspiegel: researchers estimate nationwide motorway cap could prevent up to 90 deaths annually (section: germany)
+- **berlin-marienfelde-hostage-resolved** — rbb24: SEK ends 11-hour Rewe standoff; prosecutors release suspect details (section: berlin)
+- **berlin-columbiabad-summer-reportage** — rbb24: holiday visit finds calmer Columbiabad despite violent reputation (section: berlin)
+- **berlin-wannsee-strandbad-accident** — rbb24: serious bather injury at Wannsee lido draws rescue helicopter (section: berlin)
+- **world-japan-ai-worker-incentives** — Nikkei Asia: Honda and peers pay bonuses to drive employee AI adoption (section: world)
+- **world-nigeria-zamfara-bandit-operation** — Guardian: army claims 300+ killed in two-day Zamfara counter-bandit operation (section: world)
+- **world-toronto-festival-shooting** — Guardian: two dead after gunmen exchange fire beside Salsa on St Clair street festival (section: world)
+
 ## 2026-07-11
 
 - **spain-bishops-arguello-church-state-rupture** — eldiario.es: CEE president Argüello calls government "band of thieves" and ruptures informal détente with Sánchez (section: spain)
@@ -200,21 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-ai-us-power-ma-200bn** — AI data-centre demand drives record $200bn US utilities M&A wave (section: world)
 - **world-firmus-nvidia-ai-factory-indonesia** — Australia's Firmus announces Nvidia-backed AI campus in Indonesia (section: world)
 - **world-putin-fuel-shortages-refinery-drones** — Putin admits Ukrainian drone strikes on refineries are causing domestic fuel shortages (section: world)
-
-## 2026-06-28
-
-- **spain-psoe-page-federal-committee-election-call** — Castilla-La Mancha premier Page demands early elections at PSOE Federal Committee; Sánchez vows to fight on (section: spain)
-- **spain-feijoo-catalonia-electoral-key** — Feijóo tells Catalan PP to deliver historic result as key to ousting Sánchez (section: spain)
-- **spain-sumar-lara-hernandez-leadership-challenge** — Sumar critics unite behind rival list to replace leader Lara Hernández (section: spain)
-- **germany-tankrabatt-expiry-july** — €1.6bn petrol-tax rebate ends Tuesday as drivers face last fill-up decisions (section: germany)
-- **germany-branded-coffee-price-cuts** — Retailers cut branded coffee prices after years of post-shock increases (section: germany)
-- **germany-children-myopia-plateau** — German childhood short-sightedness prevalence stabilises despite global screen-time surge (section: germany)
-- **berlin-temperature-records-40c** — Berlin hits 39.9°C and Brandenburg sets state record at 40.8°C (section: berlin)
-- **berlin-trans-nonbinary-street-assault** — Men attack trans woman and non-binary person in Berlin hate-motivated assault (section: berlin)
-- **berlin-heatwave-swimming-warnings** — Authorities caution bathers as heat drives crowds to lakes with mixed water quality (section: berlin)
-- **world-venezuela-quake-death-toll-920** — Venezuela earthquake death toll nears 920 as rescue frustration mounts (section: world)
-- **world-sri-lanka-dengue-military-drones** — Sri Lanka deploys military drones against dengue surge amid Iran-war fuel strain (section: world)
-- **world-google-caps-meta-gemini-access** — Google limits Meta's Gemini use as AI compute scarcity bites (section: world)
 
 ## Saturated topics — do not return without material development
 

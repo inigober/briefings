@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-12
+
+- [Democrats' strategic misfires laid bare by Platner's implosion in Maine](https://www.ft.com/content/76ca7934-189a-4207-89a2-cf060b87f56b) — Financial Times
+- [How AI rebrands fail to deliver a lasting share price boost](https://www.ft.com/content/07fa9ce9-ac21-484c-a57c-078b0bb0fd3b) — Financial Times
+- [Evacuating Art From Ukraine's Front Lines](https://foreignpolicy.com/2026/07/10/evacuating-art-from-ukraines-front-lines/) — Foreign Policy
+- [Patriot Supply Strains Shape Ukraine Aid](https://www.bloomberg.com/news/videos/2026-07-11/patriot-supply-strains-shape-ukraine-aid-video) — Bloomberg
+
 ## 2026-07-11
 
 - [Prepare for a perilous summer in markets](https://www.ft.com/content/b04a8098-833f-4ca6-80b6-3a2cb595cbc3) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [China's Answer to AI Sticker Shock](https://www.theatlantic.com/technology/2026/07/glm-5-2-china-cheap-ai-agents/687828/?utm_source=feed) — The Atlantic
 - [French far-right leader Le Pen says she will run for president](https://www.ft.com/content/3c0ecc58-630b-4d74-8abd-b17eb73116cf) — Financial Times
 - [What will define Elon Musk's legacy? Doge cuts to USAID Ebola programs](https://www.theguardian.com/technology/2026/jul/07/elon-musk-doge-cuts-usaid-ebola) — The Guardian
-
-## 2026-07-07
-
-- [Can China and US find common ground on AI governance in Geneva?](https://asia.nikkei.com/business/technology/artificial-intelligence/can-china-and-us-find-common-ground-on-ai-governance-in-geneva) — Nikkei Asia
-- [How to stop AI becoming the enemy of younger workers](https://www.ft.com/content/0b67e331-4ff0-4af6-85b7-0d7d6710d603) — Financial Times
-- [Erdogan Has Laid a Trap in Ankara](https://foreignpolicy.com/2026/07/06/erdogan-nato-summit-ankara/) — Foreign Policy
-- [Cuban zoo celebrates birth of Bengal tigers amid energy crisis](https://www.theguardian.com/world/2026/jul/06/cuban-zoo-celebrates-birth-of-bengal-tigers-amid-energy-crisis) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
