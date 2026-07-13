@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-13
+
+- **spain-tjue-amnesty-ruling-thursday** — eldiario.es: CJEU judgment due Thursday on procés amnesty law with Constitutional Court waiting to rule on Puigdemont appeals (section: spain)
+- **spain-feijoo-pp-income-concealment** — eldiario.es: Feijóo and PP leadership fail to disclose party stipends to Congress until after 2027 election (section: spain)
+- **spain-mostoles-pp-mayor-harassment-imputation** — EL PAÍS: Móstoles PP mayor Manuel Bautista imputed for sexual and workplace harassment of former councillor (section: spain)
+- **germany-linde-russia-bank-litigation** — Handelsblatt: Deutsche Bank, HVB and Commerzbank sue Linde over hundreds of millions in collapsed Russia-project guarantees (section: germany)
+- **germany-spd-foi-law-rebellion** — Tagesspiegel: senior SPD leaders break with coalition plan to gut Informationsfreiheitsgesetz (section: germany)
+- **germany-illegal-telemarketing-surge** — Handelsblatt: consumer agencies report rising illegal cold calls for gambling and energy tariffs (section: germany)
+- **berlin-it-dienstleister-borelli-corruption-probe** — Tagesspiegel: external auditor investigates corruption claims against Berlin IT agency chief over sole-source contracts (section: berlin)
+- **berlin-evers-austerity-krach-school-meals** — Berliner Zeitung: CDU candidate Evers opens campaign with spending cuts; SPD's Krach attacks school-lunch threat (section: berlin)
+- **berlin-linke-candidate-caucus-preview** — Tagesspiegel: profiles possible 30+ Linke deputies as party leads pre-election polls (section: berlin)
+- **world-india-chinese-llm-cost-shift** — Nikkei Asia: Indian firms pilot Chinese LLMs as US API bills climb (section: world)
+- **world-bangkok-nightclub-fire-27-dead** — Guardian: Bangkok pub blaze kills 27 with 22 critically injured in deadliest recent leisure-venue fire (section: world)
+- **world-wall-street-spacex-ipo-fee-bonanza** — FT: US banks harvest record fees from SpaceX IPO pipeline and mega-mergers (section: world)
+
 ## 2026-07-12
 
 - **spain-vallejo-najera-gran-cruz-withdrawn** — eldiario.es: government strips Franco psychiatrist's top honour over republican-prisoner eugenic experiments (section: spain)

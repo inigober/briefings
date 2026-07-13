@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-13
+
+- [Ukraine sees opportune moment to pressure Putin before winter](https://www.politico.eu/article/ukraine-pressure-russia-vladimir-putin-winter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [The Most Famous AI Writing Tic Is Also the Most Mysterious](https://www.theatlantic.com/technology/2026/07/ai-chatbot-writing-tic-negative-parallelism/687892/?utm_source=feed) — The Atlantic
+- [Companies turn to Chinese AI models to cut costs](https://www.ft.com/content/9c8ff45b-7c20-4c2e-93c9-c52339ffdcee) — Financial Times
+- [How Trump Failed to Secure the Strait of Hormuz in His Iran Deal](https://www.nytimes.com/2026/07/12/us/politics/trump-strait-of-hormuz-iran-deal.html) — The New York Times
+
 ## 2026-07-12
 
 - [Democrats' strategic misfires laid bare by Platner's implosion in Maine](https://www.ft.com/content/76ca7934-189a-4207-89a2-cf060b87f56b) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Trump Hands NATO a Mixed Bag](https://foreignpolicy.com/2026/07/08/trump-nato-ankara-summit-iran-ukraine-greenland-spain/) — Foreign Policy
 - [Russia fuel crisis spills over to Central Asia as drone strikes bite](https://asia.nikkei.com/business/energy/russia-fuel-crisis-spills-over-to-central-asia-as-drone-strikes-bite) — Nikkei Asia
 - [The century-old device choking the world's AI push](https://ig.ft.com/transformers/) — Financial Times
-
-## 2026-07-08
-
-- [The Corner of Hollywood That's Most Susceptible to AI](https://www.theatlantic.com/culture/2026/07/animation-industry-ai-hollywood-job-cuts/687830/?utm_source=feed) — The Atlantic
-- [China's Answer to AI Sticker Shock](https://www.theatlantic.com/technology/2026/07/glm-5-2-china-cheap-ai-agents/687828/?utm_source=feed) — The Atlantic
-- [French far-right leader Le Pen says she will run for president](https://www.ft.com/content/3c0ecc58-630b-4d74-8abd-b17eb73116cf) — Financial Times
-- [What will define Elon Musk's legacy? Doge cuts to USAID Ebola programs](https://www.theguardian.com/technology/2026/jul/07/elon-musk-doge-cuts-usaid-ebola) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

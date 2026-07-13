@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-07-12",
-  "briefing_date": "2026-07-12",
-  "inbox_date": "2026-07-12",
+  "date": "2026-07-13",
+  "briefing_date": "2026-07-13",
+  "inbox_date": "2026-07-13",
   "status": "success",
-  "briefing_path": "briefings/news/2026-07-12.md",
-  "inbox_path": "inbox/news/2026-07-12-synthesis.json",
+  "briefing_path": "briefings/news/2026-07-13.md",
+  "inbox_path": "inbox/news/2026-07-13-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "El calor dispara las muertes en España a cifras sin precedentes", "section": "spain", "reason": "theme_duplicate: heat mortality cluster covered in Other Headlines; wildfire/heat themes saturated recent briefings"},
-    {"headline": "El PP y la patronal tratan de enfrentar a los trabajadores por el aumento de bajas", "section": "spain", "reason": "dedup: sick-leave debate covered 2026-07-08 through 2026-07-09 without material policy change"},
-    {"headline": "Viento, maleza y viviendas sueltas: incendio letal en Almería", "section": "spain", "reason": "dedup: Los Gallardos wildfire covered 2026-07-10 and 2026-07-11"},
-    {"headline": "Städtereise: Seoul entdecken", "section": "germany", "reason": "geographic_misfit: South Korea travel piece not Germany-relevant"},
-    {"headline": "Die Lage im Überblick: USA greifen erneut Iran an – Straße von Hormus geschlossen", "section": "germany", "reason": "geographic_misfit: Middle East escalation moved to Other Headlines"},
-    {"headline": "Deutsche Bahn: Schnieder sieht Bahn für mehr Pünktlichkeit in der Pflicht", "section": "germany", "reason": "theme_priority: kept O2 layoffs, pension-gap data and Tempolimit study"},
+    {"headline": "Estamos pidiendo bajas por encima de nuestras posibilidades", "section": "spain", "reason": "dedup: sick-leave debate covered 2026-07-08 through 2026-07-09 without new legislation"},
+    {"headline": "Varios ministros de Francia cargan contra las palabras racistas de Rajoy", "section": "spain", "reason": "theme_priority: Rajoy–France row moved to Other Headlines; kept TJUE, Feijóo income and Móstoles imputation"},
+    {"headline": "Ángel Víctor Torres: En 2027 puede haber 500.000 nuevos nacionalizados con derecho a voto", "section": "spain", "reason": "avoid_unless_material: migration regularization without court ruling or legislation passed"},
+    {"headline": "Las vigas se quemaban, cogí leche, agua, vinagre, cerveza, vino, lo que pillara", "section": "spain", "reason": "dedup: wildfire season saturated in recent briefings"},
+    {"headline": "Iran-Krieg: US-Militär erklärt Angriffe auf Iran vorerst für beendet", "section": "germany", "reason": "geographic_misfit: Middle East escalation belongs in Other Headlines"},
+    {"headline": "Krankheiten: Umfrage: Menschen in Deutschland leiden enorm unter Hitze", "section": "germany", "reason": "avoid_unless_material: heatwave adaptation without major policy change"},
+    {"headline": "Geiselnahme in Berliner Supermarkt beendet: SEK befreit Frau nach elf Stunden", "section": "berlin", "reason": "dedup: Marienfelde hostage covered 2026-07-11 and 2026-07-12"},
     {"headline": "Blackout, Tennis, Unwahrheiten: Der politische Niedergang von Kai Wegner", "section": "berlin", "reason": "dedup: Wegner leadership crisis covered 2026-07-09 and 2026-07-10"},
-    {"headline": "Schließung Geburtsstation: Hebammenverband sieht Risiken", "section": "berlin", "reason": "geographic_misfit: Brandenburg maternity closures without Berlin policy angle"},
-    {"headline": "Ukraine attackiert russische Öltanker im Asowschen Meer", "section": "berlin", "reason": "geographic_misfit: Ukraine maritime strikes belong in World/Other Headlines"},
-    {"headline": "Democrats' strategic misfires laid bare by Platner's implosion in Maine", "section": "world", "reason": "theme_priority: elevated to Selected Reads rather than World section"},
-    {"headline": "How AI rebrands fail to deliver a lasting share price boost", "section": "world", "reason": "theme_priority: elevated to Selected Reads; World kept Japan AI labour, Nigeria and Toronto"},
-    {"headline": "Developing countries spend more repaying foreign debt than on education", "section": "selected_reads", "reason": "dedup: Guardian URL used in 2026-07-11 Selected Reads"}
+    {"headline": "Diebstahl und Betrug: Gefahr auf Autobahn-Rastplatz - Lkw-Diebe schlagen wieder zu", "section": "berlin", "reason": "geographic_misfit: Brandenburg highway crime without Berlin policy angle"},
+    {"headline": "Companies turn to Chinese AI models to cut costs", "section": "world", "reason": "theme_duplicate: kept Indian LLMs story; FT variant elevated to Selected Reads"},
+    {"headline": "Ukraine sees opportune moment to pressure Putin before winter", "section": "world", "reason": "theme_priority: elevated to Selected Reads; World kept India AI, Bangkok fire and Wall Street fees"},
+    {"headline": "Developing countries spend more repaying foreign debt than on education, UN reveals", "section": "selected_reads", "reason": "dedup: Guardian URL used in 2026-07-11 Selected Reads"}
   ],
-  "notes": "Synthesis from 2026-07-12 pre-fetch; Vallejo-Nájera honour withdrawal, xenophobic discourse spiral, Negre disinformation network, O2 layoffs, Rente–Pension gap, Tempolimit study, Marienfelde hostage resolved, Columbiabad reportage, Wannsee accident, Japan AI worker incentives, Nigeria Zamfara operation, Toronto festival shooting."
+  "notes": "Synthesis from 2026-07-13 pre-fetch; TJUE amnesty ruling, Feijóo income concealment, Móstoles mayor imputation, Linde bank litigation, SPD FoI rebellion, illegal telemarketing surge, IT agency corruption probe, Evers austerity campaign, Linke caucus preview, India Chinese LLMs, Bangkok nightclub fire, Wall Street IPO fees."
 }
