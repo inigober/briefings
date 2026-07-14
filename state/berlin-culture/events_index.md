@@ -52,3 +52,14 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-07-07 | wildcards | Phelan O'Hara — Towards Childhood | Galerie Michael Haas | https://www.indexberlin.com/events/list/44473/towards-childhood
 2026-07-07 | advance_radar | Forecast Festival 2026 | Radialsystem | https://www.indexberlin.com/events/list/44862/forecast-festival-2026
 2026-07-07 | advance_radar | Bjørn Melhus — LOST IN FINITY | silent green Kulturquartier | https://www.indexberlin.com/events/list/44517/lost-in-finity
+2026-07-14 | top_picks | Forecast Festival 2026 | Radialsystem | https://www.radialsystem.de/en/veranstaltungen/forecast-festival-2026/
+2026-07-14 | top_picks | Bjørn Melhus: LOST IN FINITY | silent green Kulturquartier | https://www.silent-green.net/en/programme/detail/bjoern-melhus-lost-in-finity?tx_news_pi1%5Bday%5D=17&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=23e6da090cfa4998b5d5332562aea309
+2026-07-14 | top_picks | Deutschlandpremiere: Only Ghosts in the Waves + Gespräch | Wolf Kino | https://wolfberlin.org/de/programm
+2026-07-14 | exhibitions | Anne Duk Hee Jordan — Riders on the Storm | alexander levy | https://www.indexberlin.com/exhibitions/list/43263/riders-on-the-storm
+2026-07-14 | exhibitions | Guy Simpson — Level with me | EIGEN + ART Lab | https://www.indexberlin.com/exhibitions/list/44340/level-with-me
+2026-07-14 | film | Shorts Attack – monatliches Kurzfilmprogramm | ACUDkino | https://acudkino.de/Event/Detail/1076
+2026-07-14 | wildcards | Adam Hanieh: The Middle East in an Age of War and Climate Breakdown | KW Institute for Contemporary Art | https://www.indexberlin.com/events/list/44911/adam-hanieh-the-middle-east-in-an-age-of-war-and-climate-breakdown
+2026-07-14 | wildcards | Veit Laurent Kurz & Max Brand: Das Historische Brummen | Haus am Waldsee | https://www.indexberlin.com/events/list/44919/veit-laurent-kurz-max-brand-das-historische-brummen-a-history-lecture-with-music-and-surprises
+2026-07-14 | advance_radar | Zilberman Unfold '26: Sites of Relation | Zilberman | https://www.indexberlin.com/events/list/44403/zilberman-unfold-26-sites-of-relation
+2026-07-14 | advance_radar | Michaela Younge & Rhys Coren | EIGEN + ART Lab | https://www.indexberlin.com/events/list/44422/n-a
+2026-07-14 | advance_radar | Alicja Rogalska — Counterplay | Studio | Galerie Nord | https://www.indexberlin.com/events/list/44278/counterplay
