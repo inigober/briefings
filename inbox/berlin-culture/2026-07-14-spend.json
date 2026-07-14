@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-14",
+  "cap_usd": 2.0,
+  "spent_usd": 0.23208,
+  "estimated": true,
+  "cap_exceeded": false,
+  "calls": [
+    {
+      "section": "culture_search_music",
+      "model": "gpt-4.1",
+      "input_tokens": 18658,
+      "cached_tokens": 3840,
+      "output_tokens": 495,
+      "web_search_calls": 1,
+      "cost_usd": 0.045516,
+      "at": "2026-07-14T08:32:56.616261+00:00"
+    },
+    {
+      "section": "culture_search_exhibitions",
+      "model": "gpt-4.1",
+      "input_tokens": 32737,
+      "cached_tokens": 18816,
+      "output_tokens": 676,
+      "web_search_calls": 1,
+      "cost_usd": 0.052658,
+      "at": "2026-07-14T08:33:05.378146+00:00"
+    },
+    {
+      "section": "culture_search_film",
+      "model": "gpt-4.1",
+      "input_tokens": 18805,
+      "cached_tokens": 3840,
+      "output_tokens": 1522,
+      "web_search_calls": 1,
+      "cost_usd": 0.054026,
+      "at": "2026-07-14T08:33:15.333392+00:00"
+    },
+    {
+      "section": "culture_search_performing_arts",
+      "model": "gpt-4.1",
+      "input_tokens": 33523,
+      "cached_tokens": 18560,
+      "output_tokens": 1129,
+      "web_search_calls": 1,
+      "cost_usd": 0.058238,
+      "at": "2026-07-14T08:33:23.987924+00:00"
+    },
+    {
+      "section": "culture_structure",
+      "model": "gpt-4.1",
+      "input_tokens": 4893,
+      "cached_tokens": 0,
+      "output_tokens": 1482,
+      "web_search_calls": 0,
+      "cost_usd": 0.021642,
+      "at": "2026-07-14T08:33:40.168048+00:00"
+    }
+  ],
+  "last_run_at": "2026-07-14T08:33:40.168078+00:00"
+}

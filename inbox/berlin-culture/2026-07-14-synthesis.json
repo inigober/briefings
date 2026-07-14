@@ -1,0 +1,749 @@
+{
+  "briefing_type": "berlin-culture",
+  "date": "2026-07-14",
+  "week_start": "2026-07-15",
+  "week_end": "2026-07-21",
+  "week_label": "July 15–21, 2026",
+  "source_raw": "inbox/berlin-culture/2026-07-14-raw.json",
+  "built_at": "2026-07-14T08:33:44.020755+00:00",
+  "model": "gpt-4.1",
+  "raw_item_count": 120,
+  "section_counts": {
+    "exhibitions": 2,
+    "film": 3,
+    "performing_arts": 2,
+    "music": 2,
+    "wildcards": 4,
+    "advance_radar": 5
+  },
+  "items": [
+    {
+      "id": "index-berlin-html-exhibitions-0671b5739b",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Riders on the Storm",
+      "venue": "time is it in the world PSM",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43263/riders-on-the-storm",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-c956101888",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Level with me",
+      "venue": "time is it in the world PSM",
+      "dates": "until August 1, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44340/level-with-me",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 1, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "acudkino-shorts-attack-jul-2026",
+      "topic_ids": [
+        "film",
+        "experimental"
+      ],
+      "title": "Shorts Attack – monatliches Kurzfilmprogramm",
+      "venue": "ACUDkino",
+      "dates": "2026-07-15",
+      "times": "21:15",
+      "artists": [],
+      "official_url": "https://acudkino.de/Event/Detail/1076",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Monthly curated programme of short films, often experimental or socially engaged. A direct fit for readers interested in boundary-pushing short film work.",
+      "ingestion_source": "openai",
+      "series_id": "acudkino-shorts-attack",
+      "event_kind": "festival_event"
+    },
+    {
+      "id": "wolfkino-only-ghosts-lampedusa-premiere-2026",
+      "topic_ids": [
+        "film",
+        "documentary"
+      ],
+      "title": "Deutschlandpremiere: Only Ghosts in the Waves + Gespräch",
+      "venue": "Wolf Kino",
+      "dates": "2026-07-20",
+      "times": "18:30",
+      "artists": [],
+      "official_url": "https://wolfberlin.org/de/programm",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "German premiere of a documentary on Lampedusa migration graves, plus discussion. Directly socially engaged, migration/research-driven subject.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "wolfkino-insekten-helden-im-verborgenen-2026",
+      "topic_ids": [
+        "film",
+        "environment"
+      ],
+      "title": "Insekten – Helden im Verborgenen",
+      "venue": "Wolf Kino (Kinderkino)",
+      "dates": "2026-07-16",
+      "times": "",
+      "artists": [],
+      "official_url": "https://wolfberlin.org/de/programm/kinderkino/insekten-helden-im-verborgenen",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Documentary-style children's film with strong environmental/ecology focus. Fitting for documentary and nature/educational themes.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "forecast-festival-2026-overview",
+      "topic_ids": [
+        "performing_arts",
+        "interdisciplinary"
+      ],
+      "title": "Forecast Festival 2026",
+      "venue": "Radialsystem",
+      "dates": "2026-07-16 to 2026-07-19",
+      "times": "Thu/Fri from 19:00, Sat from 17:00, Sun from 11:00",
+      "artists": [
+        "LINA Fellows & Alumni",
+        "Heinali",
+        "Vidura Bandara Rajapaksa",
+        "Lucy McRae",
+        "Almagul Menlibayeva",
+        "Tom Cassani",
+        "Keren Cytter",
+        "Emilie Largier",
+        "Hsiang-Sheng Teng"
+      ],
+      "official_url": "https://www.radialsystem.de/en/veranstaltungen/forecast-festival-2026/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Major interdisciplinary festival with new performance, experimental music, participatory workshops, and talks. Topical, international, and radically cross-genre.",
+      "ingestion_source": "openai",
+      "series_id": "forecast-festival-radialsystem",
+      "event_kind": "festival_overview"
+    },
+    {
+      "id": "rss-performing_arts-ce85855c03",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Wir suchen Minijobber*in im Bereich Ticketing, Abendkasse, Einlass, Flyerverteilung",
+      "venue": "Ballhaus Naunynstraße",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://ballhausnaunynstrasse.de/wir-suchen-minijobberin-im-bereich-ticketing-abendkasse-einlass-flyerverteilung/",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Es handelt sich um eine geringfügige Beschäftigung (Minijob) mit variablen, meist abendlichen Arbeitszeiten. Deine Aufgaben sind unter anderem: Kartenreservierungen und Verkauf: Entgegennahme von Reservierungswünschen (telefonisch und per E-Mail) Anwendung der Software unseres Ticketdienstleister...",
+      "ingestion_source": "rss",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "silent-green-html-music-fef3c9737d",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Bjørn Melhus: LOST IN FINITY – Opening Evening",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "16 July 2026",
+      "times": "07:30",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/bjoern-melhus-lost-in-finity-eroeffnungsabend?tx_news_pi1%5Bday%5D=16&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=2637fbf14c09ff1961211bb4903b6ce5",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Silent Green programme — 16 July 2026",
+      "ingestion_source": "silent_green_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "silent-green-html-music-ee37de6365",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Bjørn Melhus: LOST IN FINITY",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "17 July 2026",
+      "times": "07:30",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/bjoern-melhus-lost-in-finity?tx_news_pi1%5Bday%5D=17&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=23e6da090cfa4998b5d5332562aea309",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Silent Green programme — 17 July 2026",
+      "ingestion_source": "silent_green_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-5b0ace4043",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Adam Hanieh: The Middle East in an Age of War and Climate Breakdown",
+      "venue": "Auguststr. 69 10117 Berlin",
+      "dates": "15 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44911/adam-hanieh-the-middle-east-in-an-age-of-war-and-climate-breakdown",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Adam Hanieh: The Middle East in an Age of War and Climate Breakdown",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-fe77bf82bf",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Forecast Festival 2026",
+      "venue": "Holzmarktstrasse 33 10243 Berlin",
+      "dates": "16 July 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44862/forecast-festival-2026",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Forecast Festival 2026",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "forecast-festival-2026",
+      "event_kind": "festival_overview"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-595d7b0683",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Forecast Festival: Presentations by Lucy McRae\\, Tom Cassani and their nominees",
+      "venue": "Holzmarktstrasse 33 10243 Berlin",
+      "dates": "16 July 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44864/forecast-festival-presentations-by-lucy-mcrae-tom-cassani-and-their-nominees",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Forecast Festival: Presentations by Lucy McRae\\, Tom Cassani and their nominees",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "forecast-festival",
+      "event_kind": "festival_overview"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-2567b450ab",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Veit Laurent Kurz & Max Brand: Das Historische Brummen. A history lecture with music and surprises",
+      "venue": "Argentinische Allee 30 14163 Berlin",
+      "dates": "16 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44919/veit-laurent-kurz-max-brand-das-historische-brummen-a-history-lecture-with-music-and-surprises",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Veit Laurent Kurz & Max Brand: Das Historische Brummen. A history lecture with music and surprises",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-e579dc753f",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Zilberman Unfold ‘26: Sites of Relation",
+      "venue": "Goethestr. 82 10623 Berlin",
+      "dates": "22 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44403/zilberman-unfold-26-sites-of-relation",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Zilberman Unfold ‘26: Sites of Relation",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-fa97fed5f1",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "RESONANZEN: Buchclub",
+      "venue": "Max-Planck-Str. 17\\n\\n\\n\\n 14473 Berlin",
+      "dates": "22 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44857/resonanzen-buchclub",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "RESONANZEN: Buchclub",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-62fec8ef85",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Michaela Younge & Rhys Coren",
+      "venue": "Torstr. 220 10115 Berlin",
+      "dates": "23 July 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44422/n-a",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Michaela Younge & Rhys Coren",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-566bffd3b4",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Alicja Rogalska Counterplay",
+      "venue": "Turmstr. 75 10551 Berlin",
+      "dates": "23 July 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44278/counterplay",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "Alicja Rogalska Counterplay",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-6e38131779",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "MINSKBAR NO 03",
+      "venue": "Max-Planck-Str. 17\\n\\n\\n\\n 14473 Berlin",
+      "dates": "23 July 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44858/minskbar-no-03",
+      "closing_soon": false,
+      "verified": false,
+      "why_candidate": "MINSKBAR NO 03",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    }
+  ],
+  "editorial_context": {
+    "rejected_candidates": [
+      {
+        "id": "index-berlin-html-exhibitions-9365374a71",
+        "title": "Proxy",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-1bf76a838e",
+        "title": "Poxy Proxy",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-2b45eca210",
+        "title": "Soffuso",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-8b6d6e61eb",
+        "title": "Caged Movements",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-142783f4b3",
+        "title": "50 Gramm Kunst – A Collaborative Work",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-d936fe5595",
+        "title": "Resilience",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-753a34a57a",
+        "title": "Flesh",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-27e3a70f2c",
+        "title": "Cleaving",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-532ca68fab",
+        "title": "Säulenordnung",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-597420ede5",
+        "title": "Rundgang 2026 – Tage der offenen Tür",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "rundgang-2026",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-3ffe8d21d3",
+        "title": "Towards Childhood",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-cab254b7ee",
+        "title": "Dog Days",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-169450ceb6",
+        "title": "Ansichtssache",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-83c597eae4",
+        "title": "Nach Bild (After Image)",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-44c48d1b6f",
+        "title": "Judgment and Calculation – Drei Systeme von Farbe",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-ca2b9b7df7",
+        "title": "After Memory. Echoes in the Future Perfect Tense",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-a532670d2f",
+        "title": "Domesticity II: Spitzen Rauschen",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-bcdeb60de0",
+        "title": "After the City / Nach der Stadt",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "wolfkino-ninja-mf-destruction-2026",
+        "title": "Ninja Motherf*cking Destruction",
+        "section": "film",
+        "reason": "duplicate_url",
+        "series_id": "",
+        "venue": "Wolf Kino"
+      },
+      {
+        "id": "silent-green-html-music-3d59790579",
+        "title": "Sunn O))) – sold out",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-7f81cad56e",
+        "title": "Sunn O))) – sold out",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-7e79889758",
+        "title": "THE LETTING GO – Book Launch – fully booked",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-763f2335ab",
+        "title": "Samba Jean-Baptiste + Static Cleaner Lost Reward (Tarquin Manek)",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-6fccd53a6f",
+        "title": "silent green Open Lab #6: Gregory Pearce + gega.fisk",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-6fe843b533",
+        "title": "Bjørn Melhus: LOST IN FINITY – THE BEGINNING",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-395329582e",
+        "title": "Historische Führung",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-8c242cc44b",
+        "title": "Bjørn Melhus: LOST IN FINITY – THE END OF THE BEGINNING",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-eb499a1444",
+        "title": "silent green Open Lab #7: Shu and Frieda + GLTR Mauer",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-b1a426bac2",
+        "title": "silent green & Music From Beyond pres. Maresz + Del Gesù + The Midnight Audience",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a4c78f0465",
+        "title": "Bjørn Melhus: LOST IN FINITY – Open Air Screening MELANCHOLIA",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-45788ba808",
+        "title": "silent green Open Lab #8: aiel + Xingqi Liu",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a171125ea5",
+        "title": "Hanno Leichtmann: OSCILLAZIONI",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-3d27215d41",
+        "title": "HTRK",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-acaa150df9",
+        "title": "silent green Open Lab #9: JKZQ + franna",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a3bb4f4780",
+        "title": "Bjørn Melhus: LOST IN FINITY – Open Air Screening THE END",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-96d536e72b",
+        "title": "silent green Open Lab #10: Lovecrushr + ricky horror",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-d2068943b4",
+        "title": "Bjørn Melhus: LOST IN FINITY – Open Air Screening THE WIZARD OF OZ",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-af9f6c3edc",
+        "title": "silent green Open Lab #11: ..o & Nilgün Özer + Gabi Pedrosa",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-f602dc4952",
+        "title": "Unguarded pres. Jungstötter + Blurrydog",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-4f0c284feb",
+        "title": "Bjørn Melhus: LOST IN FINITY – THE BEGINNING OF THE END",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-ffe747d61a",
+        "title": "Psychic Liberation Night: Niloofar Asghary + Júlia Koffler",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-b340ea9285",
+        "title": "Sonic Matters VI – Independent Label Market",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-151cc9901d",
+        "title": "silent green Sommerfest 2026",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-bc88720cd7",
+        "title": "Bjørn Melhus: LOST IN FINITY – DEADLY FRUITS – From Earth Rise to Weltuntergang",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-84239b5a6b",
+        "title": "Pop-Kultur Festival 2026",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "pop",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-51600f5293",
+        "title": "silent green pres. Mutant Radio Sessions",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-aa9e219ad8",
+        "title": "The I in the Mirror: Reflection",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      }
+    ],
+    "diversification_caps": {
+      "max_per_venue": 2,
+      "max_per_series": 1
+    },
+    "note": "Pre-ranked with venue/series/event de-duplication across sections. Synthesis must still apply one-event-one-slot and Top Picks cross-reference rules."
+  },
+  "note": "Token-light culture slice for synthesis. Items with verified:true passed pre-fetch URL/schedule checks; synthesis spot-checks only unverified Top Picks and closing-soon items."
+}
