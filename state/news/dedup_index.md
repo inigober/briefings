@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-14
+
+- **spain-dependency-reform-6200m-vote** — eldiario.es: Congress approves €6.2bn twin reforms shifting care from institutions to universal home-based ageing (section: spain)
+- **spain-budget-stability-path-defeat-2027** — eldiario.es: Junts, PP and Vox set to reject stability path yet government vows to govern through 2027 (section: spain)
+- **spain-foreign-doctors-one-in-ten** — EL PAÍS: more than 30,000 foreign-born colegiados, mostly Latin American, staff Spanish hospitals often without homologated specialties (section: spain)
+- **germany-china-export-surge-june-trade** — Handelsblatt: Chinese exports to Germany jumped sharply in June as German shipments to China rose only marginally (section: germany)
+- **germany-conscientious-objector-surge-wehrdienst** — Tagesspiegel: Kriegsdienstverweigerung filings climb well above prior year after new Wehrdienst law (section: germany)
+- **germany-pflegefachassistenz-2027-training** — Handelsblatt: nationwide Pflegefachassistenz qualification from 2027 standardises Quereinstieg into nursing (section: germany)
+- **berlin-evers-cdu-spitzenkandidat-elected** — rbb24: finance senator Stefan Evers chosen as CDU lead candidate for September Abgeordnetenhaus election (section: berlin)
+- **berlin-bvg-waisentunnel-groundbreaking** — rbb24: BVG breaks ground on Waisentunnel rebuild after eight-year closure near Jannowitzbrücke (section: berlin)
+- **berlin-justice-it-outage-digital-akten** — rbb24: Berlin courts lose access to digital case files in severe Monday IT outage (section: berlin)
+- **world-japan-russia-espionage-hub-response** — Guardian: Tokyo pledges tougher counter-intelligence after NYT report on Russia using Japan as spy and procurement hub (section: world)
+- **world-mexico-ice-migrant-death-complaints** — Guardian: Sheinbaum to file US criminal complaints over Mexican migrant deaths in ICE operations including Houston shooting (section: world)
+- **world-us-iran-phone-tracking-military** — FT: ad-tech and roaming data exploited to geolocate US personnel during Iran conflict (section: world)
+
 ## 2026-07-13
 
 - **spain-tjue-amnesty-ruling-thursday** — eldiario.es: CJEU judgment due Thursday on procés amnesty law with Constitutional Court waiting to rule on Puigdemont appeals (section: spain)
@@ -200,36 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-south-africa-anti-immigrant-protests** — Mass demonstrations and xenophobic violence drive undocumented migrants to flee major cities (section: world)
 - **world-qualcomm-ai-chip-no-hbm** — Qualcomm challenges Nvidia with AI accelerator architecture that forgoes high-bandwidth memory (section: world)
 - **world-white-house-lifts-anthropic-ban** — US government re-authorises federal use of Anthropic Mythos and Fable models (section: world)
-
-## 2026-06-30
-
-- **spain-budget-stability-path-july** — Government plans July stability-path votes and 2.6% GDP forecast to unlock September budget drafting (section: spain)
-- **spain-leire-sepi-25-imputations** — Judge Pedraz imputes SEPI president Losada and 24 others in expanding Leire Díez corruption probe (section: spain)
-- **spain-monedero-complutense-suspension** — Complutense bars Podemos founder Monedero for one year over sexist-harassment finding (section: spain)
-- **germany-bmw-us-ev-bet** — BMW holds US electrification course as German rivals scale back EV plans amid Trump hostility (section: germany)
-- **germany-assisted-telemedicine-pharmacy-july** — Nationwide assisted telemedicine via pharmacy booths launches 1 July (section: germany)
-- **germany-wm-exit-paraguay-press** — Germany eliminated on penalties; global press questions football identity as Nagelsmann stays (section: germany)
-- **berlin-wegner-blackout-phone-disclosure** — Court orders Senate to release Wegner's blackout-day call logs after misleading statements (section: berlin)
-- **berlin-kant-gymnasium-spandau-relocation** — Spandau studies moving prestigious Kant-Gymnasium from Charlottenburg after build-plan failure (section: berlin)
-- **berlin-pools-ai-drowning-detection** — Municipal pool operators to trial AI distress-detection cameras amid heat-driven attendance surge (section: berlin)
-- **world-china-smartphone-target-cuts** — Xiaomi, Oppo and Vivo cut 2026 handset targets again as demand softens (section: world)
-- **world-el-nino-agriculture-threat** — Intensifying El Niño threatens global harvests atop trade and energy stress (section: world)
-- **world-us-iran-hormuz-doha-talks** — Washington and Tehran position for Qatar talks focused on Hormuz shipping control (section: world)
-
-## 2026-06-29
-
-- **spain-valencia-metro-pp-bribery-victims** — Cotino allegedly offered public jobs to 2006 metro-crash families to stop legal action ahead of twentieth anniversary (section: spain)
-- **spain-podemos-morocho-kitchen-guerra-sucia** — Podemos asks judge to summon inspector Morocho linking Kitchen trial to PP dirty-war operations (section: spain)
-- **spain-quiron-madrid-lab-workers-dismissal** — Quirón Salud workers protest day-one dismissals after winning Madrid central-lab concession (section: spain)
-- **germany-industrial-jobs-vanishing-inaction** — Handelsblatt warns VW/Mercedes/Bosch job losses outpace federal policy response (section: germany)
-- **germany-employer-training-cost-obligations** — Labour-law column clarifies when firms must fund mandatory worker training (section: germany)
-- **germany-hantavirus-cruise-who-all-clear** — WHO signals German-linked cruise-ship Hantavirus cluster is ending (section: germany)
-- **berlin-karl-marx-strasse-heat-mitigation** — Urban planners propose cooling alternatives where tree planting is impossible on Neukölln corridor (section: berlin)
-- **berlin-union-berlin-lustrinelli-squad-gaps** — Union Berlin faces roster holes as new coach Lustrinelli starts pre-season (section: berlin)
-- **berlin-dogue-pentathlon-world-cup** — Marvin Dogue becomes first German modern pentathlete to win overall World Cup (section: berlin)
-- **world-ai-us-power-ma-200bn** — AI data-centre demand drives record $200bn US utilities M&A wave (section: world)
-- **world-firmus-nvidia-ai-factory-indonesia** — Australia's Firmus announces Nvidia-backed AI campus in Indonesia (section: world)
-- **world-putin-fuel-shortages-refinery-drones** — Putin admits Ukrainian drone strikes on refineries are causing domestic fuel shortages (section: world)
 
 ## Saturated topics — do not return without material development
 

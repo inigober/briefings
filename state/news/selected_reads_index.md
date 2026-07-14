@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-14
+
+- [AI and the new Mechanical Turk](https://www.ft.com/content/acd0ef98-b462-4800-88b9-2c78c54f2559) — Financial Times
+- [Taiwan's No. 2 chipmaker UMC starts photonic chip production in Singapore](https://asia.nikkei.com/business/tech/semiconductors/taiwan-s-no.-2-chipmaker-umc-starts-photonic-chip-production-in-singapore) — Nikkei Asia
+- [Russian Energy Is Now at Ukraine's Mercy](https://foreignpolicy.com/2026/07/13/ukraine-drone-strike-russia-energy-oil-refinery-putin/) — Foreign Policy
+- [Killings continue on Del Monte farm in Kenya, families say, after G4S hired for security](https://www.theguardian.com/world/2026/jul/13/del-monte-pineapple-farm-kenya-deaths-g4s) — The Guardian
+
 ## 2026-07-13
 
 - [Ukraine sees opportune moment to pressure Putin before winter](https://www.politico.eu/article/ukraine-pressure-russia-vladimir-putin-winter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Japan's Kirin bets on Asian expansion to grow health science business](https://asia.nikkei.com/business/food-beverage/japan-s-kirin-bets-on-asian-expansion-to-grow-health-science-business) — Nikkei Asia
 - [Senegal's Hidden-Debt Scandal Derails Its Infrastructure Dream](https://www.bloomberg.com/news/articles/2026-07-10/senegal-s-hidden-debt-crisis-puts-infrastructure-boom-at-risk-worries-investors) — Bloomberg
 - [Species' ingenious survival strategies no match for human destruction, red list reveals](https://www.theguardian.com/environment/2026/jul/09/species-ingenious-survival-strategies-no-match-human-destruction-red-list) — The Guardian
-
-## 2026-07-09
-
-- [Data centers should benefit the cities that power them](https://restofworld.org/2026/data-centers-cities-communities-benefits/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [Trump Hands NATO a Mixed Bag](https://foreignpolicy.com/2026/07/08/trump-nato-ankara-summit-iran-ukraine-greenland-spain/) — Foreign Policy
-- [Russia fuel crisis spills over to Central Asia as drone strikes bite](https://asia.nikkei.com/business/energy/russia-fuel-crisis-spills-over-to-central-asia-as-drone-strikes-bite) — Nikkei Asia
-- [The century-old device choking the world's AI push](https://ig.ft.com/transformers/) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 
