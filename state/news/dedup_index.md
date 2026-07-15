@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-15
+
+- **spain-david-sanchez-prevaricacion-sentence** — eldiario.es: Badajoz court convicts PM's brother for prevaricación over plaza renaming but absolves tráfico de influencias; nine-year ban appealable (section: spain)
+- **spain-world-cup-final-france-semifinal** — eldiario.es: Spain beats France 2–0 to reach second World Cup final 16 years after first amid Rajoy diplomatic row (section: spain)
+- **spain-us-telemundo-english-viewers** — eldiario.es: Nielsen shows nearly half of US World Cup viewers watch Spanish-language Telemundo, including English-only households (section: spain)
+- **germany-merz-summer-pressekonferenz** — Handelsblatt: chancellor faces Berlin summer press conference buoyed by reform package but weak polls (section: germany)
+- **germany-zf-auto-worker-privileges-crisis** — Handelsblatt: supplier restructuring revives debate on whether auto staff must surrender legacy wage perks (section: germany)
+- **germany-north-sea-rocket-launch-ship** — Handelsblatt: floating offshore launch platform scouts berths beyond German waters for small-satellite missions (section: germany)
+- **berlin-kriminaltechnisches-institut-johannisthal** — rbb24: Berlin police building central forensic institute to consolidate DNA and digital evidence labs (section: berlin)
+- **berlin-wegner-political-end-chronicle** — Berliner Zeitung: retrospective traces mayor's collapse after January blackout and CDU succession to Evers (section: berlin)
+- **berlin-ddr-museum-20-years** — Tagesspiegel: Mitte DDR Museum marks two decades with Trabi simulator and Plattenbau apartment exhibit (section: berlin)
+- **world-trump-science-grant-politicisation** — FT: proposed rules let political appointees vet US research grants for presidential priorities (section: world)
+- **world-oracle-japan-air-gapped-cloud** — FT: Oracle leads bid to host Japan's top-secret workloads on isolated cloud architecture (section: world)
+- **world-delhi-ev-air-pollution-push** — Nikkei Asia: Indian capital expands EV incentives to tackle severe urban particulate levels (section: world)
+
 ## 2026-07-14
 
 - **spain-dependency-reform-6200m-vote** — eldiario.es: Congress approves €6.2bn twin reforms shifting care from institutions to universal home-based ageing (section: spain)

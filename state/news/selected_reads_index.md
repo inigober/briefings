@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-15
+
+- [Ukraine to buy Chinese drone parts with EU funds](https://www.ft.com/content/f6cf99e0-21f7-47c0-b5b1-64b77c18d204) — Financial Times
+- [Generative AI Is an Engineering Disaster](https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/?utm_source=feed) — The Atlantic
+- [China Wants to Regulate AI Companions](https://foreignpolicy.com/2026/07/14/china-ai-companions-regulation-takes-effect/) — Foreign Policy
+- [Bangladesh unifies QR payments to formalize cash-based economy](https://asia.nikkei.com/business/technology/bangladesh-unifies-qr-payments-to-formalize-cash-based-economy) — Nikkei Asia
+
 ## 2026-07-14
 
 - [AI and the new Mechanical Turk](https://www.ft.com/content/acd0ef98-b462-4800-88b9-2c78c54f2559) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Japan's scallop production feels heat of climate change](https://asia.nikkei.com/business/fisheries/japan-s-scallop-production-feels-heat-of-climate-change) — Nikkei Asia
 - [Developing countries spend more repaying foreign debt than on education, UN reveals](https://www.theguardian.com/global-development/2026/jul/10/developing-countries-spend-more-foreign-debt-education-aid-cuts-unesco) — The Guardian
 - [Fighting Fires With Figures, These Experts Are Trying to Stop Europe From Burning](https://www.nytimes.com/2026/07/10/world/europe/fire-climate-change-heat-wave-global-warming.html) — The New York Times
-
-## 2026-07-10
-
-- [Why AI could be a financial 'sludge' buster](https://www.ft.com/content/da32dec7-bec6-483a-9595-18a3e9575a3f) — Financial Times
-- [Japan's Kirin bets on Asian expansion to grow health science business](https://asia.nikkei.com/business/food-beverage/japan-s-kirin-bets-on-asian-expansion-to-grow-health-science-business) — Nikkei Asia
-- [Senegal's Hidden-Debt Scandal Derails Its Infrastructure Dream](https://www.bloomberg.com/news/articles/2026-07-10/senegal-s-hidden-debt-crisis-puts-infrastructure-boom-at-risk-worries-investors) — Bloomberg
-- [Species' ingenious survival strategies no match for human destruction, red list reveals](https://www.theguardian.com/environment/2026/jul/09/species-ingenious-survival-strategies-no-match-human-destruction-red-list) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
