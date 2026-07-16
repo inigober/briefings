@@ -1,16 +1,18 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-07-09",
+  "date": "2026-07-16",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-07-09.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-07-09-synthesis.json",
-  "verified_count": 4,
-  "selected_count": 4,
+  "briefing_path": "briefings/berlin-restaurants/2026-07-16.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-07-16-synthesis.json",
+  "verified_count": 10,
+  "selected_count": 6,
   "selected_restaurants": [
-    "Chuan Garden 川园",
-    "Dal Tokki",
-    "Nusantara",
-    "Aleppo Supper Club"
+    "Banh Xeo Saigon",
+    "Yöre Gözleme ve Mantı Evi",
+    "Fes Turkish BBQ",
+    "Hasir (Schöneberg)",
+    "The Tree",
+    "Mezem"
   ],
-  "notes": "4 entries from 4 verified candidates — thin pool, shorter briefing acceptable per synthesis rules. All neighborhoods distinct (Mitte, Wedding, Moabit, Friedrichshain). No fine-dining entry. No anti-repetition exclusions needed; none of the four appeared in prior briefings."
+  "notes": "6 entries from 10 verified candidates. Excluded Wei House, Tian Fu, Adana Grillhaus, and Dal Tokki as repeats within 10-week window. Neighborhoods: Prenzlauer Berg, Wedding, Kreuzberg, Schöneberg, Mitte, Charlottenburg — max one per district. No fine-dining entry. No index trim needed (oldest entries are 5 weeks old)."
 }

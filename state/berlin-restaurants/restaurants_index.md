@@ -33,3 +33,9 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-07-09 | Dal Tokki | Wedding | https://maps.google.com/?cid=15991654687140121839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-09 | Nusantara | Moabit | https://maps.google.com/?cid=6608885631759338744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-09 | Aleppo Supper Club | Friedrichshain | https://maps.google.com/?cid=16433895107034430658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-16 | Banh Xeo Saigon | Prenzlauer Berg | https://maps.google.com/?cid=11949515704919073190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-16 | Yöre Gözleme ve Mantı Evi | Wedding | https://maps.google.com/?cid=13270343140515838684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-16 | Fes Turkish BBQ | Kreuzberg | https://maps.google.com/?cid=17901661913376805960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-16 | Hasir (Schöneberg) | Schöneberg | https://maps.google.com/?cid=4610204103560710877&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-16 | The Tree | Mitte | https://maps.google.com/?cid=17950918673787389901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-16 | Mezem | Charlottenburg | https://maps.google.com/?cid=11159671474518477459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
