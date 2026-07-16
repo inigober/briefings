@@ -1,0 +1,413 @@
+{
+  "briefing_type": "berlin-restaurants",
+  "date": "2026-07-16",
+  "source_raw": "inbox/berlin-restaurants/2026-07-16-raw.json",
+  "built_at": "2026-07-16T08:01:25.638400+00:00",
+  "model": "gpt-4.1",
+  "raw_item_count": 11,
+  "verified_count": 10,
+  "section_counts": {
+    "regional_chinese": 3,
+    "southeast_asian": 1,
+    "turkish_middle_eastern_caucasus": 5,
+    "mediterranean_european": 0,
+    "specialist_neighborhood": 1,
+    "fine_dining": 0
+  },
+  "items": [
+    {
+      "id": "wei_house",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Wei House (Chuan House)",
+      "neighborhood": "Friedrichshain",
+      "address": "Landsberger Allee 6",
+      "cuisine": "Sichuan Chinese (dim‑sum)",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Genuinely bold Sichuan málà and dim‑sum culture",
+        "Balanced complexity and strong regional identity"
+      ],
+      "weaknesses": [
+        "Under‑the‑radar location might deter casual diners"
+      ],
+      "comparative_context": "Less hyped than Mitte venues, strong Sichuan focus in Friedrichshain",
+      "critical_assessment": "A quietly confident Sichuan spot offering dim‑sum and mala in balanced, authentic execution, excellent value in mid‑range",
+      "google_maps_name": "Chuan House",
+      "google_maps_url": "https://maps.google.com/?cid=17257470551723575126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Landsberger Allee 6, 10249 Berlin",
+      "google_maps_place_id": "ChIJ_ef_hP1PqEcRVoc_ZQjafu8",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 524,
+      "google_maps_hours_compact": "Tue–Sat 17:00–22:30; Sun 17:30–22:30; (closed Mon)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "wei_house"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "tian_fu",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Tian Fu",
+      "neighborhood": "Charlottenburg",
+      "address": "Uhlandstraße 142",
+      "cuisine": "Sichuan hot pot and dumplings",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Specialises in hot pot and high‑quality dumplings",
+        "Charcoal‑based cooking technique"
+      ],
+      "weaknesses": [
+        "Slightly higher prices within mid‑range"
+      ],
+      "comparative_context": "Strong execution among Charlottenburg options, deeply Sichuan",
+      "critical_assessment": "Solid mid‑range specialist for hot‑pot lovers seeking authentic technique and dumplings in elegant neighbourhood",
+      "google_maps_name": "Tian Fu",
+      "google_maps_url": "https://maps.google.com/?cid=9725218145076602110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Uhlandstraße 142, 10719 Berlin-Bezirk Charlottenburg-Wilmersdorf",
+      "google_maps_place_id": "ChIJ-TBnKfFQqEcR_mR5ZGDq9oY",
+      "google_maps_rating": 4.3,
+      "google_maps_review_count": 1225,
+      "google_maps_hours_compact": "Tue–Fri 12:00–15:00 & 17:30–22:30; Sat–Sun 12:00–22:30; (closed Mon)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "spice‑spice‑baby"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "the_tree",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "The Tree",
+      "neighborhood": "Mitte (Brunnenstraße)",
+      "address": "Brunnenstraße 167",
+      "cuisine": "Sichuan noodle joint",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Homemade noodles, piquant sauces that recall Chengdu",
+        "Stylish minimalist noodle focus"
+      ],
+      "weaknesses": [
+        "Located in Mitte—more elevated in atmosphere than neighbourhood idiosyncrasy"
+      ],
+      "comparative_context": "More polished than gritty Chinatown places, but culinary focus remains strong",
+      "critical_assessment": "A refined, noodle‑centric Sichuan venue with serious sauce work—good for enthusiasts despite central location",
+      "google_maps_name": "The Tree",
+      "google_maps_url": "https://maps.google.com/?cid=17950918673787389901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Brunnenstraße 167, 10119 Berlin",
+      "google_maps_place_id": "ChIJFRjYpfpRqEcRzQcG_2x5Hvk",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 1145,
+      "google_maps_hours_compact": "Mon–Fri 12:00–15:00 & 17:30–22:00; Sat–Sun 01:00–22:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "spice‑spice‑baby"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "banh_xeo_saigon",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Banh Xeo Saigon",
+      "neighborhood": "Prenzlauer Berg",
+      "address": "Greifswalder Straße 41",
+      "cuisine": "Vietnamese",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Authentic Vietnamese dishes and hot pots",
+        "Clear local patronage and “Real Vietnamese” menu section"
+      ],
+      "weaknesses": [
+        "Interior plain, might not appeal visually"
+      ],
+      "comparative_context": "Unofficial benchmark for authentic Vietnamese in city centre",
+      "critical_assessment": "Top‑tier Vietnamese casual spot—authenticity first, flavorful crepes, soups and hot pots; excellent value overall",
+      "google_maps_name": "Banh Xeo Saigon",
+      "google_maps_url": "https://maps.google.com/?cid=11949515704919073190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Greifswalder Str. 41, 10405 Berlin-Bezirk Pankow",
+      "google_maps_place_id": "ChIJSSzvMw9OqEcRpiGn7Tg11aU",
+      "google_maps_rating": 4.3,
+      "google_maps_review_count": 955,
+      "google_maps_hours_compact": "Daily 12:00–23:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "Proper Vietnam Grub"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "yore_goezleme",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Yöre Gözleme ve Mantı Evi",
+      "neighborhood": "Wedding",
+      "address": "Prinzenallee 7",
+      "cuisine": "Turkish gözleme and manti",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Homemade manti and wide gözleme variety",
+        "Open all day, Turkish breakfast included"
+      ],
+      "weaknesses": [
+        "Imbiss‑style may feel too casual for dinner outing"
+      ],
+      "comparative_context": "Affordable Turkish breakfast and dumpling specialist in Wedding",
+      "critical_assessment": "Great neighbourhood specialist offering excellent homemade Turkish pancake and dumpling fare—informal but authentic",
+      "google_maps_name": "Yöre Gözleme ve Mantı Evi",
+      "google_maps_url": "https://maps.google.com/?cid=13270343140515838684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Prinzenallee 7, 13357 Berlin",
+      "google_maps_place_id": "ChIJvVVvaSRSqEcR3Pr86ca6Kbg",
+      "google_maps_rating": 4.9,
+      "google_maps_review_count": 2685,
+      "google_maps_hours_compact": "Daily 07:00–22:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "manti‑futtern"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "adana_grillhaus",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Adana Grillhaus",
+      "neighborhood": "Kreuzberg",
+      "address": "Manteuffelstraße 86",
+      "cuisine": "Turkish grilled meats",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Over 30‑year institution, strong charcoal grill technique",
+        "Predominantly Turkish clientele, authentic vibe"
+      ],
+      "weaknesses": [
+        "Classic menu, little innovation"
+      ],
+      "comparative_context": "Established grillhouse beloved in Kreuzberg",
+      "critical_assessment": "Reliable and authentic Turkish grill — long‑standing, vibrant, emphasizes technique over trendiness",
+      "google_maps_name": "Cevats Adana Grillhaus® \"The Original\"",
+      "google_maps_url": "https://maps.google.com/?cid=3901475484461481539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Audre-Lorde-Straße 77, 10997 Berlin",
+      "google_maps_place_id": "ChIJrSyqfzVOqEcRQ744P0jTJDY",
+      "google_maps_rating": 4.8,
+      "google_maps_review_count": 2292,
+      "google_maps_hours_compact": "Mon–Thu 12:00–03:00; Fri–Sat 12:00–04:00; Sun 12:00–03:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "fleischlust stillen"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "fes_turkish_bbq",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Fes Turkish BBQ",
+      "neighborhood": "Kreuzberg",
+      "address": "Hasenheide 58",
+      "cuisine": "Turkish mezze and table‑grill",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Interactive table grilling, mezze variety",
+        "Slow‑food ethos, relaxed convivial atmosphere"
+      ],
+      "weaknesses": [
+        "Price higher mid‑range, louder ambiance"
+      ],
+      "comparative_context": "More experiential than Adana but still technique‑driven Turkish grill",
+      "critical_assessment": "Compelling mid‑range for Turkish BBQ lovers seeking participatory mezze and quality ingredients, albeit noisy",
+      "google_maps_name": "Fes",
+      "google_maps_url": "https://maps.google.com/?cid=17901661913376805960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Hasenheide 58, 10967 Berlin-Bezirk Friedrichshain-Kreuzberg",
+      "google_maps_place_id": "ChIJdQablM9PqEcRSNT2w6l6b_g",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 1573,
+      "google_maps_hours_compact": "Tue–Sun 17:00–23:00 (closed Mon)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "hausgemachte‑mezze"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "hasir_schoeneberg",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Hasir (Schöneberg)",
+      "neighborhood": "Schöneberg",
+      "address": "Maaßenstraße 10",
+      "cuisine": "Turkish (döner, mezze)",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Historic Turkish institution, authentic doner and mezze",
+        "Live Turkish‑speaking clientele"
+      ],
+      "weaknesses": [
+        "Part of chain, less intimate"
+      ],
+      "comparative_context": "Legendary Turkish brand with strong execution across branches",
+      "critical_assessment": "Reliable Turkish fare with a sense of history and technique—the Schöneberg branch remains solid though not intimate",
+      "google_maps_name": "Hasir Nollendorfplatz Turkisch Restaurant",
+      "google_maps_url": "https://maps.google.com/?cid=4610204103560710877&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Maaßenstraße 10, 10777 Berlin-Bezirk Tempelhof-Schöneberg",
+      "google_maps_place_id": "ChIJMVOb5k5QqEcR3crIzjS8-j8",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 1026,
+      "google_maps_hours_compact": "Daily 10:00–01:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "doenerteller",
+        "doenerteller‑fleisch"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "mezem",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Mezem",
+      "neighborhood": "Charlottenburg",
+      "address": "Schlüterstraße 19",
+      "cuisine": "Turkish home‑style",
+      "price_tier": "€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Turkish home‑cooking vibe, lovingly spiced",
+        "Imbiss‑flair with genuine flavor"
+      ],
+      "weaknesses": [
+        "Casual form may feel too modest for note‑taking reports"
+      ],
+      "comparative_context": "Home‑style Turkish in Charlottenburg, less touristy than Kantstraße",
+      "critical_assessment": "Charming home‑cooked Turkish casual spot—simple, caring, solid lunch escape",
+      "google_maps_name": "Mezedesk",
+      "google_maps_url": "https://maps.google.com/?cid=11159671474518477459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Schlüterstraße 19, 10625 Berlin-Bezirk Charlottenburg-Wilmersdorf",
+      "google_maps_place_id": "ChIJe0XkqJhRqEcRk8q7YBQe35o",
+      "google_maps_rating": 4.9,
+      "google_maps_review_count": 362,
+      "google_maps_hours_compact": "Mon–Sat 12:00–18:00 (closed Sun)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "tuerkische‑hausmannskost"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "dal_tokki_planeige",
+      "topic_ids": [
+        "specialist_neighborhood",
+        "southeast_asian"
+      ],
+      "name": "Dal Tokki & Planeige",
+      "neighborhood": "Wedding",
+      "address": "Prinzenallee 83",
+      "cuisine": "Korean (and French galettes alternating)",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Alternating authentic Korean vegan cuisine and French galettes",
+        "Lunch menu around €10"
+      ],
+      "weaknesses": [
+        "Limited hours, only lunch",
+        "Split concept may confuse expectations"
+      ],
+      "comparative_context": "Unique shared lunch concept in Wedding, budget‑friendly",
+      "critical_assessment": "Quirky, budget specialist offering authentic Korean lunch and French galettes in one—brilliant value though limited window",
+      "google_maps_name": "Dal Tokki",
+      "google_maps_url": "https://maps.google.com/?cid=15991654687140121839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Prinzenallee 83, 13357 Berlin",
+      "google_maps_place_id": "ChIJwR4b8DJTqEcR74yy5TXF7d0",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 102,
+      "google_maps_hours_compact": "Mon–Tue 12:00–15:00 (closed Wed–Sun)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "koreanisch‑oder‑franzoesisch‑lunchen"
+      ],
+      "ingestion_source": "openai"
+    }
+  ],
+  "note": "Token-light restaurant slice for synthesis. Items included here have verified:true after Google Places API post-fetch verification when GOOGLE_MAPS_API_KEY is set. Do not recommend unverified restaurants."
+}
