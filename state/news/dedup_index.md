@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-16
+
+- **spain-gibraltar-verja-removed** — eldiario.es: workers lift century-old frontier gate as Gibraltar–La Línea commuters cross without ID checks (section: spain)
+- **spain-ibiza-us-philanthropist-extradition** — eldiario.es: National Police detain James Cox Chambers Jr. in Ibiza on US Hamas-financing extradition request (section: spain)
+- **spain-vox-trafficking-probe-leak** — eldiario.es: PSPV and Compromís to sue over alleged leak of Castellón trafficking investigation to Vox deputy (section: spain)
+- **germany-border-controls-holiday-jams** — Handelsblatt: Martin Schulz warns intensified Schengen checks could trap summer travellers in frontier queues (section: germany)
+- **germany-rental-car-data-privacy** — Handelsblatt: consumer agencies urge drivers to wipe synced personal data from hire-car infotainment before return (section: germany)
+- **germany-child-digital-content-regulation** — Tagesspiegel: Macron and WHO chiefs call for tougher rules on social media and online games harming adolescents (section: germany)
+- **berlin-ac-tenant-court-dispute** — rbb24: Berlin family seeks permission to install air conditioning as bedroom heat hits 35°C amid landlord opposition (section: berlin)
+- **berlin-ludwigsfelde-drug-lab-raid** — rbb24: federal police clear suspected synthetic-narcotics laboratory in Brandenburg warehouse near capital (section: berlin)
+- **berlin-italo-brandenburg-rail-debate** — rbb24: Brandenburg infrastructure minister questions whether Italo high-speed services can meet timetables on ageing lines (section: berlin)
+- **world-ontario-wildfires-toronto-air** — Guardian: 100+ Ontario blazes push Toronto to world's worst air quality with smoke reaching US north-east (section: world)
+- **world-west-africa-flood-attribution** — Guardian: scientists attribute last month's coastal West African floods to climate-intensified rainfall (section: world)
+- **world-nvidia-toyota-woven-city-ai** — Nikkei Asia: Nvidia partners with Toyota's Woven City testbed for physical AI and robotics deployment (section: world)
+
 ## 2026-07-15
 
 - **spain-david-sanchez-prevaricacion-sentence** — eldiario.es: Badajoz court convicts PM's brother for prevaricación over plaza renaming but absolves tráfico de influencias; nine-year ban appealable (section: spain)
@@ -200,36 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-russia-kyiv-11-hour-assault** — Russia launches 11-hour missile and drone barrage on Kyiv in infrastructure retaliation (section: world)
 - **world-japan-ai-factory-robots** — Japan integrates AI into industrial robotics to compete with China and Europe (section: world)
 - **world-cote-ivoire-west-africa-floods** — Côte d'Ivoire floods kill 59 as West African rainy season hits Benin, Ghana, Nigeria and Togo (section: world)
-
-## 2026-07-02
-
-- **spain-andalucia-pp-vox-coalition-moreno** — Vox negotiates portfolios in Moreno's Andalucía government after blocking first investiture vote (section: spain)
-- **spain-energy-renewables-asset-sales-12gw** — Iberdrola, Endesa, Naturgy and Repsol sell 12 GW of renewables for €15bn amid price squeeze (section: spain)
-- **spain-catalonia-detox-center-abuse-probe** — Police investigate alleged coercion at award-winning Zeus addiction clinic in Catalonia (section: spain)
-- **germany-mercedes-electric-glc-supply-crunch** — Handelsblatt: demand strong for battery GLC but supply bottlenecks leave buyers waiting (section: germany)
-- **germany-bundesnetzagentur-db-rail-competition** — Rail regulator orders Deutsche Bahn to open long-distance tracks to rival operators (section: germany)
-- **germany-social-media-tracking-liability-ruling** — Stuttgart appeals court questions platform liability for third-party tracking (section: germany)
-- **berlin-mietenkataster-senate-vote** — Senate votes on Germany's first citywide rent registry to identify gouging (section: berlin)
-- **berlin-trend-linke-cdu-slump** — BerlinTrend puts Linke ahead as CDU support slides three months before elections (section: berlin)
-- **berlin-political-violence-rise** — Verfassungsschutz data show rising politically motivated violence in the capital (section: berlin)
-- **world-niger-lgbtq-crackdown** — Military junta arrests dozens under new penal code; HIV advocates fear health fallout (section: world)
-- **world-apple-five-iphone-memory-crunch** — Apple plans five-model 2026 lineup to defend share amid component shortage (section: world)
-- **world-us-h1b-immigration-uncertainty-tax** — Rest of World: visa policy whiplash pushes foreign tech workers to weigh exit from US (section: world)
-
-## 2026-07-01
-
-- **spain-eu-recovery-fund-flexibilization-august** — Government agrees with Brussels to redeploy completed milestone savings on recovery spending after 31 August deadline (section: spain)
-- **spain-june-heatwave-900-deaths** — Carlos III monitoring links roughly 900 excess fatalities to June heatwave; second-hottest June on record (section: spain)
-- **spain-ley-mordaza-11th-year-repeal-stalled** — Citizens' security law marks eleventh anniversary with congressional repeal bill still frozen (section: spain)
-- **germany-six-figure-kuendigungsschutz-debate** — Employers push to end dismissal protection for high earners ahead of coalition reform summit (section: germany)
-- **germany-fine-dust-pm25-mortality-risk** — Handelsblatt analysis: PM2.5 remains hidden health risk despite falling national averages (section: germany)
-- **germany-wm-ticket-resale-tax-liability** — Tax office may classify profitable World Cup ticket flipping as taxable commercial activity (section: germany)
-- **berlin-epa-old-phones-july-lockout** — Outdated smartphones lose statutory-insurance app access to digital patient records from 1 July (section: berlin)
-- **berlin-spandau-7th-grade-enrollment-surge** — District posts record Gymnasium applications with shifting school preference tables (section: berlin)
-- **berlin-dahlem-luxury-flats-prime-prices-soften** — Sixty high-end units top out in Dahlem as citywide top-segment sale prices edge down (section: berlin)
-- **world-south-africa-anti-immigrant-protests** — Mass demonstrations and xenophobic violence drive undocumented migrants to flee major cities (section: world)
-- **world-qualcomm-ai-chip-no-hbm** — Qualcomm challenges Nvidia with AI accelerator architecture that forgoes high-bandwidth memory (section: world)
-- **world-white-house-lifts-anthropic-ban** — US government re-authorises federal use of Anthropic Mythos and Fable models (section: world)
 
 ## Saturated topics — do not return without material development
 

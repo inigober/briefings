@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-16
+
+- [Energy IPOs surge as investors hunt for ways to play AI boom](https://www.ft.com/content/af8f4659-df0c-4c83-9fcc-8239714d0928) — Financial Times
+- [Ukraine Isn't Waiting Around for Patriots](https://foreignpolicy.com/2026/07/15/ukraine-ballistic-missile-freyja-patriot-europe-france/) — Foreign Policy
+- [Australia to Impose Energy and Water Guardrails on Data Centers Amid A.I. Boom](https://www.nytimes.com/2026/07/15/world/australia/albanese-artificial-intelligence-guardrails.html) — The New York Times
+- [Nikkei Asia Forum kicks off in Bangkok to discuss energy, mobility, AI](https://asia.nikkei.com/spotlight/nikkei-asia-forum/nikkei-asia-forum-apac-2026/nikkei-asia-forum-kicks-off-in-bangkok-to-discuss-energy-mobility-ai) — Nikkei Asia
+
 ## 2026-07-15
 
 - [Ukraine to buy Chinese drone parts with EU funds](https://www.ft.com/content/f6cf99e0-21f7-47c0-b5b1-64b77c18d204) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [How AI rebrands fail to deliver a lasting share price boost](https://www.ft.com/content/07fa9ce9-ac21-484c-a57c-078b0bb0fd3b) — Financial Times
 - [Evacuating Art From Ukraine's Front Lines](https://foreignpolicy.com/2026/07/10/evacuating-art-from-ukraines-front-lines/) — Foreign Policy
 - [Patriot Supply Strains Shape Ukraine Aid](https://www.bloomberg.com/news/videos/2026-07-11/patriot-supply-strains-shape-ukraine-aid-video) — Bloomberg
-
-## 2026-07-11
-
-- [Prepare for a perilous summer in markets](https://www.ft.com/content/b04a8098-833f-4ca6-80b6-3a2cb595cbc3) — Financial Times
-- [Japan's scallop production feels heat of climate change](https://asia.nikkei.com/business/fisheries/japan-s-scallop-production-feels-heat-of-climate-change) — Nikkei Asia
-- [Developing countries spend more repaying foreign debt than on education, UN reveals](https://www.theguardian.com/global-development/2026/jul/10/developing-countries-spend-more-foreign-debt-education-aid-cuts-unesco) — The Guardian
-- [Fighting Fires With Figures, These Experts Are Trying to Stop Europe From Burning](https://www.nytimes.com/2026/07/10/world/europe/fire-climate-change-heat-wave-global-warming.html) — The New York Times
 
 ## Blocked until 5+ briefings have passed
 
