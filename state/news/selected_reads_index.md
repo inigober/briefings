@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-17
+
+- [Iranian Attacks Need Not Change the Gulf's AI Ambitions](https://foreignpolicy.com/2026/07/16/iranian-attacks-gulf-ai-ambitions/) — Foreign Policy
+- [AI isn't destroying entry-level jobs. It's changing them](https://www.ft.com/content/6cb9570b-dccd-46f5-b42a-4d0b7b5de35a?syn-25a6b1a6=1) — Financial Times
+- [Xi dabbles in 'AI diplomacy' at Shanghai forum with Thai, Cambodian PMs](https://asia.nikkei.com/business/technology/artificial-intelligence/xi-dabbles-in-ai-diplomacy-at-shanghai-forum-with-thai-cambodian-pms) — Nikkei Asia
+- [As Le Pen looms, Macron and Merz bid to show Franco-German engine still has clout](https://www.politico.eu/article/france-germany-talks-emmanuel-macron-friedrich-merz-pledge-momentum/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+
 ## 2026-07-16
 
 - [Energy IPOs surge as investors hunt for ways to play AI boom](https://www.ft.com/content/af8f4659-df0c-4c83-9fcc-8239714d0928) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [The Most Famous AI Writing Tic Is Also the Most Mysterious](https://www.theatlantic.com/technology/2026/07/ai-chatbot-writing-tic-negative-parallelism/687892/?utm_source=feed) — The Atlantic
 - [Companies turn to Chinese AI models to cut costs](https://www.ft.com/content/9c8ff45b-7c20-4c2e-93c9-c52339ffdcee) — Financial Times
 - [How Trump Failed to Secure the Strait of Hormuz in His Iran Deal](https://www.nytimes.com/2026/07/12/us/politics/trump-strait-of-hormuz-iran-deal.html) — The New York Times
-
-## 2026-07-12
-
-- [Democrats' strategic misfires laid bare by Platner's implosion in Maine](https://www.ft.com/content/76ca7934-189a-4207-89a2-cf060b87f56b) — Financial Times
-- [How AI rebrands fail to deliver a lasting share price boost](https://www.ft.com/content/07fa9ce9-ac21-484c-a57c-078b0bb0fd3b) — Financial Times
-- [Evacuating Art From Ukraine's Front Lines](https://foreignpolicy.com/2026/07/10/evacuating-art-from-ukraines-front-lines/) — Foreign Policy
-- [Patriot Supply Strains Shape Ukraine Aid](https://www.bloomberg.com/news/videos/2026-07-11/patriot-supply-strains-shape-ukraine-aid-video) — Bloomberg
 
 ## Blocked until 5+ briefings have passed
 

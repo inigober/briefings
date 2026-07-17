@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-17
+
+- **spain-tjue-amnesty-cjeu-reconciliation** — eldiario.es: CJEU upholds bulk of procés amnesty law as national-reconciliation route; Puigdemont awaits Constitutional Court in autumn (section: spain)
+- **spain-begona-gomez-jury-trial-peinado** — eldiario.es: Madrid appeals court orders Begoña Gómez before citizen jury while trimming Peinado indictment and lifting passport ban (section: spain)
+- **spain-andalucia-vox-falange-deputy-minister** — eldiario.es: Andalucía Vox vice-president taps former Falange leadership candidate Rafael Sánchez Saus as tourism and justice deputy (section: spain)
+- **germany-sexualstrafrecht-nur-ja-heisst-ja-poll** — Handelsblatt: 46% back affirmative-consent reform after Bundesrat vote, with strongest support among under-35s (section: germany)
+- **germany-wadephul-eu-lebanon-mission** — Tagesspiegel: foreign minister proposes EU stabilisation force for Lebanon after UNIFIL ends (section: germany)
+- **germany-green-power-storage-bottleneck** — Tagesspiegel: missing grid-scale storage leaves surplus renewable generation stranded despite rising wind and solar share (section: germany)
+- **berlin-schuelerticket-means-testing-bonde** — Tagesspiegel: transport senator Bonde seeks means-tested end to free school tickets to close budget gap (section: berlin)
+- **berlin-unterhaltsvorschuss-cdu-opposition** — rbb24: Berlin CDU family senator opposes federal plan to shorten child-maintenance advance to age 14 (section: berlin)
+- **berlin-messerattacke-twelve-year-sentence** — rbb24: Berlin court sentences man to twelve years for fatal knife attack (section: berlin)
+- **world-xi-china-global-ai-standards** — FT: Xi uses Shanghai forum to pitch China's leadership over global AI standards and deployment (section: world)
+- **world-india-ai-datacenter-coastal-costs** — NYT: India courts hyperscale AI data centres as critics warn coastal cities will bear water and power costs (section: world)
+- **world-uk-aid-cuts-africa-ninety-percent** — Guardian: Foreign Office tables show Labour aid cuts could slash bilateral African support by up to 90% (section: world)
+
 ## 2026-07-16
 
 - **spain-gibraltar-verja-removed** — eldiario.es: workers lift century-old frontier gate as Gibraltar–La Línea commuters cross without ID checks (section: spain)
