@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-18
+
+- **spain-state-investment-regional-disparities** — eldiario.es: Murcia and Galicia receive six times more per-capita state investment than Canarias as Madrid and Catalonia absorb 40% of €15.3bn total (section: spain)
+- **spain-guardia-civil-leire-diez-testimony** — eldiario.es: Guardia Civil director Mercedes González denies Leire Díez could have steered UCO probes in Audiencia Nacional testimony (section: spain)
+- **spain-franco-revisionism-neofascist** — eldiario.es: historians warn pseudohistorians, concordia laws and far-right rappers normalise Franco-era narratives in councils and social media (section: spain)
+- **germany-schuldenbremse-ukraine-wadephul** — Handelsblatt: foreign minister Wadephul backs debt-brake exemption to fund Ukraine military aid (section: germany)
+- **germany-allianz-auto-repair-costs** — Handelsblatt: Allianz pressures carmakers and politicians over surging spare-part prices driving repair bills (section: germany)
+- **germany-eauto-subsidy-tesla-lead** — Handelsblatt: revived federal e-car premium passes €50m in two months with Tesla models topping subsidised purchases (section: germany)
+- **berlin-storm-cherry-sbahn-tree** — Berliner Zeitung: storm Cherry downs tree onto Berlin S-Bahn trapping 100 passengers amid eastern Germany thunderstorm chaos (section: berlin)
+- **berlin-danger-dan-zdf-song-ban** — Berliner Zeitung: ZDF blocks Danger Dan and Igor Levit song from Die Anstalt over alleged violence incitement (section: berlin)
+- **berlin-lollapalooza-2026-preview** — Berliner Zeitung: Lollapalooza Berlin 2026 pitches festival as launchpad for breakout acts (section: berlin)
+- **world-trump-canada-wildfire-smoke-tariffs** — FT: Trump threatens tariffs on Canada over wildfire smoke drifting into US cities (section: world)
+- **world-cuba-otero-alcantara-us-travel** — Guardian: dissident artist Luis Manuel Otero Alcántara cleared to travel to US after prison term (section: world)
+- **world-china-ai-nvidia-market-tumble** — Nikkei Asia: Chinese AI model fears trigger Nvidia and Big Tech selloff (section: world)
+
 ## 2026-07-17
 
 - **spain-tjue-amnesty-cjeu-reconciliation** — eldiario.es: CJEU upholds bulk of procés amnesty law as national-reconciliation route; Puigdemont awaits Constitutional Court in autumn (section: spain)
@@ -215,21 +230,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-sudan-rsf-amnesty-el-fasher** — Amnesty alleges RSF crimes against humanity and ethnic cleansing during El Fasher capture (section: world)
 - **world-india-offline-ai-hackathon** — India hosts Bhashini hackathon for offline, multilingual open-source AI outside Silicon Valley cloud model (section: world)
 - **world-trump-ai-regulation-opposition** — Outgoing White House adviser says Trump will resist creating centralised federal AI regulator (section: world)
-
-## 2026-07-03
-
-- **spain-guardia-civil-director-leire-imputation** — Anti-corruption prosecutors impute Guardia Civil director general Mercedes González in expanding Leire Díez probe (section: spain)
-- **spain-ayuso-fetal-personhood-law** — Ayuso's PP enacts Madrid law recognising embryos as family members with Vox support (section: spain)
-- **spain-sanchez-eu-offshore-deportation-opposition** — Sánchez isolated as EU partners push Brussels-funded offshore deportation centres (section: spain)
-- **germany-sick-note-day-one-reform** — Merz and Klingbeil defend Krankschreibung from first illness day as insurers warn of GP overload (section: germany)
-- **germany-meta-zuckerberg-ai-frustration** — Leaked audio captures Zuckerberg's dissatisfaction with Meta AI-agent progress (section: germany)
-- **germany-hamburg-trendviertel-housing** — Handelsblatt maps relative-value districts north of Hamburg's Elbe amid tight supply (section: germany)
-- **berlin-spreepark-2027-reopening** — DDR-era Spreepark targets spring 2027 reopening as cultural anchor in Plänterwald (section: berlin)
-- **berlin-drug-courier-recruitment-probe** — Berlin prosecutors investigate couple accused of recruiting women as airport drug mules via Signal (section: berlin)
-- **berlin-investor-housing-underbuilding** — Handelsblatt: Berlin remains investor magnet despite chronic under-building and Mieten pressure (section: berlin)
-- **world-russia-kyiv-11-hour-assault** — Russia launches 11-hour missile and drone barrage on Kyiv in infrastructure retaliation (section: world)
-- **world-japan-ai-factory-robots** — Japan integrates AI into industrial robotics to compete with China and Europe (section: world)
-- **world-cote-ivoire-west-africa-floods** — Côte d'Ivoire floods kill 59 as West African rainy season hits Benin, Ghana, Nigeria and Togo (section: world)
 
 ## Saturated topics — do not return without material development
 

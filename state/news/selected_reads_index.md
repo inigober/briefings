@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-18
+
+- [U.S., Iranian Forces Target Civilian Infrastructure](https://foreignpolicy.com/2026/07/17/us-iran-strikes-civilian-infrastructure-bridges-kuwait-desalination-syria/) — Foreign Policy
+- [Trump threatens Canada with tariffs over 'invasion' of wildfire smoke](https://www.ft.com/content/fa4e24db-9324-47e2-8512-a581ca9c1aba?syn-25a6b1a6=1) — Financial Times
+- [Just Ask the Dinosaurs How Bad Air Quality Can Get](https://www.theatlantic.com/health/2026/07/air-quality-smoke-dinosaurs/687985/?utm_source=feed) — The Atlantic
+- [Narita Airport bus tours offer close encounters with aircraft](https://asia.nikkei.com/business/travel-leisure/narita-airport-bus-tours-offer-close-encounters-with-aircraft) — Nikkei Asia
+
 ## 2026-07-17
 
 - [Iranian Attacks Need Not Change the Gulf's AI Ambitions](https://foreignpolicy.com/2026/07/16/iranian-attacks-gulf-ai-ambitions/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Taiwan's No. 2 chipmaker UMC starts photonic chip production in Singapore](https://asia.nikkei.com/business/tech/semiconductors/taiwan-s-no.-2-chipmaker-umc-starts-photonic-chip-production-in-singapore) — Nikkei Asia
 - [Russian Energy Is Now at Ukraine's Mercy](https://foreignpolicy.com/2026/07/13/ukraine-drone-strike-russia-energy-oil-refinery-putin/) — Foreign Policy
 - [Killings continue on Del Monte farm in Kenya, families say, after G4S hired for security](https://www.theguardian.com/world/2026/jul/13/del-monte-pineapple-farm-kenya-deaths-g4s) — The Guardian
-
-## 2026-07-13
-
-- [Ukraine sees opportune moment to pressure Putin before winter](https://www.politico.eu/article/ukraine-pressure-russia-vladimir-putin-winter/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [The Most Famous AI Writing Tic Is Also the Most Mysterious](https://www.theatlantic.com/technology/2026/07/ai-chatbot-writing-tic-negative-parallelism/687892/?utm_source=feed) — The Atlantic
-- [Companies turn to Chinese AI models to cut costs](https://www.ft.com/content/9c8ff45b-7c20-4c2e-93c9-c52339ffdcee) — Financial Times
-- [How Trump Failed to Secure the Strait of Hormuz in His Iran Deal](https://www.nytimes.com/2026/07/12/us/politics/trump-strait-of-hormuz-iran-deal.html) — The New York Times
 
 ## Blocked until 5+ briefings have passed
 
