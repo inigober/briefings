@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-07-18",
-  "briefing_date": "2026-07-18",
-  "inbox_date": "2026-07-18",
+  "date": "2026-07-19",
+  "briefing_date": "2026-07-19",
+  "inbox_date": "2026-07-19",
   "status": "success",
-  "briefing_path": "briefings/news/2026-07-18.md",
-  "inbox_path": "inbox/news/2026-07-18-synthesis.json",
+  "briefing_path": "briefings/news/2026-07-19.md",
+  "inbox_path": "inbox/news/2026-07-19-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Feijóo pide pasar página del procés tras haber intentado tumbar la amnistía hasta el aval del TJUE", "section": "spain", "reason": "dedup: amnesty/CJEU follow-up covered 2026-07-17 without material development"},
-    {"headline": "La conjura de la derecha judicial contra el Gobierno y la ley de amnistía fracasa en Europa", "section": "spain", "reason": "theme_duplicate: amnesty judicial angle already covered yesterday"},
-    {"headline": "Mundial 2026, últimas noticias en directo | Pedro Sánchez acudirá a la final entre España y Argentina", "section": "spain", "reason": "sports/dedup: World Cup final diplomacy noted in Other Headlines"},
-    {"headline": "+++ Iran-Krieg +++: USA beenden siebte Angriffsnacht gegen Iran – Explosionen in Chorramabad", "section": "germany", "reason": "geographic_misfit: Iran strikes belong in Other Headlines/World"},
-    {"headline": "Wetterextreme: Umfrage: Zwei Drittel erkennen in Hitze den Klimawandel", "section": "germany", "reason": "avoid_unless_material: heatwave poll without new legislation"},
-    {"headline": "Getränkehersteller: Streit ums Wasser: Neuer Anlauf für ein Red Bull-Dosenwerk", "section": "berlin", "reason": "geographic_misfit: Brandenburg factory dispute, not Berlin city governance"},
+    {"headline": "El Gobierno celebra que la sentencia de la amnistía sepulte el catálogo de profecías apocalípticas de la \"máquina del fango\"", "section": "spain", "reason": "dedup: CJEU amnesty ruling covered 2026-07-17 without material development"},
+    {"headline": "Junts ve atada la amnistía a Puigdemont y calcula que el Supremo preferirá aplicarla con Sánchez en la Moncloa", "section": "spain", "reason": "theme_duplicate: amnesty/Puigdemont timing already covered this week"},
+    {"headline": "España-Argentina: más que Messi vs Lamine, un choque de generaciones y maneras de entender el fútbol", "section": "spain", "reason": "sports/theme_cap: World Cup final preview belongs in Other Headlines"},
+    {"headline": "Die Lage im Überblick: USA und Iran schwören sich Rache - neue US-Luftangriffe", "section": "germany", "reason": "geographic_misfit: Iran escalation belongs in World/Other Headlines"},
+    {"headline": "Elektroautos: Tesla peilt in Deutschland Expansion an", "section": "germany", "reason": "dedup: federal e-car subsidies and Tesla lead covered 2026-07-18"},
+    {"headline": "Vor Wochenende: Sturmtief „Cherry“ fegt über Ostdeutschland – S-Bahn kracht in Berlin gegen Baum", "section": "berlin", "reason": "dedup: storm Cherry S-Bahn disruption covered 2026-07-18"},
     {"headline": "Heat Dome zu den Hundstagen? Nach der Abkühlung droht Berlin die nächste Hitzewelle", "section": "berlin", "reason": "avoid_unless_material: routine heat forecast without policy trigger"},
-    {"headline": "Eskalation im Nahen Osten: Warum sich die Welt jetzt auf einen langen Krieg einstellen sollte", "section": "berlin", "reason": "geographic_misfit: Middle East analysis belongs in World/Other Headlines"},
-    {"headline": "Marode Brücken: Schnieder: Unerwartete Brückensperrungen wieder möglich", "section": "germany", "reason": "theme_priority: bridge decay captured in Other Headlines; kept three stronger policy stories"},
-    {"headline": "Moroccan intelligence insider reveals widespread use of Pegasus hacking software", "section": "world", "reason": "theme_priority: Pegasus surveillance noted in Other Headlines; kept three regionally distinct world stories"},
-    {"headline": "Israeli Strike in Gaza Kills Seven People, Health Officials Say", "section": "world", "reason": "theme_priority: Gaza strike captured in Other Headlines amid Iran-heavy inbox"},
-    {"headline": "'We are preserving a tradition': how Ghana's sensationalist film posters became collectible art", "section": "selected_reads", "reason": "publisher_cap: reserved Guardian slot for world section; diversified Selected Reads across four non-Guardian outlets"}
+    {"headline": "Eskalation im Nahen Osten: Warum sich die Welt jetzt auf einen langen Krieg einstellen sollte", "section": "berlin", "reason": "geographic_misfit: Middle East analysis belongs in World"},
+    {"headline": "Bedrohte Sprache: Erstmals zwölf Bewerber für neues Sorbisch-Lehramtsstudium", "section": "berlin", "reason": "geographic_misfit: Brandenburg teacher training, not Berlin city governance"},
+    {"headline": "Digitaler Aufpasser: Datenschützer geben Entwarnung bei Kameras im Auto", "section": "germany", "reason": "theme_duplicate: kept main ADDW mandate story; datenschutz angle noted in summary"},
+    {"headline": "U.S., Iranian Forces Target Civilian Infrastructure", "section": "selected_reads", "reason": "selected_reads_dedup: Foreign Policy URL used in 2026-07-18 briefing"},
+    {"headline": "Por qué las idas y venidas de Trump alejan la solución a la crisis en el estrecho de Ormuz", "section": "spain", "reason": "geographic_misfit: Hormuz diplomacy belongs in World/Other Headlines"}
   ],
-  "notes": "Synthesis from 2026-07-18 pre-fetch; regional investment disparities, Guardia Civil Leire Díez testimony, Franco revisionism, Schuldenbremse Ukraine exemption, Allianz repair-cost pressure, e-car subsidies, Berlin storm disruption, Danger Dan ZDF dispute, Lollapalooza preview, Trump Canada smoke tariffs, Cuban dissident travel clearance, Chinese AI Nvidia selloff."
+  "notes": "Synthesis from 2026-07-19 pre-fetch; PP contrarreforma platform, Madrid PSOE open primary, Ayuso harassment double standard, Merz Spahn succession, Handwerk apprenticeships, ADDW in-car cameras, Volksbühne Lilienthal reset, Schöneberg LGBTQ festival and toxic-fumes evacuation, US Iran Jordan strikes, Cuba grid collapse, ICICI India profits."
 }

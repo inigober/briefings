@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-19
+
+- [Cairo's ambitious monorail reaches for China scale but lacks commuters](https://asia.nikkei.com/business/transportation/cairo-s-ambitious-monorail-reaches-for-china-scale-but-lacks-commuters) — Nikkei Asia
+- [Why 'rightwing' is no longer such a dirty word in Britain](https://www.ft.com/content/658e1eb4-2c33-4755-8f44-0261d24dd1b7?syn-25a6b1a6=1) — Financial Times
+- ['We are preserving a tradition': how Ghana's sensationalist film posters became collectible art](https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art) — The Guardian
+- [Kuwait Energy Infrastructure Hit During Intense Iran Attacks](https://www.bloomberg.com/news/articles/2026-07-18/kuwait-faces-intense-night-of-iranian-attacks-as-power-plant-hit) — Bloomberg
+
 ## 2026-07-18
 
 - [U.S., Iranian Forces Target Civilian Infrastructure](https://foreignpolicy.com/2026/07/17/us-iran-strikes-civilian-infrastructure-bridges-kuwait-desalination-syria/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Generative AI Is an Engineering Disaster](https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/?utm_source=feed) — The Atlantic
 - [China Wants to Regulate AI Companions](https://foreignpolicy.com/2026/07/14/china-ai-companions-regulation-takes-effect/) — Foreign Policy
 - [Bangladesh unifies QR payments to formalize cash-based economy](https://asia.nikkei.com/business/technology/bangladesh-unifies-qr-payments-to-formalize-cash-based-economy) — Nikkei Asia
-
-## 2026-07-14
-
-- [AI and the new Mechanical Turk](https://www.ft.com/content/acd0ef98-b462-4800-88b9-2c78c54f2559) — Financial Times
-- [Taiwan's No. 2 chipmaker UMC starts photonic chip production in Singapore](https://asia.nikkei.com/business/tech/semiconductors/taiwan-s-no.-2-chipmaker-umc-starts-photonic-chip-production-in-singapore) — Nikkei Asia
-- [Russian Energy Is Now at Ukraine's Mercy](https://foreignpolicy.com/2026/07/13/ukraine-drone-strike-russia-energy-oil-refinery-putin/) — Foreign Policy
-- [Killings continue on Del Monte farm in Kenya, families say, after G4S hired for security](https://www.theguardian.com/world/2026/jul/13/del-monte-pineapple-farm-kenya-deaths-g4s) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

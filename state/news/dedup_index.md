@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-19
+
+- **spain-pp-feijoo-contrarreforma-social-cuts** — eldiario.es: Feijóo PP drafts rollback of ~100 laws cutting unemployment benefits, union rights, trans protections and Franco-victim aid (section: spain)
+- **spain-psoe-madrid-open-primary** — eldiario.es: Reyes Maroto and Enma López contest first-ever open PSOE primary for Madrid mayoral candidacy (section: spain)
+- **spain-ayuso-mostoles-harassment-double-standard** — eldiario.es: Madrid president Ayuso defends imputed Móstoles PP mayor while attacking PSOE on sexual-harassment cases (section: spain)
+- **germany-merz-spahn-successor-search** — Handelsblatt: chancellor accelerates CDU/CSU parliamentary-leader succession after Jens Spahn resignation (section: germany)
+- **germany-handwerk-apprenticeship-surge** — Handelsblatt: craft-sector training numbers rise as manufacturing crisis redirects school leavers (section: germany)
+- **germany-addw-in-car-camera-mandate** — Handelsblatt: EU requires driver-monitoring interior cameras on all newly registered cars from July (section: germany)
+- **berlin-lilienthal-volksbuhne-prinzenbad-reset** — Tagesspiegel: new Volksbühne intendant plans poolside reopening and generational reinvention (section: berlin)
+- **berlin-schoeneberg-lgbtq-city-festival** — rbb24: 32nd lesbian and gay city festival opens in Schöneberg (section: berlin)
+- **berlin-schoeneberg-toxic-fumes-evacuation** — rbb24: hazardous vapours force evacuation of Schöneberg shop and adjoining flats (section: berlin)
+- **world-us-iran-jordan-troop-deaths-strikes** — FT: Washington launches reprisal strikes after two US soldiers killed in Jordan amid Hormuz escalation (section: world)
+- **world-cuba-grid-collapse-oil-blockade** — Guardian: third national blackout in ten days as six-month US oil embargo strains Cuban infrastructure (section: world)
+- **world-icici-bank-india-loan-profit** — Bloomberg: ICICI Bank beats estimates on retail and corporate loan surge (section: world)
+
 ## 2026-07-18
 
 - **spain-state-investment-regional-disparities** — eldiario.es: Murcia and Galicia receive six times more per-capita state investment than Canarias as Madrid and Catalonia absorb 40% of €15.3bn total (section: spain)
@@ -215,21 +230,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-canada-pipeline-first-nations-deal** — Ottawa and Alberta advance Pacific oil pipeline after C$150bn package for BC and First Nations concerns (section: world)
 - **world-egypt-byzantine-dakhla-oasis** — Archaeologists uncover fourth-century Byzantine quarters with basilica in Egypt's western desert (section: world)
 - **world-sony-playstation-disc-phaseout** — Sony's shift away from physical game discs resets Asian gaming retail and broadband value chains (section: world)
-
-## 2026-07-04
-
-- **spain-marbella-munoz-corruption-wiretaps** — UDEF wiretaps on Marbella mayor's family left uninvestigated by Audiencia Nacional; court summons Muñoz on inheritance dispute (section: spain)
-- **spain-pp-trans-law-reform-de-los-santos** — PP equality chief Jaime de los Santos vows Feijóo will amend Ley Trans to require psychosocial reports for registry changes (section: spain)
-- **spain-global-ultra-lgtbi-backlash** — ILGA data show first decade-on-decade rise in countries criminalising homosexuality as ultra-right gains ground (section: spain)
-- **germany-rail-budget-2027-increase** — Federal draft budget lifts rail new-build grants to €2.2bn in 2027 from €1.8bn (section: germany)
-- **germany-afd-erfurt-hoecke-wing** — AfD federal congress in Erfurt becomes battleground as Höcke faction seeks board influence (section: germany)
-- **germany-ees-airport-border-queues** — New EU Entry/Exit System triggers multi-hour queues and missed flights at German airports (section: germany)
-- **berlin-filmreihe-orte-ost-ostsee** — Tagesspiegel "Orte Ost" series explores Baltic Sea as DDR holiday dream and sealed border (section: berlin)
-- **berlin-checkpoint-klischees-techno** — Checkpoint column tests Berlin stereotypes about techno and black clothing with street-style sociology (section: berlin)
-- **berlin-schroder-basketball-em-venue** — Dennis Schröder leads Germany to World Cup qualifying win at former EuroBasket triumph venue (section: berlin)
-- **world-sudan-rsf-amnesty-el-fasher** — Amnesty alleges RSF crimes against humanity and ethnic cleansing during El Fasher capture (section: world)
-- **world-india-offline-ai-hackathon** — India hosts Bhashini hackathon for offline, multilingual open-source AI outside Silicon Valley cloud model (section: world)
-- **world-trump-ai-regulation-opposition** — Outgoing White House adviser says Trump will resist creating centralised federal AI regulator (section: world)
 
 ## Saturated topics — do not return without material development
 
