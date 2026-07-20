@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-07-19",
-  "briefing_date": "2026-07-19",
-  "inbox_date": "2026-07-19",
+  "date": "2026-07-20",
+  "briefing_date": "2026-07-20",
+  "inbox_date": "2026-07-20",
   "status": "success",
-  "briefing_path": "briefings/news/2026-07-19.md",
-  "inbox_path": "inbox/news/2026-07-19-synthesis.json",
+  "briefing_path": "briefings/news/2026-07-20.md",
+  "inbox_path": "inbox/news/2026-07-20-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "El Gobierno celebra que la sentencia de la amnistía sepulte el catálogo de profecías apocalípticas de la \"máquina del fango\"", "section": "spain", "reason": "dedup: CJEU amnesty ruling covered 2026-07-17 without material development"},
-    {"headline": "Junts ve atada la amnistía a Puigdemont y calcula que el Supremo preferirá aplicarla con Sánchez en la Moncloa", "section": "spain", "reason": "theme_duplicate: amnesty/Puigdemont timing already covered this week"},
-    {"headline": "España-Argentina: más que Messi vs Lamine, un choque de generaciones y maneras de entender el fútbol", "section": "spain", "reason": "sports/theme_cap: World Cup final preview belongs in Other Headlines"},
-    {"headline": "Die Lage im Überblick: USA und Iran schwören sich Rache - neue US-Luftangriffe", "section": "germany", "reason": "geographic_misfit: Iran escalation belongs in World/Other Headlines"},
-    {"headline": "Elektroautos: Tesla peilt in Deutschland Expansion an", "section": "germany", "reason": "dedup: federal e-car subsidies and Tesla lead covered 2026-07-18"},
+    {"headline": "¿Cómo ha ganado España el Mundial? Seis claves de su juego, fotograma a fotograma", "section": "spain", "reason": "theme_duplicate: kept victory and diplomatic/diaspora angles; tactical World Cup analysis duplicates main sports theme"},
+    {"headline": "Die Lage in Nahost: Sorge vor Ausweitung des Iran-Kriegs wächst", "section": "germany", "reason": "geographic_misfit: Middle East escalation belongs in World/Other Headlines"},
+    {"headline": "Erdbeben in Venezuela: Zahl der Toten steigt auf mehr als 5200", "section": "germany", "reason": "geographic_misfit: Venezuela disaster belongs in World/Other Headlines"},
+    {"headline": "Nikkei, Yen, Hang Seng: Asiatische Börsen geben nach – Konflikt am Golf treibt Ölpreis an", "section": "germany", "reason": "geographic_misfit: Asian markets and Gulf oil belong in World/Other Headlines"},
+    {"headline": "USA greifen Iran erneut an: Atomkraftwerk getroffen, Jordanien und Kuwait im Fadenkreuz", "section": "berlin", "reason": "geographic_misfit: Iran war coverage belongs in World even from Berliner Zeitung"},
     {"headline": "Vor Wochenende: Sturmtief „Cherry“ fegt über Ostdeutschland – S-Bahn kracht in Berlin gegen Baum", "section": "berlin", "reason": "dedup: storm Cherry S-Bahn disruption covered 2026-07-18"},
-    {"headline": "Heat Dome zu den Hundstagen? Nach der Abkühlung droht Berlin die nächste Hitzewelle", "section": "berlin", "reason": "avoid_unless_material: routine heat forecast without policy trigger"},
-    {"headline": "Eskalation im Nahen Osten: Warum sich die Welt jetzt auf einen langen Krieg einstellen sollte", "section": "berlin", "reason": "geographic_misfit: Middle East analysis belongs in World"},
-    {"headline": "Bedrohte Sprache: Erstmals zwölf Bewerber für neues Sorbisch-Lehramtsstudium", "section": "berlin", "reason": "geographic_misfit: Brandenburg teacher training, not Berlin city governance"},
-    {"headline": "Digitaler Aufpasser: Datenschützer geben Entwarnung bei Kameras im Auto", "section": "germany", "reason": "theme_duplicate: kept main ADDW mandate story; datenschutz angle noted in summary"},
-    {"headline": "U.S., Iranian Forces Target Civilian Infrastructure", "section": "selected_reads", "reason": "selected_reads_dedup: Foreign Policy URL used in 2026-07-18 briefing"},
-    {"headline": "Por qué las idas y venidas de Trump alejan la solución a la crisis en el estrecho de Ormuz", "section": "spain", "reason": "geographic_misfit: Hormuz diplomacy belongs in World/Other Headlines"}
+    {"headline": "Gefrierfach abtauen: So verhindern Sie Vereisung und senken den Stromverbrauch", "section": "berlin", "reason": "noise: lifestyle tip without Berlin policy angle"},
+    {"headline": "Oil returns above $90 as Iran hits tankers", "section": "world", "reason": "theme_duplicate: Hormuz/oil escalation folded into Other Headlines after Iran stories covered 2026-07-19"},
+    {"headline": "The European Parliament's answer to its AI worries: More AI", "section": "world", "reason": "geographic_misfit: EU institutional AI governance reserved for Other Headlines to keep World non-European"},
+    {"headline": "‘We are preserving a tradition’: how Ghana's sensationalist film posters became collectible art", "section": "selected_reads", "reason": "selected_reads_dedup: Guardian URL used in 2026-07-19 briefing"},
+    {"headline": "Repaso de España a Argentina, la vigente campeona del mundo", "section": "spain", "reason": "theme_duplicate: match recap duplicates World Cup victory story"},
+    {"headline": "Börse am 20. Juli: Fünf Punkte, die für Anleger heute wichtig sind", "section": "germany", "reason": "noise: routine market preview without structural German policy angle"}
   ],
-  "notes": "Synthesis from 2026-07-19 pre-fetch; PP contrarreforma platform, Madrid PSOE open primary, Ayuso harassment double standard, Merz Spahn succession, Handwerk apprenticeships, ADDW in-car cameras, Volksbühne Lilienthal reset, Schöneberg LGBTQ festival and toxic-fumes evacuation, US Iran Jordan strikes, Cuba grid collapse, ICICI India profits."
+  "notes": "Synthesis from 2026-07-20 pre-fetch; World Cup final victory with Trump-Sánchez VIP diplomacy and diaspora reaction, eastern pension poverty, sick-leave decline, corporate email labour law, Chialo funding probe, BVG sexual violence rise, BER night-flight exceptions, Guyana ferry disaster, Peru earthquake, Mitsubishi SAF partnership."
 }

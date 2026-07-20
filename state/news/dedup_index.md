@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-20
+
+- **spain-world-cup-final-victory-argentina** — eldiario.es: Ferran Torres extra-time goal crowns Spain's second World Cup with one goal conceded in eight matches (section: spain)
+- **spain-trump-sanchez-vip-box-final** — eldiario.es: Pedro Sánchez, King Felipe and Donald Trump share MetLife Stadium hospitality suite at politically charged final (section: spain)
+- **spain-diaspora-pizzeria-compostela-reaction** — eldiario.es: lone Spanish fan celebrates among Argentine supporters at Santiago de Compostela pizzeria (section: spain)
+- **germany-east-pension-poverty-armutsrente** — Tagesspiegel: union study finds half of eastern workers face poverty-level pensions on current wage paths (section: germany)
+- **germany-sick-leave-decline-h1** — Handelsblatt: health-fund data show slight first-half drop in certified incapacity despite planned reporting crackdown (section: germany)
+- **germany-work-email-private-use-labour-law** — Handelsblatt: legal Q&A warns dismissal risk for unauthorised private use of corporate email (section: germany)
+- **berlin-chialo-foerdergeld-investigation-ordnungsgeld** — Tagesspiegel: inquiry panel threatens fines to compel ex-culture senator Joe Chialo testimony in arts-funding scandal (section: berlin)
+- **berlin-bvg-sexual-violence-rise** — Tagesspiegel: total public-transport crime falls but sexual offences climb on BVG network (section: berlin)
+- **berlin-ber-night-flight-ban-exceptions** — Tagesspiegel: Brandenburg transport minister Crumbach seeks curfew exceptions for delayed BER arrivals (section: berlin)
+- **world-guyana-ferry-sink-disaster** — Guardian: passenger ferry sinks off Guyana with inaccurate manifest and criminal probe into crew (section: world)
+- **world-peru-earthquake-sicaya** — Guardian: 5.5-magnitude Andes quake kills at least six and displaces hundreds near Huancayo (section: world)
+- **world-mitsubishi-adm-sustainable-aviation-fuel** — Nikkei Asia: Mitsubishi partners with Archer Daniels Midland on green jet-fuel production (section: world)
+
 ## 2026-07-19
 
 - **spain-pp-feijoo-contrarreforma-social-cuts** — eldiario.es: Feijóo PP drafts rollback of ~100 laws cutting unemployment benefits, union rights, trans protections and Franco-victim aid (section: spain)
@@ -215,21 +230,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-japan-ai-chip-malaysia-oppstar** — Japanese AI chip startup partners with Malaysia's Oppstar to scale production (section: world)
 - **world-china-zion-church-founder-released** — Underground church leader Ezra Jin released from Chinese detention and reunites with family in US (section: world)
 - **world-shipping-green-retreat-fossil-nuclear** — FT: shipowners shelve alternative-fuel bets and explore fossil and nuclear propulsion (section: world)
-
-## 2026-07-05
-
-- **spain-cuerpo-housing-budget-path** — Economy minister Carlos Cuerpo says housing is top priority without a silver bullet as government targets September budget after three prorogued years (section: spain)
-- **spain-la-manada-decade-anniversary** — EL PAÍS marks ten years since Pamplona gang rape and traces how feminist mobilisation reshaped Spanish law and politics (section: spain)
-- **spain-pacific-demographics-archaeology** — CSIC-led PacificPeopleForest documents demographic and ecological collapse in Marianas after European contact (section: spain)
-- **germany-pistorius-lithuania-brigade-cap** — Defence minister plans under 1,000 conscripts for forward brigade in Lithuania ahead of NATO summit (section: germany)
-- **germany-post-delivery-oversight-gap** — Bundesnetzagentur can fine Deutsche Post for late letters but lacks practical enforcement tools (section: germany)
-- **germany-drought-south-east-summer** — Hydrologists warn southern and eastern Länder need unusually wet summer to offset deep soil-moisture deficits (section: germany)
-- **berlin-ostbahn-expansion-bund-scepticism** — Federal planners see no fast-track slot for Berlin–Poland Ostbahn upgrade despite Brandenburg pressure (section: berlin)
-- **berlin-lachgas-illegal-street-racing** — Police report nitrous-oxide use compounding Berlin's illegal street-racing enforcement challenge (section: berlin)
-- **berlin-a10-heat-damage-weekend-closure** — Heat-buckled A10 ring-road repairs near Potsdam trigger hours-long weekend queues toward Berlin (section: berlin)
-- **world-canada-pipeline-first-nations-deal** — Ottawa and Alberta advance Pacific oil pipeline after C$150bn package for BC and First Nations concerns (section: world)
-- **world-egypt-byzantine-dakhla-oasis** — Archaeologists uncover fourth-century Byzantine quarters with basilica in Egypt's western desert (section: world)
-- **world-sony-playstation-disc-phaseout** — Sony's shift away from physical game discs resets Asian gaming retail and broadband value chains (section: world)
 
 ## Saturated topics — do not return without material development
 

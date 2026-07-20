@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-20
+
+- [Training AI models might be the chance for a workplace power play](https://www.ft.com/content/5ef2674d-0770-4713-8acf-c8b8f0995b5b?syn-25a6b1a6=1) — Financial Times
+- [The European Parliament's answer to its AI worries: More AI](https://www.politico.eu/article/the-european-parliaments-answer-to-its-ai-worries-more-ai/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [The Liberal Origins of the War Against the Deep State](https://foreignpolicy.com/2026/07/20/deep-state-liberal-origins-frank-church/) — Foreign Policy
+- [Last German bike helmet maker moves production to China](https://asia.nikkei.com/business/retail/last-german-bike-helmet-maker-moves-production-to-china) — Nikkei Asia
+
 ## 2026-07-19
 
 - [Cairo's ambitious monorail reaches for China scale but lacks commuters](https://asia.nikkei.com/business/transportation/cairo-s-ambitious-monorail-reaches-for-china-scale-but-lacks-commuters) — Nikkei Asia
