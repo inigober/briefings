@@ -1,0 +1,1 @@
+Error code: 400 - {'error': {'message': "Invalid schema for response_format 'culture_combined': In context=('properties', 'items', 'items'), 'required' is required to be supplied and to be an array including every key in properties. Missing 'series_id'.", 'type': 'invalid_request_error', 'param': 'text.format.schema', 'code': 'invalid_json_schema'}}

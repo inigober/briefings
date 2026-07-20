@@ -57,6 +57,7 @@ allowed_domains:
   - berliner-zeitung.de
   - rbb24.de
   - the-berliner.com
+  - 20percent.berlin
 
 source_priorities:
   spain:
@@ -81,6 +82,7 @@ source_priorities:
     - berliner-zeitung.de
     - rbb24.de
     - the-berliner.com
+    - 20percent.berlin
   international:
     - ft.com
     - economist.com
@@ -254,6 +256,11 @@ rss_feeds:
     publisher: Berliner Zeitung
     section_ids: [berlin]
     max_items: 8
+  - url: https://20percent.berlin/feed/
+    publisher: 20% Berlin
+    section_ids: [berlin]
+    max_items: 8
+    max_age_hours: 168  # weekly newsletter — keep items visible longer than default 72h
   - url: https://newsfeed.zeit.de/index
     publisher: Die Zeit
     section_ids: [germany]

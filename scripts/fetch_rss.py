@@ -238,6 +238,11 @@ def fetch_feed(
 
     section_ids = feed_cfg.get("section_ids") or ["world"]
     max_items = int(feed_cfg.get("max_items") or DEFAULT_MAX_ITEMS)
+    feed_cutoff = cutoff
+    if feed_cfg.get("max_age_hours") is not None:
+        feed_cutoff = datetime.now(timezone.utc) - timedelta(
+            hours=int(feed_cfg["max_age_hours"])
+        )
 
     agent = "Mozilla/5.0 (compatible; BriefingBot/1.0)"
     try:
@@ -257,7 +262,7 @@ def fetch_feed(
             break
 
         entry_dt = parse_entry_date(entry)
-        if entry_dt and entry_dt < cutoff:
+        if entry_dt and entry_dt < feed_cutoff:
             continue
 
         entry_url_value = entry_url(entry)

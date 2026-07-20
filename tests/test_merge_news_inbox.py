@@ -65,6 +65,18 @@ class TestNewsWordPressAndMerge(unittest.TestCase):
         urls = [f.get("url", "") for f in feeds]
         self.assertTrue(any("the-berliner.com/wp-json" in url for url in urls))
 
+    def test_news_sources_yaml_has_20percent_berlin_rss(self) -> None:
+        sources_cfg = load_yaml(REPO_ROOT / "config/briefings/news/sources.yaml")
+        feeds = sources_cfg.get("rss_feeds") or []
+        match = next(
+            (f for f in feeds if "20percent.berlin" in (f.get("url") or "")),
+            None,
+        )
+        self.assertIsNotNone(match)
+        assert match is not None
+        self.assertEqual(match.get("section_ids"), ["berlin"])
+        self.assertGreaterEqual(int(match.get("max_age_hours") or 0), 168)
+
     def test_news_openai_fetch_disabled(self) -> None:
         from unittest.mock import patch
 
