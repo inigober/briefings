@@ -38,9 +38,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 NEWS_SECTION_IDS = ("spain", "germany", "berlin", "world")
 
-# gpt-4.1: cheaper than gpt-5.5, still strong for web_search orchestration.
-# Override via OPENAI_RESEARCH_MODEL (e.g. gpt-5.5) if quality drops.
-DEFAULT_MODEL = "gpt-4.1"
+# gpt-5.4: stronger research/tool use for culture + restaurant pre-fetch.
+# Override via OPENAI_RESEARCH_MODEL (e.g. gpt-4.1 or gpt-5.4-mini) if cost/quality tradeoff shifts.
+DEFAULT_MODEL = "gpt-5.4"
 API_TIMEOUT_SECONDS = 600.0
 PARALLEL_WORKERS = 5
 

@@ -81,7 +81,7 @@ jobs:
         run: |
           echo "Daily spend cap: ${OPENAI_DAILY_SPEND_CAP_USD:-2} USD"
           ARGS="--type berlin-culture --date ${{ steps.run_date.outputs.value }}"
-          export OPENAI_RESEARCH_MODEL="${OPENAI_RESEARCH_MODEL:-gpt-4.1}"
+          export OPENAI_RESEARCH_MODEL="${OPENAI_RESEARCH_MODEL:-gpt-5.4}"
           export OPENAI_DAILY_SPEND_CAP_USD="${OPENAI_DAILY_SPEND_CAP_USD:-2}"
           python scripts/fetch_culture_research.py $ARGS
 
