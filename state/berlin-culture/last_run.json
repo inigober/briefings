@@ -1,31 +1,31 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-07-14",
-  "briefing_date": "2026-07-14",
-  "inbox_date": "2026-07-14",
-  "week_start": "2026-07-15",
-  "week_end": "2026-07-21",
+  "date": "2026-07-21",
+  "briefing_date": "2026-07-21",
+  "inbox_date": "2026-07-21",
+  "week_start": "2026-07-22",
+  "week_end": "2026-07-28",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-07-14.md",
-  "inbox_path": "inbox/berlin-culture/2026-07-14-synthesis.json",
-  "items_count": 11,
+  "briefing_path": "briefings/berlin-culture/2026-07-21.md",
+  "inbox_path": "inbox/berlin-culture/2026-07-21-synthesis.json",
+  "items_count": 12,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 2,
+    "exhibitions": 3,
     "film": 1,
-    "performing_arts": 0,
+    "performing_arts": 1,
     "music": 0,
     "wildcards": 2,
-    "advance_radar": 3
+    "advance_radar": 2
   },
   "thin_sections": ["exhibitions", "film", "performing_arts", "music"],
   "omitted_sections": [],
   "validation_warnings": [
-    "Section 'exhibitions' has 2 entries (style minimum 4)",
+    "Section 'exhibitions' has 3 entries (style minimum 4)",
     "Section 'film' has 1 entries (style minimum 2)",
-    "Section 'performing_arts' has 0 entries (style minimum 2)",
+    "Section 'performing_arts' has 1 entries (style minimum 2)",
     "Section 'music' has 0 entries (style minimum 3)"
   ],
   "verification_fetches": 5,
-  "notes": "Thin midsummer inbox (18 synthesis items). Spot-checked Bjørn Melhus (Silent Green), exhibitions (INDEX Berlin — corrected venues: Riders on the Storm at alexander levy, Level with me at EIGEN + ART Lab, not PSM), Adam Hanieh (KW), Veit Laurent Kurz (Haus am Waldsee). Forecast Festival single entry with daily programme; cross-references in Performing Arts and Music. Dropped Minijobber posting, Forecast duplicates, children's film Insekten. Saturday 18 July finissage pair for exhibitions."
+  "notes": "Thin midsummer inbox (18 synthesis items). Spot-checked PSM exhibitions (Gentle Parenting, 40's — both close 24 July), Zilberman Unfold, Michaela Younge & Rhys Coren (EIGEN + ART Lab), wet wings finissage. Promoted Zilberman Unfold and Younge/Coren from last week's Advance Radar into main week. Kyiv Biennial cross-referenced in Exhibitions (overview tour Sat 25 Jul). Dropped Ben Klock (mainstream DJ), RESONANZEN Buchclub (Potsdam), sold-out Sunn O))) and fully booked THE LETTING GO."
 }

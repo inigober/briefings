@@ -63,3 +63,15 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-07-14 | advance_radar | Zilberman Unfold '26: Sites of Relation | Zilberman | https://www.indexberlin.com/events/list/44403/zilberman-unfold-26-sites-of-relation
 2026-07-14 | advance_radar | Michaela Younge & Rhys Coren | EIGEN + ART Lab | https://www.indexberlin.com/events/list/44422/n-a
 2026-07-14 | advance_radar | Alicja Rogalska — Counterplay | Studio | Galerie Nord | https://www.indexberlin.com/events/list/44278/counterplay
+2026-07-21 | top_picks | Asian Queers Reunited 2026: Shorts Program I — Homes We Make, Homes We Leave | SİNEMA TRANSTOPIA | https://sinematranstopia.com/en/asian-queers-reunited-2026/shorts-program-i-homes-we-make-homes-we-leave
+2026-07-21 | top_picks | Kyiv Biennial — A Bird That Cannot Land | KW Institute for Contemporary Art | https://www.kw-berlin.de/en/exhibitions/kyiv-biennial-a-bird-that-cannot-land
+2026-07-21 | top_picks | Maresz + Del Gesù + The Midnight Audience | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/silent-green-music-from-beyond-pres-maresz-del-gesu-the-midnight-audience?cHash=7cc70058540b3e08ee9894e00a6b7b3d&tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026
+2026-07-21 | exhibitions | Babette Semmer — Gentle Parenting | time is it in the world PSM | https://www.indexberlin.com/exhibitions/list/44220/gentle-parenting
+2026-07-21 | exhibitions | Fiona Mackay — 40's | time is it in the world PSM | https://www.indexberlin.com/exhibitions/list/44218/40-s
+2026-07-21 | exhibitions | Michaela Younge & Rhys Coren | EIGEN + ART Lab | https://www.indexberlin.com/events/list/44422/n-a
+2026-07-21 | film | À voix basse / In a Whisper | SİNEMA TRANSTOPIA | https://sinematranstopia.com/en/sinelection/a-voix-basse
+2026-07-21 | performing_arts | b12 sungrazers: The One(s) Who Never Lived | DOCK 11 | https://dock11-berlin.de/theater/programm/spielplan
+2026-07-21 | wildcards | Zilberman Unfold '26: Sites of Relation | Zilberman | https://www.indexberlin.com/events/list/44403/zilberman-unfold-26-sites-of-relation
+2026-07-21 | wildcards | Paula Breuer — wet wings | Studio Hanniball | https://www.indexberlin.com/events/list/44934/wet-wings
+2026-07-21 | advance_radar | Arvin Arta — Cloud Domination | Galerie im Turm | https://www.indexberlin.com/events/list/44646/cloud-domination
+2026-07-21 | advance_radar | Performance by Noé Duboutay and Book Launch by Ruti de Vries | Künstlerhaus Bethanien | https://www.indexberlin.com/events/list/44622/performance-by-noe-duboutay-and-book-launch-by-ruti-de-vries
