@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-07-20",
-  "briefing_date": "2026-07-20",
-  "inbox_date": "2026-07-20",
+  "date": "2026-07-21",
+  "briefing_date": "2026-07-21",
+  "inbox_date": "2026-07-21",
   "status": "success",
-  "briefing_path": "briefings/news/2026-07-20.md",
-  "inbox_path": "inbox/news/2026-07-20-synthesis.json",
+  "briefing_path": "briefings/news/2026-07-21.md",
+  "inbox_path": "inbox/news/2026-07-21-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "¿Cómo ha ganado España el Mundial? Seis claves de su juego, fotograma a fotograma", "section": "spain", "reason": "theme_duplicate: kept victory and diplomatic/diaspora angles; tactical World Cup analysis duplicates main sports theme"},
-    {"headline": "Die Lage in Nahost: Sorge vor Ausweitung des Iran-Kriegs wächst", "section": "germany", "reason": "geographic_misfit: Middle East escalation belongs in World/Other Headlines"},
-    {"headline": "Erdbeben in Venezuela: Zahl der Toten steigt auf mehr als 5200", "section": "germany", "reason": "geographic_misfit: Venezuela disaster belongs in World/Other Headlines"},
-    {"headline": "Nikkei, Yen, Hang Seng: Asiatische Börsen geben nach – Konflikt am Golf treibt Ölpreis an", "section": "germany", "reason": "geographic_misfit: Asian markets and Gulf oil belong in World/Other Headlines"},
+    {"headline": "Las superestrellas de la selección española brillan en Cibeles en una celebración a la altura del Mundial", "section": "spain", "reason": "dedup: World Cup victory and Madrid celebrations covered extensively 2026-07-20"},
+    {"headline": "La España cuya prioridad nacional es solo la del talento", "section": "spain", "reason": "theme_duplicate: analytical World Cup piece duplicates post-final sports theme"},
+    {"headline": "+++ Iran-Krieg +++: Pentagon soll Angriffe auf US-Soldaten verschwiegen haben", "section": "germany", "reason": "geographic_misfit: Middle East war belongs in World/Other Headlines"},
+    {"headline": "„Diskriminierende Behandlung“ von US-Produkten: Trump verfügt Zölle von 50 Prozent auf Waren aus Kanada", "section": "germany", "reason": "geographic_misfit: US–Canada trade dispute belongs in World/Other Headlines"},
+    {"headline": "Nach Angriff im Jugendamt: Wachschutz und Termine: Neue Regeln für Behörde Finsterwalde", "section": "berlin", "reason": "geographic_misfit: Brandenburg commuter town outside Berlin city scope"},
+    {"headline": "Jens Spahn Gehalt nach dem Rücktritt: So viel Geld bleibt – und diese Zulage fällt weg", "section": "berlin", "reason": "geographic_misfit: federal parliamentary pay story not Berlin-local"},
     {"headline": "USA greifen Iran erneut an: Atomkraftwerk getroffen, Jordanien und Kuwait im Fadenkreuz", "section": "berlin", "reason": "geographic_misfit: Iran war coverage belongs in World even from Berliner Zeitung"},
-    {"headline": "Vor Wochenende: Sturmtief „Cherry“ fegt über Ostdeutschland – S-Bahn kracht in Berlin gegen Baum", "section": "berlin", "reason": "dedup: storm Cherry S-Bahn disruption covered 2026-07-18"},
-    {"headline": "Gefrierfach abtauen: So verhindern Sie Vereisung und senken den Stromverbrauch", "section": "berlin", "reason": "noise: lifestyle tip without Berlin policy angle"},
-    {"headline": "Oil returns above $90 as Iran hits tankers", "section": "world", "reason": "theme_duplicate: Hormuz/oil escalation folded into Other Headlines after Iran stories covered 2026-07-19"},
-    {"headline": "The European Parliament's answer to its AI worries: More AI", "section": "world", "reason": "geographic_misfit: EU institutional AI governance reserved for Other Headlines to keep World non-European"},
-    {"headline": "‘We are preserving a tradition’: how Ghana's sensationalist film posters became collectible art", "section": "selected_reads", "reason": "selected_reads_dedup: Guardian URL used in 2026-07-19 briefing"},
-    {"headline": "Repaso de España a Argentina, la vigente campeona del mundo", "section": "spain", "reason": "theme_duplicate: match recap duplicates World Cup victory story"},
-    {"headline": "Börse am 20. Juli: Fünf Punkte, die für Anleger heute wichtig sind", "section": "germany", "reason": "noise: routine market preview without structural German policy angle"}
+    {"headline": "Australia news live: ‘millions’ in cash being moved in unmarked, un-armoured Hyundais", "section": "world", "reason": "noise: live-blog format; stronger Australia themes used in Other Headlines and Selected Reads"},
+    {"headline": "‘Front groups and fellow travelers’: state department attacks US left over Cuba", "section": "world", "reason": "theme_duplicate: Cuba/US ideological campaign folded into Other Headlines after Nicaragua and Houthi picks"},
+    {"headline": "NSW land-clearing up 16% in 2024 as conservation groups say Minns government failing", "section": "world", "reason": "theme_duplicate: Australia climate/land themes merged into Other Headlines"},
+    {"headline": "Morning Briefing: Der Banker, der vor der Börse warnt und Deutschland lobt", "section": "germany", "reason": "theme_duplicate: kept DAX six-point preview; Barclays bubble warning in Other Headlines"},
+    {"headline": "Vom „schlechtesten“ bis besten: Alle Nolan-Filme im ultimativen Ranking", "section": "germany", "reason": "noise: entertainment list without German policy angle"}
   ],
-  "notes": "Synthesis from 2026-07-20 pre-fetch; World Cup final victory with Trump-Sánchez VIP diplomacy and diaspora reaction, eastern pension poverty, sick-leave decline, corporate email labour law, Chialo funding probe, BVG sexual violence rise, BER night-flight exceptions, Guyana ferry disaster, Peru earthquake, Mitsubishi SAF partnership."
+  "notes": "Synthesis from 2026-07-21 pre-fetch; Plus Ultra witness testimony implicating Zapatero, Nacho Cano public-contract tour after bankruptcy, Madrid children's court backlog, post-Spahn surrogacy debate, DAX macro checklist, testosterone wellness critique, Berlin drug-death record, foreign voting-rights guide, Queersafe hate-comment surge, Moonshot Hong Kong IPO, Ortega ends elections, Houthi Saudi blockade."
 }

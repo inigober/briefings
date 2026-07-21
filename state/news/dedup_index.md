@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-21
+
+- **spain-plus-ultra-zapatero-witness-collaboration** — eldiario.es: Plus Ultra executives turn state's witness and implicate Zapatero in €530,000 rescue commission paid via sham invoices (section: spain)
+- **spain-nacho-cano-bankruptcy-pp-public-contracts** — eldiario.es: bankrupt Malinche musical keeps touring on conservative regional contracts while owing Ifema and social security (section: spain)
+- **spain-madrid-children-court-backlog** — EL PAÍS: new youth-violence tribunal opens with one judge facing 3,751 inherited cases and no full staffing (section: spain)
+- **germany-surrogacy-debate-post-spahn** — Handelsblatt: Spahn resignation reignites national debate over banning altruistic and commercial surrogacy arrangements abroad (section: germany)
+- **germany-dax-six-data-points-july** — Handelsblatt: Tuesday market preview lists six macro releases for Frankfurt as Gulf tension clouds oil and risk assets (section: germany)
+- **germany-testosterone-libido-wellness-market** — Tagesspiegel: review challenges bestselling physician's testosterone pitch for female libido over omitted research history (section: germany)
+- **berlin-drug-deaths-record-memorial** — Tagesspiegel: nationwide overdose fatalities hit new high; Berlin activists mourn young victims and press harm reduction (section: berlin)
+- **berlin-foreign-voting-rights-election-guide** — rbb24: explainer maps EU, refugee and non-citizen participation in September district and state votes (section: berlin)
+- **berlin-queer-hate-comments-queersafe** — rbb24: LSVD logs 4,000 online hate comments in two weeks after launching Queersafe digital-violence support (section: berlin)
+- **world-moonshot-ai-hong-kong-ipo-kimi** — Nikkei Asia: Chinese AI start-up plans Hong Kong listing after Kimi K3 model undercuts US rivals (section: world)
+- **world-nicaragua-ortega-no-elections** — Guardian: Daniel Ortega says Nicaragua will hold no further elections and will legislate against opposition (section: world)
+- **world-houthi-saudi-naval-blockade** — Foreign Policy: Houthis declare blockade on Saudi shipping as Red Sea and Hormuz routes stay volatile (section: world)
+
 ## 2026-07-20
 
 - **spain-world-cup-final-victory-argentina** — eldiario.es: Ferran Torres extra-time goal crowns Spain's second World Cup with one goal conceded in eight matches (section: spain)
@@ -215,21 +230,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-cuba-third-nationwide-blackout** — Guardian: third island-wide grid collapse in six months as US oil blockade depletes fuel stocks (section: world)
 - **world-samsung-profit-oversupply-share-fall** — Nikkei Asia: nineteenfold profit jump fails to lift shares as investors fear memory-chip oversupply (section: world)
 - **world-japan-maglev-construction-approval** — Nikkei Asia: Chuo Shinkansen maglev segment wins key regulatory clearance toward 500 km/h Tokyo–Nagoya link (section: world)
-
-## 2026-07-06
-
-- **spain-rental-transfer-28bn-gdp** — eldiario.es maps €28bn annual rental flows as 1.6% of GDP, doubled in a decade with generational skew (section: spain)
-- **spain-punica-granados-sentencing** — Audiencia Nacional sentences ex-PP minister Francisco Granados to 2.5 years for Púnica contract steering (section: spain)
-- **spain-psoe-july-primaries-abalos-aftermath** — PSOE schedules 19 July regional primaries across five communities amid post-Ábalos judicial storm (section: spain)
-- **germany-innovation-growth-trap-research-gap** — Handelsblatt warns Germany under-invests in future R&D as Schwarz-Rot reforms fall short (section: germany)
-- **germany-business-afd-democracy-warning** — Study cited by Handelsblatt shows executives fear AfD strength threatens democratic stability (section: germany)
-- **germany-youth-depression-screen-content-debate** — Tagesspiegel covers argument that online content quality—not just usage time—drives adolescent depression (section: germany)
-- **berlin-blackout-expert-commission-report** — Independent panel delivers January citywide power-failure findings as Senate faces resilience questions (section: berlin)
-- **berlin-inclusion-assistant-funding-shortfall** — rbb24: school escort hours for disabled pupils lag legal need amid federal-local budget fights (section: berlin)
-- **berlin-cdu-campaign-video-pulled** — Tagesspiegel reports CDU removes Berlin election promo clip temporarily after criticism (section: berlin)
-- **world-japan-ai-chip-malaysia-oppstar** — Japanese AI chip startup partners with Malaysia's Oppstar to scale production (section: world)
-- **world-china-zion-church-founder-released** — Underground church leader Ezra Jin released from Chinese detention and reunites with family in US (section: world)
-- **world-shipping-green-retreat-fossil-nuclear** — FT: shipowners shelve alternative-fuel bets and explore fossil and nuclear propulsion (section: world)
 
 ## Saturated topics — do not return without material development
 

@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-21
+
+- [Pointers for Burnham on what Britain really wants](https://www.ft.com/content/c2b74307-569b-448b-a1e6-c73b64d7c90b) — Financial Times
+- [The 'Hair-Dryer Incident' Is Just the Start](https://www.theatlantic.com/technology/2026/07/prediction-market-outsider-trading/687975/?utm_source=feed) — The Atlantic
+- [Game giant Nexon's shares drop despite success of ARC Raiders](https://asia.nikkei.com/business/media-entertainment/game-giant-nexon-s-shares-drop-despite-success-of-arc-raiders) — Nikkei Asia
+- [Australia spent more than $9m for each asylum seeker held on Nauru last year – so why can't they afford to buy food?](https://www.theguardian.com/world/2026/jul/20/nauru-asylum-seeker-living-conditions-food-allowance-offshore-processing) — The Guardian
+
 ## 2026-07-20
 
 - [Training AI models might be the chance for a workplace power play](https://www.ft.com/content/5ef2674d-0770-4713-8acf-c8b8f0995b5b?syn-25a6b1a6=1) — Financial Times
@@ -38,13 +45,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Ukraine Isn't Waiting Around for Patriots](https://foreignpolicy.com/2026/07/15/ukraine-ballistic-missile-freyja-patriot-europe-france/) — Foreign Policy
 - [Australia to Impose Energy and Water Guardrails on Data Centers Amid A.I. Boom](https://www.nytimes.com/2026/07/15/world/australia/albanese-artificial-intelligence-guardrails.html) — The New York Times
 - [Nikkei Asia Forum kicks off in Bangkok to discuss energy, mobility, AI](https://asia.nikkei.com/spotlight/nikkei-asia-forum/nikkei-asia-forum-apac-2026/nikkei-asia-forum-kicks-off-in-bangkok-to-discuss-energy-mobility-ai) — Nikkei Asia
-
-## 2026-07-15
-
-- [Ukraine to buy Chinese drone parts with EU funds](https://www.ft.com/content/f6cf99e0-21f7-47c0-b5b1-64b77c18d204) — Financial Times
-- [Generative AI Is an Engineering Disaster](https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/?utm_source=feed) — The Atlantic
-- [China Wants to Regulate AI Companions](https://foreignpolicy.com/2026/07/14/china-ai-companions-regulation-takes-effect/) — Foreign Policy
-- [Bangladesh unifies QR payments to formalize cash-based economy](https://asia.nikkei.com/business/technology/bangladesh-unifies-qr-payments-to-formalize-cash-based-economy) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 
