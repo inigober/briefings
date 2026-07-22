@@ -24,6 +24,7 @@ DEFAULT_RELEVANCE_CFG: dict[str, Any] = {
     "dedup_lookback_days": 7,
     "publisher_priority_boost": 8,
     "audit_rank_multiplier": 2,
+    "section_max_per_publisher": 6,
     "noise_title_patterns": [
         "fußball-wm",
         "fußball wm",

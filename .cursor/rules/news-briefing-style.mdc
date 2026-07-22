@@ -137,6 +137,8 @@ Before selecting any story, read `state/news/dedup_index.md`, `editorial_context
 
 **One theme per section:** Do not publish two stories on the same theme within Spain, Germany, Berlin, or World (e.g. two school-heat pieces, two Zapatero pieces).
 
+**Publisher diversity (hard):** Each of Spain, Germany, Berlin, and World must cite **≥2 distinct publishers** among its 3 stories. Prefer **3 different publishers** when the inbox allows. Do not fill a section from a single outlet (e.g. three eldiario.es pieces) when another eligible publisher exists after dedup and theme filters. If the eligible pool truly has only one publisher left, note the gap in `rejected_at_synthesis` and proceed — do not invent stories.
+
 **Geographic fit (hard):**
 
 - **Germany 🇩🇪** — Germany-relevant only; US/Middle East/global security stories go in **World** even from German outlets.
@@ -191,7 +193,7 @@ After choosing Spain/Germany/Berlin/World stories, scan **remaining** items in t
 - **RSS + WordPress only:** Pre-fetch ingests publisher feeds; there is no OpenAI research step. Every URL in the inbox came from a feed.
 - Prefer structural change, long-term trends, important data, underreported developments, second-order effects.
 - Reject: stories essentially identical to yesterday, incremental-only updates, media-driven non-events.
-- Favour critical, left-leaning outlets per `config/briefings/news/sources.yaml`.
+- Favour critical, left-leaning outlets per `config/briefings/news/sources.yaml`, **without violating publisher diversity** (see above).
 
 ## Final checklist (revise if any answer is no)
 
@@ -199,16 +201,17 @@ After choosing Spain/Germany/Berlin/World stories, scan **remaining** items in t
 2. One-sentence intro framing today's through-line?
 3. Spain, Germany, Berlin each contain **new** information?
 4. No duplicate themes within any one section?
-5. Germany/Berlin stories geographically fit their section?
-6. World includes ≥2 non-European regions?
-7. World distinct from Spain/Germany?
-8. At most **4** 💡 annotations across the whole briefing — and each passes the annotation gate?
-9. No 🧩 lines anywhere?
-10. Selected Reads diversified (≥3 publishers, Guardian ≤1)? Reuters/AP ≤1?
-11. No Selected Read URL in last 5 briefings?
-12. Other Headlines Today captures major unused inbox themes (crisp, no links)?
-13. Every footnote URL copied verbatim from inbox `sources[0].url`?
-14. Would a daily reader learn something genuinely new?
+5. Each of Spain/Germany/Berlin/World cites **≥2 publishers** (prefer 3 when the inbox allows)?
+6. Germany/Berlin stories geographically fit their section?
+7. World includes ≥2 non-European regions?
+8. World distinct from Spain/Germany?
+9. At most **4** 💡 annotations across the whole briefing — and each passes the annotation gate?
+10. No 🧩 lines anywhere?
+11. Selected Reads diversified (≥3 publishers, Guardian ≤1)? Reuters/AP ≤1?
+12. No Selected Read URL in last 5 briefings?
+13. Other Headlines Today captures major unused inbox themes (crisp, no links)?
+14. Every footnote URL copied verbatim from inbox `sources[0].url`?
+15. Would a daily reader learn something genuinely new?
 
 ## Commits
 

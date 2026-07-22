@@ -311,6 +311,31 @@ class TestBareSourceLabels(unittest.TestCase):
         )
 
 
+class TestRenderPreheaderHtml(unittest.TestCase):
+    def test_pads_so_title_does_not_leak_into_inbox_snippet(self) -> None:
+        from send_briefing_email import render_preheader_html
+
+        html = render_preheader_html(
+            "Export controls and rail delays frame a day of state-capacity stress."
+        )
+        self.assertIn("Export controls and rail delays", html)
+        self.assertIn("&zwnj;", html)
+        self.assertIn("&nbsp;", html)
+        self.assertIn("aria-hidden=\"true\"", html)
+
+    def test_escapes_html_in_preheader(self) -> None:
+        from send_briefing_email import render_preheader_html
+
+        html = render_preheader_html("A <b>bold</b> & ampersand intro")
+        self.assertIn("A &lt;b&gt;bold&lt;/b&gt; &amp; ampersand intro", html)
+        self.assertNotIn("<b>bold</b>", html)
+
+    def test_empty_preheader_omitted(self) -> None:
+        from send_briefing_email import render_preheader_html
+
+        self.assertEqual(render_preheader_html(""), "")
+
+
 class TestFormatEmailSubject(unittest.TestCase):
     def test_adds_emoji(self) -> None:
         self.assertEqual(

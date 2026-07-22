@@ -197,6 +197,27 @@ def item_publisher_name(item: dict) -> str:
     return domain or "unknown"
 
 
+def item_publisher_key(item: dict) -> str:
+    """Stable publisher identity for diversity caps (prefer domain over display name)."""
+    domain = item_domain(item)
+    if domain:
+        return domain.lower()
+    return item_publisher_name(item).casefold()
+
+
+def section_max_per_publisher(cap: int, sources_cfg: dict | None = None) -> int:
+    """Max items from one publisher in a section's synthesis slice."""
+    cfg = relevance_cfg(sources_cfg or {})
+    configured = cfg.get("section_max_per_publisher")
+    if configured is not None:
+        try:
+            return max(1, int(configured))
+        except (TypeError, ValueError):
+            pass
+    # Keep at least half the pool open to other outlets (cap=12 → max 6).
+    return max(3, (cap + 1) // 2)
+
+
 def item_read_categories(domain: str, sources_cfg: dict) -> set[str]:
     categories: set[str] = set()
     for key in SELECTED_READS_CATEGORY_KEYS:
@@ -420,9 +441,10 @@ def pick_top_news(
     sources_cfg: dict,
     dedup_entries: list[dict],
 ) -> tuple[list[dict], list[dict]]:
-    """Pick top news items with editorial scoring, theme de-duplication, and audit trail."""
+    """Pick top news items with editorial scoring, theme/publisher de-duplication, and audit trail."""
     cfg = relevance_cfg(sources_cfg)
     citable = [item for item in items if item_is_citable(item)]
+    max_per_publisher = section_max_per_publisher(cap, sources_cfg)
 
     scored: list[tuple[dict, int, list[str], list[str]]] = []
     for item in citable:
@@ -440,6 +462,7 @@ def pick_top_news(
 
     picked: list[dict] = []
     used_themes: set[str] = set()
+    publisher_counts: dict[str, int] = {}
     rejections: list[dict] = []
     audit_window = cap * int(cfg.get("audit_rank_multiplier") or 2)
 
@@ -475,10 +498,25 @@ def pick_top_news(
             )
             continue
 
+        publisher_key = item_publisher_key(item)
+        if publisher_counts.get(publisher_key, 0) >= max_per_publisher:
+            rejections.append(
+                {
+                    "id": item_id,
+                    "headline": headline,
+                    "section": section_id,
+                    "reason": f"publisher_cap:{publisher_key}",
+                    "relevance_score": score,
+                    "notes": notes,
+                }
+            )
+            continue
+
         slim = slim_item(item, NEWS_SLIM_ITEM_KEYS)
         slim["relevance_score"] = score
         picked.append(slim)
         used_themes.update(themes)
+        publisher_counts[publisher_key] = publisher_counts.get(publisher_key, 0) + 1
 
     return picked, rejections
 

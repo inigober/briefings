@@ -30,6 +30,7 @@ def _rss_item(
     section: str = "spain",
     url: str = "https://elpais.com/espana/story.html",
     summary: str = "",
+    publisher: str = "EL PAÍS",
 ) -> dict:
     return {
         "id": url,
@@ -40,7 +41,7 @@ def _rss_item(
         "material_development": True,
         "sources": [
             {
-                "publisher": "EL PAÍS",
+                "publisher": publisher,
                 "url": url,
                 "published_at": "2026-06-17",
             }
@@ -153,6 +154,52 @@ def test_pick_top_news_enforces_one_theme_per_section() -> None:
     }
     assert len(school_themes) <= 1
     assert any(rejection["reason"].startswith("theme_cap:school_heat") for rejection in rejections)
+
+
+def test_pick_top_news_caps_per_publisher() -> None:
+    items = [
+        _rss_item(
+            headline=f"eldiario story {i}",
+            summary="Structural Spanish politics update with new legislation.",
+            url=f"https://www.eldiario.es/politica/story-{i}.html",
+            publisher="eldiario.es",
+        )
+        for i in range(8)
+    ] + [
+        _rss_item(
+            headline="El País alternative angle",
+            summary="Infrastructure fund unlocks new rail spending.",
+            url="https://elpais.com/economia/rail.html",
+            publisher="EL PAÍS",
+        ),
+        _rss_item(
+            headline="La Vanguardia third outlet",
+            summary="Catalonia housing reform advances in parliament.",
+            url="https://www.lavanguardia.com/politica/housing.html",
+            publisher="La Vanguardia",
+        ),
+    ]
+    cfg = dict(SOURCES_CFG)
+    cfg["news_relevance"] = {
+        **(SOURCES_CFG.get("news_relevance") or {}),
+        "section_max_per_publisher": 3,
+    }
+    picked, rejections = pick_top_news(
+        items,
+        6,
+        section_id="spain",
+        topic_cfg=SPAIN_TOPIC,
+        sources_cfg=cfg,
+        dedup_entries=[],
+    )
+    domains = [
+        (item.get("sources") or [{}])[0].get("url", "")
+        for item in picked
+    ]
+    eldiario_count = sum(1 for url in domains if "eldiario.es" in url)
+    assert eldiario_count <= 3
+    assert any("elpais.com" in url for url in domains)
+    assert any(rejection["reason"].startswith("publisher_cap:") for rejection in rejections)
 
 
 def test_build_news_synthesis_inbox_includes_editorial_context(tmp_path: Path) -> None:

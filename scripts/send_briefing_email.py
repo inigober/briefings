@@ -15,6 +15,7 @@ import os
 import re
 import sys
 from dataclasses import dataclass, field
+from html import escape
 from pathlib import Path
 from urllib.parse import quote_plus
 
@@ -790,12 +791,19 @@ def render_footnotes_html(footnote_md: str) -> str:
 
 
 def render_preheader_html(preheader: str) -> str:
+    """Hidden inbox-snippet text, padded so clients do not append the H1/subject."""
     if not preheader:
         return ""
+    # Gmail/Apple Mail/etc. fill ~90–140 preview chars from the first text nodes.
+    # Without filler, they keep reading into the visible H1 (same wording as the
+    # subject), so the snippet looks like: "<intro> News Briefing — 20 July 2026".
+    # Shared by news, culture, and restaurant emails.
+    filler = ("&nbsp;&zwnj;" * 90) + "&nbsp;"
     return (
         '<div style="display:none;font-size:1px;line-height:1px;max-height:0;'
-        'max-width:0;opacity:0;overflow:hidden;mso-hide:all;">'
-        f"{preheader}"
+        'max-width:0;opacity:0;overflow:hidden;mso-hide:all;" aria-hidden="true">'
+        f"{escape(preheader)}"
+        f"{filler}"
         "</div>"
     )
 

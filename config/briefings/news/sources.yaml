@@ -173,6 +173,9 @@ selected_reads_max_per_publisher: 2
 # Editorial relevance for slim_inbox_for_synthesis.py (section ranking + audit).
 news_relevance:
   dedup_lookback_days: 7
+  # Max items from one publisher in each section's synthesis slice (cap is usually 12).
+  # Keeps alternatives available so synthesis can meet ≥2 publishers per published section.
+  section_max_per_publisher: 6
   noise_title_patterns:
     - fußball-wm
     - fußball wm
