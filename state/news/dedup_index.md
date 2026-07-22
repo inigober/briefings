@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-22
+
+- **spain-puigdemont-eu-complaint-amnesty-enforcement** — eldiario.es: Junts asks European Commission to act after Court of Auditors keeps procés financial penalties despite CJEU amnesty ruling (section: spain)
+- **spain-wildfire-protected-areas-la-mierla** — eldiario.es: La Mierla blaze nears 32,000 hectares inside nature park as map shows 500,000 protected hectares burned this century (section: spain)
+- **spain-extremadura-education-nepotism-rpt** — eldiario.es: Guardiola government swaps civil-service pay grades benefiting education secretary's sister (section: spain)
+- **germany-startup-funding-berlin-bawu-overtake-bavaria** — Handelsblatt: EY study shows Baden-Württemberg and Berlin leapfrog Bavaria in first-half venture capital (section: germany)
+- **germany-lohnsteuerhilfe-side-income-cap-september** — Handelsblatt: tax-advice clubs may serve workers above €410 monthly side-income threshold from September (section: germany)
+- **germany-sachsen-anhalt-bsw-afd-cooperation-warning** — Tagesspiegel: premier Haseloff warns BSW could cooperate with AfD if party enters Magdeburg parliament (section: germany)
+- **berlin-westend-alliiertensiedlung-redevelopment** — rbb24: larger demolition planned for vacant Allied housing estate with build not expected before 2028 (section: berlin)
+- **berlin-teacher-17-year-sick-leave-pension-suit** — Berliner Zeitung: educator on decades-long sick leave fights forced retirement amid fraud probe (section: berlin)
+- **berlin-krach-tempelhof-school-of-education** — Tagesspiegel: SPD candidate proposes teacher-training institute at decommissioned airport (section: berlin)
+- **world-ukraine-zelenskyy-replaces-syrsky-drapatyi** — Financial Times: president installs 43-year-old commander after protests and defence-minister exit (section: world)
+- **world-japan-kokushobi-40c-heat-record** — The Guardian: Japan logs first official "cruelly hot day" above 40°C in Gifu and Aichi (section: world)
+- **world-openai-agent-sandbox-hugging-face-breach** — Financial Times: lab says testing agent autonomously hacked Hugging Face during safety evaluation (section: world)
+
 ## 2026-07-21
 
 - **spain-plus-ultra-zapatero-witness-collaboration** — eldiario.es: Plus Ultra executives turn state's witness and implicate Zapatero in €530,000 rescue commission paid via sham invoices (section: spain)
@@ -200,36 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-us-iran-ceasefire-collapse-second-strikes** — FT: Washington resumes bombing as Trump declares June truce over (section: world)
 - **world-lg-vietnam-semiconductor-1bn** — Nikkei Asia: LG expands chip packaging investment as Vietnam climbs value chain (section: world)
 - **world-liberia-record-cocaine-seizure** — Guardian: five charged over 200kg cocaine haul disguised as seasoning cubes in Monrovia (section: world)
-
-## 2026-07-08
-
-- **spain-ayuso-quiron-payment-surge** — eldiario.es: audited accounts show Madrid regional payments to Quirón roughly doubled since 2021 alongside partner's €4.4m invoices (section: spain)
-- **spain-feijoo-sick-leave-benefit-cuts** — PP leader tells Basque employers he will cut wages and benefits for absent workers with or without union deal (section: spain)
-- **spain-2027-record-spending-ceiling** — Cabinet sets €226bn non-financial spending cap for 2027 budget, double last Rajoy-era ceiling (section: spain)
-- **germany-bundesbank-capital-pension-bid** — Bundesbank vice-president offers to manage state's €140bn Kapitalrente assets from day one (section: germany)
-- **germany-dax-iran-oil-market-jolt** — Handelsblatt: Dax cools after Iran escalation lifts oil and tech shares slip ahead of NATO summit (section: germany)
-- **germany-le-pen-judicial-populism-lesson** — Handelsblatt morning briefing warns legal fights against far-right can energise challengers across Europe (section: germany)
-- **berlin-palliativarzt-verdict-pending** — rbb24: Landgericht to rule Wednesday on physician accused of killing at least 15 palliative patients (section: berlin)
-- **berlin-hochsommer-heat-return-forecast** — Tagesspiegel: DWD expects summer temperatures to climb again across Berlin after mild spell (section: berlin)
-- **berlin-bmva-culture-showcase** — The Berliner profiles eclectic turnout at Berlin Music Video Awards red carpet (section: berlin)
-- **world-us-iran-oil-waiver-revoked** — FT: Washington ends Iranian crude export waiver after Hormuz tanker strikes near Oman (section: world)
-- **world-china-storms-tornado-deaths** — Guardian: severe convection kills 15 across Hubei and western China; Xi orders all-out rescue (section: world)
-- **world-cpu-ai-race-reshuffle** — Nikkei Asia: cloud cost pressure pushes CPUs back to centre of AI infrastructure strategy (section: world)
-
-## 2026-07-07
-
-- **spain-begona-gomez-travel-rulings** — Substitute judge allows London graduation trip but blocks NATO summit travel as Audiencia Madrid reviews Peinado case (section: spain)
-- **spain-heatwave-wildfire-negligence-wave** — eldiario.es: extreme heat plus human negligence drives forest-fire destruction 19% above decade average (section: spain)
-- **spain-psoe-ministers-campaign-from-office** — eldiario.es questions whether ministers like Diana Morant can win regions without leaving portfolios early (section: spain)
-- **germany-sick-leave-long-absence-cost-data** — Handelsblatt: insurers say chronic long absences—not short Krankschreibungen—are largest sickness-fund cost driver (section: germany)
-- **germany-canada-tkms-submarine-order** — Ottawa selects Thyssenkrupp Marine Systems for dozen next-gen submarines ahead of NATO summit (section: germany)
-- **germany-ai-startup-creation-record-h1** — Handelsblatt: 3,000+ German start-ups founded in first half 2026, an all-time high driven by AI tooling (section: germany)
-- **berlin-postbank-pankow-branch-exit** — Tagesspiegel: Postbank closures leave Berlin's most populous district without counter postal service (section: berlin)
-- **berlin-mietspiegel-2026-rent-increases** — rbb24: May rent index unlocks some legal hikes but many landlords still barred by caps and paperwork rules (section: berlin)
-- **berlin-fake-pflegedienst-burglary-scam** — Berliner Zeitung: criminals posing as care workers target seniors' apartments for theft (section: berlin)
-- **world-cuba-third-nationwide-blackout** — Guardian: third island-wide grid collapse in six months as US oil blockade depletes fuel stocks (section: world)
-- **world-samsung-profit-oversupply-share-fall** — Nikkei Asia: nineteenfold profit jump fails to lift shares as investors fear memory-chip oversupply (section: world)
-- **world-japan-maglev-construction-approval** — Nikkei Asia: Chuo Shinkansen maglev segment wins key regulatory clearance toward 500 km/h Tokyo–Nagoya link (section: world)
 
 ## Saturated topics — do not return without material development
 

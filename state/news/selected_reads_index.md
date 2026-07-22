@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-22
+
+- [Where Did All the Computer-Science Professors Go?](https://www.theatlantic.com/technology/2026/07/ai-companies-hiring-academics/688002/?utm_source=feed) — The Atlantic
+- [The Aspen Security Forum Is the Land Time Forgot](https://foreignpolicy.com/2026/07/21/aspen-security-forum-geopolitics-foreign-policy-outdated-bubble-time-warp/) — Foreign Policy
+- [Yen falls to 39-year low of 163 per dollar on Iran tensions, Takaichi plan](https://asia.nikkei.com/business/markets/currencies/yen-falls-to-39-year-low-of-163-per-dollar-on-iran-tensions-takaichi-plan) — Nikkei Asia
+- [Healthy diet too expensive for one in three people globally, UN report finds](https://www.theguardian.com/global-development/2026/jul/21/healthy-diet-too-expensive-for-one-in-three-people-globally-un-report-finds) — The Guardian
+
 ## 2026-07-21
 
 - [Pointers for Burnham on what Britain really wants](https://www.ft.com/content/c2b74307-569b-448b-a1e6-c73b64d7c90b) — Financial Times
@@ -31,20 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Trump threatens Canada with tariffs over 'invasion' of wildfire smoke](https://www.ft.com/content/fa4e24db-9324-47e2-8512-a581ca9c1aba?syn-25a6b1a6=1) — Financial Times
 - [Just Ask the Dinosaurs How Bad Air Quality Can Get](https://www.theatlantic.com/health/2026/07/air-quality-smoke-dinosaurs/687985/?utm_source=feed) — The Atlantic
 - [Narita Airport bus tours offer close encounters with aircraft](https://asia.nikkei.com/business/travel-leisure/narita-airport-bus-tours-offer-close-encounters-with-aircraft) — Nikkei Asia
-
-## 2026-07-17
-
-- [Iranian Attacks Need Not Change the Gulf's AI Ambitions](https://foreignpolicy.com/2026/07/16/iranian-attacks-gulf-ai-ambitions/) — Foreign Policy
-- [AI isn't destroying entry-level jobs. It's changing them](https://www.ft.com/content/6cb9570b-dccd-46f5-b42a-4d0b7b5de35a?syn-25a6b1a6=1) — Financial Times
-- [Xi dabbles in 'AI diplomacy' at Shanghai forum with Thai, Cambodian PMs](https://asia.nikkei.com/business/technology/artificial-intelligence/xi-dabbles-in-ai-diplomacy-at-shanghai-forum-with-thai-cambodian-pms) — Nikkei Asia
-- [As Le Pen looms, Macron and Merz bid to show Franco-German engine still has clout](https://www.politico.eu/article/france-germany-talks-emmanuel-macron-friedrich-merz-pledge-momentum/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-
-## 2026-07-16
-
-- [Energy IPOs surge as investors hunt for ways to play AI boom](https://www.ft.com/content/af8f4659-df0c-4c83-9fcc-8239714d0928) — Financial Times
-- [Ukraine Isn't Waiting Around for Patriots](https://foreignpolicy.com/2026/07/15/ukraine-ballistic-missile-freyja-patriot-europe-france/) — Foreign Policy
-- [Australia to Impose Energy and Water Guardrails on Data Centers Amid A.I. Boom](https://www.nytimes.com/2026/07/15/world/australia/albanese-artificial-intelligence-guardrails.html) — The New York Times
-- [Nikkei Asia Forum kicks off in Bangkok to discuss energy, mobility, AI](https://asia.nikkei.com/spotlight/nikkei-asia-forum/nikkei-asia-forum-apac-2026/nikkei-asia-forum-kicks-off-in-bangkok-to-discuss-energy-mobility-ai) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 
