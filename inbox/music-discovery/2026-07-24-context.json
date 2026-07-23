@@ -1,11 +1,15 @@
 {
-  "built_at": "2026-07-23T07:01:45.746534+00:00",
+  "built_at": "2026-07-23T07:30:32.306747+00:00",
   "briefing_type": "music-discovery",
   "run_date": "2026-07-24",
   "source": {
     "taste_snapshot_built_at": "2026-07-23T07:01:45.572315+00:00",
     "recommendation_log_updated_at": "2026-07-08T16:40:26.114223+00:00",
-    "taste_snapshot_md_exists": true
+    "taste_snapshot_md_exists": true,
+    "cached_at": "2026-07-23T07:18:48.876387+00:00",
+    "role": "taste-cache",
+    "from_taste_cache": true,
+    "taste_cache_path": "state/music-discovery/taste-cache/context.json"
   },
   "axes": [
     "DJ crate: House, Techno, Progressive House, Trance, Italo, Nu Disco, Electro, Ambient",
