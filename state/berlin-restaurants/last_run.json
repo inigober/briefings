@@ -1,18 +1,20 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-07-16",
+  "date": "2026-07-23",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-07-16.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-07-16-synthesis.json",
-  "verified_count": 10,
-  "selected_count": 6,
+  "briefing_path": "briefings/berlin-restaurants/2026-07-23.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-07-23-synthesis.json",
+  "verified_count": 17,
+  "selected_count": 8,
   "selected_restaurants": [
-    "Banh Xeo Saigon",
-    "Yöre Gözleme ve Mantı Evi",
-    "Fes Turkish BBQ",
-    "Hasir (Schöneberg)",
-    "The Tree",
-    "Mezem"
+    "Aroma",
+    "Shaniu's House of Noodles",
+    "Lao Xiang",
+    "Chon Thong",
+    "Mingtastic",
+    "Tadım Ocakbaşı",
+    "Et Dünyasi by Ehli-Kebap",
+    "hallmann & klee"
   ],
-  "notes": "6 entries from 10 verified candidates. Excluded Wei House, Tian Fu, Adana Grillhaus, and Dal Tokki as repeats within 10-week window. Neighborhoods: Prenzlauer Berg, Wedding, Kreuzberg, Schöneberg, Mitte, Charlottenburg — max one per district. No fine-dining entry. No index trim needed (oldest entries are 5 weeks old)."
+  "notes": "8 entries from 17 verified candidates. Excluded Liu Nudelhaus, Adana Grillhaus, Khao Taan, and Willing as repeats within 10-week window. Neighborhoods: Charlottenburg (2), Tiergarten, Prenzlauer Berg, Friedrichshain, Kreuzberg, Wedding, Neukölln. One fine-dining entry (hallmann & klee). No index trim needed (oldest entries are 6 weeks old)."
 }

@@ -39,3 +39,11 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-07-16 | Hasir (Schöneberg) | Schöneberg | https://maps.google.com/?cid=4610204103560710877&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-16 | The Tree | Mitte | https://maps.google.com/?cid=17950918673787389901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-16 | Mezem | Charlottenburg | https://maps.google.com/?cid=11159671474518477459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-23 | Aroma | Charlottenburg | https://maps.google.com/?cid=13065521202330721893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-23 | Shaniu's House of Noodles | Tiergarten | https://maps.google.com/?cid=8588884046748283335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-23 | Lao Xiang | Prenzlauer Berg | https://maps.google.com/?cid=9788201332404214585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-23 | Chon Thong | Charlottenburg | https://maps.google.com/?cid=2216611833988736610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-23 | Mingtastic | Friedrichshain | https://maps.google.com/?cid=11795648014294726927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-23 | Tadım Ocakbaşı | Kreuzberg | https://maps.google.com/?cid=10551158945982739868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-23 | Et Dünyasi by Ehli-Kebap | Wedding | https://maps.google.com/?cid=11171700186475783066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-23 | hallmann & klee | Neukölln | https://maps.google.com/?cid=25938203877987709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
