@@ -43,7 +43,7 @@ class TestPrefetchHealth(unittest.TestCase):
     def test_all_profile_types(self) -> None:
         self.assertEqual(
             set(types_for_profile("all")),
-            {"news", "berlin-culture", "berlin-restaurants"},
+            {"news", "berlin-culture", "berlin-restaurants", "music-discovery"},
         )
 
     def test_culture_checks_normalized_week_key_on_friday(self) -> None:

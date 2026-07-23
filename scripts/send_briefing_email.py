@@ -1494,13 +1494,18 @@ def resolve_briefing_paths(
         return [path if path.is_absolute() else REPO_ROOT / path]
 
     candidates: list[Path] = []
+    saw_briefing_md = False
     for raw in changed_files:
         if raw.endswith(".md") and raw.startswith("briefings/"):
+            saw_briefing_md = True
             path = REPO_ROOT / raw
             if not is_test_briefing_path(path):
                 candidates.append(path)
 
     if not candidates:
+        # Sandbox-only pushes (*.test.md) should no-op cleanly, not fail CI.
+        if saw_briefing_md:
+            return []
         raise FileNotFoundError(
             "No briefing file specified and CHANGED_FILES is empty. "
             "Pass --file or fix changed-file detection in the workflow."
@@ -1561,13 +1566,27 @@ def main() -> int:
 
     if not briefing_paths:
         if changed_files:
+            test_only = [
+                raw
+                for raw in changed_files
+                if raw.endswith(".md")
+                and raw.startswith("briefings/")
+                and is_test_briefing_path(REPO_ROOT / raw)
+            ]
             missing = [
                 raw
                 for raw in changed_files
                 if raw.endswith(".md")
                 and raw.startswith("briefings/")
+                and not is_test_briefing_path(REPO_ROOT / raw)
                 and not (REPO_ROOT / raw).is_file()
             ]
+            if test_only and not missing:
+                print(
+                    "Email: skipping sandbox briefing(s) "
+                    f"({', '.join(sorted(test_only))})."
+                )
+                return 0
             print(
                 "Email: no briefing files to send "
                 f"({len(missing)} changed path(s) were deletions or missing)."

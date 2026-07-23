@@ -359,6 +359,7 @@ class TestBriefingSubjectEmojiConfig(unittest.TestCase):
         self.assertEqual(load_briefing_type("news").email_subject_emoji, "📰")
         self.assertEqual(load_briefing_type("berlin-culture").email_subject_emoji, "🎭")
         self.assertEqual(load_briefing_type("berlin-restaurants").email_subject_emoji, "🍽️")
+        self.assertEqual(load_briefing_type("music-discovery").email_subject_emoji, "🎧")
 
 
 class TestResolveBriefingPaths(unittest.TestCase):
@@ -384,6 +385,13 @@ class TestResolveBriefingPaths(unittest.TestCase):
         )
         self.assertEqual(len(paths), 1)
         self.assertFalse(paths[0].is_file())
+
+    def test_skips_test_briefings_without_error(self) -> None:
+        paths = resolve_briefing_paths(
+            None,
+            ["briefings/music-discovery/2026-07-24.test.md"],
+        )
+        self.assertEqual(paths, [])
 
 
 if __name__ == "__main__":
