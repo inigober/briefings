@@ -49,7 +49,7 @@ Local / manual runs may skip the push guard when the user explicitly asks to syn
 
    | slug | artist | release | label | year | era | genre | cover | bandcamp | youtube? | in_library? |
 
-Title: `# Music Discovery Briefing — Week of YYYY-MM-DD`.
+Title: `# Music Discovery — Week of YYYY-MM-DD`.
 
 Intro → six `##` featured entries → `## More listening` (4 bullets). No closing summary section.
 
