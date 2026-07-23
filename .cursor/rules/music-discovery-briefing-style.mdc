@@ -42,12 +42,11 @@ Fields in order:
 
 1. `## Artist — Release — *Label* (Year)`
 2. Album cover: `![Album cover](https://…cover-image…)`
-3. `**Genre:**` specific genre/style (e.g. Deep house, Detroit electro, Ambient jazz)
-4. `**Listen:**` compact platform links (favicon + name) — immediately after Genre
-5. **blank line (mandatory)** — context must start on a new paragraph in email
-6. Context paragraph — **no `Context:` label**; start straight with the prose
-7. blank line
-8. `**Dig:**` one sentence with a concrete next step **and one markdown link**
+3. One line: `**Genre:** … · **Listen:**` compact platform links (favicon + name) — Genre and Listen on the **same line**
+4. **blank line (mandatory)** — context must start on a new paragraph in email
+5. Context paragraph — **no `Context:` label**; start straight with the prose
+6. blank line
+7. `**Dig:**` one sentence with a concrete next step **and one markdown link**
 
 Example skeleton:
 
@@ -56,16 +55,14 @@ Example skeleton:
 
 ![Album cover](https://…)
 
-**Genre:** Deep house
-
-**Listen:** <a href="…"><img src="https://www.google.com/s2/favicons?domain=bandcamp.com&sz=32" width="16" height="16" alt=""> Bandcamp</a> · <a href="…"><img src="https://www.google.com/s2/favicons?domain=youtube.com&sz=32" width="16" height="16" alt=""> YouTube</a>
+**Genre:** Deep house · **Listen:** <a href="…"><img src="https://www.google.com/s2/favicons?domain=bandcamp.com&sz=32" width="16" height="16" alt=""> Bandcamp</a> · <a href="…"><img src="https://www.google.com/s2/favicons?domain=youtube.com&sz=32" width="16" height="16" alt=""> YouTube</a>
 
 Prose context paragraph starts here with no label…
 
 **Dig:** … [link](url)
 ```
 
-Listen row: include Bandcamp when available; YouTube only if verified; Spotify last resort (`domain=spotify.com`). Omit a platform rather than guess.
+Listen links: include Bandcamp when available; YouTube only if verified; Spotify last resort (`domain=spotify.com`). Omit a platform rather than guess.
 
 ### Cover art (mandatory)
 
@@ -85,10 +82,10 @@ If YouTube cannot be verified, omit it.
 ```
 ## More listening
 
-- **Artist — Release** (*Label*, Year) — One sentence. **Listen:** <a href="…">… Bandcamp</a> · <a href="…">… YouTube</a>
+- **Artist — Release** (*Label*, Year) — One sentence. <a href="…">… Bandcamp</a> · <a href="…">… YouTube</a>
 ```
 
-Exactly four bullets. Same compact Listen convention as featured (Bandcamp + verified YouTube when available). Same **max one label** rule across the whole briefing. Compact: no cover, no Genre/Context/Dig blocks.
+Exactly four bullets. Same link style as featured (favicon + name; Bandcamp + verified YouTube when available) but **no `Listen:` label** — links only after the sentence. Same **max one label** rule across the whole briefing. Compact: no cover, no Genre/Context/Dig blocks.
 
 ## Selection rules
 

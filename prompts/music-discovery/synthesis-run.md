@@ -42,8 +42,8 @@ Local / manual runs may skip the push guard when the user explicitly asks to syn
 4. Build a pool that **mixes recent and older (aged-well)** releases.
 5. Enforce **max 1 entry per label** across featured + More listening.
 6. Aim for **6 featured** + **4 More listening**.
-7. Every featured pick needs: italicized label in title, cover, Genre, Listen (after Genre), blank line, unlabeled context paragraph, blank line, Dig (with one link).
-8. More listening uses the same compact **Listen** convention (Bandcamp + verified YouTube when available); italicize label names in the bold title segment.
+7. Every featured pick needs: italicized label in title, cover, Genre + Listen on the **same line**, blank line, unlabeled context paragraph, blank line, Dig (with one link).
+8. More listening: same compact favicon links (Bandcamp + verified YouTube when available), but **no `Listen:` label** — just the links after the sentence; italicize label names in the bold title segment.
 9. **YouTube only if verified**. Spotify last resort; never Apple Music.
 10. Internal table (do not commit):
 

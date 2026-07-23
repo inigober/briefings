@@ -1381,9 +1381,9 @@ def render_html(
 def render_music_html(md_text: str, *, preheader_section: str = "") -> str:
     """Music discovery: larger entry titles (##) + album covers via standard markdown.
 
-    Skips news-style story preprocessing so blank lines after Listen become real
-    paragraph breaks (context always starts on a new line).
-    """
+    Skips news-style story preprocessing so blank lines after the Genre/Listen
+    line become real paragraph breaks (context always starts on a new line).
+"""
     footnotes = parse_footnotes(md_text)
     body_md, footnotes_md = split_footnotes(md_text)
     body_md = normalize_horizontal_rules(body_md)
@@ -1424,14 +1424,15 @@ def render_music_html(md_text: str, *, preheader_section: str = "") -> str:
 
 
 def _normalize_music_entry_spacing(md_text: str) -> str:
-    """Ensure a blank line after each **Listen:** row so context starts a new paragraph."""
+    """Ensure a blank line after each Genre/Listen line so context starts a new paragraph."""
     lines = md_text.splitlines()
     out: list[str] = []
     i = 0
     while i < len(lines):
         line = lines[i]
         out.append(line)
-        if line.strip().startswith("**Listen:**"):
+        # Featured: Genre + Listen share one line; also accept a legacy Listen-only line.
+        if "**Listen:**" in line:
             # Skip existing blank lines, then force exactly one blank before next content
             j = i + 1
             while j < len(lines) and lines[j].strip() == "":
