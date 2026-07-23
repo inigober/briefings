@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-23
+
+- **spain-valencia-pp-vox-prioridad-nacional-budget** — eldiario.es: PP-Vox inaugural Valencia budget enshrines "prioridad nacional" with Office of Settlement and Return (section: spain)
+- **spain-housing-decreto-rent-extension-2028** — eldiario.es: PSOE-Sumar pact extends regulated-lease protections in crisis-housing decree until July 2028 (section: spain)
+- **spain-tobacco-tax-revenue-record-antismoking-law** — EL PAÍS: Treasury collected €7.3bn from tobacco in 2025 as government prepares expanded outdoor smoking and vape bans (section: spain)
+- **germany-mercedes-us-connected-car-chinese-stakes-law** — Tagesspiegel: bipartisan US Senate bill on vehicles with Chinese ownership could bar Mercedes sales over Geely stake (section: germany)
+- **germany-europe-wealth-investment-gap-study** — Handelsblatt: global wealth study finds European households asset-rich but capital-starved for productive investment (section: germany)
+- **germany-eu-auto-market-h1-recovery-ev** — Handelsblatt: EU new registrations rose in first half with EV share climbing but below industry targets (section: germany)
+- **berlin-gaza-spouse-reunification-lawsuit-auswaertiges-amt** — rbb24: Berlin mechanic sues foreign ministry after wife trapped in Gaza since October 2023 attacks (section: berlin)
+- **berlin-la-casa-left-scene-nahost-split** — rbb24: Hellersdorf youth centre residents leave after Middle East conflict fractures autonomous housing project (section: berlin)
+- **berlin-lebensqualitaet-ranking-28-deutsche-bank** — Berliner Zeitung: Deutsche Bank index ranks Berlin 28th globally as Munich places fourth (section: berlin)
+- **world-us-saudi-nuclear-pact-no-gold-standard** — Financial Times: civil-nuclear deal omits enrichment and reprocessing curbs sought by non-proliferation advocates (section: world)
+- **world-drc-ebola-fastest-outbreak-who** — Foreign Policy: Kasai epidemic spreading faster than prior Central African waves, outpacing response (section: world)
+- **world-australia-wong-china-provocative-warning** — The Guardian: foreign minister to warn Beijing against coercion in Manila speech amid AUKUS build-up (section: world)
+
 ## 2026-07-22
 
 - **spain-puigdemont-eu-complaint-amnesty-enforcement** — eldiario.es: Junts asks European Commission to act after Court of Auditors keeps procés financial penalties despite CJEU amnesty ruling (section: spain)
@@ -200,21 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-openai-google-china-ai-export-loophole** — FT: US AI firms supplied models to blacklisted Chinese groups via Singapore subsidiaries (section: world)
 - **world-sk-hynix-record-us-listing** — FT: South Korean memory-chip maker raises $26.5bn in largest foreign US market debut (section: world)
 - **world-nigeria-fake-federal-agency-budget** — Guardian: fictitious agency allocated 1.3bn naira in 2026 budget triggers Tinubu investigation before January election (section: world)
-
-## 2026-07-09
-
-- **spain-trump-spain-trade-embargo-redemption** — EL PAÍS: Trump threatens commercial embargo then claims Spain "fully redeemed" after major payment pledge at NATO summit (section: spain)
-- **spain-sick-leave-data-debunks-feijoo-fraud** — eldiario.es: official figures contradict PP leader's mass absenteeism fraud narrative as sick-leave debate intensifies (section: spain)
-- **spain-nato-false-unity-trump-outbursts** — eldiario.es: alliance leaders project Western cohesion in Ankara despite Trump's attacks on Spain and Greenland (section: spain)
-- **germany-android-google-backup-quota** — Handelsblatt: Google to count Android system backups against cloud storage allowances (section: germany)
-- **germany-family-role-regression-psychology** — Tagesspiegel: clinicians explain why adults revert to teenage dynamics in parental homes (section: germany)
-- **germany-trump-nato-chaos-little-change** — Handelsblatt morning briefing argues Trump's Ankara theatrics unsettled Europe but altered few policies (section: germany)
-- **berlin-ringbahn-s47-overnight-closure** — Tagesspiegel: Ringbahn and S47 skip Tempelhof overnight for engineering work (section: berlin)
-- **berlin-junge-union-wegner-withdraw-demand** — Tagesspiegel: Berlin Young Union chief urges Wegner to abandon CDU lead candidacy (section: berlin)
-- **berlin-high-deck-siedlung-tenant-wall-of-shame** — Tagesspiegel: Neukölln residents protest mould and disrepair ahead of modernisation (section: berlin)
-- **world-us-iran-ceasefire-collapse-second-strikes** — FT: Washington resumes bombing as Trump declares June truce over (section: world)
-- **world-lg-vietnam-semiconductor-1bn** — Nikkei Asia: LG expands chip packaging investment as Vietnam climbs value chain (section: world)
-- **world-liberia-record-cocaine-seizure** — Guardian: five charged over 200kg cocaine haul disguised as seasoning cubes in Monrovia (section: world)
 
 ## Saturated topics — do not return without material development
 

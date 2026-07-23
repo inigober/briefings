@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-23
+
+- [Google burns through $6bn in cash as AI spending climbs again](https://www.ft.com/content/b02f972c-c764-4006-9377-42563d9d5530?syn-25a6b1a6=1) — Financial Times
+- [US officials threaten to sanction Chinese AI startups after Moonshot release](https://asia.nikkei.com/business/technology/artificial-intelligence/us-officials-threaten-to-sanction-chinese-ai-startups-after-moonshot-release) — Nikkei Asia
+- [Trump Approves Nuclear Deal With Saudi Arabia](https://foreignpolicy.com/2026/07/22/trump-nuclear-deal-saudi-arabia-uranium-enrichment-gold-standard/) — Foreign Policy
+- [Foxconn EV chief says driverless technology to arrive sooner than expected](https://asia.nikkei.com/spotlight/nikkei-forum/global-digital-summit/global-digital-summit-2026/foxconn-ev-chief-says-driverless-technology-to-arrive-sooner-than-expected) — Nikkei Asia
+
 ## 2026-07-22
 
 - [Where Did All the Computer-Science Professors Go?](https://www.theatlantic.com/technology/2026/07/ai-companies-hiring-academics/688002/?utm_source=feed) — The Atlantic
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Why 'rightwing' is no longer such a dirty word in Britain](https://www.ft.com/content/658e1eb4-2c33-4755-8f44-0261d24dd1b7?syn-25a6b1a6=1) — Financial Times
 - ['We are preserving a tradition': how Ghana's sensationalist film posters became collectible art](https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art) — The Guardian
 - [Kuwait Energy Infrastructure Hit During Intense Iran Attacks](https://www.bloomberg.com/news/articles/2026-07-18/kuwait-faces-intense-night-of-iranian-attacks-as-power-plant-hit) — Bloomberg
-
-## 2026-07-18
-
-- [U.S., Iranian Forces Target Civilian Infrastructure](https://foreignpolicy.com/2026/07/17/us-iran-strikes-civilian-infrastructure-bridges-kuwait-desalination-syria/) — Foreign Policy
-- [Trump threatens Canada with tariffs over 'invasion' of wildfire smoke](https://www.ft.com/content/fa4e24db-9324-47e2-8512-a581ca9c1aba?syn-25a6b1a6=1) — Financial Times
-- [Just Ask the Dinosaurs How Bad Air Quality Can Get](https://www.theatlantic.com/health/2026/07/air-quality-smoke-dinosaurs/687985/?utm_source=feed) — The Atlantic
-- [Narita Airport bus tours offer close encounters with aircraft](https://asia.nikkei.com/business/travel-leisure/narita-airport-bus-tours-offer-close-encounters-with-aircraft) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 
