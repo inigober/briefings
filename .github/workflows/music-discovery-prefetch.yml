@@ -1,0 +1,70 @@
+name: Music discovery taste inbox pre-fetch
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "YYYY-MM-DD Friday run date (optional; default today UTC → normalized to Friday)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: music-discovery-prefetch
+  cancel-in-progress: false
+
+jobs:
+  prefetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Resolve Friday run date
+        id: run_date
+        run: |
+          INPUT="${{ github.event.inputs.date }}"
+          if [ -z "$INPUT" ]; then INPUT=$(date -u +%Y-%m-%d); fi
+          RESOLVED=$(python3 -c "
+          import sys
+          sys.path.insert(0, 'scripts')
+          from music_dates import normalize_friday_run_date
+          print(normalize_friday_run_date('$INPUT')[0])
+          ")
+          echo "value=$RESOLVED" >> "$GITHUB_OUTPUT"
+          echo "Using music-discovery week key: $RESOLVED"
+
+      - name: Materialize inbox from taste cache
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python scripts/materialize_music_inbox.py --date ${{ steps.run_date.outputs.value }}
+
+      - name: Commit inbox if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add inbox/music-discovery/
+          if git diff --cached --quiet; then
+            echo "No inbox changes to commit"
+            exit 0
+          fi
+          git commit -m "inbox/music-discovery: ${{ steps.run_date.outputs.value }}"
+          for attempt in 1 2; do
+            git pull --rebase origin main
+            if git push origin main; then
+              echo "Push succeeded on attempt ${attempt}"
+              exit 0
+            fi
+            echo "Push rejected on attempt ${attempt}, retrying after rebase..."
+            sleep 2
+          done
+          echo "Push failed after 2 attempts"
+          exit 1

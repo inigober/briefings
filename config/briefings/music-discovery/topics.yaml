@@ -1,0 +1,66 @@
+# Music discovery — selection preferences (not published section headings).
+
+topics:
+  - id: featured
+    name: Featured
+    enabled: true
+    max_items: 6
+    description: >
+      Six context-rich featured releases. Mix recent and older records that have
+      aged well. Diversify genre and label. Each entry states Genre (not DJ/home mode).
+
+  - id: more_listening
+    name: More listening
+    enabled: true
+    max_items: 4
+    description: >
+      Four compact one-sentence extras with the same Listen convention as featured
+      (Bandcamp + verified YouTube when available). Same max-one-label rule.
+
+preferences:
+  target_featured: 6
+  target_more_listening: 4
+  run_weekday: Friday
+  era_mix: "roughly half recent / half aged-well when pool allows"
+  max_entries_per_label: 1
+  featured_field_order:
+    - genre
+    - listen
+    - context_paragraph_unlabeled
+    - dig
+  links:
+    prefer:
+      - bandcamp
+      - youtube_verified_album_or_song
+    last_resort:
+      - spotify
+    never:
+      - apple_music
+      - youtube_search_urls
+      - unverified_fan_uploads
+  library_skip:
+    sources:
+      - spotify_saved_albums
+      - spotify_liked_albums_derived
+      - ytmusic_library_albums
+      - ytmusic_library_songs
+      - rekordbox_owned_albums
+
+rules:
+  skip_statuses:
+    - recommended
+    - heard
+    - saved
+    - passed
+    - owned
+  skip_library_albums: true
+  repeat_briefings_soft_limit_weeks: 12
+  no_closing_summary: true
+  avoid:
+    - repeating a label within the same briefing
+    - mode labels (DJ/home) instead of genre
+    - Why it fits blocks
+    - search-only YouTube links
+    - Apple Music links
+    - thin blurbs without context
+    - featuring albums already in library_skip

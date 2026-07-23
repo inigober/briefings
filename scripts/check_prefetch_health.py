@@ -27,6 +27,7 @@ PREFETCH_WORKFLOW_BY_TYPE: dict[str, str] = {
     "news": "news-prefetch.yml",
     "berlin-culture": "berlin-culture-prefetch.yml",
     "berlin-restaurants": "berlin-restaurants-prefetch.yml",
+    "music-discovery": "music-discovery-prefetch.yml",
 }
 
 
@@ -44,6 +45,15 @@ def log(message: str) -> None:
 
 
 def inbox_ready(bt, date_str: str) -> tuple[bool, str]:
+    if bt.id == "music-discovery":
+        context = bt.inbox_dir / f"{date_str}-context.json"
+        snap = bt.inbox_dir / f"{date_str}-taste-snapshot.md"
+        if context.exists() and snap.exists():
+            return True, f"found {context.relative_to(REPO_ROOT)} + taste-snapshot"
+        if context.exists():
+            return False, f"found {context.relative_to(REPO_ROOT)} but missing taste-snapshot.md"
+        return False, f"missing {date_str}-context.json (taste-cache materialize)"
+
     synthesis = bt.inbox_path(date_str, "synthesis")
     raw = bt.inbox_path(date_str, "raw")
     if synthesis.exists():
@@ -60,7 +70,7 @@ def check_type(type_id: str, date_str: str) -> PrefetchStatus:
     bt = load_briefing_type(type_id)
     inbox_date = resolve_inbox_date_key(type_id, date_str)
 
-    if type_id == "news":
+    if type_id in ("news", "music-discovery"):
         day = datetime.strptime(date_str, "%Y-%m-%d")
         if not is_scheduled_on_date(bt.schedule_cron, day):
             return PrefetchStatus(

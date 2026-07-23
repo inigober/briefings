@@ -38,10 +38,12 @@ Per-type setup docs (`prompts/*/cursor-automation-synthesis.md`) are kept for re
 ## Pipeline
 
 ```
-Pre-fetch commits inbox/{type}/  →  push triggers ONE dispatcher  →  synthesis commits briefings/{type}/  →  email workflow sends
+Pre-fetch / taste bridge commits inbox/{type}/  →  push triggers ONE dispatcher  →  synthesis commits briefings/{type}/  →  email workflow sends
 ```
 
-Missed pre-fetch? `prefetch-health-check.yml` emails you → run the matching `*-prefetch.yml` workflow manually.
+Types: `news`, `berlin-culture`, `berlin-restaurants`, `music-discovery`.
+
+Missed pre-fetch? `prefetch-health-check.yml` emails you → run the matching `*-prefetch.yml` workflow manually (music: re-run local `refresh_taste_and_bridge.py --push`).
 
 Routing logic is testable locally:
 

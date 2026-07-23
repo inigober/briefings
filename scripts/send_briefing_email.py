@@ -192,6 +192,22 @@ hr {
   font-style: italic;
 }
 .restaurant-entry { margin: 0 0 8px; }
+img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 6px;
+  margin: 6px 0 14px;
+  display: block;
+}
+a img {
+  display: inline;
+  width: 16px;
+  height: 16px;
+  max-width: 16px;
+  margin: 0 4px 0 0;
+  vertical-align: text-bottom;
+  border-radius: 2px;
+}
 
 @media only screen and (max-width: 480px) {
   body {
@@ -312,6 +328,11 @@ H2_STYLE = (
 )
 HR_STYLE = "border:none;border-top:1px solid #e8e8e8;margin:28px 0;"
 H3_STYLE = "font-size:17px;font-weight:600;margin:20px 0 10px;color:#222222;"
+# Music discovery featured entries use ## → h2; make titles larger than default H2 sections.
+MUSIC_ENTRY_H2_STYLE = (
+    "font-size:24px;font-weight:700;margin:36px 0 12px;padding:0;"
+    "color:#111111;line-height:1.3;"
+)
 
 INSIGHT_STYLE_PLAIN = (
     f"margin:14px 0 0;font-weight:500;color:#1a1a1a;font-size:{BODY_FONT_SIZE};"
@@ -1316,6 +1337,8 @@ def render_html(
         )
     if briefing_type == "berlin-restaurants":
         return render_restaurant_html(md_text, preheader_section=preheader_section)
+    if briefing_type == "music-discovery":
+        return render_music_html(md_text, preheader_section=preheader_section)
     footnotes = parse_footnotes(md_text)
     body_md, footnotes_md = split_footnotes(md_text)
     body_md = normalize_horizontal_rules(body_md)
@@ -1353,6 +1376,72 @@ def render_html(
 {footnotes_html}
 </body>
 </html>"""
+
+
+def render_music_html(md_text: str, *, preheader_section: str = "") -> str:
+    """Music discovery: larger entry titles (##) + album covers via standard markdown.
+
+    Skips news-style story preprocessing so blank lines after Listen become real
+    paragraph breaks (context always starts on a new line).
+    """
+    footnotes = parse_footnotes(md_text)
+    body_md, footnotes_md = split_footnotes(md_text)
+    body_md = normalize_horizontal_rules(body_md)
+    body_md = _normalize_music_entry_spacing(body_md)
+    preheader = extract_preheader(md_text, section_name=preheader_section)
+
+    body_html = markdown.markdown(
+        body_md,
+        extensions=["extra", "sane_lists", "smarty"],
+    )
+    # Featured entries and "More listening" are both ##; enlarge all h2 for this type.
+    body_html = re.sub(r"<h1>", f'<h1 style="{H1_STYLE}">', body_html)
+    body_html = re.sub(r"<h2>", f'<h2 style="{MUSIC_ENTRY_H2_STYLE}">', body_html)
+    body_html = re.sub(r"<h3>", f'<h3 style="{H3_STYLE}">', body_html)
+    body_html = apply_briefing_link_class(body_html)
+    body_html = insert_section_dividers(body_html)
+
+    footnotes_html = render_footnotes_html(footnotes_md)
+    footer_html = render_briefing_footer_html()
+    preheader_html = render_preheader_html(preheader)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <style>{EMAIL_CSS}</style>
+</head>
+<body style="{BODY_TAG_STYLE}">
+{preheader_html}
+{body_html}
+{footer_html}
+{footnotes_html}
+</body>
+</html>"""
+
+
+def _normalize_music_entry_spacing(md_text: str) -> str:
+    """Ensure a blank line after each **Listen:** row so context starts a new paragraph."""
+    lines = md_text.splitlines()
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        out.append(line)
+        if line.strip().startswith("**Listen:**"):
+            # Skip existing blank lines, then force exactly one blank before next content
+            j = i + 1
+            while j < len(lines) and lines[j].strip() == "":
+                j += 1
+            if j < len(lines) and not lines[j].strip().startswith("##"):
+                out.append("")
+            i = j
+            continue
+        i += 1
+    return "\n".join(out) + ("\n" if md_text.endswith("\n") else "")
 
 
 def send_resend(*, api_key: str, from_addr: str, to_addrs: list[str], subject: str, html: str) -> dict:

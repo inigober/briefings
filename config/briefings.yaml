@@ -56,3 +56,22 @@ briefings:
     email:
       preheader_section: "This week's strongest bets"
       subject_emoji: "🍽️"
+
+  music-discovery:
+    display_name: Music Discovery Briefing
+    schedule_cron: "0 9 * * 5" # Friday 09:00 Europe/Berlin — cron-job.org → music-discovery-prefetch.yml
+    inbox_dir: inbox/music-discovery
+    output_dir: briefings/music-discovery
+    state_dir: state/music-discovery
+    config_dir: config/briefings/music-discovery
+    synthesis_prompt: prompts/music-discovery/synthesis-run.md
+    style_rule: .cursor/rules/music-discovery-briefing-style.mdc
+    prefetch:
+      # No RSS/OpenAI research. "Prefetch" = taste bridge from personal exports → inbox.
+      # See docs/music-discovery-bridge.md and personal music-library/scripts/export_taste_to_briefings.py
+      rss: false
+      slim: false
+    email:
+      # Preheader falls back to the intro paragraph (no closing summary section).
+      preheader_section: ""
+      subject_emoji: "🎧"

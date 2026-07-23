@@ -11,7 +11,10 @@ GitHub's built-in `schedule:` trigger is best-effort and can start workflows hou
 | News pre-fetch | Daily **06:30** | `news-prefetch.yml` |
 | Culture pre-fetch | Tuesday **06:00** | `berlin-culture-prefetch.yml` |
 | Restaurants pre-fetch | Thursday **07:00** | `berlin-restaurants-prefetch.yml` |
+| Music discovery pre-fetch | Friday **09:00** | `music-discovery-prefetch.yml` |
 | Health check | Daily **11:00** | `prefetch-health-check.yml` (`profile: all`) |
+
+**Music discovery** materializes inbox from a committed `state/music-discovery/taste-cache/` (updated optionally by Mac Thursday 19:00). See `docs/music-discovery-bridge.md`.
 
 **Health check timing:** One job at 11:00 Berlin covers all types. On a prefetch day (e.g. Tuesday culture at 06:00), the 11:00 run is the primary check that the inbox landed (~5 hours later). On other days, the same job re-checks the current week's culture/restaurant inbox keys as a backup — not the main alert path.
 
@@ -105,6 +108,18 @@ curl -X POST \
   -H "Content-Type: application/json" \
   -d '{"ref":"main"}' \
   https://api.github.com/repos/inigober/briefings/actions/workflows/berlin-restaurants-prefetch.yml/dispatches
+```
+
+### Music discovery pre-fetch — Friday 09:00
+
+```bash
+curl -X POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer YOUR_GITHUB_TOKEN" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  -H "Content-Type: application/json" \
+  -d '{"ref":"main"}' \
+  https://api.github.com/repos/inigober/briefings/actions/workflows/music-discovery-prefetch.yml/dispatches
 ```
 
 ### Health check — daily 11:00 (all types scheduled today)

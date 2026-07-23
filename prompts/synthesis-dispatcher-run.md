@@ -2,6 +2,8 @@
 
 Single source of truth for the **one** Cursor synthesis automation. Routes each push to at most one briefing type.
 
+Known types: `news`, `berlin-culture`, `berlin-restaurants`, `music-discovery`.
+
 ## Cost discipline
 
 - **Stop early:** Run the trigger script first; exit immediately on `skip`.
@@ -16,11 +18,12 @@ Single source of truth for the **one** Cursor synthesis automation. Routes each 
    ```
 2. Parse the JSON:
    - If `type_id` is `null` or the script prints `skip`, log the `reason` and **stop** — do not read inbox or write briefings.
-   - If `type_id` is set (`news`, `berlin-culture`, or `berlin-restaurants`), log which type and why, then continue.
+   - If `type_id` is set (`news`, `berlin-culture`, `berlin-restaurants`, or `music-discovery`), log which type and why, then continue.
 3. Open the matching synthesis prompt from `config/briefings.yaml`:
    - `news` → `prompts/news/synthesis-run.md`
    - `berlin-culture` → `prompts/berlin-culture/synthesis-run.md`
    - `berlin-restaurants` → `prompts/berlin-restaurants/synthesis-run.md`
+   - `music-discovery` → `prompts/music-discovery/synthesis-run.md`
 
 **Do not** re-run Step 0 (push guard) from the per-type synthesis file — routing is already done.
 

@@ -29,12 +29,13 @@ from briefing_paths import (
 from cron_schedule import is_scheduled_on_date
 from prefetch_dates import resolve_inbox_date_key
 
-RESEARCH_SUFFIXES = ("-synthesis.json", "-raw.json")
+RESEARCH_SUFFIXES = ("-synthesis.json", "-raw.json", "-context.json")
 IGNORED_INBOX_SUFFIXES = (
     "-rss.json",
     "-wordpress.json",
     "-spend.json",
     "-spend-cap.error.txt",
+    "-taste-snapshot.md",  # companion to -context.json; not a separate trigger
 )
 INBOX_COMMIT_PREFIX = "inbox/"
 BRIEFING_EXISTS_SKIP_HOURS = 24
@@ -155,7 +156,7 @@ def evaluate_type(
     else:
         fresh = False
         for path in research_files:
-            if path.endswith("-synthesis.json"):
+            if path.endswith("-synthesis.json") or path.endswith("-context.json"):
                 full = REPO_ROOT / path
                 if built_at_within_hours(full, BRIEFING_EXISTS_SKIP_HOURS):
                     fresh = True
@@ -166,7 +167,7 @@ def evaluate_type(
                 f"Inbox changed but not a fresh pre-fetch for {type_id}",
                 tuple(research_files),
             )
-        fresh_reason = "synthesis.json built_at within 24h"
+        fresh_reason = "inbox payload built_at within 24h"
 
     for path in research_files:
         date_str = research_date_from_path(path)
@@ -183,7 +184,12 @@ def evaluate_type(
 
 
 def _type_priority(type_id: str) -> int:
-    order = {tid: idx for idx, tid in enumerate(("news", "berlin-culture", "berlin-restaurants"))}
+    order = {
+        tid: idx
+        for idx, tid in enumerate(
+            ("news", "berlin-culture", "berlin-restaurants", "music-discovery")
+        )
+    }
     return order.get(type_id, 99)
 
 
@@ -198,8 +204,14 @@ def detect_backup_trigger(date_str: str | None = None) -> TriggerDecision:
 
         synthesis_path = bt.inbox_path(inbox_date, "synthesis")
         raw_path = bt.inbox_path(inbox_date, "raw")
+        context_path = bt.inbox_dir / f"{inbox_date}-context.json"
         inbox_files: list[str] = []
-        if synthesis_path.exists():
+        if type_id == "music-discovery":
+            if context_path.exists():
+                inbox_files.append(str(context_path.relative_to(REPO_ROOT)))
+            else:
+                continue
+        elif synthesis_path.exists():
             inbox_files.append(str(synthesis_path.relative_to(REPO_ROOT)))
         elif raw_path.exists():
             inbox_files.append(str(raw_path.relative_to(REPO_ROOT)))
