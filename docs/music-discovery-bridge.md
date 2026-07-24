@@ -21,8 +21,8 @@ The Mac job is a **nice-to-have**. Friday cloud pre-fetch runs from whatever tas
 
 Committed under `state/music-discovery/taste-cache/`:
 
-- `context.json` — axes, recommendation `skip_list`, `library_skip`
-- `taste-snapshot.md` — agent-readable taste
+- `context.json` — axes, `known_labels`, `recent_taste`, recommendation `skip_list`, `library_skip`
+- `taste-snapshot.md` — agent-readable taste (includes Recent taste 24mo + Familiar labels)
 
 Seed / refresh locally:
 

@@ -32,6 +32,10 @@ Do **not** end with a "strongest bets" / "this week's listens" summary.
 
 Target: **6 featured + 4 compact**. Mix **new releases** and **older records that have aged well** (roughly half/half when the pool allows). Known artists and new-to-you names are both fine.
 
+### Featured split (mandatory)
+
+Among the **6 Featured** entries: exactly **3 club / DJ-floor** and **3 home listening**. Do not label modes in the briefing; enforce the balance in selection only. Genre line stays genre (not "DJ" / "home").
+
 ## Per-entry format (mandatory) — featured
 
 Use `##` (not `###`) so titles read larger in email.
@@ -70,9 +74,9 @@ Every featured entry needs an album cover image. Prefer Bandcamp `og:image`. Do 
 
 ### Link priority (mandatory)
 
-1. **Bandcamp** — prefer
-2. **YouTube / YouTube Music** — only **verified** album or song links
-3. **Spotify** — last resort only
+1. **Bandcamp** — prefer album/release URL (`/album/…`), not a single track, unless the featured item is a true single
+2. **YouTube / YouTube Music** — only **verified** links; prefer **album / release playlist** URLs over a single `watch?v=` / track URL. Use a song link only when the item is a single (or no album page exists)
+3. **Spotify** — last resort only; prefer album URI/URL over track
 4. **Never Apple Music**
 
 If YouTube cannot be verified, omit it.
@@ -85,20 +89,50 @@ If YouTube cannot be verified, omit it.
 - **Artist — Release** (*Label*, Year) — One sentence. <a href="…">… Bandcamp</a> · <a href="…">… YouTube</a>
 ```
 
-Exactly four bullets. Same link style as featured (favicon + name; Bandcamp + verified YouTube when available) but **no `Listen:` label** — links only after the sentence. Same **max one label** rule across the whole briefing. Compact: no cover, no Genre/Context/Dig blocks.
+Exactly four bullets. Same link style as featured (favicon + name; Bandcamp + verified YouTube when available) but **no `Listen:` label** — links only after the sentence. Same **max one label** rule across the whole briefing. Compact: no cover, no Genre/Context/Dig blocks. Album-first links apply here too.
 
 ## Selection rules
 
-1. **Ground in inbox taste** — snapshot, `skip_list`, and `library_skip` first.
+1. **Ground in inbox taste** — snapshot, `skip_list`, `library_skip`, `known_labels`, and `recent_taste` first. Weight **Recent taste (last 24 months)** over all-time crate counts.
 2. **Skip owned library** — do not feature (or include in More listening) releases that match `library_skip.albums` (Spotify saved albums, albums derived from Spotify liked songs, YT Music library albums/songs, Rekordbox-owned albums). Fuzzy-match artist + release titles.
-3. **Mix eras** — recent *and* time-tested records.
-4. **Max 1 entry per label** across featured + More listening.
-5. **Skip the recommendation log** — never recommend `skip_list` / cooldown entries.
-6. **Also skip** `state/music-discovery/releases_index.md` recent repeats.
-7. **Context over blurb** — drop candidates you cannot situate.
-8. **Variety** — diversify genre, geography, and era.
+3. **Familiar labels (≥15 tracks)** — labels in `known_labels` / snapshot "Familiar labels" go to **More listening**, not Featured, **unless** a trusted write-up singles out this release (see reception gate). Labels *below* the threshold (including sparse catalogue labels you already like) remain Featured-eligible.
+4. **Reception / age gate (Featured only)** — a Featured pick must be either:
+   - **≥ ~4 weeks** past release date, **or**
+   - backed by at least one **trusted write-up** (e.g. Resident Advisor, Bandcamp Daily, The Wire, Mixmag, Fact, Pitchfork when relevant, DJ Mag, or a credible specialist blog/newsletter).
+   Brand-new minor drops with no coverage → More listening or skip. More listening is not bound by this gate.
+5. **Captivation bar** — every Featured pick must clear: "Would I leave this playing?" See heuristics below. Club tools and generic floor fodder fail even if genre-fit is perfect.
+6. **Mix eras** — recent *and* time-tested records, but **demote canon / educational foundations** from Featured (e.g. obvious Drexciya/UR primers you already know the lineage of). Prefer those in More listening or Dig links; Featured aged-well picks should still feel like a *listen*, not a textbook.
+7. **Max 1 entry per label** across featured + More listening.
+8. **Skip the recommendation log** — never recommend `skip_list` / cooldown entries.
+9. **Also skip** `state/music-discovery/releases_index.md` recent repeats.
+10. **Context over blurb** — drop candidates you cannot situate.
+11. **Variety** — diversify genre, geography, and era. Keep the 3 club / 3 home Featured split.
+12. **Club bar is higher than home** — home can be quietly excellent; club Featured needs a hook, character, or arrangement you'd actually dig for a set.
 
-Avoid: chart-pop filler, Apple Music, search-only YouTube URLs, thin blurbs, repeating a label, recommending owned library albums.
+Avoid: chart-pop filler, Apple Music, search-only YouTube URLs, track-only YouTube when an album page exists, thin blurbs, repeating a label, recommending owned library albums, featuring familiar-label catalogue filler, Featured canon primers, functional DJ-tool 12"s with nothing to say.
+
+### Captivation heuristics (how to assess)
+
+No score model — apply this checklist at selection time. Prefer picks that pass most items; drop ones that fail the core question.
+
+**Core question:** Would a curious listener hit play and leave it on?
+
+**Prefer**
+- A distinctive sonic identity or through-line across the EP/LP (not four interchangeable club tools)
+- Memorable hook, atmosphere, vocal, or arrangement idea you can describe in one concrete sentence
+- Home: something you'd put on and leave running; Club: something with character you'd hunt for a set
+- Cohesive EP/LP; singles only when the *song* is the point
+
+**Demote / skip for Featured**
+- Anonymous peak-time utility, loop-first DJ tools, genre-box-ticking with no personality
+- "Fits your crate labels" as the only reason
+- Educational reissues / foundations you already know unless there's a fresh reason to listen *now*
+
+When unsure between two genre-fit candidates, pick the one with stronger identity or better write-up — not the one closest to a familiar imprint.
+
+### Trusted write-ups (for reception gate / familiar-label exception)
+
+Cite or paraphrase lightly in context when used as the exception. Do not invent reviews. If you cannot find coverage and the release is under ~4 weeks old, do not Featured it.
 
 ## Anti-repetition
 
@@ -115,6 +149,8 @@ python3 music-library/scripts/recommendation_memory.py log \
   --artist "..." --release "..." --label "..." --year YYYY \
   --bandcamp "..." --ytmusic "..."
 ```
+
+Library additions are reconciled automatically on taste sync (`sync_taste.py` → `reconcile`): recommended items that appear in Spotify/YT/Rekordbox become `saved` / `owned`. No manual feedback required.
 
 `state/music-discovery/` is briefing-side index only.
 

@@ -5,7 +5,7 @@ Single source of truth for the weekly music discovery synthesis agent.
 ## Cost discipline
 
 - **Single draft** after selection.
-- **Trust taste inbox** — axes and skip list come from the personal export bridge.
+- **Trust taste inbox** — axes, recent taste, known labels, and skip list come from the personal export bridge.
 - **Light discovery** — stop once you have 6 strong featured picks + 4 compact extras.
 - **Minimal turns:** Read inputs → select → write briefing → update state → commit → push → write back personal recommendation log (local path).
 
@@ -34,20 +34,26 @@ Local / manual runs may skip the push guard when the user explicitly asks to syn
 6. `inbox/music-discovery/YYYY-MM-DD-taste-snapshot.md`
 7. Optional taste-profile excerpt only if axes are thin
 
+Pay special attention to snapshot sections **Recent taste (24 months)** and **Familiar labels**, and context fields `recent_taste` / `known_labels`.
+
 ## Step 2 — Select
 
 1. Load `skip_list` — do not recommend matching entries.
 2. Load `library_skip.albums` — do not feature owned Spotify/YT/Rekordbox albums (fuzzy artist + release).
-3. Cross-check `releases_index.md`.
-4. Build a pool that **mixes recent and older (aged-well)** releases.
-5. Enforce **max 1 entry per label** across featured + More listening.
-6. Aim for **6 featured** + **4 More listening**.
-7. Every featured pick needs: italicized label in title, cover, Genre + Listen on the **same line**, blank line, unlabeled context paragraph, blank line, Dig (with one link).
-8. More listening: same compact favicon links (Bandcamp + verified YouTube when available), but **no `Listen:` label** — just the links after the sentence; italicize label names in the bold title segment.
-9. **YouTube only if verified**. Spotify last resort; never Apple Music.
-10. Internal table (do not commit):
+3. Load `known_labels` — demote to More listening unless trusted write-up exception.
+4. Weight `recent_taste` (Rekordbox 24mo + Spotify adds/listening) over all-time crate lists.
+5. Cross-check `releases_index.md`.
+6. Build a pool that **mixes recent and older (aged-well)** releases; demote canon primers from Featured.
+7. Enforce **max 1 entry per label** across featured + More listening.
+8. Aim for **6 featured** (**3 club + 3 home**) + **4 More listening**.
+9. Featured reception gate: **≥ ~4 weeks old OR trusted write-up**.
+10. Captivation bar: every Featured pick must pass "would I leave this playing?"
+11. Every featured pick needs: italicized label in title, cover, Genre + Listen on the **same line**, blank line, unlabeled context paragraph, blank line, Dig (with one link).
+12. More listening: same compact favicon links (Bandcamp + verified YouTube when available), but **no `Listen:` label** — just the links after the sentence; italicize label names in the bold title segment.
+13. **Album-first links** — Bandcamp `/album/…`; YouTube album/playlist over track; Spotify album last resort. Song links only for true singles. **YouTube only if verified**. Never Apple Music.
+14. Internal table (do not commit):
 
-   | slug | artist | release | label | year | era | genre | cover | bandcamp | youtube? | in_library? |
+   | slug | artist | release | label | year | era | mode (club/home) | known_label? | reception_ok? | captivating? | cover | bandcamp | youtube_album? | in_library? |
 
 Title: `# Music Discovery — Week of YYYY-MM-DD`.
 
@@ -67,3 +73,5 @@ Intro → six `##` featured entries → `## More listening` (4 bullets). No clos
 ## Step 5 — Write back recommendation memory (local path)
 
 From personal repo, log each featured pick (and optionally more-listening) via `recommendation_memory.py log` after the briefing is on `main`.
+
+Library uptake is detected later by `sync_taste.py` / `recommendation_memory.py reconcile` (auto `saved` / `owned`) — no manual mark step required from the reader.

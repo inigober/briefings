@@ -1,34 +1,621 @@
 {
-  "built_at": "2026-07-23T07:01:45.746534+00:00",
+  "built_at": "2026-07-24T09:43:05.316730+00:00",
   "briefing_type": "music-discovery",
-  "run_date": "2026-07-24",
+  "run_date": "2026-07-31",
   "source": {
-    "taste_snapshot_built_at": "2026-07-23T07:01:45.572315+00:00",
-    "recommendation_log_updated_at": "2026-07-08T16:40:26.114223+00:00",
+    "taste_snapshot_built_at": "2026-07-24T09:43:05.128992+00:00",
+    "recommendation_log_updated_at": "2026-07-24T09:42:39.752563+00:00",
     "taste_snapshot_md_exists": true,
-    "cached_at": "2026-07-23T07:18:48.876387+00:00",
     "role": "taste-cache"
   },
   "axes": [
     "DJ crate: House, Techno, Progressive House, Trance, Italo, Nu Disco, Electro, Ambient",
     "Label folders: Self-Released, Radiant Love, Permanent Vacation, Moustache Records, West Mineral Ltd, Haws, Running Back, Neotantra, Klasse Wrecks, Slow Motion Records, Italo Moderni, MFS",
     "Playlist themes: Ambient, Colourful Techno, Cosmic Disco",
+    "Recent DJ adds (24mo artists): Morphena & Narciss, Bliss Inc., Dj Babatr, UFO Space, Cromby, Spray, Eoin DJ, Aphex Twin, Floorplan, Eagles & Butterflies",
+    "Recent DJ adds (24mo genres): Progressive House, Electro, House, Trance, Techno, Tech House, Raptor House, Progressive Trance",
     "Listening now (Spotify 4w): Chico Blanco, Paranoid London, Domenique Dumont, Khotin, Area 3, Bitchin Bajas, Venda, Terekke",
-    "Home listening playlists: Warm Vibes, Mellow Tunes, Ambient, Home Listening: uplifting, easy, alt, Alt Chill"
+    "Home listening playlists: Warm Vibes, Mellow Tunes, Ambient, Home Listening: uplifting, easy, alt, Alt Chill",
+    "Recent Spotify adds (24mo artists): Os Tincoãs, Various Artists, Air, James William Blades, DJ CITY, keiyaA, Slowfoam, Iker Munduate, Destiny's Child, Tiga",
+    "Recent Spotify saved albums (24mo): Various Artists — Ritmo Fantasía: Balearic Spanish Synth-Pop, Boogie And House (1982-1992); Air — Moon Safari; James William Blades — Pare De Sufrir (Original Motion Picture Soundtrack); DJ CITY — Paris, Rome; Os Tincoãs — Os Tincoãs; keiyaA — Forever, Ya Girl"
   ],
+  "known_labels": [
+    {
+      "name": "Radiant Love",
+      "tracks": 70,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Permanent Vacation",
+      "tracks": 47,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Moustache Records",
+      "tracks": 33,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "West Mineral Ltd",
+      "tracks": 32,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Haws",
+      "tracks": 27,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Klasse Wrecks",
+      "tracks": 27,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Neotantra",
+      "tracks": 27,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Running Back",
+      "tracks": 27,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Slow Motion Records",
+      "tracks": 27,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Italo Moderni",
+      "tracks": 22,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "MFS",
+      "tracks": 22,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Jaime",
+      "tracks": 21,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "R&S Records",
+      "tracks": 21,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Shall Not Fade",
+      "tracks": 21,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Magicwire",
+      "tracks": 20,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Planet Euphorique",
+      "tracks": 20,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Underground Resistance",
+      "tracks": 19,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Love on the Rocks",
+      "tracks": 18,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Public Possession",
+      "tracks": 17,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Dark Entries",
+      "tracks": 16,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Dischi Autunno",
+      "tracks": 16,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Safe Trip",
+      "tracks": 16,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Bordello a Parigi",
+      "tracks": 15,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Kalahari Oyster Club",
+      "tracks": 15,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Phonica",
+      "tracks": 15,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "Transmat",
+      "tracks": 15,
+      "sources": [
+        "folder"
+      ]
+    },
+    {
+      "name": "ZYX Music",
+      "tracks": 15,
+      "sources": [
+        "folder"
+      ]
+    }
+  ],
+  "known_label_threshold": 15,
+  "recent_taste": {
+    "months": 24,
+    "rekordbox": {
+      "months": 24,
+      "track_count": 166,
+      "top_artists": [
+        {
+          "name": "Morphena & Narciss",
+          "count": 6
+        },
+        {
+          "name": "Bliss Inc.",
+          "count": 6
+        },
+        {
+          "name": "Dj Babatr",
+          "count": 5
+        },
+        {
+          "name": "UFO Space",
+          "count": 5
+        },
+        {
+          "name": "Cromby",
+          "count": 4
+        },
+        {
+          "name": "Spray",
+          "count": 4
+        },
+        {
+          "name": "Eoin DJ",
+          "count": 4
+        },
+        {
+          "name": "Aphex Twin",
+          "count": 3
+        },
+        {
+          "name": "Floorplan",
+          "count": 3
+        },
+        {
+          "name": "Eagles & Butterflies",
+          "count": 2
+        },
+        {
+          "name": "First Patrol",
+          "count": 2
+        },
+        {
+          "name": "Tenth Chapter",
+          "count": 2
+        },
+        {
+          "name": "Dylan Forbes",
+          "count": 2
+        },
+        {
+          "name": "Robert Dietz",
+          "count": 2
+        },
+        {
+          "name": "Proyecto Uno",
+          "count": 2
+        },
+        {
+          "name": "Livin' Joy",
+          "count": 2
+        },
+        {
+          "name": "Narciss",
+          "count": 2
+        },
+        {
+          "name": "Björk",
+          "count": 2
+        },
+        {
+          "name": "Maruwa & Younger Than Me",
+          "count": 2
+        },
+        {
+          "name": "Masalo",
+          "count": 2
+        },
+        {
+          "name": "Casco Presents BWH",
+          "count": 2
+        },
+        {
+          "name": "Aquarian",
+          "count": 1
+        },
+        {
+          "name": "Luca Lozano",
+          "count": 1
+        },
+        {
+          "name": "MCR-T",
+          "count": 1
+        },
+        {
+          "name": "Priori",
+          "count": 1
+        }
+      ],
+      "top_genres": [
+        {
+          "name": "Progressive House",
+          "count": 42
+        },
+        {
+          "name": "Electro",
+          "count": 14
+        },
+        {
+          "name": "House",
+          "count": 13
+        },
+        {
+          "name": "Trance",
+          "count": 12
+        },
+        {
+          "name": "Techno",
+          "count": 10
+        },
+        {
+          "name": "Tech House",
+          "count": 10
+        },
+        {
+          "name": "Raptor House",
+          "count": 6
+        },
+        {
+          "name": "Progressive Trance",
+          "count": 5
+        },
+        {
+          "name": "Chunker House",
+          "count": 4
+        },
+        {
+          "name": "Italo",
+          "count": 4
+        },
+        {
+          "name": "Nu Disco",
+          "count": 4
+        },
+        {
+          "name": "IDM",
+          "count": 4
+        },
+        {
+          "name": "Deep House",
+          "count": 3
+        },
+        {
+          "name": "Ghetto House",
+          "count": 3
+        },
+        {
+          "name": "Dub House",
+          "count": 2
+        }
+      ],
+      "top_labels": [
+        {
+          "name": "Haws",
+          "count": 27
+        },
+        {
+          "name": "Running Back",
+          "count": 9
+        },
+        {
+          "name": "Kalahari Oyster Club",
+          "count": 8
+        },
+        {
+          "name": "Punctuality",
+          "count": 6
+        },
+        {
+          "name": "Raptor Records",
+          "count": 6
+        },
+        {
+          "name": "Hypersoft",
+          "count": 6
+        },
+        {
+          "name": "Big Saldo's Chunkers",
+          "count": 5
+        },
+        {
+          "name": "Dischi Autunno",
+          "count": 5
+        },
+        {
+          "name": "SPC Discs",
+          "count": 5
+        },
+        {
+          "name": "NousKlaer Audio",
+          "count": 4
+        },
+        {
+          "name": "Safe Trip",
+          "count": 4
+        },
+        {
+          "name": "Magicwire",
+          "count": 4
+        },
+        {
+          "name": "TraTraTrax",
+          "count": 3
+        },
+        {
+          "name": "Live From Earth Klub",
+          "count": 3
+        },
+        {
+          "name": "Warp Records",
+          "count": 3
+        },
+        {
+          "name": "M-Plant",
+          "count": 3
+        },
+        {
+          "name": "Klasse Wrecks",
+          "count": 2
+        },
+        {
+          "name": "ZYX Music",
+          "count": 2
+        },
+        {
+          "name": "Jackpot",
+          "count": 2
+        },
+        {
+          "name": "Additive",
+          "count": 2
+        }
+      ]
+    },
+    "spotify": {
+      "months": 24,
+      "saved_albums": [
+        "Various Artists — Ritmo Fantasía: Balearic Spanish Synth-Pop, Boogie And House (1982-1992)",
+        "Air — Moon Safari",
+        "James William Blades — Pare De Sufrir (Original Motion Picture Soundtrack)",
+        "DJ CITY — Paris, Rome",
+        "Os Tincoãs — Os Tincoãs",
+        "keiyaA — Forever, Ya Girl",
+        "Slowfoam — Transcorporeal Portal",
+        "Iker Munduate — Argi Zantzuak"
+      ],
+      "liked_artists": [
+        {
+          "name": "Os Tincoãs",
+          "count": 3
+        },
+        {
+          "name": "Various Artists",
+          "count": 2
+        },
+        {
+          "name": "Air",
+          "count": 2
+        },
+        {
+          "name": "James William Blades",
+          "count": 2
+        },
+        {
+          "name": "DJ CITY",
+          "count": 2
+        },
+        {
+          "name": "keiyaA",
+          "count": 2
+        },
+        {
+          "name": "Slowfoam",
+          "count": 2
+        },
+        {
+          "name": "Iker Munduate",
+          "count": 2
+        },
+        {
+          "name": "Destiny's Child",
+          "count": 2
+        },
+        {
+          "name": "Tiga",
+          "count": 1
+        },
+        {
+          "name": "Ben Sterling",
+          "count": 1
+        },
+        {
+          "name": "DJ Lostboi",
+          "count": 1
+        },
+        {
+          "name": "Liquid",
+          "count": 1
+        },
+        {
+          "name": "Cocteau Twins",
+          "count": 1
+        },
+        {
+          "name": "OBK",
+          "count": 1
+        },
+        {
+          "name": "Barbara Butch",
+          "count": 1
+        },
+        {
+          "name": "Filterheadz",
+          "count": 1
+        },
+        {
+          "name": "Los Agentes Secretos",
+          "count": 1
+        },
+        {
+          "name": "Mariah",
+          "count": 1
+        },
+        {
+          "name": "Mercedes Sosa",
+          "count": 1
+        }
+      ],
+      "top_artists_4w": [
+        "Chico Blanco",
+        "Paranoid London",
+        "Domenique Dumont",
+        "Khotin",
+        "Area 3",
+        "Bitchin Bajas",
+        "Venda",
+        "Terekke"
+      ],
+      "top_artists_6mo": [
+        "Os Tincoãs",
+        "Air",
+        "Underworld",
+        "Roméo Poirier",
+        "Leif",
+        "The Creative Technology Consortium",
+        "Chico Blanco",
+        "Loveshadow",
+        "James William Blades",
+        "Domenique Dumont",
+        "Terekke",
+        "Saint Etienne",
+        "keiyaA",
+        "Khotin",
+        "Bitchin Bajas"
+      ]
+    },
+    "ytmusic_history": [
+      "Domenique Dumont — Merry-Go-Round",
+      "Domenique Dumont — People On Sunday",
+      "Jorge Ben Jor — Minha Teimosia, Uma Arma Pra Te Conquistar",
+      "Jorge Ben Jor — Magnólia",
+      "Jorge Ben Jor — Eu Vou Torcer",
+      "Jorge Ben Jor — Menina Mulher Da Pele Preta",
+      "Jorge Ben Jor — Errare Humanum Est",
+      "Jorge Ben Jor — O Homem Da Gravata Florida",
+      "Jorge Ben Jor — Os Alquimistas Estão Chegando Os Alquimistas",
+      "Lasso Doumbouya — A Photo",
+      "Bakary Kaba — Djanka Diabate - Serefoula (mamaya)",
+      "Fishback — Missia Saran Ten Fou",
+      "Aicha Koné — Aïcha Koné Décidé (Official Music Video)",
+      "Djeliya Info Arts Info  — Mah Kouyaté N'2 dans Cissé Bah",
+      "The Garifuna Collective — Mérua (feat. Umalali)"
+    ]
+  },
   "skip_list": [
     {
       "id": "ciel-mathis-ruffing-hot-squid",
       "artist": "Ciel & Mathis Ruffing",
       "release": "Hot Squid",
-      "status": "recommended",
+      "status": "owned",
       "recommended_at": "2026-07-08"
     },
     {
       "id": "sdk-simone-de-kunovich-summer-card",
       "artist": "SDK (Simone de Kunovich)",
       "release": "Summer Card",
-      "status": "recommended",
+      "status": "owned",
       "recommended_at": "2026-07-08"
     },
     {
@@ -42,7 +629,7 @@
       "id": "bliss-inc-the-cradle",
       "artist": "Bliss Inc.",
       "release": "The Cradle",
-      "status": "recommended",
+      "status": "owned",
       "recommended_at": "2026-07-08"
     },
     {
@@ -70,7 +657,7 @@
       "id": "shinetiac-infiltrating-roku-city",
       "artist": "Shinetiac",
       "release": "Infiltrating Roku City",
-      "status": "recommended",
+      "status": "saved",
       "recommended_at": "2026-07-08"
     },
     {

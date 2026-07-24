@@ -6,8 +6,9 @@ topics:
     enabled: true
     max_items: 6
     description: >
-      Six context-rich featured releases. Mix recent and older records that have
-      aged well. Diversify genre and label. Each entry states Genre (not DJ/home mode).
+      Six context-rich featured releases. Exactly 3 club/DJ-floor and 3 home listening
+      (balance in selection only; do not print mode labels). Mix recent and older records
+      that still captivate. Diversify genre and label. Each entry states Genre (not DJ/home mode).
 
   - id: more_listening
     name: More listening
@@ -16,13 +17,21 @@ topics:
     description: >
       Four compact one-sentence extras with favicon links only (no Listen label)
       (Bandcamp + verified YouTube when available). Same max-one-label rule.
+      Familiar labels (≥15 tracks) belong here unless a trusted write-up elevates them.
 
 preferences:
   target_featured: 6
   target_more_listening: 4
+  featured_club_count: 3
+  featured_home_count: 3
   run_weekday: Friday
-  era_mix: "roughly half recent / half aged-well when pool allows"
+  era_mix: "roughly half recent / half aged-well when pool allows; demote canon primers from Featured"
   max_entries_per_label: 1
+  known_label_track_threshold: 15
+  known_labels_featured_policy: "more_listening_unless_trusted_writeup"
+  featured_reception_gate: "release_age_gte_4_weeks_or_trusted_writeup"
+  weight_recent_taste_months: 24
+  captivation_bar: true
   featured_field_order:
     - genre
     - listen
@@ -30,14 +39,15 @@ preferences:
     - dig
   links:
     prefer:
-      - bandcamp
-      - youtube_verified_album_or_song
+      - bandcamp_album
+      - youtube_verified_album_prefer_over_track
     last_resort:
-      - spotify
+      - spotify_album
     never:
       - apple_music
       - youtube_search_urls
       - unverified_fan_uploads
+      - track_only_youtube_when_album_exists
   library_skip:
     sources:
       - spotify_saved_albums
@@ -64,3 +74,6 @@ rules:
     - Apple Music links
     - thin blurbs without context
     - featuring albums already in library_skip
+    - featuring familiar-label catalogue filler without trusted write-up
+    - featuring educational canon primers over captivating listens
+    - track-only listen links when an album/release URL exists
