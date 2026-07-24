@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-24
+
+- [Russia's biggest online retailer becomes target in Ukraine drone war](https://www.ft.com/content/5c9ae967-8e85-470f-974b-43667cc6f1c1?syn-25a6b1a6=1) — Financial Times
+- [Uniqlo to quintuple Indian outlets to over 100 within 5 years](https://asia.nikkei.com/business/retail/uniqlo-to-quintuple-indian-outlets-to-over-100-within-5-years) — Nikkei Asia
+- [Is Cuba Trump's Next Target?](https://foreignpolicy.com/2026/07/23/cuba-trump-venezuela-iran-ukraine/) — Foreign Policy
+- [Stock Slide Extends on AI Jitters, Oil Above $100: Markets Wrap](https://www.bloomberg.com/news/articles/2026-07-23/stock-market-today-dow-s-p-live-updates) — Bloomberg
+
 ## 2026-07-23
 
 - [Google burns through $6bn in cash as AI spending climbs again](https://www.ft.com/content/b02f972c-c764-4006-9377-42563d9d5530?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [The European Parliament's answer to its AI worries: More AI](https://www.politico.eu/article/the-european-parliaments-answer-to-its-ai-worries-more-ai/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [The Liberal Origins of the War Against the Deep State](https://foreignpolicy.com/2026/07/20/deep-state-liberal-origins-frank-church/) — Foreign Policy
 - [Last German bike helmet maker moves production to China](https://asia.nikkei.com/business/retail/last-german-bike-helmet-maker-moves-production-to-china) — Nikkei Asia
-
-## 2026-07-19
-
-- [Cairo's ambitious monorail reaches for China scale but lacks commuters](https://asia.nikkei.com/business/transportation/cairo-s-ambitious-monorail-reaches-for-china-scale-but-lacks-commuters) — Nikkei Asia
-- [Why 'rightwing' is no longer such a dirty word in Britain](https://www.ft.com/content/658e1eb4-2c33-4755-8f44-0261d24dd1b7?syn-25a6b1a6=1) — Financial Times
-- ['We are preserving a tradition': how Ghana's sensationalist film posters became collectible art](https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art) — The Guardian
-- [Kuwait Energy Infrastructure Hit During Intense Iran Attacks](https://www.bloomberg.com/news/articles/2026-07-18/kuwait-faces-intense-night-of-iranian-attacks-as-power-plant-hit) — Bloomberg
 
 ## Blocked until 5+ briefings have passed
 

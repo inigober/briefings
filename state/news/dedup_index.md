@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-24
+
+- **spain-madrid-avila-wildfire-national-emergency** — eldiario.es: government activates level-three command over Madrid and Ávila blazes after Ayuso requests federal takeover (section: spain)
+- **spain-mutualista-pasarela-seguridad-social-excludes-retirees** — eldiario.es: Congress finalises mutualista bridge to autónomo pensions but PP amendment bars already retired holders (section: spain)
+- **spain-trump-tariffs-60-countries-10-12-5** — EL PAÍS: Washington replaces expired universal duty with 10–12.5% country-specific tariffs including EU members (section: spain)
+- **germany-merz-cabinet-reshuffle-post-spahn** — Handelsblatt: chancellor installs Warken, Linnemann and rotates CDU leadership after health minister's resignation (section: germany)
+- **germany-us-tariffs-60-trade-partners-eu** — Tagesspiegel: Trump administration unveils replacement import duties as April tariff legal basis expires (section: germany)
+- **germany-merz-orcel-economic-narrative-critique** — Handelsblatt: morning briefing urges chancellor to copy Unicredit CEO's investor clarity on growth reform (section: germany)
+- **berlin-ostbeauftragte-corona-trust-breach** — Tagesspiegel: Eastern Commissioner Kaiser warns pandemic eroded democratic trust in eastern Germany (section: berlin)
+- **berlin-queer-parents-second-mother-adoption-gap** — rbb24: Berlin couple challenges parentage law leaving non-biological mothers without legal status (section: berlin)
+- **berlin-tegel-nursing-home-legionella-deaths** — rbb24: contaminated water at Tegel senior home prompts review of recent resident fatalities (section: berlin)
+- **world-intel-ai-datacentre-fastest-growth-15-years** — Financial Times: chipmaker posts 25% quarterly revenue jump on cloud AI processor demand (section: world)
+- **world-taiwan-foreign-satellite-rules-starlink** — Nikkei Asia: Taipei eases licensing for non-domestic telecom satellites including potential Starlink entry (section: world)
+- **world-angola-russian-spies-terrorism-sentences** — The Guardian: court jails two Russians over alleged coup plot and fuel-price protest organisation (section: world)
+
 ## 2026-07-23
 
 - **spain-valencia-pp-vox-prioridad-nacional-budget** — eldiario.es: PP-Vox inaugural Valencia budget enshrines "prioridad nacional" with Office of Settlement and Return (section: spain)
@@ -200,21 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-apple-openai-trade-secrets-lawsuit** — FT: Apple sues OpenAI alleging staff took confidential product information (section: world)
 - **world-venezuela-quake-4000-deaths** — Guardian: twin June earthquakes kill 4,118+ with thousands missing in La Guaira (section: world)
 - **world-mexico-us-cartel-capture-sovereignty-probe** — Guardian: Mexico investigates whether FBI participated inside territory in El Mayo Zambada seizure (section: world)
-
-## 2026-07-10
-
-- **spain-kitchen-rajoy-cospedal-audios-reopened** — eldiario.es: judge orders Internal Affairs to recover RAC1 recordings implicating Cospedal and Rajoy in Kitchen case ahead of 30 July trial end (section: spain)
-- **spain-pp-dependency-funding-vote-contradiction** — eldiario.es: PP regional governments vote against 50% central dependency-cost share despite years demanding it (section: spain)
-- **spain-los-gallardos-wildfire-fatalities** — EL PAÍS: at least 12 dead in Andalucía's deadliest wildfire this season near Los Gallardos (section: spain)
-- **germany-vw-blume-shrink-plan-shelved** — Handelsblatt: VW supervisory board has not approved CEO Blume's plant-closure and job-cut blueprint (section: germany)
-- **germany-enteignungsverbot-constitutional-debate** — Handelsblatt: coalition housing expropriation ban raises questions about circumventing Basic Law socialisation clause (section: germany)
-- **germany-coalition-reform-package-economist-split** — Handelsblatt podcast: Rürup and Hüther doubt agreed growth package can end stagnation without deeper supply-side reform (section: germany)
-- **berlin-wegner-cdu-internal-letter-crisis** — Berliner Zeitung: confidential CDU letter questions Wegner's viability as lead candidate after blackout affair (section: berlin)
-- **berlin-federal-enteignung-block-berlin-referendum** — Tagesspiegel: legal scholars say federal ban could override Berlin's voted path to socialise large landlords (section: berlin)
-- **berlin-lindemann-triathlon-comeback** — rbb24: Berlin-born triathlete returns to World Cup form targeting 2028 Olympics after motivation slump (section: berlin)
-- **world-openai-google-china-ai-export-loophole** — FT: US AI firms supplied models to blacklisted Chinese groups via Singapore subsidiaries (section: world)
-- **world-sk-hynix-record-us-listing** — FT: South Korean memory-chip maker raises $26.5bn in largest foreign US market debut (section: world)
-- **world-nigeria-fake-federal-agency-budget** — Guardian: fictitious agency allocated 1.3bn naira in 2026 budget triggers Tinubu investigation before January election (section: world)
 
 ## Saturated topics — do not return without material development
 
