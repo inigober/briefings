@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-25
+
+- [US lawmakers accuse Leon Black of acting in bad faith in Epstein probe](https://www.ft.com/content/31f846e0-ad3a-417b-8328-bfd14f3d4bad?syn-25a6b1a6=1) — Financial Times
+- [7-Eleven owner Seven & i drops plan to invest in Poland's top retailer](https://asia.nikkei.com/business/business-deals/7-eleven-owner-seven-i-drops-plan-to-invest-in-poland-s-top-retailer) — Nikkei Asia
+- [Ukraine's Cardboard Maidan Shows That the People Still Matter](https://foreignpolicy.com/2026/07/24/protest-fedorov-zelensky-firing-ukraine/) — Foreign Policy
+- [Riding the Greenland Ferry](https://foreignpolicy.com/2026/07/24/riding-the-greenland-ferry/) — Foreign Policy
+
 ## 2026-07-24
 
 - [Russia's biggest online retailer becomes target in Ukraine drone war](https://www.ft.com/content/5c9ae967-8e85-470f-974b-43667cc6f1c1?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [The 'Hair-Dryer Incident' Is Just the Start](https://www.theatlantic.com/technology/2026/07/prediction-market-outsider-trading/687975/?utm_source=feed) — The Atlantic
 - [Game giant Nexon's shares drop despite success of ARC Raiders](https://asia.nikkei.com/business/media-entertainment/game-giant-nexon-s-shares-drop-despite-success-of-arc-raiders) — Nikkei Asia
 - [Australia spent more than $9m for each asylum seeker held on Nauru last year – so why can't they afford to buy food?](https://www.theguardian.com/world/2026/jul/20/nauru-asylum-seeker-living-conditions-food-allowance-offshore-processing) — The Guardian
-
-## 2026-07-20
-
-- [Training AI models might be the chance for a workplace power play](https://www.ft.com/content/5ef2674d-0770-4713-8acf-c8b8f0995b5b?syn-25a6b1a6=1) — Financial Times
-- [The European Parliament's answer to its AI worries: More AI](https://www.politico.eu/article/the-european-parliaments-answer-to-its-ai-worries-more-ai/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [The Liberal Origins of the War Against the Deep State](https://foreignpolicy.com/2026/07/20/deep-state-liberal-origins-frank-church/) — Foreign Policy
-- [Last German bike helmet maker moves production to China](https://asia.nikkei.com/business/retail/last-german-bike-helmet-maker-moves-production-to-china) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 

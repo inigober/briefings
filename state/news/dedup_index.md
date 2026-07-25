@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-25
+
+- **spain-megafire-data-july-quincena-40-years** — EL PAÍS: satellite data show July's past fortnight ranks fourth-worst for large fires since 1983 as average blaze size doubles (section: spain)
+- **spain-eu-us-trade-deal-anniversary-trump-threats** — eldiario.es: Turnberry pact marks one year with 4.5% trade growth but Trump threatens retaliation over EU digital and green rules (section: spain)
+- **spain-trump-tariff-alternate-legal-bases-post-sc** — eldiario.es: administration searches obscure trade statutes to sustain tariffs after Supreme Court struck blanket duties (section: spain)
+- **germany-diw-oil-supply-europe-secured-100-dollar** — Handelsblatt: DIW economist says European oil supply remains secure despite Brent above $100 (section: germany)
+- **germany-dhl-heavy-package-two-person-delivery** — Handelsblatt: DHL proposes industry-wide two-person doorstep delivery for heavy e-commerce parcels (section: germany)
+- **germany-war-cultural-heritage-destruction-21st-century** — Tagesspiegel: photo essay documents UNESCO site damage from 21st-century wars and terror (section: germany)
+- **berlin-csd-demokratiefest-brandenburger-tor** — rbb24: Christopher Street Day opens with democracy rally at Brandenburg Gate ahead of parade (section: berlin)
+- **berlin-re1-frankfurt-oder-three-week-closure** — rbb24: RE1 regional express suspended between Berlin-Ostbahnhof and Frankfurt (Oder) for three weeks (section: berlin)
+- **berlin-polizist-autokauf-ueberfall-three-years** — rbb24: Berlin court sentences suspended officer to three years for armed fake-police dealership robbery (section: berlin)
+- **world-blackrock-meta-ai-bond-soft-demand** — Bloomberg: weak investor appetite for $12.3bn Meta data-centre bond signals AI capex scepticism (section: world)
+- **world-brazil-amazon-indigenous-organized-crime-hostage** — The Guardian: Indigenous leaders say armed groups hold villages hostage on Brazil-Peru border (section: world)
+- **world-india-banned-sikh-film-punjab-villages** — Nikkei Asia: proscribed Sikh activist documentary draws underground screenings in rural Punjab (section: world)
+
 ## 2026-07-24
 
 - **spain-madrid-avila-wildfire-national-emergency** — eldiario.es: government activates level-three command over Madrid and Ávila blazes after Ayuso requests federal takeover (section: spain)
