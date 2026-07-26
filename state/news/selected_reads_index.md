@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-26
+
+- [Albanese at odds with Labor policy which now says telehealth should be allowed for euthanasia consultations](https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese) — The Guardian
+- [Italy's defense minister offered adviser job to ousted Ukrainian defense chief](https://www.politico.eu/article/italys-defense-minister-offered-adviser-job-to-ousted-ukrainian-defense-chief/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [In Focus: Thai military builds Cambodia border wall](https://asia.nikkei.com/photos/in-focus-thai-military-builds-cambodia-border-wall) — Nikkei Asia
+- [Why workers are nostalgic for life before AI](https://www.ft.com/content/2ddef625-df80-4690-9475-f3ce86171593?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-07-25
 
 - [US lawmakers accuse Leon Black of acting in bad faith in Epstein probe](https://www.ft.com/content/31f846e0-ad3a-417b-8328-bfd14f3d4bad?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [The Aspen Security Forum Is the Land Time Forgot](https://foreignpolicy.com/2026/07/21/aspen-security-forum-geopolitics-foreign-policy-outdated-bubble-time-warp/) — Foreign Policy
 - [Yen falls to 39-year low of 163 per dollar on Iran tensions, Takaichi plan](https://asia.nikkei.com/business/markets/currencies/yen-falls-to-39-year-low-of-163-per-dollar-on-iran-tensions-takaichi-plan) — Nikkei Asia
 - [Healthy diet too expensive for one in three people globally, UN report finds](https://www.theguardian.com/global-development/2026/jul/21/healthy-diet-too-expensive-for-one-in-three-people-globally-un-report-finds) — The Guardian
-
-## 2026-07-21
-
-- [Pointers for Burnham on what Britain really wants](https://www.ft.com/content/c2b74307-569b-448b-a1e6-c73b64d7c90b) — Financial Times
-- [The 'Hair-Dryer Incident' Is Just the Start](https://www.theatlantic.com/technology/2026/07/prediction-market-outsider-trading/687975/?utm_source=feed) — The Atlantic
-- [Game giant Nexon's shares drop despite success of ARC Raiders](https://asia.nikkei.com/business/media-entertainment/game-giant-nexon-s-shares-drop-despite-success-of-arc-raiders) — Nikkei Asia
-- [Australia spent more than $9m for each asylum seeker held on Nauru last year – so why can't they afford to buy food?](https://www.theguardian.com/world/2026/jul/20/nauru-asylum-seeker-living-conditions-food-allowance-offshore-processing) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

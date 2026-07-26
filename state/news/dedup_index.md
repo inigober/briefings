@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-26
+
+- **spain-castellon-vall-uixo-15000-evacuated-beyond-extinction** — eldiario.es: La Vall d'Uixó blaze declared beyond extinction capacity forces evacuation of 15,000 people across 16 Castellón municipalities (section: spain)
+- **spain-madrid-forest-firefighters-labor-dispute-stoppage** — EL PAÍS: roughly 60 Madrid wildland crews in standoff with regional government over contracts during national megafire emergency (section: spain)
+- **spain-sanchez-final-mandate-no-budget-courts** — eldiario.es: Sánchez enters last mandate stretch without 2027 budget as regional financing and corruption trials set autumn agenda (section: spain)
+- **germany-grid-fees-2027-transmission-subsidy-cuts** — Handelsblatt: federal savings push may shift Energiewende network costs onto household power bills from 2027 (section: germany)
+- **germany-east-chemical-investment-pause-survey** — Handelsblatt: eastern chemical firms warn they are halting expansion plans amid energy and bureaucracy concerns (section: germany)
+- **germany-denmark-ai-journalism-public-funding-backlash** — Tagesspiegel: Copenhagen's state-backed "Projekt Y" AI news service draws outrage from established media (section: germany)
+- **berlin-csd-vehicle-attack-one-dead-tiergarten** — rbb24: car drives into crowd after Christopher Street Day celebrations, killing one woman as police hunt driver (section: berlin)
+- **berlin-jueterbog-former-military-site-wildfire** — rbb24: blaze on disused Bundeswehr terrain in Teltow-Fläming adds to Brandenburg summer fire alerts (section: berlin)
+- **berlin-brandenburg-wolf-cull-plan-limited** — Tagesspiegel: agriculture minister Mittelstädt says planned wolf shootings will not reach hundreds (section: berlin)
+- **world-us-korea-samsung-sk-nvidia-700bn-ai** — Nikkei Asia: Seoul and Washington unveil $700bn chip and data-centre investment package tying Korean fabs to US AI build-out (section: world)
+- **world-iran-ukraine-caspian-vessel-attack** — Financial Times: Tehran says Ukrainian strike on Caspian cargo ship killed sailor and urges EU to halt conflict spread (section: world)
+- **world-kenya-british-army-training-cancelled-jurisdiction** — The Guardian: UK scraps autumn exercise after Nairobi refuses defence pact without stronger prosecution rights over British troops (section: world)
+
 ## 2026-07-25
 
 - **spain-megafire-data-july-quincena-40-years** — EL PAÍS: satellite data show July's past fortnight ranks fourth-worst for large fires since 1983 as average blaze size doubles (section: spain)
@@ -215,21 +230,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-japan-ai-worker-incentives** — Nikkei Asia: Honda and peers pay bonuses to drive employee AI adoption (section: world)
 - **world-nigeria-zamfara-bandit-operation** — Guardian: army claims 300+ killed in two-day Zamfara counter-bandit operation (section: world)
 - **world-toronto-festival-shooting** — Guardian: two dead after gunmen exchange fire beside Salsa on St Clair street festival (section: world)
-
-## 2026-07-11
-
-- **spain-bishops-arguello-church-state-rupture** — eldiario.es: CEE president Argüello calls government "band of thieves" and ruptures informal détente with Sánchez (section: spain)
-- **spain-resco-wildfire-predictable-almeria** — EL PAÍS: fire engineer Resco says Almería catastrophe was foreseeable amid Europe's wildfire death toll exceeding terrorism (section: spain)
-- **spain-world-cup-semifinals-merino-belgium** — eldiario.es: Merino scores late as Spain reach first World Cup semifinal in 16 years (section: spain)
-- **germany-china-shock-2-industrial-rivalry** — Handelsblatt: China graduates from customer to rival across autos, machinery and chemicals (section: germany)
-- **germany-post-parcel-complaints-surge** — Handelsblatt: tens of thousands of consumer complaints over damaged or late parcels as e-commerce volumes climb (section: germany)
-- **germany-ai-agent-medical-research-automation** — Tagesspiegel: biomedical AI agent completes 60-hour literature review in 40 minutes (section: germany)
-- **berlin-supermarket-hostage-crisis** — Tagesspiegel: man holds woman hostage in south Berlin grocery store as police mount large operation (section: berlin)
-- **berlin-1-4m-non-voters-election** — rbb24: record 1.4 million Berlin residents without voting rights ahead of September Abgeordnetenhaus election (section: berlin)
-- **berlin-e-scooter-rental-liability-law** — rbb24: Bundestag tightens hire-firm liability after e-scooter accidents (section: berlin)
-- **world-apple-openai-trade-secrets-lawsuit** — FT: Apple sues OpenAI alleging staff took confidential product information (section: world)
-- **world-venezuela-quake-4000-deaths** — Guardian: twin June earthquakes kill 4,118+ with thousands missing in La Guaira (section: world)
-- **world-mexico-us-cartel-capture-sovereignty-probe** — Guardian: Mexico investigates whether FBI participated inside territory in El Mayo Zambada seizure (section: world)
 
 ## Saturated topics — do not return without material development
 
