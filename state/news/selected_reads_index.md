@@ -39,13 +39,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Trump Approves Nuclear Deal With Saudi Arabia](https://foreignpolicy.com/2026/07/22/trump-nuclear-deal-saudi-arabia-uranium-enrichment-gold-standard/) — Foreign Policy
 - [Foxconn EV chief says driverless technology to arrive sooner than expected](https://asia.nikkei.com/spotlight/nikkei-forum/global-digital-summit/global-digital-summit-2026/foxconn-ev-chief-says-driverless-technology-to-arrive-sooner-than-expected) — Nikkei Asia
 
-## 2026-07-22
-
-- [Where Did All the Computer-Science Professors Go?](https://www.theatlantic.com/technology/2026/07/ai-companies-hiring-academics/688002/?utm_source=feed) — The Atlantic
-- [The Aspen Security Forum Is the Land Time Forgot](https://foreignpolicy.com/2026/07/21/aspen-security-forum-geopolitics-foreign-policy-outdated-bubble-time-warp/) — Foreign Policy
-- [Yen falls to 39-year low of 163 per dollar on Iran tensions, Takaichi plan](https://asia.nikkei.com/business/markets/currencies/yen-falls-to-39-year-low-of-163-per-dollar-on-iran-tensions-takaichi-plan) — Nikkei Asia
-- [Healthy diet too expensive for one in three people globally, UN report finds](https://www.theguardian.com/global-development/2026/jul/21/healthy-diet-too-expensive-for-one-in-three-people-globally-un-report-finds) — The Guardian
-
 ## Blocked until 5+ briefings have passed
 
 - `english.elpais.com/.../spain-a-country-of-50-million-people...` (used 9 June, trimmed)

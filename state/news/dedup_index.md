@@ -231,21 +231,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-bangkok-nightclub-fire-27-dead** — Guardian: Bangkok pub blaze kills 27 with 22 critically injured in deadliest recent leisure-venue fire (section: world)
 - **world-wall-street-spacex-ipo-fee-bonanza** — FT: US banks harvest record fees from SpaceX IPO pipeline and mega-mergers (section: world)
 
-## 2026-07-12
-
-- **spain-vallejo-najera-gran-cruz-withdrawn** — eldiario.es: government strips Franco psychiatrist's top honour over republican-prisoner eugenic experiments (section: spain)
-- **spain-xenophobic-discourse-spiral** — EL PAÍS: year-long investigation traces hardening PP–Vox immigration rhetoric and social-media hostility (section: spain)
-- **spain-javier-negre-disinformation-network** — EL PAÍS: broadcaster built multinational propaganda business selling Trump and Milei access (section: spain)
-- **germany-o2-mass-layoffs** — Handelsblatt: Telefónica-owned carrier to cut roughly one in six jobs as unions attack planlessness (section: germany)
-- **germany-rente-pension-gap-data** — Handelsblatt: Bundestag figures document wide gap between statutory pensions and Beamten payouts (section: germany)
-- **germany-tempolimit-fatality-study** — Tagesspiegel: researchers estimate nationwide motorway cap could prevent up to 90 deaths annually (section: germany)
-- **berlin-marienfelde-hostage-resolved** — rbb24: SEK ends 11-hour Rewe standoff; prosecutors release suspect details (section: berlin)
-- **berlin-columbiabad-summer-reportage** — rbb24: holiday visit finds calmer Columbiabad despite violent reputation (section: berlin)
-- **berlin-wannsee-strandbad-accident** — rbb24: serious bather injury at Wannsee lido draws rescue helicopter (section: berlin)
-- **world-japan-ai-worker-incentives** — Nikkei Asia: Honda and peers pay bonuses to drive employee AI adoption (section: world)
-- **world-nigeria-zamfara-bandit-operation** — Guardian: army claims 300+ killed in two-day Zamfara counter-bandit operation (section: world)
-- **world-toronto-festival-shooting** — Guardian: two dead after gunmen exchange fire beside Salsa on St Clair street festival (section: world)
-
 ## Saturated topics — do not return without material development
 
 - Spain 50M population / infrastructure capacity / immigration-growth narrative (9–10 June)
