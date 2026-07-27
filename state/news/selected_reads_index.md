@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-27
+
+- [AI companies spend record sums on Washington lobbying](https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db?syn-25a6b1a6=1) — Financial Times
+- [Japan Inc.'s competitiveness issue isn't technology, it's management](https://asia.nikkei.com/spotlight/comment/japan-inc.-s-competitiveness-issue-isn-t-technology-it-s-management) — Nikkei Asia
+- [Andy Burnham and the New Manchesterism](https://foreignpolicy.com/2026/07/24/andy-burnham-britain-manchester-economics/) — Foreign Policy
+- [Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding](https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb) — The Guardian
+
 ## 2026-07-26
 
 - [Albanese at odds with Labor policy which now says telehealth should be allowed for euthanasia consultations](https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese) — The Guardian

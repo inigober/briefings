@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-27
+
+- **spain-megafire-153k-hectares-marlaska-history** — EL PAÍS: interior minister calls 2026 season most aggressive in Spain's history with 153,000 hectares burned, six times last year's pace (section: spain)
+- **spain-marbella-mayor-son-narco-eviction** — eldiario.es: mayor's son Alexander Broberg appeals forfeiture of chalet tied to stepbrother's nine-year narcotics sentence (section: spain)
+- **spain-guadalajara-restrictions-lifted-toledo-redeploy** — La Vanguardia: evacuees return as crews shift aircraft and heavy machinery to Toledo front (section: spain)
+- **germany-csd-gefaehrder-harder-line-debate** — Handelsblatt: federal parties demand tougher monitoring of Islamist threats after Berlin Pride vehicle attack (section: germany)
+- **germany-rent-affordability-survey-eighth-overstretched** — Handelsblatt: poll finds one in eight tenants living beyond means as homeownership stays unreachable (section: germany)
+- **germany-auto-40-hour-week-tariff-round** — Tagesspiegel: car bosses push longer hours ahead of wage talks; IG Metall warns underused plants make overtime job-killing (section: germany)
+- **berlin-csd-jugendstrafrecht-badeberg-review** — Tagesspiegel: justice senator Badenberg demands juvenile-sentencing review after suspect freed on probation (section: berlin)
+- **berlin-bvg-kurzzuege-crowding-igeb** — rbb24: passenger lobby IGEB criticises shorter U-Bahn sets on evenings and weekends (section: berlin)
+- **berlin-romania-land-registry-cyberattack-germany-risk** — Berliner Zeitung: Romanian cadastre offline since 22 July hack raises spillover concerns for German property systems (section: berlin)
+- **world-cxmt-chip-ipo-500-percent** — Financial Times: ChangXin Memory Technologies surges almost 500% in Shanghai debut on AI memory demand (section: world)
+- **world-hanson-faruqi-discrimination-appeal-lost** — The Guardian: Australian court upholds racial-discrimination finding against Pauline Hanson tweet (section: world)
+- **world-japan-inc-management-competitiveness** — Nikkei Asia: editorial argues Japanese firms lag on management culture not factory technology (section: world)
+
 ## 2026-07-26
 
 - **spain-castellon-vall-uixo-15000-evacuated-beyond-extinction** — eldiario.es: La Vall d'Uixó blaze declared beyond extinction capacity forces evacuation of 15,000 people across 16 Castellón municipalities (section: spain)
