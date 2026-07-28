@@ -1,17 +1,17 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-07-21",
-  "briefing_date": "2026-07-21",
-  "inbox_date": "2026-07-21",
-  "week_start": "2026-07-22",
-  "week_end": "2026-07-28",
+  "date": "2026-07-28",
+  "briefing_date": "2026-07-28",
+  "inbox_date": "2026-07-28",
+  "week_start": "2026-07-29",
+  "week_end": "2026-08-04",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-07-21.md",
-  "inbox_path": "inbox/berlin-culture/2026-07-21-synthesis.json",
-  "items_count": 12,
+  "briefing_path": "briefings/berlin-culture/2026-07-28.md",
+  "inbox_path": "inbox/berlin-culture/2026-07-28-synthesis.json",
+  "items_count": 10,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 3,
+    "exhibitions": 1,
     "film": 1,
     "performing_arts": 1,
     "music": 0,
@@ -21,11 +21,11 @@
   "thin_sections": ["exhibitions", "film", "performing_arts", "music"],
   "omitted_sections": [],
   "validation_warnings": [
-    "Section 'exhibitions' has 3 entries (style minimum 4)",
+    "Section 'exhibitions' has 1 entries (style minimum 4)",
     "Section 'film' has 1 entries (style minimum 2)",
     "Section 'performing_arts' has 1 entries (style minimum 2)",
     "Section 'music' has 0 entries (style minimum 3)"
   ],
   "verification_fetches": 5,
-  "notes": "Thin midsummer inbox (18 synthesis items). Spot-checked PSM exhibitions (Gentle Parenting, 40's — both close 24 July), Zilberman Unfold, Michaela Younge & Rhys Coren (EIGEN + ART Lab), wet wings finissage. Promoted Zilberman Unfold and Younge/Coren from last week's Advance Radar into main week. Kyiv Biennial cross-referenced in Exhibitions (overview tour Sat 25 Jul). Dropped Ben Klock (mainstream DJ), RESONANZEN Buchclub (Potsdam), sold-out Sunn O))) and fully booked THE LETTING GO."
+  "notes": "Thin late-July inbox (17 synthesis items). Spot-checked Holobionten (DITTRICH & SCHLECHTRIEM, closes 31 Jul), Marseille 1994 (Galerie Buchholz, closes 31 Jul — INDEX had wrong PSM venue), THE PRESSING (Radialsystem SENSE, Thu 30 Jul–Sun 2 Aug), Cloud Domination, Noé Duboutay/Bethanien. Promoted Cloud Domination and Duboutay from last week's Advance Radar. Corrected exhibition venues from INDEX spot-checks. Dropped Ben Klock (mainstream DJ), sold-out Sunn O))), fully booked THE LETTING GO. Music section omitted with explanatory note."
 }

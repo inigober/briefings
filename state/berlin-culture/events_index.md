@@ -75,3 +75,13 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-07-21 | wildcards | Paula Breuer — wet wings | Studio Hanniball | https://www.indexberlin.com/events/list/44934/wet-wings
 2026-07-21 | advance_radar | Arvin Arta — Cloud Domination | Galerie im Turm | https://www.indexberlin.com/events/list/44646/cloud-domination
 2026-07-21 | advance_radar | Performance by Noé Duboutay and Book Launch by Ruti de Vries | Künstlerhaus Bethanien | https://www.indexberlin.com/events/list/44622/performance-by-noe-duboutay-and-book-launch-by-ruti-de-vries
+2026-07-28 | top_picks | THE PRESSING | Radialsystem | https://www.radialsystem.de/en/veranstaltungen/the-pressing-dani-brown/
+2026-07-28 | top_picks | L'homme-vertige: Tales of a City | Kino Arsenal | https://www.arsenal-berlin.de/assets/Kino/PDFs/26-07_A5_arsenal_programm_Web.pdf
+2026-07-28 | top_picks | Bernhard Martin — Holobionten | DITTRICH & SCHLECHTRIEM | https://www.indexberlin.com/exhibitions/list/44351/holobionten
+2026-07-28 | exhibitions | Yuji Agematsu — Marseille 1994 | Galerie Buchholz | https://www.indexberlin.com/exhibitions/list/44125/marseille-1994
+2026-07-28 | film | 2001: A Space Odyssey | Kino Arsenal | https://www.arsenal-berlin.de/assets/Kino/PDFs/26-08_Kalendarium-Plakat_arsenal_A1_Web.pdf
+2026-07-28 | performing_arts | b12 summer 2026: Terras | DOCK 11 | https://dock11-berlin.de/en/theater/program/calendar/b12-sungrazers-terras
+2026-07-28 | wildcards | Arvin Arta — Cloud Domination | Galerie im Turm | https://www.indexberlin.com/events/list/44646/cloud-domination
+2026-07-28 | wildcards | Performance by Noé Duboutay and Book Launch by Ruti de Vries and Tracey Snelling | Künstlerhaus Bethanien | https://www.indexberlin.com/events/list/44622/performance-by-noe-duboutay-and-book-launch-by-ruti-de-vries-and-tracey-snelling
+2026-07-28 | advance_radar | Spätschicht x AL.Berlin | Gropius Bau | https://www.indexberlin.com/events/list/44543/spatschicht-x-al-berlin
+2026-07-28 | advance_radar | everybody | Georg Kolbe Museum | https://www.indexberlin.com/events/list/44363/everybody
