@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-28
+
+- **spain-ayuso-fire-management-withdrawal-photos** — eldiario.es: Madrid president steps back from emergency command while keeping high-profile fire-response appearances (section: spain)
+- **spain-state-pact-fires-blocked-pp** — EL PAÍS: podcast explores why PP calls for cooperation but refuses formal wildfire pact (section: spain)
+- **spain-48-hour-fire-limit-before-heatwave** — La Vanguardia: crews face two-day window to contain central Spain blaze before fourth summer heatwave (section: spain)
+- **germany-lufthansa-job-cuts-concrete** — Handelsblatt: airline group details post-pandemic layoffs as European wildfire aid flows (section: germany)
+- **germany-five-percent-threshold-papier** — Tagesspiegel: ex-constitutional court president Papier says Sperrklausel wastes 6.8m votes (section: germany)
+- **germany-online-pharmacy-guide** — Handelsblatt: explainer on legitimate digital dispensaries amid e-health regulation debate (section: germany)
+- **berlin-police-vans-a115-collision** — rbb24: six Polizeitransporter crash on Avus during morning rush (section: berlin)
+- **berlin-reed-islands-urban-cooling** — Tagesspiegel: ecologist plants underwater vegetation to cool lakes and shelter species (section: berlin)
+- **berlin-rolly-toys-insolvency-jobs** — Berliner Zeitung: Bavarian pedal-tractor maker closes after 60 years, 110 jobs at risk (section: berlin)
+- **world-asia-extreme-rainfall-floods** — The Guardian: deluges from Afghanistan to Taiwan highlight climate-driven flood risk (section: world)
+- **world-ai-chip-packaging-bottleneck** — Nikkei Asia: AT&S CEO says advanced packaging not wafer fabs is AI supply constraint (section: world)
+- **world-india-ethanol-protest-movement** — Financial Times: opponents of BJP ethanol-blend mandate adopt student-protest tactics (section: world)
+
 ## 2026-07-27
 
 - **spain-megafire-153k-hectares-marlaska-history** — EL PAÍS: interior minister calls 2026 season most aggressive in Spain's history with 153,000 hectares burned, six times last year's pace (section: spain)

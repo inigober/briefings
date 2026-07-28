@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-28
+
+- [Big Tech credit risks rise sharply as AI spending soars](https://www.ft.com/content/ac136522-ecc7-4262-8702-e0d636ea3099?syn-25a6b1a6=1) — Financial Times
+- [Is This What Comes After AI Slop?](https://www.theatlantic.com/technology/2026/07/daggermouth-novel-bestseller-ai/688067/?utm_source=feed) — The Atlantic
+- [Europe Must Learn From Ukraine's Example, Top EU Defense Official Says](https://foreignpolicy.com/2026/07/27/europe-eu-ukraine-defense-kubilius-interview-nato/) — Foreign Policy
+- [Japanese university startups develop AI robot arms for delicate tasks](https://asia.nikkei.com/business/technology/artificial-intelligence/japanese-university-startups-develop-ai-robot-arms-for-delicate-tasks) — Nikkei Asia
+
 ## 2026-07-27
 
 - [AI companies spend record sums on Washington lobbying](https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db?syn-25a6b1a6=1) — Financial Times
