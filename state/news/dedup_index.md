@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-29
+
+- **spain-valencia-fire-prevention-budget-cut-10-percent** — eldiario.es: PP–Vox regional government trims wildfire-prevention spending by €10m during national blaze emergency (section: spain)
+- **spain-fire-victim-70-percent-benefit-four-months** — La Vanguardia: Social Security explains new 70% wage benefit for workers sidelined by wildfires, payable up to four months (section: spain)
+- **spain-javea-volunteer-fire-brigade-minute-zero** — EL PAÍS: Alicante town fields trained civilian brigade including ex–9/11 firefighter for minute-zero response (section: spain)
+- **germany-bda-lost-decade-reform-warning** — Handelsblatt: employers' federation chief Dulger warns Germany risks a lost decade without faster structural reforms (section: germany)
+- **germany-vibrionen-early-season-two-deaths-rki** — Tagesspiegel: RKI reports two vibrion fatalities as warm-water bacterial season starts earlier than usual (section: germany)
+- **germany-tax-declaration-2025-deadline-enforcement** — Handelsblatt: finance offices threaten surcharges and estimated assessments after Friday filing deadline (section: germany)
+- **berlin-water-pricing-too-cheap-spree-scarcity** — Tagesspiegel: Brandenburg environment minister Mittelstädt says water tariffs undervalue drought stress on Spree basin (section: berlin)
+- **berlin-brandenburg-population-net-growth** — rbb24: official data show both capital and surrounding state recording net population gains (section: berlin)
+- **berlin-retirees-tax-repayments-half-affected** — Berliner Zeitung: tax advisers say nearly half of pensioners face additional income-tax bills averaging €1,326 (section: berlin)
+- **world-japan-kyushu-earthquake-13-dead-rescue** — The Guardian: 6.8-magnitude Kumamoto quake kills at least 13 as military mobilises thousands for aftershock rescue (section: world)
+- **world-kenya-amboseli-15-elephant-deaths-toxic** — The Guardian: Kenya Wildlife Service probes paralysis-linked deaths of 15 elephants in Amboseli park (section: world)
+- **world-zuckerberg-us-should-not-ban-chinese-ai** — Financial Times: Meta chief warns against regulatory capture if Washington bans Chinese frontier models (section: world)
+
 ## 2026-07-28
 
 - **spain-ayuso-fire-management-withdrawal-photos** — eldiario.es: Madrid president steps back from emergency command while keeping high-profile fire-response appearances (section: spain)

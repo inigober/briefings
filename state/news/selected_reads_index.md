@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-29
+
+- [Ukraine adapts strikes on Russian energy industry to hit critical components](https://www.ft.com/content/5ca782bd-5c4a-45f8-9a7a-5793d800321d?syn-25a6b1a6=1) — Financial Times
+- [The Worst Way to Regulate AI](https://www.theatlantic.com/ideas/2026/07/white-house-ai-regulation/688088/?utm_source=feed) — The Atlantic
+- [Why Putin Will Escalate](https://foreignpolicy.com/2026/07/28/why-putin-will-escalate/) — Foreign Policy
+- [BTS comeback lifts South Korea's Hybe back into the black](https://asia.nikkei.com/business/media-entertainment/bts-comeback-lifts-south-korea-s-hybe-back-into-the-black) — Nikkei Asia
+
 ## 2026-07-28
 
 - [Big Tech credit risks rise sharply as AI spending soars](https://www.ft.com/content/ac136522-ecc7-4262-8702-e0d636ea3099?syn-25a6b1a6=1) — Financial Times
