@@ -47,3 +47,10 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-07-23 | Tadım Ocakbaşı | Kreuzberg | https://maps.google.com/?cid=10551158945982739868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-23 | Et Dünyasi by Ehli-Kebap | Wedding | https://maps.google.com/?cid=11171700186475783066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-23 | hallmann & klee | Neukölln | https://maps.google.com/?cid=25938203877987709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-30 | Holly China Restaurant | Charlottenburg | https://maps.google.com/?cid=4307595915358650379&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-30 | Good Friends | Charlottenburg | https://maps.google.com/?cid=7076436058078775098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-30 | Papaya Mum | Wilmersdorf | https://maps.google.com/?cid=15424834162655154313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-30 | Stari Most | Kreuzberg | https://maps.google.com/?cid=8108682057558702365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-30 | Kalaja | Neukölln | https://maps.google.com/?cid=16472975814862251907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-30 | Prizreni Qebaptore | Neukölln | https://maps.google.com/?cid=1220766494754305012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-07-30 | Barra | Neukölln | https://maps.google.com/?cid=15461423447321715949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
