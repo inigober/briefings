@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-30
+
+- [The OpenAI Hack Shows the Genie Is Out of the Bottle](https://foreignpolicy.com/2026/07/30/openai-hack-genie-bottle-defense/) — Foreign Policy
+- [AI supplier Innolight dips in Asia's second-biggest listing of 2026](https://asia.nikkei.com/business/markets/ipo/ai-supplier-innolight-dips-in-asia-s-second-biggest-listing-of-20262) — Nikkei Asia
+- [BPO firm Teleperformance to open 1st Vietnam site as AI changes outsourcing](https://asia.nikkei.com/editor-s-picks/interview/bpo-firm-teleperformance-to-open-1st-vietnam-site-as-ai-changes-outsourcing) — Nikkei Asia
+- [Summer of Heat, Fires and Storms Is a Reckoning for Europe on Climate](https://www.nytimes.com/2026/07/29/world/europe/summer-heat-wave-fires-climate-change.html) — The New York Times
+
 ## 2026-07-29
 
 - [Ukraine adapts strikes on Russian energy industry to hit critical components](https://www.ft.com/content/5ca782bd-5c4a-45f8-9a7a-5793d800321d?syn-25a6b1a6=1) — Financial Times
@@ -31,27 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Italy's defense minister offered adviser job to ousted Ukrainian defense chief](https://www.politico.eu/article/italys-defense-minister-offered-adviser-job-to-ousted-ukrainian-defense-chief/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [In Focus: Thai military builds Cambodia border wall](https://asia.nikkei.com/photos/in-focus-thai-military-builds-cambodia-border-wall) — Nikkei Asia
 - [Why workers are nostalgic for life before AI](https://www.ft.com/content/2ddef625-df80-4690-9475-f3ce86171593?syn-25a6b1a6=1) — Financial Times
-
-## 2026-07-25
-
-- [US lawmakers accuse Leon Black of acting in bad faith in Epstein probe](https://www.ft.com/content/31f846e0-ad3a-417b-8328-bfd14f3d4bad?syn-25a6b1a6=1) — Financial Times
-- [7-Eleven owner Seven & i drops plan to invest in Poland's top retailer](https://asia.nikkei.com/business/business-deals/7-eleven-owner-seven-i-drops-plan-to-invest-in-poland-s-top-retailer) — Nikkei Asia
-- [Ukraine's Cardboard Maidan Shows That the People Still Matter](https://foreignpolicy.com/2026/07/24/protest-fedorov-zelensky-firing-ukraine/) — Foreign Policy
-- [Riding the Greenland Ferry](https://foreignpolicy.com/2026/07/24/riding-the-greenland-ferry/) — Foreign Policy
-
-## 2026-07-24
-
-- [Russia's biggest online retailer becomes target in Ukraine drone war](https://www.ft.com/content/5c9ae967-8e85-470f-974b-43667cc6f1c1?syn-25a6b1a6=1) — Financial Times
-- [Uniqlo to quintuple Indian outlets to over 100 within 5 years](https://asia.nikkei.com/business/retail/uniqlo-to-quintuple-indian-outlets-to-over-100-within-5-years) — Nikkei Asia
-- [Is Cuba Trump's Next Target?](https://foreignpolicy.com/2026/07/23/cuba-trump-venezuela-iran-ukraine/) — Foreign Policy
-- [Stock Slide Extends on AI Jitters, Oil Above $100: Markets Wrap](https://www.bloomberg.com/news/articles/2026-07-23/stock-market-today-dow-s-p-live-updates) — Bloomberg
-
-## 2026-07-23
-
-- [Google burns through $6bn in cash as AI spending climbs again](https://www.ft.com/content/b02f972c-c764-4006-9377-42563d9d5530?syn-25a6b1a6=1) — Financial Times
-- [US officials threaten to sanction Chinese AI startups after Moonshot release](https://asia.nikkei.com/business/technology/artificial-intelligence/us-officials-threaten-to-sanction-chinese-ai-startups-after-moonshot-release) — Nikkei Asia
-- [Trump Approves Nuclear Deal With Saudi Arabia](https://foreignpolicy.com/2026/07/22/trump-nuclear-deal-saudi-arabia-uranium-enrichment-gold-standard/) — Foreign Policy
-- [Foxconn EV chief says driverless technology to arrive sooner than expected](https://asia.nikkei.com/spotlight/nikkei-forum/global-digital-summit/global-digital-summit-2026/foxconn-ev-chief-says-driverless-technology-to-arrive-sooner-than-expected) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 

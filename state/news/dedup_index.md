@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-30
+
+- **spain-ayuso-chamberi-atico-residential-zoning-block** — EL PAÍS: Madrid planning code bars regional government's luxury Chamberí penthouse from use as claimed temporary office (section: spain)
+- **spain-sanchez-mallorca-eu-wildfire-hub-bid** — eldiario.es: PM asks von der Leyen to locate western-Mediterranean firefighting coordination centre at Son Sant Joan air base (section: spain)
+- **spain-morocho-pp-podemos-dirty-war-testimony** — eldiario.es: inspector who probed PP caja B to testify on internal harassment campaign against Podemos (section: spain)
+- **germany-deutsche-bahn-core-profit-h1** — Handelsblatt: state rail group reportedly returns to surplus on main operations despite punctuality crisis (section: germany)
+- **germany-autonomous-driving-highway-urban-gap** — Handelsblatt: OEMs near motorway autopilot while EU urban robotaxi rules lag Chinese deployment (section: germany)
+- **germany-berlin-rural-reverse-migration-mecklenburg** — Tagesspiegel: former Berlin resident renovates village home on Mecklenburg lake plateau (section: germany)
+- **berlin-zug-der-liebe-cancelled-csd-security** — rbb24: love-train parade called off after deadly post-CSD vehicle attack (section: berlin)
+- **berlin-tamara-danz-commemorative-coin** — rbb24: Bundesmint honours Silly singer with limited silver collectors' edition (section: berlin)
+- **berlin-brosius-gersdorf-plagiarism-complaint-dismissed** — rbb24: Potsdam review finds no merit in claims against Brandenburg constitutional judge (section: berlin)
+- **world-bytedance-ai-expansion-strategy** — Financial Times: TikTok parent redirects capital toward large-language-model build-out (section: world)
+- **world-spacex-chinese-supply-chain-exclusion** — Nikkei Asia: rocket firm tightens rules to purge Chinese-linked staff and components (section: world)
+- **world-korea-retail-investors-ai-chip-selloff** — Financial Times: leveraged households face steep losses as Samsung and SK Hynix shares tumble (section: world)
+
 ## 2026-07-29
 
 - **spain-valencia-fire-prevention-budget-cut-10-percent** — eldiario.es: PP–Vox regional government trims wildfire-prevention spending by €10m during national blaze emergency (section: spain)
@@ -215,51 +230,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-ontario-wildfires-toronto-air** — Guardian: 100+ Ontario blazes push Toronto to world's worst air quality with smoke reaching US north-east (section: world)
 - **world-west-africa-flood-attribution** — Guardian: scientists attribute last month's coastal West African floods to climate-intensified rainfall (section: world)
 - **world-nvidia-toyota-woven-city-ai** — Nikkei Asia: Nvidia partners with Toyota's Woven City testbed for physical AI and robotics deployment (section: world)
-
-## 2026-07-15
-
-- **spain-david-sanchez-prevaricacion-sentence** — eldiario.es: Badajoz court convicts PM's brother for prevaricación over plaza renaming but absolves tráfico de influencias; nine-year ban appealable (section: spain)
-- **spain-world-cup-final-france-semifinal** — eldiario.es: Spain beats France 2–0 to reach second World Cup final 16 years after first amid Rajoy diplomatic row (section: spain)
-- **spain-us-telemundo-english-viewers** — eldiario.es: Nielsen shows nearly half of US World Cup viewers watch Spanish-language Telemundo, including English-only households (section: spain)
-- **germany-merz-summer-pressekonferenz** — Handelsblatt: chancellor faces Berlin summer press conference buoyed by reform package but weak polls (section: germany)
-- **germany-zf-auto-worker-privileges-crisis** — Handelsblatt: supplier restructuring revives debate on whether auto staff must surrender legacy wage perks (section: germany)
-- **germany-north-sea-rocket-launch-ship** — Handelsblatt: floating offshore launch platform scouts berths beyond German waters for small-satellite missions (section: germany)
-- **berlin-kriminaltechnisches-institut-johannisthal** — rbb24: Berlin police building central forensic institute to consolidate DNA and digital evidence labs (section: berlin)
-- **berlin-wegner-political-end-chronicle** — Berliner Zeitung: retrospective traces mayor's collapse after January blackout and CDU succession to Evers (section: berlin)
-- **berlin-ddr-museum-20-years** — Tagesspiegel: Mitte DDR Museum marks two decades with Trabi simulator and Plattenbau apartment exhibit (section: berlin)
-- **world-trump-science-grant-politicisation** — FT: proposed rules let political appointees vet US research grants for presidential priorities (section: world)
-- **world-oracle-japan-air-gapped-cloud** — FT: Oracle leads bid to host Japan's top-secret workloads on isolated cloud architecture (section: world)
-- **world-delhi-ev-air-pollution-push** — Nikkei Asia: Indian capital expands EV incentives to tackle severe urban particulate levels (section: world)
-
-## 2026-07-14
-
-- **spain-dependency-reform-6200m-vote** — eldiario.es: Congress approves €6.2bn twin reforms shifting care from institutions to universal home-based ageing (section: spain)
-- **spain-budget-stability-path-defeat-2027** — eldiario.es: Junts, PP and Vox set to reject stability path yet government vows to govern through 2027 (section: spain)
-- **spain-foreign-doctors-one-in-ten** — EL PAÍS: more than 30,000 foreign-born colegiados, mostly Latin American, staff Spanish hospitals often without homologated specialties (section: spain)
-- **germany-china-export-surge-june-trade** — Handelsblatt: Chinese exports to Germany jumped sharply in June as German shipments to China rose only marginally (section: germany)
-- **germany-conscientious-objector-surge-wehrdienst** — Tagesspiegel: Kriegsdienstverweigerung filings climb well above prior year after new Wehrdienst law (section: germany)
-- **germany-pflegefachassistenz-2027-training** — Handelsblatt: nationwide Pflegefachassistenz qualification from 2027 standardises Quereinstieg into nursing (section: germany)
-- **berlin-evers-cdu-spitzenkandidat-elected** — rbb24: finance senator Stefan Evers chosen as CDU lead candidate for September Abgeordnetenhaus election (section: berlin)
-- **berlin-bvg-waisentunnel-groundbreaking** — rbb24: BVG breaks ground on Waisentunnel rebuild after eight-year closure near Jannowitzbrücke (section: berlin)
-- **berlin-justice-it-outage-digital-akten** — rbb24: Berlin courts lose access to digital case files in severe Monday IT outage (section: berlin)
-- **world-japan-russia-espionage-hub-response** — Guardian: Tokyo pledges tougher counter-intelligence after NYT report on Russia using Japan as spy and procurement hub (section: world)
-- **world-mexico-ice-migrant-death-complaints** — Guardian: Sheinbaum to file US criminal complaints over Mexican migrant deaths in ICE operations including Houston shooting (section: world)
-- **world-us-iran-phone-tracking-military** — FT: ad-tech and roaming data exploited to geolocate US personnel during Iran conflict (section: world)
-
-## 2026-07-13
-
-- **spain-tjue-amnesty-ruling-thursday** — eldiario.es: CJEU judgment due Thursday on procés amnesty law with Constitutional Court waiting to rule on Puigdemont appeals (section: spain)
-- **spain-feijoo-pp-income-concealment** — eldiario.es: Feijóo and PP leadership fail to disclose party stipends to Congress until after 2027 election (section: spain)
-- **spain-mostoles-pp-mayor-harassment-imputation** — EL PAÍS: Móstoles PP mayor Manuel Bautista imputed for sexual and workplace harassment of former councillor (section: spain)
-- **germany-linde-russia-bank-litigation** — Handelsblatt: Deutsche Bank, HVB and Commerzbank sue Linde over hundreds of millions in collapsed Russia-project guarantees (section: germany)
-- **germany-spd-foi-law-rebellion** — Tagesspiegel: senior SPD leaders break with coalition plan to gut Informationsfreiheitsgesetz (section: germany)
-- **germany-illegal-telemarketing-surge** — Handelsblatt: consumer agencies report rising illegal cold calls for gambling and energy tariffs (section: germany)
-- **berlin-it-dienstleister-borelli-corruption-probe** — Tagesspiegel: external auditor investigates corruption claims against Berlin IT agency chief over sole-source contracts (section: berlin)
-- **berlin-evers-austerity-krach-school-meals** — Berliner Zeitung: CDU candidate Evers opens campaign with spending cuts; SPD's Krach attacks school-lunch threat (section: berlin)
-- **berlin-linke-candidate-caucus-preview** — Tagesspiegel: profiles possible 30+ Linke deputies as party leads pre-election polls (section: berlin)
-- **world-india-chinese-llm-cost-shift** — Nikkei Asia: Indian firms pilot Chinese LLMs as US API bills climb (section: world)
-- **world-bangkok-nightclub-fire-27-dead** — Guardian: Bangkok pub blaze kills 27 with 22 critically injured in deadliest recent leisure-venue fire (section: world)
-- **world-wall-street-spacex-ipo-fee-bonanza** — FT: US banks harvest record fees from SpaceX IPO pipeline and mega-mergers (section: world)
 
 ## Saturated topics — do not return without material development
 
