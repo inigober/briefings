@@ -75,7 +75,7 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-07-21 | wildcards | Paula Breuer — wet wings | Studio Hanniball | https://www.indexberlin.com/events/list/44934/wet-wings
 2026-07-21 | advance_radar | Arvin Arta — Cloud Domination | Galerie im Turm | https://www.indexberlin.com/events/list/44646/cloud-domination
 2026-07-21 | advance_radar | Performance by Noé Duboutay and Book Launch by Ruti de Vries | Künstlerhaus Bethanien | https://www.indexberlin.com/events/list/44622/performance-by-noe-duboutay-and-book-launch-by-ruti-de-vries
-2026-07-28 | top_picks | THE PRESSING | Radialsystem | https://www.radialsystem.de/en/veranstaltungen/the-pressing-dani-brown/
+2026-07-28 | top_picks | THE PRESSING | Radialsystem | https://www.radialsystem.de/en/veranstaltungen/the-pressing-2026/
 2026-07-28 | top_picks | L'homme-vertige: Tales of a City | Kino Arsenal | https://www.arsenal-berlin.de/assets/Kino/PDFs/26-07_A5_arsenal_programm_Web.pdf
 2026-07-28 | top_picks | Bernhard Martin — Holobionten | DITTRICH & SCHLECHTRIEM | https://www.indexberlin.com/exhibitions/list/44351/holobionten
 2026-07-28 | exhibitions | Yuji Agematsu — Marseille 1994 | Galerie Buchholz | https://www.indexberlin.com/exhibitions/list/44125/marseille-1994

@@ -35,14 +35,18 @@ If triggered by a git push to `main`:
 From the synthesis inbox:
 
 1. Apply Tuesday briefing rule (events Wed → following Mon/Tue, or exhibitions open through Wed).
-2. **Trust `verified: true`** — pre-fetch confirmed a deep event/exhibition URL plus concrete dates/times. Include without fetching.
+2. **Trust `verified: true` for reachability** — pre-fetch confirmed a deep event/exhibition URL plus concrete dates/times. Still apply the year check below for Top Picks.
 3. **Browse only when required** — fetch `official_url` once, only for picks you plan to include that lack `verified: true` **or** match any of:
-   - **Top Picks** (always spot-check if not verified)
+   - **Top Picks** (always spot-check — including verified items — for page year/dates)
    - `closing_soon: true` and not verified
    - Vague `dates` or `times` (e.g. "TBA", "various", "check website")
    - `official_url` looks like a homepage only (path is `/`, `/en`, or one shallow segment)
-4. Drop items that fail a spot-check. Do **not** browse to find replacements.
-5. Build a **selection table** (internal — do not commit this table) before drafting:
+4. **Year / archive guard (mandatory):** When you fetch a page, confirm on-page event dates.
+   - Prior-year archive page (e.g. July 2022 while briefing is 2026) → **drop**. Never rewrite dates forward into this week.
+   - Current-year dates outside Wed–Tue → **Advance Radar** with the page’s real dates, or drop — do not invent in-week dates.
+   - Prefer year-in-path URLs (`…/event-2026/`) over older archive slugs for the same show.
+5. Drop items that fail a spot-check. Do **not** browse to find replacements.
+6. Build a **selection table** (internal — do not commit this table) before drafting:
 
    | event_key | venue | series_id | section | notes |
    |-----------|-------|-----------|---------|-------|
@@ -56,13 +60,13 @@ From the synthesis inbox:
 
    Use inbox `series_id` and `event_kind` when present. Prefer `festival_event` / `single` items over `festival_overview` for section fills.
 
-6. Apply venue diversification (~15–20% cap per venue) and **one event, one slot** (style rule).
-7. Check `events_index.md` — skip repeats unless materially new.
-8. Select final counts per section (see style rule). Compose **Top Picks** from the strongest items across sections — Top Picks must not be re-written as full entries elsewhere.
-9. **Thin-week fallback** when a section is under target (see style rule): promote `advance_radar` into the week, omit the section, or cross-reference — never pad with duplicates or festival splits.
-10. **Advance Radar** only if genuinely relevant; omit section otherwise.
+7. Apply venue diversification (~15–20% cap per venue) and **one event, one slot** (style rule).
+8. Check `events_index.md` — skip repeats unless materially new.
+9. Select final counts per section (see style rule). Compose **Top Picks** from the strongest items across sections — Top Picks must not be re-written as full entries elsewhere.
+10. **Thin-week fallback** when a section is under target (see style rule): promote `advance_radar` into the week, omit the section, or cross-reference — never pad with duplicates or festival splits.
+11. **Advance Radar** only if genuinely relevant; omit section otherwise.
 
-Target: **≤5 URL fetches** per weekly run (typically Top Picks + closing-soon only).
+Target: **≤5 URL fetches** per weekly run (typically Top Picks + closing-soon only). Top Pick year checks count toward this budget.
 
 Title: `# Berlin Culture Briefing — Week of {start}–{end}, {year}` using `week_start` / `week_end` from inbox JSON when present.
 

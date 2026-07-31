@@ -108,9 +108,15 @@ After writing: append events to `events_index.md`; trim entries older than 8 wee
 
 ## Verification (light)
 
-Pre-fetch sets `"verified": true` on inbox items with a deep event/exhibition URL and concrete dates/times. **Trust verified items** — do not re-fetch.
+Pre-fetch sets `"verified": true` on inbox items with a deep event/exhibition URL and concrete dates/times. **Trust verified items** for URL reachability — do not re-fetch casually.
 
-**Spot-check by fetching `official_url` only when:**
+**Year / archive spot-check (mandatory for Top Picks):** Even when `verified: true`, fetch `official_url` once for every Top Pick and confirm the **page’s event dates match the briefing year and week**.
+
+- If the page shows a **prior year** (e.g. Radialsystem archive dated July 2022) → **drop** the pick. Do not rewrite dates forward into the current week.
+- If the page shows **current-year dates outside Wed–Tue** (e.g. 6–9 August when the week is 29 July–4 August) → move to **Advance Radar** with the page’s real dates, or drop — never invent in-week dates.
+- Prefer year-in-path URLs when venues publish both archive and current pages (`…/the-pressing-2026/` over `…/the-pressing-dani-brown/`).
+
+**Also spot-check by fetching `official_url` when:**
 - The pick is in **Top Picks** and `verified` is not true
 - `closing_soon` is true and `verified` is not true
 - Dates/times are vague, or the URL looks like a venue homepage

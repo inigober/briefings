@@ -67,9 +67,21 @@ Use bullet items, not `###` headings:
 Summary paragraph. ([Publisher][N])
 ```
 
-**Default: no annotation.** The summary must stand alone (≤2 sentences).
+**Default: no annotation.** The summary must stand alone (≤2 sentences; prefer **1**).
 
-**Optional 💡 (max 4 per briefing):** Add a single 💡 line only when the story passes the annotation gate below. Never add 🧩.
+**Embedded context (mandatory — Economist "World in Brief" style):** Assume the reader does not already know the topic. Fold a short **primer fragment** into the same summary sentence — who/what the actor or issue is, then the news beat. Do **not** add a second background paragraph or lengthen the entry.
+
+- Lead with the stake or identity clause, then the development.
+- Ban unexplained jargon, unexplained acronyms, and "Publisher reports X happened" with no framing.
+- Context replaces length; it does not add to it. Keep the same ≤2-sentence budget.
+
+**Before (too thin):**  
+`Handelsblatt reports Chancellor Friedrich Merz installed Nina Warken as chancellery minister…`
+
+**After (primer embedded):**  
+`After health minister Jens Spahn quit, Chancellor Friedrich Merz filled the chancellery and health posts with loyalists — a speed reshuffle that prioritises party control while coalition polls stay weak. ([Handelsblatt][N])`
+
+**Optional 💡 (max 4 per briefing):** Add a single 💡 line only when the story passes the annotation gate below. Never add 🧩. Context belongs in the summary first — do not use 💡 merely to explain who someone is.
 
 ```
 💡 One-line insight — why it matters (no label).
@@ -205,13 +217,14 @@ After choosing Spain/Germany/Berlin/World stories, scan **remaining** items in t
 6. Germany/Berlin stories geographically fit their section?
 7. World includes ≥2 non-European regions?
 8. World distinct from Spain/Germany?
-9. At most **4** 💡 annotations across the whole briefing — and each passes the annotation gate?
-10. No 🧩 lines anywhere?
-11. Selected Reads diversified (≥3 publishers, Guardian ≤1)? Reuters/AP ≤1?
-12. No Selected Read URL in last 5 briefings?
-13. Other Headlines Today captures major unused inbox themes (crisp, no links)?
-14. Every footnote URL copied verbatim from inbox `sources[0].url`?
-15. Would a daily reader learn something genuinely new?
+9. Each story summary embeds a short primer (who/what) without adding length?
+10. At most **4** 💡 annotations across the whole briefing — and each passes the annotation gate?
+11. No 🧩 lines anywhere?
+12. Selected Reads diversified (≥3 publishers, Guardian ≤1)? Reuters/AP ≤1?
+13. No Selected Read URL in last 5 briefings?
+14. Other Headlines Today captures major unused inbox themes (crisp, no links)?
+15. Every footnote URL copied verbatim from inbox `sources[0].url`?
+16. Would a daily reader learn something genuinely new?
 
 ## Commits
 

@@ -55,11 +55,13 @@ def main() -> int:
         log("No items to verify")
         return 0
 
-    log(f"HTTP-checking official_url for {len(items)} culture items...")
+    briefing_year = int(date_str[:4])
+    log(f"HTTP-checking official_url for {len(items)} culture items (year={briefing_year})...")
     stats = verify_culture_items(
         items,
         sleep_ms=args.sleep_ms,
         only_openai=not args.all_sources,
+        briefing_year=briefing_year,
     )
     payload["url_verified_at"] = datetime.now(timezone.utc).isoformat()
     payload["url_verify_stats"] = stats
@@ -68,14 +70,21 @@ def main() -> int:
     log(
         f"  URL verify: checked={stats['checked']} live={stats['live']} "
         f"dead={stats['dead']} shallow={stats.get('shallow', 0)} "
+        f"archive={stats.get('archive', 0)} "
         f"verified_after={stats['verified_after']} skipped={stats['skipped']}"
     )
     shallow = stats.get("shallow", 0)
+    archive = stats.get("archive", 0)
     dead = stats.get("dead", 0)
     if shallow:
         log(
             f"WARN: {shallow} shallow homepage/listing URLs — marked unverified; "
             "slim will drop them."
+        )
+    if archive:
+        log(
+            f"WARN: {archive} archive pages (event year before {briefing_year}) — "
+            "marked unverified; slim will drop them."
         )
     if dead:
         log(

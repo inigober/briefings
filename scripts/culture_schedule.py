@@ -96,6 +96,84 @@ def _default_year(reference_year: int | None, explicit: str | None) -> int:
     return reference_year or datetime.now().year
 
 
+# Years that look like event schedule markers (not copyright footers alone).
+_EVENT_YEAR_PATTERNS: tuple[re.Pattern[str], ...] = (
+    # "2022 20:30" / "2026 20:30h" (Radialsystem date blocks)
+    re.compile(r"\b(20[12]\d)\s+\d{1,2}[:.]\d{2}", re.I),
+    # "July 2022" / "Juli 2026"
+    re.compile(
+        r"\b(?:january|february|march|märz|maerz|april|may|mai|june|juni|july|juli|august|"
+        r"september|october|okt|november|december|dez|"
+        r"jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\s+(20[12]\d)\b",
+        re.I,
+    ),
+    # "30.07.2022" / "30 07 2022"
+    re.compile(r"\b\d{1,2}\.\d{1,2}\.(20[12]\d)\b"),
+    re.compile(r"\b\d{1,2}\s+\d{1,2}\s+(20[12]\d)\b"),
+    # ISO dates
+    re.compile(r"\b(20[12]\d)-\d{2}-\d{2}\b"),
+    # "29 July 2022" / "29. Juli 2022"
+    re.compile(
+        r"\b\d{1,2}\.?\s+"
+        r"(?:january|february|march|märz|maerz|april|may|mai|june|juni|july|juli|august|"
+        r"september|october|okt|november|december|dez|"
+        r"jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\s+(20[12]\d)\b",
+        re.I,
+    ),
+    # "festival edition in July 2022" / "premiere … 2022"
+    re.compile(
+        r"\b(?:edition|premiere|revival|wiederaufnahme)\b[^.]{0,40}\b(20[12]\d)\b",
+        re.I,
+    ),
+    # Weekday label then year (Radialsystem: "Fr\n2022")
+    re.compile(
+        r"\b(?:mo|tu|we|th|fr|sa|su|mon|tue|wed|thu|fri|sat|sun|"
+        r"montag|dienstag|mittwoch|donnerstag|freitag|samstag|sonntag)\b"
+        r"[\s\u00a0]*\n?[\s\u00a0]*(20[12]\d)\b",
+        re.I,
+    ),
+)
+
+_HTML_TAG_RE = re.compile(r"<[^>]+>")
+_HTML_SCRIPT_RE = re.compile(r"<script\b[^>]*>.*?</script>", re.I | re.S)
+_HTML_STYLE_RE = re.compile(r"<style\b[^>]*>.*?</style>", re.I | re.S)
+
+
+def html_to_plain_text(html: str, *, max_chars: int = 80_000) -> str:
+    """Strip scripts/styles/tags for schedule/year scanning."""
+    blob = (html or "")[: max(0, max_chars)]
+    blob = _HTML_SCRIPT_RE.sub(" ", blob)
+    blob = _HTML_STYLE_RE.sub(" ", blob)
+    blob = _HTML_TAG_RE.sub(" ", blob)
+    blob = re.sub(r"&\w+;", " ", blob)
+    blob = re.sub(r"\s+", " ", blob)
+    return blob.strip()
+
+
+def extract_event_years_from_text(text: str) -> set[int]:
+    """Collect years that appear in event-date contexts (not bare copyright lines)."""
+    blob = text or ""
+    years: set[int] = set()
+    for pattern in _EVENT_YEAR_PATTERNS:
+        for match in pattern.finditer(blob):
+            # Year is the last capturing group in each pattern.
+            raw = match.group(match.lastindex or 1)
+            try:
+                year = int(raw)
+            except (TypeError, ValueError):
+                continue
+            if 2018 <= year <= 2035:
+                years.add(year)
+    return years
+
+
+def is_archive_page_year(years: set[int], briefing_year: int) -> bool:
+    """True when page event years exist and none reach the briefing year."""
+    if not years:
+        return False
+    return max(years) < briefing_year
+
+
 def extract_schedule_from_text(text: str, *, reference_year: int | None = None) -> tuple[str, str]:
     """Return (dates, times) strings — best-effort from free text."""
     blob = (text or "").strip()

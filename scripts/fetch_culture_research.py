@@ -225,8 +225,13 @@ You MUST call web_search at least once before answering. Search the programme pa
 2. For each event, record: title, venue, dates, times, artists (if known),
    **official_url copied exactly from search** (specific event page — never a homepage, /en, or listing).
    For festivals: prefer **atomic dated events** (single concerts, openings, performances) over umbrella listings.
-3. Skip events in the novelty index unless materially new (opening week, closing within 10 days).
-4. If no in-window events exist, say so — do not invent placeholders.
+3. **Year / archive discipline (strict):**
+   - Prefer event URLs that include the briefing year in the path when venues publish year-specific pages
+     (e.g. `…/the-pressing-2026/` over an older `…/the-pressing-dani-brown/` archive slug).
+   - Reject archive / past-edition pages whose on-page dates are a prior year (still-live 2022 pages are not 2026 events).
+   - Copy dates/times from the **matched** event page only — never invent or shift dates to fit the Tuesday week window.
+4. Skip events in the novelty index unless materially new (opening week, closing within 10 days).
+5. If no in-window events exist, say so — do not invent placeholders.
 
 ## Tuesday rule
 Include only events occurring Wednesday through the following Monday/Tuesday of the briefing week,
@@ -326,12 +331,18 @@ For each section — exhibitions, film, performing_arts, music (and wildcards/ad
    - one-line why it fits the reader interests
    - **series_id** (stable slug, e.g. `polish-art-week-2026`) when the event belongs to a festival or recurring series
    - **event_kind**: `single` (default), `festival_overview` (one umbrella per festival max), or `festival_event` (one dated event inside a festival)
-3. **Festival / series handling (strict):**
+3. **Year / archive discipline (strict):**
+   - Prefer event URLs that include the briefing year in the path when venues publish year-specific pages
+     (e.g. `…/the-pressing-2026/` over an older `…/the-pressing-dani-brown/` archive slug).
+   - Reject archive / past-edition pages whose on-page dates are a prior year (still-live 2022 pages are not 2026 events).
+   - Copy dates/times from the **matched** event page only — never invent or shift dates to fit the Tuesday week window.
+   - If the correct page is outside this week (e.g. early August revival), list it under advance_radar with the page's real dates — do not drag it into the main week.
+4. **Festival / series handling (strict):**
    - Prefer **atomic events** with their own venue, dates, and deep URL over umbrella festival pages.
    - At most **one** `festival_overview` per festival in the entire output.
    - For multi-venue festivals, return individual `festival_event` items for standout gigs — share the same `series_id`.
-4. Skip events already in the novelty index unless materially new (opening week, closing within 10 days).
-5. If a venue page has no in-window events, say so — do not invent placeholders.
+5. Skip events already in the novelty index unless materially new (opening week, closing within 10 days).
+6. If a venue page has no in-window events, say so — do not invent placeholders.
 
 ## Tuesday rule
 Include only events occurring Wednesday through the following Monday/Tuesday of the briefing week,
@@ -380,6 +391,7 @@ Event window: {week_label}
 - **series_id**: stable slug for festivals/recurring series (shared across related items); empty string for one-offs
 - **event_kind**: `single` | `festival_overview` | `festival_event` — at most one `festival_overview` per series_id
 - Prefer atomic `single` / `festival_event` items; use `festival_overview` only when no atomic events were found
+- **Year / archive:** Prefer year-in-path URLs for the briefing year; drop archive/past-edition pages; copy dates from the matched page — never invent in-week dates to force a fit
 
 ## Web research notes (from Phase 1 web_search)
 {research_notes}

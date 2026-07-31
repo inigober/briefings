@@ -75,7 +75,9 @@ If inbox date ≠ briefing date, add under title: `*Research accessed DD Month Y
 
 Add a **one-sentence intro** immediately after the title (before `## Spain`): frame the day's connecting themes in plain prose — no bullets, ≤40 words when possible. This becomes the visible email opener and inbox preview.
 
-Each news story: headline, summary (≤2 sentences), optional 💡 insight (see style rules — max 4 per briefing, no 🧩 lines), source link.
+Each news story: headline, summary (≤2 sentences; prefer 1), optional 💡 insight (see style rules — max 4 per briefing, no 🧩 lines), source link.
+
+**Summary style (mandatory):** Write like The Economist's "World in Brief" — embed a short primer (who/what the actor or issue is) in the same sentence as the news beat. Assume the daily reader does not already know the topic. Do not add a second background paragraph; context replaces length, it does not increase it. Ban thin "Publisher reports X" openers with unexplained jargon.
 
 Apply anti-repetition using `dedup_index.md` and `editorial_context.recent_topics` in the synthesis inbox — reject topics unless materially new. Selected Reads: reject URLs in `selected_reads_index.md` (last 5 briefings). For Other Headlines Today, scan inbox items **not** chosen for sections 1–4 and merge into short thematic lines (e.g. Iran deal signing, Hormuz, Venezuela strike).
 
