@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-07-31
+
+- [Inside OpenAI's Hack of Hugging Face](https://www.newyorker.com/news/the-lede/inside-openai-hack-of-hugging-face) — The New Yorker
+- [NATO Says Russian Missile Violated Polish Airspace](https://foreignpolicy.com/2026/07/30/poland-russia-missile-incursion-nato-ukraine-war-strikes/) — Foreign Policy
+- [Yen slides back to 160 against dollar after possible intervention](https://asia.nikkei.com/business/markets/currencies/yen-slides-back-to-160-against-dollar-after-possible-intervention) — Nikkei Asia
+- [Trump 'not sure' he will let Ukraine build Patriot missiles](https://www.ft.com/content/d8c42f6b-4dba-4976-a907-c7c93bca0bbd?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-07-30
 
 - [The OpenAI Hack Shows the Genie Is Out of the Bottle](https://foreignpolicy.com/2026/07/30/openai-hack-genie-bottle-defense/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Japan Inc.'s competitiveness issue isn't technology, it's management](https://asia.nikkei.com/spotlight/comment/japan-inc.-s-competitiveness-issue-isn-t-technology-it-s-management) — Nikkei Asia
 - [Andy Burnham and the New Manchesterism](https://foreignpolicy.com/2026/07/24/andy-burnham-britain-manchester-economics/) — Foreign Policy
 - [Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding](https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb) — The Guardian
-
-## 2026-07-26
-
-- [Albanese at odds with Labor policy which now says telehealth should be allowed for euthanasia consultations](https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese) — The Guardian
-- [Italy's defense minister offered adviser job to ousted Ukrainian defense chief](https://www.politico.eu/article/italys-defense-minister-offered-adviser-job-to-ousted-ukrainian-defense-chief/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [In Focus: Thai military builds Cambodia border wall](https://asia.nikkei.com/photos/in-focus-thai-military-builds-cambodia-border-wall) — Nikkei Asia
-- [Why workers are nostalgic for life before AI](https://www.ft.com/content/2ddef625-df80-4690-9475-f3ce86171593?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

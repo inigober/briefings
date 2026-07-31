@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-07-31
+
+- **spain-ceuta-20000-crossing-largest-since-2021** — eldiario.es: more than 20,000 people cross from Morocco in largest entry since 2021 crisis with nine bodies recovered (section: spain)
+- **spain-supreme-court-hot-returns-ruling-ceuta-surge** — La Vanguardia: 8 July ruling barring swim-back expulsions fuels migrant surge forcing army deployment (section: spain)
+- **spain-ceuta-crisis-morocco-intelligence-doubts** — EL PAÍS: Spanish services doubt Rabat lost border control accidentally, straining bilateral ties (section: spain)
+- **germany-china-pmi-sentiment-cools-h2** — Tagesspiegel: factory, services and construction mood weakens simultaneously at start of second half (section: germany)
+- **germany-dax-earnings-season-six-flashpoints** — Handelsblatt: Apple, Amazon and macro data on calendar as Frankfurt holds mid-season (section: germany)
+- **germany-fifa-private-investment-wm-plan-resistance** — Tagesspiegel: Slovenian lawyer coordinates European club opposition to Infantino investor vehicle (section: germany)
+- **berlin-brandenburg-38c-heat-thunderstorms-prignitz** — rbb24: fourth summer heatwave brings 35°C+ before storms uproot trees north of capital (section: berlin)
+- **berlin-whatsapp-forwarding-bgh-dismissal-case** — Berliner Zeitung: federal court reviews whether sharing private group chats justifies sacking (section: berlin)
+- **berlin-tesla-gruenheide-1000-rehires** — Tagesspiegel: US carmaker begins first hiring wave at Brandenburg plant as EV orders rebound (section: berlin)
+- **world-cameroon-biya-53-day-absence** — The Guardian: 93-year-old president unseen since June Switzerland trip fuels succession anxiety (section: world)
+- **world-asia-equities-yen-intervention-rebound** — Financial Times: Tokyo shares recover and yen strengthens from 160 on suspected FX action (section: world)
+- **world-atlantic-ai-move-fast-break-things** — The Atlantic: essay warns frontier labs reverting to reckless ship-first culture (section: world)
+
 ## 2026-07-30
 
 - **spain-ayuso-chamberi-atico-residential-zoning-block** — EL PAÍS: Madrid planning code bars regional government's luxury Chamberí penthouse from use as claimed temporary office (section: spain)
@@ -215,21 +230,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-xi-china-global-ai-standards** — FT: Xi uses Shanghai forum to pitch China's leadership over global AI standards and deployment (section: world)
 - **world-india-ai-datacenter-coastal-costs** — NYT: India courts hyperscale AI data centres as critics warn coastal cities will bear water and power costs (section: world)
 - **world-uk-aid-cuts-africa-ninety-percent** — Guardian: Foreign Office tables show Labour aid cuts could slash bilateral African support by up to 90% (section: world)
-
-## 2026-07-16
-
-- **spain-gibraltar-verja-removed** — eldiario.es: workers lift century-old frontier gate as Gibraltar–La Línea commuters cross without ID checks (section: spain)
-- **spain-ibiza-us-philanthropist-extradition** — eldiario.es: National Police detain James Cox Chambers Jr. in Ibiza on US Hamas-financing extradition request (section: spain)
-- **spain-vox-trafficking-probe-leak** — eldiario.es: PSPV and Compromís to sue over alleged leak of Castellón trafficking investigation to Vox deputy (section: spain)
-- **germany-border-controls-holiday-jams** — Handelsblatt: Martin Schulz warns intensified Schengen checks could trap summer travellers in frontier queues (section: germany)
-- **germany-rental-car-data-privacy** — Handelsblatt: consumer agencies urge drivers to wipe synced personal data from hire-car infotainment before return (section: germany)
-- **germany-child-digital-content-regulation** — Tagesspiegel: Macron and WHO chiefs call for tougher rules on social media and online games harming adolescents (section: germany)
-- **berlin-ac-tenant-court-dispute** — rbb24: Berlin family seeks permission to install air conditioning as bedroom heat hits 35°C amid landlord opposition (section: berlin)
-- **berlin-ludwigsfelde-drug-lab-raid** — rbb24: federal police clear suspected synthetic-narcotics laboratory in Brandenburg warehouse near capital (section: berlin)
-- **berlin-italo-brandenburg-rail-debate** — rbb24: Brandenburg infrastructure minister questions whether Italo high-speed services can meet timetables on ageing lines (section: berlin)
-- **world-ontario-wildfires-toronto-air** — Guardian: 100+ Ontario blazes push Toronto to world's worst air quality with smoke reaching US north-east (section: world)
-- **world-west-africa-flood-attribution** — Guardian: scientists attribute last month's coastal West African floods to climate-intensified rainfall (section: world)
-- **world-nvidia-toyota-woven-city-ai** — Nikkei Asia: Nvidia partners with Toyota's Woven City testbed for physical AI and robotics deployment (section: world)
 
 ## Saturated topics — do not return without material development
 
