@@ -31,6 +31,32 @@ EVENT_PATH_KEYWORDS = (
     "screening",
 )
 
+# Path segments that alone (or combined) are venue listing/calendar pages, not a show.
+LISTING_PATH_SEGMENTS = frozenset(
+    {
+        "programm",
+        "program",
+        "programme",
+        "spielplan",
+        "calendar",
+        "events",
+        "exhibitions",
+        "konzerte",
+        "filme",
+        "film",
+        "theater",
+        "dance",
+        "veranstaltungen",
+        "list",
+        "archive",
+        "screening",
+        "screenings",
+        "agenda",
+        "whatson",
+        "whats-on",
+    }
+)
+
 VAGUE_SCHEDULE_MARKERS = (
     "tba",
     "various",
@@ -106,6 +132,20 @@ def is_press_item(item: dict, sources_cfg: dict) -> bool:
     return False
 
 
+def is_listing_event_url(url: str) -> bool:
+    """True for venue programme/calendar listing pages with no show-specific slug."""
+    parsed = urlparse((url or "").strip())
+    if parsed.scheme not in ("http", "https"):
+        return False
+    path = parsed.path.lower().rstrip("/")
+    segments = [s for s in path.split("/") if s]
+    if segments and segments[0] in ("en", "de"):
+        segments = segments[1:]
+    if not segments:
+        return True
+    return all(seg in LISTING_PATH_SEGMENTS for seg in segments)
+
+
 def is_deep_event_url(url: str) -> bool:
     parsed = urlparse((url or "").strip())
     if parsed.scheme not in ("http", "https"):
@@ -117,6 +157,9 @@ def is_deep_event_url(url: str) -> bool:
     if not segments or segments in (["en"], ["de"]):
         return False
     if len(segments) == 1 and segments[0] in ("en", "de"):
+        return False
+    # /en/programm, /Programm/, /programm/programm — not a specific event page
+    if is_listing_event_url(url):
         return False
     if any(kw in path for kw in EVENT_PATH_KEYWORDS):
         return True

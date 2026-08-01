@@ -128,6 +128,24 @@ class TestCultureCalendar(unittest.TestCase):
         )
         self.assertTrue(is_deep_event_url(url))
 
+    def test_programme_listing_pages_are_not_deep(self) -> None:
+        from culture_calendar import is_listing_event_url
+
+        listings = [
+            "https://www.radialsystem.de/en/programm/",
+            "https://www.radialsystem.de/en/programm/programm/",
+            "https://www.acudkino.de/Programm/",
+            "https://example.com/programm",
+            "https://example.com/de/spielplan",
+        ]
+        for url in listings:
+            self.assertTrue(is_listing_event_url(url), url)
+            self.assertFalse(is_deep_event_url(url), url)
+
+    def test_show_specific_programme_path_is_deep(self) -> None:
+        url = "https://www.radialsystem.de/en/veranstaltungen/the-pressing-2026/"
+        self.assertTrue(is_deep_event_url(url))
+
     def test_culture_openai_min_floor(self) -> None:
         self.assertEqual(culture_openai_min("exhibitions", 6, 7), 2)
         self.assertEqual(culture_openai_min("advance_radar", 3, 2), 1)

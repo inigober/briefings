@@ -104,7 +104,7 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
         run: |
-          python scripts/verify_culture_urls.py --type berlin-culture --date ${{ steps.run_date.outputs.value }}
+          python scripts/verify_culture_urls.py --type berlin-culture --date ${{ steps.run_date.outputs.value }} --all-sources
 
       - name: Slim inbox for synthesis
         if: success()

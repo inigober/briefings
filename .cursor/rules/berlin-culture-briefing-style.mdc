@@ -52,7 +52,8 @@ For every recommendation:
 ```
 
 - Blank line after each field block.
-- Official links must point to venue/festival/organizer event pages — not aggregators.
+- Official links must point to venue/festival/organizer **event** pages — not aggregators, and not bare programme/calendar listing pages (`/programm/`, `/Programm/`, `/en/programm/programm/`).
+- **Never invent Official Links** — copy `official_url` from the inbox, or a URL you fetched and confirmed live during a required spot-check. Do not guess slugs.
 - If important but flawed, say so (e.g. "Conceptually ambitious though somewhat uneven in execution.").
 
 ## Tuesday briefing rule (mandatory)
@@ -122,6 +123,15 @@ Pre-fetch sets `"verified": true` on inbox items with a deep event/exhibition UR
 - Dates/times are vague, or the URL looks like a venue homepage
 
 Remove anything that fails a spot-check. No open-ended web research to fill gaps.
+
+**Post-draft check (required)** — before commit, run:
+
+```bash
+python scripts/validate_culture_briefing.py --path briefings/berlin-culture/YYYY-MM-DD.md
+python scripts/verify_culture_briefing_urls.py --type berlin-culture --date YYYY-MM-DD
+```
+
+Fix every ERROR / dead Official Link; do not commit until both exit 0.
 
 ## Wildcards / food
 

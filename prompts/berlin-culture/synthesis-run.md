@@ -74,16 +74,18 @@ Add a **1–2 sentence intro** immediately after the title (before `## Top Picks
 
 Use per-entry format from the style rule (Title, Venue, Date(s), Time(s), Short Context, Why It Fits, Official Link).
 
-## Step 3 — Validate briefing
+## Step 3 — Validate briefing and Official Links (required)
 
 Run before committing:
 
 ```bash
 python scripts/validate_culture_briefing.py --path briefings/berlin-culture/YYYY-MM-DD.md
+python scripts/verify_culture_briefing_urls.py --type berlin-culture --date YYYY-MM-DD
 ```
 
-- **ERROR** (duplicate event, duplicate official link, festival listed twice): fix the briefing and re-run until clean.
+- **ERROR** (duplicate event, duplicate/missing official link, festival listed twice, unreachable URL): fix the briefing and re-run until both commands exit 0.
 - **WARN** (section below minimum count): acceptable if noted in `last_run.json` (`thin_sections` / `omitted_sections`); do not fix by duplicating picks.
+- **Never invent Official Links** — copy from inbox `official_url` or a page you fetched and confirmed live. No guessed slugs or listing-only programme pages.
 
 ## Step 4 — Update state
 
@@ -94,4 +96,4 @@ python scripts/validate_culture_briefing.py --path briefings/berlin-culture/YYYY
 
 1. Stage: `briefings/berlin-culture/YYYY-MM-DD.md`, `state/berlin-culture/events_index.md`, `state/berlin-culture/last_run.json`
 2. Commit: `briefing/berlin-culture: YYYY-MM-DD`
-3. Push to `origin main`
+3. **Push to `origin main`** — mandatory; email workflow triggers on `briefings/**/*.md`

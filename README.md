@@ -223,6 +223,9 @@ python3 scripts/slim_inbox_for_synthesis.py --type news
 # After writing a briefing (synthesis agent)
 python3 scripts/verify_briefing_sources.py --type news --date YYYY-MM-DD
 python3 scripts/verify_music_urls.py --type music-discovery --date YYYY-MM-DD
+python3 scripts/validate_culture_briefing.py --path briefings/berlin-culture/YYYY-MM-DD.md
+python3 scripts/verify_culture_briefing_urls.py --type berlin-culture --date YYYY-MM-DD
+python3 scripts/verify_restaurant_briefing_sources.py --type berlin-restaurants --date YYYY-MM-DD
 
 # Culture pre-fetch (dry-run prompt)
 python3 scripts/fetch_culture_research.py --dry-run --date 2026-06-10
@@ -254,7 +257,7 @@ python3 -m unittest discover -s tests -v
 | `berlin-culture-prefetch.yml` | cron-job.org Tue 06:00 Berlin + manual | RSS + WordPress + OpenAI → verify URLs → slim → commit `inbox/berlin-culture/` |
 | `berlin-restaurants-prefetch.yml` | cron-job.org Thu 07:00 Berlin + manual | OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
 | `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if inbox missing or slim incomplete (Resend) |
-| `send-briefing-email.yml` | Push to `briefings/**/*.md` | Verify news sources / music HTTP links, then send styled email (newest per type by default) |
+| `send-briefing-email.yml` | Push to `briefings/**/*.md` | Verify links per type (news / music / culture / restaurants), then send styled email (newest per type by default) |
 
 Pre-fetch workflows use **concurrency groups** so overlapping manual + scheduled runs queue instead of racing. The email workflow sends only the **newest dated briefing per type** when a push changes multiple files; use workflow dispatch with **all_changed** or `--all-changed` to replay every file.
 

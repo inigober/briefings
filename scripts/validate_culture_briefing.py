@@ -125,7 +125,15 @@ def validate_briefing(text: str) -> tuple[list[str], list[str]]:
             seen_event_keys[event_key] = sid or "?"
 
         url = entry["official_url"]
-        if url:
+        if not url:
+            if entry["section"] != "advance_radar":
+                # Cross-ref-only lines usually lack Venue/Link; skip those without venue.
+                if entry.get("venue"):
+                    errors.append(
+                        f"Missing Official Link for '{entry['title']}' "
+                        f"in {entry['section'] or '?'}."
+                    )
+        else:
             norm = normalize_url(url)
             if norm in seen_urls:
                 errors.append(

@@ -66,10 +66,15 @@ End with `### This week's strongest bets` and choose three from the current brie
 1. Append included restaurants to `state/berlin-restaurants/restaurants_index.md`; trim entries older than 10 weeks.
 2. Update `state/berlin-restaurants/last_run.json` with `briefing_type`, date, paths, counts, and selected restaurant names.
 
-## Step 4 — Commit and push
+## Step 4 — Verify Maps URLs, commit, and push (required)
 
-1. Stage: `briefings/berlin-restaurants/YYYY-MM-DD.md`, `state/berlin-restaurants/restaurants_index.md`, `state/berlin-restaurants/last_run.json`
-2. Commit: `briefing/berlin-restaurants: YYYY-MM-DD`
-3. Push to `origin main`
+1. Run Maps verification (must pass before commit):
+   ```bash
+   python scripts/verify_restaurant_briefing_sources.py --type berlin-restaurants --date YYYY-MM-DD
+   ```
+   Every `**Maps:**` URL must match a `google_maps_url` from the verified synthesis inbox. If it fails, fix URLs — do not invent Maps links or add out-of-inbox restaurants.
+2. Stage: `briefings/berlin-restaurants/YYYY-MM-DD.md`, `state/berlin-restaurants/restaurants_index.md`, `state/berlin-restaurants/last_run.json`
+3. Commit: `briefing/berlin-restaurants: YYYY-MM-DD`
+4. **Push to `origin main`** — mandatory; email workflow triggers on `briefings/**/*.md`
 
 If push fails, `git pull --rebase origin main` then push again. Do not mark success until the briefing is on `main`.

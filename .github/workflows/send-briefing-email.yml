@@ -86,7 +86,7 @@ jobs:
           COMMITS_JSON: ${{ toJson(github.event.commits) }}
 
       - name: Verify briefing links
-        if: github.event_name == 'workflow_dispatch' || steps.changed.outputs.files != ''
+        if: success() && (github.event_name == 'workflow_dispatch' || steps.changed.outputs.files != '')
         run: |
           FILES="${{ steps.changed.outputs.files }}"
           if [ -n "${{ github.event.inputs.file }}" ]; then
@@ -94,27 +94,38 @@ jobs:
           fi
           for path in $FILES; do
             case "$path" in
+              *.test.md)
+                echo "Skipping test briefing: $path"
+                continue
+                ;;
               briefings/news/*.md)
                 DATE=$(basename "$path" .md)
-                # Strip .test suffix if present
                 DATE="${DATE%.test}"
                 echo "Verifying news sources for $DATE"
                 python scripts/verify_briefing_sources.py --type news --date "$DATE"
                 ;;
               briefings/music-discovery/*.md)
-                # Skip sandbox end-to-end test briefings
-                case "$path" in
-                  *.test.md) echo "Skipping test briefing: $path"; continue ;;
-                esac
                 DATE=$(basename "$path" .md)
                 echo "HTTP-verifying music-discovery URLs for $DATE"
                 python scripts/verify_music_urls.py --type music-discovery --date "$DATE"
+                ;;
+              briefings/berlin-culture/*.md)
+                DATE=$(basename "$path" .md)
+                echo "Validating culture briefing structure for $DATE"
+                python scripts/validate_culture_briefing.py --path "$path"
+                echo "HTTP-verifying culture Official Links for $DATE"
+                python scripts/verify_culture_briefing_urls.py --type berlin-culture --date "$DATE"
+                ;;
+              briefings/berlin-restaurants/*.md)
+                DATE=$(basename "$path" .md)
+                echo "Verifying restaurant Maps URLs for $DATE"
+                python scripts/verify_restaurant_briefing_sources.py --type berlin-restaurants --date "$DATE"
                 ;;
             esac
           done
 
       - name: Send via Resend
-        if: github.event_name == 'workflow_dispatch' || steps.changed.outputs.files != ''
+        if: success() && (github.event_name == 'workflow_dispatch' || steps.changed.outputs.files != '')
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}

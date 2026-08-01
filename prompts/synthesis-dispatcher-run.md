@@ -7,7 +7,7 @@ Known types: `news`, `berlin-culture`, `berlin-restaurants`, `music-discovery`.
 ## Cost discipline
 
 - **Stop early:** Run the trigger script first; exit immediately on `skip`.
-- **No browsing:** Synthesis agents only use pre-fetched inbox files.
+- **Inbox-first:** Prefer pre-fetched inbox files. Browse/fetch only when the per-type synthesis prompt requires it (e.g. culture Top Pick year spot-check, music URL confirmation). No open-ended research to fill gaps.
 - **One type per run:** Never run two briefing syntheses in the same automation run.
 
 ## Step 0 — Route (mandatory)
@@ -29,7 +29,7 @@ Known types: `news`, `berlin-culture`, `berlin-restaurants`, `music-discovery`.
 
 ## Step 1 — Execute per-type synthesis
 
-Read the chosen `synthesis-run.md` and execute **Steps 1–4 only** exactly as written in that file.
+Read the chosen `synthesis-run.md` and execute **all steps through commit and push**, including any Validate / Verify links step. Skip only that file’s **Step 0** (push guard) — routing already handled it.
 
 ## Step 2 — Confirm completion
 
