@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-01
+
+- **spain-ceuta-48000-voluntary-returns-morocco** — La Vanguardia: Interior says nearly all of roughly 50,000 Ceuta crossers have voluntarily returned to Morocco after city overwhelmed (section: spain)
+- **spain-pedraz-psoe-leire-diez-accounts-imputation** — eldiario.es: National Court judge authorises scrutiny of six Socialist Party bank accounts in Leire Díez influence probe (section: spain)
+- **spain-spotify-betting-chart-manipulation** — EL PAÍS: gambling markets on chart positions incentivise fraudulent streaming inflation (section: spain)
+- **germany-rhine-niedrigwasser-freight-bottleneck** — Handelsblatt: record low river levels force partially loaded barges and raise inland-shipping costs (section: germany)
+- **germany-fatal-storm-cleanup-nationwide** — Tagesspiegel: one dead and several seriously injured as severe weather uproots trees across Germany (section: germany)
+- **germany-fruehstartrente-subsidised-depot-2027** — Tagesspiegel: ING Germany chief backs state-backed early-start pension depot launching 2027 (section: germany)
+- **berlin-cocaine-smuggling-pensioner-charge** — The Berliner: prosecutors charge 70-year-old with coordinating 2.2-tonne cocaine import (section: berlin)
+- **berlin-abgeordnetenhauswahl-poster-campaign** — Tagesspiegel: parties begin hanging tens of thousands of posters ahead of state parliament election (section: berlin)
+- **berlin-brandenburg-wildfire-mediterranean-risk** — Tagesspiegel: experts ask whether pine forests around Berlin could burn with southern-European intensity (section: berlin)
+- **world-drc-ebola-fastest-outbreak-record** — The Guardian: confirmed cases pass 3,360 with ~1,500 deaths in fastest-growing Ebola wave on record (section: world)
+- **world-south-korea-won-dollar-rally-july** — Financial Times: won strengthens nearly 8% against dollar despite tech sell-off (section: world)
+- **world-ntt-data-india-payments-platform** — Nikkei Asia: Japanese IT group launches digital payments product in India (section: world)
+
 ## 2026-07-31
 
 - **spain-ceuta-20000-crossing-largest-since-2021** — eldiario.es: more than 20,000 people cross from Morocco in largest entry since 2021 crisis with nine bodies recovered (section: spain)
@@ -200,36 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-us-iran-jordan-troop-deaths-strikes** — FT: Washington launches reprisal strikes after two US soldiers killed in Jordan amid Hormuz escalation (section: world)
 - **world-cuba-grid-collapse-oil-blockade** — Guardian: third national blackout in ten days as six-month US oil embargo strains Cuban infrastructure (section: world)
 - **world-icici-bank-india-loan-profit** — Bloomberg: ICICI Bank beats estimates on retail and corporate loan surge (section: world)
-
-## 2026-07-18
-
-- **spain-state-investment-regional-disparities** — eldiario.es: Murcia and Galicia receive six times more per-capita state investment than Canarias as Madrid and Catalonia absorb 40% of €15.3bn total (section: spain)
-- **spain-guardia-civil-leire-diez-testimony** — eldiario.es: Guardia Civil director Mercedes González denies Leire Díez could have steered UCO probes in Audiencia Nacional testimony (section: spain)
-- **spain-franco-revisionism-neofascist** — eldiario.es: historians warn pseudohistorians, concordia laws and far-right rappers normalise Franco-era narratives in councils and social media (section: spain)
-- **germany-schuldenbremse-ukraine-wadephul** — Handelsblatt: foreign minister Wadephul backs debt-brake exemption to fund Ukraine military aid (section: germany)
-- **germany-allianz-auto-repair-costs** — Handelsblatt: Allianz pressures carmakers and politicians over surging spare-part prices driving repair bills (section: germany)
-- **germany-eauto-subsidy-tesla-lead** — Handelsblatt: revived federal e-car premium passes €50m in two months with Tesla models topping subsidised purchases (section: germany)
-- **berlin-storm-cherry-sbahn-tree** — Berliner Zeitung: storm Cherry downs tree onto Berlin S-Bahn trapping 100 passengers amid eastern Germany thunderstorm chaos (section: berlin)
-- **berlin-danger-dan-zdf-song-ban** — Berliner Zeitung: ZDF blocks Danger Dan and Igor Levit song from Die Anstalt over alleged violence incitement (section: berlin)
-- **berlin-lollapalooza-2026-preview** — Berliner Zeitung: Lollapalooza Berlin 2026 pitches festival as launchpad for breakout acts (section: berlin)
-- **world-trump-canada-wildfire-smoke-tariffs** — FT: Trump threatens tariffs on Canada over wildfire smoke drifting into US cities (section: world)
-- **world-cuba-otero-alcantara-us-travel** — Guardian: dissident artist Luis Manuel Otero Alcántara cleared to travel to US after prison term (section: world)
-- **world-china-ai-nvidia-market-tumble** — Nikkei Asia: Chinese AI model fears trigger Nvidia and Big Tech selloff (section: world)
-
-## 2026-07-17
-
-- **spain-tjue-amnesty-cjeu-reconciliation** — eldiario.es: CJEU upholds bulk of procés amnesty law as national-reconciliation route; Puigdemont awaits Constitutional Court in autumn (section: spain)
-- **spain-begona-gomez-jury-trial-peinado** — eldiario.es: Madrid appeals court orders Begoña Gómez before citizen jury while trimming Peinado indictment and lifting passport ban (section: spain)
-- **spain-andalucia-vox-falange-deputy-minister** — eldiario.es: Andalucía Vox vice-president taps former Falange leadership candidate Rafael Sánchez Saus as tourism and justice deputy (section: spain)
-- **germany-sexualstrafrecht-nur-ja-heisst-ja-poll** — Handelsblatt: 46% back affirmative-consent reform after Bundesrat vote, with strongest support among under-35s (section: germany)
-- **germany-wadephul-eu-lebanon-mission** — Tagesspiegel: foreign minister proposes EU stabilisation force for Lebanon after UNIFIL ends (section: germany)
-- **germany-green-power-storage-bottleneck** — Tagesspiegel: missing grid-scale storage leaves surplus renewable generation stranded despite rising wind and solar share (section: germany)
-- **berlin-schuelerticket-means-testing-bonde** — Tagesspiegel: transport senator Bonde seeks means-tested end to free school tickets to close budget gap (section: berlin)
-- **berlin-unterhaltsvorschuss-cdu-opposition** — rbb24: Berlin CDU family senator opposes federal plan to shorten child-maintenance advance to age 14 (section: berlin)
-- **berlin-messerattacke-twelve-year-sentence** — rbb24: Berlin court sentences man to twelve years for fatal knife attack (section: berlin)
-- **world-xi-china-global-ai-standards** — FT: Xi uses Shanghai forum to pitch China's leadership over global AI standards and deployment (section: world)
-- **world-india-ai-datacenter-coastal-costs** — NYT: India courts hyperscale AI data centres as critics warn coastal cities will bear water and power costs (section: world)
-- **world-uk-aid-cuts-africa-ninety-percent** — Guardian: Foreign Office tables show Labour aid cuts could slash bilateral African support by up to 90% (section: world)
 
 ## Saturated topics — do not return without material development
 

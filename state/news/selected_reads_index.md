@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-01
+
+- [Chinese trains packed with ACs speed into Europe to help with heat wave](https://asia.nikkei.com/business/transportation/chinese-trains-packed-with-acs-speed-into-europe-to-help-with-heat-wave) — Nikkei Asia
+- [Markets are getting AI right](https://www.ft.com/content/c167fb1b-69c3-4df0-9126-1e0af678f924?syn-25a6b1a6=1) — Financial Times
+- [US government map of Africa mislabels every country at global conference](https://www.theguardian.com/us-news/2026/jul/30/government-map-mislabels-african-countries) — The Guardian
+- [Living between two worlds on Taiwan's Matsu Islands](https://asia.nikkei.com/life-arts/life/living-between-two-worlds-on-taiwan-s-matsu-islands) — Nikkei Asia
+
 ## 2026-07-31
 
 - [Inside OpenAI's Hack of Hugging Face](https://www.newyorker.com/news/the-lede/inside-openai-hack-of-hugging-face) — The New Yorker
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Is This What Comes After AI Slop?](https://www.theatlantic.com/technology/2026/07/daggermouth-novel-bestseller-ai/688067/?utm_source=feed) — The Atlantic
 - [Europe Must Learn From Ukraine's Example, Top EU Defense Official Says](https://foreignpolicy.com/2026/07/27/europe-eu-ukraine-defense-kubilius-interview-nato/) — Foreign Policy
 - [Japanese university startups develop AI robot arms for delicate tasks](https://asia.nikkei.com/business/technology/artificial-intelligence/japanese-university-startups-develop-ai-robot-arms-for-delicate-tasks) — Nikkei Asia
-
-## 2026-07-27
-
-- [AI companies spend record sums on Washington lobbying](https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db?syn-25a6b1a6=1) — Financial Times
-- [Japan Inc.'s competitiveness issue isn't technology, it's management](https://asia.nikkei.com/spotlight/comment/japan-inc.-s-competitiveness-issue-isn-t-technology-it-s-management) — Nikkei Asia
-- [Andy Burnham and the New Manchesterism](https://foreignpolicy.com/2026/07/24/andy-burnham-britain-manchester-economics/) — Foreign Policy
-- [Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding](https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
