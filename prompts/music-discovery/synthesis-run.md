@@ -51,7 +51,8 @@ Pay special attention to snapshot sections **Recent taste (24 months)** and **Fa
 11. Every featured pick needs: italicized label in title, cover, Genre + Listen on the **same line**, blank line, unlabeled context paragraph, blank line, Dig (with one link).
 12. More listening: same compact favicon links (Bandcamp + verified YouTube when available), but **no `Listen:` label** — just the links after the sentence; italicize label names in the bold title segment.
 13. **Album-first links** — Bandcamp `/album/…`; YouTube album/playlist over track; Spotify album last resort. Song links only for true singles. **YouTube only if verified**. Never Apple Music.
-14. Internal table (do not commit):
+14. **Never invent Bandcamp (or other) URLs** — do not guess slugs from titles. Confirm every Listen, Dig, More listening, and cover URL by fetching the live page (or copying from a page you loaded). Dig links are not exempt. If unconfirmed, omit or use the label/artist Bandcamp homepage.
+15. Internal table (do not commit):
 
    | slug | artist | release | label | year | era | mode (club/home) | known_label? | reception_ok? | captivating? | cover | bandcamp | youtube_album? | in_library? |
 
@@ -64,11 +65,16 @@ Intro → six `##` featured entries → `## More listening` (4 bullets). No clos
 1. Append featured + more-listening releases to `state/music-discovery/releases_index.md`; trim older than 12 weeks.
 2. Update `state/music-discovery/last_run.json`.
 
-## Step 4 — Commit and push
+## Step 4 — Verify links, commit, and push (required)
 
-1. Stage briefing + state files
-2. Commit: `briefing/music-discovery: YYYY-MM-DD`
-3. Push to `origin main`
+1. Run link verification (must pass before commit):
+   ```bash
+   python scripts/verify_music_urls.py --type music-discovery --date YYYY-MM-DD
+   ```
+   Every Listen, Dig, More listening, and cover URL must be HTTP-live. If it fails, fix or omit dead URLs — do not commit until it exits 0.
+2. Stage briefing + state files
+3. Commit: `briefing/music-discovery: YYYY-MM-DD`
+4. **Push to `origin main`** — mandatory; email workflow triggers on `briefings/**/*.md`
 
 ## Step 5 — Write back recommendation memory (local path)
 

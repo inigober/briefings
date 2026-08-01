@@ -81,6 +81,21 @@ Every featured entry needs an album cover image. Prefer Bandcamp `og:image`. Do 
 
 If YouTube cannot be verified, omit it.
 
+### Never invent URLs (mandatory)
+
+Bandcamp paths are **not** predictable from titles. Labels often prefix catalog numbers or artist names (e.g. `/album/atn020-domenique-dumont-comme-a`, not `/album/comme-a`). Artist pages and label shops also differ.
+
+**Rules for every Listen, Dig, More listening, and cover URL:**
+
+1. **Confirm before writing** — open/fetch the page (or copy the URL from a page you already loaded). Do not slugify a title and hope.
+2. **HTTP-live required** — if the URL is not reachable, do not ship it. Fix the path, point at the label/artist Bandcamp homepage, or omit that platform.
+3. **Dig links count** — Dig is not exempt. A dead Dig link is a failed briefing.
+4. **Post-draft check (required)** — before commit, run:
+   ```bash
+   python scripts/verify_music_urls.py --type music-discovery --date YYYY-MM-DD
+   ```
+   Fix every failure; do not commit until it exits 0.
+
 ## More listening (mandatory)
 
 ```

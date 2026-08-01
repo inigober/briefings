@@ -85,7 +85,7 @@ jobs:
         env:
           COMMITS_JSON: ${{ toJson(github.event.commits) }}
 
-      - name: Verify news briefing sources
+      - name: Verify briefing links
         if: github.event_name == 'workflow_dispatch' || steps.changed.outputs.files != ''
         run: |
           FILES="${{ steps.changed.outputs.files }}"
@@ -96,8 +96,19 @@ jobs:
             case "$path" in
               briefings/news/*.md)
                 DATE=$(basename "$path" .md)
+                # Strip .test suffix if present
+                DATE="${DATE%.test}"
                 echo "Verifying news sources for $DATE"
                 python scripts/verify_briefing_sources.py --type news --date "$DATE"
+                ;;
+              briefings/music-discovery/*.md)
+                # Skip sandbox end-to-end test briefings
+                case "$path" in
+                  *.test.md) echo "Skipping test briefing: $path"; continue ;;
+                esac
+                DATE=$(basename "$path" .md)
+                echo "HTTP-verifying music-discovery URLs for $DATE"
+                python scripts/verify_music_urls.py --type music-discovery --date "$DATE"
                 ;;
             esac
           done
