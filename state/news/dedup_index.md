@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-02
+
+- **spain-sanchez-eu-letter-interior-ministers-ceuta** — eldiario.es: PM accuses several EU governments of attacking Spain over Ceuta and demands emergency interior-ministers meeting (section: spain)
+- **spain-zapatero-plus-ultra-60-accounts-udf-access** — eldiario.es: judge authorises financial police scrutiny of 60-plus Zapatero-linked accounts as Plus Ultra probe enters tenth week (section: spain)
+- **spain-trump-morocco-praise-spain-distance-ceuta** — EL PAÍS: Trump warmth toward Mohammed VI contrasts with cooler treatment of Sánchez during Ceuta crisis (section: spain)
+- **germany-spd-bas-klingbeil-leadership-rumblings** — Handelsblatt: internal doubts over SPD parliamentary leader and co-chair ahead of state elections (section: germany)
+- **germany-umwelthilfe-heizungsgesetz-court-challenge** — Tagesspiegel: Deutsche Umwelthilfe to sue in September to overturn revised heating law (section: germany)
+- **germany-ceuta-crisis-eu-border-protection-debate** — Tagesspiegel: Berlin joins calls for tougher EU border rules after Spanish exclave surge (section: germany)
+- **berlin-volksbuhne-prinzenbad-ticket-lottery** — Tagesspiegel: Lilienthal opens ticket process for theatre's pop-up swimming pool (section: berlin)
+- **berlin-bfc-dynamo-regionalliga-opening-wins** — rbb24: BFC Dynamo and FC Stahnsdorf win Regionalliga Nordost openers (section: berlin)
+- **berlin-rowing-em-varese-berlin-athletes** — rbb24: German rowers including Berlin-based crews medal at European championships in Varese (section: berlin)
+- **world-trump-iran-strikes-cancelled-deal-outline** — Financial Times: US president calls off planned Iran attacks after Gulf allies intervene (section: world)
+- **world-peru-nazca-tourist-plane-crash-13-dead** — The Guardian: Cessna crash near Nazca Lines kills 11 tourists and two pilots (section: world)
+- **world-thailand-china-hedge-trump-tariffs** — Nikkei Asia: analysts say US trade pressure is pushing Bangkok closer to Beijing (section: world)
+
 ## 2026-08-01
 
 - **spain-ceuta-48000-voluntary-returns-morocco** — La Vanguardia: Interior says nearly all of roughly 50,000 Ceuta crossers have voluntarily returned to Morocco after city overwhelmed (section: spain)

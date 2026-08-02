@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-02
+
+- [HIV prevention drug could reduce cases globally but USAID cuts prevent access, say experts](https://www.theguardian.com/society/2026/jul/31/hiv-aids-medication-usaid-cuts) — The Guardian
+- [The Book That Predicted Pete Hegseth's Failures](https://foreignpolicy.com/2026/07/31/hegseth-norman-dixon-iran-war/) — Foreign Policy
+- [Asia's AI boom runs into a power wall](https://asia.nikkei.com/opinion/asia-s-ai-boom-runs-into-a-power-wall) — Nikkei Asia
+- [Apple struggles to keep pace with AI 'bug' hunters](https://www.ft.com/content/4532122d-90f2-4433-9df6-ca99d8a141d2?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-08-01
 
 - [Chinese trains packed with ACs speed into Europe to help with heat wave](https://asia.nikkei.com/business/transportation/chinese-trains-packed-with-acs-speed-into-europe-to-help-with-heat-wave) — Nikkei Asia
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [The Worst Way to Regulate AI](https://www.theatlantic.com/ideas/2026/07/white-house-ai-regulation/688088/?utm_source=feed) — The Atlantic
 - [Why Putin Will Escalate](https://foreignpolicy.com/2026/07/28/why-putin-will-escalate/) — Foreign Policy
 - [BTS comeback lifts South Korea's Hybe back into the black](https://asia.nikkei.com/business/media-entertainment/bts-comeback-lifts-south-korea-s-hybe-back-into-the-black) — Nikkei Asia
-
-## 2026-07-28
-
-- [Big Tech credit risks rise sharply as AI spending soars](https://www.ft.com/content/ac136522-ecc7-4262-8702-e0d636ea3099?syn-25a6b1a6=1) — Financial Times
-- [Is This What Comes After AI Slop?](https://www.theatlantic.com/technology/2026/07/daggermouth-novel-bestseller-ai/688067/?utm_source=feed) — The Atlantic
-- [Europe Must Learn From Ukraine's Example, Top EU Defense Official Says](https://foreignpolicy.com/2026/07/27/europe-eu-ukraine-defense-kubilius-interview-nato/) — Foreign Policy
-- [Japanese university startups develop AI robot arms for delicate tasks](https://asia.nikkei.com/business/technology/artificial-intelligence/japanese-university-startups-develop-ai-robot-arms-for-delicate-tasks) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 

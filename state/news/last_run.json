@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-01",
-  "briefing_date": "2026-08-01",
-  "inbox_date": "2026-08-01",
+  "date": "2026-08-02",
+  "briefing_date": "2026-08-02",
+  "inbox_date": "2026-08-02",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-01.md",
-  "inbox_path": "inbox/news/2026-08-01-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-02.md",
+  "inbox_path": "inbox/news/2026-08-02-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "De la esperanza a los retornos en el lado marroquí de la frontera con Ceuta", "section": "spain", "reason": "theme_duplicate: Moroccan-side returns folded into La Vanguardia 48,000-return lead"},
-    {"headline": "Mauricio Valiente, director de CEAR: Lo que vemos en Ceuta", "section": "spain", "reason": "theme_duplicate: NGO reception angle after returns and Pedraz picks"},
-    {"headline": "Ceuta, una ciudad patas arriba", "section": "spain", "reason": "theme_duplicate: city disruption covered by returns story"},
-    {"headline": "Abascal usa la crisis para elevar la presión", "section": "spain", "reason": "theme_duplicate: Vox pressure merged into Other Headlines"},
-    {"headline": "+++ Iran-Krieg +++: Iran warnt USA vor neuen Angriffen", "section": "germany", "reason": "geographic_fit: Middle East escalation routed to Other Headlines"},
-    {"headline": "Lage im Überblick: Erneut heftige russische Angriffe auf Kiew", "section": "germany", "reason": "geographic_fit: Ukraine strikes routed to Other Headlines"},
-    {"headline": "Angespannte Haushaltslage: Brandenburg muss kräftig sparen", "section": "berlin", "reason": "geographic_fit: Brandenburg state budget not Berlin city"},
-    {"headline": "Brand in Jüterbog eingedämmt", "section": "berlin", "reason": "dedup: incremental update on Jüterbog blaze covered 2026-07-26"},
-    {"headline": "HIV prevention drug could reduce cases globally but USAID cuts prevent access", "section": "world", "reason": "theme_duplicate: AIDS funding thread in Other Headlines after Ebola pick"},
-    {"headline": "Google Just Ruined One of Its Most Important Tools", "section": "world", "reason": "dedup: AI-tool risk angle covered 2026-07-31 Atlantic essay"},
+    {"headline": "El regreso a Marruecos tras entrar en Ceuta", "section": "spain", "reason": "theme_duplicate: returns covered 2026-08-01; Sánchez EU letter is today's diplomatic lead"},
+    {"headline": "Familias rotas y angustia en la búsqueda de los desaparecidos tras la tragedia de Ceuta", "section": "spain", "reason": "theme_duplicate: humanitarian toll merged into Other Headlines"},
+    {"headline": "Ceutíes plantan cara a Alvise, Vito Quiles y Núcleo Nacional", "section": "spain", "reason": "theme_duplicate: local Ceuta reaction after diplomacy and Zapatero picks"},
+    {"headline": "Iran-Krieg: Trump: Angriffe auf Iran abgesagt", "section": "germany", "reason": "geographic_fit: Middle East escalation routed to World"},
+    {"headline": "Druck und steigende Belastung: Wirtschaftskrise stresst Arbeitnehmer in der Industrie", "section": "germany", "reason": "avoid_unless_material: manufacturing slowdown without new policy or data release"},
+    {"headline": "Angezählter FIFA-Präsident: Diese Funktionäre könnten FIFA-Boss Infantino herausfordern", "section": "germany", "reason": "dedup: FIFA investor resistance covered 2026-07-31"},
+    {"headline": "Gesellschaft: Adoptionen in Brandenburg auf Tiefstand", "section": "berlin", "reason": "geographic_fit: Brandenburg adoption data not Berlin city"},
+    {"headline": "Kaisermania 2026: 50.000 Tickets in einer Stunde weg", "section": "berlin", "reason": "geographic_fit: Dresden concert not Berlin"},
+    {"headline": "Anti-LGBTQ+ laws are on the rise across west Africa, campaigners warn", "section": "world", "reason": "theme_duplicate: west Africa legislation merged into Other Headlines after Peru and Iran picks"},
+    {"headline": "EU ministers to discuss Spain's migrant crisis after Sánchez hits out", "section": "world", "reason": "theme_duplicate: EU Tuesday meeting covered in Spain and Other Headlines"},
     {"headline": "Inside OpenAI's Hack of Hugging Face", "section": "selected_reads", "reason": "selected_reads_index: URL used in 2026-07-31 briefing"},
-    {"headline": "BVG-Strahnenbahnlinie M1 ab Samstag wochenlang verkürzt", "section": "berlin", "reason": "publisher_pool_thin: only two Berlin-proper publishers in eligible pool after geographic filters"}
+    {"headline": "HIV prevention drug could reduce cases globally but USAID cuts prevent access", "section": "world", "reason": "theme_duplicate: AIDS funding thread in Other Headlines; elevated to Selected Reads instead"}
   ],
-  "notes": "Ceuta mass returns, Pedraz PSOE accounts probe, Spotify chart betting, Rhine low water, storm cleanup, Frühstartrente depot, Berlin cocaine charge, state-election posters, Brandenburg wildfire risk, DRC Ebola record, won rally, NTT India payments."
+  "notes": "Sánchez EU letter, Zapatero account scrutiny, Trump Morocco tilt, SPD leadership rumblings, heating-law court challenge, EU border debate, Volksbühne pool tickets, Dynamo opener, rowing EM medals, Trump Iran climbdown, Peru plane crash, Thailand-China hedge."
 }
