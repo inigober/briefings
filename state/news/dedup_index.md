@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-03
+
+- **spain-montoro-gas-kickbacks-probe-relaunch** — eldiario.es: Tarragona judge extends instruction against ex-finance minister Cristóbal Montoro over alleged gas-sector commission scheme (section: spain)
+- **spain-housing-decreto-august-last-window** — eldiario.es: Sánchez coalition faces August deadline to pass blocked short-term rental decree after Junts and Podemos reject earlier draft (section: spain)
+- **spain-morocco-11-deaths-ceuta-border-admission** — EL PAÍS: Rabat acknowledges 11 fatalities on Moroccan side while disputing Madrid's higher death toll (section: spain)
+- **germany-aigner-bundespraesidentin-spd-backing** — Tagesspiegel: senior SPD figures endorse Bavarian conservative Ilse Aigner as Steinmeier successor (section: germany)
+- **germany-holographic-will-signature-ruling** — Handelsblatt: federal court clarifies illegible signatures invalidate handwritten testaments (section: germany)
+- **germany-blitzermarathon-speed-enforcement** — Tagesspiegel: coordinated police speed-camera campaign across several states after summer road deaths (section: germany)
+- **berlin-election-housing-programmes-compared** — rbb24: parties diverge on rent regulation and construction targets in Abgeordnetenhaus election manifestos (section: berlin)
+- **berlin-sinti-roma-holocaust-remembrance** — rbb24: commemorations in Berlin and Brandenburg honour Roma and Sinti victims of National Socialism (section: berlin)
+- **berlin-jugendwort-2026-public-vote** — The Berliner: annual youth-word competition opens voting on 2026 shortlist (section: berlin)
+- **world-taiwan-hybrid-warfare-regional-warning** — Nikkei Asia: Taiwan security chief says Beijing's grey-zone tactics test whole region (section: world)
+- **world-west-africa-anti-lgbtq-legislation-wave** — The Guardian: Senegal and Niger tighten laws as campaigners warn of political scapegoating (section: world)
+- **world-wall-street-blockchain-settlement-pilots** — Financial Times: banks accelerate distributed-ledger market experiments despite systemic-risk warnings (section: world)
+
 ## 2026-08-02
 
 - **spain-sanchez-eu-letter-interior-ministers-ceuta** — eldiario.es: PM accuses several EU governments of attacking Spain over Ceuta and demands emergency interior-ministers meeting (section: spain)
@@ -200,36 +215,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-moonshot-ai-hong-kong-ipo-kimi** — Nikkei Asia: Chinese AI start-up plans Hong Kong listing after Kimi K3 model undercuts US rivals (section: world)
 - **world-nicaragua-ortega-no-elections** — Guardian: Daniel Ortega says Nicaragua will hold no further elections and will legislate against opposition (section: world)
 - **world-houthi-saudi-naval-blockade** — Foreign Policy: Houthis declare blockade on Saudi shipping as Red Sea and Hormuz routes stay volatile (section: world)
-
-## 2026-07-20
-
-- **spain-world-cup-final-victory-argentina** — eldiario.es: Ferran Torres extra-time goal crowns Spain's second World Cup with one goal conceded in eight matches (section: spain)
-- **spain-trump-sanchez-vip-box-final** — eldiario.es: Pedro Sánchez, King Felipe and Donald Trump share MetLife Stadium hospitality suite at politically charged final (section: spain)
-- **spain-diaspora-pizzeria-compostela-reaction** — eldiario.es: lone Spanish fan celebrates among Argentine supporters at Santiago de Compostela pizzeria (section: spain)
-- **germany-east-pension-poverty-armutsrente** — Tagesspiegel: union study finds half of eastern workers face poverty-level pensions on current wage paths (section: germany)
-- **germany-sick-leave-decline-h1** — Handelsblatt: health-fund data show slight first-half drop in certified incapacity despite planned reporting crackdown (section: germany)
-- **germany-work-email-private-use-labour-law** — Handelsblatt: legal Q&A warns dismissal risk for unauthorised private use of corporate email (section: germany)
-- **berlin-chialo-foerdergeld-investigation-ordnungsgeld** — Tagesspiegel: inquiry panel threatens fines to compel ex-culture senator Joe Chialo testimony in arts-funding scandal (section: berlin)
-- **berlin-bvg-sexual-violence-rise** — Tagesspiegel: total public-transport crime falls but sexual offences climb on BVG network (section: berlin)
-- **berlin-ber-night-flight-ban-exceptions** — Tagesspiegel: Brandenburg transport minister Crumbach seeks curfew exceptions for delayed BER arrivals (section: berlin)
-- **world-guyana-ferry-sink-disaster** — Guardian: passenger ferry sinks off Guyana with inaccurate manifest and criminal probe into crew (section: world)
-- **world-peru-earthquake-sicaya** — Guardian: 5.5-magnitude Andes quake kills at least six and displaces hundreds near Huancayo (section: world)
-- **world-mitsubishi-adm-sustainable-aviation-fuel** — Nikkei Asia: Mitsubishi partners with Archer Daniels Midland on green jet-fuel production (section: world)
-
-## 2026-07-19
-
-- **spain-pp-feijoo-contrarreforma-social-cuts** — eldiario.es: Feijóo PP drafts rollback of ~100 laws cutting unemployment benefits, union rights, trans protections and Franco-victim aid (section: spain)
-- **spain-psoe-madrid-open-primary** — eldiario.es: Reyes Maroto and Enma López contest first-ever open PSOE primary for Madrid mayoral candidacy (section: spain)
-- **spain-ayuso-mostoles-harassment-double-standard** — eldiario.es: Madrid president Ayuso defends imputed Móstoles PP mayor while attacking PSOE on sexual-harassment cases (section: spain)
-- **germany-merz-spahn-successor-search** — Handelsblatt: chancellor accelerates CDU/CSU parliamentary-leader succession after Jens Spahn resignation (section: germany)
-- **germany-handwerk-apprenticeship-surge** — Handelsblatt: craft-sector training numbers rise as manufacturing crisis redirects school leavers (section: germany)
-- **germany-addw-in-car-camera-mandate** — Handelsblatt: EU requires driver-monitoring interior cameras on all newly registered cars from July (section: germany)
-- **berlin-lilienthal-volksbuhne-prinzenbad-reset** — Tagesspiegel: new Volksbühne intendant plans poolside reopening and generational reinvention (section: berlin)
-- **berlin-schoeneberg-lgbtq-city-festival** — rbb24: 32nd lesbian and gay city festival opens in Schöneberg (section: berlin)
-- **berlin-schoeneberg-toxic-fumes-evacuation** — rbb24: hazardous vapours force evacuation of Schöneberg shop and adjoining flats (section: berlin)
-- **world-us-iran-jordan-troop-deaths-strikes** — FT: Washington launches reprisal strikes after two US soldiers killed in Jordan amid Hormuz escalation (section: world)
-- **world-cuba-grid-collapse-oil-blockade** — Guardian: third national blackout in ten days as six-month US oil embargo strains Cuban infrastructure (section: world)
-- **world-icici-bank-india-loan-profit** — Bloomberg: ICICI Bank beats estimates on retail and corporate loan surge (section: world)
 
 ## Saturated topics — do not return without material development
 

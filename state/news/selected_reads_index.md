@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-03
+
+- [A digital iron curtain is threatening the global economy](https://www.ft.com/content/90550cee-2dd4-437f-8bda-b1ff41317d23) — Financial Times
+- [Starting gun for Central Asia data center race triggered](https://asia.nikkei.com/business/technology/artificial-intelligence/starting-gun-for-central-asia-data-center-race-triggered) — Nikkei Asia
+- [The Dreams of 'Star Trek' Aren't Dead](https://foreignpolicy.com/2026/07/31/starfleet-academy-artemis-ii-discovery-star-trek/) — Foreign Policy
+- [Wall Street learns to love blockchain](https://www.ft.com/content/7600731b-4f7f-4d38-a478-3196c565a880?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-08-02
 
 - [HIV prevention drug could reduce cases globally but USAID cuts prevent access, say experts](https://www.theguardian.com/society/2026/jul/31/hiv-aids-medication-usaid-cuts) — The Guardian
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [AI supplier Innolight dips in Asia's second-biggest listing of 2026](https://asia.nikkei.com/business/markets/ipo/ai-supplier-innolight-dips-in-asia-s-second-biggest-listing-of-20262) — Nikkei Asia
 - [BPO firm Teleperformance to open 1st Vietnam site as AI changes outsourcing](https://asia.nikkei.com/editor-s-picks/interview/bpo-firm-teleperformance-to-open-1st-vietnam-site-as-ai-changes-outsourcing) — Nikkei Asia
 - [Summer of Heat, Fires and Storms Is a Reckoning for Europe on Climate](https://www.nytimes.com/2026/07/29/world/europe/summer-heat-wave-fires-climate-change.html) — The New York Times
-
-## 2026-07-29
-
-- [Ukraine adapts strikes on Russian energy industry to hit critical components](https://www.ft.com/content/5ca782bd-5c4a-45f8-9a7a-5793d800321d?syn-25a6b1a6=1) — Financial Times
-- [The Worst Way to Regulate AI](https://www.theatlantic.com/ideas/2026/07/white-house-ai-regulation/688088/?utm_source=feed) — The Atlantic
-- [Why Putin Will Escalate](https://foreignpolicy.com/2026/07/28/why-putin-will-escalate/) — Foreign Policy
-- [BTS comeback lifts South Korea's Hybe back into the black](https://asia.nikkei.com/business/media-entertainment/bts-comeback-lifts-south-korea-s-hybe-back-into-the-black) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 
