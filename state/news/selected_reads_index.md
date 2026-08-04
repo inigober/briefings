@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-04
+
+- [Revolut chief Nik Storonsky sued by broker over €350mn superyacht](https://www.ft.com/content/7dd21b1e-3b3d-48a6-a3fe-6a0e4a14944b?syn-25a6b1a6=1) — Financial Times
+- [Grab raises guidance as strong ride-hailing demand lifts Q2 profit](https://asia.nikkei.com/business/technology/grab-raises-guidance-as-strong-ride-hailing-demand-lifts-q2-profit) — Nikkei Asia
+- ['Arrogance kills': Novo chief injects risk-taking into Ozempic maker](https://www.ft.com/content/d44d9139-c6ac-41de-851d-ab30b6085ce2?syn-25a6b1a6=1) — Financial Times
+- [A Patchwork Approach to AI Regulation Is Best—for Now](https://foreignpolicy.com/2026/08/03/artificial-intelligence-ai-regulation-safety-california-new-york-pope-leo/) — Foreign Policy
+
 ## 2026-08-03
 
 - [A digital iron curtain is threatening the global economy](https://www.ft.com/content/90550cee-2dd4-437f-8bda-b1ff41317d23) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [NATO Says Russian Missile Violated Polish Airspace](https://foreignpolicy.com/2026/07/30/poland-russia-missile-incursion-nato-ukraine-war-strikes/) — Foreign Policy
 - [Yen slides back to 160 against dollar after possible intervention](https://asia.nikkei.com/business/markets/currencies/yen-slides-back-to-160-against-dollar-after-possible-intervention) — Nikkei Asia
 - [Trump 'not sure' he will let Ukraine build Patriot missiles](https://www.ft.com/content/d8c42f6b-4dba-4976-a907-c7c93bca0bbd?syn-25a6b1a6=1) — Financial Times
-
-## 2026-07-30
-
-- [The OpenAI Hack Shows the Genie Is Out of the Bottle](https://foreignpolicy.com/2026/07/30/openai-hack-genie-bottle-defense/) — Foreign Policy
-- [AI supplier Innolight dips in Asia's second-biggest listing of 2026](https://asia.nikkei.com/business/markets/ipo/ai-supplier-innolight-dips-in-asia-s-second-biggest-listing-of-20262) — Nikkei Asia
-- [BPO firm Teleperformance to open 1st Vietnam site as AI changes outsourcing](https://asia.nikkei.com/editor-s-picks/interview/bpo-firm-teleperformance-to-open-1st-vietnam-site-as-ai-changes-outsourcing) — Nikkei Asia
-- [Summer of Heat, Fires and Storms Is a Reckoning for Europe on Climate](https://www.nytimes.com/2026/07/29/world/europe/summer-heat-wave-fires-climate-change.html) — The New York Times
 
 ## Blocked until 5+ briefings have passed
 

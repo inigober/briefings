@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-04
+
+- **spain-tobacco-plain-packaging-indemnity-threats** — EL PAÍS: tobacco manufacturers threatened multimillion-euro lawsuits if Spain approved generic cigarette packaging, stalling health ministry rules twice since 2024 (section: spain)
+- **spain-influencer-economy-stable-career-path** — eldiario.es: growing cohort of Spanish content creators now list influencing as sole occupation with some earning €20,000 monthly (section: spain)
+- **spain-eu-interior-ministers-migration-ceuta** — La Vanguardia: EU home-affairs ministers meet in tense climate as Italy and Spain trade accusations over Ceuta fallout (section: spain)
+- **germany-dax-record-automaker-crisis-divergence** — Handelsblatt: benchmark index hits record while BMW, Mercedes and VW report weakening orders and margins (section: germany)
+- **germany-crypto-holders-tax-uncertainty** — Handelsblatt: nine million Germans hold digital assets as proposed tax changes and price slump freeze trading decisions (section: germany)
+- **germany-cologne-street-shooting-four-injured** — Tagesspiegel: four people wounded, some seriously, in northern Cologne gunfire incident under police investigation (section: germany)
+- **berlin-wannsee-jewish-ship-antisemitic-tirade** — Tagesspiegel: motorboat driver shouts Holocaust-denial slogans at MS Goldberg cultural vessel on Wannsee, police investigate incitement (section: berlin)
+- **berlin-kantstrasse-cycle-lane-removal** — rbb24: transport senate dismantles contested Charlottenburg cycle path after years of bus-lane and fire-service disputes (section: berlin)
+- **berlin-antiquariate-bulk-orders-ai-training** — rbb24: Berlin second-hand bookshops report Canadian company placing large orders suspected for AI model training (section: berlin)
+- **world-pakistan-imran-khan-jail-influence** — Nikkei Asia: jailed former PM remains opposition gravitational centre three years into sentence (section: world)
+- **world-china-methanol-industrial-policy-lesson** — Foreign Policy: abandoned Ford-China methanol project illustrates value of preserving multiple energy pathways (section: world)
+- **world-silicon-valley-chinese-ai-models-split** — Rest of World: low-cost Chinese open-weight models divide US tech executives and policymakers on security vs competitiveness (section: world)
+
 ## 2026-08-03
 
 - **spain-montoro-gas-kickbacks-probe-relaunch** — eldiario.es: Tarragona judge extends instruction against ex-finance minister Cristóbal Montoro over alleged gas-sector commission scheme (section: spain)
