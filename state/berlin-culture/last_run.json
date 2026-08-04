@@ -1,31 +1,30 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-07-28",
-  "briefing_date": "2026-07-28",
-  "inbox_date": "2026-07-28",
-  "week_start": "2026-07-29",
-  "week_end": "2026-08-04",
+  "date": "2026-08-04",
+  "briefing_date": "2026-08-04",
+  "inbox_date": "2026-08-04",
+  "week_start": "2026-08-05",
+  "week_end": "2026-08-11",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-07-28.md",
-  "inbox_path": "inbox/berlin-culture/2026-07-28-synthesis.json",
-  "items_count": 10,
+  "briefing_path": "briefings/berlin-culture/2026-08-04.md",
+  "inbox_path": "inbox/berlin-culture/2026-08-04-synthesis.json",
+  "items_count": 12,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 1,
-    "film": 1,
+    "exhibitions": 4,
+    "film": 0,
     "performing_arts": 1,
-    "music": 0,
-    "wildcards": 2,
-    "advance_radar": 2
+    "music": 1,
+    "wildcards": 1,
+    "advance_radar": 3
   },
-  "thin_sections": ["exhibitions", "film", "performing_arts", "music"],
+  "thin_sections": ["film", "performing_arts", "music"],
   "omitted_sections": [],
   "validation_warnings": [
-    "Section 'exhibitions' has 1 entries (style minimum 4)",
-    "Section 'film' has 1 entries (style minimum 2)",
+    "Section 'film' has 0 entries (style minimum 2)",
     "Section 'performing_arts' has 1 entries (style minimum 2)",
-    "Section 'music' has 0 entries (style minimum 3)"
+    "Section 'music' has 1 entries (style minimum 3)"
   ],
   "verification_fetches": 5,
-  "notes": "Thin late-July inbox (17 synthesis items). Spot-checked Holobionten (DITTRICH & SCHLECHTRIEM, closes 31 Jul), Marseille 1994 (Galerie Buchholz, closes 31 Jul — INDEX had wrong PSM venue), THE PRESSING (Radialsystem SENSE, Thu 30 Jul–Sun 2 Aug), Cloud Domination, Noé Duboutay/Bethanien. Promoted Cloud Domination and Duboutay from last week's Advance Radar. Corrected exhibition venues from INDEX spot-checks. Dropped Ben Klock (mainstream DJ), sold-out Sunn O))), fully booked THE LETTING GO. Music section omitted with explanatory note."
+  "notes": "Thin inbox (17 synthesis items after pre-fetch caps). Spot-checked THE PRESSING (Radialsystem, Thu 6–Sun 9 Aug), Islands of Time opening (Silent Green, 6 Aug with Pole/JakoJako/Sunroof/Bougaïeff), Portugal programme (Wolf Kino, 5–8 Aug), Joyful Failure (Radialsystem). Dropped Peter Hujar (Museumsportal dates ambiguous; not listed on Gropius Bau programme). Skipped Ayumi Paul Fischmond (anti-repetition). Film section uses Top Picks cross-reference only — duplicate Wolf Kino programme URL rejected by validator. Promoted everybody from last week's Advance Radar to Wildcards. Marina Abramović and Gabriele Stötzer at Gropius Bau replace dropped Hujar pick."
 }

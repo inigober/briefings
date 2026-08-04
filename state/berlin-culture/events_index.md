@@ -4,14 +4,6 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 
 <!-- Format: YYYY-MM-DD | section | title | venue | official_url -->
 
-2026-06-09 | top_picks | Kyiv Biennial – A Bird That Cannot Land | KW Institute for Contemporary Art | https://www.kw-berlin.de/en/exhibitions/kyiv-biennial-a-bird-that-cannot-land
-2026-06-09 | top_picks | Afterlives | Wolf Kino | https://www.arsenal-berlin.de/archiv-distribution/kinostarts-und-programme/afterlives/
-2026-06-09 | top_picks | Ein Abend für Hartmut Bitomsky (Bresson & Bitomsky Shorts + Talk) | Kino Arsenal | https://www.arsenal-berlin.de/assets/Kino/PDFs/26-06_Kalendarium-Plakat_arsenal_A1_cmyk_Web.pdf
-2026-06-09 | exhibitions | Holly Herndon & Mat Dryhurst – Starmirror | KW Institute for Contemporary Art | https://www.kw-berlin.de/files/250730_KW_Herndon-Dryhurst_Press-Release_EN.pdf
-2026-06-09 | film | Magical History Tour – Something Different by Věra Chytilová | Kino Arsenal | https://www.arsenal-berlin.de/assets/Kino/PDFs/26-06_Kalendarium-Plakat_arsenal_A1_cmyk_Web.pdf
-2026-06-09 | advance_radar | Abdruckkörper | Ballhaus Naunynstraße | https://ballhausnaunynstrasse.de/play/abdruckkoerper?language=en
-2026-06-09 | advance_radar | Fragile Freiheit – Georgian Documentary Program | Arsenal | https://www.arsenal-berlin.de/kino/filmvorfuehrung/fragile-freiheit-5340/
-2026-06-09 | advance_radar | Sonnenbrand & Mückenstich – shorts attack Kurzfilmprogramm | ACUDkino | https://acudkino.de/Programm/sonnenbrand_muckenstich/20483/58436
 2026-06-16 | top_picks | Kyiv Biennial – A Bird That Cannot Land (Free Thursday) | KW Institute for Contemporary Art | https://www.kw-berlin.de/en/info/plain-language
 2026-06-16 | top_picks | DER SOLDAT. Ein Übergangsritual | HAU2 (Hebbel am Ufer) | https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/
 2026-06-16 | top_picks | ACUDkino — Sunday feature triple bill | ACUDkino | https://acudkino.de/Programm/ich_verstehe_ihren_unmut/20467
@@ -85,3 +77,16 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-07-28 | wildcards | Performance by Noé Duboutay and Book Launch by Ruti de Vries and Tracey Snelling | Künstlerhaus Bethanien | https://www.indexberlin.com/events/list/44622/performance-by-noe-duboutay-and-book-launch-by-ruti-de-vries-and-tracey-snelling
 2026-07-28 | advance_radar | Spätschicht x AL.Berlin | Gropius Bau | https://www.indexberlin.com/events/list/44543/spatschicht-x-al-berlin
 2026-07-28 | advance_radar | everybody | Georg Kolbe Museum | https://www.indexberlin.com/events/list/44363/everybody
+2026-08-04 | top_picks | THE PRESSING | Radialsystem | https://www.radialsystem.de/en/veranstaltungen/the-pressing-2026/
+2026-08-04 | top_picks | Islands of Time — Exhibition Opening with Pole, JakoJako & Rubén Nsue, Sunroof, Nicolas Bougaïeff | silent green Kulturquartier | https://www.silent-green.net/en/programme/detail/island-of-time-exhibition-and-concerts-feat-pole-jakojako-ruben-nsue-sunroof-nicolas-bougaeiff
+2026-08-04 | top_picks | Summer Special: Films from Portugal | Wolf Kino | https://wolfberlin.org/en/programme/events/summer-special-from-portugal
+2026-08-04 | exhibitions | distractions | time is it in the world PSM | https://www.indexberlin.com/exhibitions/list/43268/distractions
+2026-08-04 | exhibitions | Lass es Liebe sein | time is it in the world PSM | https://www.indexberlin.com/exhibitions/list/44519/lass-es-liebe-sein
+2026-08-04 | exhibitions | Marina Abramović — Balkan Erotic Epic. The Exhibition | Gropius Bau | https://www.gropiusbau.de/en/programme/marina-abramovic-balkan-erotic-epic-the-exhibition
+2026-08-04 | exhibitions | Gabriele Stötzer — Dabei sein und nicht schweigen | Gropius Bau | https://www.gropiusbau.de/en/programme/gabriele-stoetzer-dabei-sein-und-nicht-schweigen
+2026-08-04 | performing_arts | Joyful Failure – An Evening on the Poetry of Failure | Radialsystem | https://www.radialsystem.de/en/veranstaltungen/joyful-failure/
+2026-08-04 | music | silent green Open Lab #10: Lovecrushr + ricky horror | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/silent-green-open-lab-10-lovecrushr-ricky-horror
+2026-08-04 | wildcards | everybody | Georg Kolbe Museum | https://www.indexberlin.com/events/list/44363/everybody
+2026-08-04 | advance_radar | KINDL Ferien-Rallye | KINDL – Zentrum für zeitgenössische Kunst | https://www.indexberlin.com/events/list/44612/kindl-ferien-rallye
+2026-08-04 | advance_radar | Shirin Sabahi — Domesticity III | Pforte | https://www.indexberlin.com/events/list/44626/domesticity-iii
+2026-08-04 | advance_radar | FERIEN AM WALDSEE — Carl Laszlo und die Kunst zu überleben | Haus am Waldsee | https://www.indexberlin.com/events/list/44579/ferien-am-waldsee-carl-laszlo-und-die-kunst-zu-uberleben-reading-with-choir-concert
