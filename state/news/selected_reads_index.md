@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-05
+
+- [Musk's SpaceX unnerves investors with lavish AI spending plans](https://www.ft.com/content/41f7963b-dd50-4f27-a085-771ddec4a8ca?syn-25a6b1a6=1) — Financial Times
+- [What's Behind Indonesia's Anti-Corruption Crusade?](https://foreignpolicy.com/2026/08/04/indonesia-corruption-nadiem-makari-investigation-jokowi-prabowo/) — Foreign Policy
+- [What Remains of Rojava](https://foreignpolicy.com/2026/08/04/rojava-syria-kurds-ypg-sdf-damascus-kobani-isis-integration/) — Foreign Policy
+- [Elon Musk's space data center vision reshapes Asia's launch industry](https://asia.nikkei.com/business/technology/tech-asia/elon-musk-s-space-data-center-vision-reshapes-asia-s-launch-industry) — Nikkei Asia
+
 ## 2026-08-04
 
 - [Revolut chief Nik Storonsky sued by broker over €350mn superyacht](https://www.ft.com/content/7dd21b1e-3b3d-48a6-a3fe-6a0e4a14944b?syn-25a6b1a6=1) — Financial Times

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-05
+
+- **spain-alba-sosa-hate-crime-charges-dropped** — eldiario.es: Madrid provincial court removes hate-crime and profit-motive counts from corrupt ex-judge Alba's case against Canarias Ahora editor Carlos Sosa (section: spain)
+- **spain-italy-eu-commission-morocco-migration-lead** — La Vanguardia: Italian interior minister proposes Brussels take over EU migration diplomacy with Rabat instead of bilateral Spanish deals (section: spain)
+- **spain-madrid-hospital-foreign-patients-er-backlog** — EL PAÍS: terminally ill Bolivian man and Peruvian teenager stranded in Puerta de Hierro emergency unit amid staff cost-cutting claims (section: spain)
+- **germany-reiche-electricity-prices-fall-outlook** — Handelsblatt: economy minister expects industrial power costs to decline as grid reforms and renewables expand (section: germany)
+- **germany-illegal-hair-transplant-clinic-scam** — Tagesspiegel: investigation finds unlicensed cosmetic clinics using fake doctors to deceive hair-restoration patients (section: germany)
+- **germany-ing-deutschland-credit-card-launch** — Handelsblatt: direct bank plans proprietary credit card before Christmas shopping season (section: germany)
+- **berlin-vogelschlag-glass-building-bird-deaths** — rbb24: NABU estimates millions of migratory birds die annually striking untreated Berlin glass facades (section: berlin)
+- **berlin-dog-registry-enforcement-gap** — Tagesspiegel: mandatory canine database remains largely voluntary a year after launch pledge (section: berlin)
+- **berlin-laborgras-joyful-failure-theatre** — The Berliner: experimental troupe opens performance exploring creative embrace of failure (section: berlin)
+- **world-china-retroactive-offshore-tax-hunt** — Financial Times: Beijing pursues citizens' historical offshore assets and tightens future capital controls (section: world)
+- **world-takeda-dengue-vaccine-india-programme** — Nikkei Asia: Japanese drugmaker lobbies for inclusion in India's national immunisation schedule (section: world)
+- **world-colombia-elefante-blanco-anti-graft-senator** — The Guardian: activist Luis Carlos Rúa sworn in as senator in cartoon elephant costume after anti-corruption campaign (section: world)
+
 ## 2026-08-04
 
 - **spain-tobacco-plain-packaging-indemnity-threats** — EL PAÍS: tobacco manufacturers threatened multimillion-euro lawsuits if Spain approved generic cigarette packaging, stalling health ministry rules twice since 2024 (section: spain)
