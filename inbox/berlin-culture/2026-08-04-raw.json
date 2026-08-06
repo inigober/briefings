@@ -4,25 +4,89 @@
   "week_start": "2026-08-05",
   "week_end": "2026-08-11",
   "week_label": "August 5–11, 2026",
-  "fetched_at": "2026-08-04T08:36:36.965120+00:00",
+  "fetched_at": "2026-08-06T08:34:29.225053+00:00",
   "model": "gpt-5.4",
   "fetch_mode": "search_per_section_then_structure",
-  "web_search_calls": 15,
-  "research_notes_chars": 19478,
+  "web_search_calls": 16,
+  "research_notes_chars": 19433,
   "items": [
     {
-      "id": "exh-wo-ich-wohne-haus-am-waldsee-2026-08",
+      "id": "music-islands-of-time-opening-2026-08-06",
       "topic_ids": [
-        "exhibitions"
+        "music",
+        "sound_art",
+        "experimental_electronic"
       ],
-      "title": "Wo ich wohne",
-      "venue": "Haus am Waldsee",
-      "dates": "14 June – 27 September 2026",
-      "times": "02:26",
+      "title": "Exhibition: Islands of Time by Niccolò Masini – Opening with Pole, JakoJako & Rubén Nsue, Sunroof, Nicolas Bougaïeff",
+      "venue": "silent green Kulturquartier, Kuppelhalle / Ateliers 2+3",
+      "dates": "Thursday, August 6, 2026",
+      "times": "18:00",
+      "artists": [
+        "Pole",
+        "JakoJako",
+        "Rubén Nsue",
+        "Sunroof",
+        "Nicolas Bougaïeff"
+      ],
+      "official_url": "https://www.silent-green.net/programm/2026/8",
+      "closing_soon": false,
+      "why_candidate": "Strongest in-window fit for the brief’s music profile: sound-/electronic-leaning, tied to an exhibition opening, and intersecting with audiovisual/installation interests.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "page_event_years": [
+        2026
+      ],
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "music-emma-rawicz-cloudwalker-2026-08-06",
+      "topic_ids": [
+        "music",
+        "leftfield_jazz",
+        "improvisation"
+      ],
+      "title": "A Summer Residency DAY3: Emma Rawicz “CLOUDWALKER” feat. Rasmus Sørensen, Freddie Jensen, Marc Michel — special guest Jonny Mansfield",
+      "venue": "A-Trane",
+      "dates": "06 August 2026",
+      "times": "20:30",
+      "artists": [
+        "Emma Rawicz",
+        "Rasmus Sørensen",
+        "Freddie Jensen",
+        "Marc Michel",
+        "Jonny Mansfield"
+      ],
+      "official_url": "https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day2emma-rawiczcloudwalkerfeat-rasmus-sorensen-freddie-jensen-marc-micheltodays-special-guest-jonny-mansfield-2/",
+      "closing_soon": false,
+      "why_candidate": "Weaker fit than the Silent Green event but still a credible exact-window music option from an official event page, with substantial contemporary jazz/improvisation framing.",
+      "series_id": "a-summer-residency-emma-rawicz-cloudwalker",
+      "event_kind": "festival_event",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "page_event_years": [
+        2026
+      ],
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "exhibitions-art-people-power-2026-08-05-to-2026-08-11",
+      "topic_ids": [
+        "exhibitions",
+        "history_memory",
+        "politics_society"
+      ],
+      "title": "Art – People – Power",
+      "venue": "Schönhausen House, via Museumsportal Berlin",
+      "dates": "April 2026 - 31...",
+      "times": "Tuesday–Sunday 10:00–17:30; weekdays guided tour only, weekends individual tour",
       "artists": [],
-      "official_url": "https://hausamwaldsee.de/en/anniversary-80-years-haus-am-waldsee/",
+      "official_url": "https://www.museumsportal-berlin.de/en/exhibitions/kunst-menschen-macht/",
       "closing_soon": false,
-      "why_candidate": "Open through the full Aug 5–11 window; contemporary group exhibition within the institution’s anniversary programme with historical/memory resonance.",
+      "why_candidate": "One of the better allowed-domain in-window leads found; strong history/memory angle around National Socialist art policy and its aftermath, though more historical-museum than contemporary-art radar and snippet verification is incomplete.",
       "series_id": "",
       "event_kind": "single",
       "ingestion_source": "openai",
@@ -35,77 +99,24 @@
       "url_verify_notes": "ok"
     },
     {
-      "id": "exh-ayumi-paul-fischmond-am-waldsee-2026-08",
+      "id": "film-jacks-ride-portuguese-bites-2026-08-05",
       "topic_ids": [
-        "exhibitions"
+        "film",
+        "hybrid_documentary",
+        "post_screening_discussion"
       ],
-      "title": "Ayumi Paul. Fischmond am Waldsee",
-      "venue": "Haus am Waldsee",
-      "dates": "14 June 2026 – 23 May 2027",
-      "times": "02:26",
-      "artists": [
-        "Ayumi Paul"
-      ],
-      "official_url": "https://hausamwaldsee.de/en/anniversary-80-years-haus-am-waldsee/",
-      "closing_soon": false,
-      "why_candidate": "Long-running in-window installation/exhibition with interdisciplinary and likely sound-adjacent contemporary art relevance.",
-      "series_id": "",
-      "event_kind": "single",
-      "ingestion_source": "openai",
-      "url_live": true,
-      "verified": true,
-      "page_event_years": [
-        2026,
-        2027
-      ],
-      "url_verify_notes": "ok"
-    },
-    {
-      "id": "exh-peter-hujar-liz-deschenes-persistence-of-vision-2026-08",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "Peter Hujar / Liz Deschenes: Persistence of Vision",
-      "venue": "Gropius Bau",
-      "dates": "27 February 2027",
-      "times": "12:00",
-      "artists": [
-        "Peter Hujar",
-        "Liz Deschenes"
-      ],
-      "official_url": "https://www.museumsportal-berlin.de/en/exhibitions/peter-hujar-liz-deschenes-persistence-of-vision/",
-      "closing_soon": false,
-      "why_candidate": "Open during the window and relevant for contemporary visual practice; source-quality caveat noted because the matched page is a Museumsportal listing rather than a direct venue event page.",
-      "series_id": "",
-      "event_kind": "single",
-      "ingestion_source": "openai",
-      "url_live": true,
-      "verified": true,
-      "page_event_years": [
-        2025,
-        2026,
-        2027
-      ],
-      "url_verify_notes": "ok"
-    },
-    {
-      "id": "film-summer-special-films-from-portugal-2026-08",
-      "topic_ids": [
-        "film"
-      ],
-      "title": "Summer Special: Films from Portugal",
+      "title": "Jack’s Ride & Portuguese Bites",
       "venue": "Wolf Kino",
-      "dates": "4–8 August 2026",
-      "times": "18:00–21:00",
+      "dates": "Friday, August 5, 2026",
+      "times": "18:30",
       "artists": [
-        "Cláudia Varejão",
         "Susana Nobre"
       ],
       "official_url": "https://wolfberlin.org/en/programme/events/summer-special-from-portugal",
       "closing_soon": false,
-      "why_candidate": "Clearly dated in-window independent Portuguese film focus; includes a post-screening discussion with a director via Zoom on Sat Aug 8.",
-      "series_id": "summer-special-films-from-portugal-2026",
-      "event_kind": "festival_overview",
+      "why_candidate": "Specific dated screening within the Wolf Kino Portugal focus, with hybrid reality/fiction framing, labor and post-work themes, plus a discussion with the director via Zoom.",
+      "series_id": "summer-special-from-portugal-wolf-kino",
+      "event_kind": "festival_event",
       "ingestion_source": "openai",
       "url_live": true,
       "verified": true,
@@ -113,250 +124,53 @@
       "url_verify_notes": "ok"
     },
     {
-      "id": "film-come-to-stay-youth-trilogie-von-wang-bing-2026-08",
+      "id": "film-a-pleasure-comrades-2026-08-06",
       "topic_ids": [
-        "film"
+        "film",
+        "political_cinema",
+        "documentary"
       ],
-      "title": "Come to Stay: Die YOUTH-Trilogie von Wang Bing",
-      "venue": "Kino Arsenal",
-      "dates": "July/August 2026 programme; exact in-window screening date(s) not confirmed from accessible snippet",
-      "times": "Time not confirmed",
+      "title": "A Pleasure, Comrades!",
+      "venue": "Wolf Kino",
+      "dates": "Saturday, August 6, 2026",
+      "times": "18:30",
       "artists": [
-        "Wang Bing"
+        "José Filipe Costa"
       ],
-      "official_url": "https://www.arsenal-berlin.de/kino/",
+      "official_url": "https://wolfberlin.org/en/programme/events/summer-special-from-portugal",
       "closing_soon": false,
-      "why_candidate": "Strong fit for socially engaged and political documentary cinema, but the exact Aug 5–11 screening slot was not verifiable from the surfaced page.",
-      "series_id": "",
-      "event_kind": "single",
-      "ingestion_source": "openai",
-      "url_live": false,
-      "verified": false,
-      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
-    },
-    {
-      "id": "film-magical-history-tour-meet-the-sound-2026-08",
-      "topic_ids": [
-        "film"
-      ],
-      "title": "Magical History Tour: Meet the Sound – Ton im Film, Klang im Raum",
-      "venue": "Kino Arsenal",
-      "dates": "July/August 2026 programme; exact in-window screening date(s) not confirmed from accessible snippet",
-      "times": "Time not confirmed",
-      "artists": [],
-      "official_url": "https://www.arsenal-berlin.de/kino/",
-      "closing_soon": false,
-      "why_candidate": "Potentially relevant for experimental moving image and sound-image relations, but only verified as a programme strand on the official cinema page.",
-      "series_id": "magical-history-tour",
-      "event_kind": "festival_overview",
-      "ingestion_source": "openai",
-      "url_live": false,
-      "verified": false,
-      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
-    },
-    {
-      "id": "film-filmmakers-choice-bildpolitiken-zwischen-technologie-und-extraktion-2026-08",
-      "topic_ids": [
-        "film"
-      ],
-      "title": "Filmmakers’ Choice: Bildpolitiken zwischen Technologie und Extraktion",
-      "venue": "Kino Arsenal",
-      "dates": "July/August 2026 programme; exact in-window screening date(s) not confirmed from accessible snippet",
-      "times": "Time not confirmed",
-      "artists": [],
-      "official_url": "https://www.arsenal-berlin.de/kino/",
-      "closing_soon": false,
-      "why_candidate": "Thematically strong match for political/essayistic cinema around image politics, technology, and extraction, but needs date-level confirmation.",
-      "series_id": "filmmakers-choice",
-      "event_kind": "festival_overview",
-      "ingestion_source": "openai",
-      "url_live": false,
-      "verified": false,
-      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
-    },
-    {
-      "id": "film-daad-presents-malaury-eloi-paisley-2026-08",
-      "topic_ids": [
-        "film"
-      ],
-      "title": "Das Berliner Künstlerprogramm des DAAD präsentiert: Malaury Eloi Paisley",
-      "venue": "Kino Arsenal",
-      "dates": "July/August 2026 programme; exact in-window screening date(s) not confirmed from accessible snippet",
-      "times": "Time not confirmed",
-      "artists": [
-        "Malaury Eloi Paisley"
-      ],
-      "official_url": "https://www.arsenal-berlin.de/kino/",
-      "closing_soon": false,
-      "why_candidate": "Likely relevant to artists’ moving image and contemporary audiovisual practice, but the exact in-window screening date was not verifiable from the surfaced page.",
-      "series_id": "daad-presents-arsenal",
-      "event_kind": "festival_overview",
-      "ingestion_source": "openai",
-      "url_live": false,
-      "verified": false,
-      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
-    },
-    {
-      "id": "pa-joyful-failure-radialsystem-2026-08",
-      "topic_ids": [
-        "performing_arts"
-      ],
-      "title": "Joyful Failure – An Evening on the Poetry of Failure",
-      "venue": "Radialsystem",
-      "dates": "6–9 August 2026",
-      "times": "Thu 19:00; Fri 19:00; Sat 19:00; Sun 18:00",
-      "artists": [
-        "laborgras",
-        "Liam Byrne",
-        "Ensemble"
-      ],
-      "official_url": "https://www.radialsystem.de/en/veranstaltungen/joyful-failure/?date=1786035600",
-      "closing_soon": false,
-      "why_candidate": "Strong contemporary dance/performance pick with experimental choreographic-musical structure and a clear in-window run.",
-      "series_id": "",
-      "event_kind": "single",
+      "why_candidate": "Political documentary/reenactment around socio-political cooperatives in Portugal in the 1970s; strong match for politics, history, and memory themes.",
+      "series_id": "summer-special-from-portugal-wolf-kino",
+      "event_kind": "festival_event",
       "ingestion_source": "openai",
       "url_live": true,
       "verified": true,
-      "page_event_years": [
-        2026
-      ],
+      "page_event_years": [],
       "url_verify_notes": "ok"
     },
     {
-      "id": "pa-the-pressing-radialsystem-2026-08",
+      "id": "performing-arts-euphoria-2-0-2026-08-06-to-2026-08-09",
       "topic_ids": [
-        "performing_arts"
+        "performing_arts",
+        "dance",
+        "performance"
       ],
-      "title": "THE PRESSING",
-      "venue": "Radialsystem",
-      "dates": "6–9 August 2026",
-      "times": "Thu 20:30; Fri 20:30; Sat 20:30; Sun 19:30",
+      "title": "EUPHORIA 2.0",
+      "venue": "DOCK 11",
+      "dates": "Thursday, August 6, 2026; Friday, August 7, 2026; Saturday, August 8, 2026; Sunday, August 9, 2026",
+      "times": "19:30",
       "artists": [
-        "Dani Brown",
-        "Justin F. Kennedy"
+        "Hoyoung Im"
       ],
-      "official_url": "https://www.radialsystem.de/de/veranstaltungen/the-pressing-2026/?date=1786127400",
+      "official_url": "https://dock11-berlin.de/gesamter-spielplan",
       "closing_soon": false,
-      "why_candidate": "Queer, body-focused solo performance with strong gender/sexuality themes and a clearly dated 2026 run in the target week.",
+      "why_candidate": "Clearly dated contemporary dance/performance run within the target window and not on the already-recommended list.",
       "series_id": "",
       "event_kind": "single",
       "ingestion_source": "openai",
       "url_live": true,
       "verified": true,
       "page_event_years": [
-        2026
-      ],
-      "url_verify_notes": "ok"
-    },
-    {
-      "id": "wc-space-for-practice-floating-berlin-2026-08",
-      "topic_ids": [
-        "wildcards",
-        "performing_arts"
-      ],
-      "title": "Space for Practice",
-      "venue": "Floating Berlin",
-      "dates": "10 August 2026",
-      "times": "09:00–11:00",
-      "artists": [
-        "Alice Chauchat",
-        "Clément Layes",
-        "Daniel Belasco Rogers",
-        "Gabriele Reuter",
-        "Ghyslaine Gau",
-        "Lea Martini",
-        "Paula Kramer",
-        "Sabine Zahn"
-      ],
-      "official_url": "https://floating-berlin.org/calendar-2026/",
-      "closing_soon": false,
-      "why_candidate": "Participatory choreographic encounter and movement practice; better treated as a wildcard/hybrid research-practice format than a finished staged performance.",
-      "series_id": "space-for-practice",
-      "event_kind": "festival_event",
-      "ingestion_source": "openai",
-      "url_live": false,
-      "verified": false,
-      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
-    },
-    {
-      "id": "wc-open-thursday-floating-berlin-2026-08",
-      "topic_ids": [
-        "wildcards"
-      ],
-      "title": "Open Thursday",
-      "venue": "Floating Berlin",
-      "dates": "6 August 2026",
-      "times": "18:00–21:00",
-      "artists": [
-        "Adriana",
-        "Carmen",
-        "Hannah Lu",
-        "Niusha",
-        "Orlan",
-        "Rain",
-        "Serena"
-      ],
-      "official_url": "https://floating-berlin.org/calendar-2026/",
-      "closing_soon": false,
-      "why_candidate": "Hybrid open-site format that may include meal, concert, or screening; not firm enough as performing arts, but usable as a wildcard community/research event.",
-      "series_id": "open-thursday-floating-berlin",
-      "event_kind": "festival_event",
-      "ingestion_source": "openai",
-      "url_live": false,
-      "verified": false,
-      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
-    },
-    {
-      "id": "music-islands-of-time-opening-silent-green-2026-08",
-      "topic_ids": [
-        "music",
-        "exhibitions"
-      ],
-      "title": "Ausstellung: Islands of Time von Niccolò Masini – Eröffnung mit Live-Sets von Pole, JakoJako & Rubén Nsue, Sunroof, Nicolas Bougaïeff",
-      "venue": "silent green Kulturquartier, Kuppelhalle / Ateliers 2+3",
-      "dates": "6 August 2026",
-      "times": "18:00",
-      "artists": [
-        "Pole",
-        "JakoJako & Rubén Nsue",
-        "Sunroof",
-        "Nicolas Bougaïeff",
-        "Niccolò Masini"
-      ],
-      "official_url": "https://www.silent-green.net/programm/detail/ausstellung-islands-of-time-von-niccolo-masini-eroeffnung-mit-pole-jakojako-ruben-nsue-sunroof-nicolas-bougaieff",
-      "closing_soon": false,
-      "why_candidate": "Strong fit for ambient/experimental electronic and sound-art interests; also a newly opening event that week.",
-      "series_id": "",
-      "event_kind": "single",
-      "ingestion_source": "openai",
-      "url_live": false,
-      "verified": false,
-      "url_verify_notes": "HTTP 404"
-    },
-    {
-      "id": "music-silent-green-open-lab-10-lovecrushr-ricky-horror-2026-08",
-      "topic_ids": [
-        "music"
-      ],
-      "title": "silent green Open Lab #10: Lovecrushr + ricky horror",
-      "venue": "silent green Kulturquartier, Kuppelhalle",
-      "dates": "11 August 2026",
-      "times": "20:00",
-      "artists": [
-        "Lovecrushr",
-        "ricky horror"
-      ],
-      "official_url": "https://www.silent-green.net/en/programme/detail/silent-green-open-lab-10-lovecrushr-ricky-horror",
-      "closing_soon": false,
-      "why_candidate": "Confirmed in-window concert on silent green’s August 2026 calendar and relevant to left-field/experimental music through the Open Lab format.",
-      "series_id": "silent-green-open-lab",
-      "event_kind": "festival_event",
-      "ingestion_source": "openai",
-      "url_live": true,
-      "verified": true,
-      "page_event_years": [
-        2025,
         2026
       ],
       "url_verify_notes": "ok"
@@ -369,15 +183,18 @@
       "title": "CAFÉ BRAVO — DAS TEAM HINTER OTTO, TRIO UND PLUTO ÜBERNIMMT DAN GRAHAMS IKONISCHEN GLASPAVILLON",
       "venue": "Cee Cee Berlin",
       "dates": "",
-      "times": "",
+      "times": "30:07",
       "artists": [],
       "official_url": "https://ceecee.cc/cafe-bravo-das-team-hinter-otto-trio-und-pluto-uebernimmt-dan-grahams-ikonischen-glaspavillon/",
       "closing_soon": false,
       "why_candidate": "Es gibt kaum einen Berliner Innenhof, der so bekannt ist und den ich so oft...",
       "ingestion_source": "rss",
       "verified": false,
-      "url_live": false,
-      "url_verify_notes": "HTTPSConnectionPool(host='ceecee.cc', port=443): Max retries exceeded with url: /cafe-bravo-das-team-hinter-otto-trio-un"
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
     },
     {
       "id": "rss-wildcards-55a7f81f4d",
@@ -387,15 +204,18 @@
       "title": "EINE AUSSTELLUNG, DIE NICHT STEHEN BLEIBT: „DRAUSSEN… UNTER KIEFERN“ IM BRÜCKE-MUSEUM",
       "venue": "Cee Cee Berlin",
       "dates": "",
-      "times": "",
+      "times": "30:07",
       "artists": [],
       "official_url": "https://ceecee.cc/eine-ausstellung-die-nicht-stehen-bleibt-draussen-unter-kiefern-im-bruecke-museum/",
       "closing_soon": false,
       "why_candidate": "In Berlin verlierst Du zwischen Asphalt und Stadtkulisse schnell mal die Verbindung zur Natur. Was...",
       "ingestion_source": "rss",
       "verified": false,
-      "url_live": false,
-      "url_verify_notes": "HTTPSConnectionPool(host='ceecee.cc', port=443): Max retries exceeded with url: /eine-ausstellung-die-nicht-stehen-bleib"
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
     },
     {
       "id": "rss-wildcards-412e17bdb4",
@@ -405,15 +225,18 @@
       "title": "PUDEL, PICKNICK UND PLATTENROULETTE — MIT DEN CC CALENDAR TIPPS IN DEN AUGUST",
       "venue": "Cee Cee Berlin",
       "dates": "",
-      "times": "",
+      "times": "30:07",
       "artists": [],
       "official_url": "https://ceecee.cc/pudel-picknick-und-plattenroulette-mit-den-cc-calendar-tipps-in-den-august/",
       "closing_soon": false,
       "why_candidate": "Berlin hat eine Schwäche für Spezialinteressen. We are talking Filme am Flughafen, Keramik im Grünen,...",
       "ingestion_source": "rss",
       "verified": false,
-      "url_live": false,
-      "url_verify_notes": "HTTPSConnectionPool(host='ceecee.cc', port=443): Max retries exceeded with url: /pudel-picknick-und-plattenroulette-mit-"
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
     },
     {
       "id": "rss-wildcards-1039c36b78",
@@ -423,15 +246,18 @@
       "title": "SUM: BÜCHER, GUTE VIBES UND WEINE VOM FASS IM REUTERKIEZ",
       "venue": "Cee Cee Berlin",
       "dates": "",
-      "times": "",
+      "times": "30:07",
       "artists": [],
       "official_url": "https://ceecee.cc/sum-buecher-gute-vibes-und-weine-vom-fass-im-reuterkiez/",
       "closing_soon": false,
       "why_candidate": "Als ich das erste Mal das Sum Wine + Books betrat, stand ich inmitten meines Pinterest-Boards für...",
       "ingestion_source": "rss",
       "verified": false,
-      "url_live": false,
-      "url_verify_notes": "HTTPSConnectionPool(host='ceecee.cc', port=443): Max retries exceeded with url: /sum-buecher-gute-vibes-und-weine-vom-fa"
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
     },
     {
       "id": "rss-wildcards-678036647b",
@@ -451,6 +277,120 @@
       "page_event_years": [
         2026
       ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-exhibitions-3f67a2d0e2",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Featured Exhibitions & Events August",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/08/06/things-to-do-in-berlin-featured-exhibitions-events-august/",
+      "closing_soon": false,
+      "why_candidate": "Exhibitions & Events at Akademie der Künste, Helmut Newton Foundation, Julia Stoschek Foundation, Gropius Bau, C/O Berlin, Schloss Biesdorf, TD, SCHWARZ CONTEMPORARY, Galerie Thomas Schulte, PalaisPopulaire, 68projects, Dock11, KORNFELD Galerie Berlin, KW Institute for Contemporary Art, Brücke Mu...",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-exhibitions-72b6eae8cd",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Suspending Disbelief: An Interview with Sophie Becker",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/08/04/interview-sophie-becker-ventriloquist-haus-am-waldsee/",
+      "closing_soon": false,
+      "why_candidate": "by Olivia Noss // Aug. 4, 2026 Ventriloquist Sophie Becker brought her show, ‘Ronnie's Big Idea’—a spellbinding two-part act that blended the comedic and the absurd—to the Sommerfest at Haus am Waldsee earlier this month. Performing hand-in-hand …[read on]",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-exhibitions-f32c9448a7",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Bodily Knowledge: An Interview with Andrea Canepa",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/07/28/bodily-knowledge-an-interview-with-andrea-canepa/",
+      "closing_soon": false,
+      "why_candidate": "by Juan José Santos // July 28, 2026 Nearly a decade after her exhibition 'Margen de juego' (2017) at the Galería Rosa Santos—where Andrea Canepa transformed the art space into a game board for bodily experience …[read on]",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-exhibitions-2e25a3efab",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Week July 27–August 23, 2026",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/07/27/things-to-do-in-berlin-art-openings-performances-july27-august23-2026/",
+      "closing_soon": false,
+      "why_candidate": "Openings and events at HKW, Galerie im Turm, Gropius Bau, Tanz im August, silent green Kulturquartier, Schloss Biesdorf, Georg Kolbe Museum, SCHWARZ CONTEMPORARY, Tanz im August, and more …[read on]",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-exhibitions-0b780819e5",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Open Call for Goldrausch Künstlerinnenprojekt 2027",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/07/24/open-call-goldrausch-kunstlerinnen-projekt-2027/",
+      "closing_soon": false,
+      "why_candidate": "July 24, 2026 The Goldrausch Künstlerinnenprojekt has been run by Goldrausch Frauennetzwerk e. V. since 1989. It was founded to counteract the structural discrimination faced by FLINTA …[read on]",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-wildcards-a8c821dd99",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "🔫🚂#516: CSD vigil, welfare cuts hit seniors, Kotti surveillance, scammer",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/516-csd-vigil-welfare-cuts-hit-seniors",
+      "closing_soon": false,
+      "why_candidate": "Election campaigning begins",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
       "url_live": true,
       "url_verify_notes": "ok"
     },
@@ -512,23 +452,224 @@
       "url_verify_notes": "ok"
     },
     {
-      "id": "rss-wildcards-4fa4f2f342",
+      "id": "wp-wildcards-6463964f1d",
       "topic_ids": [
         "wildcards"
       ],
-      "title": "#512: CDU poll bump, temporary pool, asbestos, U-Bahn surveillance, AfD at Stauffenberg event",
-      "venue": "20% Berlin",
+      "title": "Free tickets for the movie Symphony of a Metropolis (1927) with live soundtrack on 12/08",
+      "venue": "The Berliner",
       "dates": "",
       "times": "",
       "artists": [],
-      "official_url": "https://www.20percent.berlin/p/512-cdu-poll-bump-temporary-pool",
+      "official_url": "https://www.the-berliner.com/berlin/free-tickets-for-the-movie-berlin-symphony-of-a-metropolis-12-08/",
       "closing_soon": false,
-      "why_candidate": "RBB discovers...you",
-      "ingestion_source": "rss",
+      "why_candidate": "Want to win tickets? Sign up for our newsletter and send an email in order to have a chance to win our giveaway.",
+      "ingestion_source": "wordpress",
       "verified": false,
       "page_event_years": [],
       "url_live": true,
       "url_verify_notes": "ok"
+    },
+    {
+      "id": "wp-wildcards-4bb369bd19",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "The Berliner Digital Internship",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/the-berliner-digital-internship/",
+      "closing_soon": false,
+      "why_candidate": "Love writing and editing? Basically live online? Come and do a three-month internship with The Berliner’s web team.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "wp-wildcards-acf97caa75",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Berlin Art: What Exhibitions Are On Now?",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/art/berlin-exhibitions-whats-on-now/",
+      "closing_soon": false,
+      "why_candidate": "Wondering what’s going on in the art world and which Berlin exhibitions should you check out right now? Read our guide to find out.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "wp-wildcards-6144886a91",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "5×2 free tickets for the movie “The Odyssey”on 14/8 at open-air movie theater Kreuzberg",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/5x2-free-tickets-for-the-movie-the-odysseyon-14-8-at-open-air-movie-theater-kreuzberg/",
+      "closing_soon": false,
+      "why_candidate": "Want to win tickets? Sign up for our newsletter and send an email in order to have a chance to win our giveaway.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "wp-wildcards-79f24a30fa",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "What to do this weekend: Berlin’s best events",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/what-to-do-this-weekend-best-events/",
+      "closing_soon": false,
+      "why_candidate": "In Berlin and don’t know what to do? Don’t worry. These are our picks of the best events happening in the city this weekend.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "wp-wildcards-71aba61a95",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Former Fraud Investigator Committed Fraud With Fake Apartment Listings",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/former-police-officer-committed-fraud-with-fake-apartment-listings/",
+      "closing_soon": false,
+      "why_candidate": "The former Berlin police officer is on trial for listing non-existent apartments for rent.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "wp-wildcards-a26ae541eb",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Objects. History. Stories. Reviewing the Collection",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/culture/objects-history-stories-reviewing-the-collection/",
+      "closing_soon": false,
+      "why_candidate": "An amber game board from Königsberg made in 1607, Queen Luise’s dressing gown from […]",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "wp-wildcards-f72a106d87",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Hit the Decks: Berlin’s Best Vinyl Shops",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/guides/best-vinyl-record-shops-berlin/",
+      "closing_soon": false,
+      "why_candidate": "Whether you’re looking for gritty punk or the latest underground electronic tracks, Berlin has a record shop to match.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "wp-wildcards-c1d534075f",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Pride Flag Used in Arson Attack on CAFE Köpenick",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/pride-flag-used-in-arson-attack-on-cafe-kopenick/",
+      "closing_soon": false,
+      "why_candidate": "Police believe it could be a politically motivated crime.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "wp-wildcards-44d45dff7c",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Birdwatching Boom: A Berliner’s Quest to See Every Bird",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/birdwatching-in-berlin/",
+      "closing_soon": false,
+      "why_candidate": "Selina Veng is racing to log every species in Berlin within a year.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "wp-wildcards-cfd6046f04",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "laborgras „Joyful Failure“",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/culture/joyfulfailure/",
+      "closing_soon": false,
+      "why_candidate": "Joyful Failure Do you have a crippling fear of failure? No need to worry, […]",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "wp-wildcards-74a8a4e036",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Music to Your Ears: the Best Upcoming Live Music in Berlin",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/best-live-music-berlin/",
+      "closing_soon": false,
+      "why_candidate": "From classical to punk, electronic to jazz, we’ve put together a list of the best upcoming live shows in the area.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
     },
     {
       "id": "index-berlin-ics-wildcards-7f97ad4941",
@@ -669,6 +810,27 @@
       "official_url": "https://www.indexberlin.com/events/list/44789/plein-air-malerei-ii",
       "closing_soon": false,
       "why_candidate": "Plein Air Malerei II",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-bfbdc4cebc",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Richard Sides Open House",
+      "venue": "Oberseestr. 60 13053 Berlin",
+      "dates": "08 August 2026",
+      "times": "16:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45010/open-house",
+      "closing_soon": false,
+      "why_candidate": "Richard Sides Open House",
       "ingestion_source": "index_berlin_ics",
       "programme_feed": true,
       "verified": true,
@@ -1036,6 +1198,26 @@
       "url_verify_notes": "ok"
     },
     {
+      "id": "index-berlin-html-exhibitions-63aa299c77",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Emerging Berlin",
+      "venue": "time is it in the world PSM",
+      "dates": "until August 31, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44508/emerging-berlin",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 31, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
       "id": "index-berlin-html-exhibitions-ae094f2324",
       "topic_ids": [
         "exhibitions"
@@ -1267,6 +1449,30 @@
       "verified": false,
       "timing_bucket": "unknown",
       "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-96d536e72b",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "silent green Open Lab #10: Lovecrushr + ricky horror",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/silent-green-open-lab-10-lovecrushr-ricky-horror?tx_news_pi1%5Bday%5D=11&tx_news_pi1%5Bmonth%5D=8&tx_news_pi1%5Byear%5D=2026&cHash=424f1d6ceb0e4a186ec6e29c8adba8d6",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2025,
         2026
       ],
       "url_live": true,
@@ -1800,58 +2006,61 @@
     }
   ],
   "gaps": [
-    "film: only 1 fully verified in-window atomic event page was found; 4 additional official-programme leads lack exact confirmed Aug 5–11 screening dates/times.",
-    "performing_arts: only 2 strong qualifying events found; the 2 Floating Berlin items are weaker hybrid/participatory backups rather than firm performance-led recommendations.",
-    "advance_radar: no genuinely relevant, well-documented candidate found in the provided research notes."
+    "exhibitions: target 2 new candidates; only 1 usable candidate found from notes. Kyiv Biennial was in-window but already indexed, and n.b.k. shows ended before August 5.",
+    "film: target 5 candidates; only 2 verified in-window atomic events found from notes.",
+    "performing_arts: target 4 candidates; only 1 novel qualifying event found from notes.",
+    "wildcards: target 2 candidates; no verified wildcard-format events provided in the notes.",
+    "advance_radar: target 1 candidate optional; no genuinely relevant verified advance-radar item provided in the notes."
   ],
   "section_counts": {
-    "music": 31,
-    "film": 5,
-    "exhibitions": 15,
+    "film": 2,
     "advance_radar": 8,
-    "wildcards": 20,
-    "performing_arts": 2
+    "exhibitions": 19,
+    "wildcards": 31,
+    "music": 32,
+    "performing_arts": 1
   },
   "programme_counts": {
-    "wildcards": 9,
+    "wildcards": 22,
     "advance_radar": 8,
-    "exhibitions": 12,
+    "exhibitions": 13,
     "music": 30
   },
   "press_counts": {
-    "wildcards": 9
+    "wildcards": 21,
+    "exhibitions": 5
   },
   "calendar_counts": {
-    "wildcards": 9,
+    "wildcards": 22,
     "advance_radar": 8,
-    "exhibitions": 12,
+    "exhibitions": 13,
     "music": 30
   },
   "rss_counts": {
-    "wildcards": 9,
+    "wildcards": 22,
     "advance_radar": 8,
-    "exhibitions": 12,
+    "exhibitions": 13,
     "music": 30
   },
   "openai_targets": {
-    "music": 2,
     "film": 5,
-    "exhibitions": 2,
     "advance_radar": 1,
+    "exhibitions": 2,
     "wildcards": 2,
+    "music": 2,
     "performing_arts": 4
   },
-  "calendar_merged": 67,
+  "calendar_merged": 87,
   "music_supplement": {},
-  "search_notes": "Phase 1 web_search_calls=15. Programme counts: {'wildcards': 9, 'advance_radar': 8, 'exhibitions': 12, 'music': 30}. Press counts: {'wildcards': 9}. OpenAI targets: {'music': 2, 'film': 5, 'exhibitions': 2, 'advance_radar': 1, 'wildcards': 2, 'performing_arts': 4}. Calendar merged: 67. Compiled strictly from the Phase 1 research notes only; no new search performed. URLs copied verbatim from the notes. Included 4 Arsenal film leads despite date/time uncertainty because they were explicitly documented in the notes as official-programme leads; marked them accordingly. Excluded Kyiv Biennial from items because the notes flagged it as already in recent briefings/top picks, and excluded out-of-window or ruled-out items.",
-  "url_verified_at": "2026-08-04T08:38:50.824326+00:00",
+  "search_notes": "Phase 1 web_search_calls=16. Programme counts: {'wildcards': 22, 'advance_radar': 8, 'exhibitions': 13, 'music': 30}. Press counts: {'wildcards': 21, 'exhibitions': 5}. OpenAI targets: {'film': 5, 'advance_radar': 1, 'exhibitions': 2, 'wildcards': 2, 'music': 2, 'performing_arts': 4}. Calendar merged: 87. Only events explicitly documented in the research notes were converted. Excluded edge-case music event on August 4 as outside the strict August 5–11 window. Did not re-add already indexed items such as KW’s Kyiv Biennial, Radialsystem’s Joyful Failure, or THE PRESSING. For exhibitions, 'Art – People – Power' is included as a cautious lead because the notes marked it as likely in-window but not fully cleanly verified from the retrieved snippet; date string is copied conservatively from the notes rather than normalized. No web_search used in this phase.",
+  "url_verified_at": "2026-08-06T08:35:31.582703+00:00",
   "url_verify_stats": {
-    "checked": 81,
-    "live": 70,
-    "dead": 11,
-    "shallow": 6,
+    "checked": 93,
+    "live": 85,
+    "dead": 8,
+    "shallow": 8,
     "archive": 0,
-    "verified_after": 35,
+    "verified_after": 36,
     "skipped": 0
   }
 }

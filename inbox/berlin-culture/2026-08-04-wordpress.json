@@ -1,12 +1,205 @@
 {
   "date": "2026-08-04",
-  "fetched_at": "2026-08-04T08:33:10.236024+00:00",
+  "fetched_at": "2026-08-06T08:31:18.086285+00:00",
   "source": "wordpress",
   "item_format": "culture",
-  "items": [],
-  "feed_counts": [],
-  "errors": [
-    "The Berliner: Expecting value: line 1 column 1 (char 0)",
-    "Exberliner: Expecting value: line 1 column 1 (char 0)"
-  ]
+  "items": [
+    {
+      "id": "wp-wildcards-6463964f1d",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Free tickets for the movie Symphony of a Metropolis (1927) with live soundtrack on 12/08",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/free-tickets-for-the-movie-berlin-symphony-of-a-metropolis-12-08/",
+      "closing_soon": false,
+      "why_candidate": "Want to win tickets? Sign up for our newsletter and send an email in order to have a chance to win our giveaway.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-4bb369bd19",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "The Berliner Digital Internship",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/the-berliner-digital-internship/",
+      "closing_soon": false,
+      "why_candidate": "Love writing and editing? Basically live online? Come and do a three-month internship with The Berliner’s web team.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-acf97caa75",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Berlin Art: What Exhibitions Are On Now?",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/art/berlin-exhibitions-whats-on-now/",
+      "closing_soon": false,
+      "why_candidate": "Wondering what’s going on in the art world and which Berlin exhibitions should you check out right now? Read our guide to find out.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-6144886a91",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "5×2 free tickets for the movie “The Odyssey”on 14/8 at open-air movie theater Kreuzberg",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/5x2-free-tickets-for-the-movie-the-odysseyon-14-8-at-open-air-movie-theater-kreuzberg/",
+      "closing_soon": false,
+      "why_candidate": "Want to win tickets? Sign up for our newsletter and send an email in order to have a chance to win our giveaway.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-79f24a30fa",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "What to do this weekend: Berlin’s best events",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/what-to-do-this-weekend-best-events/",
+      "closing_soon": false,
+      "why_candidate": "In Berlin and don’t know what to do? Don’t worry. These are our picks of the best events happening in the city this weekend.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-71aba61a95",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Former Fraud Investigator Committed Fraud With Fake Apartment Listings",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/former-police-officer-committed-fraud-with-fake-apartment-listings/",
+      "closing_soon": false,
+      "why_candidate": "The former Berlin police officer is on trial for listing non-existent apartments for rent.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-a26ae541eb",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Objects. History. Stories. Reviewing the Collection",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/culture/objects-history-stories-reviewing-the-collection/",
+      "closing_soon": false,
+      "why_candidate": "An amber game board from Königsberg made in 1607, Queen Luise’s dressing gown from […]",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-f72a106d87",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Hit the Decks: Berlin’s Best Vinyl Shops",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/guides/best-vinyl-record-shops-berlin/",
+      "closing_soon": false,
+      "why_candidate": "Whether you’re looking for gritty punk or the latest underground electronic tracks, Berlin has a record shop to match.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-c1d534075f",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Pride Flag Used in Arson Attack on CAFE Köpenick",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/pride-flag-used-in-arson-attack-on-cafe-kopenick/",
+      "closing_soon": false,
+      "why_candidate": "Police believe it could be a politically motivated crime.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-44d45dff7c",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Birdwatching Boom: A Berliner’s Quest to See Every Bird",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/birdwatching-in-berlin/",
+      "closing_soon": false,
+      "why_candidate": "Selina Veng is racing to log every species in Berlin within a year.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-cfd6046f04",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "laborgras „Joyful Failure“",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/culture/joyfulfailure/",
+      "closing_soon": false,
+      "why_candidate": "Joyful Failure Do you have a crippling fear of failure? No need to worry, […]",
+      "ingestion_source": "wordpress",
+      "verified": false
+    },
+    {
+      "id": "wp-wildcards-74a8a4e036",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Music to Your Ears: the Best Upcoming Live Music in Berlin",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/best-live-music-berlin/",
+      "closing_soon": false,
+      "why_candidate": "From classical to punk, electronic to jazz, we’ve put together a list of the best upcoming live shows in the area.",
+      "ingestion_source": "wordpress",
+      "verified": false
+    }
+  ],
+  "feed_counts": [
+    "The Berliner: 12",
+    "Exberliner: 12"
+  ],
+  "errors": []
 }

@@ -5,57 +5,35 @@
   "week_end": "2026-08-11",
   "week_label": "August 5–11, 2026",
   "source_raw": "inbox/berlin-culture/2026-08-04-raw.json",
-  "built_at": "2026-08-04T08:38:50.962885+00:00",
+  "built_at": "2026-08-06T08:35:31.735318+00:00",
   "model": "gpt-5.4",
-  "raw_item_count": 81,
+  "raw_item_count": 93,
   "section_counts": {
-    "exhibitions": 4,
+    "exhibitions": 3,
     "film": 1,
-    "performing_arts": 2,
-    "music": 3,
+    "performing_arts": 1,
+    "music": 4,
     "wildcards": 4,
     "advance_radar": 5
   },
   "items": [
     {
-      "id": "exh-ayumi-paul-fischmond-am-waldsee-2026-08",
+      "id": "exhibitions-art-people-power-2026-08-05-to-2026-08-11",
       "topic_ids": [
-        "exhibitions"
+        "exhibitions",
+        "history_memory",
+        "politics_society"
       ],
-      "title": "Ayumi Paul. Fischmond am Waldsee",
-      "venue": "Haus am Waldsee",
-      "dates": "14 June 2026 – 23 May 2027",
-      "times": "02:26",
-      "artists": [
-        "Ayumi Paul"
-      ],
-      "official_url": "https://hausamwaldsee.de/en/anniversary-80-years-haus-am-waldsee/",
+      "title": "Art – People – Power",
+      "venue": "Schönhausen House, via Museumsportal Berlin",
+      "dates": "April 2026 - 31...",
+      "times": "Tuesday–Sunday 10:00–17:30; weekdays guided tour only, weekends individual tour",
+      "artists": [],
+      "official_url": "https://www.museumsportal-berlin.de/en/exhibitions/kunst-menschen-macht/",
       "closing_soon": false,
       "verified": true,
       "url_live": true,
-      "why_candidate": "Long-running in-window installation/exhibition with interdisciplinary and likely sound-adjacent contemporary art relevance.",
-      "ingestion_source": "openai",
-      "series_id": "",
-      "event_kind": "single"
-    },
-    {
-      "id": "exh-peter-hujar-liz-deschenes-persistence-of-vision-2026-08",
-      "topic_ids": [
-        "exhibitions"
-      ],
-      "title": "Peter Hujar / Liz Deschenes: Persistence of Vision",
-      "venue": "Gropius Bau",
-      "dates": "27 February 2027",
-      "times": "12:00",
-      "artists": [
-        "Peter Hujar",
-        "Liz Deschenes"
-      ],
-      "official_url": "https://www.museumsportal-berlin.de/en/exhibitions/peter-hujar-liz-deschenes-persistence-of-vision/",
-      "closing_soon": false,
-      "verified": true,
-      "url_live": true,
-      "why_candidate": "Open during the window and relevant for contemporary visual practice; source-quality caveat noted because the matched page is a Museumsportal listing rather than a direct venue event page.",
+      "why_candidate": "One of the better allowed-domain in-window leads found; strong history/memory angle around National Socialist art policy and its aftermath, though more historical-museum than contemporary-art radar and snippet verification is incomplete.",
       "ingestion_source": "openai",
       "series_id": "",
       "event_kind": "single"
@@ -99,92 +77,103 @@
       "event_kind": "single"
     },
     {
-      "id": "film-summer-special-films-from-portugal-2026-08",
+      "id": "film-jacks-ride-portuguese-bites-2026-08-05",
       "topic_ids": [
-        "film"
+        "film",
+        "hybrid_documentary",
+        "post_screening_discussion"
       ],
-      "title": "Summer Special: Films from Portugal",
+      "title": "Jack’s Ride & Portuguese Bites",
       "venue": "Wolf Kino",
-      "dates": "4–8 August 2026",
-      "times": "18:00–21:00",
+      "dates": "Friday, August 5, 2026",
+      "times": "18:30",
       "artists": [
-        "Cláudia Varejão",
         "Susana Nobre"
       ],
       "official_url": "https://wolfberlin.org/en/programme/events/summer-special-from-portugal",
       "closing_soon": false,
       "verified": true,
       "url_live": true,
-      "why_candidate": "Clearly dated in-window independent Portuguese film focus; includes a post-screening discussion with a director via Zoom on Sat Aug 8.",
+      "why_candidate": "Specific dated screening within the Wolf Kino Portugal focus, with hybrid reality/fiction framing, labor and post-work themes, plus a discussion with the director via Zoom.",
       "ingestion_source": "openai",
-      "series_id": "summer-special-films-from-portugal-2026",
-      "event_kind": "festival_overview"
+      "series_id": "summer-special-from-portugal-wolf-kino",
+      "event_kind": "festival_event"
     },
     {
-      "id": "pa-joyful-failure-radialsystem-2026-08",
+      "id": "performing-arts-euphoria-2-0-2026-08-06-to-2026-08-09",
       "topic_ids": [
-        "performing_arts"
+        "performing_arts",
+        "dance",
+        "performance"
       ],
-      "title": "Joyful Failure – An Evening on the Poetry of Failure",
-      "venue": "Radialsystem",
-      "dates": "6–9 August 2026",
-      "times": "Thu 19:00; Fri 19:00; Sat 19:00; Sun 18:00",
+      "title": "EUPHORIA 2.0",
+      "venue": "DOCK 11",
+      "dates": "Thursday, August 6, 2026; Friday, August 7, 2026; Saturday, August 8, 2026; Sunday, August 9, 2026",
+      "times": "19:30",
       "artists": [
-        "laborgras",
-        "Liam Byrne",
-        "Ensemble"
+        "Hoyoung Im"
       ],
-      "official_url": "https://www.radialsystem.de/en/veranstaltungen/joyful-failure/?date=1786035600",
+      "official_url": "https://dock11-berlin.de/gesamter-spielplan",
       "closing_soon": false,
       "verified": true,
       "url_live": true,
-      "why_candidate": "Strong contemporary dance/performance pick with experimental choreographic-musical structure and a clear in-window run.",
+      "why_candidate": "Clearly dated contemporary dance/performance run within the target window and not on the already-recommended list.",
       "ingestion_source": "openai",
       "series_id": "",
       "event_kind": "single"
     },
     {
-      "id": "pa-the-pressing-radialsystem-2026-08",
+      "id": "music-islands-of-time-opening-2026-08-06",
       "topic_ids": [
-        "performing_arts"
+        "music",
+        "sound_art",
+        "experimental_electronic"
       ],
-      "title": "THE PRESSING",
-      "venue": "Radialsystem",
-      "dates": "6–9 August 2026",
-      "times": "Thu 20:30; Fri 20:30; Sat 20:30; Sun 19:30",
+      "title": "Exhibition: Islands of Time by Niccolò Masini – Opening with Pole, JakoJako & Rubén Nsue, Sunroof, Nicolas Bougaïeff",
+      "venue": "silent green Kulturquartier, Kuppelhalle / Ateliers 2+3",
+      "dates": "Thursday, August 6, 2026",
+      "times": "18:00",
       "artists": [
-        "Dani Brown",
-        "Justin F. Kennedy"
+        "Pole",
+        "JakoJako",
+        "Rubén Nsue",
+        "Sunroof",
+        "Nicolas Bougaïeff"
       ],
-      "official_url": "https://www.radialsystem.de/de/veranstaltungen/the-pressing-2026/?date=1786127400",
+      "official_url": "https://www.silent-green.net/programm/2026/8",
       "closing_soon": false,
       "verified": true,
       "url_live": true,
-      "why_candidate": "Queer, body-focused solo performance with strong gender/sexuality themes and a clearly dated 2026 run in the target week.",
+      "why_candidate": "Strongest in-window fit for the brief’s music profile: sound-/electronic-leaning, tied to an exhibition opening, and intersecting with audiovisual/installation interests.",
       "ingestion_source": "openai",
       "series_id": "",
       "event_kind": "single"
     },
     {
-      "id": "music-silent-green-open-lab-10-lovecrushr-ricky-horror-2026-08",
+      "id": "music-emma-rawicz-cloudwalker-2026-08-06",
       "topic_ids": [
-        "music"
+        "music",
+        "leftfield_jazz",
+        "improvisation"
       ],
-      "title": "silent green Open Lab #10: Lovecrushr + ricky horror",
-      "venue": "silent green Kulturquartier, Kuppelhalle",
-      "dates": "11 August 2026",
-      "times": "20:00",
+      "title": "A Summer Residency DAY3: Emma Rawicz “CLOUDWALKER” feat. Rasmus Sørensen, Freddie Jensen, Marc Michel — special guest Jonny Mansfield",
+      "venue": "A-Trane",
+      "dates": "06 August 2026",
+      "times": "20:30",
       "artists": [
-        "Lovecrushr",
-        "ricky horror"
+        "Emma Rawicz",
+        "Rasmus Sørensen",
+        "Freddie Jensen",
+        "Marc Michel",
+        "Jonny Mansfield"
       ],
-      "official_url": "https://www.silent-green.net/en/programme/detail/silent-green-open-lab-10-lovecrushr-ricky-horror",
+      "official_url": "https://a-trane.de/Events-Directory/a-trane-praesentiert-a-summer-residency-day2emma-rawiczcloudwalkerfeat-rasmus-sorensen-freddie-jensen-marc-micheltodays-special-guest-jonny-mansfield-2/",
       "closing_soon": false,
       "verified": true,
       "url_live": true,
-      "why_candidate": "Confirmed in-window concert on silent green’s August 2026 calendar and relevant to left-field/experimental music through the Open Lab format.",
+      "why_candidate": "Weaker fit than the Silent Green event but still a credible exact-window music option from an official event page, with substantial contemporary jazz/improvisation framing.",
       "ingestion_source": "openai",
-      "series_id": "silent-green-open-lab",
+      "series_id": "a-summer-residency-emma-rawicz-cloudwalker",
       "event_kind": "festival_event"
     },
     {
@@ -400,14 +389,6 @@
   "editorial_context": {
     "rejected_candidates": [
       {
-        "id": "exh-wo-ich-wohne-haus-am-waldsee-2026-08",
-        "title": "Wo ich wohne",
-        "section": "exhibitions",
-        "reason": "duplicate_url",
-        "series_id": "",
-        "venue": "Haus am Waldsee"
-      },
-      {
         "id": "index-berlin-html-exhibitions-bd4bf77367",
         "title": "pushmi-pullyu",
         "section": "exhibitions",
@@ -442,6 +423,14 @@
       {
         "id": "index-berlin-html-exhibitions-36f278162a",
         "title": "Die Gesiezte Tochter. My Total Deconstruction of an Armenian Family von Beatrice Moumdjian",
+        "section": "exhibitions",
+        "reason": "venue_cap:time is it in the world psm",
+        "series_id": "",
+        "venue": "time is it in the world PSM"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-63aa299c77",
+        "title": "Emerging Berlin",
         "section": "exhibitions",
         "reason": "venue_cap:time is it in the world psm",
         "series_id": "",
@@ -488,6 +477,14 @@
         "venue": "time is it in the world PSM"
       },
       {
+        "id": "film-a-pleasure-comrades-2026-08-06",
+        "title": "A Pleasure, Comrades!",
+        "section": "film",
+        "reason": "series_cap:summer-special-from-portugal-wolf-kino",
+        "series_id": "summer-special-from-portugal-wolf-kino",
+        "venue": "Wolf Kino"
+      },
+      {
         "id": "silent-green-html-music-a171125ea5",
         "title": "Hanno Leichtmann: OSCILLAZIONI",
         "section": "music",
@@ -514,6 +511,14 @@
       {
         "id": "silent-green-html-music-a3bb4f4780",
         "title": "Bjørn Melhus: LOST IN FINITY – Open Air Screening THE END",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-96d536e72b",
+        "title": "silent green Open Lab #10: Lovecrushr + ricky horror",
         "section": "music",
         "reason": "venue_cap:silent green",
         "series_id": "",

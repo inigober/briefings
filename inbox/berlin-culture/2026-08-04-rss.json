@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "fetched_at": "2026-08-04T08:33:08.415194+00:00",
+  "fetched_at": "2026-08-06T08:31:15.266976+00:00",
   "source": "rss",
   "item_format": "culture",
   "items": [
@@ -85,6 +85,102 @@
       "verified": false
     },
     {
+      "id": "rss-exhibitions-3f67a2d0e2",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Featured Exhibitions & Events August",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/08/06/things-to-do-in-berlin-featured-exhibitions-events-august/",
+      "closing_soon": false,
+      "why_candidate": "Exhibitions & Events at Akademie der Künste, Helmut Newton Foundation, Julia Stoschek Foundation, Gropius Bau, C/O Berlin, Schloss Biesdorf, TD, SCHWARZ CONTEMPORARY, Galerie Thomas Schulte, PalaisPopulaire, 68projects, Dock11, KORNFELD Galerie Berlin, KW Institute for Contemporary Art, Brücke Mu...",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-exhibitions-72b6eae8cd",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Suspending Disbelief: An Interview with Sophie Becker",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/08/04/interview-sophie-becker-ventriloquist-haus-am-waldsee/",
+      "closing_soon": false,
+      "why_candidate": "by Olivia Noss // Aug. 4, 2026 Ventriloquist Sophie Becker brought her show, ‘Ronnie's Big Idea’—a spellbinding two-part act that blended the comedic and the absurd—to the Sommerfest at Haus am Waldsee earlier this month. Performing hand-in-hand …[read on]",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-exhibitions-f32c9448a7",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Bodily Knowledge: An Interview with Andrea Canepa",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/07/28/bodily-knowledge-an-interview-with-andrea-canepa/",
+      "closing_soon": false,
+      "why_candidate": "by Juan José Santos // July 28, 2026 Nearly a decade after her exhibition 'Margen de juego' (2017) at the Galería Rosa Santos—where Andrea Canepa transformed the art space into a game board for bodily experience …[read on]",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-exhibitions-2e25a3efab",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Week July 27–August 23, 2026",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/07/27/things-to-do-in-berlin-art-openings-performances-july27-august23-2026/",
+      "closing_soon": false,
+      "why_candidate": "Openings and events at HKW, Galerie im Turm, Gropius Bau, Tanz im August, silent green Kulturquartier, Schloss Biesdorf, Georg Kolbe Museum, SCHWARZ CONTEMPORARY, Tanz im August, and more …[read on]",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-exhibitions-0b780819e5",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Open Call for Goldrausch Künstlerinnenprojekt 2027",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/07/24/open-call-goldrausch-kunstlerinnen-projekt-2027/",
+      "closing_soon": false,
+      "why_candidate": "July 24, 2026 The Goldrausch Künstlerinnenprojekt has been run by Goldrausch Frauennetzwerk e. V. since 1989. It was founded to counteract the structural discrimination faced by FLINTA …[read on]",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
+      "id": "rss-wildcards-a8c821dd99",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "🔫🚂#516: CSD vigil, welfare cuts hit seniors, Kotti surveillance, scammer",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/516-csd-vigil-welfare-cuts-hit-seniors",
+      "closing_soon": false,
+      "why_candidate": "Election campaigning begins",
+      "ingestion_source": "rss",
+      "verified": false
+    },
+    {
       "id": "rss-wildcards-e4b5cc72cb",
       "topic_ids": [
         "wildcards"
@@ -131,33 +227,17 @@
       "why_candidate": "More Berliners are dying than being born",
       "ingestion_source": "rss",
       "verified": false
-    },
-    {
-      "id": "rss-wildcards-4fa4f2f342",
-      "topic_ids": [
-        "wildcards"
-      ],
-      "title": "#512: CDU poll bump, temporary pool, asbestos, U-Bahn surveillance, AfD at Stauffenberg event",
-      "venue": "20% Berlin",
-      "dates": "",
-      "times": "",
-      "artists": [],
-      "official_url": "https://www.20percent.berlin/p/512-cdu-poll-bump-temporary-pool",
-      "closing_soon": false,
-      "why_candidate": "RBB discovers...you",
-      "ingestion_source": "rss",
-      "verified": false
     }
   ],
   "feed_counts": [
     "Cee Cee Berlin: 5",
+    "Berlin Art Link: 5",
     "20% Berlin: 4",
     "Ballhaus Naunynstraße: 0",
     "A-Trane: 0"
   ],
   "errors": [
-    "Berlin Art Link: <urlopen error [Errno 101] Network is unreachable>",
-    "Exberliner: <unknown>:7:2: mismatched tag",
+    "Exberliner: <unknown>:2:0: syntax error",
     "Silent Green: <unknown>:57:2: mismatched tag"
   ]
 }
