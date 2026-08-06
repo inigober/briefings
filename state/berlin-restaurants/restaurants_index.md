@@ -54,3 +54,10 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-07-30 | Kalaja | Neukölln | https://maps.google.com/?cid=16472975814862251907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-30 | Prizreni Qebaptore | Neukölln | https://maps.google.com/?cid=1220766494754305012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-30 | Barra | Neukölln | https://maps.google.com/?cid=15461423447321715949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-06 | Wei Dao Jia | Prenzlauer Berg | https://maps.google.com/?cid=3105457945904461337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-06 | You Mi | Schöneberg | https://maps.google.com/?cid=15420434776594381727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-06 | Mardin | Neukölln | https://maps.google.com/?cid=15343297613053954740&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-06 | Imren | Neukölln | https://maps.google.com/?cid=17801368214477792757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-06 | tulus lotrek | Kreuzberg | https://maps.google.com/?cid=307878984861885079&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-06 | MINE | Charlottenburg | https://maps.google.com/?cid=7315615219654006794&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-06 | Remi | Mitte | https://maps.google.com/?cid=7490903436226405012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
