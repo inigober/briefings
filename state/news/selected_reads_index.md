@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-06
+
+- [For Taiwan's tech suppliers, space economy could be next growth spark](https://asia.nikkei.com/business/technology/for-taiwan-s-tech-suppliers-space-economy-could-be-next-growth-spark) — Nikkei Asia
+- [Inside Intel: how America's chip champion came back from the brink](https://www.ft.com/content/77ece212-2768-4abe-9af1-b40a0db27c8f?syn-25a6b1a6=1) — Financial Times
+- [Someone Is Mysteriously Snapping Up Used Books Around the World](https://www.theatlantic.com/technology/2026/08/ai-companies-buying-used-books-for-data/688167/?utm_source=feed) — The Atlantic
+- [Who needs consultants in the age of AI?](https://www.ft.com/content/0d600619-6521-4de2-963e-c6f44f6e5468?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-08-05
 
 - [Musk's SpaceX unnerves investors with lavish AI spending plans](https://www.ft.com/content/41f7963b-dd50-4f27-a085-771ddec4a8ca?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [The Book That Predicted Pete Hegseth's Failures](https://foreignpolicy.com/2026/07/31/hegseth-norman-dixon-iran-war/) — Foreign Policy
 - [Asia's AI boom runs into a power wall](https://asia.nikkei.com/opinion/asia-s-ai-boom-runs-into-a-power-wall) — Nikkei Asia
 - [Apple struggles to keep pace with AI 'bug' hunters](https://www.ft.com/content/4532122d-90f2-4433-9df6-ca99d8a141d2?syn-25a6b1a6=1) — Financial Times
-
-## 2026-08-01
-
-- [Chinese trains packed with ACs speed into Europe to help with heat wave](https://asia.nikkei.com/business/transportation/chinese-trains-packed-with-acs-speed-into-europe-to-help-with-heat-wave) — Nikkei Asia
-- [Markets are getting AI right](https://www.ft.com/content/c167fb1b-69c3-4df0-9126-1e0af678f924?syn-25a6b1a6=1) — Financial Times
-- [US government map of Africa mislabels every country at global conference](https://www.theguardian.com/us-news/2026/jul/30/government-map-mislabels-african-countries) — The Guardian
-- [Living between two worlds on Taiwan's Matsu Islands](https://asia.nikkei.com/life-arts/life/living-between-two-worlds-on-taiwan-s-matsu-islands) — Nikkei Asia
 
 ## 2026-07-31
 

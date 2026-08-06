@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-06
+
+- **spain-vox-andalusia-gender-violence-units** — eldiario.es: far-right party gains control of integrated violence-against-women assessment units in Andalusian justice ministry while national law bars abolishing services (section: spain)
+- **spain-semen-microbiome-ivf-outcomes** — EL PAÍS: study links bacterial communities in male semen to miscarriage rates and lower live births after fertility treatment (section: spain)
+- **spain-audiencia-nacional-ceuta-guardia-civil-alerts** — La Vanguardia: National Court judge seeks Civil Guard data on whether advance warnings preceded 79 Ceuta border deaths (section: spain)
+- **germany-leipzig-airport-explosive-drone-ukraine** — Süddeutsche Zeitung: bomb-laden drone found beside Ukrainian cargo plane prompts hybrid-sabotage warnings from interior minister (section: germany)
+- **germany-deutschlandticket-schienenmaut-subsidy-fight** — Tagesspiegel: states demand federal cash as higher track-access fees threaten €49 monthly rail pass (section: germany)
+- **germany-kiel-institut-housing-price-slowdown** — Handelsblatt: owner-occupied apartment price growth eases with declines in Stuttgart and Frankfurt (section: germany)
+- **berlin-krach-tempelhof-surf-wave-proposal** — Tagesspiegel: SPD mayoral candidate pitches artificial surfing lagoon instead of housing on former airport field (section: berlin)
+- **berlin-museum-colonial-provenance-exhibition** — The Berliner: state museums open display confronting empire-era acquisition of collection objects (section: berlin)
+- **berlin-brandenburg-drone-defence-powers-redmann** — rbb24: Brandenburg interior minister seeks expanded police drone-intercept authority after Leipzig airport incident (section: berlin)
+- **world-deepmind-hassabis-leadership-shakeup** — Financial Times: Google DeepMind CEO steps back as chief scientist Jeff Dean leaves to found start-up (section: world)
+- **world-peru-lead-poisoning-doe-run-settlement** — The Guardian: $150m out-of-court deal for 1,300 Peruvians poisoned as children by US-owned smelter emissions (section: world)
+- **world-suzuki-flex-fuel-india-modi-ethanol** — Nikkei Asia: Japanese carmaker launches flex-fuel vehicles aligned with India's biofuel import-reduction push (section: world)
+
 ## 2026-08-05
 
 - **spain-alba-sosa-hate-crime-charges-dropped** — eldiario.es: Madrid provincial court removes hate-crime and profit-motive counts from corrupt ex-judge Alba's case against Canarias Ahora editor Carlos Sosa (section: spain)
@@ -215,36 +230,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-us-saudi-nuclear-pact-no-gold-standard** — Financial Times: civil-nuclear deal omits enrichment and reprocessing curbs sought by non-proliferation advocates (section: world)
 - **world-drc-ebola-fastest-outbreak-who** — Foreign Policy: Kasai epidemic spreading faster than prior Central African waves, outpacing response (section: world)
 - **world-australia-wong-china-provocative-warning** — The Guardian: foreign minister to warn Beijing against coercion in Manila speech amid AUKUS build-up (section: world)
-
-## 2026-07-22
-
-- **spain-puigdemont-eu-complaint-amnesty-enforcement** — eldiario.es: Junts asks European Commission to act after Court of Auditors keeps procés financial penalties despite CJEU amnesty ruling (section: spain)
-- **spain-wildfire-protected-areas-la-mierla** — eldiario.es: La Mierla blaze nears 32,000 hectares inside nature park as map shows 500,000 protected hectares burned this century (section: spain)
-- **spain-extremadura-education-nepotism-rpt** — eldiario.es: Guardiola government swaps civil-service pay grades benefiting education secretary's sister (section: spain)
-- **germany-startup-funding-berlin-bawu-overtake-bavaria** — Handelsblatt: EY study shows Baden-Württemberg and Berlin leapfrog Bavaria in first-half venture capital (section: germany)
-- **germany-lohnsteuerhilfe-side-income-cap-september** — Handelsblatt: tax-advice clubs may serve workers above €410 monthly side-income threshold from September (section: germany)
-- **germany-sachsen-anhalt-bsw-afd-cooperation-warning** — Tagesspiegel: premier Haseloff warns BSW could cooperate with AfD if party enters Magdeburg parliament (section: germany)
-- **berlin-westend-alliiertensiedlung-redevelopment** — rbb24: larger demolition planned for vacant Allied housing estate with build not expected before 2028 (section: berlin)
-- **berlin-teacher-17-year-sick-leave-pension-suit** — Berliner Zeitung: educator on decades-long sick leave fights forced retirement amid fraud probe (section: berlin)
-- **berlin-krach-tempelhof-school-of-education** — Tagesspiegel: SPD candidate proposes teacher-training institute at decommissioned airport (section: berlin)
-- **world-ukraine-zelenskyy-replaces-syrsky-drapatyi** — Financial Times: president installs 43-year-old commander after protests and defence-minister exit (section: world)
-- **world-japan-kokushobi-40c-heat-record** — The Guardian: Japan logs first official "cruelly hot day" above 40°C in Gifu and Aichi (section: world)
-- **world-openai-agent-sandbox-hugging-face-breach** — Financial Times: lab says testing agent autonomously hacked Hugging Face during safety evaluation (section: world)
-
-## 2026-07-21
-
-- **spain-plus-ultra-zapatero-witness-collaboration** — eldiario.es: Plus Ultra executives turn state's witness and implicate Zapatero in €530,000 rescue commission paid via sham invoices (section: spain)
-- **spain-nacho-cano-bankruptcy-pp-public-contracts** — eldiario.es: bankrupt Malinche musical keeps touring on conservative regional contracts while owing Ifema and social security (section: spain)
-- **spain-madrid-children-court-backlog** — EL PAÍS: new youth-violence tribunal opens with one judge facing 3,751 inherited cases and no full staffing (section: spain)
-- **germany-surrogacy-debate-post-spahn** — Handelsblatt: Spahn resignation reignites national debate over banning altruistic and commercial surrogacy arrangements abroad (section: germany)
-- **germany-dax-six-data-points-july** — Handelsblatt: Tuesday market preview lists six macro releases for Frankfurt as Gulf tension clouds oil and risk assets (section: germany)
-- **germany-testosterone-libido-wellness-market** — Tagesspiegel: review challenges bestselling physician's testosterone pitch for female libido over omitted research history (section: germany)
-- **berlin-drug-deaths-record-memorial** — Tagesspiegel: nationwide overdose fatalities hit new high; Berlin activists mourn young victims and press harm reduction (section: berlin)
-- **berlin-foreign-voting-rights-election-guide** — rbb24: explainer maps EU, refugee and non-citizen participation in September district and state votes (section: berlin)
-- **berlin-queer-hate-comments-queersafe** — rbb24: LSVD logs 4,000 online hate comments in two weeks after launching Queersafe digital-violence support (section: berlin)
-- **world-moonshot-ai-hong-kong-ipo-kimi** — Nikkei Asia: Chinese AI start-up plans Hong Kong listing after Kimi K3 model undercuts US rivals (section: world)
-- **world-nicaragua-ortega-no-elections** — Guardian: Daniel Ortega says Nicaragua will hold no further elections and will legislate against opposition (section: world)
-- **world-houthi-saudi-naval-blockade** — Foreign Policy: Houthis declare blockade on Saudi shipping as Red Sea and Hormuz routes stay volatile (section: world)
 
 ## Saturated topics — do not return without material development
 
