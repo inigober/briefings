@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-06",
-  "briefing_date": "2026-08-06",
-  "inbox_date": "2026-08-06",
+  "date": "2026-08-07",
+  "briefing_date": "2026-08-07",
+  "inbox_date": "2026-08-07",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-06.md",
-  "inbox_path": "inbox/news/2026-08-06-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-07.md",
+  "inbox_path": "inbox/news/2026-08-07-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Cientos de menores migrantes siguen por las calles del Príncipe sin acogida", "section": "spain", "reason": "theme_duplicate: Ceuta migrant minors merged into Other Headlines after court-probe story chosen"},
-    {"headline": "Más de 1.750 menores extranjeros han sido derivados desde Canarias, Ceuta y Melilla en un año", "section": "spain", "reason": "avoid_unless_material: migration regularization data without new legislation or court ruling"},
-    {"headline": "La justicia europea decide quién puede leer la versión completa del diario de Ana Frank en internet", "section": "spain", "reason": "theme_duplicate: CJEU Anne Frank ruling moved to Other Headlines"},
-    {"headline": "Künstliche Intelligenz: Auch KI von Meta hackte sich in eine andere Firma", "section": "germany", "reason": "theme_duplicate: Meta AI hacking merged into Other Headlines; Leipzig drone chosen as security lead"},
-    {"headline": "Lage im Überblick: Iran: Vereinbarung mit Oman zu Straße von Hormus fast fertig", "section": "germany", "reason": "geographic_fit: Middle East shipping diplomacy belongs in World/Other Headlines"},
-    {"headline": "Folgen der Trockenheit: Sorge um die Ernte: Dürre und Hitze treffen Europas Bauern", "section": "germany", "reason": "avoid_unless_material: heatwave/drought adaptation without new policy trigger"},
-    {"headline": "Dobrindt schließt nach Sprengstofffund am Flughafen Leipzig „fremde Mächte“ nicht aus", "section": "berlin", "reason": "geographic_fit: Leipzig airport incident covered in Germany section"},
-    {"headline": "Handball: Härtetest der Füchse gegen Aalborg endet unentschieden", "section": "berlin", "reason": "noise: preseason sports result without structural angle"},
-    {"headline": "For Taiwan's tech suppliers, space economy could be next growth spark", "section": "world", "reason": "theme_duplicate: Taiwan tech angle reserved for Selected Reads"},
-    {"headline": "Iran Says Agreement on Hormuz Shipping Reached With Oman", "section": "world", "reason": "theme_duplicate: Hormuz diplomacy merged into Other Headlines after DeepMind, Peru and India picks"},
+    {"headline": "España mantiene la alerta en Ceuta y estrecha la coordinación con Marruecos", "section": "spain", "reason": "avoid_unless_material: Ceuta border crisis without new court ruling or legislation"},
+    {"headline": "\"¿Cuál es el plan?\": dentro de los grupos de WhatsApp que organizan un nuevo cruce a Ceuta", "section": "spain", "reason": "theme_duplicate: Ceuta crossing mobilisation merged into Other Headlines"},
+    {"headline": "La agenda de Planifica Madrid experimenta un apagón desde la compra del ático de Chamberí", "section": "spain", "reason": "theme_duplicate: Planifica/Púnica heritage story chosen for Spain section"},
+    {"headline": "El Gobierno se prepara para el reparto de los menores migrantes con la anuencia del PP", "section": "spain", "reason": "avoid_unless_material: migrant-minor distribution without new legislation trigger"},
+    {"headline": "Anschlagsversuch in Leipzig: Eine neue Dimension der Bedrohung", "section": "germany", "reason": "theme_duplicate: Leipzig drone covered via federal-prosecutor escalation story"},
+    {"headline": "Mutmaßlicher Anschlagsversuch am Flughafen Leipzig: Anschlag auf Munitionstransporte geplant?", "section": "germany", "reason": "theme_duplicate: Leipzig munition-transport angle merged into federal-prosecutor lead"},
+    {"headline": "Wahlprogramme zum Thema Kultur: Das planen die Berliner Parteien", "section": "berlin", "reason": "theme_duplicate: second Berlin election story dropped after coalition red-lines pick"},
+    {"headline": "Schwimm-EM in Paris: Berlinerin Hentschel jubelt über EM-Bronze", "section": "berlin", "reason": "noise: sports medal without structural angle"},
+    {"headline": "Hangabrutsch an den Kreidefelsen auf Rügen: 4.500 Kubikmeter Erde stürzen ab", "section": "berlin", "reason": "geographic_fit: Rügen coastal landslide outside Berlin city governance"},
+    {"headline": "Top Ugandan footballer killed by robbers armed with paving stones", "section": "world", "reason": "noise: sports celebrity crime without structural angle"},
     {"headline": "Toronto zoo announces birth of pygmy hippo calf", "section": "world", "reason": "noise: light wildlife curiosity without structural angle"},
-    {"headline": "Mexico's top university orders 58,000 students to resit entrance exam after suspected cheating", "section": "world", "reason": "theme_duplicate: UNAM exam scandal moved to Other Headlines"}
+    {"headline": "Russia and Ukraine Are Mutually Shutting Down the Black Sea", "section": "world", "reason": "theme_duplicate: Black Sea shipping analysis reserved for Selected Reads"}
   ],
-  "notes": "Vox Andalusia gender-violence units, semen microbiome IVF study, National Court Ceuta probe, Leipzig explosive drone, Deutschlandticket subsidy fight, Kiel housing slowdown, Tempelhof surf wave, colonial provenance exhibition, Brandenburg drone-defence powers, DeepMind shake-up, Peru lead settlement, Suzuki flex-fuel India."
+  "notes": "Femicide ex-guardia civil, Planifica Madrid Púnica heritage, summer telework legal risks, federal prosecutor Leipzig probe, Rhine drought industrial costs, China export imbalance, Left coalition red lines, Brandenburg wildcat sighting, NASA quantum vacuum measurement, Nigeria hostage rescue, Kirin vitamin acquisition, Jane Street debt offload."
 }

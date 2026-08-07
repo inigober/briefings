@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-07
+
+- [Warsh is being misread](https://www.ft.com/content/aea25d0e-f7f8-484c-b186-57775e635aa7?syn-25a6b1a6=1) — Financial Times
+- ['It's now or never.' Is the EU serious about letting in new members?](https://www.ft.com/content/f8fc56ba-7088-4f73-87c1-13b11eee80ec?syn-25a6b1a6=1) — Financial Times
+- [Selling Trust From Orbit](https://foreignpolicy.com/2026/08/06/satellite-imagery-iran-china-space-ai-fraud-disinformation/) — Foreign Policy
+- [AI boom softens blow from China's July trade slowdown](https://asia.nikkei.com/economy/trade/ai-boom-softens-blow-from-china-s-july-trade-slowdown) — Nikkei Asia
+
 ## 2026-08-06
 
 - [For Taiwan's tech suppliers, space economy could be next growth spark](https://asia.nikkei.com/business/technology/for-taiwan-s-tech-suppliers-space-economy-could-be-next-growth-spark) — Nikkei Asia
@@ -38,13 +45,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [The Book That Predicted Pete Hegseth's Failures](https://foreignpolicy.com/2026/07/31/hegseth-norman-dixon-iran-war/) — Foreign Policy
 - [Asia's AI boom runs into a power wall](https://asia.nikkei.com/opinion/asia-s-ai-boom-runs-into-a-power-wall) — Nikkei Asia
 - [Apple struggles to keep pace with AI 'bug' hunters](https://www.ft.com/content/4532122d-90f2-4433-9df6-ca99d8a141d2?syn-25a6b1a6=1) — Financial Times
-
-## 2026-07-31
-
-- [Inside OpenAI's Hack of Hugging Face](https://www.newyorker.com/news/the-lede/inside-openai-hack-of-hugging-face) — The New Yorker
-- [NATO Says Russian Missile Violated Polish Airspace](https://foreignpolicy.com/2026/07/30/poland-russia-missile-incursion-nato-ukraine-war-strikes/) — Foreign Policy
-- [Yen slides back to 160 against dollar after possible intervention](https://asia.nikkei.com/business/markets/currencies/yen-slides-back-to-160-against-dollar-after-possible-intervention) — Nikkei Asia
-- [Trump 'not sure' he will let Ukraine build Patriot missiles](https://www.ft.com/content/d8c42f6b-4dba-4976-a907-c7c93bca0bbd?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

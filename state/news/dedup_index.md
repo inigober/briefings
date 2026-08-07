@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-07
+
+- **spain-ex-guardia-civil-femicide-denuncias** — EL PAÍS: former Civil Guard officer killed ex-partner after filing 45 harassment complaints prosecutors say were filed purely to harass her (section: spain)
+- **spain-planifica-madrid-punica-heritage-atico** — eldiario.es: regional public company that bought Ayuso Chamberí penthouse traces roots to Púnica corruption vehicle Nuevo Arpegio (section: spain)
+- **spain-summer-telework-holiday-home-dismissal-risk** — EL PAÍS: employment lawyers warn remote work from holiday residences can void contract protections and trigger dismissals (section: spain)
+- **germany-leipzig-drone-bundesanwaltschaft-prosecution** — Frankfurter Allgemeine: federal prosecutor opens terrorism probe into explosive drone beside Ukrainian cargo plane at Leipzig airport (section: germany)
+- **germany-rhine-drought-913m-industrial-output-risk** — Handelsblatt: low Rhine water threatens roughly €913 million in basin production losses this summer (section: germany)
+- **germany-china-export-surplus-widens-july** — Tagesspiegel: Chinese exports to Germany rose sharply in July while imports fell, widening bilateral trade gap (section: germany)
+- **berlin-left-coalition-red-lines-election** — rbb24: Left party sets pre-election coalition conditions on rent and social spending, angering SPD leaders (section: berlin)
+- **berlin-brandenburg-wildcat-sighting-dahme-heideseen** — rbb24: European wildcat documented again in Dahme-Heideseen nature park southeast of Berlin (section: berlin)
+- **berlin-nasa-ixpe-vacuum-birefringence-quantum** — Berliner Zeitung: IXPE satellite data may confirm 90-year-old quantum vacuum double-refraction prediction via magnetar observations (section: berlin)
+- **world-nigeria-300-hostages-largest-rescue** — The Guardian: Nigerian forces free more than 300 captives from Kainji Lake forests in largest single-day recovery (section: world)
+- **world-kirin-canadian-vitamin-1-3bn-acquisition** — Nikkei Asia: Japanese beverage group buys Canadian vitamin maker for $1.3 billion in health-science pivot (section: world)
+- **world-jane-street-11bn-debt-private-credit-ai** — Financial Times: trading firm seeks to offload $11 billion debt to Pimco and others to fund AI investments (section: world)
+
 ## 2026-08-06
 
 - **spain-vox-andalusia-gender-violence-units** — eldiario.es: far-right party gains control of integrated violence-against-women assessment units in Andalusian justice ministry while national law bars abolishing services (section: spain)
@@ -215,21 +230,6 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-intel-ai-datacentre-fastest-growth-15-years** — Financial Times: chipmaker posts 25% quarterly revenue jump on cloud AI processor demand (section: world)
 - **world-taiwan-foreign-satellite-rules-starlink** — Nikkei Asia: Taipei eases licensing for non-domestic telecom satellites including potential Starlink entry (section: world)
 - **world-angola-russian-spies-terrorism-sentences** — The Guardian: court jails two Russians over alleged coup plot and fuel-price protest organisation (section: world)
-
-## 2026-07-23
-
-- **spain-valencia-pp-vox-prioridad-nacional-budget** — eldiario.es: PP-Vox inaugural Valencia budget enshrines "prioridad nacional" with Office of Settlement and Return (section: spain)
-- **spain-housing-decreto-rent-extension-2028** — eldiario.es: PSOE-Sumar pact extends regulated-lease protections in crisis-housing decree until July 2028 (section: spain)
-- **spain-tobacco-tax-revenue-record-antismoking-law** — EL PAÍS: Treasury collected €7.3bn from tobacco in 2025 as government prepares expanded outdoor smoking and vape bans (section: spain)
-- **germany-mercedes-us-connected-car-chinese-stakes-law** — Tagesspiegel: bipartisan US Senate bill on vehicles with Chinese ownership could bar Mercedes sales over Geely stake (section: germany)
-- **germany-europe-wealth-investment-gap-study** — Handelsblatt: global wealth study finds European households asset-rich but capital-starved for productive investment (section: germany)
-- **germany-eu-auto-market-h1-recovery-ev** — Handelsblatt: EU new registrations rose in first half with EV share climbing but below industry targets (section: germany)
-- **berlin-gaza-spouse-reunification-lawsuit-auswaertiges-amt** — rbb24: Berlin mechanic sues foreign ministry after wife trapped in Gaza since October 2023 attacks (section: berlin)
-- **berlin-la-casa-left-scene-nahost-split** — rbb24: Hellersdorf youth centre residents leave after Middle East conflict fractures autonomous housing project (section: berlin)
-- **berlin-lebensqualitaet-ranking-28-deutsche-bank** — Berliner Zeitung: Deutsche Bank index ranks Berlin 28th globally as Munich places fourth (section: berlin)
-- **world-us-saudi-nuclear-pact-no-gold-standard** — Financial Times: civil-nuclear deal omits enrichment and reprocessing curbs sought by non-proliferation advocates (section: world)
-- **world-drc-ebola-fastest-outbreak-who** — Foreign Policy: Kasai epidemic spreading faster than prior Central African waves, outpacing response (section: world)
-- **world-australia-wong-china-provocative-warning** — The Guardian: foreign minister to warn Beijing against coercion in Manila speech amid AUKUS build-up (section: world)
 
 ## Saturated topics — do not return without material development
 
