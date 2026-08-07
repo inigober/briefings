@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-08-07
+
+- Papa Nugs — Move It Or Lose It EP
+- Drua — Nightfire
+- Floorplan — I'm Gonna Sing
+- Bitchin Bajas — Inland See
+- Spray — reSPRAY Vol. 2
+- Leif — Collide
+- Eagles & Butterflies — Diskoteka
+- Robert Dietz — Stoffel
+- Gaiko — Gaiko
+- Brenda — Húmedo
+
 ## 2026-07-31
 
 - Cromby — Mandela Hall EP
