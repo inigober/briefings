@@ -48,6 +48,8 @@ Target final briefing: 6-8 restaurant entries. A shorter briefing is acceptable 
 
 Title: `# Berlin Restaurant Briefing — Week of YYYY-MM-DD`.
 
+Intro: 1–2 sentences on the week's food through-line for the email reader. **Do not** mention verified pool, Google Places, candidate counts, inbox, pre-fetch, or excluded repeats.
+
 Use the exact per-entry format from the style rule:
 
 `### Restaurant Name — Neighborhood — € / €€ / €€€ / €€€€`

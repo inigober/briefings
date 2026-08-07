@@ -20,32 +20,65 @@ from culture_schedule import (
 DEFAULT_TIMEOUT_SECONDS = 12
 DEFAULT_SLEEP_MS = 80
 DEFAULT_BODY_MAX_BYTES = 120_000
+DEFAULT_URL_RETRIES = 3
+DEFAULT_RETRY_DELAY_SECONDS = 1.0
 USER_AGENT = "Mozilla/5.0 (compatible; BriefingBot/1.0)"
 
 
-def check_url_live(url: str, *, session: requests.Session | None = None) -> tuple[bool, str]:
+def _is_retryable_http_status(status_code: int) -> bool:
+    """Retry transient gateway/server errors; never retry clear not-found."""
+    return status_code in {408, 425, 429, 500, 502, 503, 504}
+
+
+def check_url_live(
+    url: str,
+    *,
+    session: requests.Session | None = None,
+    retries: int = DEFAULT_URL_RETRIES,
+    retry_delay_seconds: float = DEFAULT_RETRY_DELAY_SECONDS,
+) -> tuple[bool, str]:
+    """HEAD/GET a URL; retry transient connection / 5xx failures."""
     parsed = urlparse((url or "").strip())
     if parsed.scheme not in ("http", "https"):
         return False, "invalid scheme"
 
     sess = session or requests.Session()
     headers = {"User-Agent": USER_AGENT}
-    try:
-        response = sess.head(url, timeout=DEFAULT_TIMEOUT_SECONDS, headers=headers, allow_redirects=True)
-        if response.status_code >= 400 or response.status_code == 0:
-            response = sess.get(
+    attempts = max(1, int(retries))
+    last_note = "unreachable"
+
+    for attempt in range(attempts):
+        try:
+            response = sess.head(
                 url,
                 timeout=DEFAULT_TIMEOUT_SECONDS,
                 headers=headers,
                 allow_redirects=True,
-                stream=True,
             )
-            next(response.iter_content(chunk_size=256), None)
-        if response.status_code >= 400:
-            return False, f"HTTP {response.status_code}"
-        return True, ""
-    except requests.RequestException as exc:
-        return False, str(exc)[:120]
+            if response.status_code >= 400 or response.status_code == 0:
+                response = sess.get(
+                    url,
+                    timeout=DEFAULT_TIMEOUT_SECONDS,
+                    headers=headers,
+                    allow_redirects=True,
+                    stream=True,
+                )
+                next(response.iter_content(chunk_size=256), None)
+            if response.status_code >= 400:
+                last_note = f"HTTP {response.status_code}"
+                if _is_retryable_http_status(response.status_code) and attempt + 1 < attempts:
+                    time.sleep(retry_delay_seconds * (attempt + 1))
+                    continue
+                return False, last_note
+            return True, ""
+        except requests.RequestException as exc:
+            last_note = str(exc)[:120]
+            if attempt + 1 < attempts:
+                time.sleep(retry_delay_seconds * (attempt + 1))
+                continue
+            return False, last_note
+
+    return False, last_note
 
 
 def fetch_page_text(

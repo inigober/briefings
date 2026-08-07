@@ -19,6 +19,8 @@ File path: `briefings/berlin-culture/YYYY-MM-DD.md` (Tuesday run date).
 
 Immediately after the title and before `## Top Picks`, add **1–2 sentences** of plain prose (no bullets, no headings). Frame the week's through-line: what connects the strongest picks, which disciplines dominate, or what's unusually timely. This becomes the visible email opener and inbox preview.
 
+**Do not** mention pipeline internals: pre-fetch, verified pool, inbox, OpenAI, URL checks, thin sections, or research process. Write for someone opening the email to decide what to see — not for debugging the briefing system. Same rule for Short Context: no "sparse in pre-fetch" asides.
+
 ## Required sections (exact order)
 
 1. Top Picks (3 highest-value recommendations)

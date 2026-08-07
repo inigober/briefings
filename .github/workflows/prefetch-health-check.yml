@@ -53,3 +53,15 @@ jobs:
             ARGS="$ARGS --date ${{ github.event.inputs.date }}"
           fi
           python scripts/check_prefetch_health.py $ARGS
+
+      - name: Check undelivered briefings
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}
+          BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
+        run: |
+          # Briefings on main with no successful email record → alert + re-trigger send
+          python scripts/check_email_delivery.py --retry
+

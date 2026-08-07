@@ -1716,6 +1716,17 @@ def main() -> int:
             html=html,
         )
         print(f"Sent email for {briefing_path.name}: {result.get('id', result)}")
+        try:
+            from email_delivery import record_delivery
+
+            record_delivery(
+                briefing_path,
+                resend_id=str(result.get("id") or ""),
+                subject=subject,
+            )
+            print(f"Recorded delivery in state/email_delivery.json")
+        except Exception as exc:  # noqa: BLE001 — never fail send over logging
+            print(f"Warning: could not record email delivery: {exc}", file=sys.stderr)
 
     return 0
 

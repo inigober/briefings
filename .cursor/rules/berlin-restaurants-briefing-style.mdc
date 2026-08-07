@@ -18,7 +18,7 @@ Known preferences:
 - Adana Grillhaus
 - Euro Imbiss 2, especially the borek
 - Jemenitisches Restaurant, Karl-Marx-Strasse
-- Gotxa
+- Gotxa Bar
 - Alaska Bar
 - Asia Farmhouse
 - Myxa
@@ -59,7 +59,7 @@ Use this exact structure:
 ```
 # Berlin Restaurant Briefing — Week of YYYY-MM-DD
 
-Short introductory paragraph summarizing the week's theme.
+Short introductory paragraph summarizing the week's food theme (cuisines, neighborhoods, mood) — for the reader, not the pipeline.
 
 ### Restaurant Name — Neighborhood — € / €€ / €€€ / €€€€
 
@@ -73,6 +73,12 @@ Critical assessment paragraph.
 ```
 
 Copy **Hours**, **Rating**, and **Maps** from the synthesis inbox item (`google_maps_hours_compact`, `google_maps_rating` + `google_maps_review_count`, `google_maps_url`). Omit a line only when the inbox value is null or missing. Rating format: `4.5 (412)` when review count is known, else `4.5`. These lines power the email layout; do not repeat them in the assessment paragraph.
+
+### Intro (mandatory)
+
+Immediately after the title, **1–2 sentences** of plain prose for the **email reader**. Frame the week's food through-line (cuisines, neighborhoods, mood).
+
+**Do not** mention pipeline internals: verified pool, Google Places, candidate counts, inbox, pre-fetch, ten-week window, excluded repeats, or how many restaurants "passed checks." Those belong in `last_run.json` if needed — never in the published intro.
 
 Use one critical assessment paragraph per restaurant entry. Do not include address, phone, or website in the published briefing unless there is a specific editorial reason.
 

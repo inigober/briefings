@@ -239,6 +239,7 @@ python3 scripts/detect_synthesis_trigger.py --json
 
 # Pre-fetch health check (dry-run — no email)
 python3 scripts/check_prefetch_health.py --dry-run
+python3 scripts/check_email_delivery.py --dry-run
 
 # Email preview
 python3 scripts/send_briefing_email.py --file briefings/news/2026-06-11.md --dry-run
@@ -256,8 +257,8 @@ python3 -m unittest discover -s tests -v
 | `verify-briefing-sources.yml` | push to `briefings/news/` + manual | Ensures footnote URLs exist in synthesis inbox |
 | `berlin-culture-prefetch.yml` | cron-job.org Tue 06:00 Berlin + manual | RSS + WordPress + OpenAI → verify URLs → slim → commit `inbox/berlin-culture/` |
 | `berlin-restaurants-prefetch.yml` | cron-job.org Thu 07:00 Berlin + manual | OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
-| `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if inbox missing or slim incomplete (Resend) |
-| `send-briefing-email.yml` | Push to `briefings/**/*.md` | Verify links per type (news / music / culture / restaurants), then send styled email (newest per type by default) |
+| `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if inbox missing or slim incomplete; also re-trigger undelivered briefings (Resend) |
+| `send-briefing-email.yml` | Push to `briefings/**/*.md` | Verify links per type, send styled email, record delivery log; email alert on failure |
 
 Pre-fetch workflows use **concurrency groups** so overlapping manual + scheduled runs queue instead of racing. The email workflow sends only the **newest dated briefing per type** when a push changes multiple files; use workflow dispatch with **all_changed** or `--all-changed` to replay every file.
 

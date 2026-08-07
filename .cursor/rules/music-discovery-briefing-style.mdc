@@ -66,7 +66,7 @@ Prose context paragraph starts here with no label…
 **Dig:** … [link](url)
 ```
 
-Listen links: include Bandcamp when available; YouTube only if verified; Spotify last resort (`domain=spotify.com`). Omit a platform rather than guess.
+Listen links: include Bandcamp when available; **for Featured entries, also include a verified YouTube / YouTube Music album or release playlist when one exists**; Spotify last resort (`domain=spotify.com`). Omit a platform rather than guess a URL.
 
 ### Cover art (mandatory)
 
@@ -75,11 +75,11 @@ Every featured entry needs an album cover image. Prefer Bandcamp `og:image`. Do 
 ### Link priority (mandatory)
 
 1. **Bandcamp** — prefer album/release URL (`/album/…`), not a single track, unless the featured item is a true single
-2. **YouTube / YouTube Music** — only **verified** links; prefer **album / release playlist** URLs over a single `watch?v=` / track URL. Use a song link only when the item is a single (or no album page exists)
+2. **YouTube / YouTube Music** — **Featured: actively look up and include** a verified album / release playlist URL when available (e.g. `music.youtube.com/playlist?list=…` or album URL). Do not skip YouTube just because Bandcamp is present. Prefer album/playlist over a single `watch?v=` / track URL; use a song link only when the item is a single (or no album page exists). More listening: include verified YouTube when readily available.
 3. **Spotify** — last resort only; prefer album URI/URL over track
 4. **Never Apple Music**
 
-If YouTube cannot be verified, omit it.
+YouTube must still be **verified** (open/fetch the album/playlist page — no search-only or invented IDs). If no album/playlist can be confirmed after a real lookup, omit YouTube and note `youtube_album?=no` in the internal selection table.
 
 ### Never invent URLs (mandatory)
 
