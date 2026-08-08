@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-08
+
+- [SEC Drops Insider-Trading Suit Against Executive Trump Pardoned](https://www.bloomberg.com/news/articles/2026-08-07/sec-drops-insider-trading-suit-against-executive-trump-pardoned) — Bloomberg
+- [Cambodia deep-water port cashes in on Thai border closure](https://asia.nikkei.com/business/transportation/cambodia-deep-water-port-cashes-in-on-thai-border-closure) — Nikkei Asia
+- [Judge approves Trump effort to end South Sudan TPS protections](https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps) — The Guardian
+- [Germany's gas gamble puts Europe's winter at risk](https://www.politico.eu/article/germany-gas-reserve-low-europe-winter-energy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+
 ## 2026-08-07
 
 - [Warsh is being misread](https://www.ft.com/content/aea25d0e-f7f8-484c-b186-57775e635aa7?syn-25a6b1a6=1) — Financial Times
@@ -38,13 +45,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Starting gun for Central Asia data center race triggered](https://asia.nikkei.com/business/technology/artificial-intelligence/starting-gun-for-central-asia-data-center-race-triggered) — Nikkei Asia
 - [The Dreams of 'Star Trek' Aren't Dead](https://foreignpolicy.com/2026/07/31/starfleet-academy-artemis-ii-discovery-star-trek/) — Foreign Policy
 - [Wall Street learns to love blockchain](https://www.ft.com/content/7600731b-4f7f-4d38-a478-3196c565a880?syn-25a6b1a6=1) — Financial Times
-
-## 2026-08-02
-
-- [HIV prevention drug could reduce cases globally but USAID cuts prevent access, say experts](https://www.theguardian.com/society/2026/jul/31/hiv-aids-medication-usaid-cuts) — The Guardian
-- [The Book That Predicted Pete Hegseth's Failures](https://foreignpolicy.com/2026/07/31/hegseth-norman-dixon-iran-war/) — Foreign Policy
-- [Asia's AI boom runs into a power wall](https://asia.nikkei.com/opinion/asia-s-ai-boom-runs-into-a-power-wall) — Nikkei Asia
-- [Apple struggles to keep pace with AI 'bug' hunters](https://www.ft.com/content/4532122d-90f2-4433-9df6-ca99d8a141d2?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

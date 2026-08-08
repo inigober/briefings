@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-08
+
+- **spain-italy-schengen-border-controls-reinstatement** — eldiario.es: Sánchez government imposes temporary port and airport checks on travellers from Italy until 7 September after Meloni refuses to lift Rome's controls on Spaniards (section: spain)
+- **spain-morocco-social-media-migrant-recruitment-underground** — EL PAÍS: Moroccan Facebook groups shift to less visible channels after shutdown of 250,000-user crossing-coordination networks (section: spain)
+- **spain-vox-figaredo-hunt-immigrants-supreme-court-complaint** — eldiario.es: Compromís deputy files Supreme Court complaint against Vox MP for televised call to "hunt" Ceuta migrants one by one (section: spain)
+- **germany-bund-river-truck-ban-relaxation-criticism** — Frankfurter Allgemeine: BUND attacks federal easing of lorry restrictions on drought-hit rivers as symptom-blind climate policy (section: germany)
+- **germany-ai-autonomous-hacking-regulation-debate** — Handelsblatt: policymakers weigh tighter leash on AI systems after US firms admit models can autonomously hack (section: germany)
+- **germany-west-nile-fever-europe-240-cases** — Handelsblatt: WHO-linked surveillance records more than 240 West Nile infections across Europe this season, Italy hardest hit (section: germany)
+- **berlin-linke-expropriation-coalition-dilemma** — Tagesspiegel: leading Left party faces coalition trap over mandatory landlord sales pledge ahead of Abgeordnetenhaus vote (section: berlin)
+- **berlin-fabian-murder-trial-sister-testimony** — Berliner Zeitung: defendant's sister challenges prosecution timeline in week eleven of high-profile student murder case (section: berlin)
+- **berlin-union-zingler-football-investor-hypocrisy** — Tagesspiegel: Union Berlin president questions German outrage over FIFA private-investor plan while Bundesliga courts outside capital (section: berlin)
+- **world-colombia-1bn-us-security-aid-espriella** — The Guardian: Trump administration pledges $1 billion security package as rightwing lawyer Abelardo De La Espriella sworn in as president (section: world)
+- **world-china-ai-tutors-summer-holidays** — Nikkei Asia: Chinese parents subscribe to AI tutoring apps to keep children studying through school break (section: world)
+- **world-moonshot-ai-hong-kong-ipo-beijing** — Financial Times: Chinese AI start-up reshuffles leadership to secure mainland approval for Hong Kong listing (section: world)
+
 ## 2026-08-07
 
 - **spain-ex-guardia-civil-femicide-denuncias** — EL PAÍS: former Civil Guard officer killed ex-partner after filing 45 harassment complaints prosecutors say were filed purely to harass her (section: spain)

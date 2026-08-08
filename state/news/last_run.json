@@ -1,26 +1,25 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-07",
-  "briefing_date": "2026-08-07",
-  "inbox_date": "2026-08-07",
+  "date": "2026-08-08",
+  "briefing_date": "2026-08-08",
+  "inbox_date": "2026-08-08",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-07.md",
-  "inbox_path": "inbox/news/2026-08-07-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-08.md",
+  "inbox_path": "inbox/news/2026-08-08-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "España mantiene la alerta en Ceuta y estrecha la coordinación con Marruecos", "section": "spain", "reason": "avoid_unless_material: Ceuta border crisis without new court ruling or legislation"},
-    {"headline": "\"¿Cuál es el plan?\": dentro de los grupos de WhatsApp que organizan un nuevo cruce a Ceuta", "section": "spain", "reason": "theme_duplicate: Ceuta crossing mobilisation merged into Other Headlines"},
-    {"headline": "La agenda de Planifica Madrid experimenta un apagón desde la compra del ático de Chamberí", "section": "spain", "reason": "theme_duplicate: Planifica/Púnica heritage story chosen for Spain section"},
-    {"headline": "El Gobierno se prepara para el reparto de los menores migrantes con la anuencia del PP", "section": "spain", "reason": "avoid_unless_material: migrant-minor distribution without new legislation trigger"},
-    {"headline": "Anschlagsversuch in Leipzig: Eine neue Dimension der Bedrohung", "section": "germany", "reason": "theme_duplicate: Leipzig drone covered via federal-prosecutor escalation story"},
-    {"headline": "Mutmaßlicher Anschlagsversuch am Flughafen Leipzig: Anschlag auf Munitionstransporte geplant?", "section": "germany", "reason": "theme_duplicate: Leipzig munition-transport angle merged into federal-prosecutor lead"},
-    {"headline": "Wahlprogramme zum Thema Kultur: Das planen die Berliner Parteien", "section": "berlin", "reason": "theme_duplicate: second Berlin election story dropped after coalition red-lines pick"},
-    {"headline": "Schwimm-EM in Paris: Berlinerin Hentschel jubelt über EM-Bronze", "section": "berlin", "reason": "noise: sports medal without structural angle"},
-    {"headline": "Hangabrutsch an den Kreidefelsen auf Rügen: 4.500 Kubikmeter Erde stürzen ab", "section": "berlin", "reason": "geographic_fit: Rügen coastal landslide outside Berlin city governance"},
+    {"headline": "La última denuncia de Laura Cruz: “Tengo tanto miedo a Dámaso porque no le importa a quién llevarse por medio”", "section": "spain", "reason": "dedup: ex-guardia civil femicide covered 2026-08-07 without material new development"},
+    {"headline": "Rutas, testimonios y consejos: así se gestó el cruce a Ceuta desde redes sociales", "section": "spain", "reason": "theme_duplicate: Ceuta social-media recruitment merged into EL PAÍS lead"},
+    {"headline": "Hybrider Angriff: Drohne mit Sprengstoff am Flughafen - War es Russland?", "section": "germany", "reason": "dedup: Leipzig drone probe covered 2026-08-06/07 without new prosecution milestone"},
+    {"headline": "„Putin den Geldhahn abdrehen“: US-Senat billigt Gesetz zu neuen Russland-Sanktionen", "section": "germany", "reason": "geographic_fit: US Senate sanctions belong in World/Other Headlines"},
+    {"headline": "Die gefährliche Seite des Sommers: Hitze kann lebensgefährlich sein", "section": "germany", "reason": "avoid_unless_material: heatwave adaptation without new policy trigger"},
+    {"headline": "Gesellschaft: 65 Jahre nach dem Mauerbau - Berlins Mann fürs Erinnern", "section": "berlin", "reason": "publisher_cap:tagesspiegel.de after Linke and Union stories selected"},
+    {"headline": "2. Fußball-Bundesliga: Erster Treffer als Vater: Grönning trifft für seine Familie", "section": "berlin", "reason": "noise: sports match report without structural angle"},
     {"headline": "Top Ugandan footballer killed by robbers armed with paving stones", "section": "world", "reason": "noise: sports celebrity crime without structural angle"},
-    {"headline": "Toronto zoo announces birth of pygmy hippo calf", "section": "world", "reason": "noise: light wildlife curiosity without structural angle"},
-    {"headline": "Russia and Ukraine Are Mutually Shutting Down the Black Sea", "section": "world", "reason": "theme_duplicate: Black Sea shipping analysis reserved for Selected Reads"}
+    {"headline": "Spain reinstates border controls on Italy as tensions rise over migrants", "section": "world", "reason": "geographic_fit: Spain-Italy border dispute covered in Spain section"},
+    {"headline": "Trump revives threat to sack Fed governor Lisa Cook", "section": "world", "reason": "theme_duplicate: Fed independence thread reserved for Other Headlines"},
+    {"headline": "Germany’s gas gamble puts Europe’s winter at risk", "section": "world", "reason": "theme_duplicate: gas-reserve risk reserved for Selected Reads"}
   ],
-  "notes": "Femicide ex-guardia civil, Planifica Madrid Púnica heritage, summer telework legal risks, federal prosecutor Leipzig probe, Rhine drought industrial costs, China export imbalance, Left coalition red lines, Brandenburg wildcat sighting, NASA quantum vacuum measurement, Nigeria hostage rescue, Kirin vitamin acquisition, Jane Street debt offload."
+  "notes": "Italy Schengen controls, Moroccan social-media recruitment shift, Vox criminal complaint, BUND river truck-ban critique, AI hacking regulation debate, West Nile Europe surge, Linke expropriation coalition trap, Fabian trial testimony, Union investor hypocrisy, Colombia US security aid, China AI summer tutors, Moonshot Hong Kong IPO."
 }
