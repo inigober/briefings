@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-09
+
+- **spain-total-solar-eclipse-august-12-peninsular** — EL PAÍS: millions prepare for first peninsular totality since 1905 on 12 August with authorities bracing for tourism surge (section: spain)
+- **spain-greenland-trump-linked-oil-unlicensed-drilling** — eldiario.es: Greenland government says US firm linked to Trump landed exploration gear without authorisation (section: spain)
+- **spain-vox-regions-refuse-ceuta-unaccompanied-minors** — La Vanguardia: Extremadura, Aragón and Castilla y León reject hosting minors evacuated from Ceuta (section: spain)
+- **germany-rheinmetall-papperger-personal-protection** — Handelsblatt: arms CEO under heightened security after alleged Russian assassination plots and home protests (section: germany)
+- **germany-turkey-pakistan-saudi-defence-pact-expansion** — Tagesspiegel: Ankara seeks to widen trilateral military alliance modelled on NATO beyond founding trio (section: germany)
+- **germany-eclipse-psychological-wow-effect-research** — Handelsblatt: scientists study why total solar eclipses leave lifelong emotional impressions (section: germany)
+- **berlin-russian-house-espionage-french-evidence** — Tagesspiegel: French intelligence report fuels calls to act against Moscow cultural centre as spy front (section: berlin)
+- **berlin-retinal-implant-blind-mother-reads** — Berliner Zeitung: chip-and-camera prosthetic restores enough vision for mother blind 20 years to read again (section: berlin)
+- **berlin-hamburg-rail-punctuality-one-quarter** — rbb24: only 25% of Berlin–Hamburg trains on time despite corridor renovation (section: berlin)
+- **world-cicc-china-ai-ipo-pipeline** — Financial Times: state-backed CICC dominates financier role in Beijing's AI listings race (section: world)
+- **world-ukrainian-evangelicals-maga-aid-lobby** — Nikkei Asia: Ukrainian religious activists court US evangelical conservatives to sustain Ukraine funding (section: world)
+- **world-texas-officer-mexico-triple-homicide-arrest** — The Guardian: Texas police officer arrested at border over Saltillo killings tied to custody dispute (section: world)
+
 ## 2026-08-08
 
 - **spain-italy-schengen-border-controls-reinstatement** — eldiario.es: Sánchez government imposes temporary port and airport checks on travellers from Italy until 7 September after Meloni refuses to lift Rome's controls on Spaniards (section: spain)
@@ -203,50 +218,7 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ## 2026-07-26
 
-- **spain-castellon-vall-uixo-15000-evacuated-beyond-extinction** — eldiario.es: La Vall d'Uixó blaze declared beyond extinction capacity forces evacuation of 15,000 people across 16 Castellón municipalities (section: spain)
-- **spain-madrid-forest-firefighters-labor-dispute-stoppage** — EL PAÍS: roughly 60 Madrid wildland crews in standoff with regional government over contracts during national megafire emergency (section: spain)
-- **spain-sanchez-final-mandate-no-budget-courts** — eldiario.es: Sánchez enters last mandate stretch without 2027 budget as regional financing and corruption trials set autumn agenda (section: spain)
-- **germany-grid-fees-2027-transmission-subsidy-cuts** — Handelsblatt: federal savings push may shift Energiewende network costs onto household power bills from 2027 (section: germany)
-- **germany-east-chemical-investment-pause-survey** — Handelsblatt: eastern chemical firms warn they are halting expansion plans amid energy and bureaucracy concerns (section: germany)
-- **germany-denmark-ai-journalism-public-funding-backlash** — Tagesspiegel: Copenhagen's state-backed "Projekt Y" AI news service draws outrage from established media (section: germany)
-- **berlin-csd-vehicle-attack-one-dead-tiergarten** — rbb24: car drives into crowd after Christopher Street Day celebrations, killing one woman as police hunt driver (section: berlin)
-- **berlin-jueterbog-former-military-site-wildfire** — rbb24: blaze on disused Bundeswehr terrain in Teltow-Fläming adds to Brandenburg summer fire alerts (section: berlin)
-- **berlin-brandenburg-wolf-cull-plan-limited** — Tagesspiegel: agriculture minister Mittelstädt says planned wolf shootings will not reach hundreds (section: berlin)
-- **world-us-korea-samsung-sk-nvidia-700bn-ai** — Nikkei Asia: Seoul and Washington unveil $700bn chip and data-centre investment package tying Korean fabs to US AI build-out (section: world)
-- **world-iran-ukraine-caspian-vessel-attack** — Financial Times: Tehran says Ukrainian strike on Caspian cargo ship killed sailor and urges EU to halt conflict spread (section: world)
-- **world-kenya-british-army-training-cancelled-jurisdiction** — The Guardian: UK scraps autumn exercise after Nairobi refuses defence pact without stronger prosecution rights over British troops (section: world)
-
-## 2026-07-25
-
-- **spain-megafire-data-july-quincena-40-years** — EL PAÍS: satellite data show July's past fortnight ranks fourth-worst for large fires since 1983 as average blaze size doubles (section: spain)
-- **spain-eu-us-trade-deal-anniversary-trump-threats** — eldiario.es: Turnberry pact marks one year with 4.5% trade growth but Trump threatens retaliation over EU digital and green rules (section: spain)
-- **spain-trump-tariff-alternate-legal-bases-post-sc** — eldiario.es: administration searches obscure trade statutes to sustain tariffs after Supreme Court struck blanket duties (section: spain)
-- **germany-diw-oil-supply-europe-secured-100-dollar** — Handelsblatt: DIW economist says European oil supply remains secure despite Brent above $100 (section: germany)
-- **germany-dhl-heavy-package-two-person-delivery** — Handelsblatt: DHL proposes industry-wide two-person doorstep delivery for heavy e-commerce parcels (section: germany)
-- **germany-war-cultural-heritage-destruction-21st-century** — Tagesspiegel: photo essay documents UNESCO site damage from 21st-century wars and terror (section: germany)
-- **berlin-csd-demokratiefest-brandenburger-tor** — rbb24: Christopher Street Day opens with democracy rally at Brandenburg Gate ahead of parade (section: berlin)
-- **berlin-re1-frankfurt-oder-three-week-closure** — rbb24: RE1 regional express suspended between Berlin-Ostbahnhof and Frankfurt (Oder) for three weeks (section: berlin)
-- **berlin-polizist-autokauf-ueberfall-three-years** — rbb24: Berlin court sentences suspended officer to three years for armed fake-police dealership robbery (section: berlin)
-- **world-blackrock-meta-ai-bond-soft-demand** — Bloomberg: weak investor appetite for $12.3bn Meta data-centre bond signals AI capex scepticism (section: world)
-- **world-brazil-amazon-indigenous-organized-crime-hostage** — The Guardian: Indigenous leaders say armed groups hold villages hostage on Brazil-Peru border (section: world)
-- **world-india-banned-sikh-film-punjab-villages** — Nikkei Asia: proscribed Sikh activist documentary draws underground screenings in rural Punjab (section: world)
-
-## 2026-07-24
-
-- **spain-madrid-avila-wildfire-national-emergency** — eldiario.es: government activates level-three command over Madrid and Ávila blazes after Ayuso requests federal takeover (section: spain)
-- **spain-mutualista-pasarela-seguridad-social-excludes-retirees** — eldiario.es: Congress finalises mutualista bridge to autónomo pensions but PP amendment bars already retired holders (section: spain)
-- **spain-trump-tariffs-60-countries-10-12-5** — EL PAÍS: Washington replaces expired universal duty with 10–12.5% country-specific tariffs including EU members (section: spain)
-- **germany-merz-cabinet-reshuffle-post-spahn** — Handelsblatt: chancellor installs Warken, Linnemann and rotates CDU leadership after health minister's resignation (section: germany)
-- **germany-us-tariffs-60-trade-partners-eu** — Tagesspiegel: Trump administration unveils replacement import duties as April tariff legal basis expires (section: germany)
-- **germany-merz-orcel-economic-narrative-critique** — Handelsblatt: morning briefing urges chancellor to copy Unicredit CEO's investor clarity on growth reform (section: germany)
-- **berlin-ostbeauftragte-corona-trust-breach** — Tagesspiegel: Eastern Commissioner Kaiser warns pandemic eroded democratic trust in eastern Germany (section: berlin)
-- **berlin-queer-parents-second-mother-adoption-gap** — rbb24: Berlin couple challenges parentage law leaving non-biological mothers without legal status (section: berlin)
-- **berlin-tegel-nursing-home-legionella-deaths** — rbb24: contaminated water at Tegel senior home prompts review of recent resident fatalities (section: berlin)
-- **world-intel-ai-datacentre-fastest-growth-15-years** — Financial Times: chipmaker posts 25% quarterly revenue jump on cloud AI processor demand (section: world)
-- **world-taiwan-foreign-satellite-rules-starlink** — Nikkei Asia: Taipei eases licensing for non-domestic telecom satellites including potential Starlink entry (section: world)
-- **world-angola-russian-spies-terrorism-sentences** — The Guardian: court jails two Russians over alleged coup plot and fuel-price protest organisation (section: world)
-
-## Saturated topics — do not return without material development
+- **spain-castellon-vall-uixo-15000-evacuated-beyond-extinction** — eldiario.es: La Vall d'Uixó blaze declared beyond extinction capacity forces evacuation of 15,000 people across 16 Castellón municipalities (section: spain) — do not return without material development
 
 - Spain 50M population / infrastructure capacity / immigration-growth narrative (9–10 June)
 - Spain "international attention" on economic success (Atlantic, Goldman Sachs angles)

@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-09
+
+- [China's AI Push Reshapes Its Economic Future](https://www.bloomberg.com/news/videos/2026-08-08/china-s-ai-push-reshapes-its-economic-future-video) — Bloomberg
+- [Arizona wants Taiwan's investors to think beyond chips](https://restofworld.org/2026/tsmc-arizona-investors/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [The offline messaging apps challenging internet shutdowns](https://restofworld.org/2026/india-github-geoblock-jack-dorsey-bitchat/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [Kansai Electric, Kawasaki Heavy seek 1st off-site transport of captured CO2](https://asia.nikkei.com/spotlight/environment/kansai-electric-kawasaki-heavy-seek-1st-off-site-transport-of-captured-co2) — Nikkei Asia
+
 ## 2026-08-08
 
 - [SEC Drops Insider-Trading Suit Against Executive Trump Pardoned](https://www.bloomberg.com/news/articles/2026-08-07/sec-drops-insider-trading-suit-against-executive-trump-pardoned) — Bloomberg
@@ -31,20 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [What's Behind Indonesia's Anti-Corruption Crusade?](https://foreignpolicy.com/2026/08/04/indonesia-corruption-nadiem-makari-investigation-jokowi-prabowo/) — Foreign Policy
 - [What Remains of Rojava](https://foreignpolicy.com/2026/08/04/rojava-syria-kurds-ypg-sdf-damascus-kobani-isis-integration/) — Foreign Policy
 - [Elon Musk's space data center vision reshapes Asia's launch industry](https://asia.nikkei.com/business/technology/tech-asia/elon-musk-s-space-data-center-vision-reshapes-asia-s-launch-industry) — Nikkei Asia
-
-## 2026-08-04
-
-- [Revolut chief Nik Storonsky sued by broker over €350mn superyacht](https://www.ft.com/content/7dd21b1e-3b3d-48a6-a3fe-6a0e4a14944b?syn-25a6b1a6=1) — Financial Times
-- [Grab raises guidance as strong ride-hailing demand lifts Q2 profit](https://asia.nikkei.com/business/technology/grab-raises-guidance-as-strong-ride-hailing-demand-lifts-q2-profit) — Nikkei Asia
-- ['Arrogance kills': Novo chief injects risk-taking into Ozempic maker](https://www.ft.com/content/d44d9139-c6ac-41de-851d-ab30b6085ce2?syn-25a6b1a6=1) — Financial Times
-- [A Patchwork Approach to AI Regulation Is Best—for Now](https://foreignpolicy.com/2026/08/03/artificial-intelligence-ai-regulation-safety-california-new-york-pope-leo/) — Foreign Policy
-
-## 2026-08-03
-
-- [A digital iron curtain is threatening the global economy](https://www.ft.com/content/90550cee-2dd4-437f-8bda-b1ff41317d23) — Financial Times
-- [Starting gun for Central Asia data center race triggered](https://asia.nikkei.com/business/technology/artificial-intelligence/starting-gun-for-central-asia-data-center-race-triggered) — Nikkei Asia
-- [The Dreams of 'Star Trek' Aren't Dead](https://foreignpolicy.com/2026/07/31/starfleet-academy-artemis-ii-discovery-star-trek/) — Foreign Policy
-- [Wall Street learns to love blockchain](https://www.ft.com/content/7600731b-4f7f-4d38-a478-3196c565a880?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 
