@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-10
+
+- [Putin's war machine scours the home front for recruits](https://www.ft.com/content/45289802-848f-4fa6-9769-6971b4b69bcc?syn-25a6b1a6=1) — Financial Times
+- [Russia and Ukraine exchange overnight strikes, WHO confirms warehouse destroyed](https://www.politico.eu/article/who-warehouse-destroyed-ukraine-russia-missile-strikes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Japan to integrate cybersecurity into air-defense radar, fighter jets](https://asia.nikkei.com/business/aerospace-defense-industries/japan-to-integrate-cybersecurity-into-air-defense-radar-fighter-jets) — Nikkei Asia
+- [The Straits Are Not OK](https://foreignpolicy.com/2026/08/07/history-hormuz-straits-iran-war-trump/) — Foreign Policy
+
 ## 2026-08-09
 
 - [China's AI Push Reshapes Its Economic Future](https://www.bloomberg.com/news/videos/2026-08-08/china-s-ai-push-reshapes-its-economic-future-video) — Bloomberg
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Inside Intel: how America's chip champion came back from the brink](https://www.ft.com/content/77ece212-2768-4abe-9af1-b40a0db27c8f?syn-25a6b1a6=1) — Financial Times
 - [Someone Is Mysteriously Snapping Up Used Books Around the World](https://www.theatlantic.com/technology/2026/08/ai-companies-buying-used-books-for-data/688167/?utm_source=feed) — The Atlantic
 - [Who needs consultants in the age of AI?](https://www.ft.com/content/0d600619-6521-4de2-963e-c6f44f6e5468?syn-25a6b1a6=1) — Financial Times
-
-## 2026-08-05
-
-- [Musk's SpaceX unnerves investors with lavish AI spending plans](https://www.ft.com/content/41f7963b-dd50-4f27-a085-771ddec4a8ca?syn-25a6b1a6=1) — Financial Times
-- [What's Behind Indonesia's Anti-Corruption Crusade?](https://foreignpolicy.com/2026/08/04/indonesia-corruption-nadiem-makari-investigation-jokowi-prabowo/) — Foreign Policy
-- [What Remains of Rojava](https://foreignpolicy.com/2026/08/04/rojava-syria-kurds-ypg-sdf-damascus-kobani-isis-integration/) — Foreign Policy
-- [Elon Musk's space data center vision reshapes Asia's launch industry](https://asia.nikkei.com/business/technology/tech-asia/elon-musk-s-space-data-center-vision-reshapes-asia-s-launch-industry) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 

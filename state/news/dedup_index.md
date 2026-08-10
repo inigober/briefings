@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-10
+
+- **spain-ferrol-chinese-plant-naval-espionage** — EL PAÍS: defence ministry and CNI scrutinise Chinese-owned factory beside Ferrol naval base and Navantia shipyard (section: spain)
+- **spain-ceuta-street-protest-religious-communities** — La Vanguardia: thousands march in Ceuta demanding government response after migrant surge (section: spain)
+- **spain-meloni-italy-migration-hypocrisy-vs-spain** — eldiario.es: Meloni attacks Spain's regularisation while expanding Italy's migrant work-permit programme (section: spain)
+- **germany-bilger-airport-drone-defence-acceleration** — Tagesspiegel: transport minister vows faster airport drone defences after Leipzig incident (section: germany)
+- **germany-herrenknecht-bahn-ceo-palla-backing** — Handelsblatt: tunnel magnate publicly backs Deutsche Bahn chief amid punctuality crisis (section: germany)
+- **germany-west-europe-record-warm-june-july** — Tagesspiegel: June–July average 21.62°C, warmest on record for western Europe (section: germany)
+- **berlin-cdu-evers-poll-lead-mayor-race** — Tagesspiegel: CDU mayoral candidate Evers leads personal poll ahead of Left rival Eralp (section: berlin)
+- **berlin-karls-erlebnisdorf-food-rules** — Berliner Zeitung: Karls adventure park tightens outside-food policy, angering families (section: berlin)
+- **berlin-re2-evacuation-football-passengers** — rbb24: regional express evacuates 500 passengers after Hannover football match (section: berlin)
+- **world-china-ice-silk-road-arctic-shipping** — Financial Times: Beijing launches regular Arctic container route halving Europe–Asia transit (section: world)
+- **world-iran-security-chief-hormuz-replacement** — Financial Times: Mohsen Rezaei appointed SNSC head during Hormuz negotiations (section: world)
+- **world-sony-tsmc-kumamoto-image-sensors** — Nikkei Asia: $6.3bn joint investment in advanced image-sensor plant in Kumamoto (section: world)
+
 ## 2026-08-09
 
 - **spain-total-solar-eclipse-august-12-peninsular** — EL PAÍS: millions prepare for first peninsular totality since 1905 on 12 August with authorities bracing for tourism surge (section: spain)
@@ -216,12 +231,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-hanson-faruqi-discrimination-appeal-lost** — The Guardian: Australian court upholds racial-discrimination finding against Pauline Hanson tweet (section: world)
 - **world-japan-inc-management-competitiveness** — Nikkei Asia: editorial argues Japanese firms lag on management culture not factory technology (section: world)
 
-## 2026-07-26
-
-- **spain-castellon-vall-uixo-15000-evacuated-beyond-extinction** — eldiario.es: La Vall d'Uixó blaze declared beyond extinction capacity forces evacuation of 15,000 people across 16 Castellón municipalities (section: spain) — do not return without material development
-
-- Spain 50M population / infrastructure capacity / immigration-growth narrative (9–10 June)
-- Spain "international attention" on economic success (Atlantic, Goldman Sachs angles)
-- Germany manufacturing PMI / industrial electricity / fighter jet (10 June ChatGPT draft)
-- Berlin S15 launch / Schöneweide disruptions / AI surveillance (10 June ChatGPT draft)
-- World section recycling Spain demographics or Germany industrial/defence stories
