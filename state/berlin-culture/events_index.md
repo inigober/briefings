@@ -2,19 +2,20 @@
 
 Tracks recommended events/exhibitions to avoid repeating across weekly briefings. Trim entries older than 8 weeks.
 
-<!-- Format: YYYY-MM-DD | section | title | venue | official_url -->
-
-2026-06-16 | top_picks | Kyiv Biennial – A Bird That Cannot Land (Free Thursday) | KW Institute for Contemporary Art | https://www.kw-berlin.de/en/info/plain-language
-2026-06-16 | top_picks | DER SOLDAT. Ein Übergangsritual | HAU2 (Hebbel am Ufer) | https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/
-2026-06-16 | top_picks | ACUDkino — Sunday feature triple bill | ACUDkino | https://acudkino.de/Programm/ich_verstehe_ihren_unmut/20467
-2026-06-16 | exhibitions | The Appeal of Individualism | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.indexberlin.com/exhibitions/list/42591/the-appeal-of-individualism
-2026-06-16 | exhibitions | The Barcelona Pavilion (including work by Georg Kolbe) | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.indexberlin.com/exhibitions/list/43619/the-barcelona-pavilion-including-work-by-georg-kolbe
-2026-06-16 | film | Sonnenbrand & Mückenstich (short film program) | ACUDkino | https://acudkino.de/BaldImProgramm
-2026-06-16 | performing_arts | Mi Madre y el Dinero | HAU3 (Hebbel am Ufer) | https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/
-2026-06-16 | performing_arts | Unsere Träume zu leben / Hayallerimizi yaşamak | HAU2 and HAU1 (Hebbel am Ufer) | https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/
-2026-06-16 | advance_radar | Kexin Hao — Revolution Is a Dinner Party | Stephanstr. 11, Moabit | https://www.indexberlin.com/events/list/44722/revolution-is-a-dinner-party
-2026-06-16 | advance_radar | Brandenboogie #1 — Tattoos and Music with Marc Brandenburg | Alte Jakobstr. 124–128, Kreuzberg | https://www.indexberlin.com/events/list/43913/brandenboogie-1-tattoos-and-music-with-marc-brandenburg
-2026-06-23 | top_picks | Resurrection | Wolf Kino | https://wolfberlin.org/de/programm/filme/resurrection
+2026-08-04 | advance_radar | Shirin Sabahi — Domesticity III | Pforte | https://www.indexberlin.com/events/list/44626/domesticity-iii
+2026-08-04 | advance_radar | FERIEN AM WALDSEE — Carl Laszlo und die Kunst zu überleben | Haus am Waldsee | https://www.indexberlin.com/events/list/44579/ferien-am-waldsee-carl-laszlo-und-die-kunst-zu-uberleben-reading-with-choir-concert
+2026-08-11 | top_picks | Cloud Gate Dance Theatre of Taiwan / Cheng Tsung-lung — Sounding Light | Haus der Berliner Festspiele | https://www.tanzimaugust.de/en/production/detail/cloud-gate-dance-theatre-sounding-light
+2026-08-11 | top_picks | Tobias Meinhart – Berlin People, Special Guest: Kurt Rosenwinkel | A-Trane | https://a-trane.de/Events-Directory/a-trane-praesentiert-artist-in-summer-residence-day5tobias-meinhart-berlin-peoplespecial-guest-kurt-rosenwinkelfeat-ludwig-hornung-tom-berkmann-mathias-ruppnig/
+2026-08-11 | top_picks | Gökçen Dilek Acay — What time is it in the world | time is it in the world PSM | https://www.indexberlin.com/exhibitions/list/44327/what-time-is-it-in-the-world
+2026-08-11 | exhibitions | Empty Places, Crowded Hearts | Crone Berlin | https://www.indexberlin.com/exhibitions/list/44376/empty-places-crowded-hearts
+2026-08-11 | performing_arts | L2/are we listening | DOCK 11 | https://dock11-berlin.de/en/theater/program/calendar/l2-are-we-listening
+2026-08-11 | music | Wolfgang Haffner — Summer Special feat. Jakob Manz, Nils Kugelmann | A-Trane | https://a-trane.de/Events-Directory/a-trane-praesentiert-wolfgang-haffner-summer-specialfeat-jakob-manz-nils-kugelmann/
+2026-08-11 | wildcards | Berlin Beats: Oda Haliti | Invalidenstraße 50/51, Mitte | https://www.indexberlin.com/events/list/44852/berlin-beats-oda-haliti
+2026-08-11 | wildcards | Alex Tatarsky Clownsperformance | Wiesenstraße 1, Wedding | https://www.indexberlin.com/events/list/45014/clownsperformance
+2026-08-11 | wildcards | KINDL Ferien-Rallye | KINDL – Zentrum für zeitgenössische Kunst | https://www.indexberlin.com/events/list/44612/kindl-ferien-rallye
+2026-08-11 | advance_radar | Frank Jimin Hopp 매난국죽 Mae Nan Guk Juk: Diasporic Memories Formed in Clay | Müllerstraße 146/47, Wedding | https://www.indexberlin.com/events/list/45016/mae-nan-guk-juk-diasporic-memories-formed-in-clay
+2026-08-11 | advance_radar | Shirin Sabahi — Domesticity III | Pforte | https://www.indexberlin.com/events/list/44626/domesticity-iii
+2026-08-11 | advance_radar | Judgment and Calculation – Drei Systeme von Farbe | Kluckstraße 23a, Tiergarten | https://www.indexberlin.com/events/list/44495/judgment-and-calculation-drei-systeme-von-farbe
 2026-06-23 | top_picks | Mash Dance Berlin 2026 – Victims & Images: Vol 2 | DOCK11 | https://dock11-berlin.de/en/theater/program/calendar/victims-images-vol-2
 2026-06-23 | top_picks | Ayumi Paul – Fischmond am Waldsee | Haus am Waldsee (Sculpture Garden) | https://hausamwaldsee.de/en/anniversary-80-years-haus-am-waldsee/
 2026-06-23 | exhibitions | Haus am Waldsee — Wo ich wohne & Green Sanctuary | Haus am Waldsee | https://hausamwaldsee.de/en/wo-ich-wohne
