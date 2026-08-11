@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-10",
-  "briefing_date": "2026-08-10",
-  "inbox_date": "2026-08-10",
+  "date": "2026-08-11",
+  "briefing_date": "2026-08-11",
+  "inbox_date": "2026-08-11",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-10.md",
-  "inbox_path": "inbox/news/2026-08-10-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-11.md",
+  "inbox_path": "inbox/news/2026-08-11-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Los vecinos levantan campamentos para acoger a mujeres y niñas que llegaron a Ceuta", "section": "spain", "reason": "theme_duplicate: Ceuta civic response merged into La Vanguardia protest lead"},
-    {"headline": "El asilo que no llega a Ceuta: Soy palestino, crucé a nado y no me dicen nada de mi solicitud", "section": "spain", "reason": "theme_duplicate: Ceuta asylum backlog reserved for Other Headlines"},
-    {"headline": "España tiene casi 8 millones de viviendas no principales, un 30% del total", "section": "spain", "reason": "avoid_unless_material: housing/short-term rentals without new legislation"},
-    {"headline": "¿Dónde habrá nubes durante el eclipse?", "section": "spain", "reason": "dedup: spain-total-solar-eclipse covered 2026-08-09"},
-    {"headline": "Überschwemmungen und Erdrutsche: Mindestens acht Tote durch Tropenstürme auf den Philippinen", "section": "germany", "reason": "geographic_fit: Philippines disaster belongs in World/Other Headlines"},
-    {"headline": "Australiens größter Flughafen: Zwei Beinahe-Kollisionen Flughafen Sydney", "section": "germany", "reason": "geographic_fit: Sydney aviation belongs in Other Headlines"},
+    {"headline": "Merz endurece su postura migratoria y devolverá a Italia a solicitantes de asilo", "section": "spain", "reason": "dedup: spain-meloni-italy-migration-hypocrisy covered 2026-08-10; development reserved for Other Headlines"},
+    {"headline": "Marruecos no quiere ser el gendarme de Europa", "section": "spain", "reason": "theme_duplicate: Ceuta migration commentary without material new development"},
+    {"headline": "Colombia busca a las víctimas de su peor terremoto", "section": "spain", "reason": "geographic_fit: Colombia disaster belongs in World/Other Headlines"},
+    {"headline": "Morning Briefing: Freyja gegen Patriot", "section": "germany", "reason": "geographic_fit: Ukraine air-defence story belongs in World/Other Headlines"},
+    {"headline": "Morddrohung: Trump musste wohl mit Geheimflug aus der Türkei gebracht werden", "section": "germany", "reason": "geographic_fit: US/Middle East security belongs in World"},
+    {"headline": "Sommerwetter: Sonne und wohl kein Regen in Berlin und Brandenburg", "section": "berlin", "reason": "avoid_unless_material: heatwave adaptation without new policy trigger"},
     {"headline": "Nach 20 Jahren blind: Chip im Auge lässt Mutter wieder lesen", "section": "berlin", "reason": "dedup: berlin-retinal-implant covered 2026-08-09"},
-    {"headline": "Mordprozess Fabian: Angeklagte schreit Schwester an", "section": "berlin", "reason": "dedup: berlin-fabian-murder-trial covered 2026-08-08"},
-    {"headline": "Typhoon Dolphin: more than a million people evacuated in China", "section": "world", "reason": "theme_duplicate: East Asia storm reserved for Other Headlines"},
-    {"headline": "Russia and Ukraine exchange overnight strikes, WHO confirms warehouse destroyed", "section": "world", "reason": "theme_duplicate: Ukraine strikes reserved for Selected Reads"},
-    {"headline": "Putin's war machine scours the home front for recruits", "section": "world", "reason": "theme_duplicate: Russia recruitment reserved for Selected Reads"},
-    {"headline": "DAX und Börse: Fünf Punkte für Anleger", "section": "germany", "reason": "publisher_pool_thin: only Handelsblatt and Tagesspiegel in eligible Germany pool after filters"}
+    {"headline": "Kampfmittelbeseitigung: Oranienburg und der Dauereinsatz wegen Weltkriegs-Bomben", "section": "berlin", "reason": "theme_duplicate: Brandenburg UXO story deferred to keep Tagesspiegel publisher diversity"},
+    {"headline": "Europe's Summer of Nightmares", "section": "world", "reason": "theme_duplicate: Europe-only climate piece reserved for Selected Reads"},
+    {"headline": "OpenAI's head of ethics leaves start-up less than one year after joining", "section": "world", "reason": "theme_duplicate: AI-lab exits merged into Other Headlines"},
+    {"headline": "Kurdish hunger striker says ICE force-feeding 'mentally broke me'", "section": "world", "reason": "theme_duplicate: second Guardian ICE piece reserved for Selected Reads"},
+    {"headline": "De los presagios divinos a la teoría de Einstein: así han cambiado los eclipses la historia", "section": "spain", "reason": "dedup: spain-total-solar-eclipse covered 2026-08-09"}
   ],
-  "notes": "Ferrol Chinese plant espionage, Ceuta protest, Meloni migration hypocrisy, Bilger drone defence, Herrenknecht backs Bahn CEO, West Europe record warmth, Berlin mayor poll, Karls food rules, RE2 evacuation, Ice Silk Road, Iran SNSC reshuffle, Sony-TSMC Kumamoto sensors."
+  "notes": "Ayuso shell company, Senate Ceuta clash, Ceuta disinformation study, Bahn childcare, EV subsidy defence, Vision Pro surgery, Köpenick neo-Nazi concert, conductor assaults, ballot misprint, India AI jobs, Typhoon Dolphin, Singapore GDP."
 }

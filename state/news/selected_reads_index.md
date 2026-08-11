@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-11
+
+- [EU border checks double queues at major airports](https://www.ft.com/content/42137dd8-8fdc-4d66-b193-ca52d51bd929?syn-25a6b1a6=1) — Financial Times
+- [Europe's Summer of Nightmares](https://foreignpolicy.com/2026/08/10/europe-heat-wildfires-climate-economy-energy/) — Foreign Policy
+- [UK approves its second weight-loss pill while EU access lags](https://www.politico.eu/article/uk-approves-its-second-weight-loss-pill-while-eu-access-lags/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Kurdish film-maker recounts 'inhumane' ICE force-feeding](https://www.theguardian.com/us-news/2026/aug/10/ice-force-feeding-detention-gabar-choli) — The Guardian
+
 ## 2026-08-10
 
 - [Putin's war machine scours the home front for recruits](https://www.ft.com/content/45289802-848f-4fa6-9769-6971b4b69bcc?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - ['It's now or never.' Is the EU serious about letting in new members?](https://www.ft.com/content/f8fc56ba-7088-4f73-87c1-13b11eee80ec?syn-25a6b1a6=1) — Financial Times
 - [Selling Trust From Orbit](https://foreignpolicy.com/2026/08/06/satellite-imagery-iran-china-space-ai-fraud-disinformation/) — Foreign Policy
 - [AI boom softens blow from China's July trade slowdown](https://asia.nikkei.com/economy/trade/ai-boom-softens-blow-from-china-s-july-trade-slowdown) — Nikkei Asia
-
-## 2026-08-06
-
-- [For Taiwan's tech suppliers, space economy could be next growth spark](https://asia.nikkei.com/business/technology/for-taiwan-s-tech-suppliers-space-economy-could-be-next-growth-spark) — Nikkei Asia
-- [Inside Intel: how America's chip champion came back from the brink](https://www.ft.com/content/77ece212-2768-4abe-9af1-b40a0db27c8f?syn-25a6b1a6=1) — Financial Times
-- [Someone Is Mysteriously Snapping Up Used Books Around the World](https://www.theatlantic.com/technology/2026/08/ai-companies-buying-used-books-for-data/688167/?utm_source=feed) — The Atlantic
-- [Who needs consultants in the age of AI?](https://www.ft.com/content/0d600619-6521-4de2-963e-c6f44f6e5468?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

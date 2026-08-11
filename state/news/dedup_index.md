@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-11
+
+- **spain-ayuso-quiron-shell-company-zero-revenue** — eldiario.es: firm linked to alleged Quirón bribe reports second year without turnover amid laundering probe (section: spain)
+- **spain-senate-ceuta-hearings-institutional-clash** — EL PAÍS: government and opposition Senate on collision course over mandatory ministerial appearances on Ceuta crisis (section: spain)
+- **spain-ceuta-migration-disinformation-viral-videos** — EL PAÍS: researcher traces surge to viral videos promising open border, Moroccan agency flags foreign accounts (section: spain)
+- **germany-bahn-onboard-childcare-solo-travel** — Tagesspiegel: Deutsche Bahn introduces paid supervision for unaccompanied children aged six plus on long-distance routes (section: germany)
+- **germany-ev-subsidy-pastohr-bafa-defence** — Handelsblatt: BAFA chief defends revived electric-car buyer premium with early uptake data (section: germany)
+- **germany-apple-vision-pro-surgical-adoption** — Handelsblatt: mixed-reality headset gains operating-theatre use despite weak consumer sales (section: germany)
+- **berlin-koepenick-neonazi-secret-concert** — Tagesspiegel: 250 attend far-right music event in Berlin-Köpenick, police raid AfD-linked Heimat HQ (section: berlin)
+- **berlin-bahn-conductor-assaults-rise** — rbb24: Deutsche Bahn reports growing attacks on onboard staff across Berlin-Brandenburg (section: berlin)
+- **berlin-election-ballot-name-misprint** — Tagesspiegel: Greens mayoral candidate's name misspelled on sample postal ballots ahead of Abgeordnetenhaus vote (section: berlin)
+- **world-india-ai-it-jobs-threat** — Financial Times: generative AI risks automating India's back-office IT services employment model (section: world)
+- **world-typhoon-dolphin-china-million-evacuations** — The Guardian: strongest 2026 China cyclone forces more than one million relocations after hitting Okinawa (section: world)
+- **world-singapore-q2-gdp-5-9-forecast-raised** — Nikkei Asia: trade hub raises 2026 growth outlook after 5.9% second-quarter expansion (section: world)
+
 ## 2026-08-10
 
 - **spain-ferrol-chinese-plant-naval-espionage** — EL PAÍS: defence ministry and CNI scrutinise Chinese-owned factory beside Ferrol naval base and Navantia shipyard (section: spain)
@@ -215,19 +230,4 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-asia-extreme-rainfall-floods** — The Guardian: deluges from Afghanistan to Taiwan highlight climate-driven flood risk (section: world)
 - **world-ai-chip-packaging-bottleneck** — Nikkei Asia: AT&S CEO says advanced packaging not wafer fabs is AI supply constraint (section: world)
 - **world-india-ethanol-protest-movement** — Financial Times: opponents of BJP ethanol-blend mandate adopt student-protest tactics (section: world)
-
-## 2026-07-27
-
-- **spain-megafire-153k-hectares-marlaska-history** — EL PAÍS: interior minister calls 2026 season most aggressive in Spain's history with 153,000 hectares burned, six times last year's pace (section: spain)
-- **spain-marbella-mayor-son-narco-eviction** — eldiario.es: mayor's son Alexander Broberg appeals forfeiture of chalet tied to stepbrother's nine-year narcotics sentence (section: spain)
-- **spain-guadalajara-restrictions-lifted-toledo-redeploy** — La Vanguardia: evacuees return as crews shift aircraft and heavy machinery to Toledo front (section: spain)
-- **germany-csd-gefaehrder-harder-line-debate** — Handelsblatt: federal parties demand tougher monitoring of Islamist threats after Berlin Pride vehicle attack (section: germany)
-- **germany-rent-affordability-survey-eighth-overstretched** — Handelsblatt: poll finds one in eight tenants living beyond means as homeownership stays unreachable (section: germany)
-- **germany-auto-40-hour-week-tariff-round** — Tagesspiegel: car bosses push longer hours ahead of wage talks; IG Metall warns underused plants make overtime job-killing (section: germany)
-- **berlin-csd-jugendstrafrecht-badeberg-review** — Tagesspiegel: justice senator Badenberg demands juvenile-sentencing review after suspect freed on probation (section: berlin)
-- **berlin-bvg-kurzzuege-crowding-igeb** — rbb24: passenger lobby IGEB criticises shorter U-Bahn sets on evenings and weekends (section: berlin)
-- **berlin-romania-land-registry-cyberattack-germany-risk** — Berliner Zeitung: Romanian cadastre offline since 22 July hack raises spillover concerns for German property systems (section: berlin)
-- **world-cxmt-chip-ipo-500-percent** — Financial Times: ChangXin Memory Technologies surges almost 500% in Shanghai debut on AI memory demand (section: world)
-- **world-hanson-faruqi-discrimination-appeal-lost** — The Guardian: Australian court upholds racial-discrimination finding against Pauline Hanson tweet (section: world)
-- **world-japan-inc-management-competitiveness** — Nikkei Asia: editorial argues Japanese firms lag on management culture not factory technology (section: world)
 
