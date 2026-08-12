@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-12
+
+- **spain-albares-ceuta-return-warning-morocco** — eldiario.es: foreign minister warns Moroccans tempted to cross that entrants will be returned after Ceuta visit (section: spain)
+- **spain-ilo-youth-unemployment-ai-geopolitics-20pct** — La Vanguardia: ILO reports global NEET rate hits 20% as AI and geopolitical shocks squeeze youth hiring (section: spain)
+- **spain-eclipse-cloud-forecast-municipality-map** — EL PAÍS: meteorologists publish municipality-level cloud maps on peninsular totality day (section: spain)
+- **germany-bsw-afd-sachsen-anhalt-firewall-breach** — Tagesspiegel: Sahra Wagenknecht Alliance says it would back AfD premier if other parties block its coalition model (section: germany)
+- **germany-dax-record-26500** — Handelsblatt: benchmark index closes above 26,500 points for first time (section: germany)
+- **germany-male-domestic-violence-underreporting** — Tagesspiegel: Berlin case highlights barriers for men reporting intimate-partner abuse (section: germany)
+- **berlin-csd-ballout-prosecution-closed** — Berliner Zeitung: federal prosecutor ends main case against Pride-attack driver while other probes continue (section: berlin)
+- **berlin-wall-65-years-eyewitness-dombrowski** — rbb24: East Berliner recalls 13 August 1961 border closure on anniversary (section: berlin)
+- **berlin-celebrities-summer-jobs-memoir** — Tagesspiegel: Berlin notables describe first holiday jobs from factory floors to zoo (section: berlin)
+- **world-china-gig-economy-53mn-jobs-squeeze** — Financial Times: construction slump pushes 53 million Chinese into low-paid delivery and ride-hailing work (section: world)
+- **world-colombia-earthquake-3000-missing-250-dead** — La Vanguardia: magnitude-7.4 quake leaves 250+ dead and 3,000+ missing in Chocó province (section: world)
+- **world-comac-c919-first-international-flight-mongolia** — The Guardian: China's home-grown narrow-body jet flies Beijing–Ulaanbaatar route (section: world)
+
 ## 2026-08-11
 
 - **spain-ayuso-quiron-shell-company-zero-revenue** — eldiario.es: firm linked to alleged Quirón bribe reports second year without turnover amid laundering probe (section: spain)
@@ -66,22 +81,7 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-china-ai-tutors-summer-holidays** — Nikkei Asia: Chinese parents subscribe to AI tutoring apps to keep children studying through school break (section: world)
 - **world-moonshot-ai-hong-kong-ipo-beijing** — Financial Times: Chinese AI start-up reshuffles leadership to secure mainland approval for Hong Kong listing (section: world)
 
-## 2026-08-07
-
-- **spain-ex-guardia-civil-femicide-denuncias** — EL PAÍS: former Civil Guard officer killed ex-partner after filing 45 harassment complaints prosecutors say were filed purely to harass her (section: spain)
-- **spain-planifica-madrid-punica-heritage-atico** — eldiario.es: regional public company that bought Ayuso Chamberí penthouse traces roots to Púnica corruption vehicle Nuevo Arpegio (section: spain)
-- **spain-summer-telework-holiday-home-dismissal-risk** — EL PAÍS: employment lawyers warn remote work from holiday residences can void contract protections and trigger dismissals (section: spain)
-- **germany-leipzig-drone-bundesanwaltschaft-prosecution** — Frankfurter Allgemeine: federal prosecutor opens terrorism probe into explosive drone beside Ukrainian cargo plane at Leipzig airport (section: germany)
-- **germany-rhine-drought-913m-industrial-output-risk** — Handelsblatt: low Rhine water threatens roughly €913 million in basin production losses this summer (section: germany)
-- **germany-china-export-surplus-widens-july** — Tagesspiegel: Chinese exports to Germany rose sharply in July while imports fell, widening bilateral trade gap (section: germany)
-- **berlin-left-coalition-red-lines-election** — rbb24: Left party sets pre-election coalition conditions on rent and social spending, angering SPD leaders (section: berlin)
-- **berlin-brandenburg-wildcat-sighting-dahme-heideseen** — rbb24: European wildcat documented again in Dahme-Heideseen nature park southeast of Berlin (section: berlin)
-- **berlin-nasa-ixpe-vacuum-birefringence-quantum** — Berliner Zeitung: IXPE satellite data may confirm 90-year-old quantum vacuum double-refraction prediction via magnetar observations (section: berlin)
-- **world-nigeria-300-hostages-largest-rescue** — The Guardian: Nigerian forces free more than 300 captives from Kainji Lake forests in largest single-day recovery (section: world)
-- **world-kirin-canadian-vitamin-1-3bn-acquisition** — Nikkei Asia: Japanese beverage group buys Canadian vitamin maker for $1.3 billion in health-science pivot (section: world)
-- **world-jane-street-11bn-debt-private-credit-ai** — Financial Times: trading firm seeks to offload $11 billion debt to Pimco and others to fund AI investments (section: world)
-
-## 2026-08-06
+## 2026-08-08
 
 - **spain-vox-andalusia-gender-violence-units** — eldiario.es: far-right party gains control of integrated violence-against-women assessment units in Andalusian justice ministry while national law bars abolishing services (section: spain)
 - **spain-semen-microbiome-ivf-outcomes** — EL PAÍS: study links bacterial communities in male semen to miscarriage rates and lower live births after fertility treatment (section: spain)

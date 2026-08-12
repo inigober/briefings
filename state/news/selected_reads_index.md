@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-12
+
+- [JD Vance asked Ukraine to halt strikes on tankers using Russian port](https://www.ft.com/content/725b4d15-bd8d-4083-a04e-db016338af2e?syn-25a6b1a6=1) — Financial Times
+- [Why Is AI So Popular in China?](https://foreignpolicy.com/2026/08/11/ai-china-us-data-center-opposition-regulation-trump-xi-summit/) — Foreign Policy
+- [China-linked hackers hit Taiwan in unprecedented 'autonomous' AI cyber attack](https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1) — Financial Times
+- [Thailand's $3 government bonds attract retail investors](https://asia.nikkei.com/business/markets/wealth-management/thailand-s-3-government-bonds-attract-retail-investors) — Nikkei Asia
+
 ## 2026-08-11
 
 - [EU border checks double queues at major airports](https://www.ft.com/content/42137dd8-8fdc-4d66-b193-ca52d51bd929?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Cambodia deep-water port cashes in on Thai border closure](https://asia.nikkei.com/business/transportation/cambodia-deep-water-port-cashes-in-on-thai-border-closure) — Nikkei Asia
 - [Judge approves Trump effort to end South Sudan TPS protections](https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps) — The Guardian
 - [Germany's gas gamble puts Europe's winter at risk](https://www.politico.eu/article/germany-gas-reserve-low-europe-winter-energy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-
-## 2026-08-07
-
-- [Warsh is being misread](https://www.ft.com/content/aea25d0e-f7f8-484c-b186-57775e635aa7?syn-25a6b1a6=1) — Financial Times
-- ['It's now or never.' Is the EU serious about letting in new members?](https://www.ft.com/content/f8fc56ba-7088-4f73-87c1-13b11eee80ec?syn-25a6b1a6=1) — Financial Times
-- [Selling Trust From Orbit](https://foreignpolicy.com/2026/08/06/satellite-imagery-iran-china-space-ai-fraud-disinformation/) — Foreign Policy
-- [AI boom softens blow from China's July trade slowdown](https://asia.nikkei.com/economy/trade/ai-boom-softens-blow-from-china-s-july-trade-slowdown) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 
