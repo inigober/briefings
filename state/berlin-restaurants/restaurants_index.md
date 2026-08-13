@@ -61,3 +61,10 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-08-06 | tulus lotrek | Kreuzberg | https://maps.google.com/?cid=307878984861885079&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-06 | MINE | Charlottenburg | https://maps.google.com/?cid=7315615219654006794&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-06 | Remi | Mitte | https://maps.google.com/?cid=7490903436226405012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-13 | Lon Men's Noodle House | Charlottenburg | https://maps.google.com/?cid=9563754848875105605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-13 | Co Do Hue | Charlottenburg | https://maps.google.com/?cid=13624639154100057195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-13 | Der blaue Fuchs | Prenzlauer Berg | https://maps.google.com/?cid=3269494279122270631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-13 | Genazvale | Wilmersdorf | https://maps.google.com/?cid=11709656010648000386&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-13 | Jolesch | Kreuzberg | https://maps.google.com/?cid=14401300538729835448&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-13 | Mingtastic | Tiergarten | https://maps.google.com/?cid=8820686791220117511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-13 | Duc Anh Quan | Lichtenberg | https://maps.google.com/?cid=8548437226739296063&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

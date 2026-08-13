@@ -1,19 +1,19 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-08-06",
+  "date": "2026-08-13",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-08-06.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-08-06-synthesis.json",
-  "verified_count": 21,
+  "briefing_path": "briefings/berlin-restaurants/2026-08-13.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-08-13-synthesis.json",
+  "verified_count": 18,
   "selected_count": 7,
   "selected_restaurants": [
-    "Wei Dao Jia",
-    "You Mi",
-    "Mardin",
-    "Imren",
-    "tulus lotrek",
-    "MINE",
-    "Remi"
+    "Lon Men's Noodle House",
+    "Co Do Hue",
+    "Der blaue Fuchs",
+    "Genazvale",
+    "Jolesch",
+    "Mingtastic",
+    "Duc Anh Quan"
   ],
-  "notes": "7 entries from 21 verified candidates. Excluded Lao Xiang, Chon Thong, Shaniu's House of Noodles, Banh Xeo Saigon, Et Dünyası, Papaya Mum, Khao Taan, and Loumi as repeats within 10-week window. Excluded 963 due to ambiguous Maps listing. Neighborhoods: Prenzlauer Berg, Schöneberg, Neukölln (2), Kreuzberg, Charlottenburg, Mitte. One fine-dining entry (tulus lotrek). No index trim needed (oldest entries are 8 weeks old)."
+  "notes": "7 entries from 18 verified candidates. Excluded WeiDaoJia, Chuan Garden, You Mi, Boii Boii, Barra, and Loumi as repeats within 10-week window. Excluded Et Dünyasi (Müllerstraße) due to address ambiguity and weak Maps signals (3.2 rating, 11 reviews). Neighborhoods: Charlottenburg (2), Prenzlauer Berg, Wilmersdorf, Kreuzberg, Tiergarten, Lichtenberg. No fine-dining entry. No index trim needed (oldest entries are 9 weeks old)."
 }
