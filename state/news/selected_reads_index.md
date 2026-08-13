@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-13
+
+- [Why we should all be worried about AI in elections](https://restofworld.org/2026/ai-elections-deepfake-voter-chatbot/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [Mark Zuckerberg's Convenient Truth](https://www.theatlantic.com/technology/2026/08/mark-zuckerberg-ai-manifesto/688269/?utm_source=feed) — The Atlantic
+- [Legal AI start-up Legora seeks funds at more than $10bn valuation](https://www.ft.com/content/8202960d-ec90-4709-96e0-ab9cbddb5258?syn-25a6b1a6=1) — Financial Times
+- [Zambia elections haunted by ghost of incumbent president's arch-rival](https://www.theguardian.com/world/2026/aug/13/zambia-elections-hakainde-hichilema-haunted-ghost-incumbent-president-arch-rival-edgar-lungu) — The Guardian
+
 ## 2026-08-12
 
 - [JD Vance asked Ukraine to halt strikes on tankers using Russian port](https://www.ft.com/content/725b4d15-bd8d-4083-a04e-db016338af2e?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Arizona wants Taiwan's investors to think beyond chips](https://restofworld.org/2026/tsmc-arizona-investors/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
 - [The offline messaging apps challenging internet shutdowns](https://restofworld.org/2026/india-github-geoblock-jack-dorsey-bitchat/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
 - [Kansai Electric, Kawasaki Heavy seek 1st off-site transport of captured CO2](https://asia.nikkei.com/spotlight/environment/kansai-electric-kawasaki-heavy-seek-1st-off-site-transport-of-captured-co2) — Nikkei Asia
-
-## 2026-08-08
-
-- [SEC Drops Insider-Trading Suit Against Executive Trump Pardoned](https://www.bloomberg.com/news/articles/2026-08-07/sec-drops-insider-trading-suit-against-executive-trump-pardoned) — Bloomberg
-- [Cambodia deep-water port cashes in on Thai border closure](https://asia.nikkei.com/business/transportation/cambodia-deep-water-port-cashes-in-on-thai-border-closure) — Nikkei Asia
-- [Judge approves Trump effort to end South Sudan TPS protections](https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps) — The Guardian
-- [Germany's gas gamble puts Europe's winter at risk](https://www.politico.eu/article/germany-gas-reserve-low-europe-winter-energy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 
 ## Blocked until 5+ briefings have passed
 

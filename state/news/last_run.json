@@ -1,26 +1,26 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-12",
-  "briefing_date": "2026-08-12",
-  "inbox_date": "2026-08-12",
+  "date": "2026-08-13",
+  "briefing_date": "2026-08-13",
+  "inbox_date": "2026-08-13",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-12.md",
-  "inbox_path": "inbox/news/2026-08-12-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-13.md",
+  "inbox_path": "inbox/news/2026-08-13-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Cómo se fraguó la alianza contra la migración entre la ultra Meloni y la socialdemócrata danesa Frederiksen", "section": "spain", "reason": "theme_duplicate: EU migration alliance merged into Other Headlines after Albares deterrence pick"},
-    {"headline": "El dilema de los menores de Ceuta: ¿quedarse o no con parientes en España?", "section": "spain", "reason": "theme_duplicate: Ceuta minors policy overlaps Albares return warning"},
-    {"headline": "Todos los errores que pueden arruinar la experiencia del eclipse", "section": "spain", "reason": "theme_duplicate: second eclipse piece after cloud-map day-of story"},
-    {"headline": "Morning Briefing: Wie nachhaltig sind die Kreislaufdeals von Nvidia?", "section": "germany", "reason": "theme_duplicate: Nvidia circular-deal thread reserved for Other Headlines"},
-    {"headline": "Streit um Meerenge: Trump: Straße von Hormus gehört uns", "section": "germany", "reason": "geographic_fit: US/Iran Hormuz rhetoric belongs in World/Other Headlines"},
-    {"headline": "Aussichten: Temperaturen steigen in Berlin und Brandenburg wieder", "section": "berlin", "reason": "avoid_unless_material: heatwave adaptation without new policy trigger"},
-    {"headline": "Traber-Derby: Vierbeinige Superstars bei Jahrhundertrennen", "section": "berlin", "reason": "theme_duplicate: sports filler deferred for Wall anniversary and CSD legal closure"},
-    {"headline": "Why Is AI So Popular in China?", "section": "world", "reason": "theme_duplicate: China AI societal angle reserved for Selected Reads"},
-    {"headline": "JD Vance asked Ukraine to halt strikes on tankers using Russian port", "section": "world", "reason": "theme_duplicate: Ukraine energy-war diplomacy reserved for Selected Reads"},
+    {"headline": "El eclipse hechiza a España", "section": "spain", "reason": "theme_duplicate: peninsular eclipse recap after workers/labor angle"},
+    {"headline": "El olvidado asombro de estar vivos", "section": "spain", "reason": "publisher_pool_thin: kept eldiario contraprogramming vignette for second publisher"},
+    {"headline": "Sommerwetter: Viel Sonne und bis zu 36 Grad erwartet", "section": "berlin", "reason": "avoid_unless_material: heatwave forecast without new policy trigger"},
+    {"headline": "+++ USA +++: Trump-Sprecherin Leavitt hört zum Monatsende auf", "section": "germany", "reason": "geographic_fit: US politics belongs in Other Headlines"},
+    {"headline": "+++ Ukraine-Krieg +++: Stromausfall auf der Krim", "section": "germany", "reason": "geographic_fit: Ukraine front-line updates belong in Other Headlines"},
+    {"headline": "Cristiano Ronaldo heiratet langjährige Partnerin Georgina Rodríguez", "section": "berlin", "reason": "celebrity: sports/celebrity filler excluded"},
+    {"headline": "OB von Aue jetzt offiziell gewählt", "section": "berlin", "reason": "geographic_fit: Saxony municipal politics outside Berlin"},
+    {"headline": "Zambia elections haunted by ghost of incumbent president's arch-rival", "section": "world", "reason": "theme_duplicate: Zambia vote reserved for Selected Reads"},
+    {"headline": "Why we should all be worried about AI in elections", "section": "world", "reason": "theme_duplicate: election-AI analysis reserved for Selected Reads"},
     {"headline": "Canadian airline cancels flight after child refuses to wear seatbelt", "section": "world", "reason": "thin_story: one-off travel incident without structural angle"},
-    {"headline": "Kurdish hunger striker says ICE force-feeding 'mentally broke me'", "section": "world", "reason": "dedup: Guardian ICE force-feeding URL used in 2026-08-11 Selected Reads"},
-    {"headline": "Schiffsunglück in Indonesien: Fähre zwischen Bali und Lombok gerät in Brand", "section": "world", "reason": "theme_duplicate: Indonesia ferry fire merged into Other Headlines"}
+    {"headline": "Im Re-Live: Sonnenfinsternis über Berlin und Brandenburg", "section": "berlin", "reason": "theme_duplicate: eclipse livestream after Spain eclipse coverage"},
+    {"headline": "It May Be Time to Panic About AI", "section": "selected_reads", "reason": "publisher_diversity: chose Zuckerberg manifesto over second Atlantic AI piece"}
   ],
-  "notes": "Albares return warning, ILO youth unemployment, eclipse cloud map, BSW-AfD firewall breach, DAX 26500, male IPV under-reporting, CSD prosecution closed, Wall 65th anniversary, Berlin summer jobs, China gig jobs squeeze, Colombia earthquake, Comac C919 international debut."
+  "notes": "Post-eclipse Spain: Ceuta 5,000 reception estimate, workers who missed totality, Santander contraprogramming. Germany: antimatter road transport, Leipzig Antonov context, DB station bodycams. Berlin: Schönfließer bridge party fears, Krach campaign grind, Brandenburg budget holes. World: armyworm fungus, Mexico Ayotzinapa charges, AI paper-millionaire wealth management."
 }

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-13
+
+- **spain-ceuta-5000-migrants-accommodation-estimate** — EL PAÍS: government estimates 2,500 minors and 2,500 potential asylum seekers in Ceuta could be accommodated (section: spain)
+- **spain-workers-missed-eclipse-labor-obligations** — EL PAÍS: priests, retail staff and thousands of workers kept working through totality (section: spain)
+- **spain-santander-book-fair-eclipse-contraprogramming** — eldiario.es: 25 residents attend literature talk instead of watching eclipse (section: spain)
+- **germany-antimatter-road-transport-physics** — Tagesspiegel: particle physicists plan suitcase antimatter convoy across Germany (section: germany)
+- **germany-leipzig-antonov-nato-freight-context** — Frankfurter Allgemeine: explains why Ukrainian cargo planes park at Leipzig before drone attack (section: germany)
+- **germany-bahn-station-bodycams-expansion** — Tagesspiegel: Deutsche Bahn equips platform staff with body cameras after assault rise (section: germany)
+- **berlin-schoenfliesser-bridge-party-fears** — Tagesspiegel: Prenzlauer Berg residents fear new bridge will become party hotspot like Admiralbrücke (section: berlin)
+- **berlin-krach-spd-campaign-omnipresence** — Tagesspiegel: SPD mayoral candidate tours city relentlessly while polling low (section: berlin)
+- **berlin-brandenburg-budget-holes-2027** — rbb24: Brandenburg draft 2027–28 budget contains major unresolved spending gaps (section: berlin)
+- **world-african-armyworm-fungus-biocontrol** — The Guardian: South African scientist finds soil fungus kills devastating crop pest (section: world)
+- **world-mexico-aguirre-ayotzinapa-43-charged** — The Guardian: former Guerrero governor indicted over 2014 student disappearances (section: world)
+- **world-wealth-managers-ai-paper-millionaires** — Financial Times: banks cut fees to court equity-rich OpenAI and Anthropic staff (section: world)
+
 ## 2026-08-12
 
 - **spain-albares-ceuta-return-warning-morocco** — eldiario.es: foreign minister warns Moroccans tempted to cross that entrants will be returned after Ceuta visit (section: spain)
@@ -185,49 +200,4 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-cameroon-biya-53-day-absence** — The Guardian: 93-year-old president unseen since June Switzerland trip fuels succession anxiety (section: world)
 - **world-asia-equities-yen-intervention-rebound** — Financial Times: Tokyo shares recover and yen strengthens from 160 on suspected FX action (section: world)
 - **world-atlantic-ai-move-fast-break-things** — The Atlantic: essay warns frontier labs reverting to reckless ship-first culture (section: world)
-
-## 2026-07-30
-
-- **spain-ayuso-chamberi-atico-residential-zoning-block** — EL PAÍS: Madrid planning code bars regional government's luxury Chamberí penthouse from use as claimed temporary office (section: spain)
-- **spain-sanchez-mallorca-eu-wildfire-hub-bid** — eldiario.es: PM asks von der Leyen to locate western-Mediterranean firefighting coordination centre at Son Sant Joan air base (section: spain)
-- **spain-morocho-pp-podemos-dirty-war-testimony** — eldiario.es: inspector who probed PP caja B to testify on internal harassment campaign against Podemos (section: spain)
-- **germany-deutsche-bahn-core-profit-h1** — Handelsblatt: state rail group reportedly returns to surplus on main operations despite punctuality crisis (section: germany)
-- **germany-autonomous-driving-highway-urban-gap** — Handelsblatt: OEMs near motorway autopilot while EU urban robotaxi rules lag Chinese deployment (section: germany)
-- **germany-berlin-rural-reverse-migration-mecklenburg** — Tagesspiegel: former Berlin resident renovates village home on Mecklenburg lake plateau (section: germany)
-- **berlin-zug-der-liebe-cancelled-csd-security** — rbb24: love-train parade called off after deadly post-CSD vehicle attack (section: berlin)
-- **berlin-tamara-danz-commemorative-coin** — rbb24: Bundesmint honours Silly singer with limited silver collectors' edition (section: berlin)
-- **berlin-brosius-gersdorf-plagiarism-complaint-dismissed** — rbb24: Potsdam review finds no merit in claims against Brandenburg constitutional judge (section: berlin)
-- **world-bytedance-ai-expansion-strategy** — Financial Times: TikTok parent redirects capital toward large-language-model build-out (section: world)
-- **world-spacex-chinese-supply-chain-exclusion** — Nikkei Asia: rocket firm tightens rules to purge Chinese-linked staff and components (section: world)
-- **world-korea-retail-investors-ai-chip-selloff** — Financial Times: leveraged households face steep losses as Samsung and SK Hynix shares tumble (section: world)
-
-## 2026-07-29
-
-- **spain-valencia-fire-prevention-budget-cut-10-percent** — eldiario.es: PP–Vox regional government trims wildfire-prevention spending by €10m during national blaze emergency (section: spain)
-- **spain-fire-victim-70-percent-benefit-four-months** — La Vanguardia: Social Security explains new 70% wage benefit for workers sidelined by wildfires, payable up to four months (section: spain)
-- **spain-javea-volunteer-fire-brigade-minute-zero** — EL PAÍS: Alicante town fields trained civilian brigade including ex–9/11 firefighter for minute-zero response (section: spain)
-- **germany-bda-lost-decade-reform-warning** — Handelsblatt: employers' federation chief Dulger warns Germany risks a lost decade without faster structural reforms (section: germany)
-- **germany-vibrionen-early-season-two-deaths-rki** — Tagesspiegel: RKI reports two vibrion fatalities as warm-water bacterial season starts earlier than usual (section: germany)
-- **germany-tax-declaration-2025-deadline-enforcement** — Handelsblatt: finance offices threaten surcharges and estimated assessments after Friday filing deadline (section: germany)
-- **berlin-water-pricing-too-cheap-spree-scarcity** — Tagesspiegel: Brandenburg environment minister Mittelstädt says water tariffs undervalue drought stress on Spree basin (section: berlin)
-- **berlin-brandenburg-population-net-growth** — rbb24: official data show both capital and surrounding state recording net population gains (section: berlin)
-- **berlin-retirees-tax-repayments-half-affected** — Berliner Zeitung: tax advisers say nearly half of pensioners face additional income-tax bills averaging €1,326 (section: berlin)
-- **world-japan-kyushu-earthquake-13-dead-rescue** — The Guardian: 6.8-magnitude Kumamoto quake kills at least 13 as military mobilises thousands for aftershock rescue (section: world)
-- **world-kenya-amboseli-15-elephant-deaths-toxic** — The Guardian: Kenya Wildlife Service probes paralysis-linked deaths of 15 elephants in Amboseli park (section: world)
-- **world-zuckerberg-us-should-not-ban-chinese-ai** — Financial Times: Meta chief warns against regulatory capture if Washington bans Chinese frontier models (section: world)
-
-## 2026-07-28
-
-- **spain-ayuso-fire-management-withdrawal-photos** — eldiario.es: Madrid president steps back from emergency command while keeping high-profile fire-response appearances (section: spain)
-- **spain-state-pact-fires-blocked-pp** — EL PAÍS: podcast explores why PP calls for cooperation but refuses formal wildfire pact (section: spain)
-- **spain-48-hour-fire-limit-before-heatwave** — La Vanguardia: crews face two-day window to contain central Spain blaze before fourth summer heatwave (section: spain)
-- **germany-lufthansa-job-cuts-concrete** — Handelsblatt: airline group details post-pandemic layoffs as European wildfire aid flows (section: germany)
-- **germany-five-percent-threshold-papier** — Tagesspiegel: ex-constitutional court president Papier says Sperrklausel wastes 6.8m votes (section: germany)
-- **germany-online-pharmacy-guide** — Handelsblatt: explainer on legitimate digital dispensaries amid e-health regulation debate (section: germany)
-- **berlin-police-vans-a115-collision** — rbb24: six Polizeitransporter crash on Avus during morning rush (section: berlin)
-- **berlin-reed-islands-urban-cooling** — Tagesspiegel: ecologist plants underwater vegetation to cool lakes and shelter species (section: berlin)
-- **berlin-rolly-toys-insolvency-jobs** — Berliner Zeitung: Bavarian pedal-tractor maker closes after 60 years, 110 jobs at risk (section: berlin)
-- **world-asia-extreme-rainfall-floods** — The Guardian: deluges from Afghanistan to Taiwan highlight climate-driven flood risk (section: world)
-- **world-ai-chip-packaging-bottleneck** — Nikkei Asia: AT&S CEO says advanced packaging not wafer fabs is AI supply constraint (section: world)
-- **world-india-ethanol-protest-movement** — Financial Times: opponents of BJP ethanol-blend mandate adopt student-protest tactics (section: world)
 
