@@ -37,12 +37,15 @@ Open the matching file and execute **from Step 1 through state updates**, includ
 - Music **Step 5** (personal recommendation log on another machine)
 - Culture web spot-checks that require browsing (use inbox evidence instead; note gaps in the briefing if needed)
 
+**Music:** pick only from `inbox/music-discovery/YYYY-MM-DD-synthesis.json` (fallback `*-raw.json`) items with `"verified": true`. Copy Bandcamp / YouTube / cover / Dig URLs verbatim. **Never** invent slugs or publish a gap/placeholder briefing. If the verified pool is too thin for 6 featured + 4 More listening, stop **without** writing `briefings/music-discovery/YYYY-MM-DD.md` so CI fails loudly.
+
 **Still do:** write `briefings/{type}/{date}.md` and update the `state/{type}/` files listed in the type prompt.
 
 ### 3 — Self-check before finishing
 
 - Briefing path exists: `briefings/{type_id}/{date}.md`
 - Footnote / Official Link / Maps / Listen URLs are copied from inbox — never invented
+- Music briefings must contain 6 featured `##` entries plus `## More listening` with 4 bullets — no “gap” / “no candidates” placeholders
 - State files updated per the type prompt
 - Do **not** create `*.test.md` unless the context says this is an end-to-end test
 

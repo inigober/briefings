@@ -81,6 +81,12 @@ Sections: restaurant entries + This week's strongest bets.
 
 Title: `# Berlin Restaurant Briefing — Week of YYYY-MM-DD`
 
+### Music Discovery Briefing (weekly, Friday)
+
+Six featured releases (3 club + 3 home) + four More listening extras. Taste comes from the personal cache; **candidate URLs come from OpenAI pre-fetch** (`inbox/music-discovery/YYYY-MM-DD-synthesis.json`).
+
+Title: `# Music Discovery — Week of YYYY-MM-DD`
+
 ## Setup
 
 ### GitHub secrets and variables
@@ -236,6 +242,11 @@ python3 scripts/fetch_culture_research.py --dry-run --date 2026-06-10
 python3 scripts/verify_restaurant_maps.py --date 2026-06-18
 python3 scripts/slim_inbox_for_synthesis.py --type berlin-restaurants --date 2026-06-18
 
+# Music research pre-fetch (dry-run prompt) + verify/slim
+python3 scripts/fetch_music_research.py --dry-run --date 2026-08-14
+python3 scripts/verify_music_inbox_urls.py --type music-discovery --date YYYY-MM-DD
+python3 scripts/slim_inbox_for_synthesis.py --type music-discovery --date YYYY-MM-DD
+
 # Trigger routing (after a pre-fetch commit)
 python3 scripts/detect_synthesis_trigger.py --json
 
@@ -259,7 +270,7 @@ python3 -m unittest discover -s tests -v
 | `verify-briefing-sources.yml` | push to `briefings/news/` + manual | Ensures footnote URLs exist in synthesis inbox |
 | `berlin-culture-prefetch.yml` | cron-job.org Tue 06:00 Berlin + manual | RSS + WordPress + OpenAI → verify URLs → slim → commit `inbox/berlin-culture/` |
 | `berlin-restaurants-prefetch.yml` | cron-job.org Thu 07:00 Berlin + manual | OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
-| `music-discovery-prefetch.yml` | cron-job.org Fri 09:00 Berlin + manual | Taste cache → `inbox/music-discovery/` |
+| `music-discovery-prefetch.yml` | cron-job.org Fri 09:00 Berlin + manual | Taste cache → OpenAI research → verify URLs → slim → `inbox/music-discovery/` |
 | `synthesize-briefing.yml` | Explicit dispatch after inbox push (and manual backup); push `inbox/**` only helps non-bot pushes | Codex synthesis → verify → commit `briefings/` + `state/` → dispatch email |
 | `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if inbox missing; retry undelivered email; dispatch missing synthesis |
 | `send-briefing-email.yml` | Push to `briefings/**/*.md` | Verify links per type, send styled email, record delivery log; email alert on failure |

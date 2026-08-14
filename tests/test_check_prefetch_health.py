@@ -69,6 +69,31 @@ class TestPrefetchHealth(unittest.TestCase):
         self.assertFalse(ok)
         self.assertIn("slim step may have failed", detail)
 
+    def test_music_taste_only_counts_as_missed(self) -> None:
+        from unittest.mock import MagicMock
+
+        bt = MagicMock()
+        bt.id = "music-discovery"
+        synthesis = MagicMock()
+        synthesis.exists.return_value = False
+        raw = MagicMock()
+        raw.exists.return_value = False
+        context = MagicMock()
+        context.exists.return_value = True
+        context.relative_to.return_value = Path(
+            "inbox/music-discovery/2026-08-14-context.json"
+        )
+        bt.inbox_path.side_effect = (
+            lambda _date, suffix: synthesis if suffix == "synthesis" else raw
+        )
+        bt.inbox_dir = MagicMock()
+        bt.inbox_dir.__truediv__.return_value = context
+
+        ok, detail = inbox_ready(bt, "2026-08-14")
+        self.assertFalse(ok)
+        self.assertIn("missing", detail.lower())
+        self.assertIn("synthesis.json", detail)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -67,10 +67,12 @@ briefings:
     synthesis_prompt: prompts/music-discovery/synthesis-run.md
     style_rule: .cursor/rules/music-discovery-briefing-style.mdc
     prefetch:
-      # No RSS/OpenAI research. "Prefetch" = taste bridge from personal exports → inbox.
-      # See docs/music-discovery-bridge.md and personal music-library/scripts/export_taste_to_briefings.py
+      # Taste cache materialize + OpenAI web_search candidates (Bandcamp/YouTube/covers).
+      # See docs/music-discovery-bridge.md
       rss: false
-      slim: false
+      openai_script: fetch_music_research
+      slim: true
+      spend_cap_usd: 2.0  # documented default; live cap = GitHub variable OPENAI_DAILY_SPEND_CAP_USD or code default $2
     email:
       # Preheader falls back to the intro paragraph (no closing summary section).
       preheader_section: ""

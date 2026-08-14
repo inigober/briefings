@@ -34,6 +34,18 @@ class TestInboxResearchDetection(unittest.TestCase):
         self.assertFalse(is_research_inbox_file(f"{prefix}/2026-06-11-spend.json", prefix))
         self.assertFalse(is_research_inbox_file(f"{prefix}/.gitkeep", prefix))
 
+    def test_ignores_music_taste_cache_files(self) -> None:
+        prefix = "inbox/music-discovery"
+        self.assertFalse(
+            is_research_inbox_file(f"{prefix}/2026-08-14-context.json", prefix)
+        )
+        self.assertFalse(
+            is_research_inbox_file(f"{prefix}/2026-08-14-taste-snapshot.md", prefix)
+        )
+        self.assertTrue(
+            is_research_inbox_file(f"{prefix}/2026-08-14-synthesis.json", prefix)
+        )
+
     def test_research_date(self) -> None:
         self.assertEqual(
             research_date_from_path("inbox/news/2026-06-11-synthesis.json"),

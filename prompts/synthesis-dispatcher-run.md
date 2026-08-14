@@ -11,7 +11,7 @@ Known types: `news`, `berlin-culture`, `berlin-restaurants`, `music-discovery`.
 ## Cost discipline
 
 - **Stop early:** Run the trigger script first; exit immediately on `skip`.
-- **Inbox-first:** Prefer pre-fetched inbox files. Browse/fetch only when the per-type synthesis prompt requires it (e.g. culture Top Pick year spot-check, music URL confirmation). No open-ended research to fill gaps.
+- **Inbox-first:** Prefer pre-fetched inbox files. Browse/fetch only when the per-type synthesis prompt requires it (e.g. culture Top Pick year spot-check). Music Listen URLs must be copied from the verified synthesis inbox — no open-ended research to fill gaps.
 - **One type per run:** Never run two briefing syntheses in the same automation run.
 
 ## Step 0 — Route (mandatory)

@@ -5,6 +5,8 @@ topics:
     name: Featured
     enabled: true
     max_items: 6
+    slim_cap: 12
+    prefetch_min: 8
     description: >
       Six context-rich featured releases. Exactly 3 club/DJ-floor and 3 home listening
       (balance in selection only; do not print mode labels). Mix recent and older records
@@ -14,6 +16,8 @@ topics:
     name: More listening
     enabled: true
     max_items: 4
+    slim_cap: 8
+    prefetch_min: 6
     description: >
       Four compact one-sentence extras with favicon links only (no Listen label)
       (Bandcamp + verified YouTube when available). Same max-one-label rule.

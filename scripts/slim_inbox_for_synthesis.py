@@ -30,6 +30,7 @@ from culture_calendar import (
 )
 from culture_dates import culture_week_date_bounds, normalize_tuesday_run_date
 from culture_schedule import filter_programme_items_by_timing
+from music_dates import normalize_friday_run_date
 from news_relevance import (
     item_theme_keys,
     load_dedup_entries,
@@ -122,6 +123,33 @@ RESTAURANT_SLIM_ITEM_KEYS = (
     "verification_notes",
     "source_urls",
     "ingestion_source",
+)
+
+MUSIC_SLIM_ITEM_KEYS = (
+    "id",
+    "topic_ids",
+    "artist",
+    "release",
+    "label",
+    "year",
+    "mode",
+    "era",
+    "genre",
+    "context",
+    "cover_url",
+    "bandcamp_url",
+    "youtube_url",
+    "dig_sentence",
+    "dig_url",
+    "writeup_url",
+    "writeup_source",
+    "reception_ok",
+    "known_label",
+    "verified",
+    "url_live",
+    "url_verify_notes",
+    "ingestion_source",
+    "why_candidate",
 )
 
 
@@ -624,6 +652,32 @@ def pick_top_restaurants(items: list[dict], cap: int) -> list[dict]:
     return [slim_item(i, RESTAURANT_SLIM_ITEM_KEYS) for i in ranked[:cap]]
 
 
+def score_music_item(item: dict) -> int:
+    score = 0
+    if item.get("youtube_url"):
+        score += 3
+    if item.get("writeup_url"):
+        score += 2
+    if item.get("reception_ok"):
+        score += 1
+    if item.get("cover_url"):
+        score += 1
+    return score
+
+
+def music_section_id(item: dict) -> str:
+    tags = item.get("topic_ids") or []
+    if tags and tags[0] in ("featured", "more_listening"):
+        return tags[0]
+    return "featured"
+
+
+def pick_top_music(items: list[dict], cap: int) -> list[dict]:
+    verified = [item for item in items if item.get("verified")]
+    ranked = sorted(verified, key=score_music_item, reverse=True)
+    return [slim_item(i, MUSIC_SLIM_ITEM_KEYS) for i in ranked[:cap]]
+
+
 def news_section_caps(topics_cfg: dict) -> dict[str, int]:
     topics = topic_by_id(topics_cfg)
     caps: dict[str, int] = {}
@@ -888,6 +942,56 @@ def build_restaurant_synthesis_inbox(raw: dict, *, topics_cfg: dict) -> dict:
     }
 
 
+def music_section_caps(topics_cfg: dict) -> dict[str, int]:
+    caps: dict[str, int] = {}
+    for topic in topics_cfg.get("topics") or []:
+        tid = topic.get("id")
+        if not tid or not topic.get("enabled", True):
+            continue
+        caps[tid] = int(topic.get("slim_cap") or (topic.get("max_items", 4) * 2))
+    if not caps:
+        caps = {"featured": 12, "more_listening": 8}
+    return caps
+
+
+def build_music_synthesis_inbox(raw: dict, *, topics_cfg: dict) -> dict:
+    section_caps = music_section_caps(topics_cfg)
+    items = raw.get("items") or []
+    by_section: dict[str, list[dict]] = {sid: [] for sid in section_caps}
+
+    for item in items:
+        sid = music_section_id(item)
+        if sid in by_section:
+            by_section[sid].append(item)
+        else:
+            by_section.setdefault("featured", []).append(item)
+
+    section_items: list[dict] = []
+    section_counts: dict[str, int] = {}
+    for sid, cap in section_caps.items():
+        picked = pick_top_music(by_section.get(sid) or [], cap)
+        section_counts[sid] = len(picked)
+        section_items.extend(picked)
+
+    rel_inbox = str(raw.get("inbox_dir") or "inbox/music-discovery")
+    return {
+        "briefing_type": "music-discovery",
+        "date": raw.get("date"),
+        "source_raw": f"{rel_inbox}/{raw.get('date')}-raw.json",
+        "built_at": datetime.now(timezone.utc).isoformat(),
+        "model": raw.get("model"),
+        "raw_item_count": len(items),
+        "verified_count": sum(1 for item in items if item.get("verified")),
+        "section_counts": section_counts,
+        "items": section_items,
+        "note": (
+            "Token-light music slice for synthesis. Items with verified:true have live "
+            "Bandcamp + cover URLs from pre-fetch HTTP checks. Copy Listen/Dig/cover URLs "
+            "verbatim — never invent Bandcamp slugs. Do not recommend unverified releases."
+        ),
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Slim inbox JSON for Cursor synthesis")
     parser.add_argument("--type", default="news", help="Briefing type (default: news)")
@@ -904,6 +1008,8 @@ def main() -> int:
         date_str, _ = normalize_tuesday_run_date(date_str)
     elif args.type == "berlin-restaurants":
         date_str, _ = normalize_thursday_run_date(date_str)
+    elif args.type == "music-discovery":
+        date_str, _ = normalize_friday_run_date(date_str)
     inbox_dir = briefing.inbox_dir
     raw_path = inbox_dir / f"{date_str}-raw.json"
     out_path = inbox_dir / f"{date_str}-synthesis.json"
@@ -921,6 +1027,8 @@ def main() -> int:
         payload = build_culture_synthesis_inbox(raw, sources_cfg=sources_cfg, topics_cfg=topics_cfg)
     elif args.type == "berlin-restaurants":
         payload = build_restaurant_synthesis_inbox(raw, topics_cfg=topics_cfg)
+    elif args.type == "music-discovery":
+        payload = build_music_synthesis_inbox(raw, topics_cfg=topics_cfg)
     else:
         payload = build_news_synthesis_inbox(raw, sources_cfg=sources_cfg, topics_cfg=topics_cfg)
 
@@ -935,6 +1043,12 @@ def main() -> int:
         log(
             f"Wrote {out_path} — {payload['raw_item_count']} raw / "
             f"{payload['verified_count']} verified → {len(payload['items'])} restaurant candidates "
+            f"({counts})"
+        )
+    elif args.type == "music-discovery":
+        log(
+            f"Wrote {out_path} — {payload['raw_item_count']} raw / "
+            f"{payload['verified_count']} verified → {len(payload['items'])} music candidates "
             f"({counts})"
         )
     else:

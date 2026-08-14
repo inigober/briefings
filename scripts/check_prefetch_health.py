@@ -46,13 +46,23 @@ def log(message: str) -> None:
 
 def inbox_ready(bt, date_str: str) -> tuple[bool, str]:
     if bt.id == "music-discovery":
+        synthesis = bt.inbox_path(date_str, "synthesis")
+        raw = bt.inbox_path(date_str, "raw")
         context = bt.inbox_dir / f"{date_str}-context.json"
-        snap = bt.inbox_dir / f"{date_str}-taste-snapshot.md"
-        if context.exists() and snap.exists():
-            return True, f"found {context.relative_to(REPO_ROOT)} + taste-snapshot"
+        if synthesis.exists():
+            return True, f"found {synthesis.relative_to(REPO_ROOT)}"
+        if raw.exists():
+            return (
+                False,
+                f"found {raw.relative_to(REPO_ROOT)} only — slim step may have failed",
+            )
         if context.exists():
-            return False, f"found {context.relative_to(REPO_ROOT)} but missing taste-snapshot.md"
-        return False, f"missing {date_str}-context.json (taste-cache materialize)"
+            return (
+                False,
+                f"found {context.relative_to(REPO_ROOT)} but missing {date_str}-synthesis.json "
+                "(OpenAI music research step may have failed)",
+            )
+        return False, f"missing {date_str}-synthesis.json (taste + research pre-fetch)"
 
     synthesis = bt.inbox_path(date_str, "synthesis")
     raw = bt.inbox_path(date_str, "raw")

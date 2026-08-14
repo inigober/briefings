@@ -5,6 +5,7 @@ Personal briefing pipeline: pre-fetch → synthesis → email.
 ## Pipeline
 
 1. GitHub Actions pre-fetch writes `inbox/{type}/` and pushes to `main`.
+   Music also runs OpenAI web_search here (`scripts/fetch_music_research.py`) so Codex does not need to browse.
 2. Synthesis (GitHub Action + Codex) writes `briefings/{type}/YYYY-MM-DD.md` + `state/{type}/`.
 3. `send-briefing-email.yml` emails on push of `briefings/**/*.md`.
 

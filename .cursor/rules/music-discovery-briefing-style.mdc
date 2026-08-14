@@ -7,7 +7,7 @@ alwaysApply: false
 
 Generate a weekly music discovery briefing grounded in the reader's DJ crate and streaming taste. Goal: help them **discover** music for DJing or home listening, become **more knowledgeable**, and get prompts for **further digging** — not a thin link dump or hype roundup.
 
-Taste context arrives via the inbox bridge (`inbox/music-discovery/`), copied from personal `music-library/exports/`. Do not invent taste axes from memory when inbox files are present.
+Taste context arrives via the inbox bridge (`inbox/music-discovery/`), copied from personal `music-library/exports/`. Candidate Listen / Dig / cover URLs arrive in `YYYY-MM-DD-synthesis.json` from Friday OpenAI pre-fetch. Do not invent taste axes or Bandcamp slugs when inbox files are present.
 
 ## Audience
 

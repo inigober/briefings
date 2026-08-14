@@ -51,7 +51,53 @@ jobs:
         run: |
           python scripts/materialize_music_inbox.py --date ${{ steps.run_date.outputs.value }}
 
+      - name: Fetch OpenAI music research
+        id: openai_fetch
+        env:
+          PYTHONUNBUFFERED: "1"
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_RESEARCH_MODEL: ${{ vars.OPENAI_RESEARCH_MODEL }}
+          OPENAI_DAILY_SPEND_CAP_USD: ${{ vars.OPENAI_DAILY_SPEND_CAP_USD }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}
+          BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
+        run: |
+          echo "Daily spend cap: ${OPENAI_DAILY_SPEND_CAP_USD:-2} USD"
+          ARGS="--type music-discovery --date ${{ steps.run_date.outputs.value }}"
+          export OPENAI_RESEARCH_MODEL="${OPENAI_RESEARCH_MODEL:-gpt-5.4}"
+          export OPENAI_DAILY_SPEND_CAP_USD="${OPENAI_DAILY_SPEND_CAP_USD:-2}"
+          python scripts/fetch_music_research.py $ARGS
+
+      - name: Commit spend ledger on cap abort
+        if: failure() && steps.openai_fetch.outcome == 'failure'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add inbox/music-discovery/*-spend.json inbox/music-discovery/*-spend-cap.error.txt 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No spend ledger to commit"
+            exit 0
+          fi
+          git commit -m "inbox/music-discovery: spend cap abort $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main || true
+          git push origin main || true
+
+      - name: Verify music candidate URLs
+        if: success()
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python scripts/verify_music_inbox_urls.py --type music-discovery --date ${{ steps.run_date.outputs.value }}
+
+      - name: Slim inbox for synthesis
+        if: success()
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python scripts/slim_inbox_for_synthesis.py --type music-discovery --date ${{ steps.run_date.outputs.value }}
+
       - name: Commit inbox if changed
+        if: success()
         id: commit
         run: |
           git config user.name "github-actions[bot]"
@@ -62,7 +108,7 @@ jobs:
             echo "pushed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          git commit -m "inbox/music-discovery: ${{ steps.run_date.outputs.value }}"
+          git commit -m "inbox/music-discovery: ${{ steps.run_date.outputs.value }} research pre-fetch"
           for attempt in 1 2; do
             git pull --rebase origin main
             if git push origin main; then
