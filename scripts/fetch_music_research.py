@@ -20,6 +20,7 @@ import os
 import re
 from datetime import datetime, timezone
 from typing import Any
+from urllib.parse import urlparse
 
 from briefing_paths import REPO_ROOT, load_briefing_type
 from fetch_openai_research import (
@@ -45,6 +46,14 @@ from openai_spend import (
 MUSIC_SEARCH_MIN_CALLS = 4
 MUSIC_SEARCH_MAX_TOOL_CALLS = 8
 MUSIC_MIN_CANDIDATES = 16
+# Verify needs 10 live Bandcamp+cover rows. Fail fetch before HTTP if we don't even
+# have that many album URLs — empty bandcamp_url is the usual Phase-2 loss.
+MUSIC_MIN_BANDCAMP_URLS = 10
+
+BANDCAMP_URL_RE = re.compile(
+    r"https://(?:www\.)?(?:[a-z0-9-]+\.)?bandcamp\.com/(?:album|track)/[a-z0-9._~-]+",
+    re.IGNORECASE,
+)
 
 MUSIC_CANDIDATE_SCHEMA = {
     "type": "object",
@@ -122,6 +131,133 @@ def keys_match(left: tuple[str, str], right: tuple[str, str]) -> bool:
     if la != ra:
         return False
     return lr == rr or lr in rr or rr in lr
+
+
+def normalize_candidate_url(value: str | None) -> str:
+    """Strip markdown wrappers and take the first http(s) URL."""
+    text = str(value or "").strip()
+    if not text or text.lower() in {"null", "none", "n/a"}:
+        return ""
+    match = re.search(r"https?://[^\s)\]>'\"']+", text)
+    if not match:
+        return ""
+    return match.group(0).rstrip(".,;]")
+
+
+def is_bandcamp_listen_url(url: str | None) -> bool:
+    """True for artist.bandcamp.com/album/… or /track/… (not Bandcamp Daily)."""
+    parsed = urlparse((url or "").strip())
+    if parsed.scheme not in ("http", "https") or not parsed.netloc:
+        return False
+    host = parsed.netloc.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    if host in {"bandcamp.com", "daily.bandcamp.com"}:
+        return False
+    if not host.endswith(".bandcamp.com"):
+        return False
+    path = parsed.path.lower()
+    return "/album/" in path or "/track/" in path
+
+
+def extract_bandcamp_urls(text: str) -> list[str]:
+    found: list[str] = []
+    seen: set[str] = set()
+    for match in BANDCAMP_URL_RE.finditer(text or ""):
+        url = match.group(0)
+        if url not in seen and is_bandcamp_listen_url(url):
+            seen.add(url)
+            found.append(url)
+    return found
+
+
+def collect_response_urls(response: Any) -> list[str]:
+    """Pull citation / annotation URLs from a Responses API object."""
+    urls: list[str] = []
+    for item in getattr(response, "output", []) or []:
+        for content in getattr(item, "content", []) or []:
+            for ann in getattr(content, "annotations", None) or []:
+                url = getattr(ann, "url", None)
+                if not url and isinstance(ann, dict):
+                    url = ann.get("url")
+                if url:
+                    urls.append(str(url))
+    return urls
+
+
+def salvage_bandcamp_url(
+    artist: str,
+    release: str,
+    notes: str,
+    *,
+    used: set[str],
+) -> str | None:
+    """Match a Bandcamp album URL in Phase 1 notes to this artist/release."""
+    urls = extract_bandcamp_urls(notes)
+    artist_n = _norm(artist)
+    release_n = _norm(release)
+    first = (artist_n.split() or [""])[0]
+
+    for url in urls:
+        if url in used:
+            continue
+        slug = _norm(url.rstrip("/").rsplit("/", 1)[-1].split("?")[0])
+        if release_n and slug and (release_n == slug or release_n in slug or slug in release_n):
+            return url
+
+    if first and len(first) >= 4:
+        for url in urls:
+            if url in used:
+                continue
+            host = urlparse(url).netloc.lower().replace("-", " ")
+            if first in host:
+                return url
+
+    for match in BANDCAMP_URL_RE.finditer(notes or ""):
+        url = match.group(0)
+        if url in used or not is_bandcamp_listen_url(url):
+            continue
+        window = notes[max(0, match.start() - 400) : match.start()]
+        if artist and artist.lower() in window.lower():
+            return url
+        if first and len(first) >= 4 and first in _norm(window):
+            return url
+    return None
+
+
+def attach_bandcamp_urls(items: list[dict], notes: str) -> int:
+    """Fill empty bandcamp_url from dig_url or Phase 1 notes. Returns salvage count."""
+    used = {
+        str(item.get("bandcamp_url") or "")
+        for item in items
+        if is_bandcamp_listen_url(item.get("bandcamp_url"))
+    }
+    salvaged = 0
+    for item in items:
+        current = normalize_candidate_url(item.get("bandcamp_url"))
+        if is_bandcamp_listen_url(current):
+            item["bandcamp_url"] = current
+            used.add(current)
+            continue
+        dig = normalize_candidate_url(item.get("dig_url"))
+        if is_bandcamp_listen_url(dig):
+            item["bandcamp_url"] = dig
+            used.add(dig)
+            salvaged += 1
+            continue
+        found = salvage_bandcamp_url(
+            item.get("artist") or "",
+            item.get("release") or "",
+            notes,
+            used=used,
+        )
+        if found:
+            item["bandcamp_url"] = found
+            used.add(found)
+            salvaged += 1
+        else:
+            item["bandcamp_url"] = current
+    return salvaged
 
 
 def load_json(path: Path) -> dict:
@@ -287,7 +423,15 @@ Rules:
 
 ## Output format
 Return detailed research notes in plain text — **NOT JSON**.
-Every candidate MUST include the exact bandcamp_url (and cover/youtube/dig URLs) copied from web_search results.
+For EVERY candidate use this exact block (Bandcamp line is mandatory):
+
+Artist: NAME
+Release: TITLE
+Bandcamp: https://label-or-artist.bandcamp.com/album/exact-slug-copied-from-search
+
+If web_search did not show a Bandcamp `/album/` (or `/track/`) URL, **skip that release**.
+Do not list a candidate without the Bandcamp line. Never invent slugs.
+Also copy youtube/dig/write-up URLs when you saw them.
 web_search allowed domains:
 {domains}
 """
@@ -305,6 +449,7 @@ Briefing Friday date: {date_str}
 ## Rules (strict)
 - Convert ONLY releases documented in the web research notes below into JSON items.
 - Copy bandcamp_url, cover_url, youtube_url, dig_url, and writeup_url **verbatim** — do not modify, guess, or construct URLs.
+- Skip any release whose notes do **not** include a `https://…bandcamp.com/album/…` (or `/track/`) URL. Do not output an empty bandcamp_url.
 - Do NOT use web_search. Do NOT add releases missing from the notes.
 - topic_ids: `featured` or `more_listening` (familiar labels → more_listening unless a write-up elevates them).
 - mode: `club` or `home`. era: `recent` or `aged-well`.
@@ -448,6 +593,14 @@ def fetch_all_music(
     )
     web_search_calls = count_web_search_calls(search_response)
     log(f"    phase 1: {web_search_calls} web_search call(s), {len(notes)} chars")
+    citation_urls = collect_response_urls(search_response)
+    citation_bandcamp = [u for u in citation_urls if is_bandcamp_listen_url(u)]
+    if citation_bandcamp:
+        extra = "\n".join(citation_bandcamp)
+        notes = (
+            f"{notes}\n\n## Bandcamp URLs from web_search citations\n{extra}\n"
+        )
+        log(f"    phase 1 citations: {len(citation_bandcamp)} Bandcamp album/track URL(s)")
     if spend_ledger:
         usage = usage_from_response(
             response=search_response, model=model, section="music_search"
@@ -493,12 +646,30 @@ def fetch_all_music(
         )
         for item in raw_items
     ]
+    salvaged = attach_bandcamp_urls(items, notes)
+    if salvaged:
+        log(f"  Salvaged {salvaged} Bandcamp URL(s) from notes/dig_url")
+    for item in items:
+        if item.get("blocked_reason"):
+            continue
+        if not is_bandcamp_listen_url(item.get("bandcamp_url")):
+            item["blocked_reason"] = "missing_bandcamp_url"
     kept = [item for item in items if not item.get("blocked_reason")]
     dropped = len(items) - len(kept)
+    missing_urls = sum(1 for item in items if item.get("blocked_reason") == "missing_bandcamp_url")
     if dropped:
-        log(f"  Dropped {dropped} skip/library/repeat matches")
+        log(f"  Dropped {dropped} skip/library/repeat/missing-URL matches")
+    if missing_urls:
+        log(f"  {missing_urls} candidate(s) had no Bandcamp album URL after salvage")
     counts = section_counts(kept)
     log(f"  Combined fetch done ({len(kept)} candidates) — {counts}")
+    if len(kept) < MUSIC_MIN_BANDCAMP_URLS:
+        raise RuntimeError(
+            f"Music pre-fetch aborted: only {len(kept)} candidates have a Bandcamp "
+            f"album URL (need {MUSIC_MIN_BANDCAMP_URLS}). Phase 1 must copy full "
+            "https://*.bandcamp.com/album/… links from search; do not list a "
+            "release without that URL."
+        )
 
     return {
         "briefing_type": "music-discovery",
@@ -513,6 +684,7 @@ def fetch_all_music(
         "verified_count": 0,
         "search_notes": result.get("search_notes") or "",
         "phase1_web_search_calls": web_search_calls,
+        "phase1_bandcamp_urls": extract_bandcamp_urls(notes),
     }
 
 
