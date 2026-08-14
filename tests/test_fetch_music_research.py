@@ -13,11 +13,16 @@ if str(SCRIPTS) not in sys.path:
 
 from fetch_music_research import (  # noqa: E402
     MUSIC_SEARCH_MIN_CALLS,
+    attach_bandcamp_urls,
     build_search_phase_prompt,
     compact_skip_list,
     enrich_candidate,
+    extract_bandcamp_urls,
+    is_bandcamp_listen_url,
     keys_match,
+    normalize_candidate_url,
     release_key,
+    salvage_bandcamp_url,
     section_counts,
 )
 from fetch_openai_research import load_yaml  # noqa: E402
@@ -52,6 +57,8 @@ class TestMusicResearchHelpers(unittest.TestCase):
         self.assertIn("Roza Terenzi", prompt)
         self.assertIn("Radiant Love", prompt)
         self.assertIn("bandcamp.com", prompt)
+        self.assertIn("Bandcamp:", prompt)
+        self.assertIn("skip that release", prompt.lower())
         self.assertNotIn("Return JSON", prompt)
 
     def test_keys_match_fuzzy_release(self) -> None:
@@ -126,6 +133,80 @@ class TestMusicResearchHelpers(unittest.TestCase):
         self.assertIn("bandcamp.com", domains)
         self.assertIn("ra.co", domains)
         self.assertIn("youtube.com", domains)
+
+
+class TestBandcampUrlSalvage(unittest.TestCase):
+    NOTES = """
+Artist: Maara
+Release: Revenge from the Penthouse
+Bandcamp: https://maara.bandcamp.com/album/revenge-from-the-penthouse
+
+Artist: Black Sites
+Release: R4
+https://blacksites.bandcamp.com/album/r4
+
+Daily write-up: https://daily.bandcamp.com/best-electronic/something
+"""
+
+    def test_listen_url_requires_artist_subdomain_album_path(self) -> None:
+        self.assertTrue(
+            is_bandcamp_listen_url("https://maara.bandcamp.com/album/revenge-from-the-penthouse")
+        )
+        self.assertFalse(is_bandcamp_listen_url(""))
+        self.assertFalse(is_bandcamp_listen_url("https://daily.bandcamp.com/best-electronic/x"))
+        self.assertFalse(is_bandcamp_listen_url("https://bandcamp.com/album/nope"))
+
+    def test_normalize_strips_markdown(self) -> None:
+        self.assertEqual(
+            normalize_candidate_url("[Bandcamp](https://x.bandcamp.com/album/y)"),
+            "https://x.bandcamp.com/album/y",
+        )
+
+    def test_extract_skips_daily(self) -> None:
+        urls = extract_bandcamp_urls(self.NOTES)
+        self.assertEqual(
+            urls,
+            [
+                "https://maara.bandcamp.com/album/revenge-from-the-penthouse",
+                "https://blacksites.bandcamp.com/album/r4",
+            ],
+        )
+
+    def test_salvage_matches_slug_and_nearby_artist(self) -> None:
+        used: set[str] = set()
+        self.assertEqual(
+            salvage_bandcamp_url("Maara", "Revenge from the Penthouse", self.NOTES, used=used),
+            "https://maara.bandcamp.com/album/revenge-from-the-penthouse",
+        )
+        used.add("https://maara.bandcamp.com/album/revenge-from-the-penthouse")
+        self.assertEqual(
+            salvage_bandcamp_url("Black Sites", "R4", self.NOTES, used=used),
+            "https://blacksites.bandcamp.com/album/r4",
+        )
+
+    def test_attach_fills_from_notes_and_dig_url(self) -> None:
+        items = [
+            {"artist": "Maara", "release": "Revenge from the Penthouse", "bandcamp_url": ""},
+            {
+                "artist": "Other",
+                "release": "EP",
+                "bandcamp_url": "",
+                "dig_url": "https://other.bandcamp.com/album/ep",
+            },
+            {
+                "artist": "Has One",
+                "release": "Yes",
+                "bandcamp_url": "https://has.bandcamp.com/album/yes",
+            },
+        ]
+        salvaged = attach_bandcamp_urls(items, self.NOTES)
+        self.assertEqual(salvaged, 2)
+        self.assertEqual(
+            items[0]["bandcamp_url"],
+            "https://maara.bandcamp.com/album/revenge-from-the-penthouse",
+        )
+        self.assertEqual(items[1]["bandcamp_url"], "https://other.bandcamp.com/album/ep")
+        self.assertEqual(items[2]["bandcamp_url"], "https://has.bandcamp.com/album/yes")
 
 
 if __name__ == "__main__":
