@@ -1,8 +1,16 @@
 #!/usr/bin/env python3
 """HTTP-verify music-discovery raw inbox Listen / cover / Dig URLs (post-fetch, pre-slim).
 
-OpenAI often invents bcbits cover paths. We require a live Bandcamp album page
-and copy the cover from that HTML (og:image / image_src / bcbits art id).
+OpenAI often invents bcbits cover paths. We require a live Bandcamp album URL
+(HTTP < 400) and a real cover image.
+
+GitHub-hosted runners often get a tiny Bandcamp challenge page (~3KB, HTTP 200)
+instead of the real ~250KB album HTML, so og:image is missing even when the
+Listen URL works in a browser. Cover fallback order:
+
+1. Bandcamp HTML (og:image / image_src / bcbits art id) when the page is real
+2. iTunes Search artwork (artist + release), title-matched
+3. MusicBrainz + Cover Art Archive, title-matched
 """
 
 from __future__ import annotations
@@ -32,6 +40,8 @@ MIN_VERIFIED_CANDIDATES = 10
 DEFAULT_SLEEP_MS = 200
 DEFAULT_TIMEOUT_SECONDS = 20
 OPTIONAL_FIELDS = ("youtube_url", "writeup_url", "dig_url")
+BOT_WALL_MAX_HTML = 20_000
+MUSICBRAINZ_MIN_INTERVAL_SECONDS = 1.1
 
 # Browser-like UA — Bandcamp/GitHub runners often 403 the BriefingBot UA on bursts.
 BROWSER_UA = (
@@ -42,6 +52,15 @@ HEADERS = {
     "User-Agent": BROWSER_UA,
     "Accept": "text/html,application/xhtml+xml,image/avif,image/webp,*/*;q=0.8",
 }
+API_HEADERS = {
+    "User-Agent": "BriefingsPrefetch/1.0 (https://github.com/inigober/briefings)",
+    "Accept": "application/json",
+}
+
+ITUNES_SEARCH_URL = "https://itunes.apple.com/search"
+MUSICBRAINZ_RELEASE_URL = "https://musicbrainz.org/ws/2/release/"
+COVERART_RELEASE_URL = "https://coverartarchive.org/release/{mbid}/front-500"
+COVERART_RELEASE_GROUP_URL = "https://coverartarchive.org/release-group/{mbid}/front-500"
 
 OG_IMAGE_RE = re.compile(
     r'<meta[^>]+(?:property|name)=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
@@ -63,6 +82,8 @@ BCBITS_ART_RE = re.compile(
     r"https://f\d+\.bcbits\.com/img/a(\d+)_\d+\.(?:jpg|jpeg|png)",
     re.IGNORECASE,
 )
+TITLE_NOISE_RE = re.compile(r"\b(the|a|an|and|ep|lp|album)\b", re.IGNORECASE)
+LUCENE_SPECIAL_RE = re.compile(r'[+\-&|!(){}\[\]^"~*?:\\/]')
 
 
 def is_http_url(value: str | None) -> bool:
@@ -107,6 +128,128 @@ def extract_bandcamp_cover(html: str) -> str | None:
     return None
 
 
+def looks_like_bot_wall(html: str) -> bool:
+    """True when the body is a tiny challenge page, not a Bandcamp album."""
+    body = html or ""
+    if extract_bandcamp_cover(body):
+        return False
+    if len(body) >= BOT_WALL_MAX_HTML:
+        return False
+    lowered = body.lower()
+    if "og:image" in lowered or "bcbits.com/img" in lowered:
+        return False
+    return True
+
+
+def normalize_music_name(value: str) -> str:
+    text = html_lib.unescape(value or "").lower()
+    text = text.replace("&", " and ")
+    text = re.sub(r"[^\w\s]", " ", text)
+    text = TITLE_NOISE_RE.sub(" ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def is_various_artist(name: str) -> bool:
+    raw = re.sub(r"[^\w\s/]", " ", (name or "").lower())
+    raw = re.sub(r"\s+", " ", raw).strip()
+    return raw in {"various", "various artists", "va", "v a", "v/a"}
+
+
+def names_match(left: str, right: str, *, min_ratio: float = 0.6) -> bool:
+    a = normalize_music_name(left)
+    b = normalize_music_name(right)
+    if not a or not b:
+        return False
+    if a == b or a in b or b in a:
+        return True
+    ta, tb = set(a.split()), set(b.split())
+    if not ta or not tb:
+        return False
+    return len(ta & tb) / min(len(ta), len(tb)) >= min_ratio
+
+
+def release_titles_match(query: str, candidate: str) -> bool:
+    """Require a real title match, including catalog numbers like Part 2 vs Part 1."""
+    q = normalize_music_name(query)
+    c = normalize_music_name(candidate)
+    if not q or not c:
+        return False
+    q_nums = re.findall(r"\d+", q)
+    c_nums = re.findall(r"\d+", c)
+    if q_nums and set(q_nums) != set(c_nums) and not set(q_nums).issubset(set(c_nums)):
+        return False
+    if q == c or q in c or c in q:
+        return True
+    tq, tc = set(q.split()), set(c.split())
+    if not tq or not tc:
+        return False
+    return len(tq & tc) / min(len(tq), len(tc)) >= 0.8
+
+
+def lucene_quote(value: str) -> str:
+    cleaned = LUCENE_SPECIAL_RE.sub(" ", value or "")
+    return re.sub(r"\s+", " ", cleaned).strip()
+
+
+def upscale_itunes_artwork(url: str) -> str:
+    return re.sub(r"\d+x\d+bb", "600x600bb", url, count=1)
+
+
+def pick_itunes_artwork(results: list[dict], artist: str, release: str) -> str | None:
+    """Return a 600px iTunes artwork URL when artist + title both match."""
+    various = is_various_artist(artist)
+    for row in results or []:
+        row_artist = str(row.get("artistName") or "")
+        row_title = str(row.get("collectionName") or "")
+        artwork = str(row.get("artworkUrl100") or row.get("artworkUrl60") or "").strip()
+        if not is_http_url(artwork):
+            continue
+        if not release_titles_match(release, row_title):
+            continue
+        if various:
+            if not is_various_artist(row_artist) and not names_match(artist, row_artist):
+                continue
+        elif not names_match(artist, row_artist):
+            continue
+        return upscale_itunes_artwork(artwork)
+    return None
+
+
+def mb_artist_name(release_row: dict) -> str:
+    credits = release_row.get("artist-credit") or []
+    parts: list[str] = []
+    for credit in credits:
+        if isinstance(credit, str):
+            parts.append(credit)
+            continue
+        if not isinstance(credit, dict):
+            continue
+        name = credit.get("name") or ""
+        if not name:
+            name = str((credit.get("artist") or {}).get("name") or "")
+        joinphrase = str(credit.get("joinphrase") or "")
+        parts.append(f"{name}{joinphrase}")
+    return "".join(parts).strip()
+
+
+def pick_musicbrainz_release(results: list[dict], artist: str, release: str) -> dict | None:
+    various = is_various_artist(artist)
+    for row in results or []:
+        title = str(row.get("title") or "")
+        row_artist = mb_artist_name(row)
+        if not release_titles_match(release, title):
+            continue
+        if various:
+            if row_artist and not (
+                is_various_artist(row_artist) or names_match(artist, row_artist)
+            ):
+                continue
+        elif not names_match(artist, row_artist):
+            continue
+        return row
+    return None
+
+
 def fetch_html(
     url: str,
     *,
@@ -115,8 +258,8 @@ def fetch_html(
 ) -> tuple[int | None, str, str]:
     """GET the full URL body. Returns (status_code, body, error_note).
 
-    Do not truncate: Bandcamp album HTML is often 200KB+, and GitHub-hosted
-    runners can see a larger head before og:image than a laptop fetch.
+    Do not truncate: Bandcamp album HTML is often 200KB+ when the real page
+    is returned. GitHub runners often get a ~3KB challenge page instead.
     """
     try:
         response = session.get(
@@ -128,6 +271,59 @@ def fetch_html(
         return response.status_code, response.text or "", ""
     except requests.RequestException as exc:
         return None, "", str(exc)[:160]
+
+
+def fetch_json(
+    url: str,
+    *,
+    session: requests.Session,
+    params: dict | None = None,
+    timeout: int = DEFAULT_TIMEOUT_SECONDS,
+) -> tuple[int | None, object | None, str]:
+    try:
+        response = session.get(
+            url,
+            params=params,
+            timeout=timeout,
+            headers=API_HEADERS,
+            allow_redirects=True,
+        )
+        if response.status_code >= 400:
+            return response.status_code, None, f"HTTP {response.status_code}"
+        try:
+            return response.status_code, response.json(), ""
+        except ValueError:
+            return response.status_code, None, "invalid json"
+    except requests.RequestException as exc:
+        return None, None, str(exc)[:160]
+
+
+def follow_image_url(
+    url: str,
+    *,
+    session: requests.Session,
+    timeout: int = DEFAULT_TIMEOUT_SECONDS,
+) -> tuple[bool, str, str]:
+    """GET an image URL, follow redirects, return (ok, final_url, note)."""
+    try:
+        response = session.get(
+            url,
+            timeout=timeout,
+            headers={
+                "User-Agent": API_HEADERS["User-Agent"],
+                "Accept": "image/avif,image/webp,image/*,*/*;q=0.8",
+            },
+            allow_redirects=True,
+            stream=True,
+        )
+        status = response.status_code
+        final = (response.url or url).strip()
+        response.close()
+        if status is not None and status < 400 and is_http_url(final):
+            return True, final, ""
+        return False, "", f"HTTP {status}"
+    except requests.RequestException as exc:
+        return False, "", str(exc)[:160]
 
 
 def check_music_url_live(
@@ -144,6 +340,136 @@ def check_music_url_live(
     if status < 400:
         return True, ""
     return False, f"HTTP {status}"
+
+
+def lookup_itunes_cover(
+    artist: str,
+    release: str,
+    *,
+    session: requests.Session,
+    sleep_ms: int = DEFAULT_SLEEP_MS,
+) -> str | None:
+    if not artist or not release:
+        return None
+    if sleep_ms > 0:
+        time.sleep(sleep_ms / 1000.0)
+    status, payload, err = fetch_json(
+        ITUNES_SEARCH_URL,
+        session=session,
+        params={
+            "term": f"{artist} {release}",
+            "media": "music",
+            "entity": "album",
+            "limit": 8,
+        },
+    )
+    if err or not isinstance(payload, dict):
+        log(f"    iTunes search failed for {artist} — {release}: {err or 'bad payload'}")
+        return None
+    artwork = pick_itunes_artwork(payload.get("results") or [], artist, release)
+    if not artwork:
+        return None
+    ok, final, note = follow_image_url(artwork, session=session)
+    if ok:
+        return final
+    log(f"    iTunes artwork dead for {artist} — {release}: {note}")
+    return None
+
+
+def lookup_coverartarchive_cover(
+    artist: str,
+    release: str,
+    *,
+    session: requests.Session,
+    sleep_ms: int = DEFAULT_SLEEP_MS,
+) -> str | None:
+    if not artist or not release:
+        return None
+    wait = max(MUSICBRAINZ_MIN_INTERVAL_SECONDS, (sleep_ms or 0) / 1000.0)
+    time.sleep(wait)
+    query = f'release:"{lucene_quote(release)}" AND artist:"{lucene_quote(artist)}"'
+    status, payload, err = fetch_json(
+        MUSICBRAINZ_RELEASE_URL,
+        session=session,
+        params={"query": query, "fmt": "json", "limit": 5},
+    )
+    if status == 503:
+        time.sleep(wait)
+        status, payload, err = fetch_json(
+            MUSICBRAINZ_RELEASE_URL,
+            session=session,
+            params={"query": query, "fmt": "json", "limit": 5},
+        )
+    if err or not isinstance(payload, dict):
+        log(f"    MusicBrainz search failed for {artist} — {release}: {err or 'bad payload'}")
+        return None
+    row = pick_musicbrainz_release(payload.get("releases") or [], artist, release)
+    if not row:
+        return None
+    mbid = str(row.get("id") or "").strip()
+    rgid = str((row.get("release-group") or {}).get("id") or "").strip()
+    candidates = []
+    if mbid:
+        candidates.append(COVERART_RELEASE_URL.format(mbid=mbid))
+    if rgid:
+        candidates.append(COVERART_RELEASE_GROUP_URL.format(mbid=rgid))
+    for url in candidates:
+        ok, final, _note = follow_image_url(url, session=session)
+        if ok:
+            return final
+    return None
+
+
+def resolve_cover_url(
+    item: dict,
+    html: str,
+    *,
+    session: requests.Session,
+    sleep_ms: int = DEFAULT_SLEEP_MS,
+) -> tuple[str, str, list[str]]:
+    """Return (cover_url, cover_status, notes)."""
+    notes: list[str] = []
+    html_len = len(html or "")
+    bot_wall = looks_like_bot_wall(html)
+    if bot_wall:
+        notes.append(f"bandcamp_html: bot wall (html_len={html_len})")
+
+    cover = extract_bandcamp_cover(html)
+    if cover:
+        model_cover = str(item.get("cover_url") or "").strip()
+        if model_cover and model_cover != cover:
+            notes.append("cover_url: replaced from Bandcamp HTML")
+        return cover, "from_bandcamp_html", notes
+
+    artist = str(item.get("artist") or "").strip()
+    release = str(item.get("release") or "").strip()
+    itunes = lookup_itunes_cover(artist, release, session=session, sleep_ms=sleep_ms)
+    if itunes:
+        notes.append("cover_url: from iTunes Search")
+        return itunes, "from_itunes", notes
+
+    caa = lookup_coverartarchive_cover(artist, release, session=session, sleep_ms=sleep_ms)
+    if caa:
+        notes.append("cover_url: from Cover Art Archive")
+        return caa, "from_coverartarchive", notes
+
+    model_cover = str(item.get("cover_url") or "").strip()
+    if is_http_url(model_cover) and "bcbits.com" not in model_cover.lower():
+        if sleep_ms > 0:
+            time.sleep(sleep_ms / 1000.0)
+        ok, note = check_music_url_live(model_cover, session=session)
+        if ok:
+            notes.append("cover_url: kept model URL")
+            return model_cover, "live", notes
+        notes.append(f"cover_url: {note}")
+
+    has_og = "og:image" in (html or "").lower()
+    has_bcbits = "bcbits.com/img" in (html or "").lower()
+    notes.append(
+        f"cover_url: missing (html_len={html_len}, "
+        f"og:image={'yes' if has_og else 'no'}, bcbits={'yes' if has_bcbits else 'no'})"
+    )
+    return "", "missing", notes
 
 
 def verify_music_item(
@@ -180,32 +506,12 @@ def verify_music_item(
         return item
 
     live_fields["bandcamp_url"] = "live"
-    cover = extract_bandcamp_cover(html)
-    model_cover = str(item.get("cover_url") or "").strip()
-    if cover:
-        if model_cover and model_cover != cover:
-            notes.append("cover_url: replaced from Bandcamp HTML")
-        item["cover_url"] = cover
-        live_fields["cover_url"] = "from_bandcamp_html"
-    elif is_http_url(model_cover):
-        if sleep_ms > 0:
-            time.sleep(sleep_ms / 1000.0)
-        ok, note = check_music_url_live(model_cover, session=sess)
-        if ok:
-            live_fields["cover_url"] = "live"
-        else:
-            notes.append(f"cover_url: {note}")
-            live_fields["cover_url"] = "dead"
-            item["cover_url"] = ""
-    else:
-        has_og = "og:image" in (html or "").lower()
-        has_bcbits = "bcbits.com/img" in (html or "").lower()
-        notes.append(
-            f"cover_url: missing (html_len={len(html or '')}, "
-            f"og:image={'yes' if has_og else 'no'}, bcbits={'yes' if has_bcbits else 'no'})"
-        )
-        live_fields["cover_url"] = "missing"
-        item["cover_url"] = ""
+    cover, cover_status, cover_notes = resolve_cover_url(
+        item, html, session=sess, sleep_ms=sleep_ms
+    )
+    notes.extend(cover_notes)
+    item["cover_url"] = cover
+    live_fields["cover_url"] = cover_status
 
     for field in OPTIONAL_FIELDS:
         raw = item.get(field)

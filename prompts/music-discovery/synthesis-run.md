@@ -5,7 +5,7 @@ Single source of truth for the weekly music discovery synthesis agent.
 ## Cost discipline
 
 - **Single draft** after selection.
-- **Trust pre-fetch only when verified:** Items with `"verified": true` have live Bandcamp + cover URLs from HTTP checks. Copy Listen / Dig / cover / YouTube URLs **verbatim**.
+- **Trust pre-fetch only when verified:** Items with `"verified": true` have a live Bandcamp URL plus a cover (`cover_url` may be Bandcamp, iTunes artwork, or Cover Art Archive). Copy Listen / Dig / cover / YouTube URLs **verbatim**.
 - **No open-ended browsing.** Candidate discovery happens in `fetch_music_research.py` during Friday pre-fetch. If the verified pool is too thin, **stop without writing a briefing** (do not publish a gap placeholder).
 - **Minimal turns:** Read inputs → select → write briefing → update state.
 

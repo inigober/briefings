@@ -70,7 +70,7 @@ Listen links: include Bandcamp when available; **for Featured entries, also incl
 
 ### Cover art (mandatory)
 
-Every featured entry needs an album cover image. Prefer Bandcamp `og:image`. Do not use decorative placeholders.
+Every featured entry needs an album cover image. Prefer Bandcamp `og:image`. Pre-fetch may instead store an iTunes (`mzstatic.com`) or Cover Art Archive image in `cover_url` when GitHub Actions cannot read Bandcamp HTML — copy that URL verbatim. Do not use decorative placeholders. Do not use Apple Music as a Listen link.
 
 ### Link priority (mandatory)
 
