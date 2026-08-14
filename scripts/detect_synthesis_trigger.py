@@ -29,13 +29,14 @@ from briefing_paths import (
 from cron_schedule import is_scheduled_on_date
 from prefetch_dates import resolve_inbox_date_key
 
-RESEARCH_SUFFIXES = ("-synthesis.json", "-raw.json", "-context.json")
+RESEARCH_SUFFIXES = ("-synthesis.json", "-raw.json")
 IGNORED_INBOX_SUFFIXES = (
     "-rss.json",
     "-wordpress.json",
     "-spend.json",
     "-spend-cap.error.txt",
-    "-taste-snapshot.md",  # companion to -context.json; not a separate trigger
+    "-taste-snapshot.md",  # companion to taste cache; not a synthesis trigger
+    "-context.json",  # music taste cache; research is *-raw.json / *-synthesis.json
 )
 INBOX_COMMIT_PREFIX = "inbox/"
 BRIEFING_EXISTS_SKIP_HOURS = 24
@@ -123,7 +124,7 @@ def built_at_within_hours(path: Path, hours: int) -> bool:
         data = json.loads(path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
         return False
-    built_at = data.get("built_at")
+    built_at = data.get("built_at") or data.get("fetched_at")
     if not built_at:
         return False
     try:
@@ -156,7 +157,7 @@ def evaluate_type(
     else:
         fresh = False
         for path in research_files:
-            if path.endswith("-synthesis.json") or path.endswith("-context.json"):
+            if path.endswith("-synthesis.json") or path.endswith("-raw.json"):
                 full = REPO_ROOT / path
                 if built_at_within_hours(full, BRIEFING_EXISTS_SKIP_HOURS):
                     fresh = True
@@ -204,14 +205,8 @@ def detect_backup_trigger(date_str: str | None = None) -> TriggerDecision:
 
         synthesis_path = bt.inbox_path(inbox_date, "synthesis")
         raw_path = bt.inbox_path(inbox_date, "raw")
-        context_path = bt.inbox_dir / f"{inbox_date}-context.json"
         inbox_files: list[str] = []
-        if type_id == "music-discovery":
-            if context_path.exists():
-                inbox_files.append(str(context_path.relative_to(REPO_ROOT)))
-            else:
-                continue
-        elif synthesis_path.exists():
+        if synthesis_path.exists():
             inbox_files.append(str(synthesis_path.relative_to(REPO_ROOT)))
         elif raw_path.exists():
             inbox_files.append(str(raw_path.relative_to(REPO_ROOT)))

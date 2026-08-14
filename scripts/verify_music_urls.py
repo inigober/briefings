@@ -37,6 +37,19 @@ SKIP_URL_SUBSTRINGS = (
     "gstatic.com/favicon",
 )
 
+FEATURED_HEADING_RE = re.compile(r"^## (?!More listening).+", re.MULTILINE)
+MORE_LISTENING_RE = re.compile(r"^## More listening\s*$", re.MULTILINE | re.IGNORECASE)
+MORE_LISTENING_BULLET_RE = re.compile(r"^- ", re.MULTILINE)
+GAP_PHRASES = (
+    "no featured picks",
+    "records the gap rather than inventing",
+    "candidate shortlist",
+    "taste-cache bridge",
+    "this run records the gap",
+)
+MIN_FEATURED = 6
+MIN_MORE_LISTENING = 4
+
 
 def log(message: str) -> None:
     print(message, flush=True)
@@ -45,6 +58,36 @@ def log(message: str) -> None:
 def should_skip_url(url: str) -> bool:
     lowered = url.lower()
     return any(fragment in lowered for fragment in SKIP_URL_SUBSTRINGS)
+
+
+def assert_music_briefing_structure(text: str) -> list[str]:
+    """Return human-readable errors if the briefing is a gap note or too thin."""
+    body = text or ""
+    errors: list[str] = []
+    lowered = body.lower()
+    for phrase in GAP_PHRASES:
+        if phrase in lowered:
+            errors.append(f"placeholder/gap briefing (matched {phrase!r})")
+
+    featured = FEATURED_HEADING_RE.findall(body)
+    if len(featured) < MIN_FEATURED:
+        errors.append(
+            f"need {MIN_FEATURED} featured ## headings, found {len(featured)}"
+        )
+
+    more = MORE_LISTENING_RE.search(body)
+    if not more:
+        errors.append("missing ## More listening section")
+    else:
+        tail = body[more.end() :]
+        next_h2 = re.search(r"^## ", tail, re.MULTILINE)
+        section = tail[: next_h2.start()] if next_h2 else tail
+        bullets = MORE_LISTENING_BULLET_RE.findall(section)
+        if len(bullets) < MIN_MORE_LISTENING:
+            errors.append(
+                f"need {MIN_MORE_LISTENING} More listening bullets, found {len(bullets)}"
+            )
+    return errors
 
 
 def extract_music_briefing_urls(text: str) -> list[str]:
@@ -148,10 +191,17 @@ def main() -> int:
         return 1
 
     text = briefing_path.read_text(encoding="utf-8")
+    structure_errors = assert_music_briefing_structure(text)
+    if structure_errors:
+        log(f"FAIL: {briefing_path.name} is not a complete music briefing:")
+        for err in structure_errors:
+            log(f"  - {err}")
+        return 1
+
     urls = extract_music_briefing_urls(text)
     if not urls:
-        log(f"No content URLs found in {briefing_path.name} — nothing to verify")
-        return 0
+        log(f"FAIL: No content URLs found in {briefing_path.name}")
+        return 1
 
     log(f"HTTP-checking {len(urls)} URL(s) in {briefing_path}...")
     live, dead = verify_music_briefing_urls(urls, sleep_ms=args.sleep_ms)

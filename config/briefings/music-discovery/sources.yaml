@@ -1,0 +1,47 @@
+# Editorial / shop domains for music-discovery OpenAI web_search.
+# Synthesis copies Listen / Dig / cover URLs from the verified inbox — it does not browse.
+
+allowed_domains:
+  # Shops / listen pages (Bandcamp album URLs are required)
+  - bandcamp.com
+  - daily.bandcamp.com
+  - bcbits.com
+
+  # Trusted write-ups (reception gate / familiar-label exception)
+  - ra.co
+  - residentadvisor.net
+  - thewire.co.uk
+  - mixmag.net
+  - factmag.com
+  - pitchfork.com
+  - djmag.com
+  - boomkat.com
+  - thequietus.com
+  - igloomag.com
+
+  # YouTube / YouTube Music album or release playlists
+  - youtube.com
+  - youtu.be
+  - music.youtube.com
+
+blocklist_domains:
+  - apple.com
+  - music.apple.com
+  - facebook.com
+  - instagram.com
+  - tiktok.com
+  - twitter.com
+  - x.com
+
+trusted_writeup_domains:
+  - ra.co
+  - residentadvisor.net
+  - daily.bandcamp.com
+  - thewire.co.uk
+  - mixmag.net
+  - factmag.com
+  - pitchfork.com
+  - djmag.com
+  - boomkat.com
+  - thequietus.com
+  - igloomag.com

@@ -20,6 +20,8 @@ SECTION_BUDGET_RESERVE_USD = 0.55
 COMBINED_FETCH_BUDGET_RESERVE_USD = 0.15
 # Culture: four section search calls + JSON structure — ~$0.12–0.25.
 CULTURE_FETCH_BUDGET_RESERVE_USD = 0.35
+# Music: one search phase + JSON structure — similar to culture combined cost.
+MUSIC_FETCH_BUDGET_RESERVE_USD = 0.35
 
 # Web search tool: $10 / 1k calls (OpenAI pricing page, 2026).
 WEB_SEARCH_COST_PER_CALL_USD = 0.01
