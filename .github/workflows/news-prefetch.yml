@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: news-prefetch
@@ -69,12 +70,14 @@ jobs:
           python scripts/slim_inbox_for_synthesis.py --type news --date ${{ steps.run_date.outputs.value }}
 
       - name: Commit inbox if changed
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add inbox/news/
           if git diff --cached --quiet; then
             echo "No inbox changes to commit"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "inbox/news: ${{ steps.run_date.outputs.value }} research pre-fetch"
@@ -82,6 +85,7 @@ jobs:
             git pull --rebase origin main
             if git push origin main; then
               echo "Push succeeded on attempt ${attempt}"
+              echo "pushed=true" >> "$GITHUB_OUTPUT"
               exit 0
             fi
             echo "Push rejected on attempt ${attempt}, retrying after rebase..."
@@ -89,3 +93,10 @@ jobs:
           done
           echo "Push failed after 2 attempts"
           exit 1
+
+      # GITHUB_TOKEN pushes do not trigger other workflows — dispatch explicitly.
+      - name: Trigger synthesis
+        if: success() && steps.commit.outputs.pushed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: gh workflow run synthesize-briefing.yml --ref main -f mode=backup

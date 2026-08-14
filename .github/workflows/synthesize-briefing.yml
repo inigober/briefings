@@ -22,6 +22,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: synthesize-briefing
@@ -162,6 +163,7 @@ jobs:
 
       - name: Commit and push briefing
         if: steps.trigger.outputs.should_run == 'true'
+        id: publish
         env:
           TYPE: ${{ steps.trigger.outputs.type_id }}
           DATE: ${{ steps.trigger.outputs.date }}
@@ -180,6 +182,8 @@ jobs:
             git pull --rebase origin main
             if git push origin main; then
               echo "Push succeeded on attempt ${attempt}"
+              echo "pushed=true" >> "$GITHUB_OUTPUT"
+              echo "briefing=briefings/${TYPE}/${DATE}.md" >> "$GITHUB_OUTPUT"
               exit 0
             fi
             echo "Push rejected on attempt ${attempt}, retrying..."
@@ -187,6 +191,15 @@ jobs:
           done
           echo "Push failed after retries"
           exit 1
+
+      # GITHUB_TOKEN pushes do not trigger other workflows — dispatch email explicitly.
+      - name: Trigger email delivery
+        if: success() && steps.publish.outputs.pushed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          BRIEFING: ${{ steps.publish.outputs.briefing }}
+        run: |
+          gh workflow run send-briefing-email.yml --ref main -f "file=${BRIEFING}"
 
       - name: Alert on synthesis failure
         if: failure() && steps.trigger.outputs.should_run == 'true'

@@ -140,11 +140,13 @@ Production synthesis is **`.github/workflows/synthesize-briefing.yml`** (not Cur
 
 Flow:
 
-1. Pre-fetch pushes `inbox/…`
+1. Pre-fetch pushes `inbox/…`, then **explicitly dispatches** this workflow (`mode=backup`)
 2. Workflow runs `detect_synthesis_trigger.py` — exits early on `skip` (no Codex spend)
 3. Codex writes `briefings/` + `state/` (no git push from the agent)
 4. Verify scripts run with network
-5. Workflow pushes → `send-briefing-email.yml` sends
+5. Workflow pushes, then **dispatches** `send-briefing-email.yml`
+
+> **Why dispatch?** Pushes made with the default `GITHUB_TOKEN` do not start other Actions workflows. Cursor used to see those pushes via GitHub’s external webhook; Actions cannot. Explicit `gh workflow run` replaces that link.
 
 **Recovery:** Actions → **Synthesize briefing** → Run workflow → mode `backup`. The daily health check also auto-dispatches backup when inbox is ready but the briefing file is missing.
 
@@ -258,7 +260,7 @@ python3 -m unittest discover -s tests -v
 | `berlin-culture-prefetch.yml` | cron-job.org Tue 06:00 Berlin + manual | RSS + WordPress + OpenAI → verify URLs → slim → commit `inbox/berlin-culture/` |
 | `berlin-restaurants-prefetch.yml` | cron-job.org Thu 07:00 Berlin + manual | OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
 | `music-discovery-prefetch.yml` | cron-job.org Fri 09:00 Berlin + manual | Taste cache → `inbox/music-discovery/` |
-| `synthesize-briefing.yml` | push `inbox/**` on `main` + manual backup | Codex synthesis → verify → commit `briefings/` + `state/` |
+| `synthesize-briefing.yml` | Explicit dispatch after inbox push (and manual backup); push `inbox/**` only helps non-bot pushes | Codex synthesis → verify → commit `briefings/` + `state/` → dispatch email |
 | `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if inbox missing; retry undelivered email; dispatch missing synthesis |
 | `send-briefing-email.yml` | Push to `briefings/**/*.md` | Verify links per type, send styled email, record delivery log; email alert on failure |
 
