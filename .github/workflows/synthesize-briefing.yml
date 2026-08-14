@@ -12,13 +12,22 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "push = inspect HEAD like automation; backup = find inbox ready but briefing missing"
+        description: "push = inspect HEAD; backup = inbox ready but briefing missing; smoke = Codex e2e test → *.test.md, no email"
         required: false
         default: backup
         type: choice
         options:
           - backup
           - push
+          - smoke
+      type_id:
+        description: "Required for smoke: news | berlin-culture | berlin-restaurants | music-discovery"
+        required: false
+        type: string
+      date:
+        description: "Optional YYYY-MM-DD for smoke (default: latest inbox for type)"
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -52,9 +61,23 @@ jobs:
         env:
           EVENT_NAME: ${{ github.event_name }}
           DISPATCH_MODE: ${{ github.event.inputs.mode || 'backup' }}
+          SMOKE_TYPE: ${{ github.event.inputs.type_id || '' }}
+          SMOKE_DATE: ${{ github.event.inputs.date || '' }}
         run: |
           set -euo pipefail
-          if [ "$EVENT_NAME" = "workflow_dispatch" ] && [ "$DISPATCH_MODE" = "backup" ]; then
+          E2E=false
+          if [ "$DISPATCH_MODE" = "smoke" ]; then
+            if [ -z "$SMOKE_TYPE" ]; then
+              echo "::error::smoke mode requires type_id (news, berlin-culture, berlin-restaurants, music-discovery)"
+              exit 1
+            fi
+            DATE_ARGS=()
+            if [ -n "$SMOKE_DATE" ]; then
+              DATE_ARGS=(--date "$SMOKE_DATE")
+            fi
+            python scripts/detect_synthesis_trigger.py --json --smoke --type "$SMOKE_TYPE" "${DATE_ARGS[@]}" > decision.json
+            E2E=true
+          elif [ "$EVENT_NAME" = "workflow_dispatch" ] && [ "$DISPATCH_MODE" = "backup" ]; then
             python scripts/detect_synthesis_trigger.py --json --backup > decision.json
           else
             python scripts/detect_synthesis_trigger.py --json --commit "${{ github.sha }}" > decision.json
@@ -64,6 +87,7 @@ jobs:
           REASON=$(python3 -c 'import json; print(json.load(open("decision.json")).get("reason") or "")')
           echo "type_id=$TYPE" >> "$GITHUB_OUTPUT"
           echo "reason=$REASON" >> "$GITHUB_OUTPUT"
+          echo "e2e_test=$E2E" >> "$GITHUB_OUTPUT"
           if [ -z "$TYPE" ]; then
             echo "Skip synthesis: $REASON"
             echo "should_run=false" >> "$GITHUB_OUTPUT"
@@ -102,6 +126,7 @@ jobs:
               "commit_subject": data.get("commit_subject"),
               "matched_files": data.get("matched_files") or [],
               "runner": "github-actions-codex",
+              "e2e_test": "$E2E" == "true",
           }
           with open(".synthesis-ci-context.json", "w", encoding="utf-8") as fh:
               json.dump(context, fh, indent=2)
@@ -129,9 +154,28 @@ jobs:
         env:
           TYPE: ${{ steps.trigger.outputs.type_id }}
           DATE: ${{ steps.trigger.outputs.date }}
+          E2E: ${{ steps.trigger.outputs.e2e_test }}
         run: |
           set -euo pipefail
-          BRIEFING="briefings/${TYPE}/${DATE}.md"
+          TEST="briefings/${TYPE}/${DATE}.test.md"
+          PROD="briefings/${TYPE}/${DATE}.md"
+          if [ "$E2E" = "true" ]; then
+            if [ ! -f "$TEST" ]; then
+              if [ -f "$PROD" ] && { ! git ls-files --error-unmatch "$PROD" >/dev/null 2>&1 || ! git diff --quiet -- "$PROD"; }; then
+                echo "Codex wrote production path; copying to $TEST for smoke"
+                cp "$PROD" "$TEST"
+              fi
+            fi
+            if git ls-files --error-unmatch "$PROD" >/dev/null 2>&1; then
+              git checkout -- "$PROD"
+            elif [ -f "$PROD" ]; then
+              rm -f "$PROD"
+            fi
+            git checkout -- "state/${TYPE}" || true
+            BRIEFING="$TEST"
+          else
+            BRIEFING="$PROD"
+          fi
           if [ ! -f "$BRIEFING" ]; then
             echo "::error::Codex did not write $BRIEFING"
             if [ -f codex-synthesis-output.md ]; then
@@ -142,17 +186,17 @@ jobs:
           fi
           case "$TYPE" in
             news)
-              python scripts/verify_briefing_sources.py --type news --date "$DATE"
+              python scripts/verify_briefing_sources.py --type news --date "$DATE" --briefing "$BRIEFING"
               ;;
             berlin-culture)
               python scripts/validate_culture_briefing.py --path "$BRIEFING"
-              python scripts/verify_culture_briefing_urls.py --type berlin-culture --date "$DATE"
+              python scripts/verify_culture_briefing_urls.py --type berlin-culture --date "$DATE" --briefing "$BRIEFING"
               ;;
             berlin-restaurants)
-              python scripts/verify_restaurant_briefing_sources.py --type berlin-restaurants --date "$DATE"
+              python scripts/verify_restaurant_briefing_sources.py --type berlin-restaurants --date "$DATE" --briefing "$BRIEFING"
               ;;
             music-discovery)
-              python scripts/verify_music_urls.py --type music-discovery --date "$DATE"
+              python scripts/verify_music_urls.py --type music-discovery --date "$DATE" --briefing "$BRIEFING"
               ;;
             *)
               echo "::error::Unknown type $TYPE"
@@ -167,23 +211,34 @@ jobs:
         env:
           TYPE: ${{ steps.trigger.outputs.type_id }}
           DATE: ${{ steps.trigger.outputs.date }}
+          E2E: ${{ steps.trigger.outputs.e2e_test }}
+          BRIEFING: ${{ steps.verify.outputs.briefing }}
         run: |
           set -euo pipefail
           rm -f .synthesis-ci-context.json decision.json codex-synthesis-output.md
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "briefings/${TYPE}/" "state/${TYPE}/"
-          if git diff --cached --quiet; then
-            echo "::error::No staged changes under briefings/${TYPE}/ or state/${TYPE}/"
-            exit 1
+          if [ "$E2E" = "true" ]; then
+            git add "$BRIEFING"
+            if git diff --cached --quiet; then
+              echo "::error::No staged smoke briefing at $BRIEFING"
+              exit 1
+            fi
+            git commit -m "end-to-end test: ${TYPE} ${DATE} Codex smoke"
+          else
+            git add "briefings/${TYPE}/" "state/${TYPE}/"
+            if git diff --cached --quiet; then
+              echo "::error::No staged changes under briefings/${TYPE}/ or state/${TYPE}/"
+              exit 1
+            fi
+            git commit -m "briefing/${TYPE}: ${DATE}"
           fi
-          git commit -m "briefing/${TYPE}: ${DATE}"
           for attempt in 1 2 3; do
             git pull --rebase origin main
             if git push origin main; then
               echo "Push succeeded on attempt ${attempt}"
               echo "pushed=true" >> "$GITHUB_OUTPUT"
-              echo "briefing=briefings/${TYPE}/${DATE}.md" >> "$GITHUB_OUTPUT"
+              echo "briefing=$BRIEFING" >> "$GITHUB_OUTPUT"
               exit 0
             fi
             echo "Push rejected on attempt ${attempt}, retrying..."
@@ -194,7 +249,7 @@ jobs:
 
       # GITHUB_TOKEN pushes do not trigger other workflows — dispatch email explicitly.
       - name: Trigger email delivery
-        if: success() && steps.publish.outputs.pushed == 'true'
+        if: success() && steps.publish.outputs.pushed == 'true' && steps.trigger.outputs.e2e_test != 'true'
         env:
           GITHUB_TOKEN: ${{ github.token }}
           BRIEFING: ${{ steps.publish.outputs.briefing }}

@@ -15,7 +15,10 @@ if str(SCRIPTS) not in sys.path:
 from briefing_paths import load_briefing_type, production_briefing_exists  # noqa: E402
 from detect_synthesis_trigger import (  # noqa: E402
     _best_skip_rejection,
+    detect_smoke_trigger,
+    inbox_research_files_for_date,
     is_research_inbox_file,
+    latest_inbox_date,
     research_date_from_path,
     synthesis_file_modified,
 )
@@ -160,6 +163,36 @@ class TestBriefingExistsGuard(unittest.TestCase):
         self.assertEqual(reason, "berlin-culture: Briefing already exists for 2026-06-09")
         self.assertEqual(len(matched), 1)
 
+    def test_smoke_reuses_latest_inbox_even_if_briefing_exists(self) -> None:
+        date_str = "2099-06-07"
+        synthesis = REPO_ROOT / f"inbox/news/{date_str}-synthesis.json"
+        briefing = REPO_ROOT / f"briefings/news/{date_str}.md"
+        synthesis.parent.mkdir(parents=True, exist_ok=True)
+        briefing.parent.mkdir(parents=True, exist_ok=True)
+        synthesis.write_text('{"built_at":"2099-06-07T10:00:00Z"}', encoding="utf-8")
+        briefing.write_text("# production\n", encoding="utf-8")
+        try:
+            self.assertEqual(
+                inbox_research_files_for_date("news", date_str),
+                [f"inbox/news/{date_str}-synthesis.json"],
+            )
+            decision = detect_smoke_trigger("news", date_str)
+            self.assertEqual(decision.type_id, "news")
+            self.assertIn("smoke:", decision.reason)
+            self.assertIn(f"inbox/news/{date_str}-synthesis.json", decision.matched_files)
+        finally:
+            synthesis.unlink(missing_ok=True)
+            briefing.unlink(missing_ok=True)
+
+    def test_smoke_unknown_type(self) -> None:
+        decision = detect_smoke_trigger("not-a-type")
+        self.assertIsNone(decision.type_id)
+        self.assertIn("Unknown type_id", decision.reason)
+
+    def test_latest_inbox_date_finds_news(self) -> None:
+        latest = latest_inbox_date("news")
+        self.assertIsNotNone(latest)
+        self.assertRegex(latest or "", r"^\d{4}-\d{2}-\d{2}$")
 
     def test_keeps_newest_date_per_type(self) -> None:
         paths = [

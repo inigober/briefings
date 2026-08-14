@@ -194,6 +194,74 @@ def _type_priority(type_id: str) -> int:
     return order.get(type_id, 99)
 
 
+def latest_inbox_date(type_id: str) -> str | None:
+    """Newest YYYY-MM-DD that has a research inbox file for this type."""
+    bt = load_briefing_type(type_id)
+    dates: list[str] = []
+    if not bt.inbox_dir.is_dir():
+        return None
+    inbox_rel = str(bt.inbox_dir.relative_to(REPO_ROOT)).replace("\\", "/")
+    for path in bt.inbox_dir.iterdir():
+        rel = f"{inbox_rel}/{path.name}"
+        date = research_date_from_path(rel)
+        if date:
+            dates.append(date)
+    return max(dates) if dates else None
+
+
+def inbox_research_files_for_date(type_id: str, date_str: str) -> list[str]:
+    """Primary research file(s) for a type+date — synthesis, else raw, else context."""
+    bt = load_briefing_type(type_id)
+    synthesis_path = bt.inbox_path(date_str, "synthesis")
+    raw_path = bt.inbox_path(date_str, "raw")
+    context_path = bt.inbox_dir / f"{date_str}-context.json"
+    if synthesis_path.exists():
+        return [str(synthesis_path.relative_to(REPO_ROOT))]
+    if raw_path.exists():
+        return [str(raw_path.relative_to(REPO_ROOT))]
+    if context_path.exists():
+        return [str(context_path.relative_to(REPO_ROOT))]
+    return []
+
+
+def detect_smoke_trigger(type_id: str, date_str: str | None = None) -> TriggerDecision:
+    """Reuse existing inbox to exercise Codex without blocking production dates."""
+    if type_id not in load_manifest():
+        known = ", ".join(sorted(load_manifest())) or "(none)"
+        return TriggerDecision(
+            type_id=None,
+            reason=f"Unknown type_id '{type_id}'. Known: {known}",
+            commit_sha="",
+            commit_subject="(smoke test)",
+            matched_files=(),
+        )
+    resolved_date = date_str or latest_inbox_date(type_id)
+    if not resolved_date:
+        return TriggerDecision(
+            type_id=None,
+            reason=f"No inbox research for {type_id}",
+            commit_sha="",
+            commit_subject="(smoke test)",
+            matched_files=(),
+        )
+    matched = tuple(inbox_research_files_for_date(type_id, resolved_date))
+    if not matched:
+        return TriggerDecision(
+            type_id=None,
+            reason=f"No inbox research for {type_id} {resolved_date}",
+            commit_sha="",
+            commit_subject="(smoke test)",
+            matched_files=(),
+        )
+    return TriggerDecision(
+        type_id=type_id,
+        reason=f"smoke: reuse inbox for {resolved_date}",
+        commit_sha="",
+        commit_subject="(smoke test)",
+        matched_files=matched,
+    )
+
+
 def detect_backup_trigger(date_str: str | None = None) -> TriggerDecision:
     """Find inbox research waiting for synthesis (cron backup path)."""
     date_str = date_str or datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -334,10 +402,30 @@ def main() -> int:
         action="store_true",
         help="Cron backup: inbox exists for today but briefing is missing",
     )
+    parser.add_argument(
+        "--smoke",
+        action="store_true",
+        help="End-to-end Codex smoke test: reuse existing inbox for --type",
+    )
+    parser.add_argument(
+        "--type",
+        dest="type_id",
+        help="Briefing type (required with --smoke)",
+    )
+    parser.add_argument(
+        "--date",
+        help="YYYY-MM-DD inbox date (optional with --smoke; default latest)",
+    )
     args = parser.parse_args()
 
     try:
-        decision = detect_trigger(args.commit, backup=args.backup)
+        if args.smoke:
+            if not args.type_id:
+                print("--smoke requires --type", file=sys.stderr)
+                return 1
+            decision = detect_smoke_trigger(args.type_id, args.date or None)
+        else:
+            decision = detect_trigger(args.commit, backup=args.backup)
     except subprocess.CalledProcessError as exc:
         print(exc.stderr or exc, file=sys.stderr)
         return 1
