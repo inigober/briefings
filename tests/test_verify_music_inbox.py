@@ -6,36 +6,63 @@ from __future__ import annotations
 import sys
 import unittest
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
 SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 from slim_inbox_for_synthesis import build_music_synthesis_inbox  # noqa: E402
-from verify_music_inbox_urls import verify_music_item  # noqa: E402
+from verify_music_inbox_urls import (  # noqa: E402
+    extract_og_image,
+    verify_music_item,
+)
+
+
+BANDCAMP_HTML = """
+<html><head>
+<meta property="og:image" content="https://f4.bcbits.com/img/a999_10.jpg">
+</head></html>
+"""
+
+
+class TestExtractOgImage(unittest.TestCase):
+    def test_property_then_content(self) -> None:
+        self.assertEqual(
+            extract_og_image(BANDCAMP_HTML),
+            "https://f4.bcbits.com/img/a999_10.jpg",
+        )
+
+    def test_content_then_property(self) -> None:
+        html = '<meta content="https://f4.bcbits.com/img/a1.jpg" property="og:image">'
+        self.assertEqual(extract_og_image(html), "https://f4.bcbits.com/img/a1.jpg")
 
 
 class TestVerifyMusicInboxItem(unittest.TestCase):
-    def test_requires_live_bandcamp_and_cover(self) -> None:
+    def test_live_bandcamp_hydrates_cover_even_if_model_cover_is_dead(self) -> None:
         item = {
             "artist": "Test",
             "release": "EP",
             "bandcamp_url": "https://example.bandcamp.com/album/ep",
-            "cover_url": "https://f4.bcbits.com/img/a1.jpg",
+            "cover_url": "https://f4.bcbits.com/img/invented.jpg",
             "youtube_url": "https://www.youtube.com/playlist?list=dead",
             "dig_url": "https://example.bandcamp.com/album/other",
         }
 
-        def fake_live(url: str, *, session=None):  # noqa: ANN001
-            if "playlist" in url:
-                return False, "HTTP 404"
-            return True, ""
+        def fake_fetch(url: str, *, session=None, **_kwargs):  # noqa: ANN001
+            if "invented" in url or "playlist" in url:
+                return 404, "", ""
+            if "album/other" in url:
+                return 200, "<html></html>", ""
+            if "album/ep" in url:
+                return 200, BANDCAMP_HTML, ""
+            return 200, "", ""
 
-        with patch("verify_music_inbox_urls.check_url_live", side_effect=fake_live):
-            result = verify_music_item(item, sleep_ms=0)
+        with patch("verify_music_inbox_urls.fetch_html", side_effect=fake_fetch):
+            result = verify_music_item(item, session=MagicMock(), sleep_ms=0)
 
         self.assertTrue(result["verified"])
+        self.assertEqual(result["cover_url"], "https://f4.bcbits.com/img/a999_10.jpg")
         self.assertIsNone(result["youtube_url"])
         self.assertEqual(result["url_live"], "live")
 
@@ -47,16 +74,15 @@ class TestVerifyMusicInboxItem(unittest.TestCase):
             "cover_url": "https://f4.bcbits.com/img/a1.jpg",
         }
 
-        def fake_live(url: str, *, session=None):  # noqa: ANN001
-            if "missing" in url:
-                return False, "HTTP 404"
-            return True, ""
+        def fake_fetch(url: str, *, session=None, **_kwargs):  # noqa: ANN001
+            return 404, "", ""
 
-        with patch("verify_music_inbox_urls.check_url_live", side_effect=fake_live):
-            result = verify_music_item(item, sleep_ms=0)
+        with patch("verify_music_inbox_urls.fetch_html", side_effect=fake_fetch):
+            result = verify_music_item(item, session=MagicMock(), sleep_ms=0)
 
         self.assertFalse(result["verified"])
         self.assertEqual(result["url_live"], "dead")
+        self.assertIn("404", result["url_verify_notes"])
 
 
 class TestSlimMusicInbox(unittest.TestCase):
