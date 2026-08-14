@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-08-14
+
+- Leonidas & Hobbes — Pockets Of Light Double Album (HM024) [BALEARIC, ELECTRONIC, AMBIENT]
+- DJ Pippi & Willie Graff — Universal Language
+- Balearic — Balearic 4
+- Hypnotised — Hypnotised presents Balearic Trance
+- Roger Shah — Magic Island Vol. 13 (Mixed by Roger Shah)
+- Romain Garcia — EURÊKA!
+- Kota Motomura — Pay It Forward LP (HM017LP) [DISCO, HOUSE, AMBIENT, BALEARIC]
+- Various Artists — Dansu Discs: Eivissa 2026
+- Various Artists — Anjunadeep Explorations Vol. 1
+- Heavenly Recordings — Colleen ‘Cosmo’ Murphy presents Balearic Breakfast: Volume 3&4
+
 ## 2026-08-07
 
 - Papa Nugs — Move It Or Lose It EP
