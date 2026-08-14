@@ -270,7 +270,7 @@ You MUST call web_search at least {MUSIC_SEARCH_MIN_CALLS} times before answerin
 For each candidate record:
 - artist, release, label, year, club-or-home, recent-or-aged-well, genre
 - **bandcamp_url copied exactly** from search (prefer `/album/…`; never invent slugs)
-- **cover_url** — omit or leave empty unless you copied a real `f4.bcbits.com` / `bcbits.com` image URL from the page. Do **not** invent image IDs. A later step hydrates covers from Bandcamp HTML, or iTunes / Cover Art Archive when GitHub gets a Bandcamp bot page.
+- **cover_url** — omit or leave empty unless you copied a real `f4.bcbits.com` / `bcbits.com` image URL from the page. Do **not** invent image IDs. A later step hydrates covers from Bandcamp HTML, or from the same Bandcamp `og:image` via Microlink when GitHub gets a Bandcamp bot page.
 - **youtube_url** album/playlist when you find a live one; otherwise omit
 - **dig_url** — one related live Bandcamp (or label) URL for further digging
 - trusted write-up URL if used for the reception gate (RA, Bandcamp Daily, The Wire, Mixmag, Fact, Pitchfork, DJ Mag, Boomkat, etc.)

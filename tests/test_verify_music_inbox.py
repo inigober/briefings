@@ -15,9 +15,9 @@ if str(SCRIPTS) not in sys.path:
 from slim_inbox_for_synthesis import build_music_synthesis_inbox  # noqa: E402
 from verify_music_inbox_urls import (  # noqa: E402
     extract_bandcamp_cover,
+    extract_microlink_image,
     extract_og_image,
     looks_like_bot_wall,
-    pick_itunes_artwork,
     pick_musicbrainz_release,
     release_titles_match,
     verify_music_item,
@@ -66,41 +66,22 @@ class TestBotWallAndMatching(unittest.TestCase):
         self.assertTrue(release_titles_match("Repercussions Part 2", "Repercussions Part 2 - EP"))
         self.assertFalse(release_titles_match("Repercussions Part 2", "Repercussions Part 1 - EP"))
 
-    def test_itunes_skips_unrelated_various_artists_hits(self) -> None:
-        results = [
-            {
-                "artistName": "Various Artists",
-                "collectionName": "Spider-Man: Into the Spider-Verse",
-                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/x/100x100bb.jpg",
+    def test_microlink_extracts_bandcamp_cover(self) -> None:
+        payload = {
+            "status": "success",
+            "data": {
+                "image": {
+                    "url": "https://f4.bcbits.com/img/a0676472179_5.jpg",
+                    "width": 700,
+                    "height": 700,
+                }
             },
-            {
-                "artistName": "Various Artists",
-                "collectionName": "WARIOUS2",
-                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/y/100x100bb.jpg",
-            },
-        ]
+        }
         self.assertEqual(
-            pick_itunes_artwork(results, "Various Artists", "WARIOUS2"),
-            "https://is1-ssl.mzstatic.com/image/thumb/y/600x600bb.jpg",
+            extract_microlink_image(payload),
+            "https://f4.bcbits.com/img/a0676472179_10.jpg",
         )
-        self.assertIsNone(
-            pick_itunes_artwork(results[:1], "Various Artists", "WARIOUS2"),
-        )
-
-    def test_itunes_requires_artist_and_title(self) -> None:
-        results = [
-            {
-                "artistName": "Shinichi Atobe",
-                "collectionName": "Discipline",
-                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/z/100x100bb.jpg",
-            }
-        ]
-        self.assertTrue(
-            pick_itunes_artwork(results, "Shinichi Atobe", "Discipline").endswith(
-                "600x600bb.jpg"
-            )
-        )
-        self.assertIsNone(pick_itunes_artwork(results, "Purelink", "Faith"))
+        self.assertIsNone(extract_microlink_image({"status": "fail"}))
 
     def test_musicbrainz_picks_title_matched_release(self) -> None:
         rows = [
@@ -144,26 +125,26 @@ class TestVerifyMusicInboxItem(unittest.TestCase):
         self.assertEqual(result["url_live"], "live")
         self.assertEqual(result["url_field_status"]["cover_url"], "from_bandcamp_html")
 
-    def test_bot_wall_uses_itunes_cover(self) -> None:
+    def test_bot_wall_uses_microlink_bandcamp_cover(self) -> None:
         item = {
             "artist": "Purelink",
             "release": "Faith",
             "bandcamp_url": "https://purelink.bandcamp.com/album/faith",
             "cover_url": "",
         }
-        itunes = "https://is1-ssl.mzstatic.com/image/thumb/x/600x600bb.jpg"
+        cover = "https://f4.bcbits.com/img/a1878222548_10.jpg"
 
         with (
             patch("verify_music_inbox_urls.fetch_html", return_value=(200, BOT_WALL_HTML, "")),
-            patch("verify_music_inbox_urls.lookup_itunes_cover", return_value=itunes),
+            patch("verify_music_inbox_urls.lookup_microlink_cover", return_value=cover),
             patch("verify_music_inbox_urls.lookup_coverartarchive_cover") as caa,
         ):
             result = verify_music_item(item, session=MagicMock(), sleep_ms=0)
 
         caa.assert_not_called()
         self.assertTrue(result["verified"])
-        self.assertEqual(result["cover_url"], itunes)
-        self.assertEqual(result["url_field_status"]["cover_url"], "from_itunes")
+        self.assertEqual(result["cover_url"], cover)
+        self.assertEqual(result["url_field_status"]["cover_url"], "from_microlink")
         self.assertIn("bot wall", result["url_verify_notes"])
 
     def test_bot_wall_falls_back_to_cover_art_archive(self) -> None:
@@ -177,7 +158,7 @@ class TestVerifyMusicInboxItem(unittest.TestCase):
 
         with (
             patch("verify_music_inbox_urls.fetch_html", return_value=(200, BOT_WALL_HTML, "")),
-            patch("verify_music_inbox_urls.lookup_itunes_cover", return_value=None),
+            patch("verify_music_inbox_urls.lookup_microlink_cover", return_value=None),
             patch(
                 "verify_music_inbox_urls.lookup_coverartarchive_cover",
                 return_value=caa_url,
@@ -202,7 +183,7 @@ class TestVerifyMusicInboxItem(unittest.TestCase):
 
         with (
             patch("verify_music_inbox_urls.fetch_html", side_effect=fake_fetch),
-            patch("verify_music_inbox_urls.lookup_itunes_cover", return_value=None),
+            patch("verify_music_inbox_urls.lookup_microlink_cover", return_value=None),
             patch("verify_music_inbox_urls.lookup_coverartarchive_cover", return_value=None),
         ):
             result = verify_music_item(item, session=MagicMock(), sleep_ms=0)

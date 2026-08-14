@@ -6,11 +6,13 @@ OpenAI often invents bcbits cover paths. We require a live Bandcamp album URL
 
 GitHub-hosted runners often get a tiny Bandcamp challenge page (~3KB, HTTP 200)
 instead of the real ~250KB album HTML, so og:image is missing even when the
-Listen URL works in a browser. Cover fallback order:
+Listen URL works in a browser. That is an IP/bot-wall issue, not a Codex
+parsing issue. Cover fallback order (still Bandcamp art when possible):
 
 1. Bandcamp HTML (og:image / image_src / bcbits art id) when the page is real
-2. iTunes Search artwork (artist + release), title-matched
-3. MusicBrainz + Cover Art Archive, title-matched
+2. Microlink metadata for the same Bandcamp URL (their fetchers are not on
+   GitHub's IP ranges; returns the Bandcamp bcbits cover)
+3. MusicBrainz + Cover Art Archive, title-matched, last resort
 """
 
 from __future__ import annotations
@@ -57,7 +59,7 @@ API_HEADERS = {
     "Accept": "application/json",
 }
 
-ITUNES_SEARCH_URL = "https://itunes.apple.com/search"
+MICROLINK_URL = "https://api.microlink.io"
 MUSICBRAINZ_RELEASE_URL = "https://musicbrainz.org/ws/2/release/"
 COVERART_RELEASE_URL = "https://coverartarchive.org/release/{mbid}/front-500"
 COVERART_RELEASE_GROUP_URL = "https://coverartarchive.org/release-group/{mbid}/front-500"
@@ -191,28 +193,26 @@ def lucene_quote(value: str) -> str:
     return re.sub(r"\s+", " ", cleaned).strip()
 
 
-def upscale_itunes_artwork(url: str) -> str:
-    return re.sub(r"\d+x\d+bb", "600x600bb", url, count=1)
-
-
-def pick_itunes_artwork(results: list[dict], artist: str, release: str) -> str | None:
-    """Return a 600px iTunes artwork URL when artist + title both match."""
-    various = is_various_artist(artist)
-    for row in results or []:
-        row_artist = str(row.get("artistName") or "")
-        row_title = str(row.get("collectionName") or "")
-        artwork = str(row.get("artworkUrl100") or row.get("artworkUrl60") or "").strip()
-        if not is_http_url(artwork):
-            continue
-        if not release_titles_match(release, row_title):
-            continue
-        if various:
-            if not is_various_artist(row_artist) and not names_match(artist, row_artist):
-                continue
-        elif not names_match(artist, row_artist):
-            continue
-        return upscale_itunes_artwork(artwork)
-    return None
+def extract_microlink_image(payload: object) -> str | None:
+    """Return the Bandcamp (or other) image URL from a Microlink JSON body."""
+    if not isinstance(payload, dict):
+        return None
+    if str(payload.get("status") or "").lower() not in ("", "success"):
+        return None
+    data = payload.get("data")
+    if not isinstance(data, dict):
+        return None
+    image = data.get("image")
+    url = ""
+    if isinstance(image, str):
+        url = image.strip()
+    elif isinstance(image, dict):
+        url = str(image.get("url") or "").strip()
+    if not is_http_url(url):
+        return None
+    if "bcbits.com" in url.lower():
+        return normalize_bcbits_cover(url)
+    return url
 
 
 def mb_artist_name(release_row: dict) -> str:
@@ -342,37 +342,36 @@ def check_music_url_live(
     return False, f"HTTP {status}"
 
 
-def lookup_itunes_cover(
-    artist: str,
-    release: str,
+def lookup_microlink_cover(
+    bandcamp_url: str,
     *,
     session: requests.Session,
     sleep_ms: int = DEFAULT_SLEEP_MS,
 ) -> str | None:
-    if not artist or not release:
+    """Ask Microlink to read the Bandcamp page from a non-GitHub IP."""
+    if not is_http_url(bandcamp_url):
         return None
     if sleep_ms > 0:
         time.sleep(sleep_ms / 1000.0)
     status, payload, err = fetch_json(
-        ITUNES_SEARCH_URL,
+        MICROLINK_URL,
         session=session,
-        params={
-            "term": f"{artist} {release}",
-            "media": "music",
-            "entity": "album",
-            "limit": 8,
-        },
+        params={"url": bandcamp_url, "meta": "true"},
+        timeout=30,
     )
-    if err or not isinstance(payload, dict):
-        log(f"    iTunes search failed for {artist} — {release}: {err or 'bad payload'}")
+    if status == 429:
+        log("    Microlink rate-limited (free tier is 25 requests/day per IP)")
         return None
-    artwork = pick_itunes_artwork(payload.get("results") or [], artist, release)
+    if err or not isinstance(payload, dict):
+        log(f"    Microlink failed for {bandcamp_url}: {err or 'bad payload'}")
+        return None
+    artwork = extract_microlink_image(payload)
     if not artwork:
         return None
     ok, final, note = follow_image_url(artwork, session=session)
     if ok:
         return final
-    log(f"    iTunes artwork dead for {artist} — {release}: {note}")
+    log(f"    Microlink image dead for {bandcamp_url}: {note}")
     return None
 
 
@@ -443,10 +442,11 @@ def resolve_cover_url(
 
     artist = str(item.get("artist") or "").strip()
     release = str(item.get("release") or "").strip()
-    itunes = lookup_itunes_cover(artist, release, session=session, sleep_ms=sleep_ms)
-    if itunes:
-        notes.append("cover_url: from iTunes Search")
-        return itunes, "from_itunes", notes
+    bandcamp = str(item.get("bandcamp_url") or "").strip()
+    microlink = lookup_microlink_cover(bandcamp, session=session, sleep_ms=sleep_ms)
+    if microlink:
+        notes.append("cover_url: Bandcamp og:image via Microlink")
+        return microlink, "from_microlink", notes
 
     caa = lookup_coverartarchive_cover(artist, release, session=session, sleep_ms=sleep_ms)
     if caa:
