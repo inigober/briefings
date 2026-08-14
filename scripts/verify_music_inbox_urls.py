@@ -13,6 +13,12 @@ parsing issue. Cover fallback order (still Bandcamp art when possible):
 2. Microlink metadata for the same Bandcamp URL (their fetchers are not on
    GitHub's IP ranges; returns the Bandcamp bcbits cover)
 3. MusicBrainz + Cover Art Archive, title-matched, last resort
+
+YouTube Listen URLs are optional. OpenAI rarely copies a live
+`music.youtube.com/playlist?list=OLAK5uy_…` album playlist, so this script
+looks that playlist up via YouTube Music search (no API key). Missing YouTube
+does not fail verification — Codex copies `youtube_url` when present and
+omits YouTube when it is null.
 """
 
 from __future__ import annotations
@@ -60,6 +66,7 @@ API_HEADERS = {
 }
 
 MICROLINK_URL = "https://api.microlink.io"
+YTM_SEARCH_URL = "https://music.youtube.com/youtubei/v1/search"
 MUSICBRAINZ_RELEASE_URL = "https://musicbrainz.org/ws/2/release/"
 COVERART_RELEASE_URL = "https://coverartarchive.org/release/{mbid}/front-500"
 COVERART_RELEASE_GROUP_URL = "https://coverartarchive.org/release-group/{mbid}/front-500"
@@ -419,6 +426,204 @@ def lookup_coverartarchive_cover(
     return None
 
 
+def simplify_release_title(value: str) -> str:
+    """Drop catalogue junk like (HM024) and [BALEARIC, ELECTRONIC] for matching."""
+    text = re.sub(r"\[[^\]]*\]", " ", value or "")
+    text = re.sub(r"\([^)]*\)", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def is_youtube_listen_url(url: str | None) -> bool:
+    parsed = urlparse((url or "").strip())
+    if parsed.scheme not in ("http", "https") or not parsed.netloc:
+        return False
+    host = parsed.netloc.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    if host not in {"youtube.com", "m.youtube.com", "youtu.be", "music.youtube.com"}:
+        return False
+    path = parsed.path.lower()
+    if path.startswith("/results") or "search_query" in (parsed.query or ""):
+        return False
+    return True
+
+
+def _walk_dicts(obj: object):
+    if isinstance(obj, dict):
+        yield obj
+        for value in obj.values():
+            yield from _walk_dicts(value)
+    elif isinstance(obj, list):
+        for value in obj:
+            yield from _walk_dicts(value)
+
+
+def _runs_text(node: object) -> str:
+    if not isinstance(node, dict):
+        return ""
+    runs = node.get("runs")
+    if isinstance(runs, list):
+        return "".join(str(part.get("text") or "") for part in runs if isinstance(part, dict))
+    return str(node.get("content") or node.get("text") or "")
+
+
+def _first_official_playlist_id(obj: object) -> str | None:
+    for node in _walk_dicts(obj):
+        pid = node.get("playlistId")
+        if isinstance(pid, str) and pid.startswith("OLAK5uy_"):
+            return pid
+    return None
+
+
+def ytm_album_hits(payload: object) -> list[dict]:
+    """Album/playlist hits from a YouTube Music search JSON body."""
+    hits: list[dict] = []
+    seen: set[str] = set()
+    if not isinstance(payload, dict):
+        return hits
+    for node in _walk_dicts(payload):
+        card = node.get("musicCardShelfRenderer")
+        if isinstance(card, dict):
+            title = _runs_text(card.get("title") or {})
+            subtitle = _runs_text(card.get("subtitle") or {})
+            pid = _first_official_playlist_id(card)
+            if pid and title and pid not in seen:
+                seen.add(pid)
+                hits.append({"title": title, "subtitle": subtitle, "playlist_id": pid})
+            continue
+        row = node.get("musicResponsiveListItemRenderer")
+        if not isinstance(row, dict):
+            continue
+        texts: list[str] = []
+        for col in row.get("flexColumns") or []:
+            if not isinstance(col, dict):
+                continue
+            texts.append(
+                _runs_text(
+                    (col.get("musicResponsiveListItemFlexColumnRenderer") or {}).get("text")
+                    or {}
+                )
+            )
+        title = texts[0] if texts else ""
+        subtitle = " ".join(t for t in texts[1:] if t)
+        pid = _first_official_playlist_id(row)
+        if pid and title and pid not in seen:
+            seen.add(pid)
+            hits.append({"title": title, "subtitle": subtitle, "playlist_id": pid})
+    return hits
+
+
+def pick_youtube_music_playlist(hits: list[dict], artist: str, release: str) -> str | None:
+    """Return a music.youtube.com album playlist URL when title + artist match."""
+    release_simple = simplify_release_title(release)
+    various = is_various_artist(artist)
+    for hit in hits or []:
+        title = str(hit.get("title") or "")
+        subtitle = str(hit.get("subtitle") or "")
+        pid = str(hit.get("playlist_id") or "")
+        if not pid.startswith("OLAK5uy_"):
+            continue
+        title_ok = release_titles_match(release, title) or (
+            release_simple and release_titles_match(release_simple, title)
+        )
+        if not title_ok:
+            continue
+        blob = f"{title} {subtitle}"
+        artist_ok = (
+            names_match(artist, subtitle)
+            or names_match(artist, blob)
+            or names_match(artist, title)
+        )
+        looks_like_label = bool(
+            re.search(r"\b(recordings?|records|music|label)\b", artist or "", re.I)
+        )
+        if various or artist_ok or looks_like_label:
+            return f"https://music.youtube.com/playlist?list={pid}"
+    return None
+
+
+def youtube_search_queries(artist: str, release: str) -> list[str]:
+    """Shorter queries match YouTube Music albums better than catalogue-padded titles."""
+    simple = simplify_release_title(release) or (release or "")
+    simple = simple.replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'")
+    simple = re.sub(r"\b(double album|full album)\b", " ", simple, flags=re.I)
+    simple = re.sub(r"\s+", " ", simple).strip()
+    artist_q = re.sub(r"\s+", " ", (artist or "").replace("&", " ")).strip()
+    queries: list[str] = []
+    if is_various_artist(artist_q):
+        queries.append(simple)
+    else:
+        queries.append(f"{artist_q} {simple}".strip())
+        words = simple.split()
+        if len(words) > 5:
+            queries.append(f"{artist_q} {' '.join(words[:5])}".strip())
+        queries.append(simple)
+    presents = re.match(r"^(.+?)\s+presents\s+(.+)$", simple, flags=re.I)
+    if presents:
+        who, rest = presents.group(1).strip(), presents.group(2).strip()
+        queries.append(f"{who} {rest}".strip())
+        queries.append(rest)
+    seen: set[str] = set()
+    out: list[str] = []
+    for query in queries:
+        if query and query.lower() not in seen:
+            seen.add(query.lower())
+            out.append(query)
+    return out
+
+
+def lookup_youtube_music_album(
+    artist: str,
+    release: str,
+    *,
+    session: requests.Session,
+    sleep_ms: int = DEFAULT_SLEEP_MS,
+) -> str | None:
+    """Find an official YouTube Music album playlist (OLAK5uy_…) for artist + release."""
+    if not artist or not release:
+        return None
+    headers = {
+        "User-Agent": BROWSER_UA,
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "Referer": "https://music.youtube.com/",
+        "Origin": "https://music.youtube.com",
+    }
+    client = {
+        "clientName": "WEB_REMIX",
+        "clientVersion": "1.20240124.01.00",
+        "hl": "en",
+        "gl": "US",
+    }
+    for query in youtube_search_queries(artist, release):
+        if sleep_ms > 0:
+            time.sleep(sleep_ms / 1000.0)
+        try:
+            response = session.post(
+                YTM_SEARCH_URL,
+                params={"prettyPrint": "false"},
+                json={"context": {"client": client}, "query": query},
+                timeout=DEFAULT_TIMEOUT_SECONDS,
+                headers=headers,
+            )
+        except requests.RequestException as exc:
+            log(f"    YouTube Music search failed for {artist} — {release}: {str(exc)[:160]}")
+            continue
+        status = getattr(response, "status_code", None)
+        if not isinstance(status, int) or status >= 400:
+            continue
+        try:
+            payload = response.json()
+        except ValueError:
+            continue
+        if not isinstance(payload, dict):
+            continue
+        found = pick_youtube_music_playlist(ytm_album_hits(payload), artist, release)
+        if found:
+            return found
+    return None
+
+
 def resolve_cover_url(
     item: dict,
     html: str,
@@ -515,6 +720,8 @@ def verify_music_item(
 
     for field in OPTIONAL_FIELDS:
         raw = item.get(field)
+        if field == "youtube_url":
+            continue
         if raw is None or str(raw).strip() in ("", "null"):
             item[field] = None if field != "dig_url" else ""
             continue
@@ -532,6 +739,36 @@ def verify_music_item(
             live_fields[field] = "dead"
             notes.append(f"{field}: {note}, cleared")
             item[field] = None if field != "dig_url" else ""
+
+    youtube = str(item.get("youtube_url") or "").strip()
+    if youtube.lower() in ("", "null"):
+        youtube = ""
+    kept_youtube = False
+    if youtube and is_youtube_listen_url(youtube):
+        if sleep_ms > 0:
+            time.sleep(sleep_ms / 1000.0)
+        ok, note = check_music_url_live(youtube, session=sess)
+        if ok:
+            live_fields["youtube_url"] = "live"
+            item["youtube_url"] = youtube
+            kept_youtube = True
+        else:
+            notes.append(f"youtube_url: {note}, cleared")
+    elif youtube:
+        notes.append("youtube_url: invalid or search URL, cleared")
+    if not kept_youtube:
+        found = lookup_youtube_music_album(
+            str(item.get("artist") or ""),
+            str(item.get("release") or ""),
+            session=sess,
+            sleep_ms=sleep_ms,
+        )
+        if found:
+            item["youtube_url"] = found
+            live_fields["youtube_url"] = "from_youtube_music"
+            notes.append("youtube_url: from YouTube Music search")
+        else:
+            item["youtube_url"] = None
 
     has_cover = is_http_url(str(item.get("cover_url") or ""))
     item["url_live"] = "live" if has_cover else "dead"

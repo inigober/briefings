@@ -19,8 +19,12 @@ from verify_music_inbox_urls import (  # noqa: E402
     extract_og_image,
     looks_like_bot_wall,
     pick_musicbrainz_release,
+    pick_youtube_music_playlist,
     release_titles_match,
+    simplify_release_title,
     verify_music_item,
+    youtube_search_queries,
+    ytm_album_hits,
 )
 
 
@@ -95,6 +99,50 @@ class TestBotWallAndMatching(unittest.TestCase):
         picked = pick_musicbrainz_release(rows, "Various Artists", "WARIOUS2")
         self.assertEqual(picked["id"], "mbid-warious2")
 
+    def test_simplify_release_strips_catalog_brackets(self) -> None:
+        self.assertEqual(
+            simplify_release_title(
+                "Pockets Of Light Double Album (HM024) [BALEARIC, ELECTRONIC, AMBIENT]"
+            ),
+            "Pockets Of Light Double Album",
+        )
+
+    def test_youtube_music_picks_official_album_playlist(self) -> None:
+        payload = {
+            "contents": {
+                "musicCardShelfRenderer": {
+                    "title": {"runs": [{"text": "Faith"}]},
+                    "subtitle": {"runs": [{"text": "Album • Purelink"}]},
+                    "buttons": [
+                        {
+                            "buttonRenderer": {
+                                "command": {
+                                    "watchPlaylistEndpoint": {
+                                        "playlistId": "OLAK5uy_purelinkfaith"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                }
+            }
+        }
+        hits = ytm_album_hits(payload)
+        self.assertEqual(hits[0]["playlist_id"], "OLAK5uy_purelinkfaith")
+        self.assertEqual(
+            pick_youtube_music_playlist(hits, "Purelink", "Faith"),
+            "https://music.youtube.com/playlist?list=OLAK5uy_purelinkfaith",
+        )
+        self.assertIsNone(pick_youtube_music_playlist(hits, "Other Act", "Other LP"))
+
+    def test_youtube_queries_add_presents_presenter(self) -> None:
+        queries = youtube_search_queries(
+            "Heavenly Recordings",
+            "Colleen ‘Cosmo’ Murphy presents Balearic Breakfast: Volume 3&4",
+        )
+        self.assertTrue(any("Balearic Breakfast" in q for q in queries))
+        self.assertTrue(any(q.lower().startswith("colleen") for q in queries))
+
 
 class TestVerifyMusicInboxItem(unittest.TestCase):
     def test_live_bandcamp_hydrates_cover_even_if_model_cover_is_dead(self) -> None:
@@ -124,6 +172,26 @@ class TestVerifyMusicInboxItem(unittest.TestCase):
         self.assertIsNone(result["youtube_url"])
         self.assertEqual(result["url_live"], "live")
         self.assertEqual(result["url_field_status"]["cover_url"], "from_bandcamp_html")
+
+    def test_missing_youtube_is_hydrated_from_youtube_music(self) -> None:
+        item = {
+            "artist": "Purelink",
+            "release": "Faith",
+            "bandcamp_url": "https://purelink.bandcamp.com/album/faith",
+            "cover_url": "",
+            "youtube_url": None,
+        }
+        ytm = "https://music.youtube.com/playlist?list=OLAK5uy_purelinkfaith"
+
+        with (
+            patch("verify_music_inbox_urls.fetch_html", return_value=(200, BANDCAMP_HTML, "")),
+            patch("verify_music_inbox_urls.lookup_youtube_music_album", return_value=ytm),
+        ):
+            result = verify_music_item(item, session=MagicMock(), sleep_ms=0)
+
+        self.assertTrue(result["verified"])
+        self.assertEqual(result["youtube_url"], ytm)
+        self.assertEqual(result["url_field_status"]["youtube_url"], "from_youtube_music")
 
     def test_bot_wall_uses_microlink_bandcamp_cover(self) -> None:
         item = {
