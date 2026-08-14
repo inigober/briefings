@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-14
+
+- [Mozilla's CTO thinks AI should be built like the internet](https://restofworld.org/2026/open-source-ai-infrastructure-mozilla/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [Foreign buyers warm up to Indian equities amid anti-AI sentiment](https://asia.nikkei.com/business/markets/equities/foreign-buyers-warm-up-to-indian-equities-amid-anti-ai-sentiment) — Nikkei Asia
+- [French ambassador to CAR investigated over claims he hosted dozens of women](https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher) — The Guardian
+- [Hyperscaler AI borrowing binge shakes up foreign credit markets](https://www.ft.com/content/ff2742b0-2c71-471c-b725-fea8f8021f62?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-08-13
 
 - [Why we should all be worried about AI in elections](https://restofworld.org/2026/ai-elections-deepfake-voter-chatbot/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Russia and Ukraine exchange overnight strikes, WHO confirms warehouse destroyed](https://www.politico.eu/article/who-warehouse-destroyed-ukraine-russia-missile-strikes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [Japan to integrate cybersecurity into air-defense radar, fighter jets](https://asia.nikkei.com/business/aerospace-defense-industries/japan-to-integrate-cybersecurity-into-air-defense-radar-fighter-jets) — Nikkei Asia
 - [The Straits Are Not OK](https://foreignpolicy.com/2026/08/07/history-hormuz-straits-iran-war-trump/) — Foreign Policy
-
-## 2026-08-09
-
-- [China's AI Push Reshapes Its Economic Future](https://www.bloomberg.com/news/videos/2026-08-08/china-s-ai-push-reshapes-its-economic-future-video) — Bloomberg
-- [Arizona wants Taiwan's investors to think beyond chips](https://restofworld.org/2026/tsmc-arizona-investors/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [The offline messaging apps challenging internet shutdowns](https://restofworld.org/2026/india-github-geoblock-jack-dorsey-bitchat/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [Kansai Electric, Kawasaki Heavy seek 1st off-site transport of captured CO2](https://asia.nikkei.com/spotlight/environment/kansai-electric-kawasaki-heavy-seek-1st-off-site-transport-of-captured-co2) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 

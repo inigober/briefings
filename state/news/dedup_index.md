@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-14
+
+- **spain-morocco-border-troop-deployment-ceuta** — EL PAÍS: Rabat deploys hundreds of police and soldiers as Spain boosts Guardia Civil presence 42% ahead of feared new mass crossing (section: spain)
+- **spain-ayuso-atico-planifica-ceo-corbalan-dismissal** — eldiario.es: Planifica Madrid chief Pedro Corbalán was sacked from Las Rozas housing firm over blocked contract oversight before regional government bought Chamberí penthouse (section: spain)
+- **spain-orca-gladis-shotgun-pellets-investigation** — EL PAÍS: matriarch orca found with buckshot wounds; Madrid opens probe with Portuguese authorities (section: spain)
+- **germany-hurtgenwald-wildfire-crisis-staff-evacuation** — Tagesspiegel: NRW district convenes crisis team as forest fire nears Hürtgenwald suburb (section: germany)
+- **germany-silver-lake-workday-43bn-takeover-talks** — Handelsblatt: private-equity firm in reported negotiations to acquire US HR-software maker Workday (section: germany)
+- **germany-pram-jogging-injury-risk-study** — Handelsblatt: survey finds parents running with strollers suffer fewer injuries than solo joggers (section: germany)
+- **berlin-bvg-data-breach-compensation-lawsuits** — rbb24: victims of 2025 customer-data hack sue Berlin transport operator for damages (section: berlin)
+- **berlin-s95-half-trainsets-airport-line** — rbb24: planned S-Bahn S95 between BER and Birkenwerder will run shortened trains, drawing capacity criticism (section: berlin)
+- **berlin-atm-accessibility-eu-infringement** — Berliner Zeitung: Brussels warns Germany over 48,000 cash machines lacking speech and tactile upgrades (section: berlin)
+- **world-drc-ebola-sixth-province-spread** — The Guardian: Ebola reaches Bas-Uele as death toll exceeds 2,100 in fastest-growing Congolese outbreak (section: world)
+- **world-smic-ai-spillover-mature-chip-prices** — Nikkei Asia: China's top foundry says AI build-out is tightening supply and lifting prices for older semiconductors (section: world)
+- **world-openai-anthropic-price-war-china-rivals** — Financial Times: US model labs cut prices after Chinese competitors undercut frontier-AI valuations (section: world)
+
 ## 2026-08-13
 
 - **spain-ceuta-5000-migrants-accommodation-estimate** — EL PAÍS: government estimates 2,500 minors and 2,500 potential asylum seekers in Ceuta could be accommodated (section: spain)
