@@ -1,6 +1,10 @@
 # Briefing synthesis dispatcher — run instructions
 
-Single source of truth for the **one** Cursor synthesis automation. Routes each push to at most one briefing type.
+Single source of truth for **manual / Cursor** synthesis runs that still use the
+dispatcher pattern. **Production CI** uses `prompts/github-synthesis-run.md` instead
+(GitHub Action commits after Codex finishes).
+
+Routes each push to at most one briefing type.
 
 Known types: `news`, `berlin-culture`, `berlin-restaurants`, `music-discovery`.
 

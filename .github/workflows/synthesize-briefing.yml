@@ -1,0 +1,261 @@
+# Synthesize a briefing with OpenAI Codex after inbox/ lands on main.
+# Replaces the Cursor Cloud Automation "Briefing synthesis" dispatcher.
+
+name: Synthesize briefing
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "inbox/**"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "push = inspect HEAD like automation; backup = find inbox ready but briefing missing"
+        required: false
+        default: backup
+        type: choice
+        options:
+          - backup
+          - push
+
+permissions:
+  contents: write
+
+concurrency:
+  group: synthesize-briefing
+  cancel-in-progress: false
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          # Parent commit required for detect_synthesis_trigger.py on push mode
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Detect synthesis trigger
+        id: trigger
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          DISPATCH_MODE: ${{ github.event.inputs.mode || 'backup' }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT_NAME" = "workflow_dispatch" ] && [ "$DISPATCH_MODE" = "backup" ]; then
+            python scripts/detect_synthesis_trigger.py --json --backup > decision.json
+          else
+            python scripts/detect_synthesis_trigger.py --json --commit "${{ github.sha }}" > decision.json
+          fi
+          cat decision.json
+          TYPE=$(python3 -c 'import json; print(json.load(open("decision.json")).get("type_id") or "")')
+          REASON=$(python3 -c 'import json; print(json.load(open("decision.json")).get("reason") or "")')
+          echo "type_id=$TYPE" >> "$GITHUB_OUTPUT"
+          echo "reason=$REASON" >> "$GITHUB_OUTPUT"
+          if [ -z "$TYPE" ]; then
+            echo "Skip synthesis: $REASON"
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          DATE=$(python3 - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.load(open("decision.json"))
+          date = ""
+          for path in data.get("matched_files") or []:
+              name = Path(path).name
+              for suffix in ("-synthesis.json", "-raw.json", "-context.json"):
+                  if name.endswith(suffix):
+                      date = name[: -len(suffix)]
+                      break
+              if date:
+                  break
+          print(date)
+          PY
+          )
+          if [ -z "$DATE" ]; then
+            echo "::error::Could not derive briefing date from matched_files"
+            exit 1
+          fi
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          echo "should_run=true" >> "$GITHUB_OUTPUT"
+          python3 - <<PY
+          import json
+          data = json.load(open("decision.json"))
+          context = {
+              "type_id": data["type_id"],
+              "date": "$DATE",
+              "reason": data.get("reason"),
+              "commit_sha": data.get("commit_sha"),
+              "commit_subject": data.get("commit_subject"),
+              "matched_files": data.get("matched_files") or [],
+              "runner": "github-actions-codex",
+          }
+          with open(".synthesis-ci-context.json", "w", encoding="utf-8") as fh:
+              json.dump(context, fh, indent=2)
+              fh.write("\n")
+          print(json.dumps(context, indent=2))
+          PY
+
+      - name: Run Codex synthesis
+        if: steps.trigger.outputs.should_run == 'true'
+        id: codex
+        uses: openai/codex-action@52fe01ec70a42f454c9d2ebd47598f9fd6893d56 # v1.11
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          permission-profile: ":workspace"
+          safety-strategy: drop-sudo
+          # Pre-fetch commits are authored by github-actions[bot]
+          allow-bots: "true"
+          model: gpt-5.4
+          prompt-file: prompts/github-synthesis-run.md
+          output-file: codex-synthesis-output.md
+
+      - name: Verify briefing outputs
+        if: steps.trigger.outputs.should_run == 'true'
+        id: verify
+        env:
+          TYPE: ${{ steps.trigger.outputs.type_id }}
+          DATE: ${{ steps.trigger.outputs.date }}
+        run: |
+          set -euo pipefail
+          BRIEFING="briefings/${TYPE}/${DATE}.md"
+          if [ ! -f "$BRIEFING" ]; then
+            echo "::error::Codex did not write $BRIEFING"
+            if [ -f codex-synthesis-output.md ]; then
+              echo "---- Codex final message ----"
+              cat codex-synthesis-output.md
+            fi
+            exit 1
+          fi
+          case "$TYPE" in
+            news)
+              python scripts/verify_briefing_sources.py --type news --date "$DATE"
+              ;;
+            berlin-culture)
+              python scripts/validate_culture_briefing.py --path "$BRIEFING"
+              python scripts/verify_culture_briefing_urls.py --type berlin-culture --date "$DATE"
+              ;;
+            berlin-restaurants)
+              python scripts/verify_restaurant_briefing_sources.py --type berlin-restaurants --date "$DATE"
+              ;;
+            music-discovery)
+              python scripts/verify_music_urls.py --type music-discovery --date "$DATE"
+              ;;
+            *)
+              echo "::error::Unknown type $TYPE"
+              exit 1
+              ;;
+          esac
+          echo "briefing=$BRIEFING" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push briefing
+        if: steps.trigger.outputs.should_run == 'true'
+        env:
+          TYPE: ${{ steps.trigger.outputs.type_id }}
+          DATE: ${{ steps.trigger.outputs.date }}
+        run: |
+          set -euo pipefail
+          rm -f .synthesis-ci-context.json decision.json codex-synthesis-output.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "briefings/${TYPE}/" "state/${TYPE}/"
+          if git diff --cached --quiet; then
+            echo "::error::No staged changes under briefings/${TYPE}/ or state/${TYPE}/"
+            exit 1
+          fi
+          git commit -m "briefing/${TYPE}: ${DATE}"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin main; then
+              echo "Push succeeded on attempt ${attempt}"
+              exit 0
+            fi
+            echo "Push rejected on attempt ${attempt}, retrying..."
+            sleep 3
+          done
+          echo "Push failed after retries"
+          exit 1
+
+      - name: Alert on synthesis failure
+        if: failure() && steps.trigger.outputs.should_run == 'true'
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}
+          BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
+          GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          TYPE: ${{ steps.trigger.outputs.type_id }}
+          DATE: ${{ steps.trigger.outputs.date }}
+          REASON: ${{ steps.trigger.outputs.reason }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import sys
+
+          try:
+              import requests
+          except ImportError:
+              print("Alert skipped — requests not installed", flush=True)
+              sys.exit(0)
+
+          api_key = (os.environ.get("RESEND_API_KEY") or "").strip()
+          from_addr = (os.environ.get("BRIEFING_FROM_EMAIL") or "").strip()
+          to_raw = (os.environ.get("BRIEFING_TO_EMAIL") or "").strip()
+          if not api_key or not from_addr or not to_raw:
+              print("Alert skipped — RESEND_API_KEY / BRIEFING_* not set", flush=True)
+              sys.exit(0)
+
+          typ = os.environ.get("TYPE") or "unknown"
+          date = os.environ.get("DATE") or "unknown"
+          run_url = (os.environ.get("GITHUB_RUN_URL") or "").strip()
+          reason = (os.environ.get("REASON") or "").strip()
+          to_addrs = [p.strip() for p in to_raw.replace(";", ",").split(",") if p.strip()]
+          run_html = (
+              f'<p>GitHub Actions run: <a href="{run_url}">{run_url}</a></p>'
+              if run_url
+              else ""
+          )
+          subject = f"[Briefing] Synthesis failed — {typ} {date}"
+          html = f"""<p><strong>Codex synthesis failed.</strong></p>
+          <p>Type: <code>{typ}</code> · Date: <code>{date}</code></p>
+          <p>Trigger reason: {reason or "(none)"}</p>
+          {run_html}
+          <p>Check the Actions log. After fixing, re-run <strong>Synthesize briefing</strong>
+          with mode <code>backup</code>.</p>"""
+          try:
+              response = requests.post(
+                  "https://api.resend.com/emails",
+                  headers={
+                      "Authorization": f"Bearer {api_key}",
+                      "Content-Type": "application/json",
+                  },
+                  json={
+                      "from": from_addr,
+                      "to": to_addrs,
+                      "subject": subject,
+                      "html": html,
+                  },
+                  timeout=30,
+              )
+          except requests.RequestException as exc:
+              print(f"Warning: could not send synthesis-failure alert: {exc}", flush=True)
+              sys.exit(0)
+          if response.ok:
+              print("Synthesis-failure alert email sent via Resend", flush=True)
+          else:
+              print(
+                  f"Warning: Resend alert failed ({response.status_code}): {response.text[:200]}",
+                  flush=True,
+              )
+          PY

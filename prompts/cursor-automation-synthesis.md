@@ -1,8 +1,18 @@
-# Cursor Automation — Briefing Synthesis (dispatcher)
+# Cursor Automation — Briefing Synthesis (DEPRECATED)
 
-Setup guide for [Cursor Automations](https://cursor.com/automations). **One automation** (e.g. **"Briefing synthesis"**) replaces three per-type automations. Runnable steps live in `prompts/synthesis-dispatcher-run.md`.
+> **Deprecated (2026-08).** Synthesis now runs in GitHub Actions via
+> `.github/workflows/synthesize-briefing.yml` + OpenAI Codex (`openai/codex-action`).
+> Runnable CI instructions: `prompts/github-synthesis-run.md`.
+>
+> **Action for you:** In [Cursor Automations](https://cursor.com/automations), **disable**
+> (then later delete) the old “Briefing synthesis” automation so it does not double-run
+> beside the GitHub Action.
 
-## Automation settings
+The historical setup below is kept for reference only.
+
+---
+
+## Former automation settings
 
 | Setting | Value |
 |---------|--------|
@@ -13,11 +23,9 @@ Setup guide for [Cursor Automations](https://cursor.com/automations). **One auto
 | **Model** | **Composer 2.5** (or Cursor Fast) |
 | **Spending cap** | ~$10–15/mo safety net |
 
-**Push trigger only.** Do not add schedule crons in Cursor. Pre-fetch timing is handled by cron-job.org → GitHub `workflow_dispatch` (see `docs/external-scheduling.md`). Use `prefetch-health-check.yml` for missed pre-fetch alerts.
+**Push trigger only.** Pre-fetch timing is handled by cron-job.org → GitHub `workflow_dispatch` (see `docs/external-scheduling.md`).
 
-## Instructions (paste once into automation)
-
-Paste **only** this block. Never copy `synthesis-dispatcher-run.md` into the UI.
+## Former instructions (do not recreate)
 
 ```
 You are running the briefing synthesis dispatcher for inigober/briefings.
@@ -27,26 +35,15 @@ Your only job: read prompts/synthesis-dispatcher-run.md from the checked-out rep
 Start by opening prompts/synthesis-dispatcher-run.md, then proceed in order.
 ```
 
-## Migration from three automations
-
-1. **Disable** (do not delete yet) the old push-triggered automations for news, berlin-culture, and berlin-restaurants.
-2. Create **one** new automation with the settings and instructions above.
-3. After one successful daily/weekly cycle, delete the old automations.
-
-Per-type setup docs (`prompts/*/cursor-automation-synthesis.md`) are kept for reference only.
-
-## Pipeline
+## Current pipeline
 
 ```
-Pre-fetch / taste bridge commits inbox/{type}/  →  push triggers ONE dispatcher  →  synthesis commits briefings/{type}/  →  email workflow sends
+Pre-fetch commits inbox/{type}/  →  synthesize-briefing.yml (Codex)  →  briefings/{type}/  →  email
 ```
 
-Types: `news`, `berlin-culture`, `berlin-restaurants`, `music-discovery`.
-
-Missed pre-fetch? `prefetch-health-check.yml` emails you → run the matching `*-prefetch.yml` workflow manually (music: re-run local `refresh_taste_and_bridge.py --push`).
-
-Routing logic is testable locally:
+Routing logic is still testable locally:
 
 ```bash
 python scripts/detect_synthesis_trigger.py --json
+python scripts/detect_synthesis_trigger.py --json --backup
 ```

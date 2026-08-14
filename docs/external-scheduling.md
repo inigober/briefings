@@ -154,7 +154,7 @@ Success = **HTTP 204**.
 
 1. Pre-fetch run → green in [Actions](https://github.com/inigober/briefings/actions)
 2. `inbox/{type}/` commit on `main`
-3. **Briefing synthesis** Cursor automation runs (one push → one run)
+3. **Synthesize briefing** workflow runs (path filter `inbox/**`)
 4. `briefings/{type}/` commit → email workflow sends
 
 **Duplicate pre-fetch same day:** If a briefing file already exists for that date, synthesis **skips** (guard in `detect_synthesis_trigger.py`). Test briefings must use `YYYY-MM-DD.test.md` so they never block production (see README **End-to-end testing**).
@@ -171,7 +171,7 @@ Token expired or wrong `Authorization` header.
 
 ### Synthesis ran twice
 
-Each `inbox/` push triggers the Cursor automation once. Two synthesis runs = two pre-fetch commits (e.g. morning schedule + afternoon test). Check [git log for `inbox/` commits](https://github.com/inigober/briefings/commits/main). Also confirm only **one** Cursor automation is enabled (**Briefing synthesis** — disable legacy per-type automations).
+Each `inbox/` push triggers **Synthesize briefing** once. Two synthesis runs = two pre-fetch commits (e.g. morning schedule + afternoon test). Check [git log for `inbox/` commits](https://github.com/inigober/briefings/commits/main). Also **disable** any leftover Cursor “Briefing synthesis” automation so it does not double-write.
 
 ### Workflow runs but no inbox commit
 

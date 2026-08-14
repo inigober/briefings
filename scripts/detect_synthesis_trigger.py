@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Decide which briefing synthesis (if any) should run for a git commit.
 
-Used by the single Cursor synthesis dispatcher automation. Logic mirrors Step 0
-in each prompts/*/synthesis-run.md push guard.
+Used by `.github/workflows/synthesize-briefing.yml` (and optional manual runs).
+Logic mirrors Step 0 in each prompts/*/synthesis-run.md push guard.
 """
 
 from __future__ import annotations

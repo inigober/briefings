@@ -10,7 +10,7 @@ Fri 09:00 cron-job.org
   → GitHub music-discovery-prefetch.yml
     → materialize cache → inbox/music-discovery/YYYY-MM-DD-*
     → commit inbox/music-discovery:
-      → Cursor Briefing synthesis dispatcher
+      → GitHub Action **Synthesize briefing** (Codex)
         → briefings/music-discovery/YYYY-MM-DD.md
           → Resend email
 ```
@@ -55,4 +55,4 @@ Same pattern as culture/restaurants — see `docs/external-scheduling.md` for th
 
 ## Cloud synthesis
 
-Existing **Briefing synthesis** Cursor automation (dispatcher). No separate music automation.
+`.github/workflows/synthesize-briefing.yml` (Codex via API key). No separate music automation.

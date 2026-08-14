@@ -7,6 +7,9 @@ venv/
 .env.*
 !.env.example
 
+# CI synthesis handoff (never commit)
+.synthesis-ci-context.json
+
 # Local previews
 briefings/**/*.preview.html
 briefings/**/*.preview-callouts.html

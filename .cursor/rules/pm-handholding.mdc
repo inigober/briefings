@@ -59,7 +59,7 @@ Help them build a mental model of the pipeline:
 
 ```
 Pre-fetch (GitHub Action + OpenAI) → inbox/{type}/
-Synthesis (Cursor cloud agent)      → briefings/{type}/ + state/{type}/
+Synthesis (GitHub Action + OpenAI Codex) → briefings/{type}/ + state/{type}/
 Delivery (GitHub Action + Resend)   → email inbox (same recipient, title = subject)
 ```
 
