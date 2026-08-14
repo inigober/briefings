@@ -39,7 +39,7 @@ Pay special attention to snapshot sections **Recent taste (24 months)** and **Fa
 
 From the synthesis inbox:
 
-1. Include only items with `"verified": true`.
+1. Include only items with `"verified": true` **and a non-empty `cover_url`**. Skip cover-less rows.
 2. Copy `bandcamp_url`, `cover_url`, `youtube_url`, and `dig_url` **exactly** as stored — never invent or slugify Bandcamp paths.
 3. Load `skip_list` / `library_skip` from the taste companion — do not recommend matches (pre-fetch already filtered; double-check).
 4. `known_label: true` → **More listening** unless `writeup_url` is present (trusted write-up exception).

@@ -37,7 +37,7 @@ Open the matching file and execute **from Step 1 through state updates**, includ
 - Music **Step 5** (personal recommendation log on another machine)
 - Culture web spot-checks that require browsing (use inbox evidence instead; note gaps in the briefing if needed)
 
-**Music:** pick only from `inbox/music-discovery/YYYY-MM-DD-synthesis.json` (fallback `*-raw.json`) items with `"verified": true`. Copy Bandcamp / YouTube / cover / Dig URLs verbatim. **Never** invent slugs or publish a gap/placeholder briefing. If the verified pool is too thin for 6 featured + 4 More listening, stop **without** writing `briefings/music-discovery/YYYY-MM-DD.md` so CI fails loudly.
+**Music:** pick only from `inbox/music-discovery/YYYY-MM-DD-synthesis.json` (fallback `*-raw.json`) items with `"verified": true` and a non-empty `cover_url`. Copy Bandcamp / YouTube / cover / Dig URLs verbatim. **Never** invent slugs, covers, or a gap/placeholder briefing. If fewer than 6 featured + 4 More listening remain after skipping cover-less rows, stop **without** writing `briefings/music-discovery/YYYY-MM-DD.md` so CI fails loudly.
 
 **Still do:** write `briefings/{type}/{date}.md` and update the `state/{type}/` files listed in the type prompt.
 
