@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """HTTP-verify music-discovery raw inbox Listen / cover / Dig URLs (post-fetch, pre-slim).
 
-OpenAI often invents bcbits cover paths. We only require a live Bandcamp album page,
-then copy ``og:image`` from that HTML for the cover.
+OpenAI often invents bcbits cover paths. We require a live Bandcamp album page
+and copy the cover from that HTML (og:image / image_src / bcbits art id).
 """
 
 from __future__ import annotations
@@ -30,8 +30,7 @@ from music_dates import normalize_friday_run_date
 
 MIN_VERIFIED_CANDIDATES = 10
 DEFAULT_SLEEP_MS = 200
-DEFAULT_TIMEOUT_SECONDS = 12
-DEFAULT_BODY_MAX_BYTES = 80_000
+DEFAULT_TIMEOUT_SECONDS = 20
 OPTIONAL_FIELDS = ("youtube_url", "writeup_url", "dig_url")
 
 # Browser-like UA — Bandcamp/GitHub runners often 403 the BriefingBot UA on bursts.
@@ -50,6 +49,18 @@ OG_IMAGE_RE = re.compile(
 )
 OG_IMAGE_RE_REV = re.compile(
     r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']og:image["\']',
+    re.IGNORECASE,
+)
+IMAGE_SRC_RE = re.compile(
+    r'<link[^>]+rel=["\']image_src["\'][^>]+href=["\']([^"\']+)["\']',
+    re.IGNORECASE,
+)
+IMAGE_SRC_RE_REV = re.compile(
+    r'<link[^>]+href=["\']([^"\']+)["\'][^>]+rel=["\']image_src["\']',
+    re.IGNORECASE,
+)
+BCBITS_ART_RE = re.compile(
+    r"https://f\d+\.bcbits\.com/img/a(\d+)_\d+\.(?:jpg|jpeg|png)",
     re.IGNORECASE,
 )
 
@@ -71,33 +82,50 @@ def extract_og_image(html: str) -> str | None:
     return None
 
 
+def normalize_bcbits_cover(url: str) -> str:
+    """Prefer the _10.jpg Bandcamp size used in past briefings."""
+    return re.sub(r"(a\d+)_\d+\.(?:jpg|jpeg|png)$", r"\1_10.jpg", url, count=1, flags=re.I)
+
+
+def extract_bandcamp_cover(html: str) -> str | None:
+    """Cover URL from og:image, link rel=image_src, or any bcbits art path."""
+    body = html or ""
+    candidates: list[str] = []
+    og = extract_og_image(body)
+    if og:
+        candidates.append(og)
+    for pattern in (IMAGE_SRC_RE, IMAGE_SRC_RE_REV):
+        match = pattern.search(body)
+        if match:
+            candidates.append(html_lib.unescape(match.group(1).strip()))
+    for url in candidates:
+        if is_http_url(url):
+            return normalize_bcbits_cover(url)
+    match = BCBITS_ART_RE.search(body)
+    if match:
+        return f"https://f4.bcbits.com/img/a{match.group(1)}_10.jpg"
+    return None
+
+
 def fetch_html(
     url: str,
     *,
     session: requests.Session,
     timeout: int = DEFAULT_TIMEOUT_SECONDS,
-    max_bytes: int = DEFAULT_BODY_MAX_BYTES,
 ) -> tuple[int | None, str, str]:
-    """GET a URL. Returns (status_code, body, error_note)."""
+    """GET the full URL body. Returns (status_code, body, error_note).
+
+    Do not truncate: Bandcamp album HTML is often 200KB+, and GitHub-hosted
+    runners can see a larger head before og:image than a laptop fetch.
+    """
     try:
         response = session.get(
             url,
             timeout=timeout,
             headers=HEADERS,
             allow_redirects=True,
-            stream=True,
         )
-        chunks: list[bytes] = []
-        total = 0
-        for chunk in response.iter_content(chunk_size=4096):
-            if not chunk:
-                continue
-            chunks.append(chunk)
-            total += len(chunk)
-            if total >= max_bytes:
-                break
-        body = b"".join(chunks).decode(response.encoding or "utf-8", errors="replace")
-        return response.status_code, body, ""
+        return response.status_code, response.text or "", ""
     except requests.RequestException as exc:
         return None, "", str(exc)[:160]
 
@@ -108,7 +136,7 @@ def check_music_url_live(
     session: requests.Session,
 ) -> tuple[bool, str]:
     """GET-only live check (skip HEAD — Bandcamp/CDN often 403 it)."""
-    status, _body, err = fetch_html(url, session=session, max_bytes=2048)
+    status, _body, err = fetch_html(url, session=session)
     if err:
         return False, err
     if status is None:
@@ -152,13 +180,13 @@ def verify_music_item(
         return item
 
     live_fields["bandcamp_url"] = "live"
-    og_cover = extract_og_image(html)
+    cover = extract_bandcamp_cover(html)
     model_cover = str(item.get("cover_url") or "").strip()
-    if og_cover:
-        if model_cover and model_cover != og_cover:
-            notes.append("cover_url: replaced with Bandcamp og:image")
-        item["cover_url"] = og_cover
-        live_fields["cover_url"] = "from_og_image"
+    if cover:
+        if model_cover and model_cover != cover:
+            notes.append("cover_url: replaced from Bandcamp HTML")
+        item["cover_url"] = cover
+        live_fields["cover_url"] = "from_bandcamp_html"
     elif is_http_url(model_cover):
         if sleep_ms > 0:
             time.sleep(sleep_ms / 1000.0)
@@ -166,11 +194,18 @@ def verify_music_item(
         if ok:
             live_fields["cover_url"] = "live"
         else:
-            notes.append(f"cover_url: {note} (kept Bandcamp page anyway)")
+            notes.append(f"cover_url: {note}")
             live_fields["cover_url"] = "dead"
+            item["cover_url"] = ""
     else:
-        notes.append("cover_url: missing (no og:image on Bandcamp page)")
+        has_og = "og:image" in (html or "").lower()
+        has_bcbits = "bcbits.com/img" in (html or "").lower()
+        notes.append(
+            f"cover_url: missing (html_len={len(html or '')}, "
+            f"og:image={'yes' if has_og else 'no'}, bcbits={'yes' if has_bcbits else 'no'})"
+        )
         live_fields["cover_url"] = "missing"
+        item["cover_url"] = ""
 
     for field in OPTIONAL_FIELDS:
         raw = item.get(field)
@@ -192,10 +227,11 @@ def verify_music_item(
             notes.append(f"{field}: {note}, cleared")
             item[field] = None if field != "dig_url" else ""
 
-    item["url_live"] = "live"
+    has_cover = is_http_url(str(item.get("cover_url") or ""))
+    item["url_live"] = "live" if has_cover else "dead"
     item["url_field_status"] = live_fields
     item["url_verify_notes"] = "; ".join(notes) if notes else "ok"
-    item["verified"] = bool(item.get("artist") and item.get("release"))
+    item["verified"] = bool(has_cover and item.get("artist") and item.get("release"))
     return item
 
 
@@ -280,7 +316,7 @@ def main() -> int:
     if stats["verified_after"] < args.min_verified:
         log(
             f"FAIL: only {stats['verified_after']} verified music candidates "
-            f"(need {args.min_verified}). Bandcamp pages must return HTTP < 400."
+            f"(need {args.min_verified}). Each needs a live Bandcamp page and a cover image."
         )
         return 1
     return 0

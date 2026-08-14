@@ -14,6 +14,7 @@ if str(SCRIPTS) not in sys.path:
 
 from slim_inbox_for_synthesis import build_music_synthesis_inbox  # noqa: E402
 from verify_music_inbox_urls import (  # noqa: E402
+    extract_bandcamp_cover,
     extract_og_image,
     verify_music_item,
 )
@@ -36,6 +37,18 @@ class TestExtractOgImage(unittest.TestCase):
     def test_content_then_property(self) -> None:
         html = '<meta content="https://f4.bcbits.com/img/a1.jpg" property="og:image">'
         self.assertEqual(extract_og_image(html), "https://f4.bcbits.com/img/a1.jpg")
+
+    def test_image_src_and_bcbits_fallbacks(self) -> None:
+        html = '<link rel="image_src" href="https://f4.bcbits.com/img/a111_16.jpg">'
+        self.assertEqual(
+            extract_bandcamp_cover(html),
+            "https://f4.bcbits.com/img/a111_10.jpg",
+        )
+        html = 'background:url(https://f4.bcbits.com/img/a222_5.jpg)'
+        self.assertEqual(
+            extract_bandcamp_cover(html),
+            "https://f4.bcbits.com/img/a222_10.jpg",
+        )
 
 
 class TestVerifyMusicInboxItem(unittest.TestCase):
@@ -65,6 +78,23 @@ class TestVerifyMusicInboxItem(unittest.TestCase):
         self.assertEqual(result["cover_url"], "https://f4.bcbits.com/img/a999_10.jpg")
         self.assertIsNone(result["youtube_url"])
         self.assertEqual(result["url_live"], "live")
+
+    def test_live_bandcamp_without_cover_is_unverified(self) -> None:
+        item = {
+            "artist": "Test",
+            "release": "EP",
+            "bandcamp_url": "https://example.bandcamp.com/album/ep",
+            "cover_url": "",
+        }
+
+        def fake_fetch(url: str, *, session=None, **_kwargs):  # noqa: ANN001
+            return 200, "<html><head><title>No cover</title></head></html>", ""
+
+        with patch("verify_music_inbox_urls.fetch_html", side_effect=fake_fetch):
+            result = verify_music_item(item, session=MagicMock(), sleep_ms=0)
+
+        self.assertFalse(result["verified"])
+        self.assertEqual(result["cover_url"], "")
 
     def test_dead_bandcamp_is_unverified(self) -> None:
         item = {
