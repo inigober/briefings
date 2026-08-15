@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-15
+
+- **spain-almaraz-extension-2030-boe** — eldiario.es: Spain extends the Almaraz nuclear plant to June 2030, buying a truce in its long-running closure dispute (section: spain)
+- **spain-primary-care-ageing-pressure-2045** — eldiario.es: doctors warn an ageing population is pushing Spain's primary-care model past its design limits (section: spain)
+- **spain-shanghai-ranking-eight-universities-drop** — EL PAÍS: eight Spanish universities fall out of the Shanghai ranking, leaving only Barcelona in the global top 200 (section: spain)
+- **germany-wero-payments-sovereignty-low-uptake** — Handelsblatt: Europe's Wero payment service remains little known among German consumers two years after launch (section: germany)
+- **germany-blue-green-algae-bathing-warnings** — Handelsblatt: cyanobacteria blooms trigger bathing warnings across parts of Germany's Baltic coast and northern lakes (section: germany)
+- **germany-ritter-sport-empco-green-claims** — Berliner Zeitung: Ritter Sport covers up sustainability claims as EU anti-greenwashing rules tighten packaging risk (section: germany)
+- **berlin-gun-violence-younger-offenders-illegal-weapons** — Tagesspiegel: Berlin authorities say shootings increasingly involve illegal guns and younger suspects (section: berlin)
+- **berlin-re1-fangschleuse-closure-extended** — rbb24: delayed Fangschleuse station works keep the RE1 shut an extra day east of Berlin (section: berlin)
+- **berlin-atm-accessibility-2040-grace-period** — Berliner Zeitung: Berliners face years of uneven cash-machine accessibility because older ATMs have until 2040 to comply (section: berlin)
+- **world-canada-grifols-plasma-pause-donor-deaths** — The Guardian: Grifols pauses plasma collections in Canada after two donor deaths and a safety probe (section: world)
+- **world-openai-ipo-governance-upheaval** — Financial Times: OpenAI's IPO planning is colliding with executive departures and safety-team strain (section: world)
+- **world-manus-founders-travel-ban-lift** — Financial Times: China prepares to lift travel restrictions on Manus founders as the AI company stabilises its ownership structure (section: world)
+
 ## 2026-08-14
 
 - **spain-morocco-border-troop-deployment-ceuta** — EL PAÍS: Rabat deploys hundreds of police and soldiers as Spain boosts Guardia Civil presence 42% ahead of feared new mass crossing (section: spain)
@@ -200,19 +215,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-drc-ebola-fastest-outbreak-record** — The Guardian: confirmed cases pass 3,360 with ~1,500 deaths in fastest-growing Ebola wave on record (section: world)
 - **world-south-korea-won-dollar-rally-july** — Financial Times: won strengthens nearly 8% against dollar despite tech sell-off (section: world)
 - **world-ntt-data-india-payments-platform** — Nikkei Asia: Japanese IT group launches digital payments product in India (section: world)
-
-## 2026-07-31
-
-- **spain-ceuta-20000-crossing-largest-since-2021** — eldiario.es: more than 20,000 people cross from Morocco in largest entry since 2021 crisis with nine bodies recovered (section: spain)
-- **spain-supreme-court-hot-returns-ruling-ceuta-surge** — La Vanguardia: 8 July ruling barring swim-back expulsions fuels migrant surge forcing army deployment (section: spain)
-- **spain-ceuta-crisis-morocco-intelligence-doubts** — EL PAÍS: Spanish services doubt Rabat lost border control accidentally, straining bilateral ties (section: spain)
-- **germany-china-pmi-sentiment-cools-h2** — Tagesspiegel: factory, services and construction mood weakens simultaneously at start of second half (section: germany)
-- **germany-dax-earnings-season-six-flashpoints** — Handelsblatt: Apple, Amazon and macro data on calendar as Frankfurt holds mid-season (section: germany)
-- **germany-fifa-private-investment-wm-plan-resistance** — Tagesspiegel: Slovenian lawyer coordinates European club opposition to Infantino investor vehicle (section: germany)
-- **berlin-brandenburg-38c-heat-thunderstorms-prignitz** — rbb24: fourth summer heatwave brings 35°C+ before storms uproot trees north of capital (section: berlin)
-- **berlin-whatsapp-forwarding-bgh-dismissal-case** — Berliner Zeitung: federal court reviews whether sharing private group chats justifies sacking (section: berlin)
-- **berlin-tesla-gruenheide-1000-rehires** — Tagesspiegel: US carmaker begins first hiring wave at Brandenburg plant as EV orders rebound (section: berlin)
-- **world-cameroon-biya-53-day-absence** — The Guardian: 93-year-old president unseen since June Switzerland trip fuels succession anxiety (section: world)
-- **world-asia-equities-yen-intervention-rebound** — Financial Times: Tokyo shares recover and yen strengthens from 160 on suspected FX action (section: world)
-- **world-atlantic-ai-move-fast-break-things** — The Atlantic: essay warns frontier labs reverting to reckless ship-first culture (section: world)
-

@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-15
+
+- [AI Is Changing Military Morality](https://foreignpolicy.com/2026/08/14/ai-military-just-war/) — Foreign Policy
+- [America’s AI election](https://www.ft.com/content/5f8858b8-7468-4438-b269-e1b1947b1926) — Financial Times
+- [American missionary kidnapped in Niger freed after nine months](https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping) — The Guardian
+- [Heat Is Hammering Europe, Again. Here’s What That Looks Like.](https://www.nytimes.com/2026/08/14/world/europe/europe-heat-wave-photos.html) — The New York Times
+
 ## 2026-08-14
 
 - [Mozilla's CTO thinks AI should be built like the internet](https://restofworld.org/2026/open-source-ai-infrastructure-mozilla/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Europe's Summer of Nightmares](https://foreignpolicy.com/2026/08/10/europe-heat-wildfires-climate-economy-energy/) — Foreign Policy
 - [UK approves its second weight-loss pill while EU access lags](https://www.politico.eu/article/uk-approves-its-second-weight-loss-pill-while-eu-access-lags/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [Kurdish film-maker recounts 'inhumane' ICE force-feeding](https://www.theguardian.com/us-news/2026/aug/10/ice-force-feeding-detention-gabar-choli) — The Guardian
-
-## 2026-08-10
-
-- [Putin's war machine scours the home front for recruits](https://www.ft.com/content/45289802-848f-4fa6-9769-6971b4b69bcc?syn-25a6b1a6=1) — Financial Times
-- [Russia and Ukraine exchange overnight strikes, WHO confirms warehouse destroyed](https://www.politico.eu/article/who-warehouse-destroyed-ukraine-russia-missile-strikes/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Japan to integrate cybersecurity into air-defense radar, fighter jets](https://asia.nikkei.com/business/aerospace-defense-industries/japan-to-integrate-cybersecurity-into-air-defense-radar-fighter-jets) — Nikkei Asia
-- [The Straits Are Not OK](https://foreignpolicy.com/2026/08/07/history-hormuz-straits-iran-war-trump/) — Foreign Policy
 
 ## Blocked until 5+ briefings have passed
 
