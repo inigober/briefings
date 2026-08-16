@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-16
+
+- **spain-ceuta-psoe-revolt-government-delegate** — eldiario.es: Ceuta Socialist lawmaker Melchor León demands the government delegate resign over crisis management (section: spain)
+- **spain-wildfire-suppression-capacity-gaps** — EL PAÍS: a national firefighting inventory finds thin staffing and heavy reliance on UME support in some regions (section: spain)
+- **spain-longevity-inequality-by-income-neighbourhood** — eldiario.es: Spain's life-expectancy gains now mask sharp differences by class and neighbourhood (section: spain)
+- **germany-syrian-protection-status-revocations-rise** — Handelsblatt: Berlin reports more Syrians losing protection status as BAMF widens summer reviews (section: germany)
+- **germany-monschau-wildfire-evacuation-preparations** — Tagesspiegel: wildfire near Monschau leaves thousands preparing for evacuation on Germany's western edge (section: germany)
+- **germany-new-fathers-brain-empathy-study** — Tagesspiegel: study finds parenthood reshapes young fathers' brains and empathy responses (section: germany)
+- **berlin-city-toilets-crack-crisis-frontline** — Tagesspiegel: public-toilet maintenance staff are becoming informal first responders to Berlin's addiction crisis (section: berlin)
+- **berlin-rave-the-planet-security-test** — rbb24: the techno parade returned through Tiergarten under tightened security after the CSD attack (section: berlin)
+- **berlin-kadewe-younger-shoppers-retail-reset** — Tagesspiegel: KaDeWe recasts its food hall and merchandising to chase a younger customer base (section: berlin)
+- **world-indonesia-earthquake-rescue-search** — The Guardian: rescuers hunt survivors after an eastern Indonesia quake killed dozens and displaced thousands (section: world)
+- **world-ontario-toronto-bike-lanes-court-ruling** — The Guardian: Ontario wins court clearance to remove Toronto bike lanes despite lower-court objections (section: world)
+- **world-ferrexpo-oligarch-kyiv-ownership-dispute** — Financial Times: Ukraine-focused miner struggles to raise cash while a sanctioned shareholder battles Kyiv (section: world)
+
 ## 2026-08-15
 
 - **spain-almaraz-extension-2030-boe** — eldiario.es: Spain extends the Almaraz nuclear plant to June 2030, buying a truce in its long-running closure dispute (section: spain)

@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-16
+
+- [Drone Swarms Push AI Deeper Into Modern Warfare](https://www.bloomberg.com/news/videos/2026-08-15/drone-swarms-push-ai-deeper-into-modern-warfare-video) — Bloomberg
+- [European companies count the costs and gains of extreme heat](https://www.ft.com/content/1419012f-feca-4efd-a817-dc0392cd76e3?syn-25a6b1a6=1) — Financial Times
+- [Singapore Inc hopes AI access will stop finance high-flyers moving to Hong Kong](https://www.ft.com/content/7d2969fd-85aa-43fb-ae04-97d1d0ee2463?syn-25a6b1a6=1) — Financial Times
+- [Anthony Fauci’s Group Chat Is Making People Lose Their Minds](https://www.theatlantic.com/health/2026/08/fauci-texts/688291/?utm_source=feed) — The Atlantic
+
 ## 2026-08-15
 
 - [AI Is Changing Military Morality](https://foreignpolicy.com/2026/08/14/ai-military-just-war/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Why Is AI So Popular in China?](https://foreignpolicy.com/2026/08/11/ai-china-us-data-center-opposition-regulation-trump-xi-summit/) — Foreign Policy
 - [China-linked hackers hit Taiwan in unprecedented 'autonomous' AI cyber attack](https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1) — Financial Times
 - [Thailand's $3 government bonds attract retail investors](https://asia.nikkei.com/business/markets/wealth-management/thailand-s-3-government-bonds-attract-retail-investors) — Nikkei Asia
-
-## 2026-08-11
-
-- [EU border checks double queues at major airports](https://www.ft.com/content/42137dd8-8fdc-4d66-b193-ca52d51bd929?syn-25a6b1a6=1) — Financial Times
-- [Europe's Summer of Nightmares](https://foreignpolicy.com/2026/08/10/europe-heat-wildfires-climate-economy-energy/) — Foreign Policy
-- [UK approves its second weight-loss pill while EU access lags](https://www.politico.eu/article/uk-approves-its-second-weight-loss-pill-while-eu-access-lags/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Kurdish film-maker recounts 'inhumane' ICE force-feeding](https://www.theguardian.com/us-news/2026/aug/10/ice-force-feeding-detention-gabar-choli) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

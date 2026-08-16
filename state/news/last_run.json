@@ -1,26 +1,69 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-15",
-  "briefing_date": "2026-08-15",
-  "inbox_date": "2026-08-15",
+  "date": "2026-08-16",
+  "briefing_date": "2026-08-16",
+  "inbox_date": "2026-08-16",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-15.md",
-  "inbox_path": "inbox/news/2026-08-15-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-16.md",
+  "inbox_path": "inbox/news/2026-08-16-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "El Gobierno endurece el discurso sobre la inmigración asediado por la crisis de Ceuta", "section": "spain", "reason": "dedup: Ceuta crisis rhetoric saturated in recent briefings without a fresh institutional trigger"},
-    {"headline": "Ceuta, dos semanas desbordada: cientos de personas aún duermen en la calle con la sensación de que va para largo", "section": "spain", "reason": "dedup: humanitarian aftermath of the July crossing already covered repeatedly"},
-    {"headline": "El Gobierno confía en que Marruecos impida nuevas entradas este fin de semana pero refuerza la seguridad de Ceuta y Melilla", "section": "spain", "reason": "theme_duplicate: border clampdown moved to Other Headlines instead of main Spain section"},
-    {"headline": "Despliegue policial inédito en Ceuta ante el temor a una nueva entrada masiva: claves de la crisis fronteriza", "section": "spain", "reason": "theme_duplicate: same Ceuta security build-up as other rejected items"},
-    {"headline": "Decenas de guardias civiles y militares desembarcan en Ceuta ante el 15-A: “La alerta está, pero no es una amenaza real”", "section": "spain", "reason": "theme_duplicate: Ceuta weekend alert added no material development beyond force posture"},
-    {"headline": "Calma en las calles pero un runrún en las cabezas: Melilla teme un aluvión como el de Ceuta", "section": "spain", "reason": "theme_duplicate: Melilla spillover kept to Other Headlines with the wider border clampdown"},
-    {"headline": "Sumar rechaza la prórroga de la central nuclear de Almaraz y acusa al PSOE de incumplir el pacto de gobierno", "section": "spain", "reason": "theme_duplicate: kept the underlying Almaraz extension story only"},
-    {"headline": "Lage im Überblick: Frist verstreicht: Iran-Krieg vor ungewisser Zukunft", "section": "germany", "reason": "geographic_fit: Gulf shipping and Iran diplomacy belong in World"},
-    {"headline": "+++ Iran-Krieg +++: Iran – Keine Entscheidung über neue Verhandlungen mit den USA", "section": "germany", "reason": "geographic_fit: live Iran war blog belongs in World"},
-    {"headline": "SPD-Jugend in Brandenburg: Juso-Landeschef: Parteibasis ist erschöpft und gefrustet", "section": "berlin", "reason": "geographic_fit: Brandenburg party-base story is not Berlin city governance"},
-    {"headline": "Sturmschäden beseitigt: Ostdeutschlands schönste Wanderregion gibt fast alle Wege wieder frei", "section": "berlin", "reason": "geographic_fit: Saxony tourism recovery is outside Berlin local coverage"},
-    {"headline": "OpenAI upheaval mounts as Sam Altman readies IPO push", "section": "selected_reads", "reason": "theme_duplicate: used in World section instead of Selected Reads"}
+    {
+      "headline": "Marruecos eleva a 294 los migrantes interceptados por la fuerza para frenar un intento de entrada a Ceuta",
+      "section": "spain",
+      "reason": "theme_duplicate: border-control update kept to Other Headlines rather than a second Ceuta main-section item"
+    },
+    {
+      "headline": "Ceuta al límite: urgencias repletas, vecinos desbordados y ruidos de sirena",
+      "section": "spain",
+      "reason": "dedup: humanitarian fallout in Ceuta has been covered repeatedly without a fresh institutional trigger"
+    },
+    {
+      "headline": "Marruecos exhibe su máxima fuerza como guardián de la frontera ceutí",
+      "section": "spain",
+      "reason": "theme_duplicate: same Ceuta clampdown theme as other rejected border stories"
+    },
+    {
+      "headline": "Krieg in der Ukraine: Russland greift erneut Kiew an - Ukraine zielt auf Moskau",
+      "section": "germany",
+      "reason": "geographic_fit: battlefield update belongs in World, not Germany"
+    },
+    {
+      "headline": "+++ Iran-Krieg +++: Betrieb im Hafen von Mokka offenbar eingestellt",
+      "section": "germany",
+      "reason": "geographic_fit: Middle East shipping and Iran diplomacy belong in World"
+    },
+    {
+      "headline": "Sportpolitik: IOC-Präsidentin trifft deutsche Olympia-Bewerber",
+      "section": "berlin",
+      "reason": "headline_gap: Berlin angle was too thin compared with stronger city-level items"
+    },
+    {
+      "headline": "48.000 Geldautomaten müssen umgebaut werden – Brüssel rügt Deutschland",
+      "section": "berlin",
+      "reason": "dedup: identical ATM accessibility story already used in the 2026-08-15 Berlin section"
+    },
+    {
+      "headline": "Sturmschäden beseitigt: Ostdeutschlands schönste Wanderregion gibt fast alle Wege wieder frei",
+      "section": "berlin",
+      "reason": "geographic_fit: Saxony hiking-route recovery is outside Berlin local coverage"
+    },
+    {
+      "headline": "AI Is Changing Military Morality",
+      "section": "selected_reads",
+      "reason": "repeat_guard: already recommended on 2026-08-15"
+    },
+    {
+      "headline": "American missionary kidnapped in Niger freed after nine months",
+      "section": "selected_reads",
+      "reason": "repeat_guard: already recommended on 2026-08-15"
+    },
+    {
+      "headline": "Mozilla’s CTO thinks AI should be built like the internet",
+      "section": "selected_reads",
+      "reason": "repeat_guard: already recommended on 2026-08-14"
+    }
   ],
-  "notes": "Spain: Almaraz extension, ageing primary care, university-ranking slippage. Germany: Wero uptake, algae health warnings, Ritter Sport packaging rewrite. Berlin: gun violence, RE1 disruption, ATM accessibility delay. World: Canadian plasma safety probe, OpenAI IPO strain, Manus travel curbs easing."
+  "notes": "Spain: Ceuta PSOE rift, wildfire-capacity gaps, longevity inequality. Germany: Syrian status reviews, Monschau wildfire, new-father brain study. Berlin: crack crisis in public toilets, Rave the Planet security, KaDeWe retail reset. World: Indonesia quake rescue, Ontario bike-lane ruling, Ferrexpo's wartime ownership fight."
 }
