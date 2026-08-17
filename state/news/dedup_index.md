@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-17
+
+- **spain-unpaid-overtime-68k-job-equivalent** — eldiario.es: Spain is still recording about 2.5 million unpaid overtime hours a week, equivalent to roughly 68,000 jobs (section: spain)
+- **spain-northern-drought-water-trucks** — eldiario.es: drought is forcing northern towns onto tanker deliveries as springs fail and pasture disappears (section: spain)
+- **spain-public-sector-temp-hiring-sanctions** — EL PAÍS: Madrid prepares alerts and sanctions to curb abusive temporary hiring across the public sector (section: spain)
+- **germany-low-water-builders-costs** — Handelsblatt: low river levels are raising construction-material costs and delay risks for German builders (section: germany)
+- **germany-merz-debt-course-internal-doubts** — Handelsblatt: Union politicians are openly questioning Merz's fiscal line as productivity weakness narrows room for borrowing (section: germany)
+- **germany-franconia-bomb-scare-rail-disruption** — Tagesspiegel: a bomb scare halted train traffic in Franconia, exposing another fragility in Germany's rail network (section: germany)
+- **berlin-wild-boars-residential-edge** — Tagesspiegel: wild boars are pushing deeper into residential areas on Berlin's wooded fringe (section: berlin)
+- **berlin-mariendorf-trotting-derby-fragolino-rosso** — rbb24: Fragolino Rosso won the 131st German Trotting Derby in Berlin-Mariendorf (section: berlin)
+- **berlin-marienfelde-spaeti-outer-district-costs** — rbb24: reporting from a Marienfelde späti captured outer-district pressure around work, family logistics and rising costs (section: berlin)
+- **world-lula-fourth-term-bid-brazil** — The Guardian: Lula launched a fourth-term presidential bid against Flávio Bolsonaro in Brazil (section: world)
+- **world-trump-scale-back-south-korea-drills** — Financial Times: Trump says the US will scale back joint military drills with South Korea (section: world)
+- **world-shipping-chokepoints-war-climate-cost-surge** — Financial Times: war and climate stress are driving up shipping costs through major global chokepoints (section: world)
+
 ## 2026-08-16
 
 - **spain-ceuta-psoe-revolt-government-delegate** — eldiario.es: Ceuta Socialist lawmaker Melchor León demands the government delegate resign over crisis management (section: spain)
@@ -200,33 +215,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-taiwan-hybrid-warfare-regional-warning** — Nikkei Asia: Taiwan security chief says Beijing's grey-zone tactics test whole region (section: world)
 - **world-west-africa-anti-lgbtq-legislation-wave** — The Guardian: Senegal and Niger tighten laws as campaigners warn of political scapegoating (section: world)
 - **world-wall-street-blockchain-settlement-pilots** — Financial Times: banks accelerate distributed-ledger market experiments despite systemic-risk warnings (section: world)
-
-## 2026-08-02
-
-- **spain-sanchez-eu-letter-interior-ministers-ceuta** — eldiario.es: PM accuses several EU governments of attacking Spain over Ceuta and demands emergency interior-ministers meeting (section: spain)
-- **spain-zapatero-plus-ultra-60-accounts-udf-access** — eldiario.es: judge authorises financial police scrutiny of 60-plus Zapatero-linked accounts as Plus Ultra probe enters tenth week (section: spain)
-- **spain-trump-morocco-praise-spain-distance-ceuta** — EL PAÍS: Trump warmth toward Mohammed VI contrasts with cooler treatment of Sánchez during Ceuta crisis (section: spain)
-- **germany-spd-bas-klingbeil-leadership-rumblings** — Handelsblatt: internal doubts over SPD parliamentary leader and co-chair ahead of state elections (section: germany)
-- **germany-umwelthilfe-heizungsgesetz-court-challenge** — Tagesspiegel: Deutsche Umwelthilfe to sue in September to overturn revised heating law (section: germany)
-- **germany-ceuta-crisis-eu-border-protection-debate** — Tagesspiegel: Berlin joins calls for tougher EU border rules after Spanish exclave surge (section: germany)
-- **berlin-volksbuhne-prinzenbad-ticket-lottery** — Tagesspiegel: Lilienthal opens ticket process for theatre's pop-up swimming pool (section: berlin)
-- **berlin-bfc-dynamo-regionalliga-opening-wins** — rbb24: BFC Dynamo and FC Stahnsdorf win Regionalliga Nordost openers (section: berlin)
-- **berlin-rowing-em-varese-berlin-athletes** — rbb24: German rowers including Berlin-based crews medal at European championships in Varese (section: berlin)
-- **world-trump-iran-strikes-cancelled-deal-outline** — Financial Times: US president calls off planned Iran attacks after Gulf allies intervene (section: world)
-- **world-peru-nazca-tourist-plane-crash-13-dead** — The Guardian: Cessna crash near Nazca Lines kills 11 tourists and two pilots (section: world)
-- **world-thailand-china-hedge-trump-tariffs** — Nikkei Asia: analysts say US trade pressure is pushing Bangkok closer to Beijing (section: world)
-
-## 2026-08-01
-
-- **spain-ceuta-48000-voluntary-returns-morocco** — La Vanguardia: Interior says nearly all of roughly 50,000 Ceuta crossers have voluntarily returned to Morocco after city overwhelmed (section: spain)
-- **spain-pedraz-psoe-leire-diez-accounts-imputation** — eldiario.es: National Court judge authorises scrutiny of six Socialist Party bank accounts in Leire Díez influence probe (section: spain)
-- **spain-spotify-betting-chart-manipulation** — EL PAÍS: gambling markets on chart positions incentivise fraudulent streaming inflation (section: spain)
-- **germany-rhine-niedrigwasser-freight-bottleneck** — Handelsblatt: record low river levels force partially loaded barges and raise inland-shipping costs (section: germany)
-- **germany-fatal-storm-cleanup-nationwide** — Tagesspiegel: one dead and several seriously injured as severe weather uproots trees across Germany (section: germany)
-- **germany-fruehstartrente-subsidised-depot-2027** — Tagesspiegel: ING Germany chief backs state-backed early-start pension depot launching 2027 (section: germany)
-- **berlin-cocaine-smuggling-pensioner-charge** — The Berliner: prosecutors charge 70-year-old with coordinating 2.2-tonne cocaine import (section: berlin)
-- **berlin-abgeordnetenhauswahl-poster-campaign** — Tagesspiegel: parties begin hanging tens of thousands of posters ahead of state parliament election (section: berlin)
-- **berlin-brandenburg-wildfire-mediterranean-risk** — Tagesspiegel: experts ask whether pine forests around Berlin could burn with southern-European intensity (section: berlin)
-- **world-drc-ebola-fastest-outbreak-record** — The Guardian: confirmed cases pass 3,360 with ~1,500 deaths in fastest-growing Ebola wave on record (section: world)
-- **world-south-korea-won-dollar-rally-july** — Financial Times: won strengthens nearly 8% against dollar despite tech sell-off (section: world)
-- **world-ntt-data-india-payments-platform** — Nikkei Asia: Japanese IT group launches digital payments product in India (section: world)

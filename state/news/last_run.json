@@ -1,53 +1,63 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-16",
-  "briefing_date": "2026-08-16",
-  "inbox_date": "2026-08-16",
+  "date": "2026-08-17",
+  "briefing_date": "2026-08-17",
+  "inbox_date": "2026-08-17",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-16.md",
-  "inbox_path": "inbox/news/2026-08-16-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-17.md",
+  "inbox_path": "inbox/news/2026-08-17-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Marruecos eleva a 294 los migrantes interceptados por la fuerza para frenar un intento de entrada a Ceuta",
+      "headline": "España mantendrá intacta su estrategia con Marruecos pese a las críticas por la crisis de Ceuta",
       "section": "spain",
-      "reason": "theme_duplicate: border-control update kept to Other Headlines rather than a second Ceuta main-section item"
+      "reason": "dedup: Ceuta-Morocco strategy has dominated recent Spain briefings without a fresh policy break"
     },
     {
-      "headline": "Ceuta al límite: urgencias repletas, vecinos desbordados y ruidos de sirena",
+      "headline": "La crisis migratoria de Ceuta desvela un memorial de agravios de Marruecos hacia España",
       "section": "spain",
-      "reason": "dedup: humanitarian fallout in Ceuta has been covered repeatedly without a fresh institutional trigger"
+      "reason": "theme_duplicate: same Ceuta diplomatic grievance cycle as other rejected Spain items"
     },
     {
-      "headline": "Marruecos exhibe su máxima fuerza como guardián de la frontera ceutí",
+      "headline": "Así es la nave en la que Ceuta está realojando a decenas de niñas y adolescentes que dormían en la calle",
       "section": "spain",
-      "reason": "theme_duplicate: same Ceuta clampdown theme as other rejected border stories"
+      "reason": "theme_duplicate: humanitarian Ceuta update was kept to Other Headlines rather than a third main-section migration item"
     },
     {
-      "headline": "Krieg in der Ukraine: Russland greift erneut Kiew an - Ukraine zielt auf Moskau",
+      "headline": "Paartherapeuten skeptisch: Mathematiker will Formel für Liebe gefunden haben",
       "section": "germany",
-      "reason": "geographic_fit: battlefield update belongs in World, not Germany"
+      "reason": "headline_gap: novelty was too slight for a Germany slot despite the science framing"
     },
     {
-      "headline": "+++ Iran-Krieg +++: Betrieb im Hafen von Mokka offenbar eingestellt",
+      "headline": "70. Geburtstag: Kardinal Woelki: So war der Dreh mit Hape Kerkeling",
       "section": "germany",
-      "reason": "geographic_fit: Middle East shipping and Iran diplomacy belong in World"
+      "reason": "relevance: interview feature fell below the briefing's policy-economy threshold"
     },
     {
-      "headline": "Sportpolitik: IOC-Präsidentin trifft deutsche Olympia-Bewerber",
-      "section": "berlin",
-      "reason": "headline_gap: Berlin angle was too thin compared with stronger city-level items"
+      "headline": "Nikkei, Yen, Hang Seng: Asien-Börsen treten auf der Stelle",
+      "section": "germany",
+      "reason": "geographic_fit: Asian market wrap belongs in World, not Germany"
     },
     {
-      "headline": "48.000 Geldautomaten müssen umgebaut werden – Brüssel rügt Deutschland",
+      "headline": "Weitere Details zum Helikopterabsturz im Erzgebirge",
       "section": "berlin",
-      "reason": "dedup: identical ATM accessibility story already used in the 2026-08-15 Berlin section"
+      "reason": "geographic_fit: Saxony crash update is outside Berlin local coverage"
     },
     {
-      "headline": "Sturmschäden beseitigt: Ostdeutschlands schönste Wanderregion gibt fast alle Wege wieder frei",
+      "headline": "FKK-Bereich auf Kreuzfahrtschiff verkleinert: Passagiere bekommen Geld zurück",
       "section": "berlin",
-      "reason": "geographic_fit: Saxony hiking-route recovery is outside Berlin local coverage"
+      "reason": "geographic_fit: cruise-ship compensation case had no meaningful Berlin angle"
+    },
+    {
+      "headline": "Leichtathletik-EM: Mixed-Staffel um Lückenkemper gewinnt Silber",
+      "section": "berlin",
+      "reason": "publisher_pool_thin: Berlin angle was weaker than the metro items kept despite a thin local-news pool"
+    },
+    {
+      "headline": "Schwimm-EM: Isabel Gose sichert sich nächstes Silber",
+      "section": "berlin",
+      "reason": "publisher_pool_thin: athlete result lacked a strong city-level hook for the Berlin section"
     },
     {
       "headline": "AI Is Changing Military Morality",
@@ -58,12 +68,7 @@
       "headline": "American missionary kidnapped in Niger freed after nine months",
       "section": "selected_reads",
       "reason": "repeat_guard: already recommended on 2026-08-15"
-    },
-    {
-      "headline": "Mozilla’s CTO thinks AI should be built like the internet",
-      "section": "selected_reads",
-      "reason": "repeat_guard: already recommended on 2026-08-14"
     }
   ],
-  "notes": "Spain: Ceuta PSOE rift, wildfire-capacity gaps, longevity inequality. Germany: Syrian status reviews, Monschau wildfire, new-father brain study. Berlin: crack crisis in public toilets, Rave the Planet security, KaDeWe retail reset. World: Indonesia quake rescue, Ontario bike-lane ruling, Ferrexpo's wartime ownership fight."
+  "notes": "Spain: unpaid overtime, drought in the north, public-sector temporality. Germany: low-water construction costs, Merz fiscal doubts, Franconia rail disruption. Berlin pool thin: used strongest local/metro items available from the synthesis inbox. World: Lula campaign launch, South Korea drills, higher chokepoint shipping costs."
 }

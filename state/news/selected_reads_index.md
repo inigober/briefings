@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-17
+
+- [Thailand Q2 GDP growth slows to 1.9% on energy, travel woes](https://asia.nikkei.com/economy/thailand-q2-gdp-growth-slows-to-1.9-on-energy-travel-woes) — Nikkei Asia
+- [‘Deliberate negligence’: Russian nuclear power company with EU operations accused of violating safety standards](https://www.politico.eu/article/rosatom-hungary-nuclear-energy-egypt-russia-el-dabaa-paks-ii-russia-safety-standards-violations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Private credit under strain as troubled loans swell](https://www.ft.com/content/67acde0d-4154-4332-b33b-2d03d3a86007?syn-25a6b1a6=1) — Financial Times
+- [The next China shock will come from open-source AI](https://www.ft.com/content/2f705a5a-2c4e-4bca-b08a-ed9372ef3b2e) — Financial Times
+
 ## 2026-08-16
 
 - [Drone Swarms Push AI Deeper Into Modern Warfare](https://www.bloomberg.com/news/videos/2026-08-15/drone-swarms-push-ai-deeper-into-modern-warfare-video) — Bloomberg
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Mark Zuckerberg's Convenient Truth](https://www.theatlantic.com/technology/2026/08/mark-zuckerberg-ai-manifesto/688269/?utm_source=feed) — The Atlantic
 - [Legal AI start-up Legora seeks funds at more than $10bn valuation](https://www.ft.com/content/8202960d-ec90-4709-96e0-ab9cbddb5258?syn-25a6b1a6=1) — Financial Times
 - [Zambia elections haunted by ghost of incumbent president's arch-rival](https://www.theguardian.com/world/2026/aug/13/zambia-elections-hakainde-hichilema-haunted-ghost-incumbent-president-arch-rival-edgar-lungu) — The Guardian
-
-## 2026-08-12
-
-- [JD Vance asked Ukraine to halt strikes on tankers using Russian port](https://www.ft.com/content/725b4d15-bd8d-4083-a04e-db016338af2e?syn-25a6b1a6=1) — Financial Times
-- [Why Is AI So Popular in China?](https://foreignpolicy.com/2026/08/11/ai-china-us-data-center-opposition-regulation-trump-xi-summit/) — Foreign Policy
-- [China-linked hackers hit Taiwan in unprecedented 'autonomous' AI cyber attack](https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1) — Financial Times
-- [Thailand's $3 government bonds attract retail investors](https://asia.nikkei.com/business/markets/wealth-management/thailand-s-3-government-bonds-attract-retail-investors) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 
