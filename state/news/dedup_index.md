@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-18
+
+- **spain-ceuta-reception-sites-pact-1500** — EL PAÍS: Madrid and Ceuta agreed on four sites for 1,500 reception places after the enclave's migration surge (section: spain)
+- **spain-villarejo-bbva-judge-suspension** — eldiario.es: Spain's judicial council is moving to suspend judge Eduardo Ortega Martín before his Villarejo-BBVA trial (section: spain)
+- **spain-infernal-nights-health-impact** — eldiario.es: rising tropical and torrid nights are turning heat into a round-the-clock health problem (section: spain)
+- **germany-drone-defence-gaps-dobrindt** — Tagesspiegel: Germany's anti-drone plans still leave critical sites poorly protected after the Leipzig incident (section: germany)
+- **germany-vw-diess-bulli-bumerang** — Handelsblatt: Volkswagen is still paying for a Herbert Diess-era bet that may hit a Lower Saxony plant (section: germany)
+- **germany-standing-sections-national-team-return** — Tagesspiegel: the DFB is reintroducing standing-room tickets for internationals after more than 25 years (section: germany)
+- **berlin-landesnetz-cyberattack-data-exfiltration** — rbb24: a cyberattack on Berlin's state network forced two senate administrations offline and leaked sensitive data (section: berlin)
+- **berlin-pankow-homeless-voting-pilot** — rbb24: Pankow is piloting election-office support for homeless Berliners ahead of the 2026 vote (section: berlin)
+- **berlin-reed-beds-waterways-heat-adaptation** — rbb24: reed-bed renaturation is being pitched as climate infrastructure for Berlin waterways (section: berlin)
+- **world-google-pixel-china-exit-2027** — Nikkei Asia: Google plans to stop making Pixel products in China in 2027 (section: world)
+- **world-airlines-fares-jet-fuel-stand-off** — Financial Times: airlines are resisting fare cuts even as jet-fuel costs ease after the Iran conflict shock (section: world)
+- **world-zimbabwe-lake-kariba-death-toll-68** — The Guardian: more bodies recovered after the Lake Kariba ferry disaster took the death toll to 68 (section: world)
+
 ## 2026-08-17
 
 - **spain-unpaid-overtime-68k-job-equivalent** — eldiario.es: Spain is still recording about 2.5 million unpaid overtime hours a week, equivalent to roughly 68,000 jobs (section: spain)
@@ -200,18 +215,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-pakistan-imran-khan-jail-influence** — Nikkei Asia: jailed former PM remains opposition gravitational centre three years into sentence (section: world)
 - **world-china-methanol-industrial-policy-lesson** — Foreign Policy: abandoned Ford-China methanol project illustrates value of preserving multiple energy pathways (section: world)
 - **world-silicon-valley-chinese-ai-models-split** — Rest of World: low-cost Chinese open-weight models divide US tech executives and policymakers on security vs competitiveness (section: world)
-
-## 2026-08-03
-
-- **spain-montoro-gas-kickbacks-probe-relaunch** — eldiario.es: Tarragona judge extends instruction against ex-finance minister Cristóbal Montoro over alleged gas-sector commission scheme (section: spain)
-- **spain-housing-decreto-august-last-window** — eldiario.es: Sánchez coalition faces August deadline to pass blocked short-term rental decree after Junts and Podemos reject earlier draft (section: spain)
-- **spain-morocco-11-deaths-ceuta-border-admission** — EL PAÍS: Rabat acknowledges 11 fatalities on Moroccan side while disputing Madrid's higher death toll (section: spain)
-- **germany-aigner-bundespraesidentin-spd-backing** — Tagesspiegel: senior SPD figures endorse Bavarian conservative Ilse Aigner as Steinmeier successor (section: germany)
-- **germany-holographic-will-signature-ruling** — Handelsblatt: federal court clarifies illegible signatures invalidate handwritten testaments (section: germany)
-- **germany-blitzermarathon-speed-enforcement** — Tagesspiegel: coordinated police speed-camera campaign across several states after summer road deaths (section: germany)
-- **berlin-election-housing-programmes-compared** — rbb24: parties diverge on rent regulation and construction targets in Abgeordnetenhaus election manifestos (section: berlin)
-- **berlin-sinti-roma-holocaust-remembrance** — rbb24: commemorations in Berlin and Brandenburg honour Roma and Sinti victims of National Socialism (section: berlin)
-- **berlin-jugendwort-2026-public-vote** — The Berliner: annual youth-word competition opens voting on 2026 shortlist (section: berlin)
-- **world-taiwan-hybrid-warfare-regional-warning** — Nikkei Asia: Taiwan security chief says Beijing's grey-zone tactics test whole region (section: world)
-- **world-west-africa-anti-lgbtq-legislation-wave** — The Guardian: Senegal and Niger tighten laws as campaigners warn of political scapegoating (section: world)
-- **world-wall-street-blockchain-settlement-pilots** — Financial Times: banks accelerate distributed-ledger market experiments despite systemic-risk warnings (section: world)

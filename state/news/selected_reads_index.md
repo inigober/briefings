@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-18
+
+- [AI hasn’t gone rogue. It’s worse than that](https://www.ft.com/content/a9947be4-5c0c-47ee-acae-a2aeaf01a0a0?syn-25a6b1a6=1) — Financial Times
+- [China Wants Its Data to Power the World’s A.I.](https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html) — The New York Times
+- [Why Australia’s Getting Tough on China Again](https://foreignpolicy.com/2026/08/17/australia-china-getting-tough-trump/) — Foreign Policy
+- [Takaichi's food tax cut will leave Japan budget relying on inflation](https://asia.nikkei.com/spotlight/comment/takaichi-s-food-tax-cut-will-leave-japan-budget-relying-on-inflation) — Nikkei Asia
+
 ## 2026-08-17
 
 - [Thailand Q2 GDP growth slows to 1.9% on energy, travel woes](https://asia.nikkei.com/economy/thailand-q2-gdp-growth-slows-to-1.9-on-energy-travel-woes) — Nikkei Asia
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Foreign buyers warm up to Indian equities amid anti-AI sentiment](https://asia.nikkei.com/business/markets/equities/foreign-buyers-warm-up-to-indian-equities-amid-anti-ai-sentiment) — Nikkei Asia
 - [French ambassador to CAR investigated over claims he hosted dozens of women](https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher) — The Guardian
 - [Hyperscaler AI borrowing binge shakes up foreign credit markets](https://www.ft.com/content/ff2742b0-2c71-471c-b725-fea8f8021f62?syn-25a6b1a6=1) — Financial Times
-
-## 2026-08-13
-
-- [Why we should all be worried about AI in elections](https://restofworld.org/2026/ai-elections-deepfake-voter-chatbot/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [Mark Zuckerberg's Convenient Truth](https://www.theatlantic.com/technology/2026/08/mark-zuckerberg-ai-manifesto/688269/?utm_source=feed) — The Atlantic
-- [Legal AI start-up Legora seeks funds at more than $10bn valuation](https://www.ft.com/content/8202960d-ec90-4709-96e0-ab9cbddb5258?syn-25a6b1a6=1) — Financial Times
-- [Zambia elections haunted by ghost of incumbent president's arch-rival](https://www.theguardian.com/world/2026/aug/13/zambia-elections-hakainde-hichilema-haunted-ghost-incumbent-president-arch-rival-edgar-lungu) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
