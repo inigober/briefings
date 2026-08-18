@@ -1,31 +1,31 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-08-11",
-  "briefing_date": "2026-08-11",
-  "inbox_date": "2026-08-11",
-  "week_start": "2026-08-12",
-  "week_end": "2026-08-18",
+  "date": "2026-08-18",
+  "briefing_date": "2026-08-18",
+  "inbox_date": "2026-08-18",
+  "week_start": "2026-08-19",
+  "week_end": "2026-08-25",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-08-11.md",
-  "inbox_path": "inbox/berlin-culture/2026-08-11-synthesis.json",
-  "items_count": 12,
+  "briefing_path": "briefings/berlin-culture/2026-08-18.md",
+  "inbox_path": "inbox/berlin-culture/2026-08-18-synthesis.json",
+  "items_count": 13,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 1,
+    "exhibitions": 2,
     "film": 0,
     "performing_arts": 1,
-    "music": 1,
-    "wildcards": 3,
+    "music": 2,
+    "wildcards": 2,
     "advance_radar": 3
   },
   "thin_sections": ["exhibitions", "film", "performing_arts", "music"],
   "omitted_sections": ["film"],
   "validation_warnings": [
-    "Section 'exhibitions' has 1 entries (style minimum 4)",
+    "Section 'exhibitions' has 2 entries (style minimum 4)",
     "Section 'film' has 0 entries (style minimum 2)",
     "Section 'performing_arts' has 1 entries (style minimum 2)",
-    "Section 'music' has 1 entries (style minimum 3)"
+    "Section 'music' has 2 entries (style minimum 3)"
   ],
-  "verification_fetches": 5,
-  "notes": "Thin inbox (17 synthesis items). Spot-checked Sounding Light (Tanz im August, 15–17 Aug), Meinhart+Rosenwinkel (A-Trane, 15 Aug sold out), What time is it in the world (PSM, closes 14 Aug), L2/are we listening (DOCK 11, 14–16 Aug), Haffner (A-Trane, 18 Aug sold out). Dropped Peter Hujar (not on Gropius Bau programme). Dropped Hanno Leichtmann OSCILLAZIONI (July 31–Aug 1 only). Dropped HTRK+Loraine James (Aug 2, sold out). Venue correction: Empty Places, Crowded Hearts at Crone Berlin (inbox had PSM). Promoted KINDL Ferien-Rallye from prior Advance Radar to Wildcards."
+  "verification_fetches": 0,
+  "notes": "CI synthesis from inbox only; skipped live spot-checks and HTTP verification per workflow constraints. Thin source week concentrated around one Arsenal screening, one Radialsystem performance, and a silent green cluster. Kept cross-references instead of duplicating Top Picks and omitted a second film pick rather than pad the section."
 }

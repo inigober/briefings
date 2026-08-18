@@ -16,6 +16,19 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-08-11 | advance_radar | Frank Jimin Hopp 매난국죽 Mae Nan Guk Juk: Diasporic Memories Formed in Clay | Müllerstraße 146/47, Wedding | https://www.indexberlin.com/events/list/45016/mae-nan-guk-juk-diasporic-memories-formed-in-clay
 2026-08-11 | advance_radar | Shirin Sabahi — Domesticity III | Pforte | https://www.indexberlin.com/events/list/44626/domesticity-iii
 2026-08-11 | advance_radar | Judgment and Calculation – Drei Systeme von Farbe | Kluckstraße 23a, Tiergarten | https://www.indexberlin.com/events/list/44495/judgment-and-calculation-drei-systeme-von-farbe
+2026-08-18 | top_picks | Susan Sontag – Seeing and Being Seen | Schwules Museum | https://www.museumsportal-berlin.de/en/exhibitions/map/
+2026-08-18 | top_picks | FORMER EAST / FORMER WEST | Arsenal Filminstitut, Berlin | https://www.arsenal-berlin.de/campus/summer-school/2026/
+2026-08-18 | top_picks | Psychic Liberation Night: Niloofar Asghary + Júlia Koffler | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/programm/2026/8
+2026-08-18 | exhibitions | Hours Without Edges | Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.indexberlin.com/exhibitions/list/44393/hours-without-edges
+2026-08-18 | exhibitions | Brother Wolf | Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.indexberlin.com/exhibitions/list/44392/brother-wolf
+2026-08-18 | performing_arts | CLAP & SLAP | Radialsystem | https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/prodMonth/08-2026?cHash=1da7d224e55224635f7d783cbd7146cf
+2026-08-18 | music | Unguarded pres. Jungstötter + Blurrydog | silent green Kulturquartier, Berlin | https://www.silent-green.net/en/programme/2026/8
+2026-08-18 | music | silent green Sommerfest 2026 | silent green Kulturquartier, entire site / Kuppelhalle / lawn | https://www.silent-green.net/en/programme/detail/silent-green-sommerfest-2026
+2026-08-18 | wildcards | Neighbouring as a Practice of Care — On Spatial Awareness and or Recognition | Reinickendorfer Str. 17, 13347 Berlin | https://www.indexberlin.com/events/list/45370/neighbouring-as-a-practice-of-care-on-spatial-awareness-and-or-recognition
+2026-08-18 | wildcards | Frank Jimin Hopp 매난국죽 Mae Nan Guk Juk: Diasporic Memories Formed in Clay | Müllerstr. 146/47, 13353 Berlin | https://www.indexberlin.com/events/list/45016/mae-nan-guk-juk-diasporic-memories-formed-in-clay
+2026-08-18 | advance_radar | Josef Kaiser. Bauen für die DDR | Alte Jakobstr. 124-128, 10969 Berlin | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
+2026-08-18 | advance_radar | Ruba Al-Sweel, Arvin Arta, Dana Dawud, Noura Tafeche and Zein Majali Short Film Screening | Frankfurter Tor 1, 10243 Berlin | https://www.indexberlin.com/events/list/44942/short-film-screening
+2026-08-18 | advance_radar | Itchi Fleischer Unzucht – Kiss the Devil’s Arse | Weigandufer, corner of Wildenbruchbrücke, next to the mooring, 12045 Berlin | https://www.indexberlin.com/events/list/44861/unzucht-kiss-the-devil-s-arse
 2026-06-23 | top_picks | Mash Dance Berlin 2026 – Victims & Images: Vol 2 | DOCK11 | https://dock11-berlin.de/en/theater/program/calendar/victims-images-vol-2
 2026-06-23 | top_picks | Ayumi Paul – Fischmond am Waldsee | Haus am Waldsee (Sculpture Garden) | https://hausamwaldsee.de/en/anniversary-80-years-haus-am-waldsee/
 2026-06-23 | exhibitions | Haus am Waldsee — Wo ich wohne & Green Sanctuary | Haus am Waldsee | https://hausamwaldsee.de/en/wo-ich-wohne
