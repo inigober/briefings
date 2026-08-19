@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-19
+
+- [Iran eyes military targets in Europe if Trump escalates war, insiders say](https://www.ft.com/content/9ea0cde8-129e-4d88-976f-e367b7dd4d2c?syn-25a6b1a6=1) — Financial Times
+- [Iran war energy crisis sparks Philippine solar boom](https://asia.nikkei.com/business/energy/iran-war-energy-crisis-sparks-philippine-solar-boom) — Nikkei Asia
+- [Climate change is cooking Europe’s oceans, scientists find](https://www.politico.eu/article/climate-change-is-cooking-europes-oceans-world-weather-attribution-mediterranean-sea/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [What Really Happens If China Wins the AI Race?](https://www.theatlantic.com/technology/2026/08/what-if-china-wins-ai-race/688256/?utm_source=feed) — The Atlantic
+
 ## 2026-08-18
 
 - [AI hasn’t gone rogue. It’s worse than that](https://www.ft.com/content/a9947be4-5c0c-47ee-acae-a2aeaf01a0a0?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [America’s AI election](https://www.ft.com/content/5f8858b8-7468-4438-b269-e1b1947b1926) — Financial Times
 - [American missionary kidnapped in Niger freed after nine months](https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping) — The Guardian
 - [Heat Is Hammering Europe, Again. Here’s What That Looks Like.](https://www.nytimes.com/2026/08/14/world/europe/europe-heat-wave-photos.html) — The New York Times
-
-## 2026-08-14
-
-- [Mozilla's CTO thinks AI should be built like the internet](https://restofworld.org/2026/open-source-ai-infrastructure-mozilla/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [Foreign buyers warm up to Indian equities amid anti-AI sentiment](https://asia.nikkei.com/business/markets/equities/foreign-buyers-warm-up-to-indian-equities-amid-anti-ai-sentiment) — Nikkei Asia
-- [French ambassador to CAR investigated over claims he hosted dozens of women](https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher) — The Guardian
-- [Hyperscaler AI borrowing binge shakes up foreign credit markets](https://www.ft.com/content/ff2742b0-2c71-471c-b725-fea8f8021f62?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

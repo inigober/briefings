@@ -1,74 +1,69 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-18",
-  "briefing_date": "2026-08-18",
-  "inbox_date": "2026-08-18",
+  "date": "2026-08-19",
+  "briefing_date": "2026-08-19",
+  "inbox_date": "2026-08-19",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-18.md",
-  "inbox_path": "inbox/news/2026-08-18-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-19.md",
+  "inbox_path": "inbox/news/2026-08-19-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Cambio de tono en Ceuta: Vivas pasa al choque contra el Gobierno por la crisis migratoria",
+      "headline": "El Gobierno mantendrá el despliegue policial en Ceuta hasta que pueda zanjar la crisis",
       "section": "spain",
-      "reason": "theme_duplicate: the broader Ceuta reception pact was kept and a second Vivas-politics item would have crowded the section"
+      "reason": "recent_topic: Ceuta has led the Spain section repeatedly this week, and today's policing update did not clear the novelty bar against the other available stories"
     },
     {
-      "headline": "El poblado de la playa El Trampolín crece: una mezquita con cartones, autogestión de las tareas, torneos y aumento de la tensión",
+      "headline": "El Gobierno acelera las soluciones para Ceuta entre presiones del PP, la justicia, la UE y hasta la policía",
       "section": "spain",
-      "reason": "theme_duplicate: the camp deterioration thread was folded into Other Headlines once the main Ceuta coordination story was selected"
+      "reason": "theme_duplicate: it stayed on the same Ceuta-management line as yesterday's reception-site pact, so the section pivoted to fresher Spain stories"
     },
     {
-      "headline": "Berrocal se salvó por quinta vez de las llamas con 12 vecinos escondidos para defender al pueblo: “El fuego se quedó a 50 metros”",
+      "headline": "La gran sequía devora el corazón de Europa: cosechas en mínimos, restricciones históricas y la economía estancada",
       "section": "spain",
-      "reason": "theme_duplicate: the section kept a broader national heat-and-health story instead of a second climate-disaster slot"
+      "reason": "theme_duplicate: after Spain already ran a drought story on 2026-08-17, the marine-heat item offered the stronger new climate angle"
     },
     {
-      "headline": "+++ USA +++: Zustimmungswerte für Trump fallen auf neuen Tiefstand",
+      "headline": "+++ USA +++: USA sanktionieren Präsidentin von Internationalem Strafgerichtshof",
       "section": "germany",
-      "reason": "geographic_fit: the US approvals live blog belonged in World, not Germany"
+      "reason": "geographic_fit: the ICC sanctions update belonged in World, not Germany"
     },
     {
-      "headline": "Ukraine-Krieg: Bürgermeister: Moskau mit Hunderten Drohnen attackiert",
+      "headline": "Börse am 19. August: Sechs Punkte, die für Anleger heute wichtig sind",
       "section": "germany",
-      "reason": "geographic_fit: the Moscow attack update belonged in World, not Germany"
+      "reason": "low_signal: the market round-up was too generic to justify a Germany slot"
     },
     {
-      "headline": "Der Checkpoint am Morgen: Berliner Verwaltungen ohne Mail und Internet",
+      "headline": "Attributionsstudie: Rekordwärme in Europas Meeren geht auf Klimawandel zurück",
       "section": "germany",
-      "reason": "geographic_fit: this was Berlin-local and also too close to the Berlin cyberattack story that was kept"
+      "reason": "publisher_diversity: the Tagesspiegel version was kept to avoid filling Germany too heavily from Handelsblatt"
     },
     {
-      "headline": "Brände: Brand in Entsorgungsbetrieb beschäftigt Feuerwehr",
+      "headline": "Feuerwehr-Einsatz in Frohnau: Person erleidet bei Brand lebensbedrohliche Verletzungen",
       "section": "berlin",
-      "reason": "publisher_pool_thin: the Tagesspiegel item was in Finsterwalde, outside Berlin city coverage, leaving rbb24 as the only clearly local publisher after filters"
+      "reason": "low_signal: this was a one-off local incident, weaker than the more structural Berlin administration and infrastructure stories"
     },
     {
-      "headline": "Nostalgie-Urlaub: Ostsee-Urlaub wie zu DDR-Zeiten im Denkmal-Bungalow",
+      "headline": "Urteil nach Todesfahrt in Teltow - Täter muss in Maßregelvollzug",
       "section": "berlin",
-      "reason": "geographic_fit: the Rügen travel feature had no meaningful Berlin city angle"
+      "reason": "geographic_fit: Teltow is outside Berlin city coverage and did not justify a spillover exception"
     },
     {
-      "headline": "Neue \"Springerstiefel\"-Staffel: Über Männlichkeit und rechte Influencer",
-      "section": "berlin",
-      "reason": "geographic_fit: the podcast topic was broader than Berlin-local coverage"
-    },
-    {
-      "headline": "AI hasn’t gone rogue. It’s worse than that",
+      "headline": "Iran eyes military targets in Europe if Trump escalates war, insiders say",
       "section": "world",
-      "reason": "selected_reads_mix: kept for Selected Reads to preserve publisher and theme diversity in the World section"
+      "reason": "selected_reads_mix: kept for Selected Reads to preserve publisher and region variety in the World section"
     },
     {
-      "headline": "Can canned cocktails revive the booze business?",
+      "headline": "Unitree shares soar 629% after robot maker raises $905m in Shanghai IPO",
       "section": "world",
-      "reason": "relevance: the consumer-demand feature ranked below the structural world stories selected"
+      "reason": "other_headlines_fit: it was folded into the robotics theme in Other Headlines rather than taking a full World slot"
     },
     {
-      "headline": "Designer denim and AI concierges: Japan's konbini put a new face forward",
+      "headline": "Australia politics live: Victorian Liberals pledge to scrap power link to NSW and instead ‘throw open the doors to gas’",
       "section": "world",
-      "reason": "selected_reads_mix: it was a useful background signal but not strong enough for the main World section"
+      "reason": "liveblog_noise: the politics liveblog was useful for thematic scanning but too noisy for a main item"
     }
   ],
-  "notes": "Spain: Ceuta reception pact, Villarejo-BBVA judge suspension, nocturnal heat stress. Germany pool thin: used the drone-defence gap, VW's lingering Diess-era burden and the DFB standing-section shift. Berlin pool very thin on publisher diversity: rbb24 supplied the only three clearly city-fit local stories after geographic filtering. World: Pixel supply-chain shift, airline pricing after the Iran shock, and Zimbabwe's Lake Kariba disaster."
+  "notes": "Spain pivoted away from repeated Ceuta coverage toward data-centre expansion, Granada's quake cluster and marine heat. Germany's pool was thin on clearly domestic structural stories. Berlin used the cyberattack's postal-vote fallout, fire-brigade strain and Spree low water. World mixed grain-security risk, Southeast Asian diplomacy and US consumer-brand erosion."
 }

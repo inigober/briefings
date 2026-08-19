@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-19
+
+- **spain-vapat-valladolid-data-centre** — eldiario.es: wind-power group Vapat wants to build a large data centre in Torrelobatón, opening a local fight over land, power and housing impacts (section: spain)
+- **spain-granada-second-48-quake-cluster** — eldiario.es: Granada endured a second magnitude-4.8 quake in four days, turning a shallow seismic cluster into a metropolitan stress test (section: spain)
+- **spain-marine-heatwave-extreme-weather-link** — EL PAÍS: record marine temperatures around Europe are raising the risk of extreme weather on land for Spain and other coastal states (section: spain)
+- **germany-bond-markets-price-debt-harsher** — Handelsblatt: rising pressure on long-dated sovereign bonds is narrowing Germany's fiscal room as investors demand more compensation for debt risk (section: germany)
+- **germany-klingbeil-resignation-debate-schwesig** — Tagesspiegel: SPD co-leader Lars Klingbeil pushed back on resignation talk while praising Manuela Schwesig, showing the party's leadership question remains unsettled (section: germany)
+- **germany-marine-heat-attribution-study** — Tagesspiegel: attribution researchers say Europe's extreme coastal water temperatures would have been nearly impossible without climate change (section: germany)
+- **berlin-cyberattack-postal-vote-applications** — rbb24: the senate-administration cyberattack is now disrupting Berlin's online postal-vote applications (section: berlin)
+- **berlin-fire-brigade-vehicle-shortage** — Tagesspiegel: Berlin's fire brigade is running short of vehicles, reinforcing the picture of basic city services operating with too little slack (section: berlin)
+- **berlin-spree-low-water-next-phase** — rbb24: authorities activated the next stage of the Spree low-water plan as heat and missing rain pushed river levels down further (section: berlin)
+- **world-ukraine-war-global-grain-risk** — Financial Times: attacks on agricultural export routes in the Ukraine war are raising the risk of a wider global grain crisis (section: world)
+- **world-thailand-hosts-myanmar-junta-chief** — Nikkei Asia: Thailand hosted Myanmar's military chief, signalling deeper bilateral ties and a more normalised regional relationship with the junta (section: world)
+- **world-us-consumer-brands-private-label-squeeze** — Financial Times: established US household brands are losing ground to private labels and smaller challengers (section: world)
+
 ## 2026-08-18
 
 - **spain-ceuta-reception-sites-pact-1500** — EL PAÍS: Madrid and Ceuta agreed on four sites for 1,500 reception places after the enclave's migration surge (section: spain)
