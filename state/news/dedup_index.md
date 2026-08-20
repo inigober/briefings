@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-20
+
+- **spain-ayuso-fire-service-levy-municipalities** — eldiario.es: Madrid's regional government is raising the fire-service levy on municipalities without their own brigades, turning wildfire preparedness into a municipal-finance dispute (section: spain)
+- **spain-madrid-abortion-access-private-clinics** — EL PAÍS: the Madrid health service acknowledges some public hospitals still cannot guarantee abortion access because of conscientious objection, leaving private clinics to fill the gap (section: spain)
+- **spain-riglos-roadworks-wildfire-accountability** — eldiario.es: after the Riglos blaze, local authorities and residents say ignored warnings over A-132 roadworks made a protected landscape more vulnerable to catastrophic fire (section: spain)
+- **germany-jdcom-ceconomy-eu-subsidy-probe** — Handelsblatt: the EU's scrutiny of JD.com's Ceconomy bid turns a German retail takeover into a test of Europe's anti-subsidy enforcement against China (section: germany)
+- **germany-cancer-vaccine-investor-expectations** — Handelsblatt: positive Moderna trial results are pushing the prospect of a first cancer vaccine from research promise into mainstream market and healthcare debate (section: germany)
+- **germany-dfb-pokal-var-fan-protests** — Tagesspiegel: planned protests over the lack of video review in the DFB-Pokal first round revive Germany's argument about cost, fairness and control in elite football (section: germany)
+- **berlin-agh-election-four-way-race** — rbb24: one month before the Abgeordnetenhaus vote, four parties are clustered at the top of Berlin's race for the Red Town Hall (section: berlin)
+- **berlin-border-controls-ihk-burden** — Tagesspiegel: longer border controls are becoming a labour and logistics burden for businesses in the Berlin-Brandenburg region (section: berlin)
+- **berlin-outdoor-pools-september-extension** — rbb24: several Berlin outdoor pools will remain open into September as indoor facilities return, highlighting a longer late-summer public-service stretch (section: berlin)
+- **world-hyundai-physical-ai-industrial-push** — Nikkei Asia: Hyundai is betting that robotics and physical AI can carry it beyond conventional carmaking into industrial systems (section: world)
+- **world-africa-climate-extremes-el-nino** — Foreign Policy: a possible super El Niño is sharpening Africa's climate extremes and turning adaptation into a food-security and governance challenge (section: world)
+- **world-ai-boom-car-component-inflation** — The Atlantic: the AI hardware boom is starting to look like an inflation risk for increasingly software-heavy cars as well as personal electronics (section: world)
+
 ## 2026-08-19
 
 - **spain-vapat-valladolid-data-centre** — eldiario.es: wind-power group Vapat wants to build a large data centre in Torrelobatón, opening a local fight over land, power and housing impacts (section: spain)
@@ -200,33 +215,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-deepmind-hassabis-leadership-shakeup** — Financial Times: Google DeepMind CEO steps back as chief scientist Jeff Dean leaves to found start-up (section: world)
 - **world-peru-lead-poisoning-doe-run-settlement** — The Guardian: $150m out-of-court deal for 1,300 Peruvians poisoned as children by US-owned smelter emissions (section: world)
 - **world-suzuki-flex-fuel-india-modi-ethanol** — Nikkei Asia: Japanese carmaker launches flex-fuel vehicles aligned with India's biofuel import-reduction push (section: world)
-
-## 2026-08-05
-
-- **spain-alba-sosa-hate-crime-charges-dropped** — eldiario.es: Madrid provincial court removes hate-crime and profit-motive counts from corrupt ex-judge Alba's case against Canarias Ahora editor Carlos Sosa (section: spain)
-- **spain-italy-eu-commission-morocco-migration-lead** — La Vanguardia: Italian interior minister proposes Brussels take over EU migration diplomacy with Rabat instead of bilateral Spanish deals (section: spain)
-- **spain-madrid-hospital-foreign-patients-er-backlog** — EL PAÍS: terminally ill Bolivian man and Peruvian teenager stranded in Puerta de Hierro emergency unit amid staff cost-cutting claims (section: spain)
-- **germany-reiche-electricity-prices-fall-outlook** — Handelsblatt: economy minister expects industrial power costs to decline as grid reforms and renewables expand (section: germany)
-- **germany-illegal-hair-transplant-clinic-scam** — Tagesspiegel: investigation finds unlicensed cosmetic clinics using fake doctors to deceive hair-restoration patients (section: germany)
-- **germany-ing-deutschland-credit-card-launch** — Handelsblatt: direct bank plans proprietary credit card before Christmas shopping season (section: germany)
-- **berlin-vogelschlag-glass-building-bird-deaths** — rbb24: NABU estimates millions of migratory birds die annually striking untreated Berlin glass facades (section: berlin)
-- **berlin-dog-registry-enforcement-gap** — Tagesspiegel: mandatory canine database remains largely voluntary a year after launch pledge (section: berlin)
-- **berlin-laborgras-joyful-failure-theatre** — The Berliner: experimental troupe opens performance exploring creative embrace of failure (section: berlin)
-- **world-china-retroactive-offshore-tax-hunt** — Financial Times: Beijing pursues citizens' historical offshore assets and tightens future capital controls (section: world)
-- **world-takeda-dengue-vaccine-india-programme** — Nikkei Asia: Japanese drugmaker lobbies for inclusion in India's national immunisation schedule (section: world)
-- **world-colombia-elefante-blanco-anti-graft-senator** — The Guardian: activist Luis Carlos Rúa sworn in as senator in cartoon elephant costume after anti-corruption campaign (section: world)
-
-## 2026-08-04
-
-- **spain-tobacco-plain-packaging-indemnity-threats** — EL PAÍS: tobacco manufacturers threatened multimillion-euro lawsuits if Spain approved generic cigarette packaging, stalling health ministry rules twice since 2024 (section: spain)
-- **spain-influencer-economy-stable-career-path** — eldiario.es: growing cohort of Spanish content creators now list influencing as sole occupation with some earning €20,000 monthly (section: spain)
-- **spain-eu-interior-ministers-migration-ceuta** — La Vanguardia: EU home-affairs ministers meet in tense climate as Italy and Spain trade accusations over Ceuta fallout (section: spain)
-- **germany-dax-record-automaker-crisis-divergence** — Handelsblatt: benchmark index hits record while BMW, Mercedes and VW report weakening orders and margins (section: germany)
-- **germany-crypto-holders-tax-uncertainty** — Handelsblatt: nine million Germans hold digital assets as proposed tax changes and price slump freeze trading decisions (section: germany)
-- **germany-cologne-street-shooting-four-injured** — Tagesspiegel: four people wounded, some seriously, in northern Cologne gunfire incident under police investigation (section: germany)
-- **berlin-wannsee-jewish-ship-antisemitic-tirade** — Tagesspiegel: motorboat driver shouts Holocaust-denial slogans at MS Goldberg cultural vessel on Wannsee, police investigate incitement (section: berlin)
-- **berlin-kantstrasse-cycle-lane-removal** — rbb24: transport senate dismantles contested Charlottenburg cycle path after years of bus-lane and fire-service disputes (section: berlin)
-- **berlin-antiquariate-bulk-orders-ai-training** — rbb24: Berlin second-hand bookshops report Canadian company placing large orders suspected for AI model training (section: berlin)
-- **world-pakistan-imran-khan-jail-influence** — Nikkei Asia: jailed former PM remains opposition gravitational centre three years into sentence (section: world)
-- **world-china-methanol-industrial-policy-lesson** — Foreign Policy: abandoned Ford-China methanol project illustrates value of preserving multiple energy pathways (section: world)
-- **world-silicon-valley-chinese-ai-models-split** — Rest of World: low-cost Chinese open-weight models divide US tech executives and policymakers on security vs competitiveness (section: world)

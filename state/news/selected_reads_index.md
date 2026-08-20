@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-20
+
+- [The box that built globalisation](https://www.ft.com/content/b88c3466-4525-4e16-b3fe-e10e713a2025?syn-25a6b1a6=1) — Financial Times
+- [Itochu expands into data centers, targets 10 facilities across Japan](https://asia.nikkei.com/business/technology/artificial-intelligence/itochu-expands-into-data-centers-targets-10-facilities-across-japan) — Nikkei Asia
+- [Adviser to far-right Latin American leaders arrested for allegedly plotting to kill girlfriend](https://www.theguardian.com/world/2026/aug/19/fernando-cerimedo-adviser-far-right-latin-american-leaders-arrested-allegedly-plotting-kill-girlfriend) — The Guardian
+- [The Home Slopping Network](https://www.theatlantic.com/technology/2026/08/fairground-ai-roku-channel/688318/?utm_source=feed) — The Atlantic
+
 ## 2026-08-19
 
 - [Iran eyes military targets in Europe if Trump escalates war, insiders say](https://www.ft.com/content/9ea0cde8-129e-4d88-976f-e367b7dd4d2c?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [European companies count the costs and gains of extreme heat](https://www.ft.com/content/1419012f-feca-4efd-a817-dc0392cd76e3?syn-25a6b1a6=1) — Financial Times
 - [Singapore Inc hopes AI access will stop finance high-flyers moving to Hong Kong](https://www.ft.com/content/7d2969fd-85aa-43fb-ae04-97d1d0ee2463?syn-25a6b1a6=1) — Financial Times
 - [Anthony Fauci’s Group Chat Is Making People Lose Their Minds](https://www.theatlantic.com/health/2026/08/fauci-texts/688291/?utm_source=feed) — The Atlantic
-
-## 2026-08-15
-
-- [AI Is Changing Military Morality](https://foreignpolicy.com/2026/08/14/ai-military-just-war/) — Foreign Policy
-- [America’s AI election](https://www.ft.com/content/5f8858b8-7468-4438-b269-e1b1947b1926) — Financial Times
-- [American missionary kidnapped in Niger freed after nine months](https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping) — The Guardian
-- [Heat Is Hammering Europe, Again. Here’s What That Looks Like.](https://www.nytimes.com/2026/08/14/world/europe/europe-heat-wave-photos.html) — The New York Times
 
 ## Blocked until 5+ briefings have passed
 
