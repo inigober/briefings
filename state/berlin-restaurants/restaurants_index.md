@@ -68,3 +68,10 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-08-13 | Jolesch | Kreuzberg | https://maps.google.com/?cid=14401300538729835448&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-13 | Mingtastic | Tiergarten | https://maps.google.com/?cid=8820686791220117511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-13 | Duc Anh Quan | Lichtenberg | https://maps.google.com/?cid=8548437226739296063&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-20 | Mr. Noodle Chen | Friedrichshain | https://maps.google.com/?cid=15623604752531614074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-20 | Hi! Chili 海椒 | Prenzlauer Berg | https://maps.google.com/?cid=10412292124797041910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-20 | Tossakan | Prenzlauer Berg | https://maps.google.com/?cid=9571235162739134309&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-20 | Maiyarap | Kreuzberg | https://maps.google.com/?cid=4973541195333635983&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-20 | Ma-Makan | Kreuzberg | https://maps.google.com/?cid=673259701163278563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-20 | Güllü Lahmacun | Moabit | https://maps.google.com/?cid=6515880672792156939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-20 | Rutz | Mitte | https://maps.google.com/?cid=11168722036974200144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

@@ -1,19 +1,19 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-08-13",
+  "date": "2026-08-20",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-08-13.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-08-13-synthesis.json",
-  "verified_count": 18,
+  "briefing_path": "briefings/berlin-restaurants/2026-08-20.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-08-20-synthesis.json",
+  "verified_count": 19,
   "selected_count": 7,
   "selected_restaurants": [
-    "Lon Men's Noodle House",
-    "Co Do Hue",
-    "Der blaue Fuchs",
-    "Genazvale",
-    "Jolesch",
-    "Mingtastic",
-    "Duc Anh Quan"
+    "Mr. Noodle Chen",
+    "Hi! Chili 海椒",
+    "Tossakan",
+    "Maiyarap",
+    "Ma-Makan",
+    "Güllü Lahmacun",
+    "Rutz"
   ],
-  "notes": "7 entries from 18 verified candidates. Excluded WeiDaoJia, Chuan Garden, You Mi, Boii Boii, Barra, and Loumi as repeats within 10-week window. Excluded Et Dünyasi (Müllerstraße) due to address ambiguity and weak Maps signals (3.2 rating, 11 reviews). Neighborhoods: Charlottenburg (2), Prenzlauer Berg, Wilmersdorf, Kreuzberg, Tiergarten, Lichtenberg. No fine-dining entry. No index trim needed (oldest entries are 9 weeks old)."
+  "notes": "7 entries from 19 verified candidates. Excluded Lon Men's Noodle House, Aroma, Chuan Garden, Hanuman Thai Curry House, Imren Grill (Neukölln), Barra, Mine, Boii Boii, and LIU Nudelhaus as repeats within the 10-week window. Excluded Örnek Lahmacun Evi because the inbox name does not match the current Maps listing name. Excluded Papaya (Südstern) and Imren Grill (Wedding) to keep neighborhood and cuisine balance. Neighborhoods: Friedrichshain, Prenzlauer Berg (2), Kreuzberg (2), Moabit, and Mitte. Included one fine-dining entry. No index trim needed; oldest retained entries remain within the 10-week window."
 }
