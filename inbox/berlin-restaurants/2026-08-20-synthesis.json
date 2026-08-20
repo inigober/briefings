@@ -1,0 +1,805 @@
+{
+  "briefing_type": "berlin-restaurants",
+  "date": "2026-08-20",
+  "source_raw": "inbox/berlin-restaurants/2026-08-20-raw.json",
+  "built_at": "2026-08-20T08:02:28.557201+00:00",
+  "model": "gpt-5.4",
+  "raw_item_count": 20,
+  "verified_count": 19,
+  "section_counts": {
+    "regional_chinese": 4,
+    "southeast_asian": 4,
+    "turkish_middle_eastern_caucasus": 3,
+    "mediterranean_european": 3,
+    "specialist_neighborhood": 4,
+    "fine_dining": 1
+  },
+  "items": [
+    {
+      "id": "regional_chinese_lon_men",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Lon Men's Noodle House",
+      "neighborhood": "Charlottenburg",
+      "address": "Kantstraße 33, 10625 Berlin",
+      "cuisine": "Taiwanese noodle house",
+      "price_tier": "€€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Beef noodle soup and wontons are long-standing signatures",
+        "Dumplings are specifically highlighted as destination-worthy",
+        "Casual specialist format with clear focus rather than a sprawling menu"
+      ],
+      "weaknesses": [
+        "Well-known and busy, so it may feel less like a hidden find",
+        "More comfort-driven than technically ambitious"
+      ],
+      "comparative_context": "A reliable Kantstraße specialist for Taiwanese noodle soups and dumplings; stronger as a focused neighborhood staple than as a novelty pick.",
+      "critical_assessment": "Fits the brief well because it does a narrow band of dishes convincingly and at sensible prices. Best for soup-and-dumpling cravings, less for breadth or surprise.",
+      "google_maps_name": "Lon Men's Noodle House",
+      "google_maps_url": "https://maps.google.com/?cid=9563754848875105605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Kantstraße 33, 10625 Berlin-Bezirk Charlottenburg-Wilmersdorf",
+      "google_maps_place_id": "ChIJ234buONQqEcRRc0eNl1IuYQ",
+      "google_maps_rating": 4.5,
+      "google_maps_review_count": 3877,
+      "google_maps_hours_compact": "Mon 12:00–22:00; Thu–Sun 12:00–22:00; (closed Tue–Wed)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/lon-men-s-noodle-house",
+        "https://www.berlinfoodstories.com/reviews/lon-mens-noodle-house-your-taiwanese-dream-come-true",
+        "https://guide.michelin.com/de/de/article/features/berlin-die-hotspots-von-3-sterne-koch-marco-muller"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "regional_chinese_aroma",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Aroma",
+      "neighborhood": "Charlottenburg",
+      "address": "Kantstraße, 10625 Berlin",
+      "cuisine": "Cantonese / dim sum",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Strong dim sum identity rather than generic pan-Chinese cooking",
+        "Late-night utility is unusual for serious Chinese dining in Berlin",
+        "Specific menu highlights include shrimp rice rolls and fried beancurd rolls"
+      ],
+      "weaknesses": [
+        "Address detail is incomplete in source material",
+        "Best approached for dim sum strengths rather than broad menu exploration"
+      ],
+      "comparative_context": "Useful counterweight to noodle-heavy Chinese picks: more about Cantonese dim sum and snack precision than chili heat or hand-pulled noodles.",
+      "critical_assessment": "Worth keeping in the candidate pool because the dim sum specialization is explicit and food-specific. Needs later address/status verification in the separate Places step.",
+      "google_maps_name": "Aroma",
+      "google_maps_url": "https://maps.google.com/?cid=13065521202330721893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Kantstraße 35, 10625 Berlin-Bezirk Charlottenburg-Wilmersdorf",
+      "google_maps_place_id": "ChIJN-xaxeNQqEcRZd5BNk8OUrU",
+      "google_maps_rating": 4.0,
+      "google_maps_review_count": 2359,
+      "google_maps_hours_compact": "Mon–Thu 13:00–02:00; Fri 13:00–03:00; Sat–Sun 12:00–03:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/aroma"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "regional_chinese_hi_chili",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Hi! Chili 海椒",
+      "neighborhood": "Prenzlauer Berg",
+      "address": "Fehrbelliner Straße, Prenzlauer Berg, Berlin",
+      "cuisine": "Sichuan",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Playful but still specialist Sichuan angle",
+        "Highlighted dishes include Zhong dumplings, Tianshui noodles, and bright pickled-pepper noodle bowls",
+        "Adds East/Prenzlauer Berg coverage rather than concentrating everything on Kantstraße"
+      ],
+      "weaknesses": [
+        "Street number not surfaced in search result snippet",
+        "Tapas framing may read lighter than more old-school Sichuan specialists"
+      ],
+      "comparative_context": "A more contemporary Sichuan candidate than classic Chinatown/Kantstraße options, with stronger emphasis on smaller-format dishes and noodle bowls.",
+      "critical_assessment": "Promising for a briefing audience that cares about flavor and regional specificity, though it needs exact address matching later.",
+      "google_maps_name": "Hi! Chili 海椒 (Sichuan Tapas Bistro)",
+      "google_maps_url": "https://maps.google.com/?cid=10412292124797041910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Fehrbelliner Str. 5, 10119 Berlin",
+      "google_maps_place_id": "ChIJX3BiFepRqEcR9vwfVIXkf5A",
+      "google_maps_rating": 4.9,
+      "google_maps_review_count": 515,
+      "google_maps_hours_compact": "Mon–Fri 12:00–21:00; Sun 02:00–21:00; (closed Sat)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/hi-chili-sichuan-tapas-bistro"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "regional_chinese_chuan_garden",
+      "topic_ids": [
+        "regional_chinese"
+      ],
+      "name": "Chuan Garden 川园",
+      "neighborhood": "Friedrichshain",
+      "address": "Friedrichshain, Berlin (exact street address needed in Places step)",
+      "cuisine": "Sichuan",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Explicitly positioned as a serious Sichuan address",
+        "Recent source suggests relevance and recency",
+        "Helps diversify east-side neighborhood coverage"
+      ],
+      "weaknesses": [
+        "Search snippet did not expose street address",
+        "Current evidence is thinner on signature dishes than for stronger-documented candidates"
+      ],
+      "comparative_context": "More compelling as an east-side Sichuan candidate than as a fully documented top pick at this stage.",
+      "critical_assessment": "Include as a provisional candidate because the culinary identity is clear, but it requires exact-address and menu-strength confirmation later.",
+      "google_maps_name": "Chuan House",
+      "google_maps_url": "https://maps.google.com/?cid=17257470551723575126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Landsberger Allee 6, 10249 Berlin",
+      "google_maps_place_id": "ChIJ_ef_hP1PqEcRVoc_ZQjafu8",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 531,
+      "google_maps_hours_compact": "Tue–Sat 17:00–22:30; Sun 17:30–22:30; (closed Mon)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/chuan-garden"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "southeast_asian_hanuman",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Hanuman Thai Curry House",
+      "neighborhood": "Kreuzberg",
+      "address": "Skalitzer Straße 96, 10997 Berlin",
+      "cuisine": "Thai curry specialist",
+      "price_tier": "€€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Tight specialist format centered on Thai curries",
+        "Specific praise for Jungle Curry, Miang Kam, fish cakes, and house Thai sausage",
+        "Understated room suggests food-first rather than decor-first priorities"
+      ],
+      "weaknesses": [
+        "Narrow focus may limit appeal for diners seeking broader Thai repertoire",
+        "Newer restaurant, so long-term consistency is less proven"
+      ],
+      "comparative_context": "More sharply specialized than many Thai restaurants in Berlin; likely stronger for curry depth than for menu breadth.",
+      "critical_assessment": "An excellent fit for this audience: clear technical identity, strong spice-forward dishes, and little sign of hype-only framing.",
+      "google_maps_name": "Hanuman Thai Curry House",
+      "google_maps_url": "https://maps.google.com/?cid=10805004978977801651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Skalitzer Str. 96, 10997 Berlin",
+      "google_maps_place_id": "ChIJV1rq5RRPqEcRs4VM8McW85U",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 385,
+      "google_maps_hours_compact": "Tue–Thu 12:00–15:30 & 17:00–22:00; Fri–Sun 12:00–22:00; (closed Mon)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/hanuman-thai-curry-house",
+        "https://www.berlinfoodstories.com/reviews/berlin-s-new-temple-of-thai-curries"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "southeast_asian_maiyarap",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Maiyarap",
+      "neighborhood": "Kreuzberg",
+      "address": "Oranienstraße 200, 10999 Berlin",
+      "cuisine": "Thai soups and starters",
+      "price_tier": "€€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Soup-focused concept with real Thai heat",
+        "Tom Yum, boat noodles, and crispy pork belly are specifically called out",
+        "Good option for casual but flavor-driven dining"
+      ],
+      "weaknesses": [
+        "Can skew lively/noisy because of Oranienstraße location",
+        "Cash-only note may reduce convenience"
+      ],
+      "comparative_context": "A stronger specialist-neighborhood type Thai choice than broader all-purpose Thai menus; especially appealing for soups and snacks.",
+      "critical_assessment": "Very aligned with the brief's preference for focused kitchens doing a few things unusually well. Particularly strong for weeknight, mid-priced eating.",
+      "google_maps_name": "Maiyarap Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=4973541195333635983&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Oranienstraße 200, 10999 Berlin",
+      "google_maps_place_id": "ChIJJR4w8CtPqEcRjw-iv12RBUU",
+      "google_maps_rating": 4.4,
+      "google_maps_review_count": 672,
+      "google_maps_hours_compact": "Daily 12:00–00:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/maiyarap",
+        "https://www.berlinfoodstories.com/news/tossakan-s-sister-restaurant-maiyarap"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "southeast_asian_tossakan",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Tossakan",
+      "neighborhood": "Prenzlauer Berg",
+      "address": "Schliemannstraße 16, 10437 Berlin",
+      "cuisine": "Thai",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Established modern Thai reference with strong handling of classics",
+        "Papaya salad and glass noodle seafood salad are specifically highlighted",
+        "Useful north/east geography beyond Kreuzberg concentration"
+      ],
+      "weaknesses": [
+        "More polished and broader than the most specialist curry/noodle spots",
+        "Could feel slightly safer than narrower concepts like Hanuman or Maiyarap"
+      ],
+      "comparative_context": "A dependable all-round Thai candidate with more range, whereas Hanuman and Maiyarap are more tightly specialized.",
+      "critical_assessment": "Keep as a high-confidence Thai candidate thanks to clear food strengths and durable reputation, even if it is less niche than the strongest specialist picks.",
+      "google_maps_name": "Tossakan Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=9571235162739134309&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Schliemannstraße 16, 10437 Berlin",
+      "google_maps_place_id": "ChIJ0ScqW1dNqEcRZU_LgKvb04Q",
+      "google_maps_rating": 4.5,
+      "google_maps_review_count": 925,
+      "google_maps_hours_compact": "Mon–Thu 17:00–23:00; Fri–Sun 12:00–23:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/tossakan",
+        "https://www.berlinfoodstories.com/top-lists/thai-top-liste"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "southeast_asian_ma_makan",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Ma-Makan",
+      "neighborhood": "Kreuzberg",
+      "address": "Lausitzer Platz, Kreuzberg, Berlin",
+      "cuisine": "Southeast Asian kopitiam / Malaysian-Singaporean-Indonesian influenced",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Distinct kopitiam identity is rare in Berlin",
+        "Clear regional framing beyond generic pan-Asian labeling",
+        "Editorial source ties it to sustained pop-up and catering work before the permanent opening"
+      ],
+      "weaknesses": [
+        "Snippet here gives concept more than dish-level detail",
+        "Address is cross-street/platz level rather than full street number"
+      ],
+      "comparative_context": "Valuable mainly for regional specificity and scarcity: few Berlin restaurants occupy this kopitiam lane with comparable clarity.",
+      "critical_assessment": "Still worth prefetching because the concept is unusually specific and relevant to the reader's taste, though later verification should strengthen dish-level evidence.",
+      "google_maps_name": "Ma-Makan",
+      "google_maps_url": "https://maps.google.com/?cid=673259701163278563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Lausitzer Pl. 12, 10997 Berlin",
+      "google_maps_place_id": "ChIJb4RLDPhPqEcR40BskSHmVwk",
+      "google_maps_rating": 4.4,
+      "google_maps_review_count": 534,
+      "google_maps_hours_compact": "Wed–Fri 12:00–16:00 & 17:30–22:00; Sat 11:00–16:00 & 17:30–22:00; Sun 11:00–16:00; (closed Mon–Tue)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.the-berliner.com/food/berlin-kaylin-eu-ma-makan-southeast-asian-kopitiam-indonesia-malaysia-singamore-brunei-thailand/"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "turkish_middle_eastern_caucasus_imren",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Imren Grill",
+      "neighborhood": "Neukölln",
+      "address": "Karl-Marx-Straße 75, 12043 Berlin",
+      "cuisine": "Turkish döner",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Food-specific editorial praise as a standout in a crowded döner field",
+        "Multiple branches, with Neukölln location fitting preferred neighborhoods",
+        "Strong affordable specialist identity"
+      ],
+      "weaknesses": [
+        "Primarily a single-item specialist rather than a full restaurant experience",
+        "Can be crowded and function-first"
+      ],
+      "comparative_context": "Better framed as a benchmark döner specialist than a sit-down grill destination.",
+      "critical_assessment": "A strong low-price candidate for the briefing because it represents craft and execution in a humble format rather than hype.",
+      "google_maps_name": "Imren Grill",
+      "google_maps_url": "https://maps.google.com/?cid=17801368214477792757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Karl-Marx-Straße 75, 12043 Berlin",
+      "google_maps_place_id": "ChIJeYtqLbtPqEcR9eXgSxMqC_c",
+      "google_maps_rating": 4.0,
+      "google_maps_review_count": 1739,
+      "google_maps_hours_compact": "Mon–Thu 09:00–04:00; Fri–Sat 09:00–05:00; Sun 09:00–04:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/reviews/a-guiding-light-in-the-doner-morass"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "turkish_middle_eastern_caucasus_ornek",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Örnek Lahmacun Evi",
+      "neighborhood": "Charlottenburg",
+      "address": "Kaiser-Friedrich-Straße 56, 10627 Berlin",
+      "cuisine": "Turkish lahmacun specialist",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Focused specialist with lahmacun as explicit draw",
+        "Editorial advice suggests ordering extra, implying strong product quality",
+        "Excellent fit for affordable, technique-forward neighborhood eating"
+      ],
+      "weaknesses": [
+        "Very narrow use-case",
+        "Cash-only note may reduce convenience"
+      ],
+      "comparative_context": "A cleaner specialist case than generic ocakbasi menus: go here for one thing done well, not variety.",
+      "critical_assessment": "One of the best-format candidates for this brief: inexpensive, specific, and rooted in execution rather than trendiness.",
+      "google_maps_name": "Kismet Lahmacun & Grillhaus",
+      "google_maps_url": "https://maps.google.com/?cid=6211455197452440529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Kaiser-Friedrich-Straße 56, 10627 Berlin-Bezirk Charlottenburg-Wilmersdorf",
+      "google_maps_place_id": "ChIJQ3T87jhRqEcR0RNoppeFM1Y",
+      "google_maps_rating": 4.3,
+      "google_maps_review_count": 1207,
+      "google_maps_hours_compact": "Mon–Thu 08:00–01:00; Fri–Sat 08:00–02:00; Sun 08:00–01:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://berlinfoodstories.com/map?categories%5B%5D=Turkish"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "turkish_middle_eastern_caucasus_gullu",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Güllü Lahmacun",
+      "neighborhood": "Moabit",
+      "address": "Perleberger Straße 56, 10559 Berlin",
+      "cuisine": "Turkish",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Source notes that gözleme and manti shine despite the name",
+        "Neighborhood-friendly and affordable",
+        "Offers a more home-style, dough-focused angle than kebab-first spots"
+      ],
+      "weaknesses": [
+        "Branding may mislead first-timers into ordering the wrong specialties",
+        "Less destination-famous than some Neukölln/Kreuzberg Turkish names"
+      ],
+      "comparative_context": "Useful as a specialist dough-and-dumpling Turkish candidate, especially for readers who appreciate overlooked strengths over headline dishes.",
+      "critical_assessment": "Good fit for a serious eater interested in food over hype, particularly because the recommended strengths diverge from the restaurant's nominal signature.",
+      "google_maps_name": "Güllü Lahmacun",
+      "google_maps_url": "https://maps.google.com/?cid=6515880672792156939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Perleberger Str. 56, 10559 Berlin",
+      "google_maps_place_id": "ChIJxRTf9XVRqEcRCxucBPMObVo",
+      "google_maps_rating": 4.5,
+      "google_maps_review_count": 710,
+      "google_maps_hours_compact": "Mon–Fri 10:00–00:00; Sat 11:00–00:00; Sun 12:00–00:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://berlinfoodstories.com/map?categories%5B%5D=Turkish"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "mediterranean_european_barra",
+      "topic_ids": [
+        "mediterranean_european"
+      ],
+      "name": "Barra",
+      "neighborhood": "Neukölln",
+      "address": "Okerstraße 2, 12049 Berlin",
+      "cuisine": "Modern European / seasonal sharing plates",
+      "price_tier": "€€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Michelin Bib Gourmand suggests strong quality-to-price ratio",
+        "House-rolled noodles and sharply observed seasonal cooking stand out",
+        "Neighborhood setting and relaxed service style suit the brief better than more formal destinations"
+      ],
+      "weaknesses": [
+        "Trendy framing may attract hype-seekers alongside serious diners",
+        "Menu style is eclectic rather than regionally narrow"
+      ],
+      "comparative_context": "More interesting as a technique-and-value Neukölln restaurant than as a canonical regional-European specialist.",
+      "critical_assessment": "A worthwhile inclusion because the food evidence points to craft and balance, though it is less regionally explicit than other Mediterranean/European picks.",
+      "google_maps_name": "Barra",
+      "google_maps_url": "https://maps.google.com/?cid=15461423447321715949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Okerstraße 2, 12049 Berlin-Bezirk Neukölln",
+      "google_maps_place_id": "ChIJB_3abhpPqEcR7aSBC7UCktY",
+      "google_maps_rating": 4.5,
+      "google_maps_review_count": 782,
+      "google_maps_hours_compact": "Mon–Fri 17:30–23:15 (closed Sat–Sun)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://guide.michelin.com/en/berlin-region/berlin/restaurant/barra"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "mediterranean_european_mine",
+      "topic_ids": [
+        "mediterranean_european"
+      ],
+      "name": "Mine",
+      "neighborhood": "Wilmersdorf",
+      "address": "Meinekestraße 10, 10719 Berlin",
+      "cuisine": "Contemporary Italian",
+      "price_tier": "€€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Michelin notes competent Italian cooking with seasonal and international influences",
+        "Set-menu sharing format can expose range",
+        "Useful higher-end-but-not-ultra-luxury Italian candidate in the west"
+      ],
+      "weaknesses": [
+        "Could read polished rather than soulful",
+        "Price is above the reader's default sweet spot"
+      ],
+      "comparative_context": "Less rustic or neighborhood-driven than the user's favorite Italian references, but potentially stronger on consistency and wine program.",
+      "critical_assessment": "Keep as a mid-upscale European candidate, though it may be more synthesis-dependent than automatic given the audience's value bias.",
+      "google_maps_name": "MINE WINE Restaurant",
+      "google_maps_url": "https://maps.google.com/?cid=7315615219654006794&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Meinekestraße 10, 10719 Berlin-Bezirk Charlottenburg-Wilmersdorf",
+      "google_maps_place_id": "ChIJCVBmcPlQqEcRChjrUEhJhmU",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 965,
+      "google_maps_hours_compact": "Daily 17:30–23:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://guide.michelin.com/us/en/berlin-region/berlin/restaurant/mine"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "mediterranean_european_boii_boii_cross_over",
+      "topic_ids": [
+        "mediterranean_european"
+      ],
+      "name": "Boii Boii",
+      "neighborhood": "Kreuzberg",
+      "address": "Lausitzer Straße 25, 10999 Berlin",
+      "cuisine": "Modern Thai",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Strong dish callout for crispy pork belly",
+        "Approachable but more refined format than an imbiss",
+        "Food-first writeup emphasizes authentic flavors and seasoning"
+      ],
+      "weaknesses": [
+        "This is not Mediterranean/European cuisine",
+        "Primary fit is clearly Southeast Asian, so cross-assignment is weak"
+      ],
+      "comparative_context": "Included only as a fallback if section balancing is needed, but it belongs much more naturally in Southeast Asian.",
+      "critical_assessment": "This should probably be dropped in synthesis from this section; better retained elsewhere if at all.",
+      "google_maps_name": "Boii Boii",
+      "google_maps_url": "https://maps.google.com/?cid=892377658793402051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Lausitzer Str. 25, 10999 Berlin",
+      "google_maps_place_id": "ChIJm8vpiuRPqEcRwx7grcBcYgw",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 233,
+      "google_maps_hours_compact": "Tue–Sat 18:00–23:30; Sun 18:00–22:00; (closed Mon)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/boiiboii"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "specialist_neighborhood_mr_noodle_chen",
+      "topic_ids": [
+        "specialist_neighborhood"
+      ],
+      "name": "Mr. Noodle Chen",
+      "neighborhood": "Berlin (district not surfaced in snippet)",
+      "address": "Berlin (exact street address needed in Places step)",
+      "cuisine": "Chinese hand-pulled noodles and skewers",
+      "price_tier": "€€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Clear specialist identity around hand-pulled noodles",
+        "Braised beef noodle soup, grilled skewers, and rou jia mo offer focus with some breadth",
+        "Looks suited to the audience's love of affordable craft-driven food"
+      ],
+      "weaknesses": [
+        "Snippet lacks exact neighborhood and address",
+        "Documentation is thinner than for Lon Men's or Hanuman"
+      ],
+      "comparative_context": "Potentially a strong specialist-neighborhood pick if the Places step confirms a preferred district and the restaurant is active.",
+      "critical_assessment": "Promising enough to prefetch because the product focus is obvious and aligned with the brief, but it needs location verification.",
+      "google_maps_name": "Mr. Noodle Chen (Friedrichshain) 陈香贵兰州牛肉面",
+      "google_maps_url": "https://maps.google.com/?cid=15623604752531614074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Niederbarnimstraße 4, 10247 Berlin",
+      "google_maps_place_id": "ChIJuwTEGWxPqEcRemnAub4x0tg",
+      "google_maps_rating": 4.8,
+      "google_maps_review_count": 1060,
+      "google_maps_hours_compact": "Mon–Tue 12:00–14:30 & 17:00–21:00; Wed–Sat 12:00–14:30 & 17:00–21:30; Sun 12:00–14:30 & 17:00–21:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/mr-noodle-chen"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "specialist_neighborhood_liu",
+      "topic_ids": [
+        "specialist_neighborhood"
+      ],
+      "name": "LIU Nudelhaus",
+      "neighborhood": "Berlin (district not surfaced in snippet)",
+      "address": "Berlin (exact street address needed in Places step)",
+      "cuisine": "Chinese noodles / Sichuan leaning",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Explicitly recognized for Chinese noodles",
+        "Zajiang noodles are singled out",
+        "Already resonates with the reader's known preferences"
+      ],
+      "weaknesses": [
+        "Current snippet is too thin on exact location details",
+        "Could overlap with existing reader familiarity rather than provide novelty"
+      ],
+      "comparative_context": "More of a benchmark calibration candidate than a surprising discovery; useful for anchoring standards in the noodle-specialist field.",
+      "critical_assessment": "Should be retained because it matches the audience almost perfectly, but later synthesis may decide whether to prioritize novelty over reaffirming a known favorite type.",
+      "google_maps_name": "LIU Nudelhaus",
+      "google_maps_url": "https://maps.google.com/?cid=5978374952795598817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Kronenstraße 72, 10117 Berlin",
+      "google_maps_place_id": "ChIJ_ekwy59RqEcR4W95Q1h091I",
+      "google_maps_rating": 4.5,
+      "google_maps_review_count": 2455,
+      "google_maps_hours_compact": "Mon–Thu 09:00–17:00; Fri 11:30–15:00 & 17:00–19:30; (closed Sat–Sun)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/liu-nudelhaus"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "specialist_neighborhood_papaya_suedstern",
+      "topic_ids": [
+        "specialist_neighborhood"
+      ],
+      "name": "Papaya",
+      "neighborhood": "Kreuzberg",
+      "address": "Südstern 14, 10961 Berlin",
+      "cuisine": "Thai",
+      "price_tier": "€€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Longstanding Thai reference with direct editorial claim that it is essential for serious Thai food in Berlin",
+        "Affordable and neighborhood-friendly",
+        "Good fit for repeatable casual meals rather than occasion dining"
+      ],
+      "weaknesses": [
+        "Source itself suggests it may not be world-class in absolute terms",
+        "Less specialized than Hanuman or Maiyarap"
+      ],
+      "comparative_context": "Works best as a durable neighborhood Thai standby rather than the city's sharpest specialist concept.",
+      "critical_assessment": "Still very useful for this section because the brief explicitly values affordable specialists and dependable execution over novelty.",
+      "google_maps_name": "papaya am Südstern",
+      "google_maps_url": "https://maps.google.com/?cid=10291170622616128438&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Südstern 14, 10961 Berlin",
+      "google_maps_place_id": "ChIJ8w9e989PqEcRtkv4AyiV0Y4",
+      "google_maps_rating": 4.3,
+      "google_maps_review_count": 609,
+      "google_maps_hours_compact": "Daily 12:00–16:00 & 17:00–23:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/papaya",
+        "https://www.berlinfoodstories.com/reviews/papaya-spicy-thai-business"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "specialist_neighborhood_imren_wedding",
+      "topic_ids": [
+        "specialist_neighborhood"
+      ],
+      "name": "Imren Grill",
+      "neighborhood": "Wedding",
+      "address": "Müllerstraße 134, 13349 Berlin",
+      "cuisine": "Turkish döner",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Affordable specialist with strong editorial endorsement",
+        "Wedding branch improves geographic spread",
+        "Represents exactly the kind of one-thing-done-well place this section wants"
+      ],
+      "weaknesses": [
+        "Duplicate concept with Neukölln branch in another section",
+        "Less suitable if final synthesis avoids repeated brands"
+      ],
+      "comparative_context": "Operationally similar to the Neukölln branch; included here because the section is about specialist neighborhood utility more than category breadth.",
+      "critical_assessment": "Useful as a branch-level neighborhood candidate now, though final synthesis may consolidate to one Imren entry.",
+      "google_maps_name": "Imren Grill",
+      "google_maps_url": "https://maps.google.com/?cid=423650955091850224&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Müllerstraße 134, 13349 Berlin",
+      "google_maps_place_id": "ChIJqe6_zaMhZUER8DMBj0wc4QU",
+      "google_maps_rating": 4.4,
+      "google_maps_review_count": 1433,
+      "google_maps_hours_compact": "Daily 06:00–02:00",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/reviews/a-guiding-light-in-the-doner-morass"
+      ],
+      "ingestion_source": "openai"
+    },
+    {
+      "id": "fine_dining_rutz",
+      "topic_ids": [
+        "fine_dining"
+      ],
+      "name": "Rutz",
+      "neighborhood": "Mitte",
+      "address": "Chausseestraße 8, 10115 Berlin",
+      "cuisine": "Modern creative",
+      "price_tier": "€€€€",
+      "value_label": "potentially overpriced",
+      "fine_dining": true,
+      "strengths": [
+        "Three Michelin stars and very strong evidence of precision, balance, and ingredient quality",
+        "Highly technical and distinctive tasting menu experience",
+        "Useful as an upper benchmark for Berlin fine dining"
+      ],
+      "weaknesses": [
+        "Mitte concentration runs against neighborhood-diversity preference",
+        "Price and format sit well outside the reader's usual sweet spot"
+      ],
+      "comparative_context": "More of a benchmark than a likely recommendation for this audience; prism is probably the more culturally and regionally interesting splurge candidate.",
+      "critical_assessment": "Include only as a high-end comparator. Unless the final briefing explicitly wants a canonical luxury benchmark, this is probably not the synthesis winner.",
+      "google_maps_name": "Rutz",
+      "google_maps_url": "https://maps.google.com/?cid=11168722036974200144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_address": "Chausseestraße 8, 10115 Berlin",
+      "google_maps_place_id": "ChIJYT_9-utRqEcRUKXsqIRF_5o",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 761,
+      "google_maps_hours_compact": "Mon–Fri 18:00–23:00 (closed Sat–Sun)",
+      "maps_api_verified": true,
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "source_urls": [
+        "https://guide.michelin.com/gb/en/berlin-region/berlin/restaurant/rutz"
+      ],
+      "ingestion_source": "openai"
+    }
+  ],
+  "note": "Token-light restaurant slice for synthesis. Items included here have verified:true after Google Places API post-fetch verification when GOOGLE_MAPS_API_KEY is set. Do not recommend unverified restaurants."
+}
