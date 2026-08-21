@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-21
+
+- **spain-hydrocarbons-vat-fraud-probes-35** — eldiario.es: Spain's tax agency still has 35 open hydrocarbons VAT-fraud investigations, keeping a billion-euro enforcement clean-up alive after the Aldama affair (section: spain)
+- **spain-alvise-crypto-tracing-supreme-court** — eldiario.es: Supreme Court judge keeps investigators tracing Alvise Pérez's crypto-related campaign financing trail (section: spain)
+- **spain-aragon-firefighting-aircraft-dependence** — EL PAÍS: Aragón's heavy use of state firefighting aircraft highlights how uneven Spain's regional fire capacity remains (section: spain)
+- **germany-eu-us-tariff-deal-one-year-later** — Handelsblatt: one year after the EU-US tariff truce, Germany still faces unresolved trade uncertainty under Trump's tariff politics (section: germany)
+- **germany-robot-football-vision-motor-control** — Handelsblatt: robot football experiments show machine vision and coordinated movement edging from lab demo toward usable physical tasks (section: germany)
+- **germany-drought-supermarket-price-pressure** — Tagesspiegel: drought-hit harvests and feed shortages could push German food prices higher (section: germany)
+- **berlin-citizen-services-hackerattack-delays** — rbb24: the state-network cyberattack is now delaying housing-eligibility and other Berlin citizen services (section: berlin)
+- **berlin-charlottenburg-fire-station-vacancy** — Tagesspiegel: an old Charlottenburg fire station has sat empty for more than a year, symbolising slow reuse of prime urban space (section: berlin)
+- **berlin-lankwitz-cash-transporter-robbery** — rbb24: an armed robbery of a cash transporter outside a Lankwitz supermarket exposed a routine public-safety weak point (section: berlin)
+- **world-mocha-houthi-frontline-port** — Financial Times: Houthi attacks are pushing Yemen's historic port of Mocha back onto the front line of Red Sea conflict geography (section: world)
+- **world-liberia-third-country-deportation-deal** — The Guardian: the US has begun sending deportees to Liberia under one of Trump's biggest third-country migration deals (section: world)
+- **world-shanghai-star50-outstrips-hong-kong** — Financial Times: China's latest tech frenzy is lifting Shanghai's Star market faster than Hong Kong, shifting financial gravity toward the mainland (section: world)
+
 ## 2026-08-20
 
 - **spain-ayuso-fire-service-levy-municipalities** — eldiario.es: Madrid's regional government is raising the fire-service levy on municipalities without their own brigades, turning wildfire preparedness into a municipal-finance dispute (section: spain)

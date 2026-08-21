@@ -1,79 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-20",
-  "briefing_date": "2026-08-20",
-  "inbox_date": "2026-08-20",
+  "date": "2026-08-21",
+  "briefing_date": "2026-08-21",
+  "inbox_date": "2026-08-21",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-20.md",
-  "inbox_path": "inbox/news/2026-08-20-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-21.md",
+  "inbox_path": "inbox/news/2026-08-21-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "PP y Vox redoblan su ofensiva contra el Gobierno por la crisis de Ceuta mientras niegan su ayuda para resolverla",
+      "headline": "La última mañana del campamento de El Trampolín: “No sé lo que va a pasar, pero cualquier cosa menos volver a Marruecos”",
       "section": "spain",
-      "reason": "recent_topic: Ceuta has dominated the Spain section for a week and today's opposition escalation did not clear the novelty bar"
+      "reason": "recent_topic: Ceuta clearance added texture but not enough novelty after a week of Ceuta-led Spain slots"
     },
     {
-      "headline": "Feijóo y Vivas abren una nueva guerra por los menores en Ceuta",
+      "headline": "La presidenta de los epidemiólogos: \"Los migrantes no traen enfermedades, las contraen aquí por las malas condiciones en las que están\"",
       "section": "spain",
-      "reason": "recent_topic: another Ceuta management turn was weaker than fresher Spain governance stories"
+      "reason": "theme_duplicate: another Ceuta humanitarian-health angle was weaker than fresher Spain governance stories"
     },
     {
-      "headline": "Marruecos exime de visado a países africanos mientras cuestiona el “efecto llamada” de la regularización en España",
+      "headline": "El nombre exacto de lo que tenemos en Ceuta",
       "section": "spain",
-      "reason": "avoid_unless_material: the migration-regularisation loop did not bring a strong enough new trigger"
+      "reason": "no_material_development: the opinion framing did not add a new institutional trigger"
     },
     {
-      "headline": "La insuficiente plantilla de bomberos forestales obliga a la Generalitat Valenciana a tirar de voluntarios y horas extra",
+      "headline": "El Gobierno sondeó al Rey sobre la oportunidad de hacer una llamada a Mohamed VI por la crisis de Ceuta",
       "section": "spain",
-      "reason": "theme_duplicate: Spain already carried two stronger state-capacity stories around fire governance"
+      "reason": "recent_topic: monarchy diplomacy remained inside the same Ceuta management loop and did not clear the avoid-unless-material bar"
     },
     {
-      "headline": "Geplante Übernahme: China droht EU im Streit um JD.com",
+      "headline": "Mohamed VI y Felipe VI, una relación fraternal menos directa que la entretejida por sus padres",
+      "section": "spain",
+      "reason": "background_only: useful context, but not a fresh development"
+    },
+    {
+      "headline": "Börse am 21. August: Sechs Punkte, die für Anleger heute wichtig sind",
       "section": "germany",
-      "reason": "theme_duplicate: the Tagesspiegel version lost out to the Handelsblatt version of the same story"
+      "reason": "low_signal: a market-wrap preview was too thin for a main Germany slot"
     },
     {
-      "headline": "Wahlkampf: Mehr als 90 Delikte im Zusammenhang mit Landtagswahl erfasst",
+      "headline": "Morning Briefing: Kauft Berlin für 700 Milliarden Euro die falschen Waffen?",
       "section": "germany",
-      "reason": "verification_gap: the slim synthesis inbox did not carry a citable URL for this otherwise usable fallback story"
+      "reason": "avoid_unless_material: defence-spending anxiety did not come with a concrete new decision"
     },
     {
-      "headline": "Anleihen im Ausverkauf: Was hinter dem Beben am Anleihemarkt steckt",
+      "headline": "Selbst SPD-Wähler sehen Vorsitzende kritisch: Mehrheit hält Bas und Klingbeil für die falschen Chefs",
       "section": "germany",
-      "reason": "recent_topic: debt pricing led Germany on 2026-08-19 and today's broader sell-off explainer did not add enough that was specifically German"
+      "reason": "recent_topic: SPD leadership weakness already led Germany on 2026-08-19 and today's polling did not change the picture enough"
     },
     {
-      "headline": "Ermittlung gegen Arno Bausemer: Mit Baseballschläger gegen einen 14-Jährigen – schadet das der AfD?",
+      "headline": "Moore als Feuerschutz: Wie es im Hohen Venn dennoch brennen konnte",
       "section": "germany",
-      "reason": "theme_duplicate: one Saxony-Anhalt campaign-law-and-order story was enough for the section"
+      "reason": "avoid_unless_material: another heat-adaptation story did not beat fresher economic or research angles"
     },
     {
-      "headline": "Mehrere Berliner Freibäder bis in den September geöffnet, Hallenbäder starten Betrieb",
+      "headline": "Halberstadt bekommt Abschiebe-Zentrum für unbegleitete Männer",
       "section": "berlin",
-      "reason": "selected_after_verification: promoted because it was present in the synthesis inbox and the cyberattack follow-up URL was not"
+      "reason": "geographic_misfit: Saxony-Anhalt migration infrastructure is not Berlin local news"
     },
     {
-      "headline": "Wetter: Schauer und Gewitter möglich",
+      "headline": "Tornado in Fürstenwalde deckt Dächer ab und wirft Bäume um",
       "section": "berlin",
-      "reason": "low_signal: the forecast was too routine for a main Berlin slot"
+      "reason": "geographic_misfit: Fürstenwalde is outside Berlin city proper"
     },
     {
-      "headline": "Online-Portal für Briefwahlen läuft wieder",
-      "section": "berlin",
-      "reason": "verification_gap: the portal-restored follow-up was available in raw reporting but not as a citable synthesis URL"
-    },
-    {
-      "headline": "Itochu expands into data centers, targets 10 facilities across Japan",
+      "headline": "The battle over golf’s future",
       "section": "world",
-      "reason": "selected_reads_mix: it was held for Selected Reads to preserve main-section publisher spread"
-    },
-    {
-      "headline": "Adviser to far-right Latin American leaders arrested for allegedly plotting to kill girlfriend",
-      "section": "world",
-      "reason": "selected_reads_mix: kept for Selected Reads instead of displacing the stronger climate and industrial-policy stories"
+      "reason": "selected_reads_mix: kept for Selected Reads to preserve the main section's geopolitical spread"
     }
   ],
-  "notes": "Spain stayed off the daily Ceuta loop in favour of public-service and wildfire-governance stories. Germany's pool was thin, so the section mixed trade enforcement, biotech expectation-setting and institutional sports politics. Berlin used the strongest fully citable local campaign, border-control and public-service items from the synthesis inbox. World leaned toward structural AI and climate capacity stories."
+  "notes": "Spain stayed off the daily Ceuta loop in favour of tax enforcement, court scrutiny and fire-capacity gaps. Germany and Berlin both had thin publisher pools, so the mix prioritised geographic fit and novelty over perfect breadth. World balanced migration externalisation, Red Sea conflict geography and Chinese capital-market momentum."
 }
