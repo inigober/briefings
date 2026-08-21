@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-08-21
+
+- ReKab — Subtle Beginnings
+- Ida Urd & Ingri Høyland — Duvet
+- Loraine James — Detached From The Rest Of You
+- Lisene — Convergence [A52001]
+- Yu Su — Foundry
+- HVL — Formation
+- Ana Roxanne — Poem 1
+- Cujo — Adventures In Foam (2025 Reissue)
+- Foxgluv — Triple Cherry (Reissue)
+- Various Artists — WARIOUS2
+
 ## 2026-08-14
 
 - Leonidas & Hobbes — Pockets Of Light Double Album (HM024) [BALEARIC, ELECTRONIC, AMBIENT]
