@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-22
+
+- **spain-ceuta-economic-revitalisation-plan** — EL PAÍS: Madrid is pairing Ceuta emergency spending with a broader economic revitalisation plan, shifting the enclave crisis toward long-term state support and recovery policy (section: spain)
+- **spain-earthquake-code-granada-warning** — eldiario.es: geologists say Granada's tremors have exposed outdated Spanish seismic planning assumptions and weak preparedness for a larger quake (section: spain)
+- **spain-ayuso-errors-opposition-opening** — EL PAÍS: Ayuso's run of self-inflicted controversies is giving rivals new openings ahead of Spain's 2027 electoral cycle (section: spain)
+- **germany-foreign-worker-pay-gap-persistence** — Tagesspiegel: foreign full-time workers remain far more concentrated in low-paid jobs than German citizens (section: germany)
+- **germany-landline-decline-mobile-substitution** — Handelsblatt: cheaper mobile calling is accelerating the decline of Germany's fixed-line phone habit (section: germany)
+- **germany-rhine-ferries-resume-after-low-water** — Handelsblatt: rising river levels have restored Rhine ferry links after drought-driven disruption during peak season (section: germany)
+- **berlin-union-women-top-flight-start** — rbb24: Union Berlin's women opened their first Bundesliga season with a heavy but encouraging defeat to Bayern (section: berlin)
+- **berlin-outdoor-pools-dog-swim-days** — rbb24: Berlin's baths operator is repurposing some outdoor pools for end-of-season dog-swim days (section: berlin)
+- **berlin-commuter-belt-csd-security-pressure** — Tagesspiegel: the first CSD in Königs Wusterhausen will run under police protection, underscoring rising culture-war pressure in Berlin's commuter belt (section: berlin)
+- **world-qatar-war-spending-cuts** — Financial Times: war-related economic damage is forcing Qatar to cut domestic spending and overseas outlays despite its gas wealth (section: world)
+- **world-mexico-city-little-la-deportees** — The Guardian: deported Mexicans are reshaping a Mexico City neighbourhood into a refuge for returnees from Trump's America (section: world)
+- **world-tokuyama-chip-material-vietnam-malaysia** — Nikkei Asia: Tokuyama's new chip-material production in Vietnam and Malaysia extends semiconductor diversification across south-east Asia (section: world)
+
 ## 2026-08-21
 
 - **spain-hydrocarbons-vat-fraud-probes-35** — eldiario.es: Spain's tax agency still has 35 open hydrocarbons VAT-fraud investigations, keeping a billion-euro enforcement clean-up alive after the Aldama affair (section: spain)

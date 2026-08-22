@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-22
+
+- [‘Betrayal’: US ranchers lash out at Trump's plan to cut tax on beef imports](https://www.ft.com/content/7aabb591-ca73-4d87-96ad-dac9a210e1d0?syn-25a6b1a6=1) — Financial Times
+- [A dumpling shop becomes a poster child of AI adoption in China](https://restofworld.org/2026/china-ai-adoption-jinguyuan/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [Poll: The older and richer you are, the more you like AI](https://www.politico.eu/article/poll-ai-age-group-weath-future-technology/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Japan to crack down on deceptive 'dark pattern' websites](https://asia.nikkei.com/business/technology/japan-to-crack-down-on-deceptive-dark-pattern-websites) — Nikkei Asia
+
 ## 2026-08-21
 
 - [The battle over golf’s future](https://www.ft.com/content/d286cb7f-c63e-42a6-86db-d0a9ad0f296a?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [China Wants Its Data to Power the World’s A.I.](https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html) — The New York Times
 - [Why Australia’s Getting Tough on China Again](https://foreignpolicy.com/2026/08/17/australia-china-getting-tough-trump/) — Foreign Policy
 - [Takaichi's food tax cut will leave Japan budget relying on inflation](https://asia.nikkei.com/spotlight/comment/takaichi-s-food-tax-cut-will-leave-japan-budget-relying-on-inflation) — Nikkei Asia
-
-## 2026-08-17
-
-- [Thailand Q2 GDP growth slows to 1.9% on energy, travel woes](https://asia.nikkei.com/economy/thailand-q2-gdp-growth-slows-to-1.9-on-energy-travel-woes) — Nikkei Asia
-- [‘Deliberate negligence’: Russian nuclear power company with EU operations accused of violating safety standards](https://www.politico.eu/article/rosatom-hungary-nuclear-energy-egypt-russia-el-dabaa-paks-ii-russia-safety-standards-violations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Private credit under strain as troubled loans swell](https://www.ft.com/content/67acde0d-4154-4332-b33b-2d03d3a86007?syn-25a6b1a6=1) — Financial Times
-- [The next China shock will come from open-source AI](https://www.ft.com/content/2f705a5a-2c4e-4bca-b08a-ed9372ef3b2e) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 
