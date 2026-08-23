@@ -166,6 +166,17 @@ The PoC is successful only if all of these are true:
 - The merge triggers email delivery exactly once.
 - The API fallback remains available throughout the test.
 
+### Isolated Codex Cloud smoke test
+
+The repository includes two manual-only smoke-test workflows:
+
+- `.github/workflows/codex-cloud-smoke.yml` creates an isolated temporary PR and posts a harmless `@codex` task.
+- `.github/workflows/verify-codex-cloud-smoke.yml` checks that Codex replaces the marker with exactly `.codex-cloud-smoke/RESULT.md` and changes no production files.
+
+The smoke PR must target the repository's default branch for the documented GitHub integration path. It must not be merged. A successful smoke test requires a Codex comment or task, a pushed Codex commit visible on the remote PR branch, and a passing smoke verification check. A Codex commit reported only inside the cloud workspace, but absent from the remote PR branch, is not an end-to-end success.
+
+The workflow file must be present on the default branch before GitHub will expose it through the workflow-dispatch API. Before that merge, run the equivalent test manually by creating a temporary PR from `main`, posting the smoke comment, and inspecting the remote branch. Close the temporary PR and delete its branch after the test.
+
 ## Troubleshooting
 
 ### No synthesis PR appears
@@ -238,6 +249,7 @@ At the time this runbook was created:
 - The old API workflow is preserved locally as `backup/api-synthesis-current`.
 - The implementation branch is published remotely but has not yet been merged into `main`.
 - Implementation PR [#8](https://github.com/inigober/briefings/pull/8) is open and must not be merged during the connectivity test.
-- The `@codex review` comment was accepted by GitHub, but no Codex reaction or review had appeared as of the last check.
+- Codex Cloud connectivity is confirmed: the connector reviewed PR #8 and answered a generic `@codex` task.
+- The isolated smoke test was attempted on temporary PRs #9 and #10. PR #9 showed that a non-default PoC base branch is not a reliable Codex task target. PR #10 showed Codex executing the edit and creating commit `7c4f210` in its cloud workspace, but that commit was not visible on the remote PR branch after a follow-up push request. Therefore the full edit → push → verify smoke test is not yet passing.
 - GitHub CLI access is working through the macOS keychain credential with `repo` and `workflow` scopes; the ignored `.env` token can push but cannot create pull requests.
-- GitHub/Codex Cloud account setup has not yet been confirmed.
+- Temporary smoke PRs must remain unmerged and can be closed after evidence is retained.
