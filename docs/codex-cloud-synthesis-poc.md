@@ -82,6 +82,20 @@ OpenAI's documented GitHub flow requires Codex Cloud to be set up for the reposi
 
 Success signal: the repository is listed as connected in Codex settings and the repository's Codex/Code Review setting is enabled.
 
+### Local GitHub CLI authentication
+
+This is separate from Codex Cloud's GitHub connection. The agent also needs a valid local GitHub CLI login to create the test PR and post the `@codex review` comment.
+
+If `gh auth status` reports an invalid token:
+
+1. Open a terminal in this repository.
+2. Run `gh auth login -h github.com -p https -w`.
+3. Open the one-time URL shown by GitHub, enter the one-time code, and approve the login.
+4. Return to the terminal and wait for the command to finish.
+5. Run `gh auth status`.
+
+Success signal: `gh auth status` reports that the active GitHub account is logged in. This login does not create an OpenAI API key and does not affect Codex subscription billing.
+
 ### Check GitHub Actions permissions
 
 In GitHub:
@@ -222,5 +236,6 @@ At the time this runbook was created:
 - The implementation exists locally on `codex/pr-synthesis-cloud`.
 - The implementation is committed as `595b284`.
 - The old API workflow is preserved locally as `backup/api-synthesis-current`.
-- The implementation branch has not yet been merged into `main`.
+- The implementation branch is published remotely but has not yet been merged into `main`.
+- The implementation PR and `@codex review` connectivity test have not yet been created because the local `gh` login needs re-authentication.
 - GitHub/Codex Cloud account setup has not yet been confirmed.
