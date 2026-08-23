@@ -1,7 +1,7 @@
 name: Codex Cloud smoke test
 
-# Manual-only, isolated Codex Cloud connectivity test. It never targets main,
-# invokes the API, sends email, or merges the temporary PR.
+# Manual-only, isolated Codex Cloud connectivity test. It never invokes the
+# API, sends email, or merges the temporary PR.
 on:
   workflow_dispatch:
 
@@ -64,4 +64,3 @@ jobs:
           EOF
           gh pr comment "$PR_URL" --body-file codex-request.md
           echo "Smoke PR: $PR_URL" >> "$GITHUB_STEP_SUMMARY"
-
