@@ -1,0 +1,67 @@
+name: Codex Cloud smoke test
+
+# Manual-only, isolated Codex Cloud connectivity test. It never targets main,
+# invokes the API, sends email, or merges the temporary PR.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: codex-cloud-smoke
+  cancel-in-progress: false
+
+jobs:
+  create-smoke-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the selected PoC ref
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Create isolated smoke-test branch and PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE_REF: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          BRANCH="automation/codex-cloud-smoke-${GITHUB_RUN_ID}"
+          mkdir -p .codex-cloud-smoke
+          cat > .codex-cloud-smoke/request.json <<EOF
+          {
+            "purpose": "Codex Cloud connectivity and PR commit smoke test",
+            "run_id": "${GITHUB_RUN_ID}",
+            "base_ref": "${BASE_REF}",
+            "required_result": ".codex-cloud-smoke/RESULT.md"
+          }
+          EOF
+          git switch -c "$BRANCH"
+          git add .codex-cloud-smoke/request.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "automation: start Codex Cloud smoke test"
+          git push --set-upstream origin "$BRANCH"
+
+          PR_URL=$(gh pr create \
+            --repo "${GITHUB_REPOSITORY}" \
+            --base "$BASE_REF" \
+            --head "$BRANCH" \
+            --title "Codex Cloud smoke test ${GITHUB_RUN_ID}" \
+            --body "Isolated smoke test. This PR must not be merged.")
+
+          cat > codex-request.md <<'EOF'
+          @codex Read `.codex-cloud-smoke/request.json` and complete this isolated connectivity test.
+
+          Replace the request marker with `.codex-cloud-smoke/RESULT.md` containing exactly:
+
+          Codex Cloud smoke test passed.
+
+          Commit the change to this PR branch. Do not modify any other files, push to main, run workflows, send email, or merge the PR.
+          EOF
+          gh pr comment "$PR_URL" --body-file codex-request.md
+          echo "Smoke PR: $PR_URL" >> "$GITHUB_STEP_SUMMARY"
+

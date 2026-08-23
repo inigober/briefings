@@ -1,0 +1,44 @@
+name: Verify Codex Cloud smoke PR
+
+on:
+  pull_request:
+    branches:
+      - codex/pr-synthesis-cloud
+    types: [opened, synchronize, reopened]
+    paths:
+      - ".codex-cloud-smoke/**"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    if: startsWith(github.event.pull_request.head.ref, 'automation/codex-cloud-smoke-')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout smoke PR
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Verify Codex result only
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          test ! -e .codex-cloud-smoke/request.json
+          test -f .codex-cloud-smoke/RESULT.md
+          test "$(cat .codex-cloud-smoke/RESULT.md)" = "Codex Cloud smoke test passed."
+
+          CHANGED=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA")
+          printf '%s\n' "$CHANGED"
+          if printf '%s\n' "$CHANGED" | grep -Ev '^\.codex-cloud-smoke/(request\.json|RESULT\.md)$' | grep -q .; then
+            echo "::error::Smoke PR changed files outside the smoke-test directory"
+            exit 1
+          fi
+          if printf '%s\n' "$CHANGED" | grep -E '^\.github/workflows/|^(briefings|state|inbox)/' | grep -q .; then
+            echo "::error::Smoke PR touched production workflow or pipeline files"
+            exit 1
+          fi
+          echo "Codex Cloud committed the expected isolated smoke result."

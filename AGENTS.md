@@ -2,6 +2,10 @@
 
 Personal briefing pipeline: pre-fetch → synthesis → email.
 
+## Agent operating principle
+
+Take ownership of requested work end to end. Inspect the repository and connected services, implement the necessary changes, run the relevant tests or smoke checks, and verify the result before handing work back. Minimize requests for user intervention; ask only for approvals, credentials, or account actions that cannot be performed from the workspace, and give precise step-by-step instructions when one is required.
+
 ## Pipeline
 
 1. GitHub Actions pre-fetch writes `inbox/{type}/` and pushes to `main`.
