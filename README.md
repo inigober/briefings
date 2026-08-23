@@ -19,14 +19,15 @@ config/briefings.yaml          ← registry (paths, schedules, prompts)
 | `config/briefings.yaml` | Briefing type registry |
 | `config/briefings/{type}/` | Topics, sources per type |
 | Pre-fetch scripts | Research → typed `inbox/` |
-| **Synthesize briefing** workflow | Routes inbox push → Codex → commit `briefings/` |
+| **Request Codex Cloud synthesis** workflow | Routes inbox push → synthesis PR → Codex → merge |
 | `scripts/detect_synthesis_trigger.py` | Testable routing logic |
 | `scripts/send_briefing_email.py` | Markdown → HTML → inbox |
 
 ## Repository layout
 
 ```
-├── AGENTS.md                            # durable instructions for Codex in CI
+├── AGENTS.md                            # durable instructions for Codex Cloud PRs
+├── CURSOR_INSTRUCTIONS.md               # mirrored Cursor rules for agents
 ├── config/
 │   ├── briefings.yaml                 # type registry
 │   └── briefings/{type}/              # topics.yaml, sources.yaml
@@ -53,7 +54,7 @@ config/briefings.yaml          ← registry (paths, schedules, prompts)
 | Editorial rules | `.cursor/rules/{type}-briefing-style.mdc` |
 | Topics & sources | `config/briefings/{type}/` |
 | Synthesis steps (per type) | `prompts/{type}/synthesis-run.md` |
-| CI synthesis (Codex) | `.github/workflows/synthesize-briefing.yml` + `prompts/github-synthesis-run.md` |
+| Codex Cloud synthesis | `.github/workflows/request-codex-synthesis.yml` + `verify-synthesis-pr.yml` |
 | Trigger routing (testable) | `scripts/detect_synthesis_trigger.py` |
 | Pre-fetch schedules | `docs/external-scheduling.md` (cron-job.org → GitHub Actions) |
 | OpenAI pre-fetch spend cap | `scripts/openai_spend.py`, `OPENAI_DAILY_SPEND_CAP_USD` |
@@ -130,31 +131,31 @@ Pre-fetch scripts track **estimated** daily OpenAI spend and **abort** when the 
 
 Costs are **estimates** from API token usage + web-search call counts (see `scripts/openai_spend.py`). Pair with [OpenAI billing alerts](https://platform.openai.com/settings/organization/limits) as a platform-level backstop.
 
-**PM note:** Repo cap = circuit breaker on the research wire. OpenAI billing limits = account-level shutoff. Synthesis uses the same `OPENAI_API_KEY` (Codex in Actions) and is billed as normal API usage.
+**PM note:** Repo cap = circuit breaker on the research wire. OpenAI billing limits = account-level shutoff. Pre-fetch uses `OPENAI_API_KEY`; production synthesis runs through Codex Cloud and does not use that API key.
 
-### Synthesis (GitHub Action + Codex)
+### Synthesis (Codex Cloud PR)
 
-Production synthesis is **`.github/workflows/synthesize-briefing.yml`** (not Cursor).
+Production synthesis is **`.github/workflows/request-codex-synthesis.yml`**. It uses the GitHub-connected Codex Cloud agent, not the OpenAI API.
 
 | Setting | Value |
 |---------|--------|
-| Trigger | Push to `main` that touches `inbox/**`, or manual **backup** dispatch |
-| Agent | `openai/codex-action` with API key `OPENAI_API_KEY` |
-| Model | `gpt-5.4` (edit the workflow to change) |
-| Instructions | `prompts/github-synthesis-run.md` → per-type `prompts/{type}/synthesis-run.md` |
-| Commit | Workflow commits `briefing/{type}: YYYY-MM-DD` after verify scripts pass |
+| Trigger | Push to `main` that touches `inbox/**` |
+| Handoff | GitHub Action creates a synthesis PR and comments `@codex` |
+| Agent | Codex Cloud through the connected GitHub integration; no API key |
+| Instructions | `AGENTS.md` → `CURSOR_INSTRUCTIONS.md` → `prompts/codex-cloud-synthesis-run.md` → type prompt |
+| Commit | Codex commits to the PR branch; GitHub merges after verification |
 
 Flow:
 
-1. Pre-fetch pushes `inbox/…`, then **explicitly dispatches** this workflow (`mode=backup`)
-2. Workflow runs `detect_synthesis_trigger.py` — exits early on `skip` (no Codex spend)
-3. Codex writes `briefings/` + `state/` (no git push from the agent)
-4. Verify scripts run with network
-5. Workflow pushes, then **dispatches** `send-briefing-email.yml`
+1. Pre-fetch pushes `inbox/…` to `main` and dispatches the request workflow because GitHub does not chain workflows from a `GITHUB_TOKEN` push
+2. Direct pushes to `main` also trigger the request workflow through its `push` trigger; it creates one PR per eligible type/date
+3. The workflow comments `@codex`; Codex Cloud writes `briefings/` + `state/` to the PR branch
+4. The verification workflow checks the output and auto-merges the PR
+5. The merge push triggers `send-briefing-email.yml`
 
-> **Why dispatch?** Pushes made with the default `GITHUB_TOKEN` do not start other Actions workflows. Cursor used to see those pushes via GitHub’s external webhook; Actions cannot. Explicit `gh workflow run` replaces that link.
+> **Why a PR?** Codex Cloud’s documented GitHub entry point is a pull-request `@codex` comment. The push still triggers instantly, but it now creates a reviewable synthesis job instead of calling the API from GitHub Actions.
 
-**Recovery:** Actions → **Synthesize briefing** → Run workflow → mode `backup`. The daily health check also auto-dispatches backup when inbox is ready but the briefing file is missing.
+**Recovery:** Actions → **Request Codex Cloud synthesis** → Run workflow with the type and date. The manual **Synthesize briefing (API backup)** workflow remains available if the Codex Cloud handoff is unavailable.
 
 **Disable Cursor:** If an old “Briefing synthesis” Cursor Automation still exists, disable it so it does not double-run. See `prompts/cursor-automation-synthesis.md`.
 
@@ -178,7 +179,7 @@ Pre-fetch and health-check workflows have **no GitHub `schedule:` trigger** — 
 | Restaurants pre-fetch | Thursday **07:00** | `berlin-restaurants-prefetch.yml` |
 | Health check | Daily **11:00** | `prefetch-health-check.yml` (`profile: all`) |
 
-Synthesis is **push-triggered** via **Synthesize briefing** when pre-fetch commits to `inbox/`. If pre-fetch failed, recover from health-check emails or re-run the matching `*-prefetch.yml` workflow. If pre-fetch succeeded but no briefing appeared, the 11:00 health check dispatches synthesis in `backup` mode (or run **Synthesize briefing** manually).
+Synthesis is **push-triggered** via **Request Codex Cloud synthesis** when pre-fetch commits to `inbox/`. If pre-fetch failed, recover from health-check emails or re-run the matching `*-prefetch.yml` workflow. If Codex Cloud does not respond, the synthesis PR remains open and failed verification makes the missing handoff visible; use the manual API backup workflow if needed.
 
 ### Local OpenAI API key (safe setup)
 
@@ -271,8 +272,10 @@ python3 -m unittest discover -s tests -v
 | `berlin-culture-prefetch.yml` | cron-job.org Tue 06:00 Berlin + manual | RSS + WordPress + OpenAI → verify URLs → slim → commit `inbox/berlin-culture/` |
 | `berlin-restaurants-prefetch.yml` | cron-job.org Thu 07:00 Berlin + manual | OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
 | `music-discovery-prefetch.yml` | cron-job.org Fri 09:00 Berlin + manual | Taste cache → OpenAI research → verify URLs → slim → `inbox/music-discovery/` |
-| `synthesize-briefing.yml` | Explicit dispatch after inbox push (and manual backup); push `inbox/**` only helps non-bot pushes | Codex synthesis → verify → commit `briefings/` + `state/` → dispatch email |
-| `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if inbox missing; retry undelivered email; dispatch missing synthesis |
+| `request-codex-synthesis.yml` | Push to `main` touching `inbox/**` + manual | Create synthesis PR and comment `@codex` |
+| `verify-synthesis-pr.yml` | Synthesis PR update | Verify output, auto-merge, and let the merge trigger email |
+| `synthesize-briefing.yml` | Manual only | API-backed synthesis fallback |
+| `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if inbox missing; retry undelivered email; report missing synthesis PR |
 | `send-briefing-email.yml` | Push to `briefings/**/*.md` | Verify links per type, send styled email, record delivery log; email alert on failure |
 
 Pre-fetch workflows use **concurrency groups** so overlapping manual + scheduled runs queue instead of racing. The email workflow sends only the **newest dated briefing per type** when a push changes multiple files; use workflow dispatch with **all_changed** or `--all-changed` to replay every file.
@@ -280,7 +283,7 @@ Pre-fetch workflows use **concurrency groups** so overlapping manual + scheduled
 ## Rollout checklist
 
 - [x] Multi-briefing abstraction (news, berlin-culture, berlin-restaurants, music-discovery)
-- [x] `detect_synthesis_trigger.py` + CI Codex synthesis workflow
+- [x] `detect_synthesis_trigger.py` + Codex Cloud synthesis PR workflow
 - [x] External scheduling via cron-job.org (see `docs/external-scheduling.md`)
 - [x] Health-check backup dispatch for missing synthesis
 - [ ] Configure four cron-job.org jobs (see `docs/external-scheduling.md`)

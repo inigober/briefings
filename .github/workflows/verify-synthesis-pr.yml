@@ -1,0 +1,89 @@
+# Verify and merge Codex Cloud synthesis PRs.
+
+name: Verify Codex synthesis PR
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+    paths:
+      - ".github/synthesis-requests/**"
+      - "briefings/**"
+      - "state/**"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  verify:
+    if: startsWith(github.event.pull_request.head.ref, 'automation/synthesis-')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Verify synthesized briefing
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          MARKERS=$(find .github/synthesis-requests -type f -name '*.json' -print 2>/dev/null || true)
+          if [ -n "$MARKERS" ]; then
+            echo "::error::Codex has not removed the synthesis request marker yet"
+            exit 1
+          fi
+
+          mapfile -t BRIEFINGS < <(git diff --name-only "$BASE_SHA" "$HEAD_SHA" -- 'briefings/**/*.md' | grep -E '^briefings/(news|berlin-culture|berlin-restaurants|music-discovery)/[0-9]{4}-[0-9]{2}-[0-9]{2}\.md$' || true)
+          if [ "${#BRIEFINGS[@]}" -ne 1 ]; then
+            echo "::error::Expected exactly one production briefing, found ${#BRIEFINGS[@]}"
+            printf '%s\n' "${BRIEFINGS[@]}"
+            exit 1
+          fi
+
+          BRIEFING="${BRIEFINGS[0]}"
+          TYPE=$(printf '%s\n' "$BRIEFING" | cut -d/ -f2)
+          DATE=$(basename "$BRIEFING" .md)
+          if ! git diff --name-only "$BASE_SHA" "$HEAD_SHA" -- "state/${TYPE}/" | grep -q .; then
+            echo "::error::No state update found for ${TYPE}"
+            exit 1
+          fi
+
+          case "$TYPE" in
+            news)
+              python scripts/verify_briefing_sources.py --type news --date "$DATE" --briefing "$BRIEFING"
+              ;;
+            berlin-culture)
+              python scripts/validate_culture_briefing.py --path "$BRIEFING"
+              python scripts/verify_culture_briefing_urls.py --type berlin-culture --date "$DATE" --briefing "$BRIEFING"
+              ;;
+            berlin-restaurants)
+              python scripts/verify_restaurant_briefing_sources.py --type berlin-restaurants --date "$DATE" --briefing "$BRIEFING"
+              ;;
+            music-discovery)
+              python scripts/verify_music_urls.py --type music-discovery --date "$DATE" --briefing "$BRIEFING"
+              ;;
+          esac
+          echo "Verified ${BRIEFING}"
+
+  merge:
+    needs: verify
+    if: needs.verify.result == 'success' && github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge verified synthesis PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: gh pr merge "$PR_NUMBER" --squash --delete-branch --repo "${GITHUB_REPOSITORY}"

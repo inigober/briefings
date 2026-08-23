@@ -1,14 +1,9 @@
-# Synthesize a briefing with OpenAI Codex after inbox/ lands on main.
-# Replaces the Cursor Cloud Automation "Briefing synthesis" dispatcher.
+# Manual API-backed synthesis fallback.
+# Production synthesis now uses request-codex-synthesis.yml -> Codex Cloud PR.
 
-name: Synthesize briefing
+name: Synthesize briefing (API backup)
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "inbox/**"
   workflow_dispatch:
     inputs:
       mode:

@@ -122,9 +122,9 @@ jobs:
           echo "Push failed after 2 attempts"
           exit 1
 
-      # GITHUB_TOKEN pushes do not trigger other workflows — dispatch explicitly.
-      - name: Trigger synthesis
+      # GITHUB_TOKEN pushes do not trigger other workflows; dispatch the PR request explicitly.
+      - name: Trigger Codex synthesis PR request
         if: success() && steps.commit.outputs.pushed == 'true'
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: gh workflow run synthesize-briefing.yml --ref main -f mode=backup
+        run: gh workflow run request-codex-synthesis.yml --ref main -f type_id=music-discovery -f date=${{ steps.run_date.outputs.value }}

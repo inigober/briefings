@@ -75,9 +75,23 @@ jobs:
           echo "$DECISION"
           TYPE=$(python3 -c 'import json,sys; print(json.loads(sys.argv[1]).get("type_id") or "")' "$DECISION")
           if [ -z "$TYPE" ]; then
-            echo "No inbox-ready missing briefing — synthesis retry not needed"
+            echo "No inbox-ready missing briefing — synthesis PR request not needed"
             exit 0
           fi
-          echo "Dispatching synthesize-briefing.yml (backup) for type=$TYPE"
-          gh workflow run synthesize-briefing.yml --ref main -f mode=backup
-
+          DATE=$(python3 -c '
+          import json,sys
+          from pathlib import Path
+          data=json.loads(sys.argv[1])
+          for path in data.get("matched_files") or []:
+              name=Path(path).name
+              for suffix in ("-synthesis.json", "-raw.json", "-context.json"):
+                  if name.endswith(suffix):
+                      print(name[:-len(suffix)])
+                      raise SystemExit
+          ' "$DECISION")
+          if [ -z "$DATE" ]; then
+            echo "::error::Could not derive date for missing synthesis PR"
+            exit 1
+          fi
+          echo "Dispatching request-codex-synthesis.yml for type=$TYPE date=$DATE"
+          gh workflow run request-codex-synthesis.yml --ref main -f "type_id=$TYPE" -f "date=$DATE"
