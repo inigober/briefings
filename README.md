@@ -59,6 +59,7 @@ config/briefings.yaml          ← registry (paths, schedules, prompts)
 | Pre-fetch schedules | `docs/external-scheduling.md` (cron-job.org → GitHub Actions) |
 | OpenAI pre-fetch spend cap | `scripts/openai_spend.py`, `OPENAI_DAILY_SPEND_CAP_USD` |
 | Email delivery | `.github/workflows/send-briefing-email.yml` |
+| Codex Cloud PoC runbook | `docs/codex-cloud-synthesis-poc.md` |
 
 ## Briefing types
 
