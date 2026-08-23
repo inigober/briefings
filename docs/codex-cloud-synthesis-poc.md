@@ -237,5 +237,7 @@ At the time this runbook was created:
 - The implementation is committed as `595b284`.
 - The old API workflow is preserved locally as `backup/api-synthesis-current`.
 - The implementation branch is published remotely but has not yet been merged into `main`.
-- The implementation PR and `@codex review` connectivity test have not yet been created because the local `gh` login needs re-authentication.
+- Implementation PR [#8](https://github.com/inigober/briefings/pull/8) is open and must not be merged during the connectivity test.
+- The `@codex review` comment was accepted by GitHub, but no Codex reaction or review had appeared as of the last check.
+- GitHub CLI access is working through the macOS keychain credential with `repo` and `workflow` scopes; the ignored `.env` token can push but cannot create pull requests.
 - GitHub/Codex Cloud account setup has not yet been confirmed.
