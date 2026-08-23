@@ -12,14 +12,14 @@ Fri 09:00 cron-job.org
     → OpenAI web_search → YYYY-MM-DD-raw.json (Bandcamp/YouTube/cover URLs)
     → HTTP-verify + slim → YYYY-MM-DD-synthesis.json
     → commit inbox/music-discovery: YYYY-MM-DD research pre-fetch
-      → GitHub Action **Synthesize briefing** (Codex, no browsing)
+      → Cursor Automation **Briefing synthesis**
         → briefings/music-discovery/YYYY-MM-DD.md
           → Resend email
 ```
 
 The Mac job is a **nice-to-have**. Friday cloud pre-fetch runs from whatever taste-cache is already on `main`. Stale-by-a-week is fine.
 
-Taste cache alone is **not** enough for synthesis. After the Cursor→Codex move, Codex cannot browse the web, so Friday pre-fetch must also run OpenAI `web_search` (`scripts/fetch_music_research.py`) and land verified Listen URLs in `*-synthesis.json`. Codex then picks 6 featured + 4 More listening from that pool.
+Taste cache alone is **not** enough for synthesis. Friday pre-fetch also runs OpenAI `web_search` (`scripts/fetch_music_research.py`) and lands verified Listen URLs in `*-synthesis.json`. Synthesis then picks 6 featured + 4 More listening from that pool — copy URLs verbatim; do not invent Bandcamp slugs.
 
 ## Taste cache
 
@@ -59,4 +59,4 @@ Same pattern as culture/restaurants — see `docs/external-scheduling.md` for th
 
 ## Cloud synthesis
 
-`.github/workflows/synthesize-briefing.yml` (Codex via API key). No separate music automation.
+Same Cursor Automation as the other types (`prompts/cursor-automation-synthesis.md`). No separate music automation.

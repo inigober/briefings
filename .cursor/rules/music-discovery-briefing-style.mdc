@@ -79,7 +79,7 @@ Every featured entry needs an album cover image. Prefer Bandcamp `og:image`. Pre
 3. **Spotify** — last resort only; prefer album URI/URL over track
 4. **Never Apple Music**
 
-YouTube must still be **verified** in pre-fetch (HTTP-live inbox `youtube_url` — no search-only or invented IDs). If the inbox has no YouTube URL, omit YouTube and note `youtube_album?=no` in the internal selection table. Do not browse YouTube during Codex synthesis.
+YouTube must still be **verified** in pre-fetch (HTTP-live inbox `youtube_url` — no search-only or invented IDs). If the inbox has no YouTube URL, omit YouTube and note `youtube_album?=no` in the internal selection table. Do not browse YouTube during synthesis.
 
 ### Never invent URLs (mandatory)
 

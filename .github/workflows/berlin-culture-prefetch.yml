@@ -10,7 +10,6 @@ on:
 
 permissions:
   contents: write
-  actions: write
 
 concurrency:
   group: berlin-culture-prefetch
@@ -139,10 +138,3 @@ jobs:
           done
           echo "Push failed after 2 attempts"
           exit 1
-
-      # GITHUB_TOKEN pushes do not trigger other workflows — dispatch explicitly.
-      - name: Trigger synthesis
-        if: success() && steps.commit.outputs.pushed == 'true'
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: gh workflow run synthesize-briefing.yml --ref main -f mode=backup

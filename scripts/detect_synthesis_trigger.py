@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Decide which briefing synthesis (if any) should run for a git commit.
 
-Used by `.github/workflows/synthesize-briefing.yml` (and optional manual runs).
-Logic mirrors Step 0 in each prompts/*/synthesis-run.md push guard.
+Used by the Cursor Automation dispatcher (`prompts/synthesis-dispatcher-run.md`)
+and optional local / backup checks. Logic mirrors Step 0 in each
+prompts/*/synthesis-run.md push guard.
 """
 
 from __future__ import annotations
@@ -225,7 +226,7 @@ def inbox_research_files_for_date(type_id: str, date_str: str) -> list[str]:
 
 
 def detect_smoke_trigger(type_id: str, date_str: str | None = None) -> TriggerDecision:
-    """Reuse existing inbox to exercise Codex without blocking production dates."""
+    """Reuse existing inbox for an end-to-end test without blocking production dates."""
     if type_id not in load_manifest():
         known = ", ".join(sorted(load_manifest())) or "(none)"
         return TriggerDecision(
@@ -405,7 +406,7 @@ def main() -> int:
     parser.add_argument(
         "--smoke",
         action="store_true",
-        help="End-to-end Codex smoke test: reuse existing inbox for --type",
+        help="End-to-end smoke test: reuse existing inbox for --type",
     )
     parser.add_argument(
         "--type",

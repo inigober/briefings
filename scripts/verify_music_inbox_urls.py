@@ -6,8 +6,8 @@ OpenAI often invents bcbits cover paths. We require a live Bandcamp album URL
 
 GitHub-hosted runners often get a tiny Bandcamp challenge page (~3KB, HTTP 200)
 instead of the real ~250KB album HTML, so og:image is missing even when the
-Listen URL works in a browser. That is an IP/bot-wall issue, not a Codex
-parsing issue. Cover fallback order (still Bandcamp art when possible):
+Listen URL works in a browser. That is an IP/bot-wall issue, not a
+synthesis parsing issue. Cover fallback order (still Bandcamp art when possible):
 
 1. Bandcamp HTML (og:image / image_src / bcbits art id) when the page is real
 2. Microlink metadata for the same Bandcamp URL (their fetchers are not on
@@ -17,7 +17,7 @@ parsing issue. Cover fallback order (still Bandcamp art when possible):
 YouTube Listen URLs are optional. OpenAI rarely copies a live
 `music.youtube.com/playlist?list=OLAK5uy_…` album playlist, so this script
 looks that playlist up via YouTube Music search (no API key). Missing YouTube
-does not fail verification — Codex copies `youtube_url` when present and
+does not fail verification — synthesis copies `youtube_url` when present and
 omits YouTube when it is null.
 """
 

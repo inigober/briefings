@@ -2,7 +2,7 @@
 """Pre-fetch music-discovery release candidates via OpenAI web_search.
 
 Taste cache is already in inbox/ (materialize_music_inbox.py). This step finds
-Bandcamp / YouTube / cover / Dig URLs so Codex synthesis does not need to browse.
+Bandcamp / YouTube / cover / Dig URLs so synthesis can copy verified links instead of browsing.
 """
 
 from __future__ import annotations

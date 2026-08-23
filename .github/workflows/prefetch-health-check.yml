@@ -65,19 +65,3 @@ jobs:
           # Briefings on main with no successful email record → alert + re-trigger send
           python scripts/check_email_delivery.py --retry
 
-      - name: Retry missing synthesis
-        if: always()
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: |
-          set -euo pipefail
-          DECISION=$(python scripts/detect_synthesis_trigger.py --json --backup)
-          echo "$DECISION"
-          TYPE=$(python3 -c 'import json,sys; print(json.loads(sys.argv[1]).get("type_id") or "")' "$DECISION")
-          if [ -z "$TYPE" ]; then
-            echo "No inbox-ready missing briefing — synthesis retry not needed"
-            exit 0
-          fi
-          echo "Dispatching synthesize-briefing.yml (backup) for type=$TYPE"
-          gh workflow run synthesize-briefing.yml --ref main -f mode=backup
-
