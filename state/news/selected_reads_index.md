@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-23
+
+- [Russian ‘double-tap’ attack on Ukrainian shopping mall kills at least 16](https://www.ft.com/content/a7837e1c-6865-42bd-9902-3d4c4b7f37ef?syn-25a6b1a6=1) — Financial Times
+- [Taiwan's security council quietly steps up as architect of China strategy](https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-s-security-council-quietly-steps-up-as-architect-of-china-strategy) — Nikkei Asia
+- [JD Vance reportedly mocks Carney for trying to ‘out-tough’ Trump on trade](https://www.theguardian.com/us-news/2026/aug/21/jd-vance-mark-carney-out-tough-trump-trade) — The Guardian
+- [Cover Story newsletter: Could AIs become conscious?](https://www.economist.com/the-world-this-week/2026/08/21/cover-story-newsletter-could-ais-become-conscious) — The Economist
+
 ## 2026-08-22
 
 - [‘Betrayal’: US ranchers lash out at Trump's plan to cut tax on beef imports](https://www.ft.com/content/7aabb591-ca73-4d87-96ad-dac9a210e1d0?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Iran war energy crisis sparks Philippine solar boom](https://asia.nikkei.com/business/energy/iran-war-energy-crisis-sparks-philippine-solar-boom) — Nikkei Asia
 - [Climate change is cooking Europe’s oceans, scientists find](https://www.politico.eu/article/climate-change-is-cooking-europes-oceans-world-weather-attribution-mediterranean-sea/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [What Really Happens If China Wins the AI Race?](https://www.theatlantic.com/technology/2026/08/what-if-china-wins-ai-race/688256/?utm_source=feed) — The Atlantic
-
-## 2026-08-18
-
-- [AI hasn’t gone rogue. It’s worse than that](https://www.ft.com/content/a9947be4-5c0c-47ee-acae-a2aeaf01a0a0?syn-25a6b1a6=1) — Financial Times
-- [China Wants Its Data to Power the World’s A.I.](https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html) — The New York Times
-- [Why Australia’s Getting Tough on China Again](https://foreignpolicy.com/2026/08/17/australia-china-getting-tough-trump/) — Foreign Policy
-- [Takaichi's food tax cut will leave Japan budget relying on inflation](https://asia.nikkei.com/spotlight/comment/takaichi-s-food-tax-cut-will-leave-japan-budget-relying-on-inflation) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 

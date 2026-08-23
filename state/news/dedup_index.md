@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-23
+
+- **spain-climate-vulnerability-critical-summer** — eldiario.es: scientists say Spain's lethal mix of heat, fire and drought now amounts to a broader climate-vulnerability and state-capacity problem (section: spain)
+- **spain-ayuso-trip-expense-opacity** — eldiario.es: Ayuso's Mexico-trip accounts are under scrutiny after declared expenses diverged sharply from those of officials travelling with her (section: spain)
+- **spain-ceuta-accommodation-politics-school-year** — EL PAÍS: Ceuta is accelerating reception-site planning and trying to calm neighbourhood tensions before the school year starts (section: spain)
+- **germany-afd-voter-types-rooted-electorate** — Die Zeit: new research argues the AfD now draws from three durable voter blocs rather than a mostly protest electorate (section: germany)
+- **germany-oil-price-iran-household-costs** — Tagesspiegel: the Iran standoff is pushing fuel prices higher and turning geopolitical tension into a consumer-cost story in Germany (section: germany)
+- **germany-arctic-shipping-route-practical-test** — Handelsblatt: South Korea's first Arctic freighter to Europe shows the northern route edging into practical logistics planning (section: germany)
+- **berlin-ai-video-surveillance-evers** — Tagesspiegel: Stefan Evers wants wider AI-assisted camera monitoring, making automated policing a core Berlin election issue (section: berlin)
+- **berlin-funkturm-ringbahn-closure-cascade** — rbb24: a 26-hour closure around Dreieck Funkturm is again rippling through both road traffic and the Ringbahn (section: berlin)
+- **berlin-bathing-deaths-water-rescue-pressure** — Tagesspiegel: 14 bathing deaths this summer are putting Berlin's water-rescue volunteers under sharper pressure (section: berlin)
+- **world-syria-strike-turkey-provocation-risk** — Financial Times: a US envoy says Israel's Syria strike may have been intended to provoke Turkey before elections (section: world)
+- **world-manila-airport-upgrade-growth-test** — Nikkei Asia: Manila is trying to turn its airport from a global embarrassment into an infrastructure upgrade test (section: world)
+- **world-evergrande-founder-life-sentence** — The Guardian: China has jailed Evergrande founder Hui Ka Yan for life after his fraud conviction (section: world)
+
 ## 2026-08-22
 
 - **spain-ceuta-economic-revitalisation-plan** — EL PAÍS: Madrid is pairing Ceuta emergency spending with a broader economic revitalisation plan, shifting the enclave crisis toward long-term state support and recovery policy (section: spain)
@@ -215,33 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-cicc-china-ai-ipo-pipeline** — Financial Times: state-backed CICC dominates financier role in Beijing's AI listings race (section: world)
 - **world-ukrainian-evangelicals-maga-aid-lobby** — Nikkei Asia: Ukrainian religious activists court US evangelical conservatives to sustain Ukraine funding (section: world)
 - **world-texas-officer-mexico-triple-homicide-arrest** — The Guardian: Texas police officer arrested at border over Saltillo killings tied to custody dispute (section: world)
-
-## 2026-08-08
-
-- **spain-italy-schengen-border-controls-reinstatement** — eldiario.es: Sánchez government imposes temporary port and airport checks on travellers from Italy until 7 September after Meloni refuses to lift Rome's controls on Spaniards (section: spain)
-- **spain-morocco-social-media-migrant-recruitment-underground** — EL PAÍS: Moroccan Facebook groups shift to less visible channels after shutdown of 250,000-user crossing-coordination networks (section: spain)
-- **spain-vox-figaredo-hunt-immigrants-supreme-court-complaint** — eldiario.es: Compromís deputy files Supreme Court complaint against Vox MP for televised call to "hunt" Ceuta migrants one by one (section: spain)
-- **germany-bund-river-truck-ban-relaxation-criticism** — Frankfurter Allgemeine: BUND attacks federal easing of lorry restrictions on drought-hit rivers as symptom-blind climate policy (section: germany)
-- **germany-ai-autonomous-hacking-regulation-debate** — Handelsblatt: policymakers weigh tighter leash on AI systems after US firms admit models can autonomously hack (section: germany)
-- **germany-west-nile-fever-europe-240-cases** — Handelsblatt: WHO-linked surveillance records more than 240 West Nile infections across Europe this season, Italy hardest hit (section: germany)
-- **berlin-linke-expropriation-coalition-dilemma** — Tagesspiegel: leading Left party faces coalition trap over mandatory landlord sales pledge ahead of Abgeordnetenhaus vote (section: berlin)
-- **berlin-fabian-murder-trial-sister-testimony** — Berliner Zeitung: defendant's sister challenges prosecution timeline in week eleven of high-profile student murder case (section: berlin)
-- **berlin-union-zingler-football-investor-hypocrisy** — Tagesspiegel: Union Berlin president questions German outrage over FIFA private-investor plan while Bundesliga courts outside capital (section: berlin)
-- **world-colombia-1bn-us-security-aid-espriella** — The Guardian: Trump administration pledges $1 billion security package as rightwing lawyer Abelardo De La Espriella sworn in as president (section: world)
-- **world-china-ai-tutors-summer-holidays** — Nikkei Asia: Chinese parents subscribe to AI tutoring apps to keep children studying through school break (section: world)
-- **world-moonshot-ai-hong-kong-ipo-beijing** — Financial Times: Chinese AI start-up reshuffles leadership to secure mainland approval for Hong Kong listing (section: world)
-
-## 2026-08-08
-
-- **spain-vox-andalusia-gender-violence-units** — eldiario.es: far-right party gains control of integrated violence-against-women assessment units in Andalusian justice ministry while national law bars abolishing services (section: spain)
-- **spain-semen-microbiome-ivf-outcomes** — EL PAÍS: study links bacterial communities in male semen to miscarriage rates and lower live births after fertility treatment (section: spain)
-- **spain-audiencia-nacional-ceuta-guardia-civil-alerts** — La Vanguardia: National Court judge seeks Civil Guard data on whether advance warnings preceded 79 Ceuta border deaths (section: spain)
-- **germany-leipzig-airport-explosive-drone-ukraine** — Süddeutsche Zeitung: bomb-laden drone found beside Ukrainian cargo plane prompts hybrid-sabotage warnings from interior minister (section: germany)
-- **germany-deutschlandticket-schienenmaut-subsidy-fight** — Tagesspiegel: states demand federal cash as higher track-access fees threaten €49 monthly rail pass (section: germany)
-- **germany-kiel-institut-housing-price-slowdown** — Handelsblatt: owner-occupied apartment price growth eases with declines in Stuttgart and Frankfurt (section: germany)
-- **berlin-krach-tempelhof-surf-wave-proposal** — Tagesspiegel: SPD mayoral candidate pitches artificial surfing lagoon instead of housing on former airport field (section: berlin)
-- **berlin-museum-colonial-provenance-exhibition** — The Berliner: state museums open display confronting empire-era acquisition of collection objects (section: berlin)
-- **berlin-brandenburg-drone-defence-powers-redmann** — rbb24: Brandenburg interior minister seeks expanded police drone-intercept authority after Leipzig airport incident (section: berlin)
-- **world-deepmind-hassabis-leadership-shakeup** — Financial Times: Google DeepMind CEO steps back as chief scientist Jeff Dean leaves to found start-up (section: world)
-- **world-peru-lead-poisoning-doe-run-settlement** — The Guardian: $150m out-of-court deal for 1,300 Peruvians poisoned as children by US-owned smelter emissions (section: world)
-- **world-suzuki-flex-fuel-india-modi-ethanol** — Nikkei Asia: Japanese carmaker launches flex-fuel vehicles aligned with India's biofuel import-reduction push (section: world)

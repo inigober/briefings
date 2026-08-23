@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-22",
-  "briefing_date": "2026-08-22",
-  "inbox_date": "2026-08-22",
+  "date": "2026-08-23",
+  "briefing_date": "2026-08-23",
+  "inbox_date": "2026-08-23",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-22.md",
-  "inbox_path": "inbox/news/2026-08-22-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-23.md",
+  "inbox_path": "inbox/news/2026-08-23-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Una red ultra de EEUU e Israel utiliza Ceuta para atacar España",
+      "headline": "PP y Vox alientan el discurso racista en Ceuta y exigen al Gobierno incumplir la ley con la devolución de los menores",
       "section": "spain",
-      "reason": "theme_duplicate: the foreign-network angle still sat inside Ceuta's overcovered Spain loop and lost to the economic-plan turn"
+      "reason": "theme_duplicate: another Ceuta-politics item lost to the accommodation-and-local-tension angle for the section's single enclave slot"
     },
     {
-      "headline": "De la crisis fronteriza a la humanitaria: la encrucijada de Ceuta para la política nacional e internacional de Pedro Sánchez",
+      "headline": "Ceuta vuelve a poner a prueba el acuerdo de retorno de menores con Marruecos: \"No es una autorización de devolución\"",
       "section": "spain",
-      "reason": "recent_topic: another broad Ceuta overview did not clear the novelty bar after a week of enclave-focused Spain leads"
+      "reason": "theme_duplicate: the legal-return framing was strong but still duplicated the chosen Ceuta item's migration-management theme"
     },
     {
-      "headline": "18 cuerpos más para el cementerio de los anónimos: comienzan los entierros de migrantes fallecidos en la entrada a Ceuta",
+      "headline": "Ceuta, la crisis imposible",
       "section": "spain",
-      "reason": "theme_duplicate: the humanitarian toll was important but weaker than the more material policy and preparedness shifts selected"
+      "reason": "recent_topic: another broad Ceuta overview did not clear the novelty bar after a week of enclave explainers"
     },
     {
-      "headline": "Mujeres y menores migrantes, algunas enfermas, en colchones mojados en Ceuta: “Esto es una vergüenza, son personas vulnerables”",
+      "headline": "Las IA que atacan en enjambre desafían a sus creadores: “Es el primer incidente que me ha revuelto las tripas”",
       "section": "spain",
-      "reason": "theme_duplicate: another humanitarian-conditions entry did not beat the economic-plan story for the single Ceuta slot"
+      "reason": "geographic_misfit: the AI safety piece was global and not Spain-focused enough for the Spain section"
     },
     {
-      "headline": "Folge der Erderwärmung: Gottesanbeterin breitet sich aus – gut 15.000 Sichtungen",
+      "headline": "Ebola im Kongo: Trauer, Trauma, Stigma - Ebola-Waisen im Kongo",
       "section": "germany",
-      "reason": "lower_priority: the climate-range shift was real but lost to labour, telecom and transport stories with clearer economic stakes"
+      "reason": "geographic_misfit: the Congo Ebola story belonged in World rather than Germany"
     },
     {
-      "headline": "Arbeitsmarkt: Verdienstlücke zwischen Deutschen und Ausländern bleibt groß",
+      "headline": "Die Lage im Überblick: Wadephul erwartet Sieg - und Putin eine Niederlage Kiews",
       "section": "germany",
-      "reason": "duplicate_wire: the Handelsblatt version was dropped after the Tagesspiegel version was selected for publisher diversity"
+      "reason": "geographic_misfit: despite the German foreign-minister quote, the item was fundamentally a Ukraine war update for World"
     },
     {
-      "headline": "Eindämmungsversuche scheitern: Die Ebola-Epidemie in Zentralafrika droht außer Kontrolle zu geraten",
+      "headline": "Zollstreit: Experte warnt vor „Handelskrieg“ zwischen Kanada und USA",
       "section": "germany",
-      "reason": "geographic_misfit: despite appearing in the Germany pool, the story belonged in World rather than Germany"
+      "reason": "geographic_misfit: a North American tariff dispute did not fit the Germany section even through a German outlet"
     },
     {
-      "headline": "A9 Richtung Berlin nach Unfall voll gesperrt – kilometerlanger Stau",
+      "headline": "„Für eine Regierungsverantwortung schlecht geeignet“: Prominente SPD-Politiker blicken mit Skepsis auf Senatsbeteiligung der Linken",
       "section": "berlin",
-      "reason": "geographic_misfit: a motorway accident outside Berlin was too thin and too distant for a main city slot"
+      "reason": "theme_duplicate: election-coalition chatter lost to clearer policing, transport and public-safety stories"
     },
     {
-      "headline": "„Ohne Zuwanderung geht es nicht“: Was das Institut für Wirtschaft dem Osten prognostiziert",
+      "headline": "Nach Anschlag auf CSD: Justizministerin Hubig will queere Menschen per Grundgesetz schützen",
       "section": "berlin",
-      "reason": "geographic_misfit: east-Germany labour forecasts were broader regional analysis, not Berlin local reporting"
+      "reason": "lower_priority: the federal constitutional response was less directly local than the transport and water-safety pressures selected"
     },
     {
-      "headline": "Halberstadt bekommt Abschiebe-Zentrum für unbegleitete Männer",
+      "headline": "Tötungsdelikt bestätigt: Obduktion der Frauenleiche in Prenzlauer Berg abgeschlossen",
       "section": "berlin",
-      "reason": "geographic_misfit: Saxony-Anhalt migration infrastructure is not Berlin local news"
+      "reason": "lower_priority: a one-off crime update lacked the broader city-systems angle needed for a main slot"
     },
     {
-      "headline": "Tornado in Fürstenwalde: Wann Versicherungen zahlen",
+      "headline": "Taiwan's security council quietly steps up as architect of China strategy",
       "section": "world",
-      "reason": "geographic_misfit: the storm damage story sat in Berlin's regional spillover pool but was outside the city and lacked a strong capital-policy angle"
+      "reason": "selected_reads_mix: saved for Selected Reads to preserve a broader mix between the main World section and the reads block"
     },
     {
-      "headline": "A dumpling shop becomes a poster child of AI adoption in China",
+      "headline": "JD Vance reportedly mocks Carney for trying to ‘out-tough’ Trump on trade",
       "section": "world",
-      "reason": "selected_reads_mix: saved for Selected Reads to keep the main World section geographically broader"
+      "reason": "selected_reads_mix: saved for Selected Reads to keep the main World section slightly more varied between conflict, infrastructure and corporate accountability"
     }
   ],
-  "notes": "Spain used one Ceuta item only because the government's economic-plan turn was materially new, then shifted to seismic preparedness and Ayuso's political slippage. Germany's eligible pool was thin and largely one-outlet, so publisher diversity was preserved via the syndicated labour-market item. Berlin's pool was especially thin, requiring one commuter-belt spillover item to complete the section without repeating earlier city stories. World balanced the Gulf, North America/Latin America and south-east Asia."
+  "notes": "Spain's pool was dominated by Ceuta again, so the section used only one enclave item and shifted the remaining slots to climate vulnerability and Ayuso transparency. Germany's pool was unusually thin and full of geographic misfits, so the final mix leaned on one consumer-cost story, one political-research item and one Europe-facing logistics item to preserve novelty and publisher diversity. Berlin offered enough local material to stay inside city limits. World balanced Middle East spillover, south-east Asian infrastructure and Chinese corporate accountability."
 }
