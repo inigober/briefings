@@ -19,7 +19,7 @@ Known types: `news`, `berlin-culture`, `berlin-restaurants`, `music-discovery`.
    python scripts/detect_synthesis_trigger.py --json
    ```
 2. Parse the JSON:
-   - If `type_id` is `null` or the script prints `skip`, log the `reason` and **stop** — do not read inbox or write briefings.
+   - If `type_id` is `null` or the script prints `skip`, log the `reason` and **stop immediately**. Do not read inbox, style rules, past briefings, or state files. Do not browse. Do not run verify scripts. Many `main` pushes (email delivery log, briefing commits, docs) are expected skips — treat them as a successful no-op that should finish in seconds.
    - If `type_id` is set (`news`, `berlin-culture`, `berlin-restaurants`, or `music-discovery`), log which type and why, then continue.
 3. Open the matching synthesis prompt from `config/briefings.yaml`:
    - `news` → `prompts/news/synthesis-run.md`

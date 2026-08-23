@@ -43,6 +43,9 @@ NEWS_SECTION_IDS = ("spain", "germany", "berlin", "world")
 DEFAULT_MODEL = "gpt-5.4"
 API_TIMEOUT_SECONDS = 600.0
 PARALLEL_WORKERS = 5
+OPENAI_RETRY_ATTEMPTS = 3
+OPENAI_RETRY_BASE_SEC = 2.0
+OPENAI_RETRY_STATUS_CODES = frozenset({429, 500, 502, 503, 504})
 
 # Base OpenAI targets when RSS is empty. Reduced dynamically when RSS covers a section.
 SECTION_MIN_ITEMS: dict[str, int] = {
@@ -459,6 +462,51 @@ def make_client() -> Any:
     )
 
 
+def is_retryable_openai_error(exc: BaseException) -> bool:
+    try:
+        from openai import APIConnectionError, APIStatusError, APITimeoutError, RateLimitError
+    except ImportError:  # pragma: no cover
+        return False
+    if isinstance(exc, (APIConnectionError, APITimeoutError, RateLimitError)):
+        return True
+    if isinstance(exc, APIStatusError):
+        return getattr(exc, "status_code", None) in OPENAI_RETRY_STATUS_CODES
+    return False
+
+
+def retry_delay_seconds(exc: BaseException, attempt: int) -> float:
+    delay = OPENAI_RETRY_BASE_SEC * (2 ** (attempt - 1))
+    response = getattr(exc, "response", None)
+    headers = getattr(response, "headers", None) or {}
+    retry_after = headers.get("retry-after") or headers.get("Retry-After")
+    if retry_after:
+        try:
+            delay = max(delay, float(retry_after))
+        except ValueError:
+            pass
+    return min(delay, 30.0)
+
+
+def create_response_with_retry(client: Any, **create_kwargs: Any) -> Any:
+    """Call client.responses.create with backoff on 429/5xx and connection errors."""
+    last_exc: BaseException | None = None
+    for attempt in range(1, OPENAI_RETRY_ATTEMPTS + 1):
+        try:
+            return client.responses.create(**create_kwargs)
+        except Exception as exc:
+            last_exc = exc
+            if not is_retryable_openai_error(exc) or attempt == OPENAI_RETRY_ATTEMPTS:
+                raise
+            delay = retry_delay_seconds(exc, attempt)
+            log(
+                f"  OpenAI transient error ({type(exc).__name__}); "
+                f"retry {attempt}/{OPENAI_RETRY_ATTEMPTS} in {delay:.1f}s"
+            )
+            time.sleep(delay)
+    assert last_exc is not None
+    raise last_exc
+
+
 def fetch_web_research(
     *,
     client: Any,
@@ -487,7 +535,7 @@ def fetch_web_research(
     if max_tool_calls > 0:
         create_kwargs["max_tool_calls"] = max_tool_calls
 
-    response = client.responses.create(**create_kwargs)
+    response = create_response_with_retry(client, **create_kwargs)
     output_text = collect_output_text(response)
     if not output_text:
         raise RuntimeError("Empty response from OpenAI web research")
@@ -528,7 +576,7 @@ def fetch_structured(
         if max_tool_calls is not None and max_tool_calls > 0:
             create_kwargs["max_tool_calls"] = max_tool_calls
 
-    response = client.responses.create(**create_kwargs)
+    response = create_response_with_retry(client, **create_kwargs)
 
     output_text = collect_output_text(response)
     if not output_text:

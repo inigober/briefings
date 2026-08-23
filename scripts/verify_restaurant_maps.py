@@ -21,6 +21,22 @@ from restaurant_dates import normalize_thursday_run_date
 from restaurant_maps import verify_restaurant_item
 
 
+def missing_maps_key_action(*, dry_run: bool) -> str:
+    """What to do when GOOGLE_MAPS_API_KEY is empty.
+
+    Returns:
+        proceed — key present or dry-run (caller still reads the env var)
+        fail_ci — GitHub Actions must not skip verification
+        skip_local — local runs without a key keep working
+    """
+    api_key = os.environ.get("GOOGLE_MAPS_API_KEY", "").strip()
+    if api_key or dry_run:
+        return "proceed"
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        return "fail_ci"
+    return "skip_local"
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Verify restaurant raw inbox via Google Places API"
@@ -61,10 +77,17 @@ def main() -> int:
         return 1
 
     api_key = os.environ.get("GOOGLE_MAPS_API_KEY", "").strip()
-    if not api_key and not args.dry_run:
+    key_action = missing_maps_key_action(dry_run=args.dry_run)
+    if key_action == "fail_ci":
         log(
-            "GOOGLE_MAPS_API_KEY is not set — skipping Places verification. "
-            "Add the secret locally (.env) or in GitHub Actions to enable hard verification."
+            "GOOGLE_MAPS_API_KEY is not set — failing Places verification in CI. "
+            "Add the GitHub secret so restaurant pre-fetch cannot commit an unverified inbox."
+        )
+        return 1
+    if key_action == "skip_local":
+        log(
+            "GOOGLE_MAPS_API_KEY is not set — skipping Places verification locally. "
+            "Add the key in .env to enable hard verification."
         )
         return 0
 

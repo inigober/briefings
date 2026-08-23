@@ -19,6 +19,7 @@ Types: `news`, `berlin-culture`, `berlin-restaurants`, `music-discovery` (see `c
 
 When this run was triggered by a push to `main`:
 
+- Run `python scripts/detect_synthesis_trigger.py --json` first. On `skip`, log the reason and stop — do not open inbox, style rules, or past briefings. Do not browse or run verify scripts.
 - Follow `prompts/synthesis-dispatcher-run.md`, then the type’s `prompts/{type}/synthesis-run.md`.
 - **Do** `git commit` and push to `main` after verification scripts pass.
 - **Do not** send email; the email workflow handles delivery.

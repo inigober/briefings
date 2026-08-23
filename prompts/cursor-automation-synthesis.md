@@ -13,7 +13,7 @@ Setup guide for [Cursor Automations](https://cursor.com/automations). **One auto
 | **Model** | **Composer 2.5** (or Cursor Fast) |
 | **Spending cap** | ~$10–15/mo safety net |
 
-**Push trigger only.** Do not add schedule crons in Cursor. Pre-fetch timing is handled by cron-job.org → GitHub `workflow_dispatch` (see `docs/external-scheduling.md`). Use `prefetch-health-check.yml` for missed pre-fetch alerts.
+**Push trigger only.** Do not add schedule crons in Cursor. Pre-fetch timing is handled by cron-job.org → GitHub `workflow_dispatch` (see `docs/external-scheduling.md`). Use `prefetch-health-check.yml` for missed pre-fetch **and** missing-synthesis alerts.
 
 If an existing “Briefing synthesis” automation is disabled, **re-enable it** with these settings. Do not create a second one.
 
@@ -45,7 +45,7 @@ Pre-fetch commits inbox/{type}/  →  Cursor Automation (push to main)  →  bri
 
 Types: `news`, `berlin-culture`, `berlin-restaurants`, `music-discovery`.
 
-Missed pre-fetch? `prefetch-health-check.yml` emails you → run the matching `*-prefetch.yml` workflow manually.
+Missed pre-fetch? `prefetch-health-check.yml` emails you → run the matching `*-prefetch.yml` workflow manually. Inbox ready but no briefing? The same health check emails you → enable or re-run this automation.
 
 Routing logic is testable locally:
 

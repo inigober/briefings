@@ -40,6 +40,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
+      # Inbox + synthesis: missing inbox → retry pre-fetch; inbox ready but no
+      # production briefing → email only (Actions cannot start Cursor).
       - name: Check inbox landed
         env:
           GITHUB_TOKEN: ${{ github.token }}

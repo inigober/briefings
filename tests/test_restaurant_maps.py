@@ -13,6 +13,7 @@ SCRIPTS = ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
+from verify_restaurant_maps import missing_maps_key_action  # noqa: E402
 from restaurant_maps import (  # noqa: E402
     apply_places_result,
     build_search_query,
@@ -28,6 +29,30 @@ from slim_inbox_for_synthesis import RESTAURANT_SLIM_ITEM_KEYS  # noqa: E402
 
 
 class RestaurantMapsTests(unittest.TestCase):
+    def test_ci_fails_without_maps_key(self) -> None:
+        with patch.dict(
+            "os.environ",
+            {"GITHUB_ACTIONS": "true", "GOOGLE_MAPS_API_KEY": ""},
+            clear=False,
+        ):
+            self.assertEqual(missing_maps_key_action(dry_run=False), "fail_ci")
+
+    def test_local_skip_without_maps_key(self) -> None:
+        with patch.dict(
+            "os.environ",
+            {"GITHUB_ACTIONS": "", "GOOGLE_MAPS_API_KEY": ""},
+            clear=False,
+        ):
+            self.assertEqual(missing_maps_key_action(dry_run=False), "skip_local")
+
+    def test_dry_run_proceeds_without_maps_key(self) -> None:
+        with patch.dict(
+            "os.environ",
+            {"GITHUB_ACTIONS": "true", "GOOGLE_MAPS_API_KEY": ""},
+            clear=False,
+        ):
+            self.assertEqual(missing_maps_key_action(dry_run=True), "proceed")
+
     def test_build_search_query_uses_name_and_address(self) -> None:
         item = {
             "name": "Da Jia Le",

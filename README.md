@@ -153,7 +153,7 @@ Flow:
 
 > **Why Cursor sees the push:** GitHub Actions will not start another workflow from a `GITHUB_TOKEN` push. Cursor Automations listen to GitHub’s external webhook, so the same pre-fetch commit still starts synthesis.
 
-**Recovery:** Re-run the matching `*-prefetch.yml` workflow, or trigger the Cursor Automation manually. The daily health check emails if the inbox never landed; it does **not** call OpenAI for synthesis.
+**Recovery:** Re-run the matching `*-prefetch.yml` workflow, or trigger the Cursor Automation manually. The daily health check emails if the inbox never landed, **or** if the inbox is ready but `briefings/{type}/{date}.md` is missing. It does **not** call OpenAI and cannot start Cursor from GitHub Actions.
 
 **Enable Cursor:** If “Briefing synthesis” is disabled, turn it back on. Do not create a second automation. See `prompts/cursor-automation-synthesis.md`.
 
@@ -270,7 +270,7 @@ python3 -m unittest discover -s tests -v
 | `berlin-culture-prefetch.yml` | cron-job.org Tue 06:00 Berlin + manual | RSS + WordPress + OpenAI → verify URLs → slim → commit `inbox/berlin-culture/` |
 | `berlin-restaurants-prefetch.yml` | cron-job.org Thu 07:00 Berlin + manual | OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
 | `music-discovery-prefetch.yml` | cron-job.org Fri 09:00 Berlin + manual | Taste cache → OpenAI research → verify URLs → slim → `inbox/music-discovery/` |
-| `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if inbox missing; retry undelivered email |
+| `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if inbox missing or inbox ready but briefing missing; retry missed pre-fetch + undelivered email |
 | `send-briefing-email.yml` | Push to `briefings/**/*.md` | Verify links per type, send styled email, record delivery log; email alert on failure |
 
 Cursor Automation **Briefing synthesis** is not a GitHub workflow. It runs when GitHub receives a push to `main` (typically an `inbox/` pre-fetch commit).

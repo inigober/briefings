@@ -69,6 +69,25 @@ class TestPrefetchHealth(unittest.TestCase):
         self.assertFalse(ok)
         self.assertIn("slim step may have failed", detail)
 
+    def test_inbox_ready_but_briefing_missing(self) -> None:
+        with (
+            patch("check_prefetch_health.inbox_ready", return_value=(True, "found synthesis")),
+            patch("check_prefetch_health.production_briefing_exists", return_value=False),
+        ):
+            status = check_type("news", "2099-01-01")
+        self.assertFalse(status.ok)
+        self.assertEqual(status.kind, "synthesis")
+        self.assertIn("briefing missing", status.detail)
+
+    def test_inbox_and_briefing_present(self) -> None:
+        with (
+            patch("check_prefetch_health.inbox_ready", return_value=(True, "found synthesis")),
+            patch("check_prefetch_health.production_briefing_exists", return_value=True),
+        ):
+            status = check_type("news", "2099-01-01")
+        self.assertTrue(status.ok)
+        self.assertEqual(status.kind, "ok")
+
     def test_music_taste_only_counts_as_missed(self) -> None:
         from unittest.mock import MagicMock
 

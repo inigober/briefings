@@ -16,7 +16,7 @@ GitHub's built-in `schedule:` trigger is best-effort and can start workflows hou
 
 **Music discovery** materializes taste-cache into `inbox/`, then runs OpenAI web_search for Bandcamp/YouTube/cover candidates (same spend-cap pattern as culture/restaurants). See `docs/music-discovery-bridge.md`.
 
-**Health check timing:** One job at 11:00 Berlin covers all types. On a prefetch day (e.g. Tuesday culture at 06:00), the 11:00 run is the primary check that the inbox landed (~5 hours later). On other days, the same job re-checks the current week's culture/restaurant inbox keys as a backup — not the main alert path.
+**Health check timing:** One job at 11:00 Berlin covers all types. On a prefetch day (e.g. Tuesday culture at 06:00), the 11:00 run is the primary check that the inbox landed (~5 hours later) **and** that a production briefing exists. On other days, the same job re-checks the current week's culture/restaurant inbox keys as a backup — not the main alert path.
 
 ## 1. GitHub token
 
@@ -172,6 +172,10 @@ Token expired or wrong `Authorization` header.
 ### Synthesis ran twice
 
 Each `inbox/` push should trigger **one** Cursor Automation run. Two synthesis runs = two pre-fetch commits (e.g. morning schedule + afternoon test), or a leftover second automation. Check [git log for `inbox/` commits](https://github.com/inigober/briefings/commits/main). Keep only one enabled “Briefing synthesis” automation.
+
+### Inbox landed but no briefing
+
+Pre-fetch committed `inbox/{type}/` but `briefings/{type}/YYYY-MM-DD.md` never appeared. The 11:00 health check emails this separately and does **not** retry pre-fetch (that would waste OpenAI spend). **Fix:** enable or re-run **Briefing synthesis** at [cursor.com/automations](https://cursor.com/automations), or re-run the matching `*-prefetch.yml` so a fresh inbox push retriggers Cursor.
 
 ### Workflow runs but no inbox commit
 

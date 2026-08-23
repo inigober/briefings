@@ -80,7 +80,7 @@ Intro → six `##` featured entries → `## More listening` (4 bullets). No clos
 3. Commit: `briefing/music-discovery: YYYY-MM-DD`
 4. **Push to `origin main`** — mandatory; email workflow triggers on `briefings/**/*.md`
 
-CI synthesis skips this git push (the workflow commits after verify).
+Do not mark the run complete until the briefing commit is on `main`.
 
 ## Step 5 — Write back recommendation memory (local path)
 
