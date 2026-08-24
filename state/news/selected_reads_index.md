@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-24
+
+- [How climate is driving new geostrategy](https://www.ft.com/content/4a26bc38-1634-4804-81f7-11124c1e3008?syn-25a6b1a6=1) — Financial Times
+- [Why We Are Living Through ‘Hyperpolitics’](https://foreignpolicy.com/2026/08/21/anton-jager-hyperpolitics-dsa-bjp-political-theory/) — Foreign Policy
+- [Blackout tests Central Asia push for deeper power grid, data centers](https://asia.nikkei.com/business/energy/blackout-tests-central-asia-push-for-deeper-power-grid-data-centers) — Nikkei Asia
+- [The lesson from Canada’s collapsed trade talks with the US: negotiation may be futile](https://www.theguardian.com/us-news/2026/aug/23/canada-us-collapsed-trade-talks-negotiation-breakdown-analysis) — The Guardian
+
 ## 2026-08-23
 
 - [Russian ‘double-tap’ attack on Ukrainian shopping mall kills at least 16](https://www.ft.com/content/a7837e1c-6865-42bd-9902-3d4c4b7f37ef?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Itochu expands into data centers, targets 10 facilities across Japan](https://asia.nikkei.com/business/technology/artificial-intelligence/itochu-expands-into-data-centers-targets-10-facilities-across-japan) — Nikkei Asia
 - [Adviser to far-right Latin American leaders arrested for allegedly plotting to kill girlfriend](https://www.theguardian.com/world/2026/aug/19/fernando-cerimedo-adviser-far-right-latin-american-leaders-arrested-allegedly-plotting-kill-girlfriend) — The Guardian
 - [The Home Slopping Network](https://www.theatlantic.com/technology/2026/08/fairground-ai-roku-channel/688318/?utm_source=feed) — The Atlantic
-
-## 2026-08-19
-
-- [Iran eyes military targets in Europe if Trump escalates war, insiders say](https://www.ft.com/content/9ea0cde8-129e-4d88-976f-e367b7dd4d2c?syn-25a6b1a6=1) — Financial Times
-- [Iran war energy crisis sparks Philippine solar boom](https://asia.nikkei.com/business/energy/iran-war-energy-crisis-sparks-philippine-solar-boom) — Nikkei Asia
-- [Climate change is cooking Europe’s oceans, scientists find](https://www.politico.eu/article/climate-change-is-cooking-europes-oceans-world-weather-attribution-mediterranean-sea/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [What Really Happens If China Wins the AI Race?](https://www.theatlantic.com/technology/2026/08/what-if-china-wins-ai-race/688256/?utm_source=feed) — The Atlantic
 
 ## Blocked until 5+ briefings have passed
 

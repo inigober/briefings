@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-24
+
+- **spain-housing-prices-doubled-12-year-climb** — EL PAÍS: Spanish house prices have doubled after 48 straight quarterly rises since 2014 and have passed the old bubble peak in 16 regions (section: spain)
+- **spain-garzon-un-appeal-courts-reject** — eldiario.es: Spanish courts have rejected Baltasar Garzón's attempt to undo his conviction after a UN committee found he was denied a fair trial (section: spain)
+- **spain-feijoo-ceuta-public-health-confinement** — EL PAÍS: Feijóo is framing Ceuta as a public-health emergency and demanding confinement; the health ministry calls the demand excessive (section: spain)
+- **germany-china-cheap-imports-no-response** — Handelsblatt: Europe's goods deficit with China is at a record and German industry is absorbing the hit, but the government still lacks a response (section: germany)
+- **germany-micro-cars-youth-safety-gap** — Handelsblatt: low-speed micro-cars that 15-year-olds may drive are spreading faster than their crash-safety rules (section: germany)
+- **germany-sea-drones-lng-terminal-risk** — Tagesspiegel: a sea drone near Romania's Neptun Alpha platform has pushed attention onto the vulnerability of German LNG terminals (section: germany)
+- **berlin-school-building-offensive-10-years** — Tagesspiegel: ten years and about €7 billion into Berlin's Schulbauoffensive have added 62,000 school places and 160 new buildings (section: berlin)
+- **berlin-fez-wuhlheide-renovation-backlog** — Tagesspiegel: the FEZ youth centre in Wuhlheide is nearly 50 years old and lacks a clear owner for a growing renovation bill (section: berlin)
+- **berlin-tierpark-przewalski-horse-cover-up** — Tagesspiegel: the Tierpark concealed the death of a Przewalski's horse before a flagship Kazakhstan reintroduction trip (section: berlin)
+- **world-alibaba-10bn-share-sale-ai** — Nikkei Asia: Alibaba shares fell after a $10bn new share sale to fund AI spending (section: world)
+- **world-guinea-conakry-waste-dump-landslide** — The Guardian: a landslide at a Conakry waste dump killed 30 people days after the government promised to move the site (section: world)
+- **world-us-europe-ai-investment-gap** — Financial Times: the US is widening its lead over Europe in spending on high-tech equipment and facilities (section: world)
+
 ## 2026-08-23
 
 - **spain-climate-vulnerability-critical-summer** — eldiario.es: scientists say Spain's lethal mix of heat, fire and drought now amounts to a broader climate-vulnerability and state-capacity problem (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-china-ice-silk-road-arctic-shipping** — Financial Times: Beijing launches regular Arctic container route halving Europe–Asia transit (section: world)
 - **world-iran-security-chief-hormuz-replacement** — Financial Times: Mohsen Rezaei appointed SNSC head during Hormuz negotiations (section: world)
 - **world-sony-tsmc-kumamoto-image-sensors** — Nikkei Asia: $6.3bn joint investment in advanced image-sensor plant in Kumamoto (section: world)
-
-## 2026-08-09
-
-- **spain-total-solar-eclipse-august-12-peninsular** — EL PAÍS: millions prepare for first peninsular totality since 1905 on 12 August with authorities bracing for tourism surge (section: spain)
-- **spain-greenland-trump-linked-oil-unlicensed-drilling** — eldiario.es: Greenland government says US firm linked to Trump landed exploration gear without authorisation (section: spain)
-- **spain-vox-regions-refuse-ceuta-unaccompanied-minors** — La Vanguardia: Extremadura, Aragón and Castilla y León reject hosting minors evacuated from Ceuta (section: spain)
-- **germany-rheinmetall-papperger-personal-protection** — Handelsblatt: arms CEO under heightened security after alleged Russian assassination plots and home protests (section: germany)
-- **germany-turkey-pakistan-saudi-defence-pact-expansion** — Tagesspiegel: Ankara seeks to widen trilateral military alliance modelled on NATO beyond founding trio (section: germany)
-- **germany-eclipse-psychological-wow-effect-research** — Handelsblatt: scientists study why total solar eclipses leave lifelong emotional impressions (section: germany)
-- **berlin-russian-house-espionage-french-evidence** — Tagesspiegel: French intelligence report fuels calls to act against Moscow cultural centre as spy front (section: berlin)
-- **berlin-retinal-implant-blind-mother-reads** — Berliner Zeitung: chip-and-camera prosthetic restores enough vision for mother blind 20 years to read again (section: berlin)
-- **berlin-hamburg-rail-punctuality-one-quarter** — rbb24: only 25% of Berlin–Hamburg trains on time despite corridor renovation (section: berlin)
-- **world-cicc-china-ai-ipo-pipeline** — Financial Times: state-backed CICC dominates financier role in Beijing's AI listings race (section: world)
-- **world-ukrainian-evangelicals-maga-aid-lobby** — Nikkei Asia: Ukrainian religious activists court US evangelical conservatives to sustain Ukraine funding (section: world)
-- **world-texas-officer-mexico-triple-homicide-arrest** — The Guardian: Texas police officer arrested at border over Saltillo killings tied to custody dispute (section: world)

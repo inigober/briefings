@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-23",
-  "briefing_date": "2026-08-23",
-  "inbox_date": "2026-08-23",
+  "date": "2026-08-24",
+  "briefing_date": "2026-08-24",
+  "inbox_date": "2026-08-24",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-23.md",
-  "inbox_path": "inbox/news/2026-08-23-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-24.md",
+  "inbox_path": "inbox/news/2026-08-24-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "PP y Vox alientan el discurso racista en Ceuta y exigen al Gobierno incumplir la ley con la devolución de los menores",
+      "headline": "La crisis de Ceuta anuncia una batalla sin cuartel entre Gobierno y oposición en el arranque de curso en el Congreso",
       "section": "spain",
-      "reason": "theme_duplicate: another Ceuta-politics item lost to the accommodation-and-local-tension angle for the section's single enclave slot"
+      "reason": "theme_duplicate: another Ceuta-politics item lost to the new public-health/confinement clash, the section's single enclave slot"
     },
     {
-      "headline": "Ceuta vuelve a poner a prueba el acuerdo de retorno de menores con Marruecos: \"No es una autorización de devolución\"",
+      "headline": "Ceuta no puede esperar",
       "section": "spain",
-      "reason": "theme_duplicate: the legal-return framing was strong but still duplicated the chosen Ceuta item's migration-management theme"
+      "reason": "recent_topic: another broad Ceuta overview did not clear the novelty bar after two weeks of enclave coverage"
     },
     {
-      "headline": "Ceuta, la crisis imposible",
+      "headline": "La crisis sin resolver de Ceuta aterriza en un Congreso que calienta para elecciones",
       "section": "spain",
-      "reason": "recent_topic: another broad Ceuta overview did not clear the novelty bar after a week of enclave explainers"
+      "reason": "theme_duplicate: the Congress-restart framing duplicated the chosen Feijóo public-health item's enclave-politics theme"
     },
     {
-      "headline": "Las IA que atacan en enjambre desafían a sus creadores: “Es el primer incidente que me ha revuelto las tripas”",
+      "headline": "Suecia, de ejemplo de Estado del bienestar a paraíso de los superricos",
       "section": "spain",
-      "reason": "geographic_misfit: the AI safety piece was global and not Spain-focused enough for the Spain section"
+      "reason": "geographic_misfit: a Sweden inequality feature was not Spain-focused enough for the Spain section"
     },
     {
-      "headline": "Ebola im Kongo: Trauer, Trauma, Stigma - Ebola-Waisen im Kongo",
+      "headline": "KI-Server: Nvidia plant offenbar deutliche Preiserhöhung",
       "section": "germany",
-      "reason": "geographic_misfit: the Congo Ebola story belonged in World rather than Germany"
+      "reason": "geographic_misfit: a US chip-server price hike belonged in World/Other Headlines rather than Germany"
     },
     {
-      "headline": "Die Lage im Überblick: Wadephul erwartet Sieg - und Putin eine Niederlage Kiews",
+      "headline": "Onlineshopping: Shein will mit Börsengang Milliardenbetrag einsammeln",
       "section": "germany",
-      "reason": "geographic_misfit: despite the German foreign-minister quote, the item was fundamentally a Ukraine war update for World"
+      "reason": "geographic_misfit: a global Shein IPO did not have a Germany-specific policy or industry angle"
     },
     {
-      "headline": "Zollstreit: Experte warnt vor „Handelskrieg“ zwischen Kanada und USA",
-      "section": "germany",
-      "reason": "geographic_misfit: a North American tariff dispute did not fit the Germany section even through a German outlet"
-    },
-    {
-      "headline": "„Für eine Regierungsverantwortung schlecht geeignet“: Prominente SPD-Politiker blicken mit Skepsis auf Senatsbeteiligung der Linken",
+      "headline": "Wahlkampf mit Stefan Evers: Der Späteinsteiger, der die CDU retten soll",
       "section": "berlin",
-      "reason": "theme_duplicate: election-coalition chatter lost to clearer policing, transport and public-safety stories"
+      "reason": "recent_topic: another Evers campaign piece after yesterday's AI-surveillance item lacked a material new development"
     },
     {
-      "headline": "Nach Anschlag auf CSD: Justizministerin Hubig will queere Menschen per Grundgesetz schützen",
+      "headline": "„Will nicht von irgendwelchen Flachzangen angelogen werden“: Weidel beschimpft Merz und Klingbeil",
       "section": "berlin",
-      "reason": "lower_priority: the federal constitutional response was less directly local than the transport and water-safety pressures selected"
+      "reason": "geographic_misfit: a federal AfD interview was not a Berlin city story"
     },
     {
-      "headline": "Tötungsdelikt bestätigt: Obduktion der Frauenleiche in Prenzlauer Berg abgeschlossen",
+      "headline": "Nach dem Intel-Aus: Warum dieser Investor trotzdem in Magdeburg baut",
       "section": "berlin",
-      "reason": "lower_priority: a one-off crime update lacked the broader city-systems angle needed for a main slot"
+      "reason": "geographic_misfit: Magdeburg housing is outside Berlin city limits"
     },
     {
-      "headline": "Taiwan's security council quietly steps up as architect of China strategy",
+      "headline": "A dumpling shop becomes a poster child of AI adoption in China",
       "section": "world",
-      "reason": "selected_reads_mix: saved for Selected Reads to preserve a broader mix between the main World section and the reads block"
+      "reason": "recent_url: the same article was a Selected Read on 2026-08-22"
     },
     {
-      "headline": "JD Vance reportedly mocks Carney for trying to ‘out-tough’ Trump on trade",
+      "headline": "The lesson from Canada’s collapsed trade talks with the US: negotiation may be futile",
       "section": "world",
-      "reason": "selected_reads_mix: saved for Selected Reads to keep the main World section slightly more varied between conflict, infrastructure and corporate accountability"
+      "reason": "selected_reads_mix: saved for Selected Reads to keep the main World section on East Asia, Africa and the US-Europe AI capex gap"
+    },
+    {
+      "headline": "publisher_pool_thin",
+      "section": "berlin",
+      "reason": "publisher_pool_thin: after geographic filtering, the only eligible Berlin-city items were all Tagesspiegel; rbb24 and Berliner Zeitung leftovers were federal, non-local or recent-topic repeats"
     }
   ],
-  "notes": "Spain's pool was dominated by Ceuta again, so the section used only one enclave item and shifted the remaining slots to climate vulnerability and Ayuso transparency. Germany's pool was unusually thin and full of geographic misfits, so the final mix leaned on one consumer-cost story, one political-research item and one Europe-facing logistics item to preserve novelty and publisher diversity. Berlin offered enough local material to stay inside city limits. World balanced Middle East spillover, south-east Asian infrastructure and Chinese corporate accountability."
+  "notes": "Spain's pool was again Ceuta-heavy, so the section used one new public-health/confinement item and shifted the remaining slots to housing-price data and the Garzón court ruling. Germany's pool had several geographic misfits (Nvidia, Shein, Asia markets), so the mix used Chinese-import policy, micro-car safety and LNG/sea-drone risk. Berlin's eligible local pool was Tagesspiegel-only after geographic filtering. World balanced Chinese AI finance, a West African infrastructure failure and the US-Europe AI investment gap."
 }
