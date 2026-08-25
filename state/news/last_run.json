@@ -1,53 +1,53 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-24",
-  "briefing_date": "2026-08-24",
-  "inbox_date": "2026-08-24",
+  "date": "2026-08-25",
+  "briefing_date": "2026-08-25",
+  "inbox_date": "2026-08-25",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-24.md",
-  "inbox_path": "inbox/news/2026-08-24-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-25.md",
+  "inbox_path": "inbox/news/2026-08-25-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "La crisis de Ceuta anuncia una batalla sin cuartel entre Gobierno y oposición en el arranque de curso en el Congreso",
+      "headline": "Una reunión \"informal\" y su uso como \"oficinas\": lo que dice Feijóo sobre el ático vs lo que dice Ayuso",
       "section": "spain",
-      "reason": "theme_duplicate: another Ceuta-politics item lost to the new public-health/confinement clash, the section's single enclave slot"
+      "reason": "recent_topic: Ayuso penthouse/office controversy is a continuation, not a resignation or ruling"
     },
     {
-      "headline": "Ceuta no puede esperar",
+      "headline": "Robles reafirmará la labor de las Fuerzas Armadas y la españolidad de Ceuta en el Congreso",
       "section": "spain",
-      "reason": "recent_topic: another broad Ceuta overview did not clear the novelty bar after two weeks of enclave coverage"
+      "reason": "recent_topic: another Ceuta parliamentary account after two weeks of enclave coverage, no material trigger"
     },
     {
-      "headline": "La crisis sin resolver de Ceuta aterriza en un Congreso que calienta para elecciones",
+      "headline": "Cuando tienes la sensación de “ir tarde en la vida”: no tener piso o hijos a los 35 no es culpa tuya",
       "section": "spain",
-      "reason": "theme_duplicate: the Congress-restart framing duplicated the chosen Feijóo public-health item's enclave-politics theme"
+      "reason": "recent_topic: housing/life-course feature sat too close to yesterday's house-price doubling story"
     },
     {
-      "headline": "Suecia, de ejemplo de Estado del bienestar a paraíso de los superricos",
+      "headline": "El primer ministro de Canadá se planta y marca a Trump los límites de su chantaje: \"Si te atacan, estás en guerra\"",
       "section": "spain",
-      "reason": "geographic_misfit: a Sweden inequality feature was not Spain-focused enough for the Spain section"
+      "reason": "geographic_misfit: Canada-US confrontation belonged in World/Other Headlines, not Spain"
     },
     {
-      "headline": "KI-Server: Nvidia plant offenbar deutliche Preiserhöhung",
+      "headline": "Ukrainischer Transportflieger: Anschlagsversuch in Leipzig: Weitere Sprengstoffdrohne entdeckt",
       "section": "germany",
-      "reason": "geographic_misfit: a US chip-server price hike belonged in World/Other Headlines rather than Germany"
+      "reason": "incremental: another device from the Leipzig airport attack already covered on 18 August"
     },
     {
-      "headline": "Onlineshopping: Shein will mit Börsengang Milliardenbetrag einsammeln",
+      "headline": "+++ Iran-Krieg +++: USA streichen Syrien von Liste der Terrorunterstützer",
       "section": "germany",
-      "reason": "geographic_misfit: a global Shein IPO did not have a Germany-specific policy or industry angle"
+      "reason": "geographic_misfit: US-Iran-Syria war blog belonged in World/Other Headlines"
     },
     {
-      "headline": "Wahlkampf mit Stefan Evers: Der Späteinsteiger, der die CDU retten soll",
-      "section": "berlin",
-      "reason": "recent_topic: another Evers campaign piece after yesterday's AI-surveillance item lacked a material new development"
+      "headline": "Green: Bremst die Bundesnetzagentur die Energiewende aus, Klaus Müller?",
+      "section": "germany",
+      "reason": "avoid_unless_material: energy transition bottlenecks; interview commentary, not a ruling or policy change"
     },
     {
-      "headline": "„Will nicht von irgendwelchen Flachzangen angelogen werden“: Weidel beschimpft Merz und Klingbeil",
+      "headline": "SPD-Spitzenkandidat Steffen Krach setzt auf den Endspurt",
       "section": "berlin",
-      "reason": "geographic_misfit: a federal AfD interview was not a Berlin city story"
+      "reason": "recent_topic: another Krach campaign portrait after the 13 August omnipresence piece, no material development"
     },
     {
       "headline": "Nach dem Intel-Aus: Warum dieser Investor trotzdem in Magdeburg baut",
@@ -55,20 +55,20 @@
       "reason": "geographic_misfit: Magdeburg housing is outside Berlin city limits"
     },
     {
-      "headline": "A dumpling shop becomes a poster child of AI adoption in China",
-      "section": "world",
-      "reason": "recent_url: the same article was a Selected Read on 2026-08-22"
+      "headline": "ChatGPT ab Montag mit Werbung: Diese Nutzer sind betroffen",
+      "section": "berlin",
+      "reason": "geographic_misfit: OpenAI ads in 31 European countries are not a Berlin-city story"
     },
     {
-      "headline": "The lesson from Canada’s collapsed trade talks with the US: negotiation may be futile",
+      "headline": "JPMorgan eases approach on lending against shares to court AI’s new wealth",
       "section": "world",
-      "reason": "selected_reads_mix: saved for Selected Reads to keep the main World section on East Asia, Africa and the US-Europe AI capex gap"
+      "reason": "selected_reads_mix: saved for Selected Reads so the World section could keep East Asia chips, Gulf cyber and Latin America"
     },
     {
       "headline": "publisher_pool_thin",
       "section": "berlin",
-      "reason": "publisher_pool_thin: after geographic filtering, the only eligible Berlin-city items were all Tagesspiegel; rbb24 and Berliner Zeitung leftovers were federal, non-local or recent-topic repeats"
+      "reason": "publisher_pool_thin: after geographic filtering, Berliner Zeitung leftovers were Magdeburg, apples, ChatGPT ads or a crime trial; eligible Berlin-city items were Tagesspiegel and rbb24 only"
     }
   ],
-  "notes": "Spain's pool was again Ceuta-heavy, so the section used one new public-health/confinement item and shifted the remaining slots to housing-price data and the Garzón court ruling. Germany's pool had several geographic misfits (Nvidia, Shein, Asia markets), so the mix used Chinese-import policy, micro-car safety and LNG/sea-drone risk. Berlin's eligible local pool was Tagesspiegel-only after geographic filtering. World balanced Chinese AI finance, a West African infrastructure failure and the US-Europe AI investment gap."
+  "notes": "Spain's pool was Ceuta- and Ayuso-heavy, so the section used the unopposed CEOE succession, the UN desertification summit, and a Cantabria land-use fight to keep one slot for EL PAÍS. Germany mixed an education study, the Merz cabinet retreat, and Baerbock's Columbia move after dropping Leipzig as incremental and the Netzagentur interview as an energy-transition bottleneck. Berlin's eligible local pool was Tagesspiegel plus rbb24. World balanced Taiwan chip inputs, UAE AI cyber defence and Colombia's immigration crackdown."
 }

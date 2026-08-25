@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-25
+
+- **spain-garamendi-ceoe-third-term-unopposed** — eldiario.es: Antonio Garamendi is heading for a third unopposed term as head of CEOE, Spain's main employers' association (section: spain)
+- **spain-desertification-unccd-ulan-bator** — eldiario.es: more than half of Spain is desertified, and a UN land summit in Ulaanbaatar is treating soil degradation as a global threat (section: spain)
+- **spain-cantabria-wave-pool-tourism** — EL PAÍS: a planned wave-pool complex in a Cantabrian surf area would rezone 100,000 square metres for a 200,000-visitor tourism model (section: spain)
+- **germany-youth-school-stress-girls** — Tagesspiegel: one in three German young people is heavily burdened by school stress, including 42% of girls (section: germany)
+- **germany-merz-cabinet-klausur-growth-tutors** — Handelsblatt: Merz's black-red cabinet starts a closed session on growth while a briefing says five outsiders should teach the government economics (section: germany)
+- **germany-baerbock-columbia-university** — Handelsblatt: after her UN General Assembly presidency ends in September, Annalena Baerbock is expected to go to Columbia University rather than return to German politics (section: germany)
+- **berlin-districts-sondervermoegen-roads-disaster** — Tagesspiegel: each Berlin borough is getting almost €20 million from the federal special fund for streets and disaster protection, including some projects economists criticise (section: berlin)
+- **berlin-gamescom-studios-no-relocation** — rbb24: Gamescom in Cologne sold out in advance, Berlin studios are present, and the fair is still not moving to the capital (section: berlin)
+- **berlin-burning-berlin-musical** — rbb24: the musical Burning Berlin uses 1920s lesbian subculture to talk about the present (section: berlin)
+- **world-nichias-tsmc-chip-tubes-taiwan** — Nikkei Asia: TSMC supplier Nichias plans to build key chipmaking tubes in Taiwan (section: world)
+- **world-uae-ai-cyber-defense-iran-war** — Rest of World: the UAE is building a homegrown AI security industry after cyberattacks on banks, aviation and energy rose with the Iran war (section: world)
+- **world-colombia-espriella-immigration-crackdown** — The Guardian: Colombia's new far-right president Abelardo de la Espriella has ordered a detention and deportation crackdown during the earthquake aftermath (section: world)
+
 ## 2026-08-24
 
 - **spain-housing-prices-doubled-12-year-climb** — EL PAÍS: Spanish house prices have doubled after 48 straight quarterly rises since 2014 and have passed the old bubble peak in 16 regions (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-india-ai-it-jobs-threat** — Financial Times: generative AI risks automating India's back-office IT services employment model (section: world)
 - **world-typhoon-dolphin-china-million-evacuations** — The Guardian: strongest 2026 China cyclone forces more than one million relocations after hitting Okinawa (section: world)
 - **world-singapore-q2-gdp-5-9-forecast-raised** — Nikkei Asia: trade hub raises 2026 growth outlook after 5.9% second-quarter expansion (section: world)
-
-## 2026-08-10
-
-- **spain-ferrol-chinese-plant-naval-espionage** — EL PAÍS: defence ministry and CNI scrutinise Chinese-owned factory beside Ferrol naval base and Navantia shipyard (section: spain)
-- **spain-ceuta-street-protest-religious-communities** — La Vanguardia: thousands march in Ceuta demanding government response after migrant surge (section: spain)
-- **spain-meloni-italy-migration-hypocrisy-vs-spain** — eldiario.es: Meloni attacks Spain's regularisation while expanding Italy's migrant work-permit programme (section: spain)
-- **germany-bilger-airport-drone-defence-acceleration** — Tagesspiegel: transport minister vows faster airport drone defences after Leipzig incident (section: germany)
-- **germany-herrenknecht-bahn-ceo-palla-backing** — Handelsblatt: tunnel magnate publicly backs Deutsche Bahn chief amid punctuality crisis (section: germany)
-- **germany-west-europe-record-warm-june-july** — Tagesspiegel: June–July average 21.62°C, warmest on record for western Europe (section: germany)
-- **berlin-cdu-evers-poll-lead-mayor-race** — Tagesspiegel: CDU mayoral candidate Evers leads personal poll ahead of Left rival Eralp (section: berlin)
-- **berlin-karls-erlebnisdorf-food-rules** — Berliner Zeitung: Karls adventure park tightens outside-food policy, angering families (section: berlin)
-- **berlin-re2-evacuation-football-passengers** — rbb24: regional express evacuates 500 passengers after Hannover football match (section: berlin)
-- **world-china-ice-silk-road-arctic-shipping** — Financial Times: Beijing launches regular Arctic container route halving Europe–Asia transit (section: world)
-- **world-iran-security-chief-hormuz-replacement** — Financial Times: Mohsen Rezaei appointed SNSC head during Hormuz negotiations (section: world)
-- **world-sony-tsmc-kumamoto-image-sensors** — Nikkei Asia: $6.3bn joint investment in advanced image-sensor plant in Kumamoto (section: world)

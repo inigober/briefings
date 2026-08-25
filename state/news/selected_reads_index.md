@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-25
+
+- [JPMorgan eases approach on lending against shares to court AI’s new wealth](https://www.ft.com/content/d18b330f-1cc2-4f83-9720-5ab5b13981e4?syn-25a6b1a6=1) — Financial Times
+- [Trump’s Arctic saber-rattling boosts Iceland’s pro-EU campaign](https://www.politico.eu/article/donald-trump-iceland-eu-referendum/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [US scrutiny deters some Chinese tariff refund claims as others cash in](https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-scrutiny-deters-some-chinese-tariff-refund-claims-as-others-cash-in) — Nikkei Asia
+- [U.S. Unveils ‘Economic D-Day’ Against Iran](https://foreignpolicy.com/2026/08/24/iran-war-us-sanctions-bessent-operation-economic-outcast/) — Foreign Policy
+
 ## 2026-08-24
 
 - [How climate is driving new geostrategy](https://www.ft.com/content/4a26bc38-1634-4804-81f7-11124c1e3008?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Middle East deployment leaves Asia-Pacific without US aircraft carrier](https://asia.nikkei.com/politics/defense/middle-east-deployment-leaves-asia-pacific-without-us-aircraft-carrier) — Nikkei Asia
 - [Founder of China’s Evergrande jailed for life after pleading guilty to fraud](https://www.theguardian.com/business/2026/aug/20/evergrande-founder-jailed-life-fraud-hui-ka-yan) — The Guardian
 - [Why Is Everyone in Silicon Valley Talking Like That?](https://www.theatlantic.com/technology/2026/08/ai-jargon-in-everday-speech/688358/?utm_source=feed) — The Atlantic
-
-## 2026-08-20
-
-- [The box that built globalisation](https://www.ft.com/content/b88c3466-4525-4e16-b3fe-e10e713a2025?syn-25a6b1a6=1) — Financial Times
-- [Itochu expands into data centers, targets 10 facilities across Japan](https://asia.nikkei.com/business/technology/artificial-intelligence/itochu-expands-into-data-centers-targets-10-facilities-across-japan) — Nikkei Asia
-- [Adviser to far-right Latin American leaders arrested for allegedly plotting to kill girlfriend](https://www.theguardian.com/world/2026/aug/19/fernando-cerimedo-adviser-far-right-latin-american-leaders-arrested-allegedly-plotting-kill-girlfriend) — The Guardian
-- [The Home Slopping Network](https://www.theatlantic.com/technology/2026/08/fairground-ai-roku-channel/688318/?utm_source=feed) — The Atlantic
 
 ## Blocked until 5+ briefings have passed
 
