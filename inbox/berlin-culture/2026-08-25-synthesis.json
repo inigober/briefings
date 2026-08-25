@@ -1,0 +1,874 @@
+{
+  "briefing_type": "berlin-culture",
+  "date": "2026-08-25",
+  "week_start": "2026-08-26",
+  "week_end": "2026-09-01",
+  "week_label": "August 26–September 1, 2026",
+  "source_raw": "inbox/berlin-culture/2026-08-25-raw.json",
+  "built_at": "2026-08-25T08:43:45.067541+00:00",
+  "model": "gpt-5.4",
+  "raw_item_count": 121,
+  "section_counts": {
+    "exhibitions": 4,
+    "film": 2,
+    "performing_arts": 1,
+    "music": 3,
+    "wildcards": 4,
+    "advance_radar": 5
+  },
+  "items": [
+    {
+      "id": "exh-josef-kaiser-building-for-the-gdr-2026-08-28",
+      "topic_ids": [
+        "exhibitions",
+        "architecture",
+        "history"
+      ],
+      "title": "Josef Kaiser — Building for the GDR",
+      "venue": "Berlinische Galerie",
+      "dates": "2026-08-28 to 2027-02-01",
+      "times": "14:05",
+      "artists": [
+        "Josef Kaiser"
+      ],
+      "official_url": "https://www.museumsportal-berlin.de/en/exhibitions/map/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Opens within the briefing window on 2026-08-28; a strong research-oriented exhibition lead around GDR architecture, urbanism, and memory.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "exh-materialistin-matter-of-care-care-of-matter-2026",
+      "topic_ids": [
+        "exhibitions",
+        "contemporary_art",
+        "group_show"
+      ],
+      "title": "[ materialistin ] — Matter of Care, Care of Matter",
+      "venue": "Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "2026-07-03 to 2027-03-14",
+      "times": "03:07",
+      "artists": [],
+      "official_url": "https://www.smb.museum/en/museums-institutions/hamburger-bahnhof/exhibitions/current/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Open throughout the full briefing window; contemporary art exhibition with strong material, ecological, and care-oriented framing.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-f5d18be83f",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Forking Paths",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until August 29, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44095/forking-paths",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 29, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-4ae4d310d0",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "breaking is reflection",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until August 29, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43962/breaking-is-reflection",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until August 29, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "film-news-from-home-2026-08-31",
+      "topic_ids": [
+        "film",
+        "essay_film",
+        "introduction"
+      ],
+      "title": "News from Home",
+      "venue": "Arsenal 1",
+      "dates": "2026-08-31",
+      "times": "19:30",
+      "artists": [
+        "Chantal Akerman",
+        "Birgit Kohler"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/en/cinema/film-screening/news-from-home-2395/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Canonical essay film with an introduction by Birgit Kohler; closely aligned with the brief’s interest in political and formally adventurous cinema.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "film-la-jetee-maspero-2026-08-30",
+      "topic_ids": [
+        "film",
+        "political_cinema",
+        "essay_film"
+      ],
+      "title": "La Jetée + On vous parle de Paris: Maspero, les mots ont un sens",
+      "venue": "Arsenal",
+      "dates": "2026-08-30",
+      "times": "18:00",
+      "artists": [
+        "Chris Marker"
+      ],
+      "official_url": "https://www.arsenal-berlin.de/en/cinema/film-screening/5547/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Landmark Chris Marker pairing spanning memory politics, essay form, and radical publishing/intellectual history.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "pa-bat-dances-2026-08-26",
+      "topic_ids": [
+        "performing_arts",
+        "dance",
+        "interdisciplinary_performance"
+      ],
+      "title": "Bat Dances",
+      "venue": "HAU3, HAU Hebbel am Ufer",
+      "dates": "2026-08-26 to 2026-08-29",
+      "times": "2026-08-26 18:00; 2026-08-29 17:00",
+      "artists": [
+        "Kareth Schaffer",
+        "Jonas Hauer"
+      ],
+      "official_url": "https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Experimental choreographic/performance work verified on HAU’s schedule page and clearly in the briefing window.",
+      "ingestion_source": "openai",
+      "series_id": "tanz-im-august-2026",
+      "event_kind": "festival_event"
+    },
+    {
+      "id": "music-mutant-radio-sessions-2026-08-28",
+      "topic_ids": [
+        "music",
+        "experimental",
+        "electroacoustic"
+      ],
+      "title": "silent green pres. Mutant Radio Sessions",
+      "venue": "silent green Kulturquartier, Kuppelhalle",
+      "dates": "2026-08-28",
+      "times": "doors 19:00, start 20:00",
+      "artists": [
+        "Andrea Neumann",
+        "Liz Allbee",
+        "Araushavs"
+      ],
+      "official_url": "https://www.silent-green.net/en/programme/detail/silent-green-pres-mutant-radio-sessions-2?cHash=3eb1a7595483a7d9e303672105a96397&tx_news_pi1%5Bday%5D=28&tx_news_pi1%5Bmonth%5D=8&tx_news_pi1%5Byear%5D=2026",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Excellent fit for experimental, electroacoustic, and left-field music interests, with a specifically recovered official event page.",
+      "ingestion_source": "openai",
+      "series_id": "mutant-radio-sessions",
+      "event_kind": "festival_event"
+    },
+    {
+      "id": "silent-green-html-music-a171125ea5",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Hanno Leichtmann: OSCILLAZIONI",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "02:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/hanno-leichtmann-oscillazioni?tx_news_pi1%5Bday%5D=31&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=c2d704e82b83549a281429443a68ff7a",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "silent-green-html-music-3d27215d41",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "HTRK + Loraine James – sold out",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "07:45",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/htrk?tx_news_pi1%5Bday%5D=2&tx_news_pi1%5Bmonth%5D=8&tx_news_pi1%5Byear%5D=2026&cHash=7cf57091a06d99a6386d67ddcfcec870",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-976969b8f4",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Josef Kaiser. Bauen für die DDR",
+      "venue": "Alte Jakobstr. 124-128 10969 Berlin",
+      "dates": "27 August 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Josef Kaiser. Bauen für die DDR",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-b783b6c9e3",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Thomas Billhardt Die Augen weit offen",
+      "venue": "Oranienburger Str. 54 10117 Berlin",
+      "dates": "27 August 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45392/die-augen-weit-offen",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Thomas Billhardt Die Augen weit offen",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-e4f8b86e9c",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Berlin Beats: BASHKKA",
+      "venue": "Invalidenstr. 50/51 10557 Berlin",
+      "dates": "27 August 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44854/berlin-beats-bashkka",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Berlin Beats: BASHKKA",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "berlin-beats",
+      "event_kind": "festival_event"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-c5c7c3ffd6",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Ruba Al-Sweel\\, Arvin Arta\\, Dana Dawud\\, Noura Tafeche and Zein Majali Short Film Screening",
+      "venue": "Frankfurter Tor 1 10243 Berlin",
+      "dates": "27 August 2026",
+      "times": "20:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44942/short-film-screening",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Ruba Al-Sweel\\, Arvin Arta\\, Dana Dawud\\, Noura Tafeche and Zein Majali Short Film Screening",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-04127c77c7",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Heinz Mack Spectrum Mundi",
+      "venue": "Matthäikirchplatz 10785 Berlin",
+      "dates": "02 September 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45274/spectrum-mundi",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Heinz Mack Spectrum Mundi",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-3b79aa24c4",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Wallpaper. Mitgliederausstellung",
+      "venue": "Markgrafenstr. 67 10969 Berlin",
+      "dates": "03 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45265/wallpaper-mitgliederausstellung",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Wallpaper. Mitgliederausstellung",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-7f689a51ca",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Murat Önen trennt euch",
+      "venue": "Hardenbergstr. 9A\\, 3. Hof 10623 Berlin",
+      "dates": "03 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45171/trennt-euch",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Murat Önen trennt euch",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-14ca0b9a88",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Ground Noise",
+      "venue": "Wilhemsaue 1 10715 Berlin",
+      "dates": "03 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44975/ground-noise",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Ground Noise",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-d7ad9cf4f5",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "„HAUS AUS GLAS - Vom Bauen und Niederreißen“ Ein performatives Porträt des amerikanischen Architekten Philip Johnson",
+      "venue": "Oberwallstr. 32 10117 Berlin",
+      "dates": "03 September 2026",
+      "times": "20:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45281/haus-aus-glas-vom-bauen-und-niederreissen-ein-performatives-portrat-des-amerikanischen-architekten-philip-johnson",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "„HAUS AUS GLAS - Vom Bauen und Niederreißen“ Ein performatives Porträt des amerikanischen Architekten Philip Johnson",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    }
+  ],
+  "editorial_context": {
+    "rejected_candidates": [
+      {
+        "id": "index-berlin-html-exhibitions-3973430ab1",
+        "title": "Vom Winde gestoßen",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-b92d231663",
+        "title": "Above Ground Below",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-05a416e601",
+        "title": "Boutique Société × Treasures of Memory 2",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-09bbf14e2a",
+        "title": "Bamboo Whispers in Fading Light",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-2009f9067b",
+        "title": "some random spot nearby",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-37f37a8ddd",
+        "title": "Galerie Nordenhake Stockholm, Berlin, Mexico City, 50 Years",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-156fc78212",
+        "title": "Apophenia",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-685fb12f23",
+        "title": "Self Studies",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-1bc6aa760a",
+        "title": "Guten Morgen Sonnenschein",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-7b8bb3615b",
+        "title": "For further information, please contact the gallery.tion",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-5f4bc65c23",
+        "title": "Spring/Summer 2026",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-e6c5938d22",
+        "title": "For further information please contact the gallery",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-b0dd215184",
+        "title": "This Summer. Artists of the Gallery",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-11e49ee017",
+        "title": "Summer Show (by appointment only)",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-169450ceb6",
+        "title": "Ansichtssache",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-02098b0d7f",
+        "title": "When Night Falls",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-598a35f108",
+        "title": "they filled me up with words",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-8669d4c1b2",
+        "title": "Pedagogical Prop",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-d47743bfc0",
+        "title": "DKB-Schaufenster – Freiheit der Kunst",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-7c23642bae",
+        "title": "When a whole group is coming too late",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-82d5129dfb",
+        "title": "Schaufenster#11 (Monstera)",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-95e4f0acb8",
+        "title": "Publik Machen . Coda: Reenacting an Exhibition",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-f40d7d569d",
+        "title": "Als ich dachte es sei Luft",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-f4726b0743",
+        "title": "UNLESS THE PEOPLE LIVE HERE",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-45ebab66d6",
+        "title": "SOUND BIESENTHAL",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-e9ea927594",
+        "title": "매난국죽 Mae Nan Guk Juk: Diasporic Memories Formed in Clay",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-362d702586",
+        "title": "Unit",
+        "section": "exhibitions",
+        "reason": "venue_cap:still holds hamburger bahnhof nationalgalerie der gegenwart",
+        "series_id": "",
+        "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart"
+      },
+      {
+        "id": "pa-masterwork-for-six-dancers-2026-08-27",
+        "title": "MASTERWORK FOR SIX DANCERS",
+        "section": "performing_arts",
+        "reason": "series_cap:tanz-im-august-2026",
+        "series_id": "tanz-im-august-2026",
+        "venue": "HAU1, HAU Hebbel am Ufer"
+      },
+      {
+        "id": "pa-down-full-album-2026-08-26",
+        "title": "DOWN (full album)",
+        "section": "performing_arts",
+        "reason": "series_cap:tanz-im-august-2026",
+        "series_id": "tanz-im-august-2026",
+        "venue": "Berlinische Galerie via HAU / Tanz im August listing"
+      },
+      {
+        "id": "pa-bruits-marrons-2026-08-27",
+        "title": "Bruits Marrons",
+        "section": "performing_arts",
+        "reason": "series_cap:tanz-im-august-2026",
+        "series_id": "tanz-im-august-2026",
+        "venue": "St. Elisabeth-Kirche via HAU / Tanz im August listing"
+      },
+      {
+        "id": "silent-green-html-music-acaa150df9",
+        "title": "silent green Open Lab #9: JKZQ + franna",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a3bb4f4780",
+        "title": "Bjørn Melhus: LOST IN FINITY – Open Air Screening THE END",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-96d536e72b",
+        "title": "silent green Open Lab #10: Lovecrushr + ricky horror",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-d2068943b4",
+        "title": "Bjørn Melhus: LOST IN FINITY – Open Air Screening THE WIZARD OF OZ",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-af9f6c3edc",
+        "title": "silent green Open Lab #11: ..o & Nilgün Özer + Gabi Pedrosa",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-f602dc4952",
+        "title": "Unguarded pres. Jungstötter + Blurrydog",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-4f0c284feb",
+        "title": "Bjørn Melhus: LOST IN FINITY – THE BEGINNING OF THE END",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-ffe747d61a",
+        "title": "Psychic Liberation Night: Niloofar Asghary + Júlia Koffler",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-b340ea9285",
+        "title": "Sonic Matters VI – Independent Label Market",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-151cc9901d",
+        "title": "silent green Sommerfest 2026",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-bc88720cd7",
+        "title": "Bjørn Melhus: LOST IN FINITY – DEADLY FRUITS – From Earth Rise to Weltuntergang",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-84239b5a6b",
+        "title": "Pop-Kultur Festival 2026",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "pop",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-aa9e219ad8",
+        "title": "The I in the Mirror: Reflection",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a915084870",
+        "title": "Film concert: Midori Hirano x The Juniper Tree (1990) – Heroines of Sound Festival / Heroines Edition # I",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "film-concert",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-0aef751072",
+        "title": "hub pres. Doorman + Franco Franco",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-06e57eee54",
+        "title": "Who Shapes Culture in the Age of AI?",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-1be21aae6f",
+        "title": "ZEIT WISSEN Congress 2026: Courage for Sustainability",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "zeit-wissen-congress-2026",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-f10033105e",
+        "title": "Katokye",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-c5f9f0644f",
+        "title": "15 YEARS zweikommasieben: Anna Homler + Steven Warwick & Jon Davies + zweikommasieben DJs",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-40bd118129",
+        "title": "Transgressive Memory Festival: Resynthesising the Traditional",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "transgressive-memory-festival",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-4963b84287",
+        "title": "Transgressive Memory Festival",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "transgressive-memory-festival",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-32d24d2514",
+        "title": "Historische Führungen am Tag des offenen Denkmals",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-555679ec4e",
+        "title": "Historische Führungen am Tag des offenen Denkmals",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-a0a152ec37",
+        "title": "Book premiere GAVDOS with Tomer Dotan-Dreyfus",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-8bb2dd9865",
+        "title": "Curbside Lambsear",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-31a198255d",
+        "title": "Burnt Friedman pres. Secret Rhythms",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-c8da44e1be",
+        "title": "Anja Huwe / Xmal Deutschland – Sonic Morgue + Das Kinn",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      }
+    ],
+    "diversification_caps": {
+      "max_per_venue": 2,
+      "max_per_series": 1
+    },
+    "note": "Pre-ranked with venue/series/event de-duplication across sections. Synthesis must still apply one-event-one-slot and Top Picks cross-reference rules."
+  },
+  "note": "Token-light culture slice for synthesis. Items with verified:true passed pre-fetch URL/schedule checks; synthesis spot-checks only unverified Top Picks and closing-soon items."
+}
