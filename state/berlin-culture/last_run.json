@@ -1,31 +1,30 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-08-18",
-  "briefing_date": "2026-08-18",
-  "inbox_date": "2026-08-18",
-  "week_start": "2026-08-19",
-  "week_end": "2026-08-25",
+  "date": "2026-08-25",
+  "briefing_date": "2026-08-25",
+  "inbox_date": "2026-08-25",
+  "week_start": "2026-08-26",
+  "week_end": "2026-09-01",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-08-18.md",
-  "inbox_path": "inbox/berlin-culture/2026-08-18-synthesis.json",
+  "briefing_path": "briefings/berlin-culture/2026-08-25.md",
+  "inbox_path": "inbox/berlin-culture/2026-08-25-synthesis.json",
   "items_count": 13,
   "section_counts": {
     "top_picks": 3,
     "exhibitions": 2,
-    "film": 0,
-    "performing_arts": 1,
+    "film": 2,
+    "performing_arts": 0,
     "music": 2,
-    "wildcards": 2,
+    "wildcards": 1,
     "advance_radar": 3
   },
-  "thin_sections": ["exhibitions", "film", "performing_arts", "music"],
-  "omitted_sections": ["film"],
+  "thin_sections": ["exhibitions", "performing_arts", "music"],
+  "omitted_sections": [],
   "validation_warnings": [
     "Section 'exhibitions' has 2 entries (style minimum 4)",
-    "Section 'film' has 0 entries (style minimum 2)",
-    "Section 'performing_arts' has 1 entries (style minimum 2)",
+    "Section 'performing_arts' has 0 entries (style minimum 2)",
     "Section 'music' has 2 entries (style minimum 3)"
   ],
-  "verification_fetches": 0,
-  "notes": "CI synthesis from inbox only; skipped live spot-checks and HTTP verification per workflow constraints. Thin source week concentrated around one Arsenal screening, one Radialsystem performance, and a silent green cluster. Kept cross-references instead of duplicating Top Picks and omitted a second film pick rather than pad the section."
+  "verification_fetches": 4,
+  "notes": "Top Picks spot-checked: Bat Dances (Tanz im August production page, 26–29.8.2026 at HAU3), News from Home (Arsenal, Thu 31.08.2026 19:30), Josef Kaiser opening (INDEX/Berlinische Galerie, 27.8.2026 19:00). Merged the INDEX Kaiser event with the Berlinische Galerie exhibition rather than listing both. Dropped Hanno Leichtmann and HTRK (URL dates 31 July / 2 August, outside week). Dropped breaking is reflection (already indexed 2026-06-30; Hamburger Bahnhof venue cap). Performing Arts is a Top Picks cross-reference only; did not split Tanz im August. Music thin: only Mutant Radio Sessions plus Berlin Beats: BASHKKA were verified in-window."
 }

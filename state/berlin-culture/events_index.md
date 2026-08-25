@@ -29,15 +29,6 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-08-18 | advance_radar | Josef Kaiser. Bauen für die DDR | Alte Jakobstr. 124-128, 10969 Berlin | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
 2026-08-18 | advance_radar | Ruba Al-Sweel, Arvin Arta, Dana Dawud, Noura Tafeche and Zein Majali Short Film Screening | Frankfurter Tor 1, 10243 Berlin | https://www.indexberlin.com/events/list/44942/short-film-screening
 2026-08-18 | advance_radar | Itchi Fleischer Unzucht – Kiss the Devil’s Arse | Weigandufer, corner of Wildenbruchbrücke, next to the mooring, 12045 Berlin | https://www.indexberlin.com/events/list/44861/unzucht-kiss-the-devil-s-arse
-2026-06-23 | top_picks | Mash Dance Berlin 2026 – Victims & Images: Vol 2 | DOCK11 | https://dock11-berlin.de/en/theater/program/calendar/victims-images-vol-2
-2026-06-23 | top_picks | Ayumi Paul – Fischmond am Waldsee | Haus am Waldsee (Sculpture Garden) | https://hausamwaldsee.de/en/anniversary-80-years-haus-am-waldsee/
-2026-06-23 | exhibitions | Haus am Waldsee — Wo ich wohne & Green Sanctuary | Haus am Waldsee | https://hausamwaldsee.de/en/wo-ich-wohne
-2026-06-23 | exhibitions | Somatic Exercises in the Exhibition | KW Institute for Contemporary Art | https://www.kw-berlin.de/en/events/somatic-exercises-in-the-exhibition
-2026-06-23 | film | Night and the City | Kino Arsenal | https://www.arsenal-berlin.de/assets/Kino/PDFs/26-06_Kalendarium-Plakat_arsenal_A1_cmyk_Web.pdf
-2026-06-23 | film | Scherbenland | ACUDkino | https://acudkino.de/Programm/
-2026-06-23 | film | Donkey Days | Wolf Kino | https://wolfberlin.org/de/programm/filme/donkey-days
-2026-06-23 | music | Maria Baptist Trio: Five Special Nights | A-Trane | https://a-trane.de/Events-Directory/a-trane-praesentiert-summerweekconcerts-day2jazz-versus-soccermaria-baptist-triofive-special-nights-trio-guestsfeat-today-fabian-timm-heinz-lichius/
-2026-06-23 | wildcards | My Virtual Bodies (Workshop) | DOCK11, Saal 4 | https://dock11-berlin.de/en/digital/program/schedule/my-virtual-bodies
 2026-06-30 | top_picks | School Performances of 'Rain' and 'BOLERO' | Radialsystem (Halle) | https://www.radialsystem.de/en/programm/programm/
 2026-06-30 | top_picks | Philipp Gufler — Imitationen von Paul | BQ | https://www.indexberlin.com/exhibitions/list/42826/imitationen-von-paul
 2026-06-30 | top_picks | Berlin launch: Lilia Topouzova in conversation with Kate Connolly | Between Bridges | https://www.indexberlin.com/events/list/44739/berlin-launch-acclaimed-historian-and-artist-lilia-topouzova-in-conversation-with-kate-connolly
@@ -104,3 +95,17 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-08-04 | advance_radar | KINDL Ferien-Rallye | KINDL – Zentrum für zeitgenössische Kunst | https://www.indexberlin.com/events/list/44612/kindl-ferien-rallye
 2026-08-04 | advance_radar | Shirin Sabahi — Domesticity III | Pforte | https://www.indexberlin.com/events/list/44626/domesticity-iii
 2026-08-04 | advance_radar | FERIEN AM WALDSEE — Carl Laszlo und die Kunst zu überleben | Haus am Waldsee | https://www.indexberlin.com/events/list/44579/ferien-am-waldsee-carl-laszlo-und-die-kunst-zu-uberleben-reading-with-choir-concert
+2026-08-25 | top_picks | Bat Dances | HAU3, HAU Hebbel am Ufer (Tanz im August) | https://www.tanzimaugust.de/en/production/detail/kareth-schaffer-jonas-hauer-bat-dances/
+2026-08-25 | top_picks | News from Home | Kino Arsenal (Arsenal 1) | https://www.arsenal-berlin.de/en/cinema/film-screening/news-from-home-2395/
+2026-08-25 | top_picks | Josef Kaiser — Building for the GDR | Berlinische Galerie | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
+2026-08-25 | exhibitions | [ materialistin ] — Matter of Care, Care of Matter | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.smb.museum/en/museums-institutions/hamburger-bahnhof/exhibitions/current/
+2026-08-25 | exhibitions | Forking Paths | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.indexberlin.com/exhibitions/list/44095/forking-paths
+2026-08-25 | film | La Jetée + On vous parle de Paris: Maspero, les mots ont un sens | Kino Arsenal | https://www.arsenal-berlin.de/en/cinema/film-screening/5547/
+2026-08-25 | film | Ruba Al-Sweel, Arvin Arta, Dana Dawud, Noura Tafeche and Zein Majali — Short Film Screening | Galerie im Turm, Frankfurter Tor 1 | https://www.indexberlin.com/events/list/44942/short-film-screening
+2026-08-25 | music | silent green pres. Mutant Radio Sessions | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/silent-green-pres-mutant-radio-sessions-2?cHash=3eb1a7595483a7d9e303672105a96397&tx_news_pi1%5Bday%5D=28&tx_news_pi1%5Bmonth%5D=8&tx_news_pi1%5Byear%5D=2026
+2026-08-25 | music | Berlin Beats: BASHKKA | Invalidenstraße 50/51, Mitte | https://www.indexberlin.com/events/list/44854/berlin-beats-bashkka
+2026-08-25 | wildcards | Thomas Billhardt — Die Augen weit offen | Fotografiska, Oranienburger Straße 54 | https://www.indexberlin.com/events/list/45392/die-augen-weit-offen
+2026-08-25 | advance_radar | Heinz Mack — Spectrum Mundi | St. Matthäus-Kirche, Matthäikirchplatz | https://www.indexberlin.com/events/list/45274/spectrum-mundi
+2026-08-25 | advance_radar | Ground Noise | NADAN, Wilhelmsaue 1, Wilmersdorf | https://www.indexberlin.com/events/list/44975/ground-noise
+2026-08-25 | advance_radar | HAUS AUS GLAS — Vom Bauen und Niederreißen | Schinkel Pavillon | https://www.indexberlin.com/events/list/45281/haus-aus-glas-vom-bauen-und-niederreissen-ein-performatives-portrat-des-amerikanischen-architekten-philip-johnson
+
