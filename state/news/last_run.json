@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-25",
-  "briefing_date": "2026-08-25",
-  "inbox_date": "2026-08-25",
+  "date": "2026-08-26",
+  "briefing_date": "2026-08-26",
+  "inbox_date": "2026-08-26",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-25.md",
-  "inbox_path": "inbox/news/2026-08-25-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-26.md",
+  "inbox_path": "inbox/news/2026-08-26-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Una reunión \"informal\" y su uso como \"oficinas\": lo que dice Feijóo sobre el ático vs lo que dice Ayuso",
+      "headline": "Moncloa niega avisos previos del CNI en Ceuta a nadie del Gobierno y desmiente a Robles",
       "section": "spain",
-      "reason": "recent_topic: Ayuso penthouse/office controversy is a continuation, not a resignation or ruling"
+      "reason": "recent_topic: another Ceuta political clash after two weeks of enclave coverage; not a ruling, resignation or enacted law"
     },
     {
-      "headline": "Robles reafirmará la labor de las Fuerzas Armadas y la españolidad de Ceuta en el Congreso",
+      "headline": "El encargo del Gobierno de Ayuso a la inmobiliaria de lujo que vendió el ático",
       "section": "spain",
-      "reason": "recent_topic: another Ceuta parliamentary account after two weeks of enclave coverage, no material trigger"
+      "reason": "recent_topic: incremental penthouse/office controversy, not a resignation or court ruling"
     },
     {
-      "headline": "Cuando tienes la sensación de “ir tarde en la vida”: no tener piso o hijos a los 35 no es culpa tuya",
+      "headline": "Resistir en Ceuta hasta conseguir el asilo",
       "section": "spain",
-      "reason": "recent_topic: housing/life-course feature sat too close to yesterday's house-price doubling story"
+      "reason": "recent_topic: accommodation/asylum-wait feature after repeated Ceuta coverage; the legislation story was the material development"
     },
     {
-      "headline": "El primer ministro de Canadá se planta y marca a Trump los límites de su chantaje: \"Si te atacan, estás en guerra\"",
-      "section": "spain",
-      "reason": "geographic_misfit: Canada-US confrontation belonged in World/Other Headlines, not Spain"
-    },
-    {
-      "headline": "Ukrainischer Transportflieger: Anschlagsversuch in Leipzig: Weitere Sprengstoffdrohne entdeckt",
+      "headline": "Aus Festnetz wird Mobilfunk: Nur Telefonieren: Was nun mit Ihrem alten Anschluss passiert",
       "section": "germany",
-      "reason": "incremental: another device from the Leipzig airport attack already covered on 18 August"
+      "reason": "recent_topic: landline-to-mobile substitution already ran on 22 August"
     },
     {
-      "headline": "+++ Iran-Krieg +++: USA streichen Syrien von Liste der Terrorunterstützer",
+      "headline": "Klimaforscher Mojib Latif über 14.000 Hitzetote, 45 Grad in Deutschland",
       "section": "germany",
-      "reason": "geographic_misfit: US-Iran-Syria war blog belonged in World/Other Headlines"
+      "reason": "avoid_unless_material: heatwave adaptation; interview recap of the summer, not a new ruling or data release"
     },
     {
-      "headline": "Green: Bremst die Bundesnetzagentur die Energiewende aus, Klaus Müller?",
+      "headline": "Für Gespräche nach Russland gereist: Was verhandelt CIA-Chef Ratcliffe in Moskau?",
       "section": "germany",
-      "reason": "avoid_unless_material: energy transition bottlenecks; interview commentary, not a ruling or policy change"
+      "reason": "geographic_misfit: CIA-Moscow talks belonged in World/Other Headlines"
     },
     {
-      "headline": "SPD-Spitzenkandidat Steffen Krach setzt auf den Endspurt",
+      "headline": "Ausgleichender Moderator sucht funktionierende Koalition",
       "section": "berlin",
-      "reason": "recent_topic: another Krach campaign portrait after the 13 August omnipresence piece, no material development"
+      "reason": "one_theme: Werner Graf candidate portrait would have doubled Berlin election coverage with the Kreuzberg mayor field"
     },
     {
-      "headline": "Nach dem Intel-Aus: Warum dieser Investor trotzdem in Magdeburg baut",
+      "headline": "Der Checkpoint am Morgen: Landeswahlleiter ist „angespannt“",
       "section": "berlin",
-      "reason": "geographic_misfit: Magdeburg housing is outside Berlin city limits"
+      "reason": "thin_source: morning roundup without a single citable development; election-supervisor angle would also repeat the election theme"
     },
     {
       "headline": "ChatGPT ab Montag mit Werbung: Diese Nutzer sind betroffen",
       "section": "berlin",
-      "reason": "geographic_misfit: OpenAI ads in 31 European countries are not a Berlin-city story"
+      "reason": "geographic_misfit plus recent_topic: OpenAI ads in 31 European countries already ran in Other Headlines on 25 August"
     },
     {
-      "headline": "JPMorgan eases approach on lending against shares to court AI’s new wealth",
+      "headline": "Video shows hundreds held captive after Nigeria mosque kidnapping",
       "section": "world",
-      "reason": "selected_reads_mix: saved for Selected Reads so the World section could keep East Asia chips, Gulf cyber and Latin America"
+      "reason": "recent_topic: already in Other Headlines on 25 August"
+    },
+    {
+      "headline": "Children make up half of suspected mpox cases in Guinea-Bissau as epidemic spreads",
+      "section": "world",
+      "reason": "recent_topic: already in Other Headlines on 25 August"
     },
     {
       "headline": "publisher_pool_thin",
       "section": "berlin",
-      "reason": "publisher_pool_thin: after geographic filtering, Berliner Zeitung leftovers were Magdeburg, apples, ChatGPT ads or a crime trial; eligible Berlin-city items were Tagesspiegel and rbb24 only"
+      "reason": "publisher_pool_thin: after geographic and one-theme filters, eligible Berlin-city items were Tagesspiegel plus one rbb24 commuter-belt munition story; Berliner Zeitung leftovers were Syria, Paris, Güstrow, apples or ChatGPT ads"
     }
   ],
-  "notes": "Spain's pool was Ceuta- and Ayuso-heavy, so the section used the unopposed CEOE succession, the UN desertification summit, and a Cantabria land-use fight to keep one slot for EL PAÍS. Germany mixed an education study, the Merz cabinet retreat, and Baerbock's Columbia move after dropping Leipzig as incremental and the Netzagentur interview as an energy-transition bottleneck. Berlin's eligible local pool was Tagesspiegel plus rbb24. World balanced Taiwan chip inputs, UAE AI cyber defence and Colombia's immigration crackdown."
+  "notes": "Spain used the data-centre decree, the vacancy-unemployment paradox and the asylum/extranjería drafts (major legislation) after dropping incremental Ceuta and Ayuso penthouse copy. Germany mixed the Brosius-Gersdorf apology fight, a France-Germany industrial-policy clash pulled from world items because the Germany pool was how-tos and dupes, and a Sachsen-Anhalt election primer. Berlin kept one election story (Kreuzberg), a Borgsdorf munition blast and a Hempel referee promotion. World balanced US AI-talent visas, Haiti and Huckabee settler violence."
 }

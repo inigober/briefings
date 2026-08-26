@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-26
+
+- [Peacemaking Is Power Politics Again](https://foreignpolicy.com/2026/08/25/peacemaking-power-politics-united-nations-trump/) — Foreign Policy
+- [Nigel Farage wants to scrap GDPR for the UK](https://www.politico.eu/article/nigel-farage-wants-to-scrap-gdpr-for-the-uk/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Prince Harry quits board of wildlife charity after rangers’ human rights abuses](https://www.theguardian.com/uk-news/2026/aug/24/prince-harry-quits-board-wildlife-charity-african-parks-human-rights-abuses) — The Guardian
+- [40% of Japan department stores expect tourist spending to rise](https://asia.nikkei.com/business/retail/40-of-japan-department-stores-expect-tourist-spending-to-rise) — Nikkei Asia
+
 ## 2026-08-25
 
 - [JPMorgan eases approach on lending against shares to court AI’s new wealth](https://www.ft.com/content/d18b330f-1cc2-4f83-9720-5ab5b13981e4?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [A dumpling shop becomes a poster child of AI adoption in China](https://restofworld.org/2026/china-ai-adoption-jinguyuan/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
 - [Poll: The older and richer you are, the more you like AI](https://www.politico.eu/article/poll-ai-age-group-weath-future-technology/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [Japan to crack down on deceptive 'dark pattern' websites](https://asia.nikkei.com/business/technology/japan-to-crack-down-on-deceptive-dark-pattern-websites) — Nikkei Asia
-
-## 2026-08-21
-
-- [The battle over golf’s future](https://www.ft.com/content/d286cb7f-c63e-42a6-86db-d0a9ad0f296a?syn-25a6b1a6=1) — Financial Times
-- [Middle East deployment leaves Asia-Pacific without US aircraft carrier](https://asia.nikkei.com/politics/defense/middle-east-deployment-leaves-asia-pacific-without-us-aircraft-carrier) — Nikkei Asia
-- [Founder of China’s Evergrande jailed for life after pleading guilty to fraud](https://www.theguardian.com/business/2026/aug/20/evergrande-founder-jailed-life-fraud-hui-ka-yan) — The Guardian
-- [Why Is Everyone in Silicon Valley Talking Like That?](https://www.theatlantic.com/technology/2026/08/ai-jargon-in-everday-speech/688358/?utm_source=feed) — The Atlantic
 
 ## Blocked until 5+ briefings have passed
 

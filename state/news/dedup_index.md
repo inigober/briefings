@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-26
+
+- **spain-data-centres-european-licence-renewables** — eldiario.es: a draft royal decree would require data centres to hold a European operating certificate and cover 80% of power with new renewables (section: spain)
+- **spain-labour-shortage-vacancies-unemployment** — eldiario.es: Spain still has about 160,000 unfilled jobs beside 2.5 million unemployed, with pay and housing as the binding constraints (section: spain)
+- **spain-asylum-extranjeria-confinement-bills** — EL PAÍS: government-approved asylum and extranjería drafts speed expulsions, restrict asylum and allow confinement and redistribution (section: spain)
+- **germany-brosius-gersdorf-lanz-frei** — Tagesspiegel: failed Constitutional Court nominee Brosius-Gersdorf pressed Union floor leader Frei for an apology he would not give (section: germany)
+- **germany-france-industrial-policy-clash** — Politico Europe: France wants stronger Made in Europe industrial rules; Berlin warns that would start new trade fights (section: germany)
+- **germany-sachsen-anhalt-landtagswahl-primer** — Handelsblatt: the 6 September Landtag vote is being framed as a political laboratory in a thin eastern state (section: germany)
+- **berlin-fh-kreuzberg-male-east-mayor-field** — Tagesspiegel: Friedrichshain-Kreuzberg's next mayor will be a man, and every candidate is from the East, after 22 of 26 years with a woman in the post (section: berlin)
+- **berlin-borgsdorf-war-munition-blast** — rbb24: WWII munition is to be detonated at Borgsdorf, affecting about 2,800 people in Berlin's commuter belt (section: berlin)
+- **berlin-hempel-social-worker-bundesliga-referee** — Tagesspiegel: Berlin social worker Richard Hempel has been promoted to Bundesliga referee (section: berlin)
+- **world-us-visa-policy-ai-talent-china** — Rest of World: US immigration rules are deterring international AI founders, a leak China and others can exploit (section: world)
+- **world-haiti-kenscoff-gang-massacre** — The Guardian: a gang attack in Kenscoff killed at least 47 and kidnapped more than 50 above Port-au-Prince (section: world)
+- **world-huckabee-settler-violence-bible** — Foreign Policy: US ambassador Mike Huckabee invoked the Bible against Israeli settler violence (section: world)
+
 ## 2026-08-25
 
 - **spain-garamendi-ceoe-third-term-unopposed** — eldiario.es: Antonio Garamendi is heading for a third unopposed term as head of CEOE, Spain's main employers' association (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-china-gig-economy-53mn-jobs-squeeze** — Financial Times: construction slump pushes 53 million Chinese into low-paid delivery and ride-hailing work (section: world)
 - **world-colombia-earthquake-3000-missing-250-dead** — La Vanguardia: magnitude-7.4 quake leaves 250+ dead and 3,000+ missing in Chocó province (section: world)
 - **world-comac-c919-first-international-flight-mongolia** — The Guardian: China's home-grown narrow-body jet flies Beijing–Ulaanbaatar route (section: world)
-
-## 2026-08-11
-
-- **spain-ayuso-quiron-shell-company-zero-revenue** — eldiario.es: firm linked to alleged Quirón bribe reports second year without turnover amid laundering probe (section: spain)
-- **spain-senate-ceuta-hearings-institutional-clash** — EL PAÍS: government and opposition Senate on collision course over mandatory ministerial appearances on Ceuta crisis (section: spain)
-- **spain-ceuta-migration-disinformation-viral-videos** — EL PAÍS: researcher traces surge to viral videos promising open border, Moroccan agency flags foreign accounts (section: spain)
-- **germany-bahn-onboard-childcare-solo-travel** — Tagesspiegel: Deutsche Bahn introduces paid supervision for unaccompanied children aged six plus on long-distance routes (section: germany)
-- **germany-ev-subsidy-pastohr-bafa-defence** — Handelsblatt: BAFA chief defends revived electric-car buyer premium with early uptake data (section: germany)
-- **germany-apple-vision-pro-surgical-adoption** — Handelsblatt: mixed-reality headset gains operating-theatre use despite weak consumer sales (section: germany)
-- **berlin-koepenick-neonazi-secret-concert** — Tagesspiegel: 250 attend far-right music event in Berlin-Köpenick, police raid AfD-linked Heimat HQ (section: berlin)
-- **berlin-bahn-conductor-assaults-rise** — rbb24: Deutsche Bahn reports growing attacks on onboard staff across Berlin-Brandenburg (section: berlin)
-- **berlin-election-ballot-name-misprint** — Tagesspiegel: Greens mayoral candidate's name misspelled on sample postal ballots ahead of Abgeordnetenhaus vote (section: berlin)
-- **world-india-ai-it-jobs-threat** — Financial Times: generative AI risks automating India's back-office IT services employment model (section: world)
-- **world-typhoon-dolphin-china-million-evacuations** — The Guardian: strongest 2026 China cyclone forces more than one million relocations after hitting Okinawa (section: world)
-- **world-singapore-q2-gdp-5-9-forecast-raised** — Nikkei Asia: trade hub raises 2026 growth outlook after 5.9% second-quarter expansion (section: world)
