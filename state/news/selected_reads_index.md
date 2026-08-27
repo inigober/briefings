@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-27
+
+- [Anthropic agrees $45bn AI data centre deal with UK start-up Nscale](https://www.ft.com/content/0ec76ba3-5f7f-4085-88fb-acf21954bc85?syn-25a6b1a6=1) — Financial Times
+- [Jane Street’s growing pains](https://www.ft.com/content/ea9c073d-4e9d-4e8a-98c0-68e278faa081?syn-25a6b1a6=1) — Financial Times
+- [Malaysian ex-PM Ismail Sabri charged with failing to declare assets](https://asia.nikkei.com/spotlight/society/malaysian-ex-pm-ismail-sabri-charged-with-failing-to-declare-assets) — Nikkei Asia
+- [South African police arrest two Thai men for allegedly smuggling parrot eggs](https://www.theguardian.com/world/2026/aug/26/south-african-police-arrest-two-thai-men-smuggling-parrot-eggs) — The Guardian
+
 ## 2026-08-26
 
 - [Peacemaking Is Power Politics Again](https://foreignpolicy.com/2026/08/25/peacemaking-power-politics-united-nations-trump/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Taiwan's security council quietly steps up as architect of China strategy](https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-s-security-council-quietly-steps-up-as-architect-of-china-strategy) — Nikkei Asia
 - [JD Vance reportedly mocks Carney for trying to ‘out-tough’ Trump on trade](https://www.theguardian.com/us-news/2026/aug/21/jd-vance-mark-carney-out-tough-trump-trade) — The Guardian
 - [Cover Story newsletter: Could AIs become conscious?](https://www.economist.com/the-world-this-week/2026/08/21/cover-story-newsletter-could-ais-become-conscious) — The Economist
-
-## 2026-08-22
-
-- [‘Betrayal’: US ranchers lash out at Trump's plan to cut tax on beef imports](https://www.ft.com/content/7aabb591-ca73-4d87-96ad-dac9a210e1d0?syn-25a6b1a6=1) — Financial Times
-- [A dumpling shop becomes a poster child of AI adoption in China](https://restofworld.org/2026/china-ai-adoption-jinguyuan/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [Poll: The older and richer you are, the more you like AI](https://www.politico.eu/article/poll-ai-age-group-weath-future-technology/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Japan to crack down on deceptive 'dark pattern' websites](https://asia.nikkei.com/business/technology/japan-to-crack-down-on-deceptive-dark-pattern-websites) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 

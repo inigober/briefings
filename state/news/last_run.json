@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-26",
-  "briefing_date": "2026-08-26",
-  "inbox_date": "2026-08-26",
+  "date": "2026-08-27",
+  "briefing_date": "2026-08-27",
+  "inbox_date": "2026-08-27",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-26.md",
-  "inbox_path": "inbox/news/2026-08-26-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-27.md",
+  "inbox_path": "inbox/news/2026-08-27-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
       "headline": "Moncloa niega avisos previos del CNI en Ceuta a nadie del Gobierno y desmiente a Robles",
       "section": "spain",
-      "reason": "recent_topic: another Ceuta political clash after two weeks of enclave coverage; not a ruling, resignation or enacted law"
+      "reason": "recent_topic: incremental Ceuta intelligence clash after yesterday's Other Headlines; not a ruling, resignation or enacted law"
     },
     {
-      "headline": "El encargo del Gobierno de Ayuso a la inmobiliaria de lujo que vendió el ático",
+      "headline": "El Gobierno de Ayuso trasladó a la inmobiliaria que buscaba un inmueble de \"entre 250 y 400 metros y gran terraza”",
       "section": "spain",
-      "reason": "recent_topic: incremental penthouse/office controversy, not a resignation or court ruling"
+      "reason": "recent_topic: incremental penthouse brief already in Other Headlines on 26 August"
     },
     {
-      "headline": "Resistir en Ceuta hasta conseguir el asilo",
+      "headline": "El consejero señalado por Ayuso en la compra del ático comparecerá en la Asamblea para hablar de Planifica Madrid",
       "section": "spain",
-      "reason": "recent_topic: accommodation/asylum-wait feature after repeated Ceuta coverage; the legislation story was the material development"
+      "reason": "recent_topic: scheduled Assembly appearance without a date; same penthouse/Planifica cluster, not a resignation or court ruling"
     },
     {
-      "headline": "Aus Festnetz wird Mobilfunk: Nur Telefonieren: Was nun mit Ihrem alten Anschluss passiert",
+      "headline": "Por qué hay falta de mano de obra en algunos sectores y vacantes sin cubrir en España con 2,5 millones de parados",
+      "section": "spain",
+      "reason": "recent_topic: labour-shortage/vacancy paradox already ran on 26 August"
+    },
+    {
+      "headline": "La guerra sin fin entre Marlaska y Robles",
+      "section": "spain",
+      "reason": "recent_topic: personality feud inside the same Ceuta crisis; the sites-versus-returns deadlock was the operational story"
+    },
+    {
+      "headline": "Ox Alpha: Neues KI-Modell aus China soll Programmieren billiger machen",
       "section": "germany",
-      "reason": "recent_topic: landline-to-mobile substitution already ran on 22 August"
+      "reason": "geographic_misfit: Chinese coding model belongs in World/Other Headlines"
     },
     {
-      "headline": "Klimaforscher Mojib Latif über 14.000 Hitzetote, 45 Grad in Deutschland",
+      "headline": "Digitaler Durchblick: Multitasking: Machen Sie sich die PC-Arbeit leichter",
       "section": "germany",
-      "reason": "avoid_unless_material: heatwave adaptation; interview recap of the summer, not a new ruling or data release"
+      "reason": "noise: how-to, not a citable Germany development"
     },
     {
-      "headline": "Für Gespräche nach Russland gereist: Was verhandelt CIA-Chef Ratcliffe in Moskau?",
+      "headline": "Österreichs Ex-Kanzler Sebastian Kurz wird 40: Und ewig lockt das Comeback",
       "section": "germany",
-      "reason": "geographic_misfit: CIA-Moscow talks belonged in World/Other Headlines"
+      "reason": "geographic_misfit: Austria, not Germany"
     },
     {
-      "headline": "Ausgleichender Moderator sucht funktionierende Koalition",
+      "headline": "Syrische Kurdenmiliz löst sich auf – und wird Teil des Staates",
       "section": "berlin",
-      "reason": "one_theme: Werner Graf candidate portrait would have doubled Berlin election coverage with the Kreuzberg mayor field"
-    },
-    {
-      "headline": "Der Checkpoint am Morgen: Landeswahlleiter ist „angespannt“",
-      "section": "berlin",
-      "reason": "thin_source: morning roundup without a single citable development; election-supervisor angle would also repeat the election theme"
+      "reason": "geographic_misfit plus recent_topic: already in Other Headlines on 26 August"
     },
     {
       "headline": "ChatGPT ab Montag mit Werbung: Diese Nutzer sind betroffen",
       "section": "berlin",
-      "reason": "geographic_misfit plus recent_topic: OpenAI ads in 31 European countries already ran in Other Headlines on 25 August"
+      "reason": "geographic_misfit plus recent_topic: OpenAI ads already ran in Other Headlines on 25 August"
     },
     {
-      "headline": "Video shows hundreds held captive after Nigeria mosque kidnapping",
+      "headline": "Prince Harry quits board of wildlife charity after rangers’ human rights abuses",
       "section": "world",
-      "reason": "recent_topic: already in Other Headlines on 25 August"
-    },
-    {
-      "headline": "Children make up half of suspected mpox cases in Guinea-Bissau as epidemic spreads",
-      "section": "world",
-      "reason": "recent_topic: already in Other Headlines on 25 August"
+      "reason": "selected_reads_repeat: URL used on 26 August"
     },
     {
       "headline": "publisher_pool_thin",
-      "section": "berlin",
-      "reason": "publisher_pool_thin: after geographic and one-theme filters, eligible Berlin-city items were Tagesspiegel plus one rbb24 commuter-belt munition story; Berliner Zeitung leftovers were Syria, Paris, Güstrow, apples or ChatGPT ads"
+      "section": "germany",
+      "reason": "publisher_pool_thin: after dropping how-tos, China/Asia misfits and Berlin roundups, eligible Germany items were Handelsblatt (economy briefing, child-cyclist code) plus one Tagesspiegel sugar-tax item"
     }
   ],
-  "notes": "Spain used the data-centre decree, the vacancy-unemployment paradox and the asylum/extranjería drafts (major legislation) after dropping incremental Ceuta and Ayuso penthouse copy. Germany mixed the Brosius-Gersdorf apology fight, a France-Germany industrial-policy clash pulled from world items because the Germany pool was how-tos and dupes, and a Sachsen-Anhalt election primer. Berlin kept one election story (Kreuzberg), a Borgsdorf munition blast and a Hempel referee promotion. World balanced US AI-talent visas, Haiti and Huckabee settler violence."
+  "notes": "Spain used the Avalmadrid Supreme Court fines (material court ruling), the Ceuta sites-versus-returns deadlock, and a Valencia Waterboys feature after dropping incremental CNI/Ayuso/Marlaska copy and yesterday's vacancy story. Germany mixed a 'better than the gloom' economic briefing, a Brandenburg sugar-tax condition, and the child-cyclist road code. Berlin kept the Clubcommission report, one election portrait (Eralp/rents), and the 28 August lunar eclipse. World balanced Taiwan AI packaging, the Nepal–China flood and Ukraine's Delta software."
 }

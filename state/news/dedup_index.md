@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-27
+
+- **spain-avalmadrid-supreme-court-fines** — eldiario.es: the Supreme Court has upheld almost €200,000 in Banco de España fines over Avalmadrid's credit-control failures (section: spain)
+- **spain-ceuta-housing-sites-returns-lever** — EL PAÍS: Madrid says returns wait on agreed sites while Vivas still refuses sports halls (section: spain)
+- **spain-waterboys-valencia-fishermans-blues** — EL PAÍS: Mike Scott is in Valencia unpacking the making of Fisherman's Blues (section: spain)
+- **germany-merz-better-than-gloom-facts** — Handelsblatt: some economic facts are being used to argue Germany looks better than the prevailing gloom (section: germany)
+- **germany-brandenburg-sugar-tax-prevention** — Tagesspiegel: Brandenburg's health minister Wilke will back a sugar tax if the money is spent on prevention (section: germany)
+- **germany-child-cyclist-age-rules** — Handelsblatt: German road law still splits where children may cycle by age (section: germany)
+- **berlin-clubcommission-surviving-not-thriving** — The Berliner: a Clubcommission report finds Berlin clubs surviving but far from thriving (section: berlin)
+- **berlin-elif-eralp-linke-rents-red-town-hall** — rbb24: Die Linke's Elif Eralp is campaigning on rents while the party leads polls and membership (section: berlin)
+- **berlin-partial-lunar-eclipse-28-august** — rbb24: a partial lunar eclipse is due before dawn on 28 August (section: berlin)
+- **world-powertech-panel-level-ai-packaging** — Nikkei Asia: Powertech wants the first panel-level packaging line for AI chips in 2027 (section: world)
+- **world-nepal-china-himalaya-flash-flood** — Financial Times: a flash flood on Nepal's border with China has killed more than 160, with hundreds missing (section: world)
+- **world-ukraine-delta-drone-software** — The New York Times: Ukraine's Delta system stitches battlefield data into a drone "kill zone" (section: world)
+
 ## 2026-08-26
 
 - **spain-data-centres-european-licence-renewables** — eldiario.es: a draft royal decree would require data centres to hold a European operating certificate and cover 80% of power with new renewables (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-african-armyworm-fungus-biocontrol** — The Guardian: South African scientist finds soil fungus kills devastating crop pest (section: world)
 - **world-mexico-aguirre-ayotzinapa-43-charged** — The Guardian: former Guerrero governor indicted over 2014 student disappearances (section: world)
 - **world-wealth-managers-ai-paper-millionaires** — Financial Times: banks cut fees to court equity-rich OpenAI and Anthropic staff (section: world)
-
-## 2026-08-12
-
-- **spain-albares-ceuta-return-warning-morocco** — eldiario.es: foreign minister warns Moroccans tempted to cross that entrants will be returned after Ceuta visit (section: spain)
-- **spain-ilo-youth-unemployment-ai-geopolitics-20pct** — La Vanguardia: ILO reports global NEET rate hits 20% as AI and geopolitical shocks squeeze youth hiring (section: spain)
-- **spain-eclipse-cloud-forecast-municipality-map** — EL PAÍS: meteorologists publish municipality-level cloud maps on peninsular totality day (section: spain)
-- **germany-bsw-afd-sachsen-anhalt-firewall-breach** — Tagesspiegel: Sahra Wagenknecht Alliance says it would back AfD premier if other parties block its coalition model (section: germany)
-- **germany-dax-record-26500** — Handelsblatt: benchmark index closes above 26,500 points for first time (section: germany)
-- **germany-male-domestic-violence-underreporting** — Tagesspiegel: Berlin case highlights barriers for men reporting intimate-partner abuse (section: germany)
-- **berlin-csd-ballout-prosecution-closed** — Berliner Zeitung: federal prosecutor ends main case against Pride-attack driver while other probes continue (section: berlin)
-- **berlin-wall-65-years-eyewitness-dombrowski** — rbb24: East Berliner recalls 13 August 1961 border closure on anniversary (section: berlin)
-- **berlin-celebrities-summer-jobs-memoir** — Tagesspiegel: Berlin notables describe first holiday jobs from factory floors to zoo (section: berlin)
-- **world-china-gig-economy-53mn-jobs-squeeze** — Financial Times: construction slump pushes 53 million Chinese into low-paid delivery and ride-hailing work (section: world)
-- **world-colombia-earthquake-3000-missing-250-dead** — La Vanguardia: magnitude-7.4 quake leaves 250+ dead and 3,000+ missing in Chocó province (section: world)
-- **world-comac-c919-first-international-flight-mongolia** — The Guardian: China's home-grown narrow-body jet flies Beijing–Ulaanbaatar route (section: world)
