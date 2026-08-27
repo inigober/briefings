@@ -4,13 +4,6 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 <!-- Format: YYYY-MM-DD | name | neighborhood | google_maps_url -->
 
-2026-06-11 | Lei's Küche | Wedding | https://maps.google.com/?cid=3177998244866261940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-11 | Willing (formerly Le Moon) | Schöneberg | https://maps.google.com/?cid=16686157901964203064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-11 | Ming Dynastie | Mitte | https://maps.google.com/?cid=261247375087039031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-11 | Meet You | Charlottenburg | https://maps.google.com/?cid=17428014459240498453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-11 | Shaam Restaurant | Neukölln | https://maps.google.com/?cid=10807055050397092288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-11 | Boii Boii | Kreuzberg | https://maps.google.com/?cid=892377658793402051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-11 | Loumi Dining | Kreuzberg | https://maps.google.com/?cid=11932174364994117585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-06-18 | Papaya | Schöneberg | https://maps.google.com/?cid=2456362811345032783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-06-18 | Khao Taan | Friedrichshain | https://maps.google.com/?cid=1368696323655479600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-06-18 | Larb Koi | Friedrichshain | https://maps.google.com/?cid=1837714750978964420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
@@ -75,3 +68,10 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-08-20 | Ma-Makan | Kreuzberg | https://maps.google.com/?cid=673259701163278563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-20 | Güllü Lahmacun | Moabit | https://maps.google.com/?cid=6515880672792156939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-20 | Rutz | Mitte | https://maps.google.com/?cid=11168722036974200144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-27 | Wok Show | Prenzlauer Berg | https://maps.google.com/?cid=10950842182876736015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-27 | Ming Dynastie | Mitte | https://maps.google.com/?cid=261247375087039031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-27 | Nutts Thai Kitchen | Friedrichshain | https://maps.google.com/?cid=2970083855136947493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-27 | El Reda | Moabit | https://maps.google.com/?cid=7673253916481811750&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-27 | Rocket & Basil | Schöneberg | https://maps.google.com/?cid=2358804007255459580&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-27 | Gotxa | Kreuzberg | https://maps.google.com/?cid=1105756903453319625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-08-27 | UUU | Wedding | https://maps.google.com/?cid=1304440578310595723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

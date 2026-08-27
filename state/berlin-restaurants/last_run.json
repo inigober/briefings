@@ -1,19 +1,19 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-08-20",
+  "date": "2026-08-27",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-08-20.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-08-20-synthesis.json",
-  "verified_count": 19,
+  "briefing_path": "briefings/berlin-restaurants/2026-08-27.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-08-27-synthesis.json",
+  "verified_count": 17,
   "selected_count": 7,
   "selected_restaurants": [
-    "Mr. Noodle Chen",
-    "Hi! Chili 海椒",
-    "Tossakan",
-    "Maiyarap",
-    "Ma-Makan",
-    "Güllü Lahmacun",
-    "Rutz"
+    "Wok Show",
+    "Ming Dynastie",
+    "Nutts Thai Kitchen",
+    "El Reda",
+    "Rocket & Basil",
+    "Gotxa",
+    "UUU"
   ],
-  "notes": "7 entries from 19 verified candidates. Excluded Lon Men's Noodle House, Aroma, Chuan Garden, Hanuman Thai Curry House, Imren Grill (Neukölln), Barra, Mine, Boii Boii, and LIU Nudelhaus as repeats within the 10-week window. Excluded Örnek Lahmacun Evi because the inbox name does not match the current Maps listing name. Excluded Papaya (Südstern) and Imren Grill (Wedding) to keep neighborhood and cuisine balance. Neighborhoods: Friedrichshain, Prenzlauer Berg (2), Kreuzberg (2), Moabit, and Mitte. Included one fine-dining entry. No index trim needed; oldest retained entries remain within the 10-week window."
+  "notes": "7 entries from 17 verified inbox items (14 unique restaurants). Excluded Chuan Garden, Hi! Chili, Chon Thong, Hanuman Thai Curry House, Tadım Ocakbaşı, and Lon Men's Noodle House as repeats within the 10-week window. Excluded Madame Ngo to keep the list mostly affordable/mid-range (already one €€€ and one €€€€). Neighborhoods: Prenzlauer Berg, Mitte, Friedrichshain, Moabit, Schöneberg, Kreuzberg, and Wedding. Included one fine-dining entry (UUU). Trimmed 2026-06-11 index entries as older than 10 weeks; Ming Dynastie returns after that window."
 }
