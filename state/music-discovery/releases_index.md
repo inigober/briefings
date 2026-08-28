@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-08-28
+
+- Seliga — Lush
+- Purelink — Faith
+- Wata Igarashi — Kaleidoscopic
+- Polygonia — Dream Horizons
+- Ludwig A.F. — Halo
+- Coti K. — Theros
+- DJ Bone — DJ Bone XXXV: The End Of Never
+- DOVS — Psychic Geography
+- Erol Leen — Dream Wash
+- L.B. Dub Corp — Saturn to Home
+
 ## 2026-08-21
 
 - ReKab — Subtle Beginnings
