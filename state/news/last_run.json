@@ -1,28 +1,28 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-27",
-  "briefing_date": "2026-08-27",
-  "inbox_date": "2026-08-27",
+  "date": "2026-08-28",
+  "briefing_date": "2026-08-28",
+  "inbox_date": "2026-08-28",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-27.md",
-  "inbox_path": "inbox/news/2026-08-27-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-28.md",
+  "inbox_path": "inbox/news/2026-08-28-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Moncloa niega avisos previos del CNI en Ceuta a nadie del Gobierno y desmiente a Robles",
+      "headline": "Moncloa niega avisos previos del CNI en Ceuta a nadie del Gobierno y desmiente a Robles: \"No se habrá explicado bien\"",
       "section": "spain",
-      "reason": "recent_topic: incremental Ceuta intelligence clash after yesterday's Other Headlines; not a ruling, resignation or enacted law"
+      "reason": "recent_topic: incremental CNI/Robles clash already in Other Headlines on 26–27 August; not a ruling, resignation or enacted law"
     },
     {
       "headline": "El Gobierno de Ayuso trasladó a la inmobiliaria que buscaba un inmueble de \"entre 250 y 400 metros y gran terraza”",
       "section": "spain",
-      "reason": "recent_topic: incremental penthouse brief already in Other Headlines on 26 August"
+      "reason": "recent_topic: same penthouse brief already in Other Headlines on 26 August; counsellor Assembly appearance was the only new process step"
     },
     {
-      "headline": "El consejero señalado por Ayuso en la compra del ático comparecerá en la Asamblea para hablar de Planifica Madrid",
+      "headline": "El Supremo confirma multas de casi 200.000 euros por el descontrol de los créditos de Avalmadrid",
       "section": "spain",
-      "reason": "recent_topic: scheduled Assembly appearance without a date; same penthouse/Planifica cluster, not a resignation or court ruling"
+      "reason": "recent_topic: identical court-ruling story already ran on 27 August"
     },
     {
       "headline": "Por qué hay falta de mano de obra en algunos sectores y vacantes sin cubrir en España con 2,5 millones de parados",
@@ -30,45 +30,45 @@
       "reason": "recent_topic: labour-shortage/vacancy paradox already ran on 26 August"
     },
     {
-      "headline": "La guerra sin fin entre Marlaska y Robles",
+      "headline": "La lección del plantón de Canadá a Trump: buscar un acuerdo justo con EEUU está condenado al fracaso",
       "section": "spain",
-      "reason": "recent_topic: personality feud inside the same Ceuta crisis; the sites-versus-returns deadlock was the operational story"
+      "reason": "geographic_misfit: Canada–US trade analysis, not a Spain development"
     },
     {
-      "headline": "Ox Alpha: Neues KI-Modell aus China soll Programmieren billiger machen",
+      "headline": "Marlaska acude al Congreso tras el choque con Robles dispuesto a defender su versión",
+      "section": "spain",
+      "reason": "one_theme: same Ceuta crisis as the food-aid blockade; scheduled Congress appearance is not a second story"
+    },
+    {
+      "headline": "Streit um KI im Militär: Etappensieg für KI-Firma Anthropic in Streit mit Pentagon",
       "section": "germany",
-      "reason": "geographic_misfit: Chinese coding model belongs in World/Other Headlines"
+      "reason": "geographic_misfit: US court ruling on Anthropic and the Pentagon belongs in World/Other Headlines"
     },
     {
-      "headline": "Digitaler Durchblick: Multitasking: Machen Sie sich die PC-Arbeit leichter",
+      "headline": "Börse am 27. August: Sieben Punkte, die für Anleger heute wichtig sind",
       "section": "germany",
-      "reason": "noise: how-to, not a citable Germany development"
+      "reason": "noise: incremental DAX recap; Nvidia already in Other Headlines on 27 August"
     },
     {
-      "headline": "Österreichs Ex-Kanzler Sebastian Kurz wird 40: Und ewig lockt das Comeback",
+      "headline": "Rapper wurde 1996 erschossen: Prozess um Mord an Tupac Shakur geht in Endphase",
       "section": "germany",
-      "reason": "geographic_misfit: Austria, not Germany"
+      "reason": "geographic_misfit: US trial, not a Germany development"
     },
     {
-      "headline": "Syrische Kurdenmiliz löst sich auf – und wird Teil des Staates",
+      "headline": "Zwei Tote bei Gewalttat an Schule in Gosen-Neu Zittau bei Berlin: 19-Jähriger festgenommen",
       "section": "berlin",
-      "reason": "geographic_misfit plus recent_topic: already in Other Headlines on 26 August"
+      "reason": "geographic_misfit: Brandenburg commuter town, not Berlin city proper; kept as Other Headlines"
     },
     {
-      "headline": "ChatGPT ab Montag mit Werbung: Diese Nutzer sind betroffen",
-      "section": "berlin",
-      "reason": "geographic_misfit plus recent_topic: OpenAI ads already ran in Other Headlines on 25 August"
-    },
-    {
-      "headline": "Prince Harry quits board of wildlife charity after rangers’ human rights abuses",
+      "headline": "South African police arrest two Thai men for allegedly smuggling parrot eggs",
       "section": "world",
-      "reason": "selected_reads_repeat: URL used on 26 August"
+      "reason": "selected_reads_repeat: URL used on 27 August"
     },
     {
       "headline": "publisher_pool_thin",
       "section": "germany",
-      "reason": "publisher_pool_thin: after dropping how-tos, China/Asia misfits and Berlin roundups, eligible Germany items were Handelsblatt (economy briefing, child-cyclist code) plus one Tagesspiegel sugar-tax item"
+      "reason": "publisher_pool_thin: after dropping US/Asia misfits and market recaps, eligible Germany items were Tagesspiegel (Gen Z labour, Wagenknecht) plus one Handelsblatt coal-plant item"
     }
   ],
-  "notes": "Spain used the Avalmadrid Supreme Court fines (material court ruling), the Ceuta sites-versus-returns deadlock, and a Valencia Waterboys feature after dropping incremental CNI/Ayuso/Marlaska copy and yesterday's vacancy story. Germany mixed a 'better than the gloom' economic briefing, a Brandenburg sugar-tax condition, and the child-cyclist road code. Berlin kept the Clubcommission report, one election portrait (Eralp/rents), and the 28 August lunar eclipse. World balanced Taiwan AI packaging, the Nepal–China flood and Ukraine's Delta software."
+  "notes": "Spain used the Ceuta food-aid blockade (material street violence), the Ayuso counsellor's undated Assembly appearance as the only unused Spain-focused eldiario.es item after exact duplicates, and EL PAÍS's GTA VI exclusive as the thin-pool culture third. Germany mixed Gen Z/AI labour, Wagenknecht's AfD definition, and a Union deputy's coal restart pitch. Berlin kept the Landesnetz ransom demand (material escalation of the August cyberattack), one election portrait (Brinker/AfD), and the Fabian trial delay for Berliner Zeitung diversity. World balanced India data-centre displacement, US stem-cell clinics and Japan's FX/food-tax argument."
 }

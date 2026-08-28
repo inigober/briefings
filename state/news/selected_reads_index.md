@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-28
+
+- [China’s Success Is Forcing a U.S. AI Rethink](https://foreignpolicy.com/2026/08/27/china-ai-technology-trump-silicon-valley-open-weights/) — Foreign Policy
+- [Zero-interest convertible bonds set for record year](https://www.ft.com/content/8e93c159-2c02-444a-9f22-dcda14bc451f?syn-25a6b1a6=1) — Financial Times
+- [A Turning Point in AI Writing](https://www.theatlantic.com/technology/2026/08/wall-street-journal-ai-op-ed/688433/?utm_source=feed) — The Atlantic
+- [What could Meta’s US settlement mean around the world – and what now for other claims against firm?](https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact) — The Guardian
+
 ## 2026-08-27
 
 - [Anthropic agrees $45bn AI data centre deal with UK start-up Nscale](https://www.ft.com/content/0ec76ba3-5f7f-4085-88fb-acf21954bc85?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Why We Are Living Through ‘Hyperpolitics’](https://foreignpolicy.com/2026/08/21/anton-jager-hyperpolitics-dsa-bjp-political-theory/) — Foreign Policy
 - [Blackout tests Central Asia push for deeper power grid, data centers](https://asia.nikkei.com/business/energy/blackout-tests-central-asia-push-for-deeper-power-grid-data-centers) — Nikkei Asia
 - [The lesson from Canada’s collapsed trade talks with the US: negotiation may be futile](https://www.theguardian.com/us-news/2026/aug/23/canada-us-collapsed-trade-talks-negotiation-breakdown-analysis) — The Guardian
-
-## 2026-08-23
-
-- [Russian ‘double-tap’ attack on Ukrainian shopping mall kills at least 16](https://www.ft.com/content/a7837e1c-6865-42bd-9902-3d4c4b7f37ef?syn-25a6b1a6=1) — Financial Times
-- [Taiwan's security council quietly steps up as architect of China strategy](https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-s-security-council-quietly-steps-up-as-architect-of-china-strategy) — Nikkei Asia
-- [JD Vance reportedly mocks Carney for trying to ‘out-tough’ Trump on trade](https://www.theguardian.com/us-news/2026/aug/21/jd-vance-mark-carney-out-tough-trump-trade) — The Guardian
-- [Cover Story newsletter: Could AIs become conscious?](https://www.economist.com/the-world-this-week/2026/08/21/cover-story-newsletter-could-ais-become-conscious) — The Economist
 
 ## Blocked until 5+ briefings have passed
 

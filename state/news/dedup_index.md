@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-28
+
+- **spain-ceuta-food-aid-blockade-violence** — EL PAÍS: Madrid asks the PP to help stop violence in Ceuta after a Red Cross food delivery was attacked (section: spain)
+- **spain-ayuso-garcia-martin-assembly-planifica** — eldiario.es: the counsellor Ayuso named over the Chamberí penthouse has asked to appear in the Assembly on Planifica Madrid, with no date set (section: spain)
+- **spain-elpais-gta-vi-exclusive** — EL PAÍS: the paper was given a first look at GTA VI inside Rockstar (section: spain)
+- **germany-gen-z-ai-labour-afd** — Tagesspiegel: youth researcher Mathias Albert says AI's labour shock is hitting young adults and could feed the AfD (section: germany)
+- **germany-wagenknecht-afd-not-far-right** — Tagesspiegel: Sahra Wagenknecht declined to call the AfD extremist and said parts of the federal government already qualify (section: germany)
+- **germany-sepp-mueller-coal-plants-iran-gas** — Handelsblatt: Union deputy Sepp Müller wants coal plants restarted as a bridge while Iran-war gas prices stay high (section: germany)
+- **berlin-landesnetz-ransom-demand** — rbb24: a ransom demand has arrived after the attack on Berlin's state network, with a Friday meeting of security agencies (section: berlin)
+- **berlin-kristin-brinker-afd-firewall** — rbb24: Kristin Brinker is the AfD's lead candidate for a third time, with no coalition partner in sight (section: berlin)
+- **berlin-fabian-trial-october-verdict** — Berliner Zeitung: the Fabian trial will not reach a verdict before October after six more hearing dates (section: berlin)
+- **world-india-data-centre-displacement** — Rest of World: India's data-centre boom is leaving displaced communities with nothing as AI firms take tax breaks and cheap land (section: world)
+- **world-us-cowboy-stem-cell-clinics** — Financial Times: unproven stem-cell longevity clinics are a thriving, dangerous US market (section: world)
+- **world-japan-forex-takaichi-food-tax** — Nikkei Asia: Japan should not raid FX reserves to fund Takaichi's food-tax cut (section: world)
+
 ## 2026-08-27
 
 - **spain-avalmadrid-supreme-court-fines** — eldiario.es: the Supreme Court has upheld almost €200,000 in Banco de España fines over Avalmadrid's credit-control failures (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-drc-ebola-sixth-province-spread** — The Guardian: Ebola reaches Bas-Uele as death toll exceeds 2,100 in fastest-growing Congolese outbreak (section: world)
 - **world-smic-ai-spillover-mature-chip-prices** — Nikkei Asia: China's top foundry says AI build-out is tightening supply and lifting prices for older semiconductors (section: world)
 - **world-openai-anthropic-price-war-china-rivals** — Financial Times: US model labs cut prices after Chinese competitors undercut frontier-AI valuations (section: world)
-
-## 2026-08-13
-
-- **spain-ceuta-5000-migrants-accommodation-estimate** — EL PAÍS: government estimates 2,500 minors and 2,500 potential asylum seekers in Ceuta could be accommodated (section: spain)
-- **spain-workers-missed-eclipse-labor-obligations** — EL PAÍS: priests, retail staff and thousands of workers kept working through totality (section: spain)
-- **spain-santander-book-fair-eclipse-contraprogramming** — eldiario.es: 25 residents attend literature talk instead of watching eclipse (section: spain)
-- **germany-antimatter-road-transport-physics** — Tagesspiegel: particle physicists plan suitcase antimatter convoy across Germany (section: germany)
-- **germany-leipzig-antonov-nato-freight-context** — Frankfurter Allgemeine: explains why Ukrainian cargo planes park at Leipzig before drone attack (section: germany)
-- **germany-bahn-station-bodycams-expansion** — Tagesspiegel: Deutsche Bahn equips platform staff with body cameras after assault rise (section: germany)
-- **berlin-schoenfliesser-bridge-party-fears** — Tagesspiegel: Prenzlauer Berg residents fear new bridge will become party hotspot like Admiralbrücke (section: berlin)
-- **berlin-krach-spd-campaign-omnipresence** — Tagesspiegel: SPD mayoral candidate tours city relentlessly while polling low (section: berlin)
-- **berlin-brandenburg-budget-holes-2027** — rbb24: Brandenburg draft 2027–28 budget contains major unresolved spending gaps (section: berlin)
-- **world-african-armyworm-fungus-biocontrol** — The Guardian: South African scientist finds soil fungus kills devastating crop pest (section: world)
-- **world-mexico-aguirre-ayotzinapa-43-charged** — The Guardian: former Guerrero governor indicted over 2014 student disappearances (section: world)
-- **world-wealth-managers-ai-paper-millionaires** — Financial Times: banks cut fees to court equity-rich OpenAI and Anthropic staff (section: world)
