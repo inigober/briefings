@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-28",
-  "briefing_date": "2026-08-28",
-  "inbox_date": "2026-08-28",
+  "date": "2026-08-29",
+  "briefing_date": "2026-08-29",
+  "inbox_date": "2026-08-29",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-28.md",
-  "inbox_path": "inbox/news/2026-08-28-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-29.md",
+  "inbox_path": "inbox/news/2026-08-29-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Moncloa niega avisos previos del CNI en Ceuta a nadie del Gobierno y desmiente a Robles: \"No se habrá explicado bien\"",
+      "headline": "Los ataques a los trabajadores humanitarios en Ceuta obligan a algunos a retirarse por seguridad",
       "section": "spain",
-      "reason": "recent_topic: incremental CNI/Robles clash already in Other Headlines on 26–27 August; not a ruling, resignation or enacted law"
+      "reason": "one_theme: same Ceuta street crisis as the two-week clearance plan; kept as Other Headlines"
     },
     {
-      "headline": "El Gobierno de Ayuso trasladó a la inmobiliaria que buscaba un inmueble de \"entre 250 y 400 metros y gran terraza”",
+      "headline": "Por qué el Gobierno piensa que Marruecos no está detrás de la crisis de Ceuta",
       "section": "spain",
-      "reason": "recent_topic: same penthouse brief already in Other Headlines on 26 August; counsellor Assembly appearance was the only new process step"
+      "reason": "not_material: government position/analysis, not a ruling, resignation or enacted policy"
     },
     {
-      "headline": "El Supremo confirma multas de casi 200.000 euros por el descontrol de los créditos de Avalmadrid",
+      "headline": "Mónica García: \"Hasta que no estén todas las personas bajo techo, no se podrá recuperar la normalidad en Ceuta\"",
       "section": "spain",
-      "reason": "recent_topic: identical court-ruling story already ran on 27 August"
+      "reason": "one_theme / recent_topic: Ceuta housing-and-normality already the 27 August returns-lever story"
     },
     {
-      "headline": "Por qué hay falta de mano de obra en algunos sectores y vacantes sin cubrir en España con 2,5 millones de parados",
+      "headline": "Nuevas marchas en Ceuta en un clima de elevada tensión: “Invasores, expulsión”",
       "section": "spain",
-      "reason": "recent_topic: labour-shortage/vacancy paradox already ran on 26 August"
+      "reason": "one_theme: incremental street tension after yesterday's food-aid blockade"
     },
     {
-      "headline": "La lección del plantón de Canadá a Trump: buscar un acuerdo justo con EEUU está condenado al fracaso",
+      "headline": "La tragedia de Nepal alerta sobre una amenaza creciente: 15 millones de personas viven bajo la amenaza de los lagos glaciares",
       "section": "spain",
-      "reason": "geographic_misfit: Canada–US trade analysis, not a Spain development"
+      "reason": "geographic_misfit: Himalayan climate risk, not a Spain development; kept as Other Headlines"
     },
     {
-      "headline": "Marlaska acude al Congreso tras el choque con Robles dispuesto a defender su versión",
+      "headline": "Islandia vota en referéndum si reabre las negociaciones de adhesión a la Unión Europea",
       "section": "spain",
-      "reason": "one_theme: same Ceuta crisis as the food-aid blockade; scheduled Congress appearance is not a second story"
+      "reason": "geographic_misfit: Iceland EU vote, not a Spain development; kept as Other Headlines"
     },
     {
-      "headline": "Streit um KI im Militär: Etappensieg für KI-Firma Anthropic in Streit mit Pentagon",
+      "headline": "+++ Bundespolitik +++: Bas stellt Krankschreibung ab erstem Tag infrage",
       "section": "germany",
-      "reason": "geographic_misfit: US court ruling on Anthropic and the Pentagon belongs in World/Other Headlines"
+      "reason": "noise: liveblog whose RSS body recaps yesterday's coal-plant item rather than a citable Bas labour story"
     },
     {
-      "headline": "Börse am 27. August: Sieben Punkte, die für Anleger heute wichtig sind",
+      "headline": "Abschieberazzien: US-Behörde ICE plant Einsatz von Roboter-Hunden",
       "section": "germany",
-      "reason": "noise: incremental DAX recap; Nvidia already in Other Headlines on 27 August"
+      "reason": "geographic_misfit: US ICE equipment, not a Germany development; kept as Other Headlines"
     },
     {
-      "headline": "Rapper wurde 1996 erschossen: Prozess um Mord an Tupac Shakur geht in Endphase",
-      "section": "germany",
-      "reason": "geographic_misfit: US trial, not a Germany development"
-    },
-    {
-      "headline": "Zwei Tote bei Gewalttat an Schule in Gosen-Neu Zittau bei Berlin: 19-Jähriger festgenommen",
+      "headline": "Erpresser fordern Lösegeld nach Hackerangriff auf Berliner Landesnetz",
       "section": "berlin",
-      "reason": "geographic_misfit: Brandenburg commuter town, not Berlin city proper; kept as Other Headlines"
+      "reason": "recent_topic: identical Landesnetz ransom story already ran on 28 August"
     },
     {
-      "headline": "South African police arrest two Thai men for allegedly smuggling parrot eggs",
+      "headline": "Urteil im Fall Fabian frühestens im Oktober: Landgericht setzt sechs weitere Termine an",
+      "section": "berlin",
+      "reason": "recent_topic: identical Fabian trial-delay story already ran on 28 August"
+    },
+    {
+      "headline": "What could Meta’s US settlement mean around the world – and what now for other claims against firm?",
       "section": "world",
-      "reason": "selected_reads_repeat: URL used on 27 August"
+      "reason": "recent_topic: URL used as Selected Read on 28 August; settlement already in Other Headlines on 27 August"
     },
     {
       "headline": "publisher_pool_thin",
-      "section": "germany",
-      "reason": "publisher_pool_thin: after dropping US/Asia misfits and market recaps, eligible Germany items were Tagesspiegel (Gen Z labour, Wagenknecht) plus one Handelsblatt coal-plant item"
+      "section": "berlin",
+      "reason": "publisher_pool_thin: after dropping yesterday's ransom/Fabian duplicates and Brandenburg/World misfits, eligible Berlin items were all Tagesspiegel (Spandau fire, under-18 vote, Hamburg rail)"
     }
   ],
-  "notes": "Spain used the Ceuta food-aid blockade (material street violence), the Ayuso counsellor's undated Assembly appearance as the only unused Spain-focused eldiario.es item after exact duplicates, and EL PAÍS's GTA VI exclusive as the thin-pool culture third. Germany mixed Gen Z/AI labour, Wagenknecht's AfD definition, and a Union deputy's coal restart pitch. Berlin kept the Landesnetz ransom demand (material escalation of the August cyberattack), one election portrait (Brinker/AfD), and the Fabian trial delay for Berliner Zeitung diversity. World balanced India data-centre displacement, US stem-cell clinics and Japan's FX/food-tax argument."
+  "notes": "Spain used the two-week street-clearance/returns plan (material operational change), the eight stranded flagship laws as the only non-Ceuta Spain item in the synthesis slice, and Albares's Italy/hoax complaint as the EU-diplomacy beat. Germany mixed BND Gamescom recruiting, St Pauli fans publishing internal abuse, and the September consumer-rule changeover after dropping a Bundespolitik liveblog and US/Venezuela misfits. Berlin kept the Spandau shelter fire, first under-18 Abgeordnetenhaus vote, and Berlin–Hamburg weekend closure; all three Tagesspiegel after the eligible pool collapsed. World balanced Venezuela oil (LatAm), Iran isolation via Dubai (Middle East), and the Nvidia/Japan bubble argument (East Asia)."
 }

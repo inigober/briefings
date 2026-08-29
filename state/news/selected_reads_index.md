@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-29
+
+- [Notes From Russia’s Literary Underground](https://foreignpolicy.com/2026/08/28/russia-books-literature-censorship-diaspora-publishers-abroad-putin-ukraine-war/) — Foreign Policy
+- [Climate and AI to loom large in von der Leyen’s State of the Union](https://www.politico.eu/article/climate-migration-ai-ursula-von-der-leyen-state-of-the-union-speech/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- ['Dairyland' Wisconsin hopes to ride protein boom into Asia](https://asia.nikkei.com/business/food-beverage/dairyland-wisconsin-hopes-to-ride-protein-boom-into-asia) — Nikkei Asia
+- [Did AI write this? It’s getting harder to tell](https://www.ft.com/content/f100c90b-c138-4125-aaa7-853b77690db9?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-08-28
 
 - [China’s Success Is Forcing a U.S. AI Rethink](https://foreignpolicy.com/2026/08/27/china-ai-technology-trump-silicon-valley-open-weights/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Trump’s Arctic saber-rattling boosts Iceland’s pro-EU campaign](https://www.politico.eu/article/donald-trump-iceland-eu-referendum/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [US scrutiny deters some Chinese tariff refund claims as others cash in](https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-scrutiny-deters-some-chinese-tariff-refund-claims-as-others-cash-in) — Nikkei Asia
 - [U.S. Unveils ‘Economic D-Day’ Against Iran](https://foreignpolicy.com/2026/08/24/iran-war-us-sanctions-bessent-operation-economic-outcast/) — Foreign Policy
-
-## 2026-08-24
-
-- [How climate is driving new geostrategy](https://www.ft.com/content/4a26bc38-1634-4804-81f7-11124c1e3008?syn-25a6b1a6=1) — Financial Times
-- [Why We Are Living Through ‘Hyperpolitics’](https://foreignpolicy.com/2026/08/21/anton-jager-hyperpolitics-dsa-bjp-political-theory/) — Foreign Policy
-- [Blackout tests Central Asia push for deeper power grid, data centers](https://asia.nikkei.com/business/energy/blackout-tests-central-asia-push-for-deeper-power-grid-data-centers) — Nikkei Asia
-- [The lesson from Canada’s collapsed trade talks with the US: negotiation may be futile](https://www.theguardian.com/us-news/2026/aug/23/canada-us-collapsed-trade-talks-negotiation-breakdown-analysis) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

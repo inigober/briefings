@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-29
+
+- **spain-ceuta-two-week-street-clearance-returns** — EL PAÍS: Madrid is compressing asylum rejections and returns into a fortnight so migrants can be taken off Ceuta's streets and most of them sent back (section: spain)
+- **spain-eight-pending-laws-last-legislative-year** — eldiario.es: eight flagship bills including gag-law reform, families law and official secrets are still stuck as the legislature's last year begins (section: spain)
+- **spain-albares-italy-solidarity-hoax** — eldiario.es: Albares accused Italy and Denmark of a lack of EU solidarity over Ceuta and blamed a social-media hoax, amplified around Elon Musk, for triggering the July crossing (section: spain)
+- **germany-bnd-gamescom-recruiting** — Handelsblatt: the BND is recruiting at Gamescom with a game (section: germany)
+- **germany-st-pauli-fans-publish-abuse** — Tagesspiegel: a St Pauli supporter group published cases of sexual, physical and psychological violence in its own ranks (section: germany)
+- **germany-september-station-alcohol-checkout-labels** — Handelsblatt: September brings alcohol bans at the first railway stations and new checkout labels (section: germany)
+- **berlin-spandau-refugee-shelter-fire** — Tagesspiegel: a fourth-floor fire at a Spandau refugee shelter evacuated hundreds on Saturday morning (section: berlin)
+- **berlin-under-18-abgeordnetenhaus-vote** — Tagesspiegel: 16- and 17-year-olds may vote in the 20 September Abgeordnetenhaus election for the first time (section: berlin)
+- **berlin-hamburg-line-weekend-restarbeiten** — Tagesspiegel: the Berlin–Hamburg line is shut again this weekend for leftover optimisation works (section: berlin)
+- **world-trump-venezuela-oil-majority** — The Guardian: Trump announced a US oil agreement giving “majority” control of 65bn barrels of Venezuelan reserves (section: world)
+- **world-us-iran-isolation-dubai** — Financial Times: the US campaign to isolate Iran is closing in on Dubai, the regime's long-standing offshore finance hub (section: world)
+- **world-nvidia-ai-bubble-1980s-japan** — Foreign Policy: Nvidia's earnings are being read against Japan's 1980s asset bubble rather than as proof of a soft landing (section: world)
+
 ## 2026-08-28
 
 - **spain-ceuta-food-aid-blockade-violence** — EL PAÍS: Madrid asks the PP to help stop violence in Ceuta after a Red Cross food delivery was attacked (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-canada-grifols-plasma-pause-donor-deaths** — The Guardian: Grifols pauses plasma collections in Canada after two donor deaths and a safety probe (section: world)
 - **world-openai-ipo-governance-upheaval** — Financial Times: OpenAI's IPO planning is colliding with executive departures and safety-team strain (section: world)
 - **world-manus-founders-travel-ban-lift** — Financial Times: China prepares to lift travel restrictions on Manus founders as the AI company stabilises its ownership structure (section: world)
-
-## 2026-08-14
-
-- **spain-morocco-border-troop-deployment-ceuta** — EL PAÍS: Rabat deploys hundreds of police and soldiers as Spain boosts Guardia Civil presence 42% ahead of feared new mass crossing (section: spain)
-- **spain-ayuso-atico-planifica-ceo-corbalan-dismissal** — eldiario.es: Planifica Madrid chief Pedro Corbalán was sacked from Las Rozas housing firm over blocked contract oversight before regional government bought Chamberí penthouse (section: spain)
-- **spain-orca-gladis-shotgun-pellets-investigation** — EL PAÍS: matriarch orca found with buckshot wounds; Madrid opens probe with Portuguese authorities (section: spain)
-- **germany-hurtgenwald-wildfire-crisis-staff-evacuation** — Tagesspiegel: NRW district convenes crisis team as forest fire nears Hürtgenwald suburb (section: germany)
-- **germany-silver-lake-workday-43bn-takeover-talks** — Handelsblatt: private-equity firm in reported negotiations to acquire US HR-software maker Workday (section: germany)
-- **germany-pram-jogging-injury-risk-study** — Handelsblatt: survey finds parents running with strollers suffer fewer injuries than solo joggers (section: germany)
-- **berlin-bvg-data-breach-compensation-lawsuits** — rbb24: victims of 2025 customer-data hack sue Berlin transport operator for damages (section: berlin)
-- **berlin-s95-half-trainsets-airport-line** — rbb24: planned S-Bahn S95 between BER and Birkenwerder will run shortened trains, drawing capacity criticism (section: berlin)
-- **berlin-atm-accessibility-eu-infringement** — Berliner Zeitung: Brussels warns Germany over 48,000 cash machines lacking speech and tactile upgrades (section: berlin)
-- **world-drc-ebola-sixth-province-spread** — The Guardian: Ebola reaches Bas-Uele as death toll exceeds 2,100 in fastest-growing Congolese outbreak (section: world)
-- **world-smic-ai-spillover-mature-chip-prices** — Nikkei Asia: China's top foundry says AI build-out is tightening supply and lifting prices for older semiconductors (section: world)
-- **world-openai-anthropic-price-war-china-rivals** — Financial Times: US model labs cut prices after Chinese competitors undercut frontier-AI valuations (section: world)
