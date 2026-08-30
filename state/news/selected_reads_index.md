@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-30
+
+- [Jared Kushner Is the Face of American Oligarchy](https://foreignpolicy.com/2026/08/28/american-oligarchy-geopolitics-dictators-democracy-jared-kushner-trump/) — Foreign Policy
+- [Incoming Swiss banking chief warns against regulatory over-reach](https://www.ft.com/content/17c61dd3-fa39-4061-b3a1-2d2333d1eb7f?syn-25a6b1a6=1) — Financial Times
+- [Supercars Fuel a New Hybrid Boom](https://www.bloomberg.com/news/videos/2026-08-29/supercars-fuel-a-new-hybrid-boom-video) — Bloomberg
+- [Egyptian queen’s 673-diamond necklace stolen in Vienna smash-and-grab raid](https://www.theguardian.com/artanddesign/2026/aug/28/egyptian-queen-diamond-necklace-stolen-vienna-raid) — The Guardian
+
 ## 2026-08-29
 
 - [Notes From Russia’s Literary Underground](https://foreignpolicy.com/2026/08/28/russia-books-literature-censorship-diaspora-publishers-abroad-putin-ukraine-war/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Nigel Farage wants to scrap GDPR for the UK](https://www.politico.eu/article/nigel-farage-wants-to-scrap-gdpr-for-the-uk/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [Prince Harry quits board of wildlife charity after rangers’ human rights abuses](https://www.theguardian.com/uk-news/2026/aug/24/prince-harry-quits-board-wildlife-charity-african-parks-human-rights-abuses) — The Guardian
 - [40% of Japan department stores expect tourist spending to rise](https://asia.nikkei.com/business/retail/40-of-japan-department-stores-expect-tourist-spending-to-rise) — Nikkei Asia
-
-## 2026-08-25
-
-- [JPMorgan eases approach on lending against shares to court AI’s new wealth](https://www.ft.com/content/d18b330f-1cc2-4f83-9720-5ab5b13981e4?syn-25a6b1a6=1) — Financial Times
-- [Trump’s Arctic saber-rattling boosts Iceland’s pro-EU campaign](https://www.politico.eu/article/donald-trump-iceland-eu-referendum/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [US scrutiny deters some Chinese tariff refund claims as others cash in](https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-scrutiny-deters-some-chinese-tariff-refund-claims-as-others-cash-in) — Nikkei Asia
-- [U.S. Unveils ‘Economic D-Day’ Against Iran](https://foreignpolicy.com/2026/08/24/iran-war-us-sanctions-bessent-operation-economic-outcast/) — Foreign Policy
 
 ## Blocked until 5+ briefings have passed
 

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-30
+
+- **spain-ceuta-165-million-recovery-package** — EL PAÍS: Sánchez will take an urgent Tuesday cabinet package adding €165 million to recover Ceuta, billed as 4% of the enclave's output in aid (section: spain)
+- **spain-diaz-planas-ilo-fao-ecb-races** — eldiario.es: Díaz and Planas are campaigning for the ILO and FAO, and Madrid is watching a possible ECB opening, in the legislature's last year (section: spain)
+- **spain-murcia-algerian-route-sive** — eldiario.es: Murcia's coast is the other boat door as an Algerian route professionalises and SIVE is short of boats and staff (section: spain)
+- **germany-verivox-g20-highest-electricity-prices** — Handelsblatt: a Verivox comparison says Germany now has the highest electricity prices in the G20 (section: germany)
+- **germany-byd-hybrid-price-war** — Handelsblatt: a study says BYD is undercutting German brands on plug-in hybrids and may reopen the tariff argument (section: germany)
+- **germany-ifa-fairs-need-entertainment** — Tagesspiegel: IFA's boss says electronics trade fairs now have to be entertainment because industry sales have been falling (section: germany)
+- **berlin-landesnetz-leak-threat-data-use** — Tagesspiegel: extortionists are threatening to publish files stolen from Berlin's state network, with an expert on how the data can be used (section: berlin)
+- **berlin-union-imeri-swiss-midfielder** — Tagesspiegel: Union Berlin is reported to be close to Swiss midfielder Kastriot Imeri (section: berlin)
+- **berlin-alba-two-test-wins** — rbb24: Alba Berlin opened its season with two friendly wins (section: berlin)
+- **world-fukushima-ai-robots-drones-cleanup** — Nikkei Asia: AI robots and drones are being sent into the Fukushima nuclear-plant cleanup (section: world)
+- **world-indiana-state-fair-trump-midwest** — Financial Times: the Indiana state fair is being read as a test of whether Trump's Midwest still holds (section: world)
+- **world-china-ai-future-looked-familiar** — Rest of World: a reporter in China found the AI race looking like America's stack, not a rival model (section: world)
+
 ## 2026-08-29
 
 - **spain-ceuta-two-week-street-clearance-returns** — EL PAÍS: Madrid is compressing asylum rejections and returns into a fortnight so migrants can be taken off Ceuta's streets and most of them sent back (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-indonesia-earthquake-rescue-search** — The Guardian: rescuers hunt survivors after an eastern Indonesia quake killed dozens and displaced thousands (section: world)
 - **world-ontario-toronto-bike-lanes-court-ruling** — The Guardian: Ontario wins court clearance to remove Toronto bike lanes despite lower-court objections (section: world)
 - **world-ferrexpo-oligarch-kyiv-ownership-dispute** — Financial Times: Ukraine-focused miner struggles to raise cash while a sanctioned shareholder battles Kyiv (section: world)
-
-## 2026-08-15
-
-- **spain-almaraz-extension-2030-boe** — eldiario.es: Spain extends the Almaraz nuclear plant to June 2030, buying a truce in its long-running closure dispute (section: spain)
-- **spain-primary-care-ageing-pressure-2045** — eldiario.es: doctors warn an ageing population is pushing Spain's primary-care model past its design limits (section: spain)
-- **spain-shanghai-ranking-eight-universities-drop** — EL PAÍS: eight Spanish universities fall out of the Shanghai ranking, leaving only Barcelona in the global top 200 (section: spain)
-- **germany-wero-payments-sovereignty-low-uptake** — Handelsblatt: Europe's Wero payment service remains little known among German consumers two years after launch (section: germany)
-- **germany-blue-green-algae-bathing-warnings** — Handelsblatt: cyanobacteria blooms trigger bathing warnings across parts of Germany's Baltic coast and northern lakes (section: germany)
-- **germany-ritter-sport-empco-green-claims** — Berliner Zeitung: Ritter Sport covers up sustainability claims as EU anti-greenwashing rules tighten packaging risk (section: germany)
-- **berlin-gun-violence-younger-offenders-illegal-weapons** — Tagesspiegel: Berlin authorities say shootings increasingly involve illegal guns and younger suspects (section: berlin)
-- **berlin-re1-fangschleuse-closure-extended** — rbb24: delayed Fangschleuse station works keep the RE1 shut an extra day east of Berlin (section: berlin)
-- **berlin-atm-accessibility-2040-grace-period** — Berliner Zeitung: Berliners face years of uneven cash-machine accessibility because older ATMs have until 2040 to comply (section: berlin)
-- **world-canada-grifols-plasma-pause-donor-deaths** — The Guardian: Grifols pauses plasma collections in Canada after two donor deaths and a safety probe (section: world)
-- **world-openai-ipo-governance-upheaval** — Financial Times: OpenAI's IPO planning is colliding with executive departures and safety-team strain (section: world)
-- **world-manus-founders-travel-ban-lift** — Financial Times: China prepares to lift travel restrictions on Manus founders as the AI company stabilises its ownership structure (section: world)

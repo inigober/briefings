@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-29",
-  "briefing_date": "2026-08-29",
-  "inbox_date": "2026-08-29",
+  "date": "2026-08-30",
+  "briefing_date": "2026-08-30",
+  "inbox_date": "2026-08-30",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-29.md",
-  "inbox_path": "inbox/news/2026-08-29-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-30.md",
+  "inbox_path": "inbox/news/2026-08-30-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Los ataques a los trabajadores humanitarios en Ceuta obligan a algunos a retirarse por seguridad",
+      "headline": "Ceuta, radiografía de un mes de caos: “Fue un error de cálculo darlo por zanjado cuando se volvieron a Marruecos 70.000\"",
       "section": "spain",
-      "reason": "one_theme: same Ceuta street crisis as the two-week clearance plan; kept as Other Headlines"
+      "reason": "one_theme / recent_topic: month-recap of the same Ceuta crisis; kept as Other Headlines"
     },
     {
-      "headline": "Por qué el Gobierno piensa que Marruecos no está detrás de la crisis de Ceuta",
+      "headline": "Ángel Víctor Torres: “Si no cesa la violencia habrá una ruptura total que retrasará la solución de Ceuta”",
       "section": "spain",
-      "reason": "not_material: government position/analysis, not a ruling, resignation or enacted policy"
+      "reason": "one_theme: same Ceuta returns-and-violence track as the €165m package"
     },
     {
-      "headline": "Mónica García: \"Hasta que no estén todas las personas bajo techo, no se podrá recuperar la normalidad en Ceuta\"",
-      "section": "spain",
-      "reason": "one_theme / recent_topic: Ceuta housing-and-normality already the 27 August returns-lever story"
-    },
-    {
-      "headline": "Nuevas marchas en Ceuta en un clima de elevada tensión: “Invasores, expulsión”",
-      "section": "spain",
-      "reason": "one_theme: incremental street tension after yesterday's food-aid blockade"
-    },
-    {
-      "headline": "La tragedia de Nepal alerta sobre una amenaza creciente: 15 millones de personas viven bajo la amenaza de los lagos glaciares",
-      "section": "spain",
-      "reason": "geographic_misfit: Himalayan climate risk, not a Spain development; kept as Other Headlines"
-    },
-    {
-      "headline": "Islandia vota en referéndum si reabre las negociaciones de adhesión a la Unión Europea",
-      "section": "spain",
-      "reason": "geographic_misfit: Iceland EU vote, not a Spain development; kept as Other Headlines"
-    },
-    {
-      "headline": "+++ Bundespolitik +++: Bas stellt Krankschreibung ab erstem Tag infrage",
+      "headline": "Debatte um AfD-Verbot: Staatsrechtler sieht rechtliches Risiko bei Teilverbot der AfD",
       "section": "germany",
-      "reason": "noise: liveblog whose RSS body recaps yesterday's coal-plant item rather than a citable Bas labour story"
+      "reason": "not_material: prohibition debate continues; no filing, ruling or vote"
     },
     {
-      "headline": "Abschieberazzien: US-Behörde ICE plant Einsatz von Roboter-Hunden",
+      "headline": "Long Island: Farmstay: So bodenständig ist das Sylt Amerikas",
       "section": "germany",
-      "reason": "geographic_misfit: US ICE equipment, not a Germany development; kept as Other Headlines"
+      "reason": "geographic_misfit: US travel feature, not a Germany development"
     },
     {
-      "headline": "Erpresser fordern Lösegeld nach Hackerangriff auf Berliner Landesnetz",
+      "headline": "Haushalt mit Sparmaßnahmen: Brandenburg plant trotz knapper Kassen weniger neue Schulden",
       "section": "berlin",
-      "reason": "recent_topic: identical Landesnetz ransom story already ran on 28 August"
+      "reason": "geographic_misfit: Brandenburg Landeshaushalt, not Berlin city governance"
     },
     {
-      "headline": "Urteil im Fall Fabian frühestens im Oktober: Landgericht setzt sechs weitere Termine an",
+      "headline": "Magdeburger Klinikum erhält 43,2 Millionen Euro – Teil aus Corona-Sondervermögen",
       "section": "berlin",
-      "reason": "recent_topic: identical Fabian trial-delay story already ran on 28 August"
+      "reason": "geographic_misfit: Magdeburg hospital, not Berlin"
+    },
+    {
+      "headline": "Erster CSD in Königs Wusterhausen: Rechtsextreme Gruppe kündigt Protest an",
+      "section": "berlin",
+      "reason": "recent_topic: same KW CSD security story already ran on 22 August and in Other Headlines on 28 August"
     },
     {
       "headline": "What could Meta’s US settlement mean around the world – and what now for other claims against firm?",
       "section": "world",
-      "reason": "recent_topic: URL used as Selected Read on 28 August; settlement already in Other Headlines on 27 August"
+      "reason": "recent_topic: URL used as Selected Read on 28 August"
+    },
+    {
+      "headline": "Climate and AI to loom large in von der Leyen’s State of the Union",
+      "section": "world",
+      "reason": "recent_topic: URL used as Selected Read on 29 August"
+    },
+    {
+      "headline": "UK urged to help free British-Egyptian ‘arrested in Cairo over sister’s activism’",
+      "section": "world",
+      "reason": "recent_topic: already in Other Headlines on 29 August"
+    },
+    {
+      "headline": "Notes From Russia’s Literary Underground",
+      "section": "world",
+      "reason": "recent_topic: URL used as Selected Read on 29 August"
     },
     {
       "headline": "publisher_pool_thin",
       "section": "berlin",
-      "reason": "publisher_pool_thin: after dropping yesterday's ransom/Fabian duplicates and Brandenburg/World misfits, eligible Berlin items were all Tagesspiegel (Spandau fire, under-18 vote, Hamburg rail)"
+      "reason": "publisher_pool_thin: after dropping Brandenburg/Saxony/KW misfits, eligible Berlin-proper items were Tagesspiegel (Landesnetz leak threat, Union transfer) and rbb24 (Alba friendlies)"
     }
   ],
-  "notes": "Spain used the two-week street-clearance/returns plan (material operational change), the eight stranded flagship laws as the only non-Ceuta Spain item in the synthesis slice, and Albares's Italy/hoax complaint as the EU-diplomacy beat. Germany mixed BND Gamescom recruiting, St Pauli fans publishing internal abuse, and the September consumer-rule changeover after dropping a Bundespolitik liveblog and US/Venezuela misfits. Berlin kept the Spandau shelter fire, first under-18 Abgeordnetenhaus vote, and Berlin–Hamburg weekend closure; all three Tagesspiegel after the eligible pool collapsed. World balanced Venezuela oil (LatAm), Iran isolation via Dubai (Middle East), and the Nvidia/Japan bubble argument (East Asia)."
+  "notes": "Spain used the €165m Tuesday recovery package as the material Ceuta development, then the ILO/FAO/ECB personnel race and the Murcia Algerian-route/SIVE story for a second geography. Germany mixed the Verivox G20 power-price ranking, BYD's hybrid undercutting, and IFA-as-entertainment from Tagesspiegel for a second publisher. Berlin kept the Landesnetz publication-threat follow-up (new leak beat after the 28 August ransom), Union's Imeri rumour, and Alba's test wins after the eligible city-proper pool collapsed. World balanced Fukushima cleanup robots (East Asia), the Indiana fair (North America), and a China AI-convergence dispatch (East Asia)."
 }
