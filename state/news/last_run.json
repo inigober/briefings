@@ -1,38 +1,53 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-30",
-  "briefing_date": "2026-08-30",
-  "inbox_date": "2026-08-30",
+  "date": "2026-08-31",
+  "briefing_date": "2026-08-31",
+  "inbox_date": "2026-08-31",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-30.md",
-  "inbox_path": "inbox/news/2026-08-30-synthesis.json",
+  "briefing_path": "briefings/news/2026-08-31.md",
+  "inbox_path": "inbox/news/2026-08-31-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Ceuta, radiografía de un mes de caos: “Fue un error de cálculo darlo por zanjado cuando se volvieron a Marruecos 70.000\"",
+      "headline": "Los servicios secretos ven probables más acciones encubiertas sobre Ceuta y Melilla",
       "section": "spain",
-      "reason": "one_theme / recent_topic: month-recap of the same Ceuta crisis; kept as Other Headlines"
+      "reason": "one_theme / recent_topic: Ceuta crisis track covered 18–30 August; kept as Other Headlines (grey-zone intel)"
     },
     {
-      "headline": "Ángel Víctor Torres: “Si no cesa la violencia habrá una ruptura total que retrasará la solución de Ceuta”",
+      "headline": "Una crisis, siete ministros y una ensalada de cifras sobre Ceuta",
       "section": "spain",
-      "reason": "one_theme: same Ceuta returns-and-violence track as the €165m package"
+      "reason": "one_theme / not_material: conflicting figures recap of the same Ceuta crisis"
     },
     {
-      "headline": "Debatte um AfD-Verbot: Staatsrechtler sieht rechtliches Risiko bei Teilverbot der AfD",
+      "headline": "Desaparecidos a las puertas de Ceuta: “Se oían movimientos en el agua y, después, nada”",
+      "section": "spain",
+      "reason": "one_theme: same Ceuta crossing; kept as Other Headlines"
+    },
+    {
+      "headline": "Estados Unidos ataca posiciones iraníes en la isla de Larek y deja al menos dos muertos",
+      "section": "spain",
+      "reason": "geographic_misfit: Hormuz/Iran military story; World used the FT version"
+    },
+    {
+      "headline": "Raumfahrt: Nasa schickt neues Infrarot-Teleskop ins All",
       "section": "germany",
-      "reason": "not_material: prohibition debate continues; no filing, ruling or vote"
+      "reason": "geographic_misfit: NASA science, not a Germany development"
     },
     {
-      "headline": "Long Island: Farmstay: So bodenständig ist das Sylt Amerikas",
+      "headline": "Globale Bestandsaufnahme: Bericht: Korallenriffe haben kaum noch Zeit zur Erholung",
       "section": "germany",
-      "reason": "geographic_misfit: US travel feature, not a Germany development"
+      "reason": "geographic_misfit: global reef survey, not Germany; kept as Other Headlines"
     },
     {
-      "headline": "Haushalt mit Sparmaßnahmen: Brandenburg plant trotz knapper Kassen weniger neue Schulden",
+      "headline": "Lage im Überblick: USA und Iran attackieren sich erstmals seit Wochen wieder",
+      "section": "germany",
+      "reason": "geographic_misfit: US/Iran fire belongs in World"
+    },
+    {
+      "headline": "Neue App zeigt unpünktliche Züge: In diese ICE steigen Sie besser nicht ein",
       "section": "berlin",
-      "reason": "geographic_misfit: Brandenburg Landeshaushalt, not Berlin city governance"
+      "reason": "geographic_misfit: national ICE punctuality app, not Berlin city governance"
     },
     {
       "headline": "Magdeburger Klinikum erhält 43,2 Millionen Euro – Teil aus Corona-Sondervermögen",
@@ -40,35 +55,20 @@
       "reason": "geographic_misfit: Magdeburg hospital, not Berlin"
     },
     {
-      "headline": "Erster CSD in Königs Wusterhausen: Rechtsextreme Gruppe kündigt Protest an",
-      "section": "berlin",
-      "reason": "recent_topic: same KW CSD security story already ran on 22 August and in Other Headlines on 28 August"
+      "headline": "Egyptian queen’s 673-diamond necklace stolen in Vienna smash-and-grab raid",
+      "section": "world",
+      "reason": "recent_topic: URL used as Selected Read on 30 August"
     },
     {
-      "headline": "What could Meta’s US settlement mean around the world – and what now for other claims against firm?",
+      "headline": "Jared Kushner Is the Face of American Oligarchy",
       "section": "world",
-      "reason": "recent_topic: URL used as Selected Read on 28 August"
-    },
-    {
-      "headline": "Climate and AI to loom large in von der Leyen’s State of the Union",
-      "section": "world",
-      "reason": "recent_topic: URL used as Selected Read on 29 August"
-    },
-    {
-      "headline": "UK urged to help free British-Egyptian ‘arrested in Cairo over sister’s activism’",
-      "section": "world",
-      "reason": "recent_topic: already in Other Headlines on 29 August"
-    },
-    {
-      "headline": "Notes From Russia’s Literary Underground",
-      "section": "world",
-      "reason": "recent_topic: URL used as Selected Read on 29 August"
+      "reason": "recent_topic: URL used as Selected Read on 30 August"
     },
     {
       "headline": "publisher_pool_thin",
-      "section": "berlin",
-      "reason": "publisher_pool_thin: after dropping Brandenburg/Saxony/KW misfits, eligible Berlin-proper items were Tagesspiegel (Landesnetz leak threat, Union transfer) and rbb24 (Alba friendlies)"
+      "section": "germany",
+      "reason": "publisher_pool_thin: after dropping NASA/coral/Iran geographic misfits, eligible Germany-proper items were Handelsblatt (Bas sick-pay, VW works meetings) and Tagesspiegel sport (Klopp/Kade)"
     }
   ],
-  "notes": "Spain used the €165m Tuesday recovery package as the material Ceuta development, then the ILO/FAO/ECB personnel race and the Murcia Algerian-route/SIVE story for a second geography. Germany mixed the Verivox G20 power-price ranking, BYD's hybrid undercutting, and IFA-as-entertainment from Tagesspiegel for a second publisher. Berlin kept the Landesnetz publication-threat follow-up (new leak beat after the 28 August ransom), Union's Imeri rumour, and Alba's test wins after the eligible city-proper pool collapsed. World balanced Fukushima cleanup robots (East Asia), the Indiana fair (North America), and a China AI-convergence dispatch (East Asia)."
+  "notes": "Spain used the Triodos €20bn heat-cost study as a material climate-economy data release, then the public-university rationing report and the RFEF egg-freezing deal for a second publisher. Ceuta items stayed in Other Headlines. Germany mixed Bas's ignored €85bn sickness bill, VW's last Betriebsversammlung, and Klopp/Kade from Tagesspiegel after the eligible non-sport pool collapsed. Berlin kept BSW's rbb Wahlarena suit, the Grey Wolves attack lead, and RE1 night cuts after dropping national ICE and Brandenburg/Saxony misfits. World balanced the Hormuz fire exchange (Middle East), US factory robots (North America), and the Unimicron/Nvidia parts probe (East Asia)."
 }

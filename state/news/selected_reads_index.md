@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-08-31
+
+- [Les think tanks musclent leur jeu en vue de 2027](https://www.politico.eu/article/les-think-tanks-musclent-leur-jeu-en-vue-de-2027/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Will financial innovation dethrone the dollar?](https://www.ft.com/content/1481e787-77dc-4d54-8871-8ffb369e5dd3) — Financial Times
+- [La vida en Irán al paso de la guerra: "He aprendido lo fácil que es que te borren del mundo"](https://www.eldiario.es/internacional/vida-iran-paso-guerra-he-aprendido-facil-borren-mundo_1_13473548.html) — eldiario.es
+- [La visita del jefe de la CIA a Moscú se envuelve en mentiras y medias verdades en plena ‘guerra’ del espionaje ruso en Europa](https://elpais.com/internacional/2026-08-31/la-visita-del-jefe-de-la-cia-a-moscu-se-envuelve-en-mentiras-y-medias-verdades-en-plena-guerra-del-espionaje-ruso-en-europa.html) — EL PAÍS
+
 ## 2026-08-30
 
 - [Jared Kushner Is the Face of American Oligarchy](https://foreignpolicy.com/2026/08/28/american-oligarchy-geopolitics-dictators-democracy-jared-kushner-trump/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Jane Street’s growing pains](https://www.ft.com/content/ea9c073d-4e9d-4e8a-98c0-68e278faa081?syn-25a6b1a6=1) — Financial Times
 - [Malaysian ex-PM Ismail Sabri charged with failing to declare assets](https://asia.nikkei.com/spotlight/society/malaysian-ex-pm-ismail-sabri-charged-with-failing-to-declare-assets) — Nikkei Asia
 - [South African police arrest two Thai men for allegedly smuggling parrot eggs](https://www.theguardian.com/world/2026/aug/26/south-african-police-arrest-two-thai-men-smuggling-parrot-eggs) — The Guardian
-
-## 2026-08-26
-
-- [Peacemaking Is Power Politics Again](https://foreignpolicy.com/2026/08/25/peacemaking-power-politics-united-nations-trump/) — Foreign Policy
-- [Nigel Farage wants to scrap GDPR for the UK](https://www.politico.eu/article/nigel-farage-wants-to-scrap-gdpr-for-the-uk/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Prince Harry quits board of wildlife charity after rangers’ human rights abuses](https://www.theguardian.com/uk-news/2026/aug/24/prince-harry-quits-board-wildlife-charity-african-parks-human-rights-abuses) — The Guardian
-- [40% of Japan department stores expect tourist spending to rise](https://asia.nikkei.com/business/retail/40-of-japan-department-stores-expect-tourist-spending-to-rise) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 

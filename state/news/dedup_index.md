@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-08-31
+
+- **spain-extreme-summer-20bn-gdp** — eldiario.es: a Triodos study says extreme heat will cost Spain more than €20 billion, about 1% of GDP this year (section: spain)
+- **spain-public-university-private-expansion** — eldiario.es: about 17,000 students a year miss a public place on high-demand courses; a report blames rectorates as well as money (section: spain)
+- **spain-rfe-egg-freezing-national-team** — EL PAÍS: the Spanish FA is close to a deal so national-team footballers can freeze their eggs (section: spain)
+- **germany-baerbel-bas-85bn-sickness-costs** — Handelsblatt: labour minister Bärbel Bas is ignoring record €85 billion sickness costs at German firms (section: germany)
+- **germany-vw-last-betriebsversammlung** — Handelsblatt: VW's last works meetings are asking whether jobs and plants will close, with the supervisory board due this week (section: germany)
+- **germany-klopp-kade-augsburg** — Tagesspiegel: Klopp watched Augsburg's Anton Kade and has not made contact (section: germany)
+- **berlin-bsw-rbb-wahlarena-lawsuit** — Berliner Zeitung: BSW is suing rbb after being kept off the Wahlarena before the 20 September vote (section: berlin)
+- **berlin-grey-wolves-xenophobic-attack** — rbb24: a xenophobic attack on an Indian man in Berlin has a Grey Wolves lead (section: berlin)
+- **berlin-re1-night-cancellations** — rbb24: night trains on the RE1 between Berlin and Frankfurt (Oder) will be cancelled from Monday (section: berlin)
+- **world-us-iran-hormuz-fire-exchange** — Financial Times: the US and Iran exchanged fire for the first time in more than a month after a Hormuz-island strike and a retaliatory attack on Jordan (section: world)
+- **world-us-robots-manufacturing** — Financial Times: Wall Street wants physical AI to rebuild US factories; unions warn about jobs and wages (section: world)
+- **world-unimicron-nvidia-china-parts-probe** — Nikkei Asia: Nvidia supplier Unimicron is being probed for allegedly relabelling China-made parts (section: world)
+
 ## 2026-08-30
 
 - **spain-ceuta-165-million-recovery-package** — EL PAÍS: Sánchez will take an urgent Tuesday cabinet package adding €165 million to recover Ceuta, billed as 4% of the enclave's output in aid (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-lula-fourth-term-bid-brazil** — The Guardian: Lula launched a fourth-term presidential bid against Flávio Bolsonaro in Brazil (section: world)
 - **world-trump-scale-back-south-korea-drills** — Financial Times: Trump says the US will scale back joint military drills with South Korea (section: world)
 - **world-shipping-chokepoints-war-climate-cost-surge** — Financial Times: war and climate stress are driving up shipping costs through major global chokepoints (section: world)
-
-## 2026-08-16
-
-- **spain-ceuta-psoe-revolt-government-delegate** — eldiario.es: Ceuta Socialist lawmaker Melchor León demands the government delegate resign over crisis management (section: spain)
-- **spain-wildfire-suppression-capacity-gaps** — EL PAÍS: a national firefighting inventory finds thin staffing and heavy reliance on UME support in some regions (section: spain)
-- **spain-longevity-inequality-by-income-neighbourhood** — eldiario.es: Spain's life-expectancy gains now mask sharp differences by class and neighbourhood (section: spain)
-- **germany-syrian-protection-status-revocations-rise** — Handelsblatt: Berlin reports more Syrians losing protection status as BAMF widens summer reviews (section: germany)
-- **germany-monschau-wildfire-evacuation-preparations** — Tagesspiegel: wildfire near Monschau leaves thousands preparing for evacuation on Germany's western edge (section: germany)
-- **germany-new-fathers-brain-empathy-study** — Tagesspiegel: study finds parenthood reshapes young fathers' brains and empathy responses (section: germany)
-- **berlin-city-toilets-crack-crisis-frontline** — Tagesspiegel: public-toilet maintenance staff are becoming informal first responders to Berlin's addiction crisis (section: berlin)
-- **berlin-rave-the-planet-security-test** — rbb24: the techno parade returned through Tiergarten under tightened security after the CSD attack (section: berlin)
-- **berlin-kadewe-younger-shoppers-retail-reset** — Tagesspiegel: KaDeWe recasts its food hall and merchandising to chase a younger customer base (section: berlin)
-- **world-indonesia-earthquake-rescue-search** — The Guardian: rescuers hunt survivors after an eastern Indonesia quake killed dozens and displaced thousands (section: world)
-- **world-ontario-toronto-bike-lanes-court-ruling** — The Guardian: Ontario wins court clearance to remove Toronto bike lanes despite lower-court objections (section: world)
-- **world-ferrexpo-oligarch-kyiv-ownership-dispute** — Financial Times: Ukraine-focused miner struggles to raise cash while a sanctioned shareholder battles Kyiv (section: world)
