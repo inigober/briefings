@@ -1,30 +1,29 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-08-25",
-  "briefing_date": "2026-08-25",
-  "inbox_date": "2026-08-25",
-  "week_start": "2026-08-26",
-  "week_end": "2026-09-01",
+  "date": "2026-09-01",
+  "briefing_date": "2026-09-01",
+  "inbox_date": "2026-09-01",
+  "week_start": "2026-09-02",
+  "week_end": "2026-09-08",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-08-25.md",
-  "inbox_path": "inbox/berlin-culture/2026-08-25-synthesis.json",
-  "items_count": 13,
+  "briefing_path": "briefings/berlin-culture/2026-09-01.md",
+  "inbox_path": "inbox/berlin-culture/2026-09-01-synthesis.json",
+  "items_count": 16,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 2,
+    "exhibitions": 4,
     "film": 2,
-    "performing_arts": 0,
-    "music": 2,
-    "wildcards": 1,
+    "performing_arts": 1,
+    "music": 1,
+    "wildcards": 2,
     "advance_radar": 3
   },
-  "thin_sections": ["exhibitions", "performing_arts", "music"],
+  "thin_sections": ["performing_arts", "music"],
   "omitted_sections": [],
   "validation_warnings": [
-    "Section 'exhibitions' has 2 entries (style minimum 4)",
-    "Section 'performing_arts' has 0 entries (style minimum 2)",
-    "Section 'music' has 2 entries (style minimum 3)"
+    "Section 'performing_arts' has 1 entries (style minimum 2)",
+    "Section 'music' has 1 entries (style minimum 3)"
   ],
-  "verification_fetches": 4,
-  "notes": "Top Picks spot-checked: Bat Dances (Tanz im August production page, 26–29.8.2026 at HAU3), News from Home (Arsenal, Thu 31.08.2026 19:30), Josef Kaiser opening (INDEX/Berlinische Galerie, 27.8.2026 19:00). Merged the INDEX Kaiser event with the Berlinische Galerie exhibition rather than listing both. Dropped Hanno Leichtmann and HTRK (URL dates 31 July / 2 August, outside week). Dropped breaking is reflection (already indexed 2026-06-30; Hamburger Bahnhof venue cap). Performing Arts is a Top Picks cross-reference only; did not split Tanz im August. Music thin: only Mutant Radio Sessions plus Berlin Beats: BASHKKA were verified in-window."
+  "verification_fetches": 5,
+  "notes": "Top Picks spot-checked: Opposite of Now (INDEX opening Thu 3.9.2026 18:30 at Jewish Museum; Museumsportal confirmed 2026 artists/anniversary copy but returned HTTP 403 in the verify script, so Official Link is the INDEX event URL from the inbox). Midori Hirano x The Juniper Tree (silent green detail page, Wed 2.9.2026 doors 19:00 / start 20:00), Aufstand in Auschwitz (ACUDkino Tue 8.9.2026 19:00 with film-team Q&A). Also fetched Doorman + Franco Franco (Thu 3.9.2026 doors 19:00 / start 20:00). Used silent green detail URLs, not /en/2026/9 listing. Promoted last week's Advance Radar (Mack, Ground Noise, HAUS AUS GLAS) into this week. Performing arts thin: only HAUS AUS GLAS verified in-window with a deep URL (Amigues Adios at Ballhaus had a shallow /events/ listing — not used). Music thin: silent green venue cap (Hirano Top Pick + Doorman). Dropped Hiddensee for ACUDkino cap. Venue corrections from INDEX week listing: Trisha Brown / Kianí Del Valle at Neue Nationalgalerie (not Hamburger Bahnhof); Murat Önen at Galerie Max Mayer; Wallpaper at Deutscher Künstlerbund; RECORDING THE GAZE at Sammlung Hackelsberger; correct me if I'm foreign at Berlin Art Institute."
 }

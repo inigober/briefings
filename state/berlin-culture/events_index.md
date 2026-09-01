@@ -29,15 +29,6 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-08-18 | advance_radar | Josef Kaiser. Bauen für die DDR | Alte Jakobstr. 124-128, 10969 Berlin | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
 2026-08-18 | advance_radar | Ruba Al-Sweel, Arvin Arta, Dana Dawud, Noura Tafeche and Zein Majali Short Film Screening | Frankfurter Tor 1, 10243 Berlin | https://www.indexberlin.com/events/list/44942/short-film-screening
 2026-08-18 | advance_radar | Itchi Fleischer Unzucht – Kiss the Devil’s Arse | Weigandufer, corner of Wildenbruchbrücke, next to the mooring, 12045 Berlin | https://www.indexberlin.com/events/list/44861/unzucht-kiss-the-devil-s-arse
-2026-06-30 | top_picks | School Performances of 'Rain' and 'BOLERO' | Radialsystem (Halle) | https://www.radialsystem.de/en/programm/programm/
-2026-06-30 | top_picks | Philipp Gufler — Imitationen von Paul | BQ | https://www.indexberlin.com/exhibitions/list/42826/imitationen-von-paul
-2026-06-30 | top_picks | Berlin launch: Lilia Topouzova in conversation with Kate Connolly | Between Bridges | https://www.indexberlin.com/events/list/44739/berlin-launch-acclaimed-historian-and-artist-lilia-topouzova-in-conversation-with-kate-connolly
-2026-06-30 | exhibitions | Jeff Davis — Mechanical Drawings | OFFICE IMPART | https://www.indexberlin.com/exhibitions/list/43596/mechanical-drawings
-2026-06-30 | music | MetropolCon 2026 | Silent Green | https://www.silent-green.net/en/programme/detail/metropolcon-2026?tx_news_pi1%5Bday%5D=2&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=6550140754453a1df6ebee0148fd77a5
-2026-06-30 | wildcards | Cihan Çakmak — breaking is reflection | Galerie EIGEN + ART Berlin | https://www.indexberlin.com/events/list/44416/breaking-is-reflection
-2026-06-30 | wildcards | Finissage ATLANTINNEN | Deutscher Künstlerbund | https://www.indexberlin.com/events/list/42763/finissage-presentation-of-the-special-edition-on-the-theme-atlantinnen-das-er-halten-der-welt
-2026-06-30 | advance_radar | Artist Talk with Evan Roth | Potsdamer Str. 65 | https://www.indexberlin.com/events/list/44322/artist-talk-with-evan-roth
-2026-06-30 | advance_radar | Concert-Week | Auguststr. 69, Mitte | https://www.indexberlin.com/events/list/44797/concert-week
 2026-07-07 | top_picks | Heroines of Sound Festival 2026 | Radialsystem | https://www.radialsystem.de/de/programm/programm/
 2026-07-07 | top_picks | Concert-Week — Kyiv Biennial at KW | KW Institute for Contemporary Art | https://www.indexberlin.com/events/list/44797/concert-week
 2026-07-07 | top_picks | Wanda (Barbara Loden) | Wolf Kino | https://wolfberlin.org/de/programm/filme/wanda
@@ -93,8 +84,6 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-08-04 | music | silent green Open Lab #10: Lovecrushr + ricky horror | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/silent-green-open-lab-10-lovecrushr-ricky-horror
 2026-08-04 | wildcards | everybody | Georg Kolbe Museum | https://www.indexberlin.com/events/list/44363/everybody
 2026-08-04 | advance_radar | KINDL Ferien-Rallye | KINDL – Zentrum für zeitgenössische Kunst | https://www.indexberlin.com/events/list/44612/kindl-ferien-rallye
-2026-08-04 | advance_radar | Shirin Sabahi — Domesticity III | Pforte | https://www.indexberlin.com/events/list/44626/domesticity-iii
-2026-08-04 | advance_radar | FERIEN AM WALDSEE — Carl Laszlo und die Kunst zu überleben | Haus am Waldsee | https://www.indexberlin.com/events/list/44579/ferien-am-waldsee-carl-laszlo-und-die-kunst-zu-uberleben-reading-with-choir-concert
 2026-08-25 | top_picks | Bat Dances | HAU3, HAU Hebbel am Ufer (Tanz im August) | https://www.tanzimaugust.de/en/production/detail/kareth-schaffer-jonas-hauer-bat-dances/
 2026-08-25 | top_picks | News from Home | Kino Arsenal (Arsenal 1) | https://www.arsenal-berlin.de/en/cinema/film-screening/news-from-home-2395/
 2026-08-25 | top_picks | Josef Kaiser — Building for the GDR | Berlinische Galerie | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
@@ -108,4 +97,19 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-08-25 | advance_radar | Heinz Mack — Spectrum Mundi | St. Matthäus-Kirche, Matthäikirchplatz | https://www.indexberlin.com/events/list/45274/spectrum-mundi
 2026-08-25 | advance_radar | Ground Noise | NADAN, Wilhelmsaue 1, Wilmersdorf | https://www.indexberlin.com/events/list/44975/ground-noise
 2026-08-25 | advance_radar | HAUS AUS GLAS — Vom Bauen und Niederreißen | Schinkel Pavillon | https://www.indexberlin.com/events/list/45281/haus-aus-glas-vom-bauen-und-niederreissen-ein-performatives-portrat-des-amerikanischen-architekten-philip-johnson
-
+2026-09-01 | top_picks | The Opposite of Now | Jewish Museum Berlin | https://www.indexberlin.com/events/list/45823/the-opposite-of-now
+2026-09-01 | top_picks | Midori Hirano x The Juniper Tree (1990) — Heroines of Sound / Heroines Edition #I | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/midori-hirano-x-the-juniper-tree-1990-im-rahmen-von-heroines-of-sound-festival-heroines-edition-i?tx_news_pi1%5Bday%5D=2&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=9a1ff49457c71afd345fb29fb7a22211
+2026-09-01 | top_picks | Aufstand in Auschwitz | ACUDkino | https://acudkino.de/Programm/aufstand_in_auschwitz/20530/58889
+2026-09-01 | exhibitions | The Lure of the Image — Wie Bilder im Netz verlocken | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.indexberlin.com/exhibitions/list/43777/the-lure-of-the-image-wie-bilder-im-netz-verlocken
+2026-09-01 | exhibitions | Walter Schels — 16° Fische. Retrospektive | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.indexberlin.com/exhibitions/list/43776/walter-schels-16-fische-retrospektive
+2026-09-01 | exhibitions | Ground Noise | NADAN, Wilhelmsaue 1, Wilmersdorf | https://www.indexberlin.com/events/list/44975/ground-noise
+2026-09-01 | exhibitions | Heinz Mack — Spectrum Mundi | St. Matthäus-Kirche, Matthäikirchplatz | https://www.indexberlin.com/events/list/45274/spectrum-mundi
+2026-09-01 | film | filmPOLSKA: Kunst im Kino | Wolf Kino | https://wolfberlin.org/en/programme/events/filmpolska-kunst-im-kino
+2026-09-01 | film | Ingeborg Bachmann – Jemand, der einmal ich war | ACUDkino | https://acudkino.de/Programm/ingeborg_bachmann_-_jemand_der_einmal_ich_war/20516/58996
+2026-09-01 | performing_arts | HAUS AUS GLAS — Vom Bauen und Niederreißen | Schinkel Pavillon | https://www.indexberlin.com/events/list/45281/haus-aus-glas-vom-bauen-und-niederreissen-ein-performatives-portrat-des-amerikanischen-architekten-philip-johnson
+2026-09-01 | music | hub pres. Doorman + Franco Franco | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/hub-pres-doorman-franco-franco?tx_news_pi1%5Bday%5D=3&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=c6ed74f00b12a831b427542354c65d40
+2026-09-01 | wildcards | Murat Önen — trennt euch | Galerie Max Mayer, Hardenbergstraße 9A | https://www.indexberlin.com/events/list/45171/trennt-euch
+2026-09-01 | wildcards | Wallpaper. Mitgliederausstellung | Deutscher Künstlerbund, Markgrafenstraße 67 | https://www.indexberlin.com/events/list/45265/wallpaper-mitgliederausstellung
+2026-09-01 | advance_radar | Trisha Brown: Walking on the Wall (1971) | Neue Nationalgalerie | https://www.indexberlin.com/events/list/45811/trisha-brown-walking-on-the-wall-1971
+2026-09-01 | advance_radar | R E C O R D I N G T H E G A Z E | Sammlung Hackelsberger_____cabinet, Elisabethkirchstraße 16 | https://www.indexberlin.com/events/list/45364/r-e-c-o-r-d-i-n-g-t-h-e-g-a-z-e
+2026-09-01 | advance_radar | correct me if I’m foreign | Berlin Art Institute | https://www.indexberlin.com/events/list/44774/correct-me-if-i-m-foreign
