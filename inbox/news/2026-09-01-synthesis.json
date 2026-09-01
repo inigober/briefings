@@ -1,0 +1,2590 @@
+{
+  "briefing_type": "news",
+  "date": "2026-09-01",
+  "source_raw": "inbox/news/2026-09-01-raw.json",
+  "built_at": "2026-09-01T04:31:44.192678+00:00",
+  "model": null,
+  "raw_item_count": 170,
+  "section_counts": {
+    "spain": 12,
+    "germany": 12,
+    "berlin": 12,
+    "world": 12
+  },
+  "selected_read_candidates": [
+    {
+      "id": "rss-world-887bc59abd",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Wall Street banks push Big Law to cut fees because of AI",
+      "summary": "Goldman Sachs, Morgan Stanley and Citi tell law firms their bills should fall because technology has made routine work faster",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Wall Street banks push Big Law to cut fees because of AI",
+          "url": "https://www.ft.com/content/5240a6ac-b2e8-4897-a0a4-cbc7fc283bc9?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-f415ece1ca",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "China Is Trying to Make AI Work for Health Care",
+      "summary": "A state-backed push is raising the question: Who pays?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "China Is Trying to Make AI Work for Health Care",
+          "url": "https://foreignpolicy.com/2026/08/31/china-ai-healthcare/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-f4ae8a3b61",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Japan’s benchmark bond yield hits 3% for first time since 1996",
+      "summary": "US Treasury secretary Scott Bessent sends signal that he expects Bank of Japan to raise rates soon",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Japan’s benchmark bond yield hits 3% for first time since 1996",
+          "url": "https://www.ft.com/content/e6f5f97a-b199-444e-aaec-b8199359b08e?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-33cccb19f1",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Countries legally obliged to consider slavery reparations, says UN committee",
+      "summary": "Guidance says states must implement ‘comprehensive measures’ to address legacy of racial discrimination A UN committee has said countries are legally obliged to consider reparations for the transatlantic slave trade and take other ⁠measures to address the enduring ⁠legacy of racial ​discrimination. Guidance published on Monday by the committee on the elimination of racial discrimination (CERD) said the obligations arose from ⁠a legally binding 1965 convention on racial discrimination, not from the legal standards that existed when the slave trade took place. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Countries legally obliged to consider slavery reparations, says UN committee",
+          "url": "https://www.theguardian.com/world/2026/aug/31/countries-legally-obliged-consider-slavery-reparations-un-committee",
+          "publisher": "The Guardian",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-ce80bbc35f",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Fast-fashion retailer Shein's shares dive 10% after subdued Hong Kong IPO",
+      "summary": "Fast-fashion retailer Shein's shares dive 10% after subdued Hong Kong IPO",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Fast-fashion retailer Shein's shares dive 10% after subdued Hong Kong IPO",
+          "url": "https://asia.nikkei.com/business/markets/ipo/fast-fashion-retailer-shein-s-shares-dive-10-after-subdued-hong-kong-ipo",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-5142065b29",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Baidu's Hong Kong listing upgrade opens path to mainland capital",
+      "summary": "Baidu's Hong Kong listing upgrade opens path to mainland capital",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Baidu's Hong Kong listing upgrade opens path to mainland capital",
+          "url": "https://asia.nikkei.com/business/markets/equities/baidu-s-hong-kong-listing-upgrade-opens-path-to-mainland-capital",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-2178df79d6",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Beijing and Washington Can Build AI Safety Despite Mutual Distrust",
+      "summary": "Practical cooperation should exist alongside competition.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Beijing and Washington Can Build AI Safety Despite Mutual Distrust",
+          "url": "https://foreignpolicy.com/2026/08/31/china-us-safety-ai-artificial-intelligence-summit-regulation/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-880ea68ed2",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Meta accepts U.S. safety rules while pitching softer tools abroad",
+      "summary": "As governments consider banning social media for under-16s, Meta is turning to influencers to argue that parental controls are a better solution.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Meta accepts U.S. safety rules while pitching softer tools abroad",
+          "url": "https://restofworld.org/2026/meta-influencer-campaign-teen-accounts-under-16-social-media-ban/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "publisher": "Rest of World",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "rss-spain-5a8c2af4d1",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "El Gobierno duplica las plazas para migrantes en Ceuta en solo una semana y descarta su traslado a la Península",
+      "summary": "Desde que el Ejecutivo aprobó el mando único se ha agilizado la gestión de nuevos emplazamientos para pasar de 1.800 a más de 3.300 plazas, mientras Sánchez exculpa a Marruecos del origen de la crisis y anuncia ayudas millonarias a la ciudad autónoma Ceuta, radiografía de un mes de caos: “Fue un error de cálculo darlo por zanjado cuando se volvieron a Marruecos 70.000” De 1.800 a más de 3.300 plazas de atención temporal a migrantes adultos en Ceuta en solo una semana. Desde que el Gobierno aprobó el mando único se han agilizado los emplazamientos disponibles para las miles de personas que p...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "El Gobierno duplica las plazas para migrantes en Ceuta en solo una semana y descarta su traslado a la Península",
+          "url": "https://www.eldiario.es/politica/gobierno-duplica-plazas-migrantes-ceuta-semana-descarta-traslado-peninsula_1_13477642.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-a02d93149f",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "El Gobierno inyectará 21,5 millones para reforzar los servicios públicos y las desalinizadoras de Ceuta y Melilla",
+      "summary": "El Consejo de Ministros aprobará este martes una subvención extraordinaria para ambas ciudades, dentro del plan de refuerzo económico un mes después de la crisis humanitaria El Gobierno reforzará los ERTE para Ceuta: derecho a paro sin cotización previa y 100% bonificados a las empresas El Gobierno aprobará este martes una inyección extraordinaria de 21,5 millones de euros para reforzar los servicios públicos de Melilla y Ceuta, como parte de la respuesta del Ejecutivo a los efectos económicos provocados por la crisis migratoria en esta última ciudad autónoma. Esta es solo una pieza más de ...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "El Gobierno inyectará 21,5 millones para reforzar los servicios públicos y las desalinizadoras de Ceuta y Melilla",
+          "url": "https://www.eldiario.es/economia/gobierno-inyectara-21-5-millones-reforzar-servicios-publicos-desalinizadoras-ceuta-melilla_1_13477054.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-3346049edd",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Pedro Sánchez se queda solo junto a Marruecos",
+      "summary": "No culpar a Marruecos y no dejar que ninguno de los no menos de 5.000 migrantes en Ceuta pasen a la península son las dos prioridades del Gobierno de Sánchez y en ambos temas carece de apoyos fuera de su partido Por qué el Gobierno piensa que Marruecos no está detrás de la crisis de Ceuta Un Gobierno casi nunca admite que se ha visto sorprendido por una crisis. Sobre lo de admitir que se reaccionó tarde y sin ser consciente de las implicaciones, suele haber más sinceridad, pero solo de forma privada o anónima. Pedro Sánchez comunicó a la Comisión Europea por carta el 1 de agosto que se habí...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Pedro Sánchez se queda solo junto a Marruecos",
+          "url": "https://www.eldiario.es/politica/pedro-sanchez-queda-marruecos_129_13477226.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-84656a8423",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "\"La guerra nos está matando\": la historia de los sudaneses que esperan asilo en Ceuta y que no pueden volver",
+      "summary": "Los hombres retenidos en la ciudad autónoma pasan su tiempo entre clases de español, trámites administrativos, la añoranza de los seres queridos y el anhelo por permanecer en España y trabajar por un futuro mejor “Solo necesitamos una oportunidad”: el camino a Ceuta de Mohamed y cientos de sudaneses desde la peor crisis humanitaria del mundo Son las 10 de la mañana cuando Mohammed Hassan sale del campamento habilitado en Loma Colmenar para personas migrantes con un taco de folios en la mano. Lo sujeta con fuerza mientras recorre las calles de la zona y de la barriada de El Príncipe. Los pap...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "\"La guerra nos está matando\": la historia de los sudaneses que esperan asilo en Ceuta y que no pueden volver",
+          "url": "https://www.eldiario.es/desalambre/guerra-matando-historia-sudaneses-esperan-asilo-ceuta-no-volver_1_13477467.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-8a10d8500b",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "🎙 PODCAST | Ceuta y Marruecos: un mes, tres teorías",
+      "summary": "Lo llamamos crisis migratoria pero es algo más… Es geopolítica, es un misterio de la inteligencia y el espionaje, es otro peligroso incendio de xenofobia, es un vecino imprevisible... y sus amigos más poderosos Un tema Al día, ¡en el teatro! Ven a verlo en directo el 3 de octubre en Madrid. Consigue ya tus entradas Comienza la sexta temporada de Un tema Al día. Lo hace, como siempre, pegada a la actualidad. A lo que está pasando en Ceuta, más de un mes después de que casi 80.000 personas cruzaran la frontera entre Marruecos y España. ¿Cuál es la explicación para que todas estas personas ent...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "🎙 PODCAST | Ceuta y Marruecos: un mes, tres teorías",
+          "url": "https://www.eldiario.es/untemaaldia/podcast-ceuta-marruecos-mes-tres-teorias_132_13477402.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-6d9dfe28aa",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Dos años de nombramientos del Poder Judicial blindan el dominio conservador en las cúpulas de los tribunales",
+      "summary": "La principal asociación de la derecha judicial accede al 37% de los ascensos, más que las otras tres asociaciones juntas, mientras el pleno afronta en el nuevo curso el reto de cubrir cuatro plazas en la Sala del Supremo que juzga a los aforados La derecha judicial arrasa en la renovación parcial de la comisión que orienta a los jueces sobre principios éticos La Asociación Profesional de la Magistratura (APM), principal exponente de la derecha judicial, se ha adjudicado 59 de las 158 las plazas -un 37%- asignadas en los principales tribunales por el Consejo General del Poder Judicial (CGPJ)...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Dos años de nombramientos del Poder Judicial blindan el dominio conservador en las cúpulas de los tribunales",
+          "url": "https://www.eldiario.es/politica/anos-nombramientos-judicial-blindan-dominio-conservador-cupulas-tribunales_1_13477918.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-25df9760d1",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Marruecos observa como una provocación una visita real a Ceuta en medio de su campaña electoral",
+      "summary": "La presencia de Juan Carlos I en ambas ciudades autónomas fue recibida en 2007 con un mensaje de condena de Mohamed VI y la retirada del embajador marroquí en Madrid",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Marruecos observa como una provocación una visita real a Ceuta en medio de su campaña electoral",
+          "url": "https://elpais.com/espana/2026-09-01/marruecos-observa-como-una-provocacion-una-visita-real-a-ceuta-en-medio-de-su-campana-electoral.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-09-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-ce17ea4c4b",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Sánchez intenta bajar la presión prometiendo una visita del Rey a Ceuta cuando se supere la crisis",
+      "summary": "El presidente quiere mostrar con el viaje del monarca que él no teme a Marruecos. El Consejo de Ministros aprueba este martes ayudas millonarias para la ciudad",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Sánchez intenta bajar la presión prometiendo una visita del Rey a Ceuta cuando se supere la crisis",
+          "url": "https://elpais.com/espana/2026-09-01/sanchez-intenta-bajar-la-presion-prometiendo-una-visita-del-rey-a-ceuta-cuando-se-supere-la-crisis.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-09-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-726e1809a7",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Arrimar el hombro ante la crisis de Ceuta: “El hartazgo de todos no va reñido con la humanidad”",
+      "summary": "Las asociaciones vecinales que han asistido a mujeres, niños y personas vulnerables comienzan a respirar con las primeras acogidas, pero todavía ven lejos el final de la crisis",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Arrimar el hombro ante la crisis de Ceuta: “El hartazgo de todos no va reñido con la humanidad”",
+          "url": "https://elpais.com/espana/2026-09-01/arrimar-el-hombro-ante-la-crisis-de-ceuta-el-hartazgo-de-todos-no-va-renido-con-la-humanidad.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-09-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-fa447b80ef",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La fiscal jefa de Ceuta: “Hay casi una agresión sexual al día. Hay preocupación”",
+      "summary": "Silvia Rojas explica que la ciudad autónoma está al borde del colapso y que la forma de aliviar el sistema ceutí pasa por distribuir a menores a la península",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "La fiscal jefa de Ceuta: “Hay casi una agresión sexual al día. Hay preocupación”",
+          "url": "https://elpais.com/espana/2026-09-01/la-fiscal-jefa-de-ceuta-hay-casi-una-agresion-sexual-al-dia-hay-preocupacion.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-09-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-9453bff612",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "¿Cuándo dejarán de estar los inmigrantes en las calles de Ceuta?",
+      "summary": "Ceuta afronta una semana decisiva marcada por las protestas ciudadanas, la presión migratoria y las explicaciones que el Gobierno deberá dar en el Congreso de los Diputados",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "¿Cuándo dejarán de estar los inmigrantes en las calles de Ceuta?",
+          "url": "https://elpais.com/videos/2026-09-01/cuando-dejaran-de-estar-los-inmigrantes-en-las-calles-de-ceuta.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-09-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-a0c5017f37",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Ceuta: la crisis que Europa malinterpretó",
+      "summary": "El círculo vicioso de desinformación, desigualdad y deterioro democrático en el que se ha convertido el régimen migratorio de la UE es una de las amenazas más serias para la seguridad colectiva",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Ceuta: la crisis que Europa malinterpretó",
+          "url": "https://elpais.com/opinion/2026-09-01/ceuta-la-crisis-que-europa-malinterpreto.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-09-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-8c087fac53",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Börse am 1. September: Sieben Punkte, die für Anleger heute wichtig sind",
+      "summary": "Der hohe Ölpreis drückt auf die deutsche Börse. Neue Konjunkturdaten könnten ihn weiter in die Tiefe ziehen. Knüpft der Dax also an seinen gestrigen Tagesverlust an?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Börse am 1. September: Sieben Punkte, die für Anleger heute wichtig sind",
+          "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-c12d2f474e",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "KI: Anthropic schließt milliardenschweren Deal mit Nvidia-Partner",
+      "summary": "Der KI-Konzern investiert Milliarden in zusätzliche Rechenleistung. In Texas will der KI-Konzern ein riesiges Rechenzentrum nutzen und hat nun offenbar einen umfangreichen Vertrag unterzeichnet.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "KI: Anthropic schließt milliardenschweren Deal mit Nvidia-Partner",
+          "url": "https://www.handelsblatt.com/technik/ki/ki-anthropic-schliesst-milliardenschweren-deal-mit-nvidia-partner/100251012.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-dbbe04cf6e",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Logistik: Deutsche Post heißt ab sofort DHL",
+      "summary": "Kurz nach dem Jahrtausendwechsel verleibte sich die Ex-Bundespost einen US-Logistiker namens DHL ein. Danach wurde die Deutsche Post internationaler, der Name aber blieb deutsch. Bis jetzt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Logistik: Deutsche Post heißt ab sofort DHL",
+          "url": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/logistik-deutsche-post-heisst-ab-sofort-dhl/100251007.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-8d67622388",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Morning Briefing Podcast: G20: Die USA führen die Europäer vor / Sozialabgaben: Unaufhaltsam Richtung 50 Prozent",
+      "summary": "Beim G20-Finanzministertreffen trifft die alte Welt auf Trumps Machtshow - und muss sich mit dem Finanzier des Ukrainekriegs auseinandersetzen. Womöglich nicht der letzte Schlag.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Morning Briefing Podcast: G20: Die USA führen die Europäer vor / Sozialabgaben: Unaufhaltsam Richtung 50 Prozent",
+          "url": "https://www.handelsblatt.com/audio/podcast-morning-briefing/morning-briefing-podcast-g20-die-usa-fuehren-die-europaeer-vor---sozialabgaben-unaufhaltsam-richtung-50-prozent/100251003.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-4852a7d3e6",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Gelber Riese: Deutsche Post verschwindet aus Konzernnamen",
+      "summary": "Kurz nach dem Jahrtausendwechsel verleibte sich die Ex-Bundespost einen US-Logistiker namens DHL ein. Danach wurde die Deutsche Post immer internationaler, der Name aber blieb deutsch. Bis jetzt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Gelber Riese: Deutsche Post verschwindet aus Konzernnamen",
+          "url": "https://www.handelsblatt.com/politik/deutschland/gelber-riese-deutsche-post-verschwindet-aus-konzernnamen/100251006.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-f73be9e266",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Gustaf Nilsson kommt für eine Saison: Hertha BSC schließt die größte Lücke im Kader",
+      "summary": "Im Sommer hat er noch für Schweden bei der WM gespielt, jetzt wechselt Gustaf Nilsson zu Hertha BSC in die Zweite Liga. Er ist der Typ Mittelstürmer, der den Berliner lange gefehlt hat.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Gustaf Nilsson kommt für eine Saison: Hertha BSC schließt die größte Lücke im Kader",
+          "url": "https://www.tagesspiegel.de/sport/gustaf-nilsson-kommt-fur-eine-saison-hertha-bsc-schliesst-die-grosste-lucke-im-kader-16001442.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-b04f44c81f",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Luxus und höhere Preise: Wie US-Urlauber die liebste Ferieninsel der Deutschen verändern",
+      "summary": "Seit es einen Direktflug von New York nach Palma gibt, steigt die Zahl der US-Touristen auf Mallorca deutlich – und es gibt mehr Luxushotels. Wird die liebste Ferieninsel der Deutschen amerikanisch?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Luxus und höhere Preise: Wie US-Urlauber die liebste Ferieninsel der Deutschen verändern",
+          "url": "https://www.tagesspiegel.de/wirtschaft/luxus-und-hohere-preise-wie-us-urlauber-die-liebste-ferieninsel-der-deutschen-verandern-16000208.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-525928383b",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "30 Jahre nach seinem Tod: Angeklagter nach Mord an Rapper Tupac Shakur schuldig gesprochen",
+      "summary": "Der Mord an dem Rapper Tupac Shakur schockierte 1996 die Öffentlichkeit – und warf viele Fragen auf. 30 Jahre später kommt es zu einem Prozess. Die Geschworenen in Las Vegas entscheiden schnell.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "30 Jahre nach seinem Tod: Angeklagter nach Mord an Rapper Tupac Shakur schuldig gesprochen",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/schnelles-urteil-mord-an-rapper-tupac-shakur-angeklagter-schuldig-gesprochen-16001675.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-0d7937c402",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "AfD-Fans? Wir doch nicht!: Die heimlichen Wegbereiter der Rechtspopulisten",
+      "summary": "Es gibt parteiexterne Lobbyisten der AfD, die Sympathien verschleiern, aber deren Agenda hilft, die Partei salonfähig zu machen. Eine Spurensuche.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "AfD-Fans? Wir doch nicht!: Die heimlichen Wegbereiter der Rechtspopulisten",
+          "url": "https://www.tagesspiegel.de/politik/die-wegbereiter-der-afd-die-brandmauer-fuhrt-deutschland-in-den-abgrund-15990300.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-08-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-959bb5a218",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Die Kriege, die uns drohen: Sicherheit ist nicht mehr nur Aufgabe des Staates",
+      "summary": "Krieg hat seine klassische Form als erklärter völkerrechtlicher Konflikt verloren. Alle Deutschen sind betroffen. Zeit für mehr Ehrlichkeit.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Die Kriege, die uns drohen: Sicherheit ist nicht mehr nur Aufgabe des Staates",
+          "url": "https://www.tagesspiegel.de/meinung/die-kriege-die-uns-drohen-sicherheit-ist-nicht-mehr-nur-aufgabe-des-staates-16000870.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-e1d287243d",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Wetterprognose: Rheinland-Pfalz und Saarland: 26 Grad und sonniges Wetter",
+      "summary": "Wetterprognose: Rheinland-Pfalz und Saarland: 26 Grad und sonniges Wetter",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Wetterprognose: Rheinland-Pfalz und Saarland: 26 Grad und sonniges Wetter",
+          "url": "https://www.zeit.de/news/2026-09/01/rheinland-pfalz-und-saarland-26-grad-und-sonniges-wetter",
+          "publisher": "Die Zeit",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-germany-afe5c267dd",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Zuhören: Hörst du mir überhaupt zu? Wie wir aufhören, aneinander vorbeizureden",
+      "summary": "Viel zu oft glauben wir, unsere Partner schon zu kennen. Und passen kaum noch auf. Dabei verbessert echtes Zuhören jede Beziehung. Welche Nachfragen wahre Nähe schaffen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Zuhören: Hörst du mir überhaupt zu? Wie wir aufhören, aneinander vorbeizureden",
+          "url": "https://www.zeit.de/wissenschaft/2026-09/zuhoeren-emotion-kommunikation-beziehung-sexpodcast",
+          "publisher": "Die Zeit",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "wp-berlin-ad404acb90",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Brett Dean Conducts Brett Dean – Berliner Philharmoniker Sept 10 | 11 | 12, 2026",
+      "summary": "What a career! Brett Dean spent 14 years as a violist with Berliner Philharmoniker […]",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Brett Dean Conducts Brett Dean – Berliner Philharmoniker Sept 10 | 11 | 12, 2026",
+          "url": "https://www.the-berliner.com/culture/brett-dean-conducts-brett-dean-berliner-philharmoniker-sept-10-11-12-2026/",
+          "publisher": "The Berliner",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 63
+    },
+    {
+      "id": "rss-berlin-ae72ad929d",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Herbstwetter: Wolken und milde Temperaturen erwartet",
+      "summary": "Dichte Wolken und gelegentlicher Regen bestimmen das Wetter bis zum Wochenende in Berlin und Brandenburg. Am Freitag legen die Temperaturen etwas zu.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Herbstwetter: Wolken und milde Temperaturen erwartet",
+          "url": "https://www.tagesspiegel.de/berlin/herbstwetter-wolken-und-milde-temperaturen-erwartet-16001830.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-berlin-d91edc6b28",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Möglicher Machtwechsel in Tempelhof-Schöneberg: Erobert dieses Mal die CDU den Posten des Rathauschefs?",
+      "summary": "Nach dem großen Vorsprung für die CDU bei der Wiederholungswahl wird es jetzt besonders spannend. Kann der Grünen-Bezirksbürgermeister sein Amt verteidigen? Mehr denn je zählt das strategische Geschick.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Möglicher Machtwechsel in Tempelhof-Schöneberg: Erobert dieses Mal die CDU den Posten des Rathauschefs?",
+          "url": "https://www.tagesspiegel.de/berlin/bezirke/tempelhof-schoeneberg/moglicher-machtwechsel-in-tempelhof-schoneberg-erobert-dieses-mal-die-cdu-den-posten-des-rathauschefs-15976775.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-berlin-f37160efb1",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Nach Unwetter in Müritzregion: Ausmaß der Schäden erheblich größer als gedacht",
+      "summary": "Drei Tage nach dem schweren Unwetter in MV wird klar: Die Schäden sind erheblich größer als zuerst gedacht. Hunderte Bäume sind umgestürzt, Straßen bleiben gesperrt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Nach Unwetter in Müritzregion: Ausmaß der Schäden erheblich größer als gedacht",
+          "url": "https://www.berliner-zeitung.de/article/unwetter-mueritzregion-schaeden-baeume-strassen-gesperrt-10345834",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-95f86f79c7",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Wartungsarbeiten am Tunnel: A17 nach Prag und Dresden ab heute Nacht dicht",
+      "summary": "Die Tunnel entlang der Autobahn 17 bei Dresden haben sensible Technik, die regelmäßig geprüft werden muss. Die Umleitung führt über eine marode Brücke.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Wartungsarbeiten am Tunnel: A17 nach Prag und Dresden ab heute Nacht dicht",
+          "url": "https://www.berliner-zeitung.de/article/wartungsarbeiten-am-tunnel-a17-nach-prag-und-dresden-ab-heute-nacht-dicht-10345847",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-72079c40bb",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Bericht: Musk zeigte sich offen für Starlink-Angriffe tief in Russland",
+      "summary": "Die Ukraine will russische Raketenstellungen mit satellitengesteuerten Drohnen angreifen. Elon Musk signalisiert Zustimmung – verweist jedoch auf Donald Trump.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Bericht: Musk zeigte sich offen für Starlink-Angriffe tief in Russland",
+          "url": "https://www.berliner-zeitung.de/article/bericht-musk-zeigt-sich-offen-fuer-starlink-angriffe-tief-in-russland-10345053",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-2389f8d98c",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "„Die Enten machen uns wahnsinnig“: Reederei verbannt Quietscheenten vom Kreuzfahrtschiff",
+      "summary": "Marella Cruises verbannt Quietscheenten von Bord. Was hinter dem Kreuzfahrt-Trend Cruising Ducks steckt und welche Reedereien noch durchgreifen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "„Die Enten machen uns wahnsinnig“: Reederei verbannt Quietscheenten vom Kreuzfahrtschiff",
+          "url": "https://www.berliner-zeitung.de/article/die-enten-machen-uns-wahnsinnig-reederei-verbannt-quietscheenten-vom-kreuzfahrtschiff-10340864",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-08-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-94cbe63182",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Magdeburger Klinikum erhält 43,2 Millionen Euro – Teil aus Corona-Sondervermögen",
+      "summary": "Die Notaufnahme wird umfassend ausgebaut. Geplant sind neue Behandlungsbereiche, 24 Infektionsbetten und eine Beobachtungsstation.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Magdeburger Klinikum erhält 43,2 Millionen Euro – Teil aus Corona-Sondervermögen",
+          "url": "https://www.berliner-zeitung.de/article/magdeburger-klinikum-erhaelt-432-millionen-euro-teil-aus-corona-sondervermoegen-10340087",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-08-29",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-cbdd04a2e6",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Sachsen schenkt ein: Mehr als 50 Weingüter öffnen dieses Wochenende",
+      "summary": "Kellerführungen, Weinwanderungen und besondere Aktionen locken ins Elbland. Gefeiert wird von Pillnitz bis Diesbar-Seußlitz.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Sachsen schenkt ein: Mehr als 50 Weingüter öffnen dieses Wochenende",
+          "url": "https://www.berliner-zeitung.de/article/sachsen-laesst-die-korken-knallen-mehr-als-50-weingueter-oeffnen-dieses-wochenende-10339598",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-08-29",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-e16faa6619",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Fehlende Wohnungen: Warum Azubis besonders betroffen sind",
+      "summary": "Am 1. September starten tausende Auszubildende in ihre Berufsausbildung. Viele waren oder sind auf der Suche nach einer eigenen Wohnung. Doch Azubis haben es auf dem Berliner Wohnungsmarkt besonders schwer.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Fehlende Wohnungen: Warum Azubis besonders betroffen sind",
+          "url": "https://www.rbb24.de/wirtschaft/beitrag/2026/08/azubis-wohnen-berlin-teuer-azubiwerk-wohnheim.html",
+          "publisher": "rbb24",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-0a31713d0d",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Fußball: Hertha BSC verpflichtet Stürmer Gustaf Nilsson",
+      "summary": "Fußball: Hertha BSC verpflichtet Stürmer Gustaf Nilsson",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Fußball: Hertha BSC verpflichtet Stürmer Gustaf Nilsson",
+          "url": "https://www.rbb24.de/sport/beitrag/2026/08/fussball-zweite-liga-hertha-bsc-verpflichtet-gustaf-nilsson.html",
+          "publisher": "rbb24",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-968ff06ae0",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Ex-Herthaner Tahsin Cakmak: Die neue Hoffnung von Tasmania Berlin",
+      "summary": "Vom fußballerischen Talent her, so der bei Hertha BSC ausgebildete Tahsin Cakmak, hätte es mehr werden müssen. Warum spielt er jetzt bei Tasmania Berlin - seiner fünften Station in der Regionalliga?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Ex-Herthaner Tahsin Cakmak: Die neue Hoffnung von Tasmania Berlin",
+          "url": "https://www.rbb24.de/sport/beitrag/2026/08/fussball-regionalliga-nordost-tasmania-berlin-hertha-bsc-babelsberg-tebe-berliner-ak-tahsin-cakmak.html",
+          "publisher": "rbb24",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-world-887bc59abd",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Wall Street banks push Big Law to cut fees because of AI",
+      "summary": "Goldman Sachs, Morgan Stanley and Citi tell law firms their bills should fall because technology has made routine work faster",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Wall Street banks push Big Law to cut fees because of AI",
+          "url": "https://www.ft.com/content/5240a6ac-b2e8-4897-a0a4-cbc7fc283bc9?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 72
+    },
+    {
+      "id": "rss-world-f415ece1ca",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "China Is Trying to Make AI Work for Health Care",
+      "summary": "A state-backed push is raising the question: Who pays?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "China Is Trying to Make AI Work for Health Care",
+          "url": "https://foreignpolicy.com/2026/08/31/china-ai-healthcare/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 67
+    },
+    {
+      "id": "rss-world-f4ae8a3b61",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Japan’s benchmark bond yield hits 3% for first time since 1996",
+      "summary": "US Treasury secretary Scott Bessent sends signal that he expects Bank of Japan to raise rates soon",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Japan’s benchmark bond yield hits 3% for first time since 1996",
+          "url": "https://www.ft.com/content/e6f5f97a-b199-444e-aaec-b8199359b08e?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-1798550e8b",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "A real-world trial for work in the age of AI",
+      "summary": "There are important lessons about universal basic income to be drawn from the behaviour of pensioners",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "A real-world trial for work in the age of AI",
+          "url": "https://www.ft.com/content/337b3e33-88b9-462d-9dfb-d2f24c8e67d6?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-05ada5424a",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Shein shares slide 10% in Hong Kong trading debut",
+      "summary": "Fast-fashion retailer completes long-delayed IPO at bargain-basement valuation",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Shein shares slide 10% in Hong Kong trading debut",
+          "url": "https://www.ft.com/content/06e22622-3e92-46a5-842f-bfa269687aaa?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-33cccb19f1",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Countries legally obliged to consider slavery reparations, says UN committee",
+      "summary": "Guidance says states must implement ‘comprehensive measures’ to address legacy of racial discrimination A UN committee has said countries are legally obliged to consider reparations for the transatlantic slave trade and take other ⁠measures to address the enduring ⁠legacy of racial ​discrimination. Guidance published on Monday by the committee on the elimination of racial discrimination (CERD) said the obligations arose from ⁠a legally binding 1965 convention on racial discrimination, not from the legal standards that existed when the slave trade took place. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Countries legally obliged to consider slavery reparations, says UN committee",
+          "url": "https://www.theguardian.com/world/2026/aug/31/countries-legally-obliged-consider-slavery-reparations-un-committee",
+          "publisher": "The Guardian",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    },
+    {
+      "id": "rss-world-ce80bbc35f",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Fast-fashion retailer Shein's shares dive 10% after subdued Hong Kong IPO",
+      "summary": "Fast-fashion retailer Shein's shares dive 10% after subdued Hong Kong IPO",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Fast-fashion retailer Shein's shares dive 10% after subdued Hong Kong IPO",
+          "url": "https://asia.nikkei.com/business/markets/ipo/fast-fashion-retailer-shein-s-shares-dive-10-after-subdued-hong-kong-ipo",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 63
+    },
+    {
+      "id": "rss-world-5142065b29",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Baidu's Hong Kong listing upgrade opens path to mainland capital",
+      "summary": "Baidu's Hong Kong listing upgrade opens path to mainland capital",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Baidu's Hong Kong listing upgrade opens path to mainland capital",
+          "url": "https://asia.nikkei.com/business/markets/equities/baidu-s-hong-kong-listing-upgrade-opens-path-to-mainland-capital",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 63
+    },
+    {
+      "id": "rss-world-2178df79d6",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Beijing and Washington Can Build AI Safety Despite Mutual Distrust",
+      "summary": "Practical cooperation should exist alongside competition.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Beijing and Washington Can Build AI Safety Despite Mutual Distrust",
+          "url": "https://foreignpolicy.com/2026/08/31/china-us-safety-ai-artificial-intelligence-summit-regulation/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 61
+    },
+    {
+      "id": "rss-world-880ea68ed2",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Meta accepts U.S. safety rules while pitching softer tools abroad",
+      "summary": "As governments consider banning social media for under-16s, Meta is turning to influencers to argue that parental controls are a better solution.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Meta accepts U.S. safety rules while pitching softer tools abroad",
+          "url": "https://restofworld.org/2026/meta-influencer-campaign-teen-accounts-under-16-social-media-ban/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "publisher": "Rest of World",
+          "published_at": "2026-08-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-world-ac9fd98a47",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Britain’s Liberal Democrats get a new think tank",
+      "summary": "The Britain Project aims to help the centrist force with policy development and preparation for government.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Britain’s Liberal Democrats get a new think tank",
+          "url": "https://www.politico.eu/article/britains-liberal-democrats-get-their-own-think-tank-the-britain-project/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "publisher": "Politico Europe",
+          "published_at": "2026-09-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-world-73a2673a70",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Fed Rate-Hike Bets Sink Global Bonds as Oil Gains: Markets Wrap",
+      "summary": "Global bonds fell, pushing yields to multi-decade highs, as concern over quicker inflation boosted bets on a Federal Reserve interest-rate hike this month. Oil climbed as geopolitical tensions flared.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Fed Rate-Hike Bets Sink Global Bonds as Oil Gains: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-31/asian-stocks-to-fall-as-iran-flare-up-boosts-oil-markets-wrap",
+          "publisher": "Bloomberg",
+          "published_at": "2026-08-31",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 60
+    }
+  ],
+  "editorial_context": {
+    "recent_topics": [
+      {
+        "slug": "spain-extreme-summer-20bn-gdp",
+        "section": "spain",
+        "date": "2026-08-31"
+      },
+      {
+        "slug": "spain-public-university-private-expansion",
+        "section": "spain",
+        "date": "2026-08-31"
+      },
+      {
+        "slug": "spain-rfe-egg-freezing-national-team",
+        "section": "spain",
+        "date": "2026-08-31"
+      },
+      {
+        "slug": "germany-baerbel-bas-85bn-sickness-costs",
+        "section": "germany",
+        "date": "2026-08-31"
+      },
+      {
+        "slug": "germany-vw-last-betriebsversammlung",
+        "section": "germany",
+        "date": "2026-08-31"
+      },
+      {
+        "slug": "germany-klopp-kade-augsburg",
+        "section": "germany",
+        "date": "2026-08-31"
+      },
+      {
+        "slug": "berlin-bsw-rbb-wahlarena-lawsuit",
+        "section": "berlin",
+        "date": "2026-08-31"
+      },
+      {
+        "slug": "berlin-grey-wolves-xenophobic-attack",
+        "section": "berlin",
+        "date": "2026-08-31"
+      },
+      {
+        "slug": "berlin-re1-night-cancellations",
+        "section": "berlin",
+        "date": "2026-08-31"
+      },
+      {
+        "slug": "world-us-iran-hormuz-fire-exchange",
+        "section": "world",
+        "date": "2026-08-31"
+      },
+      {
+        "slug": "world-us-robots-manufacturing",
+        "section": "world",
+        "date": "2026-08-31"
+      },
+      {
+        "slug": "world-unimicron-nvidia-china-parts-probe",
+        "section": "world",
+        "date": "2026-08-31"
+      },
+      {
+        "slug": "spain-ceuta-165-million-recovery-package",
+        "section": "spain",
+        "date": "2026-08-30"
+      },
+      {
+        "slug": "spain-diaz-planas-ilo-fao-ecb-races",
+        "section": "spain",
+        "date": "2026-08-30"
+      },
+      {
+        "slug": "spain-murcia-algerian-route-sive",
+        "section": "spain",
+        "date": "2026-08-30"
+      },
+      {
+        "slug": "germany-verivox-g20-highest-electricity-prices",
+        "section": "germany",
+        "date": "2026-08-30"
+      },
+      {
+        "slug": "germany-byd-hybrid-price-war",
+        "section": "germany",
+        "date": "2026-08-30"
+      },
+      {
+        "slug": "germany-ifa-fairs-need-entertainment",
+        "section": "germany",
+        "date": "2026-08-30"
+      },
+      {
+        "slug": "berlin-landesnetz-leak-threat-data-use",
+        "section": "berlin",
+        "date": "2026-08-30"
+      },
+      {
+        "slug": "berlin-union-imeri-swiss-midfielder",
+        "section": "berlin",
+        "date": "2026-08-30"
+      },
+      {
+        "slug": "berlin-alba-two-test-wins",
+        "section": "berlin",
+        "date": "2026-08-30"
+      },
+      {
+        "slug": "world-fukushima-ai-robots-drones-cleanup",
+        "section": "world",
+        "date": "2026-08-30"
+      },
+      {
+        "slug": "world-indiana-state-fair-trump-midwest",
+        "section": "world",
+        "date": "2026-08-30"
+      },
+      {
+        "slug": "world-china-ai-future-looked-familiar",
+        "section": "world",
+        "date": "2026-08-30"
+      },
+      {
+        "slug": "spain-ceuta-two-week-street-clearance-returns",
+        "section": "spain",
+        "date": "2026-08-29"
+      },
+      {
+        "slug": "spain-eight-pending-laws-last-legislative-year",
+        "section": "spain",
+        "date": "2026-08-29"
+      },
+      {
+        "slug": "spain-albares-italy-solidarity-hoax",
+        "section": "spain",
+        "date": "2026-08-29"
+      },
+      {
+        "slug": "germany-bnd-gamescom-recruiting",
+        "section": "germany",
+        "date": "2026-08-29"
+      },
+      {
+        "slug": "germany-st-pauli-fans-publish-abuse",
+        "section": "germany",
+        "date": "2026-08-29"
+      },
+      {
+        "slug": "germany-september-station-alcohol-checkout-labels",
+        "section": "germany",
+        "date": "2026-08-29"
+      },
+      {
+        "slug": "berlin-spandau-refugee-shelter-fire",
+        "section": "berlin",
+        "date": "2026-08-29"
+      },
+      {
+        "slug": "berlin-under-18-abgeordnetenhaus-vote",
+        "section": "berlin",
+        "date": "2026-08-29"
+      },
+      {
+        "slug": "berlin-hamburg-line-weekend-restarbeiten",
+        "section": "berlin",
+        "date": "2026-08-29"
+      },
+      {
+        "slug": "world-trump-venezuela-oil-majority",
+        "section": "world",
+        "date": "2026-08-29"
+      },
+      {
+        "slug": "world-us-iran-isolation-dubai",
+        "section": "world",
+        "date": "2026-08-29"
+      },
+      {
+        "slug": "world-nvidia-ai-bubble-1980s-japan",
+        "section": "world",
+        "date": "2026-08-29"
+      },
+      {
+        "slug": "spain-ceuta-food-aid-blockade-violence",
+        "section": "spain",
+        "date": "2026-08-28"
+      },
+      {
+        "slug": "spain-ayuso-garcia-martin-assembly-planifica",
+        "section": "spain",
+        "date": "2026-08-28"
+      },
+      {
+        "slug": "spain-elpais-gta-vi-exclusive",
+        "section": "spain",
+        "date": "2026-08-28"
+      },
+      {
+        "slug": "germany-gen-z-ai-labour-afd",
+        "section": "germany",
+        "date": "2026-08-28"
+      },
+      {
+        "slug": "germany-wagenknecht-afd-not-far-right",
+        "section": "germany",
+        "date": "2026-08-28"
+      },
+      {
+        "slug": "germany-sepp-mueller-coal-plants-iran-gas",
+        "section": "germany",
+        "date": "2026-08-28"
+      },
+      {
+        "slug": "berlin-landesnetz-ransom-demand",
+        "section": "berlin",
+        "date": "2026-08-28"
+      },
+      {
+        "slug": "berlin-kristin-brinker-afd-firewall",
+        "section": "berlin",
+        "date": "2026-08-28"
+      },
+      {
+        "slug": "berlin-fabian-trial-october-verdict",
+        "section": "berlin",
+        "date": "2026-08-28"
+      },
+      {
+        "slug": "world-india-data-centre-displacement",
+        "section": "world",
+        "date": "2026-08-28"
+      },
+      {
+        "slug": "world-us-cowboy-stem-cell-clinics",
+        "section": "world",
+        "date": "2026-08-28"
+      },
+      {
+        "slug": "world-japan-forex-takaichi-food-tax",
+        "section": "world",
+        "date": "2026-08-28"
+      },
+      {
+        "slug": "spain-avalmadrid-supreme-court-fines",
+        "section": "spain",
+        "date": "2026-08-27"
+      },
+      {
+        "slug": "spain-ceuta-housing-sites-returns-lever",
+        "section": "spain",
+        "date": "2026-08-27"
+      },
+      {
+        "slug": "spain-waterboys-valencia-fishermans-blues",
+        "section": "spain",
+        "date": "2026-08-27"
+      },
+      {
+        "slug": "germany-merz-better-than-gloom-facts",
+        "section": "germany",
+        "date": "2026-08-27"
+      },
+      {
+        "slug": "germany-brandenburg-sugar-tax-prevention",
+        "section": "germany",
+        "date": "2026-08-27"
+      },
+      {
+        "slug": "germany-child-cyclist-age-rules",
+        "section": "germany",
+        "date": "2026-08-27"
+      },
+      {
+        "slug": "berlin-clubcommission-surviving-not-thriving",
+        "section": "berlin",
+        "date": "2026-08-27"
+      },
+      {
+        "slug": "berlin-elif-eralp-linke-rents-red-town-hall",
+        "section": "berlin",
+        "date": "2026-08-27"
+      },
+      {
+        "slug": "berlin-partial-lunar-eclipse-28-august",
+        "section": "berlin",
+        "date": "2026-08-27"
+      },
+      {
+        "slug": "world-powertech-panel-level-ai-packaging",
+        "section": "world",
+        "date": "2026-08-27"
+      },
+      {
+        "slug": "world-nepal-china-himalaya-flash-flood",
+        "section": "world",
+        "date": "2026-08-27"
+      },
+      {
+        "slug": "world-ukraine-delta-drone-software",
+        "section": "world",
+        "date": "2026-08-27"
+      },
+      {
+        "slug": "spain-data-centres-european-licence-renewables",
+        "section": "spain",
+        "date": "2026-08-26"
+      },
+      {
+        "slug": "spain-labour-shortage-vacancies-unemployment",
+        "section": "spain",
+        "date": "2026-08-26"
+      },
+      {
+        "slug": "spain-asylum-extranjeria-confinement-bills",
+        "section": "spain",
+        "date": "2026-08-26"
+      },
+      {
+        "slug": "germany-brosius-gersdorf-lanz-frei",
+        "section": "germany",
+        "date": "2026-08-26"
+      },
+      {
+        "slug": "germany-france-industrial-policy-clash",
+        "section": "germany",
+        "date": "2026-08-26"
+      },
+      {
+        "slug": "germany-sachsen-anhalt-landtagswahl-primer",
+        "section": "germany",
+        "date": "2026-08-26"
+      },
+      {
+        "slug": "berlin-fh-kreuzberg-male-east-mayor-field",
+        "section": "berlin",
+        "date": "2026-08-26"
+      },
+      {
+        "slug": "berlin-borgsdorf-war-munition-blast",
+        "section": "berlin",
+        "date": "2026-08-26"
+      },
+      {
+        "slug": "berlin-hempel-social-worker-bundesliga-referee",
+        "section": "berlin",
+        "date": "2026-08-26"
+      },
+      {
+        "slug": "world-us-visa-policy-ai-talent-china",
+        "section": "world",
+        "date": "2026-08-26"
+      },
+      {
+        "slug": "world-haiti-kenscoff-gang-massacre",
+        "section": "world",
+        "date": "2026-08-26"
+      },
+      {
+        "slug": "world-huckabee-settler-violence-bible",
+        "section": "world",
+        "date": "2026-08-26"
+      },
+      {
+        "slug": "spain-garamendi-ceoe-third-term-unopposed",
+        "section": "spain",
+        "date": "2026-08-25"
+      },
+      {
+        "slug": "spain-desertification-unccd-ulan-bator",
+        "section": "spain",
+        "date": "2026-08-25"
+      },
+      {
+        "slug": "spain-cantabria-wave-pool-tourism",
+        "section": "spain",
+        "date": "2026-08-25"
+      },
+      {
+        "slug": "germany-youth-school-stress-girls",
+        "section": "germany",
+        "date": "2026-08-25"
+      },
+      {
+        "slug": "germany-merz-cabinet-klausur-growth-tutors",
+        "section": "germany",
+        "date": "2026-08-25"
+      },
+      {
+        "slug": "germany-baerbock-columbia-university",
+        "section": "germany",
+        "date": "2026-08-25"
+      },
+      {
+        "slug": "berlin-districts-sondervermoegen-roads-disaster",
+        "section": "berlin",
+        "date": "2026-08-25"
+      },
+      {
+        "slug": "berlin-gamescom-studios-no-relocation",
+        "section": "berlin",
+        "date": "2026-08-25"
+      },
+      {
+        "slug": "berlin-burning-berlin-musical",
+        "section": "berlin",
+        "date": "2026-08-25"
+      },
+      {
+        "slug": "world-nichias-tsmc-chip-tubes-taiwan",
+        "section": "world",
+        "date": "2026-08-25"
+      },
+      {
+        "slug": "world-uae-ai-cyber-defense-iran-war",
+        "section": "world",
+        "date": "2026-08-25"
+      },
+      {
+        "slug": "world-colombia-espriella-immigration-crackdown",
+        "section": "world",
+        "date": "2026-08-25"
+      }
+    ],
+    "rejected_candidates": [
+      {
+        "id": "rss-spain-faaaecee90",
+        "headline": "El Gobierno aprobará este martes el Estatuto Marco sin resolver el conflicto con los médicos",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-00b57c48af",
+        "headline": "¿Es la IA tu nuevo psicólogo? \"Están aprendiendo a engancharte emocionalmente\"",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-b2c0a46857",
+        "headline": "España afronta el día después de los fondos europeos",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-72c514d45d",
+        "headline": "Salvini, en la cuerda floja: el ministro ultra de Italia sufre una rebelión interna ante el posible descalabro de su partido",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-30cd42dff3",
+        "headline": "Los piratas de Somalia exhiben su creciente poderío con nuevos secuestros de buques",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-9053ef9fa4",
+        "headline": "Discreto, accesible, sin ostentaciones y con una gestoría en Marbella: cae el asesor fiscal que los narcos se recomendaban en la Costa del Sol",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-55d9145cd4",
+        "headline": "Jacqueline Harpman, la escritora que hizo del género un problema literario resurge como fenómeno en TikTok",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-9adeaa6864",
+        "headline": "‘La bola negra’, ‘Resident Evil’, ‘Oasis’ y otros esperados estrenos de cine de septiembre",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-1ba373886f",
+        "headline": "Sánchez asegura que el Rey visitará Ceuta: “Hay argumentos suficientes”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-3ce633e624",
+        "headline": "Israel califica de “mentira” la acusación de Sánchez de su implicación en la crisis de Ceuta",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-4ca46d41ab",
+        "headline": "Sumar exige al PSOE el traslado “inmediato” a la Península de los migrantes de Ceuta",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-0db4b536eb",
+        "headline": "El PP exige a Sánchez “respeto” al rey Felipe VI: “Si Feijóo fuera presidente, le acompañaría a Ceuta”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-63f7a93408",
+        "headline": "Landtagswahl am 6. September: Ulrich Siegmund – gefeiert wie ein Politik-Popstar",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-3d2cf7e504",
+        "headline": "Landtagswahl am 6. September: Sven Schulze – Abstrampeln für die nächste Tour",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-33a970dc15",
+        "headline": "Wegovy und Ozempic: Was die neue Pille zum Abnehmen verändert",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-db2fceec46",
+        "headline": "Zivilschutz: »Im Zweifelsfall rettet mich der Staat – das ist halt nicht so«",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-35950773bf",
+        "headline": "Hochschulämter: Benz neuer Vorsitzender der Thüringer Hochschulen-Konferenz",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-632b5a1e84",
+        "headline": "Gelber Riese: Deutsche Post verschwindet aus Konzernnamen",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-e600cea52c",
+        "headline": "Krieg in der Ukraine: Vor Beginn des neuen Schuljahrs: Angriffe mit Raketen auf Kiew",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-4e92875ecf",
+        "headline": "TV-Kritik: Katastrophen-Kaleidoskop des verlorenen Vertrauens",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-0643ee5803",
+        "headline": "Mode: Doch kein neuer Horizont",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-55d6562d08",
+        "headline": "Bundespolitik: Pfiffe für Merz bei seiner Wahlkampfpremiere im Osten",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-0e89bf07e8",
+        "headline": "Medizin: Hitzewelle: Zu heiß für den Medikamentenversand?",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-972ca88b8d",
+        "headline": "Prozess in Braunschweig: „Ich hing nicht sonderlich an meinem Leben“",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-berlin-5e2ac21c5f",
+        "headline": "Sommerbilanz für Berlin und Brandenburg: wenig Regen und Rekordhitze",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-1d7d59154d",
+        "headline": "Modus, Vereine, Preisgeld: Eisbären in der Champions Hockey League",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-c7dcf47228",
+        "headline": "Werkserweiterung in Baruth: Diskussionen ums Grundwasser",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-4c34e2e46f",
+        "headline": "Drei Verdächtige nach Durchsuchung in Oranienburg wegen Cyberattacken",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-2a0c4d217f",
+        "headline": "Wohnhausbrand in Erkner (Oder-Spree) - Feuerwehr vor Ort",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-fef7320c99",
+        "headline": "Fünf Fußballer, die zu Gastronomen wurden",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "wp-berlin-c232e7d67f",
+        "headline": "Lights, Camera, Action: Berlin’s Unmissable Film Events this September",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-74a8a4e036",
+        "headline": "Music to Your Ears: the Best Upcoming Live Music in Berlin",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-9e52c20842",
+        "headline": "Hackers Who Infiltrated the State Network Demand Two Million Euros",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-401ecbae6a",
+        "headline": "What’s On This Week: Our Daily Tips",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-e156cd6655",
+        "headline": "Do Better, Berlin",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-63a28cbd4f",
+        "headline": "Hitler’s Final Football Match",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-world-7f77e87dc6",
+        "headline": "Revolut’s mission to dominate banking",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-world-eb85656df6",
+        "headline": "The Meta settlement is regulation by enforcement",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-world-accfea6323",
+        "headline": "US Army secretary resigns after tension with Pete Hegseth",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-world-4a109929de",
+        "headline": "Europeans shun Russian finance minister at US-hosted G20 meeting",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-world-627d0f3853",
+        "headline": "Cover Story newsletter: The Unwelcoming States of America",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-world-4a4f24c3ca",
+        "headline": "People fleeing Sudan civil war face ‘dire and deteriorating’ conditions in refuge city",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-world-55a703d50e",
+        "headline": "Canada erects giant ‘Lake Ontario’ sign as spat with Trump over name escalates",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-world-5b0c486ccb",
+        "headline": "Kākāpō rising: 90 chicks swell population of the world’s heaviest parrot",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-world-dd87bbdbc3",
+        "headline": "Trump welcomes Russia back to the G20. Europe isn’t having it.",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "priority:+6"
+        ]
+      },
+      {
+        "id": "rss-world-7d6350a035",
+        "headline": "These Generals Fought for Israel. Now They See ‘Jewish Terrorism’ as the Threat.",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "priority:+6"
+        ]
+      },
+      {
+        "id": "rss-world-654593aedb",
+        "headline": "Nonstop Russian Drones Make for Dangerous New Phase of War in Kyiv",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "priority:+6"
+        ]
+      },
+      {
+        "id": "rss-world-fcaccdd637",
+        "headline": "Man Arrested in Switzerland After Deadly Shooting at Rave",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "priority:+6"
+        ]
+      }
+    ],
+    "note": "Pre-ranked with editorial relevance from topics.yaml, dedup_index.md, and news_relevance rules in sources.yaml. Synthesis must still apply hard reject rules in news-briefing-style.mdc."
+  },
+  "note": "Token-light slice for synthesis. Full warehouse is in -raw.json. All items come from RSS or WordPress feeds — copy source URLs verbatim."
+}
