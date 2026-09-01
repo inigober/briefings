@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-01
+
+- [Wall Street banks push Big Law to cut fees because of AI](https://www.ft.com/content/5240a6ac-b2e8-4897-a0a4-cbc7fc283bc9?syn-25a6b1a6=1) — Financial Times
+- [Fast-fashion retailer Shein's shares dive 10% after subdued Hong Kong IPO](https://asia.nikkei.com/business/markets/ipo/fast-fashion-retailer-shein-s-shares-dive-10-after-subdued-hong-kong-ipo) — Nikkei Asia
+- [Beijing and Washington Can Build AI Safety Despite Mutual Distrust](https://foreignpolicy.com/2026/08/31/china-us-safety-ai-artificial-intelligence-summit-regulation/) — Foreign Policy
+- [Meta accepts U.S. safety rules while pitching softer tools abroad](https://restofworld.org/2026/meta-influencer-campaign-teen-accounts-under-16-social-media-ban/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+
 ## 2026-08-31
 
 - [Les think tanks musclent leur jeu en vue de 2027](https://www.politico.eu/article/les-think-tanks-musclent-leur-jeu-en-vue-de-2027/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Zero-interest convertible bonds set for record year](https://www.ft.com/content/8e93c159-2c02-444a-9f22-dcda14bc451f?syn-25a6b1a6=1) — Financial Times
 - [A Turning Point in AI Writing](https://www.theatlantic.com/technology/2026/08/wall-street-journal-ai-op-ed/688433/?utm_source=feed) — The Atlantic
 - [What could Meta’s US settlement mean around the world – and what now for other claims against firm?](https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact) — The Guardian
-
-## 2026-08-27
-
-- [Anthropic agrees $45bn AI data centre deal with UK start-up Nscale](https://www.ft.com/content/0ec76ba3-5f7f-4085-88fb-acf21954bc85?syn-25a6b1a6=1) — Financial Times
-- [Jane Street’s growing pains](https://www.ft.com/content/ea9c073d-4e9d-4e8a-98c0-68e278faa081?syn-25a6b1a6=1) — Financial Times
-- [Malaysian ex-PM Ismail Sabri charged with failing to declare assets](https://asia.nikkei.com/spotlight/society/malaysian-ex-pm-ismail-sabri-charged-with-failing-to-declare-assets) — Nikkei Asia
-- [South African police arrest two Thai men for allegedly smuggling parrot eggs](https://www.theguardian.com/world/2026/aug/26/south-african-police-arrest-two-thai-men-smuggling-parrot-eggs) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

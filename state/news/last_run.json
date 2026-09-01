@@ -1,53 +1,58 @@
 {
   "briefing_type": "news",
-  "date": "2026-08-31",
-  "briefing_date": "2026-08-31",
-  "inbox_date": "2026-08-31",
+  "date": "2026-09-01",
+  "briefing_date": "2026-09-01",
+  "inbox_date": "2026-09-01",
   "status": "success",
-  "briefing_path": "briefings/news/2026-08-31.md",
-  "inbox_path": "inbox/news/2026-08-31-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-01.md",
+  "inbox_path": "inbox/news/2026-09-01-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Los servicios secretos ven probables más acciones encubiertas sobre Ceuta y Melilla",
+      "headline": "Pedro Sánchez se queda solo junto a Marruecos",
       "section": "spain",
-      "reason": "one_theme / recent_topic: Ceuta crisis track covered 18–30 August; kept as Other Headlines (grey-zone intel)"
+      "reason": "one_theme / not_material: analysis recap of the same Ceuta-Morocco track; kept places-doubled and prosecutor as the material beats"
     },
     {
-      "headline": "Una crisis, siete ministros y una ensalada de cifras sobre Ceuta",
+      "headline": "Sánchez intenta bajar la presión prometiendo una visita del Rey a Ceuta cuando se supere la crisis",
       "section": "spain",
-      "reason": "one_theme / not_material: conflicting figures recap of the same Ceuta crisis"
+      "reason": "one_theme: royal-visit gesture parked in Other Headlines; places lock-in and prosecutor data were stronger"
     },
     {
-      "headline": "Desaparecidos a las puertas de Ceuta: “Se oían movimientos en el agua y, después, nada”",
+      "headline": "Marruecos observa como una provocación una visita real a Ceuta en medio de su campaña electoral",
       "section": "spain",
-      "reason": "one_theme: same Ceuta crossing; kept as Other Headlines"
+      "reason": "one_theme: same royal-visit beat; kept as Other Headlines"
     },
     {
-      "headline": "Estados Unidos ataca posiciones iraníes en la isla de Larek y deja al menos dos muertos",
+      "headline": "El Gobierno inyectará 21,5 millones para reforzar los servicios públicos y las desalinizadoras de Ceuta y Melilla",
       "section": "spain",
-      "reason": "geographic_misfit: Hormuz/Iran military story; World used the FT version"
+      "reason": "not_material: incremental Tuesday cheque beside the 30 August €165m package; kept as Other Headlines"
     },
     {
-      "headline": "Raumfahrt: Nasa schickt neues Infrarot-Teleskop ins All",
+      "headline": "KI: Anthropic schließt milliardenschweren Deal mit Nvidia-Partner",
       "section": "germany",
-      "reason": "geographic_misfit: NASA science, not a Germany development"
+      "reason": "geographic_misfit: Texas/Nvidia compute deal, not a Germany development; kept as Other Headlines"
     },
     {
-      "headline": "Globale Bestandsaufnahme: Bericht: Korallenriffe haben kaum noch Zeit zur Erholung",
+      "headline": "30 Jahre nach seinem Tod: Angeklagter nach Mord an Rapper Tupac Shakur schuldig gesprochen",
       "section": "germany",
-      "reason": "geographic_misfit: global reef survey, not Germany; kept as Other Headlines"
+      "reason": "geographic_misfit: Las Vegas verdict, not Germany"
     },
     {
-      "headline": "Lage im Überblick: USA und Iran attackieren sich erstmals seit Wochen wieder",
+      "headline": "Börse am 1. September: Sieben Punkte, die für Anleger heute wichtig sind",
       "section": "germany",
-      "reason": "geographic_misfit: US/Iran fire belongs in World"
+      "reason": "not_material: daily DAX wrap; oil-price pressure is incremental to the Iran energy track"
     },
     {
-      "headline": "Neue App zeigt unpünktliche Züge: In diese ICE steigen Sie besser nicht ein",
+      "headline": "Nach Unwetter in Müritzregion: Ausmaß der Schäden erheblich größer als gedacht",
       "section": "berlin",
-      "reason": "geographic_misfit: national ICE punctuality app, not Berlin city governance"
+      "reason": "geographic_misfit: Mecklenburg-Vorpommern storm, not Berlin city"
+    },
+    {
+      "headline": "Wartungsarbeiten am Tunnel: A17 nach Prag und Dresden ab heute Nacht dicht",
+      "section": "berlin",
+      "reason": "geographic_misfit: Dresden A17 tunnel, not Berlin"
     },
     {
       "headline": "Magdeburger Klinikum erhält 43,2 Millionen Euro – Teil aus Corona-Sondervermögen",
@@ -55,20 +60,15 @@
       "reason": "geographic_misfit: Magdeburg hospital, not Berlin"
     },
     {
-      "headline": "Egyptian queen’s 673-diamond necklace stolen in Vienna smash-and-grab raid",
+      "headline": "Shein shares slide 10% in Hong Kong trading debut",
       "section": "world",
-      "reason": "recent_topic: URL used as Selected Read on 30 August"
-    },
-    {
-      "headline": "Jared Kushner Is the Face of American Oligarchy",
-      "section": "world",
-      "reason": "recent_topic: URL used as Selected Read on 30 August"
+      "reason": "used as Selected Read (Nikkei version) rather than a World slot; Japan 3% yield took the East Asia markets beat"
     },
     {
       "headline": "publisher_pool_thin",
       "section": "germany",
-      "reason": "publisher_pool_thin: after dropping NASA/coral/Iran geographic misfits, eligible Germany-proper items were Handelsblatt (Bas sick-pay, VW works meetings) and Tagesspiegel sport (Klopp/Kade)"
+      "reason": "publisher_pool_thin: after dropping Anthropic/Tupac geographic misfits and the DAX wrap, eligible Germany-proper items were Handelsblatt (Post→DHL) and Tagesspiegel (AfD facilitators, Mallorca German-holiday market)"
     }
   ],
-  "notes": "Spain used the Triodos €20bn heat-cost study as a material climate-economy data release, then the public-university rationing report and the RFEF egg-freezing deal for a second publisher. Ceuta items stayed in Other Headlines. Germany mixed Bas's ignored €85bn sickness bill, VW's last Betriebsversammlung, and Klopp/Kade from Tagesspiegel after the eligible non-sport pool collapsed. Berlin kept BSW's rbb Wahlarena suit, the Grey Wolves attack lead, and RE1 night cuts after dropping national ICE and Brandenburg/Saxony misfits. World balanced the Hormuz fire exchange (Middle East), US factory robots (North America), and the Unimicron/Nvidia parts probe (East Asia)."
+  "notes": "Spain used the CGPJ conservative lock-in as the non-Ceuta structural story, then the material places-doubled/no-peninsula policy and the prosecutor's assault data (EL PAÍS) for a second publisher. Remaining Ceuta items stayed in Other Headlines. Germany mixed Post→DHL, AfD extra-party facilitators, and the Mallorca US-tourist price shift after the eligible non-geo pool collapsed. Berlin kept the Tempelhof-Schöneberg mayor race, the 1 September Azubi housing crunch, and Hertha's Nilsson signing after dropping Brandenburg/Saxony/MV misfits. World balanced Japan's 3% yield (East Asia), China AI-in-clinics (East Asia), and UN slavery-reparations guidance (international/Africa-Americas)."
 }

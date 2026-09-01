@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-01
+
+- **spain-cgpj-conservative-bench-lock** — eldiario.es: two years of CGPJ appointments have given the conservative judges' association 37% of senior posts, including a coming Supreme Court aforados slate (section: spain)
+- **spain-ceuta-places-doubled-no-peninsula** — eldiario.es: adult places in Ceuta went from 1,800 to more than 3,300 in a week, and Madrid has ruled out transfers to the peninsula (section: spain)
+- **spain-ceuta-prosecutor-daily-sexual-assaults** — EL PAÍS: Ceuta's chief prosecutor says there is almost one sexual assault a day and wants unaccompanied minors sent to the peninsula (section: spain)
+- **germany-deutsche-post-renames-dhl** — Handelsblatt: Deutsche Post is dropping its German holding name and will be DHL (section: germany)
+- **germany-afd-hidden-facilitators** — Tagesspiegel: extra-party lobbyists are making the AfD look ordinary while denying they are fans (section: germany)
+- **germany-mallorca-us-tourists-luxury** — Tagesspiegel: a New York–Palma flight is pulling US tourists and luxury hotels onto Germans' default holiday island (section: germany)
+- **berlin-tempelhof-schoeneberg-cdu-mayor** — Tagesspiegel: the CDU may take the Tempelhof-Schöneberg district mayor post after the repeat vote (section: berlin)
+- **berlin-azubis-housing-crunch** — rbb24: apprentices starting on 1 September are among the least able to find a Berlin room (section: berlin)
+- **berlin-hertha-gustaf-nilsson** — rbb24: Hertha BSC has signed Swedish World Cup striker Gustaf Nilsson for a season (section: berlin)
+- **world-japan-10y-yield-3-percent** — Financial Times: Japan's benchmark bond yield hit 3% for the first time since 1996 (section: world)
+- **world-china-ai-healthcare-who-pays** — Foreign Policy: a state-backed push to put AI in Chinese clinics has not settled who pays (section: world)
+- **world-un-cerd-slavery-reparations** — The Guardian: a UN racial-discrimination committee says states are legally obliged to consider slavery reparations (section: world)
+
 ## 2026-08-31
 
 - **spain-extreme-summer-20bn-gdp** — eldiario.es: a Triodos study says extreme heat will cost Spain more than €20 billion, about 1% of GDP this year (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-google-pixel-china-exit-2027** — Nikkei Asia: Google plans to stop making Pixel products in China in 2027 (section: world)
 - **world-airlines-fares-jet-fuel-stand-off** — Financial Times: airlines are resisting fare cuts even as jet-fuel costs ease after the Iran conflict shock (section: world)
 - **world-zimbabwe-lake-kariba-death-toll-68** — The Guardian: more bodies recovered after the Lake Kariba ferry disaster took the death toll to 68 (section: world)
-
-## 2026-08-17
-
-- **spain-unpaid-overtime-68k-job-equivalent** — eldiario.es: Spain is still recording about 2.5 million unpaid overtime hours a week, equivalent to roughly 68,000 jobs (section: spain)
-- **spain-northern-drought-water-trucks** — eldiario.es: drought is forcing northern towns onto tanker deliveries as springs fail and pasture disappears (section: spain)
-- **spain-public-sector-temp-hiring-sanctions** — EL PAÍS: Madrid prepares alerts and sanctions to curb abusive temporary hiring across the public sector (section: spain)
-- **germany-low-water-builders-costs** — Handelsblatt: low river levels are raising construction-material costs and delay risks for German builders (section: germany)
-- **germany-merz-debt-course-internal-doubts** — Handelsblatt: Union politicians are openly questioning Merz's fiscal line as productivity weakness narrows room for borrowing (section: germany)
-- **germany-franconia-bomb-scare-rail-disruption** — Tagesspiegel: a bomb scare halted train traffic in Franconia, exposing another fragility in Germany's rail network (section: germany)
-- **berlin-wild-boars-residential-edge** — Tagesspiegel: wild boars are pushing deeper into residential areas on Berlin's wooded fringe (section: berlin)
-- **berlin-mariendorf-trotting-derby-fragolino-rosso** — rbb24: Fragolino Rosso won the 131st German Trotting Derby in Berlin-Mariendorf (section: berlin)
-- **berlin-marienfelde-spaeti-outer-district-costs** — rbb24: reporting from a Marienfelde späti captured outer-district pressure around work, family logistics and rising costs (section: berlin)
-- **world-lula-fourth-term-bid-brazil** — The Guardian: Lula launched a fourth-term presidential bid against Flávio Bolsonaro in Brazil (section: world)
-- **world-trump-scale-back-south-korea-drills** — Financial Times: Trump says the US will scale back joint military drills with South Korea (section: world)
-- **world-shipping-chokepoints-war-climate-cost-surge** — Financial Times: war and climate stress are driving up shipping costs through major global chokepoints (section: world)
