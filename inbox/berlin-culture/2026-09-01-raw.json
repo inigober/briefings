@@ -1,0 +1,2416 @@
+{
+  "briefing_type": "berlin-culture",
+  "date": "2026-09-01",
+  "week_start": "2026-09-02",
+  "week_end": "2026-09-08",
+  "week_label": "September 2–8, 2026",
+  "fetched_at": "2026-09-01T08:38:00.755907+00:00",
+  "model": "gpt-5.4",
+  "fetch_mode": "search_per_section_then_structure",
+  "web_search_calls": 14,
+  "research_notes_chars": 18098,
+  "items": [
+    {
+      "id": "exh-the-opposite-of-now-jewish-museum-2026-09-04",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Opposite of Now",
+      "venue": "Jewish Museum Berlin",
+      "dates": "26 May 1995",
+      "times": "10:00",
+      "artists": [],
+      "official_url": "https://www.museumsportal-berlin.de/en/exhibitions/das-gegenteil-von-jetzt/",
+      "closing_soon": false,
+      "why_candidate": "New opening within the target window; framed as a 25th-anniversary exhibition with 12 specially developed artistic projects imagining social change.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "page_event_years": [
+        2026
+      ],
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "exh-wo-ich-wohne-haus-am-waldsee-2026-06-14",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Wo ich wohne",
+      "venue": "Haus am Waldsee",
+      "dates": "2026-06-14 to 2026-09-27",
+      "times": "",
+      "artists": [],
+      "official_url": "https://hausamwaldsee.de/en/wo-ich-wohne/",
+      "closing_soon": false,
+      "why_candidate": "Confirmed on view during the briefing window; international group exhibition marking the institution’s 80th anniversary with an architecture/institutional-history angle.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "film-filmpolska-kunst-im-kino-wolf-kino-2026-09-08",
+      "topic_ids": [
+        "film"
+      ],
+      "title": "filmPOLSKA: Kunst im Kino",
+      "venue": "Wolf Kino – Studio",
+      "dates": "2026-09-08",
+      "times": "20:00–22:00",
+      "artists": [
+        "Alicja Wysocka",
+        "Anna Baumgart"
+      ],
+      "official_url": "https://wolfberlin.org/en/programme/events/filmpolska-kunst-im-kino",
+      "closing_soon": false,
+      "why_candidate": "Strong fit for art/film crossover with a visual-art framing and international moving-image programme.",
+      "series_id": "filmpolska",
+      "event_kind": "festival_event",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "film-aufstand-in-auschwitz-acudkino-2026-09-08",
+      "topic_ids": [
+        "film"
+      ],
+      "title": "Aufstand in Auschwitz",
+      "venue": "ACUDkino, Kino 1",
+      "dates": "2026-09-08",
+      "times": "19:00",
+      "artists": [
+        "film team present"
+      ],
+      "official_url": "https://acudkino.de/Programm/aufstand_in_auschwitz/20530/58889",
+      "closing_soon": false,
+      "why_candidate": "Listing-verified in-window screening and the strongest match for socially engaged political-historical cinema; film team announced present.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "film-hiddensee-acudkino-2026-09-03",
+      "topic_ids": [
+        "film"
+      ],
+      "title": "Hiddensee",
+      "venue": "ACUDkino, Kino 2",
+      "dates": "2026-09-03",
+      "times": "20:15",
+      "artists": [],
+      "official_url": "https://acudkino.de/Programm/hiddensee/20525/58976",
+      "closing_soon": false,
+      "why_candidate": "Listing-verified in-window ACUDkino screening from the official programme page; usable as an international cinema candidate though detail-page verification was limited.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "film-ingeborg-bachmann-jemand-der-einmal-ich-war-acudkino-2026-09-02",
+      "topic_ids": [
+        "film"
+      ],
+      "title": "Ingeborg Bachmann – Jemand, der einmal ich war",
+      "venue": "ACUDkino, Kino 2",
+      "dates": "2026-09-02",
+      "times": "20:30",
+      "artists": [],
+      "official_url": "https://acudkino.de/Programm/ingeborg_bachmann_-_jemand_der_einmal_ich_war/20516/58996",
+      "closing_soon": false,
+      "why_candidate": "Listing-verified in-window ACUDkino screening from the official programme page; suitable as an auteur/international cinema pick despite limited detail-page verification.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "performing-amigues-adios-ballhaus-naunynstrasse-2026-09-04",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Amigues Adios",
+      "venue": "Ballhaus Naunynstraße",
+      "dates": "2026-09-04 to 2026-09-08",
+      "times": "2026-09-04 20:00; 2026-09-05 20:00; 2026-09-06 19:00; 2026-09-07 20:00; 2026-09-08 20:00",
+      "artists": [
+        "Bishop Black"
+      ],
+      "official_url": "https://ballhausnaunynstrasse.de/events/",
+      "closing_soon": false,
+      "why_candidate": "Only clearly verified in-window performing arts listing found on allowed domains; theatre world premiere with strong queer/postmigrant relevance suggested by the title and artist.",
+      "series_id": "",
+      "event_kind": "single",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "music-midori-hirano-the-juniper-tree-heroines-edition-i-silent-green-2026-09-02",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Film concert: Midori Hirano x The Juniper Tree (1990) – Heroines of Sound Festival / Heroines Edition # I",
+      "venue": "silent green Kulturquartier",
+      "dates": "2026-09-02",
+      "times": "",
+      "artists": [
+        "Midori Hirano"
+      ],
+      "official_url": "https://www.silent-green.net/en/2026/9",
+      "closing_soon": false,
+      "why_candidate": "Confirmed on silent green’s September 2026 programme page; strong fit via ambient/experimental electronic and audiovisual crossover.",
+      "series_id": "heroines-of-sound",
+      "event_kind": "festival_event",
+      "ingestion_source": "openai",
+      "url_live": true,
+      "verified": false,
+      "page_event_years": [
+        2026
+      ],
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "music-hub-pres-doorman-franco-franco-silent-green-2026-09-03",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "hub pres. Doorman + Franco Franco",
+      "venue": "silent green Kulturquartier",
+      "dates": "2026-09-03",
+      "times": "",
+      "artists": [
+        "Doorman",
+        "Franco Franco"
+      ],
+      "official_url": "https://www.silent-green.net/en/",
+      "closing_soon": false,
+      "why_candidate": "Listed by silent green as a dated in-window concert; plausible experimental/club-adjacent live option and not in the prior exclusion list.",
+      "series_id": "hub",
+      "event_kind": "festival_event",
+      "ingestion_source": "openai",
+      "url_live": false,
+      "verified": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "rss-exhibitions-0eeb472b86",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Two-Day Festival on Transgressive Memory at Berlin’s Silent Green",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/09/01/transgressive-memory-festival-silent-green-preview/",
+      "closing_soon": false,
+      "why_candidate": "Sept. 1, 2026 On September 12th and 13th, the Transgressive Memory Festival, which is free and open to all, will take over Berlin’s silent green Kulturquartier for two days of exhibitions, performances, films, music …[read on]",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-exhibitions-b8af9cfb2d",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Featured Exhibitions & Events September",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/09/01/things-to-do-in-berlin-featured-exhibitions-events-september/",
+      "closing_soon": false,
+      "why_candidate": "Exhibitions & Events at Akademie der Künste, Helmut Newton Foundation, Julia Stoschek Foundation, Gropius Bau, C/O Berlin, Schloss Biesdorf, TD, SCHWARZ CONTEMPORARY, Galerie Thomas Schulte, PalaisPopulaire, 68projects, Dock11, KORNFELD Galerie Berlin, KW Institute for Contemporary Art, Brücke Mu...",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-exhibitions-2c3464e51b",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Week August 31–Sept. 6, 2026",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/08/31/things-to-do-in-berlin-art-openings-performances-the-week-august31-sept6-2026/",
+      "closing_soon": false,
+      "why_candidate": "Openings and events at KW, Jüdisches Museum Berlin, Prater Galerie, DAS MINSK, Galerie Max Hetzler, Künstlerhof Frohnau, CANK, Soy Capitán, and more …[read on]",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-exhibitions-50340b5352",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Play Literacy: An Interview with Sebastian Quack",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/08/28/interview-sebastian-quack-play/",
+      "closing_soon": false,
+      "why_candidate": "by Alison Hugill // Aug. 28, 2026 What are the implications of play taking place outside of its designated zones? In our interview, artist, curator and game designer Sebastian Quack discusses play as a form of experimentation that doesn't shy away from friction …[read on]",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-exhibitions-db86f52a09",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Week August 24–30, 2026",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/08/24/things-to-do-in-berlin-art-openings-performances-aug24-aug30-2026/",
+      "closing_soon": false,
+      "why_candidate": "Openings and events at attaque[e]r le visible, DAS MINSK, Gropius Bau, KW, Long Night of Museums, Flipping the Coin, Galerie im Turm, Spreepark Art Space, DOCK 11, and more …[read on]",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-exhibitions-d8de8bc2e6",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Performing the Game: An Interview with Nina Davies & 2girls1comp",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/08/21/interview-nina-davies-2girls1comp-mcult-play/",
+      "closing_soon": false,
+      "why_candidate": "by Adela Lovric // Aug. 21, 2026 On September 5th and 6th, M-Cult brings ‘The Inexorable Non-Player Character’ to Dance House Helsinki in collaboration with Zodiak – Center for New Dance. Through speculative routes, this 30-minute …[read on]",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-exhibitions-3b1a3f3c51",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Open Call for Hopper Prize Artist Grants",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/08/21/open-call-hopper-prize-artist-grants-fall-2026/",
+      "closing_soon": false,
+      "why_candidate": "Aug. 21, 2026 The Hopper Prize is now accepting submissions for its Fall 2026 artist grants, offering support to visual artists and photographers working across all media worldwide …[read on]",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-exhibitions-92fc447aeb",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Open Call: Espace Brownstone × Art in Latin America 2027 Artist Residency",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/08/21/open-call-espace-brownstone-art-in-latin-america-artist-residency-2027/",
+      "closing_soon": false,
+      "why_candidate": "Aug. 21, 2026 Association Noemi - Espace Brownstone, formerly known as Fondation Brownstone, and Art in Latin America have announced the launch of an open call for artists …[read on]",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-exhibitions-f3c4a3b349",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Inside Lisbon’s Calouste Gulbenkian Museum: An Interview with Xavier F. Salomon",
+      "venue": "Berlin Art Link",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.berlinartlink.com/2026/08/18/calouste-gulbenkian-museum-xavier-f-salomon-interview/",
+      "closing_soon": false,
+      "why_candidate": "by Adela Lovric // Aug. 18, 2026 The Calouste Gulbenkian Museum is one of Lisbon’s most distinctive modernist buildings, not least because of its pronounced relationship with the lush Mediterranean …[read on]",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-wildcards-b937a507b7",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "💣🌮 #523: We lead in Döner, hacker ransom, WWII bombs still a problem",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/523-we-lead-in-doner-hacker-ransom",
+      "closing_soon": false,
+      "why_candidate": "Berlin needs more organ donors",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-wildcards-012fb51d69",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "#522: Election tools, computer problems, missing taxes",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/522-election-tools-computer-problems",
+      "closing_soon": false,
+      "why_candidate": "An American celebrity gets locked in a Ku’damm bathroom.",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-wildcards-3992162c0e",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "#521: Germans hate Berlin, RAW saved, bye Russisches Haus",
+      "venue": "20% Berlin",
+      "dates": "30 September 2027",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/521-germans-hate-berlin-raw-saved",
+      "closing_soon": false,
+      "why_candidate": "Plus: English-language content on public broadcasters",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [
+        2027
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-wildcards-39a05c51a0",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "#40: Hacker attack, Saxony-Anhalt election, Volksbad fiasco, Bureaucracy",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/40-hacker-attack-saxony-anhalt-election",
+      "closing_soon": false,
+      "why_candidate": "Maurice likes the Technikmuseum and Andrew enjoyed a Wuhlheide concert",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "rss-wildcards-105d93642b",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "#520: Cyberattack, homeless voters, fewer BER passengers",
+      "venue": "20% Berlin",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.20percent.berlin/p/520-cyberattack-homeless-voters-fewer",
+      "closing_soon": false,
+      "why_candidate": "Will Berlin do something about the growing hard drug problem?",
+      "ingestion_source": "rss",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "wp-wildcards-4dc8113268",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Female Rage, Evil Clowns and Cannibalism: Sophia Süßmilch Lets Rip",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/stage/theatre-sophia-suessmilch-i-could-eat-you-up-something-terrible-will-happen-hau1/",
+      "closing_soon": false,
+      "why_candidate": "The artist will debut of ‘Something Terrible Will Happen: The Cannibal Woman’ at HAU1 for Berlin Art Week.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "wp-wildcards-c232e7d67f",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Lights, Camera, Action: Berlin’s Unmissable Film Events this September",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/events/film-events-berlin/",
+      "closing_soon": false,
+      "why_candidate": "From film festivals to retrospectives, these are the top events happening in the world of cinema in the city.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "wp-wildcards-ad404acb90",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Brett Dean Conducts Brett Dean – Berliner Philharmoniker Sept 10 | 11 | 12, 2026",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/culture/brett-dean-conducts-brett-dean-berliner-philharmoniker-sept-10-11-12-2026/",
+      "closing_soon": false,
+      "why_candidate": "What a career! Brett Dean spent 14 years as a violist with Berliner Philharmoniker […]",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "wp-wildcards-74a8a4e036",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Music to Your Ears: the Best Upcoming Live Music in Berlin",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/best-live-music-berlin/",
+      "closing_soon": false,
+      "why_candidate": "From classical to punk, electronic to jazz, we’ve put together a list of the best upcoming live shows in the area.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "wp-wildcards-9e52c20842",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Hackers Who Infiltrated the State Network Demand Two Million Euros",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/english-news-berlin/hackers-who-infiltrated-the-state-network-demand-two-million-euros/",
+      "closing_soon": false,
+      "why_candidate": "Hackers claim to have stolen millions of files, including confidential documents, passwords and financial data.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "wp-wildcards-401ecbae6a",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "What’s On This Week: Our Daily Tips",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/events/whats-on-this-week-daily-tips-berlin/",
+      "closing_soon": false,
+      "why_candidate": "A curated selection of the best things to do daily in Berlin.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "wp-wildcards-e156cd6655",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Do Better, Berlin",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/pansy-on-racism-in-germany-csd-attack/",
+      "closing_soon": false,
+      "why_candidate": "Pansy on the German phenomenon of responding to homophobia with racism.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "wp-wildcards-63a28cbd4f",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Hitler’s Final Football Match",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/politics/hitler-football-match-berlin-poststadion-olympics-german-defeat-history/",
+      "closing_soon": false,
+      "why_candidate": "After Germany lost to Norway in August 1936, Hitler stormed out of Berlin’s Poststadion never to return to a football match again.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "wp-wildcards-68994c041c",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Gen Z and the Uncanny Valley: Why Are Internet-Born Films Booming?",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/film/internet-born-film-success-editors-column/",
+      "closing_soon": false,
+      "why_candidate": "Film editor Florence Scott-Anderton discusses the box office hits that had humble beginnings.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "wp-wildcards-13bdcfad71",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "What to do this month: Our September Events Guide",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/berlin/what-do-this-sep-our-events-guide-2-2-2-2-2/",
+      "closing_soon": false,
+      "why_candidate": "In Berlin and don’t know what to do this Sep? Don’t worry. These are our picks of the best events happening this month.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "wp-wildcards-35511e9851",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Words on the Street: the Best Literary Events in Berlin",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/books/berlin-literary-events-readings-writing/",
+      "closing_soon": false,
+      "why_candidate": "Curious about readings, writing events, book club meetings and the like? Check out our guide to see what’s going on in Berlin through September.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "wp-wildcards-00fc6347ba",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Wind Power Fraudster Escapes From Berlin Prison",
+      "venue": "The Berliner",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.the-berliner.com/english-news-berlin/wind-power-fraudster-escapes-from-berlin-prison/",
+      "closing_soon": false,
+      "why_candidate": "Convicted fraudster Hendrick Holt is on the run after failing to return from authorised leave.",
+      "ingestion_source": "wordpress",
+      "verified": false,
+      "url_live": false,
+      "url_verify_notes": "reachable but shallow URL (homepage/listing)"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-04127c77c7",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Heinz Mack Spectrum Mundi",
+      "venue": "Matthäikirchplatz 10785 Berlin",
+      "dates": "02 September 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45274/spectrum-mundi",
+      "closing_soon": false,
+      "why_candidate": "Heinz Mack Spectrum Mundi",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-3b79aa24c4",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Wallpaper. Mitgliederausstellung",
+      "venue": "Markgrafenstr. 67 10969 Berlin",
+      "dates": "03 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45265/wallpaper-mitgliederausstellung",
+      "closing_soon": false,
+      "why_candidate": "Wallpaper. Mitgliederausstellung",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-7f689a51ca",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Murat Önen trennt euch",
+      "venue": "Hardenbergstr. 9A\\, 3. Hof 10623 Berlin",
+      "dates": "03 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45171/trennt-euch",
+      "closing_soon": false,
+      "why_candidate": "Murat Önen trennt euch",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-14ca0b9a88",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Ground Noise",
+      "venue": "Wilhemsaue 1 10715 Berlin",
+      "dates": "03 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44975/ground-noise",
+      "closing_soon": false,
+      "why_candidate": "Ground Noise",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-09b5b32cd4",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Courage: Schwestern im Geiste",
+      "venue": "Kastanienallee 7–9 10435 Berlin",
+      "dates": "03 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45824/courage-schwestern-im-geiste",
+      "closing_soon": false,
+      "why_candidate": "Courage: Schwestern im Geiste",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-f873273f1e",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "The Opposite of Now",
+      "venue": "Lindenstr. 9–14 10969 Berlin",
+      "dates": "03 September 2026",
+      "times": "18:30",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45823/the-opposite-of-now",
+      "closing_soon": false,
+      "why_candidate": "The Opposite of Now",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-27187b9235",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Volkswagen Group Art4All: Ruin & Rausch mit dem Moka Efti Oktett",
+      "venue": "Potsdamer Str. 50 10785 Berlin",
+      "dates": "03 September 2026",
+      "times": "18:30",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45809/volkswagen-group-art4all-ruin-rausch-mit-dem-moka-efti-oktett",
+      "closing_soon": false,
+      "why_candidate": "Volkswagen Group Art4All: Ruin & Rausch mit dem Moka Efti Oktett",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-f77b75529d",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Fehras Publishing Practices: Fayrouz: On musical production in 60s Lebanon",
+      "venue": "Auguststr. 69 10117 Berlin",
+      "dates": "03 September 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45826/fehras-publishing-practices-fayrouz-on-musical-production-in-60s-lebanon",
+      "closing_soon": false,
+      "why_candidate": "Fehras Publishing Practices: Fayrouz: On musical production in 60s Lebanon",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-dc438ec175",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Food Performance by HakkaMoon & Dj Set by Masha Qrella",
+      "venue": "Kastanienallee 7–9 10435 Berlin",
+      "dates": "03 September 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45825/food-performance-by-hakkamoon-dj-set-by-masha-qrella",
+      "closing_soon": false,
+      "why_candidate": "Food Performance by HakkaMoon & Dj Set by Masha Qrella",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-3a2751e9cf",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Sound Base Berlin. Praed: Dancing in Echtzeit",
+      "venue": "John-Foster-Dulles-Allee 10 10557 Berlin",
+      "dates": "03 September 2026",
+      "times": "19:30",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45714/sound-base-berlin-praed-dancing-in-echtzeit",
+      "closing_soon": false,
+      "why_candidate": "Sound Base Berlin. Praed: Dancing in Echtzeit",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-d7ad9cf4f5",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "„HAUS AUS GLAS - Vom Bauen und Niederreißen“ Ein performatives Porträt des amerikanischen Architekten Philip Johnson",
+      "venue": "Oberwallstr. 32 10117 Berlin",
+      "dates": "03 September 2026",
+      "times": "20:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45281/haus-aus-glas-vom-bauen-und-niederreissen-ein-performatives-portrat-des-amerikanischen-architekten-philip-johnson",
+      "closing_soon": false,
+      "why_candidate": "„HAUS AUS GLAS - Vom Bauen und Niederreißen“ Ein performatives Porträt des amerikanischen Architekten Philip Johnson",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-b5c8db8ae8",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Mascha Naumann Radical Tenderness",
+      "venue": "Schweidnitzer Str. 17 10709 Berlin",
+      "dates": "04 September 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45095/radical-tenderness",
+      "closing_soon": false,
+      "why_candidate": "Mascha Naumann Radical Tenderness",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-b2ac434cb6",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Follow the White Rabbit",
+      "venue": "Corneliusstr. 3 10787 Berlin",
+      "dates": "04 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45186/follow-the-white-rabbit",
+      "closing_soon": false,
+      "why_candidate": "Follow the White Rabbit",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-1baeb38c3d",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Grace Weaver Parataxis",
+      "venue": "Bleibtreustr. 45 10623 Berlin",
+      "dates": "04 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45124/parataxis",
+      "closing_soon": false,
+      "why_candidate": "Grace Weaver Parataxis",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-b9b38953b3",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Noémi Barbaglia\\, Noi Fuhrer\\, Rosa Lüders",
+      "venue": "Mulackstr. 14 10119 Berlin",
+      "dates": "04 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45102/n-a",
+      "closing_soon": false,
+      "why_candidate": "Noémi Barbaglia\\, Noi Fuhrer\\, Rosa Lüders",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-49fe2ef4a7",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Grace Weaver Parataxis",
+      "venue": "Lindenstr. 34 10969 Berlin",
+      "dates": "04 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45213/parataxis",
+      "closing_soon": false,
+      "why_candidate": "Grace Weaver Parataxis",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-1ac10c6906",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Dominik Eggermann Tödlicher Impressionismus",
+      "venue": "Mansteinstr. 5 10783 Berlin",
+      "dates": "04 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45064/todlicher-impressionismus",
+      "closing_soon": false,
+      "why_candidate": "Dominik Eggermann Tödlicher Impressionismus",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-4b13c2cf33",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Ulrike Herrmann Money as a Weapon",
+      "venue": "Auguststr. 69 10117 Berlin",
+      "dates": "04 September 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45828/money-as-a-weapon",
+      "closing_soon": false,
+      "why_candidate": "Ulrike Herrmann Money as a Weapon",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-d31dbba0f2",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Ronald de Bloeme re:kommunikation",
+      "venue": "Bülowstr. 52 10783 Berlin",
+      "dates": "04 September 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45167/re-kommunikation",
+      "closing_soon": false,
+      "why_candidate": "Ronald de Bloeme re:kommunikation",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-b1a07c2a3f",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "bus063: Enrico Malatesta / No Brainer\\, a video feed",
+      "venue": "Oberseestr. 60 13053 Berlin",
+      "dates": "04 September 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45740/bus063-enrico-malatesta-no-brainer-a-video-feed",
+      "closing_soon": false,
+      "why_candidate": "bus063: Enrico Malatesta / No Brainer\\, a video feed",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-c7a4a97b40",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Countering Platform Capitalism: Artistic and Activist Responses. Panel Discussion and Screening with Jamie Anderson and Nitesh Kumar (Dingzapp)\\, Joanna Bronowicka\\, Alicja Rogalska\\, and Tytus Szabelski-Rozniak.",
+      "venue": "Turmstr. 75 10551 Berlin",
+      "dates": "05 September 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45681/countering-platform-capitalism-artistic-and-activist-responses-panel-discussion-and-screening-with-jamie-anderson-and-nitesh-kumar-dingzapp-joanna-bronowicka-alicja-rogalska-and-tytus-szabelski-rozniak",
+      "closing_soon": false,
+      "why_candidate": "Countering Platform Capitalism: Artistic and Activist Responses. Panel Discussion and Screening with Jamie Anderson and Nitesh Kumar (Dingzapp)\\, Joanna Bronowicka\\, Alicja Rogalska\\, and Tytus Szabelski-Rozniak.",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-8aecc8372e",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Formen der Abweichung",
+      "venue": "Karl-Marx-Str. 95 12043 Berlin",
+      "dates": "05 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45737/formen-der-abweichung",
+      "closing_soon": false,
+      "why_candidate": "Formen der Abweichung",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-b223cbd15a",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Azade Köker Stolon",
+      "venue": "Goethestr. 82 10623 Berlin",
+      "dates": "05 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45497/stolon",
+      "closing_soon": false,
+      "why_candidate": "Azade Köker Stolon",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-e14c0ce784",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Art Breaktfast",
+      "venue": "Max-Planck-Str. 17\\n\\n\\n\\n 14473 Berlin",
+      "dates": "06 September 2026",
+      "times": "10:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45715/art-breaktfast",
+      "closing_soon": false,
+      "why_candidate": "Art Breaktfast",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-738cae8c83",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Hardcore",
+      "venue": "FAHRBEREITSCHAFT\\, Herzbergstr. 40–43 10365 Berlin",
+      "dates": "06 September 2026",
+      "times": "14:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45323/hardcore",
+      "closing_soon": false,
+      "why_candidate": "Hardcore",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-54f68980d3",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Counterplay: Collective Card Game Development",
+      "venue": "Turmstr. 75 10551 Berlin",
+      "dates": "06 September 2026",
+      "times": "15:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45682/counterplay-collective-card-game-development",
+      "closing_soon": false,
+      "why_candidate": "Counterplay: Collective Card Game Development",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-5a07e534c7",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "R E C O R D I N G T H E G A Z E",
+      "venue": "Elisabethkirchstr. 16 Berlin",
+      "dates": "06 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45662/r-e-c-o-r-d-i-n-g-t-h-e-g-a-z-e",
+      "closing_soon": false,
+      "why_candidate": "R E C O R D I N G T H E G A Z E",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-2188083835",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Erika Landström DESINTEGRATION",
+      "venue": "Oberseestr. 60 13053 Berlin",
+      "dates": "06 September 2026",
+      "times": "19:30",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45741/desintegration",
+      "closing_soon": false,
+      "why_candidate": "Erika Landström DESINTEGRATION",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "in_week",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-c099b6aaa0",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Kreuzberg: Kunst und Migration seit 1960",
+      "venue": "Niederkirchnerstr. 7 10963 Berlin",
+      "dates": "09 September 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45777/kreuzberg-kunst-und-migration-seit-1960",
+      "closing_soon": false,
+      "why_candidate": "Kreuzberg: Kunst und Migration seit 1960",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-d00ccee66e",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "In touch – Goldrausch 2026",
+      "venue": "nGbK am Alex\\, Karl-Liebknecht-Str. 11/13 10178 Berlin",
+      "dates": "09 September 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45766/in-touch-goldrausch-2026",
+      "closing_soon": false,
+      "why_candidate": "In touch – Goldrausch 2026",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-a434efdaef",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "R E C O R D I N G T H E G A Z E",
+      "venue": "Elisabethkirchstr. 16 Berlin",
+      "dates": "09 September 2026",
+      "times": "16:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45364/r-e-c-o-r-d-i-n-g-t-h-e-g-a-z-e",
+      "closing_soon": false,
+      "why_candidate": "R E C O R D I N G T H E G A Z E",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-a01141a35e",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Hannah Hallermann SEWING",
+      "venue": "Marburger Str. 3 10789 Berlin",
+      "dates": "09 September 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45290/sewing",
+      "closing_soon": false,
+      "why_candidate": "Hannah Hallermann SEWING",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-64641f0871",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Trisha Brown: Walking on the Wall (1971)",
+      "venue": "Potsdamer Str. 50 10785 Berlin",
+      "dates": "09 September 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45811/trisha-brown-walking-on-the-wall-1971",
+      "closing_soon": false,
+      "why_candidate": "Trisha Brown: Walking on the Wall (1971)",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-46a3f429c5",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "KDV Performance Group / Kianí Del Valle: INSTRUCCIONES PARA EXISTIR (INSTRUCTIONS FOR EXISTING)",
+      "venue": "Potsdamer Str. 50 10785 Berlin",
+      "dates": "09 September 2026",
+      "times": "17:30",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45812/kdv-performance-group-kiani-del-valle-instrucciones-para-existir-instructions-for-existing",
+      "closing_soon": false,
+      "why_candidate": "KDV Performance Group / Kianí Del Valle: INSTRUCCIONES PARA EXISTIR (INSTRUCTIONS FOR EXISTING)",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-86ea182909",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "correct me if I’m foreign",
+      "venue": "An der Industriebahn 12-16\\, Building 404\\, Top Floor 13088 Berlin",
+      "dates": "09 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/44774/correct-me-if-i-m-foreign",
+      "closing_soon": false,
+      "why_candidate": "correct me if I’m foreign",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-73e2a81250",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Alicja und Bożena Wahl Tensions",
+      "venue": "Kaiser-Wilhelm-Gedächtniskirche\\, Foyergebäude\\, Breitscheidplatz 10789 Berlin",
+      "dates": "09 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45253/tensions",
+      "closing_soon": false,
+      "why_candidate": "Alicja und Bożena Wahl Tensions",
+      "ingestion_source": "index_berlin_ics",
+      "programme_feed": true,
+      "verified": true,
+      "timing_bucket": "advance",
+      "primary_section": "wildcards",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-11dce706ce",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The Lure of the Image . Wie Bilder im Netz verlocken",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until October 31, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43777/the-lure-of-the-image-wie-bilder-im-netz-verlocken",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until October 31, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-89d31ecc14",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Walter Schels . 16° Fische . Retrospektive",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until October 31, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/43776/walter-schels-16-fische-retrospektive",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until October 31, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-79a6890f23",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Mila Zhluktenko & Daniel Asadi Faezi. In the IBB Video Space",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until October 31, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44562/mila-zhluktenko-daniel-asadi-faezi-in-the-ibb-video-space",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until October 31, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-83c597eae4",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Nach Bild (After Image)",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until October 31, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44807/nach-bild-after-image",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until October 31, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-1380fe4302",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Open House",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until October 31, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/45009/open-house",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until October 31, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-2f9a992552",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Der Titel kommt zuletzt",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until October 31, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/45238/der-titel-kommt-zuletzt",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until October 31, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-cca425bc44",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "For further information please contact the gallery.",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until October 31, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/45368/for-further-information-please-contact-the-gallery",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until October 31, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-cebdfb59c8",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Josef Kaiser. Bauen für die DDR",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until October 31, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44559/josef-kaiser-bauen-fur-die-ddr",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until October 31, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-657b3032df",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Die Augen weit offen",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until October 31, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/45331/die-augen-weit-offen",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until October 31, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-8c9d632bc7",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Unzucht – Kiss the Devil’s Arse",
+      "venue": "Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart",
+      "dates": "until October 31, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44505/unzucht-kiss-the-devil-s-arse",
+      "closing_soon": false,
+      "why_candidate": "INDEX Berlin listing (recently) — until October 31, 2026",
+      "ingestion_source": "index_berlin_html",
+      "programme_feed": true,
+      "verified": true,
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-a915084870",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Film concert: Midori Hirano x The Juniper Tree (1990) – Heroines of Sound Festival / Heroines Edition # I",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/midori-hirano-x-the-juniper-tree-1990-im-rahmen-von-heroines-of-sound-festival-heroines-edition-i?tx_news_pi1%5Bday%5D=2&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=9a1ff49457c71afd345fb29fb7a22211",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-0aef751072",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "hub pres. Doorman + Franco Franco",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/hub-pres-doorman-franco-franco?tx_news_pi1%5Bday%5D=3&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=c6ed74f00b12a831b427542354c65d40",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-06e57eee54",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Who Shapes Culture in the Age of AI?",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "03:17",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/wer-gestaltet-kultur-im-zeitalter-generativer-ki?tx_news_pi1%5Bday%5D=6&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=40a6ba54363aedd33f6a4f09e414e9fd",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-1be21aae6f",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "ZEIT WISSEN Congress 2026: Courage for Sustainability",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "12:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/zeit-wissen-kongress-2026-mut-zur-nachhaltigkeit-zukunftsichergestalten?tx_news_pi1%5Bday%5D=9&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=a49ea04ffb7bfc0917a28664f08a0aa4",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-f10033105e",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Katokye",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/katokye?tx_news_pi1%5Bday%5D=10&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=25a19d35ea995ac5c08085791c21b6f5",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2025,
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-c5f9f0644f",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "15 YEARS zweikommasieben: Anna Homler + Steven Warwick & Jon Davies + zweikommasieben DJs",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/15-years-zweikommasieben-anna-homler-steven-warwick-zweikommasieben-djs?tx_news_pi1%5Bday%5D=11&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=b16886b7e1d00bd92d7f9ed70eaf6c56",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-40bd118129",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Transgressive Memory Festival: Resynthesising the Traditional",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "07:30",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/transgressive-memory-festival-resynthesising-the-traditional?tx_news_pi1%5Bday%5D=12&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=c15e233becfde6837f8828a6907acefa",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-4963b84287",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Transgressive Memory Festival",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "11:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/transgressive-memory-festival?tx_news_pi1%5Bday%5D=12&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=c15e233becfde6837f8828a6907acefa",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-32d24d2514",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Historische Führungen am Tag des offenen Denkmals",
+      "venue": "Silent Green",
+      "dates": "",
+      "times": "10:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/historische-fuehrungen-am-tag-des-offenen-denkmals-4?tx_news_pi1%5Bday%5D=12&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=c15e233becfde6837f8828a6907acefa",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-555679ec4e",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Historische Führungen am Tag des offenen Denkmals",
+      "venue": "Silent Green",
+      "dates": "",
+      "times": "10:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/historische-fuehrungen-am-tag-des-offenen-denkmals-5?tx_news_pi1%5Bday%5D=13&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=b5324d961ba67bec97319c7c03c3eca4",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-a0a152ec37",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Book premiere GAVDOS with Tomer Dotan-Dreyfus",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "07:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/buchpremiere-gavdos-mit-tomer-dotan-dreyfus?tx_news_pi1%5Bday%5D=14&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=ab4756ac1248a03f1df5209d20f8195b",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-8bb2dd9865",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Curbside Lambsear",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/curbside-lambsear?tx_news_pi1%5Bday%5D=15&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=1ec94b69661e5443b06e48b55e14459c",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-31a198255d",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Burnt Friedman pres. Secret Rhythms",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/burnt-friedman-pres-secret-rhythms?tx_news_pi1%5Bday%5D=19&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=b93a718ca3cdc7b0db6800406f7ad376",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-c8da44e1be",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Anja Huwe / Xmal Deutschland + Das Kinn – Sonic Morgue",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/anja-huwe-xmal-deutschland-sonic-morgue?tx_news_pi1%5Bday%5D=20&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=0b9905c25b1e7bca5be96b70fa1cfdfe",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-3778485fb5",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Carla dal Forno + Nein Rodere",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/carla-dal-forno?tx_news_pi1%5Bday%5D=22&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=21a0a4183b42651aedde5856c12f9760",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-5d10bf6bfa",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Psychic Liberation Night: Flora Yin Wong + Afraidofmessages",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/psychic-liberation-night-flora-yin-wong-afraid-of-messages?tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=356b30f11b408e569779d20fa383b841",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-89f892c7a2",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Ilona Hartmann: Junk",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/ilona-hartmann-junk?tx_news_pi1%5Bday%5D=25&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=0595466f6cc850752b67c10c23ae8367",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-a72f84e185",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Current 93 + Reg Meuross – Sonic Morgue – sold out",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/current-93?tx_news_pi1%5Bday%5D=26&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=8f9afc5e03933edc7da4d934494440b5",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-c858a6cff9",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Current 93 + Reg Meuross – Sonic Morgue – Additional show",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/current-93-sonic-morgue-zusatzshow?tx_news_pi1%5Bday%5D=27&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=8763fc2cdb58336b85fb475dff74207c",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-82813fd9b6",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Zia Conference »Visible Women in Science«",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "01:15",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/zia-kongress-visible-women-in-science?tx_news_pi1%5Bday%5D=29&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=3745a2f37be785ebe183ff4634114e48",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-cdc13a326d",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Live-Podcast: Ebola – You Can’t Build Trust Like a Tent",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "07:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/live-podcast-ebola-vertrauen-baut-man-nicht-auf-wie-ein-zelt?tx_news_pi1%5Bday%5D=30&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=98491ee97dc36d56ed061ecef2e18e90",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2025,
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-8c49da507e",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "scribble.mp3 pres. Felisha Ledesma & Angelo Harmsworth + Francesco Corvi & Nocturnerror",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/scribblemp3-pres-felisha-ledesma-angelo-harmsworth-francesco-corvi-nocturnerror?tx_news_pi1%5Bday%5D=1&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=74226c2a04b07d3cd6150876c904e6d4",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-9f4fe55758",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Ensemble Nist-Nah + Shouji Hara",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/ensemble-nist-nah?tx_news_pi1%5Bday%5D=7&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=2d98e8863bb0f5bb3ddd3d6b130bb637",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-9d93f53c81",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Ryoko Ono + Hanno Leichtmann + Sergeant",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/ryoko-ono-hanno-leichtmann?tx_news_pi1%5Bday%5D=13&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=9bd6d948aa1eaab539b8475ef0ef3f1c",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-64f7b32def",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Alpha Maid",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/alpha-maid?tx_news_pi1%5Bday%5D=14&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=1ae0a27da0bf240222b075c344e69ce5",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2025,
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-a1f76352c7",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Andriy K. & Tharim Cornelisse pres. DUST",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/andryi-k-tharim-cornelisse-pres-dust?tx_news_pi1%5Bday%5D=17&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=37ea0452debba8d6cdcb2b978b2bc0a7",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-07cf831d57",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Psychic Liberation Night: Andrea Pensado + HMOT + bela",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/psychic-liberation-night-hmot-bela-andrea-pensado?tx_news_pi1%5Bday%5D=20&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=0eed3847d108ce3fcbe1bb46baa0ee23",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-bcc9d08a16",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Acephalic Headspace pres. ladr ache + Lésions Graves Sextet plays Julius Eastman",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/acephalic-headspace-pres-ladr-ache-lesions-graves-sextet-plays-julius-eastman?tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=a14cede126b8d95ed4bf4ad3b5f099b5",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-3398e8ecf0",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "HALF LIGHT – Abul Mogard, Marja de Sanctis, Rafael Anton Irisarri, Concepción Huerta",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/half-light-abul-mogard-marja-de-sanctis-rafael-anton-irisarri-concepcion-huerta?tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=a14cede126b8d95ed4bf4ad3b5f099b5",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    },
+    {
+      "id": "silent-green-html-music-f638144db4",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Kjartan Sveinsson + Gyda Valtýsdóttir + Bert Cools + Indrė Jurgelevičiūtė",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/kjartan-sveinsson-gyda-valtysdottir-bert-cools-indre-jurgeleviciute?tx_news_pi1%5Bday%5D=24&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=22baf019a8e750f721afaa9d25a6663a",
+      "closing_soon": false,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "programme_feed": true,
+      "verified": false,
+      "timing_bucket": "unknown",
+      "page_event_years": [
+        2026
+      ],
+      "url_live": true,
+      "url_verify_notes": "ok"
+    }
+  ],
+  "gaps": [
+    "film: 1 more candidate needed to reach target of 5; only 4 usable in-window items documented in the research notes.",
+    "performing_arts: 3 more candidates needed to reach target of 4; only 1 qualifying in-window event documented in the research notes.",
+    "wildcards: 2 candidates needed; none documented in the research notes.",
+    "advance_radar: 1 candidate desirable if relevant; none documented in the research notes."
+  ],
+  "section_counts": {
+    "wildcards": 45,
+    "exhibitions": 21,
+    "advance_radar": 8,
+    "music": 32,
+    "performing_arts": 1,
+    "film": 4
+  },
+  "programme_counts": {
+    "wildcards": 40,
+    "advance_radar": 8,
+    "exhibitions": 10,
+    "music": 30
+  },
+  "press_counts": {
+    "exhibitions": 9,
+    "wildcards": 17
+  },
+  "calendar_counts": {
+    "wildcards": 40,
+    "advance_radar": 8,
+    "exhibitions": 10,
+    "music": 30
+  },
+  "rss_counts": {
+    "wildcards": 40,
+    "advance_radar": 8,
+    "exhibitions": 10,
+    "music": 30
+  },
+  "openai_targets": {
+    "wildcards": 2,
+    "exhibitions": 2,
+    "advance_radar": 1,
+    "music": 2,
+    "performing_arts": 4,
+    "film": 5
+  },
+  "calendar_merged": 102,
+  "music_supplement": {},
+  "search_notes": "Phase 1 web_search_calls=14. Programme counts: {'wildcards': 40, 'advance_radar': 8, 'exhibitions': 10, 'music': 30}. Press counts: {'exhibitions': 9, 'wildcards': 17}. OpenAI targets: {'wildcards': 2, 'exhibitions': 2, 'advance_radar': 1, 'music': 2, 'performing_arts': 4, 'film': 5}. Calendar merged: 102. Combined strictly from Phase 1 notes only; no new search performed. Film section includes 3 ACUDkino items with URLs copied exactly from the notes despite detail-page fetch failures; notes describe them as listing-verified/provisional. No wildcard or advance-radar events were present in the supplied notes.",
+  "url_verified_at": "2026-09-01T08:40:28.450425+00:00",
+  "url_verify_stats": {
+    "checked": 111,
+    "live": 102,
+    "dead": 9,
+    "shallow": 9,
+    "archive": 0,
+    "verified_after": 49,
+    "skipped": 0
+  }
+}
