@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-02
+
+- **spain-un-1-5-overshoot-inevitable** — eldiario.es: a UN report says crossing 1.5°C is now inevitable, while still claiming temperatures can be brought back if emissions fall (section: spain)
+- **spain-ceuta-teens-walking-out** — EL PAÍS: adolescents are leaving the Ceuta–Morocco border on their own after a month in the enclave (section: spain)
+- **spain-sadi-de-buen-malaria-franco-purges** — eldiario.es: the 90th anniversary of epidemiologist Sadí de Buen's execution, with a CSIC archive of about 500 scientist purges (section: spain)
+- **germany-russia-leipzig-drone-attribution** — EL PAÍS: Germany has named Russia for the Leipzig bomb-drone attack; explosives found at a Jänschwalde substation (section: germany)
+- **germany-jungheinrich-100m-startup-fund** — Handelsblatt: forklift-maker Jungheinrich is launching a €100 million venture fund via Uplift Ventures (section: germany)
+- **germany-afd-ein-prozent-poll-observers** — Handelsblatt: the AfD and Ein Prozent are sending observers into polling stations and the count (section: germany)
+- **berlin-russian-house-friedrichstrasse-closed** — Berliner Zeitung: the federal government has cancelled the Russisches Haus contract after Leipzig (section: berlin)
+- **berlin-florida-eis-magdeburg-expansion** — Tagesspiegel: Florida Eis is leaving a too-small Spandau factory for Magdeburg (section: berlin)
+- **berlin-union-lina-hausicke** — rbb24: Union's women have signed Werder captain Lina Hausicke (section: berlin)
+- **world-china-factory-robots-not-humanoids** — Financial Times: China's robot advantage is industrial arms and supply chains, not humanoid demos (section: world)
+- **world-india-climate-real-estate-repricing** — Bloomberg: flood-protection spend is becoming a measure of Indian property value (section: world)
+- **world-carney-us-trade-war-serious** — The Guardian: Mark Carney told Washington to start being serious ahead of Canadian tariff retaliation (section: world)
+
 ## 2026-09-01
 
 - **spain-cgpj-conservative-bench-lock** — eldiario.es: two years of CGPJ appointments have given the conservative judges' association 37% of senior posts, including a coming Supreme Court aforados slate (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-ukraine-war-global-grain-risk** — Financial Times: attacks on agricultural export routes in the Ukraine war are raising the risk of a wider global grain crisis (section: world)
 - **world-thailand-hosts-myanmar-junta-chief** — Nikkei Asia: Thailand hosted Myanmar's military chief, signalling deeper bilateral ties and a more normalised regional relationship with the junta (section: world)
 - **world-us-consumer-brands-private-label-squeeze** — Financial Times: established US household brands are losing ground to private labels and smaller challengers (section: world)
-
-## 2026-08-18
-
-- **spain-ceuta-reception-sites-pact-1500** — EL PAÍS: Madrid and Ceuta agreed on four sites for 1,500 reception places after the enclave's migration surge (section: spain)
-- **spain-villarejo-bbva-judge-suspension** — eldiario.es: Spain's judicial council is moving to suspend judge Eduardo Ortega Martín before his Villarejo-BBVA trial (section: spain)
-- **spain-infernal-nights-health-impact** — eldiario.es: rising tropical and torrid nights are turning heat into a round-the-clock health problem (section: spain)
-- **germany-drone-defence-gaps-dobrindt** — Tagesspiegel: Germany's anti-drone plans still leave critical sites poorly protected after the Leipzig incident (section: germany)
-- **germany-vw-diess-bulli-bumerang** — Handelsblatt: Volkswagen is still paying for a Herbert Diess-era bet that may hit a Lower Saxony plant (section: germany)
-- **germany-standing-sections-national-team-return** — Tagesspiegel: the DFB is reintroducing standing-room tickets for internationals after more than 25 years (section: germany)
-- **berlin-landesnetz-cyberattack-data-exfiltration** — rbb24: a cyberattack on Berlin's state network forced two senate administrations offline and leaked sensitive data (section: berlin)
-- **berlin-pankow-homeless-voting-pilot** — rbb24: Pankow is piloting election-office support for homeless Berliners ahead of the 2026 vote (section: berlin)
-- **berlin-reed-beds-waterways-heat-adaptation** — rbb24: reed-bed renaturation is being pitched as climate infrastructure for Berlin waterways (section: berlin)
-- **world-google-pixel-china-exit-2027** — Nikkei Asia: Google plans to stop making Pixel products in China in 2027 (section: world)
-- **world-airlines-fares-jet-fuel-stand-off** — Financial Times: airlines are resisting fare cuts even as jet-fuel costs ease after the Iran conflict shock (section: world)
-- **world-zimbabwe-lake-kariba-death-toll-68** — The Guardian: more bodies recovered after the Lake Kariba ferry disaster took the death toll to 68 (section: world)

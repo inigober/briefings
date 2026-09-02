@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-02
+
+- [USS Abraham Lincoln arrives at Thai port after gruelling 270 days at sea](https://www.theguardian.com/world/2026/sep/02/uss-abraham-lincoln-arrives-thailand-after-270-days-at-sea) — The Guardian
+- [India, X in censorship row; curbs 'every 68 seconds,' says activist](https://asia.nikkei.com/business/technology/india-x-in-censorship-row-curbs-every-68-seconds-says-activist) — Nikkei Asia
+- [Russia secretly helping Iran develop supersonic cruise missiles](https://www.ft.com/content/6cf367bc-95b0-4f1f-b149-a25684adefc3?syn-25a6b1a6=1) — Financial Times
+- [The Backlash Against Polyester Has Gone Too Far](https://www.theatlantic.com/health/2026/09/natural-fibers-synthetic-polyester-nylon/688488/?utm_source=feed) — The Atlantic
+
 ## 2026-09-01
 
 - [Wall Street banks push Big Law to cut fees because of AI](https://www.ft.com/content/5240a6ac-b2e8-4897-a0a4-cbc7fc283bc9?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Climate and AI to loom large in von der Leyen’s State of the Union](https://www.politico.eu/article/climate-migration-ai-ursula-von-der-leyen-state-of-the-union-speech/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - ['Dairyland' Wisconsin hopes to ride protein boom into Asia](https://asia.nikkei.com/business/food-beverage/dairyland-wisconsin-hopes-to-ride-protein-boom-into-asia) — Nikkei Asia
 - [Did AI write this? It’s getting harder to tell](https://www.ft.com/content/f100c90b-c138-4125-aaa7-853b77690db9?syn-25a6b1a6=1) — Financial Times
-
-## 2026-08-28
-
-- [China’s Success Is Forcing a U.S. AI Rethink](https://foreignpolicy.com/2026/08/27/china-ai-technology-trump-silicon-valley-open-weights/) — Foreign Policy
-- [Zero-interest convertible bonds set for record year](https://www.ft.com/content/8e93c159-2c02-444a-9f22-dcda14bc451f?syn-25a6b1a6=1) — Financial Times
-- [A Turning Point in AI Writing](https://www.theatlantic.com/technology/2026/08/wall-street-journal-ai-op-ed/688433/?utm_source=feed) — The Atlantic
-- [What could Meta’s US settlement mean around the world – and what now for other claims against firm?](https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

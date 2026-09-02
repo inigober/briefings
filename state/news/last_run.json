@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-01",
-  "briefing_date": "2026-09-01",
-  "inbox_date": "2026-09-01",
+  "date": "2026-09-02",
+  "briefing_date": "2026-09-02",
+  "inbox_date": "2026-09-02",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-01.md",
-  "inbox_path": "inbox/news/2026-09-01-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-02.md",
+  "inbox_path": "inbox/news/2026-09-02-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Pedro Sánchez se queda solo junto a Marruecos",
+      "headline": "El PP convierte las movilizaciones por Ceuta en un ataque al Gobierno con escaso apoyo de alcaldes del PSOE",
       "section": "spain",
-      "reason": "one_theme / not_material: analysis recap of the same Ceuta-Morocco track; kept places-doubled and prosecutor as the material beats"
+      "reason": "one_theme: Ceuta street politics; kept teens walking out as the material on-the-ground beat; protest day parked in Other Headlines"
     },
     {
-      "headline": "Sánchez intenta bajar la presión prometiendo una visita del Rey a Ceuta cuando se supere la crisis",
+      "headline": "Feijóo y Abascal unen fuerzas en una protesta que esperan masiva por la crisis de Ceuta",
       "section": "spain",
-      "reason": "one_theme: royal-visit gesture parked in Other Headlines; places lock-in and prosecutor data were stronger"
+      "reason": "one_theme: same Madrid protest beat"
     },
     {
-      "headline": "Marruecos observa como una provocación una visita real a Ceuta en medio de su campaña electoral",
+      "headline": "El rey como ariete contra Sánchez",
       "section": "spain",
-      "reason": "one_theme: same royal-visit beat; kept as Other Headlines"
+      "reason": "one_theme / not_material: royal-visit wedge already in 1 September Other Headlines"
     },
     {
-      "headline": "El Gobierno inyectará 21,5 millones para reforzar los servicios públicos y las desalinizadoras de Ceuta y Melilla",
+      "headline": "El falso “efecto llamada”: la paradoja de las críticas de Marruecos y países europeos a España por la regularización de migrantes",
       "section": "spain",
-      "reason": "not_material: incremental Tuesday cheque beside the 30 August €165m package; kept as Other Headlines"
+      "reason": "avoid_unless_material: migration regularization"
     },
     {
-      "headline": "KI: Anthropic schließt milliardenschweren Deal mit Nvidia-Partner",
+      "headline": "Estados Unidos vuelve a bombardear Irán, que responde con ataques contra sus efectivos en Jordania",
+      "section": "spain",
+      "reason": "geographic_misfit: US–Iran fire exchange, not Spain; incremental to 31 August Hormuz; kept as Other Headlines"
+    },
+    {
+      "headline": "Morning Briefing: Europa leistet sich noch immer zu viele Putinversteher",
       "section": "germany",
-      "reason": "geographic_misfit: Texas/Nvidia compute deal, not a Germany development; kept as Other Headlines"
+      "reason": "one_theme: same Leipzig/Russia hybrid-war track as the EL PAÍS attribution"
     },
     {
-      "headline": "30 Jahre nach seinem Tod: Angeklagter nach Mord an Rapper Tupac Shakur schuldig gesprochen",
+      "headline": "Kommentar: Berlins Antwort auf die Drohnenattacke kann nur der Anfang sein",
       "section": "germany",
-      "reason": "geographic_misfit: Las Vegas verdict, not Germany"
+      "reason": "one_theme: Merz-response commentary on the same drone attribution"
     },
     {
-      "headline": "Börse am 1. September: Sieben Punkte, die für Anleger heute wichtig sind",
+      "headline": "Klimakrise: UN: Anstieg über 1,5 Grad so kurz wie möglich halten",
       "section": "germany",
-      "reason": "not_material: daily DAX wrap; oil-price pressure is incremental to the Iran energy track"
+      "reason": "one_theme: same UN 1.5°C report used in Spain"
     },
     {
-      "headline": "Nach Unwetter in Müritzregion: Ausmaß der Schäden erheblich größer als gedacht",
+      "headline": "„Lake Ontario“ wird zu „Lake America“: Auch Apple folgt Trumps Umbenennung – aber nur in den USA",
+      "section": "germany",
+      "reason": "geographic_misfit: US/Canada rename, not Germany; kept as Other Headlines"
+    },
+    {
+      "headline": "Deutschlands Detroit-Moment? Warum die Autokrise Werke wie Zwickau und Emden bedroht",
+      "section": "germany",
+      "reason": "avoid_unless_material: manufacturing slowdown; incremental to 31 August VW works meetings"
+    },
+    {
+      "headline": "Sabotage an Umspannwerk: Täter wollten mit selbstgebauten Raketen Stromausfall auslösen",
       "section": "berlin",
-      "reason": "geographic_misfit: Mecklenburg-Vorpommern storm, not Berlin city"
-    },
-    {
-      "headline": "Wartungsarbeiten am Tunnel: A17 nach Prag und Dresden ab heute Nacht dicht",
-      "section": "berlin",
-      "reason": "geographic_misfit: Dresden A17 tunnel, not Berlin"
-    },
-    {
-      "headline": "Magdeburger Klinikum erhält 43,2 Millionen Euro – Teil aus Corona-Sondervermögen",
-      "section": "berlin",
-      "reason": "geographic_misfit: Magdeburg hospital, not Berlin"
-    },
-    {
-      "headline": "Shein shares slide 10% in Hong Kong trading debut",
-      "section": "world",
-      "reason": "used as Selected Read (Nikkei version) rather than a World slot; Japan 3% yield took the East Asia markets beat"
+      "reason": "geographic_misfit: Jänschwalde is Brandenburg; folded into the Germany Leipzig/Russia story"
     },
     {
       "headline": "publisher_pool_thin",
       "section": "germany",
-      "reason": "publisher_pool_thin: after dropping Anthropic/Tupac geographic misfits and the DAX wrap, eligible Germany-proper items were Handelsblatt (Post→DHL) and Tagesspiegel (AfD facilitators, Mallorca German-holiday market)"
+      "reason": "publisher_pool_thin: after dropping Russia-commentary duplicates, the UN climate duplicate, Lake America, and the auto-crisis avoid, eligible Germany-proper items were EL PAÍS (Leipzig attribution) and Handelsblatt (Jungheinrich, AfD observers)"
     }
   ],
-  "notes": "Spain used the CGPJ conservative lock-in as the non-Ceuta structural story, then the material places-doubled/no-peninsula policy and the prosecutor's assault data (EL PAÍS) for a second publisher. Remaining Ceuta items stayed in Other Headlines. Germany mixed Post→DHL, AfD extra-party facilitators, and the Mallorca US-tourist price shift after the eligible non-geo pool collapsed. Berlin kept the Tempelhof-Schöneberg mayor race, the 1 September Azubi housing crunch, and Hertha's Nilsson signing after dropping Brandenburg/Saxony/MV misfits. World balanced Japan's 3% yield (East Asia), China AI-in-clinics (East Asia), and UN slavery-reparations guidance (international/Africa-Americas)."
+  "notes": "Spain used the UN 1.5°C overshoot report as the non-Ceuta structural story, the EL PAÍS teens-walking-out piece as the one Ceuta beat, and the Sadí de Buen/CSIC purges anniversary as the only remaining non-Ceuta Spain item after rejecting regularization and protest-day duplicates. Germany mixed the Leipzig/Russia attribution (EL PAÍS), Jungheinrich's €100m fund, and AfD/Ein Prozent poll observers. Berlin kept the Russian House closure, Florida Eis expansion, and Union's Hausicke signing after dropping Brandenburg sabotage and IFA recap. World balanced China factory robots (East Asia), Indian climate-repriced property (South Asia), and Carney–Trump trade (North America)."
 }
