@@ -4,13 +4,6 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 <!-- Format: YYYY-MM-DD | name | neighborhood | google_maps_url -->
 
-2026-06-18 | Papaya | Schöneberg | https://maps.google.com/?cid=2456362811345032783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-18 | Khao Taan | Friedrichshain | https://maps.google.com/?cid=1368696323655479600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-18 | Larb Koi | Friedrichshain | https://maps.google.com/?cid=1837714750978964420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-18 | Hasir Ocakbaşı | Kreuzberg | https://maps.google.com/?cid=11943487455487135675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-18 | Toros Tantuni | Kreuzberg | https://maps.google.com/?cid=1543942635703526120&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-18 | Osmans Töchter | Prenzlauer Berg | https://maps.google.com/?cid=13278237169014365985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-18 | ITA Bistro | Prenzlauer Berg | https://maps.google.com/?cid=11092233695097909376&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-06-25 | Kotti Dang | Neukölln | https://maps.google.com/?cid=1366842234553923275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-06-25 | Hanuman Thai Curry House | Kreuzberg | https://maps.google.com/?cid=10805004978977801651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-06-25 | Simitdchi Cafe und Backhaus | Kreuzberg | https://maps.google.com/?cid=14131623560540591311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
@@ -75,3 +68,10 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-08-27 | Rocket & Basil | Schöneberg | https://maps.google.com/?cid=2358804007255459580&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-27 | Gotxa | Kreuzberg | https://maps.google.com/?cid=1105756903453319625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-27 | UUU | Wedding | https://maps.google.com/?cid=1304440578310595723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-03 | Shaniu's House of Noodles | Wilmersdorf | https://maps.google.com/?cid=2072006413172091597&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-03 | Wen Cheng | Friedrichshain | https://maps.google.com/?cid=17373268780583117555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-03 | Dao | Charlottenburg | https://maps.google.com/?cid=11289346261669056027&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-03 | Jemenitisches Restaurant | Neukölln | https://maps.google.com/?cid=12409537892763432544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-03 | Sarajevo | Wedding | https://maps.google.com/?cid=11185880011603264770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-03 | Common | Neukölln | https://maps.google.com/?cid=4148914317838078783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-03 | Horváth | Kreuzberg | https://maps.google.com/?cid=11873083102904049717&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
