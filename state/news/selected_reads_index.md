@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-03
+
+- [James Orr and the gospel of the new British right](https://www.ft.com/content/c2d02f83-a5a0-4c46-adad-1bd8b70b7ea1?syn-25a6b1a6=1) — Financial Times
+- [Tumbler Ridge mass shooting victims file 30 new lawsuits against OpenAI](https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting) — The Guardian
+- [Status of Iran’s Nuclear Program Is Unclear, U.N. Watchdog Says](https://www.nytimes.com/2026/09/02/world/middleeast/iran-nuclear-program-iaea.html) — The New York Times
+- [Fixing the AI industry’s PR problem](https://www.ft.com/content/115c886f-23e4-4a8d-9656-5d7fc9480803?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-09-02
 
 - [USS Abraham Lincoln arrives at Thai port after gruelling 270 days at sea](https://www.theguardian.com/world/2026/sep/02/uss-abraham-lincoln-arrives-thailand-after-270-days-at-sea) — The Guardian
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Incoming Swiss banking chief warns against regulatory over-reach](https://www.ft.com/content/17c61dd3-fa39-4061-b3a1-2d2333d1eb7f?syn-25a6b1a6=1) — Financial Times
 - [Supercars Fuel a New Hybrid Boom](https://www.bloomberg.com/news/videos/2026-08-29/supercars-fuel-a-new-hybrid-boom-video) — Bloomberg
 - [Egyptian queen’s 673-diamond necklace stolen in Vienna smash-and-grab raid](https://www.theguardian.com/artanddesign/2026/aug/28/egyptian-queen-diamond-necklace-stolen-vienna-raid) — The Guardian
-
-## 2026-08-29
-
-- [Notes From Russia’s Literary Underground](https://foreignpolicy.com/2026/08/28/russia-books-literature-censorship-diaspora-publishers-abroad-putin-ukraine-war/) — Foreign Policy
-- [Climate and AI to loom large in von der Leyen’s State of the Union](https://www.politico.eu/article/climate-migration-ai-ursula-von-der-leyen-state-of-the-union-speech/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- ['Dairyland' Wisconsin hopes to ride protein boom into Asia](https://asia.nikkei.com/business/food-beverage/dairyland-wisconsin-hopes-to-ride-protein-boom-into-asia) — Nikkei Asia
-- [Did AI write this? It’s getting harder to tell](https://www.ft.com/content/f100c90b-c138-4125-aaa7-853b77690db9?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

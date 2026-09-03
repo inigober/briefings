@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-03
+
+- **spain-ceuta-police-report-gendarmerie** — eldiario.es: Cenif's 51-page file for the Audiencia Nacional treats Moroccan security agents, not a mafia, as organisers of the late-July Ceuta rush (section: spain)
+- **spain-sanchez-congress-no-proof-morocco** — EL PAÍS: Sánchez tells Congress Madrid still has no proof Morocco organised the crossing, after the Interior leak (section: spain)
+- **spain-francis-letters-opus-dei-barbastro** — EL PAÍS: unpublished letters from Francis tell Barbastro's bishop not to yield to Opus Dei over Torreciudad (section: spain)
+- **germany-gas-storage-historically-low** — Handelsblatt: operators want a regulatory shove to refill historically low gas stores; the economy ministry is holding back (section: germany)
+- **germany-lavrov-goethe-institut-closed** — Tagesspiegel: Lavrov says Russia will close the Goethe-Institut after Leipzig and the Russian House (section: germany)
+- **germany-digital-pension-overview-login-fail** — Berliner Zeitung: only about 6% use the Digitale Rentenübersicht, and almost half who try fail at registration (section: germany)
+- **berlin-charite-nurses-warning-strike** — rbb24: Charité nurses have started a three-day warning strike (section: berlin)
+- **berlin-broechler-disinformation-new-dimension** — Die Zeit: Berlin's election chief says disinformation has reached a new dimension before 20 September (section: berlin)
+- **berlin-sbahn-baumschulenweg-signal** — Tagesspiegel: a signal fault at Baumschulenweg is delaying S-Bahn lines, including the airport route (section: berlin)
+- **world-taiwan-undercover-chip-labs** — Rest of World: unpublished data show Taiwan's six-year hunt for Chinese firms hiding chip-lab ties (section: world)
+- **world-uber-unions-robotaxi-slowdown** — Financial Times: Uber is allying with driver unions to slow the robotaxi rollout (section: world)
+- **world-malaysia-critical-minerals-china-curbs** — Nikkei Asia: Malaysia is drawing critical-minerals interest as China's export curbs loom (section: world)
+
 ## 2026-09-02
 
 - **spain-un-1-5-overshoot-inevitable** — eldiario.es: a UN report says crossing 1.5°C is now inevitable, while still claiming temperatures can be brought back if emissions fall (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-hyundai-physical-ai-industrial-push** — Nikkei Asia: Hyundai is betting that robotics and physical AI can carry it beyond conventional carmaking into industrial systems (section: world)
 - **world-africa-climate-extremes-el-nino** — Foreign Policy: a possible super El Niño is sharpening Africa's climate extremes and turning adaptation into a food-security and governance challenge (section: world)
 - **world-ai-boom-car-component-inflation** — The Atlantic: the AI hardware boom is starting to look like an inflation risk for increasingly software-heavy cars as well as personal electronics (section: world)
-
-## 2026-08-19
-
-- **spain-vapat-valladolid-data-centre** — eldiario.es: wind-power group Vapat wants to build a large data centre in Torrelobatón, opening a local fight over land, power and housing impacts (section: spain)
-- **spain-granada-second-48-quake-cluster** — eldiario.es: Granada endured a second magnitude-4.8 quake in four days, turning a shallow seismic cluster into a metropolitan stress test (section: spain)
-- **spain-marine-heatwave-extreme-weather-link** — EL PAÍS: record marine temperatures around Europe are raising the risk of extreme weather on land for Spain and other coastal states (section: spain)
-- **germany-bond-markets-price-debt-harsher** — Handelsblatt: rising pressure on long-dated sovereign bonds is narrowing Germany's fiscal room as investors demand more compensation for debt risk (section: germany)
-- **germany-klingbeil-resignation-debate-schwesig** — Tagesspiegel: SPD co-leader Lars Klingbeil pushed back on resignation talk while praising Manuela Schwesig, showing the party's leadership question remains unsettled (section: germany)
-- **germany-marine-heat-attribution-study** — Tagesspiegel: attribution researchers say Europe's extreme coastal water temperatures would have been nearly impossible without climate change (section: germany)
-- **berlin-cyberattack-postal-vote-applications** — rbb24: the senate-administration cyberattack is now disrupting Berlin's online postal-vote applications (section: berlin)
-- **berlin-fire-brigade-vehicle-shortage** — Tagesspiegel: Berlin's fire brigade is running short of vehicles, reinforcing the picture of basic city services operating with too little slack (section: berlin)
-- **berlin-spree-low-water-next-phase** — rbb24: authorities activated the next stage of the Spree low-water plan as heat and missing rain pushed river levels down further (section: berlin)
-- **world-ukraine-war-global-grain-risk** — Financial Times: attacks on agricultural export routes in the Ukraine war are raising the risk of a wider global grain crisis (section: world)
-- **world-thailand-hosts-myanmar-junta-chief** — Nikkei Asia: Thailand hosted Myanmar's military chief, signalling deeper bilateral ties and a more normalised regional relationship with the junta (section: world)
-- **world-us-consumer-brands-private-label-squeeze** — Financial Times: established US household brands are losing ground to private labels and smaller challengers (section: world)
