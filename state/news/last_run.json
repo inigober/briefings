@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-03",
-  "briefing_date": "2026-09-03",
-  "inbox_date": "2026-09-03",
+  "date": "2026-09-04",
+  "briefing_date": "2026-09-04",
+  "inbox_date": "2026-09-04",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-03.md",
-  "inbox_path": "inbox/news/2026-09-03-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-04.md",
+  "inbox_path": "inbox/news/2026-09-04-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Feijóo y Abascal unen fuerzas en la protesta por Ceuta y acusan a Sánchez de “mentir” a los españoles: “Es un traidor”",
+      "headline": "Los migrantes que entraron a Ceuta: \"Marruecos no nos envió, pero nadie nos frenó\"",
       "section": "spain",
-      "reason": "one_theme: Ceuta street politics; kept the police report and Congress line as the material beats; protest day parked in Other Headlines"
+      "reason": "dedup: incremental to 3 September spain-ceuta-police-report-gendarmerie; parked in Other Headlines as street/food pressure"
     },
     {
-      "headline": "Miles de ciudadanos salen a la calle en apoyo a Ceuta y contra la gestión del Gobierno: \"¡Sánchez, traidor!\"",
+      "headline": "Sánchez evita chocar con Marruecos pero pide \"una cooperación diferente\" y apela a Europa para blindar Ceuta y Melilla",
       "section": "spain",
-      "reason": "one_theme: same protest beat"
+      "reason": "one_theme: Ceuta cabinet line; kept Fiscalía's AN request as the material legal beat"
     },
     {
-      "headline": "Decenas de jóvenes marroquíes emprenden el camino de regreso a sus casas: “No me queda otra”",
+      "headline": "Sánchez se abre a la autoría de Marruecos para rebajar la presión",
       "section": "spain",
-      "reason": "dedup: incremental to 2 September spain-ceuta-teens-walking-out"
+      "reason": "dedup: incremental to 3 September spain-sanchez-congress-no-proof-morocco"
     },
     {
-      "headline": "El CENIF, la unidad del informe de Ceuta sin agentes sobre el terreno y que dirige un antiguo asesor del jefe de la brigada política del PP",
+      "headline": "Ultimátum a la solidaridad en Ceuta: “Mañana no habrá comida para 250 mujeres y niños”",
       "section": "spain",
-      "reason": "one_theme: same police-report authorship track"
+      "reason": "one_theme: Ceuta humanitarian; parked in Other Headlines"
     },
     {
-      "headline": "Morning Briefing: Das Versagen der VW-Großaktionäre hat zwei Namen",
+      "headline": "KI: OpenAI bringt leistungsstärkeres KI-Modell ChatGPT-6 heraus",
       "section": "germany",
-      "reason": "avoid_unless_material: manufacturing slowdown; incremental to 31 August VW works meetings; parked in Other Headlines"
+      "reason": "geographic_misfit: US model launch, not Germany; parked in Other Headlines"
     },
     {
-      "headline": "Nikkei, Kospi, Topix: Asiens Börsen auf Erholungskurs – Warten auf US-Arbeitsmarktdaten",
+      "headline": "Milliardenschaden: Mehr Großinsolvenzen – Automobilbranche besonders betroffen",
       "section": "germany",
-      "reason": "geographic_misfit: Asian markets / US jobs data, not Germany"
+      "reason": "one_theme / avoid_unless_material: manufacturing slowdown; same auto-distress track as the VW board vote"
     },
     {
-      "headline": "Behandlung von Übergewicht: Abnehmen mit Spritze oder Pille: So geht man es richtig an",
+      "headline": "Morning Briefing Podcast: VW: Aufsichtsrat überraschend für Sanierungsplan / Wahlen: Die zwei Fehler im Umgang mit der AfD",
       "section": "germany",
-      "reason": "soft consumer tips; parked in Other Headlines after taking gas storage, Goethe closure, and the federal pension portal"
+      "reason": "one_theme: same VW Sanierungsplan as the Morning Briefing article"
     },
     {
-      "headline": "Gegenattacke mit Symbolwirkung: Was die Schließung des Russischen Hauses in Berlin wirklich bedeutet",
+      "headline": "WhatsApp-Lücke: Fremde können Ihre Fotos sehen – auch bei gesperrtem Handy",
       "section": "berlin",
-      "reason": "dedup: berlin-russian-house-friedrichstrasse-closed on 2 September"
+      "reason": "geographic_misfit: Android consumer-security tip, not Berlin"
     },
     {
-      "headline": "Sorge vor Sextourismus und Ausbeutung: „USS Abraham Lincoln“ bringt 5000 US-Soldaten nach Pattaya",
+      "headline": "Putins neue Jet-Drohnen legen Kiew am helllichten Tag lahm",
       "section": "berlin",
-      "reason": "geographic_misfit: Pattaya, not Berlin; Lincoln already a Selected Read on 2 September"
+      "reason": "geographic_misfit: Kyiv air war, not Berlin; parked in Other Headlines"
     },
     {
-      "headline": "The port that built Dubai: war exposes a dangerous dependence",
+      "headline": "China lashes back at US over G20 row ahead of Xi-Trump summit",
       "section": "world",
-      "reason": "incremental to 31 August Hormuz fire and 29 August Dubai isolation; parked in Other Headlines"
+      "reason": "incremental to 2 September Other Headlines G20 communiqué block"
     },
     {
-      "headline": "Gold Rises Above $4,400 as Trump Comments Ease Inflation Concern",
+      "headline": "UK-EU alignment is ‘problem’ for US trade deal, says top Trump official",
       "section": "world",
-      "reason": "market brief on the same Iran-war inflation track; parked in Other Headlines"
+      "reason": "Europe-US trade commentary; kept Thiel, Japan solar, and Norway Treasuries for region mix"
     },
     {
       "headline": "publisher_pool_thin",
       "section": "germany",
-      "reason": "publisher_pool_thin: after dropping VW (manufacturing avoid), Asian markets, sports, weather, and weight-loss tips, eligible Germany-proper items were Handelsblatt (gas storage), Tagesspiegel (Goethe-Institut), and Berliner Zeitung (federal pension portal, not Berlin-local)"
+      "reason": "publisher_pool_thin: after dropping ChatGPT-6 (geo), auto insolvencies (manufacturing avoid / one theme with VW), sports, weather, and culture filler, eligible Germany-proper items were Handelsblatt (VW board plan) and Tagesspiegel (CDU firewall on Lanz; IFA flops recap)"
     }
   ],
-  "notes": "Spain used the Cenif/Audiencia Nacional police report and Sánchez's no-proof Congress line as the two material Ceuta beats (investigation vs cabinet), plus Francis/Opus letters as the only non-Ceuta Spain item. Germany mixed historically low gas storage, Lavrov closing the Goethe-Institut, and the federal digital pension portal. Berlin kept the Charité warning strike, Bröchler's disinformation warning, and the Baumschulenweg S-Bahn fault after dropping the Russian House recap. World balanced Taiwan chip-lab hunts (East Asia), Uber/robotaxis (North America), and Malaysia critical minerals (Southeast Asia)."
+  "notes": "Spain used the Fiscalía's Audiencia Nacional request as the material Ceuta legal beat, the ECHR/Marchena protest-rights ruling as the only non-Ceuta Spain item, and the pro-Israel 'Ceuta is Gaza' network as a distinct disinfo theme. Germany mixed the VW supervisory-board rescue plan, a CDU firewall slip before Sachsen-Anhalt, and a thin IFA-flops recap after the auto-insolvency and OpenAI items failed the filters. Berlin kept the BER Terminal 1 all-clear, Union's stadium delay, and Holt's prison-leave escape. World balanced Thiel/Argentina (Latin America), Octopus/Japan mini-solar (East Asia), and Norway's proposed Treasury cut (North America finance)."
 }

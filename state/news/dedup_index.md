@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-04
+
+- **spain-fiscalia-an-ceuta-investigation** — eldiario.es: the public prosecutor will tell judge Tardón the late-July rush is transnational and belongs in the Audiencia Nacional (section: spain)
+- **spain-tedh-marchena-ambiental-violence** — eldiario.es: the ECHR has condemned Spain in the Aturem el Parlament case and discredited Marchena's "violencia ambiental" doctrine (section: spain)
+- **spain-proisrael-network-ceuta-gaza** — EL PAÍS: an opaque pro-Israel channel cluster is flooding the enclave crisis with "Ceuta is now Gaza" war talk (section: spain)
+- **germany-vw-aufsichtsrat-sanierungsplan** — Handelsblatt: VW's supervisory board has agreed a restructuring plan that takes almost all of management's proposals, with one exception (section: germany)
+- **germany-cdu-brandmauer-lanz-sachsen-anhalt** — Tagesspiegel: a CDU deputy called the AfD firewall "bekloppt" on Lanz before the Sachsen-Anhalt vote (section: germany)
+- **germany-ifa-flops-retrospective** — Tagesspiegel: a recap of IFA "future" gadgets that vanished, from 3D glasses to smart kettles (section: germany)
+- **berlin-ber-terminal-1-all-clear** — rbb24: BER Terminal 1 was emptied after a hazardous-substance report and then reopened (section: berlin)
+- **berlin-union-stadion-ausbau-delay** — rbb24: Union's Alte Försterei rebuild is delayed, so the men's side stays longer at the Olympiastadion (section: berlin)
+- **berlin-holt-freigang-escape** — Tagesspiegel: convicted wind-farm fraudster Hendrik Holt failed to return from prison leave (section: berlin)
+- **world-thiel-argentina-milei** — The Guardian: Thiel's Buenos Aires move coincides with proposed laws opponents say would entrench US tech billionaires (section: world)
+- **world-octopus-japan-mini-solar** — Nikkei Asia: an Octopus Energy-backed retailer is joining Japan's mini-solar rush (section: world)
+- **world-norway-fund-slash-treasuries** — Financial Times: the $2tn oil fund's manager proposes slashing US Treasury holdings to lift returns (section: world)
+
 ## 2026-09-03
 
 - **spain-ceuta-police-report-gendarmerie** — eldiario.es: Cenif's 51-page file for the Audiencia Nacional treats Moroccan security agents, not a mafia, as organisers of the late-July Ceuta rush (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-mocha-houthi-frontline-port** — Financial Times: Houthi attacks are pushing Yemen's historic port of Mocha back onto the front line of Red Sea conflict geography (section: world)
 - **world-liberia-third-country-deportation-deal** — The Guardian: the US has begun sending deportees to Liberia under one of Trump's biggest third-country migration deals (section: world)
 - **world-shanghai-star50-outstrips-hong-kong** — Financial Times: China's latest tech frenzy is lifting Shanghai's Star market faster than Hong Kong, shifting financial gravity toward the mainland (section: world)
-
-## 2026-08-20
-
-- **spain-ayuso-fire-service-levy-municipalities** — eldiario.es: Madrid's regional government is raising the fire-service levy on municipalities without their own brigades, turning wildfire preparedness into a municipal-finance dispute (section: spain)
-- **spain-madrid-abortion-access-private-clinics** — EL PAÍS: the Madrid health service acknowledges some public hospitals still cannot guarantee abortion access because of conscientious objection, leaving private clinics to fill the gap (section: spain)
-- **spain-riglos-roadworks-wildfire-accountability** — eldiario.es: after the Riglos blaze, local authorities and residents say ignored warnings over A-132 roadworks made a protected landscape more vulnerable to catastrophic fire (section: spain)
-- **germany-jdcom-ceconomy-eu-subsidy-probe** — Handelsblatt: the EU's scrutiny of JD.com's Ceconomy bid turns a German retail takeover into a test of Europe's anti-subsidy enforcement against China (section: germany)
-- **germany-cancer-vaccine-investor-expectations** — Handelsblatt: positive Moderna trial results are pushing the prospect of a first cancer vaccine from research promise into mainstream market and healthcare debate (section: germany)
-- **germany-dfb-pokal-var-fan-protests** — Tagesspiegel: planned protests over the lack of video review in the DFB-Pokal first round revive Germany's argument about cost, fairness and control in elite football (section: germany)
-- **berlin-agh-election-four-way-race** — rbb24: one month before the Abgeordnetenhaus vote, four parties are clustered at the top of Berlin's race for the Red Town Hall (section: berlin)
-- **berlin-border-controls-ihk-burden** — Tagesspiegel: longer border controls are becoming a labour and logistics burden for businesses in the Berlin-Brandenburg region (section: berlin)
-- **berlin-outdoor-pools-september-extension** — rbb24: several Berlin outdoor pools will remain open into September as indoor facilities return, highlighting a longer late-summer public-service stretch (section: berlin)
-- **world-hyundai-physical-ai-industrial-push** — Nikkei Asia: Hyundai is betting that robotics and physical AI can carry it beyond conventional carmaking into industrial systems (section: world)
-- **world-africa-climate-extremes-el-nino** — Foreign Policy: a possible super El Niño is sharpening Africa's climate extremes and turning adaptation into a food-security and governance challenge (section: world)
-- **world-ai-boom-car-component-inflation** — The Atlantic: the AI hardware boom is starting to look like an inflation risk for increasingly software-heavy cars as well as personal electronics (section: world)

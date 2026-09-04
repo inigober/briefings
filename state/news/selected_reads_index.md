@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-04
+
+- [I refused to train the AI that could replace me](https://restofworld.org/2026/ai-training-jobs-expert-replacement/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [Ukraine’s Mood Swing](https://foreignpolicy.com/2026/09/03/ukraine-war-zelensky-corrupton-scandal-cabinet-election/) — Foreign Policy
+- [America must learn AI lessons from Astro Boy](https://www.ft.com/content/68751904-522a-41cc-85e0-08015fe75059?syn-25a6b1a6=1) — Financial Times
+- [Pakistan's 5G rollout faces user criticism, power constraints](https://asia.nikkei.com/business/telecommunication/pakistan-s-5g-rollout-faces-user-criticism-power-constraints) — Nikkei Asia
+
 ## 2026-09-03
 
 - [James Orr and the gospel of the new British right](https://www.ft.com/content/c2d02f83-a5a0-4c46-adad-1bd8b70b7ea1?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Will financial innovation dethrone the dollar?](https://www.ft.com/content/1481e787-77dc-4d54-8871-8ffb369e5dd3) — Financial Times
 - [La vida en Irán al paso de la guerra: "He aprendido lo fácil que es que te borren del mundo"](https://www.eldiario.es/internacional/vida-iran-paso-guerra-he-aprendido-facil-borren-mundo_1_13473548.html) — eldiario.es
 - [La visita del jefe de la CIA a Moscú se envuelve en mentiras y medias verdades en plena ‘guerra’ del espionaje ruso en Europa](https://elpais.com/internacional/2026-08-31/la-visita-del-jefe-de-la-cia-a-moscu-se-envuelve-en-mentiras-y-medias-verdades-en-plena-guerra-del-espionaje-ruso-en-europa.html) — EL PAÍS
-
-## 2026-08-30
-
-- [Jared Kushner Is the Face of American Oligarchy](https://foreignpolicy.com/2026/08/28/american-oligarchy-geopolitics-dictators-democracy-jared-kushner-trump/) — Foreign Policy
-- [Incoming Swiss banking chief warns against regulatory over-reach](https://www.ft.com/content/17c61dd3-fa39-4061-b3a1-2d2333d1eb7f?syn-25a6b1a6=1) — Financial Times
-- [Supercars Fuel a New Hybrid Boom](https://www.bloomberg.com/news/videos/2026-08-29/supercars-fuel-a-new-hybrid-boom-video) — Bloomberg
-- [Egyptian queen’s 673-diamond necklace stolen in Vienna smash-and-grab raid](https://www.theguardian.com/artanddesign/2026/aug/28/egyptian-queen-diamond-necklace-stolen-vienna-raid) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
