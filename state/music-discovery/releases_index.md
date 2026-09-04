@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-09-04
+
+- Nick León — A Tropical Entropy
+- Shackleton — Euphoria Bound
+- Xylitol — Blumenfantasie
+- Daphni — Butterfly
+- MLO — Io
+- DJ Python — Dulce Compañia
+- Midori Hirano — OTONOMA
+- Hesaitix — Noctian Airgap
+- Actress — Statik
+- Oneohtrix Point Never — Tranquilizer
+
 ## 2026-08-28
 
 - Seliga — Lush
