@@ -1,48 +1,43 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-04",
-  "briefing_date": "2026-09-04",
-  "inbox_date": "2026-09-04",
+  "date": "2026-09-05",
+  "briefing_date": "2026-09-05",
+  "inbox_date": "2026-09-05",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-04.md",
-  "inbox_path": "inbox/news/2026-09-04-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-05.md",
+  "inbox_path": "inbox/news/2026-09-05-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Los migrantes que entraron a Ceuta: \"Marruecos no nos envió, pero nadie nos frenó\"",
+      "headline": "Los 'inmobros' especulan y cobran hasta 2.500 euros por pisos con 8 inquilinos y sin comedor porque las leyes lo permiten",
       "section": "spain",
-      "reason": "dedup: incremental to 3 September spain-ceuta-police-report-gendarmerie; parked in Other Headlines as street/food pressure"
+      "reason": "one_theme: housing market; kept the blocked housing decree as the legislative beat"
     },
     {
-      "headline": "Sánchez evita chocar con Marruecos pero pide \"una cooperación diferente\" y apela a Europa para blindar Ceuta y Melilla",
+      "headline": "Ceuta trata de convivir con la emergencia mientras cientos de migrantes buscan espacios de acogida",
       "section": "spain",
-      "reason": "one_theme: Ceuta cabinet line; kept Fiscalía's AN request as the material legal beat"
+      "reason": "one_theme / incremental Ceuta streets; parked in Other Headlines"
     },
     {
-      "headline": "Sánchez se abre a la autoría de Marruecos para rebajar la presión",
+      "headline": "Del alcalde de Móstoles a las muertes en las residencias: los frentes judiciales del entorno de Ayuso",
       "section": "spain",
-      "reason": "dedup: incremental to 3 September spain-sanchez-congress-no-proof-morocco"
+      "reason": "not_material: investigation continues; incremental to late-August Ayuso coverage"
     },
     {
-      "headline": "Ultimátum a la solidaridad en Ceuta: “Mañana no habrá comida para 250 mujeres y niños”",
-      "section": "spain",
-      "reason": "one_theme: Ceuta humanitarian; parked in Other Headlines"
-    },
-    {
-      "headline": "KI: OpenAI bringt leistungsstärkeres KI-Modell ChatGPT-6 heraus",
+      "headline": "Die Lage im Überblick: Vorstoß zu Ende des Ukraine-Kriegs? Trump schickt Vermittler",
       "section": "germany",
-      "reason": "geographic_misfit: US model launch, not Germany; parked in Other Headlines"
+      "reason": "geographic_misfit: US-Ukraine mediation, not Germany; parked in Other Headlines"
     },
     {
-      "headline": "Milliardenschaden: Mehr Großinsolvenzen – Automobilbranche besonders betroffen",
+      "headline": "Pakete ins Ausland: Ärger um EU-Verpackungsregeln - Grüner will Bußgeld-Verzicht",
       "section": "germany",
-      "reason": "one_theme / avoid_unless_material: manufacturing slowdown; same auto-distress track as the VW board vote"
+      "reason": "deprioritized vs hybrid threats, water deficit, and Sachsen-Anhalt AfD primer; parked in Other Headlines"
     },
     {
-      "headline": "Morning Briefing Podcast: VW: Aufsichtsrat überraschend für Sanierungsplan / Wahlen: Die zwei Fehler im Umgang mit der AfD",
+      "headline": "+++ USA +++: Wegen Kriminalität: Costa Ricas Präsidentin offen für US-Bodentruppen",
       "section": "germany",
-      "reason": "one_theme: same VW Sanierungsplan as the Morning Briefing article"
+      "reason": "geographic_misfit: US/Costa Rica newsblog"
     },
     {
       "headline": "WhatsApp-Lücke: Fremde können Ihre Fotos sehen – auch bei gesperrtem Handy",
@@ -52,23 +47,28 @@
     {
       "headline": "Putins neue Jet-Drohnen legen Kiew am helllichten Tag lahm",
       "section": "berlin",
-      "reason": "geographic_misfit: Kyiv air war, not Berlin; parked in Other Headlines"
+      "reason": "geographic_misfit: Kyiv air war, not Berlin"
     },
     {
-      "headline": "China lashes back at US over G20 row ahead of Xi-Trump summit",
-      "section": "world",
-      "reason": "incremental to 2 September Other Headlines G20 communiqué block"
+      "headline": "Digitale Rentenübersicht: Fast jeder Zweite scheitert schon bei der Anmeldung",
+      "section": "berlin",
+      "reason": "dedup: covered 3 September as germany-digital-pension-overview-login-fail"
     },
     {
-      "headline": "UK-EU alignment is ‘problem’ for US trade deal, says top Trump official",
+      "headline": "Sabotage am Stromnetz: Sprengstoff in Wohnung von Verdächtigem gefunden",
+      "section": "berlin",
+      "reason": "geographic_misfit: Brandenburg Jänschwalde, incremental to 2 September Leipzig/substation story; parked in Other Headlines"
+    },
+    {
+      "headline": "Bloom Energy, Illumina, Everpure to Join S&P 500 This Month",
       "section": "world",
-      "reason": "Europe-US trade commentary; kept Thiel, Japan solar, and Norway Treasuries for region mix"
+      "reason": "thin index-rebalance item vs Japan data centres, Flock, and pesticide study"
     },
     {
       "headline": "publisher_pool_thin",
-      "section": "germany",
-      "reason": "publisher_pool_thin: after dropping ChatGPT-6 (geo), auto insolvencies (manufacturing avoid / one theme with VW), sports, weather, and culture filler, eligible Germany-proper items were Handelsblatt (VW board plan) and Tagesspiegel (CDU firewall on Lanz; IFA flops recap)"
+      "section": "berlin",
+      "reason": "publisher_pool_thin: after dropping WhatsApp, weather, Thuringia fires, Kyiv drones, digital pension, Woidke (Brandenburg), national basketball, and Jänschwalde, eligible Berlin-proper items were Tagesspiegel (BSI leak warning; foster families) and rbb24 (BFC Dynamo cup tie)"
     }
   ],
-  "notes": "Spain used the Fiscalía's Audiencia Nacional request as the material Ceuta legal beat, the ECHR/Marchena protest-rights ruling as the only non-Ceuta Spain item, and the pro-Israel 'Ceuta is Gaza' network as a distinct disinfo theme. Germany mixed the VW supervisory-board rescue plan, a CDU firewall slip before Sachsen-Anhalt, and a thin IFA-flops recap after the auto-insolvency and OpenAI items failed the filters. Berlin kept the BER Terminal 1 all-clear, Union's stadium delay, and Holt's prison-leave escape. World balanced Thiel/Argentina (Latin America), Octopus/Japan mini-solar (East Asia), and Norway's proposed Treasury cut (North America finance)."
+  "notes": "Spain used the frozen housing decree as the non-Ceuta legislative beat, Tardón withholding the police file from Interior as the material Ceuta legal development, and the Iglesias Audiencia Nacional complaint as the only remaining non-housing, non-Ceuta court filing. Germany mixed hybrid-threat survey data, a heat-driven water-deficit finding, and an EL PAÍS Sachsen-Anhalt primer from the Spain feed (geographic fit). Berlin kept the BSI phishing warning after the Landesnetz leak, foster-family demand, and a thin Landespokal result after geo filters emptied the rest of the pool. World balanced Japan AI data centres (East Asia), Flock surveillance (North America), and pesticide poisoning with India as the fatality centre (South Asia)."
 }

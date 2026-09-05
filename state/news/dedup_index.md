@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-05
+
+- **spain-housing-decree-ceuta-freeze** — eldiario.es: the housing decree that would revive two-year rent extensions is blocked by Podemos, Junts, and the Ceuta crisis (section: spain)
+- **spain-ceuta-tardon-interior-reserve** — EL PAÍS: judge Tardón told police not to send the Ceuta analysis to Interior (section: spain)
+- **spain-iglesias-an-querella** — eldiario.es: former mansion staff have filed a forced-labour and sexual-offences complaint against Julio Iglesias at the Audiencia Nacional (section: spain)
+- **germany-hybrid-threats-one-in-five** — Handelsblatt: one in five German firms reports hybrid threats, with pressure on power and water (section: germany)
+- **germany-water-deficit-temperatures** — Tagesspiegel: researchers say Germany's shrinking water reserves are driven by heat, not missing rain (section: germany)
+- **germany-afd-raguhn-jessnitz-sachsen-anhalt** — EL PAÍS: the town that elected Germany's first AfD mayor now treats 60% as the local baseline before Sunday's Landtag vote (section: germany)
+- **berlin-bsi-landesnetz-phishing-warning** — Tagesspiegel: the BSI has warned of phishing after the Berlin state-network leak, including around the 20 September vote (section: berlin)
+- **berlin-foster-families-2001** — Tagesspiegel: 2,001 children lived in Berlin foster families in 2025 and the city still needs more homes (section: berlin)
+- **berlin-bfc-dynamo-landespokal** — rbb24: BFC Dynamo beat Viktoria Mitte in the Berlin cup second round (section: berlin)
+- **world-japan-ai-datacenters-60bn** — Nikkei Asia: Japan AI data centres are set to quadruple by 2033 on about $60bn of investment (section: world)
+- **world-flock-ai-surveillance-gop-revolt** — Financial Times: Republican governors are cracking down on Flock, a Trump-donor license-plate startup (section: world)
+- **world-pesticide-poisoning-india** — The Guardian: almost half of the world's farmers are poisoned by pesticides each year; India accounts for nearly 60% of deaths (section: world)
+
 ## 2026-09-04
 
 - **spain-fiscalia-an-ceuta-investigation** — eldiario.es: the public prosecutor will tell judge Tardón the late-July rush is transnational and belongs in the Audiencia Nacional (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-qatar-war-spending-cuts** — Financial Times: war-related economic damage is forcing Qatar to cut domestic spending and overseas outlays despite its gas wealth (section: world)
 - **world-mexico-city-little-la-deportees** — The Guardian: deported Mexicans are reshaping a Mexico City neighbourhood into a refuge for returnees from Trump's America (section: world)
 - **world-tokuyama-chip-material-vietnam-malaysia** — Nikkei Asia: Tokuyama's new chip-material production in Vietnam and Malaysia extends semiconductor diversification across south-east Asia (section: world)
-
-## 2026-08-21
-
-- **spain-hydrocarbons-vat-fraud-probes-35** — eldiario.es: Spain's tax agency still has 35 open hydrocarbons VAT-fraud investigations, keeping a billion-euro enforcement clean-up alive after the Aldama affair (section: spain)
-- **spain-alvise-crypto-tracing-supreme-court** — eldiario.es: Supreme Court judge keeps investigators tracing Alvise Pérez's crypto-related campaign financing trail (section: spain)
-- **spain-aragon-firefighting-aircraft-dependence** — EL PAÍS: Aragón's heavy use of state firefighting aircraft highlights how uneven Spain's regional fire capacity remains (section: spain)
-- **germany-eu-us-tariff-deal-one-year-later** — Handelsblatt: one year after the EU-US tariff truce, Germany still faces unresolved trade uncertainty under Trump's tariff politics (section: germany)
-- **germany-robot-football-vision-motor-control** — Handelsblatt: robot football experiments show machine vision and coordinated movement edging from lab demo toward usable physical tasks (section: germany)
-- **germany-drought-supermarket-price-pressure** — Tagesspiegel: drought-hit harvests and feed shortages could push German food prices higher (section: germany)
-- **berlin-citizen-services-hackerattack-delays** — rbb24: the state-network cyberattack is now delaying housing-eligibility and other Berlin citizen services (section: berlin)
-- **berlin-charlottenburg-fire-station-vacancy** — Tagesspiegel: an old Charlottenburg fire station has sat empty for more than a year, symbolising slow reuse of prime urban space (section: berlin)
-- **berlin-lankwitz-cash-transporter-robbery** — rbb24: an armed robbery of a cash transporter outside a Lankwitz supermarket exposed a routine public-safety weak point (section: berlin)
-- **world-mocha-houthi-frontline-port** — Financial Times: Houthi attacks are pushing Yemen's historic port of Mocha back onto the front line of Red Sea conflict geography (section: world)
-- **world-liberia-third-country-deportation-deal** — The Guardian: the US has begun sending deportees to Liberia under one of Trump's biggest third-country migration deals (section: world)
-- **world-shanghai-star50-outstrips-hong-kong** — Financial Times: China's latest tech frenzy is lifting Shanghai's Star market faster than Hong Kong, shifting financial gravity toward the mainland (section: world)

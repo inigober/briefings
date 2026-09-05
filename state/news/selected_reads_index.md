@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-05
+
+- [‘RAMageddon’ hits consumer electronics as AI drains chip supply](https://www.ft.com/content/ea9a9dcc-b1df-49b0-b80c-f320161b9efa) — Financial Times
+- [There’s No Such Thing as an AI ‘Lab’](https://www.theatlantic.com/technology/2026/09/stop-calling-ai-companies-labs/688528/?utm_source=feed) — The Atlantic
+- [‘We continue to suffer’: victims of apartheid-era Sharpeville massacre demand compensation](https://www.theguardian.com/world/2026/sep/03/victims-sue-south-african-government-sharpeville-massacre-apartheid) — The Guardian
+- [Japan's organ donor shortage drives some patients to Cambodia](https://asia.nikkei.com/business/health-care/japan-s-organ-donor-shortage-drives-some-patients-to-cambodia) — Nikkei Asia
+
 ## 2026-09-04
 
 - [I refused to train the AI that could replace me](https://restofworld.org/2026/ai-training-jobs-expert-replacement/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Fast-fashion retailer Shein's shares dive 10% after subdued Hong Kong IPO](https://asia.nikkei.com/business/markets/ipo/fast-fashion-retailer-shein-s-shares-dive-10-after-subdued-hong-kong-ipo) — Nikkei Asia
 - [Beijing and Washington Can Build AI Safety Despite Mutual Distrust](https://foreignpolicy.com/2026/08/31/china-us-safety-ai-artificial-intelligence-summit-regulation/) — Foreign Policy
 - [Meta accepts U.S. safety rules while pitching softer tools abroad](https://restofworld.org/2026/meta-influencer-campaign-teen-accounts-under-16-social-media-ban/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-
-## 2026-08-31
-
-- [Les think tanks musclent leur jeu en vue de 2027](https://www.politico.eu/article/les-think-tanks-musclent-leur-jeu-en-vue-de-2027/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Will financial innovation dethrone the dollar?](https://www.ft.com/content/1481e787-77dc-4d54-8871-8ffb369e5dd3) — Financial Times
-- [La vida en Irán al paso de la guerra: "He aprendido lo fácil que es que te borren del mundo"](https://www.eldiario.es/internacional/vida-iran-paso-guerra-he-aprendido-facil-borren-mundo_1_13473548.html) — eldiario.es
-- [La visita del jefe de la CIA a Moscú se envuelve en mentiras y medias verdades en plena ‘guerra’ del espionaje ruso en Europa](https://elpais.com/internacional/2026-08-31/la-visita-del-jefe-de-la-cia-a-moscu-se-envuelve-en-mentiras-y-medias-verdades-en-plena-guerra-del-espionaje-ruso-en-europa.html) — EL PAÍS
 
 ## Blocked until 5+ briefings have passed
 
