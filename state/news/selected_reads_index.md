@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-06
+
+- [Why I Want More AI at Dartmouth](https://www.theatlantic.com/ideas/2026/09/universities-prohibiting-ai-classroom/688509/?utm_source=feed) — The Atlantic
+- [Chiang Mai district seeks harmony between 'digital nomads' and locals](https://asia.nikkei.com/business/travel-leisure/chiang-mai-district-seeks-harmony-between-digital-nomads-and-locals) — Nikkei Asia
+- [Trump envoys take Ukraine peace proposal to meeting with Putin](https://www.ft.com/content/9ae2c655-bcf7-4ef2-9a9b-0855248d06a0?syn-25a6b1a6=1) — Financial Times
+- [Rescuers in Nepal find two more people alive after flash flood disaster](https://www.theguardian.com/world/2026/sep/05/rescuers-nepal-find-two-more-people-alive-flood-disaster) — The Guardian
+
 ## 2026-09-05
 
 - [‘RAMageddon’ hits consumer electronics as AI drains chip supply](https://www.ft.com/content/ea9a9dcc-b1df-49b0-b80c-f320161b9efa) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [India, X in censorship row; curbs 'every 68 seconds,' says activist](https://asia.nikkei.com/business/technology/india-x-in-censorship-row-curbs-every-68-seconds-says-activist) — Nikkei Asia
 - [Russia secretly helping Iran develop supersonic cruise missiles](https://www.ft.com/content/6cf367bc-95b0-4f1f-b149-a25684adefc3?syn-25a6b1a6=1) — Financial Times
 - [The Backlash Against Polyester Has Gone Too Far](https://www.theatlantic.com/health/2026/09/natural-fibers-synthetic-polyester-nylon/688488/?utm_source=feed) — The Atlantic
-
-## 2026-09-01
-
-- [Wall Street banks push Big Law to cut fees because of AI](https://www.ft.com/content/5240a6ac-b2e8-4897-a0a4-cbc7fc283bc9?syn-25a6b1a6=1) — Financial Times
-- [Fast-fashion retailer Shein's shares dive 10% after subdued Hong Kong IPO](https://asia.nikkei.com/business/markets/ipo/fast-fashion-retailer-shein-s-shares-dive-10-after-subdued-hong-kong-ipo) — Nikkei Asia
-- [Beijing and Washington Can Build AI Safety Despite Mutual Distrust](https://foreignpolicy.com/2026/08/31/china-us-safety-ai-artificial-intelligence-summit-regulation/) — Foreign Policy
-- [Meta accepts U.S. safety rules while pitching softer tools abroad](https://restofworld.org/2026/meta-influencer-campaign-teen-accounts-under-16-social-media-ban/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
 
 ## Blocked until 5+ briefings have passed
 

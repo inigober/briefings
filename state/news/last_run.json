@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-05",
-  "briefing_date": "2026-09-05",
-  "inbox_date": "2026-09-05",
+  "date": "2026-09-06",
+  "briefing_date": "2026-09-06",
+  "inbox_date": "2026-09-06",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-05.md",
-  "inbox_path": "inbox/news/2026-09-05-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-06.md",
+  "inbox_path": "inbox/news/2026-09-06-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Los 'inmobros' especulan y cobran hasta 2.500 euros por pisos con 8 inquilinos y sin comedor porque las leyes lo permiten",
+      "headline": "La crisis de Ceuta, por dentro: del choque con Casa Real al informe que hizo temer un conflicto mayor con Marruecos",
       "section": "spain",
-      "reason": "one_theme: housing market; kept the blocked housing decree as the legislative beat"
+      "reason": "one_theme / incremental Ceuta chronicle; kept Tuesday's document declassification as the material beat"
     },
     {
-      "headline": "Ceuta trata de convivir con la emergencia mientras cientos de migrantes buscan espacios de acogida",
+      "headline": "Trump, aliado de Marruecos, usa la crisis de Ceuta para irrumpir contra el Gobierno español azuzando la xenofobia",
       "section": "spain",
-      "reason": "one_theme / incremental Ceuta streets; parked in Other Headlines"
+      "reason": "one_theme: Ceuta crisis; parked Trump/Morocco angle in Other Headlines via election/ICC scan"
     },
     {
-      "headline": "Del alcalde de Móstoles a las muertes en las residencias: los frentes judiciales del entorno de Ayuso",
+      "headline": "El maratón de elecciones de los próximos meses puede provocar un vuelco ideológico a escala mundial",
+      "section": "spain",
+      "reason": "geographic_misfit: global election preview, not Spain-primary; parked in Other Headlines"
+    },
+    {
+      "headline": "Feijóo y Ayuso mantienen su entente pese al escándalo del ático",
       "section": "spain",
       "reason": "not_material: investigation continues; incremental to late-August Ayuso coverage"
     },
     {
-      "headline": "Die Lage im Überblick: Vorstoß zu Ende des Ukraine-Kriegs? Trump schickt Vermittler",
+      "headline": "La vuelta al cole en Ceuta: “De material escolar, lo primero es el gas pimienta”",
+      "section": "spain",
+      "reason": "one_theme: Ceuta; parked in Other Headlines"
+    },
+    {
+      "headline": "Iran-Krieg: US-Militär: Angegriffener iranischer Öltanker versenkt",
       "section": "germany",
-      "reason": "geographic_misfit: US-Ukraine mediation, not Germany; parked in Other Headlines"
+      "reason": "geographic_misfit: US-Iran tanker war, not Germany; used FT version in World"
     },
     {
-      "headline": "Pakete ins Ausland: Ärger um EU-Verpackungsregeln - Grüner will Bußgeld-Verzicht",
+      "headline": "Kanada im „Indian Summer“: Cape Breton Island: Musik und Herbstfarben am Cabot Trail",
       "section": "germany",
-      "reason": "deprioritized vs hybrid threats, water deficit, and Sachsen-Anhalt AfD primer; parked in Other Headlines"
+      "reason": "reject slim-time noise: travel feature"
     },
     {
-      "headline": "+++ USA +++: Wegen Kriminalität: Costa Ricas Präsidentin offen für US-Bodentruppen",
-      "section": "germany",
-      "reason": "geographic_misfit: US/Costa Rica newsblog"
-    },
-    {
-      "headline": "WhatsApp-Lücke: Fremde können Ihre Fotos sehen – auch bei gesperrtem Handy",
+      "headline": "Leipzigs Marx-Relief: Marx soll wieder satter aussehen - Frischekur für DDR-Kunst",
       "section": "berlin",
-      "reason": "geographic_misfit: Android consumer-security tip, not Berlin"
+      "reason": "geographic_misfit: Leipzig, not Berlin"
     },
     {
-      "headline": "Putins neue Jet-Drohnen legen Kiew am helllichten Tag lahm",
+      "headline": "Stromterror: Polizei fahndet nach diesem Mann",
       "section": "berlin",
-      "reason": "geographic_misfit: Kyiv air war, not Berlin"
+      "reason": "geographic_misfit / incremental: Brandenburg grid sabotage, covered 2 September and parked 5 September"
     },
     {
-      "headline": "Digitale Rentenübersicht: Fast jeder Zweite scheitert schon bei der Anmeldung",
+      "headline": "Baumaßnahmen: Zugausfälle RE2 und RE20 zwischen Lübbenau und Cottbus",
       "section": "berlin",
-      "reason": "dedup: covered 3 September as germany-digital-pension-overview-login-fail"
+      "reason": "geographic_misfit: Brandenburg rail, no Berlin policy angle"
     },
     {
-      "headline": "Sabotage am Stromnetz: Sprengstoff in Wohnung von Verdächtigem gefunden",
-      "section": "berlin",
-      "reason": "geographic_misfit: Brandenburg Jänschwalde, incremental to 2 September Leipzig/substation story; parked in Other Headlines"
-    },
-    {
-      "headline": "Bloom Energy, Illumina, Everpure to Join S&P 500 This Month",
+      "headline": "Drone attack blamed on guerrillas kills at least three soldiers in Colombia",
       "section": "world",
-      "reason": "thin index-rebalance item vs Japan data centres, Flock, and pesticide study"
+      "reason": "deprioritized vs China graduates, Hormuz tanker strikes, and Brazil coup memoir; parked in Other Headlines"
     },
     {
       "headline": "publisher_pool_thin",
       "section": "berlin",
-      "reason": "publisher_pool_thin: after dropping WhatsApp, weather, Thuringia fires, Kyiv drones, digital pension, Woidke (Brandenburg), national basketball, and Jänschwalde, eligible Berlin-proper items were Tagesspiegel (BSI leak warning; foster families) and rbb24 (BFC Dynamo cup tie)"
+      "reason": "publisher_pool_thin: after dropping Leipzig, national basketball, Brandenburg sabotage, WhatsApp, weather, Thuringia fires, Kyiv drones, and Brandenburg rail, eligible Berlin-proper items were rbb24 (Lichtenberg IT) and Tagesspiegel (departing MPs; pool police calls)"
     }
   ],
-  "notes": "Spain used the frozen housing decree as the non-Ceuta legislative beat, Tardón withholding the police file from Interior as the material Ceuta legal development, and the Iglesias Audiencia Nacional complaint as the only remaining non-housing, non-Ceuta court filing. Germany mixed hybrid-threat survey data, a heat-driven water-deficit finding, and an EL PAÍS Sachsen-Anhalt primer from the Spain feed (geographic fit). Berlin kept the BSI phishing warning after the Landesnetz leak, foster-family demand, and a thin Landespokal result after geo filters emptied the rest of the pool. World balanced Japan AI data centres (East Asia), Flock surveillance (North America), and pesticide poisoning with India as the fatality centre (South Asia)."
+  "notes": "Spain used teachers' strikes as the non-Ceuta legislative beat, Tuesday's Ceuta document declassification as the material enclave development, and the Wittenoom asbestos feature as the only remaining non-Ceuta, non-Ayuso Spain-fit item. Germany mixed Isar Aerospace's orbital launch, the Vodafone/1&1 network dispute (Tagesspiegel copy for a second publisher), and a coming vape-duty rise. Berlin kept Lichtenberg's refusal of Senate post-hack software, departing Abgeordnetenhaus members, and summer pool-police counts after geo filters emptied the rest of the pool. World balanced China graduates vs AI (East Asia), US strikes on Iranian tankers (Middle East), and Baptista Júnior's Bolsonaro-coup memoir (Latin America)."
 }

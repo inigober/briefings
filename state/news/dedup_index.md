@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-06
+
+- **spain-teachers-legislature-strikes** — eldiario.es: the last year of the "teachers' legislature" is opening with strikes over class sizes and hours (section: spain)
+- **spain-ceuta-documents-declassified** — EL PAÍS: Madrid will declassify files on Tuesday to argue nobody foresaw a Ceuta crossing this large (section: spain)
+- **spain-wittenoom-asbestos-emigrants** — EL PAÍS: two 1960s Spanish families recount Wittenoom, the Australian asbestos town linked to more than 2,000 deaths (section: spain)
+- **germany-isar-aerospace-orbit** — Handelsblatt: Isar Aerospace's second test put satellites into Earth orbit (section: germany)
+- **germany-vodafone-1und1-networks** — Tagesspiegel: 1&1 is still blaming Vodafone for its rocky launch as Germany's fourth mobile network (section: germany)
+- **germany-vaping-tax-rise** — Handelsblatt: the federal government is lining up another duty rise on vape flavours after a January increase (section: germany)
+- **berlin-lichtenberg-rejects-senate-it** — rbb24: Lichtenberg is refusing a Senate-hired firm access to its servers after the state-network hack (section: berlin)
+- **berlin-abgeordnetenhaus-five-departing** — Tagesspiegel: five long-serving deputies from Die Linke to the AfD are not standing again (section: berlin)
+- **berlin-pools-391-police-calls** — Tagesspiegel: police went to Berlin outdoor pools 391 times this summer, mostly for thefts (section: berlin)
+- **world-china-graduates-ai-jobs** — The New York Times: a record 12.7 million Chinese graduates are hunting jobs as AI upends the workforce (section: world)
+- **world-us-iran-tanker-strikes** — Financial Times: the US struck three Iranian oil tankers after attacks on its warships (section: world)
+- **world-brazil-baptista-bolsonaro-coup** — The Guardian: former air-force chief Baptista Júnior describes the 2022 meeting meant to stop Bolsonaro's coup (section: world)
+
 ## 2026-09-05
 
 - **spain-housing-decree-ceuta-freeze** — eldiario.es: the housing decree that would revive two-year rent extensions is blocked by Podemos, Junts, and the Ceuta crisis (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-syria-strike-turkey-provocation-risk** — Financial Times: a US envoy says Israel's Syria strike may have been intended to provoke Turkey before elections (section: world)
 - **world-manila-airport-upgrade-growth-test** — Nikkei Asia: Manila is trying to turn its airport from a global embarrassment into an infrastructure upgrade test (section: world)
 - **world-evergrande-founder-life-sentence** — The Guardian: China has jailed Evergrande founder Hui Ka Yan for life after his fraud conviction (section: world)
-
-## 2026-08-22
-
-- **spain-ceuta-economic-revitalisation-plan** — EL PAÍS: Madrid is pairing Ceuta emergency spending with a broader economic revitalisation plan, shifting the enclave crisis toward long-term state support and recovery policy (section: spain)
-- **spain-earthquake-code-granada-warning** — eldiario.es: geologists say Granada's tremors have exposed outdated Spanish seismic planning assumptions and weak preparedness for a larger quake (section: spain)
-- **spain-ayuso-errors-opposition-opening** — EL PAÍS: Ayuso's run of self-inflicted controversies is giving rivals new openings ahead of Spain's 2027 electoral cycle (section: spain)
-- **germany-foreign-worker-pay-gap-persistence** — Tagesspiegel: foreign full-time workers remain far more concentrated in low-paid jobs than German citizens (section: germany)
-- **germany-landline-decline-mobile-substitution** — Handelsblatt: cheaper mobile calling is accelerating the decline of Germany's fixed-line phone habit (section: germany)
-- **germany-rhine-ferries-resume-after-low-water** — Handelsblatt: rising river levels have restored Rhine ferry links after drought-driven disruption during peak season (section: germany)
-- **berlin-union-women-top-flight-start** — rbb24: Union Berlin's women opened their first Bundesliga season with a heavy but encouraging defeat to Bayern (section: berlin)
-- **berlin-outdoor-pools-dog-swim-days** — rbb24: Berlin's baths operator is repurposing some outdoor pools for end-of-season dog-swim days (section: berlin)
-- **berlin-commuter-belt-csd-security-pressure** — Tagesspiegel: the first CSD in Königs Wusterhausen will run under police protection, underscoring rising culture-war pressure in Berlin's commuter belt (section: berlin)
-- **world-qatar-war-spending-cuts** — Financial Times: war-related economic damage is forcing Qatar to cut domestic spending and overseas outlays despite its gas wealth (section: world)
-- **world-mexico-city-little-la-deportees** — The Guardian: deported Mexicans are reshaping a Mexico City neighbourhood into a refuge for returnees from Trump's America (section: world)
-- **world-tokuyama-chip-material-vietnam-malaysia** — Nikkei Asia: Tokuyama's new chip-material production in Vietnam and Malaysia extends semiconductor diversification across south-east Asia (section: world)
