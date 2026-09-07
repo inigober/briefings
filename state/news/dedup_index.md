@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-07
+
+- **spain-pp-vox-50-percent-poll** — EL PAÍS: PP and Vox have broken 50% of the vote together for the first time, amid the Ceuta crisis (section: spain)
+- **spain-mossos-teachers-assembly-spy** — eldiario.es: the Mossos told a judge they keep no file on who ordered two officers to infiltrate a Barcelona teachers' strike assembly (section: spain)
+- **spain-burgos-pp-unlicensed-events** — eldiario.es: a firm tied to Burgos's PP provincial president has hosted weddings in a protected barn without a licence since 2019 (section: spain)
+- **germany-iw-700k-skills-gap** — Die Zeit: the IW says German firms could lack more than 700,000 skilled workers by 2029 (section: germany)
+- **germany-pisa-study-due** — Tagesspiegel: a new PISA release is due after Germany's last poor showing (section: germany)
+- **germany-heat-fires-air-pollution** — Handelsblatt: heatwaves and fires are worsening air quality, including far from burn sites (section: germany)
+- **berlin-landesnetz-new-darknet-dump** — rbb24: a new Landesnetz data packet appeared on the darknet and may restrict Senatsbauverwaltung staff (section: berlin)
+- **berlin-rheinmetall-wedding-protests** — The Berliner: the Rheinmetall factory in Wedding has become a rearmament protest site (section: berlin)
+- **berlin-fabian-children-testimony** — Berliner Zeitung: three children's accounts have put a hole in the Fabian murder timeline (section: berlin)
+- **world-china-54bn-financial-recap** — The Guardian: Beijing is injecting about $54bn into banks and insurers (section: world)
+- **world-us-debt-rates-ai** — Financial Times: US long-term rates near 5% are being read as a threat to the AI boom (section: world)
+- **world-us-ice-liberia-deportations** — EL PAÍS: ICE has been flying Latin American deportees to Liberia, a country they had never heard of (section: world)
+
 ## 2026-09-06
 
 - **spain-teachers-legislature-strikes** — eldiario.es: the last year of the "teachers' legislature" is opening with strikes over class sizes and hours (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-alibaba-10bn-share-sale-ai** — Nikkei Asia: Alibaba shares fell after a $10bn new share sale to fund AI spending (section: world)
 - **world-guinea-conakry-waste-dump-landslide** — The Guardian: a landslide at a Conakry waste dump killed 30 people days after the government promised to move the site (section: world)
 - **world-us-europe-ai-investment-gap** — Financial Times: the US is widening its lead over Europe in spending on high-tech equipment and facilities (section: world)
-
-## 2026-08-23
-
-- **spain-climate-vulnerability-critical-summer** — eldiario.es: scientists say Spain's lethal mix of heat, fire and drought now amounts to a broader climate-vulnerability and state-capacity problem (section: spain)
-- **spain-ayuso-trip-expense-opacity** — eldiario.es: Ayuso's Mexico-trip accounts are under scrutiny after declared expenses diverged sharply from those of officials travelling with her (section: spain)
-- **spain-ceuta-accommodation-politics-school-year** — EL PAÍS: Ceuta is accelerating reception-site planning and trying to calm neighbourhood tensions before the school year starts (section: spain)
-- **germany-afd-voter-types-rooted-electorate** — Die Zeit: new research argues the AfD now draws from three durable voter blocs rather than a mostly protest electorate (section: germany)
-- **germany-oil-price-iran-household-costs** — Tagesspiegel: the Iran standoff is pushing fuel prices higher and turning geopolitical tension into a consumer-cost story in Germany (section: germany)
-- **germany-arctic-shipping-route-practical-test** — Handelsblatt: South Korea's first Arctic freighter to Europe shows the northern route edging into practical logistics planning (section: germany)
-- **berlin-ai-video-surveillance-evers** — Tagesspiegel: Stefan Evers wants wider AI-assisted camera monitoring, making automated policing a core Berlin election issue (section: berlin)
-- **berlin-funkturm-ringbahn-closure-cascade** — rbb24: a 26-hour closure around Dreieck Funkturm is again rippling through both road traffic and the Ringbahn (section: berlin)
-- **berlin-bathing-deaths-water-rescue-pressure** — Tagesspiegel: 14 bathing deaths this summer are putting Berlin's water-rescue volunteers under sharper pressure (section: berlin)
-- **world-syria-strike-turkey-provocation-risk** — Financial Times: a US envoy says Israel's Syria strike may have been intended to provoke Turkey before elections (section: world)
-- **world-manila-airport-upgrade-growth-test** — Nikkei Asia: Manila is trying to turn its airport from a global embarrassment into an infrastructure upgrade test (section: world)
-- **world-evergrande-founder-life-sentence** — The Guardian: China has jailed Evergrande founder Hui Ka Yan for life after his fraud conviction (section: world)

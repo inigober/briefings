@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-07
+
+- [What Was the War on Terror?](https://foreignpolicy.com/2026/09/04/war-on-terror-bush-obama-iraq-afghanistan-al-qaeda-history/) — Foreign Policy
+- [US and China eye Trump-Xi talks on AI guardrails despite tech rift](https://asia.nikkei.com/business/technology/artificial-intelligence/us-and-china-eye-trump-xi-talks-on-ai-guardrails-despite-tech-rift) — Nikkei Asia
+- [Sweden’s fightback against the gangs](https://www.ft.com/content/b2d744cf-de2c-4ef1-84ca-41e897463484?syn-25a6b1a6=1) — Financial Times
+- [Falklands row shows urgent need to commit to 3% target, says Labour defence committee chair](https://www.theguardian.com/politics/2026/sep/06/falklands-row-raise-defence-spending-tan-dhesi-labour) — The Guardian
+
 ## 2026-09-06
 
 - [Why I Want More AI at Dartmouth](https://www.theatlantic.com/ideas/2026/09/universities-prohibiting-ai-classroom/688509/?utm_source=feed) — The Atlantic
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Tumbler Ridge mass shooting victims file 30 new lawsuits against OpenAI](https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting) — The Guardian
 - [Status of Iran’s Nuclear Program Is Unclear, U.N. Watchdog Says](https://www.nytimes.com/2026/09/02/world/middleeast/iran-nuclear-program-iaea.html) — The New York Times
 - [Fixing the AI industry’s PR problem](https://www.ft.com/content/115c886f-23e4-4a8d-9656-5d7fc9480803?syn-25a6b1a6=1) — Financial Times
-
-## 2026-09-02
-
-- [USS Abraham Lincoln arrives at Thai port after gruelling 270 days at sea](https://www.theguardian.com/world/2026/sep/02/uss-abraham-lincoln-arrives-thailand-after-270-days-at-sea) — The Guardian
-- [India, X in censorship row; curbs 'every 68 seconds,' says activist](https://asia.nikkei.com/business/technology/india-x-in-censorship-row-curbs-every-68-seconds-says-activist) — Nikkei Asia
-- [Russia secretly helping Iran develop supersonic cruise missiles](https://www.ft.com/content/6cf367bc-95b0-4f1f-b149-a25684adefc3?syn-25a6b1a6=1) — Financial Times
-- [The Backlash Against Polyester Has Gone Too Far](https://www.theatlantic.com/health/2026/09/natural-fibers-synthetic-polyester-nylon/688488/?utm_source=feed) — The Atlantic
 
 ## Blocked until 5+ briefings have passed
 
