@@ -18,8 +18,10 @@ from datetime import datetime, timezone
 import requests
 
 from briefing_paths import load_briefing_type
-from culture_url_verify import check_url_live
+from culture_url_verify import check_url_live, is_transient_verify_note
 from validate_culture_briefing import parse_entries
+
+DEFAULT_SECOND_PASS_DELAY_SECONDS = 3.0
 
 OFFICIAL_LINK_RE = re.compile(
     r"^\*\*Official Link:\*\*\s*\[[^\]]*\]\((https?://[^)\s]+)\)",
@@ -50,6 +52,7 @@ def verify_culture_briefing_urls(
     *,
     session: requests.Session | None = None,
     sleep_ms: int = 80,
+    second_pass_delay_seconds: float = DEFAULT_SECOND_PASS_DELAY_SECONDS,
 ) -> tuple[list[str], list[tuple[str, str]]]:
     sess = session or requests.Session()
     live: list[str] = []
@@ -62,7 +65,29 @@ def verify_culture_briefing_urls(
             live.append(url)
         else:
             dead.append((url, note or "unreachable"))
-    return live, dead
+
+    transient = [(url, note) for url, note in dead if is_transient_verify_note(note)]
+    if not transient:
+        return live, dead
+
+    if second_pass_delay_seconds > 0:
+        time.sleep(second_pass_delay_seconds)
+
+    still_dead: list[tuple[str, str]] = []
+    recovered = 0
+    for url, note in dead:
+        if not is_transient_verify_note(note):
+            still_dead.append((url, note))
+            continue
+        ok, retry_note = check_url_live(url, session=sess)
+        if ok:
+            live.append(url)
+            recovered += 1
+        else:
+            still_dead.append((url, retry_note or note))
+    if recovered:
+        log(f"Second pass recovered {recovered} previously unreachable Official Link(s)")
+    return live, still_dead
 
 
 def resolve_briefing_path(
@@ -96,6 +121,12 @@ def main() -> int:
         help="Delay between HTTP checks (default: 80ms)",
     )
     parser.add_argument(
+        "--second-pass-delay",
+        type=float,
+        default=DEFAULT_SECOND_PASS_DELAY_SECONDS,
+        help="Seconds to wait before re-checking timed-out Official Links (default: 3)",
+    )
+    parser.add_argument(
         "--skip-missing-check",
         action="store_true",
         help="Do not fail when an entry lacks an Official Link",
@@ -127,7 +158,15 @@ def main() -> int:
         return 1 if entries else 0
 
     log(f"HTTP-checking {len(urls)} Official Link(s) in {briefing_path}...")
-    live, dead = verify_culture_briefing_urls(urls, sleep_ms=args.sleep_ms)
+    second_pass_delay = args.second_pass_delay
+    if args.sleep_ms <= 0 and args.second_pass_delay == DEFAULT_SECOND_PASS_DELAY_SECONDS:
+        # Tests pass --sleep-ms 0; keep the run fast and skip the pause.
+        second_pass_delay = 0.0
+    live, dead = verify_culture_briefing_urls(
+        urls,
+        sleep_ms=args.sleep_ms,
+        second_pass_delay_seconds=second_pass_delay,
+    )
 
     if dead:
         log(f"FAIL: {len(dead)} unreachable Official Link(s) in {briefing_path.name}:")

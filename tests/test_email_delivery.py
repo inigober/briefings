@@ -7,6 +7,7 @@ import json
 import sys
 import tempfile
 import unittest
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import patch
 
@@ -21,14 +22,21 @@ from email_delivery import (  # noqa: E402
 )
 
 
+def _utc_today():
+    return datetime.now(timezone.utc).date()
+
+
 class TestEmailDelivery(unittest.TestCase):
     def test_record_and_find_undelivered(self) -> None:
+        today = _utc_today()
+        delivered_day = today - timedelta(days=1)
+        missing_day = today - timedelta(days=3)
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp).resolve()
             briefings = root / "briefings" / "berlin-culture"
             briefings.mkdir(parents=True)
-            delivered = briefings / "2026-08-06.md"
-            missing = briefings / "2026-08-04.md"
+            delivered = briefings / f"{delivered_day.isoformat()}.md"
+            missing = briefings / f"{missing_day.isoformat()}.md"
             delivered.write_text("# ok\n", encoding="utf-8")
             missing.write_text("# missing email\n", encoding="utf-8")
 
@@ -37,7 +45,7 @@ class TestEmailDelivery(unittest.TestCase):
             log_path.write_text(
                 json.dumps(
                     {
-                        "started_at": "2026-08-04T00:00:00+00:00",
+                        "started_at": f"{missing_day.isoformat()}T00:00:00+00:00",
                         "deliveries": [],
                     }
                 )
@@ -59,18 +67,49 @@ class TestEmailDelivery(unittest.TestCase):
                 self.assertEqual(len(data["deliveries"]), 1)
                 self.assertEqual(
                     data["deliveries"][0]["path"],
-                    "briefings/berlin-culture/2026-08-06.md",
+                    f"briefings/berlin-culture/{delivered_day.isoformat()}.md",
                 )
 
                 undelivered = find_undelivered_briefings(
-                    lookback_days=30,
+                    lookback_days=14,
                     log_path=log_path,
                     repo_root=root,
                 )
                 self.assertEqual(
                     [p.name for p in undelivered],
-                    ["2026-08-04.md"],
+                    [f"{missing_day.isoformat()}.md"],
                 )
+
+    def test_lookback_excludes_old_undelivered(self) -> None:
+        today = _utc_today()
+        old_day = today - timedelta(days=40)
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp).resolve()
+            briefings = root / "briefings" / "berlin-culture"
+            briefings.mkdir(parents=True)
+            old = briefings / f"{old_day.isoformat()}.md"
+            old.write_text("# old\n", encoding="utf-8")
+
+            log_path = root / "state" / "email_delivery.json"
+            log_path.parent.mkdir(parents=True)
+            log_path.write_text(
+                json.dumps(
+                    {
+                        "started_at": f"{old_day.isoformat()}T00:00:00+00:00",
+                        "deliveries": [],
+                    }
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+
+            with patch("email_delivery.load_manifest", return_value={"berlin-culture": {}}):
+                undelivered = find_undelivered_briefings(
+                    lookback_days=30,
+                    log_path=log_path,
+                    repo_root=root,
+                )
+            self.assertEqual(undelivered, [])
 
 
 if __name__ == "__main__":

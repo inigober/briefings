@@ -17,17 +17,51 @@ from culture_schedule import (
     is_archive_page_year,
 )
 
-DEFAULT_TIMEOUT_SECONDS = 12
+DEFAULT_TIMEOUT_SECONDS = 20
 DEFAULT_SLEEP_MS = 80
 DEFAULT_BODY_MAX_BYTES = 120_000
-DEFAULT_URL_RETRIES = 3
-DEFAULT_RETRY_DELAY_SECONDS = 1.0
+DEFAULT_URL_RETRIES = 4
+DEFAULT_RETRY_DELAY_SECONDS = 1.5
 USER_AGENT = "Mozilla/5.0 (compatible; BriefingBot/1.0)"
+
+_TRANSIENT_NOTE_MARKERS = (
+    "max retries exceeded",
+    "timed out",
+    "timeout",
+    "temporarily",
+    "remote end closed",
+    "connectionreset",
+    "connecttimeout",
+    "readtimeout",
+    "sslerror",
+    "eof occurred",
+    "broken pipe",
+    "connection aborted",
+    "connection refused",
+    "connection reset",
+    "name or service not known",
+    "temporary failure in name resolution",
+    "httpsconnectionpool",
+    "httpconnectionpool",
+)
 
 
 def _is_retryable_http_status(status_code: int) -> bool:
     """Retry transient gateway/server errors; never retry clear not-found."""
     return status_code in {408, 425, 429, 500, 502, 503, 504}
+
+
+def is_transient_verify_note(note: str) -> bool:
+    """True when a dead-URL note is likely a blip (timeout/connect), not a 404."""
+    text = (note or "").strip()
+    if text.startswith("HTTP "):
+        try:
+            code = int(text.split()[1])
+        except (IndexError, ValueError):
+            return False
+        return _is_retryable_http_status(code)
+    lowered = text.lower()
+    return any(marker in lowered for marker in _TRANSIENT_NOTE_MARKERS)
 
 
 def check_url_live(
@@ -36,8 +70,13 @@ def check_url_live(
     session: requests.Session | None = None,
     retries: int = DEFAULT_URL_RETRIES,
     retry_delay_seconds: float = DEFAULT_RETRY_DELAY_SECONDS,
+    timeout: float | tuple[float, float] = DEFAULT_TIMEOUT_SECONDS,
 ) -> tuple[bool, str]:
-    """HEAD/GET a URL; retry transient connection / 5xx failures."""
+    """HEAD/GET a URL; retry transient connection / 5xx failures.
+
+    If HEAD raises (timeout, connection reset), try GET on the same attempt —
+    some venue sites answer GET and stall or drop HEAD.
+    """
     parsed = urlparse((url or "").strip())
     if parsed.scheme not in ("http", "https"):
         return False, "invalid scheme"
@@ -49,16 +88,20 @@ def check_url_live(
 
     for attempt in range(attempts):
         try:
-            response = sess.head(
-                url,
-                timeout=DEFAULT_TIMEOUT_SECONDS,
-                headers=headers,
-                allow_redirects=True,
-            )
-            if response.status_code >= 400 or response.status_code == 0:
+            response = None
+            try:
+                response = sess.head(
+                    url,
+                    timeout=timeout,
+                    headers=headers,
+                    allow_redirects=True,
+                )
+            except requests.RequestException:
+                response = None
+            if response is None or response.status_code >= 400 or response.status_code == 0:
                 response = sess.get(
                     url,
-                    timeout=DEFAULT_TIMEOUT_SECONDS,
+                    timeout=timeout,
                     headers=headers,
                     allow_redirects=True,
                     stream=True,

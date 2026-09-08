@@ -51,7 +51,7 @@ class TestVerifyCultureBriefingUrlsCli(unittest.TestCase):
             path = Path(tmp) / "2026-07-28.md"
             path.write_text(SAMPLE, encoding="utf-8")
 
-            def fake_live(url: str, *, session=None):  # noqa: ANN001
+            def fake_live(url: str, **_kwargs):  # noqa: ANN001
                 if url.rstrip("/").endswith("/programm"):
                     return False, "HTTP 404"
                 return True, ""
@@ -94,6 +94,52 @@ class TestVerifyCultureBriefingUrlsCli(unittest.TestCase):
             ):
                 code = verify_culture_briefing_urls.main()
         self.assertEqual(code, 1)
+
+
+class TestVerifyCultureBriefingSecondPass(unittest.TestCase):
+    def test_second_pass_recovers_connection_timeout(self) -> None:
+        urls = [
+            "https://example.com/events/show-a",
+            "https://www.smb.museum/en/exhibitions/sakamoto",
+        ]
+        calls: dict[str, int] = {}
+
+        def fake_live(url: str, **_kwargs):  # noqa: ANN001
+            calls[url] = calls.get(url, 0) + 1
+            if "smb.museum" in url and calls[url] == 1:
+                return False, (
+                    "HTTPSConnectionPool(host='www.smb.museum', port=443): "
+                    "Max retries exceeded with url: /en/exhibitions/sakamoto"
+                )
+            return True, ""
+
+        with patch("verify_culture_briefing_urls.check_url_live", side_effect=fake_live):
+            live, dead = verify_culture_briefing_urls.verify_culture_briefing_urls(
+                urls,
+                sleep_ms=0,
+                second_pass_delay_seconds=0,
+            )
+        self.assertEqual(dead, [])
+        self.assertEqual(len(live), 2)
+        self.assertEqual(calls[urls[1]], 2)
+
+    def test_second_pass_does_not_recheck_http_404(self) -> None:
+        urls = ["https://example.com/gone"]
+        calls: list[str] = []
+
+        def fake_live(url: str, **_kwargs):  # noqa: ANN001
+            calls.append(url)
+            return False, "HTTP 404"
+
+        with patch("verify_culture_briefing_urls.check_url_live", side_effect=fake_live):
+            live, dead = verify_culture_briefing_urls.verify_culture_briefing_urls(
+                urls,
+                sleep_ms=0,
+                second_pass_delay_seconds=0,
+            )
+        self.assertEqual(live, [])
+        self.assertEqual(len(dead), 1)
+        self.assertEqual(calls, urls)
 
 
 if __name__ == "__main__":
