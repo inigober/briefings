@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-08
+
+- **spain-casa-47-housing-portal** — eldiario.es: Sánchez launched Casa 47, a booking portal for the first 800 state flats (section: spain)
+- **spain-isglobal-wealth-tax-lives** — eldiario.es: ISGlobal says a 3% tax on hundred-millionaires could fund aid that saves up to 30 million lives by 2030 (section: spain)
+- **spain-ceuta-journalists-attacks** — EL PAÍS: insults and threats against reporters have become routine in Ceuta's protest week (section: spain)
+- **germany-ines-cold-winter-gas-shortage** — Handelsblatt: new INES data say a very cold winter could leave customers short of gas (section: germany)
+- **germany-heat-deaths-16000** — Handelsblatt: at least 16,000 heat deaths in Germany so far this year (section: germany)
+- **germany-wagenknecht-chrupalla-lanz** — Tagesspiegel: Wagenknecht and AfD leader Chrupalla both ruled out governing together on Lanz (section: germany)
+- **berlin-trend-youth-linke-38** — rbb24: 16- to 34-year-olds feel poorly represented; Die Linke is on 38% in that group (section: berlin)
+- **berlin-olympiabad-106m** — rbb24: an Olympics swimming rebuild at the Olympiastadion pool is costed at €106 million (section: berlin)
+- **berlin-csd-memorial-tree** — The Berliner: a CSD victims' memorial tree was torn out after a rainbow bench was wrecked (section: berlin)
+- **world-china-exports-25-ai** — Financial Times: China's August exports jumped 25%, tied to the AI build-out (section: world)
+- **world-anthropic-openai-ig-ratings** — Financial Times: bankers want investment-grade ratings for Anthropic and OpenAI after IPO (section: world)
+- **world-russia-nk-tumen-road-bridge** — The Guardian: Russia and North Korea opened their first road bridge across the Tumen (section: world)
+
 ## 2026-09-07
 
 - **spain-pp-vox-50-percent-poll** — EL PAÍS: PP and Vox have broken 50% of the vote together for the first time, amid the Ceuta crisis (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-nichias-tsmc-chip-tubes-taiwan** — Nikkei Asia: TSMC supplier Nichias plans to build key chipmaking tubes in Taiwan (section: world)
 - **world-uae-ai-cyber-defense-iran-war** — Rest of World: the UAE is building a homegrown AI security industry after cyberattacks on banks, aviation and energy rose with the Iran war (section: world)
 - **world-colombia-espriella-immigration-crackdown** — The Guardian: Colombia's new far-right president Abelardo de la Espriella has ordered a detention and deportation crackdown during the earthquake aftermath (section: world)
-
-## 2026-08-24
-
-- **spain-housing-prices-doubled-12-year-climb** — EL PAÍS: Spanish house prices have doubled after 48 straight quarterly rises since 2014 and have passed the old bubble peak in 16 regions (section: spain)
-- **spain-garzon-un-appeal-courts-reject** — eldiario.es: Spanish courts have rejected Baltasar Garzón's attempt to undo his conviction after a UN committee found he was denied a fair trial (section: spain)
-- **spain-feijoo-ceuta-public-health-confinement** — EL PAÍS: Feijóo is framing Ceuta as a public-health emergency and demanding confinement; the health ministry calls the demand excessive (section: spain)
-- **germany-china-cheap-imports-no-response** — Handelsblatt: Europe's goods deficit with China is at a record and German industry is absorbing the hit, but the government still lacks a response (section: germany)
-- **germany-micro-cars-youth-safety-gap** — Handelsblatt: low-speed micro-cars that 15-year-olds may drive are spreading faster than their crash-safety rules (section: germany)
-- **germany-sea-drones-lng-terminal-risk** — Tagesspiegel: a sea drone near Romania's Neptun Alpha platform has pushed attention onto the vulnerability of German LNG terminals (section: germany)
-- **berlin-school-building-offensive-10-years** — Tagesspiegel: ten years and about €7 billion into Berlin's Schulbauoffensive have added 62,000 school places and 160 new buildings (section: berlin)
-- **berlin-fez-wuhlheide-renovation-backlog** — Tagesspiegel: the FEZ youth centre in Wuhlheide is nearly 50 years old and lacks a clear owner for a growing renovation bill (section: berlin)
-- **berlin-tierpark-przewalski-horse-cover-up** — Tagesspiegel: the Tierpark concealed the death of a Przewalski's horse before a flagship Kazakhstan reintroduction trip (section: berlin)
-- **world-alibaba-10bn-share-sale-ai** — Nikkei Asia: Alibaba shares fell after a $10bn new share sale to fund AI spending (section: world)
-- **world-guinea-conakry-waste-dump-landslide** — The Guardian: a landslide at a Conakry waste dump killed 30 people days after the government promised to move the site (section: world)
-- **world-us-europe-ai-investment-gap** — Financial Times: the US is widening its lead over Europe in spending on high-tech equipment and facilities (section: world)

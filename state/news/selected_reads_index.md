@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-08
+
+- [25 Years After 9/11, What Are We Failing to Imagine Now?](https://foreignpolicy.com/2026/09/07/9-11-failure-of-imagination-new-terrorist-technologies/) — Foreign Policy
+- [Australia's Firmus inks compute deal with OpenAI for Malaysian data centers](https://asia.nikkei.com/business/technology/australia-s-firmus-inks-compute-deal-with-openai-for-malaysian-data-centers) — Nikkei Asia
+- [AI is ushering in an era of mass toe-treading at work](https://www.ft.com/content/ed214778-2a6d-4862-99b5-abc256daff92?syn-25a6b1a6=1) — Financial Times
+- [Weather tracker: Typhoon Saudel causes mass evacuations in south-east China](https://www.theguardian.com/world/2026/sep/07/typhoon-saudel-mass-evacuations-south-east-china-weather-tracker) — The Guardian
+
 ## 2026-09-07
 
 - [What Was the War on Terror?](https://foreignpolicy.com/2026/09/04/war-on-terror-bush-obama-iraq-afghanistan-al-qaeda-history/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Ukraine’s Mood Swing](https://foreignpolicy.com/2026/09/03/ukraine-war-zelensky-corrupton-scandal-cabinet-election/) — Foreign Policy
 - [America must learn AI lessons from Astro Boy](https://www.ft.com/content/68751904-522a-41cc-85e0-08015fe75059?syn-25a6b1a6=1) — Financial Times
 - [Pakistan's 5G rollout faces user criticism, power constraints](https://asia.nikkei.com/business/telecommunication/pakistan-s-5g-rollout-faces-user-criticism-power-constraints) — Nikkei Asia
-
-## 2026-09-03
-
-- [James Orr and the gospel of the new British right](https://www.ft.com/content/c2d02f83-a5a0-4c46-adad-1bd8b70b7ea1?syn-25a6b1a6=1) — Financial Times
-- [Tumbler Ridge mass shooting victims file 30 new lawsuits against OpenAI](https://www.theguardian.com/world/2026/sep/02/openai-lawsuits-tumbler-ridge-mass-shooting) — The Guardian
-- [Status of Iran’s Nuclear Program Is Unclear, U.N. Watchdog Says](https://www.nytimes.com/2026/09/02/world/middleeast/iran-nuclear-program-iaea.html) — The New York Times
-- [Fixing the AI industry’s PR problem](https://www.ft.com/content/115c886f-23e4-4a8d-9656-5d7fc9480803?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

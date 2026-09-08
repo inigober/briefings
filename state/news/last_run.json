@@ -1,53 +1,48 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-07",
-  "briefing_date": "2026-09-07",
-  "inbox_date": "2026-09-07",
+  "date": "2026-09-08",
+  "briefing_date": "2026-09-08",
+  "inbox_date": "2026-09-08",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-07.md",
-  "inbox_path": "inbox/news/2026-09-07-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-08.md",
+  "inbox_path": "inbox/news/2026-09-08-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Los audios del caso Leire Díez: \"Me está tomando el pelo\", \"habla por los codos\" y \"conoce a todos\"",
+      "headline": "El juzgado cita a Bolaños y Aldama a una audiencia como paso previo al juicio contra el comisionista por difamación",
       "section": "spain",
-      "reason": "avoid_unless_material: PSOE scandals / investigation continues; parked tapes in Other Headlines"
+      "reason": "avoid_unless_material: PSOE scandals / hearing is not a ruling; parked in Other Headlines"
     },
     {
-      "headline": "La extraña vuelta al cole en Ceuta: \"Mi hijo irá a clase aunque sea solo, no entiendo el pánico colectivo\"",
-      "section": "spain",
-      "reason": "one_theme: Ceuta; kept the first-time PP+Vox 50% poll as the material beat; school restart in Other Headlines"
-    },
-    {
-      "headline": "PP y Vox votan lo mismo en el Congreso ocho de cada diez veces en la legislatura",
-      "section": "spain",
-      "reason": "one_theme: PP–Vox alignment; kept the 50% vote-share poll"
-    },
-    {
-      "headline": "Lo que esconde el ático de Ayuso",
+      "headline": "La oposición se prepara para el choque total con Ayuso tras la polémica del ático: \"Es un punto de inflexión\"",
       "section": "spain",
       "reason": "not_material: investigation continues; incremental to late-August Ayuso coverage"
     },
     {
-      "headline": "El 90% de la sociedad española culpa a Marruecos de la crisis de Ceuta",
+      "headline": "El PP constata una fuerte reacción social por Ceuta, pero sus barones advierten: “El beneficiado puede ser Vox”",
       "section": "spain",
-      "reason": "one_theme: same Ceuta poll package as the 50% right-bloc result"
+      "reason": "one_theme: same Ceuta electoral beat as the 7 September PP+Vox 50% poll"
     },
     {
-      "headline": "Rekapitalisierung: China kündigt Kapitalspritze für Banken und Versicherer an",
+      "headline": "El Gobierno desclasificará este martes los informes que recibió sobre Ceuta entre el 1 de julio y el 1 de agosto",
+      "section": "spain",
+      "reason": "already briefed 6 September (Tuesday declassify); files not public until Wednesday"
+    },
+    {
+      "headline": "Una niña ceutí que participaba en una protesta en Ceuta es acosada por otros manifestantes: \"Invasora, tienes tuberculosis\"",
+      "section": "spain",
+      "reason": "one_theme: Ceuta street hostility; kept journalists-under-attack for publisher diversity; parked in Other Headlines"
+    },
+    {
+      "headline": "Energieversorgung: Verband: Komplett leere Gasspeicher im Februar sind möglich",
       "section": "germany",
-      "reason": "geographic_misfit: China financial recap; used Guardian version in World"
+      "reason": "one_theme: same INES winter-gas package as the cold-winter shortage data"
     },
     {
-      "headline": "Fachkräfte: Wer berät die Kunden, wenn 39.000 Verkäufer fehlen?",
+      "headline": "Nikkei, Kopsi, CSI 300: Zinsspekulationen in Japan treiben Yen an – Asiens Börsen ohne klare Richtung",
       "section": "germany",
-      "reason": "one_theme: same IW skills-gap study as the Zeit 700,000 figure"
-    },
-    {
-      "headline": "Stromterror: Polizei fahndet nach diesem Fahrradfahrer",
-      "section": "berlin",
-      "reason": "geographic_misfit / incremental: Brandenburg grid sabotage, covered 2 and 5 September"
+      "reason": "geographic_misfit: Japan/Asia markets; yen parked in Other Headlines"
     },
     {
       "headline": "Unwetter in Brandenburg: Eine Frau stirbt – Bahnstrecken bei Cottbus wieder frei",
@@ -55,20 +50,25 @@
       "reason": "geographic_misfit: Brandenburg storm, no Berlin policy angle"
     },
     {
-      "headline": "Latest Oil Market News and Analysis for September 7",
-      "section": "world",
-      "reason": "incremental to 6 September Hormuz tanker strikes; parked restricted-zone/oil follow in Other Headlines"
+      "headline": "Stromterror: Polizei fahndet nach diesem Fahrradfahrer",
+      "section": "berlin",
+      "reason": "geographic_misfit / incremental: Brandenburg grid sabotage, covered 2 and 5 September"
     },
     {
-      "headline": "Drone attack blamed on guerrillas kills at least three soldiers in Colombia",
-      "section": "world",
-      "reason": "already in 6 September Other Headlines; not a material escalation"
+      "headline": "Spitzenkandidat im rbb24-Interview: Evers schließt Zusammenarbeit mit AfD aus",
+      "section": "berlin",
+      "reason": "one_theme: Berlin election with BerlinTrend youth poll; parked in Other Headlines"
     },
     {
-      "headline": "Sweden’s fightback against the gangs",
+      "headline": "Falklands row shows urgent need to commit to 3% target, says Labour defence committee chair",
       "section": "world",
-      "reason": "deprioritized vs China recap, US debt/AI, and Liberia deportations (region mix); used as Selected Read"
+      "reason": "already a Selected Read on 7 September"
+    },
+    {
+      "headline": "Australia's Firmus inks compute deal with OpenAI for Malaysian data centers",
+      "section": "world",
+      "reason": "one_theme: AI compute build-out vs China export print; used as Selected Read"
     }
   ],
-  "notes": "Spain used the first-time PP+Vox 50% poll as the Ceuta-week electoral beat, the Mossos' admission they keep no file on a teachers-assembly infiltration, and the Burgos unlicensed-events case as the only remaining non-Ceuta, non-Ayuso, non-PSOE-scandal Spain-fit item. Germany mixed the IW 700,000 skills-gap study, an upcoming PISA release, and heat/fire air-quality science after dropping China recap (World), the sales-only Fachkräfte duplicate, and travel/sport. Berlin kept the new Landesnetz darknet dump, Rheinmetall protests in Wedding, and Fabian-trial testimony after geo filters emptied Brandenburg sabotage and storm items. World balanced China's $54bn bank/insurer recap (East Asia), US debt vs the AI boom (North America), and ICE flights of Latin American deportees to Liberia (Africa)."
+  "notes": "Spain used Casa 47 (new state housing portal), the ISGlobal wealth-tax study, and Ceuta press intimidation after dropping the PP+Vox/declassify sequels, Ayuso/Bolaños scandal tracks, and the girl-harassment item (Other Headlines). Germany mixed new INES cold-winter gas data, the 16,000 heat-death tally (elevated despite rank_below_cap because the eligible DE pool was thin after geo/dedup filters; publisher_pool_thin — only Handelsblatt and Tagesspiegel remained), and the Wagenknecht–Chrupalla Lanz appearance. Berlin kept the youth/Linke BerlinTrend, the €106m Olympiabad rebuild, and the CSD memorial-tree attack after geo filters emptied Brandenburg items. World balanced China's 25% August export jump (East Asia), Anthropic/OpenAI IG-rating push (North America), and the Russia–North Korea Tumen road bridge (East Asia)."
 }
