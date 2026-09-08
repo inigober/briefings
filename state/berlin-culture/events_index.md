@@ -29,17 +29,6 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-08-18 | advance_radar | Josef Kaiser. Bauen für die DDR | Alte Jakobstr. 124-128, 10969 Berlin | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
 2026-08-18 | advance_radar | Ruba Al-Sweel, Arvin Arta, Dana Dawud, Noura Tafeche and Zein Majali Short Film Screening | Frankfurter Tor 1, 10243 Berlin | https://www.indexberlin.com/events/list/44942/short-film-screening
 2026-08-18 | advance_radar | Itchi Fleischer Unzucht – Kiss the Devil’s Arse | Weigandufer, corner of Wildenbruchbrücke, next to the mooring, 12045 Berlin | https://www.indexberlin.com/events/list/44861/unzucht-kiss-the-devil-s-arse
-2026-07-07 | top_picks | Heroines of Sound Festival 2026 | Radialsystem | https://www.radialsystem.de/de/programm/programm/
-2026-07-07 | top_picks | Concert-Week — Kyiv Biennial at KW | KW Institute for Contemporary Art | https://www.indexberlin.com/events/list/44797/concert-week
-2026-07-07 | top_picks | Wanda (Barbara Loden) | Wolf Kino | https://wolfberlin.org/de/programm/filme/wanda
-2026-07-07 | exhibitions | Luis in friendly company | carlier | gebauer | https://www.indexberlin.com/exhibitions/list/43310/luis-in-friendly-company
-2026-07-07 | exhibitions | Cruising Territories | Zilberman | https://www.indexberlin.com/exhibitions/list/43562/cruising-territories
-2026-07-07 | film | Etwas Ganz Besonderes (Eva Trobisch) | Wolf Kino | https://wolfberlin.org/de/programm/filme/etwas-ganz-besonderes
-2026-07-07 | music | Samba Jean-Baptiste + Static Cleaner Lost Reward (Tarquin Manek) | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/2026/7
-2026-07-07 | wildcards | Ea Torrado — Brown Madonna: Apparition as Embodied Practice | SAVVY Contemporary | https://www.indexberlin.com/events/list/44871/brown-madonna-apparition-as-embodied-practice
-2026-07-07 | wildcards | Phelan O'Hara — Towards Childhood | Galerie Michael Haas | https://www.indexberlin.com/events/list/44473/towards-childhood
-2026-07-07 | advance_radar | Forecast Festival 2026 | Radialsystem | https://www.indexberlin.com/events/list/44862/forecast-festival-2026
-2026-07-07 | advance_radar | Bjørn Melhus — LOST IN FINITY | silent green Kulturquartier | https://www.indexberlin.com/events/list/44517/lost-in-finity
 2026-07-14 | top_picks | Forecast Festival 2026 | Radialsystem | https://www.radialsystem.de/en/veranstaltungen/forecast-festival-2026/
 2026-07-14 | top_picks | Bjørn Melhus: LOST IN FINITY | silent green Kulturquartier | https://www.silent-green.net/en/programme/detail/bjoern-melhus-lost-in-finity?tx_news_pi1%5Bday%5D=17&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=23e6da090cfa4998b5d5332562aea309
 2026-07-14 | top_picks | Deutschlandpremiere: Only Ghosts in the Waves + Gespräch | Wolf Kino | https://wolfberlin.org/de/programm
@@ -113,3 +102,17 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-09-01 | advance_radar | Trisha Brown: Walking on the Wall (1971) | Neue Nationalgalerie | https://www.indexberlin.com/events/list/45811/trisha-brown-walking-on-the-wall-1971
 2026-09-01 | advance_radar | R E C O R D I N G T H E G A Z E | Sammlung Hackelsberger_____cabinet, Elisabethkirchstraße 16 | https://www.indexberlin.com/events/list/45364/r-e-c-o-r-d-i-n-g-t-h-e-g-a-z-e
 2026-09-01 | advance_radar | correct me if I’m foreign | Berlin Art Institute | https://www.indexberlin.com/events/list/44774/correct-me-if-i-m-foreign
+2026-09-08 | top_picks | Ryuichi Sakamoto — seeing sound, hearing time | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.smb.museum/en/museums-institutions/hamburger-bahnhof/exhibitions/detail/ryuichi-sakamoto/
+2026-09-08 | top_picks | Trisha Brown: Walking on the Wall (1971) | Neue Nationalgalerie | https://www.indexberlin.com/events/list/45811/trisha-brown-walking-on-the-wall-1971
+2026-09-08 | top_picks | Jasna L. Vinovrški — SKRB (CARE) - three shift system | Uferstudios 1, Tanzfabrik Berlin | https://www.tanzfabrik-berlin.de/en/events/3473/2026-09-12-19-00
+2026-09-08 | exhibitions | Kreuzberg: Kunst und Migration seit 1960 | Gropius Bau | https://www.indexberlin.com/events/list/45777/kreuzberg-kunst-und-migration-seit-1960
+2026-09-08 | exhibitions | R E C O R D I N G T H E G A Z E | Sammlung Hackelsberger_____cabinet, Elisabethkirchstraße 16 | https://www.indexberlin.com/events/list/45364/r-e-c-o-r-d-i-n-g-t-h-e-g-a-z-e
+2026-09-08 | exhibitions | correct me if I’m foreign | Berlin Art Institute | https://www.indexberlin.com/events/list/44774/correct-me-if-i-m-foreign
+2026-09-08 | film | filmPOLSKA: Kunst im Kino — Fairy Tales / Focus Katarzyna Kozyra | Wolf Kino | https://wolfberlin.org/en/programme/events/filmpolska-kunst-im-kino
+2026-09-08 | film | Matt Lambert — If You Can Reach My Heart You Can Keep It | Julia Stoschek Foundation Berlin | https://www.indexberlin.com/events/list/45760/matt-lambert-if-you-can-reach-my-heart-you-can-keep-it-berlin-video-film-archives-2011-2026-live-trace-polly-bleach-special-guests
+2026-09-08 | performing_arts | July Weber — ILLUSIONS_bones&keys | Uferstudios 14, Tanzfabrik Berlin | https://www.tanzfabrik-berlin.de/en/events/3472/2026-09-12-16-00
+2026-09-08 | music | Katokye | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/katokye?tx_news_pi1%5Bday%5D=10&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=25a19d35ea995ac5c08085791c21b6f5
+2026-09-08 | music | Transgressive Memory Festival: Resynthesising the Traditional | silent green Kulturquartier, Betonhalle | https://www.silent-green.net/en/programme/detail/transgressive-memory-festival-resynthesising-the-traditional?tx_news_pi1%5Bday%5D=12&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=c15e233becfde6837f8828a6907acefa
+2026-09-08 | wildcards | Hannah Hallermann — SEWING | Marburger Straße 3, Charlottenburg | https://www.indexberlin.com/events/list/45290/sewing
+2026-09-08 | advance_radar | A K Dolven — four hundred million years of sunrise from the dark | St. Matthäus-Kirche | https://www.indexberlin.com/events/list/45273/four-hundred-million-years-of-sunrise-from-the-dark
+2026-09-08 | advance_radar | Polina Osipova — Cosmologies at Play | Neun Kelche | https://www.indexberlin.com/events/list/44754/cosmologies-at-play
