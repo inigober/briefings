@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-09
+
+- **spain-supremo-ley-nietos-vote-freeze** — EL PAÍS: the Supreme Court issued a precautionary ban on voting for many people nationalised under the grandchildren law (section: spain)
+- **spain-pisa-2025-high-income-drop** — eldiario.es: Spain's PISA drop is worse than peers' and sharpest among high earners (section: spain)
+- **spain-consular-collapse-ley-nietos** — EL PAÍS: more than 2.4 million grandchildren-law filings are stuck, with Cuba the worst bottleneck (section: spain)
+- **germany-pisa-21tn-education-miss** — Handelsblatt: centrists are billed for a multi-trillion education miss after the latest learning slide (section: germany)
+- **germany-tuev-22-percent-nutzfahrzeuge** — Tagesspiegel: about 22% of commercial vehicles are failing their TÜV checks as the fleet ages (section: germany)
+- **germany-glp1-tax-deduction-490** — Handelsblatt: weight-loss shots can cut the tax bill by up to €490 a month (section: germany)
+- **berlin-chialo-wedl-wilson-grants** — Tagesspiegel: ex-culture senator Chialo may have to testify against successor Wedl-Wilson in a grants probe (section: berlin)
+- **berlin-friedrichshain-grenades-storage** — rbb24: police found twelve hand grenades in a Friedrichshain self-storage unit (section: berlin)
+- **berlin-afd-protest-brandenburg-gate** — The Berliner: about 14,000 people protested at the Brandenburg Gate after the AfD's latest win (section: berlin)
+- **world-us-canada-dairy-alcohol-ban** — Financial Times: Washington banned Canadian dairy, motorcycles and most alcohol after Ottawa's $20bn tariffs (section: world)
+- **world-deepseek-shadow-fundraising** — Financial Times: DeepSeek's new funding round has spawned a costly shadow market with five-year lock-ups (section: world)
+- **world-saudi-houthis-brink-of-war** — The New York Times: Saudi Arabia and Yemen's Houthis are sliding back toward open war after an energy-site attack (section: world)
+
 ## 2026-09-08
 
 - **spain-casa-47-housing-portal** — eldiario.es: Sánchez launched Casa 47, a booking portal for the first 800 state flats (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-us-visa-policy-ai-talent-china** — Rest of World: US immigration rules are deterring international AI founders, a leak China and others can exploit (section: world)
 - **world-haiti-kenscoff-gang-massacre** — The Guardian: a gang attack in Kenscoff killed at least 47 and kidnapped more than 50 above Port-au-Prince (section: world)
 - **world-huckabee-settler-violence-bible** — Foreign Policy: US ambassador Mike Huckabee invoked the Bible against Israeli settler violence (section: world)
-
-## 2026-08-25
-
-- **spain-garamendi-ceoe-third-term-unopposed** — eldiario.es: Antonio Garamendi is heading for a third unopposed term as head of CEOE, Spain's main employers' association (section: spain)
-- **spain-desertification-unccd-ulan-bator** — eldiario.es: more than half of Spain is desertified, and a UN land summit in Ulaanbaatar is treating soil degradation as a global threat (section: spain)
-- **spain-cantabria-wave-pool-tourism** — EL PAÍS: a planned wave-pool complex in a Cantabrian surf area would rezone 100,000 square metres for a 200,000-visitor tourism model (section: spain)
-- **germany-youth-school-stress-girls** — Tagesspiegel: one in three German young people is heavily burdened by school stress, including 42% of girls (section: germany)
-- **germany-merz-cabinet-klausur-growth-tutors** — Handelsblatt: Merz's black-red cabinet starts a closed session on growth while a briefing says five outsiders should teach the government economics (section: germany)
-- **germany-baerbock-columbia-university** — Handelsblatt: after her UN General Assembly presidency ends in September, Annalena Baerbock is expected to go to Columbia University rather than return to German politics (section: germany)
-- **berlin-districts-sondervermoegen-roads-disaster** — Tagesspiegel: each Berlin borough is getting almost €20 million from the federal special fund for streets and disaster protection, including some projects economists criticise (section: berlin)
-- **berlin-gamescom-studios-no-relocation** — rbb24: Gamescom in Cologne sold out in advance, Berlin studios are present, and the fair is still not moving to the capital (section: berlin)
-- **berlin-burning-berlin-musical** — rbb24: the musical Burning Berlin uses 1920s lesbian subculture to talk about the present (section: berlin)
-- **world-nichias-tsmc-chip-tubes-taiwan** — Nikkei Asia: TSMC supplier Nichias plans to build key chipmaking tubes in Taiwan (section: world)
-- **world-uae-ai-cyber-defense-iran-war** — Rest of World: the UAE is building a homegrown AI security industry after cyberattacks on banks, aviation and energy rose with the Iran war (section: world)
-- **world-colombia-espriella-immigration-crackdown** — The Guardian: Colombia's new far-right president Abelardo de la Espriella has ordered a detention and deportation crackdown during the earthquake aftermath (section: world)

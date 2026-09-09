@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-09
+
+- [Medicine Needs to Get Serious About AI](https://www.theatlantic.com/health/2026/09/artificial-intelligence-autonomous-doctor-medicine/688543/?utm_source=feed) — The Atlantic
+- [Russia's hybrid war in Europe has repercussions in Asia: 5 things to know](https://asia.nikkei.com/politics/ukraine-war/russia-s-hybrid-war-in-europe-has-repercussions-in-asia-5-things-to-know) — Nikkei Asia
+- [Anthropic withheld latest AI model from UK testing agency](https://www.ft.com/content/560e1c8b-f163-4fd6-b604-e905550ac870?syn-25a6b1a6=1) — Financial Times
+- [Babies born to anaemic mothers have smaller brains, study finds](https://www.theguardian.com/global-development/2026/sep/09/babies-born-to-anaemic-mothers-have-smaller-brains-study-finds) — The Guardian
+
 ## 2026-09-08
 
 - [25 Years After 9/11, What Are We Failing to Imagine Now?](https://foreignpolicy.com/2026/09/07/9-11-failure-of-imagination-new-terrorist-technologies/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [There’s No Such Thing as an AI ‘Lab’](https://www.theatlantic.com/technology/2026/09/stop-calling-ai-companies-labs/688528/?utm_source=feed) — The Atlantic
 - [‘We continue to suffer’: victims of apartheid-era Sharpeville massacre demand compensation](https://www.theguardian.com/world/2026/sep/03/victims-sue-south-african-government-sharpeville-massacre-apartheid) — The Guardian
 - [Japan's organ donor shortage drives some patients to Cambodia](https://asia.nikkei.com/business/health-care/japan-s-organ-donor-shortage-drives-some-patients-to-cambodia) — Nikkei Asia
-
-## 2026-09-04
-
-- [I refused to train the AI that could replace me](https://restofworld.org/2026/ai-training-jobs-expert-replacement/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [Ukraine’s Mood Swing](https://foreignpolicy.com/2026/09/03/ukraine-war-zelensky-corrupton-scandal-cabinet-election/) — Foreign Policy
-- [America must learn AI lessons from Astro Boy](https://www.ft.com/content/68751904-522a-41cc-85e0-08015fe75059?syn-25a6b1a6=1) — Financial Times
-- [Pakistan's 5G rollout faces user criticism, power constraints](https://asia.nikkei.com/business/telecommunication/pakistan-s-5g-rollout-faces-user-criticism-power-constraints) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 
