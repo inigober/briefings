@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-10
+
+- **spain-sahrawi-nationality-vote** — eldiario.es: Congress is set to grant nationality to Sahrawis born in the former colony before 1977 (section: spain)
+- **spain-ayuso-m501-fire-highway** — eldiario.es: Ayuso is using Madrid's mega-fire to push dual carriageway of the M-501 through protected land (section: spain)
+- **spain-ceuta-40-declassified-files** — EL PAÍS: forty declassified files map what agencies knew before the Ceuta rush (section: spain)
+- **germany-baerbock-zeitenwende-cost** — Berliner Zeitung: a running tally puts Germany's Ukraine course at about €100 billion (section: germany)
+- **germany-dax-oil-ecb** — Handelsblatt: oil is weighing on the Dax ahead of an ECB rate decision (section: germany)
+- **germany-warntag-berlin-sirens** — Tagesspiegel: the federal warning day arrives with Berlin's siren build-out still lagging (section: germany)
+- **berlin-krach-bribery-probe** — rbb24: Hannover prosecutors are investigating SPD lead Steffen Krach for bribery (section: berlin)
+- **berlin-holocaust-memorial-second-indictment** — rbb24: a second indictment has been filed over an attack at the Holocaust memorial (section: berlin)
+- **berlin-jewish-museum-25-kugelmann** — rbb24: the Jewish Museum's first programme director looks back at 25 years (section: berlin)
+- **world-imf-reis-tariff-veto** — Financial Times: the IMF dropped leading chief-economist candidate Ricardo Reis over Trump tariff remarks (section: world)
+- **world-tiguerones-terror-designation** — The Guardian: Washington has listed Ecuador's Los Tiguerones as a terrorist group (section: world)
+- **world-vietnam-hub-airport** — Nikkei Asia: Vietnam's new hub airport is nearly ready and airlines are slow to commit (section: world)
+
 ## 2026-09-09
 
 - **spain-supremo-ley-nietos-vote-freeze** — EL PAÍS: the Supreme Court issued a precautionary ban on voting for many people nationalised under the grandchildren law (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-powertech-panel-level-ai-packaging** — Nikkei Asia: Powertech wants the first panel-level packaging line for AI chips in 2027 (section: world)
 - **world-nepal-china-himalaya-flash-flood** — Financial Times: a flash flood on Nepal's border with China has killed more than 160, with hundreds missing (section: world)
 - **world-ukraine-delta-drone-software** — The New York Times: Ukraine's Delta system stitches battlefield data into a drone "kill zone" (section: world)
-
-## 2026-08-26
-
-- **spain-data-centres-european-licence-renewables** — eldiario.es: a draft royal decree would require data centres to hold a European operating certificate and cover 80% of power with new renewables (section: spain)
-- **spain-labour-shortage-vacancies-unemployment** — eldiario.es: Spain still has about 160,000 unfilled jobs beside 2.5 million unemployed, with pay and housing as the binding constraints (section: spain)
-- **spain-asylum-extranjeria-confinement-bills** — EL PAÍS: government-approved asylum and extranjería drafts speed expulsions, restrict asylum and allow confinement and redistribution (section: spain)
-- **germany-brosius-gersdorf-lanz-frei** — Tagesspiegel: failed Constitutional Court nominee Brosius-Gersdorf pressed Union floor leader Frei for an apology he would not give (section: germany)
-- **germany-france-industrial-policy-clash** — Politico Europe: France wants stronger Made in Europe industrial rules; Berlin warns that would start new trade fights (section: germany)
-- **germany-sachsen-anhalt-landtagswahl-primer** — Handelsblatt: the 6 September Landtag vote is being framed as a political laboratory in a thin eastern state (section: germany)
-- **berlin-fh-kreuzberg-male-east-mayor-field** — Tagesspiegel: Friedrichshain-Kreuzberg's next mayor will be a man, and every candidate is from the East, after 22 of 26 years with a woman in the post (section: berlin)
-- **berlin-borgsdorf-war-munition-blast** — rbb24: WWII munition is to be detonated at Borgsdorf, affecting about 2,800 people in Berlin's commuter belt (section: berlin)
-- **berlin-hempel-social-worker-bundesliga-referee** — Tagesspiegel: Berlin social worker Richard Hempel has been promoted to Bundesliga referee (section: berlin)
-- **world-us-visa-policy-ai-talent-china** — Rest of World: US immigration rules are deterring international AI founders, a leak China and others can exploit (section: world)
-- **world-haiti-kenscoff-gang-massacre** — The Guardian: a gang attack in Kenscoff killed at least 47 and kidnapped more than 50 above Port-au-Prince (section: world)
-- **world-huckabee-settler-violence-bible** — Foreign Policy: US ambassador Mike Huckabee invoked the Bible against Israeli settler violence (section: world)

@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-10
+
+- [Moonshot capitalism: AI rewrites the venture capital playbook](https://www.ft.com/content/0c440134-686f-4b55-ab35-2afe4e6a3f91?syn-25a6b1a6=1) — Financial Times
+- [Samsung beats German city in lawsuit over schools' iPad procurement](https://asia.nikkei.com/business/technology/samsung-beats-german-city-in-lawsuit-over-schools-ipad-procurement) — Nikkei Asia
+- [Okay, Sure, a Folding iPhone](https://www.theatlantic.com/technology/2026/09/apple-folding-iphone/688562/?utm_source=feed) — The Atlantic
+- [How Ukraine’s anti-graft bureau became a ‘Sword of Damocles’](https://www.ft.com/content/da5e731b-3f93-45f2-a566-1d9db0e1aa5f) — Financial Times
+
 ## 2026-09-09
 
 - [Medicine Needs to Get Serious About AI](https://www.theatlantic.com/health/2026/09/artificial-intelligence-autonomous-doctor-medicine/688543/?utm_source=feed) — The Atlantic
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Chiang Mai district seeks harmony between 'digital nomads' and locals](https://asia.nikkei.com/business/travel-leisure/chiang-mai-district-seeks-harmony-between-digital-nomads-and-locals) — Nikkei Asia
 - [Trump envoys take Ukraine peace proposal to meeting with Putin](https://www.ft.com/content/9ae2c655-bcf7-4ef2-9a9b-0855248d06a0?syn-25a6b1a6=1) — Financial Times
 - [Rescuers in Nepal find two more people alive after flash flood disaster](https://www.theguardian.com/world/2026/sep/05/rescuers-nepal-find-two-more-people-alive-flood-disaster) — The Guardian
-
-## 2026-09-05
-
-- [‘RAMageddon’ hits consumer electronics as AI drains chip supply](https://www.ft.com/content/ea9a9dcc-b1df-49b0-b80c-f320161b9efa) — Financial Times
-- [There’s No Such Thing as an AI ‘Lab’](https://www.theatlantic.com/technology/2026/09/stop-calling-ai-companies-labs/688528/?utm_source=feed) — The Atlantic
-- [‘We continue to suffer’: victims of apartheid-era Sharpeville massacre demand compensation](https://www.theguardian.com/world/2026/sep/03/victims-sue-south-african-government-sharpeville-massacre-apartheid) — The Guardian
-- [Japan's organ donor shortage drives some patients to Cambodia](https://asia.nikkei.com/business/health-care/japan-s-organ-donor-shortage-drives-some-patients-to-cambodia) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 

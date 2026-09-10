@@ -1,63 +1,63 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-09",
-  "briefing_date": "2026-09-09",
-  "inbox_date": "2026-09-09",
+  "date": "2026-09-10",
+  "briefing_date": "2026-09-10",
+  "inbox_date": "2026-09-10",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-09.md",
-  "inbox_path": "inbox/news/2026-09-09-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-10.md",
+  "inbox_path": "inbox/news/2026-09-10-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "El Supremo frena el derecho al voto de los nacionalizados con la ley de nietos",
+      "headline": "Los informes no despejan la duda sobre la participación directa de Marruecos en la entrada masiva a Ceuta",
       "section": "spain",
-      "reason": "one_theme: same Supreme Court grandchildren-law vote freeze as the EL PAÍS claves piece"
+      "reason": "one_theme: same Ceuta declassification as the EL PAÍS 40-document anatomy"
     },
     {
-      "headline": "El Gobierno se revuelve contra una nueva “provocación” del Supremo, ahora con la ‘ley de nietos’",
+      "headline": "Los servicios de Información coinciden en el “efecto llamada” de la sentencia del Supremo en la crisis de Ceuta",
       "section": "spain",
-      "reason": "one_theme: government reaction to the same court order"
+      "reason": "one_theme: parked in Other Headlines as the pull-effect beat of the same file dump"
     },
     {
-      "headline": "La audiencia preliminar pone el punto final a la polémica instrucción del juez Peinado en el caso Begoña Gómez",
+      "headline": "El delegado del Gobierno en Ceuta descarta dimitir y asegura que no conoció el aviso del CNI a su gabinete",
       "section": "spain",
-      "reason": "avoid_unless_material: PSOE scandals / preliminary hearing is not a ruling; parked in Other Headlines"
+      "reason": "one_theme: CNI-warning incremental; parked in Other Headlines"
     },
     {
-      "headline": "El descalabro de Euskadi, la caída de Valencia y Navarra y otros siete gráficos sobre los resultados de PISA",
-      "section": "spain",
-      "reason": "one_theme: same PISA 2025 release as the national analysis"
-    },
-    {
-      "headline": "Nach dem Pisa-Schock: „Muss der Frontalunterricht abgeschafft werden?“",
+      "headline": "Pisa-Forscherin zum Schuldesaster: „Es gibt eine Superkraft, die beim Lernen hilft“",
       "section": "germany",
-      "reason": "one_theme: same PISA/education beat as the Handelsblatt location-cost briefing"
+      "reason": "dedup: PISA/education commentary after 7 and 9 September; not a material new result"
     },
     {
-      "headline": "Nikkei, Topix, CSI 300: Tech-Rally beflügelt Asiens Börsen trotz Nahost-Eskalation",
+      "headline": "Morning Briefing: Wie Apple sich ins KI-Zeitalter vortastet",
+      "section": "germany",
+      "reason": "geographic_misfit: Apple product offensive, not a Germany policy/economy story"
+    },
+    {
+      "headline": "Nikkei, Yen, Hang Seng: Sorge vor Eskalation in Nahost drückt asiatische Börsen ins Minus",
       "section": "germany",
       "reason": "geographic_misfit: Asia markets"
     },
     {
       "headline": "Brandenburg winkt ab: 25-Millionen-Projekt für neue Medizin sucht Standort",
       "section": "berlin",
-      "reason": "geographic_misfit: Brandenburg, no Berlin policy angle"
+      "reason": "geographic_misfit: Brandenburg, already rejected 9 September"
     },
     {
-      "headline": "Unwetter in Brandenburg: Eine Frau stirbt – Bahnstrecken bei Cottbus wieder frei",
+      "headline": "Thüringer BSW-Fraktion löst sich auf: Wie es jetzt im Landtag weitergeht",
       "section": "berlin",
-      "reason": "geographic_misfit: Brandenburg storm, already rejected 8 September"
+      "reason": "geographic_misfit: Thuringia Landtag; parked in Other Headlines"
     },
     {
-      "headline": "Elf Kandidaten wollen in Berlin ohne Partei ins Abgeordnetenhaus einziehen",
+      "headline": "Welchen Einfluss kann \"NOlympia\" auf die Berliner Bewerbung haben?",
       "section": "berlin",
-      "reason": "one_theme: Berlin election with the Brandenburg Gate AfD protest; parked in Other Headlines"
+      "reason": "one_theme: Olympic bid already covered 8 September (Olympiabad cost); parked in Other Headlines"
     },
     {
-      "headline": "Anthropic withheld latest AI model from UK testing agency",
+      "headline": "Babies born to anaemic mothers have smaller brains, study finds",
       "section": "world",
-      "reason": "used as Selected Read; incremental to 8 September Anthropic/OpenAI IG-ratings story"
+      "reason": "already a Selected Read on 9 September"
     },
     {
       "headline": "Weather tracker: Typhoon Saudel causes mass evacuations in south-east China",
@@ -65,10 +65,10 @@
       "reason": "already a Selected Read on 8 September"
     },
     {
-      "headline": "Falklands row shows urgent need to commit to 3% target, says Labour defence committee chair",
+      "headline": "Rubio says US will work with allies to stop drug-trafficking as three killed in latest boat strike",
       "section": "world",
-      "reason": "already a Selected Read on 7 September"
+      "reason": "one_theme: same US–Andes narcotics campaign as the Tiguerones designation; parked in Other Headlines"
     }
   ],
-  "notes": "Spain used the Supreme Court grandchildren-law vote freeze (EL PAÍS claves), the PISA 2025 crash with the high-income drop (eldiario.es), and the consular-capacity bottleneck (2.4 million filings, Cuba) as a distinct operational beat from the suffrage injunction. Dropped duplicate court/government-reaction pieces, the Basque/Valencia PISA graphics, and Begoña Gómez (PSOE scandal, parked in Other Headlines). Germany mixed the Handelsblatt education-as-location-cost briefing with the TÜV commercial-vehicle fail rate and a thin third item on GLP-1 tax deductions (publisher_pool_thin after geo/theme filters — Asia markets, Camargue travel, Indonesia boat, Oasis, tennis, and the Tagesspiegel PISA teaching interview were out). Berlin kept the Chialo/Wedl-Wilson grants probe, the Friedrichshain grenades find, and the Brandenburg Gate AfD protest after geo filters emptied Brandenburg items and the independents piece was parked as a second election beat. World balanced the US–Canada import ban (North America), DeepSeek's shadow fundraising (East Asia), and the Saudi–Houthi return to the brink (Middle East). Selected Reads: Atlantic medicine-AI, Nikkei hybrid-war Asia primer, FT Anthropic/UK AISI, Guardian maternal-anaemia study."
+  "notes": "Spain used the Sahrawi nationality vote (eldiario.es), Ayuso's M-501 dual-carriageway after the Madrid mega-fire (eldiario.es), and the EL PAÍS 40-document Ceuta declassification anatomy as the one material file-dump story. Dropped duplicate CNI/Morocco/delegate/pull-effect Ceuta pieces into Other Headlines. Germany mixed a Zeitenwende cost tally (Berliner Zeitung; inbox had filed it under Berlin), the Dax/oil/ECB market note (Handelsblatt), and the Warntag/siren Checkpoint (Tagesspiegel) after geo filters removed Apple and Asia markets and PISA was a repeat theme — remaining Germany pool was thin. Berlin kept the Krach bribery probe, the Holocaust-memorial second indictment, and the Jewish Museum 25-year interview (publisher_pool_thin: after geo/theme filters the eligible local pool was rbb24). World balanced the IMF Reis hiring veto (North America), the Tiguerones terrorist designation (Latin America), and Vietnam's hub airport (East Asia, from selected_read_candidates). Selected Reads: FT moonshot-VC, Nikkei Samsung/iPad suit, Atlantic folding iPhone, FT Ukraine anti-graft bureau."
 }
