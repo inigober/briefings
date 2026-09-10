@@ -4,11 +4,6 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 <!-- Format: YYYY-MM-DD | name | neighborhood | google_maps_url -->
 
-2026-06-25 | Kotti Dang | Neukölln | https://maps.google.com/?cid=1366842234553923275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-25 | Hanuman Thai Curry House | Kreuzberg | https://maps.google.com/?cid=10805004978977801651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-25 | Simitdchi Cafe und Backhaus | Kreuzberg | https://maps.google.com/?cid=14131623560540591311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-25 | Malafemmena | Schöneberg | https://maps.google.com/?cid=13383657543209065497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-06-25 | Lavanderia Vecchia | Neukölln | https://maps.google.com/?cid=3264297671270047681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-02 | Liu Nudelhaus | Mitte | https://maps.google.com/?cid=5978374952795598817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-02 | Adana Grillhaus | Kreuzberg | https://maps.google.com/?cid=3901475484461481539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-02 | Wei House (Chuan House) | Friedrichshain | https://maps.google.com/?cid=17257470551723575126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
@@ -75,3 +70,10 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-09-03 | Sarajevo | Wedding | https://maps.google.com/?cid=11185880011603264770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-03 | Common | Neukölln | https://maps.google.com/?cid=4148914317838078783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-03 | Horváth | Kreuzberg | https://maps.google.com/?cid=11873083102904049717&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-10 | Shan Shan | Prenzlauer Berg | https://maps.google.com/?cid=2813619000083273545&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-10 | Larb Koi | Friedrichshain | https://maps.google.com/?cid=1837714750978964420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-10 | Thành Koch | Lichtenberg | https://maps.google.com/?cid=13453267633157062630&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-10 | Sljiva | Moabit | https://maps.google.com/?cid=397963443234687770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-10 | Mama Van | Mitte | https://maps.google.com/?cid=3098666772816247662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-10 | merold | Neukölln | https://maps.google.com/?cid=6099182812103138905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-10 | Bieberbau | Wilmersdorf | https://maps.google.com/?cid=16347767220074598492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
