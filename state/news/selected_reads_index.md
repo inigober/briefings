@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-11
+
+- [Scientists Saved Us From Catastrophic Risk Before](https://foreignpolicy.com/2026/09/10/artificial-intelligence-biotechnology-science-diplomacy-united-states-china-geopolitical-rivalry/) — Foreign Policy
+- [Scott Bessent fails to break ‘fever’ in US bond market](https://www.ft.com/content/dd4cc4a0-844e-486a-b99c-b379d457019b?syn-25a6b1a6=1) — Financial Times
+- [The Dutch Village in the Path of Europe’s Energy Transition](https://www.bloomberg.com/news/videos/2026-09-11/the-dutch-village-in-the-path-of-europe-s-energy-transition) — Bloomberg
+- [Europe’s difficult choices on AI](https://www.ft.com/content/f054f927-b512-452a-b494-ea53f5ac1079) — Financial Times
+
 ## 2026-09-10
 
 - [Moonshot capitalism: AI rewrites the venture capital playbook](https://www.ft.com/content/0c440134-686f-4b55-ab35-2afe4e6a3f91?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [US and China eye Trump-Xi talks on AI guardrails despite tech rift](https://asia.nikkei.com/business/technology/artificial-intelligence/us-and-china-eye-trump-xi-talks-on-ai-guardrails-despite-tech-rift) — Nikkei Asia
 - [Sweden’s fightback against the gangs](https://www.ft.com/content/b2d744cf-de2c-4ef1-84ca-41e897463484?syn-25a6b1a6=1) — Financial Times
 - [Falklands row shows urgent need to commit to 3% target, says Labour defence committee chair](https://www.theguardian.com/politics/2026/sep/06/falklands-row-raise-defence-spending-tan-dhesi-labour) — The Guardian
-
-## 2026-09-06
-
-- [Why I Want More AI at Dartmouth](https://www.theatlantic.com/ideas/2026/09/universities-prohibiting-ai-classroom/688509/?utm_source=feed) — The Atlantic
-- [Chiang Mai district seeks harmony between 'digital nomads' and locals](https://asia.nikkei.com/business/travel-leisure/chiang-mai-district-seeks-harmony-between-digital-nomads-and-locals) — Nikkei Asia
-- [Trump envoys take Ukraine peace proposal to meeting with Putin](https://www.ft.com/content/9ae2c655-bcf7-4ef2-9a9b-0855248d06a0?syn-25a6b1a6=1) — Financial Times
-- [Rescuers in Nepal find two more people alive after flash flood disaster](https://www.theguardian.com/world/2026/sep/05/rescuers-nepal-find-two-more-people-alive-flood-disaster) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

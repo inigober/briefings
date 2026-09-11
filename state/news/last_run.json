@@ -1,58 +1,63 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-10",
-  "briefing_date": "2026-09-10",
-  "inbox_date": "2026-09-10",
+  "date": "2026-09-11",
+  "briefing_date": "2026-09-11",
+  "inbox_date": "2026-09-11",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-10.md",
-  "inbox_path": "inbox/news/2026-09-10-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-11.md",
+  "inbox_path": "inbox/news/2026-09-11-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Los informes no despejan la duda sobre la participación directa de Marruecos en la entrada masiva a Ceuta",
+      "headline": "La Moncloa y Robles pactaron la posición oficial del CNI para intentar frenar las críticas al Gobierno por ignorar los avisos",
       "section": "spain",
-      "reason": "one_theme: same Ceuta declassification as the EL PAÍS 40-document anatomy"
+      "reason": "one_theme: parked in Other Headlines as the Ceuta politics beat; main Spain Ceuta slot is the reception-centre collapse"
     },
     {
-      "headline": "Los servicios de Información coinciden en el “efecto llamada” de la sentencia del Supremo en la crisis de Ceuta",
+      "headline": "Desconcierto en las filas del PSOE tras la gestión política de la crisis de Ceuta: “Si intentábamos salir de esta, nos hemos embarrado más”",
       "section": "spain",
-      "reason": "one_theme: parked in Other Headlines as the pull-effect beat of the same file dump"
+      "reason": "one_theme: same Ceuta political-management thread; parked in Other Headlines"
     },
     {
-      "headline": "El delegado del Gobierno en Ceuta descarta dimitir y asegura que no conoció el aviso del CNI a su gabinete",
+      "headline": "Así es el nuevo circuito de la Fórmula 1 en Madrid",
       "section": "spain",
-      "reason": "one_theme: CNI-warning incremental; parked in Other Headlines"
+      "reason": "incremental: Madrid F1 weekend already in Other Headlines on 10 September"
     },
     {
-      "headline": "Pisa-Forscherin zum Schuldesaster: „Es gibt eine Superkraft, die beim Lernen hilft“",
-      "section": "germany",
-      "reason": "dedup: PISA/education commentary after 7 and 9 September; not a material new result"
+      "headline": "Anthropic asegura que ha detenido varios intentos de crear armas biológicas con su IA",
+      "section": "spain",
+      "reason": "geographic_misfit: used the FT write-up in World instead"
     },
     {
-      "headline": "Morning Briefing: Wie Apple sich ins KI-Zeitalter vortastet",
+      "headline": "Ermittlungen gegen Krach: Durchsuchungen im Wahlkampf: Ist das erlaubt?",
       "section": "germany",
-      "reason": "geographic_misfit: Apple product offensive, not a Germany policy/economy story"
+      "reason": "dedup: Krach probe covered 10 September; parked the three-case expansion in Other Headlines"
     },
     {
-      "headline": "Nikkei, Yen, Hang Seng: Sorge vor Eskalation in Nahost drückt asiatische Börsen ins Minus",
+      "headline": "Wahlkampf-Event in Texas: Trump-Show endet: Fünf Lehren aus dem Republikaner-Parteitag",
       "section": "germany",
-      "reason": "geographic_misfit: Asia markets"
+      "reason": "geographic_misfit: US midterms; parked in Other Headlines"
+    },
+    {
+      "headline": "Jubiläumsausstellung im Jüdischen Museum: „Das Gegenteil von jetzt“ beginnt heute Morgen",
+      "section": "germany",
+      "reason": "dedup: Jewish Museum 25-year theme covered 10 September"
+    },
+    {
+      "headline": "Staatsanwaltschaft ermittelt in drei Fällen gegen SPD-Spitzenkandidat Krach",
+      "section": "berlin",
+      "reason": "dedup: investigation continues — not a new charge type; parked in Other Headlines"
+    },
+    {
+      "headline": "„Die Ostidentität wurde erfunden“: Warum Linda Teutebergs Satz vor allem über den Westen etwas verrät",
+      "section": "berlin",
+      "reason": "geographic_misfit: Brandenburg SED-commissioner appointment"
     },
     {
       "headline": "Brandenburg winkt ab: 25-Millionen-Projekt für neue Medizin sucht Standort",
       "section": "berlin",
-      "reason": "geographic_misfit: Brandenburg, already rejected 9 September"
-    },
-    {
-      "headline": "Thüringer BSW-Fraktion löst sich auf: Wie es jetzt im Landtag weitergeht",
-      "section": "berlin",
-      "reason": "geographic_misfit: Thuringia Landtag; parked in Other Headlines"
-    },
-    {
-      "headline": "Welchen Einfluss kann \"NOlympia\" auf die Berliner Bewerbung haben?",
-      "section": "berlin",
-      "reason": "one_theme: Olympic bid already covered 8 September (Olympiabad cost); parked in Other Headlines"
+      "reason": "geographic_misfit: Brandenburg, already rejected 9–10 September"
     },
     {
       "headline": "Babies born to anaemic mothers have smaller brains, study finds",
@@ -60,15 +65,10 @@
       "reason": "already a Selected Read on 9 September"
     },
     {
-      "headline": "Weather tracker: Typhoon Saudel causes mass evacuations in south-east China",
+      "headline": "US rate rise fears ripple through global bond markets",
       "section": "world",
-      "reason": "already a Selected Read on 8 September"
-    },
-    {
-      "headline": "Rubio says US will work with allies to stop drug-trafficking as three killed in latest boat strike",
-      "section": "world",
-      "reason": "one_theme: same US–Andes narcotics campaign as the Tiguerones designation; parked in Other Headlines"
+      "reason": "one_theme: same US-rates/oil thread as the Bessent Selected Read"
     }
   ],
-  "notes": "Spain used the Sahrawi nationality vote (eldiario.es), Ayuso's M-501 dual-carriageway after the Madrid mega-fire (eldiario.es), and the EL PAÍS 40-document Ceuta declassification anatomy as the one material file-dump story. Dropped duplicate CNI/Morocco/delegate/pull-effect Ceuta pieces into Other Headlines. Germany mixed a Zeitenwende cost tally (Berliner Zeitung; inbox had filed it under Berlin), the Dax/oil/ECB market note (Handelsblatt), and the Warntag/siren Checkpoint (Tagesspiegel) after geo filters removed Apple and Asia markets and PISA was a repeat theme — remaining Germany pool was thin. Berlin kept the Krach bribery probe, the Holocaust-memorial second indictment, and the Jewish Museum 25-year interview (publisher_pool_thin: after geo/theme filters the eligible local pool was rbb24). World balanced the IMF Reis hiring veto (North America), the Tiguerones terrorist designation (Latin America), and Vietnam's hub airport (East Asia, from selected_read_candidates). Selected Reads: FT moonshot-VC, Nikkei Samsung/iPad suit, Atlantic folding iPhone, FT Ukraine anti-graft bureau."
+  "notes": "Spain used the Ceuta reception-centre collapse (eldiario.es), Perelló's judicial-year speech (eldiario.es), and Illa's convivencia appeal (La Vanguardia). Dropped duplicate CNI/PSOE Ceuta politics into Other Headlines (publisher_pool_thin: after the one-theme filter the third Spain publisher would have been another Ceuta EL PAÍS piece or a non-Spain 9/11 feature). Germany mixed Merz/budget as a chancellor test (Handelsblatt), the completed ECB rate hike vs the Dax (Handelsblatt; yesterday was the preview), and Klingbeil's Expo-in-Berlin note (Tagesspiegel). Berlin kept Checkpoint Charlie's winning redesign, Emirates BER–Dubai, and the Friedrichshain-Kreuzberg mayor duel (publisher_pool_thin: after geo filters the eligible local pool was rbb24 + one Tagesspiegel). World balanced China's battery-factory halt (East Asia), Anthropic's bioweapons disclosure (North America), and the FGM Horizon Fund (Africa). Selected Reads: FP science diplomacy, FT Bessent bonds, Bloomberg Dutch-village energy video, FT Europe AI choices."
 }

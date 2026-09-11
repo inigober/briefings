@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-11
+
+- **spain-ceuta-women-children-shelter-doors** — eldiario.es: migrant women and children left outside two Ceuta government reception centres (section: spain)
+- **spain-perello-judicial-year-criticism** — eldiario.es: CGPJ/Supreme Court president Isabel Perelló opened the judicial year warning office-holders not to attack rulings (section: spain)
+- **spain-illa-convivencia-extremism** — La Vanguardia: Catalan president Salvador Illa called for convivencia amid management problems and a rising extremist vote (section: spain)
+- **germany-merz-budget-chancellor-test** — Handelsblatt: Union frustration with Friedrich Merz is now aimed at the Bundeshaushalt as a make-or-break test (section: germany)
+- **germany-ecb-rate-hike-dax** — Handelsblatt: another ECB rate rise is weighing on the Dax ahead of Friday data (section: germany)
+- **germany-klingbeil-expo-berlin** — Tagesspiegel: finance minister Lars Klingbeil wants to “open doors” for an Expo in Berlin (section: germany)
+- **berlin-checkpoint-charlie-redesign-winner** — rbb24: a winning design is in to remake Checkpoint Charlie as an education and memory site (section: berlin)
+- **berlin-emirates-ber-dubai** — rbb24: Emirates has been cleared to fly BER–Dubai (section: berlin)
+- **berlin-fhxberg-greens-linke-mayor-duel** — Tagesspiegel: Greens and Left each have a gay candidate for Friedrichshain-Kreuzberg district mayor (section: berlin)
+- **world-china-battery-factory-halt** — Bloomberg: China has temporarily stopped new battery-factory projects pending a year-end capacity review (section: world)
+- **world-anthropic-bioweapons-blocked** — Financial Times: Anthropic disclosed five cases of users hiding research that could have helped build bioweapons (section: world)
+- **world-fgm-15m-horizon-fund** — The Guardian: a $15.5m Her Horizon Fund aims to build momentum against FGM as donor money dries up (section: world)
+
 ## 2026-09-10
 
 - **spain-sahrawi-nationality-vote** — eldiario.es: Congress is set to grant nationality to Sahrawis born in the former colony before 1977 (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-india-data-centre-displacement** — Rest of World: India's data-centre boom is leaving displaced communities with nothing as AI firms take tax breaks and cheap land (section: world)
 - **world-us-cowboy-stem-cell-clinics** — Financial Times: unproven stem-cell longevity clinics are a thriving, dangerous US market (section: world)
 - **world-japan-forex-takaichi-food-tax** — Nikkei Asia: Japan should not raid FX reserves to fund Takaichi's food-tax cut (section: world)
-
-## 2026-08-27
-
-- **spain-avalmadrid-supreme-court-fines** — eldiario.es: the Supreme Court has upheld almost €200,000 in Banco de España fines over Avalmadrid's credit-control failures (section: spain)
-- **spain-ceuta-housing-sites-returns-lever** — EL PAÍS: Madrid says returns wait on agreed sites while Vivas still refuses sports halls (section: spain)
-- **spain-waterboys-valencia-fishermans-blues** — EL PAÍS: Mike Scott is in Valencia unpacking the making of Fisherman's Blues (section: spain)
-- **germany-merz-better-than-gloom-facts** — Handelsblatt: some economic facts are being used to argue Germany looks better than the prevailing gloom (section: germany)
-- **germany-brandenburg-sugar-tax-prevention** — Tagesspiegel: Brandenburg's health minister Wilke will back a sugar tax if the money is spent on prevention (section: germany)
-- **germany-child-cyclist-age-rules** — Handelsblatt: German road law still splits where children may cycle by age (section: germany)
-- **berlin-clubcommission-surviving-not-thriving** — The Berliner: a Clubcommission report finds Berlin clubs surviving but far from thriving (section: berlin)
-- **berlin-elif-eralp-linke-rents-red-town-hall** — rbb24: Die Linke's Elif Eralp is campaigning on rents while the party leads polls and membership (section: berlin)
-- **berlin-partial-lunar-eclipse-28-august** — rbb24: a partial lunar eclipse is due before dawn on 28 August (section: berlin)
-- **world-powertech-panel-level-ai-packaging** — Nikkei Asia: Powertech wants the first panel-level packaging line for AI chips in 2027 (section: world)
-- **world-nepal-china-himalaya-flash-flood** — Financial Times: a flash flood on Nepal's border with China has killed more than 160, with hundreds missing (section: world)
-- **world-ukraine-delta-drone-software** — The New York Times: Ukraine's Delta system stitches battlefield data into a drone "kill zone" (section: world)
