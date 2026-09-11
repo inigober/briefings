@@ -12,14 +12,17 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 from fetch_music_research import (  # noqa: E402
+    MUSIC_MIN_BANDCAMP_URLS,
     MUSIC_SEARCH_MIN_CALLS,
     attach_bandcamp_urls,
     build_search_phase_prompt,
+    build_search_recovery_prompt,
     compact_skip_list,
     enrich_candidate,
     extract_bandcamp_urls,
     is_bandcamp_listen_url,
     keys_match,
+    needs_search_recovery,
     normalize_candidate_url,
     release_key,
     salvage_bandcamp_url,
@@ -59,6 +62,8 @@ class TestMusicResearchHelpers(unittest.TestCase):
         self.assertIn("bandcamp.com", prompt)
         self.assertIn("Bandcamp:", prompt)
         self.assertIn("skip that release", prompt.lower())
+        self.assertIn("/album/", prompt)
+        self.assertIn(str(MUSIC_MIN_BANDCAMP_URLS), prompt)
         self.assertNotIn("Return JSON", prompt)
 
     def test_keys_match_fuzzy_release(self) -> None:
@@ -133,6 +138,31 @@ class TestMusicResearchHelpers(unittest.TestCase):
         self.assertIn("bandcamp.com", domains)
         self.assertIn("ra.co", domains)
         self.assertIn("youtube.com", domains)
+
+
+class TestSearchRecovery(unittest.TestCase):
+    def test_needs_recovery_when_too_few_album_urls(self) -> None:
+        thin = "Artist: A\nRelease: B\nBandcamp: https://a.bandcamp.com/album/b\n"
+        self.assertTrue(needs_search_recovery(thin))
+        many = "\n".join(
+            f"Bandcamp: https://x{i}.bandcamp.com/album/r{i}" for i in range(12)
+        )
+        self.assertFalse(needs_search_recovery(many))
+
+    def test_recovery_prompt_asks_for_more_album_urls(self) -> None:
+        prompt = build_search_recovery_prompt(
+            date_str="2026-09-11",
+            previous_notes="Artist: Only\nBandcamp: https://only.bandcamp.com/album/one\n",
+            have_urls=["https://only.bandcamp.com/album/one"],
+            search_domains=["bandcamp.com", "ra.co"],
+        )
+        self.assertIn("PHASE 1 recovery", prompt)
+        self.assertIn("2026-09-11", prompt)
+        self.assertIn("https://only.bandcamp.com/album/one", prompt)
+        self.assertIn(f"at least {MUSIC_MIN_BANDCAMP_URLS}", prompt)
+        self.assertIn(f"minimum {MUSIC_SEARCH_MIN_CALLS}", prompt)
+        self.assertIn("never invent slugs", prompt.lower())
+        self.assertIn("bandcamp.com", prompt)
 
 
 class TestBandcampUrlSalvage(unittest.TestCase):
