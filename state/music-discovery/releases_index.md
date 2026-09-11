@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-09-11
+
+- Yuzo Iwata — Kaizu
+- Mara — At Every Corner
+- Fader Cap — s2i02 - Fader Cap [World One]
+- Chris Coco — Daydream Utopia
+- Extrasensory Perception — Self Realization
+- Balearic Music Library — BML Vol 1
+- DJ SWISHA — FIRST HAND SMOKE
+- Gagarin — Komorebi
+- Fine — Then, Now, Until
+- zakè & Angela Winter — Mid Sky
+
 ## 2026-09-04
 
 - Nick León — A Tropical Entropy
