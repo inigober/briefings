@@ -49,6 +49,8 @@ MUSIC_MIN_CANDIDATES = 16
 # Verify needs 10 live Bandcamp+cover rows. Fail fetch before HTTP if we don't even
 # have that many album URLs — empty bandcamp_url is the usual Phase-2 loss.
 MUSIC_MIN_BANDCAMP_URLS = 10
+# Second Phase-1 search when the first pass copies too few album URLs.
+MUSIC_SEARCH_RECOVERY_MAX_TOOL_CALLS = 8
 
 BANDCAMP_URL_RE = re.compile(
     r"https://(?:www\.)?(?:[a-z0-9-]+\.)?bandcamp\.com/(?:album|track)/[a-z0-9._~-]+",
@@ -398,10 +400,12 @@ Need enough extras that synthesis can pick **6 featured (3 club + 3 home) + 4 Mo
 
 ## Your task (web_search REQUIRED — minimum {MUSIC_SEARCH_MIN_CALLS} searches)
 You MUST call web_search at least {MUSIC_SEARCH_MIN_CALLS} times before answering. Suggested split:
-1. Bandcamp Daily / recent album pages that fit club taste (prog house, techno, trance, italo, electro, chunker/hard house)
-2. Bandcamp Daily / RA / Wire home-listening (ambient, balearic, experimental, downtempo, world)
-3. Aged-well / catalogue records that still captivate (not obvious canon primers)
+1. Club-fit **album pages** on artist/label Bandcamp (`https://….bandcamp.com/album/…`) — prog house, techno, trance, italo, electro, chunker/hard house. Copy the full `/album/` URL.
+2. Home-listening **album pages** the same way (ambient, balearic, experimental, downtempo, world). Bandcamp Daily / RA / Wire are for context; still copy the Bandcamp `/album/` link.
+3. Aged-well / catalogue records that still captivate (not obvious canon primers) — again copy `/album/` URLs.
 4. YouTube / YouTube Music **album or release playlist** lookup for the strongest candidates
+
+Quota: at least {MUSIC_MIN_BANDCAMP_URLS} distinct copied Bandcamp `/album/` or `/track/` URLs before you stop. Daily roundups without those links do not count.
 
 For each candidate record:
 - artist, release, label, year, club-or-home, recent-or-aged-well, genre
@@ -435,6 +439,53 @@ Also copy youtube/dig/write-up URLs when you saw them.
 web_search allowed domains:
 {domains}
 """
+
+
+def build_search_recovery_prompt(
+    *,
+    date_str: str,
+    previous_notes: str,
+    have_urls: list[str],
+    search_domains: list[str],
+) -> str:
+    """Second Phase-1 pass when the first search copied too few album URLs."""
+    have = "\n".join(f"- {url}" for url in have_urls) or "- (none)"
+    clipped = (previous_notes or "").strip()
+    if len(clipped) > 8000:
+        clipped = clipped[:8000] + "\n…(truncated)…"
+    domains = "\n".join(f"- {d}" for d in search_domains)
+    need = MUSIC_MIN_BANDCAMP_URLS
+    return f"""PHASE 1 recovery. Briefing Friday date: {date_str}
+
+Your first web_search pass only copied {len(have_urls)} Bandcamp album/track URL(s). We need at least {need} distinct `https://….bandcamp.com/album/…` (or `/track/`) links copied from search.
+
+Already copied (do not repeat these URLs):
+{have}
+
+## Your task (web_search REQUIRED — minimum {MUSIC_SEARCH_MIN_CALLS} searches)
+Search for **specific album pages** on artist or label Bandcamp subdomains.
+Example of a valid line: Bandcamp: https://label.bandcamp.com/album/release-name
+Bandcamp Daily / RA roundups only count if you copy the linked `/album/` URL.
+Skip any release without that URL. Never invent slugs.
+
+Output NEW candidates only, same block format:
+
+Artist: NAME
+Release: TITLE
+Bandcamp: https://label-or-artist.bandcamp.com/album/exact-slug-copied-from-search
+
+## Previous notes (context; do not re-list URL-less releases)
+{clipped or "(none)"}
+
+web_search allowed domains:
+{domains}
+"""
+
+
+def needs_search_recovery(
+    notes: str, *, minimum: int = MUSIC_MIN_BANDCAMP_URLS
+) -> bool:
+    return len(extract_bandcamp_urls(notes)) < minimum
 
 
 def build_structure_phase_prompt(
@@ -552,6 +603,17 @@ def section_counts(items: list[dict]) -> dict[str, int]:
     return counts
 
 
+def _merge_bandcamp_citations(notes: str, search_response: Any) -> str:
+    citation_urls = collect_response_urls(search_response)
+    citation_bandcamp = [u for u in citation_urls if is_bandcamp_listen_url(u)]
+    if not citation_bandcamp:
+        log("    citations: 0 Bandcamp album/track URL(s)")
+        return notes
+    extra = "\n".join(citation_bandcamp)
+    log(f"    citations: {len(citation_bandcamp)} Bandcamp album/track URL(s)")
+    return f"{notes}\n\n## Bandcamp URLs from web_search citations\n{extra}\n"
+
+
 def fetch_all_music(
     *,
     date_str: str,
@@ -593,14 +655,7 @@ def fetch_all_music(
     )
     web_search_calls = count_web_search_calls(search_response)
     log(f"    phase 1: {web_search_calls} web_search call(s), {len(notes)} chars")
-    citation_urls = collect_response_urls(search_response)
-    citation_bandcamp = [u for u in citation_urls if is_bandcamp_listen_url(u)]
-    if citation_bandcamp:
-        extra = "\n".join(citation_bandcamp)
-        notes = (
-            f"{notes}\n\n## Bandcamp URLs from web_search citations\n{extra}\n"
-        )
-        log(f"    phase 1 citations: {len(citation_bandcamp)} Bandcamp album/track URL(s)")
+    notes = _merge_bandcamp_citations(notes, search_response)
     if spend_ledger:
         usage = usage_from_response(
             response=search_response, model=model, section="music_search"
@@ -612,6 +667,41 @@ def fetch_all_music(
             f"Music pre-fetch aborted: {web_search_calls} web_search calls "
             f"(minimum {MUSIC_SEARCH_MIN_CALLS} required)."
         )
+
+    if needs_search_recovery(notes):
+        have_urls = extract_bandcamp_urls(notes)
+        log(
+            f"  Phase 1 recovery: only {len(have_urls)} Bandcamp album URL(s) "
+            f"(need {MUSIC_MIN_BANDCAMP_URLS}); searching again..."
+        )
+        recovery_prompt = build_search_recovery_prompt(
+            date_str=date_str,
+            previous_notes=notes,
+            have_urls=have_urls,
+            search_domains=allowed,
+        )
+        extra_notes, extra_response = fetch_web_research(
+            client=client,
+            model=model,
+            prompt=recovery_prompt,
+            domains=allowed,
+            require_web_search=True,
+            max_tool_calls=MUSIC_SEARCH_RECOVERY_MAX_TOOL_CALLS,
+            search_context_size="medium",
+        )
+        extra_calls = count_web_search_calls(extra_response)
+        log(
+            f"    recovery: {extra_calls} web_search call(s), {len(extra_notes)} chars"
+        )
+        extra_notes = _merge_bandcamp_citations(extra_notes, extra_response)
+        notes = f"{notes}\n\n## Recovery search notes\n{extra_notes}\n"
+        web_search_calls += extra_calls
+        if spend_ledger:
+            usage = usage_from_response(
+                response=extra_response, model=model, section="music_search_recovery"
+            )
+            spend_ledger.record_usage(usage)
+            spend_ledger.assert_not_over_cap()
 
     structure_prompt = build_structure_phase_prompt(
         date_str=date_str, research_notes=notes
