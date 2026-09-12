@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-12
+
+- **spain-ceuta-minors-forced-returns** — eldiario.es: three minors say they were returned from Ceuta to Morocco at night without the Extranjería process (section: spain)
+- **spain-gc-vive-madrid-suspension** — eldiario.es: the Civil Guard suspended for six months a lieutenant colonel in the Vive Madrid sexual-exploitation case (section: spain)
+- **spain-nagano-one-mahler** — EL PAÍS: Kent Nagano debuts with the Orquesta Nacional de España on Mahler's Second (section: spain)
+- **germany-hapag-lloyd-zim-takeover** — Handelsblatt: Hapag-Lloyd is still pursuing a ~€3.6bn ZIM takeover after an Israeli veto (section: germany)
+- **germany-cdu-mv-five-percent** — Handelsblatt: the CDU in Mecklenburg-Vorpommern is polling near the 5% line before 20 September (section: germany)
+- **germany-cat-culling-rules** — Berliner Zeitung: German hunting law still allows stray cats to be shot; Schleswig-Holstein recorded almost 2,600 kills (section: germany)
+- **berlin-art-week-charite-ruin** — Tagesspiegel: Art Week is staging lie-down sessions in a ruined Charité lecture hall (section: berlin)
+- **berlin-krach-clinic-deal** — Tagesspiegel: insiders say SPD lead Steffen Krach pushed a Lower Saxony clinic-site sale now in the bribery file (section: berlin)
+- **berlin-eisbaren-chl-win** — rbb24: the Eisbären have their first Champions Hockey League win (section: berlin)
+- **world-hormuz-tanker-air-defence-slots** — Financial Times: the US has cut Hormuz tanker air-defence cover to two daily slots (section: world)
+- **world-japan-un-map-kurils** — The Guardian: Japan wants the UN's new true-scale map revised because it shows the Kurils as Russian (section: world)
+- **world-atlantic-ai-pandemic** — The Atlantic: an AI-designed pandemic is not the outbreak to plan for (section: world)
+
 ## 2026-09-11
 
 - **spain-ceuta-women-children-shelter-doors** — eldiario.es: migrant women and children left outside two Ceuta government reception centres (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-trump-venezuela-oil-majority** — The Guardian: Trump announced a US oil agreement giving “majority” control of 65bn barrels of Venezuelan reserves (section: world)
 - **world-us-iran-isolation-dubai** — Financial Times: the US campaign to isolate Iran is closing in on Dubai, the regime's long-standing offshore finance hub (section: world)
 - **world-nvidia-ai-bubble-1980s-japan** — Foreign Policy: Nvidia's earnings are being read against Japan's 1980s asset bubble rather than as proof of a soft landing (section: world)
-
-## 2026-08-28
-
-- **spain-ceuta-food-aid-blockade-violence** — EL PAÍS: Madrid asks the PP to help stop violence in Ceuta after a Red Cross food delivery was attacked (section: spain)
-- **spain-ayuso-garcia-martin-assembly-planifica** — eldiario.es: the counsellor Ayuso named over the Chamberí penthouse has asked to appear in the Assembly on Planifica Madrid, with no date set (section: spain)
-- **spain-elpais-gta-vi-exclusive** — EL PAÍS: the paper was given a first look at GTA VI inside Rockstar (section: spain)
-- **germany-gen-z-ai-labour-afd** — Tagesspiegel: youth researcher Mathias Albert says AI's labour shock is hitting young adults and could feed the AfD (section: germany)
-- **germany-wagenknecht-afd-not-far-right** — Tagesspiegel: Sahra Wagenknecht declined to call the AfD extremist and said parts of the federal government already qualify (section: germany)
-- **germany-sepp-mueller-coal-plants-iran-gas** — Handelsblatt: Union deputy Sepp Müller wants coal plants restarted as a bridge while Iran-war gas prices stay high (section: germany)
-- **berlin-landesnetz-ransom-demand** — rbb24: a ransom demand has arrived after the attack on Berlin's state network, with a Friday meeting of security agencies (section: berlin)
-- **berlin-kristin-brinker-afd-firewall** — rbb24: Kristin Brinker is the AfD's lead candidate for a third time, with no coalition partner in sight (section: berlin)
-- **berlin-fabian-trial-october-verdict** — Berliner Zeitung: the Fabian trial will not reach a verdict before October after six more hearing dates (section: berlin)
-- **world-india-data-centre-displacement** — Rest of World: India's data-centre boom is leaving displaced communities with nothing as AI firms take tax breaks and cheap land (section: world)
-- **world-us-cowboy-stem-cell-clinics** — Financial Times: unproven stem-cell longevity clinics are a thriving, dangerous US market (section: world)
-- **world-japan-forex-takaichi-food-tax** — Nikkei Asia: Japan should not raid FX reserves to fund Takaichi's food-tax cut (section: world)

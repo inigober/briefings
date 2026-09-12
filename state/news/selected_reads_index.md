@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-12
+
+- [Houthis used Anthropic AI to try to build ballistic missiles](https://www.ft.com/content/8310cf56-ce60-4e6e-8254-5bb470e9a880?syn-25a6b1a6=1) — Financial Times
+- [Don’t Blame Ukraine for High Gas Prices](https://foreignpolicy.com/2026/09/11/gas-prices-trump-iran-war-wright-ukraine-russia/) — Foreign Policy
+- [We are setting up a generation to fail at school](https://www.ft.com/content/724f8ecb-1e2b-4c7f-bbb6-14239abd50dd?syn-25a6b1a6=1) — Financial Times
+- [Japan eyes next-gen fast breeder reactors as China, Russia lead](https://asia.nikkei.com/business/energy/japan-eyes-next-gen-fast-breeder-reactors-as-china-russia-lead) — Nikkei Asia
+
 ## 2026-09-11
 
 - [Scientists Saved Us From Catastrophic Risk Before](https://foreignpolicy.com/2026/09/10/artificial-intelligence-biotechnology-science-diplomacy-united-states-china-geopolitical-rivalry/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Australia's Firmus inks compute deal with OpenAI for Malaysian data centers](https://asia.nikkei.com/business/technology/australia-s-firmus-inks-compute-deal-with-openai-for-malaysian-data-centers) — Nikkei Asia
 - [AI is ushering in an era of mass toe-treading at work](https://www.ft.com/content/ed214778-2a6d-4862-99b5-abc256daff92?syn-25a6b1a6=1) — Financial Times
 - [Weather tracker: Typhoon Saudel causes mass evacuations in south-east China](https://www.theguardian.com/world/2026/sep/07/typhoon-saudel-mass-evacuations-south-east-china-weather-tracker) — The Guardian
-
-## 2026-09-07
-
-- [What Was the War on Terror?](https://foreignpolicy.com/2026/09/04/war-on-terror-bush-obama-iraq-afghanistan-al-qaeda-history/) — Foreign Policy
-- [US and China eye Trump-Xi talks on AI guardrails despite tech rift](https://asia.nikkei.com/business/technology/artificial-intelligence/us-and-china-eye-trump-xi-talks-on-ai-guardrails-despite-tech-rift) — Nikkei Asia
-- [Sweden’s fightback against the gangs](https://www.ft.com/content/b2d744cf-de2c-4ef1-84ca-41e897463484?syn-25a6b1a6=1) — Financial Times
-- [Falklands row shows urgent need to commit to 3% target, says Labour defence committee chair](https://www.theguardian.com/politics/2026/sep/06/falklands-row-raise-defence-spending-tan-dhesi-labour) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
