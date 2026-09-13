@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-13
+
+- [Rivals Altman and Musk rally behind Dario Amodei’s call for an AI slowdown](https://www.ft.com/content/31220b59-b0c6-401c-a146-2b7b5d138837?syn-25a6b1a6=1) — Financial Times
+- [Japan's Nidec to exit Cambodia production over Thailand border conflict](https://asia.nikkei.com/politics/international-relations/thailand-cambodia-conflict/japan-s-nidec-to-exit-cambodia-production-over-thailand-border-conflict) — Nikkei Asia
+- [Benchmarking and bonuses: why Singapore pays its politicians like bankers](https://www.ft.com/content/fa47c0db-18a6-45d6-b35d-75942a0daae8?syn-25a6b1a6=1) — Financial Times
+- [Zohran Mamdani: “La democracia no sirve si la gente no puede cubrir sus necesidades”](https://elpais.com/eps/2026-09-13/zohran-mamdani-la-democracia-no-sirve-si-la-gente-no-puede-cubrir-sus-necesidades.html) — EL PAÍS
+
 ## 2026-09-12
 
 - [Houthis used Anthropic AI to try to build ballistic missiles](https://www.ft.com/content/8310cf56-ce60-4e6e-8254-5bb470e9a880?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Russia's hybrid war in Europe has repercussions in Asia: 5 things to know](https://asia.nikkei.com/politics/ukraine-war/russia-s-hybrid-war-in-europe-has-repercussions-in-asia-5-things-to-know) — Nikkei Asia
 - [Anthropic withheld latest AI model from UK testing agency](https://www.ft.com/content/560e1c8b-f163-4fd6-b604-e905550ac870?syn-25a6b1a6=1) — Financial Times
 - [Babies born to anaemic mothers have smaller brains, study finds](https://www.theguardian.com/global-development/2026/sep/09/babies-born-to-anaemic-mothers-have-smaller-brains-study-finds) — The Guardian
-
-## 2026-09-08
-
-- [25 Years After 9/11, What Are We Failing to Imagine Now?](https://foreignpolicy.com/2026/09/07/9-11-failure-of-imagination-new-terrorist-technologies/) — Foreign Policy
-- [Australia's Firmus inks compute deal with OpenAI for Malaysian data centers](https://asia.nikkei.com/business/technology/australia-s-firmus-inks-compute-deal-with-openai-for-malaysian-data-centers) — Nikkei Asia
-- [AI is ushering in an era of mass toe-treading at work](https://www.ft.com/content/ed214778-2a6d-4862-99b5-abc256daff92?syn-25a6b1a6=1) — Financial Times
-- [Weather tracker: Typhoon Saudel causes mass evacuations in south-east China](https://www.theguardian.com/world/2026/sep/07/typhoon-saudel-mass-evacuations-south-east-china-weather-tracker) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

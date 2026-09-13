@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-13
+
+- **spain-ceuta-torres-overflow-clearance** — eldiario.es: territorial-policy minister Ángel Víctor Torres, running the Ceuta single command, says El Trampolín, El Príncipe and Loma Colmenar will be eased within days (section: spain)
+- **spain-sumar-candidate-delay** — eldiario.es: Sumar is postponing its general-election candidate and brand announcement, citing the Ceuta crisis (section: spain)
+- **spain-sanchez-deep-state** — EL PAÍS: Sánchez's government says sectors of the Supreme Court, CNI, police and Civil Guard are working to force its fall (section: spain)
+- **germany-asylum-applications-down-protection-up** — Handelsblatt: asylum filings are down while the protection rate is up, with an ECJ ruling doing more work than a criminal-law tweak (section: germany)
+- **germany-niedersachsen-local-elections** — Handelsblatt: about six million Lower Saxony voters elect councils amid the VW crisis and AfD candidate exclusions (section: germany)
+- **germany-nivea-warnery-cosmetics-rules** — Handelsblatt: Beiersdorf CEO Vincent Warnery says EU cosmetics rules must not turn the sector into the next car industry (section: germany)
+- **berlin-police-open-day** — Tagesspiegel: Berlin police are holding an open day, including for children (section: berlin)
+- **berlin-autumn-bird-sites** — Tagesspiegel: a field guide to cranes, geese and starlings staging through the city (section: berlin)
+- **berlin-alba-last-friendly** — rbb24: Alba lost its last pre-season game before the Bundesliga start (section: berlin)
+- **world-rbi-tata-sons-listing** — Financial Times: the RBI rejected Tata Sons' appeal and is forcing the holding company to list (section: world)
+- **world-fujitsu-ai-chip-exports** — Nikkei Asia: Fujitsu will export AI chips built on its supercomputer technology to the US and Asia (section: world)
+- **world-fed-energy-inflation** — Bloomberg: energy-driven inflation is complicating the Fed's next rate call (section: world)
+
 ## 2026-09-12
 
 - **spain-ceuta-minors-forced-returns** — eldiario.es: three minors say they were returned from Ceuta to Morocco at night without the Extranjería process (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-fukushima-ai-robots-drones-cleanup** — Nikkei Asia: AI robots and drones are being sent into the Fukushima nuclear-plant cleanup (section: world)
 - **world-indiana-state-fair-trump-midwest** — Financial Times: the Indiana state fair is being read as a test of whether Trump's Midwest still holds (section: world)
 - **world-china-ai-future-looked-familiar** — Rest of World: a reporter in China found the AI race looking like America's stack, not a rival model (section: world)
-
-## 2026-08-29
-
-- **spain-ceuta-two-week-street-clearance-returns** — EL PAÍS: Madrid is compressing asylum rejections and returns into a fortnight so migrants can be taken off Ceuta's streets and most of them sent back (section: spain)
-- **spain-eight-pending-laws-last-legislative-year** — eldiario.es: eight flagship bills including gag-law reform, families law and official secrets are still stuck as the legislature's last year begins (section: spain)
-- **spain-albares-italy-solidarity-hoax** — eldiario.es: Albares accused Italy and Denmark of a lack of EU solidarity over Ceuta and blamed a social-media hoax, amplified around Elon Musk, for triggering the July crossing (section: spain)
-- **germany-bnd-gamescom-recruiting** — Handelsblatt: the BND is recruiting at Gamescom with a game (section: germany)
-- **germany-st-pauli-fans-publish-abuse** — Tagesspiegel: a St Pauli supporter group published cases of sexual, physical and psychological violence in its own ranks (section: germany)
-- **germany-september-station-alcohol-checkout-labels** — Handelsblatt: September brings alcohol bans at the first railway stations and new checkout labels (section: germany)
-- **berlin-spandau-refugee-shelter-fire** — Tagesspiegel: a fourth-floor fire at a Spandau refugee shelter evacuated hundreds on Saturday morning (section: berlin)
-- **berlin-under-18-abgeordnetenhaus-vote** — Tagesspiegel: 16- and 17-year-olds may vote in the 20 September Abgeordnetenhaus election for the first time (section: berlin)
-- **berlin-hamburg-line-weekend-restarbeiten** — Tagesspiegel: the Berlin–Hamburg line is shut again this weekend for leftover optimisation works (section: berlin)
-- **world-trump-venezuela-oil-majority** — The Guardian: Trump announced a US oil agreement giving “majority” control of 65bn barrels of Venezuelan reserves (section: world)
-- **world-us-iran-isolation-dubai** — Financial Times: the US campaign to isolate Iran is closing in on Dubai, the regime's long-standing offshore finance hub (section: world)
-- **world-nvidia-ai-bubble-1980s-japan** — Foreign Policy: Nvidia's earnings are being read against Japan's 1980s asset bubble rather than as proof of a soft landing (section: world)
