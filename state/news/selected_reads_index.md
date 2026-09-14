@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-14
+
+- [Anthropic tells investors it will be profitable for second straight quarter](https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002?syn-25a6b1a6=1) — Financial Times
+- [Stocks Drop on AI Slowdown Concerns, Oil Advances: Markets Wrap](https://www.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap) — Bloomberg
+- [King Charles Will Convene A.I. Leaders Amid Calls to Slow Development](https://www.nytimes.com/2026/09/13/world/europe/king-charles-ai-meeting.html) — The New York Times
+- [Peptide user tore oesophagus after using counterfeit product, Australian regulator warns](https://www.theguardian.com/australia-news/2026/sep/14/counterfeit-retratrutide-warning-peptide-torn-oesophagus-australia-tga) — The Guardian
+
 ## 2026-09-13
 
 - [Rivals Altman and Musk rally behind Dario Amodei’s call for an AI slowdown](https://www.ft.com/content/31220b59-b0c6-401c-a146-2b7b5d138837?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Samsung beats German city in lawsuit over schools' iPad procurement](https://asia.nikkei.com/business/technology/samsung-beats-german-city-in-lawsuit-over-schools-ipad-procurement) — Nikkei Asia
 - [Okay, Sure, a Folding iPhone](https://www.theatlantic.com/technology/2026/09/apple-folding-iphone/688562/?utm_source=feed) — The Atlantic
 - [How Ukraine’s anti-graft bureau became a ‘Sword of Damocles’](https://www.ft.com/content/da5e731b-3f93-45f2-a566-1d9db0e1aa5f) — Financial Times
-
-## 2026-09-09
-
-- [Medicine Needs to Get Serious About AI](https://www.theatlantic.com/health/2026/09/artificial-intelligence-autonomous-doctor-medicine/688543/?utm_source=feed) — The Atlantic
-- [Russia's hybrid war in Europe has repercussions in Asia: 5 things to know](https://asia.nikkei.com/politics/ukraine-war/russia-s-hybrid-war-in-europe-has-repercussions-in-asia-5-things-to-know) — Nikkei Asia
-- [Anthropic withheld latest AI model from UK testing agency](https://www.ft.com/content/560e1c8b-f163-4fd6-b604-e905550ac870?syn-25a6b1a6=1) — Financial Times
-- [Babies born to anaemic mothers have smaller brains, study finds](https://www.theguardian.com/global-development/2026/sep/09/babies-born-to-anaemic-mothers-have-smaller-brains-study-finds) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

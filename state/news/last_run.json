@@ -1,58 +1,38 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-13",
-  "briefing_date": "2026-09-13",
-  "inbox_date": "2026-09-13",
+  "date": "2026-09-14",
+  "briefing_date": "2026-09-14",
+  "inbox_date": "2026-09-14",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-13.md",
-  "inbox_path": "inbox/news/2026-09-13-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-14.md",
+  "inbox_path": "inbox/news/2026-09-14-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Una patrulla de militares hostiga durante dos horas a voluntarias de una ONG y obstaculiza el reparto de comida a migrantes",
+      "headline": "Los socialdemócratas ganan las elecciones en Suecia y el bloque de izquierdas consigue una mayoría ajustadísima",
       "section": "spain",
-      "reason": "one_theme: parked in Other Headlines; main Spain Ceuta slot is Torres's overflow-site clearance pledge"
+      "reason": "geographic_misfit: Swedish election; parked in Other Headlines"
     },
     {
-      "headline": "Mapa del odio en Ceuta: incendios, agresiones y tensión al límite",
+      "headline": "El Gobierno se ocupará del campamento de Sidi Embarek, el cobijo de 300 mujeres y niños que levantó la solidaridad de Ceuta",
       "section": "spain",
-      "reason": "one_theme: same Ceuta crisis week; parked in Other Headlines as enclave violence"
+      "reason": "one_theme: parked in Other Headlines; main Spain Ceuta slot is Vivas's emergency-contract awards"
     },
     {
-      "headline": "Siete años de Ayuso bajo la lupa: de las \"ocurrencias\" como el Zendal a la guerra sin cuartel con el Gobierno",
+      "headline": "Por qué la subida del salario mínimo se está centrando en la reforma pendiente sobre la absorción de pluses",
       "section": "spain",
-      "reason": "incremental: seven-year retrospective — no new law or ruling"
+      "reason": "incremental: promised SMI-plus reform debate — no law passed"
     },
     {
-      "headline": "Las desclasificaciones a la carta del Gobierno: Ceuta y el 23-F sí, pero no el espionaje al independentismo",
-      "section": "spain",
-      "reason": "incremental: official-secrets debate after the 10 September file dump; parked in Other Headlines"
-    },
-    {
-      "headline": "Dutzende gerettet: Indonesische Fähre mit rund 240 Menschen an Bord in Seenot",
-      "section": "germany",
-      "reason": "geographic_misfit: Indonesia ferry; parked in Other Headlines"
-    },
-    {
-      "headline": "Schiff angegriffen: Wachsende Sorgen um Ölversorgung könnten Preise weiter hochtreiben",
-      "section": "germany",
-      "reason": "geographic_misfit: Hormuz tanker hit; parked in Other Headlines"
-    },
-    {
-      "headline": "Parlamentswahl: Schweden vor der Wahl: Machtwechsel oder neuer Tabubruch?",
+      "headline": "Wahl: Mitte-Links und rechter Block in Schweden praktisch gleichauf",
       "section": "germany",
       "reason": "geographic_misfit: Swedish election; parked in Other Headlines"
     },
     {
-      "headline": "Schon 200 Meter vom Haus entfernt: Wann Katzen in Deutschland erschossen werden dürfen",
-      "section": "berlin",
-      "reason": "dedup: cat-culling law was Germany on 12 September"
-    },
-    {
-      "headline": "„Die Ostidentität wurde erfunden“: Warum Linda Teutebergs Satz vor allem über den Westen etwas verrät",
-      "section": "berlin",
-      "reason": "geographic_misfit: Brandenburg SED-commissioner appointment; rejected 11–12 September"
+      "headline": "Systemupgrade: Apples iOS 27: Mehr KI und Kinderschutz fürs iPhone",
+      "section": "germany",
+      "reason": "not_germany_policy: global product note; Germany pool otherwise thin after geography filters"
     },
     {
       "headline": "Don’t Blame Ukraine for High Gas Prices",
@@ -60,15 +40,35 @@
       "reason": "dedup: used as Selected Read on 12 September"
     },
     {
-      "headline": "Canada offers air defense support for Ukraine as Zelenskyy visits",
+      "headline": "Anthropic tells investors it will be profitable for second straight quarter",
       "section": "world",
-      "reason": "dedup: Other Headlines on 12 September"
+      "reason": "one_theme: AI-lab finance parked in Selected Reads; World AI slot is Trump rejecting the slowdown"
     },
     {
-      "headline": "Unfall: 15 Verletzte bei Busunfall in Berlin",
+      "headline": "Global AI stocks slip on concerns over risks",
+      "section": "world",
+      "reason": "one_theme: same AI-pause market reaction as the Bloomberg wrap used in Selected Reads"
+    },
+    {
+      "headline": "Passagierschiff gerät im Javasee in Seenot: 140 Menschen vermisst",
       "section": "berlin",
-      "reason": "one-off accident; Berlin civic pool otherwise thin (publisher_pool_thin: Tagesspiegel + rbb24)"
+      "reason": "geographic_misfit: Indonesia ferry; World used the Guardian casualty update"
+    },
+    {
+      "headline": "Saudi-Arabiens Ölroute in Flammen: Warum die Houthi-Miliz aus dem Jemen in den Iran-Krieg eintritt – und der große Sturm noch bevorsteht",
+      "section": "berlin",
+      "reason": "geographic_misfit: Gulf energy; parked in Other Headlines"
+    },
+    {
+      "headline": "Lücke von 23 Milliarden Euro: EU will Finanzbedarf der Ukraine genau feststellen",
+      "section": "berlin",
+      "reason": "geographic_misfit: EU-Ukraine budget; parked in Other Headlines"
+    },
+    {
+      "headline": "Ministerien in Brandenburg beschließen Leitfaden gegen häusliche Gewalt",
+      "section": "berlin",
+      "reason": "geographic_misfit: Brandenburg, not Berlin city"
     }
   ],
-  "notes": "Spain used Torres's overflow-site clearance (eldiario.es), Sumar's candidate/brand delay (eldiario.es), and the EL PAÍS deep-state reconstruction for a second publisher. Germany was publisher_pool_thin after geography filters (Tagesspiegel/FAZ items were Indonesia, Hormuz, or sport): asylum-rate data, Lower Saxony locals, and Nivea/Beiersdorf vs EU cosmetics rules — all Handelsblatt. Berlin civic pool was thin: police open day and autumn bird sites (Tagesspiegel) plus Alba's last friendly (rbb24); Brandenburg, EU-Ukraine, Palmer/AfD, and the 12 September cat-culling explainer were dropped. World balanced Tata Sons' forced listing (South Asia), Fujitsu AI-chip exports (East Asia), and Bloomberg's Fed/energy note (North America). Selected Reads: FT Amodei/Altman/Musk slowdown, Nikkei Nidec Cambodia exit, FT Singapore ministerial pay, EL PAÍS Mamdani interview."
+  "notes": "Spain used Vivas's emergency minor-shelter contracts (eldiario.es), Internal Affairs verifying the UDEF inspector's police-corruption network (eldiario.es), and EL PAÍS on Washington stalling the Betancourt file for a second publisher. Sidi Embarek and Sweden went to Other Headlines. Germany: Niedersachsen local results are the material follow-on to yesterday's preview (Handelsblatt); SPD-Linke vs Union and a night-darkness heart study (both Tagesspiegel) filled the remaining slots — remaining Handelsblatt items were Sweden, global AI, or consumer explainers. Berlin: new CDU–Left poll and BER night-train cuts (Tagesspiegel) plus the Mitte antisemitic assault (rbb24). World: Trump rejecting the AI pause (North America, FT), TDK AI-server components (East Asia, Nikkei), Java Sea ferry casualty update (Southeast Asia, Guardian). Selected Reads: FT Anthropic profitability, Bloomberg AI/oil wrap, NYT King Charles AI meeting, Guardian TGA peptide warning. publisher_pool_thin noted only as a Germany third-slot constraint, not a single-publisher section."
 }

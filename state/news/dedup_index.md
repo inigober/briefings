@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-14
+
+- **spain-ceuta-vivas-emergency-contracts** — eldiario.es: Juan Jesús Vivas used emergency powers to award unpublished €3m and €2m minor-shelter contracts to relatives of a personal adviser and the port president (section: spain)
+- **spain-udef-internal-affairs-network** — eldiario.es: Internal Affairs has verified the police corruption network named by former UDEF chief Óscar Sánchez Gil, including an unread Algeciras cocaine phone (section: spain)
+- **spain-betancourt-us-blocks-spain-probe** — EL PAÍS: Washington is stalling Spain's case against Alejandro Betancourt, its new Venezuela oil broker; the judge may archive by December (section: spain)
+- **germany-niedersachsen-local-results-afd** — Handelsblatt: Lower Saxony local-election results show the AfD roughly tripling its score and the CDU ahead of the SPD (section: germany)
+- **germany-spd-linke-union-harder-line** — Tagesspiegel: SPD left-wingers Annika Klose and Hakan Demir want a harder line against the Union and warn of single-digit national results (section: germany)
+- **germany-night-darkness-heart-study** — Tagesspiegel: a study says keeping nights dark protects the heart via the body clock (section: germany)
+- **berlin-wahl-poll-cdu-linke-spd-afd** — Tagesspiegel: a new Abgeordnetenhaus poll has the CDU and Left neck-and-neck and the SPD clearly behind the AfD (section: berlin)
+- **berlin-ber-night-train-cancellations** — Tagesspiegel: regional night trains to BER are cancelled for construction (section: berlin)
+- **berlin-mitte-antisemitic-attack** — rbb24: men injured a woman on Torstrasse in an apparently antisemitic assault (section: berlin)
+- **world-trump-rejects-ai-slowdown** — Financial Times: Trump rejected tech bosses' call for an AI slowdown and denounced regulation talk (section: world)
+- **world-tdk-ai-server-components** — Nikkei Asia: TDK will ramp production of electronic components for AI servers (section: world)
+- **world-indonesia-ferry-capsized** — The Guardian: the Virgo Transport 8 capsized in the Java Sea; six dead and about 130 missing (section: world)
+
 ## 2026-09-13
 
 - **spain-ceuta-torres-overflow-clearance** — eldiario.es: territorial-policy minister Ángel Víctor Torres, running the Ceuta single command, says El Trampolín, El Príncipe and Loma Colmenar will be eased within days (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-us-iran-hormuz-fire-exchange** — Financial Times: the US and Iran exchanged fire for the first time in more than a month after a Hormuz-island strike and a retaliatory attack on Jordan (section: world)
 - **world-us-robots-manufacturing** — Financial Times: Wall Street wants physical AI to rebuild US factories; unions warn about jobs and wages (section: world)
 - **world-unimicron-nvidia-china-parts-probe** — Nikkei Asia: Nvidia supplier Unimicron is being probed for allegedly relabelling China-made parts (section: world)
-
-## 2026-08-30
-
-- **spain-ceuta-165-million-recovery-package** — EL PAÍS: Sánchez will take an urgent Tuesday cabinet package adding €165 million to recover Ceuta, billed as 4% of the enclave's output in aid (section: spain)
-- **spain-diaz-planas-ilo-fao-ecb-races** — eldiario.es: Díaz and Planas are campaigning for the ILO and FAO, and Madrid is watching a possible ECB opening, in the legislature's last year (section: spain)
-- **spain-murcia-algerian-route-sive** — eldiario.es: Murcia's coast is the other boat door as an Algerian route professionalises and SIVE is short of boats and staff (section: spain)
-- **germany-verivox-g20-highest-electricity-prices** — Handelsblatt: a Verivox comparison says Germany now has the highest electricity prices in the G20 (section: germany)
-- **germany-byd-hybrid-price-war** — Handelsblatt: a study says BYD is undercutting German brands on plug-in hybrids and may reopen the tariff argument (section: germany)
-- **germany-ifa-fairs-need-entertainment** — Tagesspiegel: IFA's boss says electronics trade fairs now have to be entertainment because industry sales have been falling (section: germany)
-- **berlin-landesnetz-leak-threat-data-use** — Tagesspiegel: extortionists are threatening to publish files stolen from Berlin's state network, with an expert on how the data can be used (section: berlin)
-- **berlin-union-imeri-swiss-midfielder** — Tagesspiegel: Union Berlin is reported to be close to Swiss midfielder Kastriot Imeri (section: berlin)
-- **berlin-alba-two-test-wins** — rbb24: Alba Berlin opened its season with two friendly wins (section: berlin)
-- **world-fukushima-ai-robots-drones-cleanup** — Nikkei Asia: AI robots and drones are being sent into the Fukushima nuclear-plant cleanup (section: world)
-- **world-indiana-state-fair-trump-midwest** — Financial Times: the Indiana state fair is being read as a test of whether Trump's Midwest still holds (section: world)
-- **world-china-ai-future-looked-familiar** — Rest of World: a reporter in China found the AI race looking like America's stack, not a rival model (section: world)
