@@ -1,30 +1,31 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-09-08",
-  "briefing_date": "2026-09-08",
-  "inbox_date": "2026-09-08",
-  "week_start": "2026-09-09",
-  "week_end": "2026-09-15",
+  "date": "2026-09-15",
+  "briefing_date": "2026-09-15",
+  "inbox_date": "2026-09-15",
+  "week_start": "2026-09-16",
+  "week_end": "2026-09-22",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-09-08.md",
-  "inbox_path": "inbox/berlin-culture/2026-09-08-synthesis.json",
-  "items_count": 14,
+  "briefing_path": "briefings/berlin-culture/2026-09-15.md",
+  "inbox_path": "inbox/berlin-culture/2026-09-15-synthesis.json",
+  "items_count": 13,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 3,
-    "film": 2,
+    "exhibitions": 2,
+    "film": 1,
     "performing_arts": 1,
     "music": 2,
-    "wildcards": 1,
+    "wildcards": 2,
     "advance_radar": 2
   },
-  "thin_sections": ["exhibitions", "performing_arts", "music"],
+  "thin_sections": ["exhibitions", "film", "performing_arts", "music"],
   "omitted_sections": [],
   "validation_warnings": [
-    "Section 'exhibitions' has 3 entries (style minimum 4)",
+    "Section 'exhibitions' has 2 entries (style minimum 4)",
+    "Section 'film' has 1 entries (style minimum 2)",
     "Section 'performing_arts' has 1 entries (style minimum 2)",
     "Section 'music' has 2 entries (style minimum 3)"
   ],
-  "verification_fetches": 7,
-  "notes": "Top Picks spot-checked: Sakamoto (inbox dates were his death date 28 March 2023; Hamburger Bahnhof page is 11.09.2026–20.06.2027, opening Thu 10.09.2026 19:00). Short smb.museum/en/exhibitions/detail URL failed SSL in the verify script; Official Link is the Hamburger Bahnhof institution path confirmed live. Trisha Brown INDEX (Wed 9.9.2026 17:00 and Tue 15.9.2026 18:30; Kianí Del Valle same building, merged). SKRB at Tanzfabrik (Sat 12.09 19:00 / Sun 13.09 16:00, German premiere). Also fetched July Weber, Katokye detail, Transgressive Memory detail. Used silent green detail URLs, not /en/programme/2026/9 listing. Promoted last week's Advance Radar (Trisha Brown, RECORDING THE GAZE, correct me if I'm foreign). Kreuzberg: Kunst und Migration and Matt Lambert taken from html-calendars / INDEX week listing during the Trisha Brown spot-check. Dropped Menschenfresserin (27.09, HAU profile URL). Dropped INDEX 'Still Holds Hamburger Bahnhof' exhibitions (venue scrape bug). Music thin: silent green venue cap (Katokye + Transgressive Memory). filmPOLSKA is a new Kozyra programme vs last week's Wysocka night (same festival URL, materially new bill)."
+  "verification_fetches": 6,
+  "notes": "Top Picks spot-checked: SAVVY Architectural Echotones (inbox date was 12.09 conversation at HKW; page is on view 11.09–22.11.2026, Thu–Sun 14:00–19:00, opened 10.09). Burnt Friedman silent green dated detail (Sat 19.09, doors 19:00 / start 20:00). FAREWELL at DOCK 11 spielplan (premiere Thu 17.09 then Fri–Sun 19:30, Hoyoung Im); no deeper production URL on the page. Also fetched km28.de (RAGE Thormbones Sat 19.09 confirmed; Making Waves #23 Sun 20.09 confirmed but dropped to avoid duplicate Official Link with RAGE), HAU spielplan (Maté/medico Mon 21.09 19:00 HAU1; Menschenfresserin Wed 16.09 19:00 — used INDEX event URL not the HAU listing), ACUDkino Kontrollverlust (Shorts Attack September, 285th edition, materially new vs July). Promoted last week's Advance Radar (A K Dolven Thu 17.09; Polina Osipova Fri 18.09, merged performance + Sunday talk into one entry). Dropped INDEX Goldrausch/OnView (venue scrape bug: 'on tree Shahin Zarinbal'). Dropped Midori Hirano and hub/Doorman (past dates; already briefed). Carla dal Forno Official Link copied from html-calendars detail URL, not /programme/2026/9. Thin week: no pad; KM28 homepage used once."
 }

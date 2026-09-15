@@ -29,17 +29,6 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-08-18 | advance_radar | Josef Kaiser. Bauen für die DDR | Alte Jakobstr. 124-128, 10969 Berlin | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
 2026-08-18 | advance_radar | Ruba Al-Sweel, Arvin Arta, Dana Dawud, Noura Tafeche and Zein Majali Short Film Screening | Frankfurter Tor 1, 10243 Berlin | https://www.indexberlin.com/events/list/44942/short-film-screening
 2026-08-18 | advance_radar | Itchi Fleischer Unzucht – Kiss the Devil’s Arse | Weigandufer, corner of Wildenbruchbrücke, next to the mooring, 12045 Berlin | https://www.indexberlin.com/events/list/44861/unzucht-kiss-the-devil-s-arse
-2026-07-14 | top_picks | Forecast Festival 2026 | Radialsystem | https://www.radialsystem.de/en/veranstaltungen/forecast-festival-2026/
-2026-07-14 | top_picks | Bjørn Melhus: LOST IN FINITY | silent green Kulturquartier | https://www.silent-green.net/en/programme/detail/bjoern-melhus-lost-in-finity?tx_news_pi1%5Bday%5D=17&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026&cHash=23e6da090cfa4998b5d5332562aea309
-2026-07-14 | top_picks | Deutschlandpremiere: Only Ghosts in the Waves + Gespräch | Wolf Kino | https://wolfberlin.org/de/programm
-2026-07-14 | exhibitions | Anne Duk Hee Jordan — Riders on the Storm | alexander levy | https://www.indexberlin.com/exhibitions/list/43263/riders-on-the-storm
-2026-07-14 | exhibitions | Guy Simpson — Level with me | EIGEN + ART Lab | https://www.indexberlin.com/exhibitions/list/44340/level-with-me
-2026-07-14 | film | Shorts Attack – monatliches Kurzfilmprogramm | ACUDkino | https://acudkino.de/Event/Detail/1076
-2026-07-14 | wildcards | Adam Hanieh: The Middle East in an Age of War and Climate Breakdown | KW Institute for Contemporary Art | https://www.indexberlin.com/events/list/44911/adam-hanieh-the-middle-east-in-an-age-of-war-and-climate-breakdown
-2026-07-14 | wildcards | Veit Laurent Kurz & Max Brand: Das Historische Brummen | Haus am Waldsee | https://www.indexberlin.com/events/list/44919/veit-laurent-kurz-max-brand-das-historische-brummen-a-history-lecture-with-music-and-surprises
-2026-07-14 | advance_radar | Zilberman Unfold '26: Sites of Relation | Zilberman | https://www.indexberlin.com/events/list/44403/zilberman-unfold-26-sites-of-relation
-2026-07-14 | advance_radar | Michaela Younge & Rhys Coren | EIGEN + ART Lab | https://www.indexberlin.com/events/list/44422/n-a
-2026-07-14 | advance_radar | Alicja Rogalska — Counterplay | Studio | Galerie Nord | https://www.indexberlin.com/events/list/44278/counterplay
 2026-07-21 | top_picks | Asian Queers Reunited 2026: Shorts Program I — Homes We Make, Homes We Leave | SİNEMA TRANSTOPIA | https://sinematranstopia.com/en/asian-queers-reunited-2026/shorts-program-i-homes-we-make-homes-we-leave
 2026-07-21 | top_picks | Kyiv Biennial — A Bird That Cannot Land | KW Institute for Contemporary Art | https://www.kw-berlin.de/en/exhibitions/kyiv-biennial-a-bird-that-cannot-land
 2026-07-21 | top_picks | Maresz + Del Gesù + The Midnight Audience | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/silent-green-music-from-beyond-pres-maresz-del-gesu-the-midnight-audience?cHash=7cc70058540b3e08ee9894e00a6b7b3d&tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026
@@ -116,3 +105,16 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-09-08 | wildcards | Hannah Hallermann — SEWING | Marburger Straße 3, Charlottenburg | https://www.indexberlin.com/events/list/45290/sewing
 2026-09-08 | advance_radar | A K Dolven — four hundred million years of sunrise from the dark | St. Matthäus-Kirche | https://www.indexberlin.com/events/list/45273/four-hundred-million-years-of-sunrise-from-the-dark
 2026-09-08 | advance_radar | Polina Osipova — Cosmologies at Play | Neun Kelche | https://www.indexberlin.com/events/list/44754/cosmologies-at-play
+2026-09-15 | top_picks | ARCHITECTURAL ECHOTONES. A Poetics Of The Surrounds | SAVVY Contemporary | https://savvy-contemporary.com/en/events/2026/architectural-echotones/
+2026-09-15 | top_picks | FAREWELL | DOCK 11 | https://dock11-berlin.de/gesamter-spielplan
+2026-09-15 | top_picks | Burnt Friedman pres. Secret Rhythms | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/burnt-friedman-pres-secret-rhythms?tx_news_pi1%5Bday%5D=19&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=b93a718ca3cdc7b0db6800406f7ad376
+2026-09-15 | exhibitions | A K Dolven — four hundred million years of sunrise from the dark | St. Matthäus-Kirche | https://www.indexberlin.com/events/list/45273/four-hundred-million-years-of-sunrise-from-the-dark
+2026-09-15 | exhibitions | Polina Osipova — Cosmologies at Play | Neun Kelche | https://www.indexberlin.com/events/list/44754/cosmologies-at-play
+2026-09-15 | film | Kontrollverlust — Shorts Attack September 2026 | ACUDkino | https://acudkino.de/Programm/kontrollverlust/20534
+2026-09-15 | performing_arts | Sophia Süßmilch — Etwas Schreckliches wird passieren: Die Menschenfresserin | HAU1, HAU Hebbel am Ufer | https://www.indexberlin.com/events/list/45954/etwas-schreckliches-wird-passieren-die-menschenfresserin
+2026-09-15 | music | Carla dal Forno + Nein Rodere | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/carla-dal-forno?tx_news_pi1%5Bday%5D=22&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=21a0a4183b42651aedde5856c12f9760
+2026-09-15 | music | RAGE Thormbones & Etienne Nillesen / Ryan Packard | KM28 | https://www.km28.de/
+2026-09-15 | wildcards | When Trauma and Politics Intersect: Germany, Palestine and Israel | HAU1, HAU Hebbel am Ufer | https://www.hebbel-am-ufer.de/programm/spielplan-tickets
+2026-09-15 | wildcards | Walls, Lights and Windows: Ian Waelder and Richard Venlet in Conversation | Haus am Waldsee | https://www.indexberlin.com/events/list/45978/walls-lights-and-windows-ian-waelder-and-richard-venlet-in-conversation
+2026-09-15 | advance_radar | Träumen: Annemirl Bauer und Bärbel Bohley | Galerie im Turm | https://www.indexberlin.com/events/list/45512/traumen-annemirl-bauer-und-barbel-bohley
+2026-09-15 | advance_radar | attaquer le visible. Kollaborative Assemblagen | Regina-Jonas-Straße 41–43 | https://www.indexberlin.com/events/list/45973/attaquer-le-visible-kollaborative-assemblagen-feministische-praktiken-im-experimentalfilm-und-video-der-80er-jahre
