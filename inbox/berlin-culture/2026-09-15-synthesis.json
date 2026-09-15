@@ -1,0 +1,918 @@
+{
+  "briefing_type": "berlin-culture",
+  "date": "2026-09-15",
+  "week_start": "2026-09-16",
+  "week_end": "2026-09-22",
+  "week_label": "September 16–22, 2026",
+  "source_raw": "inbox/berlin-culture/2026-09-15-raw.json",
+  "built_at": "2026-09-15T08:39:12.074883+00:00",
+  "model": "gpt-5.4",
+  "raw_item_count": 127,
+  "section_counts": {
+    "exhibitions": 3,
+    "film": 1,
+    "performing_arts": 1,
+    "music": 4,
+    "wildcards": 4,
+    "advance_radar": 5
+  },
+  "items": [
+    {
+      "id": "exh-architectural-echotones-savvy-2026-09-11",
+      "topic_ids": [
+        "exhibitions",
+        "urbanism",
+        "research",
+        "contemporary_art"
+      ],
+      "title": "ARCHITECTURAL ECHOTONES. A Poetics Of The Surrounds",
+      "venue": "SAVVY Contemporary",
+      "dates": "12 September 2026",
+      "times": "Thursday–Sunday, 14:00–19:00",
+      "artists": [
+        "Vilanismo",
+        "Helcio Barros"
+      ],
+      "official_url": "https://savvy-contemporary.com/en/events/2026/architectural-echotones/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "New September opening with a research-led, spatial and social framing; described as a laboratory/takeover format aligned with politically alert interdisciplinary visual culture.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-5847ac6f93",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "In touch – Goldrausch 2026",
+      "venue": "on tree Shahin Zarinbal",
+      "dates": "until November 21, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/45542/in-touch-goldrausch-2026",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until November 21, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-html-exhibitions-e3b40349d2",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "OnView – Transformation",
+      "venue": "on tree Shahin Zarinbal",
+      "dates": "until November 21, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44640/onview-transformation",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until November 21, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "film-kontrollverlust-acudkino-2026-09-16",
+      "topic_ids": [
+        "film",
+        "screening"
+      ],
+      "title": "Kontrollverlust",
+      "venue": "ACUDkino",
+      "dates": "Wed 2026-09-16",
+      "times": "21:15",
+      "artists": [],
+      "official_url": "https://acudkino.de/Programm/kontrollverlust/20534",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "The only fully confirmed atomic in-window screening from the retrieved film research with a specific official event URL.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "perf-farewell-dock11-2026-09-17",
+      "topic_ids": [
+        "performing_arts",
+        "interdisciplinary_performance",
+        "theatre"
+      ],
+      "title": "FAREWELL",
+      "venue": "DOCK 11",
+      "dates": "Thu 17 Sep 2026; Fri 18 Sep 2026; Sat 19 Sep 2026; Sun 20 Sep 2026",
+      "times": "19:30",
+      "artists": [
+        "Hoyoung Im"
+      ],
+      "official_url": "https://dock11-berlin.de/gesamter-spielplan",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Clearly listed in DOCK 11’s September schedule as an in-window interdisciplinary theatre-performance run across four evenings.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "music-burnt-friedman-secret-rhythms-silent-green-2026-09-19",
+      "topic_ids": [
+        "music",
+        "experimental_electronic",
+        "live"
+      ],
+      "title": "Burnt Friedman pres. Secret Rhythms",
+      "venue": "silent green Kulturquartier, Kuppelhalle",
+      "dates": "Saturday, September 19, 2026",
+      "times": "doors 7:00 pm, start 8:00 pm",
+      "artists": [
+        "Burnt Friedman"
+      ],
+      "official_url": "https://www.silent-green.net/en/programme/detail/burnt-friedman-pres-secret-rhythms",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Strong experimental/electronic profile with a multichannel, rhythm-focused live set and trance-like, non-commercial orientation.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "music-carla-dal-forno-nein-rodere-silent-green-2026-09-22",
+      "topic_ids": [
+        "music",
+        "leftfield",
+        "live"
+      ],
+      "title": "Carla dal Forno + Nein Rodere",
+      "venue": "silent green Kulturquartier, Kuppelhalle",
+      "dates": "Tuesday, September 22, 2026",
+      "times": "8:00 pm",
+      "artists": [
+        "Carla dal Forno",
+        "Nein Rodere"
+      ],
+      "official_url": "https://www.silent-green.net/en/programme/2026/9",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "In-window silent green listing with a strong leftfield/experimental profile; novel candidate, though only verified via the dated programme page in the research notes.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "silent-green-html-music-a915084870",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Film concert: Midori Hirano x The Juniper Tree (1990) – Heroines of Sound Festival / Heroines Edition # I – sold out",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/midori-hirano-x-the-juniper-tree-1990-im-rahmen-von-heroines-of-sound-festival-heroines-edition-i?tx_news_pi1%5Bday%5D=2&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=9a1ff49457c71afd345fb29fb7a22211",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "series_id": "film-concert",
+      "event_kind": "festival_overview"
+    },
+    {
+      "id": "silent-green-html-music-0aef751072",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "hub pres. Doorman + Franco Franco",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/hub-pres-doorman-franco-franco?tx_news_pi1%5Bday%5D=3&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=c6ed74f00b12a831b427542354c65d40",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "wild-when-trauma-and-politics-intersect-hau1-2026-09-21",
+      "topic_ids": [
+        "wildcards",
+        "talk",
+        "politics"
+      ],
+      "title": "When Trauma and Politics Intersect: Germany, Palestine and Israel",
+      "venue": "HAU1, HAU Hebbel am Ufer",
+      "dates": "Mon 21 Sep 2026",
+      "times": "19:00",
+      "artists": [
+        "Gabor Maté",
+        "medico international"
+      ],
+      "official_url": "https://www.hebbel-am-ufer.de/programm/spielplan-tickets",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Politically substantive dialogue on Germany, Palestine, and Israel; strong wildcard fit as a discourse event hosted by a major performing-arts venue.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-2ee2edc3c3",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Walls\\, Lights and Windows: Ian Waelder and Richard Venlet in Conversation",
+      "venue": "Argentinische Allee 30 14163 Berlin",
+      "dates": "17 September 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45978/walls-lights-and-windows-ian-waelder-and-richard-venlet-in-conversation",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Walls\\, Lights and Windows: Ian Waelder and Richard Venlet in Conversation",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-926415d4f9",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Conversation & Book Presentation with Erin Honeycutt (CUTT PRESS)",
+      "venue": "Fürbringerstr. 11 10961 Berlin",
+      "dates": "17 September 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45976/conversation-book-presentation-with-erin-honeycutt-cutt-press",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Conversation & Book Presentation with Erin Honeycutt (CUTT PRESS)",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-c2b4220f03",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "A K Dolven four hundred million years of sunrise from the dark",
+      "venue": "Matthäikirchplatz 10785 Berlin",
+      "dates": "17 September 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45273/four-hundred-million-years-of-sunrise-from-the-dark",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "A K Dolven four hundred million years of sunrise from the dark",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-86ce95ca1b",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Träumen: Annemirl Bauer und Bärbel Bohley",
+      "venue": "Frankfurter Tor 1 10243 Berlin",
+      "dates": "23 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45512/traumen-annemirl-bauer-und-barbel-bohley",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Träumen: Annemirl Bauer und Bärbel Bohley",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-3c19456d2e",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Meet-the-artist mit Niina Lehtonen Braun",
+      "venue": "Grunewaldstr. 55 12165 Berlin",
+      "dates": "24 September 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/43543/meet-the-artist-mit-niina-lehtonen-braun",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Meet-the-artist mit Niina Lehtonen Braun",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-268d8ea9ad",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Kantione: Clara Levy & Victor Guaita Igual",
+      "venue": "Argentinische Allee 30 14163 Berlin",
+      "dates": "24 September 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45263/kantione-clara-levy-victor-guaita-igual",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Kantione: Clara Levy & Victor Guaita Igual",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-2cf265bfdb",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "attaquer le visible. Kollaborative Assemblagen. Feministische Praktiken im Experimentalfilm und -video der 80er Jahre",
+      "venue": "Regina-Jonas-Str. 41–43\\n 10999 Berlin",
+      "dates": "24 September 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45973/attaquer-le-visible-kollaborative-assemblagen-feministische-praktiken-im-experimentalfilm-und-video-der-80er-jahre",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "attaquer le visible. Kollaborative Assemblagen. Feministische Praktiken im Experimentalfilm und -video der 80er Jahre",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single"
+    },
+    {
+      "id": "index-berlin-ics-wildcards-27c431b43b",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "OPENHAUS: Residency Open Studios",
+      "venue": "Siemensstrasse 27 10551 Berlin",
+      "dates": "24 September 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/42972/openhaus-residency-open-studios",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "OPENHAUS: Residency Open Studios",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "open-studios",
+      "event_kind": "festival_overview"
+    }
+  ],
+  "editorial_context": {
+    "rejected_candidates": [
+      {
+        "id": "index-berlin-html-exhibitions-82efee1749",
+        "title": "correct me if I’m foreign",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-956866cb55",
+        "title": "The Master’s House",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-9f1aeee922",
+        "title": "Corbijn, Anton",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-af547870a1",
+        "title": "Counterplay",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-fad0fab115",
+        "title": "Internet Explorer",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-e3bdbcec26",
+        "title": "Crosstown",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-113028d72c",
+        "title": "Second Echo",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-8817d547fe",
+        "title": "Hauntings",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-e9f65b783f",
+        "title": "Si quelque chose noir",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-03ad261564",
+        "title": "The New England Paintings",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-b684171454",
+        "title": "the lusophile",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-eac47c704f",
+        "title": "New Systems (For Relationships)",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-d5e579db2d",
+        "title": "Animal Mirror",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-12e5c4a2b0",
+        "title": "Search for Life",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-02927a3a0b",
+        "title": "Un orlo a giorno per il mio diario (A hemstitch a day for my diary)",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-0d4c23bcc2",
+        "title": "de sensu",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-b571354351",
+        "title": "Ausstellung realisiert durch seine Tochter Anna Tripamer",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-945520bc4a",
+        "title": "Sediments",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-ec6a65233d",
+        "title": "Werk und Wirken",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-7fc4a42d33",
+        "title": "Dispair",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-4fdebb383d",
+        "title": "Nooking. A project by Claudia Wünsch Communication & EBENSPERGER",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-c74675a76e",
+        "title": "Bonnie Camplin Archive (BCA)",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-27ca69f661",
+        "title": "hook, line and sinker",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-21eacf17db",
+        "title": "Radical Tenderness",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-594db0cc65",
+        "title": "Urform",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-96eb7fa5c9",
+        "title": "Tomorrow and Tomorrow and Tomorrow",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-6bad610b6b",
+        "title": "Parade",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-0cb03f3c7b",
+        "title": "From the Sleep Side",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-3a84a0af35",
+        "title": "ROT GELB BLAU STAUB",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-aceb76872d",
+        "title": "ALVA",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-402bbbf8e4",
+        "title": "It Is Like Another Time, in the Same Place",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-37c789d3aa",
+        "title": "Exuvie",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-0b2466af21",
+        "title": "Pull the Rug",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-df3cde9ea1",
+        "title": "Transit",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-8339855551",
+        "title": "Return to Content a/b",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-f104454431",
+        "title": "tracks, taps",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-c6255a7a7f",
+        "title": "10 Jahre Galerie Russi Klenner Jubiläumsausstellung",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-8aa38a2358",
+        "title": "Source",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "silent-green-html-music-06e57eee54",
+        "title": "Who Shapes Culture in the Age of AI? – sold out",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-1be21aae6f",
+        "title": "ZEIT WISSEN Congress 2026: Courage for Sustainability",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "zeit-wissen-congress-2026",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-f10033105e",
+        "title": "Katokye",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-c5f9f0644f",
+        "title": "15 YEARS zweikommasieben: Steven Warwick & Jon Davies + spalarnia + zweikommasieben DJs",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-40bd118129",
+        "title": "Transgressive Memory Festival: Resynthesising the Traditional",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "transgressive-memory-festival",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-4963b84287",
+        "title": "Transgressive Memory Festival",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "transgressive-memory-festival",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-32d24d2514",
+        "title": "Historische Führungen am Tag des offenen Denkmals",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-555679ec4e",
+        "title": "Historische Führungen am Tag des offenen Denkmals",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-a0a152ec37",
+        "title": "Book premiere GAVDOS with Tomer Dotan-Dreyfus",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-8bb2dd9865",
+        "title": "Curbside Lambsear + Yves B Golden",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-c8da44e1be",
+        "title": "Anja Huwe / Xmal Deutschland + Das Kinn – Sonic Morgue",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-3778485fb5",
+        "title": "Carla dal Forno + Nein Rodere",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-5d10bf6bfa",
+        "title": "Psychic Liberation Night: Flora Yin Wong + Afraidofmessages",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-62d59cffca",
+        "title": "Oren Ambarchi pres. Cooked (Album Launch / Listening Session)",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-89f892c7a2",
+        "title": "Ilona Hartmann: Junk",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a72f84e185",
+        "title": "Current 93 + Reg Meuross – Sonic Morgue – sold out",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-c858a6cff9",
+        "title": "Current 93 + Reg Meuross – Sonic Morgue – Additional show",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-82813fd9b6",
+        "title": "Zia Conference »Visible Women in Science«",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-cdc13a326d",
+        "title": "Live-Podcast: Ebola – You Can’t Build Trust Like a Tent",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-8c49da507e",
+        "title": "scribble.mp3 pres. Felisha Ledesma & Angelo Harmsworth + Francesco Corvi & Nocturnerror",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a8c7a58dae",
+        "title": "MUBI FEST Berlin",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-a6e0cb9ebb",
+        "title": "weed420 + Tufi",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-9f4fe55758",
+        "title": "Ensemble Nist-Nah + Shouji Hara",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-9d93f53c81",
+        "title": "Ryoko Ono + Hanno Leichtmann + Sergeant",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-64f7b32def",
+        "title": "Alpha Maid",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a1f76352c7",
+        "title": "Andriy K. & Tharim Cornelisse pres. DUST + mu tate pres. life of mu",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-c3e2f12fde",
+        "title": "Kantine Musik",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      }
+    ],
+    "diversification_caps": {
+      "max_per_venue": 2,
+      "max_per_series": 1
+    },
+    "note": "Pre-ranked with venue/series/event de-duplication across sections. Synthesis must still apply one-event-one-slot and Top Picks cross-reference rules."
+  },
+  "note": "Token-light culture slice for synthesis. Items with verified:true passed pre-fetch URL/schedule checks; synthesis spot-checks only unverified Top Picks and closing-soon items."
+}
