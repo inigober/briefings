@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-15
+
+- [Iran’s allies squeeze Saudi Arabia](https://www.ft.com/content/a143e08d-e979-410a-8e81-160fd4eba367?syn-25a6b1a6=1) — Financial Times
+- [China growth outlook dims as real estate, retail pressure worsens](https://asia.nikkei.com/economy/china-growth-outlook-dims-as-real-estate-retail-pressure-worsens) — Nikkei Asia
+- [Why My Kyiv Visit Worried Me So Much](https://foreignpolicy.com/2026/09/14/russia-ukraine-drone-attack-train-boris-johnson-war-putin-strategy/) — Foreign Policy
+- [‘I believed the hype’: the white South Africans denied refugee status in the US](https://www.theguardian.com/world/2026/sep/15/white-south-africans-denied-refugee-status-us) — The Guardian
+
 ## 2026-09-14
 
 - [Anthropic tells investors it will be profitable for second straight quarter](https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Scott Bessent fails to break ‘fever’ in US bond market](https://www.ft.com/content/dd4cc4a0-844e-486a-b99c-b379d457019b?syn-25a6b1a6=1) — Financial Times
 - [The Dutch Village in the Path of Europe’s Energy Transition](https://www.bloomberg.com/news/videos/2026-09-11/the-dutch-village-in-the-path-of-europe-s-energy-transition) — Bloomberg
 - [Europe’s difficult choices on AI](https://www.ft.com/content/f054f927-b512-452a-b494-ea53f5ac1079) — Financial Times
-
-## 2026-09-10
-
-- [Moonshot capitalism: AI rewrites the venture capital playbook](https://www.ft.com/content/0c440134-686f-4b55-ab35-2afe4e6a3f91?syn-25a6b1a6=1) — Financial Times
-- [Samsung beats German city in lawsuit over schools' iPad procurement](https://asia.nikkei.com/business/technology/samsung-beats-german-city-in-lawsuit-over-schools-ipad-procurement) — Nikkei Asia
-- [Okay, Sure, a Folding iPhone](https://www.theatlantic.com/technology/2026/09/apple-folding-iphone/688562/?utm_source=feed) — The Atlantic
-- [How Ukraine’s anti-graft bureau became a ‘Sword of Damocles’](https://www.ft.com/content/da5e731b-3f93-45f2-a566-1d9db0e1aa5f) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

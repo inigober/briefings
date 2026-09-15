@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-15
+
+- **spain-sanchez-ceuta-year-end-deadline** — eldiario.es: Sánchez set end-2026 as the first dated horizon to resolve Ceuta and dismissed Pegasus-Morocco fears as a hoax (section: spain)
+- **spain-galicia-winery-undocumented-harvest** — eldiario.es: the family winery of Galicia employment minister José González Vázquez was fined after inspectors found undocumented harvest workers (section: spain)
+- **spain-gallardon-lezo-inassa-witness** — eldiario.es: former Madrid president Gallardón testifies as the Canal Isabel II Lezo trial opens over the 2001 Inassa purchase (section: spain)
+- **germany-klingbeil-orcel-commerzbank** — Handelsblatt: finance minister Klingbeil meets UniCredit's Orcel over Commerzbank, in which the Bund remains a shareholder (section: germany)
+- **germany-bmw-ix3-100k-europe-orders** — Handelsblatt: BMW's electric iX3 has 100,000 first-year European orders, a Neue Klasse record (section: germany)
+- **germany-flex-satellite-plant-stress** — Tagesspiegel: Europe's Flex satellite is being built to read plant-stress fluorescence from orbit (section: germany)
+- **berlin-bonde-anti-bollard-decree** — Tagesspiegel: most Bezirke call transport senator Bonde's anti-bollard draft unlawful and unusable (section: berlin)
+- **berlin-chialo-no-ordnungsgeld** — rbb24: the grants inquiry cannot fine former culture senator Chialo for staying silent (section: berlin)
+- **berlin-kids-in-bars-feature** — The Berliner: a feature on the city treating children in adult venues as normal (section: berlin)
+- **world-panama-canal-elnino-cuts** — The Guardian: Panama will cut canal transits again as El Niño drought deepens (section: world)
+- **world-china-overseas-travel-law** — Financial Times: a new law tightens who may leave China, citing secrets, technology and skilled workers (section: world)
+- **world-trump-taiwan-strategic-ambiguity** — Foreign Policy: Trump is being read as having killed US strategic ambiguity over Taiwan (section: world)
+
 ## 2026-09-14
 
 - **spain-ceuta-vivas-emergency-contracts** — eldiario.es: Juan Jesús Vivas used emergency powers to award unpublished €3m and €2m minor-shelter contracts to relatives of a personal adviser and the port president (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-japan-10y-yield-3-percent** — Financial Times: Japan's benchmark bond yield hit 3% for the first time since 1996 (section: world)
 - **world-china-ai-healthcare-who-pays** — Foreign Policy: a state-backed push to put AI in Chinese clinics has not settled who pays (section: world)
 - **world-un-cerd-slavery-reparations** — The Guardian: a UN racial-discrimination committee says states are legally obliged to consider slavery reparations (section: world)
-
-## 2026-08-31
-
-- **spain-extreme-summer-20bn-gdp** — eldiario.es: a Triodos study says extreme heat will cost Spain more than €20 billion, about 1% of GDP this year (section: spain)
-- **spain-public-university-private-expansion** — eldiario.es: about 17,000 students a year miss a public place on high-demand courses; a report blames rectorates as well as money (section: spain)
-- **spain-rfe-egg-freezing-national-team** — EL PAÍS: the Spanish FA is close to a deal so national-team footballers can freeze their eggs (section: spain)
-- **germany-baerbel-bas-85bn-sickness-costs** — Handelsblatt: labour minister Bärbel Bas is ignoring record €85 billion sickness costs at German firms (section: germany)
-- **germany-vw-last-betriebsversammlung** — Handelsblatt: VW's last works meetings are asking whether jobs and plants will close, with the supervisory board due this week (section: germany)
-- **germany-klopp-kade-augsburg** — Tagesspiegel: Klopp watched Augsburg's Anton Kade and has not made contact (section: germany)
-- **berlin-bsw-rbb-wahlarena-lawsuit** — Berliner Zeitung: BSW is suing rbb after being kept off the Wahlarena before the 20 September vote (section: berlin)
-- **berlin-grey-wolves-xenophobic-attack** — rbb24: a xenophobic attack on an Indian man in Berlin has a Grey Wolves lead (section: berlin)
-- **berlin-re1-night-cancellations** — rbb24: night trains on the RE1 between Berlin and Frankfurt (Oder) will be cancelled from Monday (section: berlin)
-- **world-us-iran-hormuz-fire-exchange** — Financial Times: the US and Iran exchanged fire for the first time in more than a month after a Hormuz-island strike and a retaliatory attack on Jordan (section: world)
-- **world-us-robots-manufacturing** — Financial Times: Wall Street wants physical AI to rebuild US factories; unions warn about jobs and wages (section: world)
-- **world-unimicron-nvidia-china-parts-probe** — Nikkei Asia: Nvidia supplier Unimicron is being probed for allegedly relabelling China-made parts (section: world)

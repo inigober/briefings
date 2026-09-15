@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-14",
-  "briefing_date": "2026-09-14",
-  "inbox_date": "2026-09-14",
+  "date": "2026-09-15",
+  "briefing_date": "2026-09-15",
+  "inbox_date": "2026-09-15",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-14.md",
-  "inbox_path": "inbox/news/2026-09-14-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-15.md",
+  "inbox_path": "inbox/news/2026-09-15-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Los socialdemócratas ganan las elecciones en Suecia y el bloque de izquierdas consigue una mayoría ajustadísima",
+      "headline": "¿Vamos a morir todos o es solo teatro? Argumentos contra el apocalipsis de la IA",
       "section": "spain",
-      "reason": "geographic_misfit: Swedish election; parked in Other Headlines"
+      "reason": "geographic_misfit: global AI-extinction debate; EL PAÍS pool had no Spain-focused alternative after Ceuta/winery/Lezo — publisher_pool_thin"
     },
     {
-      "headline": "El Gobierno se ocupará del campamento de Sidi Embarek, el cobijo de 300 mujeres y niños que levantó la solidaridad de Ceuta",
+      "headline": "La IA como salvavidas donde faltan médicos, profesores y asesores agrícolas",
       "section": "spain",
-      "reason": "one_theme: parked in Other Headlines; main Spain Ceuta slot is Vivas's emergency-contract awards"
+      "reason": "geographic_misfit: Gates Goalkeepers global aid note, not Spain"
     },
     {
-      "headline": "Por qué la subida del salario mínimo se está centrando en la reforma pendiente sobre la absorción de pluses",
+      "headline": "Rubén Rosón, víctima de la agresión fascista de Oviedo: \"Un alcalde no puede justificar la violencia como lo ha hecho, no está a la altura\"",
       "section": "spain",
-      "reason": "incremental: promised SMI-plus reform debate — no law passed"
+      "reason": "parked in Other Headlines; Spain third slot is the Lezo/Gallardón trial opening"
     },
     {
-      "headline": "Wahl: Mitte-Links und rechter Block in Schweden praktisch gleichauf",
+      "headline": "Büro-Etikette: Zwischen Mitgefühl und Kritik: Umgang mit kranken Kollegen",
       "section": "germany",
-      "reason": "geographic_misfit: Swedish election; parked in Other Headlines"
+      "reason": "lifestyle: office-etiquette coach, not policy"
     },
     {
-      "headline": "Systemupgrade: Apples iOS 27: Mehr KI und Kinderschutz fürs iPhone",
+      "headline": "Märkte Asien: Nahost-Spannungen und Ölpreisanstieg verunsichern asiatische Anleger",
       "section": "germany",
-      "reason": "not_germany_policy: global product note; Germany pool otherwise thin after geography filters"
-    },
-    {
-      "headline": "Don’t Blame Ukraine for High Gas Prices",
-      "section": "world",
-      "reason": "dedup: used as Selected Read on 12 September"
-    },
-    {
-      "headline": "Anthropic tells investors it will be profitable for second straight quarter",
-      "section": "world",
-      "reason": "one_theme: AI-lab finance parked in Selected Reads; World AI slot is Trump rejecting the slowdown"
-    },
-    {
-      "headline": "Global AI stocks slip on concerns over risks",
-      "section": "world",
-      "reason": "one_theme: same AI-pause market reaction as the Bloomberg wrap used in Selected Reads"
+      "reason": "geographic_misfit: Asia markets wrap"
     },
     {
       "headline": "Passagierschiff gerät im Javasee in Seenot: 140 Menschen vermisst",
       "section": "berlin",
-      "reason": "geographic_misfit: Indonesia ferry; World used the Guardian casualty update"
+      "reason": "geographic_misfit: Indonesia ferry; covered in World on 14 September"
     },
     {
-      "headline": "Saudi-Arabiens Ölroute in Flammen: Warum die Houthi-Miliz aus dem Jemen in den Iran-Krieg eintritt – und der große Sturm noch bevorsteht",
+      "headline": "Zweiter Großeinsatz: Schüler klagen über Reizhusten an Sekundarschule",
       "section": "berlin",
-      "reason": "geographic_misfit: Gulf energy; parked in Other Headlines"
+      "reason": "geographic_misfit: Sachsen-Anhalt school, not Berlin"
     },
     {
-      "headline": "Lücke von 23 Milliarden Euro: EU will Finanzbedarf der Ukraine genau feststellen",
-      "section": "berlin",
-      "reason": "geographic_misfit: EU-Ukraine budget; parked in Other Headlines"
+      "headline": "Iran’s allies squeeze Saudi Arabia",
+      "section": "world",
+      "reason": "dedup: Gulf/Houthi theme recent; used as Selected Read instead"
     },
     {
-      "headline": "Ministerien in Brandenburg beschließen Leitfaden gegen häusliche Gewalt",
+      "headline": "China’s Top Spy Chief Warns A.I. Is a Threat to Party Rule",
+      "section": "world",
+      "reason": "one_theme: AI-lab security after yesterday's Trump pause / TDK slots"
+    },
+    {
+      "headline": "US manufacturers hit by fresh burst of supply chain cost inflation",
+      "section": "world",
+      "reason": "parked in Other Headlines; World slots are Panama, China travel law, Taiwan"
+    },
+    {
+      "headline": "Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO",
+      "section": "world",
+      "reason": "parked in Other Headlines; Africa represented via Selected Read on Afrikaner refugees"
+    },
+    {
+      "headline": "Brisantes Duell: Hertha reist ohne Ultras nach Dresden",
       "section": "berlin",
-      "reason": "geographic_misfit: Brandenburg, not Berlin city"
+      "reason": "sports filler skipped; third Berlin slot is The Berliner kids-in-bars feature for publisher diversity"
     }
   ],
-  "notes": "Spain used Vivas's emergency minor-shelter contracts (eldiario.es), Internal Affairs verifying the UDEF inspector's police-corruption network (eldiario.es), and EL PAÍS on Washington stalling the Betancourt file for a second publisher. Sidi Embarek and Sweden went to Other Headlines. Germany: Niedersachsen local results are the material follow-on to yesterday's preview (Handelsblatt); SPD-Linke vs Union and a night-darkness heart study (both Tagesspiegel) filled the remaining slots — remaining Handelsblatt items were Sweden, global AI, or consumer explainers. Berlin: new CDU–Left poll and BER night-train cuts (Tagesspiegel) plus the Mitte antisemitic assault (rbb24). World: Trump rejecting the AI pause (North America, FT), TDK AI-server components (East Asia, Nikkei), Java Sea ferry casualty update (Southeast Asia, Guardian). Selected Reads: FT Anthropic profitability, Bloomberg AI/oil wrap, NYT King Charles AI meeting, Guardian TGA peptide warning. publisher_pool_thin noted only as a Germany third-slot constraint, not a single-publisher section."
+  "notes": "Spain: Sánchez year-end Ceuta deadline (material follow-on to Torres's 'days' pledge), Galicia employment minister's family winery fined for undocumented harvest labour, Gallardón as witness as the Canal Isabel II Lezo trial opens — all eldiario.es; EL PAÍS inbox was AI commentary only (publisher_pool_thin). Germany: Klingbeil–Orcel Commerzbank meeting and BMW iX3 100k European orders (Handelsblatt) plus Tagesspiegel Flex satellite for a second publisher. Berlin: Bonde anti-bollard decree (Tagesspiegel), Chialo no-Ordnungsgeld (rbb24, material follow-on to 9 September grants probe), kids-in-bars feature (The Berliner). World: Panama Canal drought cuts (Latin America, Guardian), China overseas-travel law (East Asia, FT), Taiwan strategic-ambiguity argument (North America/East Asia, Foreign Policy). Selected Reads: FT Saudi squeeze, Nikkei China growth, FP Kyiv visit, Guardian Afrikaner-refugee denials."
 }
