@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-15",
-  "briefing_date": "2026-09-15",
-  "inbox_date": "2026-09-15",
+  "date": "2026-09-16",
+  "briefing_date": "2026-09-16",
+  "inbox_date": "2026-09-16",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-15.md",
-  "inbox_path": "inbox/news/2026-09-15-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-16.md",
+  "inbox_path": "inbox/news/2026-09-16-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "¿Vamos a morir todos o es solo teatro? Argumentos contra el apocalipsis de la IA",
+      "headline": "Dos decenas de migrantes denuncian palizas y vejaciones de militares que patrullan Ceuta",
       "section": "spain",
-      "reason": "geographic_misfit: global AI-extinction debate; EL PAÍS pool had no Spain-focused alternative after Ceuta/winery/Lezo — publisher_pool_thin"
+      "reason": "one_theme: Ceuta/enclave slot is the permanent ID centres; parked beatings and El Trampolín clearance in Other Headlines"
     },
     {
-      "headline": "La IA como salvavidas donde faltan médicos, profesores y asesores agrícolas",
+      "headline": "¿Qué sabe Marruecos sobre Pedro Sánchez?",
       "section": "spain",
-      "reason": "geographic_misfit: Gates Goalkeepers global aid note, not Spain"
+      "reason": "dedup: Pegasus-Morocco blackmail theory; Sánchez called it a hoax on 15 September"
     },
     {
-      "headline": "Rubén Rosón, víctima de la agresión fascista de Oviedo: \"Un alcalde no puede justificar la violencia como lo ha hecho, no está a la altura\"",
+      "headline": "Maíllo celebra el \"giro\" de Irene Montero para elegir al candidato de la izquierda en primarias y plantea crear un censo común",
       "section": "spain",
-      "reason": "parked in Other Headlines; Spain third slot is the Lezo/Gallardón trial opening"
+      "reason": "parked in Other Headlines; Spain third slot is the 1-O rubber-bullet trial"
     },
     {
-      "headline": "Büro-Etikette: Zwischen Mitgefühl und Kritik: Umgang mit kranken Kollegen",
+      "headline": "Carney escenifica un frente común con la UE ante la guerra diplomática y comercial de Trump contra Canadá",
+      "section": "spain",
+      "reason": "geographic_misfit: Canada/EU; parked in Other Headlines"
+    },
+    {
+      "headline": "Börse am 15. September: Sechs Punkte, die für Anleger heute wichtig sind",
       "section": "germany",
-      "reason": "lifestyle: office-etiquette coach, not policy"
+      "reason": "dedup: Dax/oil wrap incremental after 10–11 September"
     },
     {
-      "headline": "Märkte Asien: Nahost-Spannungen und Ölpreisanstieg verunsichern asiatische Anleger",
+      "headline": "Morning Briefing Podcast: Energie: Bundesregierung gegen Gasmangel und hohe Spritpreise",
       "section": "germany",
-      "reason": "geographic_misfit: Asia markets wrap"
+      "reason": "one_theme: duplicate of Staat-vor-Markt energy briefing"
     },
     {
-      "headline": "Passagierschiff gerät im Javasee in Seenot: 140 Menschen vermisst",
+      "headline": "Schweiz: Glocken, Käse, Schokolade: Zum Alpabzug nach Fribourg",
+      "section": "germany",
+      "reason": "geographic_misfit: Swiss folklore"
+    },
+    {
+      "headline": "Wie Social Media die Berlin-Wahl beeinflusst",
       "section": "berlin",
-      "reason": "geographic_misfit: Indonesia ferry; covered in World on 14 September"
+      "reason": "one_theme: Berlin election slot is the Handelsblatt rents/schools campaign wrap"
     },
     {
-      "headline": "Zweiter Großeinsatz: Schüler klagen über Reizhusten an Sekundarschule",
+      "headline": "Bedeutende Begräbnisstätte: Rätsel um Friedhofs-Zaun - Wildschweine wühlen auf Gräbern",
       "section": "berlin",
-      "reason": "geographic_misfit: Sachsen-Anhalt school, not Berlin"
+      "reason": "geographic_misfit: Stahnsdorf, Brandenburg speckgürtel"
     },
     {
-      "headline": "Iran’s allies squeeze Saudi Arabia",
+      "headline": "Nvidia and Meta bosses reject efforts to co-ordinate AI slowdown",
       "section": "world",
-      "reason": "dedup: Gulf/Houthi theme recent; used as Selected Read instead"
+      "reason": "one_theme: AI slot is Trump–Xi safety; parked Nvidia/Meta and OpenAI $1.2tn in Other Headlines / Selected Reads"
     },
     {
-      "headline": "China’s Top Spy Chief Warns A.I. Is a Threat to Party Rule",
+      "headline": "‘I believed the hype’: the white South Africans denied refugee status in the US",
       "section": "world",
-      "reason": "one_theme: AI-lab security after yesterday's Trump pause / TDK slots"
-    },
-    {
-      "headline": "US manufacturers hit by fresh burst of supply chain cost inflation",
-      "section": "world",
-      "reason": "parked in Other Headlines; World slots are Panama, China travel law, Taiwan"
+      "reason": "dedup: used as Selected Read on 15 September"
     },
     {
       "headline": "Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO",
       "section": "world",
-      "reason": "parked in Other Headlines; Africa represented via Selected Read on Afrikaner refugees"
-    },
-    {
-      "headline": "Brisantes Duell: Hertha reist ohne Ultras nach Dresden",
-      "section": "berlin",
-      "reason": "sports filler skipped; third Berlin slot is The Berliner kids-in-bars feature for publisher diversity"
+      "reason": "parked in Other Headlines; World slots are Brazil court, US billionaires, Trump–Xi AI (publisher diversity vs second Guardian)"
     }
   ],
-  "notes": "Spain: Sánchez year-end Ceuta deadline (material follow-on to Torres's 'days' pledge), Galicia employment minister's family winery fined for undocumented harvest labour, Gallardón as witness as the Canal Isabel II Lezo trial opens — all eldiario.es; EL PAÍS inbox was AI commentary only (publisher_pool_thin). Germany: Klingbeil–Orcel Commerzbank meeting and BMW iX3 100k European orders (Handelsblatt) plus Tagesspiegel Flex satellite for a second publisher. Berlin: Bonde anti-bollard decree (Tagesspiegel), Chialo no-Ordnungsgeld (rbb24, material follow-on to 9 September grants probe), kids-in-bars feature (The Berliner). World: Panama Canal drought cuts (Latin America, Guardian), China overseas-travel law (East Asia, FT), Taiwan strategic-ambiguity argument (North America/East Asia, Foreign Policy). Selected Reads: FT Saudi squeeze, Nikkei China growth, FP Kyiv visit, Guardian Afrikaner-refugee denials."
+  "notes": "Spain: permanent Ceuta/Melilla ID centres (EL PAÍS), Madrid waitlist makeup (eldiario.es), 1-O Roger Español trial (eldiario.es) — two publishers; Mexico/Canada items were geographic misfits. Germany: Staat-vor-Markt energy intervention (Handelsblatt) and Wagenknecht/AfD on Maischberger (Tagesspiegel); third slot is a paternal-birth-trauma feature because the eligible pool after energy-theme and geographic filters was thin (ozone hole / Swiss alp / Dax wrap rejected). Berlin: Handelsblatt campaign issues (rents/schools), Fabian VR-Bank testimony (Berliner Zeitung), Eisbären season preview (rbb24) for a third publisher; social-media election piece parked as a second election theme. World: Brazil supreme-court feud (Latin America, Guardian), US billionaire midterms (North America, FT), Trump–Xi AI safety (East Asia, Foreign Policy). Selected Reads: FT OpenAI $1.2tn, Atlantic math/AI, NYT no energy truce, Guardian Barts slave-trade donors."
 }

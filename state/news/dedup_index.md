@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-16
+
+- **spain-ceuta-melilla-permanent-id-centres** — EL PAÍS: Interior is preparing two permanent 800-place migrant ID centres in Ceuta and Melilla (section: spain)
+- **spain-madrid-waitlist-makeup** — eldiario.es: a Madrid hospital downgraded 50+ surgery patients to shorten published waiting lists; the health minister says manipulating lists is not a crime (section: spain)
+- **spain-roger-espanol-1o-trial** — eldiario.es: four national-police officers go on trial over the 1-O rubber-bullet shot that cost Roger Español an eye (section: spain)
+- **germany-merz-staat-vor-markt-energy** — Handelsblatt: Merz and the economy minister are lining up state interventions on fuel and gas ("Staat vor Markt") (section: germany)
+- **germany-wagenknecht-afd-maischberger** — Tagesspiegel: Wagenknecht said she would not help the AfD in Sachsen-Anhalt, then floated working with them (section: germany)
+- **germany-fathers-birth-trauma** — Tagesspiegel: a feature on paternal birth trauma (section: germany)
+- **berlin-wahl-campaign-rents-schools** — Handelsblatt: four days before the Abgeordnetenhaus vote, the campaign talk is rents and school-building (section: berlin)
+- **berlin-fabian-vr-bank-testimony** — Berliner Zeitung: a VR-Bank record further contradicts Gina H. in the Fabian murder trial (section: berlin)
+- **berlin-eisbaren-goldmann-preview** — rbb24: Goldmann on Eisbären title odds as the DEL season opens (section: berlin)
+- **world-brazil-supreme-court-election** — The Guardian: Brazil's supreme court erupts into a public feud on the eve of the presidential election (section: world)
+- **world-us-billionaires-gop-midterms** — Financial Times: US billionaires are overwhelmingly funding Republicans in the midterms (section: world)
+- **world-trump-xi-ai-safety** — Foreign Policy: Trump and Xi will not find common ground on AI safety (section: world)
+
 ## 2026-09-15
 
 - **spain-sanchez-ceuta-year-end-deadline** — eldiario.es: Sánchez set end-2026 as the first dated horizon to resolve Ceuta and dismissed Pegasus-Morocco fears as a hoax (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-china-factory-robots-not-humanoids** — Financial Times: China's robot advantage is industrial arms and supply chains, not humanoid demos (section: world)
 - **world-india-climate-real-estate-repricing** — Bloomberg: flood-protection spend is becoming a measure of Indian property value (section: world)
 - **world-carney-us-trade-war-serious** — The Guardian: Mark Carney told Washington to start being serious ahead of Canadian tariff retaliation (section: world)
-
-## 2026-09-01
-
-- **spain-cgpj-conservative-bench-lock** — eldiario.es: two years of CGPJ appointments have given the conservative judges' association 37% of senior posts, including a coming Supreme Court aforados slate (section: spain)
-- **spain-ceuta-places-doubled-no-peninsula** — eldiario.es: adult places in Ceuta went from 1,800 to more than 3,300 in a week, and Madrid has ruled out transfers to the peninsula (section: spain)
-- **spain-ceuta-prosecutor-daily-sexual-assaults** — EL PAÍS: Ceuta's chief prosecutor says there is almost one sexual assault a day and wants unaccompanied minors sent to the peninsula (section: spain)
-- **germany-deutsche-post-renames-dhl** — Handelsblatt: Deutsche Post is dropping its German holding name and will be DHL (section: germany)
-- **germany-afd-hidden-facilitators** — Tagesspiegel: extra-party lobbyists are making the AfD look ordinary while denying they are fans (section: germany)
-- **germany-mallorca-us-tourists-luxury** — Tagesspiegel: a New York–Palma flight is pulling US tourists and luxury hotels onto Germans' default holiday island (section: germany)
-- **berlin-tempelhof-schoeneberg-cdu-mayor** — Tagesspiegel: the CDU may take the Tempelhof-Schöneberg district mayor post after the repeat vote (section: berlin)
-- **berlin-azubis-housing-crunch** — rbb24: apprentices starting on 1 September are among the least able to find a Berlin room (section: berlin)
-- **berlin-hertha-gustaf-nilsson** — rbb24: Hertha BSC has signed Swedish World Cup striker Gustaf Nilsson for a season (section: berlin)
-- **world-japan-10y-yield-3-percent** — Financial Times: Japan's benchmark bond yield hit 3% for the first time since 1996 (section: world)
-- **world-china-ai-healthcare-who-pays** — Foreign Policy: a state-backed push to put AI in Chinese clinics has not settled who pays (section: world)
-- **world-un-cerd-slavery-reparations** — The Guardian: a UN racial-discrimination committee says states are legally obliged to consider slavery reparations (section: world)

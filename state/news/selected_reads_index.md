@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-16
+
+- [OpenAI weighs funding round at $1.2tn valuation before IPO](https://www.ft.com/content/27509db8-b032-4437-9b2a-e909f466022f?syn-25a6b1a6=1) — Financial Times
+- [Math Can’t Go On Like This](https://www.theatlantic.com/technology/2026/09/math-crisis-openai-millennium-prize/688631/?utm_source=feed) — The Atlantic
+- [Ukraine and Russia Say There Is No Energy Truce, Despite Trump’s Claims](https://www.nytimes.com/2026/09/15/world/europe/trump-energy-truce-ukraine-russia.html) — The New York Times
+- [The London hospital funded by donors who invested in the slave trade](https://www.theguardian.com/uk-news/ng-interactive/2026/sep/14/london-hospital-st-barts-funded-donors-invested-slave-trade) — The Guardian
+
 ## 2026-09-15
 
 - [Iran’s allies squeeze Saudi Arabia](https://www.ft.com/content/a143e08d-e979-410a-8e81-160fd4eba367?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Don’t Blame Ukraine for High Gas Prices](https://foreignpolicy.com/2026/09/11/gas-prices-trump-iran-war-wright-ukraine-russia/) — Foreign Policy
 - [We are setting up a generation to fail at school](https://www.ft.com/content/724f8ecb-1e2b-4c7f-bbb6-14239abd50dd?syn-25a6b1a6=1) — Financial Times
 - [Japan eyes next-gen fast breeder reactors as China, Russia lead](https://asia.nikkei.com/business/energy/japan-eyes-next-gen-fast-breeder-reactors-as-china-russia-lead) — Nikkei Asia
-
-## 2026-09-11
-
-- [Scientists Saved Us From Catastrophic Risk Before](https://foreignpolicy.com/2026/09/10/artificial-intelligence-biotechnology-science-diplomacy-united-states-china-geopolitical-rivalry/) — Foreign Policy
-- [Scott Bessent fails to break ‘fever’ in US bond market](https://www.ft.com/content/dd4cc4a0-844e-486a-b99c-b379d457019b?syn-25a6b1a6=1) — Financial Times
-- [The Dutch Village in the Path of Europe’s Energy Transition](https://www.bloomberg.com/news/videos/2026-09-11/the-dutch-village-in-the-path-of-europe-s-energy-transition) — Bloomberg
-- [Europe’s difficult choices on AI](https://www.ft.com/content/f054f927-b512-452a-b494-ea53f5ac1079) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 
