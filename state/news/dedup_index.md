@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-17
+
+- **spain-feijoo-vox-ceuta-minors-peninsula** — EL PAÍS: Feijóo has aligned with Vox against sending any unaccompanied minors from Ceuta to the peninsula (section: spain)
+- **spain-ayuso-planifica-atico** — eldiario.es: Ayuso's spokesman must explain Planifica Madrid's luxury-penthouse purchase before the assembly (section: spain)
+- **spain-anthropic-madrid-landing** — EL PAÍS: Anthropic has opened in Spain with ex-Google exec Cristina Pitarch, pitching Madrid as a Spanish-speaking hub (section: spain)
+- **germany-fraunhofer-privacy-competitiveness** — Handelsblatt: a Fraunhofer study argues data protection can make Europe more competitive (section: germany)
+- **germany-berentzen-sazerac-takeover** — Handelsblatt: Berentzen is talking to US spirits group Sazerac about a takeover (section: germany)
+- **germany-autumn-body-physiology** — Handelsblatt: a feature on what shorter days and colder air do to the body (section: germany)
+- **berlin-wittenbergplatz-ubahn-fire** — Tagesspiegel: a fuse-box fire has shut Wittenbergplatz; U1/U2/U3 skipping the station (section: berlin)
+- **berlin-charite-strike-thursday** — rbb24: Verdi has called Charité staff out from Thursday, with emergency cover (section: berlin)
+- **berlin-hbf-heart-check** — Tagesspiegel: a free heart-valve screening is on offer at Hauptbahnhof (section: berlin)
+- **world-fed-warsh-rate-hike** — Financial Times: Kevin Warsh has led the Fed to its first rate rise since 2023 (section: world)
+- **world-huawei-11-ai-chips** — Nikkei Asia: Huawei debuts 11 AI-related chips against Nvidia, Intel and AMD (section: world)
+- **world-sahel-aq-is-record-violence** — The Guardian: Acled says Sahel jihadist violence is heading for a record year (section: world)
+
 ## 2026-09-16
 
 - **spain-ceuta-melilla-permanent-id-centres** — EL PAÍS: Interior is preparing two permanent 800-place migrant ID centres in Ceuta and Melilla (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-taiwan-undercover-chip-labs** — Rest of World: unpublished data show Taiwan's six-year hunt for Chinese firms hiding chip-lab ties (section: world)
 - **world-uber-unions-robotaxi-slowdown** — Financial Times: Uber is allying with driver unions to slow the robotaxi rollout (section: world)
 - **world-malaysia-critical-minerals-china-curbs** — Nikkei Asia: Malaysia is drawing critical-minerals interest as China's export curbs loom (section: world)
-
-## 2026-09-02
-
-- **spain-un-1-5-overshoot-inevitable** — eldiario.es: a UN report says crossing 1.5°C is now inevitable, while still claiming temperatures can be brought back if emissions fall (section: spain)
-- **spain-ceuta-teens-walking-out** — EL PAÍS: adolescents are leaving the Ceuta–Morocco border on their own after a month in the enclave (section: spain)
-- **spain-sadi-de-buen-malaria-franco-purges** — eldiario.es: the 90th anniversary of epidemiologist Sadí de Buen's execution, with a CSIC archive of about 500 scientist purges (section: spain)
-- **germany-russia-leipzig-drone-attribution** — EL PAÍS: Germany has named Russia for the Leipzig bomb-drone attack; explosives found at a Jänschwalde substation (section: germany)
-- **germany-jungheinrich-100m-startup-fund** — Handelsblatt: forklift-maker Jungheinrich is launching a €100 million venture fund via Uplift Ventures (section: germany)
-- **germany-afd-ein-prozent-poll-observers** — Handelsblatt: the AfD and Ein Prozent are sending observers into polling stations and the count (section: germany)
-- **berlin-russian-house-friedrichstrasse-closed** — Berliner Zeitung: the federal government has cancelled the Russisches Haus contract after Leipzig (section: berlin)
-- **berlin-florida-eis-magdeburg-expansion** — Tagesspiegel: Florida Eis is leaving a too-small Spandau factory for Magdeburg (section: berlin)
-- **berlin-union-lina-hausicke** — rbb24: Union's women have signed Werder captain Lina Hausicke (section: berlin)
-- **world-china-factory-robots-not-humanoids** — Financial Times: China's robot advantage is industrial arms and supply chains, not humanoid demos (section: world)
-- **world-india-climate-real-estate-repricing** — Bloomberg: flood-protection spend is becoming a measure of Indian property value (section: world)
-- **world-carney-us-trade-war-serious** — The Guardian: Mark Carney told Washington to start being serious ahead of Canadian tariff retaliation (section: world)

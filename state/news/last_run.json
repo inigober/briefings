@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-16",
-  "briefing_date": "2026-09-16",
-  "inbox_date": "2026-09-16",
+  "date": "2026-09-17",
+  "briefing_date": "2026-09-17",
+  "inbox_date": "2026-09-17",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-16.md",
-  "inbox_path": "inbox/news/2026-09-16-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-17.md",
+  "inbox_path": "inbox/news/2026-09-17-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Dos decenas de migrantes denuncian palizas y vejaciones de militares que patrullan Ceuta",
+      "headline": "Los documentos que prueban que Madrid manipuló la lista de espera del Ramón y Cajal: “Evitad anotarlos como preferentes”",
       "section": "spain",
-      "reason": "one_theme: Ceuta/enclave slot is the permanent ID centres; parked beatings and El Trampolín clearance in Other Headlines"
+      "reason": "dedup: Madrid waitlists covered 16 September; documents are a same-story follow-on, parked in Other Headlines"
     },
     {
-      "headline": "¿Qué sabe Marruecos sobre Pedro Sánchez?",
+      "headline": "La derecha encuentra cómplices de Marruecos en todos los lados, hasta en el fútbol",
       "section": "spain",
-      "reason": "dedup: Pegasus-Morocco blackmail theory; Sánchez called it a hoax on 15 September"
+      "reason": "one_theme: Ceuta slot is Feijóo/Vox minors lock; football/Mbappé and army-beating items parked in Other Headlines"
     },
     {
-      "headline": "Maíllo celebra el \"giro\" de Irene Montero para elegir al candidato de la izquierda en primarias y plantea crear un censo común",
+      "headline": "Podemos agita la izquierda alternativa con su oferta de primarias e IU acelera para definir la fórmula electoral",
       "section": "spain",
-      "reason": "parked in Other Headlines; Spain third slot is the 1-O rubber-bullet trial"
+      "reason": "dedup: Podemos/IU primaries parked in Other Headlines on 16 September"
     },
     {
-      "headline": "Carney escenifica un frente común con la UE ante la guerra diplomática y comercial de Trump contra Canadá",
+      "headline": "La jueza busca quién coordinó, financió y decidió el operativo de la entrada masiva a Ceuta en Marruecos",
       "section": "spain",
-      "reason": "geographic_misfit: Canada/EU; parked in Other Headlines"
+      "reason": "not_material: Tardón/CNI hunt is investigation-continues, not a ruling"
     },
     {
-      "headline": "Börse am 15. September: Sechs Punkte, die für Anleger heute wichtig sind",
+      "headline": "Klima und Wasser: WMO: Die weltweiten Wasserspeicher schrumpfen",
       "section": "germany",
-      "reason": "dedup: Dax/oil wrap incremental after 10–11 September"
+      "reason": "geographic_misfit: global climate; parked in Other Headlines. Eligible Germany pool after filters was Handelsblatt-only (publisher_pool_thin)"
     },
     {
-      "headline": "Morning Briefing Podcast: Energie: Bundesregierung gegen Gasmangel und hohe Spritpreise",
+      "headline": "Autonomes Fahren: US-Behörde nimmt sich Teslas Robotaxi vor",
       "section": "germany",
-      "reason": "one_theme: duplicate of Staat-vor-Markt energy briefing"
+      "reason": "geographic_misfit: US regulator; parked in Other Headlines"
     },
     {
-      "headline": "Schweiz: Glocken, Käse, Schokolade: Zum Alpabzug nach Fribourg",
+      "headline": "Morning Briefing: Kann nur ein „Supervorstand“ Volkswagen noch retten?",
       "section": "germany",
-      "reason": "geographic_misfit: Swiss folklore"
+      "reason": "avoid_unless_material: manufacturing slowdown / VW incremental after 4 September plan; parked in Other Headlines. Third Germany slot is a physiology feature because publisher_pool_thin"
     },
     {
-      "headline": "Wie Social Media die Berlin-Wahl beeinflusst",
+      "headline": "Kanzler-Krise: CDU-Vorstandsmitglied Augustin: „Die Wünsche sind deutlich“",
       "section": "berlin",
-      "reason": "one_theme: Berlin election slot is the Handelsblatt rents/schools campaign wrap"
+      "reason": "geographic_misfit: federal CDU/Merz after Sachsen-Anhalt, not Berlin city"
     },
     {
-      "headline": "Bedeutende Begräbnisstätte: Rätsel um Friedhofs-Zaun - Wildschweine wühlen auf Gräbern",
+      "headline": "Sachsens Staatsanwälte am Limit: Rund 47.200 Verfahren liegen auf Halde",
       "section": "berlin",
-      "reason": "geographic_misfit: Stahnsdorf, Brandenburg speckgürtel"
+      "reason": "geographic_misfit: Saxony. Berliner Zeitung remaining items were energy/Germany or Sachsen-Anhalt (publisher_pool_thin for a third Berlin publisher)"
     },
     {
-      "headline": "Nvidia and Meta bosses reject efforts to co-ordinate AI slowdown",
+      "headline": "Why Existential AI Fears Have Hit a Crescendo",
       "section": "world",
-      "reason": "one_theme: AI slot is Trump–Xi safety; parked Nvidia/Meta and OpenAI $1.2tn in Other Headlines / Selected Reads"
+      "reason": "one_theme: AI slot is Huawei chips; used as Selected Read with FT AI-warfare"
     },
     {
-      "headline": "‘I believed the hype’: the white South Africans denied refugee status in the US",
+      "headline": "US to bar some South Africans over claims of anti-white discrimination",
       "section": "world",
-      "reason": "dedup: used as Selected Read on 15 September"
+      "reason": "dedup: Afrikaner-refugee/visa theme used as Selected Read on 15 September; parked with femicide in Other Headlines / Selected Reads"
     },
     {
-      "headline": "Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO",
+      "headline": "Slave-trade wealth was embedded in Britain’s financial system, research finds",
       "section": "world",
-      "reason": "parked in Other Headlines; World slots are Brazil court, US billionaires, Trump–Xi AI (publisher diversity vs second Guardian)"
+      "reason": "dedup: slave-trade finance theme used as Selected Read on 16 September (St Barts donors)"
     }
   ],
-  "notes": "Spain: permanent Ceuta/Melilla ID centres (EL PAÍS), Madrid waitlist makeup (eldiario.es), 1-O Roger Español trial (eldiario.es) — two publishers; Mexico/Canada items were geographic misfits. Germany: Staat-vor-Markt energy intervention (Handelsblatt) and Wagenknecht/AfD on Maischberger (Tagesspiegel); third slot is a paternal-birth-trauma feature because the eligible pool after energy-theme and geographic filters was thin (ozone hole / Swiss alp / Dax wrap rejected). Berlin: Handelsblatt campaign issues (rents/schools), Fabian VR-Bank testimony (Berliner Zeitung), Eisbären season preview (rbb24) for a third publisher; social-media election piece parked as a second election theme. World: Brazil supreme-court feud (Latin America, Guardian), US billionaire midterms (North America, FT), Trump–Xi AI safety (East Asia, Foreign Policy). Selected Reads: FT OpenAI $1.2tn, Atlantic math/AI, NYT no energy truce, Guardian Barts slave-trade donors."
+  "notes": "Spain: Feijóo/Vox lock on Ceuta minors (EL PAÍS), Ayuso penthouse (eldiario.es), Anthropic Madrid landing (EL PAÍS) — two publishers; Ramón y Cajal documents parked as waitlist follow-on. Germany: Fraunhofer privacy study and Berentzen/Sazerac (Handelsblatt); third slot is an autumn-physiology feature because after geographic filters (WMO water, Tesla robotaxi, OpenAI Zeit) and VW incremental reject the eligible pool was Handelsblatt-only (publisher_pool_thin). Berlin: Wittenbergplatz U-Bahn fire (Tagesspiegel), Charité strike call (rbb24), Hbf heart-valve check (Tagesspiegel); BZ items were Saxony/energy misfits. World: Fed/Warsh hike (North America, FT), Huawei 11 AI chips (East Asia, Nikkei), Sahel record jihadist violence (Africa, Guardian). Selected Reads: Atlantic short-form video, FP AI-fear crescendo, FT AI warfare, Guardian SA femicide."
 }
