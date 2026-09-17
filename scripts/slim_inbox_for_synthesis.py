@@ -1032,6 +1032,16 @@ def main() -> int:
     else:
         payload = build_news_synthesis_inbox(raw, sources_cfg=sources_cfg, topics_cfg=topics_cfg)
 
+    if args.type == "berlin-restaurants":
+        raw_count = int(payload.get("raw_item_count") or 0)
+        verified = int(payload.get("verified_count") or 0)
+        if raw_count > 0 and verified <= 0:
+            log(
+                "FAIL: 0 verified restaurants after Places checks — not writing an empty "
+                "synthesis inbox. Fix GOOGLE_MAPS_API_KEY and re-run pre-fetch."
+            )
+            return 1
+
     out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     counts = payload["section_counts"]
     if args.type == "berlin-culture":

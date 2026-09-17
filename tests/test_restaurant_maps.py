@@ -23,6 +23,8 @@ from restaurant_maps import (  # noqa: E402
     is_in_berlin,
     is_verified,
     maps_url_is_usable,
+    notes_look_like_places_auth_failure,
+    places_batch_failure_message,
     verify_restaurant_item,
 )
 from slim_inbox_for_synthesis import RESTAURANT_SLIM_ITEM_KEYS  # noqa: E402
@@ -180,6 +182,34 @@ class RestaurantMapsTests(unittest.TestCase):
             "maps_api_verified",
         }
         self.assertTrue(required.issubset(set(RESTAURANT_SLIM_ITEM_KEYS)))
+
+
+class PlacesBatchFailureTests(unittest.TestCase):
+    def test_auth_failure_message_on_403(self) -> None:
+        items = [
+            {
+                "name": "X",
+                "verification_notes": (
+                    "Places API: 403 Client Error: Forbidden for url: "
+                    "https://places.googleapis.com/v1/places:searchText (query: X Berlin)"
+                ),
+            }
+        ]
+        self.assertTrue(notes_look_like_places_auth_failure(items[0]["verification_notes"]))
+        message = places_batch_failure_message(items, verified_count=0)
+        self.assertIsNotNone(message)
+        self.assertIn("403", message)
+        self.assertIn("GOOGLE_MAPS_API_KEY", message)
+
+    def test_zero_verified_without_auth_error(self) -> None:
+        items = [{"name": "X", "verification_notes": "Places API: no matching place"}]
+        message = places_batch_failure_message(items, verified_count=0)
+        self.assertIsNotNone(message)
+        self.assertIn("0 of 1", message)
+
+    def test_ok_when_some_verified(self) -> None:
+        items = [{"name": "X", "verified": True}]
+        self.assertIsNone(places_batch_failure_message(items, verified_count=1))
 
 
 if __name__ == "__main__":

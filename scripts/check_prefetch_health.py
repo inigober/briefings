@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import sys
 from dataclasses import dataclass
@@ -50,6 +51,27 @@ def log(message: str) -> None:
     print(message, flush=True)
 
 
+def restaurant_synthesis_usable(path: Path) -> tuple[bool, str]:
+    """Empty/unverified restaurant synthesis is a pre-fetch miss, not a Cursor skip."""
+    try:
+        rel = str(path.resolve().relative_to(REPO_ROOT)).replace("\\", "/")
+    except ValueError:
+        rel = str(path)
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+        return False, f"{rel} is not valid JSON"
+    items = data.get("items") or []
+    verified = int(data.get("verified_count") or 0)
+    if not items or verified <= 0:
+        return (
+            False,
+            f"found {rel} but 0 verified restaurants — Places verification failed; "
+            "fix GOOGLE_MAPS_API_KEY and re-run restaurant pre-fetch",
+        )
+    return True, f"found {rel} ({verified} verified)"
+
+
 def inbox_ready(bt, date_str: str) -> tuple[bool, str]:
     if bt.id == "music-discovery":
         synthesis = bt.inbox_path(date_str, "synthesis")
@@ -73,6 +95,8 @@ def inbox_ready(bt, date_str: str) -> tuple[bool, str]:
     synthesis = bt.inbox_path(date_str, "synthesis")
     raw = bt.inbox_path(date_str, "raw")
     if synthesis.exists():
+        if bt.id == "berlin-restaurants":
+            return restaurant_synthesis_usable(synthesis)
         return True, f"found {synthesis.relative_to(REPO_ROOT)}"
     if raw.exists():
         return (
