@@ -4,12 +4,6 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 <!-- Format: YYYY-MM-DD | name | neighborhood | google_maps_url -->
 
-2026-07-02 | Liu Nudelhaus | Mitte | https://maps.google.com/?cid=5978374952795598817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-02 | Adana Grillhaus | Kreuzberg | https://maps.google.com/?cid=3901475484461481539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-02 | Wei House (Chuan House) | Friedrichshain | https://maps.google.com/?cid=17257470551723575126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-02 | Tian Fu | Wilmersdorf | https://maps.google.com/?cid=9725218145076602110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-02 | PHO – Noodlebar Kreuzberg | Kreuzberg | https://maps.google.com/?cid=16055962147337026381&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-02 | Ergün's Fischbude | Neukölln | https://maps.google.com/?cid=11959334156022895069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-09 | Chuan Garden 川园 | Mitte | https://maps.google.com/?cid=3614477287672776716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-09 | Dal Tokki | Wedding | https://maps.google.com/?cid=15991654687140121839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-09 | Nusantara | Moabit | https://maps.google.com/?cid=6608885631759338744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
@@ -77,3 +71,10 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-09-10 | Mama Van | Mitte | https://maps.google.com/?cid=3098666772816247662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-10 | merold | Neukölln | https://maps.google.com/?cid=6099182812103138905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-10 | Bieberbau | Wilmersdorf | https://maps.google.com/?cid=16347767220074598492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-17 | Fu Li Lai | Steglitz | https://maps.google.com/?cid=9315743648325898124&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-17 | Khao Taan | Friedrichshain | https://maps.google.com/?cid=1368696323655479600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-17 | Papaya | Schöneberg | https://maps.google.com/?cid=2456362811345032783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-17 | Adana Grillhaus | Kreuzberg | https://maps.google.com/?cid=13852046494429029825&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-17 | Il Calice | Charlottenburg | https://maps.google.com/?cid=3662233515076542285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-17 | Nußbaumerin | Charlottenburg | https://maps.google.com/?cid=7276535455919983554&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-17 | CODA | Neukölln | https://maps.google.com/?cid=4565257900171521110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

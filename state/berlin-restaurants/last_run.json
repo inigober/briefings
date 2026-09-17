@@ -1,19 +1,19 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-09-10",
+  "date": "2026-09-17",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-09-10.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-09-10-synthesis.json",
-  "verified_count": 16,
+  "briefing_path": "briefings/berlin-restaurants/2026-09-17.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-09-17-synthesis.json",
+  "verified_count": 21,
   "selected_count": 7,
   "selected_restaurants": [
-    "Shan Shan",
-    "Larb Koi",
-    "Thành Koch",
-    "Sljiva",
-    "Mama Van",
-    "merold",
-    "Bieberbau"
+    "Fu Li Lai",
+    "Khao Taan",
+    "Papaya",
+    "Adana Grillhaus",
+    "Il Calice",
+    "Nußbaumerin",
+    "CODA"
   ],
-  "notes": "7 entries from 16 verified inbox items. Excluded Chuan Garden, Hi! Chili, Tadım Ocakbaşı, El Reda, and Der blaue Fuchs as repeats within the 10-week window. Excluded Papaya Kantstraße because it shares a Google Maps CID with Papaya Mum (2026-07-30). Excluded File Asto as an unproven new opening with thin evidence and an overlapping €€€ slot. Excluded Van Long (3.1 rating, mall food court) in favor of Mama Van as the Mitte Vietnamese specialist. Excluded Nobelhart & Schmutzig so Bieberbau could occupy the single fine-dining slot. Larb Koi last appeared 2026-06-18, outside the 10-week window. Neighborhoods: Prenzlauer Berg, Friedrichshain, Lichtenberg, Moabit, Mitte, Neukölln, and Wilmersdorf. Included one fine-dining entry (Bieberbau). Trimmed 2026-06-25 index entries as older than 10 weeks."
+  "notes": "7 entries from 21 verified inbox items (unique CIDs after section duplicates). Excluded Chuan Garden, Shaniu's House of Noodles, Ma-Makan, Duc Anh Quan, Tadım Ocakbaşı, El-Reda, Blue Fox/Der blaue Fuchs, Sljiva, Stari Most, and Rutz as repeats within the 10-week window. Papaya listed as Charlottenburg in inbox but Maps address is Winterfeldtstraße 42 (Schöneberg); used Schöneberg. Adana Grillhaus is the Skalitzer Straße listing (cid 13852046494429029825), distinct from the Audre-Lorde-Straße cid last covered 2026-07-02 and now trimmed as older than 10 weeks. Included one fine-dining entry (CODA); excluded Rutz as a 2026-08-20 repeat. Neighborhoods: Steglitz, Friedrichshain, Schöneberg, Kreuzberg, Charlottenburg (2), Neukölln. Trimmed 2026-07-02 index entries as older than 10 weeks."
 }
