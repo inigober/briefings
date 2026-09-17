@@ -14,7 +14,12 @@ SCRIPTS = REPO_ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-from check_prefetch_health import check_type, inbox_ready, types_for_profile  # noqa: E402
+from check_prefetch_health import (  # noqa: E402
+    check_type,
+    inbox_ready,
+    restaurant_synthesis_usable,
+    types_for_profile,
+)
 from cron_schedule import is_scheduled_on_date  # noqa: E402
 
 
@@ -112,6 +117,28 @@ class TestPrefetchHealth(unittest.TestCase):
         self.assertFalse(ok)
         self.assertIn("missing", detail.lower())
         self.assertIn("synthesis.json", detail)
+
+    def test_empty_restaurant_synthesis_counts_as_prefetch_miss(self) -> None:
+        import json
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "2026-09-17-synthesis.json"
+            path.write_text(
+                json.dumps(
+                    {
+                        "briefing_type": "berlin-restaurants",
+                        "date": "2026-09-17",
+                        "verified_count": 0,
+                        "items": [],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            ok, detail = restaurant_synthesis_usable(path)
+        self.assertFalse(ok)
+        self.assertIn("0 verified", detail)
+        self.assertIn("GOOGLE_MAPS_API_KEY", detail)
 
 
 if __name__ == "__main__":

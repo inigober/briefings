@@ -329,6 +329,45 @@ def mark_places_lookup_failed(item: dict, *, query: str, reason: str) -> None:
     item["verification_notes"] = f"Places API: {reason} (query: {query})"
 
 
+def notes_look_like_places_auth_failure(notes: str) -> bool:
+    text = (notes or "").lower()
+    return any(
+        marker in text
+        for marker in (
+            "403",
+            "401",
+            "forbidden",
+            "unauthorized",
+            "permission denied",
+            "requests_per_min",
+            "api key not valid",
+            "api_key_invalid",
+        )
+    )
+
+
+def places_batch_failure_message(items: list[dict], verified_count: int) -> str | None:
+    """Return an error message when Places verification must fail the pre-fetch job."""
+    if not items:
+        return "No restaurant candidates to verify."
+    if verified_count > 0:
+        return None
+    auth_hits = sum(
+        1 for item in items if notes_look_like_places_auth_failure(item.get("verification_notes") or "")
+    )
+    if auth_hits:
+        return (
+            f"Google Places API rejected {auth_hits}/{len(items)} lookups "
+            "(HTTP 403/401 or invalid key). Check GOOGLE_MAPS_API_KEY: Places API (New) "
+            "enabled, billing on, and no IP/HTTP-referrer restriction that blocks GitHub Actions. "
+            "Do not commit an empty restaurant inbox."
+        )
+    return (
+        f"0 of {len(items)} restaurant candidates passed Places verification. "
+        "Refusing to write an unverified inbox."
+    )
+
+
 def search_place(api_key: str, query: str, *, session: requests.Session | None = None) -> dict | None:
     client = session or requests
     response = client.post(

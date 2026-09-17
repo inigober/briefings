@@ -18,7 +18,7 @@ import time
 from briefing_paths import load_briefing_type
 from fetch_openai_research import log
 from restaurant_dates import normalize_thursday_run_date
-from restaurant_maps import verify_restaurant_item
+from restaurant_maps import places_batch_failure_message, verify_restaurant_item
 
 
 def missing_maps_key_action(*, dry_run: bool) -> str:
@@ -129,6 +129,10 @@ def main() -> int:
         f"Wrote {raw_path} — verified {before} → {after} "
         f"({len(items) - after} failed Places checks)"
     )
+    fail_message = places_batch_failure_message(items, after)
+    if fail_message:
+        log(f"FAIL: {fail_message}")
+        return 1
     return 0
 
 
