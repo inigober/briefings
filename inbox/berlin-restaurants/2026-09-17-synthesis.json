@@ -1,0 +1,19 @@
+{
+  "briefing_type": "berlin-restaurants",
+  "date": "2026-09-17",
+  "source_raw": "inbox/berlin-restaurants/2026-09-17-raw.json",
+  "built_at": "2026-09-17T08:03:07.126396+00:00",
+  "model": "gpt-5.4",
+  "raw_item_count": 22,
+  "verified_count": 0,
+  "section_counts": {
+    "regional_chinese": 0,
+    "southeast_asian": 0,
+    "turkish_middle_eastern_caucasus": 0,
+    "mediterranean_european": 0,
+    "specialist_neighborhood": 0,
+    "fine_dining": 0
+  },
+  "items": [],
+  "note": "Token-light restaurant slice for synthesis. Items included here have verified:true after Google Places API post-fetch verification when GOOGLE_MAPS_API_KEY is set. Do not recommend unverified restaurants."
+}
