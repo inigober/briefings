@@ -40,6 +40,7 @@ From the synthesis inbox:
    - **Top Picks** (always spot-check — including verified items — for page year/dates)
    - `closing_soon: true` and not verified
    - Vague `dates` or `times` (e.g. "TBA", "various", "check website")
+   - Exhibition `dates` that are opening-only (no closing/end date)
    - `official_url` looks like a homepage only (path is `/`, `/en`, or one shallow segment)
 4. **Year / archive guard (mandatory):** When you fetch a page, confirm on-page event dates.
    - Prior-year archive page (e.g. July 2022 while briefing is 2026) → **drop**. Never rewrite dates forward into this week.
@@ -74,6 +75,8 @@ Add a **1–2 sentence intro** immediately after the title (before `## Top Picks
 
 Use per-entry format from the style rule (Title, Venue, Date(s), Time(s), Short Context, Why It Fits, Official Link).
 
+**Exhibition Date(s):** For every exhibition (Top Picks or Exhibitions Radar), `**Date(s):**` must include the **closing/end date**, not only the opening night. Copy the full run from inbox `dates`. If `dates` is opening-only or vague, that pick needs a spot-check fetch of `official_url` (counts toward the URL budget) — copy the on-page end date. Never invent a closing date. If start and end still cannot be confirmed, **drop** the exhibition rather than shipping "Opening Thursday…" with no run end.
+
 ## Step 3 — Validate briefing and Official Links (required)
 
 Run before committing:
@@ -84,6 +87,7 @@ python scripts/verify_culture_briefing_urls.py --type berlin-culture --date YYYY
 ```
 
 - **ERROR** (duplicate event, duplicate/missing official link, festival listed twice, unreachable URL): fix the briefing and re-run until both commands exit 0.
+- **WARN** about exhibition Date(s) missing a closing/end date: **treat as an ERROR** — add the real end date from inbox/page or drop the pick; do not commit opening-only exhibition dates.
 - **WARN** (section below minimum count): acceptable if noted in `last_run.json` (`thin_sections` / `omitted_sections`); do not fix by duplicating picks.
 - **Never invent Official Links** — copy from inbox `official_url` or a page you fetched and confirmed live. No guessed slugs or listing-only programme pages.
 

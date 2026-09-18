@@ -146,6 +146,38 @@ def normalize_candidate_url(value: str | None) -> str:
     return match.group(0).rstrip(".,;]")
 
 
+def urls_are_same_page(left: str | None, right: str | None) -> bool:
+    """True when two URLs point at the same host+path (ignore trailing slash / www)."""
+    a = normalize_candidate_url(left)
+    b = normalize_candidate_url(right)
+    if not a or not b:
+        return False
+
+    def key(url: str) -> str:
+        parsed = urlparse(url)
+        host = parsed.netloc.lower()
+        if host.startswith("www."):
+            host = host[4:]
+        path = parsed.path.rstrip("/").lower()
+        return f"{host}{path}"
+
+    return key(a) == key(b)
+
+
+def clear_redundant_dig(item: dict) -> bool:
+    """Blank dig fields when missing or identical to Listen. Returns True if cleared."""
+    dig = normalize_candidate_url(item.get("dig_url"))
+    listen = normalize_candidate_url(item.get("bandcamp_url"))
+    sentence = str(item.get("dig_sentence") or "").strip()
+    if not dig or urls_are_same_page(dig, listen):
+        changed = bool(dig or sentence)
+        item["dig_url"] = ""
+        item["dig_sentence"] = ""
+        return changed
+    item["dig_url"] = dig
+    return False
+
+
 def is_bandcamp_listen_url(url: str | None) -> bool:
     """True for artist.bandcamp.com/album/… or /track/… (not Bandcamp Daily)."""
     parsed = urlparse((url or "").strip())
@@ -412,9 +444,9 @@ For each candidate record:
 - **bandcamp_url copied exactly** from search (prefer `/album/…`; never invent slugs)
 - **cover_url** — omit or leave empty unless you copied a real `f4.bcbits.com` / `bcbits.com` image URL from the page. Do **not** invent image IDs. A later step hydrates covers from Bandcamp HTML, or from the same Bandcamp `og:image` via Microlink when GitHub gets a Bandcamp bot page.
 - **youtube_url** — optional; a later step looks up the YouTube Music album playlist. Copy one if you already saw `music.youtube.com/playlist?list=…`
-- **dig_url** — one related live Bandcamp (or label) URL for further digging
+- **dig_url** — a *different* live Bandcamp (label shop, related artist, or another album) for further digging. Leave blank if you have no distinct next step. Never copy the featured `bandcamp_url` as dig_url.
 - trusted write-up URL if used for the reception gate (RA, Bandcamp Daily, The Wire, Mixmag, Fact, Pitchfork, DJ Mag, Boomkat, etc.)
-- one-paragraph context (why it captivates; place the artist/label)
+- one-paragraph context that situates the **artist** and the **label** (who they are / what the imprint is known for), then why this release captivates — not genre or style alone
 - reception_ok: true if ≥ ~4 weeks old OR you copied a trusted write-up URL
 
 Rules:
@@ -501,6 +533,8 @@ Briefing Friday date: {date_str}
 - Convert ONLY releases documented in the web research notes below into JSON items.
 - Copy bandcamp_url, cover_url, youtube_url, dig_url, and writeup_url **verbatim** — do not modify, guess, or construct URLs.
 - Skip any release whose notes do **not** include a `https://…bandcamp.com/album/…` (or `/track/`) URL. Do not output an empty bandcamp_url.
+- **dig_url** must be a different page from bandcamp_url. Use an empty string when there is no distinct next step — never copy the featured album URL as dig_url.
+- **context** must situate the artist and the label, not only the album's genre/style.
 - Do NOT use web_search. Do NOT add releases missing from the notes.
 - topic_ids: `featured` or `more_listening` (familiar labels → more_listening unless a write-up elevates them).
 - mode: `club` or `home`. era: `recent` or `aged-well`.
@@ -739,6 +773,9 @@ def fetch_all_music(
     salvaged = attach_bandcamp_urls(items, notes)
     if salvaged:
         log(f"  Salvaged {salvaged} Bandcamp URL(s) from notes/dig_url")
+    cleared_dig = sum(1 for item in items if clear_redundant_dig(item))
+    if cleared_dig:
+        log(f"  Cleared {cleared_dig} empty/self Dig URL(s)")
     for item in items:
         if item.get("blocked_reason"):
             continue

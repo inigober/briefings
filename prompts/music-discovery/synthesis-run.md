@@ -40,7 +40,7 @@ Pay special attention to snapshot sections **Recent taste (24 months)** and **Fa
 From the synthesis inbox:
 
 1. Include only items with `"verified": true` **and a non-empty `cover_url`**. Skip cover-less rows.
-2. Copy `bandcamp_url`, `cover_url`, `youtube_url`, and `dig_url` **exactly** as stored — never invent or slugify Bandcamp paths. If `youtube_url` is a `music.youtube.com/playlist?list=…` (or youtube.com playlist) string, include it on the Listen line. If it is `null`, omit YouTube — do not search YouTube yourself.
+2. Copy `bandcamp_url`, `cover_url`, `youtube_url`, and `dig_url` **exactly** as stored — never invent or slugify Bandcamp paths. If `youtube_url` is a `music.youtube.com/playlist?list=…` (or youtube.com playlist) string, include it on the Listen line. If it is `null`, omit YouTube — do not search YouTube yourself. Use `dig_url` only when it is a **different page** from `bandcamp_url`; if it is empty, missing, or the same URL as Listen, **omit Dig**.
 3. Load `skip_list` / `library_skip` from the taste companion — do not recommend matches (pre-fetch already filtered; double-check).
 4. `known_label: true` → **More listening** unless `writeup_url` is present (trusted write-up exception).
 5. Weight recent taste (snapshot) over all-time crate lists.
@@ -50,7 +50,9 @@ From the synthesis inbox:
 9. Aim for **6 featured** (**3 club + 3 home** via `mode`) + **4 More listening**.
 10. Featured reception gate: `reception_ok: true` (≥ ~4 weeks old OR `writeup_url`).
 11. Captivation bar: every Featured pick must pass "would I leave this playing?"
-12. Every featured pick needs: italicized label in title, cover from `cover_url`, Genre + Listen on the **same line** (Bandcamp + YouTube when `youtube_url` is set), blank line, unlabeled context (use/adapt `context`), blank line, Dig (`dig_sentence` + `dig_url`).
+12. Every featured pick needs: italicized label in title, cover from `cover_url`, Genre + Listen on the **same line** (Bandcamp + YouTube when `youtube_url` is set), blank line, unlabeled context, then Dig **only if warranted**:
+    - **Context:** rewrite/adapt inbox `context` so it situates the **artist** and the **label** (who they are, what the imprint is known for), not only the album's genre/style. Style belongs on the Genre line.
+    - **Dig:** include `**Dig:**` + `dig_sentence` + one markdown link **only** when `dig_url` is non-empty **and** a different page from Listen. If `dig_url` / `dig_sentence` is empty, or would only say "stay with this album" / link the same Bandcamp URL, **omit the Dig line**. Never invent a Dig.
 13. More listening: same compact favicon links, **no `Listen:` label**; italicize label names.
 14. **Never invent URLs.** If a URL is missing in the inbox, omit that platform. Do not search.
 
@@ -75,7 +77,7 @@ Intro → six `##` featured entries → `## More listening` (4 bullets). No clos
    ```bash
    python scripts/verify_music_urls.py --type music-discovery --date YYYY-MM-DD
    ```
-   Every Listen, Dig, More listening, and cover URL must be HTTP-live. The script also rejects gap/placeholder briefings. If it fails, fix or omit dead URLs — do not commit until it exits 0.
+   Every Listen, Dig (when present), More listening, and cover URL must be HTTP-live. The script also rejects gap/placeholder briefings and Dig lines that merely repeat the Listen URL. If Dig would be the same album, delete the Dig line rather than inventing a substitute. If it fails, fix or omit dead URLs — do not commit until it exits 0.
 2. Stage briefing + state files
 3. Commit: `briefing/music-discovery: YYYY-MM-DD`
 4. **Push to `origin main`** — mandatory; email workflow triggers on `briefings/**/*.md`

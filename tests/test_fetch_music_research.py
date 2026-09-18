@@ -17,6 +17,8 @@ from fetch_music_research import (  # noqa: E402
     attach_bandcamp_urls,
     build_search_phase_prompt,
     build_search_recovery_prompt,
+    build_structure_phase_prompt,
+    clear_redundant_dig,
     compact_skip_list,
     enrich_candidate,
     extract_bandcamp_urls,
@@ -27,6 +29,7 @@ from fetch_music_research import (  # noqa: E402
     release_key,
     salvage_bandcamp_url,
     section_counts,
+    urls_are_same_page,
 )
 from fetch_openai_research import load_yaml  # noqa: E402
 
@@ -64,6 +67,9 @@ class TestMusicResearchHelpers(unittest.TestCase):
         self.assertIn("skip that release", prompt.lower())
         self.assertIn("/album/", prompt)
         self.assertIn(str(MUSIC_MIN_BANDCAMP_URLS), prompt)
+        self.assertIn("Never copy the featured", prompt)
+        self.assertIn("artist", prompt.lower())
+        self.assertIn("label", prompt.lower())
         self.assertNotIn("Return JSON", prompt)
 
     def test_keys_match_fuzzy_release(self) -> None:
@@ -237,6 +243,38 @@ Daily write-up: https://daily.bandcamp.com/best-electronic/something
         )
         self.assertEqual(items[1]["bandcamp_url"], "https://other.bandcamp.com/album/ep")
         self.assertEqual(items[2]["bandcamp_url"], "https://has.bandcamp.com/album/yes")
+
+    def test_structure_prompt_forbids_self_dig(self) -> None:
+        prompt = build_structure_phase_prompt(
+            date_str="2026-08-14",
+            research_notes="Artist: X\nBandcamp: https://x.bandcamp.com/album/y",
+        )
+        self.assertIn("different page from bandcamp_url", prompt)
+        self.assertIn("artist and the label", prompt)
+
+    def test_clear_redundant_dig_blanks_self_and_empty(self) -> None:
+        album = "https://label.bandcamp.com/album/same"
+        self.assertTrue(urls_are_same_page(album, album + "/"))
+        same = {
+            "bandcamp_url": album,
+            "dig_url": album + "/",
+            "dig_sentence": "Stay with this album.",
+        }
+        self.assertTrue(clear_redundant_dig(same))
+        self.assertEqual(same["dig_url"], "")
+        self.assertEqual(same["dig_sentence"], "")
+
+        distinct = {
+            "bandcamp_url": album,
+            "dig_url": "https://label.bandcamp.com/",
+            "dig_sentence": "Browse the rest of the catalogue.",
+        }
+        self.assertFalse(clear_redundant_dig(distinct))
+        self.assertEqual(distinct["dig_url"], "https://label.bandcamp.com/")
+
+        empty = {"bandcamp_url": album, "dig_url": "", "dig_sentence": "Invented."}
+        self.assertTrue(clear_redundant_dig(empty))
+        self.assertEqual(empty["dig_sentence"], "")
 
 
 if __name__ == "__main__":

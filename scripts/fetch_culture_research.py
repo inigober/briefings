@@ -225,6 +225,7 @@ You MUST call web_search at least once before answering. Search the programme pa
 2. For each event, record: title, venue, dates, times, artists (if known),
    **official_url copied exactly from search** (specific event page — never a homepage, /en, or listing).
    For festivals: prefer **atomic dated events** (single concerts, openings, performances) over umbrella listings.
+   For **exhibitions**: dates must include start **and** closing/end date (not opening night alone). Copy both from the page; never invent an end date.
 3. **Year / archive discipline (strict):**
    - Prefer event URLs that include the briefing year in the path when venues publish year-specific pages
      (e.g. `…/the-pressing-2026/` over an older `…/the-pressing-dani-brown/` archive slug).
@@ -327,6 +328,7 @@ For each section — exhibitions, film, performing_arts, music (and wildcards/ad
 2. For each qualifying event in the event window, record:
    - section id
    - title, venue, dates, times, artists (if known)
+   - **Exhibitions:** dates must include start **and** closing/end date (e.g. `11 September – 22 November 2026`). Opening night alone is not enough. Copy both from the page; never invent an end date.
    - **official_url copied exactly from search results** (specific event page — never a homepage, /en, or /programme listing)
    - one-line why it fits the reader interests
    - **series_id** (stable slug, e.g. `polish-art-week-2026`) when the event belongs to a festival or recurring series
@@ -387,7 +389,7 @@ Event window: {week_label}
 - Do NOT use web_search in this step. Do NOT add events missing from the research notes.
 - If a section has fewer candidates than the target, list gaps — never invent filler.
 - topic_ids: primary section id first, then optional theme tags
-- For exhibitions: set closing_soon true if closing within 10 days
+- For exhibitions: dates must include the closing/end date (not opening-only); set closing_soon true if closing within 10 days
 - **series_id**: stable slug for festivals/recurring series (shared across related items); empty string for one-offs
 - **event_kind**: `single` | `festival_overview` | `festival_event` — at most one `festival_overview` per series_id
 - Prefer atomic `single` / `festival_event` items; use `festival_overview` only when no atomic events were found

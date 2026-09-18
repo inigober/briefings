@@ -986,8 +986,10 @@ def build_music_synthesis_inbox(raw: dict, *, topics_cfg: dict) -> dict:
         "items": section_items,
         "note": (
             "Token-light music slice for synthesis. Items with verified:true have live "
-            "Bandcamp + cover URLs from pre-fetch HTTP checks. Copy Listen/Dig/cover URLs "
-            "verbatim — never invent Bandcamp slugs. Do not recommend unverified releases."
+            "Bandcamp + cover URLs from pre-fetch HTTP checks. Copy Listen/cover URLs "
+            "verbatim; copy Dig only when dig_url is a different page from Listen — "
+            "omit Dig when empty. Never invent Bandcamp slugs. Do not recommend "
+            "unverified releases."
         ),
     }
 

@@ -50,7 +50,7 @@ Fields in order:
 4. **blank line (mandatory)** — context must start on a new paragraph in email
 5. Context paragraph — **no `Context:` label**; start straight with the prose
 6. blank line
-7. `**Dig:**` one sentence with a concrete next step **and one markdown link**
+7. `**Dig:**` **optional** — include only when there is a real next step (see Dig rules below)
 
 Example skeleton:
 
@@ -65,6 +65,29 @@ Prose context paragraph starts here with no label…
 
 **Dig:** … [link](url)
 ```
+
+Omit the `**Dig:**` line entirely when there is no distinct next step (see below). Do not leave a blank Dig.
+
+### Context paragraph (mandatory)
+
+The unlabeled paragraph must place **the artist and the label**, not only the album's genre or style.
+
+Cover in 2–4 sentences:
+
+- Who the artist is (scene, geography, or a concrete prior record — not a mood board of adjectives)
+- What the **label** is known for, or why this imprint is the right home
+- Then what this release actually does / why it captivates
+
+**Avoid:** style-only blurbs ("tape-hazed progressive house with balearic drift") that never say who made it or who put it out. Genre belongs on the **Genre:** line; the paragraph is for people and imprints.
+
+### Dig (optional — hide when empty)
+
+`**Dig:**` is a **further** listen: another release, a label catalogue, a related artist page, or a trusted write-up.
+
+- Include Dig only when inbox `dig_url` is a **different page** from the featured Listen Bandcamp URL, with a real sentence that points there.
+- **Omit the Dig line** when `dig_url` is missing, empty, or the same as Listen (`bandcamp_url`).
+- **Never invent** a Dig sentence or URL. Never write "stay with this album" / "keep going through [*this same release*]". That is not a dig — Listen already does that.
+- If Dig is present, it needs **one markdown link** to that distinct URL. A dead or invented Dig link is a failed briefing.
 
 Listen links: include Bandcamp when available; **for Featured entries, also include a verified YouTube / YouTube Music album or release playlist when one exists**; Spotify last resort (`domain=spotify.com`). Omit a platform rather than guess a URL.
 
@@ -89,7 +112,7 @@ Bandcamp paths are **not** predictable from titles. Labels often prefix catalog 
 
 1. **Confirm before writing** — open/fetch the page (or copy the URL from a page you already loaded). Do not slugify a title and hope.
 2. **HTTP-live required** — if the URL is not reachable, do not ship it. Fix the path, point at the label/artist Bandcamp homepage, or omit that platform.
-3. **Dig links count** — Dig is not exempt. A dead Dig link is a failed briefing.
+3. **Dig links count when present** — Dig is not exempt. A dead Dig link is a failed briefing. A missing Dig line is fine.
 4. **Post-draft check (required)** — before commit, run:
    ```bash
    python scripts/verify_music_urls.py --type music-discovery --date YYYY-MM-DD
@@ -120,7 +143,7 @@ Exactly four bullets. Same link style as featured (favicon + name; Bandcamp + ve
 7. **Max 1 entry per label** across featured + More listening.
 8. **Skip the recommendation log** — never recommend `skip_list` / cooldown entries.
 9. **Also skip** `state/music-discovery/releases_index.md` recent repeats.
-10. **Context over blurb** — drop candidates you cannot situate.
+10. **Context over blurb** — drop candidates you cannot situate (artist **and** label, not genre-only).
 11. **Variety** — diversify genre, geography, and era. Keep the 3 club / 3 home Featured split.
 12. **Club bar is higher than home** — home can be quietly excellent; club Featured needs a hook, character, or arrangement you'd actually dig for a set.
 
