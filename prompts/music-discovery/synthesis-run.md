@@ -40,7 +40,7 @@ Pay special attention to snapshot sections **Recent taste (24 months)** and **Fa
 From the synthesis inbox:
 
 1. Include only items with `"verified": true` **and a non-empty `cover_url`**. Skip cover-less rows.
-2. Copy `bandcamp_url`, `cover_url`, `youtube_url`, and `dig_url` **exactly** as stored — never invent or slugify Bandcamp paths. If `youtube_url` is a `music.youtube.com/playlist?list=…` (or youtube.com playlist) string, include it on the Listen line. If it is `null`, omit YouTube — do not search YouTube yourself. Use `dig_url` only when it is a **different page** from `bandcamp_url`; if it is empty, missing, or the same URL as Listen, **omit Dig**.
+2. Copy `bandcamp_url`, `cover_url`, `youtube_url`, and `dig_url` **exactly** as stored — never invent or slugify Bandcamp paths. If `youtube_url` is a `music.youtube.com/playlist?list=…` (or youtube.com playlist) string, include it on the Listen line. If it is `null`, omit YouTube — do not search YouTube yourself. Use `dig_url` when it is a **different page** from `bandcamp_url` (a label/artist shop homepage counts). If `dig_url` is empty, missing, or the same album URL as Listen, you may use `writeup_url` as the Dig link. If neither is a distinct page, **omit Dig**.
 3. Load `skip_list` / `library_skip` from the taste companion — do not recommend matches (pre-fetch already filtered; double-check).
 4. `known_label: true` → **More listening** unless `writeup_url` is present (trusted write-up exception).
 5. Weight recent taste (snapshot) over all-time crate lists.
@@ -52,7 +52,7 @@ From the synthesis inbox:
 11. Captivation bar: every Featured pick must pass "would I leave this playing?"
 12. Every featured pick needs: italicized label in title, cover from `cover_url`, Genre + Listen on the **same line** (Bandcamp + YouTube when `youtube_url` is set), blank line, unlabeled context, then Dig **only if warranted**:
     - **Context:** rewrite/adapt inbox `context` so it situates the **artist** and the **label** (who they are, what the imprint is known for), not only the album's genre/style. Style belongs on the Genre line.
-    - **Dig:** include `**Dig:**` + `dig_sentence` + one markdown link **only** when `dig_url` is non-empty **and** a different page from Listen. If `dig_url` / `dig_sentence` is empty, or would only say "stay with this album" / link the same Bandcamp URL, **omit the Dig line**. Never invent a Dig.
+    - **Dig:** include `**Dig:**` when there is a distinct next-step URL (`dig_url` ≠ Listen, or else `writeup_url`). Write **one sentence that points at that URL** (browse the label shop, another album, or the review). Inbox `dig_sentence` is only usable if it is already that next step — if it is research notes about *this* album (fit, reception gate, “shortlist”, “stay with this record”), **ignore it** and write a short line for the real Dig URL. Never change the link to the Listen album. If there is no distinct URL, omit Dig. Never invent a URL.
 13. More listening: same compact favicon links, **no `Listen:` label**; italicize label names.
 14. **Never invent URLs.** If a URL is missing in the inbox, omit that platform. Do not search.
 

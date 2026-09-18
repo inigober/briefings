@@ -67,7 +67,9 @@ class TestMusicResearchHelpers(unittest.TestCase):
         self.assertIn("skip that release", prompt.lower())
         self.assertIn("/album/", prompt)
         self.assertIn(str(MUSIC_MIN_BANDCAMP_URLS), prompt)
-        self.assertIn("Never copy the featured", prompt)
+        self.assertIn("Never copy this release", prompt)
+        self.assertIn("dig_sentence", prompt)
+        self.assertIn("why_candidate", prompt)
         self.assertIn("artist", prompt.lower())
         self.assertIn("label", prompt.lower())
         self.assertNotIn("Return JSON", prompt)
@@ -251,6 +253,9 @@ Daily write-up: https://daily.bandcamp.com/best-electronic/something
         )
         self.assertIn("different page from bandcamp_url", prompt)
         self.assertIn("artist and the label", prompt)
+        self.assertIn("dig_sentence", prompt)
+        self.assertIn("why_candidate", prompt)
+        self.assertIn("another `/album/`", prompt)
 
     def test_clear_redundant_dig_blanks_self_and_empty(self) -> None:
         album = "https://label.bandcamp.com/album/same"

@@ -444,9 +444,11 @@ For each candidate record:
 - **bandcamp_url copied exactly** from search (prefer `/album/…`; never invent slugs)
 - **cover_url** — omit or leave empty unless you copied a real `f4.bcbits.com` / `bcbits.com` image URL from the page. Do **not** invent image IDs. A later step hydrates covers from Bandcamp HTML, or from the same Bandcamp `og:image` via Microlink when GitHub gets a Bandcamp bot page.
 - **youtube_url** — optional; a later step looks up the YouTube Music album playlist. Copy one if you already saw `music.youtube.com/playlist?list=…`
-- **dig_url** — a *different* live Bandcamp (label shop, related artist, or another album) for further digging. Leave blank if you have no distinct next step. Never copy the featured `bandcamp_url` as dig_url.
+- **dig_url** — a *further* listen, copied from search: prefer **another album** (`/album/…` that is not this release), else a trusted write-up, else the label/artist Bandcamp **shop** (`https://label.bandcamp.com/`). Leave blank if you have no distinct next step. Never copy this release’s `bandcamp_url`. Same-host shop is OK; same album path is not.
+- **dig_sentence** — one sentence that points at that further URL (“then browse Balmat’s catalogue”, “RA’s review”, “next play …”). Do **not** put why-this-album / reception-gate notes here — those belong in `why_candidate`.
 - trusted write-up URL if used for the reception gate (RA, Bandcamp Daily, The Wire, Mixmag, Fact, Pitchfork, DJ Mag, Boomkat, etc.)
 - one-paragraph context that situates the **artist** and the **label** (who they are / what the imprint is known for), then why this release captivates — not genre or style alone
+- **why_candidate** — internal shortlist note (fit, reception). Not the Dig line.
 - reception_ok: true if ≥ ~4 weeks old OR you copied a trusted write-up URL
 
 Rules:
@@ -533,8 +535,10 @@ Briefing Friday date: {date_str}
 - Convert ONLY releases documented in the web research notes below into JSON items.
 - Copy bandcamp_url, cover_url, youtube_url, dig_url, and writeup_url **verbatim** — do not modify, guess, or construct URLs.
 - Skip any release whose notes do **not** include a `https://…bandcamp.com/album/…` (or `/track/`) URL. Do not output an empty bandcamp_url.
-- **dig_url** must be a different page from bandcamp_url. Use an empty string when there is no distinct next step — never copy the featured album URL as dig_url.
+- **dig_url** must be a different page from bandcamp_url. Prefer another `/album/` URL, else writeup_url, else the label/artist shop homepage. Empty string when none of those exist — never copy the featured album URL.
+- **dig_sentence** is one next-step sentence for that dig_url. Do not copy why_candidate or context into dig_sentence.
 - **context** must situate the artist and the label, not only the album's genre/style.
+- **why_candidate** is the internal shortlist reason (not shown as Dig).
 - Do NOT use web_search. Do NOT add releases missing from the notes.
 - topic_ids: `featured` or `more_listening` (familiar labels → more_listening unless a write-up elevates them).
 - mode: `club` or `home`. era: `recent` or `aged-well`.

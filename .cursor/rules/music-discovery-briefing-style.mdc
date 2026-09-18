@@ -84,8 +84,9 @@ Cover in 2–4 sentences:
 
 `**Dig:**` is a **further** listen: another release, a label catalogue, a related artist page, or a trusted write-up.
 
-- Include Dig only when inbox `dig_url` is a **different page** from the featured Listen Bandcamp URL, with a real sentence that points there.
-- **Omit the Dig line** when `dig_url` is missing, empty, or the same as Listen (`bandcamp_url`).
+- Include Dig when inbox `dig_url` (or else `writeup_url`) is a **different page** from Listen. A label/artist Bandcamp shop (`https://balmat.bandcamp.com/`) is a valid Dig. Copy that URL; do not replace it with the featured album.
+- Inbox `dig_sentence` is often a leftover research note about *this* album. If it does not name a further listen, ignore it and write one sentence for the actual Dig URL.
+- **Omit the Dig line** when there is no distinct URL.
 - **Never invent** a Dig sentence or URL. Never write "stay with this album" / "keep going through [*this same release*]". That is not a dig — Listen already does that.
 - If Dig is present, it needs **one markdown link** to that distinct URL. A dead or invented Dig link is a failed briefing.
 
