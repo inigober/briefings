@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-18
+
+- [Medical AI has a proof problem](https://www.ft.com/content/34319b00-f874-4119-aa28-8376d81e7190?syn-25a6b1a6=1) — Financial Times
+- [South Africa joins the global resistance against American data centers](https://restofworld.org/2026/south-africa-ai-data-center-protests/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [RFK Jr.’s Bold Reassurance to Anti-Vaxxers](https://www.theatlantic.com/health/2026/09/rfk-jr-childrens-health-defense-conference-speech/688685/?utm_source=feed) — The Atlantic
+- [Thailand must invest in front-end chip production, industry body says](https://asia.nikkei.com/business/tech/semiconductors/thailand-must-invest-in-front-end-chip-production-industry-body-says) — Nikkei Asia
+
 ## 2026-09-17
 
 - [This Is Your Brain on Short-Form Video](https://www.theatlantic.com/health/2026/09/short-form-video-tiktok-brain-neuroscience/688632/?utm_source=feed) — The Atlantic
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Stocks Drop on AI Slowdown Concerns, Oil Advances: Markets Wrap](https://www.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap) — Bloomberg
 - [King Charles Will Convene A.I. Leaders Amid Calls to Slow Development](https://www.nytimes.com/2026/09/13/world/europe/king-charles-ai-meeting.html) — The New York Times
 - [Peptide user tore oesophagus after using counterfeit product, Australian regulator warns](https://www.theguardian.com/australia-news/2026/sep/14/counterfeit-retratrutide-warning-peptide-torn-oesophagus-australia-tga) — The Guardian
-
-## 2026-09-13
-
-- [Rivals Altman and Musk rally behind Dario Amodei’s call for an AI slowdown](https://www.ft.com/content/31220b59-b0c6-401c-a146-2b7b5d138837?syn-25a6b1a6=1) — Financial Times
-- [Japan's Nidec to exit Cambodia production over Thailand border conflict](https://asia.nikkei.com/politics/international-relations/thailand-cambodia-conflict/japan-s-nidec-to-exit-cambodia-production-over-thailand-border-conflict) — Nikkei Asia
-- [Benchmarking and bonuses: why Singapore pays its politicians like bankers](https://www.ft.com/content/fa47c0db-18a6-45d6-b35d-75942a0daae8?syn-25a6b1a6=1) — Financial Times
-- [Zohran Mamdani: “La democracia no sirve si la gente no puede cubrir sus necesidades”](https://elpais.com/eps/2026-09-13/zohran-mamdani-la-democracia-no-sirve-si-la-gente-no-puede-cubrir-sus-necesidades.html) — EL PAÍS
 
 ## Blocked until 5+ briefings have passed
 

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-18
+
+- **spain-audiencia-nacional-ceuta-port-camp** — EL PAÍS: the Audiencia Nacional has unblocked a migrant reception camp in Ceuta's port so beaches can be cleared (section: spain)
+- **spain-aesan-menopause-study-withdrawn** — eldiario.es: AESAN has withdrawn a menopause-nutrition study built on data from men (section: spain)
+- **spain-kitchen-villarejo-cospedal-tapes** — eldiario.es: Internal Affairs has authenticated Villarejo recordings that implicate Rajoy's PP in Operation Kitchen (section: spain)
+- **germany-merz-laender-25-cent-fuel** — Tagesspiegel: Merz and the vice-chancellor sat with the Länder on petrol relief of up to 25 cents a litre (section: germany)
+- **germany-handelsblatt-ai-three-theses** — Handelsblatt: a morning briefing on what documented AI outbreaks already show (section: germany)
+- **germany-destatis-boj-market-markers** — Handelsblatt: Destatis data and the BOJ's 31-year rate high are the Friday markers for German investors (section: germany)
+- **berlin-5bn-culture-security** — The Berliner: Berlin is in line for an extra €5 billion for culture and security (section: berlin)
+- **berlin-afd-verfassungsschutz-after-senate** — Tagesspiegel: interior will only say if the Berlin AfD is under VS observation once a new Senate is in place (section: berlin)
+- **berlin-housing-two-thirds-vote** — Tagesspiegel: affordable housing will weigh on the ballot for two-thirds of Berliners (section: berlin)
+- **world-panasonic-energy-ai-boom** — Nikkei Asia: Panasonic Energy is chasing battery demand from the AI build-out (section: world)
+- **world-nigeria-methanol-alcohol-deaths** — The Guardian: at least 48 dead in Ondo state after methanol-laced local alcohol (section: world)
+- **world-openai-anthropic-models-breach** — Financial Times: researchers used Anthropic models to break into OpenAI (section: world)
+
 ## 2026-09-17
 
 - **spain-feijoo-vox-ceuta-minors-peninsula** — EL PAÍS: Feijóo has aligned with Vox against sending any unaccompanied minors from Ceuta to the peninsula (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-thiel-argentina-milei** — The Guardian: Thiel's Buenos Aires move coincides with proposed laws opponents say would entrench US tech billionaires (section: world)
 - **world-octopus-japan-mini-solar** — Nikkei Asia: an Octopus Energy-backed retailer is joining Japan's mini-solar rush (section: world)
 - **world-norway-fund-slash-treasuries** — Financial Times: the $2tn oil fund's manager proposes slashing US Treasury holdings to lift returns (section: world)
-
-## 2026-09-03
-
-- **spain-ceuta-police-report-gendarmerie** — eldiario.es: Cenif's 51-page file for the Audiencia Nacional treats Moroccan security agents, not a mafia, as organisers of the late-July Ceuta rush (section: spain)
-- **spain-sanchez-congress-no-proof-morocco** — EL PAÍS: Sánchez tells Congress Madrid still has no proof Morocco organised the crossing, after the Interior leak (section: spain)
-- **spain-francis-letters-opus-dei-barbastro** — EL PAÍS: unpublished letters from Francis tell Barbastro's bishop not to yield to Opus Dei over Torreciudad (section: spain)
-- **germany-gas-storage-historically-low** — Handelsblatt: operators want a regulatory shove to refill historically low gas stores; the economy ministry is holding back (section: germany)
-- **germany-lavrov-goethe-institut-closed** — Tagesspiegel: Lavrov says Russia will close the Goethe-Institut after Leipzig and the Russian House (section: germany)
-- **germany-digital-pension-overview-login-fail** — Berliner Zeitung: only about 6% use the Digitale Rentenübersicht, and almost half who try fail at registration (section: germany)
-- **berlin-charite-nurses-warning-strike** — rbb24: Charité nurses have started a three-day warning strike (section: berlin)
-- **berlin-broechler-disinformation-new-dimension** — Die Zeit: Berlin's election chief says disinformation has reached a new dimension before 20 September (section: berlin)
-- **berlin-sbahn-baumschulenweg-signal** — Tagesspiegel: a signal fault at Baumschulenweg is delaying S-Bahn lines, including the airport route (section: berlin)
-- **world-taiwan-undercover-chip-labs** — Rest of World: unpublished data show Taiwan's six-year hunt for Chinese firms hiding chip-lab ties (section: world)
-- **world-uber-unions-robotaxi-slowdown** — Financial Times: Uber is allying with driver unions to slow the robotaxi rollout (section: world)
-- **world-malaysia-critical-minerals-china-curbs** — Nikkei Asia: Malaysia is drawing critical-minerals interest as China's export curbs loom (section: world)
