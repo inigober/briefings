@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-09-18
+
+- Maara — Revenge from the Penthouse EP
+- Stephen Vitiello, Brendan Canty, Hahn Rowe — Second
+- Hypnotised — Hypnotised presents Progressive Trance
+- Milieu — Enjoy Your Stay At The Holograph Lounge [10th Anniversary Remaster]
+- Cosmic Gate — Perspectives
+- Ninelo — U'll Never Know
+- Music For Dreams — The Sunset Sessions, Vol. 13
+- How To Disappear Completely — The Quietus
+- Low Altitude — Boat
+- MABNESS — Digital Ritual: A Balearic Experiment
+
 ## 2026-09-11
 
 - Yuzo Iwata — Kaizu
