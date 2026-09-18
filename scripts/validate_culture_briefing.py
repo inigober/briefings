@@ -20,10 +20,15 @@ from culture_calendar import (  # noqa: E402
     normalize_text_key,
     normalize_venue_key,
 )
+from culture_schedule import (  # noqa: E402
+    OPENING_ONLY_RE,
+    exhibition_dates_missing_end,
+)
 
 SECTION_HEADING_RE = re.compile(r"^## (.+)$", re.MULTILINE)
 ENTRY_HEADING_RE = re.compile(r"^### (.+)$", re.MULTILINE)
 VENUE_RE = re.compile(r"^\*\*Venue:\*\*\s*(.+)$", re.MULTILINE)
+DATE_RE = re.compile(r"^\*\*Date\(s\):\*\*\s*(.+)$", re.MULTILINE)
 LINK_RE = re.compile(r"^\*\*Official Link:\*\*\s*\[[^\]]*\]\(([^)]+)\)", re.MULTILINE)
 
 SECTION_ID_BY_HEADING = {
@@ -62,13 +67,16 @@ def parse_entries(text: str) -> list[dict]:
             return
         body = "\n".join(current_lines)
         venue_match = VENUE_RE.search(body)
+        date_match = DATE_RE.search(body)
         link_match = LINK_RE.search(body)
         venue = venue_match.group(1).strip() if venue_match else ""
+        dates = date_match.group(1).strip() if date_match else ""
         official_url = link_match.group(1).strip() if link_match else ""
         item = {
             "section": current_section,
             "title": current_title,
             "venue": venue,
+            "dates": dates,
             "official_url": official_url,
         }
         item["event_key"] = normalize_event_key(item)
@@ -191,6 +199,23 @@ def validate_briefing(text: str) -> tuple[list[str], list[str]]:
         if len(hosts) < len(umbrella_titles):
             warnings.append(
                 "Multiple festival-umbrella titles share URLs — consider merging into one entry."
+            )
+
+    for entry in entries:
+        dates = (entry.get("dates") or "").strip()
+        if not dates:
+            continue
+        missing_end = exhibition_dates_missing_end(dates)
+        if entry["section"] == "exhibitions" and missing_end:
+            warnings.append(
+                f"Exhibition '{entry['title']}' Date(s) {dates!r} is missing a "
+                "closing/end date — add the run end (e.g. 11 September – 22 November) "
+                "or drop the pick."
+            )
+        elif OPENING_ONLY_RE.match(dates) and missing_end:
+            warnings.append(
+                f"'{entry['title']}' Date(s) {dates!r} is opening-only — "
+                "long-running shows need a closing/end date."
             )
 
     return errors, warnings

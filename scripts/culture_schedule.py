@@ -85,6 +85,24 @@ LONG_RANGE_RE = re.compile(
     re.I,
 )
 
+# Long-running exhibitions need a closing/end date, not opening night alone.
+OPENING_ONLY_RE = re.compile(r"^(opening|opens)\b", re.I)
+DATE_RANGE_HINT_RE = re.compile(
+    r"(until|closes|closing|through|on view|"
+    r"[–—]|"
+    r"\d{1,2}\s+\w+\s*-\s*\d{1,2}\s+\w+|"
+    r"\d{4}-\d{2}-\d{2}\s*-\s*\d{4}-\d{2}-\d{2})",
+    re.I,
+)
+
+
+def exhibition_dates_missing_end(dates: str) -> bool:
+    """True when Date(s) looks like an opening or single night with no run end."""
+    blob = (dates or "").strip()
+    if not blob:
+        return False
+    return DATE_RANGE_HINT_RE.search(blob) is None
+
 
 def _month_num(token: str) -> int | None:
     return MONTHS.get(token.lower().strip())

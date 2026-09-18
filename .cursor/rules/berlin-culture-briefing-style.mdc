@@ -24,7 +24,7 @@ Immediately after the title and before `## Top Picks`, add **1–2 sentences** o
 ## Required sections (exact order)
 
 1. Top Picks (3 highest-value recommendations)
-2. Exhibitions Radar (4–5; prioritize closing-soon; include opening/closing dates)
+2. Exhibitions Radar (4–5; prioritize closing-soon; **Date(s)** must include the closing/end date)
 3. Film & Screenings (2–4)
 4. Performing Arts (2–3)
 5. Music (3–4; always include artist names)
@@ -57,6 +57,24 @@ For every recommendation:
 - Official links must point to venue/festival/organizer **event** pages — not aggregators, and not bare programme/calendar listing pages (`/programm/`, `/Programm/`, `/en/programm/programm/`).
 - **Never invent Official Links** — copy `official_url` from the inbox, or a URL you fetched and confirmed live during a required spot-check. Do not guess slugs.
 - If important but flawed, say so (e.g. "Conceptually ambitious though somewhat uneven in execution.").
+
+### Exhibition Date(s) (mandatory)
+
+Long-running shows (anything still on view after opening night) need a **closing/end date** in `**Date(s):**`, not just the opening.
+
+Good: `On view 11 September – 22 November 2026 (opened 10 September)`  
+Good: `3 July – 14 August 2026 (closes Thursday)`  
+Bad: `Opening Thursday, 17 September 2026` (opening only — the reader cannot tell when it ends)
+
+Copy start **and** end from inbox `dates` or from the official page during a required spot-check. Do not invent a closing date. If the page and inbox both omit the run end, drop the pick rather than listing an opening-only exhibition.
+
+When you drop a pick for that reason, **log it** (do not mention the drop in the email):
+
+```bash
+python scripts/culture_missing_end_log.py --date YYYY-MM-DD --title "…" --venue "…" --dates "…" --url "https://…"
+```
+
+That appends `state/berlin-culture/missing_end_dates.md` so we can count how often this happens. Also list the same drops in `last_run.json` as `dropped_missing_end_dates` (empty list `[]` if none).
 
 ## Tuesday briefing rule (mandatory)
 
@@ -144,4 +162,5 @@ Food-related events ≤ 25% of total recommendations across the briefing.
 1. `briefings/berlin-culture/YYYY-MM-DD.md`
 2. Update `state/berlin-culture/events_index.md`
 3. Update `state/berlin-culture/last_run.json`
-4. Commit: `briefing/berlin-culture: YYYY-MM-DD`
+4. Update `state/berlin-culture/missing_end_dates.md` when any exhibition was dropped for a missing closing date
+5. Commit: `briefing/berlin-culture: YYYY-MM-DD`

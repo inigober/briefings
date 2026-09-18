@@ -17,6 +17,7 @@ import verify_music_urls  # noqa: E402
 from verify_music_urls import (  # noqa: E402
     assert_music_briefing_structure,
     extract_music_briefing_urls,
+    featured_dig_errors,
     verify_music_briefing_urls,
 )
 
@@ -224,6 +225,67 @@ class TestVerifyMusicBriefingUrls(unittest.TestCase):
             ):
                 code = verify_music_urls.main()
         self.assertEqual(code, 1)
+
+    def test_cli_fails_when_dig_repeats_listen(self) -> None:
+        text = COMPLETE_BRIEFING.replace(
+            "https://example.bandcamp.com/album/dig1",
+            "https://example.bandcamp.com/album/one",
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "2026-07-31.md"
+            path.write_text(text, encoding="utf-8")
+            with patch.object(
+                sys,
+                "argv",
+                ["verify_music_urls.py", "--briefing", str(path), "--sleep-ms", "0"],
+            ):
+                code = verify_music_urls.main()
+        self.assertEqual(code, 1)
+
+    def test_cli_ok_when_dig_omitted(self) -> None:
+        text = "\n".join(
+            line for line in COMPLETE_BRIEFING.splitlines() if not line.startswith("**Dig:**")
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "2026-07-31.md"
+            path.write_text(text + "\n", encoding="utf-8")
+            with (
+                patch("verify_music_urls.check_url_live", return_value=(True, "")),
+                patch.object(
+                    sys,
+                    "argv",
+                    ["verify_music_urls.py", "--briefing", str(path), "--sleep-ms", "0"],
+                ),
+            ):
+                code = verify_music_urls.main()
+        self.assertEqual(code, 0)
+
+
+class TestFeaturedDigErrors(unittest.TestCase):
+    def test_distinct_dig_is_ok(self) -> None:
+        self.assertEqual(featured_dig_errors(COMPLETE_BRIEFING), [])
+
+    def test_omitted_dig_is_ok(self) -> None:
+        text = "\n".join(
+            line for line in COMPLETE_BRIEFING.splitlines() if not line.startswith("**Dig:**")
+        )
+        self.assertEqual(featured_dig_errors(text), [])
+
+    def test_self_dig_is_error(self) -> None:
+        text = COMPLETE_BRIEFING.replace(
+            "https://example.bandcamp.com/album/dig1",
+            "https://example.bandcamp.com/album/one",
+        )
+        errors = featured_dig_errors(text)
+        self.assertTrue(any("Dig repeats Listen" in e for e in errors))
+
+    def test_empty_dig_line_is_error(self) -> None:
+        text = COMPLETE_BRIEFING.replace(
+            "**Dig:** [next](https://example.bandcamp.com/album/dig1)",
+            "**Dig:**",
+        )
+        errors = featured_dig_errors(text)
+        self.assertTrue(any("empty Dig line" in e for e in errors))
 
 
 if __name__ == "__main__":

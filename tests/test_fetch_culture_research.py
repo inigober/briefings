@@ -46,6 +46,7 @@ class TestCombinedCultureFetch(unittest.TestCase):
         self.assertIn("series_id", prompt)
         self.assertIn("Year / archive discipline", prompt)
         self.assertIn("never invent or shift dates", prompt)
+        self.assertIn("closing/end date", prompt)
 
     def test_prompt_is_search_phase_with_required_web_search(self) -> None:
         prompt = build_search_phase_prompt(

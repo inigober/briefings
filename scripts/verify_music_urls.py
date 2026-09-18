@@ -40,6 +40,8 @@ SKIP_URL_SUBSTRINGS = (
 FEATURED_HEADING_RE = re.compile(r"^## (?!More listening).+", re.MULTILINE)
 MORE_LISTENING_RE = re.compile(r"^## More listening\s*$", re.MULTILINE | re.IGNORECASE)
 MORE_LISTENING_BULLET_RE = re.compile(r"^- ", re.MULTILINE)
+DIG_LINE_RE = re.compile(r"^\*\*Dig:\*\*\s*(.*)$", re.MULTILINE)
+LISTEN_LINE_RE = re.compile(r"^\*\*Genre:.*$", re.MULTILINE)
 GAP_PHRASES = (
     "no featured picks",
     "records the gap rather than inventing",
@@ -87,6 +89,57 @@ def assert_music_briefing_structure(text: str) -> list[str]:
             errors.append(
                 f"need {MIN_MORE_LISTENING} More listening bullets, found {len(bullets)}"
             )
+    return errors
+
+
+def canonicalize_music_url(url: str) -> str:
+    """Host + path, lowercased, no trailing slash — for Listen vs Dig comparison."""
+    parsed = urlparse((url or "").strip())
+    host = parsed.netloc.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    path = parsed.path.rstrip("/").lower()
+    return f"{host}{path}"
+
+
+def featured_dig_errors(text: str) -> list[str]:
+    """Return errors for empty Dig lines or Dig URLs that repeat Listen."""
+    errors: list[str] = []
+    parts = re.split(r"^## ", text or "", flags=re.MULTILINE)
+    for part in parts[1:]:
+        title, _, body = part.partition("\n")
+        heading = title.strip()
+        if heading.lower().startswith("more listening"):
+            continue
+        dig_match = DIG_LINE_RE.search(body)
+        if not dig_match:
+            continue
+        dig_text = (dig_match.group(1) or "").strip()
+        dig_line = dig_match.group(0)
+        listen_line = ""
+        listen_match = LISTEN_LINE_RE.search(body)
+        if listen_match:
+            listen_line = listen_match.group(0)
+        listen_urls = [
+            u for u in HTML_URL_RE.findall(listen_line) if not should_skip_url(u)
+        ]
+        listen_canon = {canonicalize_music_url(u) for u in listen_urls if u}
+        dig_urls = [
+            u.rstrip(".,;]")
+            for u in MARKDOWN_URL_RE.findall(dig_line) + HTML_URL_RE.findall(dig_line)
+            if not should_skip_url(u)
+        ]
+        if not dig_text or not dig_urls:
+            errors.append(
+                f"empty Dig line for {heading!r} — omit **Dig:** rather than leaving it blank"
+            )
+            continue
+        for url in dig_urls:
+            if canonicalize_music_url(url) in listen_canon:
+                errors.append(
+                    f"Dig repeats Listen URL for {heading!r} ({url}) — "
+                    "omit Dig instead of linking the featured album again"
+                )
     return errors
 
 
@@ -196,6 +249,14 @@ def main() -> int:
         log(f"FAIL: {briefing_path.name} is not a complete music briefing:")
         for err in structure_errors:
             log(f"  - {err}")
+        return 1
+
+    dig_errors = featured_dig_errors(text)
+    if dig_errors:
+        log(f"FAIL: {briefing_path.name} has invalid Dig line(s):")
+        for err in dig_errors:
+            log(f"  - {err}")
+        log("Omit **Dig:** when there is no distinct next-step URL. Do not link the Listen album again.")
         return 1
 
     urls = extract_music_briefing_urls(text)

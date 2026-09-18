@@ -24,7 +24,7 @@
 
 **Venue:** …
 
-**Date(s):** … (opening … / closing …)
+**Date(s):** 11 September – 22 November 2026 (opened 10 September)
 
 **Time(s):** …
 
