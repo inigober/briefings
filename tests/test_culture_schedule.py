@@ -11,7 +11,7 @@ SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-from culture_schedule import extract_schedule_from_text  # noqa: E402
+from culture_schedule import exhibition_dates_missing_end, extract_schedule_from_text  # noqa: E402
 
 
 class TestCultureSchedule(unittest.TestCase):
@@ -35,6 +35,16 @@ class TestCultureSchedule(unittest.TestCase):
         self.assertIsNone(start)
         self.assertEqual(end.month, 8)
         self.assertEqual(end.day, 1)
+
+    def test_exhibition_dates_missing_end(self) -> None:
+        self.assertFalse(
+            exhibition_dates_missing_end(
+                "11 September – 22 November 2026 (opened 10 September)"
+            )
+        )
+        self.assertTrue(
+            exhibition_dates_missing_end("Opening Thursday, 17 September 2026")
+        )
 
 
 if __name__ == "__main__":

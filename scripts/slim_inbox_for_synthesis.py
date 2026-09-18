@@ -29,7 +29,7 @@ from culture_calendar import (
     normalize_venue_key,
 )
 from culture_dates import culture_week_date_bounds, normalize_tuesday_run_date
-from culture_schedule import filter_programme_items_by_timing
+from culture_schedule import exhibition_dates_missing_end, filter_programme_items_by_timing
 from music_dates import normalize_friday_run_date
 from news_relevance import (
     item_theme_keys,
@@ -89,6 +89,7 @@ CULTURE_SLIM_ITEM_KEYS = (
     "ingestion_source",
     "series_id",
     "event_kind",
+    "missing_end_date",
 )
 
 CULTURE_MAX_PER_VENUE = 2
@@ -602,6 +603,19 @@ class CulturePickState:
             self.venue_counts[venue_key] = self.venue_counts.get(venue_key, 0) + 1
 
 
+def mark_missing_end_date(item: dict, *, section_id: str) -> dict:
+    """Flag exhibitions (and opening-only dates) that lack a closing/end date."""
+    dates = str(item.get("dates") or "").strip()
+    missing = exhibition_dates_missing_end(dates)
+    if section_id == "exhibitions" and missing:
+        item["missing_end_date"] = True
+    elif dates.lower().startswith(("opening ", "opens ")) and missing:
+        item["missing_end_date"] = True
+    else:
+        item["missing_end_date"] = False
+    return item
+
+
 def pick_top_culture(
     items: list[dict],
     cap: int,
@@ -641,6 +655,7 @@ def pick_top_culture(
             continue
 
         state.accept(enriched)
+        mark_missing_end_date(enriched, section_id=section_id)
         picked.append(slim_item(enriched, CULTURE_SLIM_ITEM_KEYS))
 
     return picked
@@ -874,6 +889,9 @@ def build_culture_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: d
         section_counts[sid] = len(picked)
         section_items.extend(picked)
 
+    missing_end_count = sum(
+        1 for item in section_items if item.get("missing_end_date")
+    )
     rel_inbox = str(raw.get("inbox_dir") or "inbox/berlin-culture")
     return {
         "briefing_type": "berlin-culture",
@@ -893,9 +911,13 @@ def build_culture_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: d
                 "max_per_venue": CULTURE_MAX_PER_VENUE,
                 "max_per_series": CULTURE_MAX_PER_SERIES,
             },
+            "missing_end_date_count": missing_end_count,
             "note": (
                 "Pre-ranked with venue/series/event de-duplication across sections. "
-                "Synthesis must still apply one-event-one-slot and Top Picks cross-reference rules."
+                "Synthesis must still apply one-event-one-slot and Top Picks cross-reference rules. "
+                "Items with missing_end_date:true need a closing date from the official page; "
+                "if still unknown, drop the pick and log it "
+                "(python scripts/culture_missing_end_log.py)."
             ),
         },
         "note": (

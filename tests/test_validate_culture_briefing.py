@@ -284,7 +284,7 @@ class TestValidateCultureBriefing(unittest.TestCase):
         self.assertIn("Long Show", warning_text)
 
     def test_exhibition_run_dates_do_not_warn(self) -> None:
-        from validate_culture_briefing import exhibition_dates_missing_end
+        from culture_schedule import exhibition_dates_missing_end
 
         self.assertFalse(
             exhibition_dates_missing_end("11 September – 22 November 2026 (opened 10 September)")

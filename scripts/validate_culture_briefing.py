@@ -20,22 +20,16 @@ from culture_calendar import (  # noqa: E402
     normalize_text_key,
     normalize_venue_key,
 )
+from culture_schedule import (  # noqa: E402
+    OPENING_ONLY_RE,
+    exhibition_dates_missing_end,
+)
 
 SECTION_HEADING_RE = re.compile(r"^## (.+)$", re.MULTILINE)
 ENTRY_HEADING_RE = re.compile(r"^### (.+)$", re.MULTILINE)
 VENUE_RE = re.compile(r"^\*\*Venue:\*\*\s*(.+)$", re.MULTILINE)
 DATE_RE = re.compile(r"^\*\*Date\(s\):\*\*\s*(.+)$", re.MULTILINE)
 LINK_RE = re.compile(r"^\*\*Official Link:\*\*\s*\[[^\]]*\]\(([^)]+)\)", re.MULTILINE)
-
-# Long-running exhibitions need a closing/end date, not opening night alone.
-OPENING_ONLY_RE = re.compile(r"^(opening|opens)\b", re.I)
-DATE_RANGE_HINT_RE = re.compile(
-    r"(until|closes|closing|through|on view|"
-    r"[–—]|"
-    r"\d{1,2}\s+\w+\s*-\s*\d{1,2}\s+\w+|"
-    r"\d{4}-\d{2}-\d{2}\s*-\s*\d{4}-\d{2}-\d{2})",
-    re.I,
-)
 
 SECTION_ID_BY_HEADING = {
     "top picks": "top_picks",
@@ -225,14 +219,6 @@ def validate_briefing(text: str) -> tuple[list[str], list[str]]:
             )
 
     return errors, warnings
-
-
-def exhibition_dates_missing_end(dates: str) -> bool:
-    """True when Date(s) looks like an opening or single night with no run end."""
-    blob = (dates or "").strip()
-    if not blob:
-        return False
-    return DATE_RANGE_HINT_RE.search(blob) is None
 
 
 def main() -> int:

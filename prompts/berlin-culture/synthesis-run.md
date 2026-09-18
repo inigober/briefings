@@ -75,7 +75,13 @@ Add a **1–2 sentence intro** immediately after the title (before `## Top Picks
 
 Use per-entry format from the style rule (Title, Venue, Date(s), Time(s), Short Context, Why It Fits, Official Link).
 
-**Exhibition Date(s):** For every exhibition (Top Picks or Exhibitions Radar), `**Date(s):**` must include the **closing/end date**, not only the opening night. Copy the full run from inbox `dates`. If `dates` is opening-only or vague, that pick needs a spot-check fetch of `official_url` (counts toward the URL budget) — copy the on-page end date. Never invent a closing date. If start and end still cannot be confirmed, **drop** the exhibition rather than shipping "Opening Thursday…" with no run end.
+**Exhibition Date(s):** For every exhibition (Top Picks or Exhibitions Radar), `**Date(s):**` must include the **closing/end date**, not only the opening night. Copy the full run from inbox `dates`. Inbox items may already have `missing_end_date: true`. If `dates` is opening-only or vague, that pick needs a spot-check fetch of `official_url` (counts toward the URL budget) — copy the on-page end date. Never invent a closing date. If start and end still cannot be confirmed, **drop** the exhibition rather than shipping "Opening Thursday…" with no run end, then log the drop:
+
+```bash
+python scripts/culture_missing_end_log.py --date YYYY-MM-DD --title "…" --venue "…" --dates "…" --url "https://…" --notes "spot-checked official page; no run end"
+```
+
+Do not mention the drop in the emailed briefing. Repeat the command once per dropped show.
 
 ## Step 3 — Validate briefing and Official Links (required)
 
@@ -94,10 +100,11 @@ python scripts/verify_culture_briefing_urls.py --type berlin-culture --date YYYY
 ## Step 4 — Update state
 
 1. Append to `state/berlin-culture/events_index.md` (trim >8 weeks)
-2. Update `state/berlin-culture/last_run.json` with `briefing_type`, `week_start`, `week_end`, paths, counts, `thin_sections`, `omitted_sections`, `validation_warnings` if any
+2. Update `state/berlin-culture/last_run.json` with `briefing_type`, `week_start`, `week_end`, paths, counts, `thin_sections`, `omitted_sections`, `validation_warnings` if any, and `dropped_missing_end_dates` (array of `{title, venue, dates, official_url}` — use `[]` when none were dropped for this reason)
+3. `state/berlin-culture/missing_end_dates.md` is updated by `culture_missing_end_log.py` when a drop was logged — keep that file (do not trim it)
 
 ## Step 5 — Commit and push
 
-1. Stage: `briefings/berlin-culture/YYYY-MM-DD.md`, `state/berlin-culture/events_index.md`, `state/berlin-culture/last_run.json`
+1. Stage: `briefings/berlin-culture/YYYY-MM-DD.md`, `state/berlin-culture/events_index.md`, `state/berlin-culture/last_run.json`, and `state/berlin-culture/missing_end_dates.md` if it changed
 2. Commit: `briefing/berlin-culture: YYYY-MM-DD`
 3. **Push to `origin main`** — mandatory; email workflow triggers on `briefings/**/*.md`

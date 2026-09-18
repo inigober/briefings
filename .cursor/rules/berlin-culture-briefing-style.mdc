@@ -68,6 +68,14 @@ Bad: `Opening Thursday, 17 September 2026` (opening only — the reader cannot t
 
 Copy start **and** end from inbox `dates` or from the official page during a required spot-check. Do not invent a closing date. If the page and inbox both omit the run end, drop the pick rather than listing an opening-only exhibition.
 
+When you drop a pick for that reason, **log it** (do not mention the drop in the email):
+
+```bash
+python scripts/culture_missing_end_log.py --date YYYY-MM-DD --title "…" --venue "…" --dates "…" --url "https://…"
+```
+
+That appends `state/berlin-culture/missing_end_dates.md` so we can count how often this happens. Also list the same drops in `last_run.json` as `dropped_missing_end_dates` (empty list `[]` if none).
+
 ## Tuesday briefing rule (mandatory)
 
 Briefing runs on **Tuesday**. Every pick must either:
@@ -154,4 +162,5 @@ Food-related events ≤ 25% of total recommendations across the briefing.
 1. `briefings/berlin-culture/YYYY-MM-DD.md`
 2. Update `state/berlin-culture/events_index.md`
 3. Update `state/berlin-culture/last_run.json`
-4. Commit: `briefing/berlin-culture: YYYY-MM-DD`
+4. Update `state/berlin-culture/missing_end_dates.md` when any exhibition was dropped for a missing closing date
+5. Commit: `briefing/berlin-culture: YYYY-MM-DD`

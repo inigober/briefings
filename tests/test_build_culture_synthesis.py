@@ -63,6 +63,45 @@ class TestBuildCultureSynthesisInbox(unittest.TestCase):
         self.assertIn("Live screening", titles)
         self.assertNotIn("Dead screening", titles)
 
+    def test_flags_exhibition_missing_end_date(self) -> None:
+        raw = {
+            "date": "2026-09-15",
+            "inbox_dir": "inbox/berlin-culture",
+            "items": [
+                {
+                    "topic_ids": ["exhibitions"],
+                    "title": "Opening Only",
+                    "venue": "Galerie One",
+                    "official_url": "https://example.com/opening-only",
+                    "dates": "Opening Thursday, 17 September 2026",
+                    "times": "19:00",
+                    "ingestion_source": "openai",
+                    "url_live": True,
+                    "verified": True,
+                },
+                {
+                    "topic_ids": ["exhibitions"],
+                    "title": "Full Run",
+                    "venue": "Galerie Two",
+                    "official_url": "https://example.com/full-run",
+                    "dates": "11 September – 22 November 2026",
+                    "times": "12:00–18:00",
+                    "ingestion_source": "openai",
+                    "url_live": True,
+                    "verified": True,
+                },
+            ],
+        }
+        payload = build_culture_synthesis_inbox(
+            raw,
+            sources_cfg=self.sources_cfg,
+            topics_cfg=self.topics_cfg,
+        )
+        by_title = {item["title"]: item for item in payload["items"]}
+        self.assertTrue(by_title["Opening Only"].get("missing_end_date"))
+        self.assertFalse(by_title["Full Run"].get("missing_end_date"))
+        self.assertEqual(payload["editorial_context"]["missing_end_date_count"], 1)
+
 
 if __name__ == "__main__":
     unittest.main()
