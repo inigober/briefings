@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-19
+
+- **spain-ceuta-girls-shelter-prosecutor** — eldiario.es: the public prosecutor is investigating alleged abuse at a Ceuta shelter for migrant girls (section: spain)
+- **spain-morocco-us-israel-sahara-entente** — EL PAÍS: Morocco has sealed US and Israeli backing for sovereignty over Western Sahara (section: spain)
+- **spain-ramon-y-cajal-waitlist-minutes** — EL PAÍS: Ramón y Cajal managers admitted they downgraded surgery priorities, contradicting Ayuso (section: spain)
+- **germany-eu-asylum-fast-track-deport** — Handelsblatt: the new EU asylum rules put most applicants on a fast track and allow deportation before appeal (section: germany)
+- **germany-volksbanken-crypto-offer** — Tagesspiegel: Volksbanken are opening their own bitcoin and crypto products (section: germany)
+- **germany-ev-monthly-rate-finance** — Die Zeit: EV buying in Germany is a ~€280 monthly rate, not a cash sticker (section: germany)
+- **berlin-wahl-500-campaign-incidents** — Tagesspiegel: police logged about 500 poster-damage and helper-attack cases in the Berlin campaign (section: berlin)
+- **berlin-fex-ber-2027-hbf-cut** — Berliner Zeitung: from 2027 the FEX will no longer start at Hauptbahnhof; S-Bahn cuts hit summer holidays (section: berlin)
+- **berlin-gunther-wunsch-schools-performance** — Tagesspiegel: education senator Katharina Günther-Wünsch is pushing a performance overhaul of Berlin schools (section: berlin)
+- **world-openai-280bn-cash-burn** — Financial Times: OpenAI expects to burn $280bn by 2030 (section: world)
+- **world-us-deportees-equatorial-guinea** — The Guardian: US deportees were bound and beaten at a hotel in Equatorial Guinea (section: world)
+- **world-india-bangalore-infrastructure** — Bloomberg: India's tech boom is running ahead of Bangalore's infrastructure (section: world)
+
 ## 2026-09-18
 
 - **spain-audiencia-nacional-ceuta-port-camp** — EL PAÍS: the Audiencia Nacional has unblocked a migrant reception camp in Ceuta's port so beaches can be cleared (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-japan-ai-datacenters-60bn** — Nikkei Asia: Japan AI data centres are set to quadruple by 2033 on about $60bn of investment (section: world)
 - **world-flock-ai-surveillance-gop-revolt** — Financial Times: Republican governors are cracking down on Flock, a Trump-donor license-plate startup (section: world)
 - **world-pesticide-poisoning-india** — The Guardian: almost half of the world's farmers are poisoned by pesticides each year; India accounts for nearly 60% of deaths (section: world)
-
-## 2026-09-04
-
-- **spain-fiscalia-an-ceuta-investigation** — eldiario.es: the public prosecutor will tell judge Tardón the late-July rush is transnational and belongs in the Audiencia Nacional (section: spain)
-- **spain-tedh-marchena-ambiental-violence** — eldiario.es: the ECHR has condemned Spain in the Aturem el Parlament case and discredited Marchena's "violencia ambiental" doctrine (section: spain)
-- **spain-proisrael-network-ceuta-gaza** — EL PAÍS: an opaque pro-Israel channel cluster is flooding the enclave crisis with "Ceuta is now Gaza" war talk (section: spain)
-- **germany-vw-aufsichtsrat-sanierungsplan** — Handelsblatt: VW's supervisory board has agreed a restructuring plan that takes almost all of management's proposals, with one exception (section: germany)
-- **germany-cdu-brandmauer-lanz-sachsen-anhalt** — Tagesspiegel: a CDU deputy called the AfD firewall "bekloppt" on Lanz before the Sachsen-Anhalt vote (section: germany)
-- **germany-ifa-flops-retrospective** — Tagesspiegel: a recap of IFA "future" gadgets that vanished, from 3D glasses to smart kettles (section: germany)
-- **berlin-ber-terminal-1-all-clear** — rbb24: BER Terminal 1 was emptied after a hazardous-substance report and then reopened (section: berlin)
-- **berlin-union-stadion-ausbau-delay** — rbb24: Union's Alte Försterei rebuild is delayed, so the men's side stays longer at the Olympiastadion (section: berlin)
-- **berlin-holt-freigang-escape** — Tagesspiegel: convicted wind-farm fraudster Hendrik Holt failed to return from prison leave (section: berlin)
-- **world-thiel-argentina-milei** — The Guardian: Thiel's Buenos Aires move coincides with proposed laws opponents say would entrench US tech billionaires (section: world)
-- **world-octopus-japan-mini-solar** — Nikkei Asia: an Octopus Energy-backed retailer is joining Japan's mini-solar rush (section: world)
-- **world-norway-fund-slash-treasuries** — Financial Times: the $2tn oil fund's manager proposes slashing US Treasury holdings to lift returns (section: world)

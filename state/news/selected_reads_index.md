@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-19
+
+- [Why China Isn’t Getting Existential About A.I.](https://www.newyorker.com/news/q-and-a/why-china-isnt-getting-existential-about-ai) — The New Yorker
+- [The case for a robot tax to redistribute wealth](https://restofworld.org/2026/robot-tax-ai-wealth-redistribution/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [Macron to call emergency G7 meeting as energy prices spike and Russian hybrid attacks mount](https://www.politico.eu/article/emmanuel-macron-to-call-emergency-g7-meeting-as-energy-prices-spike-and-russian-hybrid-attacks-mount/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [‘We demand the truth’: Olga Tokarczuk and JM Coetzee lead calls for proof of life of disappeared Eritrean writers](https://www.theguardian.com/books/2026/sep/18/olga-tokarczuk-j-m-coetzee-lead-calls-for-release-of-disappeared-eritrean-writers) — The Guardian
+
 ## 2026-09-18
 
 - [Medical AI has a proof problem](https://www.ft.com/content/34319b00-f874-4119-aa28-8376d81e7190?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [China growth outlook dims as real estate, retail pressure worsens](https://asia.nikkei.com/economy/china-growth-outlook-dims-as-real-estate-retail-pressure-worsens) — Nikkei Asia
 - [Why My Kyiv Visit Worried Me So Much](https://foreignpolicy.com/2026/09/14/russia-ukraine-drone-attack-train-boris-johnson-war-putin-strategy/) — Foreign Policy
 - [‘I believed the hype’: the white South Africans denied refugee status in the US](https://www.theguardian.com/world/2026/sep/15/white-south-africans-denied-refugee-status-us) — The Guardian
-
-## 2026-09-14
-
-- [Anthropic tells investors it will be profitable for second straight quarter](https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002?syn-25a6b1a6=1) — Financial Times
-- [Stocks Drop on AI Slowdown Concerns, Oil Advances: Markets Wrap](https://www.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap) — Bloomberg
-- [King Charles Will Convene A.I. Leaders Amid Calls to Slow Development](https://www.nytimes.com/2026/09/13/world/europe/king-charles-ai-meeting.html) — The New York Times
-- [Peptide user tore oesophagus after using counterfeit product, Australian regulator warns](https://www.theguardian.com/australia-news/2026/sep/14/counterfeit-retratrutide-warning-peptide-torn-oesophagus-australia-tga) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
