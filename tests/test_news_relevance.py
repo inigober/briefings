@@ -10,6 +10,7 @@ from scripts.news_relevance import (
     item_theme_keys,
     load_dedup_entries,
     relevance_cfg,
+    running_stories_on_cooldown,
     score_editorial_relevance,
 )
 from scripts.slim_inbox_for_synthesis import build_news_synthesis_inbox, pick_top_news
@@ -237,6 +238,49 @@ def test_build_news_synthesis_inbox_includes_editorial_context(tmp_path: Path) -
     assert all("relevance_score" in item for item in payload["items"])
 
 
+def test_ceuta_running_story_cooldown_penalizes_repeat() -> None:
+    item = _rss_item(
+        headline="Prosecutors are investigating abuse in a Ceuta girls' shelter",
+        summary="Minors-court file on a state-run shelter in Ceuta.",
+    )
+    recent = [
+        {
+            "slug": "spain-audiencia-nacional-ceuta-port-camp",
+            "section": "spain",
+            "tokens": ["audiencia", "nacional", "ceuta", "port", "camp"],
+            "date": "2026-09-18",
+        }
+    ]
+    cool_score, cool_notes = score_editorial_relevance(
+        item,
+        section_id="spain",
+        topic_cfg=SPAIN_TOPIC,
+        sources_cfg=SOURCES_CFG,
+        dedup_entries=recent,
+        reference_date=date(2026, 9, 19),
+    )
+    fresh_score, fresh_notes = score_editorial_relevance(
+        item,
+        section_id="spain",
+        topic_cfg=SPAIN_TOPIC,
+        sources_cfg=SOURCES_CFG,
+        dedup_entries=[],
+        reference_date=date(2026, 9, 19),
+    )
+    assert cool_score < fresh_score
+    assert any("running_story:ceuta_enclave" in note for note in cool_notes)
+    assert not any("running_story:ceuta_enclave:-" in note for note in fresh_notes)
+    active = running_stories_on_cooldown(SPAIN_TOPIC, recent, date(2026, 9, 19))
+    assert active and active[0]["id"] == "ceuta_enclave"
+    assert active[0]["skip_until"] == "2026-09-21"
+
+
+def test_ceuta_theme_cluster_caps_same_day() -> None:
+    cfg = relevance_cfg(SOURCES_CFG)
+    item = _rss_item(headline="Interior prepara centros en Ceuta y Melilla")
+    assert "ceuta_enclave" in item_theme_keys(item, cfg)
+
+
 def test_load_dedup_entries_respects_lookback_window() -> None:
     dedup_file = REPO_ROOT / "state/news/dedup_index.md"
     entries = load_dedup_entries(
@@ -246,3 +290,18 @@ def test_load_dedup_entries_respects_lookback_window() -> None:
     )
     assert entries
     assert all((date(2026, 6, 17) - date.fromisoformat(entry["date"])).days <= 7 for entry in entries)
+
+
+import unittest
+
+
+class TestCeutaRunningStory(unittest.TestCase):
+    def test_cooldown_penalizes_repeat(self) -> None:
+        test_ceuta_running_story_cooldown_penalizes_repeat()
+
+    def test_theme_cluster_includes_ceuta(self) -> None:
+        test_ceuta_theme_cluster_caps_same_day()
+
+
+if __name__ == "__main__":
+    unittest.main()
