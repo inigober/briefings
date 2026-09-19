@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import re
 import unicodedata
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
@@ -20,6 +20,7 @@ DEFAULT_RELEVANCE_CFG: dict[str, Any] = {
     "not_material_penalty": 10,
     "noise_penalty": 40,
     "dedup_token_penalty": 15,
+    "running_story_repeat_penalty": 28,
     "dedup_min_matching_tokens": 2,
     "dedup_lookback_days": 7,
     "publisher_priority_boost": 8,
@@ -40,6 +41,10 @@ DEFAULT_RELEVANCE_CFG: dict[str, Any] = {
         "militärmusik",
     ],
     "theme_cluster_keywords": {
+        "ceuta_enclave": [
+            "ceuta",
+            "melilla",
+        ],
         "school_heat": [
             "school",
             "classroom",
@@ -184,6 +189,58 @@ def item_theme_keys(item: dict, cfg: dict) -> list[str]:
     return themes
 
 
+def last_running_story_date(
+    story: dict,
+    dedup_entries: list[dict],
+    reference_date: date,
+) -> date | None:
+    keywords = story.get("keywords") or []
+    if not keywords:
+        return None
+    latest: date | None = None
+    for entry in dedup_entries:
+        try:
+            entry_date = date.fromisoformat(str(entry.get("date") or ""))
+        except ValueError:
+            continue
+        if entry_date > reference_date:
+            continue
+        blob = normalize_text(
+            f"{entry.get('slug') or ''} {' '.join(entry.get('tokens') or [])}"
+        )
+        if keyword_hits(blob, keywords):
+            if latest is None or entry_date > latest:
+                latest = entry_date
+    return latest
+
+
+def running_stories_on_cooldown(
+    topic_cfg: dict,
+    dedup_entries: list[dict],
+    reference_date: date,
+) -> list[dict]:
+    """Running stories featured within cooldown_days — synthesis should park these."""
+    active: list[dict] = []
+    for story in topic_cfg.get("running_stories") or []:
+        last = last_running_story_date(story, dedup_entries, reference_date)
+        if last is None:
+            continue
+        cooldown = int(story.get("cooldown_days") or 2)
+        elapsed = (reference_date - last).days
+        if 0 <= elapsed <= cooldown:
+            skip_until = last + timedelta(days=cooldown + 1)
+            active.append(
+                {
+                    "id": story.get("id"),
+                    "label": story.get("label") or story.get("id"),
+                    "last_featured": last.isoformat(),
+                    "cooldown_days": cooldown,
+                    "skip_until": skip_until.isoformat(),
+                }
+            )
+    return active
+
+
 def dedup_matches(item: dict, dedup_entries: list[dict]) -> list[str]:
     text = item_search_text(item)
     text_tokens = {token for token in re.split(r"[^a-z0-9]+", text) if len(token) > 2}
@@ -204,6 +261,7 @@ def score_editorial_relevance(
     topic_cfg: dict,
     sources_cfg: dict,
     dedup_entries: list[dict],
+    reference_date: date | None = None,
 ) -> tuple[int, list[str]]:
     """Return editorial score delta and human-readable scoring notes."""
     cfg = relevance_cfg(sources_cfg)
@@ -249,6 +307,23 @@ def score_editorial_relevance(
         score -= penalty
         notes.append(f"dedup:-{penalty} ({', '.join(dedup_slugs[:3])})")
 
+    if reference_date is not None:
+        for story in topic_cfg.get("running_stories") or []:
+            if not keyword_hits(text, story.get("keywords") or []):
+                continue
+            if keyword_hits(text, story.get("extraordinary") or []):
+                notes.append(f"running_story:{story.get('id')}:extraordinary")
+                continue
+            last = last_running_story_date(story, dedup_entries, reference_date)
+            if last is None:
+                continue
+            cooldown = int(story.get("cooldown_days") or 2)
+            elapsed = (reference_date - last).days
+            if 0 <= elapsed <= cooldown:
+                penalty = int(cfg.get("running_story_repeat_penalty") or 28)
+                score -= penalty
+                notes.append(f"running_story:{story.get('id')}:-{penalty}")
+
     domain = ""
     for src in item.get("sources") or []:
         url = src.get("url") or ""
@@ -275,6 +350,7 @@ def score_news_item_with_context(
     topic_cfg: dict,
     sources_cfg: dict,
     dedup_entries: list[dict],
+    reference_date: date | None = None,
 ) -> tuple[int, list[str]]:
     """Base ingest score plus editorial relevance for a section."""
     score = 0
@@ -316,6 +392,7 @@ def score_news_item_with_context(
         topic_cfg=topic_cfg,
         sources_cfg=sources_cfg,
         dedup_entries=dedup_entries,
+        reference_date=reference_date,
     )
     score += editorial_score
     notes.extend(editorial_notes)

@@ -28,9 +28,25 @@ topics:
     avoid_unless_material:
       - PSOE scandals
       - migration regularization
+      - Ceuta
+      - Melilla
       - housing protests
       - tourism protests
       - short-term rentals
+    # Running stories: still park a one-liner in Other Headlines; do not lead Spain
+    # again until cooldown_days have passed, unless an extraordinary trigger hits.
+    running_stories:
+      - id: ceuta_enclave
+        label: Ceuta / Melilla enclave crisis
+        keywords:
+          - ceuta
+          - melilla
+        cooldown_days: 2
+        extraordinary:
+          - government collapse
+          - mass casualty
+          - mass fatality
+          - legislation passed
     material_return_examples:
       - government collapse
       - resignation
@@ -41,6 +57,8 @@ topics:
       - investigation continues
       - debate continues
       - critics respond
+      - opposition quote
+      - another camp
 
   - id: germany
     name: Germany 🇩🇪

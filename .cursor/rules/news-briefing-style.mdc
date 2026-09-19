@@ -145,6 +145,8 @@ Before selecting any story, read `state/news/dedup_index.md`, `editorial_context
 
 **`avoid_unless_material` in `topics.yaml` is a hard reject** unless the inbox item clearly matches a `material_return_examples` trigger (e.g. court ruling, resignation).
 
+**Running-story cadence (Spain):** Long crises (see `running_stories` in `topics.yaml`, currently Ceuta / Melilla) must not take a Spain slot if they appear in `editorial_context.running_stories_on_cooldown`. Default: skip the next **2** briefing days after a Spain feature. Park a one-line Other Headlines bullet so the thread is not lost. Exception only for an `extraordinary` trigger (government collapse, mass casualty, legislation **passed**). Another camp update, opposition quote, NGO denunciation, declassified-file drip, or a further court skirmish is **not** enough.
+
 **Not material:** another article on the same story, politicians repeating positions, analysts commenting again, same trend with no new development.
 
 **One theme per section:** Do not publish two stories on the same theme within Spain, Germany, Berlin, or World (e.g. two school-heat pieces, two Zapatero pieces).

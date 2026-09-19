@@ -40,7 +40,7 @@ Read **only** these files, in order:
 
 The synthesis file contains pre-ranked items per section plus diversified `selected_read_candidates` — enough to write all six sections.
 
-**Editorial context in synthesis JSON:** Read `editorial_context.recent_topics` (last 7 days from `dedup_index.md`) and `editorial_context.rejected_candidates` (items demoted at slim time with reasons). Treat `avoid_unless_material` hits in `recent_topics` as **hard rejects** unless the story has a material trigger. Prefer higher `relevance_score` items when choosing among remaining candidates.
+**Editorial context in synthesis JSON:** Read `editorial_context.recent_topics` (last 7 days from `dedup_index.md`), `editorial_context.running_stories_on_cooldown`, and `editorial_context.rejected_candidates` (items demoted at slim time with reasons). Treat `avoid_unless_material` hits in `recent_topics` as **hard rejects** unless the story has a material trigger. Prefer higher `relevance_score` items when choosing among remaining candidates.
 
 **URL discipline:** All items are from RSS or WordPress feeds. Copy footnote URLs verbatim from `sources[0].url` — never invent paths.
 
@@ -51,14 +51,15 @@ The synthesis file contains pre-ranked items per section plus diversified `selec
 Apply in order for Spain, Germany, Berlin, and World (3 stories each):
 
 1. **Dedup / novelty:** Reject any story matching `editorial_context.recent_topics` or `dedup_index.md` unless there is a **material development** (court ruling, resignation, legislation passed, election result, major data release, significant escalation/de-escalation). `avoid_unless_material` in `topics.yaml` is a **hard reject** unless material.
-2. **One theme per section:** Never publish two stories on the same theme in one section (e.g. two school-heat pieces, two Zapatero/Plus Ultra pieces, two EU institutional pieces). If the inbox still contains theme duplicates, keep the strongest one only.
-3. **Publisher diversity:** Each section must cite **≥2 distinct publishers** among its 3 stories. Prefer **3 different publishers** when eligible alternatives exist in the synthesis `items` for that section. Never publish three stories from one outlet (e.g. all eldiario.es, all Handelsblatt) when another publisher remains after rules 1–2. If only one publisher is left in the eligible pool, note `publisher_pool_thin` in `rejected_at_synthesis` and proceed — do not invent stories.
-4. **Geographic fit:**
+2. **Running-story cooldown:** If `editorial_context.running_stories_on_cooldown` lists `ceuta_enclave` (or another running story), **do not** give it a Spain slot. Use a non-Ceuta Spain item. Put at most one Other Headlines line. Override only for an extraordinary trigger (government collapse, mass casualty, law passed) — not another camp, quote, or court skirmish.
+3. **One theme per section:** Never publish two stories on the same theme in one section (e.g. two school-heat pieces, two Zapatero/Plus Ultra pieces, two Ceuta pieces, two EU institutional pieces). If the inbox still contains theme duplicates, keep the strongest one only.
+4. **Publisher diversity:** Each section must cite **≥2 distinct publishers** among its 3 stories. Prefer **3 different publishers** when eligible alternatives exist in the synthesis `items` for that section. Never publish three stories from one outlet (e.g. all eldiario.es, all Handelsblatt) when another publisher remains after rules 1–3. If only one publisher is left in the eligible pool, note `publisher_pool_thin` in `rejected_at_synthesis` and proceed — do not invent stories.
+5. **Geographic fit:**
    - **Germany 🇩🇪** — developments in or about **Germany** (policy, economy, society). US/Iran/Middle East stories belong in **World** even if the URL is zeit.de or tagesspiegel.de/internationales.
    - **Berlin 🏙️** — **inside Berlin** or direct city governance. Brandenburg commuter towns are World/Other Headlines unless there is a Berlin policy angle.
    - **Spain 🇪🇸** — Spain-focused; EU stories belong in Germany or World unless Spain is the primary actor.
-5. **Reject slim-time noise:** Do not elevate items listed in `rejected_candidates` with `noise:` or low relevance unless no better citable item exists for that section (note the gap instead).
-6. **Audit trail:** After selecting stories, append to `state/news/last_run.json` a `rejected_at_synthesis` array: `{headline, section, reason}` for any inbox item you considered but rejected under rules 1–5 (keep ≤12 entries).
+6. **Reject slim-time noise:** Do not elevate items listed in `rejected_candidates` with `noise:` or low relevance unless no better citable item exists for that section (note the gap instead).
+7. **Audit trail:** After selecting stories, append to `state/news/last_run.json` a `rejected_at_synthesis` array: `{headline, section, reason}` for any inbox item you considered but rejected under rules 1–6 (keep ≤12 entries).
 
 Produce a novelty-first briefing with exactly these sections:
 

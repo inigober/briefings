@@ -35,6 +35,7 @@ from news_relevance import (
     item_theme_keys,
     load_dedup_entries,
     relevance_cfg,
+    running_stories_on_cooldown,
     score_news_item_with_context,
 )
 from restaurant_dates import normalize_thursday_run_date
@@ -347,6 +348,7 @@ def score_news_item(
     topic_cfg: dict | None = None,
     sources_cfg: dict | None = None,
     dedup_entries: list[dict] | None = None,
+    reference_date: date | None = None,
 ) -> int:
     score, _ = score_news_item_with_context(
         item,
@@ -354,6 +356,7 @@ def score_news_item(
         topic_cfg=topic_cfg or {},
         sources_cfg=sources_cfg or {},
         dedup_entries=dedup_entries or [],
+        reference_date=reference_date,
     )
     return score
 
@@ -469,6 +472,7 @@ def pick_top_news(
     topic_cfg: dict,
     sources_cfg: dict,
     dedup_entries: list[dict],
+    reference_date: date | None = None,
 ) -> tuple[list[dict], list[dict]]:
     """Pick top news items with editorial scoring, theme/publisher de-duplication, and audit trail."""
     cfg = relevance_cfg(sources_cfg)
@@ -483,6 +487,7 @@ def pick_top_news(
             topic_cfg=topic_cfg,
             sources_cfg=sources_cfg,
             dedup_entries=dedup_entries,
+            reference_date=reference_date,
         )
         themes = item_theme_keys(item, cfg)
         scored.append((item, score, notes, themes))
@@ -783,6 +788,7 @@ def build_news_synthesis_inbox(
             topic_cfg=topics.get(sid) or {},
             sources_cfg=sources_cfg,
             dedup_entries=dedup_entries,
+            reference_date=reference_date,
         )
         section_counts[sid] = len(picked)
         section_items.extend(picked)
@@ -805,6 +811,11 @@ def build_news_synthesis_inbox(
         }
         for entry in dedup_entries
     ]
+    cooldown_stories = running_stories_on_cooldown(
+        topics.get("spain") or {},
+        dedup_entries,
+        reference_date,
+    )
 
     rel_inbox = str(raw.get("inbox_dir") or "inbox/news")
     return {
@@ -820,10 +831,13 @@ def build_news_synthesis_inbox(
         "editorial_context": {
             "recent_topics": recent_topics,
             "rejected_candidates": rejected_candidates,
+            "running_stories_on_cooldown": cooldown_stories,
             "note": (
                 "Pre-ranked with editorial relevance from topics.yaml, dedup_index.md, "
                 "and news_relevance rules in sources.yaml. Synthesis must still apply "
-                "hard reject rules in news-briefing-style.mdc."
+                "hard reject rules in news-briefing-style.mdc. "
+                "running_stories_on_cooldown: do not give these a Spain slot; "
+                "park a one-liner in Other Headlines unless an extraordinary trigger hit."
             ),
         },
         "note": (
