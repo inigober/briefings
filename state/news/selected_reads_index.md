@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-20
+
+- [Treat AI Like a Normal Crisis](https://www.theatlantic.com/technology/2026/09/how-to-navigate-ai-panic/688703/?utm_source=feed) — The Atlantic
+- [Israel’s settler economy braces for European sanctions](https://www.ft.com/content/f780b2a4-13ff-44ec-8225-cf38d4f0c966?syn-25a6b1a6=1) — Financial Times
+- [Un mundo en llamas se da cita en una ONU en ruinas](https://elpais.com/internacional/2026-09-20/un-mundo-en-llamas-se-da-cita-en-una-onu-en-ruinas.html) — EL PAÍS
+- [Russia’s new air campaign seeks to destroy Ukrainian economy](https://www.ft.com/content/0ecc81ad-2119-4763-90fb-ba5d399d913d) — Financial Times
+
 ## 2026-09-19
 
 - [Why China Isn’t Getting Existential About A.I.](https://www.newyorker.com/news/q-and-a/why-china-isnt-getting-existential-about-ai) — The New Yorker
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Math Can’t Go On Like This](https://www.theatlantic.com/technology/2026/09/math-crisis-openai-millennium-prize/688631/?utm_source=feed) — The Atlantic
 - [Ukraine and Russia Say There Is No Energy Truce, Despite Trump’s Claims](https://www.nytimes.com/2026/09/15/world/europe/trump-energy-truce-ukraine-russia.html) — The New York Times
 - [The London hospital funded by donors who invested in the slave trade](https://www.theguardian.com/uk-news/ng-interactive/2026/sep/14/london-hospital-st-barts-funded-donors-invested-slave-trade) — The Guardian
-
-## 2026-09-15
-
-- [Iran’s allies squeeze Saudi Arabia](https://www.ft.com/content/a143e08d-e979-410a-8e81-160fd4eba367?syn-25a6b1a6=1) — Financial Times
-- [China growth outlook dims as real estate, retail pressure worsens](https://asia.nikkei.com/economy/china-growth-outlook-dims-as-real-estate-retail-pressure-worsens) — Nikkei Asia
-- [Why My Kyiv Visit Worried Me So Much](https://foreignpolicy.com/2026/09/14/russia-ukraine-drone-attack-train-boris-johnson-war-putin-strategy/) — Foreign Policy
-- [‘I believed the hype’: the white South Africans denied refugee status in the US](https://www.theguardian.com/world/2026/sep/15/white-south-africans-denied-refugee-status-us) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

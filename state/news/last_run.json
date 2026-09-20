@@ -1,63 +1,63 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-19",
-  "briefing_date": "2026-09-19",
-  "inbox_date": "2026-09-19",
+  "date": "2026-09-20",
+  "briefing_date": "2026-09-20",
+  "inbox_date": "2026-09-20",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-19.md",
-  "inbox_path": "inbox/news/2026-09-19-synthesis.json",
-  "items_count": 12,
+  "briefing_path": "briefings/news/2026-09-20.md",
+  "inbox_path": "inbox/news/2026-09-20-synthesis.json",
+  "items_count": 11,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Los migrantes que se quedaron fuera del campamento del puerto de Ceuta: \"La playa no parece más vacía\"",
+      "headline": "El acuerdo anunciado por Trump sobre Groenlandia deja más incógnitas que certezas sobre su soberanía",
       "section": "spain",
-      "reason": "one_theme / not_material: incremental on yesterday's Audiencia Nacional port-camp ruling; parked in Other Headlines"
+      "reason": "geographic_misfit: US–Denmark; parked in Other Headlines. Spain eligible pool after Ceuta cooldown was eldiario.es only (publisher_pool_thin; two stories, no third Spain-focused item)"
     },
     {
-      "headline": "La izquierda alternativa entra en el tiempo de descuento para definir su fórmula electoral para las generales",
+      "headline": "Trump encadena reveses incluso entre sus propios aliados al intentar imponer su agenda ultra",
       "section": "spain",
-      "reason": "not_material: Sumar/Podemos formula talk continues; no candidate announcement (same thread as 16 September Other Headlines)"
+      "reason": "geographic_misfit: US politics"
     },
     {
-      "headline": "Trump dice que ha llegado a un acuerdo con Dinamarca para \"asumir el control permanente sobre la seguridad en Groenlandia\"",
+      "headline": "Más de 1.000 menores aún deambulan por Ceuta: entre la guerra política y el limbo",
       "section": "spain",
-      "reason": "geographic_misfit: US–Denmark; parked in Other Headlines. Spain pool after filters was eldiario.es+EL PAÍS only (publisher_pool_thin)"
+      "reason": "running_story_cooldown: ceuta_enclave skip_until 2026-09-22; parked one Other Headlines line"
     },
     {
-      "headline": "Shakira reparte alegría en Madrid en un concierto disfrutón al que le faltó calado",
+      "headline": "Tú la temes, yo la amo: la cumbre Trump-XI afronta la IA con mentalidades opuestas en China y EE UU",
       "section": "spain",
-      "reason": "noise: concert review"
+      "reason": "geographic_misfit + dedup: Trump–Xi AI safety used 16 September"
     },
     {
-      "headline": "Spritpreise: Der Tankrabatt kann trotz allem helfen",
+      "headline": "Berlin-Wahl: Die Spitzenkandidaten bei der Berliner Abgeordnetenhauswahl",
       "section": "germany",
-      "reason": "dedup: fuel-relief theme used 16 and 18 September; commentary is not a material trigger"
+      "reason": "one_theme / geographic_fit: Berlin election covered via Senate poll in Berlin section"
     },
     {
-      "headline": "Konflikt um Arktisinsel: Dänemark und USA verkünden Durchbruch im Grönland-Streit",
+      "headline": "Serbiens Hauptstadt: Zwischen Skyline und zwei Strömen: Citytrip nach Belgrad",
       "section": "germany",
-      "reason": "geographic_misfit: US–Denmark; parked in Other Headlines"
+      "reason": "noise: city-trip filler"
     },
     {
-      "headline": "Angespannter Wohnungsmarkt: Berliner Wohnungskrise: Vonovia will „Teil der Lösung“ sein",
-      "section": "germany",
-      "reason": "dedup: Berlin housing-as-ballot used 18 September; CEO interview is not a material trigger"
-    },
-    {
-      "headline": "Vermögen: Diese sieben Fehler sollten Vermögende im Testament vermeiden",
-      "section": "germany",
-      "reason": "noise: consumer tax/estate filler"
-    },
-    {
-      "headline": "Politische Akademie: AfD fördert Nachwuchs – Ziel: politische Verantwortung",
+      "headline": "In Sachsen: Polizei hebt riesige Cannabis-Plantage im Wert von rund einer Million Euro aus",
       "section": "berlin",
-      "reason": "geographic_misfit: Brandenburg academy, not Berlin city"
+      "reason": "geographic_misfit: Saxony, not Berlin city"
     },
     {
-      "headline": "Basketball: Alba Berlin gewinnt Saisonauftakt gegen Chemnitz",
+      "headline": "Verdacht auf Wahlbetrug in Dessau: Warum die Staatsanwaltschaft weiter ermittelt",
       "section": "berlin",
-      "reason": "sports filler skipped for education senator profile; rbb24 was the only remaining third publisher"
+      "reason": "geographic_misfit: Dessau / Saxony-Anhalt"
+    },
+    {
+      "headline": "Dank Thorsteinssons Doppelpack: Hertha dreht Spiel in Dresden",
+      "section": "berlin",
+      "reason": "sports filler"
+    },
+    {
+      "headline": "The case for a robot tax to redistribute wealth",
+      "section": "world",
+      "reason": "dedup: used as Selected Read on 19 September"
     },
     {
       "headline": "South Africa joins the global resistance against American data centers",
@@ -65,10 +65,10 @@
       "reason": "dedup: used as Selected Read on 18 September"
     },
     {
-      "headline": "New cat species identified for first time in more than a century in Bolivia",
+      "headline": "‘We demand the truth’: Olga Tokarczuk and JM Coetzee lead calls for proof of life of disappeared Eritrean writers",
       "section": "world",
-      "reason": "dedup: used in Other Headlines on 18 September"
+      "reason": "dedup: used as Selected Read on 19 September"
     }
   ],
-  "notes": "Spain: Ceuta girls-shelter prosecutor (eldiario.es), Morocco–US–Israel Sahara entente and Ramón y Cajal waitlist minutes (EL PAÍS) — two publishers; inbox had no third Spain outlet (publisher_pool_thin). Germany: EU asylum fast-track (Handelsblatt), Volksbanken crypto (Tagesspiegel), EV monthly-rate finance (Die Zeit). Berlin: ~500 campaign incidents and Günther-Wünsch schools (Tagesspiegel), FEX/BER 2027 cut (Berliner Zeitung); Saxony/Brandenburg/Dessau misfits rejected. World: OpenAI $280bn burn (North America, FT), US deportees beaten in Equatorial Guinea (Africa, Guardian), Bangalore infrastructure lag (South Asia, Bloomberg). Selected Reads: New Yorker China AI, Rest of World robot tax, Politico Macron G7, Guardian Eritrean writers."
+  "notes": "Spain: Ibiza cemetery homelessness and national 850k/121-day surgical wait (both eldiario.es) — two stories; Ceuta on cooldown until 22 September; remaining Spain inbox was Greenland/Trump/AI/UN (publisher_pool_thin). Germany: MV Landtag election day and Pflege card-read trips (Handelsblatt), bystander CPR (Tagesspiegel). Berlin: Senate 20% approval (rbb24), crisis-as-chance essay (Tagesspiegel), House of Wunder (The Berliner). World: Trump AI Force and vanished Hormuz cargo (North America + Middle East, FT), Russia Duma Kremlin-only ballot (Handelsblatt). Selected Reads: Atlantic Treat AI, FT settler sanctions, EL PAÍS UNGA, FT Ukraine industrial air campaign."
 }

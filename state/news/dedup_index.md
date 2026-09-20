@@ -6,6 +6,20 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-20
+
+- **spain-ibiza-cemetery-homelessness** — eldiario.es: Ibiza's housing shortage has people sleeping in cemeteries; Sant Josep locked the graveyards (section: spain)
+- **spain-national-surgery-waitlist-850k** — eldiario.es: about 850,000 people were on surgical waiting lists at end-2025, average wait 121 days (section: spain)
+- **germany-mv-landtag-election-day** — Handelsblatt: Mecklenburg-Vorpommern elects a new Landtag (section: germany)
+- **germany-pflege-card-read-trips** — Handelsblatt: care staff still travel to GP practices to have Gesundheitskarten read for billing (section: germany)
+- **germany-bystander-cpr-literacy** — Tagesspiegel: many Germans remain unsure how to restart a heart (section: germany)
+- **berlin-senate-approval-one-in-five** — rbb24: Infratest Dimap finds only 20% satisfied with the Senate before the Abgeordnetenhaus vote (section: berlin)
+- **berlin-crisis-as-chance-essay** — Tagesspiegel: an essay treats the capital's permanent crisis as unused capacity (section: berlin)
+- **berlin-house-of-wunder-residence** — The Berliner: House of Wunder opens in Kreuzberg as a live-in studio and community space (section: berlin)
+- **world-trump-ai-force** — Financial Times: Trump announced an 'AI Force' tsar rather than an AI law (section: world)
+- **world-hormuz-cargo-trade-vanished** — Financial Times: the Hormuz transit trade in helium-to-corn cargo has largely disappeared (section: world)
+- **world-russia-duma-kremlin-ballot** — Handelsblatt: Russia's wartime Duma vote ends with only Kremlin-aligned parties on the ballot (section: world)
+
 ## 2026-09-19
 
 - **spain-ceuta-girls-shelter-prosecutor** — eldiario.es: the public prosecutor is investigating alleged abuse at a Ceuta shelter for migrant girls (section: spain)
@@ -215,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-china-graduates-ai-jobs** — The New York Times: a record 12.7 million Chinese graduates are hunting jobs as AI upends the workforce (section: world)
 - **world-us-iran-tanker-strikes** — Financial Times: the US struck three Iranian oil tankers after attacks on its warships (section: world)
 - **world-brazil-baptista-bolsonaro-coup** — The Guardian: former air-force chief Baptista Júnior describes the 2022 meeting meant to stop Bolsonaro's coup (section: world)
-
-## 2026-09-05
-
-- **spain-housing-decree-ceuta-freeze** — eldiario.es: the housing decree that would revive two-year rent extensions is blocked by Podemos, Junts, and the Ceuta crisis (section: spain)
-- **spain-ceuta-tardon-interior-reserve** — EL PAÍS: judge Tardón told police not to send the Ceuta analysis to Interior (section: spain)
-- **spain-iglesias-an-querella** — eldiario.es: former mansion staff have filed a forced-labour and sexual-offences complaint against Julio Iglesias at the Audiencia Nacional (section: spain)
-- **germany-hybrid-threats-one-in-five** — Handelsblatt: one in five German firms reports hybrid threats, with pressure on power and water (section: germany)
-- **germany-water-deficit-temperatures** — Tagesspiegel: researchers say Germany's shrinking water reserves are driven by heat, not missing rain (section: germany)
-- **germany-afd-raguhn-jessnitz-sachsen-anhalt** — EL PAÍS: the town that elected Germany's first AfD mayor now treats 60% as the local baseline before Sunday's Landtag vote (section: germany)
-- **berlin-bsi-landesnetz-phishing-warning** — Tagesspiegel: the BSI has warned of phishing after the Berlin state-network leak, including around the 20 September vote (section: berlin)
-- **berlin-foster-families-2001** — Tagesspiegel: 2,001 children lived in Berlin foster families in 2025 and the city still needs more homes (section: berlin)
-- **berlin-bfc-dynamo-landespokal** — rbb24: BFC Dynamo beat Viktoria Mitte in the Berlin cup second round (section: berlin)
-- **world-japan-ai-datacenters-60bn** — Nikkei Asia: Japan AI data centres are set to quadruple by 2033 on about $60bn of investment (section: world)
-- **world-flock-ai-surveillance-gop-revolt** — Financial Times: Republican governors are cracking down on Flock, a Trump-donor license-plate startup (section: world)
-- **world-pesticide-poisoning-india** — The Guardian: almost half of the world's farmers are poisoned by pesticides each year; India accounts for nearly 60% of deaths (section: world)
