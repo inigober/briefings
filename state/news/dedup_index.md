@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-21
+
+- **spain-constitucional-amnistia-puigdemont** — eldiario.es: the Constitutional Court starts on the amnesty the Supreme Court denied to Puigdemont and the 2017 Catalan leadership (section: spain)
+- **spain-35-hour-week-regional-admin** — EL PAÍS: the 35-hour week is spreading through regional and local government; Madrid and Galicia staff threaten action (section: spain)
+- **spain-eating-disorders-women-over-50** — EL PAÍS: clinicians say eating disorders in women over 50 are under-diagnosed (section: spain)
+- **germany-merz-wahlsonntag-four-lessons** — Handelsblatt: MV and Berlin results lock Merz into a declining chancellorship with no project (section: germany)
+- **germany-dax-week-open-elections** — Handelsblatt: the Dax opens the week with state-election results as a price driver (section: germany)
+- **germany-ddr-photography-reinbeckhallen** — Tagesspiegel: 1970s GDR street photos by a Karow artist, hidden for 50 years, go on show in Schöneweide (section: germany)
+- **berlin-linke-elif-eralp-historic-win** — Tagesspiegel: Die Linke's historic Abgeordnetenhaus result and Elif Eralp's campaign (section: berlin)
+- **berlin-torstrasse-trees-no-permit** — The Berliner: the Senate plans to fell 32 trees on Torstraße after Mitte refused a permit (section: berlin)
+- **berlin-galleries-culture-funding-cuts** — The Berliner: galleries are leaving as culture budgets shrink (section: berlin)
+- **world-china-sodium-battery-race** — Financial Times: Western firms lag China in sodium-ion batteries that could loosen rare-earth dependence (section: world)
+- **world-haiti-moise-assassination-arrests** — The Guardian: 18 people arrested over the 2021 killing of Haitian president Jovenel Moïse (section: world)
+- **world-japan-physical-ai-machinery** — Nikkei Asia: Japan to tap industrial machinery for physical-AI training data (section: world)
+
 ## 2026-09-20
 
 - **spain-ibiza-cemetery-homelessness** — eldiario.es: Ibiza's housing shortage has people sleeping in cemeteries; Sant Josep locked the graveyards (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-china-54bn-financial-recap** — The Guardian: Beijing is injecting about $54bn into banks and insurers (section: world)
 - **world-us-debt-rates-ai** — Financial Times: US long-term rates near 5% are being read as a threat to the AI boom (section: world)
 - **world-us-ice-liberia-deportations** — EL PAÍS: ICE has been flying Latin American deportees to Liberia, a country they had never heard of (section: world)
-
-## 2026-09-06
-
-- **spain-teachers-legislature-strikes** — eldiario.es: the last year of the "teachers' legislature" is opening with strikes over class sizes and hours (section: spain)
-- **spain-ceuta-documents-declassified** — EL PAÍS: Madrid will declassify files on Tuesday to argue nobody foresaw a Ceuta crossing this large (section: spain)
-- **spain-wittenoom-asbestos-emigrants** — EL PAÍS: two 1960s Spanish families recount Wittenoom, the Australian asbestos town linked to more than 2,000 deaths (section: spain)
-- **germany-isar-aerospace-orbit** — Handelsblatt: Isar Aerospace's second test put satellites into Earth orbit (section: germany)
-- **germany-vodafone-1und1-networks** — Tagesspiegel: 1&1 is still blaming Vodafone for its rocky launch as Germany's fourth mobile network (section: germany)
-- **germany-vaping-tax-rise** — Handelsblatt: the federal government is lining up another duty rise on vape flavours after a January increase (section: germany)
-- **berlin-lichtenberg-rejects-senate-it** — rbb24: Lichtenberg is refusing a Senate-hired firm access to its servers after the state-network hack (section: berlin)
-- **berlin-abgeordnetenhaus-five-departing** — Tagesspiegel: five long-serving deputies from Die Linke to the AfD are not standing again (section: berlin)
-- **berlin-pools-391-police-calls** — Tagesspiegel: police went to Berlin outdoor pools 391 times this summer, mostly for thefts (section: berlin)
-- **world-china-graduates-ai-jobs** — The New York Times: a record 12.7 million Chinese graduates are hunting jobs as AI upends the workforce (section: world)
-- **world-us-iran-tanker-strikes** — Financial Times: the US struck three Iranian oil tankers after attacks on its warships (section: world)
-- **world-brazil-baptista-bolsonaro-coup** — The Guardian: former air-force chief Baptista Júnior describes the 2022 meeting meant to stop Bolsonaro's coup (section: world)

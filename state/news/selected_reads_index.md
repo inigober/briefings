@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-21
+
+- [Our A.I. Problem](https://www.newyorker.com/magazine/2026/09/28/our-ai-problem) — The New Yorker
+- [Fed and BoE step up scrutiny of bank exposure to trading firms after Jane Street loss](https://www.ft.com/content/f1d9d398-0666-44cf-96f4-390e6c3f5173?syn-25a6b1a6=1) — Financial Times
+- [Macron and Carney announce closer France-Canada ties amid Trump tensions](https://www.theguardian.com/world/2026/sep/21/france-canada-relations-eu-europe-macron-carney) — The Guardian
+- [Bessent hails US-China AI dialogue ahead of Trump-Xi meeting](https://www.ft.com/content/d29d769e-039c-4d11-9152-e63ccd397b32?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-09-20
 
 - [Treat AI Like a Normal Crisis](https://www.theatlantic.com/technology/2026/09/how-to-navigate-ai-panic/688703/?utm_source=feed) — The Atlantic
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Why Existential AI Fears Have Hit a Crescendo](https://foreignpolicy.com/2026/09/16/ai-risk-jacob-coxon-openai-anthropic-dario-amodei-sam-altman-trump-doomsday/) — Foreign Policy
 - [The era of AI warfare has arrived](https://www.ft.com/content/686429c0-daf3-42a5-9b7c-7ff06eb291ef?syn-25a6b1a6=1) — Financial Times
 - [‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa](https://www.theguardian.com/world/2026/sep/16/discovery-women-bodies-anger-femicide-south-africa) — The Guardian
-
-## 2026-09-16
-
-- [OpenAI weighs funding round at $1.2tn valuation before IPO](https://www.ft.com/content/27509db8-b032-4437-9b2a-e909f466022f?syn-25a6b1a6=1) — Financial Times
-- [Math Can’t Go On Like This](https://www.theatlantic.com/technology/2026/09/math-crisis-openai-millennium-prize/688631/?utm_source=feed) — The Atlantic
-- [Ukraine and Russia Say There Is No Energy Truce, Despite Trump’s Claims](https://www.nytimes.com/2026/09/15/world/europe/trump-energy-truce-ukraine-russia.html) — The New York Times
-- [The London hospital funded by donors who invested in the slave trade](https://www.theguardian.com/uk-news/ng-interactive/2026/sep/14/london-hospital-st-barts-funded-donors-invested-slave-trade) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

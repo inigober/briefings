@@ -1,58 +1,58 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-20",
-  "briefing_date": "2026-09-20",
-  "inbox_date": "2026-09-20",
+  "date": "2026-09-21",
+  "briefing_date": "2026-09-21",
+  "inbox_date": "2026-09-21",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-20.md",
-  "inbox_path": "inbox/news/2026-09-20-synthesis.json",
-  "items_count": 11,
+  "briefing_path": "briefings/news/2026-09-21.md",
+  "inbox_path": "inbox/news/2026-09-21-synthesis.json",
+  "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "El acuerdo anunciado por Trump sobre Groenlandia deja más incógnitas que certezas sobre su soberanía",
+      "headline": "Los hutíes de Yemen reactivan una guerra que puede forzar a EEUU y Arabia Saudí a hacer concesiones",
       "section": "spain",
-      "reason": "geographic_misfit: US–Denmark; parked in Other Headlines. Spain eligible pool after Ceuta cooldown was eldiario.es only (publisher_pool_thin; two stories, no third Spain-focused item)"
+      "reason": "geographic_misfit: Yemen/Red Sea; parked in Other Headlines"
     },
     {
-      "headline": "Trump encadena reveses incluso entre sus propios aliados al intentar imponer su agenda ultra",
+      "headline": "El policía de los millones emparedados: \"La Brigada de Estupefacientes crea informes falsos y se lo oculta a los jueces”",
       "section": "spain",
-      "reason": "geographic_misfit: US politics"
+      "reason": "dedup: spain-udef-internal-affairs-network (14 September); testimony extracts, not a new ruling"
     },
     {
-      "headline": "Más de 1.000 menores aún deambulan por Ceuta: entre la guerra política y el limbo",
+      "headline": "Las fuerzas de seguridad de Marruecos blindan la frontera con Ceuta en vísperas de las elecciones",
       "section": "spain",
-      "reason": "running_story_cooldown: ceuta_enclave skip_until 2026-09-22; parked one Other Headlines line"
+      "reason": "running_story_cooldown: ceuta_enclave skip_until 2026-09-22; parked one Other Headlines line. Spain eligible pool after cooldown was eldiario.es + EL PAÍS only (publisher_pool_thin for a third outlet)"
     },
     {
-      "headline": "Tú la temes, yo la amo: la cumbre Trump-XI afronta la IA con mentalidades opuestas en China y EE UU",
+      "headline": "Irene Montero: “Las primarias tienen que remover la energía en la izquierda, como ‘Paquito el Chocolatero’ en una fiesta”",
       "section": "spain",
-      "reason": "geographic_misfit + dedup: Trump–Xi AI safety used 16 September"
+      "reason": "not_material: opposition quote / primaries colour"
     },
     {
-      "headline": "Berlin-Wahl: Die Spitzenkandidaten bei der Berliner Abgeordnetenhauswahl",
+      "headline": "+++ Iran-Krieg +++: CIA-Chef trifft ägyptischen Präsidenten",
       "section": "germany",
-      "reason": "one_theme / geographic_fit: Berlin election covered via Senate poll in Berlin section"
+      "reason": "geographic_misfit: Hormuz/Iran; parked in Other Headlines"
     },
     {
-      "headline": "Serbiens Hauptstadt: Zwischen Skyline und zwei Strömen: Citytrip nach Belgrad",
+      "headline": "Landtagswahlen: Wie erste Datenanalysen das Ergebnis der Wahlen erklären",
       "section": "germany",
-      "reason": "noise: city-trip filler"
+      "reason": "one_theme: Sunday elections already covered via Merz lessons; not a second election cut"
     },
     {
-      "headline": "In Sachsen: Polizei hebt riesige Cannabis-Plantage im Wert von rund einer Million Euro aus",
-      "section": "berlin",
-      "reason": "geographic_misfit: Saxony, not Berlin city"
+      "headline": "Wahltag: Prognose – Kremlpartei Geeintes Russland gewinnt Duma-Wahl",
+      "section": "germany",
+      "reason": "geographic_misfit + dedup: world-russia-duma-kremlin-ballot (20 September)"
     },
     {
-      "headline": "Verdacht auf Wahlbetrug in Dessau: Warum die Staatsanwaltschaft weiter ermittelt",
+      "headline": "Berlin-Wahl 2026: Giffey verpasst Einzug ins Abgeordnetenhaus",
       "section": "berlin",
-      "reason": "geographic_misfit: Dessau / Saxony-Anhalt"
+      "reason": "one_theme: Berlin election covered via Linke/Eralp win; parked one Other Headlines line"
     },
     {
-      "headline": "Dank Thorsteinssons Doppelpack: Hertha dreht Spiel in Dresden",
+      "headline": "Rabiate Kindergruppe überfällt am Samstagabend in Sachsen zwei junge Frauen",
       "section": "berlin",
-      "reason": "sports filler"
+      "reason": "geographic_misfit: Saxony / Chemnitz, not Berlin city"
     },
     {
       "headline": "The case for a robot tax to redistribute wealth",
@@ -60,9 +60,9 @@
       "reason": "dedup: used as Selected Read on 19 September"
     },
     {
-      "headline": "South Africa joins the global resistance against American data centers",
+      "headline": "Why China Isn’t Getting Existential About A.I.",
       "section": "world",
-      "reason": "dedup: used as Selected Read on 18 September"
+      "reason": "dedup: used as Selected Read on 19 September"
     },
     {
       "headline": "‘We demand the truth’: Olga Tokarczuk and JM Coetzee lead calls for proof of life of disappeared Eritrean writers",
@@ -70,5 +70,5 @@
       "reason": "dedup: used as Selected Read on 19 September"
     }
   ],
-  "notes": "Spain: Ibiza cemetery homelessness and national 850k/121-day surgical wait (both eldiario.es) — two stories; Ceuta on cooldown until 22 September; remaining Spain inbox was Greenland/Trump/AI/UN (publisher_pool_thin). Germany: MV Landtag election day and Pflege card-read trips (Handelsblatt), bystander CPR (Tagesspiegel). Berlin: Senate 20% approval (rbb24), crisis-as-chance essay (Tagesspiegel), House of Wunder (The Berliner). World: Trump AI Force and vanished Hormuz cargo (North America + Middle East, FT), Russia Duma Kremlin-only ballot (Handelsblatt). Selected Reads: Atlantic Treat AI, FT settler sanctions, EL PAÍS UNGA, FT Ukraine industrial air campaign."
+  "notes": "Spain: TC amnesty docket (eldiario.es), 35-hour regional week and eating-disorders-over-50 (EL PAÍS); Ceuta on cooldown until 22 September. Germany: Merz Wahlsonntag lessons and Dax week-open (Handelsblatt), GDR street photos at Reinbeckhallen (Tagesspiegel). Berlin: Linke/Eralp historic win (Tagesspiegel), Torstraße trees and gallery-funding cuts (The Berliner). World: China sodium batteries (East Asia, FT), Haiti Moïse arrests (Latin America, Guardian), Japan physical-AI machinery (East Asia, Nikkei). Selected Reads: New Yorker Our A.I. Problem, FT Jane Street/Fed-BoE, Guardian Macron-Carney, FT Bessent AI dialogue."
 }
