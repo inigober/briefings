@@ -29,18 +29,6 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-08-18 | advance_radar | Josef Kaiser. Bauen für die DDR | Alte Jakobstr. 124-128, 10969 Berlin | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
 2026-08-18 | advance_radar | Ruba Al-Sweel, Arvin Arta, Dana Dawud, Noura Tafeche and Zein Majali Short Film Screening | Frankfurter Tor 1, 10243 Berlin | https://www.indexberlin.com/events/list/44942/short-film-screening
 2026-08-18 | advance_radar | Itchi Fleischer Unzucht – Kiss the Devil’s Arse | Weigandufer, corner of Wildenbruchbrücke, next to the mooring, 12045 Berlin | https://www.indexberlin.com/events/list/44861/unzucht-kiss-the-devil-s-arse
-2026-07-21 | top_picks | Asian Queers Reunited 2026: Shorts Program I — Homes We Make, Homes We Leave | SİNEMA TRANSTOPIA | https://sinematranstopia.com/en/asian-queers-reunited-2026/shorts-program-i-homes-we-make-homes-we-leave
-2026-07-21 | top_picks | Kyiv Biennial — A Bird That Cannot Land | KW Institute for Contemporary Art | https://www.kw-berlin.de/en/exhibitions/kyiv-biennial-a-bird-that-cannot-land
-2026-07-21 | top_picks | Maresz + Del Gesù + The Midnight Audience | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/silent-green-music-from-beyond-pres-maresz-del-gesu-the-midnight-audience?cHash=7cc70058540b3e08ee9894e00a6b7b3d&tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=7&tx_news_pi1%5Byear%5D=2026
-2026-07-21 | exhibitions | Babette Semmer — Gentle Parenting | time is it in the world PSM | https://www.indexberlin.com/exhibitions/list/44220/gentle-parenting
-2026-07-21 | exhibitions | Fiona Mackay — 40's | time is it in the world PSM | https://www.indexberlin.com/exhibitions/list/44218/40-s
-2026-07-21 | exhibitions | Michaela Younge & Rhys Coren | EIGEN + ART Lab | https://www.indexberlin.com/events/list/44422/n-a
-2026-07-21 | film | À voix basse / In a Whisper | SİNEMA TRANSTOPIA | https://sinematranstopia.com/en/sinelection/a-voix-basse
-2026-07-21 | performing_arts | b12 sungrazers: The One(s) Who Never Lived | DOCK 11 | https://dock11-berlin.de/theater/programm/spielplan
-2026-07-21 | wildcards | Zilberman Unfold '26: Sites of Relation | Zilberman | https://www.indexberlin.com/events/list/44403/zilberman-unfold-26-sites-of-relation
-2026-07-21 | wildcards | Paula Breuer — wet wings | Studio Hanniball | https://www.indexberlin.com/events/list/44934/wet-wings
-2026-07-21 | advance_radar | Arvin Arta — Cloud Domination | Galerie im Turm | https://www.indexberlin.com/events/list/44646/cloud-domination
-2026-07-21 | advance_radar | Performance by Noé Duboutay and Book Launch by Ruti de Vries | Künstlerhaus Bethanien | https://www.indexberlin.com/events/list/44622/performance-by-noe-duboutay-and-book-launch-by-ruti-de-vries
 2026-07-28 | top_picks | THE PRESSING | Radialsystem | https://www.radialsystem.de/en/veranstaltungen/the-pressing-2026/
 2026-07-28 | top_picks | L'homme-vertige: Tales of a City | Kino Arsenal | https://www.arsenal-berlin.de/assets/Kino/PDFs/26-07_A5_arsenal_programm_Web.pdf
 2026-07-28 | top_picks | Bernhard Martin — Holobionten | DITTRICH & SCHLECHTRIEM | https://www.indexberlin.com/exhibitions/list/44351/holobionten
@@ -118,3 +106,16 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-09-15 | wildcards | Walls, Lights and Windows: Ian Waelder and Richard Venlet in Conversation | Haus am Waldsee | https://www.indexberlin.com/events/list/45978/walls-lights-and-windows-ian-waelder-and-richard-venlet-in-conversation
 2026-09-15 | advance_radar | Träumen: Annemirl Bauer und Bärbel Bohley | Galerie im Turm | https://www.indexberlin.com/events/list/45512/traumen-annemirl-bauer-und-barbel-bohley
 2026-09-15 | advance_radar | attaquer le visible. Kollaborative Assemblagen | Regina-Jonas-Straße 41–43 | https://www.indexberlin.com/events/list/45973/attaquer-le-visible-kollaborative-assemblagen-feministische-praktiken-im-experimentalfilm-und-video-der-80er-jahre
+2026-09-22 | top_picks | Gob Squad — Doppelgänger/Doppelganger | HAU2, HAU Hebbel am Ufer | https://www.hebbel-am-ufer.de/en/programme/pdetail/gob-squad-doppelgaenger-doppelganger/
+2026-09-22 | top_picks | Nesterval’s Eldorado | Sophiensæle | https://sophiensaele.com/de/stueck/nestervals-eldorado
+2026-09-22 | top_picks | Psychic Liberation Night: Flora Yin Wong + Afraidofmessages | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/psychic-liberation-night-flora-yin-wong-afraid-of-messages?tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=356b30f11b408e569779d20fa383b841
+2026-09-22 | exhibitions | Dora Budor & Noah Barker. Monte Carlo Method | n.b.k. Billboard | https://vorschau.nbk.org/en/ausstellungen/billboard-budor-barker
+2026-09-22 | film | Archival Assembly #4 – Archives, otherwise | Arsenal cinema / Arsenal Filminstitut | https://www.arsenal-berlin.de/en/en/arsenal-cinema/current-program.html/?cHash=12aed50618363733ab3ba4bf2e7c7964
+2026-09-22 | film | attaquer le visible. Kollaborative Assemblagen | Künstlerhaus Bethanien | https://www.indexberlin.com/events/list/45973/attaquer-le-visible-kollaborative-assemblagen-feministische-praktiken-im-experimentalfilm-und-video-der-80er-jahre
+2026-09-22 | performing_arts | Ligia Lewis & Liz Rosenfeld — ENFLESHED | HAU3, HAU Hebbel am Ufer | https://www.hebbel-am-ufer.de/en/programme/schedule-tickets
+2026-09-22 | music | Oren Ambarchi pres. Cooked (Album Launch / Listening Session) | silent green Kulturquartier, Betonhalle | https://www.silent-green.net/en/programme/detail/oren-ambarchi-pres-cooked-album-launch-listening-session?tx_news_pi1%5Bday%5D=24&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=a1ce22e0dcebce0579cfbb8a6af04272
+2026-09-22 | music | Konzertabend mit Horizontaler Gentransfer | Galerie Wedding | https://www.indexberlin.com/events/list/46005/konzertabend-mit-horizontaler-gentransfer
+2026-09-22 | wildcards | Träumen: Annemirl Bauer und Bärbel Bohley | Galerie im Turm | https://www.indexberlin.com/events/list/45512/traumen-annemirl-bauer-und-barbel-bohley
+2026-09-22 | wildcards | Ornella Fieres — Über KI | Haus am Lützowplatz | https://www.indexberlin.com/events/list/46012/uber-ki
+2026-09-22 | advance_radar | Ala Roushan and Charles Stankievech — A Shroud Woven of Solar Threads | HOUSE, Halle am Berghain | https://www.indexberlin.com/events/list/46001/a-shroud-woven-of-solar-threads
+2026-09-22 | advance_radar | Isaac Chong Wai & Käthe Kollwitz — Die Mütter | Schwartzsche Villa | https://www.indexberlin.com/events/list/45328/die-mutter
