@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-22
+
+- **spain-la-paz-transplant-no-rejection** — eldiario.es: La Paz doctors are teaching recipient immune systems to accept donor organs, a path off lifelong immunosuppression (section: spain)
+- **spain-begona-gomez-jury-trial** — La Vanguardia: judge Peinado has sent Begoña Gómez to a jury on embezzlement and influence-peddling; Complutense puts the loss at €113,000 (section: spain)
+- **spain-thyssen-madrid-museum-building** — EL PAÍS: the state will fund a new Madrid building for Francesca Thyssen-Bornemisza's 365 donated and loaned works (section: spain)
+- **germany-merz-private-health-insurance** — Handelsblatt: Merz has opened a fight with the dual public/private health-insurance split (section: germany)
+- **germany-planet-labs-berlin-satellites** — Handelsblatt: Planet Labs plans satellite production in Berlin as a European-facing plant (section: germany)
+- **germany-merkel-kanzlergalerie-portrait** — Tagesspiegel: Merkel is at the Bundestag for her official Chancellors' gallery portrait, which is not red (section: germany)
+- **berlin-auto-industry-demo** — rbb24: auto-industry workers demonstrated in Berlin over jobs (section: berlin)
+- **berlin-election-night-blackout-6600** — Berliner Zeitung: a fault left about 6,600 western Berlin households without power on election night (section: berlin)
+- **berlin-leyla-yenirce-art** — The Berliner: Kurdish artist Leyla Yenirce on making work from violence (section: berlin)
+- **world-africa-healthcare-usaid-strain** — The Guardian: Accra Reset says African healthcare is under strain after the US aid pullout (section: world)
+- **world-china-power-grid-stocks-ai** — Nikkei Asia: China's power-infrastructure stocks are lagging the AI electricity boom (section: world)
+- **world-us-boat-strikes-crimes-against-humanity** — The Guardian: a UN rapporteur says US boat strikes may be crimes against humanity (section: world)
+
 ## 2026-09-21
 
 - **spain-constitucional-amnistia-puigdemont** — eldiario.es: the Constitutional Court starts on the amnesty the Supreme Court denied to Puigdemont and the 2017 Catalan leadership (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-china-exports-25-ai** — Financial Times: China's August exports jumped 25%, tied to the AI build-out (section: world)
 - **world-anthropic-openai-ig-ratings** — Financial Times: bankers want investment-grade ratings for Anthropic and OpenAI after IPO (section: world)
 - **world-russia-nk-tumen-road-bridge** — The Guardian: Russia and North Korea opened their first road bridge across the Tumen (section: world)
-
-## 2026-09-07
-
-- **spain-pp-vox-50-percent-poll** — EL PAÍS: PP and Vox have broken 50% of the vote together for the first time, amid the Ceuta crisis (section: spain)
-- **spain-mossos-teachers-assembly-spy** — eldiario.es: the Mossos told a judge they keep no file on who ordered two officers to infiltrate a Barcelona teachers' strike assembly (section: spain)
-- **spain-burgos-pp-unlicensed-events** — eldiario.es: a firm tied to Burgos's PP provincial president has hosted weddings in a protected barn without a licence since 2019 (section: spain)
-- **germany-iw-700k-skills-gap** — Die Zeit: the IW says German firms could lack more than 700,000 skilled workers by 2029 (section: germany)
-- **germany-pisa-study-due** — Tagesspiegel: a new PISA release is due after Germany's last poor showing (section: germany)
-- **germany-heat-fires-air-pollution** — Handelsblatt: heatwaves and fires are worsening air quality, including far from burn sites (section: germany)
-- **berlin-landesnetz-new-darknet-dump** — rbb24: a new Landesnetz data packet appeared on the darknet and may restrict Senatsbauverwaltung staff (section: berlin)
-- **berlin-rheinmetall-wedding-protests** — The Berliner: the Rheinmetall factory in Wedding has become a rearmament protest site (section: berlin)
-- **berlin-fabian-children-testimony** — Berliner Zeitung: three children's accounts have put a hole in the Fabian murder timeline (section: berlin)
-- **world-china-54bn-financial-recap** — The Guardian: Beijing is injecting about $54bn into banks and insurers (section: world)
-- **world-us-debt-rates-ai** — Financial Times: US long-term rates near 5% are being read as a threat to the AI boom (section: world)
-- **world-us-ice-liberia-deportations** — EL PAÍS: ICE has been flying Latin American deportees to Liberia, a country they had never heard of (section: world)

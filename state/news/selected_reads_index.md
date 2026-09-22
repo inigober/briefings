@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-22
+
+- [Japan plans AI robot contest on International Space Station](https://asia.nikkei.com/business/technology/artificial-intelligence/japan-plans-ai-robot-contest-on-international-space-station) — Nikkei Asia
+- [Why the Iran-Backed Houthis in Yemen and Saudi Arabia Are Back at War](https://www.nytimes.com/2026/09/21/world/middleeast/yemen-houthis-saudi-war.html) — The New York Times
+- [It’s Time to Update the U.N. Sustainable Development Goals](https://foreignpolicy.com/2026/09/21/united-nations-sustainable-development-goals-sdgs-conflict-aid/) — Foreign Policy
+- [De Tinder a las ‘Apps’ para correr: los móviles se convierten en un frente para reclutar, espiar y sabotear al enemigo](https://elpais.com/internacional/2026-09-22/de-tinder-a-las-apps-para-correr-los-moviles-se-convierten-en-un-frente-para-reclutar-espiar-y-sabotear-al-enemigo.html) — EL PAÍS
+
 ## 2026-09-21
 
 - [Our A.I. Problem](https://www.newyorker.com/magazine/2026/09/28/our-ai-problem) — The New Yorker
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [South Africa joins the global resistance against American data centers](https://restofworld.org/2026/south-africa-ai-data-center-protests/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
 - [RFK Jr.’s Bold Reassurance to Anti-Vaxxers](https://www.theatlantic.com/health/2026/09/rfk-jr-childrens-health-defense-conference-speech/688685/?utm_source=feed) — The Atlantic
 - [Thailand must invest in front-end chip production, industry body says](https://asia.nikkei.com/business/tech/semiconductors/thailand-must-invest-in-front-end-chip-production-industry-body-says) — Nikkei Asia
-
-## 2026-09-17
-
-- [This Is Your Brain on Short-Form Video](https://www.theatlantic.com/health/2026/09/short-form-video-tiktok-brain-neuroscience/688632/?utm_source=feed) — The Atlantic
-- [Why Existential AI Fears Have Hit a Crescendo](https://foreignpolicy.com/2026/09/16/ai-risk-jacob-coxon-openai-anthropic-dario-amodei-sam-altman-trump-doomsday/) — Foreign Policy
-- [The era of AI warfare has arrived](https://www.ft.com/content/686429c0-daf3-42a5-9b7c-7ff06eb291ef?syn-25a6b1a6=1) — Financial Times
-- [‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa](https://www.theguardian.com/world/2026/sep/16/discovery-women-bodies-anger-femicide-south-africa) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
