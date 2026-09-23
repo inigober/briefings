@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-23
+
+- **spain-sanchez-un-ai-alliance** — La Vanguardia: Sánchez called at the UN for a global pact against AI "techno-oligarchs" to protect children (section: spain)
+- **spain-cgpj-archives-bolanos-peinado** — eldiario.es: the CGPJ has definitively archived Justice Minister Bolaños's complaints against judge Peinado (section: spain)
+- **spain-delcy-sanchez-un-channel** — La Vanguardia: Delcy Rodríguez asked Sánchez at the UN to keep talking about Venezuela (section: spain)
+- **germany-mittelstand-outside-capital** — Handelsblatt: a new generation of family-firm owners is opening the Mittelstand to outside investors (section: germany)
+- **germany-winkel-pension-reform-rente-63** — Handelsblatt: new Union labour deputy Johannes Winkel wants the pension reform untouched and an end to Rente mit 63 (section: germany)
+- **germany-kassenpatienten-private-slots** — Tagesspiegel: statutory patients wait months and are asked if they will pay privately for specialist slots (section: germany)
+- **berlin-linke-can-it-govern** — rbb24: after the historic win, the question is whether Die Linke can and wants to govern Berlin (section: berlin)
+- **berlin-dlrg-drowning-deaths-up** — Tagesspiegel: more fatal accidents in Berlin waters this season, DLRG says, especially men (section: berlin)
+- **berlin-clubmemes-72-hour-party** — The Berliner: the BerlinClubMemes creator lives half on Instagram, half in the club (section: berlin)
+- **world-bc-openai-tumbler-ridge-suit** — The Guardian: British Columbia is suing OpenAI and Sam Altman over the Tumbler Ridge school shooting (section: world)
+- **world-china-broadcom-state-ai** — Financial Times: China is inventorying Broadcom switches in state-backed AI data centres (section: world)
+- **world-sharp-universal-satellite-antenna** — Nikkei Asia: Sharp is building a universal satellite antenna to loosen Starlink's hold (section: world)
+
 ## 2026-09-22
 
 - **spain-la-paz-transplant-no-rejection** — eldiario.es: La Paz doctors are teaching recipient immune systems to accept donor organs, a path off lifelong immunosuppression (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-us-canada-dairy-alcohol-ban** — Financial Times: Washington banned Canadian dairy, motorcycles and most alcohol after Ottawa's $20bn tariffs (section: world)
 - **world-deepseek-shadow-fundraising** — Financial Times: DeepSeek's new funding round has spawned a costly shadow market with five-year lock-ups (section: world)
 - **world-saudi-houthis-brink-of-war** — The New York Times: Saudi Arabia and Yemen's Houthis are sliding back toward open war after an energy-site attack (section: world)
-
-## 2026-09-08
-
-- **spain-casa-47-housing-portal** — eldiario.es: Sánchez launched Casa 47, a booking portal for the first 800 state flats (section: spain)
-- **spain-isglobal-wealth-tax-lives** — eldiario.es: ISGlobal says a 3% tax on hundred-millionaires could fund aid that saves up to 30 million lives by 2030 (section: spain)
-- **spain-ceuta-journalists-attacks** — EL PAÍS: insults and threats against reporters have become routine in Ceuta's protest week (section: spain)
-- **germany-ines-cold-winter-gas-shortage** — Handelsblatt: new INES data say a very cold winter could leave customers short of gas (section: germany)
-- **germany-heat-deaths-16000** — Handelsblatt: at least 16,000 heat deaths in Germany so far this year (section: germany)
-- **germany-wagenknecht-chrupalla-lanz** — Tagesspiegel: Wagenknecht and AfD leader Chrupalla both ruled out governing together on Lanz (section: germany)
-- **berlin-trend-youth-linke-38** — rbb24: 16- to 34-year-olds feel poorly represented; Die Linke is on 38% in that group (section: berlin)
-- **berlin-olympiabad-106m** — rbb24: an Olympics swimming rebuild at the Olympiastadion pool is costed at €106 million (section: berlin)
-- **berlin-csd-memorial-tree** — The Berliner: a CSD victims' memorial tree was torn out after a rainbow bench was wrecked (section: berlin)
-- **world-china-exports-25-ai** — Financial Times: China's August exports jumped 25%, tied to the AI build-out (section: world)
-- **world-anthropic-openai-ig-ratings** — Financial Times: bankers want investment-grade ratings for Anthropic and OpenAI after IPO (section: world)
-- **world-russia-nk-tumen-road-bridge** — The Guardian: Russia and North Korea opened their first road bridge across the Tumen (section: world)

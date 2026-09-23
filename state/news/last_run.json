@@ -1,33 +1,38 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-22",
-  "briefing_date": "2026-09-22",
-  "inbox_date": "2026-09-22",
+  "date": "2026-09-23",
+  "briefing_date": "2026-09-23",
+  "inbox_date": "2026-09-23",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-22.md",
-  "inbox_path": "inbox/news/2026-09-22-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-23.md",
+  "inbox_path": "inbox/news/2026-09-23-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "La abogada de Koldo García desafía al juez del caso Leire Díez para que le autorice a revelar quién le paga",
+      "headline": "Trump despliega en Naciones Unidas su diplomacia de la fuerza",
       "section": "spain",
-      "reason": "avoid_unless_material: PSOE scandals; lawyer motion, not a ruling"
+      "reason": "geographic_misfit: UN/Iran speech; parked in Other Headlines"
     },
     {
-      "headline": "El Poder Judicial debate una propuesta para archivar definitivamente las denuncias de Bolaños contra Peinado",
+      "headline": "Qué dice el acuerdo entre EEUU, Dinamarca y Groenlandia que aumenta la influencia norteamericana en el Ártico",
       "section": "spain",
-      "reason": "one_theme: Begoña/Peinado already covered via jury-trial send; CGPJ debate is not a ruling"
+      "reason": "geographic_misfit: Arctic pact; parked in Other Headlines"
     },
     {
-      "headline": "El ‘caso Begoña Gómez’ entra en la era pos-Peinado: ¿qué plazos se manejan para el juicio?, ¿testificará Pedro Sánchez?",
+      "headline": "La cuenta atrás para echar a Maricarmen ha comenzado en la calle y los despachos",
       "section": "spain",
-      "reason": "one_theme: same Begoña trial step as the La Vanguardia send-to-jury piece"
+      "reason": "avoid_unless_material: housing protests; single eviction mobilisation"
     },
     {
-      "headline": "La Abogacía del Estado acusa al Supremo de “excederse” al paralizar el voto por la ley de nietos",
+      "headline": "El Gobierno prolongará el espigón del Tarajal con un muro de 100 metros de peines invertidos",
       "section": "spain",
-      "reason": "held for Other Headlines; third Spain slot used for Thyssen (publisher diversity)"
+      "reason": "avoid_unless_material: Ceuta; jetty works implementing an old Supreme Court return ruling — Other Headlines only"
+    },
+    {
+      "headline": "Charles Spencer: “La tragedia de la familia real fue no saber abrazar la oportunidad de mi hermana Diana”",
+      "section": "spain",
+      "reason": "celebrity / not Spain policy"
     },
     {
       "headline": "Börse am 22. September: Sieben Punkte, die für Anleger heute wichtig sind",
@@ -35,34 +40,29 @@
       "reason": "dedup: germany-dax-week-open-elections (21 September); incremental daily tape"
     },
     {
-      "headline": "„Bürgerversicherung wäre gerecht“: Lauterbach lobt Merz’ Worte zu privaten Kassen",
+      "headline": "Morning Briefing: Unternehmen: Private Equity erobert den Mittelstand",
       "section": "germany",
-      "reason": "one_theme: same dual-insurance fight as the Merz PKV briefing"
+      "reason": "one_theme: same Mittelstand/outside-capital briefing as Familienunternehmen"
     },
     {
-      "headline": "G-20-Gipfel: Putin könnte Trump versetzen und stattdessen nach China reisen",
+      "headline": "Nach der Ausbildung: Stellenangebot für Berufseinsteiger sinkt rasant",
       "section": "germany",
-      "reason": "geographic_misfit: G20/APEC; parked in Other Headlines"
+      "reason": "publisher_diversity: third Handelsblatt labour item; Tagesspiegel Kassenpatienten used instead"
     },
     {
-      "headline": "Berlin Election: Die Linke Are Clear Winners",
+      "headline": "„Desaster“ für die CDU: So reagieren BBC, Reuters, El País und andere auf die Wahlen in Berlin und Schwerin",
       "section": "berlin",
-      "reason": "dedup: berlin-linke-elif-eralp-historic-win (21 September)"
+      "reason": "dedup: berlin-linke-elif-eralp-historic-win / germany-merz-wahlsonntag (21 September)"
     },
     {
-      "headline": "Berlin-Wahl 2026: Giffey verpasst Einzug ins Abgeordnetenhaus",
+      "headline": "Am Wahlabend: Rund 6.600 Haushalte in Berlin zeitweise ohne Strom",
       "section": "berlin",
-      "reason": "dedup: Other Headlines 21 September"
+      "reason": "dedup: berlin-election-night-blackout-6600 (22 September)"
     },
     {
-      "headline": "Macron and Carney announce closer France-Canada ties amid Trump tensions",
-      "section": "world",
-      "reason": "dedup: used as Selected Read on 21 September"
-    },
-    {
-      "headline": "Trump, a Mamdani: “Espero que sea un gran alcalde de Nueva York. Tiene potencial”",
-      "section": "spain",
-      "reason": "geographic_misfit: New York mayor race"
+      "headline": "Wahlanalyse: Wer von der hohen Wahlbeteiligung in Berlin profitierte",
+      "section": "berlin",
+      "reason": "one_theme: same post-election thread as Linke governing-capacity piece"
     },
     {
       "headline": "Rabiate Kindergruppe überfällt am Samstagabend in Sachsen zwei junge Frauen",
@@ -70,5 +70,5 @@
       "reason": "geographic_misfit: Saxony / Chemnitz, not Berlin city"
     }
   ],
-  "notes": "Spain: La Paz transplant tolerance (eldiario.es), Begoña Gómez jury send (La Vanguardia), Thyssen Madrid building (EL PAÍS). Ceuta off cooldown but avoid_unless_material — one Other Headlines line. Germany: Merz PKV fight and Planet Labs Berlin plant (Handelsblatt), Merkel Kanzlergalerie portrait (Tagesspiegel). Berlin: auto-industry demo (rbb24), election-night blackout (Berliner Zeitung), Leyla Yenirce (The Berliner). World: Africa healthcare after USAID (Africa, Guardian), China power-grid stocks vs AI (East Asia, Nikkei), US boat strikes / UN rapporteur (Americas, Guardian). Selected Reads: Nikkei ISS robot contest, NYT Houthis-Saudi explainer, FP UN SDGs, EL PAÍS apps-as-battlefield."
+  "notes": "Spain: Sánchez UN AI alliance (La Vanguardia), CGPJ archives Bolaños-Peinado (eldiario.es), Delcy-Sánchez UN channel (La Vanguardia). Ceuta off cooldown but avoid_unless_material — Tarajal jetty in Other Headlines. Germany: Mittelstand outside capital and Winkel pension reform (Handelsblatt), Kassenpatienten private slots (Tagesspiegel). Berlin: Linke governing question (rbb24), DLRG drownings (Tagesspiegel), BerlinClubMemes (The Berliner). World: BC OpenAI lawsuit (North America, Guardian), China Broadcom inventory (East Asia, FT), Sharp universal antenna (East Asia, Nikkei). Selected Reads: FT Carney, Guardian F-35 Hong Kong, FP Russia signals, Nikkei ADB El Niño/AI."
 }

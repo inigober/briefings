@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-23
+
+- [Mark Carney and the limits of defying Donald Trump](https://www.ft.com/content/4a808a51-c6e9-4ade-b1f7-95c27fd1aa1e?syn-25a6b1a6=1) — Financial Times
+- [Australia investigating how F-35 fighter jet parts bound for US went missing in Hong Kong](https://www.theguardian.com/world/2026/sep/22/australia-investigating-how-f-35-fighter-jet-parts-bound-for-us-went-missing-in-hong-kong) — The Guardian
+- [The West Is Sending Russia the Wrong Signals](https://foreignpolicy.com/2026/09/22/ukraine-putin-russia-signaling-trump-germany/) — Foreign Policy
+- [El Nino, AI to widen economic growth gap in developing Asia: ADB](https://asia.nikkei.com/economy/el-nino-ai-to-widen-economic-growth-gap-in-developing-asia-adb) — Nikkei Asia
+
 ## 2026-09-22
 
 - [Japan plans AI robot contest on International Space Station](https://asia.nikkei.com/business/technology/artificial-intelligence/japan-plans-ai-robot-contest-on-international-space-station) — Nikkei Asia
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [The case for a robot tax to redistribute wealth](https://restofworld.org/2026/robot-tax-ai-wealth-redistribution/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
 - [Macron to call emergency G7 meeting as energy prices spike and Russian hybrid attacks mount](https://www.politico.eu/article/emmanuel-macron-to-call-emergency-g7-meeting-as-energy-prices-spike-and-russian-hybrid-attacks-mount/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [‘We demand the truth’: Olga Tokarczuk and JM Coetzee lead calls for proof of life of disappeared Eritrean writers](https://www.theguardian.com/books/2026/sep/18/olga-tokarczuk-j-m-coetzee-lead-calls-for-release-of-disappeared-eritrean-writers) — The Guardian
-
-## 2026-09-18
-
-- [Medical AI has a proof problem](https://www.ft.com/content/34319b00-f874-4119-aa28-8376d81e7190?syn-25a6b1a6=1) — Financial Times
-- [South Africa joins the global resistance against American data centers](https://restofworld.org/2026/south-africa-ai-data-center-protests/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
-- [RFK Jr.’s Bold Reassurance to Anti-Vaxxers](https://www.theatlantic.com/health/2026/09/rfk-jr-childrens-health-defense-conference-speech/688685/?utm_source=feed) — The Atlantic
-- [Thailand must invest in front-end chip production, industry body says](https://asia.nikkei.com/business/tech/semiconductors/thailand-must-invest-in-front-end-chip-production-industry-body-says) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 
