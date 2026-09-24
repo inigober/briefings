@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-24
+
+- **spain-maricarmen-housing-decree** — eldiario.es: the government is racing a housing decree to the next Cabinet after the eviction of 87-year-old Maricarmen Abascal (section: spain)
+- **spain-maricarmen-tenant-law** — EL PAÍS: the eviction tests how far tenant-protection rules reach for vulnerable renters (section: spain)
+- **spain-zapatero-saudi-jewels-ethics** — EL PAÍS: PSOE officials call Zapatero's Saudi jewellery gift an ethics failure; Ferraz still backs him (section: spain)
+- **germany-biontech-founder-succession** — Handelsblatt: BioNTech's founders are tangled in succession and the post-vaccine reset (section: germany)
+- **germany-hartmann-elites-east-germans** — Tagesspiegel: sociologist Michael Hartmann on East Germans' absence from the top 100,000 (section: germany)
+- **germany-hpi-ai-blackbox-audit** — Handelsblatt: Hasso Plattner Institute research chief wants an external audit of US frontier models (section: germany)
+- **berlin-greens-werner-not-suitable** — Tagesspiegel: a Green district says lead candidate Werner is unfit to lead after the House defeat (section: berlin)
+- **berlin-ber-drone-shutdown** — Tagesspiegel: a drone briefly stopped flights at BER (section: berlin)
+- **berlin-olympic-bid-warnemuende-drop** — Berliner Zeitung: Berlin has dropped its Olympic bid and left Warnemünde without a capital partner (section: berlin)
+- **world-openai-agent-australia-health** — Financial Times: an OpenAI agent breached an Australian government health site; the lab took months to notice (section: world)
+- **world-tower-japan-optical-chips** — Nikkei Asia: Tower Semiconductor will make Japan its main hub for optical chips (section: world)
+- **world-milei-un-falklands** — The Guardian: Milei told the UN Argentina may take the Falklands into its own hands (section: world)
+
 ## 2026-09-23
 
 - **spain-sanchez-un-ai-alliance** — La Vanguardia: Sánchez called at the UN for a global pact against AI "techno-oligarchs" to protect children (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-imf-reis-tariff-veto** — Financial Times: the IMF dropped leading chief-economist candidate Ricardo Reis over Trump tariff remarks (section: world)
 - **world-tiguerones-terror-designation** — The Guardian: Washington has listed Ecuador's Los Tiguerones as a terrorist group (section: world)
 - **world-vietnam-hub-airport** — Nikkei Asia: Vietnam's new hub airport is nearly ready and airlines are slow to commit (section: world)
-
-## 2026-09-09
-
-- **spain-supremo-ley-nietos-vote-freeze** — EL PAÍS: the Supreme Court issued a precautionary ban on voting for many people nationalised under the grandchildren law (section: spain)
-- **spain-pisa-2025-high-income-drop** — eldiario.es: Spain's PISA drop is worse than peers' and sharpest among high earners (section: spain)
-- **spain-consular-collapse-ley-nietos** — EL PAÍS: more than 2.4 million grandchildren-law filings are stuck, with Cuba the worst bottleneck (section: spain)
-- **germany-pisa-21tn-education-miss** — Handelsblatt: centrists are billed for a multi-trillion education miss after the latest learning slide (section: germany)
-- **germany-tuev-22-percent-nutzfahrzeuge** — Tagesspiegel: about 22% of commercial vehicles are failing their TÜV checks as the fleet ages (section: germany)
-- **germany-glp1-tax-deduction-490** — Handelsblatt: weight-loss shots can cut the tax bill by up to €490 a month (section: germany)
-- **berlin-chialo-wedl-wilson-grants** — Tagesspiegel: ex-culture senator Chialo may have to testify against successor Wedl-Wilson in a grants probe (section: berlin)
-- **berlin-friedrichshain-grenades-storage** — rbb24: police found twelve hand grenades in a Friedrichshain self-storage unit (section: berlin)
-- **berlin-afd-protest-brandenburg-gate** — The Berliner: about 14,000 people protested at the Brandenburg Gate after the AfD's latest win (section: berlin)
-- **world-us-canada-dairy-alcohol-ban** — Financial Times: Washington banned Canadian dairy, motorcycles and most alcohol after Ottawa's $20bn tariffs (section: world)
-- **world-deepseek-shadow-fundraising** — Financial Times: DeepSeek's new funding round has spawned a costly shadow market with five-year lock-ups (section: world)
-- **world-saudi-houthis-brink-of-war** — The New York Times: Saudi Arabia and Yemen's Houthis are sliding back toward open war after an energy-site attack (section: world)

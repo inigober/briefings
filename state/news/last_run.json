@@ -1,53 +1,58 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-23",
-  "briefing_date": "2026-09-23",
-  "inbox_date": "2026-09-23",
+  "date": "2026-09-24",
+  "briefing_date": "2026-09-24",
+  "inbox_date": "2026-09-24",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-23.md",
-  "inbox_path": "inbox/news/2026-09-23-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-24.md",
+  "inbox_path": "inbox/news/2026-09-24-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Trump despliega en Naciones Unidas su diplomacia de la fuerza",
+      "headline": "El desahucio de Maricarmen retrata la crisis de la vivienda en España",
       "section": "spain",
-      "reason": "geographic_misfit: UN/Iran speech; parked in Other Headlines"
+      "reason": "one_theme: same eviction/decree thread; kept Cabinet-decree item as the policy beat"
     },
     {
-      "headline": "Qué dice el acuerdo entre EEUU, Dinamarca y Groenlandia que aumenta la influencia norteamericana en el Ártico",
+      "headline": "Todo lo que ha fallado hasta desahuciar a Maricarmen",
       "section": "spain",
-      "reason": "geographic_misfit: Arctic pact; parked in Other Headlines"
+      "reason": "one_theme: same Maricarmen eviction; legal-explainer slot used EL PAÍS podcast instead"
     },
     {
-      "headline": "La cuenta atrás para echar a Maricarmen ha comenzado en la calle y los despachos",
+      "headline": "Sánchez carga contra Ayuso y Almeida por la “tragedia social” del desahucio de Maricarmen",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; single eviction mobilisation"
+      "reason": "one_theme + dedup: spain-ayuso-planifica-atico (17 September)"
     },
     {
-      "headline": "El Gobierno prolongará el espigón del Tarajal con un muro de 100 metros de peines invertidos",
-      "section": "spain",
-      "reason": "avoid_unless_material: Ceuta; jetty works implementing an old Supreme Court return ruling — Other Headlines only"
+      "headline": "Handelskonflikt: USA verkünden zum Auftakt von Xis Staatsbesuch verlängerte Zollpause",
+      "section": "germany",
+      "reason": "geographic_misfit: US–China tariff pause; parked in Other Headlines"
     },
     {
-      "headline": "Charles Spencer: “La tragedia de la familia real fue no saber abrazar la oportunidad de mi hermana Diana”",
-      "section": "spain",
-      "reason": "celebrity / not Spain policy"
-    },
-    {
-      "headline": "Börse am 22. September: Sieben Punkte, die für Anleger heute wichtig sind",
+      "headline": "Börse am 24. September: Sieben Punkte, die für Anleger heute wichtig sind",
       "section": "germany",
       "reason": "dedup: germany-dax-week-open-elections (21 September); incremental daily tape"
     },
     {
-      "headline": "Morning Briefing: Unternehmen: Private Equity erobert den Mittelstand",
+      "headline": "Meta-Konzern: Das Tamagotchi ist zurück – Zuckerberg startet Frontalangriff auf OpenAI",
       "section": "germany",
-      "reason": "one_theme: same Mittelstand/outside-capital briefing as Familienunternehmen"
+      "reason": "geographic_misfit: US consumer AI; parked in Other Headlines"
     },
     {
-      "headline": "Nach der Ausbildung: Stellenangebot für Berufseinsteiger sinkt rasant",
+      "headline": "Notfall: 23 Verletzte nach Chemikalienvorfall bei Wohnmobilhersteller",
       "section": "germany",
-      "reason": "publisher_diversity: third Handelsblatt labour item; Tagesspiegel Kassenpatienten used instead"
+      "reason": "one-off incident; publisher_pool_thin for a third Germany outlet after Handelsblatt/Tagesspiegel"
+    },
+    {
+      "headline": "Selenskyj nennt Putin „Patient Zero“ – Lawrow schließt Feuerpause aus",
+      "section": "berlin",
+      "reason": "geographic_misfit: UN/Ukraine; parked in Other Headlines"
+    },
+    {
+      "headline": "Kugelbombe nahe Hochspannungsmast entdeckt – steckt Sabotage dahinter?",
+      "section": "berlin",
+      "reason": "geographic_misfit: Grevenbroich / NRW, not Berlin city"
     },
     {
       "headline": "„Desaster“ für die CDU: So reagieren BBC, Reuters, El País und andere auf die Wahlen in Berlin und Schwerin",
@@ -55,20 +60,15 @@
       "reason": "dedup: berlin-linke-elif-eralp-historic-win / germany-merz-wahlsonntag (21 September)"
     },
     {
-      "headline": "Am Wahlabend: Rund 6.600 Haushalte in Berlin zeitweise ohne Strom",
-      "section": "berlin",
-      "reason": "dedup: berlin-election-night-blackout-6600 (22 September)"
+      "headline": "Australia reveals OpenAI agent breached government health website",
+      "section": "world",
+      "reason": "one_theme: same OpenAI-agent breach as the FT World item"
     },
     {
-      "headline": "Wahlanalyse: Wer von der hohen Wahlbeteiligung in Berlin profitierte",
-      "section": "berlin",
-      "reason": "one_theme: same post-election thread as Linke governing-capacity piece"
-    },
-    {
-      "headline": "Rabiate Kindergruppe überfällt am Samstagabend in Sachsen zwei junge Frauen",
-      "section": "berlin",
-      "reason": "geographic_misfit: Saxony / Chemnitz, not Berlin city"
+      "headline": "Delcy Rodríguez poses with Trump in New York as Maduro languishes in jail nearby",
+      "section": "world",
+      "reason": "dedup: spain-delcy-sanchez-un-channel (23 September); Other Headlines only"
     }
   ],
-  "notes": "Spain: Sánchez UN AI alliance (La Vanguardia), CGPJ archives Bolaños-Peinado (eldiario.es), Delcy-Sánchez UN channel (La Vanguardia). Ceuta off cooldown but avoid_unless_material — Tarajal jetty in Other Headlines. Germany: Mittelstand outside capital and Winkel pension reform (Handelsblatt), Kassenpatienten private slots (Tagesspiegel). Berlin: Linke governing question (rbb24), DLRG drownings (Tagesspiegel), BerlinClubMemes (The Berliner). World: BC OpenAI lawsuit (North America, Guardian), China Broadcom inventory (East Asia, FT), Sharp universal antenna (East Asia, Nikkei). Selected Reads: FT Carney, Guardian F-35 Hong Kong, FP Russia signals, Nikkei ADB El Niño/AI."
+  "notes": "Spain: housing decree after Maricarmen eviction (eldiario.es), tenant-law explainer (EL PAÍS), Zapatero jewels ethics (EL PAÍS). Synthesis Spain pool was 11 Maricarmen + 1 Zapatero; decree treated as material legislation, explainer as the statute question, Zapatero as the only non-housing theme (PSOE-scandal bar relaxed — spain_pool_thin). Germany: BioNTech succession and HPI AI audit (Handelsblatt), Hartmann elites (Tagesspiegel). Berlin: Greens/Werner (Tagesspiegel), BER drone (Tagesspiegel), Olympic bid/Warnemünde (Berliner Zeitung). World: OpenAI agent Australia (Oceania, FT), Tower Japan optical chips (East Asia, Nikkei), Milei Falklands (Latin America, Guardian). Selected Reads: FT Takaichi, Atlantic China AI doomerism, Guardian Airtel Money, Nikkei hybrid-AI drama."
 }
