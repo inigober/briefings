@@ -4,10 +4,6 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 <!-- Format: YYYY-MM-DD | name | neighborhood | google_maps_url -->
 
-2026-07-09 | Chuan Garden 川园 | Mitte | https://maps.google.com/?cid=3614477287672776716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-09 | Dal Tokki | Wedding | https://maps.google.com/?cid=15991654687140121839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-09 | Nusantara | Moabit | https://maps.google.com/?cid=6608885631759338744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-09 | Aleppo Supper Club | Friedrichshain | https://maps.google.com/?cid=16433895107034430658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-16 | Banh Xeo Saigon | Prenzlauer Berg | https://maps.google.com/?cid=11949515704919073190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-16 | Yöre Gözleme ve Mantı Evi | Wedding | https://maps.google.com/?cid=13270343140515838684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-16 | Fes Turkish BBQ | Kreuzberg | https://maps.google.com/?cid=17901661913376805960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
@@ -78,3 +74,7 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-09-17 | Il Calice | Charlottenburg | https://maps.google.com/?cid=3662233515076542285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-17 | Nußbaumerin | Charlottenburg | https://maps.google.com/?cid=7276535455919983554&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-17 | CODA | Neukölln | https://maps.google.com/?cid=4565257900171521110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-24 | Khao Soi | Neukölln | https://maps.google.com/?cid=9604530647532537398&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-24 | Meet You | Charlottenburg | https://maps.google.com/?cid=17428014459240498453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-24 | Mira | Neukölln | https://maps.google.com/?cid=13164128406963470813&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-09-24 | Sabor a mí | Friedrichshain | https://maps.google.com/?cid=12374683917197371925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

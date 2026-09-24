@@ -1,19 +1,16 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-09-17",
+  "date": "2026-09-24",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-09-17.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-09-17-synthesis.json",
-  "verified_count": 21,
-  "selected_count": 7,
+  "briefing_path": "briefings/berlin-restaurants/2026-09-24.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-09-24-synthesis.json",
+  "verified_count": 17,
+  "selected_count": 4,
   "selected_restaurants": [
-    "Fu Li Lai",
-    "Khao Taan",
-    "Papaya",
-    "Adana Grillhaus",
-    "Il Calice",
-    "Nußbaumerin",
-    "CODA"
+    "Khao Soi",
+    "Meet You",
+    "Mira",
+    "Sabor a mí"
   ],
-  "notes": "7 entries from 21 verified inbox items (unique CIDs after section duplicates). Excluded Chuan Garden, Shaniu's House of Noodles, Ma-Makan, Duc Anh Quan, Tadım Ocakbaşı, El-Reda, Blue Fox/Der blaue Fuchs, Sljiva, Stari Most, and Rutz as repeats within the 10-week window. Papaya listed as Charlottenburg in inbox but Maps address is Winterfeldtstraße 42 (Schöneberg); used Schöneberg. Adana Grillhaus is the Skalitzer Straße listing (cid 13852046494429029825), distinct from the Audre-Lorde-Straße cid last covered 2026-07-02 and now trimmed as older than 10 weeks. Included one fine-dining entry (CODA); excluded Rutz as a 2026-08-20 repeat. Neighborhoods: Steglitz, Friedrichshain, Schöneberg, Kreuzberg, Charlottenburg (2), Neukölln. Trimmed 2026-07-02 index entries as older than 10 weeks."
+  "notes": "4 entries from 17 verified inbox items (unique CIDs after section duplicates). Short week: most of the pool repeated within the 10-week window (Shaniu's Wilmersdorf, Shan Shan, Ma-Makan, Tadım Ocakbaşı, Sljiva, Jolesch, Horváth, UUU). Excluded Yeni Adana Grillhaus (Skalitzer Str. 99, different cid from last week's Adana Grillhaus) to avoid a second consecutive Skalitzer ocakbaşı. Excluded Đistrict Một (Instagrammable Mitte, weakest SE Asian evidence) and Mina Ristorante (East Side Gallery, thin dish-level support). No fine-dining entry — both Horváth and UUU are repeats. Neighborhoods: Neukölln (2), Charlottenburg, Friedrichshain. Trimmed 2026-07-09 index entries as older than 10 weeks."
 }
