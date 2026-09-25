@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-25
+
+- **spain-junts-housing-decree-tuesday** — eldiario.es: the government is racing fiscal concessions to Junts so a housing decree can pass on Tuesday (section: spain)
+- **spain-wanninkhof-dolores-vazquez-debt** — EL PAÍS: 25 years on, Spain has not repaired Dolores Vázquez's 519 days in prison as an innocent woman (section: spain)
+- **spain-carmen-ortiz-plea-bargain** — EL PAÍS: Carmen Ortiz's daughters had to plea-bargain so her killer would not walk free (section: spain)
+- **germany-bond-yields-2007-high** — Handelsblatt: German bond yields are at their highest since 2007 as oil, inflation and bottlenecks rise (section: germany)
+- **germany-teilzeit-pension-offset** — Tagesspiegel: mothers who go part-time lose pay and pension rights; how couples can offset the loss (section: germany)
+- **germany-correggio-dresden-show** — Tagesspiegel: Dresden's Gemäldegalerie has the first major Correggio exhibition outside Italy (section: germany)
+- **berlin-linke-parteitag-sondierungen** — rbb24: Die Linke's Friday congress will decide exploratory talks, starting with Greens and SPD (section: berlin)
+- **berlin-finger-musikschule-court** — Tagesspiegel: Ina Finger sued her way back to heading the Friedrichshain-Kreuzberg music school (section: berlin)
+- **berlin-gruenau-pedestrian-light** — Tagesspiegel: Grünau neighbours still want a pedestrian light on Regattastraße after a child was hit (section: berlin)
+- **world-iran-7day-ceasefire-hormuz** — Financial Times: Iran offered the US a 7-day ceasefire that could reopen the Strait of Hormuz (section: world)
+- **world-ethiopia-tigray-offensive** — The Guardian: a Tigrayan offensive into Afar and Amhara has revived fears of Ethiopia's civil war (section: world)
+- **world-china-health-tech** — Rest of World: China's lead in health tech is framed as good news for patients elsewhere (section: world)
+
 ## 2026-09-24
 
 - **spain-maricarmen-housing-decree** — eldiario.es: the government is racing a housing decree to the next Cabinet after the eviction of 87-year-old Maricarmen Abascal (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-china-battery-factory-halt** — Bloomberg: China has temporarily stopped new battery-factory projects pending a year-end capacity review (section: world)
 - **world-anthropic-bioweapons-blocked** — Financial Times: Anthropic disclosed five cases of users hiding research that could have helped build bioweapons (section: world)
 - **world-fgm-15m-horizon-fund** — The Guardian: a $15.5m Her Horizon Fund aims to build momentum against FGM as donor money dries up (section: world)
-
-## 2026-09-10
-
-- **spain-sahrawi-nationality-vote** — eldiario.es: Congress is set to grant nationality to Sahrawis born in the former colony before 1977 (section: spain)
-- **spain-ayuso-m501-fire-highway** — eldiario.es: Ayuso is using Madrid's mega-fire to push dual carriageway of the M-501 through protected land (section: spain)
-- **spain-ceuta-40-declassified-files** — EL PAÍS: forty declassified files map what agencies knew before the Ceuta rush (section: spain)
-- **germany-baerbock-zeitenwende-cost** — Berliner Zeitung: a running tally puts Germany's Ukraine course at about €100 billion (section: germany)
-- **germany-dax-oil-ecb** — Handelsblatt: oil is weighing on the Dax ahead of an ECB rate decision (section: germany)
-- **germany-warntag-berlin-sirens** — Tagesspiegel: the federal warning day arrives with Berlin's siren build-out still lagging (section: germany)
-- **berlin-krach-bribery-probe** — rbb24: Hannover prosecutors are investigating SPD lead Steffen Krach for bribery (section: berlin)
-- **berlin-holocaust-memorial-second-indictment** — rbb24: a second indictment has been filed over an attack at the Holocaust memorial (section: berlin)
-- **berlin-jewish-museum-25-kugelmann** — rbb24: the Jewish Museum's first programme director looks back at 25 years (section: berlin)
-- **world-imf-reis-tariff-veto** — Financial Times: the IMF dropped leading chief-economist candidate Ricardo Reis over Trump tariff remarks (section: world)
-- **world-tiguerones-terror-designation** — The Guardian: Washington has listed Ecuador's Los Tiguerones as a terrorist group (section: world)
-- **world-vietnam-hub-airport** — Nikkei Asia: Vietnam's new hub airport is nearly ready and airlines are slow to commit (section: world)

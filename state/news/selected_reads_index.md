@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-25
+
+- [Can AI Be Regulated?](https://foreignpolicy.com/2026/09/24/ai-regulation-technology-pace-frontier-stock-market/) — Foreign Policy
+- [Can quantum turn ‘magic’ into money?](https://www.ft.com/content/ae9eedd2-4530-47e4-be4b-242d0e2a6253?syn-25a6b1a6=1) — Financial Times
+- [Nepal struggles to raise $5bn for flood recovery as global aid retreats](https://asia.nikkei.com/economy/natural-disasters/nepal-struggles-to-raise-5bn-for-flood-recovery-as-global-aid-retreats) — Nikkei Asia
+- [EU urges UK to raise tariffs on Chinese cars to avoid ‘made in Europe’ barriers](https://www.ft.com/content/5453be91-7bd9-4097-9e83-870354d3a248?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-09-24
 
 - [Trump lays a new trap for Takaichi](https://www.ft.com/content/8dfae006-c1ac-4713-8497-0e0e59e419f6?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Fed and BoE step up scrutiny of bank exposure to trading firms after Jane Street loss](https://www.ft.com/content/f1d9d398-0666-44cf-96f4-390e6c3f5173?syn-25a6b1a6=1) — Financial Times
 - [Macron and Carney announce closer France-Canada ties amid Trump tensions](https://www.theguardian.com/world/2026/sep/21/france-canada-relations-eu-europe-macron-carney) — The Guardian
 - [Bessent hails US-China AI dialogue ahead of Trump-Xi meeting](https://www.ft.com/content/d29d769e-039c-4d11-9152-e63ccd397b32?syn-25a6b1a6=1) — Financial Times
-
-## 2026-09-20
-
-- [Treat AI Like a Normal Crisis](https://www.theatlantic.com/technology/2026/09/how-to-navigate-ai-panic/688703/?utm_source=feed) — The Atlantic
-- [Israel’s settler economy braces for European sanctions](https://www.ft.com/content/f780b2a4-13ff-44ec-8225-cf38d4f0c966?syn-25a6b1a6=1) — Financial Times
-- [Un mundo en llamas se da cita en una ONU en ruinas](https://elpais.com/internacional/2026-09-20/un-mundo-en-llamas-se-da-cita-en-una-onu-en-ruinas.html) — EL PAÍS
-- [Russia’s new air campaign seeks to destroy Ukrainian economy](https://www.ft.com/content/0ecc81ad-2119-4763-90fb-ba5d399d913d) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 
