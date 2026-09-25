@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-09-25
+
+- SHERELLE — With a Vengeance
+- rRoxymore — Juggling Dualities
+- WARIOUS2 — WARIOUS2
+- GiGi FM — Shelter Our Time
+- Progressive Alliance — Progressive Alliance: 2026
+- Logic1000 — DJ-Kicks: Logic1000
+- Aukai — Temporal
+- Le Motel — Pozo de Agua
+- Jesse Sizmo — R & Balearic
+- Martin Alejandro Oviedo — Progressive House 2026
+
 ## 2026-09-18
 
 - Maara — Revenge from the Penthouse EP
