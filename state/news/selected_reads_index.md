@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-26
+
+- [Tourist taxes on the march](https://www.ft.com/content/e6856a1a-77e4-42b5-bcd8-f91973ca9755?syn-25a6b1a6=1) — Financial Times
+- [AI Companies’ New Plan to Keep Themselves From Destroying Everything](https://www.theatlantic.com/technology/2026/09/ai-companies-evaluators-risk/688785/?utm_source=feed) — The Atlantic
+- [Pomp, tariffs and AI: 5 things to know about the Trump-Xi summit](https://asia.nikkei.com/spotlight/trump-xi-summit/pomp-tariffs-and-ai-5-things-to-know-about-the-trump-xi-summit) — Nikkei Asia
+- [Die KI, die nicht lügen soll](https://www.tagesspiegel.de/wissen/die-ki-die-nicht-lugen-soll-es-gibt-einen-weg-und-ich-habe-einen-plan-dafur-16087989.html) — Tagesspiegel
+
 ## 2026-09-25
 
 - [Can AI Be Regulated?](https://foreignpolicy.com/2026/09/24/ai-regulation-technology-pace-frontier-stock-market/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Why the Iran-Backed Houthis in Yemen and Saudi Arabia Are Back at War](https://www.nytimes.com/2026/09/21/world/middleeast/yemen-houthis-saudi-war.html) — The New York Times
 - [It’s Time to Update the U.N. Sustainable Development Goals](https://foreignpolicy.com/2026/09/21/united-nations-sustainable-development-goals-sdgs-conflict-aid/) — Foreign Policy
 - [De Tinder a las ‘Apps’ para correr: los móviles se convierten en un frente para reclutar, espiar y sabotear al enemigo](https://elpais.com/internacional/2026-09-22/de-tinder-a-las-apps-para-correr-los-moviles-se-convierten-en-un-frente-para-reclutar-espiar-y-sabotear-al-enemigo.html) — EL PAÍS
-
-## 2026-09-21
-
-- [Our A.I. Problem](https://www.newyorker.com/magazine/2026/09/28/our-ai-problem) — The New Yorker
-- [Fed and BoE step up scrutiny of bank exposure to trading firms after Jane Street loss](https://www.ft.com/content/f1d9d398-0666-44cf-96f4-390e6c3f5173?syn-25a6b1a6=1) — Financial Times
-- [Macron and Carney announce closer France-Canada ties amid Trump tensions](https://www.theguardian.com/world/2026/sep/21/france-canada-relations-eu-europe-macron-carney) — The Guardian
-- [Bessent hails US-China AI dialogue ahead of Trump-Xi meeting](https://www.ft.com/content/d29d769e-039c-4d11-9152-e63ccd397b32?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

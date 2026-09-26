@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-26
+
+- **spain-junts-vulture-fund-eviction-ban** — eldiario.es: housing is bargaining with Junts to ban evictions from fund-owned flats and stop funds buying homes (section: spain)
+- **spain-morocco-returns-decree** — EL PAÍS: a draft decree-law would return migrants to Morocco before asylum claims are decided (section: spain)
+- **spain-sociedad-civil-espanola-protest** — EL PAÍS: Saturday's "treason" march against Sánchez is run by a named right-wing network (section: spain)
+- **germany-bundesrat-tankrabatt-october** — Handelsblatt: the Bundesrat approved a fuel-duty cut from 1 October (section: germany)
+- **germany-radikalenerlass-teachers-hauser-poettinger** — Berliner Zeitung: two trainee-teacher cases test a loyalty screen for classrooms (section: germany)
+- **germany-brandenburg-verfassungsgericht-afd** — Tagesspiegel: the state constitutional-court president on an AfD-heavy docket (section: germany)
+- **berlin-youngest-abgeordnete** — Tagesspiegel: only three of 158 new House members were born in 2000 or later (section: berlin)
+- **berlin-thiel-axel-springer-award** — rbb24: Axel Springer is giving its award to Peter Thiel (section: berlin)
+- **berlin-eisbaren-koeln-win** — rbb24: the Eisbären won a wild DEL top game in Cologne (section: berlin)
+- **world-openai-agents-governments** — Financial Times: OpenAI says governments are among dozens of organisations its agents reached (section: world)
+- **world-hurricane-polo-baja** — The Guardian: Polo, the east Pacific's second-most intense hurricane on record, is heading for Baja (section: world)
+- **world-china-trade-syracuse-micron** — Bloomberg: Froman on China's export machine; Syracuse's $100bn Micron plant as the industrial-policy bet (section: world)
+
 ## 2026-09-25
 
 - **spain-junts-housing-decree-tuesday** — eldiario.es: the government is racing fiscal concessions to Junts so a housing decree can pass on Tuesday (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-hormuz-tanker-air-defence-slots** — Financial Times: the US has cut Hormuz tanker air-defence cover to two daily slots (section: world)
 - **world-japan-un-map-kurils** — The Guardian: Japan wants the UN's new true-scale map revised because it shows the Kurils as Russian (section: world)
 - **world-atlantic-ai-pandemic** — The Atlantic: an AI-designed pandemic is not the outbreak to plan for (section: world)
-
-## 2026-09-11
-
-- **spain-ceuta-women-children-shelter-doors** — eldiario.es: migrant women and children left outside two Ceuta government reception centres (section: spain)
-- **spain-perello-judicial-year-criticism** — eldiario.es: CGPJ/Supreme Court president Isabel Perelló opened the judicial year warning office-holders not to attack rulings (section: spain)
-- **spain-illa-convivencia-extremism** — La Vanguardia: Catalan president Salvador Illa called for convivencia amid management problems and a rising extremist vote (section: spain)
-- **germany-merz-budget-chancellor-test** — Handelsblatt: Union frustration with Friedrich Merz is now aimed at the Bundeshaushalt as a make-or-break test (section: germany)
-- **germany-ecb-rate-hike-dax** — Handelsblatt: another ECB rate rise is weighing on the Dax ahead of Friday data (section: germany)
-- **germany-klingbeil-expo-berlin** — Tagesspiegel: finance minister Lars Klingbeil wants to “open doors” for an Expo in Berlin (section: germany)
-- **berlin-checkpoint-charlie-redesign-winner** — rbb24: a winning design is in to remake Checkpoint Charlie as an education and memory site (section: berlin)
-- **berlin-emirates-ber-dubai** — rbb24: Emirates has been cleared to fly BER–Dubai (section: berlin)
-- **berlin-fhxberg-greens-linke-mayor-duel** — Tagesspiegel: Greens and Left each have a gay candidate for Friedrichshain-Kreuzberg district mayor (section: berlin)
-- **world-china-battery-factory-halt** — Bloomberg: China has temporarily stopped new battery-factory projects pending a year-end capacity review (section: world)
-- **world-anthropic-bioweapons-blocked** — Financial Times: Anthropic disclosed five cases of users hiding research that could have helped build bioweapons (section: world)
-- **world-fgm-15m-horizon-fund** — The Guardian: a $15.5m Her Horizon Fund aims to build momentum against FGM as donor money dries up (section: world)

@@ -1,58 +1,63 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-25",
-  "briefing_date": "2026-09-25",
-  "inbox_date": "2026-09-25",
+  "date": "2026-09-26",
+  "briefing_date": "2026-09-26",
+  "inbox_date": "2026-09-26",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-25.md",
-  "inbox_path": "inbox/news/2026-09-25-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-26.md",
+  "inbox_path": "inbox/news/2026-09-26-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Las consecuencias de las mentiras de Zapatero sobre sus joyas: “Nadie se ve compartiendo escenario en un mitin con él”",
+      "headline": "Las súplicas que ignoró Urbagestión antes del desahucio de Maricarmen",
       "section": "spain",
-      "reason": "dedup: spain-zapatero-saudi-jewels-ethics (24 September); PSOE scandals avoid_unless_material; Other Headlines only"
+      "reason": "one_theme: same Maricarmen/housing thread as 24–25 September; Other Headlines only"
     },
     {
-      "headline": "Penalización por subir el alquiler, facilidad para construir y protección del inquilino: los puntos calientes del decreto de vivienda",
+      "headline": "El Ayuntamiento de Madrid rechaza la oferta de Urbagestión para el piso de Maricarmen y abre una mediación",
       "section": "spain",
-      "reason": "one_theme: same housing-decree thread; kept Junts Tuesday-vote item as the legislative beat"
+      "reason": "one_theme: same Maricarmen thread; mediation parked in Other Headlines"
     },
     {
-      "headline": "Las vías para expropiar el piso del que ha sido desahuciada Maricarmen: una ley franquista y el \"interés público y social\"",
+      "headline": "Vivienda estudia eliminar el IPC como referencia para la subida de todos los alquileres",
       "section": "spain",
-      "reason": "one_theme: same Maricarmen/housing thread"
+      "reason": "one_theme: same housing-decree thread; kept Junts vulture-fund design as the legislative beat"
     },
     {
-      "headline": "Börse am 25. September: Sechs Punkte, die für Anleger heute wichtig sind",
+      "headline": "Valladolid se solidariza con Maricarmen ante la sede de Urbagestión",
+      "section": "spain",
+      "reason": "avoid_unless_material: housing protests; not a legislative trigger"
+    },
+    {
+      "headline": "El sistema de IA de OpenAI accedió por su cuenta a portales oficiales del Gobierno de Estados Unidos",
+      "section": "spain",
+      "reason": "geographic_misfit: US government portals; used FT World item instead"
+    },
+    {
+      "headline": "+++ Ukraine-Krieg +++: Die Ukraine bittet die Partner um weitere 27 Milliarden Dollar",
       "section": "germany",
-      "reason": "dedup: germany-dax-week-open-elections (21 September); incremental daily tape"
+      "reason": "geographic_misfit: Ukraine war blog; Other Headlines only"
     },
     {
-      "headline": "Bald im Livestream: Warum wir gerade über die falsche Krise sprechen",
+      "headline": "Künstliche Intelligenz: KI von OpenAI lud Nutzer-Bilder zu Online-Plattformen hoch",
       "section": "germany",
-      "reason": "promo: 30 September livestream, not a news development"
+      "reason": "one_theme: same OpenAI-agents disclosure as World; geographic_misfit"
     },
     {
-      "headline": "+++ USA +++: Trump – Verbindung zwischen USA und China war nie stärker",
-      "section": "germany",
-      "reason": "geographic_misfit: US–China summit; parked in Other Headlines"
-    },
-    {
-      "headline": "Jobkiller Künstliche Intelligenz: Sind eher die Berufe von Männern oder die von Frauen betroffen?",
-      "section": "germany",
-      "reason": "geographic_misfit: Australian labour study, not a Germany development"
-    },
-    {
-      "headline": "Berlin gibt auf: Was der Rückzug für den Segelstandort Rostock-Warnemünde bedeutet",
+      "headline": "Gedenken an NS-Opfer: Stolpersteine zur Erinnerung gehören ins Stadtbild",
       "section": "berlin",
-      "reason": "dedup: berlin-olympic-bid-warnemuende-drop (24 September)"
+      "reason": "geographic_misfit: Heidenau / Saxony, not Berlin city"
+    },
+    {
+      "headline": "Klinikum Dresden baut Berufsfachschule um 144 Ausbildungsplätze aus",
+      "section": "berlin",
+      "reason": "geographic_misfit: Dresden, not Berlin"
     },
     {
       "headline": "Drogenrazzia in Sachsen-Anhalt: Mutmaßliche Dealer auf frischer Tat ertappt",
       "section": "berlin",
-      "reason": "geographic_misfit: Harz / Sachsen-Anhalt, not Berlin city"
+      "reason": "dedup/geographic_misfit: Harz / Sachsen-Anhalt (also rejected 25 September)"
     },
     {
       "headline": "Indian billionaire’s payments firm plots biggest London flotation in years",
@@ -60,15 +65,10 @@
       "reason": "dedup: selected_reads_index 24 September"
     },
     {
-      "headline": "Lula says Trump wants to ‘colonise’ and capture Brazil’s resources by meddling in election",
+      "headline": "AI Companies’ New Plan to Keep Themselves From Destroying Everything",
       "section": "world",
-      "reason": "Other Headlines only; kept Ethiopia and China health for Africa/East Asia slots"
-    },
-    {
-      "headline": "Can AI Be Regulated?",
-      "section": "world",
-      "reason": "parked as Selected Read; avoided a second AI-governance World slot"
+      "reason": "parked as Selected Read; avoided a second AI-governance World slot beside OpenAI agents"
     }
   ],
-  "notes": "Spain: Junts fiscal concessions for Tuesday housing decree (eldiario.es; material legislation vs 24 September Cabinet-race item), Wanninkhof/Dolores Vázquez debt (EL PAÍS), Carmen Ortiz plea bargain (EL PAÍS). Spain pool was mostly Maricarmen plus Zapatero; one housing theme kept. Germany: 2007 bond-yield high (Handelsblatt), Teilzeit/pension offset and Correggio Dresden (Tagesspiegel). publisher_pool_thin after geo/dedup — only Handelsblatt and Tagesspiegel left. Berlin: Linke Friday congress (rbb24), music-school court win and Grünau pedestrian light (Tagesspiegel). World: Iran 7-day Hormuz offer (Middle East, FT), Tigray offensive (Africa, Guardian), China health tech (East Asia, Rest of World). Selected Reads: FP AI regulation, FT quantum, Nikkei Nepal flood aid, FT EU-UK China car tariffs."
+  "notes": "Spain: Junts vulture-fund eviction/purchase ban (eldiario.es; material decree design vs 25 September vote-timing), Morocco returns-before-asylum decree (EL PAÍS), Sociedad Civil Española protest network (EL PAÍS). Housing/Maricarmen pool collapsed to one theme. Germany: Bundesrat Tankrabatt from 1 October (Handelsblatt newsblog; legislation after 18 September Länder talks), Hauser/Poettinger teacher loyalty screen (Berliner Zeitung, recoded from berlin inbox), Brandenburg constitutional-court AfD docket (Tagesspiegel). Berlin pool thin after geo filter: youngest MPs (Tagesspiegel), Thiel Axel-Springer award and Eisbären Köln win (rbb24). World: OpenAI agents/governments (NA, FT; material vs 24 September Australia site), Hurricane Polo Baja (LatAm, Guardian), China export machine / Syracuse Micron (East Asia/NA, Bloomberg). Selected Reads: FT tourist taxes, Atlantic AI evaluators, Nikkei Trump-Xi 5 things, Tagesspiegel Bengio Law Zero."
 }
