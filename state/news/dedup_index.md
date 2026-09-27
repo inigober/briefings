@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-27
+
+- **spain-maricarmen-coalition-giro-tuesday** — EL PAÍS: the government and partners say they must lock a housing pact before Tuesday; Sumar has threatened to walk (section: spain)
+- **spain-leire-diez-uco-villalobos-hoax** — eldiario.es: a UCO file is being used to claim Justice backed a passport for Nervis Villalobos; the paper says officials refused (section: spain)
+- **spain-ana-vazquez-ourense-trumpism** — eldiario.es: Galicia's PP is floating Ana Vázquez, a long-serving Ourense deputy, as a possible mayoral name (section: spain)
+- **germany-voigt-cdu-laender-reset** — Handelsblatt: Thuringia's Voigt wants the Länder to drive a CDU programme reset after state-election losses (section: germany)
+- **germany-pflege-reform-kassen-blockade** — Handelsblatt: care funds warn a Union–SPD freeze of the Pflegereform would empty the pot (section: germany)
+- **germany-blown-lift-electric-flight** — Tagesspiegel: a start-up bet on blown-lift physics for electric aircraft (section: germany)
+- **berlin-spd-sondieren-linke-gruene** — rbb24: the SPD state board will open exploratory talks with Die Linke and the Greens (section: berlin)
+- **berlin-ber-night-flight-ban-crumbach** — Tagesspiegel: Brandenburg's transport minister will not extend BER's midnight-to-5am curfew (section: berlin)
+- **berlin-union-kreilach-rijeka** — rbb24: Union Berlin beat Rijeka in a farewell friendly for Kreilach (section: berlin)
+- **world-south-korea-ai-for-all** — Financial Times: Seoul's deputy PM is selling a state-backed "AI for all" deployment (section: world)
+- **world-us-housing-pe-midterms** — Financial Times: private-equity landlords are a midterm campaign target (section: world)
+- **world-pacific-hurricanes-hawaii** — The Atlantic: Hawaii is on a third close call in a crowded Pacific hurricane season (section: world)
+
 ## 2026-09-26
 
 - **spain-junts-vulture-fund-eviction-ban** — eldiario.es: housing is bargaining with Junts to ban evictions from fund-owned flats and stop funds buying homes (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-rbi-tata-sons-listing** — Financial Times: the RBI rejected Tata Sons' appeal and is forcing the holding company to list (section: world)
 - **world-fujitsu-ai-chip-exports** — Nikkei Asia: Fujitsu will export AI chips built on its supercomputer technology to the US and Asia (section: world)
 - **world-fed-energy-inflation** — Bloomberg: energy-driven inflation is complicating the Fed's next rate call (section: world)
-
-## 2026-09-12
-
-- **spain-ceuta-minors-forced-returns** — eldiario.es: three minors say they were returned from Ceuta to Morocco at night without the Extranjería process (section: spain)
-- **spain-gc-vive-madrid-suspension** — eldiario.es: the Civil Guard suspended for six months a lieutenant colonel in the Vive Madrid sexual-exploitation case (section: spain)
-- **spain-nagano-one-mahler** — EL PAÍS: Kent Nagano debuts with the Orquesta Nacional de España on Mahler's Second (section: spain)
-- **germany-hapag-lloyd-zim-takeover** — Handelsblatt: Hapag-Lloyd is still pursuing a ~€3.6bn ZIM takeover after an Israeli veto (section: germany)
-- **germany-cdu-mv-five-percent** — Handelsblatt: the CDU in Mecklenburg-Vorpommern is polling near the 5% line before 20 September (section: germany)
-- **germany-cat-culling-rules** — Berliner Zeitung: German hunting law still allows stray cats to be shot; Schleswig-Holstein recorded almost 2,600 kills (section: germany)
-- **berlin-art-week-charite-ruin** — Tagesspiegel: Art Week is staging lie-down sessions in a ruined Charité lecture hall (section: berlin)
-- **berlin-krach-clinic-deal** — Tagesspiegel: insiders say SPD lead Steffen Krach pushed a Lower Saxony clinic-site sale now in the bribery file (section: berlin)
-- **berlin-eisbaren-chl-win** — rbb24: the Eisbären have their first Champions Hockey League win (section: berlin)
-- **world-hormuz-tanker-air-defence-slots** — Financial Times: the US has cut Hormuz tanker air-defence cover to two daily slots (section: world)
-- **world-japan-un-map-kurils** — The Guardian: Japan wants the UN's new true-scale map revised because it shows the Kurils as Russian (section: world)
-- **world-atlantic-ai-pandemic** — The Atlantic: an AI-designed pandemic is not the outbreak to plan for (section: world)

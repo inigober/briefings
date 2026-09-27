@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-26",
-  "briefing_date": "2026-09-26",
-  "inbox_date": "2026-09-26",
+  "date": "2026-09-27",
+  "briefing_date": "2026-09-27",
+  "inbox_date": "2026-09-27",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-26.md",
-  "inbox_path": "inbox/news/2026-09-26-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-27.md",
+  "inbox_path": "inbox/news/2026-09-27-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Las súplicas que ignoró Urbagestión antes del desahucio de Maricarmen",
+      "headline": "Un 15M por la vivienda presiona a los partidos para pactar medidas urgentes",
       "section": "spain",
-      "reason": "one_theme: same Maricarmen/housing thread as 24–25 September; Other Headlines only"
+      "reason": "avoid_unless_material: housing protests; street/Sol camp parked in Other Headlines; kept EL PAÍS coalition giro as the legislative beat"
     },
     {
-      "headline": "El Ayuntamiento de Madrid rechaza la oferta de Urbagestión para el piso de Maricarmen y abre una mediación",
+      "headline": "La marcha por la vivienda se transforma en una acampada en la Puerta del Sol",
       "section": "spain",
-      "reason": "one_theme: same Maricarmen thread; mediation parked in Other Headlines"
+      "reason": "avoid_unless_material: housing protests; one_theme with Maricarmen decree"
     },
     {
-      "headline": "Vivienda estudia eliminar el IPC como referencia para la subida de todos los alquileres",
+      "headline": "Decenas de miles de personas exigen atajar la crisis de vivienda y un 'decreto Maricarmen' que prohíba los desahucios",
       "section": "spain",
-      "reason": "one_theme: same housing-decree thread; kept Junts vulture-fund design as the legislative beat"
+      "reason": "avoid_unless_material: housing protests; one_theme"
     },
     {
-      "headline": "Valladolid se solidariza con Maricarmen ante la sede de Urbagestión",
+      "headline": "De Pepi a Maricarmen siete años después: dos mujeres vulnerables y dos desahucios que movieron cambios legislativos",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; not a legislative trigger"
+      "reason": "one_theme: same housing/Maricarmen thread as the coalition-giro slot"
     },
     {
-      "headline": "El sistema de IA de OpenAI accedió por su cuenta a portales oficiales del Gobierno de Estados Unidos",
-      "section": "spain",
-      "reason": "geographic_misfit: US government portals; used FT World item instead"
-    },
-    {
-      "headline": "+++ Ukraine-Krieg +++: Die Ukraine bittet die Partner um weitere 27 Milliarden Dollar",
+      "headline": "Brasiliens Norden: Karibik Amazoniens: Was Alter do Chão einzigartig macht",
       "section": "germany",
-      "reason": "geographic_misfit: Ukraine war blog; Other Headlines only"
+      "reason": "geographic_misfit: Brazil travel feature"
     },
     {
-      "headline": "Künstliche Intelligenz: KI von OpenAI lud Nutzer-Bilder zu Online-Plattformen hoch",
+      "headline": "Wahl des Bundespräsidenten: CSU-Vize: Kandidatur für Steinmeier-Nachfolge schnell klären",
       "section": "germany",
-      "reason": "one_theme: same OpenAI-agents disclosure as World; geographic_misfit"
+      "reason": "parked in Other Headlines; preferred Voigt Länder reset as the CDU beat"
     },
     {
-      "headline": "Gedenken an NS-Opfer: Stolpersteine zur Erinnerung gehören ins Stadtbild",
+      "headline": "Anhörung im Thüringer Landtag: Warum Kerkeling und Maaßen über ein AfD-Verbot sprechen",
+      "section": "germany",
+      "reason": "dedup-adjacent: AfD legal track after 26 September Brandenburg court; Other Headlines only"
+    },
+    {
+      "headline": "„Es ist unbeschreiblich“: Paula Löber aus Sachsen-Anhalt ist die neue Deutsche Weinkönigin",
       "section": "berlin",
-      "reason": "geographic_misfit: Heidenau / Saxony, not Berlin city"
+      "reason": "geographic_misfit: Sachsen-Anhalt, not Berlin"
     },
     {
       "headline": "Klinikum Dresden baut Berufsfachschule um 144 Ausbildungsplätze aus",
       "section": "berlin",
-      "reason": "geographic_misfit: Dresden, not Berlin"
+      "reason": "geographic_misfit: Dresden (also rejected 26 September)"
     },
     {
-      "headline": "Drogenrazzia in Sachsen-Anhalt: Mutmaßliche Dealer auf frischer Tat ertappt",
+      "headline": "Basketball: Alba Berlin mit herber Niederlage gegen die Bayern",
       "section": "berlin",
-      "reason": "dedup/geographic_misfit: Harz / Sachsen-Anhalt (also rejected 25 September)"
+      "reason": "one_theme: kept Union/Kreilach as the single local sport slot"
     },
     {
-      "headline": "Indian billionaire’s payments firm plots biggest London flotation in years",
+      "headline": "Japan's Sumitomo Life to deploy AI for tailor-made contracts",
       "section": "world",
-      "reason": "dedup: selected_reads_index 24 September"
+      "reason": "one_theme: East Asia AI beside South Korea AI-for-all; parked as Selected Read"
     },
     {
-      "headline": "AI Companies’ New Plan to Keep Themselves From Destroying Everything",
+      "headline": "Pomp over progress in Xi’s US summit with Trump is a win for China",
       "section": "world",
-      "reason": "parked as Selected Read; avoided a second AI-governance World slot beside OpenAI agents"
+      "reason": "dedup: Trump–Xi pomp already in Other Headlines 24–26 September"
     }
   ],
-  "notes": "Spain: Junts vulture-fund eviction/purchase ban (eldiario.es; material decree design vs 25 September vote-timing), Morocco returns-before-asylum decree (EL PAÍS), Sociedad Civil Española protest network (EL PAÍS). Housing/Maricarmen pool collapsed to one theme. Germany: Bundesrat Tankrabatt from 1 October (Handelsblatt newsblog; legislation after 18 September Länder talks), Hauser/Poettinger teacher loyalty screen (Berliner Zeitung, recoded from berlin inbox), Brandenburg constitutional-court AfD docket (Tagesspiegel). Berlin pool thin after geo filter: youngest MPs (Tagesspiegel), Thiel Axel-Springer award and Eisbären Köln win (rbb24). World: OpenAI agents/governments (NA, FT; material vs 24 September Australia site), Hurricane Polo Baja (LatAm, Guardian), China export machine / Syracuse Micron (East Asia/NA, Bloomberg). Selected Reads: FT tourist taxes, Atlantic AI evaluators, Nikkei Trump-Xi 5 things, Tagesspiegel Bengio Law Zero."
+  "notes": "Spain pool collapsed to housing/Maricarmen after 24–26 September coverage; kept one material legislative beat (EL PAÍS coalition giro / Sumar walk threat) and two non-housing eldiario.es items (Leire Díez UCO hoax; Ana Vázquez Ourense). Housing protests parked in Other Headlines. Germany: Voigt Länder reset and Pflege-kassen blockade (Handelsblatt); blown-lift electric flight (Tagesspiegel). Berlin pool thin after geo filter: SPD sondieren (rbb24; material after Friday Linke congress), BER night-flight ban (Tagesspiegel), Union/Kreilach (rbb24). World: South Korea AI-for-all (East Asia, FT), US PE housing midterms (NA, FT), Pacific/Hawaii hurricanes (Atlantic). Selected Reads: FP Ressa, Nikkei Sumitomo, FT IMF 50 years, FT Europe AI openness. publisher_pool_thin: Germany eligible publishers were only Handelsblatt and Tagesspiegel."
 }

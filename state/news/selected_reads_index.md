@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-27
+
+- [Big Tech Is Destroying Democracy. Here’s How to Fight Back.](https://foreignpolicy.com/2026/09/25/maria-ressa-big-tech-democracy-ai-autocracy/) — Foreign Policy
+- [Japan's Sumitomo Life to deploy AI for tailor-made contracts](https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-sumitomo-life-to-deploy-ai-for-tailor-made-contracts) — Nikkei Asia
+- [The UK’s IMF bailout has things to teach us 50 years on](https://www.ft.com/content/8cd07ef8-1578-4697-9f8b-d1a6f5b60883?syn-25a6b1a6=1) — Financial Times
+- [Big companies warn lack of ‘AI openness’ could hit investment in Europe](https://www.ft.com/content/aeabd0d5-be0e-4270-987e-0b119b24b355?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-09-26
 
 - [Tourist taxes on the march](https://www.ft.com/content/e6856a1a-77e4-42b5-bcd8-f91973ca9755?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Australia investigating how F-35 fighter jet parts bound for US went missing in Hong Kong](https://www.theguardian.com/world/2026/sep/22/australia-investigating-how-f-35-fighter-jet-parts-bound-for-us-went-missing-in-hong-kong) — The Guardian
 - [The West Is Sending Russia the Wrong Signals](https://foreignpolicy.com/2026/09/22/ukraine-putin-russia-signaling-trump-germany/) — Foreign Policy
 - [El Nino, AI to widen economic growth gap in developing Asia: ADB](https://asia.nikkei.com/economy/el-nino-ai-to-widen-economic-growth-gap-in-developing-asia-adb) — Nikkei Asia
-
-## 2026-09-22
-
-- [Japan plans AI robot contest on International Space Station](https://asia.nikkei.com/business/technology/artificial-intelligence/japan-plans-ai-robot-contest-on-international-space-station) — Nikkei Asia
-- [Why the Iran-Backed Houthis in Yemen and Saudi Arabia Are Back at War](https://www.nytimes.com/2026/09/21/world/middleeast/yemen-houthis-saudi-war.html) — The New York Times
-- [It’s Time to Update the U.N. Sustainable Development Goals](https://foreignpolicy.com/2026/09/21/united-nations-sustainable-development-goals-sdgs-conflict-aid/) — Foreign Policy
-- [De Tinder a las ‘Apps’ para correr: los móviles se convierten en un frente para reclutar, espiar y sabotear al enemigo](https://elpais.com/internacional/2026-09-22/de-tinder-a-las-apps-para-correr-los-moviles-se-convierten-en-un-frente-para-reclutar-espiar-y-sabotear-al-enemigo.html) — EL PAÍS
 
 ## Blocked until 5+ briefings have passed
 
