@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-28
+
+- **spain-housing-decree-junts-podemos-indefinite-leases** — eldiario.es: the Tuesday housing decree must now satisfy Junts and Podemos; the Sol camp wants indefinite rental contracts (section: spain)
+- **spain-young-adult-cancer-rise** — eldiario.es: clinicians are tracing a rise in some cancers among younger adults (section: spain)
+- **spain-ortega-smith-supreme-maternity** — EL PAÍS: the Supreme Court archived a Vox aide's complaint but called Ortega Smith's maternity-leave conduct sexist (section: spain)
+- **germany-niedersachsen-afd-mayoral-runoffs** — Tagesspiegel: the AfD lost three mayoral runoffs in Lower Saxony; Hanover stayed Green (section: germany)
+- **germany-startup-monitor-ai-unicorns** — Die Zeit: more German billion-euro start-ups on AI and defence money, still preferring US models (section: germany)
+- **germany-dressel-hamburg-austerity** — Die Zeit: Hamburg finance senator Andreas Dressel has become the city's austerity general (section: germany)
+- **berlin-kantstrasse-asia-mile** — Tagesspiegel: Kantstraße has become Berlin's densest East Asian food mile (section: berlin)
+- **berlin-alze-bsr-ice-lawsuit** — Tagesspiegel: an ex-pastor is suing the BSR after a winter-service liability runaround (section: berlin)
+- **berlin-marathon-city-day** — rbb24: a love letter to the Berlin Marathon as the day the city likes itself (section: berlin)
+- **world-tsmc-singapore-sold-out** — Nikkei Asia: a TSMC affiliate's first Singapore plant has sold out and is eyeing expansion (section: world)
+- **world-ai-hyperscalers-debt** — Financial Times: hyperscaler capital needs are rewriting how firms and countries borrow (section: world)
+- **world-south-africa-mass-shootings** — The Guardian: two mass shootings killed at least 27 people near Johannesburg and Cape Town (section: world)
+
 ## 2026-09-27
 
 - **spain-maricarmen-coalition-giro-tuesday** — EL PAÍS: the government and partners say they must lock a housing pact before Tuesday; Sumar has threatened to walk (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-trump-rejects-ai-slowdown** — Financial Times: Trump rejected tech bosses' call for an AI slowdown and denounced regulation talk (section: world)
 - **world-tdk-ai-server-components** — Nikkei Asia: TDK will ramp production of electronic components for AI servers (section: world)
 - **world-indonesia-ferry-capsized** — The Guardian: the Virgo Transport 8 capsized in the Java Sea; six dead and about 130 missing (section: world)
-
-## 2026-09-13
-
-- **spain-ceuta-torres-overflow-clearance** — eldiario.es: territorial-policy minister Ángel Víctor Torres, running the Ceuta single command, says El Trampolín, El Príncipe and Loma Colmenar will be eased within days (section: spain)
-- **spain-sumar-candidate-delay** — eldiario.es: Sumar is postponing its general-election candidate and brand announcement, citing the Ceuta crisis (section: spain)
-- **spain-sanchez-deep-state** — EL PAÍS: Sánchez's government says sectors of the Supreme Court, CNI, police and Civil Guard are working to force its fall (section: spain)
-- **germany-asylum-applications-down-protection-up** — Handelsblatt: asylum filings are down while the protection rate is up, with an ECJ ruling doing more work than a criminal-law tweak (section: germany)
-- **germany-niedersachsen-local-elections** — Handelsblatt: about six million Lower Saxony voters elect councils amid the VW crisis and AfD candidate exclusions (section: germany)
-- **germany-nivea-warnery-cosmetics-rules** — Handelsblatt: Beiersdorf CEO Vincent Warnery says EU cosmetics rules must not turn the sector into the next car industry (section: germany)
-- **berlin-police-open-day** — Tagesspiegel: Berlin police are holding an open day, including for children (section: berlin)
-- **berlin-autumn-bird-sites** — Tagesspiegel: a field guide to cranes, geese and starlings staging through the city (section: berlin)
-- **berlin-alba-last-friendly** — rbb24: Alba lost its last pre-season game before the Bundesliga start (section: berlin)
-- **world-rbi-tata-sons-listing** — Financial Times: the RBI rejected Tata Sons' appeal and is forcing the holding company to list (section: world)
-- **world-fujitsu-ai-chip-exports** — Nikkei Asia: Fujitsu will export AI chips built on its supercomputer technology to the US and Asia (section: world)
-- **world-fed-energy-inflation** — Bloomberg: energy-driven inflation is complicating the Fed's next rate call (section: world)

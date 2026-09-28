@@ -1,48 +1,53 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-27",
-  "briefing_date": "2026-09-27",
-  "inbox_date": "2026-09-27",
+  "date": "2026-09-28",
+  "briefing_date": "2026-09-28",
+  "inbox_date": "2026-09-28",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-27.md",
-  "inbox_path": "inbox/news/2026-09-27-synthesis.json",
+  "briefing_path": "briefings/news/2026-09-28.md",
+  "inbox_path": "inbox/news/2026-09-28-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Un 15M por la vivienda presiona a los partidos para pactar medidas urgentes",
+      "headline": "Los rostros de la acampada por la vivienda en Sol: \"Estoy orgullosa de que mi generación esté haciendo todo esto”",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; street/Sol camp parked in Other Headlines; kept EL PAÍS coalition giro as the legislative beat"
+      "reason": "avoid_unless_material: housing protests; street/Sol camp parked in Other Headlines; kept one legislative beat (Junts+Podemos+indefinite leases)"
     },
     {
-      "headline": "La marcha por la vivienda se transforma en una acampada en la Puerta del Sol",
+      "headline": "La acampada en la Puerta del Sol por la vivienda supera todas las expectativas",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; one_theme with Maricarmen decree"
+      "reason": "avoid_unless_material: housing protests; one_theme with Tuesday decree"
     },
     {
-      "headline": "Decenas de miles de personas exigen atajar la crisis de vivienda y un 'decreto Maricarmen' que prohíba los desahucios",
+      "headline": "Madrid acusa de “absoluta negligencia” al Gobierno por permitir la acampada en Sol",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; one_theme"
+      "reason": "avoid_unless_material: housing protests; parked in Other Headlines"
     },
     {
-      "headline": "De Pepi a Maricarmen siete años después: dos mujeres vulnerables y dos desahucios que movieron cambios legislativos",
+      "headline": "De la Corrala Utopía a Maricarmen: la eterna discordia por la vivienda en la izquierda",
       "section": "spain",
-      "reason": "one_theme: same housing/Maricarmen thread as the coalition-giro slot"
+      "reason": "one_theme: same housing/Maricarmen thread as the Tuesday-decree slot"
     },
     {
-      "headline": "Brasiliens Norden: Karibik Amazoniens: Was Alter do Chão einzigartig macht",
+      "headline": "Maricarmen se convierte en marca internacional e inspira a 20 asociaciones europeas",
+      "section": "spain",
+      "reason": "avoid_unless_material: housing protests; Other Headlines only"
+    },
+    {
+      "headline": "Fußball-Nationalmannschaft: Platz eins weit weg: Das droht Klopp in der Nations League",
       "section": "germany",
-      "reason": "geographic_misfit: Brazil travel feature"
+      "reason": "sports: Nations League path; parked in Other Headlines"
     },
     {
-      "headline": "Wahl des Bundespräsidenten: CSU-Vize: Kandidatur für Steinmeier-Nachfolge schnell klären",
+      "headline": "„Caren Miosga“: Der Beobachter vom Nordpol",
       "section": "germany",
-      "reason": "parked in Other Headlines; preferred Voigt Länder reset as the CDU beat"
+      "reason": "incremental TV interview; preferred runoff result, Startup Monitor, and Hamburg budget"
     },
     {
-      "headline": "Anhörung im Thüringer Landtag: Warum Kerkeling und Maaßen über ein AfD-Verbot sprechen",
-      "section": "germany",
-      "reason": "dedup-adjacent: AfD legal track after 26 September Brandenburg court; Other Headlines only"
+      "headline": "Kriminalität: Mann in Berlin-Moabit aus Fahrzeug angeschossen",
+      "section": "berlin",
+      "reason": "one-off crime; Other Headlines only"
     },
     {
       "headline": "„Es ist unbeschreiblich“: Paula Löber aus Sachsen-Anhalt ist die neue Deutsche Weinkönigin",
@@ -50,25 +55,20 @@
       "reason": "geographic_misfit: Sachsen-Anhalt, not Berlin"
     },
     {
-      "headline": "Klinikum Dresden baut Berufsfachschule um 144 Ausbildungsplätze aus",
-      "section": "berlin",
-      "reason": "geographic_misfit: Dresden (also rejected 26 September)"
-    },
-    {
-      "headline": "Basketball: Alba Berlin mit herber Niederlage gegen die Bayern",
-      "section": "berlin",
-      "reason": "one_theme: kept Union/Kreilach as the single local sport slot"
-    },
-    {
-      "headline": "Japan's Sumitomo Life to deploy AI for tailor-made contracts",
+      "headline": "For once, the Fed has put Main Street before Wall Street",
       "section": "world",
-      "reason": "one_theme: East Asia AI beside South Korea AI-for-all; parked as Selected Read"
+      "reason": "dedup: Warsh rate hike already covered 2026-09-17"
+    },
+    {
+      "headline": "Trump asked Xi if China wanted to buy American weapons, US envoy says",
+      "section": "world",
+      "reason": "dedup-adjacent: Trump–Xi summit already in Other Headlines 24–27 September; weapons ask parked in Other Headlines"
     },
     {
       "headline": "Pomp over progress in Xi’s US summit with Trump is a win for China",
       "section": "world",
-      "reason": "dedup: Trump–Xi pomp already in Other Headlines 24–26 September"
+      "reason": "dedup: Trump–Xi pomp already in Other Headlines 24–27 September"
     }
   ],
-  "notes": "Spain pool collapsed to housing/Maricarmen after 24–26 September coverage; kept one material legislative beat (EL PAÍS coalition giro / Sumar walk threat) and two non-housing eldiario.es items (Leire Díez UCO hoax; Ana Vázquez Ourense). Housing protests parked in Other Headlines. Germany: Voigt Länder reset and Pflege-kassen blockade (Handelsblatt); blown-lift electric flight (Tagesspiegel). Berlin pool thin after geo filter: SPD sondieren (rbb24; material after Friday Linke congress), BER night-flight ban (Tagesspiegel), Union/Kreilach (rbb24). World: South Korea AI-for-all (East Asia, FT), US PE housing midterms (NA, FT), Pacific/Hawaii hurricanes (Atlantic). Selected Reads: FP Ressa, Nikkei Sumitomo, FT IMF 50 years, FT Europe AI openness. publisher_pool_thin: Germany eligible publishers were only Handelsblatt and Tagesspiegel."
+  "notes": "Spain pool still housing/Maricarmen after 24–27 September; kept one material legislative beat (eldiario: Tuesday text must fit Junts and Podemos; Sol camp wants indefinite leases) plus two non-housing items (young-adult cancer; Ortega Smith Supreme Court). Housing protests parked in Other Headlines. Germany: Niedersachsen AfD mayoral runoff losses (Tagesspiegel; material after 13–14 September local elections); Startup Monitor AI unicorns and Dressel Hamburg austerity (Die Zeit). publisher_pool_thin: Germany eligible publishers after sports/geo filters were Tagesspiegel and Die Zeit (SZ Habeck was incremental). Berlin pool thin after geo filter on Berliner Zeitung: Kantstraße Asia mile and BSR ice lawsuit (Tagesspiegel); marathon essay (rbb24). World: TSMC Singapore sold-out (East Asia, Nikkei), AI hyperscaler debt (NA/global, FT), South Africa mass shootings (Africa, Guardian). Selected Reads: FT EU hybrid, Guardian Cape Town baboons, Nikkei Kazakh Caspian oil, FP Saudi nuclear. Ceuta cooldown empty; no Ceuta Spain slot."
 }

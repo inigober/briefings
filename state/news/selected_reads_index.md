@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-28
+
+- [EU countries consider Nato-style joint responses to Russian hybrid attacks](https://www.ft.com/content/5513b441-a575-4c73-8532-cb09216c4406?syn-25a6b1a6=1) — Financial Times
+- [‘It’s hard to sell a house when it’s covered in baboon faeces’: Cape Town divided over plan to remove its monkeys](https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe) — The Guardian
+- [Kazakh oil producers weigh new trans-Caspian route to avoid Russia](https://asia.nikkei.com/business/energy/kazakh-oil-producers-weigh-new-trans-caspian-route-to-avoid-russia) — Nikkei Asia
+- [The U.S.-Saudi Nuclear Agreement Carries Proliferation Risks](https://foreignpolicy.com/2026/09/25/saudi-nuclear-agreement-dangerous-proliferation-risks-trump-riyadh-mbs/) — Foreign Policy
+
 ## 2026-09-27
 
 - [Big Tech Is Destroying Democracy. Here’s How to Fight Back.](https://foreignpolicy.com/2026/09/25/maria-ressa-big-tech-democracy-ai-autocracy/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [China Has No Use for AI Doomerism](https://www.theatlantic.com/technology/2026/09/china-ai-panic-doomerism/688761/?utm_source=feed) — The Atlantic
 - [Indian billionaire’s payments firm plots biggest London flotation in years](https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money) — The Guardian
 - [Chinese streaming platform touts first 'hybrid AI' drama series](https://asia.nikkei.com/business/technology/artificial-intelligence/chinese-streaming-platform-touts-first-hybrid-ai-drama-series) — Nikkei Asia
-
-## 2026-09-23
-
-- [Mark Carney and the limits of defying Donald Trump](https://www.ft.com/content/4a808a51-c6e9-4ade-b1f7-95c27fd1aa1e?syn-25a6b1a6=1) — Financial Times
-- [Australia investigating how F-35 fighter jet parts bound for US went missing in Hong Kong](https://www.theguardian.com/world/2026/sep/22/australia-investigating-how-f-35-fighter-jet-parts-bound-for-us-went-missing-in-hong-kong) — The Guardian
-- [The West Is Sending Russia the Wrong Signals](https://foreignpolicy.com/2026/09/22/ukraine-putin-russia-signaling-trump-germany/) — Foreign Policy
-- [El Nino, AI to widen economic growth gap in developing Asia: ADB](https://asia.nikkei.com/economy/el-nino-ai-to-widen-economic-growth-gap-in-developing-asia-adb) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 
