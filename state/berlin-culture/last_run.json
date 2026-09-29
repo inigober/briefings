@@ -1,31 +1,31 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-09-22",
-  "briefing_date": "2026-09-22",
-  "inbox_date": "2026-09-22",
-  "week_start": "2026-09-23",
-  "week_end": "2026-09-29",
+  "date": "2026-09-29",
+  "briefing_date": "2026-09-29",
+  "inbox_date": "2026-09-29",
+  "week_start": "2026-09-30",
+  "week_end": "2026-10-06",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-09-22.md",
-  "inbox_path": "inbox/berlin-culture/2026-09-22-synthesis.json",
-  "items_count": 13,
+  "briefing_path": "briefings/berlin-culture/2026-09-29.md",
+  "inbox_path": "inbox/berlin-culture/2026-09-29-synthesis.json",
+  "items_count": 10,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 1,
+    "exhibitions": 0,
     "film": 2,
     "performing_arts": 1,
-    "music": 2,
-    "wildcards": 2,
+    "music": 1,
+    "wildcards": 1,
     "advance_radar": 2
   },
   "thin_sections": ["exhibitions", "performing_arts", "music"],
   "omitted_sections": [],
   "validation_warnings": [
-    "Section 'exhibitions' has 1 entries (style minimum 4)",
+    "Section 'exhibitions' has 0 entries (style minimum 4)",
     "Section 'performing_arts' has 1 entries (style minimum 2)",
-    "Section 'music' has 2 entries (style minimum 3)"
+    "Section 'music' has 1 entries (style minimum 3)"
   ],
   "dropped_missing_end_dates": [],
   "verification_fetches": 5,
-  "notes": "Top Picks spot-checked: Gob Squad HAU2 German premiere Thu 24.09–Sun 27.09 2026 (inbox dates field had 05 May 2021; page is 2026 revival/premiere, not an archive rewrite). Nesterval Sophiensæle Thu 24.09–Sun 27.09 German 19:15 (also Sun 27, inbox said 24–26; English 1–4 Oct kept inside the same entry). Flora Yin Wong silent green dated detail Wed 23.09 doors 19:00 / start 20:00. Also fetched n.b.k. Billboard Budor/Barker (on view 10.09–29.11.2026; film premiere 13.11 — billboard this week, not the video) and INDEX Träumen (opening Wed 23.09 18:00; no run end on page — placed in Wildcards as an opening, not Exhibitions). Promoted last week's Advance Radar attaquer le visible to Film (Thu 24.09 19:00 Bethanien). Oren Ambarchi Official Link copied from html-calendars detail URL, not /programme/2026/9. Dropped INDEX Wo ich wohne / Green Sanctuary (venue scrape bug: 'on tree Shahin Zarinbal'). Dropped Midori Hirano and hub/Doorman (past dates; already briefed). Dropped Into the Chronosphere open call. Dropped Bitteres Fest / Spaziergang (listing-only or undocumented fit; Film filled by Arsenal festival + attaquer). Silent green cap: Flora + Ambarchi; skipped Current 93. HAU cap: Gob Squad + ENFLESHED. Thin week: 1 exhibition, 1 performing-arts full entry, 2 music full entries; no pad."
+  "notes": "Top Picks spot-checked: Trouble Score HAU2 German premiere Wed 30.09–Thu 01.10 2026 19:00 English+surtitles ~100min, artist talk Janez Janša after premiere (used /en/programme/pdetail/ URL). scribble.mp3 Kuppelhalle Thu 01.10 doors 19:00 / start 20:00 (Official Link copied from html-calendars detail URL, not /programm/2026/10). Shroud at HOUSE Halle am Berghain opening Fri 02.10 17:00–20:00; INDEX page has no run end so kept as opening Top Pick, not Exhibitions Radar. Also fetched Ballhaus Your Baggage Unattended (Sat 03–Tue 06.10; 2025 premiere returning, not a new opening) and ACUDkino Filmprogramm (Roter Staub Q&A with Michael Enger confirmed on film page; deep /Programm/ slugs copied from that listing). Promoted last week's Advance Radar Shroud into Top Picks. Promoted raw in-window Watching People Watching Birds and weed420+Tufi to fill thin Film/Music (synthesis music was two past silent green nights already briefed). INDEX venue correction: Britta Thie is CCA Berlin in the Gedächtniskirche foyer, not a church concert. Next Door ICS venue Invalidenstr. 50/51 was wrong; INDEX weekly places it at Hamburger Bahnhof 08.10. Dropped Sakamoto (anti-repetition, Top Pick 2026-09-08). Dropped INDEX Flatware / Neue Frau (venue scrape bug: 'on tree Shahin Zarinbal'). Dropped Into the Chronosphere open call. Dropped Midori Hirano and hub/Doorman (past dates; already briefed). Dropped Oktoberfest / Jugendkunstpreis / Art & Aperitif. Silent green cap: scribble + weed420; skipped MUBI Fest. ACUDkino cap: Roter Staub + Watching People; skipped Vaterland/Hiddensee/Spaziergang. Isaac Chong Die Mütter already Advance Radar last week — not repeated. Thin week: 0 exhibition full entries (Shroud cross-ref only), 1 performing-arts full entry, 1 music full entry; no pad."
 }

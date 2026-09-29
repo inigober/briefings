@@ -29,16 +29,6 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-08-18 | advance_radar | Josef Kaiser. Bauen für die DDR | Alte Jakobstr. 124-128, 10969 Berlin | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
 2026-08-18 | advance_radar | Ruba Al-Sweel, Arvin Arta, Dana Dawud, Noura Tafeche and Zein Majali Short Film Screening | Frankfurter Tor 1, 10243 Berlin | https://www.indexberlin.com/events/list/44942/short-film-screening
 2026-08-18 | advance_radar | Itchi Fleischer Unzucht – Kiss the Devil’s Arse | Weigandufer, corner of Wildenbruchbrücke, next to the mooring, 12045 Berlin | https://www.indexberlin.com/events/list/44861/unzucht-kiss-the-devil-s-arse
-2026-07-28 | top_picks | THE PRESSING | Radialsystem | https://www.radialsystem.de/en/veranstaltungen/the-pressing-2026/
-2026-07-28 | top_picks | L'homme-vertige: Tales of a City | Kino Arsenal | https://www.arsenal-berlin.de/assets/Kino/PDFs/26-07_A5_arsenal_programm_Web.pdf
-2026-07-28 | top_picks | Bernhard Martin — Holobionten | DITTRICH & SCHLECHTRIEM | https://www.indexberlin.com/exhibitions/list/44351/holobionten
-2026-07-28 | exhibitions | Yuji Agematsu — Marseille 1994 | Galerie Buchholz | https://www.indexberlin.com/exhibitions/list/44125/marseille-1994
-2026-07-28 | film | 2001: A Space Odyssey | Kino Arsenal | https://www.arsenal-berlin.de/assets/Kino/PDFs/26-08_Kalendarium-Plakat_arsenal_A1_Web.pdf
-2026-07-28 | performing_arts | b12 summer 2026: Terras | DOCK 11 | https://dock11-berlin.de/en/theater/program/calendar/b12-sungrazers-terras
-2026-07-28 | wildcards | Arvin Arta — Cloud Domination | Galerie im Turm | https://www.indexberlin.com/events/list/44646/cloud-domination
-2026-07-28 | wildcards | Performance by Noé Duboutay and Book Launch by Ruti de Vries and Tracey Snelling | Künstlerhaus Bethanien | https://www.indexberlin.com/events/list/44622/performance-by-noe-duboutay-and-book-launch-by-ruti-de-vries-and-tracey-snelling
-2026-07-28 | advance_radar | Spätschicht x AL.Berlin | Gropius Bau | https://www.indexberlin.com/events/list/44543/spatschicht-x-al-berlin
-2026-07-28 | advance_radar | everybody | Georg Kolbe Museum | https://www.indexberlin.com/events/list/44363/everybody
 2026-08-04 | top_picks | THE PRESSING | Radialsystem | https://www.radialsystem.de/en/veranstaltungen/the-pressing-2026/
 2026-08-04 | top_picks | Islands of Time — Exhibition Opening with Pole, JakoJako & Rubén Nsue, Sunroof, Nicolas Bougaïeff | silent green Kulturquartier | https://www.silent-green.net/en/programme/detail/island-of-time-exhibition-and-concerts-feat-pole-jakojako-ruben-nsue-sunroof-nicolas-bougaeiff
 2026-08-04 | top_picks | Summer Special: Films from Portugal | Wolf Kino | https://wolfberlin.org/en/programme/events/summer-special-from-portugal
@@ -119,3 +109,13 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-09-22 | wildcards | Ornella Fieres — Über KI | Haus am Lützowplatz | https://www.indexberlin.com/events/list/46012/uber-ki
 2026-09-22 | advance_radar | Ala Roushan and Charles Stankievech — A Shroud Woven of Solar Threads | HOUSE, Halle am Berghain | https://www.indexberlin.com/events/list/46001/a-shroud-woven-of-solar-threads
 2026-09-22 | advance_radar | Isaac Chong Wai & Käthe Kollwitz — Die Mütter | Schwartzsche Villa | https://www.indexberlin.com/events/list/45328/die-mutter
+2026-09-29 | top_picks | Luanda Casella & Pablo Casella / NTGent — Trouble Score | HAU2, HAU Hebbel am Ufer | https://www.hebbel-am-ufer.de/en/programme/pdetail/luanda-casella-pablo-casella-ntgent-trouble-score/
+2026-09-29 | top_picks | Ala Roushan and Charles Stankievech — A Shroud Woven of Solar Threads | HOUSE, Halle am Berghain | https://www.indexberlin.com/events/list/46001/a-shroud-woven-of-solar-threads
+2026-09-29 | top_picks | scribble.mp3 pres. Felisha Ledesma & Angelo Harmsworth + Francesco Corvi & Nocturnerror | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/scribblemp3-pres-felisha-ledesma-angelo-harmsworth-francesco-corvi-nocturnerror?tx_news_pi1%5Bday%5D=1&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=74226c2a04b07d3cd6150876c904e6d4
+2026-09-29 | film | Roter Staub für weißes Gold | ACUDkino | https://acudkino.de/Programm/roter_staub_fur_weisses_gold/20518
+2026-09-29 | film | Watching People Watching Birds | ACUDkino | https://acudkino.de/Programm/watching_people_watching_birds/20539
+2026-09-29 | performing_arts | Your Baggage Unattended | Ballhaus Naunynstraße | https://ballhausnaunynstrasse.de/play/your-baggage-unattended/
+2026-09-29 | music | weed420 + Tufi | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/weed420-tufi?tx_news_pi1%5Bday%5D=6&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=23b87b8e2a3ea1de3ab08633c44a8d5c
+2026-09-29 | wildcards | Britta Thie — In Development (conversation with Simon Denny) | CCA Berlin | https://www.indexberlin.com/events/list/46022/in-development-followed-by-a-conversation-between-the-artist-and-simon-denny
+2026-09-29 | advance_radar | Next Door | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.indexberlin.com/events/list/46019/next-door
+2026-09-29 | advance_radar | Performative Readings & Concert by ANYX, Krys Huba & Leda Bourgogne | soft power | https://www.indexberlin.com/events/list/45977/performative-readings-concert-by-anyx-krys-huba-leda-bourgogne
