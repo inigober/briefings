@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-29
+
+- [AMD to buy Fei-Fei Li’s AI start-up for $8bn](https://www.ft.com/content/33344fa5-6a25-4d72-8934-528526dd89bd?syn-25a6b1a6=1) — Financial Times
+- [Over 800 Killed in Renewed Houthi-Saudi War in Yemen, W.H.O. Says](https://www.nytimes.com/2026/09/28/world/middleeast/yemen-war-800-dead.html) — The New York Times
+- [DRC politician beaten to death after radio appearance about Ebola outbreak](https://www.theguardian.com/world/2026/sep/28/drc-politician-beaten-death-radio-appearance-ebola) — The Guardian
+- [Russian Drone Strikes Ukraine’s Science Academy, Causing Fire in City Center](https://www.nytimes.com/2026/09/28/world/europe/urkaine-drone-attack-kyiv-academy-sciences.html) — The New York Times
+
 ## 2026-09-28
 
 - [EU countries consider Nato-style joint responses to Russian hybrid attacks](https://www.ft.com/content/5513b441-a575-4c73-8532-cb09216c4406?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Can quantum turn ‘magic’ into money?](https://www.ft.com/content/ae9eedd2-4530-47e4-be4b-242d0e2a6253?syn-25a6b1a6=1) — Financial Times
 - [Nepal struggles to raise $5bn for flood recovery as global aid retreats](https://asia.nikkei.com/economy/natural-disasters/nepal-struggles-to-raise-5bn-for-flood-recovery-as-global-aid-retreats) — Nikkei Asia
 - [EU urges UK to raise tariffs on Chinese cars to avoid ‘made in Europe’ barriers](https://www.ft.com/content/5453be91-7bd9-4097-9e83-870354d3a248?syn-25a6b1a6=1) — Financial Times
-
-## 2026-09-24
-
-- [Trump lays a new trap for Takaichi](https://www.ft.com/content/8dfae006-c1ac-4713-8497-0e0e59e419f6?syn-25a6b1a6=1) — Financial Times
-- [China Has No Use for AI Doomerism](https://www.theatlantic.com/technology/2026/09/china-ai-panic-doomerism/688761/?utm_source=feed) — The Atlantic
-- [Indian billionaire’s payments firm plots biggest London flotation in years](https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money) — The Guardian
-- [Chinese streaming platform touts first 'hybrid AI' drama series](https://asia.nikkei.com/business/technology/artificial-intelligence/chinese-streaming-platform-touts-first-hybrid-ai-drama-series) — Nikkei Asia
 
 ## Blocked until 5+ briefings have passed
 

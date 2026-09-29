@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-29
+
+- **spain-housing-draft-2028-two-year-extensions** — EL PAÍS: the Tuesday draft blocks vulnerable evictions only until 2028, extends leases two years, caps updates at 2% (section: spain)
+- **spain-maricarmen-urbagestion-return-deal** — eldiario.es: Urbagestión will let Maricarmen return on a new lease at ≤30% of income; she must still accept (section: spain)
+- **spain-junts-sumar-indefinite-leases-break** — eldiario.es: Sumar wants indefinite leases; Junts threatens to walk if small evicting landlords are covered (section: spain)
+- **germany-curevac-plant-closures-state-investor** — Handelsblatt: Curevac is closing three sites and cutting ~1,800 jobs; Tübingen is in the frame because public money went in (section: germany)
+- **germany-kloeckner-faction-expulsion-threat** — Tagesspiegel: Bundestag president Klöckner says she will eject a whole faction if AfD/Left disruption escalates (section: germany)
+- **germany-klingbeil-beamte-selfemployed-rente** — Handelsblatt: Klingbeil wants the self-employed and civil servants brought into the statutory pension (section: germany)
+- **berlin-kollwitzkiez-greens-linke-shift** — Tagesspiegel: Die Linke ended a 20-year Green hold on the Kollwitzkiez (section: berlin)
+- **berlin-potty-parity-public-toilets** — rbb24: longer women's queues at public WCs framed as an equality problem the city says it will address (section: berlin)
+- **berlin-stink-bugs-autumn-flats** — Berliner Zeitung: autumn shield bugs are moving into flats for the winter (section: berlin)
+- **world-samsung-helix-1bn-ai-infra** — Nikkei Asia: Samsung is putting $1bn into Helix AI infrastructure (section: world)
+- **world-lula-fixed-odds-betting-ban** — The Guardian: Lula banned fixed-odds sports betting a week before Brazil's first-round vote (section: world)
+- **world-anthropic-ipo-existential-risk-loss** — Financial Times: Anthropic's S1 reports an $8bn loss on $4.6bn revenue and warns of existential risk (section: world)
+
 ## 2026-09-28
 
 - **spain-housing-decree-junts-podemos-indefinite-leases** — eldiario.es: the Tuesday housing decree must now satisfy Junts and Podemos; the Sol camp wants indefinite rental contracts (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-panama-canal-elnino-cuts** — The Guardian: Panama will cut canal transits again as El Niño drought deepens (section: world)
 - **world-china-overseas-travel-law** — Financial Times: a new law tightens who may leave China, citing secrets, technology and skilled workers (section: world)
 - **world-trump-taiwan-strategic-ambiguity** — Foreign Policy: Trump is being read as having killed US strategic ambiguity over Taiwan (section: world)
-
-## 2026-09-14
-
-- **spain-ceuta-vivas-emergency-contracts** — eldiario.es: Juan Jesús Vivas used emergency powers to award unpublished €3m and €2m minor-shelter contracts to relatives of a personal adviser and the port president (section: spain)
-- **spain-udef-internal-affairs-network** — eldiario.es: Internal Affairs has verified the police corruption network named by former UDEF chief Óscar Sánchez Gil, including an unread Algeciras cocaine phone (section: spain)
-- **spain-betancourt-us-blocks-spain-probe** — EL PAÍS: Washington is stalling Spain's case against Alejandro Betancourt, its new Venezuela oil broker; the judge may archive by December (section: spain)
-- **germany-niedersachsen-local-results-afd** — Handelsblatt: Lower Saxony local-election results show the AfD roughly tripling its score and the CDU ahead of the SPD (section: germany)
-- **germany-spd-linke-union-harder-line** — Tagesspiegel: SPD left-wingers Annika Klose and Hakan Demir want a harder line against the Union and warn of single-digit national results (section: germany)
-- **germany-night-darkness-heart-study** — Tagesspiegel: a study says keeping nights dark protects the heart via the body clock (section: germany)
-- **berlin-wahl-poll-cdu-linke-spd-afd** — Tagesspiegel: a new Abgeordnetenhaus poll has the CDU and Left neck-and-neck and the SPD clearly behind the AfD (section: berlin)
-- **berlin-ber-night-train-cancellations** — Tagesspiegel: regional night trains to BER are cancelled for construction (section: berlin)
-- **berlin-mitte-antisemitic-attack** — rbb24: men injured a woman on Torstrasse in an apparently antisemitic assault (section: berlin)
-- **world-trump-rejects-ai-slowdown** — Financial Times: Trump rejected tech bosses' call for an AI slowdown and denounced regulation talk (section: world)
-- **world-tdk-ai-server-components** — Nikkei Asia: TDK will ramp production of electronic components for AI servers (section: world)
-- **world-indonesia-ferry-capsized** — The Guardian: the Virgo Transport 8 capsized in the Java Sea; six dead and about 130 missing (section: world)
