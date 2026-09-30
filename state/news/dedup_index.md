@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-09-30
+
+- **spain-housing-decrees-cabinet-friday-vote** — eldiario.es: Cabinet approved two housing decrees (eviction shield to 2030, vulture-fund purchase ban to 2028, automatic lease extensions) and asked Congress for a Friday vote (section: spain)
+- **spain-above-index-rent-freeze-2028** — eldiario.es: rents above the official index frozen until 2028; at-index rents +2% until end-2027 (section: spain)
+- **spain-tenant-irpf-500-stressed-zone** — EL PAÍS: tenant IRPF deduction ~€500, max cost €820m, incomes to €33,000, only if the region declares a zona tensionada (section: spain)
+- **germany-teuteberg-bsw-brandenburg-sed** — Berliner Zeitung: BSW calls FDP deputy Teuteberg unelectable for Brandenburg's SED-Aufarbeitung post (section: germany)
+- **germany-deutsche-aircraft-leipzig-d328eco** — Berliner Zeitung: Deutsche Aircraft opened a Leipzig final-assembly line for the D328eco, up to 48/year, ~250 jobs (section: germany)
+- **germany-flu-season-vaccine-guide** — Handelsblatt: autumn influenza season; vaccine via GP, company doctor, or pharmacy (section: germany)
+- **berlin-siemensstadt-water-main-burst** — rbb24: a Spandau/Siemensstadt fresh-water pipe dumped >1m litres and forced a house evacuation (section: berlin)
+- **berlin-linke-antisemitism-statute** — rbb24: Die Linke's Abgeordnetenhaus group wants an antisemitism position in its statutes (section: berlin)
+- **berlin-landespokal-east-west** — rbb24: Berlin/Brandenburg cup weekend, including an East–West Berlin tie (section: berlin)
+- **world-ai-data-centre-midterm-backlash** — Financial Times: AI Infrastructure Coalition (Google/Meta/Microsoft) pledges on energy costs and water ahead of US midterms (section: world)
+- **world-inox-clean-energy-india-ipo** — Bloomberg: Inox Clean Energy filed a draft prospectus for up to $1bn (section: world)
+- **world-vietnam-activists-abducted** — The Guardian: Vietnam detained three activists including Tran Hiep; Hanoi cites Viet Tan (section: world)
+
 ## 2026-09-29
 
 - **spain-housing-draft-2028-two-year-extensions** — EL PAÍS: the Tuesday draft blocks vulnerable evictions only until 2028, extends leases two years, caps updates at 2% (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-brazil-supreme-court-election** — The Guardian: Brazil's supreme court erupts into a public feud on the eve of the presidential election (section: world)
 - **world-us-billionaires-gop-midterms** — Financial Times: US billionaires are overwhelmingly funding Republicans in the midterms (section: world)
 - **world-trump-xi-ai-safety** — Foreign Policy: Trump and Xi will not find common ground on AI safety (section: world)
-
-## 2026-09-15
-
-- **spain-sanchez-ceuta-year-end-deadline** — eldiario.es: Sánchez set end-2026 as the first dated horizon to resolve Ceuta and dismissed Pegasus-Morocco fears as a hoax (section: spain)
-- **spain-galicia-winery-undocumented-harvest** — eldiario.es: the family winery of Galicia employment minister José González Vázquez was fined after inspectors found undocumented harvest workers (section: spain)
-- **spain-gallardon-lezo-inassa-witness** — eldiario.es: former Madrid president Gallardón testifies as the Canal Isabel II Lezo trial opens over the 2001 Inassa purchase (section: spain)
-- **germany-klingbeil-orcel-commerzbank** — Handelsblatt: finance minister Klingbeil meets UniCredit's Orcel over Commerzbank, in which the Bund remains a shareholder (section: germany)
-- **germany-bmw-ix3-100k-europe-orders** — Handelsblatt: BMW's electric iX3 has 100,000 first-year European orders, a Neue Klasse record (section: germany)
-- **germany-flex-satellite-plant-stress** — Tagesspiegel: Europe's Flex satellite is being built to read plant-stress fluorescence from orbit (section: germany)
-- **berlin-bonde-anti-bollard-decree** — Tagesspiegel: most Bezirke call transport senator Bonde's anti-bollard draft unlawful and unusable (section: berlin)
-- **berlin-chialo-no-ordnungsgeld** — rbb24: the grants inquiry cannot fine former culture senator Chialo for staying silent (section: berlin)
-- **berlin-kids-in-bars-feature** — The Berliner: a feature on the city treating children in adult venues as normal (section: berlin)
-- **world-panama-canal-elnino-cuts** — The Guardian: Panama will cut canal transits again as El Niño drought deepens (section: world)
-- **world-china-overseas-travel-law** — Financial Times: a new law tightens who may leave China, citing secrets, technology and skilled workers (section: world)
-- **world-trump-taiwan-strategic-ambiguity** — Foreign Policy: Trump is being read as having killed US strategic ambiguity over Taiwan (section: world)

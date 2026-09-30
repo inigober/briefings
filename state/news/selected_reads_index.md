@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-09-30
+
+- [Tech supply chain shrugs off AI slowdown calls as demand booms](https://asia.nikkei.com/business/technology/tech-asia/tech-supply-chain-shrugs-off-ai-slowdown-calls-as-demand-booms) — Nikkei Asia
+- [As A.I. Panic Grows, Javier Milei Is Pitching Argentina As a Rules-Free Haven](https://www.nytimes.com/2026/09/29/world/americas/argentina-ai-rules-milei.html) — The New York Times
+- [Why Do AI Agents Sound So Frustrated?](https://www.theatlantic.com/technology/2026/09/why-do-ai-agents-sound-so-frustrated/688828/?utm_source=feed) — The Atlantic
+- [Luxury watches must win back wrist space](https://www.ft.com/content/838a6480-9888-4f4a-9d2f-8e02cb3889c9?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-09-29
 
 - [AMD to buy Fei-Fei Li’s AI start-up for $8bn](https://www.ft.com/content/33344fa5-6a25-4d72-8934-528526dd89bd?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [AI Companies’ New Plan to Keep Themselves From Destroying Everything](https://www.theatlantic.com/technology/2026/09/ai-companies-evaluators-risk/688785/?utm_source=feed) — The Atlantic
 - [Pomp, tariffs and AI: 5 things to know about the Trump-Xi summit](https://asia.nikkei.com/spotlight/trump-xi-summit/pomp-tariffs-and-ai-5-things-to-know-about-the-trump-xi-summit) — Nikkei Asia
 - [Die KI, die nicht lügen soll](https://www.tagesspiegel.de/wissen/die-ki-die-nicht-lugen-soll-es-gibt-einen-weg-und-ich-habe-einen-plan-dafur-16087989.html) — Tagesspiegel
-
-## 2026-09-25
-
-- [Can AI Be Regulated?](https://foreignpolicy.com/2026/09/24/ai-regulation-technology-pace-frontier-stock-market/) — Foreign Policy
-- [Can quantum turn ‘magic’ into money?](https://www.ft.com/content/ae9eedd2-4530-47e4-be4b-242d0e2a6253?syn-25a6b1a6=1) — Financial Times
-- [Nepal struggles to raise $5bn for flood recovery as global aid retreats](https://asia.nikkei.com/economy/natural-disasters/nepal-struggles-to-raise-5bn-for-flood-recovery-as-global-aid-retreats) — Nikkei Asia
-- [EU urges UK to raise tariffs on Chinese cars to avoid ‘made in Europe’ barriers](https://www.ft.com/content/5453be91-7bd9-4097-9e83-870354d3a248?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 
