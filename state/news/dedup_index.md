@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-01
+
+- **spain-automatic-lease-renewal-year-indemnity** — eldiario.es: second housing decree-law makes leases roll on automatically and requires 12 months' rent if the landlord breaks it (section: spain)
+- **spain-state-covers-rent-arrears-beyond-2030** — eldiario.es: regions pay unpaid rent then the state reimburses, to keep vulnerable tenants housed past 2030 (section: spain)
+- **spain-empty-home-sale-tax-incentives** — EL PAÍS: 100% CGT exemption under €200,000, tapering to €800,000, for selling vacant homes to public companies (section: spain)
+- **germany-autokrise-vw-mercedes-bmw-labour** — Handelsblatt: VW, Mercedes and BMW are tightening shop-floor conditions as the auto slump reaches workers (section: germany)
+- **germany-deutschlandticket-6680-january** — rbb24: Deutschlandticket rises €3.80 to €66.80 from January after Wednesday's price council (section: germany)
+- **germany-lausitz-record-wind-turbine** — Tagesspiegel: the world's tallest wind turbine is up in Lusatia; the practical test is still ahead (section: germany)
+- **berlin-kocak-quits-interior-committee** — rbb24: Neukölln Left MP Ferat Kocak quit the Bundestag interior committee after clan-contact reports (section: berlin)
+- **berlin-linke-unterlassung-redmann** — rbb24: Berlin Linke seeks a cease-and-desist against Brandenburg interior minister Jan Redmann (section: berlin)
+- **berlin-science-100-heads-body-nature** — Tagesspiegel: ten Berlin researchers on the annual 100-Köpfe list, from the cell to the rhinoceros (section: berlin)
+- **world-tokyo-ai-voice-publicity-ruling** — The Guardian: Tokyo court ruled an AI clone of Kenjiro Tsuda's voice violated publicity rights (section: world)
+- **world-tencent-oracle-100k-chips** — Financial Times: Tencent leased ~100,000 Oracle chips for South-East Asian data centres (section: world)
+- **world-lula-defense-industrial-policy** — Foreign Policy: Lula has put military-industrial spending at the centre of his re-election campaign (section: world)
+
 ## 2026-09-30
 
 - **spain-housing-decrees-cabinet-friday-vote** — eldiario.es: Cabinet approved two housing decrees (eviction shield to 2030, vulture-fund purchase ban to 2028, automatic lease extensions) and asked Congress for a Friday vote (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-fed-warsh-rate-hike** — Financial Times: Kevin Warsh has led the Fed to its first rate rise since 2023 (section: world)
 - **world-huawei-11-ai-chips** — Nikkei Asia: Huawei debuts 11 AI-related chips against Nvidia, Intel and AMD (section: world)
 - **world-sahel-aq-is-record-violence** — The Guardian: Acled says Sahel jihadist violence is heading for a record year (section: world)
-
-## 2026-09-16
-
-- **spain-ceuta-melilla-permanent-id-centres** — EL PAÍS: Interior is preparing two permanent 800-place migrant ID centres in Ceuta and Melilla (section: spain)
-- **spain-madrid-waitlist-makeup** — eldiario.es: a Madrid hospital downgraded 50+ surgery patients to shorten published waiting lists; the health minister says manipulating lists is not a crime (section: spain)
-- **spain-roger-espanol-1o-trial** — eldiario.es: four national-police officers go on trial over the 1-O rubber-bullet shot that cost Roger Español an eye (section: spain)
-- **germany-merz-staat-vor-markt-energy** — Handelsblatt: Merz and the economy minister are lining up state interventions on fuel and gas ("Staat vor Markt") (section: germany)
-- **germany-wagenknecht-afd-maischberger** — Tagesspiegel: Wagenknecht said she would not help the AfD in Sachsen-Anhalt, then floated working with them (section: germany)
-- **germany-fathers-birth-trauma** — Tagesspiegel: a feature on paternal birth trauma (section: germany)
-- **berlin-wahl-campaign-rents-schools** — Handelsblatt: four days before the Abgeordnetenhaus vote, the campaign talk is rents and school-building (section: berlin)
-- **berlin-fabian-vr-bank-testimony** — Berliner Zeitung: a VR-Bank record further contradicts Gina H. in the Fabian murder trial (section: berlin)
-- **berlin-eisbaren-goldmann-preview** — rbb24: Goldmann on Eisbären title odds as the DEL season opens (section: berlin)
-- **world-brazil-supreme-court-election** — The Guardian: Brazil's supreme court erupts into a public feud on the eve of the presidential election (section: world)
-- **world-us-billionaires-gop-midterms** — Financial Times: US billionaires are overwhelmingly funding Republicans in the midterms (section: world)
-- **world-trump-xi-ai-safety** — Foreign Policy: Trump and Xi will not find common ground on AI safety (section: world)

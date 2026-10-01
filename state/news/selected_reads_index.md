@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-01
+
+- [18,000 feet in 90 seconds: Inside Flydubai’s near-catastrophe](https://www.ft.com/content/ecc95946-92ed-426c-bcf9-e6575e1cf6c6?syn-25a6b1a6=1) — Financial Times
+- [Big Tech out-lobbies European companies in Brussels](https://www.ft.com/content/817f40f7-d4ac-43ee-beaf-12cfac08c621?syn-25a6b1a6=1) — Financial Times
+- [Trump says diesel export ban is still on the table](https://www.politico.eu/article/donald-trump-diesel-export-ban-on-table/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Burundi agrees to receive ‘third-country’ migrant deportees from US](https://www.theguardian.com/us-news/2026/sep/30/burundi-third-country-deportations-trump-immigration) — The Guardian
+
 ## 2026-09-30
 
 - [Tech supply chain shrugs off AI slowdown calls as demand booms](https://asia.nikkei.com/business/technology/tech-asia/tech-supply-chain-shrugs-off-ai-slowdown-calls-as-demand-booms) — Nikkei Asia
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Japan's Sumitomo Life to deploy AI for tailor-made contracts](https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-sumitomo-life-to-deploy-ai-for-tailor-made-contracts) — Nikkei Asia
 - [The UK’s IMF bailout has things to teach us 50 years on](https://www.ft.com/content/8cd07ef8-1578-4697-9f8b-d1a6f5b60883?syn-25a6b1a6=1) — Financial Times
 - [Big companies warn lack of ‘AI openness’ could hit investment in Europe](https://www.ft.com/content/aeabd0d5-be0e-4270-987e-0b119b24b355?syn-25a6b1a6=1) — Financial Times
-
-## 2026-09-26
-
-- [Tourist taxes on the march](https://www.ft.com/content/e6856a1a-77e4-42b5-bcd8-f91973ca9755?syn-25a6b1a6=1) — Financial Times
-- [AI Companies’ New Plan to Keep Themselves From Destroying Everything](https://www.theatlantic.com/technology/2026/09/ai-companies-evaluators-risk/688785/?utm_source=feed) — The Atlantic
-- [Pomp, tariffs and AI: 5 things to know about the Trump-Xi summit](https://asia.nikkei.com/spotlight/trump-xi-summit/pomp-tariffs-and-ai-5-things-to-know-about-the-trump-xi-summit) — Nikkei Asia
-- [Die KI, die nicht lügen soll](https://www.tagesspiegel.de/wissen/die-ki-die-nicht-lugen-soll-es-gibt-einen-weg-und-ich-habe-einen-plan-dafur-16087989.html) — Tagesspiegel
 
 ## Blocked until 5+ briefings have passed
 

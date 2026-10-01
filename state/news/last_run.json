@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-09-30",
-  "briefing_date": "2026-09-30",
-  "inbox_date": "2026-09-30",
+  "date": "2026-10-01",
+  "briefing_date": "2026-10-01",
+  "inbox_date": "2026-10-01",
   "status": "success",
-  "briefing_path": "briefings/news/2026-09-30.md",
-  "inbox_path": "inbox/news/2026-09-30-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-01.md",
+  "inbox_path": "inbox/news/2026-10-01-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "La asamblea de Sol pide una huelga general por la vivienda: \"Esto ya va más allá de Maricarmen o un decreto\"",
+      "headline": "Los Sindicatos de Inquilinas piden a los partidos que apoyen en el Congreso la convalidación de los dos decretos de vivienda",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; Sol/Barcelona camp parked in Other Headlines"
+      "reason": "avoid_unless_material: housing protests; Thursday caceroladas parked in Other Headlines"
     },
     {
-      "headline": "Las acampadas por la vivienda llegan a Barcelona: un centenar de personas plantan sus tiendas en Plaça Catalunya",
+      "headline": "El desahucio de Seha, embarazada de riesgo, se decidirá en el Congreso: “Por favor, nadie merece esta angustia”",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; Other Headlines only"
+      "reason": "avoid_unless_material: housing protests; one_theme with decree slots; Other Headlines only"
     },
     {
-      "headline": "De Sol no se mueve nadie",
+      "headline": "Junts, entre dos fuegos: aceptar la regulación del mercado de la vivienda o el portazo a Sánchez a cuatro días de la amnistía",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; one_theme with decree slots"
+      "reason": "not_material: debate continues / same Friday-vote threat as 29 Sep; Other Headlines only"
     },
     {
-      "headline": "El PP se borra de la crisis de la vivienda: \"Es un problema del Gobierno\"",
+      "headline": "Pánico a bordo del vuelo FZ1073 con destino a Tel Aviv: “Acabamos de neutralizar al terrorista. Necesitamos ayuda”",
       "section": "spain",
-      "reason": "not_material: politicians repeating positions"
+      "reason": "geographic_misfit: Dubai–Tel Aviv incident, not Spain; parked as Other Headlines + Selected Read"
     },
     {
-      "headline": "Las claves de los decretos de vivienda: frenazo a los desahucios y castigos a los fondos buitre",
+      "headline": "Renovación automática del alquiler, una medida ya vigente en numerosos países europeos",
       "section": "spain",
-      "reason": "one_theme: same Cabinet package as the eldiario approval slot"
+      "reason": "one_theme with the BOE indemnity/prórroga slot"
     },
     {
-      "headline": "Morning Briefing: Welchen Gegner OpenAI sich jetzt wirklich aussucht",
+      "headline": "Franziskus-Jahr: Italien feiert Franz von Assisi - samt neuem Feiertag",
       "section": "germany",
-      "reason": "geographic_misfit: US OpenAI/Meta; parked in Other Headlines with Altman IPO delay"
+      "reason": "geographic_misfit: Italy feast day, not a Germany development"
     },
     {
-      "headline": "Bekanntgabe in Stockholm: Alternativer Nobelpreis: Frauen gegen mächtige Systeme",
+      "headline": "Ukraine-Krieg: Nachts auf dem Hügel: Warum ist Kiew so schwer zu schützen?",
       "section": "germany",
-      "reason": "geographic_misfit: Stockholm prize, not a Germany development"
+      "reason": "geographic_misfit: Kyiv air defence; Other Headlines only"
     },
     {
-      "headline": "Fußball-Nationalmannschaft: Klopp droht ein Negativrekord - Als Klose Gelb-Rot sah",
+      "headline": "Mobilitätskosten: Tankrabatt startet mit schnell fallenden Preisen",
       "section": "germany",
-      "reason": "sports; Other Headlines only"
+      "reason": "not_material: Bundesrat approval already covered 26 Sep; implementation parked in Other Headlines"
     },
     {
-      "headline": "Exklusiv: „Versorgungsposten“ für die FDP-Vize? BSW erklärt Teuteberg für „unwählbar“",
+      "headline": "Stadt Leipzig will Bewohnerparken im Bachviertel einführen",
       "section": "berlin",
-      "reason": "geographic_misfit: Brandenburg SED post, not Berlin city; used as Germany slot"
+      "reason": "geographic_misfit: Leipzig, not Berlin city"
     },
     {
-      "headline": "Deutsche Aircraft eröffnet Endmontagelinie für D328eco in Leipzig",
+      "headline": "Potsdam führt zum 1. Oktober eine Verpackungssteuer ein",
       "section": "berlin",
-      "reason": "geographic_misfit: Leipzig; used as Germany industry slot"
+      "reason": "geographic_misfit: Potsdam/Brandenburg; Other Headlines only"
     },
     {
-      "headline": "Wandlitz streitet über Kosten beim Rückkauf des Sees",
-      "section": "berlin",
-      "reason": "geographic_misfit: Brandenburg; Other Headlines only"
-    },
-    {
-      "headline": "Altman says OpenAI will delay its IPO until it overcomes safety concerns",
+      "headline": "How Europe can stall Russia’s hybrid war",
       "section": "world",
-      "reason": "one_theme with 29 Sep Anthropic IPO / AI-lab capital; Other Headlines only"
+      "reason": "one_theme with 28 Sep Selected Read on NATO-style hybrid responses"
+    },
+    {
+      "headline": "DRC politician beaten to death after radio appearance about Ebola outbreak",
+      "section": "world",
+      "reason": "already a Selected Read on 2026-09-29; do not reuse URL"
     }
   ],
-  "notes": "Spain inbox still housing-heavy after the Tuesday draft week; treated Cabinet approval as material (legislation passed): 2030 eviction shield + vulture-fund ban + Friday Congress ask (eldiario); new above-index freeze to 2028 (eldiario); IRPF ~€500 / €820m / zona-tensionada condition (EL PAÍS). publisher_pool_thin: Spain eligible publishers were only eldiario.es and EL PAÍS. Parked Sol strike/Barcelona tents/PP quotes. Germany inbox thin after geo/sports (OpenAI, Stockholm prize, Klopp, Tennessee, Krk, Asia bonds): moved BZ Brandenburg Teuteberg and Leipzig Deutsche Aircraft into Germany (correct geo), plus Handelsblatt flu guide. Prefer-3-publishers missed: Tagesspiegel leftover after sports/geo was only an evergreen relationships feature. Berlin pool thin after geo filter on BZ (Leipzig/Chemnitz/Plauen/Brandenburg): Siemensstadt main (rbb24), Linke antisemitism statute (rbb24), Landespokal (rbb24). publisher_pool_thin: Berlin eligible publisher after geo filter was only rbb24. World: data-centre midterm backlash (NA, FT), Inox India IPO (South Asia, Bloomberg), Vietnam activist detentions (SE Asia, Guardian). Skipped Nikkei supply-chain as World (one_theme AI build-out; used as Selected Read). Selected Reads: Nikkei supply chain, NYT Milei AI haven, Atlantic frustrated agents, FT luxury watches. Guardian/DRC and baboons already in last-5 Selected Reads. Ceuta cooldown empty; no Ceuta Spain slot."
+  "notes": "Spain inbox still housing-only after FlyDubai geo filter. Treated three new decree mechanisms as material (legislation details, not another vote-threat): automatic renewal + 12-month indemnity (eldiario); state-reimbursed arrears past 2030 (eldiario); empty-home CGT exemption to public buyers (EL PAÍS). publisher_pool_thin: Spain eligible publishers were only eldiario.es and EL PAÍS. Parked union caceroladas/Seha/Junts. Germany inbox thin after geo/sports/culture (Assisi, Kyiv, Digger, Kramer, Man City, Schumacher, Dax wrap): autokrise shop floor (Handelsblatt), Deutschlandticket +€3.80 moved from Berlin inbox (national fare, rbb24), Lusatia record turbine moved from Berlin inbox (Brandenburg energy, Tagesspiegel). Tankrabatt start parked — already covered 26 Sep. Berlin pool thin after geo filter on BZ (Leipzig/Dresden/Rostock/Saxony) and Potsdam: Kocak committee resignation (rbb24), Linke Unterlassung vs Redmann (rbb24; same-party strain noted, no third distinct local news item), 100-Köpfe science feature (Tagesspiegel). publisher_pool_thin: Berlin eligible news publishers after geo were only rbb24 plus one Tagesspiegel feature. World: Tokyo voice-rights ruling (East Asia, Guardian), Tencent–Oracle 100k chips (East Asia/SEA, FT), Lula defence-industrial campaign (Latin America, FP). Skipped Flydubai as World (incident; used as Selected Read). Selected Reads: FT Flydubai, FT Big Tech Brussels lobby, Politico diesel export ban, Guardian Burundi third-country deportees. Ceuta cooldown empty; no Ceuta Spain slot."
 }
