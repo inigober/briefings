@@ -4,12 +4,6 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 <!-- Format: YYYY-MM-DD | name | neighborhood | google_maps_url -->
 
-2026-07-16 | Banh Xeo Saigon | Prenzlauer Berg | https://maps.google.com/?cid=11949515704919073190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-16 | Yöre Gözleme ve Mantı Evi | Wedding | https://maps.google.com/?cid=13270343140515838684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-16 | Fes Turkish BBQ | Kreuzberg | https://maps.google.com/?cid=17901661913376805960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-16 | Hasir (Schöneberg) | Schöneberg | https://maps.google.com/?cid=4610204103560710877&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-16 | The Tree | Mitte | https://maps.google.com/?cid=17950918673787389901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-16 | Mezem | Charlottenburg | https://maps.google.com/?cid=11159671474518477459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-23 | Aroma | Charlottenburg | https://maps.google.com/?cid=13065521202330721893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-23 | Shaniu's House of Noodles | Tiergarten | https://maps.google.com/?cid=8588884046748283335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-23 | Lao Xiang | Prenzlauer Berg | https://maps.google.com/?cid=9788201332404214585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
@@ -78,3 +72,9 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-09-24 | Meet You | Charlottenburg | https://maps.google.com/?cid=17428014459240498453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-24 | Mira | Neukölln | https://maps.google.com/?cid=13164128406963470813&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-24 | Sabor a mí | Friedrichshain | https://maps.google.com/?cid=12374683917197371925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-01 | Mr. Noodle Chen | Wedding | https://maps.google.com/?cid=1077236137200459133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-01 | Chuan Garden 川园 | Mitte | https://maps.google.com/?cid=3614477287672776716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-01 | Mercan | Kreuzberg | https://maps.google.com/?cid=11770093415398915802&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-01 | Ni's Restaurant | Mitte | https://maps.google.com/?cid=9208310204966926796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-01 | La Bolognina | Neukölln | https://maps.google.com/?cid=9807831381490708821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-01 | Matthias | Prenzlauer Berg | https://maps.google.com/?cid=1288939486448576811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
