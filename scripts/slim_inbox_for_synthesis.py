@@ -692,10 +692,38 @@ def music_section_id(item: dict) -> str:
     return "featured"
 
 
+def music_label_key(item: dict) -> str:
+    """Normalized label for diversity; fall back to artist when label is blank."""
+    label = (item.get("label") or "").strip().casefold()
+    if label:
+        return label
+    return (item.get("artist") or "").strip().casefold()
+
+
 def pick_top_music(items: list[dict], cap: int) -> list[dict]:
+    """Rank verified rows, keeping distinct labels first (max one per imprint)."""
     verified = [item for item in items if item.get("verified")]
     ranked = sorted(verified, key=score_music_item, reverse=True)
-    return [slim_item(i, MUSIC_SLIM_ITEM_KEYS) for i in ranked[:cap]]
+    picked: list[dict] = []
+    seen_labels: set[str] = set()
+    for item in ranked:
+        key = music_label_key(item)
+        if key and key in seen_labels:
+            continue
+        if key:
+            seen_labels.add(key)
+        picked.append(item)
+        if len(picked) >= cap:
+            return [slim_item(i, MUSIC_SLIM_ITEM_KEYS) for i in picked]
+    picked_ids = {id(item) for item in picked}
+    for item in ranked:
+        if id(item) in picked_ids:
+            continue
+        picked.append(item)
+        picked_ids.add(id(item))
+        if len(picked) >= cap:
+            break
+    return [slim_item(i, MUSIC_SLIM_ITEM_KEYS) for i in picked]
 
 
 def news_section_caps(topics_cfg: dict) -> dict[str, int]:
@@ -1024,8 +1052,8 @@ def build_music_synthesis_inbox(raw: dict, *, topics_cfg: dict) -> dict:
             "Token-light music slice for synthesis. Items with verified:true have live "
             "Bandcamp + cover URLs from pre-fetch HTTP checks. Copy Listen/cover URLs "
             "verbatim; copy Dig only when dig_url is a different page from Listen — "
-            "omit Dig when empty. Never invent Bandcamp slugs. Do not recommend "
-            "unverified releases."
+            "omit Dig when empty. Prefer distinct labels (max one per briefing slot). "
+            "Never invent Bandcamp slugs. Do not recommend unverified releases."
         ),
     }
 
