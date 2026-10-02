@@ -16,7 +16,7 @@ GitHub's built-in `schedule:` trigger is best-effort and can start workflows hou
 
 **Music discovery** materializes taste-cache into `inbox/`, then runs OpenAI web_search for Bandcamp/YouTube/cover candidates (same spend-cap pattern as culture/restaurants). See `docs/music-discovery-bridge.md`.
 
-**Health check timing:** One job at 11:00 Berlin covers all types. On a prefetch day (e.g. Tuesday culture at 06:00), the 11:00 run is the primary check that the inbox landed (~5 hours later) **and** that a production briefing exists. On other days, the same job re-checks the current week's culture/restaurant inbox keys as a backup — not the main alert path.
+**Health check timing:** One job at 11:00 Berlin covers all types. On a prefetch day (e.g. Tuesday culture at 06:00), the 11:00 run is the primary check that the inbox landed (~5 hours later) **and** that a production briefing exists. On other days, the same job re-checks the current week's culture/restaurant inbox keys as a backup — not the main alert path. On **1 Jan / 1 Apr / 1 Jul / 1 Oct** it also emails a quarterly OpenAI model-review reminder (not a briefing).
 
 ## 1. GitHub token
 

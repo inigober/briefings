@@ -38,8 +38,10 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 NEWS_SECTION_IDS = ("spain", "germany", "berlin", "world")
 
-# gpt-6.1-sol: newer than gpt-5.4, cheaper tokens, web_search + structured JSON.
-# Override via OPENAI_RESEARCH_MODEL (e.g. gpt-6-luna or gpt-5.4) if cost/quality shifts.
+# gpt-6.1-sol: mid-tier with web_search. Review quarterly via scripts/openai_model_review.py
+# (health check emails 1 Jan / 1 Apr / 1 Jul / 1 Oct). Prefer a newer *-sol that is at least
+# as capable and slightly cheaper. Do not set GitHub Variable OPENAI_RESEARCH_MODEL — it
+# overrides this default and can go stale. Luna is an override only.
 DEFAULT_MODEL = "gpt-6.1-sol"
 API_TIMEOUT_SECONDS = 600.0
 PARALLEL_WORKERS = 5

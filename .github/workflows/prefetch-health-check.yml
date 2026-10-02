@@ -67,3 +67,13 @@ jobs:
           # Briefings on main with no successful email record → alert + re-trigger send
           python scripts/check_email_delivery.py --retry
 
+      # 1 Jan / 1 Apr / 1 Jul / 1 Oct only — not a briefing. See openai_model_review.py.
+      - name: Quarterly OpenAI model review
+        if: always()
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}
+          BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
+        run: python scripts/openai_model_review.py --email-if-due
+
