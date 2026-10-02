@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-10-02
+
+- Maara — Drama On
+- Nala Sinephro — Endlessness
+- Dj Babatr — Rise of the Raptor
+- Meridian Brothers — Mi Latinoamérica Sufre
+- Eoin DJ — Second Sky (A7AD001)
+- mu tate — life of mu
+- Fio Fa — Rescue Squad EP
+- Elfenberg — Ritmo Paradiso
+- salami rose joe louis — Lorings
+- Gigi Masin — KITE
+
 ## 2026-09-25
 
 - SHERELLE — With a Vengeance
