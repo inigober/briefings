@@ -96,10 +96,13 @@ Title: `# Music Discovery — Week of YYYY-MM-DD`
 
 | Variable | Default | Purpose |
 |----------|---------|---------|
-| `OPENAI_RESEARCH_MODEL` | `gpt-6.1-sol` | Pre-fetch model (culture / restaurants / music OpenAI calls) |
 | `OPENAI_DAILY_SPEND_CAP_USD` | `2` (built-in default) | Hard daily cap for OpenAI pre-fetch. **Optional** — only add this variable if you want a value other than $2; no code change needed. |
-| `BRIEFING_FROM_EMAIL` | — | Resend sender (briefing email + spend-cap alerts) |
+| `BRIEFING_FROM_EMAIL` | — | Resend sender (briefing email + spend-cap / ops alerts) |
 | `BRIEFING_TO_EMAIL` | — | Recipient |
+
+**OpenAI pre-fetch model:** `DEFAULT_MODEL` in `scripts/fetch_openai_research.py` (currently `gpt-6.1-sol`). Do **not** add a GitHub Variable `OPENAI_RESEARCH_MODEL` unless you want a temporary override — it would hide the code default and is easy to forget. Workflows fall back to the same default if the variable is unset.
+
+**When to bump the model:** prefer a newer mid-tier (`*-sol`) that still has web_search and is slightly cheaper; skip ChatGPT nano/codex SKUs, skip `astra` (more expensive), skip `luna` as the daily default. The 11:00 Berlin health check emails a quarterly reminder (`[Briefing] Quarterly OpenAI model review`) on 1 Jan / 1 Apr / 1 Jul / 1 Oct — not a briefing.
 
 All briefing types email the **same recipient**; subjects are each briefing's H1 title prefixed with a type emoji (`📰` news, `🎭` culture, `🍽️` restaurants — set in `config/briefings.yaml`).
 
@@ -270,7 +273,7 @@ python3 -m unittest discover -s tests -v
 | `berlin-culture-prefetch.yml` | cron-job.org Tue 06:00 Berlin + manual | RSS + WordPress + OpenAI → verify URLs → slim → commit `inbox/berlin-culture/` |
 | `berlin-restaurants-prefetch.yml` | cron-job.org Thu 07:00 Berlin + manual | OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
 | `music-discovery-prefetch.yml` | cron-job.org Fri 09:00 Berlin + manual | Taste cache → OpenAI research → verify URLs → slim → `inbox/music-discovery/` |
-| `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if inbox missing or inbox ready but briefing missing; retry missed pre-fetch + undelivered email |
+| `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if inbox missing or inbox ready but briefing missing; retry missed pre-fetch + undelivered email; quarterly OpenAI model-review reminder |
 | `send-briefing-email.yml` | Push to `briefings/**/*.md` | Verify links per type, send styled email, record delivery log; email alert on failure |
 
 Cursor Automation **Briefing synthesis** is not a GitHub workflow. It runs when GitHub receives a push to `main` (typically an `inbox/` pre-fetch commit).
