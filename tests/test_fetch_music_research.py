@@ -13,8 +13,10 @@ if str(SCRIPTS) not in sys.path:
 
 from fetch_music_research import (  # noqa: E402
     MUSIC_MIN_BANDCAMP_URLS,
+    MUSIC_MIN_UNIQUE_LABELS,
     MUSIC_SEARCH_MIN_CALLS,
     attach_bandcamp_urls,
+    build_label_recovery_prompt,
     build_search_phase_prompt,
     build_search_recovery_prompt,
     build_structure_phase_prompt,
@@ -24,11 +26,14 @@ from fetch_music_research import (  # noqa: E402
     extract_bandcamp_urls,
     is_bandcamp_listen_url,
     keys_match,
+    needs_label_recovery,
     needs_search_recovery,
     normalize_candidate_url,
     release_key,
     salvage_bandcamp_url,
     section_counts,
+    unique_label_count,
+    unique_label_names,
     urls_are_same_page,
 )
 from fetch_openai_research import load_yaml  # noqa: E402
@@ -67,6 +72,8 @@ class TestMusicResearchHelpers(unittest.TestCase):
         self.assertIn("skip that release", prompt.lower())
         self.assertIn("/album/", prompt)
         self.assertIn(str(MUSIC_MIN_BANDCAMP_URLS), prompt)
+        self.assertIn(str(MUSIC_MIN_UNIQUE_LABELS), prompt)
+        self.assertIn("distinct labels", prompt)
         self.assertIn("Never copy this release", prompt)
         self.assertIn("dig_sentence", prompt)
         self.assertIn("why_candidate", prompt)
@@ -171,6 +178,38 @@ class TestSearchRecovery(unittest.TestCase):
         self.assertIn(f"minimum {MUSIC_SEARCH_MIN_CALLS}", prompt)
         self.assertIn("never invent slugs", prompt.lower())
         self.assertIn("bandcamp.com", prompt)
+        self.assertIn("new labels", prompt.lower())
+
+
+class TestUniqueLabels(unittest.TestCase):
+    def test_counts_distinct_normalized_labels(self) -> None:
+        items = [
+            {"label": "Paranoid London"},
+            {"label": "paranoid london"},
+            {"label": "Incienso"},
+            {"label": ""},
+            {"label": "Balearic"},
+        ]
+        self.assertEqual(unique_label_count(items), 3)
+        self.assertEqual(unique_label_names(items), ["Paranoid London", "Incienso", "Balearic"])
+        self.assertTrue(needs_label_recovery(items))
+        diverse = [{"label": f"Label {i}"} for i in range(MUSIC_MIN_UNIQUE_LABELS)]
+        self.assertFalse(needs_label_recovery(diverse))
+
+    def test_label_recovery_prompt_lists_used_imprints(self) -> None:
+        prompt = build_label_recovery_prompt(
+            date_str="2026-10-02",
+            previous_notes="Artist: Paranoid London\nBandcamp: https://pl.bandcamp.com/album/x\n",
+            have_labels=["Paranoid London", "Balearic"],
+            have_urls=["https://pl.bandcamp.com/album/x"],
+            search_domains=["bandcamp.com", "ra.co"],
+        )
+        self.assertIn("PHASE 1 label recovery", prompt)
+        self.assertIn("Paranoid London", prompt)
+        self.assertIn("Balearic", prompt)
+        self.assertIn(str(MUSIC_MIN_UNIQUE_LABELS), prompt)
+        self.assertIn("new labels", prompt.lower())
+        self.assertIn("never invent slugs", prompt.lower())
 
 
 class TestBandcampUrlSalvage(unittest.TestCase):
@@ -256,6 +295,7 @@ Daily write-up: https://daily.bandcamp.com/best-electronic/something
         self.assertIn("dig_sentence", prompt)
         self.assertIn("why_candidate", prompt)
         self.assertIn("another `/album/`", prompt)
+        self.assertIn("unique labels", prompt)
 
     def test_clear_redundant_dig_blanks_self_and_empty(self) -> None:
         album = "https://label.bandcamp.com/album/same"

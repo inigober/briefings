@@ -49,6 +49,8 @@ MUSIC_MIN_CANDIDATES = 16
 # Verify needs 10 live Bandcamp+cover rows. Fail fetch before HTTP if we don't even
 # have that many album URLs — empty bandcamp_url is the usual Phase-2 loss.
 MUSIC_MIN_BANDCAMP_URLS = 10
+# Synthesis needs 6 featured + 4 More listening with max one label across the briefing.
+MUSIC_MIN_UNIQUE_LABELS = 10
 # Second Phase-1 search when the first pass copies too few album URLs.
 MUSIC_SEARCH_RECOVERY_MAX_TOOL_CALLS = 8
 
@@ -414,6 +416,7 @@ Briefing Friday date: {date_str}
 Target: at least {MUSIC_MIN_CANDIDATES} release candidates with **exact live URLs copied from search results**.
 Mix: roughly half club/DJ-floor and half home listening; mix recent (2024–2026) and aged-well records.
 Need enough extras that synthesis can pick **6 featured (3 club + 3 home) + 4 More listening**.
+Label quota: at least {MUSIC_MIN_UNIQUE_LABELS} **distinct labels**. The published briefing allows **max one entry per label**, so five Paranoid London albums only fill one slot. Prefer a new label over a second release on a label you already listed.
 
 ## Reader taste (weight recent 24 months)
 {taste.get("recent_taste_block") or "(see snapshot)"}
@@ -437,7 +440,7 @@ You MUST call web_search at least {MUSIC_SEARCH_MIN_CALLS} times before answerin
 3. Aged-well / catalogue records that still captivate (not obvious canon primers) — again copy `/album/` URLs.
 4. YouTube / YouTube Music **album or release playlist** lookup for the strongest candidates
 
-Quota: at least {MUSIC_MIN_BANDCAMP_URLS} distinct copied Bandcamp `/album/` or `/track/` URLs before you stop. Daily roundups without those links do not count.
+Quota: at least {MUSIC_MIN_BANDCAMP_URLS} distinct copied Bandcamp `/album/` or `/track/` URLs **and** at least {MUSIC_MIN_UNIQUE_LABELS} distinct labels before you stop. Daily roundups without those links do not count. Extra catalogue titles from one imprint do not count toward the label quota.
 
 For each candidate record:
 - artist, release, label, year, club-or-home, recent-or-aged-well, genre
@@ -501,6 +504,7 @@ Search for **specific album pages** on artist or label Bandcamp subdomains.
 Example of a valid line: Bandcamp: https://label.bandcamp.com/album/release-name
 Bandcamp Daily / RA roundups only count if you copy the linked `/album/` URL.
 Skip any release without that URL. Never invent slugs.
+Prefer **new labels** over more titles from a label already in the previous notes. Synthesis can use only one entry per label.
 
 Output NEW candidates only, same block format:
 
@@ -520,6 +524,74 @@ def needs_search_recovery(
     notes: str, *, minimum: int = MUSIC_MIN_BANDCAMP_URLS
 ) -> bool:
     return len(extract_bandcamp_urls(notes)) < minimum
+
+
+def unique_label_names(items: list[dict]) -> list[str]:
+    """Distinct normalized labels, first-seen order, skipping blanks."""
+    seen: set[str] = set()
+    names: list[str] = []
+    for item in items:
+        raw = (item.get("label") or "").strip()
+        key = _norm(raw)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        names.append(raw)
+    return names
+
+
+def unique_label_count(items: list[dict]) -> int:
+    return len(unique_label_names(items))
+
+
+def needs_label_recovery(
+    items: list[dict], *, minimum: int = MUSIC_MIN_UNIQUE_LABELS
+) -> bool:
+    return unique_label_count(items) < minimum
+
+
+def build_label_recovery_prompt(
+    *,
+    date_str: str,
+    previous_notes: str,
+    have_labels: list[str],
+    have_urls: list[str],
+    search_domains: list[str],
+) -> str:
+    """Second (or third) Phase-1 pass when too many candidates share a label."""
+    labels = "\n".join(f"- {name}" for name in have_labels) or "- (none)"
+    urls = "\n".join(f"- {url}" for url in have_urls) or "- (none)"
+    clipped = (previous_notes or "").strip()
+    if len(clipped) > 8000:
+        clipped = clipped[:8000] + "\n…(truncated)…"
+    domains = "\n".join(f"- {d}" for d in search_domains)
+    need = MUSIC_MIN_UNIQUE_LABELS
+    return f"""PHASE 1 label recovery. Briefing Friday date: {date_str}
+
+Your previous pass clustered on too few labels ({len(have_labels)} unique). Synthesis publishes **max one entry per label** and needs {need} distinct labels for 6 featured + 4 More listening.
+
+Already used labels (do not add more titles from these imprints):
+{labels}
+
+Already copied Bandcamp URLs (do not repeat):
+{urls}
+
+## Your task (web_search REQUIRED — minimum {MUSIC_SEARCH_MIN_CALLS} searches)
+Find **new labels** with live `https://….bandcamp.com/album/…` (or `/track/`) URLs copied from search.
+Never invent slugs. Skip any release without that URL.
+
+Output NEW candidates only, same block format:
+
+Artist: NAME
+Release: TITLE
+Bandcamp: https://label-or-artist.bandcamp.com/album/exact-slug-copied-from-search
+
+## Previous notes (context)
+{clipped or "(none)"}
+
+web_search allowed domains:
+{domains}
+"""
 
 
 def build_structure_phase_prompt(
@@ -545,6 +617,7 @@ Briefing Friday date: {date_str}
 - youtube_url / writeup_url / writeup_source: null when missing.
 - year: integer. reception_ok: true only if age ≥ ~4 weeks or a writeup_url is present.
 - id: kebab-case `artist-release` slug.
+- Prefer distinct `label` values. Extra titles on the same imprint are backups, not a substitute for {MUSIC_MIN_UNIQUE_LABELS} unique labels.
 - If fewer than {MUSIC_MIN_CANDIDATES} solid candidates, list gaps — never invent filler.
 
 ## Web research notes (from Phase 1 web_search)
@@ -650,6 +723,46 @@ def _merge_bandcamp_citations(notes: str, search_response: Any) -> str:
     extra = "\n".join(citation_bandcamp)
     log(f"    citations: {len(citation_bandcamp)} Bandcamp album/track URL(s)")
     return f"{notes}\n\n## Bandcamp URLs from web_search citations\n{extra}\n"
+
+
+def keep_music_candidates(
+    raw_items: list[dict],
+    *,
+    notes: str,
+    taste: dict[str, Any],
+) -> tuple[list[dict], int, int]:
+    """Enrich, salvage Bandcamp URLs, drop skip/library/URL-less rows."""
+    context = taste.get("context") or {}
+    items = [
+        enrich_candidate(
+            dict(item),
+            known_labels=context.get("known_labels") or [],
+            threshold=int(taste.get("known_label_threshold") or 15),
+            skip_list=context.get("skip_list") or [],
+            library_albums=taste.get("library_albums") or [],
+            recent_releases=taste.get("releases_index") or [],
+        )
+        for item in raw_items
+    ]
+    salvaged = attach_bandcamp_urls(items, notes)
+    if salvaged:
+        log(f"  Salvaged {salvaged} Bandcamp URL(s) from notes/dig_url")
+    cleared_dig = sum(1 for item in items if clear_redundant_dig(item))
+    if cleared_dig:
+        log(f"  Cleared {cleared_dig} empty/self Dig URL(s)")
+    for item in items:
+        if item.get("blocked_reason"):
+            continue
+        if not is_bandcamp_listen_url(item.get("bandcamp_url")):
+            item["blocked_reason"] = "missing_bandcamp_url"
+    kept = [item for item in items if not item.get("blocked_reason")]
+    dropped = len(items) - len(kept)
+    missing_urls = sum(1 for item in items if item.get("blocked_reason") == "missing_bandcamp_url")
+    if dropped:
+        log(f"  Dropped {dropped} skip/library/repeat/missing-URL matches")
+    if missing_urls:
+        log(f"  {missing_urls} candidate(s) had no Bandcamp album URL after salvage")
+    return kept, dropped, missing_urls
 
 
 def fetch_all_music(
@@ -761,37 +874,10 @@ def fetch_all_music(
         spend_ledger.record_usage(usage)
         spend_ledger.assert_not_over_cap()
 
-    context = taste.get("context") or {}
     raw_items = result.get("items") or []
-    items = [
-        enrich_candidate(
-            dict(item),
-            known_labels=context.get("known_labels") or [],
-            threshold=int(taste.get("known_label_threshold") or 15),
-            skip_list=context.get("skip_list") or [],
-            library_albums=taste.get("library_albums") or [],
-            recent_releases=taste.get("releases_index") or [],
-        )
-        for item in raw_items
-    ]
-    salvaged = attach_bandcamp_urls(items, notes)
-    if salvaged:
-        log(f"  Salvaged {salvaged} Bandcamp URL(s) from notes/dig_url")
-    cleared_dig = sum(1 for item in items if clear_redundant_dig(item))
-    if cleared_dig:
-        log(f"  Cleared {cleared_dig} empty/self Dig URL(s)")
-    for item in items:
-        if item.get("blocked_reason"):
-            continue
-        if not is_bandcamp_listen_url(item.get("bandcamp_url")):
-            item["blocked_reason"] = "missing_bandcamp_url"
-    kept = [item for item in items if not item.get("blocked_reason")]
-    dropped = len(items) - len(kept)
-    missing_urls = sum(1 for item in items if item.get("blocked_reason") == "missing_bandcamp_url")
-    if dropped:
-        log(f"  Dropped {dropped} skip/library/repeat/missing-URL matches")
-    if missing_urls:
-        log(f"  {missing_urls} candidate(s) had no Bandcamp album URL after salvage")
+    kept, dropped, missing_urls = keep_music_candidates(
+        raw_items, notes=notes, taste=taste
+    )
     counts = section_counts(kept)
     log(f"  Combined fetch done ({len(kept)} candidates) — {counts}")
     if len(kept) < MUSIC_MIN_BANDCAMP_URLS:
@@ -800,6 +886,87 @@ def fetch_all_music(
             f"album URL (need {MUSIC_MIN_BANDCAMP_URLS}). Phase 1 must copy full "
             "https://*.bandcamp.com/album/… links from search; do not list a "
             "release without that URL."
+        )
+    labels = unique_label_names(kept)
+    log(f"  Unique labels: {len(labels)} ({', '.join(labels) or 'none'})")
+    if needs_label_recovery(kept):
+        log(
+            f"  Phase 1 label recovery: only {len(labels)} unique label(s) "
+            f"(need {MUSIC_MIN_UNIQUE_LABELS}); searching for other imprints..."
+        )
+        label_prompt = build_label_recovery_prompt(
+            date_str=date_str,
+            previous_notes=notes,
+            have_labels=labels,
+            have_urls=extract_bandcamp_urls(notes),
+            search_domains=allowed,
+        )
+        extra_notes, extra_response = fetch_web_research(
+            client=client,
+            model=model,
+            prompt=label_prompt,
+            domains=allowed,
+            require_web_search=True,
+            max_tool_calls=MUSIC_SEARCH_RECOVERY_MAX_TOOL_CALLS,
+            search_context_size="medium",
+        )
+        extra_calls = count_web_search_calls(extra_response)
+        log(
+            f"    label recovery: {extra_calls} web_search call(s), "
+            f"{len(extra_notes)} chars"
+        )
+        extra_notes = _merge_bandcamp_citations(extra_notes, extra_response)
+        notes = f"{notes}\n\n## Label recovery search notes\n{extra_notes}\n"
+        web_search_calls += extra_calls
+        if spend_ledger:
+            usage = usage_from_response(
+                response=extra_response,
+                model=model,
+                section="music_search_label_recovery",
+            )
+            spend_ledger.record_usage(usage)
+            spend_ledger.assert_not_over_cap()
+
+        structure_prompt = build_structure_phase_prompt(
+            date_str=date_str, research_notes=notes
+        )
+        log("  Phase 2 (after label recovery): structure candidates as JSON...")
+        result, structure_response = fetch_structured(
+            client=client,
+            model=model,
+            prompt=structure_prompt,
+            schema=COMBINED_RESULT_SCHEMA,
+            schema_name="music_combined",
+            domains=[],
+            enable_web_search=False,
+        )
+        if spend_ledger:
+            usage = usage_from_response(
+                response=structure_response, model=model, section="music_structure"
+            )
+            spend_ledger.record_usage(usage)
+            spend_ledger.assert_not_over_cap()
+        kept, dropped, missing_urls = keep_music_candidates(
+            result.get("items") or [], notes=notes, taste=taste
+        )
+        counts = section_counts(kept)
+        labels = unique_label_names(kept)
+        log(
+            f"  Combined fetch after label recovery ({len(kept)} candidates, "
+            f"{len(labels)} unique labels) — {counts}"
+        )
+        if len(kept) < MUSIC_MIN_BANDCAMP_URLS:
+            raise RuntimeError(
+                f"Music pre-fetch aborted: only {len(kept)} candidates have a Bandcamp "
+                f"album URL (need {MUSIC_MIN_BANDCAMP_URLS}) after label recovery."
+            )
+
+    if unique_label_count(kept) < MUSIC_MIN_UNIQUE_LABELS:
+        raise RuntimeError(
+            f"Music pre-fetch aborted: only {unique_label_count(kept)} unique labels "
+            f"(need {MUSIC_MIN_UNIQUE_LABELS}). Synthesis uses max one entry per label "
+            "for 6 featured + 4 More listening; extra titles on the same imprint "
+            "do not fill those slots."
         )
 
     return {
