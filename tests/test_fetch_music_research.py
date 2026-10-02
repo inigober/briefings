@@ -74,6 +74,7 @@ class TestMusicResearchHelpers(unittest.TestCase):
         self.assertIn(str(MUSIC_MIN_BANDCAMP_URLS), prompt)
         self.assertIn(str(MUSIC_MIN_UNIQUE_LABELS), prompt)
         self.assertIn("distinct labels", prompt)
+        self.assertIn("at most two releases", prompt.lower())
         self.assertIn("Never copy this release", prompt)
         self.assertIn("dig_sentence", prompt)
         self.assertIn("why_candidate", prompt)
