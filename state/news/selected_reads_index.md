@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-02
+
+- [Top Fed official signals central bank will keep rates on hold in October](https://www.ft.com/content/e3a53272-385d-40a8-ac77-408f4c136f6f?syn-25a6b1a6=1) — Financial Times
+- [An AI sovereign wealth fund isn’t progressive — it’s techno-imperialism](https://www.ft.com/content/bc178357-793b-45d8-ae3b-d5929159c243) — Financial Times
+- [‘Everyone Is Depleted’](https://foreignpolicy.com/2026/10/01/yemen-houthis-saudi-arabia-war-humanitarian-crisis-aid/) — Foreign Policy
+- [‘No one disrespects Our Lady’: fears for Brazil’s patron saint grip country ahead of election](https://www.theguardian.com/world/2026/oct/02/brazil-election-lady-of-aparecida-lula-bolsonaro-row) — The Guardian
+
 ## 2026-10-01
 
 - [18,000 feet in 90 seconds: Inside Flydubai’s near-catastrophe](https://www.ft.com/content/ecc95946-92ed-426c-bcf9-e6575e1cf6c6?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [‘It’s hard to sell a house when it’s covered in baboon faeces’: Cape Town divided over plan to remove its monkeys](https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe) — The Guardian
 - [Kazakh oil producers weigh new trans-Caspian route to avoid Russia](https://asia.nikkei.com/business/energy/kazakh-oil-producers-weigh-new-trans-caspian-route-to-avoid-russia) — Nikkei Asia
 - [The U.S.-Saudi Nuclear Agreement Carries Proliferation Risks](https://foreignpolicy.com/2026/09/25/saudi-nuclear-agreement-dangerous-proliferation-risks-trump-riyadh-mbs/) — Foreign Policy
-
-## 2026-09-27
-
-- [Big Tech Is Destroying Democracy. Here’s How to Fight Back.](https://foreignpolicy.com/2026/09/25/maria-ressa-big-tech-democracy-ai-autocracy/) — Foreign Policy
-- [Japan's Sumitomo Life to deploy AI for tailor-made contracts](https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-sumitomo-life-to-deploy-ai-for-tailor-made-contracts) — Nikkei Asia
-- [The UK’s IMF bailout has things to teach us 50 years on](https://www.ft.com/content/8cd07ef8-1578-4697-9f8b-d1a6f5b60883?syn-25a6b1a6=1) — Financial Times
-- [Big companies warn lack of ‘AI openness’ could hit investment in Europe](https://www.ft.com/content/aeabd0d5-be0e-4270-987e-0b119b24b355?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

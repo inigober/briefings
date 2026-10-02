@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-02
+
+- **spain-junts-sinks-housing-decrees** — eldiario.es: Junts will vote down both housing decrees on Friday and wants them withdrawn first (section: spain)
+- **spain-40db-rent-intervention-poll** — EL PAÍS: 40dB finds >2/3 want rent intervention, including >55% of PP and Vox voters (section: spain)
+- **spain-vox-deportation-housing-frame** — eldiario.es: Vox treats the housing shortage as a migration problem and proposes mass deportations (section: spain)
+- **germany-prien-rejects-pflichtdienst** — Tagesspiegel: Prien rules out compulsory service for all and floats a Gesellschaftsdienst instead (section: germany)
+- **germany-merz-hybrid-attacks-warning** — Financial Times: Merz warns Europe should expect severe Russian hybrid attacks (section: germany)
+- **germany-dwd-fewer-tornadoes-2026** — Handelsblatt: DWD has counted 31 tornadoes in 2026, below the recent average (section: germany)
+- **berlin-sondierungen-recount-five-seats** — Tagesspiegel: Linke/Greens/SPD exploratory talks adjourn to Saturday; recount unseats five MPs (section: berlin)
+- **berlin-butze-street-children-house** — rbb24: Straßenkinder opens Butze, a house in Lichtenberg for homeless minors (section: berlin)
+- **berlin-founding-professors-baer-reiche-no-show** — Berliner Zeitung: 20 founding professors honoured; ministers Bär and Reiche did not attend (section: berlin)
+- **world-us-troops-iran-strikes** — Financial Times: US deploys thousands of troops as Trump weighs strikes on Iran; Roosevelt due by end-November (section: world)
+- **world-brazil-ag-trump-meddling** — The Guardian: Attorney-general Messias says Trump funding plans against Brazil's court cannot be tolerated (section: world)
+- **world-singapore-nuclear-fusion** — Nikkei Asia: Singapore wants a larger role in the nuclear fusion industry (section: world)
+
 ## 2026-10-01
 
 - **spain-automatic-lease-renewal-year-indemnity** — eldiario.es: second housing decree-law makes leases roll on automatically and requires 12 months' rent if the landlord breaks it (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-panasonic-energy-ai-boom** — Nikkei Asia: Panasonic Energy is chasing battery demand from the AI build-out (section: world)
 - **world-nigeria-methanol-alcohol-deaths** — The Guardian: at least 48 dead in Ondo state after methanol-laced local alcohol (section: world)
 - **world-openai-anthropic-models-breach** — Financial Times: researchers used Anthropic models to break into OpenAI (section: world)
-
-## 2026-09-17
-
-- **spain-feijoo-vox-ceuta-minors-peninsula** — EL PAÍS: Feijóo has aligned with Vox against sending any unaccompanied minors from Ceuta to the peninsula (section: spain)
-- **spain-ayuso-planifica-atico** — eldiario.es: Ayuso's spokesman must explain Planifica Madrid's luxury-penthouse purchase before the assembly (section: spain)
-- **spain-anthropic-madrid-landing** — EL PAÍS: Anthropic has opened in Spain with ex-Google exec Cristina Pitarch, pitching Madrid as a Spanish-speaking hub (section: spain)
-- **germany-fraunhofer-privacy-competitiveness** — Handelsblatt: a Fraunhofer study argues data protection can make Europe more competitive (section: germany)
-- **germany-berentzen-sazerac-takeover** — Handelsblatt: Berentzen is talking to US spirits group Sazerac about a takeover (section: germany)
-- **germany-autumn-body-physiology** — Handelsblatt: a feature on what shorter days and colder air do to the body (section: germany)
-- **berlin-wittenbergplatz-ubahn-fire** — Tagesspiegel: a fuse-box fire has shut Wittenbergplatz; U1/U2/U3 skipping the station (section: berlin)
-- **berlin-charite-strike-thursday** — rbb24: Verdi has called Charité staff out from Thursday, with emergency cover (section: berlin)
-- **berlin-hbf-heart-check** — Tagesspiegel: a free heart-valve screening is on offer at Hauptbahnhof (section: berlin)
-- **world-fed-warsh-rate-hike** — Financial Times: Kevin Warsh has led the Fed to its first rate rise since 2023 (section: world)
-- **world-huawei-11-ai-chips** — Nikkei Asia: Huawei debuts 11 AI-related chips against Nvidia, Intel and AMD (section: world)
-- **world-sahel-aq-is-record-violence** — The Guardian: Acled says Sahel jihadist violence is heading for a record year (section: world)

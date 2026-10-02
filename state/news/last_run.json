@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-01",
-  "briefing_date": "2026-10-01",
-  "inbox_date": "2026-10-01",
+  "date": "2026-10-02",
+  "briefing_date": "2026-10-02",
+  "inbox_date": "2026-10-02",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-01.md",
-  "inbox_path": "inbox/news/2026-10-01-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-02.md",
+  "inbox_path": "inbox/news/2026-10-02-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Los Sindicatos de Inquilinas piden a los partidos que apoyen en el Congreso la convalidación de los dos decretos de vivienda",
+      "headline": "El Gobierno acuerda no retirar ninguno de los decretos de vivienda tras el rechazo de Junts: \"España no puede esperar más\"",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; Thursday caceroladas parked in Other Headlines"
+      "reason": "one_theme with the Junts floor-vote slot"
     },
     {
-      "headline": "El desahucio de Seha, embarazada de riesgo, se decidirá en el Congreso: “Por favor, nadie merece esta angustia”",
+      "headline": "Los decretos sobre vivienda, vistos por los expertos: entre la protección al inquilino y el “parche temporal”",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; one_theme with decree slots; Other Headlines only"
+      "reason": "one_theme with Friday vote / prior decree-mechanism coverage"
     },
     {
-      "headline": "Junts, entre dos fuegos: aceptar la regulación del mercado de la vivienda o el portazo a Sánchez a cuatro días de la amnistía",
+      "headline": "El mapa del alquiler de temporada: cómo han crecido los anuncios por meses que el decreto de vivienda quería limitar",
       "section": "spain",
-      "reason": "not_material: debate continues / same Friday-vote threat as 29 Sep; Other Headlines only"
+      "reason": "avoid_unless_material: short-term rentals; parked in Other Headlines"
     },
     {
-      "headline": "Pánico a bordo del vuelo FZ1073 con destino a Tel Aviv: “Acabamos de neutralizar al terrorista. Necesitamos ayuda”",
+      "headline": "Casi el 75% de los inquilinos temen verse obligados a salir de la vivienda en los próximos dos años",
       "section": "spain",
-      "reason": "geographic_misfit: Dubai–Tel Aviv incident, not Spain; parked as Other Headlines + Selected Read"
+      "reason": "one_theme with 40dB intervention poll; Other Headlines only"
     },
     {
-      "headline": "Renovación automática del alquiler, una medida ya vigente en numerosos países europeos",
-      "section": "spain",
-      "reason": "one_theme with the BOE indemnity/prórroga slot"
-    },
-    {
-      "headline": "Franziskus-Jahr: Italien feiert Franz von Assisi - samt neuem Feiertag",
+      "headline": "Morning Briefing: Wird Frankreich zum gefährlichsten Land der Eurozone?",
       "section": "germany",
-      "reason": "geographic_misfit: Italy feast day, not a Germany development"
+      "reason": "geographic_misfit: France, not a Germany development"
     },
     {
-      "headline": "Ukraine-Krieg: Nachts auf dem Hügel: Warum ist Kiew so schwer zu schützen?",
+      "headline": "+++ Iran-Krieg +++: USA schicken offenbar weiteren Flugzeugträger nach Nahost",
       "section": "germany",
-      "reason": "geographic_misfit: Kyiv air defence; Other Headlines only"
+      "reason": "geographic_misfit: Middle East; World slot used FT troop deployment"
     },
     {
-      "headline": "Mobilitätskosten: Tankrabatt startet mit schnell fallenden Preisen",
+      "headline": "Börse am 2. Oktober: Sechs Punkte, die für Anleger heute wichtig sind",
       "section": "germany",
-      "reason": "not_material: Bundesrat approval already covered 26 Sep; implementation parked in Other Headlines"
+      "reason": "market wrap; Ceconomy/JD.com deadline parked in Other Headlines"
     },
     {
-      "headline": "Stadt Leipzig will Bewohnerparken im Bachviertel einführen",
+      "headline": "Kundgebung in Fürstenwalde: AfD-Politiker Höcke und Protest am Einheits-Tag erwartet",
       "section": "berlin",
-      "reason": "geographic_misfit: Leipzig, not Berlin city"
+      "reason": "geographic_misfit: Brandenburg; Other Headlines only"
     },
     {
-      "headline": "Potsdam führt zum 1. Oktober eine Verpackungssteuer ein",
+      "headline": "Herbstwetter: Am Wochenende viele Wolken und kaum Regen",
       "section": "berlin",
-      "reason": "geographic_misfit: Potsdam/Brandenburg; Other Headlines only"
+      "reason": "filler weather"
     },
     {
-      "headline": "How Europe can stall Russia’s hybrid war",
+      "headline": "Burundi agrees to receive ‘third-country’ migrant deportees from US",
       "section": "world",
-      "reason": "one_theme with 28 Sep Selected Read on NATO-style hybrid responses"
+      "reason": "already a Selected Read on 2026-10-01; do not reuse URL"
     },
     {
-      "headline": "DRC politician beaten to death after radio appearance about Ebola outbreak",
+      "headline": "The Bolsonaros…they’re back! Brazil heads to the polls – podcast",
       "section": "world",
-      "reason": "already a Selected Read on 2026-09-29; do not reuse URL"
+      "reason": "podcast format; one_theme with AG meddling / Aparecida Selected Read"
+    },
+    {
+      "headline": "Through the Lens: Thailand floods leave capital in turmoil",
+      "section": "world",
+      "reason": "incremental after 30 Sep Bangkok floods Other Headlines"
     }
   ],
-  "notes": "Spain inbox still housing-only after FlyDubai geo filter. Treated three new decree mechanisms as material (legislation details, not another vote-threat): automatic renewal + 12-month indemnity (eldiario); state-reimbursed arrears past 2030 (eldiario); empty-home CGT exemption to public buyers (EL PAÍS). publisher_pool_thin: Spain eligible publishers were only eldiario.es and EL PAÍS. Parked union caceroladas/Seha/Junts. Germany inbox thin after geo/sports/culture (Assisi, Kyiv, Digger, Kramer, Man City, Schumacher, Dax wrap): autokrise shop floor (Handelsblatt), Deutschlandticket +€3.80 moved from Berlin inbox (national fare, rbb24), Lusatia record turbine moved from Berlin inbox (Brandenburg energy, Tagesspiegel). Tankrabatt start parked — already covered 26 Sep. Berlin pool thin after geo filter on BZ (Leipzig/Dresden/Rostock/Saxony) and Potsdam: Kocak committee resignation (rbb24), Linke Unterlassung vs Redmann (rbb24; same-party strain noted, no third distinct local news item), 100-Köpfe science feature (Tagesspiegel). publisher_pool_thin: Berlin eligible news publishers after geo were only rbb24 plus one Tagesspiegel feature. World: Tokyo voice-rights ruling (East Asia, Guardian), Tencent–Oracle 100k chips (East Asia/SEA, FT), Lula defence-industrial campaign (Latin America, FP). Skipped Flydubai as World (incident; used as Selected Read). Selected Reads: FT Flydubai, FT Big Tech Brussels lobby, Politico diesel export ban, Guardian Burundi third-country deportees. Ceuta cooldown empty; no Ceuta Spain slot."
+  "notes": "Spain inbox still housing-only. Treated Junts' decision to sink both Friday decrees as material (vote decision, not another bargaining quote). Second slot: 40dB poll on rent intervention including PP/Vox voters (new data). Third: Vox deportation-as-housing-policy frame (only distinct non-vote, non-same-survey item after avoid_unless_material on seasonal lets). publisher_pool_thin: Spain eligible publishers were only eldiario.es and EL PAÍS. Parked government-won't-withdraw (one_theme), expert parche, seasonal-lets map, 75% tenant-fear poll. Germany inbox thin after geo/sports/celebrity (France EZ, Iran blog, Asia markets, Sting, DFB, Skoda): Prien rejects Pflichtdienst (Tagesspiegel), Merz hybrid-attacks warning moved from World inbox (Germany chancellor, FT), DWD fewer tornadoes (Handelsblatt). Ceconomy/JD.com EU-review deadline parked in Other Headlines. Berlin: Checkpoint sondierungen + five-seat recount moved from Germany inbox (city coalition), Butze street-children house (rbb24), founding-professors no-show (BZ). Höcke Fürstenwalde is Brandenburg. World: US troop deployment / Iran strikes (Middle East, FT), Brazil AG on Trump court-funding plans (Latin America, Guardian), Singapore fusion (East Asia, Nikkei). Skipped Burundi URL (Selected Read 1 Oct). Selected Reads: FT Fed hold, FT AI sovereign-wealth critique, FP Yemen depleted, Guardian Aparecida. Ceuta cooldown empty; no Ceuta Spain slot."
 }
