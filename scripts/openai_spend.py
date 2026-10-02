@@ -33,6 +33,9 @@ MODEL_TOKEN_RATES: dict[str, tuple[float, float, float]] = {
     "gpt-5.4": (2.5, 0.25, 15.0),
     "gpt-5.4-mini": (0.75, 0.075, 4.5),
     "gpt-5.5": (5.0, 0.5, 30.0),
+    "gpt-6.1-sol": (2.0, 0.10, 10.0),
+    "gpt-6-luna": (0.10, 0.01, 0.50),
+    "gpt-6-astra": (10.0, 1.00, 50.0),
 }
 
 DEFAULT_TOKEN_RATES = MODEL_TOKEN_RATES["gpt-4.1"]

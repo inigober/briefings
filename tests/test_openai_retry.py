@@ -14,10 +14,12 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 from fetch_openai_research import (  # noqa: E402
+    DEFAULT_MODEL,
     create_response_with_retry,
     is_retryable_openai_error,
     retry_delay_seconds,
 )
+from openai_spend import model_token_rates  # noqa: E402
 
 
 class _StatusError(Exception):
@@ -56,6 +58,13 @@ class TestOpenAIRetry(unittest.TestCase):
     def test_generic_errors_are_not_retryable(self) -> None:
         self.assertFalse(is_retryable_openai_error(ValueError("nope")))
         self.assertFalse(is_retryable_openai_error(_StatusError(400)))
+
+
+class TestPrefetchModelDefault(unittest.TestCase):
+    def test_default_is_gpt_6_1_sol(self) -> None:
+        self.assertEqual(DEFAULT_MODEL, "gpt-6.1-sol")
+        input_rate, cached_rate, output_rate = model_token_rates("gpt-6.1-sol")
+        self.assertEqual((input_rate, cached_rate, output_rate), (2.0, 0.10, 10.0))
 
 
 if __name__ == "__main__":
