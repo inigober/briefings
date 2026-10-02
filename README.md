@@ -96,7 +96,7 @@ Title: `# Music Discovery — Week of YYYY-MM-DD`
 
 | Variable | Default | Purpose |
 |----------|---------|---------|
-| `OPENAI_RESEARCH_MODEL` | `gpt-5.4` | Pre-fetch model |
+| `OPENAI_RESEARCH_MODEL` | `gpt-6.1-sol` | Pre-fetch model (culture / restaurants / music OpenAI calls) |
 | `OPENAI_DAILY_SPEND_CAP_USD` | `2` (built-in default) | Hard daily cap for OpenAI pre-fetch. **Optional** — only add this variable if you want a value other than $2; no code change needed. |
 | `BRIEFING_FROM_EMAIL` | — | Resend sender (briefing email + spend-cap alerts) |
 | `BRIEFING_TO_EMAIL` | — | Recipient |
