@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-03
+
+- [China, America and the new Great Game](https://www.ft.com/content/8869caf9-3cd1-4300-aeb3-828a4d9da4f9?syn-25a6b1a6=1) — Financial Times
+- [Once in decline, Japan's hard-drive suppliers ride soaring AI demand](https://asia.nikkei.com/business/electronics/once-in-decline-japan-s-hard-drive-suppliers-ride-soaring-ai-demand) — Nikkei Asia
+- [‘What Is Happening Today Is Development in Reverse’](https://foreignpolicy.com/2026/10/02/undp-alexander-de-croo-ukraine-war-reconstruction-gaza-reconstruction-afghanistan/) — Foreign Policy
+- [Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin](https://www.theguardian.com/global-development/2026/oct/02/row-erupts-over-cairo-mural-depicting-tutankhamun-and-nefertiti-with-dark-skin) — The Guardian
+
 ## 2026-10-02
 
 - [Top Fed official signals central bank will keep rates on hold in October](https://www.ft.com/content/e3a53272-385d-40a8-ac77-408f4c136f6f?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Over 800 Killed in Renewed Houthi-Saudi War in Yemen, W.H.O. Says](https://www.nytimes.com/2026/09/28/world/middleeast/yemen-war-800-dead.html) — The New York Times
 - [DRC politician beaten to death after radio appearance about Ebola outbreak](https://www.theguardian.com/world/2026/sep/28/drc-politician-beaten-death-radio-appearance-ebola) — The Guardian
 - [Russian Drone Strikes Ukraine’s Science Academy, Causing Fire in City Center](https://www.nytimes.com/2026/09/28/world/europe/urkaine-drone-attack-kyiv-academy-sciences.html) — The New York Times
-
-## 2026-09-28
-
-- [EU countries consider Nato-style joint responses to Russian hybrid attacks](https://www.ft.com/content/5513b441-a575-4c73-8532-cb09216c4406?syn-25a6b1a6=1) — Financial Times
-- [‘It’s hard to sell a house when it’s covered in baboon faeces’: Cape Town divided over plan to remove its monkeys](https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe) — The Guardian
-- [Kazakh oil producers weigh new trans-Caspian route to avoid Russia](https://asia.nikkei.com/business/energy/kazakh-oil-producers-weigh-new-trans-caspian-route-to-avoid-russia) — Nikkei Asia
-- [The U.S.-Saudi Nuclear Agreement Carries Proliferation Risks](https://foreignpolicy.com/2026/09/25/saudi-nuclear-agreement-dangerous-proliferation-risks-trump-riyadh-mbs/) — Foreign Policy
 
 ## Blocked until 5+ briefings have passed
 

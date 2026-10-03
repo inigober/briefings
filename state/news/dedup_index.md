@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-03
+
+- **spain-housing-decrees-fall-congress** — eldiario.es: Junts, PP and Vox voted down both emergency housing decrees; ~5 million tenants due a renewal before 2028 lose the automatic extensions (section: spain)
+- **spain-sanchez-weighs-snap-election** — EL PAÍS: Sánchez is reading polls and Saturday's housing march before deciding whether to dissolve as early as Monday (section: spain)
+- **spain-housing-general-strike-poll** — eldiario.es: 73% of Spaniards and >60% of PP and Vox voters would support a housing general strike (section: spain)
+- **germany-galeria-insolvency-again** — Handelsblatt: Galeria is in insolvency again; Kortum says fewer stores or no future (section: germany)
+- **germany-glp1-children-obesity** — Handelsblatt: GLP-1 appetite drugs are being tried in children with extreme obesity when usual care fails (section: germany)
+- **germany-wehrpflicht-protest-brandenburg-gate** — rbb24: several thousand spent two days at the Brandenburg Gate against bringing back conscription (section: germany)
+- **berlin-sbahn-unity-promise-seven-missing** — Tagesspiegel: 36 years after the Bund promised the 1961 rail map, seven S-Bahn stretches are still missing (section: berlin)
+- **berlin-kauf-dich-gluecklich-28th** — Tagesspiegel: Kauf Dich Glücklich is opening its 28th branch, 25 years after a tiny vintage shop (section: berlin)
+- **berlin-tag-der-clubkultur-2026** — The Berliner: the city's annual club-culture day of workshops, panels and nights (section: berlin)
+- **world-tepco-capacity-squatters-ai** — Nikkei Asia: TEPCO is moving against firms that reserve grid capacity for AI data centres and sit on it (section: world)
+- **world-uscg-cuba-fuel-intercept** — The Guardian: the US Coast Guard boarded a dark-fleet fuel ship bound for Cuba and took it to Mexico (section: world)
+- **world-starbucks-xinjiang-cafes** — Handelsblatt: Starbucks opened its first Xinjiang cafés; a US congressman wants them shut (section: world)
+
 ## 2026-10-02
 
 - **spain-junts-sinks-housing-decrees** — eldiario.es: Junts will vote down both housing decrees on Friday and wants them withdrawn first (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-openai-280bn-cash-burn** — Financial Times: OpenAI expects to burn $280bn by 2030 (section: world)
 - **world-us-deportees-equatorial-guinea** — The Guardian: US deportees were bound and beaten at a hotel in Equatorial Guinea (section: world)
 - **world-india-bangalore-infrastructure** — Bloomberg: India's tech boom is running ahead of Bangalore's infrastructure (section: world)
-
-## 2026-09-18
-
-- **spain-audiencia-nacional-ceuta-port-camp** — EL PAÍS: the Audiencia Nacional has unblocked a migrant reception camp in Ceuta's port so beaches can be cleared (section: spain)
-- **spain-aesan-menopause-study-withdrawn** — eldiario.es: AESAN has withdrawn a menopause-nutrition study built on data from men (section: spain)
-- **spain-kitchen-villarejo-cospedal-tapes** — eldiario.es: Internal Affairs has authenticated Villarejo recordings that implicate Rajoy's PP in Operation Kitchen (section: spain)
-- **germany-merz-laender-25-cent-fuel** — Tagesspiegel: Merz and the vice-chancellor sat with the Länder on petrol relief of up to 25 cents a litre (section: germany)
-- **germany-handelsblatt-ai-three-theses** — Handelsblatt: a morning briefing on what documented AI outbreaks already show (section: germany)
-- **germany-destatis-boj-market-markers** — Handelsblatt: Destatis data and the BOJ's 31-year rate high are the Friday markers for German investors (section: germany)
-- **berlin-5bn-culture-security** — The Berliner: Berlin is in line for an extra €5 billion for culture and security (section: berlin)
-- **berlin-afd-verfassungsschutz-after-senate** — Tagesspiegel: interior will only say if the Berlin AfD is under VS observation once a new Senate is in place (section: berlin)
-- **berlin-housing-two-thirds-vote** — Tagesspiegel: affordable housing will weigh on the ballot for two-thirds of Berliners (section: berlin)
-- **world-panasonic-energy-ai-boom** — Nikkei Asia: Panasonic Energy is chasing battery demand from the AI build-out (section: world)
-- **world-nigeria-methanol-alcohol-deaths** — The Guardian: at least 48 dead in Ondo state after methanol-laced local alcohol (section: world)
-- **world-openai-anthropic-models-breach** — Financial Times: researchers used Anthropic models to break into OpenAI (section: world)

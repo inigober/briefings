@@ -1,58 +1,63 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-02",
-  "briefing_date": "2026-10-02",
-  "inbox_date": "2026-10-02",
+  "date": "2026-10-03",
+  "briefing_date": "2026-10-03",
+  "inbox_date": "2026-10-03",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-02.md",
-  "inbox_path": "inbox/news/2026-10-02-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-03.md",
+  "inbox_path": "inbox/news/2026-10-03-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "El Gobierno acuerda no retirar ninguno de los decretos de vivienda tras el rechazo de Junts: \"España no puede esperar más\"",
+      "headline": "Feijóo reta a Sánchez a convocar ya elecciones",
       "section": "spain",
-      "reason": "one_theme with the Junts floor-vote slot"
+      "reason": "one_theme with the Sánchez snap-election slot"
     },
     {
-      "headline": "Los decretos sobre vivienda, vistos por los expertos: entre la protección al inquilino y el “parche temporal”",
+      "headline": "Cómo pasó Junts de pactar el decreto de vivienda a tumbarlo",
       "section": "spain",
-      "reason": "one_theme with Friday vote / prior decree-mechanism coverage"
+      "reason": "one_theme with the Congress vote / tenant-impact slot"
     },
     {
-      "headline": "El mapa del alquiler de temporada: cómo han crecido los anuncios por meses que el decreto de vivienda quería limitar",
+      "headline": "FOTOS | Caras de decepción y llaves en alto en la calle y abrazos en el Congreso: las imágenes de la jornada",
       "section": "spain",
-      "reason": "avoid_unless_material: short-term rentals; parked in Other Headlines"
+      "reason": "photo package, not a story"
     },
     {
-      "headline": "Casi el 75% de los inquilinos temen verse obligados a salir de la vivienda en los próximos dos años",
+      "headline": "No más incertidumbre",
       "section": "spain",
-      "reason": "one_theme with 40dB intervention poll; Other Headlines only"
+      "reason": "opinion; one_theme with snap-election slot"
     },
     {
-      "headline": "Morning Briefing: Wird Frankreich zum gefährlichsten Land der Eurozone?",
+      "headline": "Pablo Bustinduy: “Las elecciones, cuando sean, van a ser un referéndum sobre la vivienda”",
+      "section": "spain",
+      "reason": "one_theme with snap-election / housing-vote slots"
+    },
+    {
+      "headline": "Los acampados en Sol deciden quedarse aunque parte del Sindicato de Inquilinas anuncia su salida progresiva",
+      "section": "spain",
+      "reason": "avoid_unless_material: housing protests; Other Headlines only"
+    },
+    {
+      "headline": "¿Qué dicen las encuestas si hay elecciones? La ventaja PP-Vox y las opciones de Sánchez",
+      "section": "spain",
+      "reason": "one_theme with snap-election slot; Other Headlines only"
+    },
+    {
+      "headline": "Kriminalität: Anklage gegen Iraner: Terrorplan gegen jüdische Gemeinde?",
       "section": "germany",
-      "reason": "geographic_misfit: France, not a Germany development"
+      "reason": "geographic_misfit: Manchester; Other Headlines only"
     },
     {
-      "headline": "+++ Iran-Krieg +++: USA schicken offenbar weiteren Flugzeugträger nach Nahost",
+      "headline": "Präsidentenwahl: Bolsonaro-Sohn fordert Brasiliens Präsidenten Lula heraus",
       "section": "germany",
-      "reason": "geographic_misfit: Middle East; World slot used FT troop deployment"
+      "reason": "geographic_misfit: Brazil; Other Headlines used Guardian rally"
     },
     {
-      "headline": "Börse am 2. Oktober: Sechs Punkte, die für Anleger heute wichtig sind",
-      "section": "germany",
-      "reason": "market wrap; Ceconomy/JD.com deadline parked in Other Headlines"
-    },
-    {
-      "headline": "Kundgebung in Fürstenwalde: AfD-Politiker Höcke und Protest am Einheits-Tag erwartet",
+      "headline": "Nossener Brücke in Dresden nachts stadteinwärts voll gesperrt",
       "section": "berlin",
-      "reason": "geographic_misfit: Brandenburg; Other Headlines only"
-    },
-    {
-      "headline": "Herbstwetter: Am Wochenende viele Wolken und kaum Regen",
-      "section": "berlin",
-      "reason": "filler weather"
+      "reason": "geographic_misfit: Dresden / Saxony traffic"
     },
     {
       "headline": "Burundi agrees to receive ‘third-country’ migrant deportees from US",
@@ -60,15 +65,10 @@
       "reason": "already a Selected Read on 2026-10-01; do not reuse URL"
     },
     {
-      "headline": "The Bolsonaros…they’re back! Brazil heads to the polls – podcast",
+      "headline": "A Londoner’s guide to hating London",
       "section": "world",
-      "reason": "podcast format; one_theme with AG meddling / Aparecida Selected Read"
-    },
-    {
-      "headline": "Through the Lens: Thailand floods leave capital in turmoil",
-      "section": "world",
-      "reason": "incremental after 30 Sep Bangkok floods Other Headlines"
+      "reason": "feature essay, not a news slot"
     }
   ],
-  "notes": "Spain inbox still housing-only. Treated Junts' decision to sink both Friday decrees as material (vote decision, not another bargaining quote). Second slot: 40dB poll on rent intervention including PP/Vox voters (new data). Third: Vox deportation-as-housing-policy frame (only distinct non-vote, non-same-survey item after avoid_unless_material on seasonal lets). publisher_pool_thin: Spain eligible publishers were only eldiario.es and EL PAÍS. Parked government-won't-withdraw (one_theme), expert parche, seasonal-lets map, 75% tenant-fear poll. Germany inbox thin after geo/sports/celebrity (France EZ, Iran blog, Asia markets, Sting, DFB, Skoda): Prien rejects Pflichtdienst (Tagesspiegel), Merz hybrid-attacks warning moved from World inbox (Germany chancellor, FT), DWD fewer tornadoes (Handelsblatt). Ceconomy/JD.com EU-review deadline parked in Other Headlines. Berlin: Checkpoint sondierungen + five-seat recount moved from Germany inbox (city coalition), Butze street-children house (rbb24), founding-professors no-show (BZ). Höcke Fürstenwalde is Brandenburg. World: US troop deployment / Iran strikes (Middle East, FT), Brazil AG on Trump court-funding plans (Latin America, Guardian), Singapore fusion (East Asia, Nikkei). Skipped Burundi URL (Selected Read 1 Oct). Selected Reads: FT Fed hold, FT AI sovereign-wealth critique, FP Yemen depleted, Guardian Aparecida. Ceuta cooldown empty; no Ceuta Spain slot."
+  "notes": "Spain inbox still housing-only. Treated Friday's floor defeat of both decrees as material (vote result, not another bargaining quote). Second slot: Sánchez weighing dissolution this weekend (new political cycle). Third: 73% general-strike poll including >60% of PP/Vox voters (new data, distinct from 2 Oct 40dB rent-intervention poll). publisher_pool_thin: Spain eligible publishers were only eldiario.es and EL PAÍS. Parked Feijóo dare, Junts-flip explainer, photos, opinions, Bustinduy, Sol camp, PP-Vox seat model. Germany inbox thin after geo/sports/celebrity (Manchester plot, Brazil, Xinjiang, NHL, coffee, Otto, Schmidt): Galeria insolvency (Handelsblatt), GLP-1 in children elevated despite slim rank_below_cap (no better Germany health/economy item), Wehrpflicht protest moved from Berlin inbox (national draft, rbb24). publisher_pool_thin: Germany eligible publishers Handelsblatt and rbb24. Berlin: Unity-Day missing S-Bahn (Tagesspiegel), Kauf Dich Glücklich 28th shop (Tagesspiegel), Tag der Clubkultur (The Berliner). World: TEPCO capacity squatters (East Asia, Nikkei), USCG Cuba fuel intercept (Latin America, Guardian), Starbucks Xinjiang moved from Germany inbox (East Asia, Handelsblatt). Skipped Burundi URL (Selected Read 1 Oct) and Aparecida (Selected Read 2 Oct). Selected Reads: FT Great Game, Nikkei HDD suppliers, FP De Croo UNDP, Guardian Cairo mural. Ceuta cooldown empty; no Ceuta Spain slot. Elevated GLP-1 despite rejected_candidates rank_below_cap because the Germany pool otherwise had one eligible economy story."
 }
