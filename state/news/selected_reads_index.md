@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-04
+
+- [Russia Turns to Striking Kyiv’s Bridges, Threatening a Vital Lifeline](https://www.nytimes.com/2026/10/03/world/europe/russia-ukraine-bridges-kyiv.html) — The New York Times
+- [Turkish arms group eyes Japan ties in air defense and underwater drones](https://asia.nikkei.com/business/aerospace-defense-industries/turkish-arms-group-eyes-japan-ties-in-air-defense-and-underwater-drones) — Nikkei Asia
+- [AI Could Worsen a Common Cognitive Trap](https://www.theatlantic.com/science/2026/10/why-illusions-understanding-explanation-question/688826/?utm_source=feed) — The Atlantic
+- [Vivienda protegida indefinida para el 60% de la población y casi sin desahucios: así es el elogiado modelo de Viena](https://www.eldiario.es/euskadi/vivienda-protegida-indefinida-60-poblacion-desahucios-elogiado-modelo-viena_1_13559566.html) — eldiario.es
+
 ## 2026-10-03
 
 - [China, America and the new Great Game](https://www.ft.com/content/8869caf9-3cd1-4300-aeb3-828a4d9da4f9?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [As A.I. Panic Grows, Javier Milei Is Pitching Argentina As a Rules-Free Haven](https://www.nytimes.com/2026/09/29/world/americas/argentina-ai-rules-milei.html) — The New York Times
 - [Why Do AI Agents Sound So Frustrated?](https://www.theatlantic.com/technology/2026/09/why-do-ai-agents-sound-so-frustrated/688828/?utm_source=feed) — The Atlantic
 - [Luxury watches must win back wrist space](https://www.ft.com/content/838a6480-9888-4f4a-9d2f-8e02cb3889c9?syn-25a6b1a6=1) — Financial Times
-
-## 2026-09-29
-
-- [AMD to buy Fei-Fei Li’s AI start-up for $8bn](https://www.ft.com/content/33344fa5-6a25-4d72-8934-528526dd89bd?syn-25a6b1a6=1) — Financial Times
-- [Over 800 Killed in Renewed Houthi-Saudi War in Yemen, W.H.O. Says](https://www.nytimes.com/2026/09/28/world/middleeast/yemen-war-800-dead.html) — The New York Times
-- [DRC politician beaten to death after radio appearance about Ebola outbreak](https://www.theguardian.com/world/2026/sep/28/drc-politician-beaten-death-radio-appearance-ebola) — The Guardian
-- [Russian Drone Strikes Ukraine’s Science Academy, Causing Fire in City Center](https://www.nytimes.com/2026/09/28/world/europe/urkaine-drone-attack-kyiv-academy-sciences.html) — The New York Times
 
 ## Blocked until 5+ briefings have passed
 

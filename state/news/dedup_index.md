@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-04
+
+- **spain-right-voters-back-killed-housing-shield** — eldiario.es: more than half of PP, Vox and Junts voters support the eviction shield and vulture-fund veto their parties killed on Friday (section: spain)
+- **spain-psoe-majority-urges-snap-election** — EL PAÍS: most of the PSOE and the government are telling Sánchez to dissolve now (section: spain)
+- **spain-junts-puigdemont-return-roadmap** — EL PAÍS: Junts is writing its next phase around Puigdemont's return and ignoring the housing backlash (section: spain)
+- **germany-merz-surprise-kyiv-drone-deal** — Handelsblatt: Merz arrived unannounced in Kyiv with Reiche; a drone deal and more aid are the aim (section: germany)
+- **germany-erfurt-semiconductor-bet** — Tagesspiegel: Erfurt is pushing a large chip project beside Dresden's better-known cluster (section: germany)
+- **germany-insa-afd-30-union-record-low** — Berliner Zeitung: Insa has the AfD at 30% and the CDU/CSU at 18%, a record low (section: germany)
+- **berlin-gorki-membrana-lhuillier** — The Berliner: Nicole L'Huillier's Membrana installation wraps the Maxim Gorki Theater (section: berlin)
+- **berlin-hertha-international-break-rhythm** — Tagesspiegel: Hertha kept match rhythm through the international break, including a friendly at Augsburg (section: berlin)
+- **berlin-fuechse-bietigheim-away-win** — rbb24: Füchse Berlin scraped a Bundesliga handball win in Bietigheim (section: berlin)
+- **world-china-record-bank-closures** — Financial Times: China shut a record 670+ lenders last year; Fitch says small banks remain the weak point (section: world)
+- **world-kawasaki-humanoid-robot-2030** — Nikkei Asia: Kawasaki Heavy aims for a fully autonomous humanoid AI robot by 2030 (section: world)
+- **world-atlantic-ai-writing-hypocrites** — The Atlantic: writers who use AI as an assistive tool tell others not to write with it (section: world)
+
 ## 2026-10-03
 
 - **spain-housing-decrees-fall-congress** — eldiario.es: Junts, PP and Vox voted down both emergency housing decrees; ~5 million tenants due a renewal before 2028 lose the automatic extensions (section: spain)
@@ -214,18 +229,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-trump-ai-force** — Financial Times: Trump announced an 'AI Force' tsar rather than an AI law (section: world)
 - **world-hormuz-cargo-trade-vanished** — Financial Times: the Hormuz transit trade in helium-to-corn cargo has largely disappeared (section: world)
 - **world-russia-duma-kremlin-ballot** — Handelsblatt: Russia's wartime Duma vote ends with only Kremlin-aligned parties on the ballot (section: world)
-
-## 2026-09-19
-
-- **spain-ceuta-girls-shelter-prosecutor** — eldiario.es: the public prosecutor is investigating alleged abuse at a Ceuta shelter for migrant girls (section: spain)
-- **spain-morocco-us-israel-sahara-entente** — EL PAÍS: Morocco has sealed US and Israeli backing for sovereignty over Western Sahara (section: spain)
-- **spain-ramon-y-cajal-waitlist-minutes** — EL PAÍS: Ramón y Cajal managers admitted they downgraded surgery priorities, contradicting Ayuso (section: spain)
-- **germany-eu-asylum-fast-track-deport** — Handelsblatt: the new EU asylum rules put most applicants on a fast track and allow deportation before appeal (section: germany)
-- **germany-volksbanken-crypto-offer** — Tagesspiegel: Volksbanken are opening their own bitcoin and crypto products (section: germany)
-- **germany-ev-monthly-rate-finance** — Die Zeit: EV buying in Germany is a ~€280 monthly rate, not a cash sticker (section: germany)
-- **berlin-wahl-500-campaign-incidents** — Tagesspiegel: police logged about 500 poster-damage and helper-attack cases in the Berlin campaign (section: berlin)
-- **berlin-fex-ber-2027-hbf-cut** — Berliner Zeitung: from 2027 the FEX will no longer start at Hauptbahnhof; S-Bahn cuts hit summer holidays (section: berlin)
-- **berlin-gunther-wunsch-schools-performance** — Tagesspiegel: education senator Katharina Günther-Wünsch is pushing a performance overhaul of Berlin schools (section: berlin)
-- **world-openai-280bn-cash-burn** — Financial Times: OpenAI expects to burn $280bn by 2030 (section: world)
-- **world-us-deportees-equatorial-guinea** — The Guardian: US deportees were bound and beaten at a hotel in Equatorial Guinea (section: world)
-- **world-india-bangalore-infrastructure** — Bloomberg: India's tech boom is running ahead of Bangalore's infrastructure (section: world)

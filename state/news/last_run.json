@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-03",
-  "briefing_date": "2026-10-03",
-  "inbox_date": "2026-10-03",
+  "date": "2026-10-04",
+  "briefing_date": "2026-10-04",
+  "inbox_date": "2026-10-04",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-03.md",
-  "inbox_path": "inbox/news/2026-10-03-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-04.md",
+  "inbox_path": "inbox/news/2026-10-04-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Feijóo reta a Sánchez a convocar ya elecciones",
+      "headline": "La suma de PP y Vox supera con holgura la mayoría absoluta y aventaja a la izquierda en casi 15 puntos",
       "section": "spain",
-      "reason": "one_theme with the Sánchez snap-election slot"
+      "reason": "one_theme with snap-election slot; Other Headlines only (poll taken before Friday's vote)"
     },
     {
-      "headline": "Cómo pasó Junts de pactar el decreto de vivienda a tumbarlo",
+      "headline": "Votar con V de vivienda",
       "section": "spain",
-      "reason": "one_theme with the Congress vote / tenant-impact slot"
+      "reason": "opinion newsletter, not a news slot"
     },
     {
-      "headline": "FOTOS | Caras de decepción y llaves en alto en la calle y abrazos en el Congreso: las imágenes de la jornada",
-      "section": "spain",
-      "reason": "photo package, not a story"
-    },
-    {
-      "headline": "No más incertidumbre",
-      "section": "spain",
-      "reason": "opinion; one_theme with snap-election slot"
-    },
-    {
-      "headline": "Pablo Bustinduy: “Las elecciones, cuando sean, van a ser un referéndum sobre la vivienda”",
-      "section": "spain",
-      "reason": "one_theme with snap-election / housing-vote slots"
-    },
-    {
-      "headline": "Los acampados en Sol deciden quedarse aunque parte del Sindicato de Inquilinas anuncia su salida progresiva",
+      "headline": "“La esperanza nos mueve”: Sol mantiene viva la llama de la vivienda mientras crece el clamor por una huelga general",
       "section": "spain",
       "reason": "avoid_unless_material: housing protests; Other Headlines only"
     },
     {
-      "headline": "¿Qué dicen las encuestas si hay elecciones? La ventaja PP-Vox y las opciones de Sánchez",
+      "headline": "El posible adelanto electoral fuerza a la izquierda alternativa a acelerar",
       "section": "spain",
-      "reason": "one_theme with snap-election slot; Other Headlines only"
+      "reason": "one_theme with PSOE snap-election slot; Other Headlines only"
     },
     {
-      "headline": "Kriminalität: Anklage gegen Iraner: Terrorplan gegen jüdische Gemeinde?",
+      "headline": "El PP ya especula con un Gobierno Feijóo",
+      "section": "spain",
+      "reason": "not_material: cabinet speculation"
+    },
+    {
+      "headline": "Merz in Kyjiw eingetroffen: „Wird Russland nicht gestoppt…“",
       "section": "germany",
-      "reason": "geographic_misfit: Manchester; Other Headlines only"
+      "reason": "one_theme with Handelsblatt Kyiv/drone-deal slot"
     },
     {
-      "headline": "Präsidentenwahl: Bolsonaro-Sohn fordert Brasiliens Präsidenten Lula heraus",
+      "headline": "Vergangenheit und Nostalgie: Merkel-Mania?",
       "section": "germany",
-      "reason": "geographic_misfit: Brazil; Other Headlines used Guardian rally"
+      "reason": "feature; one Merz too many after Kyiv visit and Insa poll"
     },
     {
-      "headline": "Nossener Brücke in Dresden nachts stadteinwärts voll gesperrt",
+      "headline": "New York: Das Geschäft mit dem 60-Dollar-Brot",
+      "section": "germany",
+      "reason": "geographic_misfit: New York"
+    },
+    {
+      "headline": "Kita Sonnenschein in Halberstadt / Eberswalder / Glauchau / Halle / Görlitz",
       "section": "berlin",
-      "reason": "geographic_misfit: Dresden / Saxony traffic"
+      "reason": "geographic_misfit: Saxony, Saxony-Anhalt, Brandenburg — not Berlin city"
     },
     {
-      "headline": "Burundi agrees to receive ‘third-country’ migrant deportees from US",
+      "headline": "‘What Is Happening Today Is Development in Reverse’ / Cairo mural / Our Lady of Aparecida",
       "section": "world",
-      "reason": "already a Selected Read on 2026-10-01; do not reuse URL"
+      "reason": "Selected Reads in the last 5 briefings; do not reuse URLs"
     },
     {
-      "headline": "A Londoner’s guide to hating London",
+      "headline": "Brazil’s Lula says only he can stop rise of fascism under Bolsonaro’s son",
       "section": "world",
-      "reason": "feature essay, not a news slot"
+      "reason": "already Other Headlines on 2026-10-03; election-day note only"
+    },
+    {
+      "headline": "Co-pilot used axe to carry out ‘terrorist act’ on Flydubai flight",
+      "section": "world",
+      "reason": "incremental on 2026-10-01 Selected Read / Other Headlines; same incident"
     }
   ],
-  "notes": "Spain inbox still housing-only. Treated Friday's floor defeat of both decrees as material (vote result, not another bargaining quote). Second slot: Sánchez weighing dissolution this weekend (new political cycle). Third: 73% general-strike poll including >60% of PP/Vox voters (new data, distinct from 2 Oct 40dB rent-intervention poll). publisher_pool_thin: Spain eligible publishers were only eldiario.es and EL PAÍS. Parked Feijóo dare, Junts-flip explainer, photos, opinions, Bustinduy, Sol camp, PP-Vox seat model. Germany inbox thin after geo/sports/celebrity (Manchester plot, Brazil, Xinjiang, NHL, coffee, Otto, Schmidt): Galeria insolvency (Handelsblatt), GLP-1 in children elevated despite slim rank_below_cap (no better Germany health/economy item), Wehrpflicht protest moved from Berlin inbox (national draft, rbb24). publisher_pool_thin: Germany eligible publishers Handelsblatt and rbb24. Berlin: Unity-Day missing S-Bahn (Tagesspiegel), Kauf Dich Glücklich 28th shop (Tagesspiegel), Tag der Clubkultur (The Berliner). World: TEPCO capacity squatters (East Asia, Nikkei), USCG Cuba fuel intercept (Latin America, Guardian), Starbucks Xinjiang moved from Germany inbox (East Asia, Handelsblatt). Skipped Burundi URL (Selected Read 1 Oct) and Aparecida (Selected Read 2 Oct). Selected Reads: FT Great Game, Nikkei HDD suppliers, FP De Croo UNDP, Guardian Cairo mural. Ceuta cooldown empty; no Ceuta Spain slot. Elevated GLP-1 despite rejected_candidates rank_below_cap because the Germany pool otherwise had one eligible economy story."
+  "notes": "Spain inbox still housing/election-only. Treated the PP/Vox/Junts-voter poll as material new data (specific killed measures, distinct from 3 Oct general-strike poll). Second slot: PSOE/government majority now urging dissolution (party-pressure development after 3 Oct 'Sánchez will decide'). Third: Junts roadmap around Puigdemont's return (distinct Catalan actor). publisher_pool_thin: Spain eligible publishers only eldiario.es and EL PAÍS. Parked PP+Vox seat poll, Escolar letter, Sol camp, alternative-left split, Feijóo cabinet speculation. Germany: Merz surprise Kyiv visit/drone deal (Handelsblatt), Erfurt chip bet (Tagesspiegel for publisher diversity), Insa AfD 30%/Union 18% moved from Berlin inbox (national poll, Berliner Zeitung). Skipped Tagesspiegel Kyiv duplicate, Merkel-Mania, NY bread, Bhutan, Apple Mac agents, sports/TV. Berlin pool thin after geo-misfits: Gorki Membrana (The Berliner) plus Hertha (Tagesspiegel) and Füchse (rbb24) — two sports used because remaining citable local items were sports results; noted berlin_pool_thin. World: China record bank closures (East Asia, FT), Kawasaki humanoid 2030 (East Asia/Japan, Nikkei), Atlantic AI-writing hypocrites (North America). ≥2 non-European regions. Skipped De Croo/Cairo/Aparecida URLs (recent Selected Reads), Lula rally (OH 3 Oct), Flydubai axe (same incident as 1 Oct). Selected Reads: NYT Kyiv bridges, Nikkei Turkish-Japan drones, Atlantic cognitive trap, eldiario Vienna housing model (elevated from Spain items after candidate pool was gutted by yesterday's reads). Ceuta cooldown empty; no Ceuta Spain slot."
 }
