@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-05
+
+- [Skull fractures suggest servants of Egypt’s ancient kings were sacrificed](https://www.theguardian.com/science/2026/oct/05/skull-fractures-suggest-servants-of-egypts-ancient-kings-were-sacrificed) — The Guardian
+- [AI’s Real Gift to Science](https://www.theatlantic.com/science/2026/10/anthropic-artificial-intelligence-science-biology/688878/?utm_source=feed) — The Atlantic
+- [Russia’s new drive to crush Ukraine](https://www.ft.com/content/cc96ac01-7929-4954-97a3-7b30e00ef324?syn-25a6b1a6=1) — Financial Times
+- [Radiografía de un pelotazo: cuando Ana Botella malvendió 1.860 viviendas públicas a un fondo buitre](https://www.eldiario.es/madrid/radiografia-pelotazo-ana-botella-malvendio-1-860-viviendas-publicas-fondo-buitre_1_13553591.html) — eldiario.es
+
 ## 2026-10-04
 
 - [Russia Turns to Striking Kyiv’s Bridges, Threatening a Vital Lifeline](https://www.nytimes.com/2026/10/03/world/europe/russia-ukraine-bridges-kyiv.html) — The New York Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Big Tech out-lobbies European companies in Brussels](https://www.ft.com/content/817f40f7-d4ac-43ee-beaf-12cfac08c621?syn-25a6b1a6=1) — Financial Times
 - [Trump says diesel export ban is still on the table](https://www.politico.eu/article/donald-trump-diesel-export-ban-on-table/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [Burundi agrees to receive ‘third-country’ migrant deportees from US](https://www.theguardian.com/us-news/2026/sep/30/burundi-third-country-deportations-trump-immigration) — The Guardian
-
-## 2026-09-30
-
-- [Tech supply chain shrugs off AI slowdown calls as demand booms](https://asia.nikkei.com/business/technology/tech-asia/tech-supply-chain-shrugs-off-ai-slowdown-calls-as-demand-booms) — Nikkei Asia
-- [As A.I. Panic Grows, Javier Milei Is Pitching Argentina As a Rules-Free Haven](https://www.nytimes.com/2026/09/29/world/americas/argentina-ai-rules-milei.html) — The New York Times
-- [Why Do AI Agents Sound So Frustrated?](https://www.theatlantic.com/technology/2026/09/why-do-ai-agents-sound-so-frustrated/688828/?utm_source=feed) — The Atlantic
-- [Luxury watches must win back wrist space](https://www.ft.com/content/838a6480-9888-4f4a-9d2f-8e02cb3889c9?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

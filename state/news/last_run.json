@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-04",
-  "briefing_date": "2026-10-04",
-  "inbox_date": "2026-10-04",
+  "date": "2026-10-05",
+  "briefing_date": "2026-10-05",
+  "inbox_date": "2026-10-05",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-04.md",
-  "inbox_path": "inbox/news/2026-10-04-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-05.md",
+  "inbox_path": "inbox/news/2026-10-05-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "La suma de PP y Vox supera con holgura la mayoría absoluta y aventaja a la izquierda en casi 15 puntos",
+      "headline": "Moncloa prepara el adelanto electoral y el rescate de los decretos de vivienda que tumbó la derecha",
       "section": "spain",
-      "reason": "one_theme with snap-election slot; Other Headlines only (poll taken before Friday's vote)"
+      "reason": "one_theme with EL PAÍS snap-election / Permanent Deputation slot"
     },
     {
-      "headline": "Votar con V de vivienda",
+      "headline": "El último cuarto de Pedro Sánchez",
       "section": "spain",
-      "reason": "opinion newsletter, not a news slot"
+      "reason": "opinion column; one_theme with snap-election slot"
     },
     {
-      "headline": "“La esperanza nos mueve”: Sol mantiene viva la llama de la vivienda mientras crece el clamor por una huelga general",
+      "headline": "🎙 PODCAST | Una vida (y una legislatura) asfixiada por el alquiler",
+      "section": "spain",
+      "reason": "podcast, not a news slot"
+    },
+    {
+      "headline": "91 días para evitar el desahucio de Dani y Aurora",
+      "section": "spain",
+      "reason": "individual eviction case; not material"
+    },
+    {
+      "headline": "Manual de resistencia de los chalecos naranjas",
       "section": "spain",
       "reason": "avoid_unless_material: housing protests; Other Headlines only"
     },
     {
-      "headline": "El posible adelanto electoral fuerza a la izquierda alternativa a acelerar",
+      "headline": "Inquietud en el PSOE y Sumar por el mensaje contra “la política”",
       "section": "spain",
-      "reason": "one_theme with PSOE snap-election slot; Other Headlines only"
+      "reason": "incremental on 2026-10-03 housing-strike thread; Other Headlines only"
     },
     {
-      "headline": "El PP ya especula con un Gobierno Feijóo",
-      "section": "spain",
-      "reason": "not_material: cabinet speculation"
-    },
-    {
-      "headline": "Merz in Kyjiw eingetroffen: „Wird Russland nicht gestoppt…“",
+      "headline": "Morning Briefing Podcast: Ukraine: Der Kanzler geht all in",
       "section": "germany",
-      "reason": "one_theme with Handelsblatt Kyiv/drone-deal slot"
+      "reason": "one_theme with Handelsblatt morning-briefing Ukraine slot"
     },
     {
-      "headline": "Vergangenheit und Nostalgie: Merkel-Mania?",
+      "headline": "Fragen aus dem Arbeitsrecht / Dax Monday / Gears of War / Zürich / Maxxing",
       "section": "germany",
-      "reason": "feature; one Merz too many after Kyiv visit and Insa poll"
+      "reason": "germany_pool_thin: service, games, travel, or noise; Dax column skipped"
     },
     {
-      "headline": "New York: Das Geschäft mit dem 60-Dollar-Brot",
+      "headline": "Die 100 wichtigsten Köpfe der Berliner Wissenschaft: Rising Stars",
       "section": "germany",
-      "reason": "geographic_misfit: New York"
+      "reason": "already covered 2026-10-01 berlin-science-100-heads"
     },
     {
-      "headline": "Kita Sonnenschein in Halberstadt / Eberswalder / Glauchau / Halle / Görlitz",
+      "headline": "Motorradunfall Pockau / Zwenkauer See / Halle / Dresden / Kottmarsdorf",
       "section": "berlin",
-      "reason": "geographic_misfit: Saxony, Saxony-Anhalt, Brandenburg — not Berlin city"
+      "reason": "geographic_misfit: Saxony and other non-Berlin cities"
     },
     {
-      "headline": "‘What Is Happening Today Is Development in Reverse’ / Cairo mural / Our Lady of Aparecida",
+      "headline": "‘What Is Happening Today Is Development in Reverse’ / Cairo mural",
       "section": "world",
       "reason": "Selected Reads in the last 5 briefings; do not reuse URLs"
     },
     {
-      "headline": "Brazil’s Lula says only he can stop rise of fascism under Bolsonaro’s son",
+      "headline": "Securing energy and trade flows in geo-economic conflicts",
       "section": "world",
-      "reason": "already Other Headlines on 2026-10-03; election-day note only"
-    },
-    {
-      "headline": "Co-pilot used axe to carry out ‘terrorist act’ on Flydubai flight",
-      "section": "world",
-      "reason": "incremental on 2026-10-01 Selected Read / Other Headlines; same incident"
+      "reason": "Politico sponsored-content; skipped"
     }
   ],
-  "notes": "Spain inbox still housing/election-only. Treated the PP/Vox/Junts-voter poll as material new data (specific killed measures, distinct from 3 Oct general-strike poll). Second slot: PSOE/government majority now urging dissolution (party-pressure development after 3 Oct 'Sánchez will decide'). Third: Junts roadmap around Puigdemont's return (distinct Catalan actor). publisher_pool_thin: Spain eligible publishers only eldiario.es and EL PAÍS. Parked PP+Vox seat poll, Escolar letter, Sol camp, alternative-left split, Feijóo cabinet speculation. Germany: Merz surprise Kyiv visit/drone deal (Handelsblatt), Erfurt chip bet (Tagesspiegel for publisher diversity), Insa AfD 30%/Union 18% moved from Berlin inbox (national poll, Berliner Zeitung). Skipped Tagesspiegel Kyiv duplicate, Merkel-Mania, NY bread, Bhutan, Apple Mac agents, sports/TV. Berlin pool thin after geo-misfits: Gorki Membrana (The Berliner) plus Hertha (Tagesspiegel) and Füchse (rbb24) — two sports used because remaining citable local items were sports results; noted berlin_pool_thin. World: China record bank closures (East Asia, FT), Kawasaki humanoid 2030 (East Asia/Japan, Nikkei), Atlantic AI-writing hypocrites (North America). ≥2 non-European regions. Skipped De Croo/Cairo/Aparecida URLs (recent Selected Reads), Lula rally (OH 3 Oct), Flydubai axe (same incident as 1 Oct). Selected Reads: NYT Kyiv bridges, Nikkei Turkish-Japan drones, Atlantic cognitive trap, eldiario Vienna housing model (elevated from Spain items after candidate pool was gutted by yesterday's reads). Ceuta cooldown empty; no Ceuta Spain slot."
+  "notes": "Spain inbox still housing/election-only. Treated EL PAÍS 'Todo listo' as material: election machinery ready plus a Permanent Deputation path to re-pass the decrees (institutional development after 4 Oct 'PSOE majority urges dissolve'). Second: judge uses Almeida/Maricarmen as notorious fact against further EMVS evictions (court ruling). Third: 40dB vote barometer (PP 31.6, only Vox up, right bloc 50%) — fieldwork before Friday, distinct from housing-attitude polls. publisher_pool_thin: Spain eligible publishers only eldiario.es and EL PAÍS. Parked eldiario Moncloa duplicate, Escolar-style 'último cuarto', podcast, Dani/Aurora case, orange-vest feature, PSOE/Sumar strike unease (OH). Germany: Linke→BVerfG vs Reiche (Tagesspiegel), Gen Z labour-market humility (Tagesspiegel), Handelsblatt morning note writing off Merz domestically and leaving him Ukraine (publisher diversity after 4 Oct Kyiv visit; germany_pool_thin otherwise). Skipped Dax column, labour-law FAQ (would double labour with Gen Z), games, Zurich, Maxxing, 100-Köpfe repeat. Berlin pool thin after geo-misfits: AI in city healthcare (The Berliner), Potsdamer Platz lift-shaft fall (rbb24), Eisbären vs Nürnberg (rbb24) — one sports used because remaining citable local items were sports or Brandenburg; noted berlin_pool_thin. World: Brazil first-round Flávio lead (Latin America, FT), Trump boom not helping (North America, FT), Egypt Matsadaash newsroom (Middle East/Africa, Guardian). ≥2 non-European regions. Skipped De Croo/Cairo URLs (recent Selected Reads), sponsored Hormuz, B-1/M&A/Canada-Australia/Nikkei to Other Headlines, Russia grain to Selected Reads. Selected Reads: Guardian Egypt skulls, Atlantic AI-for-science, FT Russia grain offensive, eldiario Botella 2013 vulture-fund sale (elevated from Spain items). Ceuta cooldown empty; no Ceuta Spain slot."
 }

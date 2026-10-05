@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-05
+
+- **spain-moncloa-snap-election-decree-permanente** — EL PAÍS: snap-election call is ready; Moncloa is drafting a path to re-pass the housing decrees via the Permanent Deputation (section: spain)
+- **spain-judge-almeida-maricarmen-emvs** — eldiario.es: a judge used Almeida's Maricarmen response as a "notorious fact" to halt other EMVS evictions (section: spain)
+- **spain-40db-vox-right-bloc-50** — EL PAÍS: 40dB has the PP at 31.6%, only Vox rising, right bloc still at 50% (fieldwork before Friday's vote) (section: spain)
+- **germany-linke-reiche-verfassungsgericht** — Tagesspiegel: Die Linke asked the Federal Constitutional Court to rule on Reiche's post-Berlin-election remarks (section: germany)
+- **germany-genz-labour-humility** — Tagesspiegel: the entry-level job market has shrunk; Gen Z's labour-market swagger is fading (section: germany)
+- **germany-merz-ukraine-morning-briefing-writeoff** — Handelsblatt: morning note writes off Merz domestically and leaves him Ukraine as the remaining mission (section: germany)
+- **berlin-ai-healthcare-clinics** — The Berliner: AI is entering Berlin hospitals and practices; the question is oversight, not arrival (section: berlin)
+- **berlin-potsdamer-platz-lift-shaft** — rbb24: a person fell 15 metres into a lift shaft at Potsdamer Platz and was flown to hospital (section: berlin)
+- **berlin-eisbaeren-nuernberg-win** — rbb24: the Eisbären beat Nürnberg after a slow start (section: berlin)
+- **world-flavio-bolsonaro-first-round-lead** — Financial Times: Flávio Bolsonaro leads Lula after the first round and is favourite for the 25 October runoff (section: world)
+- **world-trump-boom-not-helping** — Financial Times: AI anxiety and affordability have turned Trump's party into a midterm target despite strong official numbers (section: world)
+- **world-egypt-matsadaash-newsroom** — The Guardian: Egypt detained the Matsadaash newsroom and charged a journalist with terrorism (section: world)
+
 ## 2026-10-04
 
 - **spain-right-voters-back-killed-housing-shield** — eldiario.es: more than half of PP, Vox and Junts voters support the eviction shield and vulture-fund veto their parties killed on Friday (section: spain)
@@ -215,17 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-china-sodium-battery-race** — Financial Times: Western firms lag China in sodium-ion batteries that could loosen rare-earth dependence (section: world)
 - **world-haiti-moise-assassination-arrests** — The Guardian: 18 people arrested over the 2021 killing of Haitian president Jovenel Moïse (section: world)
 - **world-japan-physical-ai-machinery** — Nikkei Asia: Japan to tap industrial machinery for physical-AI training data (section: world)
-
-## 2026-09-20
-
-- **spain-ibiza-cemetery-homelessness** — eldiario.es: Ibiza's housing shortage has people sleeping in cemeteries; Sant Josep locked the graveyards (section: spain)
-- **spain-national-surgery-waitlist-850k** — eldiario.es: about 850,000 people were on surgical waiting lists at end-2025, average wait 121 days (section: spain)
-- **germany-mv-landtag-election-day** — Handelsblatt: Mecklenburg-Vorpommern elects a new Landtag (section: germany)
-- **germany-pflege-card-read-trips** — Handelsblatt: care staff still travel to GP practices to have Gesundheitskarten read for billing (section: germany)
-- **germany-bystander-cpr-literacy** — Tagesspiegel: many Germans remain unsure how to restart a heart (section: germany)
-- **berlin-senate-approval-one-in-five** — rbb24: Infratest Dimap finds only 20% satisfied with the Senate before the Abgeordnetenhaus vote (section: berlin)
-- **berlin-crisis-as-chance-essay** — Tagesspiegel: an essay treats the capital's permanent crisis as unused capacity (section: berlin)
-- **berlin-house-of-wunder-residence** — The Berliner: House of Wunder opens in Kreuzberg as a live-in studio and community space (section: berlin)
-- **world-trump-ai-force** — Financial Times: Trump announced an 'AI Force' tsar rather than an AI law (section: world)
-- **world-hormuz-cargo-trade-vanished** — Financial Times: the Hormuz transit trade in helium-to-corn cargo has largely disappeared (section: world)
-- **world-russia-duma-kremlin-ballot** — Handelsblatt: Russia's wartime Duma vote ends with only Kremlin-aligned parties on the ballot (section: world)
