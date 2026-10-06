@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-06
+
+- [Hong Kong quizzes HSBC over Singapore AI hub decision](https://www.ft.com/content/1a4458ce-6317-4dce-a43e-95e724d7c33f?syn-25a6b1a6=1) — Financial Times
+- [Fuel from South Korea being shipped to Russia as Ukraine war grinds on](https://www.theguardian.com/world/2026/oct/06/oil-tankers-south-korea-russia-ukraine-war) — The Guardian
+- [AI Made the List—but Humans Still Did the Killing](https://foreignpolicy.com/2026/10/05/israel-gaza-palestine-ai-war-naza-civilians/) — Foreign Policy
+- [TotalEnergies boss hails ‘opportunities’ created by global market turmoil](https://www.ft.com/content/ae67bb6f-f227-4679-949f-2e79e2dc33e2?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-10-05
 
 - [Skull fractures suggest servants of Egypt’s ancient kings were sacrificed](https://www.theguardian.com/science/2026/oct/05/skull-fractures-suggest-servants-of-egypts-ancient-kings-were-sacrificed) — The Guardian
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [An AI sovereign wealth fund isn’t progressive — it’s techno-imperialism](https://www.ft.com/content/bc178357-793b-45d8-ae3b-d5929159c243) — Financial Times
 - [‘Everyone Is Depleted’](https://foreignpolicy.com/2026/10/01/yemen-houthis-saudi-arabia-war-humanitarian-crisis-aid/) — Foreign Policy
 - [‘No one disrespects Our Lady’: fears for Brazil’s patron saint grip country ahead of election](https://www.theguardian.com/world/2026/oct/02/brazil-election-lady-of-aparecida-lula-bolsonaro-row) — The Guardian
-
-## 2026-10-01
-
-- [18,000 feet in 90 seconds: Inside Flydubai’s near-catastrophe](https://www.ft.com/content/ecc95946-92ed-426c-bcf9-e6575e1cf6c6?syn-25a6b1a6=1) — Financial Times
-- [Big Tech out-lobbies European companies in Brussels](https://www.ft.com/content/817f40f7-d4ac-43ee-beaf-12cfac08c621?syn-25a6b1a6=1) — Financial Times
-- [Trump says diesel export ban is still on the table](https://www.politico.eu/article/donald-trump-diesel-export-ban-on-table/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Burundi agrees to receive ‘third-country’ migrant deportees from US](https://www.theguardian.com/us-news/2026/sep/30/burundi-third-country-deportations-trump-immigration) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

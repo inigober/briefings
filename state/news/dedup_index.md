@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-06
+
+- **spain-sanchez-calls-snap-election** — EL PAÍS: Sánchez and his core decided Thursday–Saturday that this Congress was useless and called a snap election (section: spain)
+- **spain-frente-amplio-podemos-10-day-coalition** — eldiario.es: Podemos and the Frente Amplio have ~10 days to decide a joint list; Mónica García is the name gaining (section: spain)
+- **spain-ley-nietos-census-29n** — eldiario.es: the 29 November census closed 1 August, before the Supreme Court limited nietos voting rights; 168,896 files in doubt (section: spain)
+- **germany-bundestag-named-tax-votes** — Handelsblatt: the Greens have tabled seven named Bundestag votes on tax laws for Thursday (section: germany)
+- **germany-dwd-sunshine-hours-record** — Tagesspiegel: DWD had 1,783 sunshine hours by end-September, more than a typical full year (section: germany)
+- **germany-kleinanzeigen-ai-chats** — Handelsblatt: Kleinanzeigen.de's AI reads private sales chats without a consent prompt (section: germany)
+- **berlin-canal-floating-biotopes** — Tagesspiegel: four planted rafts on Friedrichshain-Kreuzberg canals, designed by Ralf Steeg (section: berlin)
+- **berlin-kreuzberg-school-tear-gas** — rbb24: several people injured in a tear-gas attack at a Kreuzberg school (section: berlin)
+- **berlin-neukoelln-apartment-fire-death** — rbb24: a 65-year-old died after a flat fire in Neukölln (section: berlin)
+- **world-qualcomm-huawei-5g-ai-patents** — Nikkei Asia: Qualcomm will pay Huawei for 5G and AI patents for the first time (section: world)
+- **world-reliance-closes-7eleven-india** — Nikkei Asia: Reliance has shut all 7-Eleven stores in India (section: world)
+- **world-houthi-medina-turkey-pakistan-troops** — Tagesspiegel: Turkey and Pakistan are sending troops after Houthi attacks on Medina (section: world)
+
 ## 2026-10-05
 
 - **spain-moncloa-snap-election-decree-permanente** — EL PAÍS: snap-election call is ready; Moncloa is drafting a path to re-pass the housing decrees via the Permanent Deputation (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-africa-healthcare-usaid-strain** — The Guardian: Accra Reset says African healthcare is under strain after the US aid pullout (section: world)
 - **world-china-power-grid-stocks-ai** — Nikkei Asia: China's power-infrastructure stocks are lagging the AI electricity boom (section: world)
 - **world-us-boat-strikes-crimes-against-humanity** — The Guardian: a UN rapporteur says US boat strikes may be crimes against humanity (section: world)
-
-## 2026-09-21
-
-- **spain-constitucional-amnistia-puigdemont** — eldiario.es: the Constitutional Court starts on the amnesty the Supreme Court denied to Puigdemont and the 2017 Catalan leadership (section: spain)
-- **spain-35-hour-week-regional-admin** — EL PAÍS: the 35-hour week is spreading through regional and local government; Madrid and Galicia staff threaten action (section: spain)
-- **spain-eating-disorders-women-over-50** — EL PAÍS: clinicians say eating disorders in women over 50 are under-diagnosed (section: spain)
-- **germany-merz-wahlsonntag-four-lessons** — Handelsblatt: MV and Berlin results lock Merz into a declining chancellorship with no project (section: germany)
-- **germany-dax-week-open-elections** — Handelsblatt: the Dax opens the week with state-election results as a price driver (section: germany)
-- **germany-ddr-photography-reinbeckhallen** — Tagesspiegel: 1970s GDR street photos by a Karow artist, hidden for 50 years, go on show in Schöneweide (section: germany)
-- **berlin-linke-elif-eralp-historic-win** — Tagesspiegel: Die Linke's historic Abgeordnetenhaus result and Elif Eralp's campaign (section: berlin)
-- **berlin-torstrasse-trees-no-permit** — The Berliner: the Senate plans to fell 32 trees on Torstraße after Mitte refused a permit (section: berlin)
-- **berlin-galleries-culture-funding-cuts** — The Berliner: galleries are leaving as culture budgets shrink (section: berlin)
-- **world-china-sodium-battery-race** — Financial Times: Western firms lag China in sodium-ion batteries that could loosen rare-earth dependence (section: world)
-- **world-haiti-moise-assassination-arrests** — The Guardian: 18 people arrested over the 2021 killing of Haitian president Jovenel Moïse (section: world)
-- **world-japan-physical-ai-machinery** — Nikkei Asia: Japan to tap industrial machinery for physical-AI training data (section: world)
