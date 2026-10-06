@@ -1,0 +1,754 @@
+{
+  "briefing_type": "berlin-culture",
+  "date": "2026-10-06",
+  "week_start": "2026-10-07",
+  "week_end": "2026-10-13",
+  "week_label": "October 7–13, 2026",
+  "source_raw": "inbox/berlin-culture/2026-10-06-raw.json",
+  "built_at": "2026-10-06T08:38:04.731207+00:00",
+  "model": "gpt-6.1-sol",
+  "raw_item_count": 109,
+  "section_counts": {
+    "exhibitions": 3,
+    "film": 1,
+    "performing_arts": 2,
+    "music": 2,
+    "wildcards": 4,
+    "advance_radar": 5
+  },
+  "items": [
+    {
+      "id": "exhibitions-maurizio-cattelan-neue-nationalgalerie-2026",
+      "topic_ids": [
+        "exhibitions",
+        "contemporary_art"
+      ],
+      "title": "Maurizio Cattelan exhibition — final title unverified",
+      "venue": "Neue Nationalgalerie, Berlin",
+      "dates": "2026-09-11–2027-02-21",
+      "times": "Visiting hours not verified.",
+      "artists": [
+        "Maurizio Cattelan"
+      ],
+      "official_url": "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2025/12/NNG_2025/NNG_251229_2025_PR_en.pdf",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Secondary, provisional contemporary-art lead. The official museum press document explicitly announces this 2026–2027 solo exhibition associated with the 2026 Preis der Nationalgalerie. Artistic substance and political themes are insufficiently documented; exact title, dedicated exhibition webpage and visiting hours remain unverified. The source’s 2025 path is its publication context, not a past exhibition edition.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-0b2466af21",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Pull the Rug",
+      "venue": "on tree Shahin Zarinbal",
+      "dates": "until November 21, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/45133/pull-the-rug",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until November 21, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-21eacf17db",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Radical Tenderness",
+      "venue": "on tree Shahin Zarinbal",
+      "dates": "until November 21, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/45092/radical-tenderness",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until November 21, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "film-verhinderte-bilder-kino-krokodil-2026-10-12",
+      "topic_ids": [
+        "film",
+        "ecology",
+        "political_history",
+        "archives"
+      ],
+      "title": "DEFA-Stiftung präsentiert: Verhinderte Bilder – Ökologische Wahrheit und DDR-Zensur | Kurzfilmprogramm",
+      "venue": "Kino Krokodil, Greifenhagener Straße 32, Berlin",
+      "dates": "2026-10-12",
+      "times": "19:00",
+      "artists": [
+        "Günter Lippmann",
+        "Stefanie Eckert"
+      ],
+      "official_url": "https://kino-krokodil.de/aktuelles/defa-stiftung-praesentiert-verhinderte-bilder-oekologische-wahrheit-und-ddr-zensur-kurzfilmprogramm/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Verified documentary and animation short-film programme examining ecological damage, censorship and the GDR’s official environmental self-presentation. Includes an introduction by Stefanie Eckert of the DEFA-Stiftung.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "performing-arts-space-for-practice-2026-10-12",
+      "topic_ids": [
+        "performing_arts",
+        "participatory",
+        "ecology",
+        "choreography"
+      ],
+      "title": "Space for Practice — final session of the 2026 season",
+      "venue": "Floating University, Lilienthalstraße 32, 10965 Berlin",
+      "dates": "20 July 2026",
+      "times": "09:00–11:00",
+      "artists": [
+        "The Choreographic Milieu"
+      ],
+      "official_url": "https://floating-berlin.org/programmes/space-for-practice-2/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Verified participatory choreographic practice rather than a staged performance. Movement is shaped by the rainwater basin, weather, other creatures and changing site conditions. Free, no registration required and open to all experience levels. Individual facilitators for the final session are not specified.",
+      "ingestion_source": "openai",
+      "series_id": "space-for-practice",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "performing-arts-life-is-strange-choose-your-own-2026",
+      "topic_ids": [
+        "performing_arts",
+        "choreography",
+        "gaming",
+        "participatory"
+      ],
+      "title": "Life is strange, choose your own",
+      "venue": "FELD Zentrale für junge Performance, Gleditschstraße 5, 10781 Berlin",
+      "dates": "2026-10-10; 2026-10-11; 2026-10-13",
+      "times": "October 10: 18:00, premiere; October 11: 16:00; October 13: 10:00.",
+      "artists": [
+        "Cécile Bally",
+        "Asaf Aharonson",
+        "Sunayana Shetty",
+        "Malu Peeters"
+      ],
+      "official_url": "https://dock11-berlin.de/digital/programm/on-tour-workshops/life-is-strange-choose-your-own",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Verified interdisciplinary choreography and video-game performance exploring interdependence, repetition and breaking rules. The game was developed with Café Pink, and audiences can play after the performance. The in-window premiere takes place at FELD, not DOCK 11.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "silent-green-html-music-8c49da507e",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "scribble.mp3 pres. Felisha Ledesma & Angelo Harmsworth + Francesco Corvi & Nocturnerror",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/scribblemp3-pres-felisha-ledesma-angelo-harmsworth-francesco-corvi-nocturnerror?tx_news_pi1%5Bday%5D=1&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=74226c2a04b07d3cd6150876c904e6d4",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "silent-green-html-music-a8c7a58dae",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "MUBI FEST Berlin",
+      "venue": "Silent Green",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/mubi-fest-berlin-1?tx_news_pi1%5Bday%5D=2&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=096e8f23746d36c36c17df842ed77309",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-2aab41f874",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Isaac Chong Wai & Käthe Kollwitz Die Mütter",
+      "venue": "Grunewaldstr. 55 12165 Berlin",
+      "dates": "08 October 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45328/die-mutter",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Isaac Chong Wai & Käthe Kollwitz Die Mütter",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-1cd8028b55",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Christoph Schlingensief Es ist nicht mehr mein Problem\\, macht eure Scheiße alleine",
+      "venue": "Niederkirchnerstr. 7 10963 Berlin",
+      "dates": "08 October 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45779/es-ist-nicht-mehr-mein-problem-macht-eure-scheisse-alleine",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Christoph Schlingensief Es ist nicht mehr mein Problem\\, macht eure Scheiße alleine",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-1ffda8af28",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Next Door",
+      "venue": "Invalidenstr. 50/51 10557 Berlin",
+      "dates": "08 October 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46019/next-door",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Next Door",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-49f2d39091",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Performative Readings & Concert by ANYX\\, Krys Huba & Leda Bourgogne",
+      "venue": "Fürbringerstr. 11 10961 Berlin",
+      "dates": "08 October 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45977/performative-readings-concert-by-anyx-krys-huba-leda-bourgogne",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Performative Readings & Concert by ANYX\\, Krys Huba & Leda Bourgogne",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-cd27d73d08",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Alex Müller Gestern ist Heute",
+      "venue": "Mommsenstr. 67 10629 Berlin",
+      "dates": "14 October 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45120/gestern-ist-heute",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Alex Müller Gestern ist Heute",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-5c909f8c2b",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Konzert (Solo Piano) in der Ausstellung von Kerim Seiler",
+      "venue": "Streustr. 90 13086 Berlin",
+      "dates": "14 October 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46014/konzert-solo-piano-in-der-ausstellung-von-kerim-seiler",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Konzert (Solo Piano) in der Ausstellung von Kerim Seiler",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-d1baf5978f",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Ala Roushan and Charles Stankievech A Shroud Woven of Solar Threads",
+      "venue": "Halle am Berghain\\, Am Wriezener Bahnhof 10243 Berlin",
+      "dates": "14 October 2026",
+      "times": "20:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46002/a-shroud-woven-of-solar-threads",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Ala Roushan and Charles Stankievech A Shroud Woven of Solar Threads",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-2fd7a3b64f",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Sophie Kovel Seit...",
+      "venue": "Argentinische Allee 30 14163 Berlin",
+      "dates": "15 October 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45261/seit",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Sophie Kovel Seit...",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-1c8983f662",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Peter Wächtler",
+      "venue": "Argentinische Allee 30 14163 Berlin",
+      "dates": "15 October 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45262/n-a",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Peter Wächtler",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    }
+  ],
+  "editorial_context": {
+    "rejected_candidates": [
+      {
+        "id": "index-berlin-html-exhibitions-8aa38a2358",
+        "title": "Source",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-0cb03f3c7b",
+        "title": "From the Sleep Side",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-d856838b30",
+        "title": "Griechischer Wein",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-5c346c1798",
+        "title": "re:kommunikation",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-2f9a992552",
+        "title": "Der Titel kommt zuletzt",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-292b02e02c",
+        "title": "Containing the Container",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-4862d46b46",
+        "title": "Park by POCO",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-36b4e4c9f0",
+        "title": "R E C O R D I N G T H E G A Z E",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-21429e315a",
+        "title": "Louder, Taller, Uglier, Weirder – Von Unkraut lernen",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-5239a14118",
+        "title": "CONSPIRACY MANAGEMENT",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-ca2b9b7df7",
+        "title": "After Memory. Echoes in the Future Perfect Tense",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-9cf387679b",
+        "title": "falling into you",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-ac4d10da0c",
+        "title": "Jugendkunstpreis Berlin Mitte 2026",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-ea29ef955c",
+        "title": "A Shroud Woven of Solar Threads",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-1f18c51191",
+        "title": "Chorus. Eine Sound-Installation von Annika Kahrs",
+        "section": "exhibitions",
+        "reason": "venue_cap:on tree shahin zarinbal",
+        "series_id": "",
+        "venue": "on tree Shahin Zarinbal"
+      },
+      {
+        "id": "film-camouflage-kino-krokodil-2026-10-13",
+        "title": "Camouflage (Камуфляж) | Kinotour",
+        "section": "film",
+        "reason": "venue_cap:berlin",
+        "series_id": "",
+        "venue": "Kino Krokodil, Berlin"
+      },
+      {
+        "id": "film-sternbrucke-forever-acudkino-2026",
+        "title": "Sternbrücke Forever",
+        "section": "film",
+        "reason": "venue_cap:berlin",
+        "series_id": "",
+        "venue": "ACUDkino, Berlin"
+      },
+      {
+        "id": "silent-green-html-music-a6e0cb9ebb",
+        "title": "weed420 + Tufi",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-9f4fe55758",
+        "title": "Ensemble Nist-Nah + Shouji Hara",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-f037d37b9c",
+        "title": "9th Festival of Animation Berlin 2026",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "9th-festival-of-animation-berlin-2026",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-9d93f53c81",
+        "title": "Ryoko Ono + Hanno Leichtmann + Sergeant",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-64f7b32def",
+        "title": "Alpha Maid + Dylan Kerr & Madeline Stepien",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-6802aa06d3",
+        "title": "Die Früchte, die wir tragen.",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a1f76352c7",
+        "title": "Andriy K. & Tharim Cornelisse pres. DUST + mu tate pres. life of mu",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-1a082d5ad7",
+        "title": "Historische Führung",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-c3e2f12fde",
+        "title": "Kantine Musik",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-07cf831d57",
+        "title": "Psychic Liberation Night: Andrea Pensado + HMOT + bela",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-23d9c06e99",
+        "title": "Sintonia 2026 Attunement I: Concepción Huerta + hexorcismos",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "sintonia-2026-attunement-i",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-bcc9d08a16",
+        "title": "Acephalic Headspace pres. ladr ache + Lésions Graves Sextet plays Julius Eastman",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-3398e8ecf0",
+        "title": "HALF LIGHT – Abul Mogard, Marja de Sanctis, Rafael Anton Irisarri, Concepción Huerta",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-f638144db4",
+        "title": "Kjartan Sveinsson + Gyda Valtýsdóttir + Bert Cools + Indrė Jurgelevičiūtė",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-ecfd8b0350",
+        "title": "Einhörner: Book Premiere with Annekathrin Kohout",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-3f9290ca74",
+        "title": "Superfan + Coals",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a8f816c26b",
+        "title": "Chanel Beads + urika's bedroom",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-cd84a823b1",
+        "title": "LudoWic",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-5fcc7b9f8a",
+        "title": "Temple of Faitiche pres. U.e. (Ulla) + Martin Brandlmayr",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-bbd924721f",
+        "title": "goat (jp) + Camila Nebbia",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-86ed93d906",
+        "title": "Berlin Tea Festival 2026: CLOSER TO TEA – Main Days",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "berlin-tea-festival-2026",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-5d0283bdaa",
+        "title": "Ana Roxanne + Clarice",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-f029f6cd42",
+        "title": "Poppy Ackroyd",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-581756110f",
+        "title": "Sintonia 2026 Attunement II: Nnux + Cinna Peyghamy",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "sintonia-2026-attunement-ii",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-8dd2424483",
+        "title": "Yasuaki Shimizu + Merma Suelo",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-b0be88ce7e",
+        "title": "Tehran Contemporary Sounds Festival 2026",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "tehran-contemporary-sounds-festival-2026",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-eb39057acd",
+        "title": "Maria BC + Eli Wewentxu & Indrė Jurgelevičiūtė",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-0b4b0dcdfd",
+        "title": "Psychic Liberation Night: Horse Lords + Audrey Chen & Nick Klein",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      }
+    ],
+    "diversification_caps": {
+      "max_per_venue": 2,
+      "max_per_series": 1
+    },
+    "missing_end_date_count": 0,
+    "note": "Pre-ranked with venue/series/event de-duplication across sections. Synthesis must still apply one-event-one-slot and Top Picks cross-reference rules. Items with missing_end_date:true need a closing date from the official page; if still unknown, drop the pick and log it (python scripts/culture_missing_end_log.py)."
+  },
+  "note": "Token-light culture slice for synthesis. Items with verified:true passed pre-fetch URL/schedule checks; synthesis spot-checks only unverified Top Picks and closing-soon items."
+}
