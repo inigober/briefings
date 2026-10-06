@@ -2,8 +2,6 @@
 
 Tracks recommended events/exhibitions to avoid repeating across weekly briefings. Trim entries older than 8 weeks.
 
-2026-08-04 | advance_radar | Shirin Sabahi — Domesticity III | Pforte | https://www.indexberlin.com/events/list/44626/domesticity-iii
-2026-08-04 | advance_radar | FERIEN AM WALDSEE — Carl Laszlo und die Kunst zu überleben | Haus am Waldsee | https://www.indexberlin.com/events/list/44579/ferien-am-waldsee-carl-laszlo-und-die-kunst-zu-uberleben-reading-with-choir-concert
 2026-08-11 | top_picks | Cloud Gate Dance Theatre of Taiwan / Cheng Tsung-lung — Sounding Light | Haus der Berliner Festspiele | https://www.tanzimaugust.de/en/production/detail/cloud-gate-dance-theatre-sounding-light
 2026-08-11 | top_picks | Tobias Meinhart – Berlin People, Special Guest: Kurt Rosenwinkel | A-Trane | https://a-trane.de/Events-Directory/a-trane-praesentiert-artist-in-summer-residence-day5tobias-meinhart-berlin-peoplespecial-guest-kurt-rosenwinkelfeat-ludwig-hornung-tom-berkmann-mathias-ruppnig/
 2026-08-11 | top_picks | Gökçen Dilek Acay — What time is it in the world | time is it in the world PSM | https://www.indexberlin.com/exhibitions/list/44327/what-time-is-it-in-the-world
@@ -29,17 +27,6 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-08-18 | advance_radar | Josef Kaiser. Bauen für die DDR | Alte Jakobstr. 124-128, 10969 Berlin | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
 2026-08-18 | advance_radar | Ruba Al-Sweel, Arvin Arta, Dana Dawud, Noura Tafeche and Zein Majali Short Film Screening | Frankfurter Tor 1, 10243 Berlin | https://www.indexberlin.com/events/list/44942/short-film-screening
 2026-08-18 | advance_radar | Itchi Fleischer Unzucht – Kiss the Devil’s Arse | Weigandufer, corner of Wildenbruchbrücke, next to the mooring, 12045 Berlin | https://www.indexberlin.com/events/list/44861/unzucht-kiss-the-devil-s-arse
-2026-08-04 | top_picks | THE PRESSING | Radialsystem | https://www.radialsystem.de/en/veranstaltungen/the-pressing-2026/
-2026-08-04 | top_picks | Islands of Time — Exhibition Opening with Pole, JakoJako & Rubén Nsue, Sunroof, Nicolas Bougaïeff | silent green Kulturquartier | https://www.silent-green.net/en/programme/detail/island-of-time-exhibition-and-concerts-feat-pole-jakojako-ruben-nsue-sunroof-nicolas-bougaeiff
-2026-08-04 | top_picks | Summer Special: Films from Portugal | Wolf Kino | https://wolfberlin.org/en/programme/events/summer-special-from-portugal
-2026-08-04 | exhibitions | distractions | time is it in the world PSM | https://www.indexberlin.com/exhibitions/list/43268/distractions
-2026-08-04 | exhibitions | Lass es Liebe sein | time is it in the world PSM | https://www.indexberlin.com/exhibitions/list/44519/lass-es-liebe-sein
-2026-08-04 | exhibitions | Marina Abramović — Balkan Erotic Epic. The Exhibition | Gropius Bau | https://www.gropiusbau.de/en/programme/marina-abramovic-balkan-erotic-epic-the-exhibition
-2026-08-04 | exhibitions | Gabriele Stötzer — Dabei sein und nicht schweigen | Gropius Bau | https://www.gropiusbau.de/en/programme/gabriele-stoetzer-dabei-sein-und-nicht-schweigen
-2026-08-04 | performing_arts | Joyful Failure – An Evening on the Poetry of Failure | Radialsystem | https://www.radialsystem.de/en/veranstaltungen/joyful-failure/
-2026-08-04 | music | silent green Open Lab #10: Lovecrushr + ricky horror | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/silent-green-open-lab-10-lovecrushr-ricky-horror
-2026-08-04 | wildcards | everybody | Georg Kolbe Museum | https://www.indexberlin.com/events/list/44363/everybody
-2026-08-04 | advance_radar | KINDL Ferien-Rallye | KINDL – Zentrum für zeitgenössische Kunst | https://www.indexberlin.com/events/list/44612/kindl-ferien-rallye
 2026-08-25 | top_picks | Bat Dances | HAU3, HAU Hebbel am Ufer (Tanz im August) | https://www.tanzimaugust.de/en/production/detail/kareth-schaffer-jonas-hauer-bat-dances/
 2026-08-25 | top_picks | News from Home | Kino Arsenal (Arsenal 1) | https://www.arsenal-berlin.de/en/cinema/film-screening/news-from-home-2395/
 2026-08-25 | top_picks | Josef Kaiser — Building for the GDR | Berlinische Galerie | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
@@ -119,3 +106,14 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-09-29 | wildcards | Britta Thie — In Development (conversation with Simon Denny) | CCA Berlin | https://www.indexberlin.com/events/list/46022/in-development-followed-by-a-conversation-between-the-artist-and-simon-denny
 2026-09-29 | advance_radar | Next Door | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.indexberlin.com/events/list/46019/next-door
 2026-09-29 | advance_radar | Performative Readings & Concert by ANYX, Krys Huba & Leda Bourgogne | soft power | https://www.indexberlin.com/events/list/45977/performative-readings-concert-by-anyx-krys-huba-leda-bourgogne
+2026-10-06 | top_picks | Next Door | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.indexberlin.com/events/list/46019/next-door
+2026-10-06 | top_picks | Life is strange, choose your own | FELD Zentrale für junge Performance | https://dock11-berlin.de/digital/programm/on-tour-workshops/life-is-strange-choose-your-own
+2026-10-06 | top_picks | Ensemble Nist-Nah + Shouji Hara | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/ensemble-nist-nah?tx_news_pi1%5Bday%5D=7&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=2d98e8863bb0f5bb3ddd3d6b130bb637
+2026-10-06 | film | DEFA-Stiftung präsentiert: Verhinderte Bilder – Ökologische Wahrheit und DDR-Zensur | Kino Krokodil | https://kino-krokodil.de/aktuelles/defa-stiftung-praesentiert-verhinderte-bilder-oekologische-wahrheit-und-ddr-zensur-kurzfilmprogramm/
+2026-10-06 | film | Camouflage (Камуфляж) | Kino Krokodil | https://kino-krokodil.de/aktuelles/camouflage-%D0%BA%D0%B0%D0%BC%D1%83%D1%84%D0%BB%D1%8F%D0%B6-kinotour/
+2026-10-06 | performing_arts | Love is a Verb #2: We, the Heartbroken | HAU Hebbel am Ufer | https://www.indexberlin.com/events/list/46042/afghan-women-a-desperate-vitality-part-of-love-is-a-verb-2
+2026-10-06 | performing_arts | La Haluca – A Pioneer Girl | Schinkel Pavillon | https://www.indexberlin.com/events/list/45964/la-haluca-a-pioneer-girl-performance-by-ana-hoffner-ex-prvulovic
+2026-10-06 | music | Ryoko Ono + Hanno Leichtmann + Sergeant | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/ryoko-ono-hanno-leichtmann?tx_news_pi1%5Bday%5D=13&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=9bd6d948aa1eaab539b8475ef0ef3f1c
+2026-10-06 | wildcards | Christoph Schlingensief — Es ist nicht mehr mein Problem, macht eure Scheiße alleine | Gropius Bau | https://www.indexberlin.com/events/list/45779/es-ist-nicht-mehr-mein-problem-macht-eure-scheisse-alleine
+2026-10-06 | wildcards | Isaac Chong Wai & Käthe Kollwitz — Die Mütter | Schwartzsche Villa | https://www.indexberlin.com/events/list/45328/die-mutter
+2026-10-06 | advance_radar | Sophie Kovel — Seit… / Peter Wächtler | Haus am Waldsee | https://www.indexberlin.com/events/list/45261/seit

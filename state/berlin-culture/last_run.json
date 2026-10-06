@@ -1,31 +1,30 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-09-29",
-  "briefing_date": "2026-09-29",
-  "inbox_date": "2026-09-29",
-  "week_start": "2026-09-30",
-  "week_end": "2026-10-06",
+  "date": "2026-10-06",
+  "briefing_date": "2026-10-06",
+  "inbox_date": "2026-10-06",
+  "week_start": "2026-10-07",
+  "week_end": "2026-10-13",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-09-29.md",
-  "inbox_path": "inbox/berlin-culture/2026-09-29-synthesis.json",
-  "items_count": 10,
+  "briefing_path": "briefings/berlin-culture/2026-10-06.md",
+  "inbox_path": "inbox/berlin-culture/2026-10-06-synthesis.json",
+  "items_count": 11,
   "section_counts": {
     "top_picks": 3,
     "exhibitions": 0,
     "film": 2,
-    "performing_arts": 1,
+    "performing_arts": 2,
     "music": 1,
-    "wildcards": 1,
-    "advance_radar": 2
+    "wildcards": 2,
+    "advance_radar": 1
   },
-  "thin_sections": ["exhibitions", "performing_arts", "music"],
+  "thin_sections": ["exhibitions", "music"],
   "omitted_sections": [],
   "validation_warnings": [
     "Section 'exhibitions' has 0 entries (style minimum 4)",
-    "Section 'performing_arts' has 1 entries (style minimum 2)",
     "Section 'music' has 1 entries (style minimum 3)"
   ],
   "dropped_missing_end_dates": [],
   "verification_fetches": 5,
-  "notes": "Top Picks spot-checked: Trouble Score HAU2 German premiere Wed 30.09–Thu 01.10 2026 19:00 English+surtitles ~100min, artist talk Janez Janša after premiere (used /en/programme/pdetail/ URL). scribble.mp3 Kuppelhalle Thu 01.10 doors 19:00 / start 20:00 (Official Link copied from html-calendars detail URL, not /programm/2026/10). Shroud at HOUSE Halle am Berghain opening Fri 02.10 17:00–20:00; INDEX page has no run end so kept as opening Top Pick, not Exhibitions Radar. Also fetched Ballhaus Your Baggage Unattended (Sat 03–Tue 06.10; 2025 premiere returning, not a new opening) and ACUDkino Filmprogramm (Roter Staub Q&A with Michael Enger confirmed on film page; deep /Programm/ slugs copied from that listing). Promoted last week's Advance Radar Shroud into Top Picks. Promoted raw in-window Watching People Watching Birds and weed420+Tufi to fill thin Film/Music (synthesis music was two past silent green nights already briefed). INDEX venue correction: Britta Thie is CCA Berlin in the Gedächtniskirche foyer, not a church concert. Next Door ICS venue Invalidenstr. 50/51 was wrong; INDEX weekly places it at Hamburger Bahnhof 08.10. Dropped Sakamoto (anti-repetition, Top Pick 2026-09-08). Dropped INDEX Flatware / Neue Frau (venue scrape bug: 'on tree Shahin Zarinbal'). Dropped Into the Chronosphere open call. Dropped Midori Hirano and hub/Doorman (past dates; already briefed). Dropped Oktoberfest / Jugendkunstpreis / Art & Aperitif. Silent green cap: scribble + weed420; skipped MUBI Fest. ACUDkino cap: Roter Staub + Watching People; skipped Vaterland/Hiddensee/Spaziergang. Isaac Chong Die Mütter already Advance Radar last week — not repeated. Thin week: 0 exhibition full entries (Shroud cross-ref only), 1 performing-arts full entry, 1 music full entry; no pad."
+  "notes": "Top Picks spot-checked: Next Door INDEX Hamburger Bahnhof Thu 08.10.2026 19:00 (Dean/Nauman/Demand/Eliasson/Håkansson/Saraceno; no run end — opening only). Life is strange DOCK11/FELD page: premiere Sat 10.10 18:00, Sun 11.10 16:00, Tue 13.10 10:00, continues Wed 14.10 10:00; Cécile Bally / Aharonson / Shetty / Peeters; venue FELD not DOCK 11. Ensemble Nist-Nah Kuppelhalle Wed 07.10 doors 19:00 / start 20:00 (Guthrie gamelan + Shouji Hara shakuhachi). Also fetched Die Mütter INDEX (Schwartzsche Villa opening Thu 08.10 18:00–21:00, Nippe intro, Breath Marks 2022; no run end) and Ryoko Ono Kuppelhalle Tue 13.10 doors 19:00 / start 20:00. Promoted last week's Advance Radar Next Door and Die Mütter into this week. Promoted html-calendar in-window Nist-Nah and Ryoko Ono to fill thin Music (synthesis music was scribble.mp3 01.10 and MUBI Fest 02.10, both past; scribble already Top Pick last week). Promoted INDEX Love is a Verb #2 (one festival listing; Afghan Women Fri–Sun, Ali Chahrour Mon–Tue) and Ana Hoffner Schinkel Pavillon Sat 10.10 19:00 from html-calendars. Verified films: Verhinderte Bilder Krokodil Mon 12.10 19:00; Camouflage Tue 13.10 20:15 (venue cap 2). Dropped Space for Practice (page date 20 July 2026, past). Dropped Cattelan (title unverified, press PDF only). Dropped INDEX exhibitions with venue scrape bug 'on tree Shahin Zarinbal' (Pull the Rug / Radical Tenderness). Dropped Sternbrücke Forever (URL live but no atomic screening time). Silent green cap: Nist-Nah + Ryoko Ono; skipped Animation Festival. Thursday openings: Next Door Top Pick; Schlingensief Gropius Bau and Die Mütter as Wildcards (no closing dates — not Exhibitions Radar). Advance Radar: Haus am Waldsee Kovel/Wächtler 15.10 one listing. Skipped Shroud performance 14.10 (same work as last week's Top Pick). Thin week: 0 exhibition full entries, 1 music full entry; no pad."
 }
