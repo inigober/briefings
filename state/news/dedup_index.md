@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-07
+
+- **spain-vulture-fund-ban-2030-exceptions** — eldiario.es: Cabinet re-tabled the housing decrees and stretched the speculative-purchase ban for vulture funds to 2030, with social-use exceptions (section: spain)
+- **spain-tc-amnesty-puigdemont-return** — EL PAÍS: the Constitutional Court upheld the embezzlement amnesty, bringing Puigdemont closer to a legal return; Supreme Court still must apply it (section: spain)
+- **spain-catastro-small-owners-90** — EL PAÍS: people with 1–5 homes own >90% of the stock; large landlords hold >1 million flats (section: spain)
+- **germany-afd-sachsen-anhalt-landtag-president** — Berliner Zeitung: Saxony-Anhalt's Landtag has given the AfD the speaker's chair (section: germany)
+- **germany-straub-eurocrisis-bond-yields** — Handelsblatt: Harvard economist Ludwig Straub says Germany can no longer afford a euro-crisis-sized shock (section: germany)
+- **germany-kita-penalty-room** — Tagesspiegel: some nursery staff still lock children in a Strafraum (section: germany)
+- **berlin-linke-hendrikje-klein-praesidentin** — rbb24: Die Linke nominated Hendrikje Klein for Abgeordnetenhaus president (section: berlin)
+- **berlin-zlb-alexanderplatz-galeria** — Tagesspiegel: a mural on Galeria at Alexanderplatz previews a ZLB move into the store (section: berlin)
+- **berlin-100-koepfe-community-cohort** — Tagesspiegel: a humanities/community slice of the annual 100-Köpfe list (section: berlin)
+- **world-spacex-40bn-nvidia-apollo** — Financial Times: SpaceX is raising $40bn of Apollo-led debt to buy Nvidia chips (section: world)
+- **world-kenya-first-ebola-drc** — The Guardian: Kenya's first Ebola death after a traveller from a DRC outbreak that has killed 4,000+ (section: world)
+- **world-samsung-5bn-vietnam-chips** — Nikkei Asia: Samsung is putting $5bn into higher-value semiconductors in Vietnam (section: world)
+
 ## 2026-10-06
 
 - **spain-sanchez-calls-snap-election** — EL PAÍS: Sánchez and his core decided Thursday–Saturday that this Congress was useless and called a snap election (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-bc-openai-tumbler-ridge-suit** — The Guardian: British Columbia is suing OpenAI and Sam Altman over the Tumbler Ridge school shooting (section: world)
 - **world-china-broadcom-state-ai** — Financial Times: China is inventorying Broadcom switches in state-backed AI data centres (section: world)
 - **world-sharp-universal-satellite-antenna** — Nikkei Asia: Sharp is building a universal satellite antenna to loosen Starlink's hold (section: world)
-
-## 2026-09-22
-
-- **spain-la-paz-transplant-no-rejection** — eldiario.es: La Paz doctors are teaching recipient immune systems to accept donor organs, a path off lifelong immunosuppression (section: spain)
-- **spain-begona-gomez-jury-trial** — La Vanguardia: judge Peinado has sent Begoña Gómez to a jury on embezzlement and influence-peddling; Complutense puts the loss at €113,000 (section: spain)
-- **spain-thyssen-madrid-museum-building** — EL PAÍS: the state will fund a new Madrid building for Francesca Thyssen-Bornemisza's 365 donated and loaned works (section: spain)
-- **germany-merz-private-health-insurance** — Handelsblatt: Merz has opened a fight with the dual public/private health-insurance split (section: germany)
-- **germany-planet-labs-berlin-satellites** — Handelsblatt: Planet Labs plans satellite production in Berlin as a European-facing plant (section: germany)
-- **germany-merkel-kanzlergalerie-portrait** — Tagesspiegel: Merkel is at the Bundestag for her official Chancellors' gallery portrait, which is not red (section: germany)
-- **berlin-auto-industry-demo** — rbb24: auto-industry workers demonstrated in Berlin over jobs (section: berlin)
-- **berlin-election-night-blackout-6600** — Berliner Zeitung: a fault left about 6,600 western Berlin households without power on election night (section: berlin)
-- **berlin-leyla-yenirce-art** — The Berliner: Kurdish artist Leyla Yenirce on making work from violence (section: berlin)
-- **world-africa-healthcare-usaid-strain** — The Guardian: Accra Reset says African healthcare is under strain after the US aid pullout (section: world)
-- **world-china-power-grid-stocks-ai** — Nikkei Asia: China's power-infrastructure stocks are lagging the AI electricity boom (section: world)
-- **world-us-boat-strikes-crimes-against-humanity** — The Guardian: a UN rapporteur says US boat strikes may be crimes against humanity (section: world)

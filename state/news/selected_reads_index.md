@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-07
+
+- [QatarEnergy Secures $3 Billion Loan From Four Chinese Banks](https://www.bloomberg.com/news/articles/2026-10-07/qatarenergy-secures-3-billion-loan-from-four-chinese-banks) — Bloomberg
+- [What We Really Know About the Russian ‘Plague’ Case](https://www.theatlantic.com/health/2026/10/russia-plague-pneumonia-panic/688897/?utm_source=feed) — The Atlantic
+- [France showcases long-range air power to bolster Indo-Pacific deterrence](https://asia.nikkei.com/politics/defense/france-showcases-long-range-air-power-to-bolster-indo-pacific-deterrence) — Nikkei Asia
+- [What comes next with the energy shock?](https://www.ft.com/content/37e12a42-d473-4b1b-8fc5-4ea5f06d3bfb?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-10-06
 
 - [Hong Kong quizzes HSBC over Singapore AI hub decision](https://www.ft.com/content/1a4458ce-6317-4dce-a43e-95e724d7c33f?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Once in decline, Japan's hard-drive suppliers ride soaring AI demand](https://asia.nikkei.com/business/electronics/once-in-decline-japan-s-hard-drive-suppliers-ride-soaring-ai-demand) — Nikkei Asia
 - [‘What Is Happening Today Is Development in Reverse’](https://foreignpolicy.com/2026/10/02/undp-alexander-de-croo-ukraine-war-reconstruction-gaza-reconstruction-afghanistan/) — Foreign Policy
 - [Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin](https://www.theguardian.com/global-development/2026/oct/02/row-erupts-over-cairo-mural-depicting-tutankhamun-and-nefertiti-with-dark-skin) — The Guardian
-
-## 2026-10-02
-
-- [Top Fed official signals central bank will keep rates on hold in October](https://www.ft.com/content/e3a53272-385d-40a8-ac77-408f4c136f6f?syn-25a6b1a6=1) — Financial Times
-- [An AI sovereign wealth fund isn’t progressive — it’s techno-imperialism](https://www.ft.com/content/bc178357-793b-45d8-ae3b-d5929159c243) — Financial Times
-- [‘Everyone Is Depleted’](https://foreignpolicy.com/2026/10/01/yemen-houthis-saudi-arabia-war-humanitarian-crisis-aid/) — Foreign Policy
-- [‘No one disrespects Our Lady’: fears for Brazil’s patron saint grip country ahead of election](https://www.theguardian.com/world/2026/oct/02/brazil-election-lady-of-aparecida-lula-bolsonaro-row) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

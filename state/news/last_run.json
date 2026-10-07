@@ -1,43 +1,48 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-06",
-  "briefing_date": "2026-10-06",
-  "inbox_date": "2026-10-06",
+  "date": "2026-10-07",
+  "briefing_date": "2026-10-07",
+  "inbox_date": "2026-10-07",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-06.md",
-  "inbox_path": "inbox/news/2026-10-06-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-07.md",
+  "inbox_path": "inbox/news/2026-10-07-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "La intrahistoria del adelanto electoral: “Es ahora o nunca”",
+      "headline": "El PP inaugura la precampaña del 29N con una nueva ofensiva en los tribunales contra el PSOE",
       "section": "spain",
-      "reason": "one_theme with EL PAÍS snap-election slot"
+      "reason": "avoid_unless_material: PSOE scandals (Leire Díez imputation ask, not a court ruling)"
     },
     {
-      "headline": "El Gobierno aprobará mañana los dos decretos de vivienda con cambios \"técnicos\" que no afectan al fondo",
+      "headline": "Por qué Ayuso y Abascal tiran del manual de la ultraderecha para cuestionar las elecciones",
       "section": "spain",
-      "reason": "one_theme with dissolution; Other Headlines only (incremental on 5 Oct Permanente path)"
+      "reason": "campaign noise; not a material development"
     },
     {
-      "headline": "Aceptar el órdago sin las mejores cartas",
+      "headline": "El PNV confirma que salvará con su voto clave el principal decreto de vivienda en la Diputación Permanente",
       "section": "spain",
-      "reason": "opinion column; one_theme with snap-election slot"
+      "reason": "one_theme with 2030 vulture-fund decree; Other Headlines only"
     },
     {
-      "headline": "Todos los proyectos que caen con las nuevas elecciones tras una legislatura con 22 leyes y 43 decretos",
+      "headline": "La vivienda no puede ser un bien de mercado",
       "section": "spain",
-      "reason": "one_theme with dissolution; Other Headlines (dana/Iran permanente)"
+      "reason": "opinion column"
     },
     {
-      "headline": "¿Puede la izquierda ganar las elecciones? Lo que dicen las encuestas",
+      "headline": "Los sindicatos ultiman la fecha de la huelga general en noviembre entre críticas de la patronal y la derecha",
       "section": "spain",
-      "reason": "podcast, not a news slot"
+      "reason": "avoid_unless_material: housing protests; Other Headlines only"
     },
     {
-      "headline": "Künstliche Intelligenz: Moonshot plant offenbar Börsengang für Anfang 2027",
+      "headline": "Renault: Dieser Espace kommt aus der Zukunft",
       "section": "germany",
-      "reason": "geographic_misfit: China/HK AI IPO; Other Headlines only"
+      "reason": "geographic_misfit / lifestyle: French EV concept, not Germany policy"
+    },
+    {
+      "headline": "Hamas-Massaker vor drei Jahren: Nach Geiselhaft",
+      "section": "germany",
+      "reason": "geographic_misfit: Israel/Gaza anniversary; not a Germany slot"
     },
     {
       "headline": "The AI Will See You Now: How AI is Entering Healthcare in Berlin",
@@ -45,14 +50,9 @@
       "reason": "already covered 2026-10-05 berlin-ai-healthcare-clinics"
     },
     {
-      "headline": "Polizei benennt Nationalitäten der mutmaßlichen Täter von Beicha / Dresden Stadtradeln / Kalbe / Wittenberg",
+      "headline": "Hochschulen in Brandenburg: Viadrina lockt mit neuen Studiengängen und Doppelabschluss",
       "section": "berlin",
-      "reason": "geographic_misfit: Saxony, Saxony-Anhalt, and other non-Berlin cities"
-    },
-    {
-      "headline": "Forschung trifft Dichtkunst: Wo Nanopartikel tanzen, ist Ostdeutscher Science-Slam",
-      "section": "berlin",
-      "reason": "geographic_misfit_uncertain: East German slam, not clearly Berlin city"
+      "reason": "geographic_misfit: Frankfurt (Oder), not Berlin city"
     },
     {
       "headline": "Skull fractures suggest servants of Egypt’s ancient kings were sacrificed",
@@ -60,15 +60,15 @@
       "reason": "Selected Read URL used 2026-10-05; do not reuse"
     },
     {
-      "headline": "Sass Jordan, Canadian rock singer-songwriter, dies aged 65",
-      "section": "world",
-      "reason": "celebrity death; not a World slot"
+      "headline": "publisher_pool_thin: Spain eligible items are eldiario.es and EL PAÍS only",
+      "section": "spain",
+      "reason": "publisher_pool_thin: used eldiario for 2030 veto, EL PAÍS for TC/Puigdemont and cadastre"
     },
     {
-      "headline": "publisher_pool_thin: Spain eligible non-election items are eldiario-only; EL PAÍS pool is all dissolution",
-      "section": "spain",
-      "reason": "publisher_pool_thin: used EL PAÍS for the call, eldiario for coalition and nietos"
+      "headline": "berlin_pool_thin: only Klein (rbb24) and ZLB (Tagesspiegel) were clearly Berlin after geo-misfits; used 100-Köpfe community cohort (different humanities slice vs 1 Oct life-sciences) to fill the third slot",
+      "section": "berlin",
+      "reason": "berlin_pool_thin: Nobel Prize / electric buses / Die Linke HQ were rank_below_cap without synthesis-item URLs"
     }
   ],
-  "notes": "Material Spain event: Sánchez called the snap election (EL PAÍS gestation piece) after 5 Oct 'call is ready'. Did not give a second Spain slot to housing-decree Cabinet-tomorrow (OH) or the legislative-wreckage inventory — one_theme with dissolution. Second: Podemos/Frente Amplio 10-day coalition clock (eldiario). Third: ley de nietos vs 29-N census closed 1 Aug (eldiario, court-ruling application). publisher_pool_thin: Spain only eldiario.es and EL PAÍS; EL PAÍS items were all election-process. Ceuta cooldown empty. Germany pool thin after geo-misfits and service/noise: Bundestag named tax votes (Handelsblatt), DWD sunshine hours (Tagesspiegel), Kleinanzeigen AI chats (Handelsblatt). Skipped Moonshot (China, OH), manifesting, Asia markets, Checkpoint digest, Archer, Bottas, Niedersachsen weather. Berlin: canal biotopes (Tagesspiegel), Kreuzberg school tear gas (rbb24), Neukölln fire death (rbb24) — berlin_pool_thin after rejecting AI-healthcare repeat, East German Science Slam (unclear city), and BZ/rbb Brandenburg-Saxony misfits. World: Qualcomm-Huawei first payment (East Asia, Nikkei), Reliance 7-Eleven India close (South Asia, Nikkei), Houthi Medina / Turkey-Pakistan troops (Middle East, Tagesspiegel). ≥2 non-European regions. Selected Reads: FT HSBC/Singapore AI hub, Guardian SK-Russia fuel exclusive, FP NAZA film, FT TotalEnergies Pouyanné. Skipped Egypt skulls (used 5 Oct). UGT/CCOO strike and Barcelona protest parked in OH (avoid_unless_material housing protests)."
+  "notes": "Material Spain: Cabinet stretched vulture-fund speculative-purchase ban to 2030 with exceptions (eldiario); TC upheld embezzlement amnesty / Puigdemont return path (EL PAÍS, court ruling vs 4 Oct Junts roadmap); cadastre ownership split (EL PAÍS). PNV Permanente vote, November strike date, and Sol camp parked in OH (one_theme / housing protests). Ceuta cooldown empty. Germany: Magdeburg AfD Landtag presidency (BZ, material institution result; not Berlin), Straub euro-crisis interview (Handelsblatt), Kita Strafraum (Tagesspiegel, publisher #3). Skipped China-EU trade tools as OH, Renault/Ibiza/myopia/Hamas-anniversary. Berlin: Hendrikje Klein speaker nomination (rbb24), ZLB-at-Galeria mural (Tagesspiegel), 100-Köpfe community cohort (Tagesspiegel) after rejecting AI-healthcare repeat and Brandenburg/Saxony misfits. World: SpaceX $40bn Nvidia/Apollo (NA, FT), Kenya first Ebola / DRC surge (Africa, Guardian), Samsung $5bn Vietnam chips (East/SE Asia, Nikkei). ≥2 non-European regions. Selected Reads: Bloomberg QatarEnergy China loan, Atlantic Russian plague case, Nikkei France Indo-Pacific air power, FT energy-shock analysis. Skipped Egypt skulls (used 5 Oct) and World-slot URLs."
 }
