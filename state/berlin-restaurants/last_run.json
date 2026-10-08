@@ -1,18 +1,18 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-10-01",
+  "date": "2026-10-08",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-10-01.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-10-01-synthesis.json",
-  "verified_count": 19,
+  "briefing_path": "briefings/berlin-restaurants/2026-10-08.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-10-08-synthesis.json",
+  "verified_count": 15,
   "selected_count": 6,
   "selected_restaurants": [
-    "Mr. Noodle Chen",
-    "Chuan Garden 川园",
-    "Mercan",
-    "Ni's Restaurant",
-    "La Bolognina",
-    "Matthias"
+    "Chon Thong",
+    "Sara & Gogi",
+    "Akcaabat Saray Köfte",
+    "Zum Heiligen Teufel",
+    "Taqueria El Oso",
+    "Otto"
   ],
-  "notes": "6 entries from 19 verified inbox items (unique CIDs after section duplicates). Excluded 10-week repeats: Shan Shan, Ming Dynastie, Ma-Makan, Larb Koi, Khao Taan, Tadım Ocakbaşı, Der blaue Fuchs; Papaya (Charlottenburg) shares cid with Papaya Mum (Wilmersdorf, 2026-07-30). Included Wedding Mr. Noodle Chen (different cid from Friedrichshain 2026-08-20). Skipped Bardele (3rd Mitte, pasta overlap with La Bolognina, Fri–Sat 03:00 hours look like a listing error). One fine-dining entry: Matthias. No new SE Asian after repeats. Neighborhoods: Wedding, Mitte (2), Kreuzberg, Neukölln, Prenzlauer Berg. Trimmed 2026-07-16 index entries as older than 10 weeks."
+  "notes": "6 entries from 15 verified inbox items. Excluded 10-week CID repeats: Shaniu's House of Noodles (Wilmersdorf, 2026-09-03), Fu Li Lai (2026-09-17), Nutts Thai Kitchen (2026-08-27; hours also look like a listing error), Ma-Makan (2026-08-20), Mardin (2026-08-06), El Reda (2026-08-27), Sarajevo (2026-09-03), Horváth (2026-09-03). Excluded Bruno: Places listing is Schmaus & Plausch with no rating/hours (identity mismatch). Chon Thong last appeared 2026-07-23 (11 weeks; repeat allowed). One fine-dining entry: Otto. Neighborhoods: Charlottenburg (2), Kreuzberg (2), Prenzlauer Berg (2). Trimmed 2026-07-23 index entries as older than 10 weeks."
 }

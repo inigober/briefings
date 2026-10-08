@@ -4,14 +4,6 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 <!-- Format: YYYY-MM-DD | name | neighborhood | google_maps_url -->
 
-2026-07-23 | Aroma | Charlottenburg | https://maps.google.com/?cid=13065521202330721893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-23 | Shaniu's House of Noodles | Tiergarten | https://maps.google.com/?cid=8588884046748283335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-23 | Lao Xiang | Prenzlauer Berg | https://maps.google.com/?cid=9788201332404214585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-23 | Chon Thong | Charlottenburg | https://maps.google.com/?cid=2216611833988736610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-23 | Mingtastic | Friedrichshain | https://maps.google.com/?cid=11795648014294726927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-23 | Tadım Ocakbaşı | Kreuzberg | https://maps.google.com/?cid=10551158945982739868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-23 | Et Dünyasi by Ehli-Kebap | Wedding | https://maps.google.com/?cid=11171700186475783066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-23 | hallmann & klee | Neukölln | https://maps.google.com/?cid=25938203877987709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-30 | Holly China Restaurant | Charlottenburg | https://maps.google.com/?cid=4307595915358650379&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-30 | Good Friends | Charlottenburg | https://maps.google.com/?cid=7076436058078775098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-07-30 | Papaya Mum | Wilmersdorf | https://maps.google.com/?cid=15424834162655154313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
@@ -78,3 +70,9 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-10-01 | Ni's Restaurant | Mitte | https://maps.google.com/?cid=9208310204966926796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-10-01 | La Bolognina | Neukölln | https://maps.google.com/?cid=9807831381490708821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-10-01 | Matthias | Prenzlauer Berg | https://maps.google.com/?cid=1288939486448576811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-08 | Chon Thong | Charlottenburg | https://maps.google.com/?cid=2216611833988736610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-08 | Sara & Gogi | Charlottenburg | https://maps.google.com/?cid=8854182376057681088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-08 | Akcaabat Saray Köfte | Kreuzberg | https://maps.google.com/?cid=5464399245513953153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-08 | Zum Heiligen Teufel | Kreuzberg | https://maps.google.com/?cid=16363010037190264852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-08 | Taqueria El Oso | Prenzlauer Berg | https://maps.google.com/?cid=398784497044115211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-08 | Otto | Prenzlauer Berg | https://maps.google.com/?cid=14110376015699172966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
