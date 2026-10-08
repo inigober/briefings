@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-08
+
+- **spain-maricarmen-death-unsigned-lease** — EL PAÍS: Maricarmen Abascal died hours before signing an eight-year lease back into the Retiro flat (section: spain)
+- **spain-maricarmen-revolt-snap-election** — eldiario.es: her eviction named a housing decree and precipitated the snap election (section: spain)
+- **spain-sol-no-more-maricarmens** — EL PAÍS: the Sol camp marched overnight that hers must be the last stretcher eviction (section: spain)
+- **germany-tax-subsidies-765bn** — Handelsblatt: a study puts German tax subsidies at €76.5bn, above the government's figure, and hits the Tankrabatt (section: germany)
+- **germany-kahla-porcelain-closes** — Berliner Zeitung: Kahla will stop production at year-end after no buyer; 182 years (section: germany)
+- **germany-bgh-cookie-liability** — Handelsblatt: the Federal Court of Justice is hearing liability for storing cookies without consent (section: germany)
+- **berlin-linke-greens-spd-antisemitism-expulsion** — Tagesspiegel: exploratory talks include a faction-expulsion rule on antisemitism (section: berlin)
+- **berlin-spandau-cemetery-wild-boars** — Tagesspiegel: wild boars have wrecked graves at In den Kisseln in Spandau (section: berlin)
+- **berlin-eisbaeren-chl-last-16** — rbb24: the Eisbären beat Salzburg and reached the CHL last 16 (section: berlin)
+- **world-china-ai-hinterland-inner-mongolia** — Financial Times: Inner Mongolia has become the engine room of China's AI data-centre build (section: world)
+- **world-canada-maid-mental-illness-bar** — The Guardian: Ottawa will legislate to keep mental illness as sole condition out of Maid (section: world)
+- **world-thai-floods-carmakers-new-normal** — Nikkei Asia: Toyota, Honda and others treat Thai floods as a planning assumption (section: world)
+
 ## 2026-10-07
 
 - **spain-vulture-fund-ban-2030-exceptions** — eldiario.es: Cabinet re-tabled the housing decrees and stretched the speculative-purchase ban for vulture funds to 2030, with social-use exceptions (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-openai-agent-australia-health** — Financial Times: an OpenAI agent breached an Australian government health site; the lab took months to notice (section: world)
 - **world-tower-japan-optical-chips** — Nikkei Asia: Tower Semiconductor will make Japan its main hub for optical chips (section: world)
 - **world-milei-un-falklands** — The Guardian: Milei told the UN Argentina may take the Falklands into its own hands (section: world)
-
-## 2026-09-23
-
-- **spain-sanchez-un-ai-alliance** — La Vanguardia: Sánchez called at the UN for a global pact against AI "techno-oligarchs" to protect children (section: spain)
-- **spain-cgpj-archives-bolanos-peinado** — eldiario.es: the CGPJ has definitively archived Justice Minister Bolaños's complaints against judge Peinado (section: spain)
-- **spain-delcy-sanchez-un-channel** — La Vanguardia: Delcy Rodríguez asked Sánchez at the UN to keep talking about Venezuela (section: spain)
-- **germany-mittelstand-outside-capital** — Handelsblatt: a new generation of family-firm owners is opening the Mittelstand to outside investors (section: germany)
-- **germany-winkel-pension-reform-rente-63** — Handelsblatt: new Union labour deputy Johannes Winkel wants the pension reform untouched and an end to Rente mit 63 (section: germany)
-- **germany-kassenpatienten-private-slots** — Tagesspiegel: statutory patients wait months and are asked if they will pay privately for specialist slots (section: germany)
-- **berlin-linke-can-it-govern** — rbb24: after the historic win, the question is whether Die Linke can and wants to govern Berlin (section: berlin)
-- **berlin-dlrg-drowning-deaths-up** — Tagesspiegel: more fatal accidents in Berlin waters this season, DLRG says, especially men (section: berlin)
-- **berlin-clubmemes-72-hour-party** — The Berliner: the BerlinClubMemes creator lives half on Instagram, half in the club (section: berlin)
-- **world-bc-openai-tumbler-ridge-suit** — The Guardian: British Columbia is suing OpenAI and Sam Altman over the Tumbler Ridge school shooting (section: world)
-- **world-china-broadcom-state-ai** — Financial Times: China is inventorying Broadcom switches in state-backed AI data centres (section: world)
-- **world-sharp-universal-satellite-antenna** — Nikkei Asia: Sharp is building a universal satellite antenna to loosen Starlink's hold (section: world)

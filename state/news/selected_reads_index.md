@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-08
+
+- [Samsung Q3 profit jumps nearly 9 times to $80bn in AI chip boom](https://asia.nikkei.com/business/tech/semiconductors/samsung-q3-profit-jumps-nearly-9-times-to-80bn-in-ai-chip-boom) — Nikkei Asia
+- [Real men don’t do climate change](https://www.ft.com/content/61118fd6-b5d2-4ce1-9a78-4535a0ef3ead?syn-25a6b1a6=1) — Financial Times
+- [IMF Chief Issues Stark Economic Warning for 2027](https://foreignpolicy.com/2026/10/07/imf-speech-georgieva-economy-energy-oil-yields-ai-inflation/) — Foreign Policy
+- [How Long Until AI Hacks Everything?](https://www.theatlantic.com/technology/2026/10/ai-hacking-cybersecurity-race/688911/?utm_source=feed) — The Atlantic
+
 ## 2026-10-07
 
 - [QatarEnergy Secures $3 Billion Loan From Four Chinese Banks](https://www.bloomberg.com/news/articles/2026-10-07/qatarenergy-secures-3-billion-loan-from-four-chinese-banks) — Bloomberg
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Turkish arms group eyes Japan ties in air defense and underwater drones](https://asia.nikkei.com/business/aerospace-defense-industries/turkish-arms-group-eyes-japan-ties-in-air-defense-and-underwater-drones) — Nikkei Asia
 - [AI Could Worsen a Common Cognitive Trap](https://www.theatlantic.com/science/2026/10/why-illusions-understanding-explanation-question/688826/?utm_source=feed) — The Atlantic
 - [Vivienda protegida indefinida para el 60% de la población y casi sin desahucios: así es el elogiado modelo de Viena](https://www.eldiario.es/euskadi/vivienda-protegida-indefinida-60-poblacion-desahucios-elogiado-modelo-viena_1_13559566.html) — eldiario.es
-
-## 2026-10-03
-
-- [China, America and the new Great Game](https://www.ft.com/content/8869caf9-3cd1-4300-aeb3-828a4d9da4f9?syn-25a6b1a6=1) — Financial Times
-- [Once in decline, Japan's hard-drive suppliers ride soaring AI demand](https://asia.nikkei.com/business/electronics/once-in-decline-japan-s-hard-drive-suppliers-ride-soaring-ai-demand) — Nikkei Asia
-- [‘What Is Happening Today Is Development in Reverse’](https://foreignpolicy.com/2026/10/02/undp-alexander-de-croo-ukraine-war-reconstruction-gaza-reconstruction-afghanistan/) — Foreign Policy
-- [Row erupts over Cairo mural depicting Tutankhamun and Nefertiti with dark skin](https://www.theguardian.com/global-development/2026/oct/02/row-erupts-over-cairo-mural-depicting-tutankhamun-and-nefertiti-with-dark-skin) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

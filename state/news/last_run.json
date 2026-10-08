@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-07",
-  "briefing_date": "2026-10-07",
-  "inbox_date": "2026-10-07",
+  "date": "2026-10-08",
+  "briefing_date": "2026-10-08",
+  "inbox_date": "2026-10-08",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-07.md",
-  "inbox_path": "inbox/news/2026-10-07-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-08.md",
+  "inbox_path": "inbox/news/2026-10-08-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "El PP inaugura la precampaña del 29N con una nueva ofensiva en los tribunales contra el PSOE",
+      "headline": "Muere Maricarmen, la mujer que encendió la lucha contra los desahucios en España",
       "section": "spain",
-      "reason": "avoid_unless_material: PSOE scandals (Leire Díez imputation ask, not a court ruling)"
+      "reason": "one_theme: death notice overlaps lease-fact lead"
     },
     {
-      "headline": "Por qué Ayuso y Abascal tiran del manual de la ultraderecha para cuestionar las elecciones",
+      "headline": "Los líderes políticos reaccionan al fallecimiento del símbolo de los desahuciados",
       "section": "spain",
-      "reason": "campaign noise; not a material development"
+      "reason": "not_material: politicians repeating condolences"
     },
     {
-      "headline": "El PNV confirma que salvará con su voto clave el principal decreto de vivienda en la Diputación Permanente",
-      "section": "spain",
-      "reason": "one_theme with 2030 vulture-fund decree; Other Headlines only"
-    },
-    {
-      "headline": "La vivienda no puede ser un bien de mercado",
+      "headline": "Han matado a Maricarmen",
       "section": "spain",
       "reason": "opinion column"
     },
     {
-      "headline": "Los sindicatos ultiman la fecha de la huelga general en noviembre entre críticas de la patronal y la derecha",
+      "headline": "La huelga general por la vivienda será el miércoles 11 de noviembre",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; Other Headlines only"
+      "reason": "rejected_candidates publisher_cap; no citable URL in items/selected_read_candidates"
     },
     {
-      "headline": "Renault: Dieser Espace kommt aus der Zukunft",
+      "headline": "Börse am 8. Oktober: Sieben Punkte, die für Anleger heute wichtig sind",
       "section": "germany",
-      "reason": "geographic_misfit / lifestyle: French EV concept, not Germany policy"
+      "reason": "noise: daily market wrap"
     },
     {
-      "headline": "Hamas-Massaker vor drei Jahren: Nach Geiselhaft",
+      "headline": "Die Grippewelle kommt: Kursiert diesmal ein gefährlicher Erreger?",
       "section": "germany",
-      "reason": "geographic_misfit: Israel/Gaza anniversary; not a Germany slot"
+      "reason": "incremental vs 2026-09-30 flu-vaccine guide"
     },
     {
-      "headline": "The AI Will See You Now: How AI is Entering Healthcare in Berlin",
+      "headline": "350 Millionen Euro Fördergeld: Zukunft für E-Kerosin-Projekt in Schwedt noch ungeklärt",
+      "section": "germany",
+      "reason": "avoid_unless_material: energy transition bottlenecks; Other Headlines only"
+    },
+    {
+      "headline": "AfD-Politiker an der Spitze des Landtags: Was die Reaktionen auf Magdeburg zeigen",
+      "section": "germany",
+      "reason": "already covered 2026-10-07 germany-afd-sachsen-anhalt-landtag-president"
+    },
+    {
+      "headline": "Die 100 Köpfe der Berliner Wissenschaft – Teil 9",
       "section": "berlin",
-      "reason": "already covered 2026-10-05 berlin-ai-healthcare-clinics"
+      "reason": "repeat 100-Köpfe series (used 2026-10-01 and 2026-10-07)"
     },
     {
-      "headline": "Hochschulen in Brandenburg: Viadrina lockt mit neuen Studiengängen und Doppelabschluss",
-      "section": "berlin",
-      "reason": "geographic_misfit: Frankfurt (Oder), not Berlin city"
-    },
-    {
-      "headline": "Skull fractures suggest servants of Egypt’s ancient kings were sacrificed",
+      "headline": "Samsung Q3 profit jumps nearly 9 times to $80bn in AI chip boom",
       "section": "world",
-      "reason": "Selected Read URL used 2026-10-05; do not reuse"
+      "reason": "one_theme with 2026-10-07 Samsung Vietnam chips; used as Selected Read"
     },
     {
-      "headline": "publisher_pool_thin: Spain eligible items are eldiario.es and EL PAÍS only",
+      "headline": "publisher_pool_thin: Spain eligible items are eldiario.es and EL PAÍS only, all Maricarmen death",
       "section": "spain",
-      "reason": "publisher_pool_thin: used eldiario for 2030 veto, EL PAÍS for TC/Puigdemont and cadastre"
+      "reason": "publisher_pool_thin / one_theme: used EL PAÍS lease-death and Sol march, eldiario revolt/election portrait"
     },
     {
-      "headline": "berlin_pool_thin: only Klein (rbb24) and ZLB (Tagesspiegel) were clearly Berlin after geo-misfits; used 100-Köpfe community cohort (different humanities slice vs 1 Oct life-sciences) to fill the third slot",
+      "headline": "berlin_pool_thin: after geo-misfits (Schwedt, Kahla, China-EU, Finowfurt, Biesenthal, Nauen) only cemetery + Eisbären were clearly Berlin in items; used Checkpoint sondieren/expulsion (tagged germany, city governance) as the structural slot",
       "section": "berlin",
-      "reason": "berlin_pool_thin: Nobel Prize / electric buses / Die Linke HQ were rank_below_cap without synthesis-item URLs"
+      "reason": "berlin_pool_thin: rejected Marzahn grid arson / Nobel / tram fire (rank_below_cap, no synthesis URL)"
     }
   ],
-  "notes": "Material Spain: Cabinet stretched vulture-fund speculative-purchase ban to 2030 with exceptions (eldiario); TC upheld embezzlement amnesty / Puigdemont return path (EL PAÍS, court ruling vs 4 Oct Junts roadmap); cadastre ownership split (EL PAÍS). PNV Permanente vote, November strike date, and Sol camp parked in OH (one_theme / housing protests). Ceuta cooldown empty. Germany: Magdeburg AfD Landtag presidency (BZ, material institution result; not Berlin), Straub euro-crisis interview (Handelsblatt), Kita Strafraum (Tagesspiegel, publisher #3). Skipped China-EU trade tools as OH, Renault/Ibiza/myopia/Hamas-anniversary. Berlin: Hendrikje Klein speaker nomination (rbb24), ZLB-at-Galeria mural (Tagesspiegel), 100-Köpfe community cohort (Tagesspiegel) after rejecting AI-healthcare repeat and Brandenburg/Saxony misfits. World: SpaceX $40bn Nvidia/Apollo (NA, FT), Kenya first Ebola / DRC surge (Africa, Guardian), Samsung $5bn Vietnam chips (East/SE Asia, Nikkei). ≥2 non-European regions. Selected Reads: Bloomberg QatarEnergy China loan, Atlantic Russian plague case, Nikkei France Indo-Pacific air power, FT energy-shock analysis. Skipped Egypt skulls (used 5 Oct) and World-slot URLs."
+  "notes": "Spain inbox was all Maricarmen death (material vs prior eviction/judge coverage). Led with unsigned eight-year lease (EL PAÍS), revolt-to-snap-election portrait (eldiario), Sol midnight march (EL PAÍS; housing-protest override because the symbol died). Strike date 11 Nov had no citable URL. Ceuta cooldown empty. Germany: tax-subsidy study €76.5bn (HB), Kahla porcelain close (BZ, geo-refiled from berlin items), BGH cookie liability (HB). Skipped DAX wrap, flu incremental, Schwedt bottleneck, Magdeburg repeat. Berlin: Linke/Greens/SPD expulsion mechanism (TSP Checkpoint), Spandau wild-boar cemetery (TSP), Eisbären CHL last 16 (rbb24) after Brandenburg/World misfits. World: China AI hinterland / Inner Mongolia (EA, FT), Canada Maid mental-illness bar (NA, Guardian), Thai floods as carmaker 'new normal' (SE Asia, Nikkei from selected_read_candidates). ≥2 non-European regions. Selected Reads: Nikkei Samsung Q3, FT climate-gender, FP IMF 2027, Atlantic AI hacking. Skipped World-slot URLs and Tigray/Tumbler Ridge (OH 7 Oct)."
 }
