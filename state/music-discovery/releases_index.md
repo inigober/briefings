@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-10-09
+
+- Loidis — One Day
+- Priori — This but More
+- Cromby — Love On Tenderhooks
+- Natural Information Society and Bitchin Bajas — Totality
+- Alex Kassian — Voices
+- O Yuki Conjugate — Sleepwalker
+- IN2STELLAR — Soft Launch EP
+- Spriitzz — Where R U / Sunscreen
+- Ocean Moon — Ways To The Deep Meadow
+- Toumba — Petals EP
+
 ## 2026-10-02
 
 - Maara — Drama On
