@@ -1,0 +1,2604 @@
+{
+  "briefing_type": "news",
+  "date": "2026-10-09",
+  "source_raw": "inbox/news/2026-10-09-raw.json",
+  "built_at": "2026-10-09T04:31:56.828452+00:00",
+  "model": null,
+  "raw_item_count": 176,
+  "section_counts": {
+    "spain": 12,
+    "germany": 12,
+    "berlin": 12,
+    "world": 12
+  },
+  "selected_read_candidates": [
+    {
+      "id": "rss-world-e615ebedb4",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "OpenAI annualised revenues $20bn less than previously signalled",
+      "summary": "AI group recently told investors the critical figure was nearing $50bn in September, far less than the $70bn widely reported",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "OpenAI annualised revenues $20bn less than previously signalled",
+          "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-08",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-11c8f30aa1",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Multinationals' Indian offshore tech hubs face AI-driven hiring slowdown",
+      "summary": "Multinationals' Indian offshore tech hubs face AI-driven hiring slowdown",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Multinationals' Indian offshore tech hubs face AI-driven hiring slowdown",
+          "url": "https://asia.nikkei.com/business/technology/multinationals-indian-offshore-tech-hubs-face-ai-driven-hiring-slowdown",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-3589a4083d",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "EU cyber and science researchers are testing Chinese AI models",
+      "summary": "The EU's cyber agency ENISA and the Joint Research Centre confirm for the first time that they are testing Chinese open-source AI models.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "EU cyber and science researchers are testing Chinese AI models",
+          "url": "https://www.politico.eu/article/eu-cybersecurity-and-science-researchers-are-testing-chinese-ai-models/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "publisher": "Politico Europe",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-db00422f07",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Line aims to be Thailand's 'everyday AI app' in key market",
+      "summary": "Line aims to be Thailand's 'everyday AI app' in key market",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Line aims to be Thailand's 'everyday AI app' in key market",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/line-aims-to-be-thailand-s-everyday-ai-app-in-key-market",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-18e99dbf4f",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "US Stock Futures Rise on OpenAI Revenue, Oil Drops: Markets Wrap",
+      "summary": "US stock-index futures rose and Asian shares edged up after more details emerged about OpenAI’s estimated revenue, suggesting the weakness in Wall Street technology shares may be contained. Relief also came as Brent declined.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "US Stock Futures Rise on OpenAI Revenue, Oil Drops: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-08/stock-market-today-dow-s-p-live-updates",
+          "publisher": "Bloomberg",
+          "published_at": "2026-10-08",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-6a3b5898eb",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Australian data centre operator pulls $5bn IPO",
+      "summary": "Nvidia-backed Firmus abandons plan to list in Sydney, blaming ‘recent market volatility and prevailing market conditions’",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Australian data centre operator pulls $5bn IPO",
+          "url": "https://www.ft.com/content/205ef7a5-321f-46e3-8097-d055bf1f6b3b?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-09",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-b53fa4a59e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Ethiopia launches drone attack against Eritrean troops who crossed into Tigray",
+      "summary": "Government forces’ attack raises risk of internal conflict in Ethiopia that could trigger regional war Eritrean troops who crossed into Ethiopia’s Tigray region have come under drone attack from government forces, raising the risk that renewed internal conflict in Ethiopia could trigger an all-out regional war between the neighbouring countries. Military vehicles carrying soldiers drove across Eritrea’s southern border into Tigray on Wednesday, reaching the town of Adigrat 25 miles (40km) south, according to civilian witnesses, a militia commander and the conflict monitoring group Acled. Co...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Ethiopia launches drone attack against Eritrean troops who crossed into Tigray",
+          "url": "https://www.theguardian.com/world/2026/oct/08/ethiopia-drone-attack-against-eritrean-troops-in-tigray",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-416513099b",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Tigray rebel groups ‘forcibly recruiting boys as young as 15’ as fighting spreads",
+      "summary": "Civilians try to flee as men and boys rounded up on streets by new alliance as Ethiopia conflict erupts again As renewed fighting has threatened a fresh humanitarian crisis in the northern region of Ethiopia, reports are emerging that a new alliance of armed groups in Tigray has been forcibly recruiting men and boys to its ranks. Renewed conflict erupted on 23 September between Ethiopia’s federal government and the Tigray People’s Liberation Front (TPLF), which rules the region, shattering the fragile Pretoria peace agreement signed between the two sides in November 2022. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Tigray rebel groups ‘forcibly recruiting boys as young as 15’ as fighting spreads",
+          "url": "https://www.theguardian.com/global-development/2026/oct/06/ethiopia-tigray-conflict-tplf-rebels-forcibly-recruit-boys-war-crimes",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-06",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "rss-spain-a467894bd3",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Pedro Sánchez: \"Es hora de que el Parlamento se parezca a la calle y no a quienes viven en aticazos\"",
+      "summary": "“Rechazo la politización del dolor por la muerte de Maricarmen”, defiende el presidente del Gobierno: “Lo que hay que hacer es reivindicar la política para que no se produzca ese dolor” Vídeo - Aquí puedes ver la entrevista completa a Pedro Sánchez “España necesita más avances sociales y menos insultos de la derecha”, propone Pedro Sánchez en su primera entrevista tras convocar elecciones. El presidente y candidato socialista recibió a elDiario.es a las 12:30 del miércoles en la sede del PSOE en Ferraz. Tras el fallecimiento de Maricarmen, Sánchez accedió a ampliar esta entrevista con varia...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Pedro Sánchez: \"Es hora de que el Parlamento se parezca a la calle y no a quienes viven en aticazos\"",
+          "url": "https://www.eldiario.es/politica/pedro-sanchez-hora-parlamento-parezca-calle-no-viven-aticazos_1_13569153.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-a59a0bcaa9",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Las frases de la entrevista a Pedro Sánchez: \"El bulo del voto por correo es miedo a perder\"",
+      "summary": "El presidente del Gobierno responde en la entrevista con elDiario.es a las críticas de Jeff Bezos al plan de vivienda: \"Me pregunto por qué estos oligarcas se posicionan en contra de debates que les quedan lejos\" Entrevista - Pedro Sánchez: \"Es hora de que el Parlamento se parezca a la calle y no a quienes viven en aticazos\" El presidente del Gobierno, Pedro Sánchez, ha concedido una entrevista a elDiario.es en la que ha defendido que las elecciones del 29 de noviembre serán un plebiscito entre “derechos o recortes”. También ha criticado que la derecha critique la acampada de Sol por el der...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Las frases de la entrevista a Pedro Sánchez: \"El bulo del voto por correo es miedo a perder\"",
+          "url": "https://www.eldiario.es/politica/frases-entrevista-pedro-sanchez-bulo-voto-correo-miedo-perder_1_13570028.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-6842b71141",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La muerte de Maricarmen irrumpe en la precampaña",
+      "summary": "Desde la izquierda se han promovido actos de homenaje y recuerdo que han sido mayormente rechazados por las derechas, muy incómodos con que la vivienda sea uno de los ejes de los inminentes comicios Feijóo acusa a Sánchez de “intentar manipular emocionalmente a los españoles” tras la muerte de Maricarmen: “no vamos a caer en sus trampas” La muerte de Maricarmen, la mujer de 87 años cuyo desahucio hizo estallar las movilizaciones sociales contra la crisis de la vivienda, ha irrumpido en la precampaña de las elecciones del próximo 29 de noviembre. Y no para gusto de todos. Desde la izquierda ...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "La muerte de Maricarmen irrumpe en la precampaña",
+          "url": "https://www.eldiario.es/politica/muerte-maricarmen-irrumpe-precampana_1_13573534.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-014b3efef8",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La indignación toma el relevo de Maricarmen y vuelve a su casa desde Sol: \"Si ella no pudo, iremos nosotros\"",
+      "summary": "La vecina reconvertida en símbolo de la crisis por la vivienda fallecía este miércoles a los 87 años, después de un largo desgaste que culminó con su desahucio al cuarto intento. De eso hace 14 días y ocurrió ante cientos de personas. Ahora miles se reúnen en una marcha simbólica, rumbo a la calle donde todo empezó Muere Maricarmen, la mujer que convirtió su lucha por la vivienda en un clamor que recorrió España Una mujer octogenaria pasó sus últimos siete años enredada en juicios y burofaxes; todo por conservar la casa en la entró siendo adolescente. Ese tiempo, sumado al peso de la edad, ...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "La indignación toma el relevo de Maricarmen y vuelve a su casa desde Sol: \"Si ella no pudo, iremos nosotros\"",
+          "url": "https://www.eldiario.es/madrid/somos/indignacion-maricarmen-vuelve-ciudadana-relevo-casa-sol-toma_1_13571514.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-50a91f2679",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Maricarmen ya no molestará más a la derecha",
+      "summary": "Preocupado por el efecto de la muerte de Maricarmen en la campaña, Feijóo alerta contra la \"manipulación emocional\" de los hechos. En los medios de la derecha que desdeñaron a la anciana, insisten en presentarla como una marioneta manejada por el Gobierno Obituario - Maricarmen, la mujer que prendió la revuelta de la vivienda en España Alberto Núñez Feijóo ofreció sus condolencias en la noche del miércoles al conocerse la noticia de la muerte de Maricarmen Abascal. “Ante la muerte de una persona, solo cabe el respeto”, dijo. Al día siguiente, ya se había subido al carro de combate que no ab...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Maricarmen ya no molestará más a la derecha",
+          "url": "https://www.eldiario.es/politica/maricarmen-no-molestara-derecha_129_13572657.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-3db4ab2d23",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Ana Orantes o Maricarmen: hay historias personales que despiertan la conciencia de un país",
+      "summary": "¿Por qué ellas y no otras? Muchas otras personas son desahuciadas o sufren violencias, pero las circunstancias convierten a algunas en nombres propios que propician debates o transformaciones sociales Maricarmen, la mujer que prendió la revuelta de la vivienda en España y precipitó unas elecciones 15 días después de su desahucio, Maricarmen Abascal , de 87 años, ha muerto. En estas dos semanas, la mujer ha permanecido ingresada en un hospital mientras la actualidad de todo un país giraba su atención a la vivienda: manifestaciones masivas, debate urgente de dos decretos, votaciones, convocat...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Ana Orantes o Maricarmen: hay historias personales que despiertan la conciencia de un país",
+          "url": "https://www.eldiario.es/sociedad/ana-orantes-maricarmen-hay-historias-personales-despiertan-conciencia-pais_129_13572045.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-1fa163bc77",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "¿Remonta la izquierda? No en la primera encuesta",
+      "summary": "Necesita movilizar, recuperar indecisos y frenar las fugas hacia la derecha. De momento, el sondeo solo ve lo primero (y a medias)",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "¿Remonta la izquierda? No en la primera encuesta",
+          "url": "https://elpais.com/espana/2026-10-09/remontada-la-primera-encuesta-tras-la-convocatoria-no-la-ve.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-10-09",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-63dc583e30",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La conmoción por la muerte de Maricarmen monopoliza la precampaña",
+      "summary": "La izquierda clama contra los fondos inmobiliarios y la derecha, mientras PP y Vox vetan minutos de silencio y acusan al Gobierno de utilizar a la anciana desahuciada",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "La conmoción por la muerte de Maricarmen monopoliza la precampaña",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-10-09/la-conmocion-por-la-muerte-de-maricarmen-monopoliza-la-precampana.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-10-09",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-adbb865e6d",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Una marcha en honor a Maricarmen recorre Madrid: “¡No son muertes, son asesinatos!”",
+      "summary": "Unas 20.000 personas han salido de la Puerta del Sol hacia la casa de la que la mujer de 87 años fue desahuciada hace dos semanas",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Una marcha en honor a Maricarmen recorre Madrid: “¡No son muertes, son asesinatos!”",
+          "url": "https://elpais.com/espana/madrid/2026-10-08/una-marcha-en-honor-a-maricarmen-recorre-madrid-no-son-muertes-son-asesinatos.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-10-08",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-a96aaae713",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La seguridad del voto por correo: trazabilidad, bandejas precintadas y videovigilancia",
+      "summary": "Olga García, directora de Operaciones de Correos, explica los pasos a seguir y las medidas de protección del voto por correo el 29-N",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "La seguridad del voto por correo: trazabilidad, bandejas precintadas y videovigilancia",
+          "url": "https://elpais.com/videos/2026-10-09/la-seguridad-del-voto-por-correo-trazabilidad-bandejas-precintadas-y-videovigilancia.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-10-09",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-42ddd9c470",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "El juez investiga a tres maestras de un colegio concertado de Madrid por maltratar a bebés: “Les tapaba la nariz para tragar”",
+      "summary": "Dos compañeras de la principal investigada fueron a la policía tras denunciar los hechos internamente y no ver ninguna reacción por parte del colegio Alborada",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "El juez investiga a tres maestras de un colegio concertado de Madrid por maltratar a bebés: “Les tapaba la nariz para tragar”",
+          "url": "https://elpais.com/educacion/2026-10-09/el-juez-investiga-a-tres-maestras-de-un-colegio-concertado-de-madrid-por-maltratar-a-bebes-les-tapaba-la-nariz-para-tragar.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-10-09",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-4e9b03d20d",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Pablo López en los conciertos de EL PAÍS: “Todas las canciones guardan secretos que ni siquiera a mí mismo soy capaz de contarme”",
+      "summary": "El músico malagueño ha presentado su nuevo trabajo, ‘El Cuatro’, en un encuentro exclusivo para lectores de EL PAÍS. Ya puede ver en vídeo la entrevista y la actuación en los Teatros Luchana de Madrid",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Pablo López en los conciertos de EL PAÍS: “Todas las canciones guardan secretos que ni siquiera a mí mismo soy capaz de contarme”",
+          "url": "https://elpais.com/cultura/2026-10-09/pablo-lopez-en-los-conciertos-de-el-pais-todas-las-canciones-guardan-secretos-que-ni-siquiera-a-mi-mismo-soy-capaz-de-contarme.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-10-09",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-8c087fac53",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Börse am 9. Oktober: Sechs Punkte, die für Anleger heute wichtig sind",
+      "summary": "Am Donnerstag ist der Dax unter die 25.000-Punkte-Marke gefallen. Wird er das heute wieder aufholen? Am Freitag blicken die Anleger unter anderem auf die US-Verbraucherstimmung.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Börse am 9. Oktober: Sechs Punkte, die für Anleger heute wichtig sind",
+          "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-9143a2718f",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Tierschutz: Qualzucht bei Hunden: Wenn Schönheit krank macht",
+      "summary": "Kurze Schnauzen, besondere Fellfarben oder Falten: Was für Menschen niedlich aussieht, kann für Hunde zur gesundheitlichen Belastung werden. Solche Äußerlichkeiten sind oft mit Schmerz verbunden.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Tierschutz: Qualzucht bei Hunden: Wenn Schönheit krank macht",
+          "url": "https://www.handelsblatt.com/technik/forschung-innovation/tierschutz-qualzucht-bei-hunden-wenn-schoenheit-krank-macht/100260925.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-8a4a8c1a0e",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Nikkei und Topix: Hohe KI-Investitionen verunsichern Anleger in Asien",
+      "summary": "Anleger wollen den Beweis, dass sich die Milliardeninvestitionen in KI-Infrastruktur auch positiv in den Gewinnmargen der Firmen widerspiegeln. Auf die Zahlen von OpenAI reagieren sie nervös.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Nikkei und Topix: Hohe KI-Investitionen verunsichern Anleger in Asien",
+          "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-und-topix-hohe-ki-investitionen-verunsichern-anleger-in-asien/100260920.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-eaea30ece8",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Unfall: Dooring-Unfall mit Motorrad: Haftet allein der Türöffner?",
+      "summary": "Eine Autotür geht auf - und es kracht ein Motorrad hinein. Ein solcher Fall, der ein Gericht beschäftigte, zeigt, warum bei einem Dooring-Unfall unter Umständen nicht nur der Türöffner Schuld trägt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Unfall: Dooring-Unfall mit Motorrad: Haftet allein der Türöffner?",
+          "url": "https://www.handelsblatt.com/mobilitaet/motor/unfall-dooring-unfall-mit-motorrad-haftet-allein-der-tueroeffner/100260921.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-aa4510115a",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Viszerales Fett: Bedenklich viel Bauchfett? So geht der Selbstcheck",
+      "summary": "Geht es um die gesundheitlichen Risiken von Körperfett, sind Bauchpolster kritischer als Hüftgold. Wie Sie mit Maßband und Taschenrechner herausfinden, wo Sie stehen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Viszerales Fett: Bedenklich viel Bauchfett? So geht der Selbstcheck",
+          "url": "https://www.handelsblatt.com/technik/medizin/viszerales-fett-bedenklich-viel-bauchfett-so-geht-der-selbstcheck/100260916.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-8fba160227",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Bauchfett in den Wechseljahren: Was es mit dem Hormonbauch auf sich hat",
+      "summary": "Bierbauch, Babybauch, Blähbauch - kennt man. Geht es um die Wechseljahre, ist immer häufiger vom Hormonbauch zu hören. Warum hat die Menopause oft mehr Bauchfett im Gepäck? Und was können Frauen tun?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Bauchfett in den Wechseljahren: Was es mit dem Hormonbauch auf sich hat",
+          "url": "https://www.handelsblatt.com/technik/medizin/bauchfett-in-den-wechseljahren-was-es-mit-dem-hormonbauch-auf-sich-hat/100260917.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-2f88e29ae3",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "„Unglaublich ernste Situation“: ICE-Beamte schießen in New York auf Mann mit Kind in Auto",
+      "summary": "Die Beamten der US-Einwanderungsbehörde sollen mehrere Schüsse abgegeben haben. Der Mann wurde angeschossen, das Kind wohl nicht. Bürgermeister Mamdani will, dass Trump alle ICE-Einsätze in New York stoppt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "„Unglaublich ernste Situation“: ICE-Beamte schießen in New York auf Mann mit Kind in Auto",
+          "url": "https://www.tagesspiegel.de/internationales/unglaublich-ernste-situation-ice-beamte-schiessen-in-new-york-auf-mann-mit-kind-in-auto-16143546.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-e8e05a76f2",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Tierschutz: Qualzucht bei Hunden: Wenn Schönheit krank macht",
+      "summary": "Kurze Schnauzen, besondere Fellfarben oder Falten: Was für Menschen niedlich aussieht, kann für Hunde zur gesundheitlichen Belastung werden. Solche Äußerlichkeiten sind oft mit Schmerz verbunden.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Tierschutz: Qualzucht bei Hunden: Wenn Schönheit krank macht",
+          "url": "https://www.tagesspiegel.de/wissen/dpa-tierschutz-qualzucht-bei-hunden-wenn-schonheit-krank-macht-16143549.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-bc6d875930",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Das neue Album der Band Bilderbuch: Drohnen am Himmel leuchten wie Sterne",
+      "summary": "Unendlich plus eins: Die österreichische Band Bilderbuch veröffentlicht eine der besten Platten des Jahres. Grandioser wurde man von Popmusik lange nicht überfordert.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Das neue Album der Band Bilderbuch: Drohnen am Himmel leuchten wie Sterne",
+          "url": "https://www.tagesspiegel.de/kultur/das-neue-album-der-band-bilderbuch-drohnen-am-himmel-leuchten-wie-sterne-16131581.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-eea1a04c75",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Hinrichtung am 3. Dezember: Erschießung von US-Amokläufer soll live übertragen werden",
+      "summary": "US-Verteidigungsminister Hegseth will die geplante Erschießung des verurteilten Attentäters Nidal Hasan öffentlich durchführen. Wie das ganz konkret aussehen soll, bleibt noch unklar.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Hinrichtung am 3. Dezember: Erschießung von US-Amokläufer soll live übertragen werden",
+          "url": "https://www.tagesspiegel.de/internationales/dpa-us-militar-hegseth-offentliche-militarhinrichtung-von-attentater-16143268.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-5ebfd5a0a1",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "„Wir holen uns die Stadt zurück“: Berliner Jusos werben für Rot-Grün-Rot",
+      "summary": "Mit Grünen und Linken verbinde die SPD-Jugend vieles, schreibt der Co-Vorsitzende Kari Lenke. Was die Jusos vor der Landesdelegiertenkonferenz dennoch mit Sorge betrachten, lesen Sie heute im Checkpoint.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "„Wir holen uns die Stadt zurück“: Berliner Jusos werben für Rot-Grün-Rot",
+          "url": "https://www.tagesspiegel.de/checkpoint/der-checkpoint-am-morgen-jusos-werben-fur-rot-grun-rot-16143541.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-448ac314a5",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Die 100 Köpfe der Berliner Wissenschaft – Teil 10: Sie holen alle an den Tisch",
+      "summary": "Haben Sie heute schon was für die Demokratie getan? Sie am Laufen zu halten, ist unser aller Aufgabe – und gar nicht so einfach. Die vielen Facetten der Teilhabe und ihre Hürden analysieren diese Forschenden.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Die 100 Köpfe der Berliner Wissenschaft – Teil 10: Sie holen alle an den Tisch",
+          "url": "https://www.tagesspiegel.de/wissen/die-100-kopfe-der-berliner-wissenschaft--teil-10-sie-holen-alle-an-den-tisch-16095900.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-bfdbb18ef0",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Brände: Feuer in Berlin-Mitte - Mensch lebensbedrohlich verletzt",
+      "summary": "Die Feuerwehr rückt wegen einer brennenden Wohnung nach Berlin-Mitte aus - und findet einen Verletzten auf dem Dach eines Nachbargebäudes.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Brände: Feuer in Berlin-Mitte - Mensch lebensbedrohlich verletzt",
+          "url": "https://www.tagesspiegel.de/berlin/dpa-brande-feuer-in-berlin-mitte-mensch-lebensbedrohlich-verletzt-16143557.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-berlin-475e8c72c9",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Schüsse: Mehrere Schüsse in Berlin-Neukölln",
+      "summary": "In der Nacht fallen an einer Wohnanschrift in Berlin-Neukölln mehrere Schüsse. Ein Anwohner sieht einen maskierten Menschen flüchten. Was bekannt ist.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Schüsse: Mehrere Schüsse in Berlin-Neukölln",
+          "url": "https://www.tagesspiegel.de/berlin/dpa-schusse-mehrere-schusse-in-berlin-neukolln-16143544.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-berlin-3322a27e52",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Millionenverluste für Bauern befürchtet: Ost-Minister machen gegen EU-Reform mobil",
+      "summary": "Fünf ostdeutsche Länder machen im Kanzleramt gegen die geplante EU-Agrarreform mobil. Allein Brandenburg rechnet mit rund 80 Millionen Euro weniger Direktzahlungen pro Jahr.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Millionenverluste für Bauern befürchtet: Ost-Minister machen gegen EU-Reform mobil",
+          "url": "https://www.berliner-zeitung.de/article/eu-agrarfoerderung-ostdeutschland-grossbetriebe-kuerzungen-10474443",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-de703a9fef",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Cannabis im Blut: 21-Jähriger kracht in Baustelle",
+      "summary": "Der 21-Jährige kam nach links ab und riss fünf Warnbaken um, blieb unverletzt. Schaden: rund 7500 Euro.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Cannabis im Blut: 21-Jähriger kracht in Baustelle",
+          "url": "https://www.berliner-zeitung.de/article/cannabis-im-blut-21-jaehriger-kracht-in-baustelle-10474414",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-e06c5e1a53",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "A14-Baustelle am Buchholzer Rollberg: 108 Temposünder, Spitzenwert 201 km/h",
+      "summary": "Erlaubt waren 100 km/h. Die Polizei maß in Fahrtrichtung Schwerin viereinhalb Stunden lang – ein Fahrer war mehr als doppelt so schnell wie zulässig.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "A14-Baustelle am Buchholzer Rollberg: 108 Temposünder, Spitzenwert 201 km/h",
+          "url": "https://www.berliner-zeitung.de/article/a14-baustelle-am-buchholzer-rollberg-108-temposuender-spitzenwert-201-km-h-10474209",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-37a1e14529",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Schwerin weitet Suchtprävention an Schulen bis Klasse 10 aus",
+      "summary": "Neu in Schwerin: Social Media in Klasse 9, Cannabis in Klasse 10 – laut Stadt erreichte das Gesundheitsamt bisher mehr als 960 Schüler.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Schwerin weitet Suchtprävention an Schulen bis Klasse 10 aus",
+          "url": "https://www.berliner-zeitung.de/article/schwerin-weitet-suchtpraevention-an-schulen-bis-klasse-10-aus-10474063",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-23db7a7339",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Stralsund: Geisterwald-Spielplatz saniert, Tischtennisplatte folgt noch",
+      "summary": "Kletteranlage, Bänke und Fallschutzsand in der Baumschulenstraße sind erneuert. Die neue Tischtennisplatte kommt am Dienstag.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Stralsund: Geisterwald-Spielplatz saniert, Tischtennisplatte folgt noch",
+          "url": "https://www.berliner-zeitung.de/article/stralsund-geisterwald-spielplatz-saniert-tischtennisplatte-folgt-noch-10473145",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-22d26c7543",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Fabian-Prozess in Rostock: Gutachter hält Gina H. für voll schuldfähig",
+      "summary": "Im Prozess um den Mord an Fabian (8) zeichnet der psychiatrische Gutachter ein detailliertes Bild der Angeklagten. Trotz Borderline-Störung sei sie schuldfähig.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Fabian-Prozess in Rostock: Gutachter hält Gina H. für voll schuldfähig",
+          "url": "https://www.berliner-zeitung.de/article/fabian-prozess-in-rostock-gutachter-haelt-gina-h-fuer-voll-schuldfaehig-10447825",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-59b312f775",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Influencer im Olympiastadion: Auch Hertha verbietet Stadionvlogs",
+      "summary": "Influencer im Olympiastadion: Auch Hertha verbietet Stadionvlogs",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Influencer im Olympiastadion: Auch Hertha verbietet Stadionvlogs",
+          "url": "https://www.rbb24.de/sport/beitrag/2026/10/fussball-2-bundesliga-vlogs-vlogger-hertha-bsc-olympiastadion.html",
+          "publisher": "rbb24",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-905454357d",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Champions League: Füchse-Star Gidsel feiert Torrekord gegen Porto",
+      "summary": "Champions League: Füchse-Star Gidsel feiert Torrekord gegen Porto",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Champions League: Füchse-Star Gidsel feiert Torrekord gegen Porto",
+          "url": "https://www.rbb24.de/sport/beitrag/2026/10/handball-champions-league-hinrunde-fuechse-berlin-fc-porto.html",
+          "publisher": "rbb24",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-4c1a2076f4",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Zweifel an Tragfähigkeit: Spreeausgang am Bahnhof Jannowitzbrücke gesperrt",
+      "summary": "Zweifel an Tragfähigkeit: Spreeausgang am Bahnhof Jannowitzbrücke gesperrt",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Zweifel an Tragfähigkeit: Spreeausgang am Bahnhof Jannowitzbrücke gesperrt",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/jannowitzbruecke-spree-zugang-sperrung-mitte-berlin.html",
+          "publisher": "rbb24",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-dac841e5c8",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Berliner S-Bahn: Westliche Ringbahn an diesem Wochenende gesperrt",
+      "summary": "Berliner S-Bahn: Westliche Ringbahn an diesem Wochenende gesperrt",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Berliner S-Bahn: Westliche Ringbahn an diesem Wochenende gesperrt",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/berlin-sperrung-ringbahn-s-bahn-bauarbeiten.html",
+          "publisher": "rbb24",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-world-11c8f30aa1",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Multinationals' Indian offshore tech hubs face AI-driven hiring slowdown",
+      "summary": "Multinationals' Indian offshore tech hubs face AI-driven hiring slowdown",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Multinationals' Indian offshore tech hubs face AI-driven hiring slowdown",
+          "url": "https://asia.nikkei.com/business/technology/multinationals-indian-offshore-tech-hubs-face-ai-driven-hiring-slowdown",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 69
+    },
+    {
+      "id": "rss-world-db00422f07",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Line aims to be Thailand's 'everyday AI app' in key market",
+      "summary": "Line aims to be Thailand's 'everyday AI app' in key market",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Line aims to be Thailand's 'everyday AI app' in key market",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/line-aims-to-be-thailand-s-everyday-ai-app-in-key-market",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 69
+    },
+    {
+      "id": "rss-world-3589a4083d",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "EU cyber and science researchers are testing Chinese AI models",
+      "summary": "The EU's cyber agency ENISA and the Joint Research Centre confirm for the first time that they are testing Chinese open-source AI models.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "EU cyber and science researchers are testing Chinese AI models",
+          "url": "https://www.politico.eu/article/eu-cybersecurity-and-science-researchers-are-testing-chinese-ai-models/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "publisher": "Politico Europe",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-18e99dbf4f",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "US Stock Futures Rise on OpenAI Revenue, Oil Drops: Markets Wrap",
+      "summary": "US stock-index futures rose and Asian shares edged up after more details emerged about OpenAI’s estimated revenue, suggesting the weakness in Wall Street technology shares may be contained. Relief also came as Brent declined.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "US Stock Futures Rise on OpenAI Revenue, Oil Drops: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-08/stock-market-today-dow-s-p-live-updates",
+          "publisher": "Bloomberg",
+          "published_at": "2026-10-08",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-e615ebedb4",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "OpenAI annualised revenues $20bn less than previously signalled",
+      "summary": "AI group recently told investors the critical figure was nearing $50bn in September, far less than the $70bn widely reported",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "OpenAI annualised revenues $20bn less than previously signalled",
+          "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-08",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-6a3b5898eb",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Australian data centre operator pulls $5bn IPO",
+      "summary": "Nvidia-backed Firmus abandons plan to list in Sydney, blaming ‘recent market volatility and prevailing market conditions’",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Australian data centre operator pulls $5bn IPO",
+          "url": "https://www.ft.com/content/205ef7a5-321f-46e3-8097-d055bf1f6b3b?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-09",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-ab08867977",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Five ways to tell if market trouble lies ahead",
+      "summary": "The cost of credit default swaps for AI companies looking to borrow is rising",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Five ways to tell if market trouble lies ahead",
+          "url": "https://www.ft.com/content/7acb5862-cde5-49b4-a5f1-5f6e6977a9c7?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-09",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-b53fa4a59e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Ethiopia launches drone attack against Eritrean troops who crossed into Tigray",
+      "summary": "Government forces’ attack raises risk of internal conflict in Ethiopia that could trigger regional war Eritrean troops who crossed into Ethiopia’s Tigray region have come under drone attack from government forces, raising the risk that renewed internal conflict in Ethiopia could trigger an all-out regional war between the neighbouring countries. Military vehicles carrying soldiers drove across Eritrea’s southern border into Tigray on Wednesday, reaching the town of Adigrat 25 miles (40km) south, according to civilian witnesses, a militia commander and the conflict monitoring group Acled. Co...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Ethiopia launches drone attack against Eritrean troops who crossed into Tigray",
+          "url": "https://www.theguardian.com/world/2026/oct/08/ethiopia-drone-attack-against-eritrean-troops-in-tigray",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    },
+    {
+      "id": "rss-world-416513099b",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Tigray rebel groups ‘forcibly recruiting boys as young as 15’ as fighting spreads",
+      "summary": "Civilians try to flee as men and boys rounded up on streets by new alliance as Ethiopia conflict erupts again As renewed fighting has threatened a fresh humanitarian crisis in the northern region of Ethiopia, reports are emerging that a new alliance of armed groups in Tigray has been forcibly recruiting men and boys to its ranks. Renewed conflict erupted on 23 September between Ethiopia’s federal government and the Tigray People’s Liberation Front (TPLF), which rules the region, shattering the fragile Pretoria peace agreement signed between the two sides in November 2022. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Tigray rebel groups ‘forcibly recruiting boys as young as 15’ as fighting spreads",
+          "url": "https://www.theguardian.com/global-development/2026/oct/06/ethiopia-tigray-conflict-tplf-rebels-forcibly-recruit-boys-war-crimes",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-06",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    },
+    {
+      "id": "rss-world-555cddfb4d",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "How a plant selfie in Colombian jungle led to ‘jaw dropping’ giant waterlily find",
+      "summary": "Species with leaves large enough to be seen from space is already critically endangered – and plans are afoot to protect it A chance social media encounter has led to the race-against-time discovery of a new species of giant waterlily that has until now been hidden in the depths of Colombia’s jungle. But the plant, which is so huge it is visible from space, is already considered critically endangered. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "How a plant selfie in Colombian jungle led to ‘jaw dropping’ giant waterlily find",
+          "url": "https://www.theguardian.com/environment/2026/oct/09/plant-selfie-jaw-dropping-giant-waterlily-discovery-colombia",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-09",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    },
+    {
+      "id": "rss-world-143fc058ca",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Nicolás Maduro and his wife indicted for alleged torture of US citizens",
+      "summary": "Ousted Venezuelan president and Cilia Flores have been in jail in New York since early January The deposed Venezuelan president Nicolás Maduro and his wife, Cilia Flores, have been indicted for alleged conspiracy to commit torture, according to Manhattan federal court papers unsealed on Thursday. The superseding indictment was unsealed shortly before Flores appeared at court in her ongoing push for pretrial release – which was denied by Judge Alvin Hellerstein. Maduro and Flores have been jailed in New York City since early January. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Nicolás Maduro and his wife indicted for alleged torture of US citizens",
+          "url": "https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    },
+    {
+      "id": "rss-world-2551c688cf",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Anne Carson wins Nobel prize in literature 2026",
+      "summary": "Most prestigious literature prize goes to Canadian known for genre-crossing works such as Autobiography of Red ‘Delights await!’: Margaret Atwood and other writers on Nobel winner Anne Carson Where to start with: Anne Carson The Nobel prize in literature has been awarded to the Canadian poet and essayist Anne Carson, the Swedish Academy has announced. The academy cited the author’s “bold and inventive oeuvre that, in playful dialogue with the classical tradition, has created new forms for contemporary literature”. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Anne Carson wins Nobel prize in literature 2026",
+          "url": "https://www.theguardian.com/books/2026/oct/08/wins-the-nobel-prize-in-literature-2026",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-08",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    }
+  ],
+  "editorial_context": {
+    "recent_topics": [
+      {
+        "slug": "spain-maricarmen-death-unsigned-lease",
+        "section": "spain",
+        "date": "2026-10-08"
+      },
+      {
+        "slug": "spain-maricarmen-revolt-snap-election",
+        "section": "spain",
+        "date": "2026-10-08"
+      },
+      {
+        "slug": "spain-sol-no-more-maricarmens",
+        "section": "spain",
+        "date": "2026-10-08"
+      },
+      {
+        "slug": "germany-tax-subsidies-765bn",
+        "section": "germany",
+        "date": "2026-10-08"
+      },
+      {
+        "slug": "germany-kahla-porcelain-closes",
+        "section": "germany",
+        "date": "2026-10-08"
+      },
+      {
+        "slug": "germany-bgh-cookie-liability",
+        "section": "germany",
+        "date": "2026-10-08"
+      },
+      {
+        "slug": "berlin-linke-greens-spd-antisemitism-expulsion",
+        "section": "berlin",
+        "date": "2026-10-08"
+      },
+      {
+        "slug": "berlin-spandau-cemetery-wild-boars",
+        "section": "berlin",
+        "date": "2026-10-08"
+      },
+      {
+        "slug": "berlin-eisbaeren-chl-last-16",
+        "section": "berlin",
+        "date": "2026-10-08"
+      },
+      {
+        "slug": "world-china-ai-hinterland-inner-mongolia",
+        "section": "world",
+        "date": "2026-10-08"
+      },
+      {
+        "slug": "world-canada-maid-mental-illness-bar",
+        "section": "world",
+        "date": "2026-10-08"
+      },
+      {
+        "slug": "world-thai-floods-carmakers-new-normal",
+        "section": "world",
+        "date": "2026-10-08"
+      },
+      {
+        "slug": "spain-vulture-fund-ban-2030-exceptions",
+        "section": "spain",
+        "date": "2026-10-07"
+      },
+      {
+        "slug": "spain-tc-amnesty-puigdemont-return",
+        "section": "spain",
+        "date": "2026-10-07"
+      },
+      {
+        "slug": "spain-catastro-small-owners-90",
+        "section": "spain",
+        "date": "2026-10-07"
+      },
+      {
+        "slug": "germany-afd-sachsen-anhalt-landtag-president",
+        "section": "germany",
+        "date": "2026-10-07"
+      },
+      {
+        "slug": "germany-straub-eurocrisis-bond-yields",
+        "section": "germany",
+        "date": "2026-10-07"
+      },
+      {
+        "slug": "germany-kita-penalty-room",
+        "section": "germany",
+        "date": "2026-10-07"
+      },
+      {
+        "slug": "berlin-linke-hendrikje-klein-praesidentin",
+        "section": "berlin",
+        "date": "2026-10-07"
+      },
+      {
+        "slug": "berlin-zlb-alexanderplatz-galeria",
+        "section": "berlin",
+        "date": "2026-10-07"
+      },
+      {
+        "slug": "berlin-100-koepfe-community-cohort",
+        "section": "berlin",
+        "date": "2026-10-07"
+      },
+      {
+        "slug": "world-spacex-40bn-nvidia-apollo",
+        "section": "world",
+        "date": "2026-10-07"
+      },
+      {
+        "slug": "world-kenya-first-ebola-drc",
+        "section": "world",
+        "date": "2026-10-07"
+      },
+      {
+        "slug": "world-samsung-5bn-vietnam-chips",
+        "section": "world",
+        "date": "2026-10-07"
+      },
+      {
+        "slug": "spain-sanchez-calls-snap-election",
+        "section": "spain",
+        "date": "2026-10-06"
+      },
+      {
+        "slug": "spain-frente-amplio-podemos-10-day-coalition",
+        "section": "spain",
+        "date": "2026-10-06"
+      },
+      {
+        "slug": "spain-ley-nietos-census-29n",
+        "section": "spain",
+        "date": "2026-10-06"
+      },
+      {
+        "slug": "germany-bundestag-named-tax-votes",
+        "section": "germany",
+        "date": "2026-10-06"
+      },
+      {
+        "slug": "germany-dwd-sunshine-hours-record",
+        "section": "germany",
+        "date": "2026-10-06"
+      },
+      {
+        "slug": "germany-kleinanzeigen-ai-chats",
+        "section": "germany",
+        "date": "2026-10-06"
+      },
+      {
+        "slug": "berlin-canal-floating-biotopes",
+        "section": "berlin",
+        "date": "2026-10-06"
+      },
+      {
+        "slug": "berlin-kreuzberg-school-tear-gas",
+        "section": "berlin",
+        "date": "2026-10-06"
+      },
+      {
+        "slug": "berlin-neukoelln-apartment-fire-death",
+        "section": "berlin",
+        "date": "2026-10-06"
+      },
+      {
+        "slug": "world-qualcomm-huawei-5g-ai-patents",
+        "section": "world",
+        "date": "2026-10-06"
+      },
+      {
+        "slug": "world-reliance-closes-7eleven-india",
+        "section": "world",
+        "date": "2026-10-06"
+      },
+      {
+        "slug": "world-houthi-medina-turkey-pakistan-troops",
+        "section": "world",
+        "date": "2026-10-06"
+      },
+      {
+        "slug": "spain-moncloa-snap-election-decree-permanente",
+        "section": "spain",
+        "date": "2026-10-05"
+      },
+      {
+        "slug": "spain-judge-almeida-maricarmen-emvs",
+        "section": "spain",
+        "date": "2026-10-05"
+      },
+      {
+        "slug": "spain-40db-vox-right-bloc-50",
+        "section": "spain",
+        "date": "2026-10-05"
+      },
+      {
+        "slug": "germany-linke-reiche-verfassungsgericht",
+        "section": "germany",
+        "date": "2026-10-05"
+      },
+      {
+        "slug": "germany-genz-labour-humility",
+        "section": "germany",
+        "date": "2026-10-05"
+      },
+      {
+        "slug": "germany-merz-ukraine-morning-briefing-writeoff",
+        "section": "germany",
+        "date": "2026-10-05"
+      },
+      {
+        "slug": "berlin-ai-healthcare-clinics",
+        "section": "berlin",
+        "date": "2026-10-05"
+      },
+      {
+        "slug": "berlin-potsdamer-platz-lift-shaft",
+        "section": "berlin",
+        "date": "2026-10-05"
+      },
+      {
+        "slug": "berlin-eisbaeren-nuernberg-win",
+        "section": "berlin",
+        "date": "2026-10-05"
+      },
+      {
+        "slug": "world-flavio-bolsonaro-first-round-lead",
+        "section": "world",
+        "date": "2026-10-05"
+      },
+      {
+        "slug": "world-trump-boom-not-helping",
+        "section": "world",
+        "date": "2026-10-05"
+      },
+      {
+        "slug": "world-egypt-matsadaash-newsroom",
+        "section": "world",
+        "date": "2026-10-05"
+      },
+      {
+        "slug": "spain-right-voters-back-killed-housing-shield",
+        "section": "spain",
+        "date": "2026-10-04"
+      },
+      {
+        "slug": "spain-psoe-majority-urges-snap-election",
+        "section": "spain",
+        "date": "2026-10-04"
+      },
+      {
+        "slug": "spain-junts-puigdemont-return-roadmap",
+        "section": "spain",
+        "date": "2026-10-04"
+      },
+      {
+        "slug": "germany-merz-surprise-kyiv-drone-deal",
+        "section": "germany",
+        "date": "2026-10-04"
+      },
+      {
+        "slug": "germany-erfurt-semiconductor-bet",
+        "section": "germany",
+        "date": "2026-10-04"
+      },
+      {
+        "slug": "germany-insa-afd-30-union-record-low",
+        "section": "germany",
+        "date": "2026-10-04"
+      },
+      {
+        "slug": "berlin-gorki-membrana-lhuillier",
+        "section": "berlin",
+        "date": "2026-10-04"
+      },
+      {
+        "slug": "berlin-hertha-international-break-rhythm",
+        "section": "berlin",
+        "date": "2026-10-04"
+      },
+      {
+        "slug": "berlin-fuechse-bietigheim-away-win",
+        "section": "berlin",
+        "date": "2026-10-04"
+      },
+      {
+        "slug": "world-china-record-bank-closures",
+        "section": "world",
+        "date": "2026-10-04"
+      },
+      {
+        "slug": "world-kawasaki-humanoid-robot-2030",
+        "section": "world",
+        "date": "2026-10-04"
+      },
+      {
+        "slug": "world-atlantic-ai-writing-hypocrites",
+        "section": "world",
+        "date": "2026-10-04"
+      },
+      {
+        "slug": "spain-housing-decrees-fall-congress",
+        "section": "spain",
+        "date": "2026-10-03"
+      },
+      {
+        "slug": "spain-sanchez-weighs-snap-election",
+        "section": "spain",
+        "date": "2026-10-03"
+      },
+      {
+        "slug": "spain-housing-general-strike-poll",
+        "section": "spain",
+        "date": "2026-10-03"
+      },
+      {
+        "slug": "germany-galeria-insolvency-again",
+        "section": "germany",
+        "date": "2026-10-03"
+      },
+      {
+        "slug": "germany-glp1-children-obesity",
+        "section": "germany",
+        "date": "2026-10-03"
+      },
+      {
+        "slug": "germany-wehrpflicht-protest-brandenburg-gate",
+        "section": "germany",
+        "date": "2026-10-03"
+      },
+      {
+        "slug": "berlin-sbahn-unity-promise-seven-missing",
+        "section": "berlin",
+        "date": "2026-10-03"
+      },
+      {
+        "slug": "berlin-kauf-dich-gluecklich-28th",
+        "section": "berlin",
+        "date": "2026-10-03"
+      },
+      {
+        "slug": "berlin-tag-der-clubkultur-2026",
+        "section": "berlin",
+        "date": "2026-10-03"
+      },
+      {
+        "slug": "world-tepco-capacity-squatters-ai",
+        "section": "world",
+        "date": "2026-10-03"
+      },
+      {
+        "slug": "world-uscg-cuba-fuel-intercept",
+        "section": "world",
+        "date": "2026-10-03"
+      },
+      {
+        "slug": "world-starbucks-xinjiang-cafes",
+        "section": "world",
+        "date": "2026-10-03"
+      },
+      {
+        "slug": "spain-junts-sinks-housing-decrees",
+        "section": "spain",
+        "date": "2026-10-02"
+      },
+      {
+        "slug": "spain-40db-rent-intervention-poll",
+        "section": "spain",
+        "date": "2026-10-02"
+      },
+      {
+        "slug": "spain-vox-deportation-housing-frame",
+        "section": "spain",
+        "date": "2026-10-02"
+      },
+      {
+        "slug": "germany-prien-rejects-pflichtdienst",
+        "section": "germany",
+        "date": "2026-10-02"
+      },
+      {
+        "slug": "germany-merz-hybrid-attacks-warning",
+        "section": "germany",
+        "date": "2026-10-02"
+      },
+      {
+        "slug": "germany-dwd-fewer-tornadoes-2026",
+        "section": "germany",
+        "date": "2026-10-02"
+      },
+      {
+        "slug": "berlin-sondierungen-recount-five-seats",
+        "section": "berlin",
+        "date": "2026-10-02"
+      },
+      {
+        "slug": "berlin-butze-street-children-house",
+        "section": "berlin",
+        "date": "2026-10-02"
+      },
+      {
+        "slug": "berlin-founding-professors-baer-reiche-no-show",
+        "section": "berlin",
+        "date": "2026-10-02"
+      },
+      {
+        "slug": "world-us-troops-iran-strikes",
+        "section": "world",
+        "date": "2026-10-02"
+      },
+      {
+        "slug": "world-brazil-ag-trump-meddling",
+        "section": "world",
+        "date": "2026-10-02"
+      },
+      {
+        "slug": "world-singapore-nuclear-fusion",
+        "section": "world",
+        "date": "2026-10-02"
+      }
+    ],
+    "rejected_candidates": [
+      {
+        "id": "rss-spain-91587e358e",
+        "headline": "🎙 PODCAST | Cómo vas a recordar a Maricarmen",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-55c8775e74",
+        "headline": "Déjennos llorar con furia",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-30318efb24",
+        "headline": "El mapa de las rentas de los caseros por código postal: cómo los barrios ricos acaparan los ingresos del alquiler",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-f817d06a01",
+        "headline": "‘El precio de la red’: colgados de las redes. Luego pasa lo que pasa",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-2b6a1bb040",
+        "headline": "El duelo por Maricarmen anticipa el duro choque electoral del 29-N",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-909528f8c1",
+        "headline": "Tensión en el pleno de la Asamblea entre la oposición y Ayuso: “No va a haber paz en las calles de Madrid”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-333e359e9f",
+        "headline": "Madrid despide a Maricarmen con una marcha multitudinaria y pacífica",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-33eb25e2a2",
+        "headline": "Las negociaciones entre ERC y Rufián siguen abiertas y la dirección sopesa una alternativa para el 29-N",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-903e3a4549",
+        "headline": "De barrio rico a pobre: 224.000 € de diferencia en la renta entre La Moraleja y Torreblanca",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-8b2a86d289",
+        "headline": "Anne Carson gana el Nobel de Literatura",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-3bc32adc5c",
+        "headline": "Hienas que vomitan odio",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 45,
+        "notes": [
+          "feed:+35",
+          "dedup:-15 (spain-judge-almeida-maricarmen-emvs)",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-9f1a6cba54",
+        "headline": "El PP y Vox mantienen la mayoría absoluta tras el adelanto electoral",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 44,
+        "notes": [
+          "feed:+35",
+          "dedup:-15 (spain-frente-amplio-podemos-10-day-coalition)",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-germany-2b194a8776",
+        "headline": "Fußball: Europas Machtkampf mit Infantino - So geht es weiter",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-germany-a553106f96",
+        "headline": "Feuer in Stendal: Nächtlicher Brand in Diskothek",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-81e731ffbc",
+        "headline": "Tierschutz: Qualzucht bei Hunden: Wenn Schönheit krank macht",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-f395dbceaf",
+        "headline": "Forschungssicherheit: China weist deutsche Spionagewarnungen zurück",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-6e71f0fac0",
+        "headline": "Berngau in der Oberpfalz: Festnahme nach tödlichen Schüssen bei Waffenkontrolle",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-559b9b7808",
+        "headline": "USA-Newsblog: Pentagon beabsichtigt Livestream von Militärhinrichtung",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-f2740849e2",
+        "headline": "Missbrauchsstudie zum Papst-Internat: Wenn Kirchenmänner ihren Zöglingen das Leben zur Hölle machen",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-a158e80816",
+        "headline": "Gesundheit: Privat Versicherte könnten einen Solidarbeitrag leisten",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-f6384865b8",
+        "headline": "Berlin und der Döner: Nicht reinbeißen, könnte scheußlich schmecken",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-37150a55c3",
+        "headline": "Erneute Ermittlungen in Cold Case: Frau seit 19 Jahren vermisst – Polizisten graben nach Spuren",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-de7b45e189",
+        "headline": "Autoindustrie: Audi will noch stärker sparen – und weitere Stellen streichen",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-8073ea996e",
+        "headline": "Ende einer Epoche?: Die Wut der Verzweiflung",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 56,
+        "notes": [
+          "feed:+35",
+          "publisher:+4"
+        ]
+      },
+      {
+        "id": "rss-berlin-b405841873",
+        "headline": "Wachsfigurenkabinett: Madame Tussauds stellt Döner aus Wachs vor",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "wp-berlin-6d524c50da",
+        "headline": "Banking On It: Interpol’s Frontman on Living in Berlin",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-9d60bf1c47",
+        "headline": "Ryanair Drops 12 Destinations from BER",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-130ef58dcd",
+        "headline": "Is Berlin The Scenter of the Perfume Scene?",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-031ec59632",
+        "headline": "Power Grid Targeted in Arson Attack in Marzahn",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-acf97caa75",
+        "headline": "Berlin Art: What Exhibitions Are On Now?",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-79f24a30fa",
+        "headline": "What to do this weekend: Berlin’s best events",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-e5974df293",
+        "headline": "The Ruins of Beelitz-Heilstätten are Perfect For a Spooky Day Trip From Berlin",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-a973602c71",
+        "headline": "Nobel Prize in Medicine Awarded to Berlin Professor",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-c232e7d67f",
+        "headline": "Lights, Camera, Action: Berlin’s Unmissable Film Events this October",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-54dafc4be4",
+        "headline": "Martha Ndumbe: Colonial Legacies in Wedding",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-berlin-15d65bd8d2",
+        "headline": "#534: Arson attack, spy boss arrested, Cat in the Hat, start-ups killing it",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 56,
+        "notes": [
+          "feed:+35",
+          "publisher:+4"
+        ]
+      },
+      {
+        "id": "rss-world-c741ba4bab",
+        "headline": "‘Nothing About This Was Inevitable’",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 64,
+        "notes": [
+          "feed:+35",
+          "priority:+12"
+        ]
+      },
+      {
+        "id": "rss-world-cca59a97fb",
+        "headline": "Taiwan's KMT shows signs of power struggle tracked by US and China",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 63,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-world-9cae59e796",
+        "headline": "Taliban face civil war as China's Afghanistan-Pakistan mediation fails",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 63,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-world-d56ac53198",
+        "headline": "How America and China Compare on AI",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 61,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+3"
+        ]
+      },
+      {
+        "id": "rss-world-c32557534b",
+        "headline": "The Real Danger May Be AI as Dumb as Us",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 61,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+3"
+        ]
+      },
+      {
+        "id": "rss-world-18618e33e8",
+        "headline": "Conflict in the Red Sea is forcing cloud giants to find a new route for the internet",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-8ef611fe5c",
+        "headline": "Not just AI. China is building technologies that challenge U.S. dominance",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-ab71550deb",
+        "headline": "Berechenbare Risiken – unberechenbare Politik? Warum Deutschland jetzt aus Worten Gesetze machen muss",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-df8061aa86",
+        "headline": "Is the EU ready for the next pandemic?",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-c2aea71f5c",
+        "headline": "Green Leader Polanski’s Westminster gamble fails in Holborn and St Pancras",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-4ba628a2c6",
+        "headline": "‘Not great, not terrible’: Why nobody trusts Russia to tell the truth about plague",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-1a9b652d64",
+        "headline": "Foreigners Buy Japan Stocks Alongside Record Futures Selling",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      }
+    ],
+    "running_stories_on_cooldown": [],
+    "note": "Pre-ranked with editorial relevance from topics.yaml, dedup_index.md, and news_relevance rules in sources.yaml. Synthesis must still apply hard reject rules in news-briefing-style.mdc. running_stories_on_cooldown: do not give these a Spain slot; park a one-liner in Other Headlines unless an extraordinary trigger hit."
+  },
+  "note": "Token-light slice for synthesis. Full warehouse is in -raw.json. All items come from RSS or WordPress feeds — copy source URLs verbatim."
+}
