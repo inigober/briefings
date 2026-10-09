@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-08",
-  "briefing_date": "2026-10-08",
-  "inbox_date": "2026-10-08",
+  "date": "2026-10-09",
+  "briefing_date": "2026-10-09",
+  "inbox_date": "2026-10-09",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-08.md",
-  "inbox_path": "inbox/news/2026-10-08-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-09.md",
+  "inbox_path": "inbox/news/2026-10-09-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Muere Maricarmen, la mujer que encendió la lucha contra los desahucios en España",
+      "headline": "La muerte de Maricarmen irrumpe en la precampaña",
       "section": "spain",
-      "reason": "one_theme: death notice overlaps lease-fact lead"
+      "reason": "incremental vs 2026-10-08 Maricarmen death / revolt coverage"
     },
     {
-      "headline": "Los líderes políticos reaccionan al fallecimiento del símbolo de los desahuciados",
+      "headline": "Una marcha en honor a Maricarmen recorre Madrid",
       "section": "spain",
-      "reason": "not_material: politicians repeating condolences"
+      "reason": "avoid_unless_material: housing protests; Other Headlines only"
     },
     {
-      "headline": "Han matado a Maricarmen",
+      "headline": "Maricarmen ya no molestará más a la derecha",
       "section": "spain",
       "reason": "opinion column"
     },
     {
-      "headline": "La huelga general por la vivienda será el miércoles 11 de noviembre",
+      "headline": "Las frases de la entrevista a Pedro Sánchez",
       "section": "spain",
-      "reason": "rejected_candidates publisher_cap; no citable URL in items/selected_read_candidates"
+      "reason": "one_theme with the main Sánchez interview"
     },
     {
-      "headline": "Börse am 8. Oktober: Sieben Punkte, die für Anleger heute wichtig sind",
+      "headline": "Börse am 9. Oktober: Sechs Punkte, die für Anleger heute wichtig sind",
       "section": "germany",
       "reason": "noise: daily market wrap"
     },
     {
-      "headline": "Die Grippewelle kommt: Kursiert diesmal ein gefährlicher Erreger?",
+      "headline": "„Unglaublich ernste Situation“: ICE-Beamte schießen in New York",
       "section": "germany",
-      "reason": "incremental vs 2026-09-30 flu-vaccine guide"
+      "reason": "geo: US story; Other Headlines only"
     },
     {
-      "headline": "350 Millionen Euro Fördergeld: Zukunft für E-Kerosin-Projekt in Schwedt noch ungeklärt",
+      "headline": "Die 100 Köpfe der Berliner Wissenschaft – Teil 10",
       "section": "germany",
-      "reason": "avoid_unless_material: energy transition bottlenecks; Other Headlines only"
-    },
-    {
-      "headline": "AfD-Politiker an der Spitze des Landtags: Was die Reaktionen auf Magdeburg zeigen",
-      "section": "germany",
-      "reason": "already covered 2026-10-07 germany-afd-sachsen-anhalt-landtag-president"
-    },
-    {
-      "headline": "Die 100 Köpfe der Berliner Wissenschaft – Teil 9",
-      "section": "berlin",
       "reason": "repeat 100-Köpfe series (used 2026-10-01 and 2026-10-07)"
     },
     {
-      "headline": "Samsung Q3 profit jumps nearly 9 times to $80bn in AI chip boom",
+      "headline": "Tigray rebel groups ‘forcibly recruiting boys as young as 15’",
       "section": "world",
-      "reason": "one_theme with 2026-10-07 Samsung Vietnam chips; used as Selected Read"
+      "reason": "already Other Headlines 2026-10-07; one_theme with Ethiopia drone World slot"
     },
     {
-      "headline": "publisher_pool_thin: Spain eligible items are eldiario.es and EL PAÍS only, all Maricarmen death",
-      "section": "spain",
-      "reason": "publisher_pool_thin / one_theme: used EL PAÍS lease-death and Sol march, eldiario revolt/election portrait"
+      "headline": "Hinrichtung am 3. Dezember: Erschießung von US-Amokläufer soll live übertragen werden",
+      "section": "germany",
+      "reason": "geo: US story; Other Headlines only"
     },
     {
-      "headline": "berlin_pool_thin: after geo-misfits (Schwedt, Kahla, China-EU, Finowfurt, Biesenthal, Nauen) only cemetery + Eisbären were clearly Berlin in items; used Checkpoint sondieren/expulsion (tagged germany, city governance) as the structural slot",
+      "headline": "US Stock Futures Rise on OpenAI Revenue, Oil Drops: Markets Wrap",
+      "section": "world",
+      "reason": "noise: daily market wrap; OpenAI number used from FT"
+    },
+    {
+      "headline": "publisher_pool_thin: Germany eligible citable items after geo-misfits and noise were farm-reform (BZ), Qualzucht, dooring; Audi cuts / China spy warnings / private-insurance levy had no URL in items",
+      "section": "germany",
+      "reason": "publisher_pool_thin / germany_pool_thin"
+    },
+    {
+      "headline": "berlin_pool_thin: after geo-misfits (Brandenburg farm already refiled to Germany; Schwerin, Stralsund, Rostock, A14) used Jusos (tagged germany, city politics) + Jannowitzbrücke + Ringbahn; fire/shots to Other Headlines",
       "section": "berlin",
-      "reason": "berlin_pool_thin: rejected Marzahn grid arson / Nobel / tram fire (rank_below_cap, no synthesis URL)"
+      "reason": "berlin_pool_thin: Ryanair BER / Nobel Berlin professor rank_below_cap, no synthesis URL"
     }
   ],
-  "notes": "Spain inbox was all Maricarmen death (material vs prior eviction/judge coverage). Led with unsigned eight-year lease (EL PAÍS), revolt-to-snap-election portrait (eldiario), Sol midnight march (EL PAÍS; housing-protest override because the symbol died). Strike date 11 Nov had no citable URL. Ceuta cooldown empty. Germany: tax-subsidy study €76.5bn (HB), Kahla porcelain close (BZ, geo-refiled from berlin items), BGH cookie liability (HB). Skipped DAX wrap, flu incremental, Schwedt bottleneck, Magdeburg repeat. Berlin: Linke/Greens/SPD expulsion mechanism (TSP Checkpoint), Spandau wild-boar cemetery (TSP), Eisbären CHL last 16 (rbb24) after Brandenburg/World misfits. World: China AI hinterland / Inner Mongolia (EA, FT), Canada Maid mental-illness bar (NA, Guardian), Thai floods as carmaker 'new normal' (SE Asia, Nikkei from selected_read_candidates). ≥2 non-European regions. Selected Reads: Nikkei Samsung Q3, FT climate-gender, FP IMF 2027, Atlantic AI hacking. Skipped World-slot URLs and Tigray/Tumbler Ridge (OH 7 Oct)."
+  "notes": "Spain: first post-dissolution poll (EL PAÍS), Sánchez first campaign interview (eldiario), Alborada concertado baby-abuse investigation (EL PAÍS). Skipped Maricarmen incremental/opinion/march (housing-protest hard reject; OH only). Ceuta cooldown empty. Germany thin: east Länder vs EU farm reform (BZ, refiled from berlin items), Qualzucht (TSP), dooring liability (HB). Skipped DAX wrap, US ICE/execution geo-misfits, 100-Köpfe repeat. Berlin: Jusos Rot-Grün-Rot (TSP Checkpoint), Jannowitzbrücke Spree exit (rbb24), western Ringbahn weekend closure (rbb24). World: OpenAI $50bn vs $70bn (NA, FT), India offshore-hub hiring slowdown (South Asia, Nikkei), Ethiopia drone vs Eritrean troops in Tigray (Africa, Guardian). ≥2 non-European regions. Selected Reads: Politico EU/Chinese AI tests, FT Firmus $5bn IPO pull, Nikkei Line Thailand, Guardian Maduro torture indictment. Skipped World-slot URLs and Tigray recruitment (OH 7 Oct)."
 }

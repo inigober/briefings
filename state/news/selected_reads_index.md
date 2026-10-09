@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-09
+
+- [EU cyber and science researchers are testing Chinese AI models](https://www.politico.eu/article/eu-cybersecurity-and-science-researchers-are-testing-chinese-ai-models/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Australian data centre operator pulls $5bn IPO](https://www.ft.com/content/205ef7a5-321f-46e3-8097-d055bf1f6b3b?syn-25a6b1a6=1) — Financial Times
+- [Line aims to be Thailand's 'everyday AI app' in key market](https://asia.nikkei.com/business/technology/artificial-intelligence/line-aims-to-be-thailand-s-everyday-ai-app-in-key-market) — Nikkei Asia
+- [Nicolás Maduro and his wife indicted for alleged torture of US citizens](https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court) — The Guardian
+
 ## 2026-10-08
 
 - [Samsung Q3 profit jumps nearly 9 times to $80bn in AI chip boom](https://asia.nikkei.com/business/tech/semiconductors/samsung-q3-profit-jumps-nearly-9-times-to-80bn-in-ai-chip-boom) — Nikkei Asia
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [AI’s Real Gift to Science](https://www.theatlantic.com/science/2026/10/anthropic-artificial-intelligence-science-biology/688878/?utm_source=feed) — The Atlantic
 - [Russia’s new drive to crush Ukraine](https://www.ft.com/content/cc96ac01-7929-4954-97a3-7b30e00ef324?syn-25a6b1a6=1) — Financial Times
 - [Radiografía de un pelotazo: cuando Ana Botella malvendió 1.860 viviendas públicas a un fondo buitre](https://www.eldiario.es/madrid/radiografia-pelotazo-ana-botella-malvendio-1-860-viviendas-publicas-fondo-buitre_1_13553591.html) — eldiario.es
-
-## 2026-10-04
-
-- [Russia Turns to Striking Kyiv’s Bridges, Threatening a Vital Lifeline](https://www.nytimes.com/2026/10/03/world/europe/russia-ukraine-bridges-kyiv.html) — The New York Times
-- [Turkish arms group eyes Japan ties in air defense and underwater drones](https://asia.nikkei.com/business/aerospace-defense-industries/turkish-arms-group-eyes-japan-ties-in-air-defense-and-underwater-drones) — Nikkei Asia
-- [AI Could Worsen a Common Cognitive Trap](https://www.theatlantic.com/science/2026/10/why-illusions-understanding-explanation-question/688826/?utm_source=feed) — The Atlantic
-- [Vivienda protegida indefinida para el 60% de la población y casi sin desahucios: así es el elogiado modelo de Viena](https://www.eldiario.es/euskadi/vivienda-protegida-indefinida-60-poblacion-desahucios-elogiado-modelo-viena_1_13559566.html) — eldiario.es
 
 ## Blocked until 5+ briefings have passed
 

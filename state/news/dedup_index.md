@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-09
+
+- **spain-first-poll-no-left-rebound** — EL PAÍS: the first survey after the snap-election call does not show a left rebound (section: spain)
+- **spain-sanchez-street-not-penthouses** — eldiario.es: Sánchez's first interview since dissolving parliament — Cortes should look like the street, not penthouses (section: spain)
+- **spain-alborada-teachers-baby-abuse** — EL PAÍS: a judge is investigating three teachers at Colegio Alborada, a Madrid concertado, for abusing babies (section: spain)
+- **germany-east-laender-eu-farm-reform** — Berliner Zeitung: five eastern Länder are lobbying the Chancellery against the EU farm reform; Brandenburg ~€80m/year (section: germany)
+- **germany-qualzucht-dogs** — Tagesspiegel: breeding for looks (short snouts, rare coats, folds) framed as medical cruelty (section: germany)
+- **germany-dooring-shared-liability** — Handelsblatt: a dooring case treats motorcycle/car-door fault as shareable (section: germany)
+- **berlin-jusos-rot-gruen-rot** — Tagesspiegel: Berlin Jusos campaign for a red–green–red coalition ahead of the SPD state delegates meeting (section: berlin)
+- **berlin-jannowitzbruecke-spree-exit** — rbb24: the Spree exit at Jannowitzbrücke is closed over load-bearing doubts (section: berlin)
+- **berlin-ringbahn-west-weekend-closure** — rbb24: the western Ringbahn is closed this weekend for engineering work (section: berlin)
+- **world-openai-revenue-20bn-short** — Financial Times: OpenAI told investors annualised revenue was nearing $50bn, $20bn below the $70bn widely reported (section: world)
+- **world-india-offshore-hubs-ai-hiring** — Nikkei Asia: multinationals' Indian offshore tech hubs face an AI-driven hiring slowdown (section: world)
+- **world-ethiopia-drone-eritrea-tigray** — The Guardian: Ethiopian drones hit Eritrean troops who had crossed into Tigray as far as Adigrat (section: world)
+
 ## 2026-10-08
 
 - **spain-maricarmen-death-unsigned-lease** — EL PAÍS: Maricarmen Abascal died hours before signing an eight-year lease back into the Retiro flat (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-iran-7day-ceasefire-hormuz** — Financial Times: Iran offered the US a 7-day ceasefire that could reopen the Strait of Hormuz (section: world)
 - **world-ethiopia-tigray-offensive** — The Guardian: a Tigrayan offensive into Afar and Amhara has revived fears of Ethiopia's civil war (section: world)
 - **world-china-health-tech** — Rest of World: China's lead in health tech is framed as good news for patients elsewhere (section: world)
-
-## 2026-09-24
-
-- **spain-maricarmen-housing-decree** — eldiario.es: the government is racing a housing decree to the next Cabinet after the eviction of 87-year-old Maricarmen Abascal (section: spain)
-- **spain-maricarmen-tenant-law** — EL PAÍS: the eviction tests how far tenant-protection rules reach for vulnerable renters (section: spain)
-- **spain-zapatero-saudi-jewels-ethics** — EL PAÍS: PSOE officials call Zapatero's Saudi jewellery gift an ethics failure; Ferraz still backs him (section: spain)
-- **germany-biontech-founder-succession** — Handelsblatt: BioNTech's founders are tangled in succession and the post-vaccine reset (section: germany)
-- **germany-hartmann-elites-east-germans** — Tagesspiegel: sociologist Michael Hartmann on East Germans' absence from the top 100,000 (section: germany)
-- **germany-hpi-ai-blackbox-audit** — Handelsblatt: Hasso Plattner Institute research chief wants an external audit of US frontier models (section: germany)
-- **berlin-greens-werner-not-suitable** — Tagesspiegel: a Green district says lead candidate Werner is unfit to lead after the House defeat (section: berlin)
-- **berlin-ber-drone-shutdown** — Tagesspiegel: a drone briefly stopped flights at BER (section: berlin)
-- **berlin-olympic-bid-warnemuende-drop** — Berliner Zeitung: Berlin has dropped its Olympic bid and left Warnemünde without a capital partner (section: berlin)
-- **world-openai-agent-australia-health** — Financial Times: an OpenAI agent breached an Australian government health site; the lab took months to notice (section: world)
-- **world-tower-japan-optical-chips** — Nikkei Asia: Tower Semiconductor will make Japan its main hub for optical chips (section: world)
-- **world-milei-un-falklands** — The Guardian: Milei told the UN Argentina may take the Falklands into its own hands (section: world)
