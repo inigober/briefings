@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-09",
-  "briefing_date": "2026-10-09",
-  "inbox_date": "2026-10-09",
+  "date": "2026-10-10",
+  "briefing_date": "2026-10-10",
+  "inbox_date": "2026-10-10",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-09.md",
-  "inbox_path": "inbox/news/2026-10-09-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-10.md",
+  "inbox_path": "inbox/news/2026-10-10-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "La muerte de Maricarmen irrumpe en la precampaña",
+      "headline": "Relatos desde las barricadas estudiantiles en Francia",
       "section": "spain",
-      "reason": "incremental vs 2026-10-08 Maricarmen death / revolt coverage"
+      "reason": "geo: France; Other Headlines only"
     },
     {
-      "headline": "Una marcha en honor a Maricarmen recorre Madrid",
+      "headline": "España se encamina a una huelga general “a la ofensiva” por el estallido social de la crisis de la vivienda",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; Other Headlines only"
+      "reason": "avoid_unless_material: housing protests; incremental vs 2026-10-07 OH strike date; Other Headlines only"
     },
     {
-      "headline": "Maricarmen ya no molestará más a la derecha",
+      "headline": "Un desahucio más",
       "section": "spain",
-      "reason": "opinion column"
+      "reason": "opinion column; incremental Maricarmen"
     },
     {
-      "headline": "Las frases de la entrevista a Pedro Sánchez",
+      "headline": "Ayuso repite receta con el bulo del fraude electoral y el comunismo",
       "section": "spain",
-      "reason": "one_theme with the main Sánchez interview"
+      "reason": "campaign rhetoric; Other Headlines only"
     },
     {
-      "headline": "Börse am 9. Oktober: Sechs Punkte, die für Anleger heute wichtig sind",
+      "headline": "El juez imputa al directivo de Quirón por el presunto soborno de la pareja de Ayuso",
+      "section": "spain",
+      "reason": "slot_cap after Morocco / energy / Juan Carlos; court step 17 months on"
+    },
+    {
+      "headline": "Trump llega a un acuerdo con Putin para que Rusia libere miles de barriles de diésel",
+      "section": "spain",
+      "reason": "geo: US/Russia; Other Headlines only"
+    },
+    {
+      "headline": "Klimafolgen: Hitze und Dürre: Wird der kostbare weiße Trüffel knapp?",
       "section": "germany",
-      "reason": "noise: daily market wrap"
+      "reason": "avoid_unless_material: heatwave adaptation"
     },
     {
-      "headline": "„Unglaublich ernste Situation“: ICE-Beamte schießen in New York",
-      "section": "germany",
-      "reason": "geo: US story; Other Headlines only"
+      "headline": "Millionenverluste für Bauern befürchtet: Ost-Minister machen gegen EU-Reform mobil",
+      "section": "berlin",
+      "reason": "recent_topics: germany-east-laender-eu-farm-reform (2026-10-09)"
     },
     {
-      "headline": "Die 100 Köpfe der Berliner Wissenschaft – Teil 10",
-      "section": "germany",
-      "reason": "repeat 100-Köpfe series (used 2026-10-01 and 2026-10-07)"
-    },
-    {
-      "headline": "Tigray rebel groups ‘forcibly recruiting boys as young as 15’",
+      "headline": "How a plant selfie in Colombian jungle led to giant waterlily find",
       "section": "world",
-      "reason": "already Other Headlines 2026-10-07; one_theme with Ethiopia drone World slot"
+      "reason": "already Other Headlines 2026-10-09"
     },
     {
-      "headline": "Hinrichtung am 3. Dezember: Erschießung von US-Amokläufer soll live übertragen werden",
-      "section": "germany",
-      "reason": "geo: US story; Other Headlines only"
+      "headline": "Haushaltskrise: Potsdams OB zu Sparkurs",
+      "section": "berlin",
+      "reason": "geo: Brandenburg; one_theme with Potsdam roads Germany slot"
     },
     {
-      "headline": "US Stock Futures Rise on OpenAI Revenue, Oil Drops: Markets Wrap",
-      "section": "world",
-      "reason": "noise: daily market wrap; OpenAI number used from FT"
-    },
-    {
-      "headline": "publisher_pool_thin: Germany eligible citable items after geo-misfits and noise were farm-reform (BZ), Qualzucht, dooring; Audi cuts / China spy warnings / private-insurance levy had no URL in items",
+      "headline": "publisher_pool_thin: Germany eligible after geo-misfits (Trump Nobel/diesel/Gaza/Texas execution) and heatwave reject were Anthropic (HB), Potsdam roads (TSP), Juli Zeh (TSP)",
       "section": "germany",
       "reason": "publisher_pool_thin / germany_pool_thin"
     },
     {
-      "headline": "berlin_pool_thin: after geo-misfits (Brandenburg farm already refiled to Germany; Schwerin, Stralsund, Rostock, A14) used Jusos (tagged germany, city politics) + Jannowitzbrücke + Ringbahn; fire/shots to Other Headlines",
+      "headline": "berlin_pool_thin: after geo-misfits (Potsdam, Peru, ICC, Putin, farm reform, Lübben) only rbb24 local items remained; Europacity court plus Eisbären/Schöneberg; Ryanair BER rank_below_cap had no synthesis URL",
       "section": "berlin",
-      "reason": "berlin_pool_thin: Ryanair BER / Nobel Berlin professor rank_below_cap, no synthesis URL"
+      "reason": "berlin_pool_thin / publisher_pool_thin: rbb24 only"
     }
   ],
-  "notes": "Spain: first post-dissolution poll (EL PAÍS), Sánchez first campaign interview (eldiario), Alborada concertado baby-abuse investigation (EL PAÍS). Skipped Maricarmen incremental/opinion/march (housing-protest hard reject; OH only). Ceuta cooldown empty. Germany thin: east Länder vs EU farm reform (BZ, refiled from berlin items), Qualzucht (TSP), dooring liability (HB). Skipped DAX wrap, US ICE/execution geo-misfits, 100-Köpfe repeat. Berlin: Jusos Rot-Grün-Rot (TSP Checkpoint), Jannowitzbrücke Spree exit (rbb24), western Ringbahn weekend closure (rbb24). World: OpenAI $50bn vs $70bn (NA, FT), India offshore-hub hiring slowdown (South Asia, Nikkei), Ethiopia drone vs Eritrean troops in Tigray (Africa, Guardian). ≥2 non-European regions. Selected Reads: Politico EU/Chinese AI tests, FT Firmus $5bn IPO pull, Nikkei Line Thailand, Guardian Maduro torture indictment. Skipped World-slot URLs and Tigray recruitment (OH 7 Oct)."
+  "notes": "Spain: Mohamed VI warning before Felipe VI visit (EL PAÍS), autoconsumo/energy-community decrees (eldiario), Juan Carlos drops Corinna €65m claim (EL PAÍS). Skipped housing strike (hard reject / OH), Maricarmen opinion, Ayuso campaign (OH), Quirón imputation (slot), France geo-misfits, Trump-Putin diesel (OH). Ceuta cooldown empty. Germany thin: Anthropic police-form filing (HB), Potsdam €500m road backlog (TSP), Juli Zeh Pony Show (TSP). Skipped truffle (heatwave adaptation), US/Gaza geo-misfits. Berlin thin, rbb24 only: Europacity social-housing court, Eisbären DEL top, Schöneberg shooting. World: Trump-Mexico energy talks (LatAm, FT), Taiwan KMT struggle (East Asia, Nikkei), RFK Jr / Guinea-Bissau vaccine trial (Africa, Guardian). ≥2 non-European regions. Selected Reads: FT Yandex data-centre strikes, Atlantic El Niño/Isaias, FP diesel crisis, Guardian Pillay Nobel. Skipped World-slot URLs and Colombia waterlily (OH 9 Oct)."
 }

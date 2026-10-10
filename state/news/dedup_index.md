@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-10
+
+- **spain-mohamed-vi-no-pressure-felipe-visit** — EL PAÍS: Mohammed VI says he will not accept Spanish pressure or blackmail ahead of Felipe VI's visit; attacks repatriation rules (section: spain)
+- **spain-autoconsumo-energy-community-decrees** — eldiario.es: Cabinet is due two urgent decrees on rooftop solar and energy communities (section: spain)
+- **spain-juan-carlos-drops-corinna-65m** — EL PAÍS: the emeritus king has not filed the suit to recover €65m given to Corinna Larsen (section: spain)
+- **germany-anthropic-fake-police-filing** — Handelsblatt: Anthropic's model submitted real forms, including a false tip, on authority websites (section: germany)
+- **germany-potsdam-road-backlog-500m** — Tagesspiegel: Potsdam's carriageway maintenance backlog has reached about €500m in a budget emergency (section: germany)
+- **germany-juli-zeh-pony-show** — Tagesspiegel: Juli Zeh's new novel *Pony Show* is set in court and in the literary scene (section: germany)
+- **berlin-europacity-social-housing-court** — rbb24: the administrative court says a Europacity owner must offer Sozialwohnungen (section: berlin)
+- **berlin-eisbaeren-del-top-wolfsburg** — rbb24: the Eisbären beat Wolfsburg 5–0 and sit top of the DEL (section: berlin)
+- **berlin-schoeneberg-shooting** — rbb24: two men were injured in a Friday shooting in Schöneberg (section: berlin)
+- **world-trump-mexico-energy-trade** — Financial Times: Trump is pressing Mexico for energy deals in crunch trade talks (section: world)
+- **world-taiwan-kmt-power-struggle** — Nikkei Asia: the KMT is in a power struggle tracked by the US and China (section: world)
+- **world-rfk-vaccine-trial-guinea-bissau** — The Guardian: a hepatitis-B birth-dose trial RFK Jr has touted is going ahead in Guinea-Bissau (section: world)
+
 ## 2026-10-09
 
 - **spain-first-poll-no-left-rebound** — EL PAÍS: the first survey after the snap-election call does not show a left rebound (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-openai-agents-governments** — Financial Times: OpenAI says governments are among dozens of organisations its agents reached (section: world)
 - **world-hurricane-polo-baja** — The Guardian: Polo, the east Pacific's second-most intense hurricane on record, is heading for Baja (section: world)
 - **world-china-trade-syracuse-micron** — Bloomberg: Froman on China's export machine; Syracuse's $100bn Micron plant as the industrial-policy bet (section: world)
-
-## 2026-09-25
-
-- **spain-junts-housing-decree-tuesday** — eldiario.es: the government is racing fiscal concessions to Junts so a housing decree can pass on Tuesday (section: spain)
-- **spain-wanninkhof-dolores-vazquez-debt** — EL PAÍS: 25 years on, Spain has not repaired Dolores Vázquez's 519 days in prison as an innocent woman (section: spain)
-- **spain-carmen-ortiz-plea-bargain** — EL PAÍS: Carmen Ortiz's daughters had to plea-bargain so her killer would not walk free (section: spain)
-- **germany-bond-yields-2007-high** — Handelsblatt: German bond yields are at their highest since 2007 as oil, inflation and bottlenecks rise (section: germany)
-- **germany-teilzeit-pension-offset** — Tagesspiegel: mothers who go part-time lose pay and pension rights; how couples can offset the loss (section: germany)
-- **germany-correggio-dresden-show** — Tagesspiegel: Dresden's Gemäldegalerie has the first major Correggio exhibition outside Italy (section: germany)
-- **berlin-linke-parteitag-sondierungen** — rbb24: Die Linke's Friday congress will decide exploratory talks, starting with Greens and SPD (section: berlin)
-- **berlin-finger-musikschule-court** — Tagesspiegel: Ina Finger sued her way back to heading the Friedrichshain-Kreuzberg music school (section: berlin)
-- **berlin-gruenau-pedestrian-light** — Tagesspiegel: Grünau neighbours still want a pedestrian light on Regattastraße after a child was hit (section: berlin)
-- **world-iran-7day-ceasefire-hormuz** — Financial Times: Iran offered the US a 7-day ceasefire that could reopen the Strait of Hormuz (section: world)
-- **world-ethiopia-tigray-offensive** — The Guardian: a Tigrayan offensive into Afar and Amhara has revived fears of Ethiopia's civil war (section: world)
-- **world-china-health-tech** — Rest of World: China's lead in health tech is framed as good news for patients elsewhere (section: world)

@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-10
+
+- [Ukraine strikes Russian tech giant’s data centres](https://www.ft.com/content/b90417e7-4d32-48cc-a508-5d405e7cd2ee?syn-25a6b1a6=1) — Financial Times
+- [This Is the Hurricane Season El Niño Foretold](https://www.theatlantic.com/science/2026/10/hurricane-season-isaias-simon/688961/?utm_source=feed) — The Atlantic
+- [The Global Diesel Crisis, Explained](https://foreignpolicy.com/2026/10/09/diesel-crisis-oil-fuel-refineries-iran-ukraine-war/) — Foreign Policy
+- [ICJ judge Navi Pillay wins Nobel peace prize for promoting international law](https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize) — The Guardian
+
 ## 2026-10-09
 
 - [EU cyber and science researchers are testing Chinese AI models](https://www.politico.eu/article/eu-cybersecurity-and-science-researchers-are-testing-chinese-ai-models/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Fuel from South Korea being shipped to Russia as Ukraine war grinds on](https://www.theguardian.com/world/2026/oct/06/oil-tankers-south-korea-russia-ukraine-war) — The Guardian
 - [AI Made the List—but Humans Still Did the Killing](https://foreignpolicy.com/2026/10/05/israel-gaza-palestine-ai-war-naza-civilians/) — Foreign Policy
 - [TotalEnergies boss hails ‘opportunities’ created by global market turmoil](https://www.ft.com/content/ae67bb6f-f227-4679-949f-2e79e2dc33e2?syn-25a6b1a6=1) — Financial Times
-
-## 2026-10-05
-
-- [Skull fractures suggest servants of Egypt’s ancient kings were sacrificed](https://www.theguardian.com/science/2026/oct/05/skull-fractures-suggest-servants-of-egypts-ancient-kings-were-sacrificed) — The Guardian
-- [AI’s Real Gift to Science](https://www.theatlantic.com/science/2026/10/anthropic-artificial-intelligence-science-biology/688878/?utm_source=feed) — The Atlantic
-- [Russia’s new drive to crush Ukraine](https://www.ft.com/content/cc96ac01-7929-4954-97a3-7b30e00ef324?syn-25a6b1a6=1) — Financial Times
-- [Radiografía de un pelotazo: cuando Ana Botella malvendió 1.860 viviendas públicas a un fondo buitre](https://www.eldiario.es/madrid/radiografia-pelotazo-ana-botella-malvendio-1-860-viviendas-publicas-fondo-buitre_1_13553591.html) — eldiario.es
 
 ## Blocked until 5+ briefings have passed
 
