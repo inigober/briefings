@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-11
+
+- **spain-legislature-economy-housing-drag** — eldiario.es: GDP +15% since 2018 and record employment, but the legislature never fixed housing or rents (section: spain)
+- **spain-conde-pumpido-tc-democracy** — EL PAÍS: Conde-Pumpido, term expired, says questioning the Constitutional Court is questioning democracy; no lawfare but politicised justice (section: spain)
+- **spain-franco-monuments-convert-not-erase** — eldiario.es: debate over removing Franco-era monuments versus converting them so they condemn what they once praised (section: spain)
+- **germany-krankenkassen-rates-2027** — Tagesspiegel: coalition savings package aims to hold statutory health-insurance contributions in 2027 (section: germany)
+- **germany-cdu-klausur-election-crisis** — Handelsblatt: CDU leadership meets on consequences of an election-crisis run of polls (section: germany)
+- **germany-bnd-jaeger-putin-war-trap** — Berliner Zeitung: BND-Chef Jäger says Putin can no longer end the war; compared with MI6 and other services (section: germany)
+- **berlin-palestine-demo-regierungsviertel** — rbb24: thousands marched in a pro-Palestine demonstration through the government quarter (section: berlin)
+- **berlin-christmas-trees-more-expensive** — Tagesspiegel: Christmas trees will cost more this year (section: berlin)
+- **berlin-alba-lose-trier** — rbb24: Alba Berlin lost in Trier in the BBL (section: berlin)
+- **world-ai-borrowing-slows** — Financial Times: investors grow wary of the AI infrastructure debt binge after record bond issuance (section: world)
+- **world-riyadh-airport-houthi-strike** — Financial Times: missile strike on King Khalid airport kills 12 and injures hundreds (section: world)
+- **world-korea-physical-ai-robots** — Nikkei Asia: robot baristas and K-pop dancers lead South Korea's physical AI boom (section: world)
+
 ## 2026-10-10
 
 - **spain-mohamed-vi-no-pressure-felipe-visit** — EL PAÍS: Mohammed VI says he will not accept Spanish pressure or blackmail ahead of Felipe VI's visit; attacks repatriation rules (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-south-korea-ai-for-all** — Financial Times: Seoul's deputy PM is selling a state-backed "AI for all" deployment (section: world)
 - **world-us-housing-pe-midterms** — Financial Times: private-equity landlords are a midterm campaign target (section: world)
 - **world-pacific-hurricanes-hawaii** — The Atlantic: Hawaii is on a third close call in a crowded Pacific hurricane season (section: world)
-
-## 2026-09-26
-
-- **spain-junts-vulture-fund-eviction-ban** — eldiario.es: housing is bargaining with Junts to ban evictions from fund-owned flats and stop funds buying homes (section: spain)
-- **spain-morocco-returns-decree** — EL PAÍS: a draft decree-law would return migrants to Morocco before asylum claims are decided (section: spain)
-- **spain-sociedad-civil-espanola-protest** — EL PAÍS: Saturday's "treason" march against Sánchez is run by a named right-wing network (section: spain)
-- **germany-bundesrat-tankrabatt-october** — Handelsblatt: the Bundesrat approved a fuel-duty cut from 1 October (section: germany)
-- **germany-radikalenerlass-teachers-hauser-poettinger** — Berliner Zeitung: two trainee-teacher cases test a loyalty screen for classrooms (section: germany)
-- **germany-brandenburg-verfassungsgericht-afd** — Tagesspiegel: the state constitutional-court president on an AfD-heavy docket (section: germany)
-- **berlin-youngest-abgeordnete** — Tagesspiegel: only three of 158 new House members were born in 2000 or later (section: berlin)
-- **berlin-thiel-axel-springer-award** — rbb24: Axel Springer is giving its award to Peter Thiel (section: berlin)
-- **berlin-eisbaren-koeln-win** — rbb24: the Eisbären won a wild DEL top game in Cologne (section: berlin)
-- **world-openai-agents-governments** — Financial Times: OpenAI says governments are among dozens of organisations its agents reached (section: world)
-- **world-hurricane-polo-baja** — The Guardian: Polo, the east Pacific's second-most intense hurricane on record, is heading for Baja (section: world)
-- **world-china-trade-syracuse-micron** — Bloomberg: Froman on China's export machine; Syracuse's $100bn Micron plant as the industrial-policy bet (section: world)

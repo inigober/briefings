@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-10",
-  "briefing_date": "2026-10-10",
-  "inbox_date": "2026-10-10",
+  "date": "2026-10-11",
+  "briefing_date": "2026-10-11",
+  "inbox_date": "2026-10-11",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-10.md",
-  "inbox_path": "inbox/news/2026-10-10-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-11.md",
+  "inbox_path": "inbox/news/2026-10-11-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Relatos desde las barricadas estudiantiles en Francia",
+      "headline": "Sánchez y Feijóo encaran su duelo electoral más cruento",
       "section": "spain",
-      "reason": "geo: France; Other Headlines only"
+      "reason": "incremental campaign after snap-election / 10-09 poll and interview; Other Headlines only"
     },
     {
-      "headline": "España se encamina a una huelga general “a la ofensiva” por el estallido social de la crisis de la vivienda",
+      "headline": "El plan del 'Grupo Leire' contra la jueza Biedma: ¿atentado o disparate?",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; incremental vs 2026-10-07 OH strike date; Other Headlines only"
+      "reason": "avoid_unless_material: PSOE scandals"
     },
     {
-      "headline": "Un desahucio más",
+      "headline": "Jesús Ordax, trabajar de día y dormir en la calle hasta encontrar techo",
       "section": "spain",
-      "reason": "opinion column; incremental Maricarmen"
+      "reason": "housing saturation after Maricarmen fortnight; not material"
     },
     {
-      "headline": "Ayuso repite receta con el bulo del fraude electoral y el comunismo",
+      "headline": "El movimiento de vivienda señala a los pequeños caseros",
       "section": "spain",
-      "reason": "campaign rhetoric; Other Headlines only"
+      "reason": "avoid_unless_material: housing protests; recent catastro small-owners 2026-10-07"
     },
     {
-      "headline": "El juez imputa al directivo de Quirón por el presunto soborno de la pareja de Ayuso",
-      "section": "spain",
-      "reason": "slot_cap after Morocco / energy / Juan Carlos; court step 17 months on"
-    },
-    {
-      "headline": "Trump llega a un acuerdo con Putin para que Rusia libere miles de barriles de diésel",
-      "section": "spain",
-      "reason": "geo: US/Russia; Other Headlines only"
-    },
-    {
-      "headline": "Klimafolgen: Hitze und Dürre: Wird der kostbare weiße Trüffel knapp?",
+      "headline": "Die Lage im Überblick: Mindestens zwölf Tote bei Angriff auf Flughafen in Riad",
       "section": "germany",
-      "reason": "avoid_unless_material: heatwave adaptation"
+      "reason": "geo: Middle East; used World via FT"
     },
     {
-      "headline": "Millionenverluste für Bauern befürchtet: Ost-Minister machen gegen EU-Reform mobil",
+      "headline": "Norwegens Hauptstadt: Die winterlichen Reize Oslos",
+      "section": "germany",
+      "reason": "geo: Norway travel"
+    },
+    {
+      "headline": "Kartellrecht: US-Regierung prüft Kartellrechts-Verstoß bei Sendern",
+      "section": "germany",
+      "reason": "geo: US"
+    },
+    {
+      "headline": "Ukraine-Krieg: Nach Trump-Attacke: Ukrainische Regierung stützt Selenskyj",
+      "section": "germany",
+      "reason": "geo: US/Ukraine; Other Headlines"
+    },
+    {
+      "headline": "„Zeit, dass die Ukraine einen neuen Präsidenten bekommt“",
       "section": "berlin",
-      "reason": "recent_topics: germany-east-laender-eu-farm-reform (2026-10-09)"
+      "reason": "geo: US/Ukraine, not Berlin"
     },
     {
-      "headline": "How a plant selfie in Colombian jungle led to giant waterlily find",
+      "headline": "Hunderte Menschen protestieren in Potsdam gegen zu hohe Mieten",
+      "section": "berlin",
+      "reason": "geo: Brandenburg; Other Headlines"
+    },
+    {
+      "headline": "ICJ judge Navi Pillay wins Nobel peace prize",
       "section": "world",
-      "reason": "already Other Headlines 2026-10-09"
+      "reason": "selected_reads_index 2026-10-10"
     },
     {
-      "headline": "Haushaltskrise: Potsdams OB zu Sparkurs",
+      "headline": "berlin_pool_thin: after geo-misfits (BZ world wire) local pool was rbb24 demos/sport plus TSP Christmas trees; Ryanair BER and Kreuzberg attacks were rank_below_cap with no synthesis URL",
       "section": "berlin",
-      "reason": "geo: Brandenburg; one_theme with Potsdam roads Germany slot"
-    },
-    {
-      "headline": "publisher_pool_thin: Germany eligible after geo-misfits (Trump Nobel/diesel/Gaza/Texas execution) and heatwave reject were Anthropic (HB), Potsdam roads (TSP), Juli Zeh (TSP)",
-      "section": "germany",
-      "reason": "publisher_pool_thin / germany_pool_thin"
-    },
-    {
-      "headline": "berlin_pool_thin: after geo-misfits (Potsdam, Peru, ICC, Putin, farm reform, Lübben) only rbb24 local items remained; Europacity court plus Eisbären/Schöneberg; Ryanair BER rank_below_cap had no synthesis URL",
-      "section": "berlin",
-      "reason": "berlin_pool_thin / publisher_pool_thin: rbb24 only"
+      "reason": "berlin_pool_thin / publisher_pool_thin"
     }
   ],
-  "notes": "Spain: Mohamed VI warning before Felipe VI visit (EL PAÍS), autoconsumo/energy-community decrees (eldiario), Juan Carlos drops Corinna €65m claim (EL PAÍS). Skipped housing strike (hard reject / OH), Maricarmen opinion, Ayuso campaign (OH), Quirón imputation (slot), France geo-misfits, Trump-Putin diesel (OH). Ceuta cooldown empty. Germany thin: Anthropic police-form filing (HB), Potsdam €500m road backlog (TSP), Juli Zeh Pony Show (TSP). Skipped truffle (heatwave adaptation), US/Gaza geo-misfits. Berlin thin, rbb24 only: Europacity social-housing court, Eisbären DEL top, Schöneberg shooting. World: Trump-Mexico energy talks (LatAm, FT), Taiwan KMT struggle (East Asia, Nikkei), RFK Jr / Guinea-Bissau vaccine trial (Africa, Guardian). ≥2 non-European regions. Selected Reads: FT Yandex data-centre strikes, Atlantic El Niño/Isaias, FP diesel crisis, Guardian Pillay Nobel. Skipped World-slot URLs and Colombia waterlily (OH 9 Oct)."
+  "notes": "Spain: legislature GDP/jobs vs housing drag (eldiario), Conde-Pumpido TC interview after procés amnesty (EL PAÍS), Franco-era monuments convert-vs-erase (eldiario). Skipped Sánchez-Feijóo campaign (OH), Leire/Biedma (PSOE scandals hard reject), Ordax/small-landlords housing (saturation / avoid_unless_material), coalition calculator (OH). Ceuta cooldown empty. Germany: Krankenkassen 2027 rates (TSP), CDU Klausur after poll crisis (HB), BND-Chef Jäger Putin war-trap (BZ). Skipped Riyadh/Oslo/US-media/Ukraine geo-misfits and sport. Berlin thin: Palestine demo Regierungsviertel (rbb24), Christmas trees (TSP), Alba lose Trier (rbb24). World: AI borrowing slows (NA/global, FT), Riyadh airport Houthi strike (Middle East, FT), Korea physical AI (East Asia, Nikkei). ≥2 non-European regions. Selected Reads: Guardian Havana syndrome, FT Nvidia/Reflection AI, EL PAÍS CIS voter concerns, NYT plague pathogen silence. Skipped Pillay (SR 10-10), Isaias/Panama/waterlily (prior OH)."
 }

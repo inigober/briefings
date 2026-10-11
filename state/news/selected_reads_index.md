@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-11
+
+- [‘Like a drill going into my eye’: why the mystery over Havana syndrome refuses to die](https://www.theguardian.com/us-news/ng-interactive/2026/oct/10/havana-syndrome-mystery-cia-russia) — The Guardian
+- [Nvidia in talks to acquire US ‘open’ model start-up Reflection AI](https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1) — Financial Times
+- [¿Vivienda, inmigración o Gobierno? Qué preocupa más a los votantes de cada partido](https://elpais.com/espana/elecciones-generales/2026-10-11/vivienda-inmigracion-o-gobierno-que-preocupa-mas-a-los-votantes-de-cada-partido.html) — EL PAÍS
+- [A Week Later, Russia Hasn’t Said What Pathogen Killed Plague Researcher](https://www.nytimes.com/2026/10/10/world/europe/russia-plague.html) — The New York Times
+
 ## 2026-10-10
 
 - [Ukraine strikes Russian tech giant’s data centres](https://www.ft.com/content/b90417e7-4d32-48cc-a508-5d405e7cd2ee?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [What We Really Know About the Russian ‘Plague’ Case](https://www.theatlantic.com/health/2026/10/russia-plague-pneumonia-panic/688897/?utm_source=feed) — The Atlantic
 - [France showcases long-range air power to bolster Indo-Pacific deterrence](https://asia.nikkei.com/politics/defense/france-showcases-long-range-air-power-to-bolster-indo-pacific-deterrence) — Nikkei Asia
 - [What comes next with the energy shock?](https://www.ft.com/content/37e12a42-d473-4b1b-8fc5-4ea5f06d3bfb?syn-25a6b1a6=1) — Financial Times
-
-## 2026-10-06
-
-- [Hong Kong quizzes HSBC over Singapore AI hub decision](https://www.ft.com/content/1a4458ce-6317-4dce-a43e-95e724d7c33f?syn-25a6b1a6=1) — Financial Times
-- [Fuel from South Korea being shipped to Russia as Ukraine war grinds on](https://www.theguardian.com/world/2026/oct/06/oil-tankers-south-korea-russia-ukraine-war) — The Guardian
-- [AI Made the List—but Humans Still Did the Killing](https://foreignpolicy.com/2026/10/05/israel-gaza-palestine-ai-war-naza-civilians/) — Foreign Policy
-- [TotalEnergies boss hails ‘opportunities’ created by global market turmoil](https://www.ft.com/content/ae67bb6f-f227-4679-949f-2e79e2dc33e2?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 
