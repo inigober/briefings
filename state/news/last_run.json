@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-11",
-  "briefing_date": "2026-10-11",
-  "inbox_date": "2026-10-11",
+  "date": "2026-10-12",
+  "briefing_date": "2026-10-12",
+  "inbox_date": "2026-10-12",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-11.md",
-  "inbox_path": "inbox/news/2026-10-11-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-12.md",
+  "inbox_path": "inbox/news/2026-10-12-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Sánchez y Feijóo encaran su duelo electoral más cruento",
+      "headline": "La Fiscalía se enreda en una investigación contra el PSOE que conduce a la guerra sucia de las cloacas del PP",
       "section": "spain",
-      "reason": "incremental campaign after snap-election / 10-09 poll and interview; Other Headlines only"
+      "reason": "avoid_unless_material: PSOE scandals (Leire Díez / Villalobos; rejected 2026-10-11)"
     },
     {
-      "headline": "El plan del 'Grupo Leire' contra la jueza Biedma: ¿atentado o disparate?",
+      "headline": "Los acampados de Sol ironizan tras la acusación de terrorismo de Ayuso",
       "section": "spain",
-      "reason": "avoid_unless_material: PSOE scandals"
+      "reason": "avoid_unless_material: housing protests; Other Headlines only"
     },
     {
-      "headline": "Jesús Ordax, trabajar de día y dormir en la calle hasta encontrar techo",
+      "headline": "Fátima y sus 40 vecinos: cuando un fondo buitre les echa de su vivienda de protección oficial",
       "section": "spain",
-      "reason": "housing saturation after Maricarmen fortnight; not material"
+      "reason": "housing saturation after Maricarmen fortnight / vulture-fund 2026-10-07; Other Headlines only"
     },
     {
-      "headline": "El movimiento de vivienda señala a los pequeños caseros",
-      "section": "spain",
-      "reason": "avoid_unless_material: housing protests; recent catastro small-owners 2026-10-07"
-    },
-    {
-      "headline": "Die Lage im Überblick: Mindestens zwölf Tote bei Angriff auf Flughafen in Riad",
+      "headline": "Börse am 12. Oktober / Märkte Asien",
       "section": "germany",
-      "reason": "geo: Middle East; used World via FT"
+      "reason": "thin market diary / geo: Asia stocks"
     },
     {
-      "headline": "Norwegens Hauptstadt: Die winterlichen Reize Oslos",
+      "headline": "Südkorea: Nordkorea feuert erneut ballistische Raketen ab",
       "section": "germany",
-      "reason": "geo: Norway travel"
+      "reason": "geo: East Asia; Other Headlines"
     },
     {
-      "headline": "Kartellrecht: US-Regierung prüft Kartellrechts-Verstoß bei Sendern",
+      "headline": "„Die These ist auf jeden Fall steil“: Bei „Caren Miosga“ widerspricht Markus Söder dem Kanzler",
       "section": "germany",
-      "reason": "geo: US"
+      "reason": "incremental to CDU klausur 2026-10-11; Other Headlines only"
     },
     {
-      "headline": "Ukraine-Krieg: Nach Trump-Attacke: Ukrainische Regierung stützt Selenskyj",
-      "section": "germany",
-      "reason": "geo: US/Ukraine; Other Headlines"
-    },
-    {
-      "headline": "„Zeit, dass die Ukraine einen neuen Präsidenten bekommt“",
+      "headline": "Iran weist US-Antwort zur Straße von Hormus zurück",
       "section": "berlin",
-      "reason": "geo: US/Ukraine, not Berlin"
+      "reason": "geo: Middle East, not Berlin; Other Headlines"
     },
     {
-      "headline": "Hunderte Menschen protestieren in Potsdam gegen zu hohe Mieten",
+      "headline": "Trump verkündet Energie-Waffenruhe – Kiew weiß davon nichts",
       "section": "berlin",
-      "reason": "geo: Brandenburg; Other Headlines"
+      "reason": "geo: US/Ukraine, not Berlin; Other Headlines"
     },
     {
-      "headline": "ICJ judge Navi Pillay wins Nobel peace prize",
+      "headline": "Strausberg / Pulsnitz / A24 Fahndung",
+      "section": "berlin",
+      "reason": "geo: Brandenburg/Saxony, not Berlin"
+    },
+    {
+      "headline": "‘Like a drill going into my eye’: why the mystery over Havana syndrome refuses to die",
+      "section": "world",
+      "reason": "selected_reads_index 2026-10-11"
+    },
+    {
+      "headline": "ICJ judge Navi Pillay wins Nobel peace prize / The Global Diesel Crisis, Explained",
       "section": "world",
       "reason": "selected_reads_index 2026-10-10"
     },
     {
-      "headline": "berlin_pool_thin: after geo-misfits (BZ world wire) local pool was rbb24 demos/sport plus TSP Christmas trees; Ryanair BER and Kreuzberg attacks were rank_below_cap with no synthesis URL",
+      "headline": "berlin_pool_thin: after geo-misfits (BZ world wire, Brandenburg blotter) local pool was TSP Vonovia/advice/tram plus Comic Invasion (germany list) and rbb24 Union U19/Füchse",
       "section": "berlin",
       "reason": "berlin_pool_thin / publisher_pool_thin"
     }
   ],
-  "notes": "Spain: legislature GDP/jobs vs housing drag (eldiario), Conde-Pumpido TC interview after procés amnesty (EL PAÍS), Franco-era monuments convert-vs-erase (eldiario). Skipped Sánchez-Feijóo campaign (OH), Leire/Biedma (PSOE scandals hard reject), Ordax/small-landlords housing (saturation / avoid_unless_material), coalition calculator (OH). Ceuta cooldown empty. Germany: Krankenkassen 2027 rates (TSP), CDU Klausur after poll crisis (HB), BND-Chef Jäger Putin war-trap (BZ). Skipped Riyadh/Oslo/US-media/Ukraine geo-misfits and sport. Berlin thin: Palestine demo Regierungsviertel (rbb24), Christmas trees (TSP), Alba lose Trier (rbb24). World: AI borrowing slows (NA/global, FT), Riyadh airport Houthi strike (Middle East, FT), Korea physical AI (East Asia, Nikkei). ≥2 non-European regions. Selected Reads: Guardian Havana syndrome, FT Nvidia/Reflection AI, EL PAÍS CIS voter concerns, NYT plague pathogen silence. Skipped Pillay (SR 10-10), Isaias/Panama/waterlily (prior OH)."
+  "notes": "Spain: Rota sixth US destroyer (EL PAÍS), PP leak two-speed justice (eldiario), Feijóo barons/Albiol Barcelona (EL PAÍS). Skipped Leire/PSOE scandals, Sol/Ayuso housing protests, Rivas vulture (OH), ERC incremental, Siberia geo. Ceuta cooldown empty. Germany: Schöffen extremist rules (HB), Bavaria inheritance-tax Karlsruhe (HB), Cottbus medical university (TSP). Skipped market diaries, NK geo, Söder (OH after CDU klausur). Berlin thin: Vonovia buy-vs-socialize (TSP), Comic Invasion 2027 pause (TSP), Härtel Union U19 (rbb24). World: US Ukraine arms/refineries (NA, FT), Japan iPhone plant to chips (East Asia, Nikkei), Cop31 climate vs defence (Pacific/Turkey, Guardian). ≥2 non-European regions. Selected Reads: FP Arctic Age, Nikkei IMF Bangkok, eldiario Koeberg feature, HB job-interview labour law. Skipped Havana (SR 10-11), Pillay/diesel (SR 10-10)."
 }

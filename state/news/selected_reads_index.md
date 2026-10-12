@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-12
+
+- [The United States Is Not Ready for the Arctic Age](https://foreignpolicy.com/2026/10/09/arctic-russia-china-canada-energy-icebreakers/) — Foreign Policy
+- [Inflation, AI and climate: IMF kicks off key meeting in Bangkok](https://asia.nikkei.com/economy/inflation-ai-and-climate-imf-kicks-off-key-meeting-in-bangkok) — Nikkei Asia
+- [El hombre que voló una central nuclear y desapareció en bicicleta](https://www.eldiario.es/internacional/theguardian/hombre-volo-central-nuclear-desaparecio-bicicleta_1_13575184.html) — eldiario.es
+- [Fiese Frage im Bewerbungsgespräch: Wann Lügen erlaubt ist](https://www.handelsblatt.com/politik/deutschland/fragen-aus-dem-arbeitsrecht-fiese-frage-im-bewerbungsgespraech-wann-luegen-erlaubt-ist/100261421.html) — Handelsblatt
+
 ## 2026-10-11
 
 - [‘Like a drill going into my eye’: why the mystery over Havana syndrome refuses to die](https://www.theguardian.com/us-news/ng-interactive/2026/oct/10/havana-syndrome-mystery-cia-russia) — The Guardian
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Real men don’t do climate change](https://www.ft.com/content/61118fd6-b5d2-4ce1-9a78-4535a0ef3ead?syn-25a6b1a6=1) — Financial Times
 - [IMF Chief Issues Stark Economic Warning for 2027](https://foreignpolicy.com/2026/10/07/imf-speech-georgieva-economy-energy-oil-yields-ai-inflation/) — Foreign Policy
 - [How Long Until AI Hacks Everything?](https://www.theatlantic.com/technology/2026/10/ai-hacking-cybersecurity-race/688911/?utm_source=feed) — The Atlantic
-
-## 2026-10-07
-
-- [QatarEnergy Secures $3 Billion Loan From Four Chinese Banks](https://www.bloomberg.com/news/articles/2026-10-07/qatarenergy-secures-3-billion-loan-from-four-chinese-banks) — Bloomberg
-- [What We Really Know About the Russian ‘Plague’ Case](https://www.theatlantic.com/health/2026/10/russia-plague-pneumonia-panic/688897/?utm_source=feed) — The Atlantic
-- [France showcases long-range air power to bolster Indo-Pacific deterrence](https://asia.nikkei.com/politics/defense/france-showcases-long-range-air-power-to-bolster-indo-pacific-deterrence) — Nikkei Asia
-- [What comes next with the energy shock?](https://www.ft.com/content/37e12a42-d473-4b1b-8fc5-4ea5f06d3bfb?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 

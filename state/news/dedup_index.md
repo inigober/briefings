@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-12
+
+- **spain-rota-sixth-us-destroyer** — EL PAÍS: sixth US guided-missile destroyer *USS John Basilone* due at Rota Thursday (section: spain)
+- **spain-pp-secrets-two-speed-justice** — eldiario.es: PP leak cases (Alcalá mayor emails; Ayuso chief-of-staff journalist IDs) not probed like the former attorney-general (section: spain)
+- **spain-feijoo-barons-albiol-barcelona** — EL PAÍS: Feijóo tells PP barons to mobilise; Albiol floated as Barcelona list-head (section: spain)
+- **germany-schoeffen-extremist-rules** — Handelsblatt: Hubig wants stricter Schöffen eligibility to keep extremists off criminal benches (section: germany)
+- **germany-bavaria-inheritance-tax-karlsruhe** — Handelsblatt: Bavaria asks the Constitutional Court to make inheritance tax a Land matter (section: germany)
+- **germany-cottbus-medical-university-opens** — Tagesspiegel: Brandenburg's new medical university starts teaching in Cottbus (section: germany)
+- **berlin-vonovia-buy-vs-socialization** — Tagesspiegel: economist Günther says the Bund should buy Vonovia instead of socializing landlords (section: berlin)
+- **berlin-comic-invasion-2027-pause** — Tagesspiegel: Comic Invasion Berlin skips 2027, aims to return in 2028 (section: berlin)
+- **berlin-haertel-union-u19-resigns** — rbb24: Union U19 coach Jens Härtel quits after discrimination allegations (section: berlin)
+- **world-us-ukraine-arms-refineries** — Financial Times: US threatens to block Ukraine arms over attacks on Russian refineries (section: world)
+- **world-japan-iphone-plant-chip-supply** — Nikkei Asia: former iPhone display plant in Japan retooled for chip supply chain (section: world)
+- **world-cop31-climate-vs-defence** — The Guardian: Cop31 host says wealthy countries should spend more on climate than NATO defence targets (section: world)
+
 ## 2026-10-11
 
 - **spain-legislature-economy-housing-drag** — eldiario.es: GDP +15% since 2018 and record employment, but the legislature never fixed housing or rents (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-tsmc-singapore-sold-out** — Nikkei Asia: a TSMC affiliate's first Singapore plant has sold out and is eyeing expansion (section: world)
 - **world-ai-hyperscalers-debt** — Financial Times: hyperscaler capital needs are rewriting how firms and countries borrow (section: world)
 - **world-south-africa-mass-shootings** — The Guardian: two mass shootings killed at least 27 people near Johannesburg and Cape Town (section: world)
-
-## 2026-09-27
-
-- **spain-maricarmen-coalition-giro-tuesday** — EL PAÍS: the government and partners say they must lock a housing pact before Tuesday; Sumar has threatened to walk (section: spain)
-- **spain-leire-diez-uco-villalobos-hoax** — eldiario.es: a UCO file is being used to claim Justice backed a passport for Nervis Villalobos; the paper says officials refused (section: spain)
-- **spain-ana-vazquez-ourense-trumpism** — eldiario.es: Galicia's PP is floating Ana Vázquez, a long-serving Ourense deputy, as a possible mayoral name (section: spain)
-- **germany-voigt-cdu-laender-reset** — Handelsblatt: Thuringia's Voigt wants the Länder to drive a CDU programme reset after state-election losses (section: germany)
-- **germany-pflege-reform-kassen-blockade** — Handelsblatt: care funds warn a Union–SPD freeze of the Pflegereform would empty the pot (section: germany)
-- **germany-blown-lift-electric-flight** — Tagesspiegel: a start-up bet on blown-lift physics for electric aircraft (section: germany)
-- **berlin-spd-sondieren-linke-gruene** — rbb24: the SPD state board will open exploratory talks with Die Linke and the Greens (section: berlin)
-- **berlin-ber-night-flight-ban-crumbach** — Tagesspiegel: Brandenburg's transport minister will not extend BER's midnight-to-5am curfew (section: berlin)
-- **berlin-union-kreilach-rijeka** — rbb24: Union Berlin beat Rijeka in a farewell friendly for Kreilach (section: berlin)
-- **world-south-korea-ai-for-all** — Financial Times: Seoul's deputy PM is selling a state-backed "AI for all" deployment (section: world)
-- **world-us-housing-pe-midterms** — Financial Times: private-equity landlords are a midterm campaign target (section: world)
-- **world-pacific-hurricanes-hawaii** — The Atlantic: Hawaii is on a third close call in a crowded Pacific hurricane season (section: world)
