@@ -1,30 +1,31 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-10-06",
-  "briefing_date": "2026-10-06",
-  "inbox_date": "2026-10-06",
-  "week_start": "2026-10-07",
-  "week_end": "2026-10-13",
+  "date": "2026-10-13",
+  "briefing_date": "2026-10-13",
+  "inbox_date": "2026-10-13",
+  "week_start": "2026-10-14",
+  "week_end": "2026-10-20",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-10-06.md",
-  "inbox_path": "inbox/berlin-culture/2026-10-06-synthesis.json",
-  "items_count": 11,
+  "briefing_path": "briefings/berlin-culture/2026-10-13.md",
+  "inbox_path": "inbox/berlin-culture/2026-10-13-synthesis.json",
+  "items_count": 10,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 0,
-    "film": 2,
+    "exhibitions": 1,
+    "film": 0,
     "performing_arts": 2,
     "music": 1,
     "wildcards": 2,
     "advance_radar": 1
   },
-  "thin_sections": ["exhibitions", "music"],
+  "thin_sections": ["exhibitions", "film", "music"],
   "omitted_sections": [],
   "validation_warnings": [
-    "Section 'exhibitions' has 0 entries (style minimum 4)",
+    "Section 'exhibitions' has 1 entries (style minimum 4)",
+    "Section 'film' has 0 entries (style minimum 2)",
     "Section 'music' has 1 entries (style minimum 3)"
   ],
   "dropped_missing_end_dates": [],
   "verification_fetches": 5,
-  "notes": "Top Picks spot-checked: Next Door INDEX Hamburger Bahnhof Thu 08.10.2026 19:00 (Dean/Nauman/Demand/Eliasson/Håkansson/Saraceno; no run end — opening only). Life is strange DOCK11/FELD page: premiere Sat 10.10 18:00, Sun 11.10 16:00, Tue 13.10 10:00, continues Wed 14.10 10:00; Cécile Bally / Aharonson / Shetty / Peeters; venue FELD not DOCK 11. Ensemble Nist-Nah Kuppelhalle Wed 07.10 doors 19:00 / start 20:00 (Guthrie gamelan + Shouji Hara shakuhachi). Also fetched Die Mütter INDEX (Schwartzsche Villa opening Thu 08.10 18:00–21:00, Nippe intro, Breath Marks 2022; no run end) and Ryoko Ono Kuppelhalle Tue 13.10 doors 19:00 / start 20:00. Promoted last week's Advance Radar Next Door and Die Mütter into this week. Promoted html-calendar in-window Nist-Nah and Ryoko Ono to fill thin Music (synthesis music was scribble.mp3 01.10 and MUBI Fest 02.10, both past; scribble already Top Pick last week). Promoted INDEX Love is a Verb #2 (one festival listing; Afghan Women Fri–Sun, Ali Chahrour Mon–Tue) and Ana Hoffner Schinkel Pavillon Sat 10.10 19:00 from html-calendars. Verified films: Verhinderte Bilder Krokodil Mon 12.10 19:00; Camouflage Tue 13.10 20:15 (venue cap 2). Dropped Space for Practice (page date 20 July 2026, past). Dropped Cattelan (title unverified, press PDF only). Dropped INDEX exhibitions with venue scrape bug 'on tree Shahin Zarinbal' (Pull the Rug / Radical Tenderness). Dropped Sternbrücke Forever (URL live but no atomic screening time). Silent green cap: Nist-Nah + Ryoko Ono; skipped Animation Festival. Thursday openings: Next Door Top Pick; Schlingensief Gropius Bau and Die Mütter as Wildcards (no closing dates — not Exhibitions Radar). Advance Radar: Haus am Waldsee Kovel/Wächtler 15.10 one listing. Skipped Shroud performance 14.10 (same work as last week's Top Pick). Thin week: 0 exhibition full entries, 1 music full entry; no pad."
+  "notes": "Top Picks spot-checked: KW Hiller Bad Dreams 17.10.26–10.01.27 opening Fri 16.10 19:00–22:00 (first Berlin survey; Enderby/Adrien; tour Sat 16:00). Alpha Maid Kuppelhalle Wed 14.10 doors 19:00 / start 20:00 (AD 93 Is this a queue; Kerr/Stepien live processing). INDEX Jafa N****s in Omelas: Julia Stoschek Foundation Leipziger Str. 60 (not PalaisPopulaire), Thu 15.10 19:30, European premiere, Jafa present, last event at Berlin venue. Also fetched Haus am Waldsee INDEX Seit… (opening Thu 15.10 19:00, hours Tue–Sun 11–18, no run end — Wildcard not Exhibitions) and Sprinkle/Stephens INDEX HAU Stresemannstr. 29 Sun 18.10 19:00. Promoted last week's Advance Radar Kovel/Wächtler into this week as one listing. Promoted html-calendar/ICS in-window Jafa, Sprinkle, Sabar HKW Tue 20.10 19:00–21:00 (same festival Wed 21.10 not a second listing), C/O Militarized Landscapes Thu 15.10 18:00–19:30. Verified synthesis: Greiss KW 17.10.26–10.01.27 (2nd KW; skipped Koo Jeong A OUSSSEAN same-night opening — venue cap). DUST Kuppelhalle Sat 17.10 (2nd silent green; skipped Nothing Political Fri). Advance: Ostojić Kunstraum Kreuzberg 23.10 17:00. Skipped Shroud performance 14.10 (same work as 2026-09-29 Top Pick). Skipped Ground Noise / Werk und Wirken INDEX exhibitions (venue scrape bug 'Gropius Bau taz…'; Ground Noise already 2026-09-01). Skipped scribble.mp3 / MUBI Fest (past; scribble already Top Pick 2026-09-29). Skipped Zem spieva (raw film, unverified shallow URL). Skipped paid DOCK workshops as public performance. Thin week: 1 exhibition full entry, 0 film full entries, 1 music full entry; no pad."
 }

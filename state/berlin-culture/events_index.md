@@ -2,18 +2,6 @@
 
 Tracks recommended events/exhibitions to avoid repeating across weekly briefings. Trim entries older than 8 weeks.
 
-2026-08-11 | top_picks | Cloud Gate Dance Theatre of Taiwan / Cheng Tsung-lung — Sounding Light | Haus der Berliner Festspiele | https://www.tanzimaugust.de/en/production/detail/cloud-gate-dance-theatre-sounding-light
-2026-08-11 | top_picks | Tobias Meinhart – Berlin People, Special Guest: Kurt Rosenwinkel | A-Trane | https://a-trane.de/Events-Directory/a-trane-praesentiert-artist-in-summer-residence-day5tobias-meinhart-berlin-peoplespecial-guest-kurt-rosenwinkelfeat-ludwig-hornung-tom-berkmann-mathias-ruppnig/
-2026-08-11 | top_picks | Gökçen Dilek Acay — What time is it in the world | time is it in the world PSM | https://www.indexberlin.com/exhibitions/list/44327/what-time-is-it-in-the-world
-2026-08-11 | exhibitions | Empty Places, Crowded Hearts | Crone Berlin | https://www.indexberlin.com/exhibitions/list/44376/empty-places-crowded-hearts
-2026-08-11 | performing_arts | L2/are we listening | DOCK 11 | https://dock11-berlin.de/en/theater/program/calendar/l2-are-we-listening
-2026-08-11 | music | Wolfgang Haffner — Summer Special feat. Jakob Manz, Nils Kugelmann | A-Trane | https://a-trane.de/Events-Directory/a-trane-praesentiert-wolfgang-haffner-summer-specialfeat-jakob-manz-nils-kugelmann/
-2026-08-11 | wildcards | Berlin Beats: Oda Haliti | Invalidenstraße 50/51, Mitte | https://www.indexberlin.com/events/list/44852/berlin-beats-oda-haliti
-2026-08-11 | wildcards | Alex Tatarsky Clownsperformance | Wiesenstraße 1, Wedding | https://www.indexberlin.com/events/list/45014/clownsperformance
-2026-08-11 | wildcards | KINDL Ferien-Rallye | KINDL – Zentrum für zeitgenössische Kunst | https://www.indexberlin.com/events/list/44612/kindl-ferien-rallye
-2026-08-11 | advance_radar | Frank Jimin Hopp 매난국죽 Mae Nan Guk Juk: Diasporic Memories Formed in Clay | Müllerstraße 146/47, Wedding | https://www.indexberlin.com/events/list/45016/mae-nan-guk-juk-diasporic-memories-formed-in-clay
-2026-08-11 | advance_radar | Shirin Sabahi — Domesticity III | Pforte | https://www.indexberlin.com/events/list/44626/domesticity-iii
-2026-08-11 | advance_radar | Judgment and Calculation – Drei Systeme von Farbe | Kluckstraße 23a, Tiergarten | https://www.indexberlin.com/events/list/44495/judgment-and-calculation-drei-systeme-von-farbe
 2026-08-18 | top_picks | Susan Sontag – Seeing and Being Seen | Schwules Museum | https://www.museumsportal-berlin.de/en/exhibitions/map/
 2026-08-18 | top_picks | FORMER EAST / FORMER WEST | Arsenal Filminstitut, Berlin | https://www.arsenal-berlin.de/campus/summer-school/2026/
 2026-08-18 | top_picks | Psychic Liberation Night: Niloofar Asghary + Júlia Koffler | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/programm/2026/8
@@ -117,3 +105,13 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-10-06 | wildcards | Christoph Schlingensief — Es ist nicht mehr mein Problem, macht eure Scheiße alleine | Gropius Bau | https://www.indexberlin.com/events/list/45779/es-ist-nicht-mehr-mein-problem-macht-eure-scheisse-alleine
 2026-10-06 | wildcards | Isaac Chong Wai & Käthe Kollwitz — Die Mütter | Schwartzsche Villa | https://www.indexberlin.com/events/list/45328/die-mutter
 2026-10-06 | advance_radar | Sophie Kovel — Seit… / Peter Wächtler | Haus am Waldsee | https://www.indexberlin.com/events/list/45261/seit
+2026-10-13 | top_picks | Susan Hiller — Bad Dreams | KW Institute for Contemporary Art | https://www.kw-berlin.de/en/exhibitions/susan-hiller-bad-dreams
+2026-10-13 | top_picks | Arthur Jafa — Niggas in Omelas | Julia Stoschek Foundation Berlin | https://www.indexberlin.com/events/list/46063/n-s-in-omelas-2026-by-arthur-jafa
+2026-10-13 | top_picks | Alpha Maid + Dylan Kerr & Madeline Stepien | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/alpha-maid?cHash=1ae0a27da0bf240222b075c344e69ce5&tx_news_pi1%5Bday%5D=14&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026
+2026-10-13 | exhibitions | Rafik Greiss — The City and the City | KW Institute for Contemporary Art | https://www.kw-berlin.de/en/exhibitions/rafik-greiss-the-city-and-the-city
+2026-10-13 | performing_arts | Annie Sprinkle & Beth Stephens — Playing with Fire | HAU Hebbel am Ufer | https://www.indexberlin.com/events/list/46085/playing-with-fire-an-ecosexual-emergency-ecosexual-wedding-ritual-to-fire
+2026-10-13 | performing_arts | Sabar, Polyrhythm, and the Politics of Body Movement | Haus der Kulturen der Welt | https://www.indexberlin.com/events/list/45712/sabar-polyrhythm-and-the-politics-of-body-movement
+2026-10-13 | music | Andriy K. & Tharim Cornelisse pres. DUST + mu tate pres. life of mu | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/programm/detail/andryi-k-tharim-cornelisse-pres-dust
+2026-10-13 | wildcards | Sophie Kovel — Seit… / Peter Wächtler | Haus am Waldsee | https://www.indexberlin.com/events/list/45261/seit
+2026-10-13 | wildcards | MILITARIZED LANDSCAPES: Artist Talk with Stelios Kallinikou & Tom Seymour Evans | C/O Berlin | https://www.indexberlin.com/events/list/46070/militarized-landscapes-artist-talk-with-stelios-kallinikou-tom-seymour-evans
+2026-10-13 | advance_radar | Tanja Ostojić — Encounters — On Bodies, Borders, Resistance | Kunstraum Kreuzberg/Bethanien | https://www.indexberlin.com/events/list/45515/encounters-on-bodies-borders-resistance
