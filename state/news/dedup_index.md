@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-13
+
+- **spain-nietos-163020-vote-suspension** — eldiario.es: Supreme Court orders the vote suspended for 163,020 *ley de nietos* citizens; government says it is materially impossible before 29-N (section: spain)
+- **spain-doctors-teachers-campaign-protests** — eldiario.es: doctors and teachers are still striking as the campaign axis stays housing (section: spain)
+- **spain-ai-bestsellers-alvise-amazon** — EL PAÍS: a third of self-published Spanish bestsellers are mostly AI, including Alvise Pérez (section: spain)
+- **germany-wildberger-ai-retraining-deep-tech** — Tagesspiegel: digital minister Wildberger on retraining, Gulf money for data centres, and deep-tech sovereignty (section: germany)
+- **germany-db-fahrplan-2027-munich-rome** — Tagesspiegel: Deutsche Bahn's 2027 timetable adds more international trains, including Munich–Rome (section: germany)
+- **germany-klingbeil-stromsteuer-coalition** — Handelsblatt: Klingbeil doubts the electricity-tax cut can be funded; Pistorius ducks SPD leadership (section: germany)
+- **berlin-katastrophenschutz-blackout-districts** — rbb24: households must prepare for disaster; Berlin boroughs' emergency points are incomplete (section: berlin)
+- **berlin-homeless-camps-eu-citizens** — rbb24: boroughs clear camps that return; many residents are homeless EU citizens (section: berlin)
+- **berlin-grundschule-schwimmen-seepferdchen** — rbb24: millions into primary-school swimming to cut the non-swimmer rate (section: berlin)
+- **world-chip-stocks-broadcom-casino** — Financial Times: Samsung and SK Hynix slide after Broadcom's boss calls AI investment a casino (section: world)
+- **world-bolivia-evo-morales-2009-killings** — The Guardian: Bolivia investigates Evo Morales over a 2009 Santa Cruz raid (section: world)
+- **world-ai-hiring-hr-cybersecurity** — Financial Times: AI fakes are forcing HR to work with cybersecurity (section: world)
+
 ## 2026-10-12
 
 - **spain-rota-sixth-us-destroyer** — EL PAÍS: sixth US guided-missile destroyer *USS John Basilone* due at Rota Thursday (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-samsung-helix-1bn-ai-infra** — Nikkei Asia: Samsung is putting $1bn into Helix AI infrastructure (section: world)
 - **world-lula-fixed-odds-betting-ban** — The Guardian: Lula banned fixed-odds sports betting a week before Brazil's first-round vote (section: world)
 - **world-anthropic-ipo-existential-risk-loss** — Financial Times: Anthropic's S1 reports an $8bn loss on $4.6bn revenue and warns of existential risk (section: world)
-
-## 2026-09-28
-
-- **spain-housing-decree-junts-podemos-indefinite-leases** — eldiario.es: the Tuesday housing decree must now satisfy Junts and Podemos; the Sol camp wants indefinite rental contracts (section: spain)
-- **spain-young-adult-cancer-rise** — eldiario.es: clinicians are tracing a rise in some cancers among younger adults (section: spain)
-- **spain-ortega-smith-supreme-maternity** — EL PAÍS: the Supreme Court archived a Vox aide's complaint but called Ortega Smith's maternity-leave conduct sexist (section: spain)
-- **germany-niedersachsen-afd-mayoral-runoffs** — Tagesspiegel: the AfD lost three mayoral runoffs in Lower Saxony; Hanover stayed Green (section: germany)
-- **germany-startup-monitor-ai-unicorns** — Die Zeit: more German billion-euro start-ups on AI and defence money, still preferring US models (section: germany)
-- **germany-dressel-hamburg-austerity** — Die Zeit: Hamburg finance senator Andreas Dressel has become the city's austerity general (section: germany)
-- **berlin-kantstrasse-asia-mile** — Tagesspiegel: Kantstraße has become Berlin's densest East Asian food mile (section: berlin)
-- **berlin-alze-bsr-ice-lawsuit** — Tagesspiegel: an ex-pastor is suing the BSR after a winter-service liability runaround (section: berlin)
-- **berlin-marathon-city-day** — rbb24: a love letter to the Berlin Marathon as the day the city likes itself (section: berlin)
-- **world-tsmc-singapore-sold-out** — Nikkei Asia: a TSMC affiliate's first Singapore plant has sold out and is eyeing expansion (section: world)
-- **world-ai-hyperscalers-debt** — Financial Times: hyperscaler capital needs are rewriting how firms and countries borrow (section: world)
-- **world-south-africa-mass-shootings** — The Guardian: two mass shootings killed at least 27 people near Johannesburg and Cape Town (section: world)

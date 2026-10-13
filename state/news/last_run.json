@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-12",
-  "briefing_date": "2026-10-12",
-  "inbox_date": "2026-10-12",
+  "date": "2026-10-13",
+  "briefing_date": "2026-10-13",
+  "inbox_date": "2026-10-13",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-12.md",
-  "inbox_path": "inbox/news/2026-10-12-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-13.md",
+  "inbox_path": "inbox/news/2026-10-13-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "La Fiscalía se enreda en una investigación contra el PSOE que conduce a la guerra sucia de las cloacas del PP",
+      "headline": "Sánchez y Feijóo ven la victoria a mano y creen que sus fieles están activados",
       "section": "spain",
-      "reason": "avoid_unless_material: PSOE scandals (Leire Díez / Villalobos; rejected 2026-10-11)"
+      "reason": "incremental campaign horserace after Feijóo barons 2026-10-12; Other Headlines only"
     },
     {
-      "headline": "Los acampados de Sol ironizan tras la acusación de terrorismo de Ayuso",
+      "headline": "Un policía herido y cinco detenidos en enfrentamientos entre acampados y ultras en Sol",
       "section": "spain",
       "reason": "avoid_unless_material: housing protests; Other Headlines only"
     },
     {
-      "headline": "Fátima y sus 40 vecinos: cuando un fondo buitre les echa de su vivienda de protección oficial",
+      "headline": "El Frente Amplio responde al órdago de Podemos y Rufián: confirma a Colau como candidata",
       "section": "spain",
-      "reason": "housing saturation after Maricarmen fortnight / vulture-fund 2026-10-07; Other Headlines only"
+      "reason": "incremental left-list after Frente Amplio 2026-10-06; Other Headlines only"
     },
     {
-      "headline": "Börse am 12. Oktober / Märkte Asien",
+      "headline": "Morning Briefing: Und jetzt kommt auch noch die Erbschaftssteuer",
       "section": "germany",
-      "reason": "thin market diary / geo: Asia stocks"
+      "reason": "incremental to Bavaria inheritance-tax Karlsruhe 2026-10-12"
     },
     {
-      "headline": "Südkorea: Nordkorea feuert erneut ballistische Raketen ab",
+      "headline": "Inklusiver Tourismus: Bodenplatten erleichtern Selfies für Sehbehinderte",
       "section": "germany",
-      "reason": "geo: East Asia; Other Headlines"
+      "reason": "geo: Flanders/Belgium, not Germany"
     },
     {
-      "headline": "„Die These ist auf jeden Fall steil“: Bei „Caren Miosga“ widerspricht Markus Söder dem Kanzler",
-      "section": "germany",
-      "reason": "incremental to CDU klausur 2026-10-11; Other Headlines only"
-    },
-    {
-      "headline": "Iran weist US-Antwort zur Straße von Hormus zurück",
+      "headline": "Iran weist US-Antwort zur Straße von Hormus zurück / USA drohen Kiew mit Stopp von Waffenlieferungen",
       "section": "berlin",
-      "reason": "geo: Middle East, not Berlin; Other Headlines"
+      "reason": "geo: Middle East / US-Ukraine, not Berlin; Ukraine arms already 2026-10-12"
     },
     {
-      "headline": "Trump verkündet Energie-Waffenruhe – Kiew weiß davon nichts",
+      "headline": "Köthen Feuerwehrhaus / Pulsnitz Lkw / A24 Fahndung / Judoschule Falkensee",
       "section": "berlin",
-      "reason": "geo: US/Ukraine, not Berlin; Other Headlines"
+      "reason": "geo: Saxony-Anhalt / Saxony / Brandenburg, not Berlin"
     },
     {
-      "headline": "Strausberg / Pulsnitz / A24 Fahndung",
-      "section": "berlin",
-      "reason": "geo: Brandenburg/Saxony, not Berlin"
-    },
-    {
-      "headline": "‘Like a drill going into my eye’: why the mystery over Havana syndrome refuses to die",
+      "headline": "Why Trump is going for Zelenskyy’s jugular",
       "section": "world",
-      "reason": "selected_reads_index 2026-10-11"
+      "reason": "incremental to US-Ukraine arms/refineries 2026-10-12; used as Selected Read"
     },
     {
-      "headline": "ICJ judge Navi Pillay wins Nobel peace prize / The Global Diesel Crisis, Explained",
+      "headline": "Zuckerberg says Meta has reached AI ‘frontier’",
       "section": "world",
-      "reason": "selected_reads_index 2026-10-10"
+      "reason": "one-theme: AI already covered via chip-casino and hiring; Other Headlines only"
     },
     {
-      "headline": "berlin_pool_thin: after geo-misfits (BZ world wire, Brandenburg blotter) local pool was TSP Vonovia/advice/tram plus Comic Invasion (germany list) and rbb24 Union U19/Füchse",
+      "headline": "Thousands without power in Florida and Alabama as Isaias moves north",
+      "section": "world",
+      "reason": "incremental remnants after Other Headlines 2026-10-12; Other Headlines only"
+    },
+    {
+      "headline": "La Ceuta que recibe a los Reyes / PP y Vox protesta / buques marroquíes",
+      "section": "spain",
+      "reason": "avoid_unless_material: Ceuta; not extraordinary; Other Headlines only"
+    },
+    {
+      "headline": "berlin_pool_thin: after geo-misfits (BZ world wire, Brandenburg/Saxony blotter, Falkensee) local pool was rbb24 disaster-prep / homeless camps / swimming plus Hertha/Landespokal",
       "section": "berlin",
       "reason": "berlin_pool_thin / publisher_pool_thin"
     }
   ],
-  "notes": "Spain: Rota sixth US destroyer (EL PAÍS), PP leak two-speed justice (eldiario), Feijóo barons/Albiol Barcelona (EL PAÍS). Skipped Leire/PSOE scandals, Sol/Ayuso housing protests, Rivas vulture (OH), ERC incremental, Siberia geo. Ceuta cooldown empty. Germany: Schöffen extremist rules (HB), Bavaria inheritance-tax Karlsruhe (HB), Cottbus medical university (TSP). Skipped market diaries, NK geo, Söder (OH after CDU klausur). Berlin thin: Vonovia buy-vs-socialize (TSP), Comic Invasion 2027 pause (TSP), Härtel Union U19 (rbb24). World: US Ukraine arms/refineries (NA, FT), Japan iPhone plant to chips (East Asia, Nikkei), Cop31 climate vs defence (Pacific/Turkey, Guardian). ≥2 non-European regions. Selected Reads: FP Arctic Age, Nikkei IMF Bangkok, eldiario Koeberg feature, HB job-interview labour law. Skipped Havana (SR 10-11), Pillay/diesel (SR 10-10)."
+  "notes": "Spain: Supreme Court suspends 163,020 ley-de-nietos votes (eldiario; material court ruling after 2026-10-06), doctors/teachers street protests beyond housing (eldiario), AI share of self-published bestsellers / Alvise (EL PAÍS). Skipped Sánchez-Feijóo horserace, Sol ultras (OH), Colau confirmation (OH), Ceuta (OH). Ceuta cooldown empty but avoid_unless_material held. Germany: Wildberger AI retraining/Gulf compute (TSP), DB 2027 Munich–Rome timetable (TSP), Klingbeil Stromsteuer financing doubt (HB). Skipped inheritance-tax morning note (incremental to 10-12), Flanders geo, NFL/TV. Berlin thin: blackout/Katastrophenschutz (rbb24), homeless camps/EU citizens (rbb24), Grundschule swimming (rbb24). World: Broadcom casino chip slide (East Asia, FT), Evo Morales 2009 probe (LatAm, Guardian), AI hiring/HR-cyber (North America, FT). ≥2 non-European regions. Selected Reads: FT Trump/Zelenskyy, FP Kushner conflicts, Nikkei NTT-Anthropic Japan, Guardian Iguazu El Niño."
 }

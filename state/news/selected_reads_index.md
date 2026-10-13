@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-13
+
+- [Why Trump is going for Zelenskyy’s jugular](https://www.ft.com/content/1724a30e-cf50-4a4e-ade8-bca72ea4b9a1?syn-25a6b1a6=1) — Financial Times
+- [Congress Can Do More to Curb Kushner’s Conflicts of Interest](https://foreignpolicy.com/2026/10/12/congress-kushner-corruption-saudi-israel-russia/) — Foreign Policy
+- [NTT to build first data center for Anthropic in Japan](https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build-first-data-center-for-anthropic-in-japan) — Nikkei Asia
+- [Argentina temporarily closes Iguazu Falls after El Niño-fuelled surge in water levels](https://www.theguardian.com/world/2026/oct/13/argentina-iguazu-falls-temporarily-closed-el-nino-water-levels) — The Guardian
+
 ## 2026-10-12
 
 - [The United States Is Not Ready for the Arctic Age](https://foreignpolicy.com/2026/10/09/arctic-russia-china-canada-energy-icebreakers/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Australian data centre operator pulls $5bn IPO](https://www.ft.com/content/205ef7a5-321f-46e3-8097-d055bf1f6b3b?syn-25a6b1a6=1) — Financial Times
 - [Line aims to be Thailand's 'everyday AI app' in key market](https://asia.nikkei.com/business/technology/artificial-intelligence/line-aims-to-be-thailand-s-everyday-ai-app-in-key-market) — Nikkei Asia
 - [Nicolás Maduro and his wife indicted for alleged torture of US citizens](https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court) — The Guardian
-
-## 2026-10-08
-
-- [Samsung Q3 profit jumps nearly 9 times to $80bn in AI chip boom](https://asia.nikkei.com/business/tech/semiconductors/samsung-q3-profit-jumps-nearly-9-times-to-80bn-in-ai-chip-boom) — Nikkei Asia
-- [Real men don’t do climate change](https://www.ft.com/content/61118fd6-b5d2-4ce1-9a78-4535a0ef3ead?syn-25a6b1a6=1) — Financial Times
-- [IMF Chief Issues Stark Economic Warning for 2027](https://foreignpolicy.com/2026/10/07/imf-speech-georgieva-economy-energy-oil-yields-ai-inflation/) — Foreign Policy
-- [How Long Until AI Hacks Everything?](https://www.theatlantic.com/technology/2026/10/ai-hacking-cybersecurity-race/688911/?utm_source=feed) — The Atlantic
 
 ## Blocked until 5+ briefings have passed
 
