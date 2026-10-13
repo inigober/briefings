@@ -1,0 +1,792 @@
+{
+  "briefing_type": "berlin-culture",
+  "date": "2026-10-13",
+  "week_start": "2026-10-14",
+  "week_end": "2026-10-20",
+  "week_label": "October 14–20, 2026",
+  "source_raw": "inbox/berlin-culture/2026-10-13-raw.json",
+  "built_at": "2026-10-13T08:38:23.263133+00:00",
+  "model": "gpt-6.1-sol",
+  "raw_item_count": 133,
+  "section_counts": {
+    "exhibitions": 4,
+    "film": 0,
+    "performing_arts": 0,
+    "music": 4,
+    "wildcards": 4,
+    "advance_radar": 5
+  },
+  "items": [
+    {
+      "id": "susan-hiller-bad-dreams-2026",
+      "topic_ids": [
+        "exhibitions",
+        "memory",
+        "archives"
+      ],
+      "title": "Susan Hiller — Bad Dreams",
+      "venue": "KW Institute for Contemporary Art, Auguststraße 69",
+      "dates": "October 17, 2026–January 10, 2027; opening reception October 16, 2026",
+      "times": "Opening reception: October 16, 19:00–22:00; German-language overview tour: October 17, 16:00–17:00. Regular visiting hours not supplied.",
+      "artists": [
+        "Susan Hiller"
+      ],
+      "official_url": "https://www.kw-berlin.de/en/exhibitions/susan-hiller-bad-dreams",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "New Berlin survey exploring personal and collective imaginaries through images, objects, mass media and popular culture. Strong memory-and-archives relevance; opens during the briefing window.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "rafik-greiss-the-city-and-the-city-2026",
+      "topic_ids": [
+        "exhibitions",
+        "experimental-moving-image",
+        "sound-art"
+      ],
+      "title": "Rafik Greiss — The City and the City",
+      "venue": "KW Institute for Contemporary Art",
+      "dates": "October 17, 2026–January 10, 2027",
+      "times": "Not supplied in the retrieved exhibition-page text.",
+      "artists": [
+        "Rafik Greiss"
+      ],
+      "official_url": "https://www.kw-berlin.de/en/exhibitions/rafik-greiss-the-city-and-the-city",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "First institutional solo exhibition featuring a newly commissioned cinematic essay, a soundtrack extending into the gallery and black-and-white photographs. Strong fit for experimental moving image and audiovisual installation.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-7aa0af6fff",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Ground Noise",
+      "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler",
+      "dates": "until November 21, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/44970/ground-noise",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until November 21, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-ec6a65233d",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Werk und Wirken",
+      "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler",
+      "dates": "until November 21, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/45083/werk-und-wirken",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until November 21, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "alpha-maid-dylan-kerr-madeline-stepien-2026-10-14",
+      "topic_ids": [
+        "music",
+        "electroacoustic",
+        "diaspora"
+      ],
+      "title": "Alpha Maid + Dylan Kerr & Madeline Stepien",
+      "venue": "silent green Kulturquartier, Kuppelhalle",
+      "dates": "October 14, 2026",
+      "times": "Doors 19:00; start 20:00",
+      "artists": [
+        "Alpha Maid",
+        "Dylan Kerr",
+        "Madeline Stepien"
+      ],
+      "official_url": "https://www.silent-green.net/en/programme/detail/alpha-maid?cHash=1ae0a27da0bf240222b075c344e69ce5&tx_news_pi1%5Bday%5D=14&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Kerr and Stepien combine extended vocal techniques, microtonality, psychoacoustics and live processing. Alpha Maid adds guitar-led music and dub influences explicitly connected to Jamaican heritage and the Windrush Generation.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "dust-life-of-mu-2026-10-17",
+      "topic_ids": [
+        "music",
+        "experimental-electronic",
+        "audiovisual"
+      ],
+      "title": "Andriy K. & Tharim Cornelisse pres. DUST + mu tate pres. life of mu",
+      "venue": "silent green Kulturquartier, Kuppelhalle",
+      "dates": "October 17, 2026",
+      "times": "Doors 19:00; start 20:00",
+      "artists": [
+        "Andriy K.",
+        "Tharim Cornelisse",
+        "mu tate"
+      ],
+      "official_url": "https://www.silent-green.net/programm/detail/andryi-k-tharim-cornelisse-pres-dust",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Experimental electronic and audiovisual programme combining DUST's textural sound and imagery with mu tate's dissolving melodies, shifting rhythms and immersive density. DUST explores presence and sudden disappearance.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "silent-green-html-music-8c49da507e",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "scribble.mp3 pres. Felisha Ledesma & Angelo Harmsworth + Francesco Corvi & Nocturnerror",
+      "venue": "Silent Green (Kuppelhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/scribblemp3-pres-felisha-ledesma-angelo-harmsworth-francesco-corvi-nocturnerror?tx_news_pi1%5Bday%5D=1&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=74226c2a04b07d3cd6150876c904e6d4",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "silent-green-html-music-a8c7a58dae",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "MUBI FEST Berlin",
+      "venue": "Silent Green",
+      "dates": "",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/mubi-fest-berlin-1?tx_news_pi1%5Bday%5D=2&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026&cHash=096e8f23746d36c36c17df842ed77309",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "in-companionship-of-birds-2026-10-17",
+      "topic_ids": [
+        "wildcards",
+        "participatory-workshop",
+        "storytelling"
+      ],
+      "title": "In Companionship of Birds – Die Vogelgefährten",
+      "venue": "DOCKdigital, DOCK 11, Saal 4, Kastanienallee 79",
+      "dates": "October 17–18, 2026",
+      "times": "October 17, 10:00–19:00; October 18, 10:00–18:30",
+      "artists": [
+        "The Chemistry of Courage"
+      ],
+      "official_url": "https://dock11-berlin.de/en/tanzschule/program/workshops/in-companionship-of-birds-die-vogelgefaehrten",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Date-verified hybrid participatory workshop combining narration, improvisation, play and conversation around Attar's The Conference of the Birds. Included as a wildcard, not a public performance; €290, in German, English or both.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "butoh-intensive-materiality-2026-10-17",
+      "topic_ids": [
+        "wildcards",
+        "participatory-workshop",
+        "embodied-practice"
+      ],
+      "title": "Butoh Intensive “Materiality”",
+      "venue": "EDEN, Studio 150.1, Breite Strasse 43, 13187 Berlin",
+      "dates": "October 17–18, 2026",
+      "times": "10:00–17:00 each day, including lunch break",
+      "artists": [
+        "Natsuko Kono"
+      ],
+      "official_url": "https://dock11-berlin.de/en/tanzschule/program/workshops/butoh-intensive-materiality",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Date-verified participatory Butoh workshop using material imagery to transform the body rather than mime it. Included as an embodied-practice wildcard, not a public performance. Open to all, taught in English; €200.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-5c909f8c2b",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Konzert (Solo Piano) in der Ausstellung von Kerim Seiler",
+      "venue": "Streustr. 90 13086 Berlin",
+      "dates": "14 October 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46014/konzert-solo-piano-in-der-ausstellung-von-kerim-seiler",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Konzert (Solo Piano) in der Ausstellung von Kerim Seiler",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-d1baf5978f",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Ala Roushan and Charles Stankievech A Shroud Woven of Solar Threads",
+      "venue": "Halle am Berghain\\, Am Wriezener Bahnhof 10243 Berlin",
+      "dates": "14 October 2026",
+      "times": "20:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46002/a-shroud-woven-of-solar-threads",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Ala Roushan and Charles Stankievech A Shroud Woven of Solar Threads",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-4499ffa415",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Led by Nago Guèye Koité & SAF SAP Sabar\\, Polyrhythm\\, and the Politics of Body Movement",
+      "venue": "John-Foster-Dulles-Allee 10 10557 Berlin",
+      "dates": "21 October 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45713/sabar-polyrhythm-and-the-politics-of-body-movement",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Led by Nago Guèye Koité & SAF SAP Sabar\\, Polyrhythm\\, and the Politics of Body Movement",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-7859514c91",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Miji Hi Emerging Berlin – Mouth",
+      "venue": "Oranienburger Str. 54 10117 Berlin",
+      "dates": "22 October 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45400/emerging-berlin-mouth",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Miji Hi Emerging Berlin – Mouth",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "miji-hi-emerging-berlin",
+      "event_kind": "festival_event",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-2e4c320721",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Julius Pristauz & Elena Francalanci sketch for a conversation on pleasure and pain",
+      "venue": "Auguststr. 21 10117 Berlin",
+      "dates": "22 October 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46008/sketch-for-a-conversation-on-pleasure-and-pain",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Julius Pristauz & Elena Francalanci sketch for a conversation on pleasure and pain",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-fe6d5f8062",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Tanja Ostojić Encounters — On Bodies\\, Borders\\, Resistance",
+      "venue": "Mariannenplatz 2 10997 Berlin",
+      "dates": "23 October 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/45515/encounters-on-bodies-borders-resistance",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Tanja Ostojić Encounters — On Bodies\\, Borders\\, Resistance",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-fdba3d7a77",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "CORNELIA SOLLFRANK: Revisiting Feminist Art – What we can learn from early Feminist Art",
+      "venue": "Siemensstrasse 27 10551 Berlin",
+      "dates": "23 October 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46104/cornelia-sollfrank-revisiting-feminist-art-what-we-can-learn-from-early-feminist-art",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "CORNELIA SOLLFRANK: Revisiting Feminist Art – What we can learn from early Feminist Art",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    }
+  ],
+  "editorial_context": {
+    "rejected_candidates": [
+      {
+        "id": "index-berlin-html-exhibitions-f6d37dd7a7",
+        "title": "Modul im Modell",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-b201a00e64",
+        "title": "Edited Memories",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-b684171454",
+        "title": "the lusophile",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-aceb76872d",
+        "title": "ALVA",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-402bbbf8e4",
+        "title": "It Is Like Another Time, in the Same Place",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-2e162ee85c",
+        "title": "Zärtlichkeit als Widerstand",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-b218e854b2",
+        "title": "Centralia",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-fa37f6252f",
+        "title": "The Mountains Of My Youth",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-fd8809822e",
+        "title": "This!",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-ba25cc8cdd",
+        "title": "Volumen",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-e606067f17",
+        "title": "Surroundings and work of sentiment",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-2b2463b249",
+        "title": "Global Dystopia Sound Art Biennial 2026",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "global-dystopia-sound-art-biennial-2026",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-90dc3298a1",
+        "title": "Open Tabs",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-54df633ff6",
+        "title": "Osage Orange",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-ea29ef955c",
+        "title": "A Shroud Woven of Solar Threads",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-22a86df0d1",
+        "title": "MIMIMIKRI",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-f8dff29628",
+        "title": "MI CASA NO ES SU CASA",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-587603af07",
+        "title": "Es ist nicht mehr mein Problem, macht eure Scheiße alleine",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-d06868e2a3",
+        "title": "Next Door",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-7a4354ad1c",
+        "title": "Overwrite! On behalf of things, species and voices that disappear",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-32b566c62d",
+        "title": "True Stories",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-308a9cfc3a",
+        "title": "Die Mütter",
+        "section": "exhibitions",
+        "reason": "venue_cap:gropius bau taz taína h cruz pixie theatre kraupa-tuskany zeidler",
+        "series_id": "",
+        "venue": "Gropius Bau taz Taína H. Cruz Pixie Theatre Kraupa-Tuskany Zeidler"
+      },
+      {
+        "id": "silent-green-html-music-a6e0cb9ebb",
+        "title": "weed420 + Tufi",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-9f4fe55758",
+        "title": "Ensemble Nist-Nah + Shouji Hara",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-b8f4f9e6f5",
+        "title": "FAB Dimensional 2026 – Animation Expanded",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "fab-dimensional-2026",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-f037d37b9c",
+        "title": "9th Festival of Animation Berlin 2026",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "9th-festival-of-animation-berlin-2026",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-9d93f53c81",
+        "title": "Ryoko Ono + Hanno Leichtmann + Sergeant",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-6802aa06d3",
+        "title": "Die Früchte, die wir tragen.",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a1f76352c7",
+        "title": "Andriy K. & Tharim Cornelisse pres. DUST + mu tate pres. life of mu",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-1a082d5ad7",
+        "title": "Historische Führung",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-c3e2f12fde",
+        "title": "Kantine Musik",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-07cf831d57",
+        "title": "Psychic Liberation Night: Andrea Pensado + HMOT + bela",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-23d9c06e99",
+        "title": "Sintonia 2026 Attunement I: Concepción Huerta + hexorcismos",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "sintonia-2026-attunement-i",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-bcc9d08a16",
+        "title": "Acephalic Headspace pres. ladr ache + Lésions Graves Sextet plays Julius Eastman",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-3398e8ecf0",
+        "title": "HALF LIGHT – Abul Mogard, Marja de Sanctis, Rafael Anton Irisarri, Concepción Huerta",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-f638144db4",
+        "title": "Kjartan Sveinsson + Gyda Valtýsdóttir + Bert Cools + Indrė Jurgelevičiūtė",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-ecfd8b0350",
+        "title": "Einhörner: Book Premiere with Annekathrin Kohout",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-3f9290ca74",
+        "title": "Superfan + Coals",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-a8f816c26b",
+        "title": "Chanel Beads + urika's bedroom",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-cd84a823b1",
+        "title": "LudoWic",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-5fcc7b9f8a",
+        "title": "Temple of Faitiche pres. U.e. (Ulla) + Martin Brandlmayr",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-bbd924721f",
+        "title": "goat (jp) + Camila Nebbia",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-86ed93d906",
+        "title": "Berlin Tea Festival 2026: CLOSER TO TEA – Main Days",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "berlin-tea-festival-2026",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-5d0283bdaa",
+        "title": "Ana Roxanne + Clarice",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-f029f6cd42",
+        "title": "Poppy Ackroyd",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-581756110f",
+        "title": "Sintonia 2026 Attunement II: Nnux + Cinna Peyghamy",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "sintonia-2026-attunement-ii",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-8dd2424483",
+        "title": "Yasuaki Shimizu + Merma Suelo",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-b0be88ce7e",
+        "title": "Tehran Contemporary Sounds Festival 2026",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "tehran-contemporary-sounds-festival-2026",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-eb39057acd",
+        "title": "Maria BC + Eli Wewentxu & Indrė Jurgelevičiūtė",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      }
+    ],
+    "diversification_caps": {
+      "max_per_venue": 2,
+      "max_per_series": 1
+    },
+    "missing_end_date_count": 0,
+    "note": "Pre-ranked with venue/series/event de-duplication across sections. Synthesis must still apply one-event-one-slot and Top Picks cross-reference rules. Items with missing_end_date:true need a closing date from the official page; if still unknown, drop the pick and log it (python scripts/culture_missing_end_log.py)."
+  },
+  "note": "Token-light culture slice for synthesis. Items with verified:true passed pre-fetch URL/schedule checks; synthesis spot-checks only unverified Top Picks and closing-soon items."
+}
