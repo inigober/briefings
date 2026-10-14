@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-14
+
+- **spain-madrid-education-historic-strike** — eldiario.es: historic all-stage education strike starts in the Community of Madrid, CSIF included (section: spain)
+- **spain-feijoo-abascal-non-aggression** — EL PAÍS: Feijóo shows respect for Vox, will not demand a solo PP government; Génova–Bambú channel (section: spain)
+- **spain-psoe-peripheral-spain-map** — EL PAÍS: PSOE leans on Catalonia, Basque Country and the periphery to cut the PP–Vox lead (section: spain)
+- **germany-zuckersteuer-coalition-deal** — Tagesspiegel: Union–SPD agree a levy on sugary drinks, due in cabinet Wednesday; Hesse calls it a Teuer-Steuer (section: germany)
+- **germany-galeria-going-concern-three-months** — Handelsblatt: Galeria can keep operating; administrator has three months to find equity owners (section: germany)
+- **germany-verbrenner-aus-pollinators-study** — Tagesspiegel: delayed combustion-engine phaseout; exhaust confuses bees and other pollinators (section: germany)
+- **berlin-evers-save-through-2030** — rbb24: finance senator Evers says Berlin must cut through 2030 while protecting investment (section: berlin)
+- **berlin-tempelhof-construction-death** — rbb24: a steel beam killed a construction worker in Tempelhof (section: berlin)
+- **berlin-alba-igokea-cl-win** — rbb24: Alba Berlin beat Igokea in the Basketball Champions League after a late run (section: berlin)
+- **world-china-exports-36-ai-shipments** — Financial Times: China's exports surge 36% as AI-related shipments boom; imports up on oil (section: world)
+- **world-mexico-simon-rachel-five-dead** — The Guardian: Hurricane Simon and Tropical Storm Rachel kill five on Mexico's Pacific coast (section: world)
+- **world-openai-saudi-employee-office-bug** — Financial Times: US arrests a Saudi OpenAI employee over a recording device behind a conference-room TV (section: world)
+
 ## 2026-10-13
 
 - **spain-nietos-163020-vote-suspension** — eldiario.es: Supreme Court orders the vote suspended for 163,020 *ley de nietos* citizens; government says it is materially impossible before 29-N (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-ai-data-centre-midterm-backlash** — Financial Times: AI Infrastructure Coalition (Google/Meta/Microsoft) pledges on energy costs and water ahead of US midterms (section: world)
 - **world-inox-clean-energy-india-ipo** — Bloomberg: Inox Clean Energy filed a draft prospectus for up to $1bn (section: world)
 - **world-vietnam-activists-abducted** — The Guardian: Vietnam detained three activists including Tran Hiep; Hanoi cites Viet Tan (section: world)
-
-## 2026-09-29
-
-- **spain-housing-draft-2028-two-year-extensions** — EL PAÍS: the Tuesday draft blocks vulnerable evictions only until 2028, extends leases two years, caps updates at 2% (section: spain)
-- **spain-maricarmen-urbagestion-return-deal** — eldiario.es: Urbagestión will let Maricarmen return on a new lease at ≤30% of income; she must still accept (section: spain)
-- **spain-junts-sumar-indefinite-leases-break** — eldiario.es: Sumar wants indefinite leases; Junts threatens to walk if small evicting landlords are covered (section: spain)
-- **germany-curevac-plant-closures-state-investor** — Handelsblatt: Curevac is closing three sites and cutting ~1,800 jobs; Tübingen is in the frame because public money went in (section: germany)
-- **germany-kloeckner-faction-expulsion-threat** — Tagesspiegel: Bundestag president Klöckner says she will eject a whole faction if AfD/Left disruption escalates (section: germany)
-- **germany-klingbeil-beamte-selfemployed-rente** — Handelsblatt: Klingbeil wants the self-employed and civil servants brought into the statutory pension (section: germany)
-- **berlin-kollwitzkiez-greens-linke-shift** — Tagesspiegel: Die Linke ended a 20-year Green hold on the Kollwitzkiez (section: berlin)
-- **berlin-potty-parity-public-toilets** — rbb24: longer women's queues at public WCs framed as an equality problem the city says it will address (section: berlin)
-- **berlin-stink-bugs-autumn-flats** — Berliner Zeitung: autumn shield bugs are moving into flats for the winter (section: berlin)
-- **world-samsung-helix-1bn-ai-infra** — Nikkei Asia: Samsung is putting $1bn into Helix AI infrastructure (section: world)
-- **world-lula-fixed-odds-betting-ban** — The Guardian: Lula banned fixed-odds sports betting a week before Brazil's first-round vote (section: world)
-- **world-anthropic-ipo-existential-risk-loss** — Financial Times: Anthropic's S1 reports an $8bn loss on $4.6bn revenue and warns of existential risk (section: world)

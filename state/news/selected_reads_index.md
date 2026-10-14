@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-14
+
+- [How I used AI to become a chess grandmaster at 16](https://www.ft.com/content/8267236e-f4bb-4d7b-9ed7-6ec0a9867b94) — Financial Times
+- [Central banks navigate inflation uncertainty amid supply shocks](https://asia.nikkei.com/economy/inflation/central-banks-navigate-inflation-uncertainty-amid-supply-shocks2) — Nikkei Asia
+- [Saudi Energy Giant Struck as War Spikes Between Houthis and Saudi Arabia](https://www.nytimes.com/2026/10/13/world/middleeast/saudi-arabia-yemen-houthis-aramco-threat.html) — The New York Times
+- [Latin American organised crime ‘may operate in 16 European countries’](https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe) — The Guardian
+
 ## 2026-10-13
 
 - [Why Trump is going for Zelenskyy’s jugular](https://www.ft.com/content/1724a30e-cf50-4a4e-ade8-bca72ea4b9a1?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [This Is the Hurricane Season El Niño Foretold](https://www.theatlantic.com/science/2026/10/hurricane-season-isaias-simon/688961/?utm_source=feed) — The Atlantic
 - [The Global Diesel Crisis, Explained](https://foreignpolicy.com/2026/10/09/diesel-crisis-oil-fuel-refineries-iran-ukraine-war/) — Foreign Policy
 - [ICJ judge Navi Pillay wins Nobel peace prize for promoting international law](https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize) — The Guardian
-
-## 2026-10-09
-
-- [EU cyber and science researchers are testing Chinese AI models](https://www.politico.eu/article/eu-cybersecurity-and-science-researchers-are-testing-chinese-ai-models/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Australian data centre operator pulls $5bn IPO](https://www.ft.com/content/205ef7a5-321f-46e3-8097-d055bf1f6b3b?syn-25a6b1a6=1) — Financial Times
-- [Line aims to be Thailand's 'everyday AI app' in key market](https://asia.nikkei.com/business/technology/artificial-intelligence/line-aims-to-be-thailand-s-everyday-ai-app-in-key-market) — Nikkei Asia
-- [Nicolás Maduro and his wife indicted for alleged torture of US citizens](https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
