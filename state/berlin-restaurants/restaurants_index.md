@@ -4,13 +4,6 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 <!-- Format: YYYY-MM-DD | name | neighborhood | google_maps_url -->
 
-2026-07-30 | Holly China Restaurant | Charlottenburg | https://maps.google.com/?cid=4307595915358650379&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-30 | Good Friends | Charlottenburg | https://maps.google.com/?cid=7076436058078775098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-30 | Papaya Mum | Wilmersdorf | https://maps.google.com/?cid=15424834162655154313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-30 | Stari Most | Kreuzberg | https://maps.google.com/?cid=8108682057558702365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-30 | Kalaja | Neukölln | https://maps.google.com/?cid=16472975814862251907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-30 | Prizreni Qebaptore | Neukölln | https://maps.google.com/?cid=1220766494754305012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-07-30 | Barra | Neukölln | https://maps.google.com/?cid=15461423447321715949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-06 | Wei Dao Jia | Prenzlauer Berg | https://maps.google.com/?cid=3105457945904461337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-06 | You Mi | Schöneberg | https://maps.google.com/?cid=15420434776594381727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-06 | Mardin | Neukölln | https://maps.google.com/?cid=15343297613053954740&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
@@ -76,3 +69,8 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-10-08 | Zum Heiligen Teufel | Kreuzberg | https://maps.google.com/?cid=16363010037190264852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-10-08 | Taqueria El Oso | Prenzlauer Berg | https://maps.google.com/?cid=398784497044115211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-10-08 | Otto | Prenzlauer Berg | https://maps.google.com/?cid=14110376015699172966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-15 | Et Dünyasi by Ehli-Kebap | Wedding | https://maps.google.com/?cid=3563538702923663257&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-15 | Trattoria Lauretta | Tempelhof | https://maps.google.com/?cid=1808302106466398168&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-15 | Ripieno | Schöneberg | https://maps.google.com/?cid=4405641568888698269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-15 | Sissi Restaurant | Schöneberg | https://maps.google.com/?cid=6400383924715615295&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-15 | HAPPA | Kreuzberg | https://maps.google.com/?cid=946052033712709760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
