@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-15
+
+- **spain-pp-vox-pensions-collapse-narrative** — eldiario.es: PP and Vox call the public pension system broken / about to *petar*; Commission-backed reform and AIReF spending-rule tests do not (section: spain)
+- **spain-cis-sample-bias-sociologists** — EL PAÍS: sociologists say the CIS over-represents the left because right-wing voters refuse interviews; the agency denies it (section: spain)
+- **spain-senate-united-left-list-40** — eldiario.es: PSOE internal paper says a united left Senate list is close and could add ~40 seats / an absolute majority (section: spain)
+- **germany-kiel-advertised-rents-accelerate** — Handelsblatt: Kiel Institute asking-rent rise has accelerated in the 30 largest cities; existing flats in demand, Berlin and Düsseldorf sharp (section: germany)
+- **germany-ai-bioweapons-preparedness** — Tagesspiegel: AI can design novel viruses; Germany's emergency preparation is thin (section: germany)
+- **germany-kiesewetter-nord-stream-warnings** — Berliner Zeitung: report of pre-attack warnings asks why Kiesewetter stuck to the Russia thesis and why the Chancellery is silent (section: germany)
+- **berlin-franzoesisches-gymnasium-protests** — Tagesspiegel: Französisches Gymnasium pupils joined blockades after the French school protests (section: berlin)
+- **berlin-neukoelln-alive-app** — Tagesspiegel: Neukölln developer Bastian Matzen's solo-living check-in app (section: berlin)
+- **berlin-union-alte-foersterei-financing** — rbb24: Union says Alte Försterei expansion financing now looks close enough to sign (section: berlin)
+- **world-asia-ai-selloff-kospi-halt** — Financial Times: AI sell-off triggers a Kospi trading halt and drops the Nikkei 225 5% (section: world)
+- **world-zimbabwe-caine-prize-ai-denial** — The Guardian: Caine Prize winner Simbarashe Kundizeza denies *The Atlantic*'s AI-generation claim (section: world)
+- **world-florida-giant-african-snails** — The Atlantic: Florida's fight against giant African snails that eat houses and carry brain worms (section: world)
+
 ## 2026-10-14
 
 - **spain-madrid-education-historic-strike** — eldiario.es: historic all-stage education strike starts in the Community of Madrid, CSIF included (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-tokyo-ai-voice-publicity-ruling** — The Guardian: Tokyo court ruled an AI clone of Kenjiro Tsuda's voice violated publicity rights (section: world)
 - **world-tencent-oracle-100k-chips** — Financial Times: Tencent leased ~100,000 Oracle chips for South-East Asian data centres (section: world)
 - **world-lula-defense-industrial-policy** — Foreign Policy: Lula has put military-industrial spending at the centre of his re-election campaign (section: world)
-
-## 2026-09-30
-
-- **spain-housing-decrees-cabinet-friday-vote** — eldiario.es: Cabinet approved two housing decrees (eviction shield to 2030, vulture-fund purchase ban to 2028, automatic lease extensions) and asked Congress for a Friday vote (section: spain)
-- **spain-above-index-rent-freeze-2028** — eldiario.es: rents above the official index frozen until 2028; at-index rents +2% until end-2027 (section: spain)
-- **spain-tenant-irpf-500-stressed-zone** — EL PAÍS: tenant IRPF deduction ~€500, max cost €820m, incomes to €33,000, only if the region declares a zona tensionada (section: spain)
-- **germany-teuteberg-bsw-brandenburg-sed** — Berliner Zeitung: BSW calls FDP deputy Teuteberg unelectable for Brandenburg's SED-Aufarbeitung post (section: germany)
-- **germany-deutsche-aircraft-leipzig-d328eco** — Berliner Zeitung: Deutsche Aircraft opened a Leipzig final-assembly line for the D328eco, up to 48/year, ~250 jobs (section: germany)
-- **germany-flu-season-vaccine-guide** — Handelsblatt: autumn influenza season; vaccine via GP, company doctor, or pharmacy (section: germany)
-- **berlin-siemensstadt-water-main-burst** — rbb24: a Spandau/Siemensstadt fresh-water pipe dumped >1m litres and forced a house evacuation (section: berlin)
-- **berlin-linke-antisemitism-statute** — rbb24: Die Linke's Abgeordnetenhaus group wants an antisemitism position in its statutes (section: berlin)
-- **berlin-landespokal-east-west** — rbb24: Berlin/Brandenburg cup weekend, including an East–West Berlin tie (section: berlin)
-- **world-ai-data-centre-midterm-backlash** — Financial Times: AI Infrastructure Coalition (Google/Meta/Microsoft) pledges on energy costs and water ahead of US midterms (section: world)
-- **world-inox-clean-energy-india-ipo** — Bloomberg: Inox Clean Energy filed a draft prospectus for up to $1bn (section: world)
-- **world-vietnam-activists-abducted** — The Guardian: Vietnam detained three activists including Tran Hiep; Hanoi cites Viet Tan (section: world)

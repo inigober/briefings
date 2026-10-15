@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-14",
-  "briefing_date": "2026-10-14",
-  "inbox_date": "2026-10-14",
+  "date": "2026-10-15",
+  "briefing_date": "2026-10-15",
+  "inbox_date": "2026-10-15",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-14.md",
-  "inbox_path": "inbox/news/2026-10-14-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-15.md",
+  "inbox_path": "inbox/news/2026-10-15-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "La mayoría de españoles apoya la huelga general y un 64% dice que la crisis de la vivienda le anima a votar",
+      "headline": "Las voces de la huelga educativa / Qué quieren los profesores de Madrid / Escuchar a los profesores",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests; incremental to 2026-10-03 housing-strike poll; Other Headlines only"
+      "reason": "incremental to madrid-education-historic-strike 2026-10-14; Other Headlines only"
     },
     {
-      "headline": "Inquilinos contra caseros: la nueva fractura de clase",
+      "headline": "La ambigüedad de Colau sobre la marca del Frente Amplio y sobre su propio liderazgo inquieta en la alianza",
       "section": "spain",
-      "reason": "avoid_unless_material: housing protests / one-theme with unused 11-N housing poll"
+      "reason": "incremental left-list after Frente Amplio 2026-10-06 / 10-14 OH; Other Headlines only"
     },
     {
-      "headline": "La amenaza de la derecha sobre pensiones y bajas médicas se cuela en los motivos de la huelga general del 11N",
+      "headline": "Gabriel Rufián pedirá el voto para EH Bildu y BNG / La alianza de Rufián y Podemos pone en apuros a Comuns",
       "section": "spain",
-      "reason": "one-theme: labour/strike already covered via Madrid education walkout; Other Headlines only"
+      "reason": "one-theme with unused Colau list talks; Other Headlines only"
     },
     {
-      "headline": "La negociación entre Podemos y el Frente Amplio encalla y apunta a una resolución el viernes en el último minuto",
+      "headline": "El PSOE y el PP encienden la batalla por el futuro de las pensiones / PP patina / portavoz 'va a petar'",
       "section": "spain",
-      "reason": "incremental left-list after Frente Amplio 2026-10-06 / Colau 2026-10-13; Other Headlines only"
+      "reason": "one-theme: pensions already covered via AIReF/Brussels fact-check"
     },
     {
-      "headline": "La anomalía de la orden del Supremo que solo permite votar a los nacionalizados por la ‘ley de nietos’ que viven en España",
-      "section": "spain",
-      "reason": "incremental to Supreme Court nietos vote suspension 2026-10-13; Other Headlines only"
-    },
-    {
-      "headline": "Rauchen: Zigaretten dürften bald viel teurer werden",
+      "headline": "Morning Briefing: Berlin könnte bei der Windkraft einen alten Fehler wiederholen",
       "section": "germany",
-      "reason": "one-theme: consumption tax already covered via Zuckersteuer"
+      "reason": "avoid_unless_material: energy transition bottlenecks; Other Headlines only"
     },
     {
-      "headline": "Iran weist US-Antwort zur Straße von Hormus zurück / USA drohen Kiew mit Stopp von Waffenlieferungen / Köthen / Pulsnitz / A24 / Brandenburg AfD spot",
+      "headline": "+++ USA +++: USA erwägen Lockerung von Sanktionen gegen Schattenflotten-Tanker",
+      "section": "germany",
+      "reason": "geo: US/international, not Germany"
+    },
+    {
+      "headline": "Vor allem in Berlin und Düsseldorf: Anstieg der Wohnungsmieten hat sich beschleunigt",
+      "section": "germany",
+      "reason": "one-theme with Kiel advertised-rents Handelsblatt item"
+    },
+    {
+      "headline": "Der Hütchenspieler-Trick der Linken: Die Sondierungen in Berlin gehen weiter",
       "section": "berlin",
-      "reason": "geo: Middle East / Ukraine / Saxony-Anhalt / Saxony / Brandenburg, not Berlin"
+      "reason": "incremental sondierungen after 2026-10-08 / 10-09; Other Headlines only"
     },
     {
-      "headline": "Wetter: Nebel in Berlin und Brandenburg",
+      "headline": "Brandenburger AfD-Fraktion kündigt Strafanzeige gegen Kurt Krömer an / Köthens Feuerwehrhaus",
       "section": "berlin",
-      "reason": "weather filler"
+      "reason": "geo: Brandenburg / Saxony-Anhalt, not Berlin"
     },
     {
-      "headline": "Bank of America fined $1.2bn over money laundering failures",
+      "headline": "UN-Abstimmung zu Kuba / Die USA, Kuba und die Energiedominanz",
+      "section": "berlin",
+      "reason": "geo: federal foreign policy / Cuba, not Berlin city"
+    },
+    {
+      "headline": "UK asks Interpol to reject Argentina’s Falklands oil arrests / Russia arrests Japanese journalist",
       "section": "world",
-      "reason": "North America already covered via OpenAI office bug; Other Headlines only"
+      "reason": "already in 2026-10-14 Other Headlines; not a material return"
     },
     {
-      "headline": "Saudi Energy Giant Struck as War Spikes Between Houthis and Saudi Arabia",
-      "section": "world",
-      "reason": "incremental to Riyadh airport 2026-10-11; used as Selected Read"
-    },
-    {
-      "headline": "La Ceuta que recibe a los Reyes / soberanía no negociable",
-      "section": "spain",
-      "reason": "avoid_unless_material: Ceuta; not extraordinary; Other Headlines only"
-    },
-    {
-      "headline": "berlin_pool_thin: after geo-misfits (BZ world wire, Köthen/Pulsnitz/A24/Brandenburg) local pool was rbb24 budget / Tempelhof death / Alba",
+      "headline": "berlin_pool_thin: after geo-misfits (BZ Cuba/Nord Stream-as-city, Köthen, Brandenburg AfD) local pool was FG protests / Neukölln app / Union stadium",
       "section": "berlin",
       "reason": "berlin_pool_thin / publisher_pool_thin"
     }
   ],
-  "notes": "Spain: Madrid historic education strike starts (eldiario), Feijóo–Abascal non-aggression (EL PAÍS), PSOE peripheral map (EL PAÍS). Skipped housing-strike poll and tenants class (avoid_unless_material), 11-N pensions (OH; one-theme with education strike), left-list stall (OH), nietos CERA anomaly (OH incremental to 10-13), Ceuta royals (OH). Ceuta cooldown empty but avoid_unless_material held. publisher_pool_thin: only eldiario and EL PAÍS in eligible Spain pool. Germany: Zuckersteuer coalition deal (TSP), Galeria going-concern / 3-month owner search (HB; material update to 10-03 insolvency), delayed Verbrenner-Aus / pollinator study (TSP). Skipped cigarette-tax (one-theme), A14 blotter, China-trade HB (geo), Lena Dunham. Berlin thin: Evers save-through-2030 (rbb24), Tempelhof construction death (rbb24), Alba–Igokea CL (rbb24). World: China exports +36% AI shipments (East Asia, FT), Mexico Simon/Rachel (LatAm, Guardian), OpenAI office bug / Saudi employee (North America, FT). ≥2 non-European regions. Selected Reads: FT chess-AI feature, Nikkei central banks, NYT Aramco, Guardian LatAm crime in Europe."
+  "notes": "Spain: PP/Vox pension-collapse narrative vs Commission/AIReF (eldiario), CIS sample-bias (EL PAÍS), Senate united-left list ~40 seats (eldiario). Skipped Madrid strike follow-ups (OH), Colau/Rufián/Comuns list talks (OH), duplicate pensions pieces. publisher_pool_thin: only eldiario and EL PAÍS in eligible Spain pool. Ceuta cooldown empty; Ceuta soldier-audio parked in OH (avoid_unless_material, not extraordinary). Germany: Kiel advertised-rents acceleration (HB), AI bioweapons / thin German prep (TSP), Kiesewetter Nord Stream warnings (BZ; tagged berlin in inbox, used as Germany — federal, not city). Skipped offshore stall (avoid_unless_material energy transition bottlenecks; OH), US shadow-fleet (geo), TSP rent dup. Berlin thin: Französisches Gymnasium protests (TSP), Neukölln alive-app (TSP), Union Alte Försterei financing (rbb24). World: Asia AI sell-off / Kospi halt / Nikkei -5% (East Asia, FT), Caine Prize AI denial (Africa, Guardian), Florida giant snails (North America, Atlantic). ≥2 non-European regions. Selected Reads: FT Russian-assets unfreeze, NYT Starlink/Kyiv, Nikkei 7-Eleven India/Lawson, FT K-shaped vs E."
 }

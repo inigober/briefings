@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-15
+
+- [US floats unfreezing some Russian assets to restart Ukraine peace talks](https://www.ft.com/content/54353d3a-afed-4fec-985a-50f3dfb9be8e?syn-25a6b1a6=1) — Financial Times
+- [Ukraine’s Exposure Grows as Satellite Use Is Restricted and Russia Escalates](https://www.nytimes.com/2026/10/14/world/europe/ukraine-starlink-energy.html) — The New York Times
+- [7-Eleven's India exit casts shadow over Lawson's expansion plans](https://asia.nikkei.com/business/retail/7-eleven-s-india-exit-casts-shadow-over-lawson-s-expansion-plans) — Nikkei Asia
+- [Is the K-shaped economy really more of an E?](https://www.ft.com/content/2feb3013-c01a-4fa6-aa11-67354fb71cc8?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-10-14
 
 - [How I used AI to become a chess grandmaster at 16](https://www.ft.com/content/8267236e-f4bb-4d7b-9ed7-6ec0a9867b94) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Nvidia in talks to acquire US ‘open’ model start-up Reflection AI](https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1) — Financial Times
 - [¿Vivienda, inmigración o Gobierno? Qué preocupa más a los votantes de cada partido](https://elpais.com/espana/elecciones-generales/2026-10-11/vivienda-inmigracion-o-gobierno-que-preocupa-mas-a-los-votantes-de-cada-partido.html) — EL PAÍS
 - [A Week Later, Russia Hasn’t Said What Pathogen Killed Plague Researcher](https://www.nytimes.com/2026/10/10/world/europe/russia-plague.html) — The New York Times
-
-## 2026-10-10
-
-- [Ukraine strikes Russian tech giant’s data centres](https://www.ft.com/content/b90417e7-4d32-48cc-a508-5d405e7cd2ee?syn-25a6b1a6=1) — Financial Times
-- [This Is the Hurricane Season El Niño Foretold](https://www.theatlantic.com/science/2026/10/hurricane-season-isaias-simon/688961/?utm_source=feed) — The Atlantic
-- [The Global Diesel Crisis, Explained](https://foreignpolicy.com/2026/10/09/diesel-crisis-oil-fuel-refineries-iran-ukraine-war/) — Foreign Policy
-- [ICJ judge Navi Pillay wins Nobel peace prize for promoting international law](https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 
