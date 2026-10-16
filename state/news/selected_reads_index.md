@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-16
+
+- [IMF warns global food security worsening amid El Nino](https://asia.nikkei.com/spotlight/environment/climate-change/imf-warns-global-food-security-worsening-amid-el-nino) — Nikkei Asia
+- [Why Russia Sees a Window to Bomb Ukraine Into Submission This Winter](https://www.nytimes.com/2026/10/15/world/europe/russia-ukraine-winter-energy.html) — The New York Times
+- [A Tale of Two Elon Musk Fights](https://foreignpolicy.com/2026/10/15/elon-musk-india-ukraine-starlink/) — Foreign Policy
+- [Nicolás Maduro tells New York court new torture allegations are ‘false’](https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores) — The Guardian
+
 ## 2026-10-15
 
 - [US floats unfreezing some Russian assets to restart Ukraine peace talks](https://www.ft.com/content/54353d3a-afed-4fec-985a-50f3dfb9be8e?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Inflation, AI and climate: IMF kicks off key meeting in Bangkok](https://asia.nikkei.com/economy/inflation-ai-and-climate-imf-kicks-off-key-meeting-in-bangkok) — Nikkei Asia
 - [El hombre que voló una central nuclear y desapareció en bicicleta](https://www.eldiario.es/internacional/theguardian/hombre-volo-central-nuclear-desaparecio-bicicleta_1_13575184.html) — eldiario.es
 - [Fiese Frage im Bewerbungsgespräch: Wann Lügen erlaubt ist](https://www.handelsblatt.com/politik/deutschland/fragen-aus-dem-arbeitsrecht-fiese-frage-im-bewerbungsgespraech-wann-luegen-erlaubt-ist/100261421.html) — Handelsblatt
-
-## 2026-10-11
-
-- [‘Like a drill going into my eye’: why the mystery over Havana syndrome refuses to die](https://www.theguardian.com/us-news/ng-interactive/2026/oct/10/havana-syndrome-mystery-cia-russia) — The Guardian
-- [Nvidia in talks to acquire US ‘open’ model start-up Reflection AI](https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1) — Financial Times
-- [¿Vivienda, inmigración o Gobierno? Qué preocupa más a los votantes de cada partido](https://elpais.com/espana/elecciones-generales/2026-10-11/vivienda-inmigracion-o-gobierno-que-preocupa-mas-a-los-votantes-de-cada-partido.html) — EL PAÍS
-- [A Week Later, Russia Hasn’t Said What Pathogen Killed Plague Researcher](https://www.nytimes.com/2026/10/10/world/europe/russia-plague.html) — The New York Times
 
 ## Blocked until 5+ briefings have passed
 

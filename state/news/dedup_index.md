@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-16
+
+- **spain-canary-upc-left-unity** — eldiario.es: Nueva Canarias, Podemos, IU and Sumar sign a single 29-N ticket as Unidad del Pueblo Canario (section: spain)
+- **spain-madrid-strike-hoax-threats** — eldiario.es: Madrid education chief mis-attributed a strike email to a public school in Villarejo; threats followed (section: spain)
+- **spain-smi-5-percent-pre-election** — EL PAÍS: labour ministry preparing a ~5% minimum-wage rise before the vote; unions 7%, employers call it campaign timing (section: spain)
+- **germany-unicredit-commerzbank-ecb** — Berliner Zeitung: ECB clears Unicredit to take over Commerzbank; federal government has been resisting (section: germany)
+- **germany-ecj-phishing-bank-refunds** — Berliner Zeitung: ECJ says banks must refund phishing victims first even when alleging gross negligence (section: germany)
+- **germany-coalition-beziehungstotalschaden** — Handelsblatt: Union–SPD heading for a total relationship breakdown but both still flinch from new elections (section: germany)
+- **berlin-greens-monday-coalition-decision** — rbb24: Berlin Greens will decide Monday whether to open formal coalition talks with Linke and SPD (section: berlin)
+- **berlin-fuechse-porto-cl** — rbb24: Füchse Berlin beat Porto 36–33 and reached the Champions League main round (section: berlin)
+- **berlin-kinski-100** — Tagesspiegel: Klaus Kinski would have been 100; anniversary recap (section: berlin)
+- **world-ai-datacentre-bonds-darwin** — Financial Times: investors dump AI data-centre / neocloud bonds; CoreWeave and peers at stressed levels (section: world)
+- **world-india-software-vs-ai-chips** — Bloomberg: Indian IT stocks on course to beat global chip peers by the most in two decades (section: world)
+- **world-senegal-lgbtq-arrests** — The Guardian: HRW — 320+ arrests in Senegal after the homosexuality law was toughened (section: world)
+
 ## 2026-10-15
 
 - **spain-pp-vox-pensions-collapse-narrative** — eldiario.es: PP and Vox call the public pension system broken / about to *petar*; Commission-backed reform and AIReF spending-rule tests do not (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-us-troops-iran-strikes** — Financial Times: US deploys thousands of troops as Trump weighs strikes on Iran; Roosevelt due by end-November (section: world)
 - **world-brazil-ag-trump-meddling** — The Guardian: Attorney-general Messias says Trump funding plans against Brazil's court cannot be tolerated (section: world)
 - **world-singapore-nuclear-fusion** — Nikkei Asia: Singapore wants a larger role in the nuclear fusion industry (section: world)
-
-## 2026-10-01
-
-- **spain-automatic-lease-renewal-year-indemnity** — eldiario.es: second housing decree-law makes leases roll on automatically and requires 12 months' rent if the landlord breaks it (section: spain)
-- **spain-state-covers-rent-arrears-beyond-2030** — eldiario.es: regions pay unpaid rent then the state reimburses, to keep vulnerable tenants housed past 2030 (section: spain)
-- **spain-empty-home-sale-tax-incentives** — EL PAÍS: 100% CGT exemption under €200,000, tapering to €800,000, for selling vacant homes to public companies (section: spain)
-- **germany-autokrise-vw-mercedes-bmw-labour** — Handelsblatt: VW, Mercedes and BMW are tightening shop-floor conditions as the auto slump reaches workers (section: germany)
-- **germany-deutschlandticket-6680-january** — rbb24: Deutschlandticket rises €3.80 to €66.80 from January after Wednesday's price council (section: germany)
-- **germany-lausitz-record-wind-turbine** — Tagesspiegel: the world's tallest wind turbine is up in Lusatia; the practical test is still ahead (section: germany)
-- **berlin-kocak-quits-interior-committee** — rbb24: Neukölln Left MP Ferat Kocak quit the Bundestag interior committee after clan-contact reports (section: berlin)
-- **berlin-linke-unterlassung-redmann** — rbb24: Berlin Linke seeks a cease-and-desist against Brandenburg interior minister Jan Redmann (section: berlin)
-- **berlin-science-100-heads-body-nature** — Tagesspiegel: ten Berlin researchers on the annual 100-Köpfe list, from the cell to the rhinoceros (section: berlin)
-- **world-tokyo-ai-voice-publicity-ruling** — The Guardian: Tokyo court ruled an AI clone of Kenjiro Tsuda's voice violated publicity rights (section: world)
-- **world-tencent-oracle-100k-chips** — Financial Times: Tencent leased ~100,000 Oracle chips for South-East Asian data centres (section: world)
-- **world-lula-defense-industrial-policy** — Foreign Policy: Lula has put military-industrial spending at the centre of his re-election campaign (section: world)

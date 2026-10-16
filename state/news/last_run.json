@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-15",
-  "briefing_date": "2026-10-15",
-  "inbox_date": "2026-10-15",
+  "date": "2026-10-16",
+  "briefing_date": "2026-10-16",
+  "inbox_date": "2026-10-16",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-15.md",
-  "inbox_path": "inbox/news/2026-10-15-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-16.md",
+  "inbox_path": "inbox/news/2026-10-16-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Las voces de la huelga educativa / Qué quieren los profesores de Madrid / Escuchar a los profesores",
+      "headline": "El futuro de las pensiones irrumpe / Feijóo tiene un problema con las campañas / revalorizará las pensiones",
       "section": "spain",
-      "reason": "incremental to madrid-education-historic-strike 2026-10-14; Other Headlines only"
+      "reason": "incremental to spain-pp-vox-pensions-collapse-narrative 2026-10-15; not a material return"
     },
     {
-      "headline": "La ambigüedad de Colau sobre la marca del Frente Amplio y sobre su propio liderazgo inquieta en la alianza",
+      "headline": "Podemos y el Frente Amplio / izquierda alternativa Madrid / votantes: desesperación",
       "section": "spain",
-      "reason": "incremental left-list after Frente Amplio 2026-10-06 / 10-14 OH; Other Headlines only"
+      "reason": "one-theme with Canary UPC deal; Other Headlines only"
     },
     {
-      "headline": "Gabriel Rufián pedirá el voto para EH Bildu y BNG / La alianza de Rufián y Podemos pone en apuros a Comuns",
+      "headline": "Qué dice hoy la media de las encuestas: PP y Vox 201 escaños / 15 puntos",
       "section": "spain",
-      "reason": "one-theme with unused Colau list talks; Other Headlines only"
+      "reason": "campaign arithmetic parked in Other Headlines after CIS sample-bias 2026-10-15; Canary deal + Madrid hoax + SMI preferred"
     },
     {
-      "headline": "El PSOE y el PP encienden la batalla por el futuro de las pensiones / PP patina / portavoz 'va a petar'",
-      "section": "spain",
-      "reason": "one-theme: pensions already covered via AIReF/Brussels fact-check"
-    },
-    {
-      "headline": "Morning Briefing: Berlin könnte bei der Windkraft einen alten Fehler wiederholen",
+      "headline": "Musk: Der neue Tesla Roadster kann abheben",
       "section": "germany",
-      "reason": "avoid_unless_material: energy transition bottlenecks; Other Headlines only"
+      "reason": "geo: Tesla product launch, not Germany"
     },
     {
-      "headline": "+++ USA +++: USA erwägen Lockerung von Sanktionen gegen Schattenflotten-Tanker",
+      "headline": "Ukraine-Krieg: Was treibt Trump / Starshield für die Ukraine / Trump verurteilt Raffinerie-Angriffe",
       "section": "germany",
-      "reason": "geo: US/international, not Germany"
+      "reason": "geo: US/Ukraine, not Germany; Starlink already 2026-10-15 Other Headlines"
     },
     {
-      "headline": "Vor allem in Berlin und Düsseldorf: Anstieg der Wohnungsmieten hat sich beschleunigt",
+      "headline": "Bis zu 451.000 zusätzliche Hitzetote / Super-El-Niño Europa",
       "section": "germany",
-      "reason": "one-theme with Kiel advertised-rents Handelsblatt item"
+      "reason": "avoid_unless_material: heatwave adaptation; Europe-wide, parked with IMF food in Other Headlines"
     },
     {
-      "headline": "Der Hütchenspieler-Trick der Linken: Die Sondierungen in Berlin gehen weiter",
+      "headline": "EZB gibt grünes Licht: Unicredit darf Commerzbank übernehmen",
       "section": "berlin",
-      "reason": "incremental sondierungen after 2026-10-08 / 10-09; Other Headlines only"
+      "reason": "geo: federal banking, used in Germany"
     },
     {
-      "headline": "Brandenburger AfD-Fraktion kündigt Strafanzeige gegen Kurt Krömer an / Köthens Feuerwehrhaus",
+      "headline": "EuGH zwingt Banken zur Erstattung / Leipzig Rüstungsfabrik / USA Schattenflotte",
       "section": "berlin",
-      "reason": "geo: Brandenburg / Saxony-Anhalt, not Berlin"
+      "reason": "geo: ECJ/federal/US, not Berlin city; phishing used in Germany"
     },
     {
-      "headline": "UN-Abstimmung zu Kuba / Die USA, Kuba und die Energiedominanz",
+      "headline": "Potsdamer OB Wohnungskrise / Linda Teuteberg Brandenburg DDR-Beauftragte",
       "section": "berlin",
-      "reason": "geo: federal foreign policy / Cuba, not Berlin city"
+      "reason": "geo: Brandenburg, not Berlin"
     },
     {
-      "headline": "UK asks Interpol to reject Argentina’s Falklands oil arrests / Russia arrests Japanese journalist",
+      "headline": "Tech market sell-off deepens amid fears over US inflation and AI debt",
       "section": "world",
-      "reason": "already in 2026-10-14 Other Headlines; not a material return"
+      "reason": "one-theme with FT data-centre Darwin bonds; also incremental to 2026-10-15 Asia AI sell-off"
     },
     {
-      "headline": "berlin_pool_thin: after geo-misfits (BZ Cuba/Nord Stream-as-city, Köthen, Brandenburg AfD) local pool was FG protests / Neukölln app / Union stadium",
+      "headline": "Milei adviser / Falklands Islamisation",
+      "section": "world",
+      "reason": "incremental to 2026-10-14 Falklands-oil Other Headlines"
+    },
+    {
+      "headline": "berlin_pool_thin: after geo-misfits (Unicredit/ECJ/Leipzig/Potsdam/Teuteberg/Karls-California/Office-2021) local pool was Greens Monday / Füchse Porto / Kinski 100",
       "section": "berlin",
       "reason": "berlin_pool_thin / publisher_pool_thin"
     }
   ],
-  "notes": "Spain: PP/Vox pension-collapse narrative vs Commission/AIReF (eldiario), CIS sample-bias (EL PAÍS), Senate united-left list ~40 seats (eldiario). Skipped Madrid strike follow-ups (OH), Colau/Rufián/Comuns list talks (OH), duplicate pensions pieces. publisher_pool_thin: only eldiario and EL PAÍS in eligible Spain pool. Ceuta cooldown empty; Ceuta soldier-audio parked in OH (avoid_unless_material, not extraordinary). Germany: Kiel advertised-rents acceleration (HB), AI bioweapons / thin German prep (TSP), Kiesewetter Nord Stream warnings (BZ; tagged berlin in inbox, used as Germany — federal, not city). Skipped offshore stall (avoid_unless_material energy transition bottlenecks; OH), US shadow-fleet (geo), TSP rent dup. Berlin thin: Französisches Gymnasium protests (TSP), Neukölln alive-app (TSP), Union Alte Försterei financing (rbb24). World: Asia AI sell-off / Kospi halt / Nikkei -5% (East Asia, FT), Caine Prize AI denial (Africa, Guardian), Florida giant snails (North America, Atlantic). ≥2 non-European regions. Selected Reads: FT Russian-assets unfreeze, NYT Starlink/Kyiv, Nikkei 7-Eleven India/Lawson, FT K-shaped vs E."
+  "notes": "Spain: Canary Islands UPC left-unity ticket signed (eldiario), Madrid strike email mis-attributed then threats (eldiario), SMI ~5% before the vote (EL PAÍS). Skipped pensions follow-ups, leftover list-talk pieces (OH), poll-average 201 seats (OH). publisher_pool_thin: only eldiario and EL PAÍS in eligible Spain pool. Ceuta cooldown empty; no Ceuta item in inbox. Germany: Unicredit/Commerzbank ECB clearance (BZ; tagged berlin in inbox, used as Germany — federal banking), ECJ phishing refunds (BZ), Union–SPD Beziehungstotalschaden (HB). Skipped Tesla (geo), Trump/Ukraine/Starshield (geo), Super El Niño (avoid_unless_material heatwave; OH). Berlin thin: Greens Monday coalition decision (rbb24), Füchse Porto CL (rbb24), Kinski 100 (TSP). World: AI data-centre bonds Darwin moment (North America, FT), Indian software vs chip peers (South Asia, Bloomberg), Senegal LGBTQ+ arrests (Africa, Guardian). ≥2 non-European regions. Selected Reads: Nikkei IMF food/El Niño, NYT Russia winter energy, FP Musk/Starlink India+Ukraine, Guardian Maduro torture indictment."
 }
