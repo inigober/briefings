@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-17
+
+- **spain-frente-amplio-podemos-split-except-canarias-valencia** — EL PAÍS: Frente Amplio and Podemos closed a single Congress ballot only in the Canary Islands and Valencia (section: spain)
+- **spain-minguez-resigns-partner-rentals** — eldiario.es: PSOE spokesperson Montse Mínguez resigns after reporting on her partner's rental portfolio (section: spain)
+- **spain-medicinal-cannabis-hospitals** — EL PAÍS: specialist-prescribed medicinal cannabis arrives in hospital pharmacies (section: spain)
+- **germany-netzentgelte-rise-2027** — Handelsblatt: electricity and gas grid charges set to rise in 2027 (section: germany)
+- **germany-fruehstartrente-hoffmann-wuest** — Handelsblatt: Bundestag passes Frühstartrente; Wüst elected Bundesrat president; Hoffmann opposes MPs in statutory pension (section: germany)
+- **germany-2050-young-politicians** — Tagesspiegel: Lang, dos Santos-Wintz, Schwerdtner and Rinkert sketch Germany 2050 (section: germany)
+- **berlin-gp-waiting-rooms-covid** — Tagesspiegel: Berlin GP waiting rooms full; Covid cases rising with winter bugs (section: berlin)
+- **berlin-prenzlauer-berg-no-longer-kinderhochburg** — Tagesspiegel: Prenzlauer Berg has lost its Pregnancy Hill / Kinderhochburg reputation (section: berlin)
+- **berlin-mittelham-em-gold** — rbb24: Nina Mittelham (TTC Eastside) wins European mixed-doubles gold (section: berlin)
+- **world-sea-us-china-ai-blocs** — Nikkei Asia: Southeast Asia caught between competing US and Chinese AI blocs (section: world)
+- **world-brazil-amazon-deforestation-record-low** — The Guardian: Amazon deforestation at lowest since 1988 as Brazil runoff looms (section: world)
+- **world-anthropic-blackstone-chip-yield** — Financial Times: Anthropic offers Blackstone a double-digit yield for chip financing (section: world)
+
 ## 2026-10-16
 
 - **spain-canary-upc-left-unity** — eldiario.es: Nueva Canarias, Podemos, IU and Sumar sign a single 29-N ticket as Unidad del Pueblo Canario (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-tepco-capacity-squatters-ai** — Nikkei Asia: TEPCO is moving against firms that reserve grid capacity for AI data centres and sit on it (section: world)
 - **world-uscg-cuba-fuel-intercept** — The Guardian: the US Coast Guard boarded a dark-fleet fuel ship bound for Cuba and took it to Mexico (section: world)
 - **world-starbucks-xinjiang-cafes** — Handelsblatt: Starbucks opened its first Xinjiang cafés; a US congressman wants them shut (section: world)
-
-## 2026-10-02
-
-- **spain-junts-sinks-housing-decrees** — eldiario.es: Junts will vote down both housing decrees on Friday and wants them withdrawn first (section: spain)
-- **spain-40db-rent-intervention-poll** — EL PAÍS: 40dB finds >2/3 want rent intervention, including >55% of PP and Vox voters (section: spain)
-- **spain-vox-deportation-housing-frame** — eldiario.es: Vox treats the housing shortage as a migration problem and proposes mass deportations (section: spain)
-- **germany-prien-rejects-pflichtdienst** — Tagesspiegel: Prien rules out compulsory service for all and floats a Gesellschaftsdienst instead (section: germany)
-- **germany-merz-hybrid-attacks-warning** — Financial Times: Merz warns Europe should expect severe Russian hybrid attacks (section: germany)
-- **germany-dwd-fewer-tornadoes-2026** — Handelsblatt: DWD has counted 31 tornadoes in 2026, below the recent average (section: germany)
-- **berlin-sondierungen-recount-five-seats** — Tagesspiegel: Linke/Greens/SPD exploratory talks adjourn to Saturday; recount unseats five MPs (section: berlin)
-- **berlin-butze-street-children-house** — rbb24: Straßenkinder opens Butze, a house in Lichtenberg for homeless minors (section: berlin)
-- **berlin-founding-professors-baer-reiche-no-show** — Berliner Zeitung: 20 founding professors honoured; ministers Bär and Reiche did not attend (section: berlin)
-- **world-us-troops-iran-strikes** — Financial Times: US deploys thousands of troops as Trump weighs strikes on Iran; Roosevelt due by end-November (section: world)
-- **world-brazil-ag-trump-meddling** — The Guardian: Attorney-general Messias says Trump funding plans against Brazil's court cannot be tolerated (section: world)
-- **world-singapore-nuclear-fusion** — Nikkei Asia: Singapore wants a larger role in the nuclear fusion industry (section: world)

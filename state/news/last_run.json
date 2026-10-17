@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-16",
-  "briefing_date": "2026-10-16",
-  "inbox_date": "2026-10-16",
+  "date": "2026-10-17",
+  "briefing_date": "2026-10-17",
+  "inbox_date": "2026-10-17",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-16.md",
-  "inbox_path": "inbox/news/2026-10-16-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-17.md",
+  "inbox_path": "inbox/news/2026-10-17-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "El futuro de las pensiones irrumpe / Feijóo tiene un problema con las campañas / revalorizará las pensiones",
+      "headline": "El PSOE y el Frente Amplio alcanzan un pacto nacional de listas conjuntas al Senado",
       "section": "spain",
-      "reason": "incremental to spain-pp-vox-pensions-collapse-narrative 2026-10-15; not a material return"
+      "reason": "one-theme with leftover Congress split; material Senate close parked in Other Headlines"
     },
     {
-      "headline": "Podemos y el Frente Amplio / izquierda alternativa Madrid / votantes: desesperación",
+      "headline": "Así han quedado las candidaturas / Iglesias Madrid split-list maths / PSOE comité federal",
       "section": "spain",
-      "reason": "one-theme with Canary UPC deal; Other Headlines only"
+      "reason": "same leftover-lists theme as the EL PAÍS fail story"
     },
     {
-      "headline": "Qué dice hoy la media de las encuestas: PP y Vox 201 escaños / 15 puntos",
+      "headline": "Recortes, desregulación y prioridad nacional: medidas de Vox en las comunidades",
       "section": "spain",
-      "reason": "campaign arithmetic parked in Other Headlines after CIS sample-bias 2026-10-15; Canary deal + Madrid hoax + SMI preferred"
+      "reason": "structural preview, not a same-day beat; Other Headlines"
     },
     {
-      "headline": "Musk: Der neue Tesla Roadster kann abheben",
+      "headline": "Sorge vor Gewalt: Frankreich vor Protesttag / Iran Hormuz tanker / Trump Russia tariffs",
       "section": "germany",
-      "reason": "geo: Tesla product launch, not Germany"
+      "reason": "geo: France/Middle East/US, not Germany; parked in Other Headlines"
     },
     {
-      "headline": "Ukraine-Krieg: Was treibt Trump / Starshield für die Ukraine / Trump verurteilt Raffinerie-Angriffe",
+      "headline": "Demichelis Leipzig / Eintracht Koch / Messerangriff Olfen / Wildtiere Herbstunfälle",
       "section": "germany",
-      "reason": "geo: US/Ukraine, not Germany; Starlink already 2026-10-15 Other Headlines"
+      "reason": "sports, one-off crime, or seasonal filler after Netzentgelte + federal blog"
     },
     {
-      "headline": "Bis zu 451.000 zusätzliche Hitzetote / Super-El-Niño Europa",
-      "section": "germany",
-      "reason": "avoid_unless_material: heatwave adaptation; Europe-wide, parked with IMF food in Other Headlines"
-    },
-    {
-      "headline": "EZB gibt grünes Licht: Unicredit darf Commerzbank übernehmen",
+      "headline": "Brandenburger Schlachtefest / Rostock Kokain-Segler / Mont Blanc / Sotheby's Paris / Karls Kalifornien / Riad / China Yuan Forschung",
       "section": "berlin",
-      "reason": "geo: federal banking, used in Germany"
+      "reason": "geo: Brandenburg/MV/Alps/Paris/California/Saudi/China, not Berlin city"
     },
     {
-      "headline": "EuGH zwingt Banken zur Erstattung / Leipzig Rüstungsfabrik / USA Schattenflotte",
+      "headline": "Tasmania Babelsberg / Wannsee youth attack",
       "section": "berlin",
-      "reason": "geo: ECJ/federal/US, not Berlin city; phishing used in Germany"
+      "reason": "regionalliga filler and one-off crime; Mittelham EM gold preferred as the sport slot"
     },
     {
-      "headline": "Potsdamer OB Wohnungskrise / Linda Teuteberg Brandenburg DDR-Beauftragte",
-      "section": "berlin",
-      "reason": "geo: Brandenburg, not Berlin"
-    },
-    {
-      "headline": "Tech market sell-off deepens amid fears over US inflation and AI debt",
+      "headline": "The dress rehearsal for an AI reckoning / Big Tech biggest weekly drop since liberation day / Cartoon: AI tsunami",
       "section": "world",
-      "reason": "one-theme with FT data-centre Darwin bonds; also incremental to 2026-10-15 Asia AI sell-off"
+      "reason": "incremental to 2026-10-16 Darwin bonds and 2026-10-15 Asia AI sell-off; dress rehearsal used as Selected Read"
     },
     {
-      "headline": "Milei adviser / Falklands Islamisation",
+      "headline": "Nicolás Maduro torture allegations",
       "section": "world",
-      "reason": "incremental to 2026-10-14 Falklands-oil Other Headlines"
+      "reason": "URL already a Selected Read on 2026-10-16"
     },
     {
-      "headline": "berlin_pool_thin: after geo-misfits (Unicredit/ECJ/Leipzig/Potsdam/Teuteberg/Karls-California/Office-2021) local pool was Greens Monday / Füchse Porto / Kinski 100",
+      "headline": "Scottish North Sea oil / UK Chinese EV tariffs / Jamaica screen / Amelia Earhart photos",
+      "section": "world",
+      "reason": "Scotland used as Selected Read; UK EVs in Other Headlines; culture/curiosity skipped"
+    },
+    {
+      "headline": "publisher_pool_thin: eligible Spain pool was only eldiario.es and EL PAÍS after leftover-list collapse + Mínguez resignation + cannabis",
+      "section": "spain",
+      "reason": "publisher_pool_thin"
+    },
+    {
+      "headline": "berlin_pool_thin / germany_pool_thin: after geo-misfits, local Berlin pool was GP waiting rooms / Prenzlauer Berg / Mittelham; Germany remaining after geo+sports+crime was Netzentgelte, federal newsblog, 2050 feature",
       "section": "berlin",
-      "reason": "berlin_pool_thin / publisher_pool_thin"
+      "reason": "berlin_pool_thin / germany_pool_thin"
     }
   ],
-  "notes": "Spain: Canary Islands UPC left-unity ticket signed (eldiario), Madrid strike email mis-attributed then threats (eldiario), SMI ~5% before the vote (EL PAÍS). Skipped pensions follow-ups, leftover list-talk pieces (OH), poll-average 201 seats (OH). publisher_pool_thin: only eldiario and EL PAÍS in eligible Spain pool. Ceuta cooldown empty; no Ceuta item in inbox. Germany: Unicredit/Commerzbank ECB clearance (BZ; tagged berlin in inbox, used as Germany — federal banking), ECJ phishing refunds (BZ), Union–SPD Beziehungstotalschaden (HB). Skipped Tesla (geo), Trump/Ukraine/Starshield (geo), Super El Niño (avoid_unless_material heatwave; OH). Berlin thin: Greens Monday coalition decision (rbb24), Füchse Porto CL (rbb24), Kinski 100 (TSP). World: AI data-centre bonds Darwin moment (North America, FT), Indian software vs chip peers (South Asia, Bloomberg), Senegal LGBTQ+ arrests (Africa, Guardian). ≥2 non-European regions. Selected Reads: Nikkei IMF food/El Niño, NYT Russia winter energy, FP Musk/Starlink India+Ukraine, Guardian Maduro torture indictment."
+  "notes": "Spain: leftover Frente Amplio–Podemos Congress talks fail except Canarias and Valencia (EL PAÍS; material close of yesterday's Canary-model thread), Mínguez resignation over partner rentals (eldiario; resignation = material on PSOE/housing), medicinal cannabis in hospital pharmacies (EL PAÍS). Senate joint ticket parked in OH. publisher_pool_thin: only eldiario and EL PAÍS. Ceuta cooldown empty; Feijóo navy-to-Ceuta parked in OH (not extraordinary). Germany: Netzentgelte rise 2027 (HB), Bundestag Frühstartrente / Wüst Bundesrat / Hoffmann pension blog (HB), four politicians' 2050 utopias (TSP — feature; pool thin after France/Iran/Trump geo-misfits). Berlin thin: GP waiting rooms/Covid (TSP), Prenzlauer Berg no longer Kinderhochburg (TSP), Mittelham EM gold (rbb24). World: SEA US/China AI blocs (East Asia, Nikkei), Brazil Amazon record-low deforestation (Latin America, Guardian), Anthropic–Blackstone double-digit chip yield (North America, FT). ≥2 non-European regions. Selected Reads: FT AI-reckoning dress rehearsal, Politico Scotland oil/gas, Atlantic neuron blog, Nikkei Intel/White House."
 }

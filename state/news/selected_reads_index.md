@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-17
+
+- [The dress rehearsal for an AI reckoning](https://www.ft.com/content/3f982af9-3eec-476f-9d29-39145ac485c4?syn-25a6b1a6=1) — Financial Times
+- [Scottish government set to drop opposition to new oil and gas fields](https://www.politico.eu/article/scottish-government-to-drop-opposition-new-oil-gas-fields-north-sea-energy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [The Blog Post That Set the AI World on Fire](https://www.theatlantic.com/technology/2026/10/ai-neuron-blog-post/689058/?utm_source=feed) — The Atlantic
+- [Intel chief says White House will not meddle in its semiconductor business](https://asia.nikkei.com/business/tech/semiconductors/intel-chief-says-white-house-will-not-meddle-in-its-semiconductor-business) — Nikkei Asia
+
 ## 2026-10-16
 
 - [IMF warns global food security worsening amid El Nino](https://asia.nikkei.com/spotlight/environment/climate-change/imf-warns-global-food-security-worsening-amid-el-nino) — Nikkei Asia
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Congress Can Do More to Curb Kushner’s Conflicts of Interest](https://foreignpolicy.com/2026/10/12/congress-kushner-corruption-saudi-israel-russia/) — Foreign Policy
 - [NTT to build first data center for Anthropic in Japan](https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build-first-data-center-for-anthropic-in-japan) — Nikkei Asia
 - [Argentina temporarily closes Iguazu Falls after El Niño-fuelled surge in water levels](https://www.theguardian.com/world/2026/oct/13/argentina-iguazu-falls-temporarily-closed-el-nino-water-levels) — The Guardian
-
-## 2026-10-12
-
-- [The United States Is Not Ready for the Arctic Age](https://foreignpolicy.com/2026/10/09/arctic-russia-china-canada-energy-icebreakers/) — Foreign Policy
-- [Inflation, AI and climate: IMF kicks off key meeting in Bangkok](https://asia.nikkei.com/economy/inflation-ai-and-climate-imf-kicks-off-key-meeting-in-bangkok) — Nikkei Asia
-- [El hombre que voló una central nuclear y desapareció en bicicleta](https://www.eldiario.es/internacional/theguardian/hombre-volo-central-nuclear-desaparecio-bicicleta_1_13575184.html) — eldiario.es
-- [Fiese Frage im Bewerbungsgespräch: Wann Lügen erlaubt ist](https://www.handelsblatt.com/politik/deutschland/fragen-aus-dem-arbeitsrecht-fiese-frage-im-bewerbungsgespraech-wann-luegen-erlaubt-ist/100261421.html) — Handelsblatt
 
 ## Blocked until 5+ briefings have passed
 
