@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-18
+
+- **spain-senate-vox-pp-tactical-withdrawal** — EL PAÍS: Vox considering not running Senate candidates in some provinces and backing the PP against the left's joint list (section: spain)
+- **spain-rental-listings-2-5-pause** — eldiario.es: portals deny a mass landlord exit after the housing decrees; 2–5% temporary pause in ads (section: spain)
+- **spain-pnv-esteban-vox-deeds** — EL PAÍS: PNV president Aitor Esteban says deeds, not a fear vote, are how they keep Vox out (section: spain)
+- **germany-marine-coastal-investment** — Handelsblatt: navy needs more coastal berths, people and kit; station planning under way (section: germany)
+- **germany-weather-sensitivity** — Tagesspiegel: explainer on Wetterfühligkeit — whether scars and headaches forecast weather (section: germany)
+- **germany-smartphone-battery-anxiety** — Handelsblatt: survey — some users cancel plans when the phone battery is low (section: germany)
+- **berlin-rgr-coalition-talks-vergesellschaftung-compromise** — rbb24: Linke, Greens and SPD finish sondierungen with a socialization compromise; formal talks possible early November (section: berlin)
+- **berlin-public-lectures** — Tagesspiegel: Berlin Hochschulen reopen public lecture series (section: berlin)
+- **berlin-kleistpark-student-protest** — rbb24: pupils protest in Schöneberg Kleistpark for better education (section: berlin)
+- **world-us-10tn-ai-infra-fray** — Financial Times: America's $10tn AI infrastructure boom is starting to fray on physical-world economics (section: world)
+- **world-indonesia-nickel-vw-ford-tesla** — The Guardian: VW, Ford and Tesla batteries linked to nickel-mine deforestation on Tolaki land (section: world)
+- **world-venezuela-76bn-oil-investment** — Bloomberg: Acting President Rodríguez cites nearly $76bn oil and gas investment over five years (section: world)
+
 ## 2026-10-17
 
 - **spain-frente-amplio-podemos-split-except-canarias-valencia** — EL PAÍS: Frente Amplio and Podemos closed a single Congress ballot only in the Canary Islands and Valencia (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-china-record-bank-closures** — Financial Times: China shut a record 670+ lenders last year; Fitch says small banks remain the weak point (section: world)
 - **world-kawasaki-humanoid-robot-2030** — Nikkei Asia: Kawasaki Heavy aims for a fully autonomous humanoid AI robot by 2030 (section: world)
 - **world-atlantic-ai-writing-hypocrites** — The Atlantic: writers who use AI as an assistive tool tell others not to write with it (section: world)
-
-## 2026-10-03
-
-- **spain-housing-decrees-fall-congress** — eldiario.es: Junts, PP and Vox voted down both emergency housing decrees; ~5 million tenants due a renewal before 2028 lose the automatic extensions (section: spain)
-- **spain-sanchez-weighs-snap-election** — EL PAÍS: Sánchez is reading polls and Saturday's housing march before deciding whether to dissolve as early as Monday (section: spain)
-- **spain-housing-general-strike-poll** — eldiario.es: 73% of Spaniards and >60% of PP and Vox voters would support a housing general strike (section: spain)
-- **germany-galeria-insolvency-again** — Handelsblatt: Galeria is in insolvency again; Kortum says fewer stores or no future (section: germany)
-- **germany-glp1-children-obesity** — Handelsblatt: GLP-1 appetite drugs are being tried in children with extreme obesity when usual care fails (section: germany)
-- **germany-wehrpflicht-protest-brandenburg-gate** — rbb24: several thousand spent two days at the Brandenburg Gate against bringing back conscription (section: germany)
-- **berlin-sbahn-unity-promise-seven-missing** — Tagesspiegel: 36 years after the Bund promised the 1961 rail map, seven S-Bahn stretches are still missing (section: berlin)
-- **berlin-kauf-dich-gluecklich-28th** — Tagesspiegel: Kauf Dich Glücklich is opening its 28th branch, 25 years after a tiny vintage shop (section: berlin)
-- **berlin-tag-der-clubkultur-2026** — The Berliner: the city's annual club-culture day of workshops, panels and nights (section: berlin)
-- **world-tepco-capacity-squatters-ai** — Nikkei Asia: TEPCO is moving against firms that reserve grid capacity for AI data centres and sit on it (section: world)
-- **world-uscg-cuba-fuel-intercept** — The Guardian: the US Coast Guard boarded a dark-fleet fuel ship bound for Cuba and took it to Mexico (section: world)
-- **world-starbucks-xinjiang-cafes** — Handelsblatt: Starbucks opened its first Xinjiang cafés; a US congressman wants them shut (section: world)
