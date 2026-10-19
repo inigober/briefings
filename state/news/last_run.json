@@ -1,74 +1,74 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-18",
-  "briefing_date": "2026-10-18",
-  "inbox_date": "2026-10-18",
+  "date": "2026-10-19",
+  "briefing_date": "2026-10-19",
+  "inbox_date": "2026-10-19",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-18.md",
-  "inbox_path": "inbox/news/2026-10-18-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-19.md",
+  "inbox_path": "inbox/news/2026-10-19-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Sánchez pone al PSOE a bailar al ritmo de Begoña Gómez",
+      "headline": "La empresaria que dijo haber llevado 90.000 euros a Ferraz / Perro serás / Begoña Gómez",
       "section": "spain",
-      "reason": "avoid_unless_material: PSOE scandals / campaign framing, not a court ruling or resignation"
+      "reason": "avoid_unless_material: PSOE scandals / campaign colour, not a resignation or conviction"
     },
     {
-      "headline": "ERC y Comuns / Valencia unitary list / Rufián magician",
+      "headline": "PODCAST | Las piezas del puzzle imposible de la izquierda",
       "section": "spain",
-      "reason": "leftover-left / Catalan-list theme after 16–17 Oct; parked ERC–Comuns refuse-to-sit in Other Headlines"
+      "reason": "leftover-left theme already 16–17 Oct; parked Duro Felguera trial in Other Headlines"
     },
     {
-      "headline": "El PP arranca con tropiezos / Feijóo sacrificios y voto por correo",
+      "headline": "Macron acusa a la extrema izquierda / Francia ante el caos / juventud europea",
       "section": "spain",
-      "reason": "pensions thread already 15 Oct; PP stumbles parked in Other Headlines"
+      "reason": "geo: France/Europe street unrest, not Spain; parked in Other Headlines"
     },
     {
-      "headline": "Francia prende fuego / Limoges town hall / Fourquet end of a reign",
-      "section": "spain",
-      "reason": "geo: France, not Spain; parked in Other Headlines"
-    },
-    {
-      "headline": "Trump geht auf Moskau zu / Pope Angelus / Canada base / iPod 25 Jahre",
+      "headline": "Iran-Krieg Hormus / Ukraine-Krieg Putin-Trump-Xi / Asiens Börsen KI",
       "section": "germany",
-      "reason": "geo: US/Ukraine, Vatican, Canada, Apple history — not Germany; Trump/Canada in Other Headlines"
+      "reason": "geo: Middle East, Ukraine, Asia markets — not Germany; Hormuz/Ukraine in Other Headlines"
     },
     {
-      "headline": "Leipzig 1:6 Bayern / Kompany Bank / Elversberg 4:3",
+      "headline": "Regierungsbildung: Zwei Parteien in Berlin (Handelsblatt/Tagesspiegel germany items)",
       "section": "germany",
-      "reason": "sports filler after only Marine remained as a Germany policy beat"
+      "reason": "geo: Berlin coalition vote used in Berlin section, not Germany"
     },
     {
-      "headline": "Woidke 65 / Brandenburg Herbstferien / Neuwürschnitz moped / Rostock sailors / Mont Blanc / Sotheby's Paris / Riyadh / China 3.93tn yuan",
+      "headline": "Thüringen E-Autos / Wismar Malzfabrik / Tanker Rügen / Ostsee Hochwasser / Frankreich 1200 Festnahmen / Rostock Schmerzmittel",
       "section": "berlin",
-      "reason": "geo: Brandenburg/Saxony/MV/Alps/Paris/Saudi/China, not Berlin city"
+      "reason": "geo: Thuringia/MV/Baltic/France, not Berlin city; tanker and flood parked in Other Headlines"
     },
     {
-      "headline": "Berlin auf dem Weg zur Vergesellschaftung (Tagesspiegel)",
-      "section": "berlin",
-      "reason": "one-theme with rbb24 coalition talks that already include the socialization compromise"
-    },
-    {
-      "headline": "FT economist AI surge / Anthropic lawyers / cartoon AI tsunami / Asia sell-off deepen",
+      "headline": "Anthropic commits 5% of shares to public benefit fund / Israel flight diverted / Falklands / UK Chinese EV tariffs / Earhart",
       "section": "world",
-      "reason": "one-theme with $10tn physical-constraint lead; economist survey used as Selected Read; lawyers in Other Headlines"
+      "reason": "Anthropic and Israel flight parked in Other Headlines; Falklands was Selected Read 18 Oct; UK EVs already Other Headlines 17–18 Oct; Earhart curiosity skipped"
     },
     {
-      "headline": "UK Chinese EV tariffs / Amelia Earhart photos",
+      "headline": "Canadian military base fire four dead",
       "section": "world",
-      "reason": "UK EVs already Other Headlines 17 Oct; Earhart curiosity skipped"
+      "reason": "already Other Headlines 18 Oct; not re-elevated"
     },
     {
-      "headline": "publisher_pool_thin: eligible Spain pool was only eldiario.es and EL PAÍS after leftover-list collapse + Begoña reject + France geo-misfits",
+      "headline": "¿Qué encuestas aciertan más? / 18 años y un voto / Wetten dass Kaulitz / Tegel knife",
+      "section": "spain",
+      "reason": "poll-method feature, first-vote podcast, TV celebrity, one-off crime — not section leads"
+    },
+    {
+      "headline": "publisher_pool_thin: eligible Spain pool was only eldiario.es and EL PAÍS after PSOE-scandal reject + leftover-left + France geo-misfits",
       "section": "spain",
       "reason": "publisher_pool_thin"
     },
     {
-      "headline": "germany_pool_thin: after geo-misfits and sports, remaining Germany-about-Germany items were Marine coastal investment, Wetterfühligkeit explainer, smartphone-battery survey",
+      "headline": "germany_pool_thin: after geo-misfits, remaining Germany-about-Germany items were Invest in Germany summit, Frei/Miersch Miosga, summer-holiday booking psychology",
       "section": "germany",
       "reason": "germany_pool_thin"
+    },
+    {
+      "headline": "berlin_pool_thin: after geo-misfits and sports duplicates, remaining Berlin items were Monday coalition vote, Teuteberg SED education, BR Volleys Ligacup",
+      "section": "berlin",
+      "reason": "berlin_pool_thin"
     }
   ],
-  "notes": "Spain: Senate Vox-may-stand-down-for-PP (EL PAÍS; material on 15/17 Senate thread), rental listings 2–5% pause not mass flight (eldiario; housing-decree data, not a protest), PNV Esteban deeds-not-fear (EL PAÍS). publisher_pool_thin: only eldiario and EL PAÍS. Ceuta cooldown empty; no enclave item in inbox. Germany thin: Marine coastal investment (HB), weather-sensitivity explainer (TSP), smartphone-battery survey (HB) after Trump/Ukraine/Pope/Canada/iPod geo-misfits and Bundesliga sports. Berlin: sondierungen closed with Vergesellschaftung compromise (rbb24; material on 16 Oct Greens-Monday thread), public lectures (TSP), Kleistpark pupil protest (rbb24). TSP socialization feature dropped as one-theme. World: US $10tn AI infra fray (North America, FT), Indonesia nickel / VW-Ford-Tesla (East Asia, Guardian), Venezuela $76bn oil (Latin America, Bloomberg). ≥2 non-European regions. Selected Reads: Nikkei Asia diverging fortunes, FT economist AI surge, Guardian Falklands, Nikkei Vanderbilt universities."
+  "notes": "Spain: Ayuso health staff budget (eldiario; internal document vs strike-week rhetoric), Andalusia PP–Vox NGO homeless-aid cuts (eldiario; policy action), social-Tuesdays benefits decree (EL PAÍS). publisher_pool_thin: only eldiario and EL PAÍS. Ceuta cooldown empty; no enclave item. Germany thin: Invest in Germany / Fink-Huang (HB), Frei/Miersch on Vergesellschaftung (TSP), autumn holiday-booking psychology (HB) after Hormuz/Ukraine/Asia geo-misfits and Berlin coalition duplicates. Berlin: Monday SPD/Greens decision (rbb24; process step on 16/18 Oct thread), Teuteberg SED youth education (TSP), BR Volleys Ligacup (rbb24). World: French supermarket fridge cyber (Europe, Politico), Alzheimer's brain evolution (North America science, Atlantic), Japan journalist/Russia (East Asia, Nikkei). ≥2 non-European regions. Selected Reads: FT Barclays/BoE private credit, FT Hollywood tycoons, Guardian Lagos hypemen, Nikkei Taiwan–Philippines maritime."
 }

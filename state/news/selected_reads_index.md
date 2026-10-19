@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-19
+
+- [BoE scrutinises Barclays over claim traders misrepresented private credit exposure](https://www.ft.com/content/f3127b4f-d33a-4431-acff-021829f3aa72?syn-25a6b1a6=1) — Financial Times
+- [Hollywood recasts tech tycoons as bad billionaires](https://www.ft.com/content/5483aa1b-7380-45d6-be0f-1a4b2098c903?syn-25a6b1a6=1) — Financial Times
+- [Hilarious quips and ‘100,000-volt’ energy: the hypemen (and women) redefining Afrobeats music](https://www.theguardian.com/world/2026/oct/18/lagos-hypemen-redefining-afrobeats-music-afrohype) — The Guardian
+- [Taiwan, Philippines kindle maritime cooperation in face of Chinese pressure](https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-philippines-kindle-maritime-cooperation-in-face-of-chinese-pressure) — Nikkei Asia
+
 ## 2026-10-18
 
 - [AI, climate and private capital reveal Asia's diverging fortunes](https://asia.nikkei.com/economy/ai-climate-and-private-capital-reveal-asia-s-diverging-fortunes) — Nikkei Asia
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Ukraine’s Exposure Grows as Satellite Use Is Restricted and Russia Escalates](https://www.nytimes.com/2026/10/14/world/europe/ukraine-starlink-energy.html) — The New York Times
 - [7-Eleven's India exit casts shadow over Lawson's expansion plans](https://asia.nikkei.com/business/retail/7-eleven-s-india-exit-casts-shadow-over-lawson-s-expansion-plans) — Nikkei Asia
 - [Is the K-shaped economy really more of an E?](https://www.ft.com/content/2feb3013-c01a-4fa6-aa11-67354fb71cc8?syn-25a6b1a6=1) — Financial Times
-
-## 2026-10-14
-
-- [How I used AI to become a chess grandmaster at 16](https://www.ft.com/content/8267236e-f4bb-4d7b-9ed7-6ec0a9867b94) — Financial Times
-- [Central banks navigate inflation uncertainty amid supply shocks](https://asia.nikkei.com/economy/inflation/central-banks-navigate-inflation-uncertainty-amid-supply-shocks2) — Nikkei Asia
-- [Saudi Energy Giant Struck as War Spikes Between Houthis and Saudi Arabia](https://www.nytimes.com/2026/10/13/world/middleeast/saudi-arabia-yemen-houthis-aramco-threat.html) — The New York Times
-- [Latin American organised crime ‘may operate in 16 European countries’](https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

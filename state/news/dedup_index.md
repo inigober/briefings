@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-19
+
+- **spain-ayuso-health-staff-budget** — eldiario.es: internal Madrid health paper — personnel budget below last year's spend, does not cover authorised headcount; doctors' purchasing power lowest in Spain (section: spain)
+- **spain-andalucia-vox-ong-homeless-cuts** — eldiario.es: Moreno government suspends Red Cross/SAMU/Inserta grants for homeless (80% foreign) after PP–Vox "national priority" pact; street date 20 December (section: spain)
+- **spain-martes-sociales-benefits-decree** — EL PAÍS: caretaker Cabinets until 29-N as "social Tuesdays"; first decree raises widowhood, disability, terrorism and gender-violence benefits (section: spain)
+- **germany-invest-in-germany-merz-fink-huang** — Handelsblatt: Merz courts BlackRock's Fink and Nvidia's Huang at Invest in Germany summit in Berlin (section: germany)
+- **germany-frei-miersch-miosga-vergesellschaftung** — Tagesspiegel: Frei tells Miosga socialization is the stupidest idea; federal coalition peace talk collides with Berlin R2G (section: germany)
+- **germany-summer-holiday-autumn-booking** — Handelsblatt: booking summer holidays in autumn sold as psychology and price tactic (section: germany)
+- **berlin-spd-greens-monday-coalition-vote** — rbb24: SPD state board and Greens meeting decide Monday on formal talks with Linke (section: berlin)
+- **berlin-teuteberg-sed-youth-education** — Tagesspiegel: new SED-injustice commissioner Teuteberg will put youth education beside counselling (section: berlin)
+- **berlin-br-volleys-ligacup** — rbb24: BR Volleys win the German Ligacup (section: berlin)
+- **world-france-supermarket-fridge-cyberattack** — Politico Europe: hackers remotely raised French supermarket fridge temperatures; food-security not AI-safety frame (section: world)
+- **world-alzheimers-brain-evolution** — The Atlantic: genetic changes that built the human brain may have set up Alzheimer's (section: world)
+- **world-japan-journalist-russia-detainee** — Nikkei Asia: ex-detainee says Russia wants something in return for a Japanese journalist (section: world)
+
 ## 2026-10-18
 
 - **spain-senate-vox-pp-tactical-withdrawal** — EL PAÍS: Vox considering not running Senate candidates in some provinces and backing the PP against the left's joint list (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-flavio-bolsonaro-first-round-lead** — Financial Times: Flávio Bolsonaro leads Lula after the first round and is favourite for the 25 October runoff (section: world)
 - **world-trump-boom-not-helping** — Financial Times: AI anxiety and affordability have turned Trump's party into a midterm target despite strong official numbers (section: world)
 - **world-egypt-matsadaash-newsroom** — The Guardian: Egypt detained the Matsadaash newsroom and charged a journalist with terrorism (section: world)
-
-## 2026-10-04
-
-- **spain-right-voters-back-killed-housing-shield** — eldiario.es: more than half of PP, Vox and Junts voters support the eviction shield and vulture-fund veto their parties killed on Friday (section: spain)
-- **spain-psoe-majority-urges-snap-election** — EL PAÍS: most of the PSOE and the government are telling Sánchez to dissolve now (section: spain)
-- **spain-junts-puigdemont-return-roadmap** — EL PAÍS: Junts is writing its next phase around Puigdemont's return and ignoring the housing backlash (section: spain)
-- **germany-merz-surprise-kyiv-drone-deal** — Handelsblatt: Merz arrived unannounced in Kyiv with Reiche; a drone deal and more aid are the aim (section: germany)
-- **germany-erfurt-semiconductor-bet** — Tagesspiegel: Erfurt is pushing a large chip project beside Dresden's better-known cluster (section: germany)
-- **germany-insa-afd-30-union-record-low** — Berliner Zeitung: Insa has the AfD at 30% and the CDU/CSU at 18%, a record low (section: germany)
-- **berlin-gorki-membrana-lhuillier** — The Berliner: Nicole L'Huillier's Membrana installation wraps the Maxim Gorki Theater (section: berlin)
-- **berlin-hertha-international-break-rhythm** — Tagesspiegel: Hertha kept match rhythm through the international break, including a friendly at Augsburg (section: berlin)
-- **berlin-fuechse-bietigheim-away-win** — rbb24: Füchse Berlin scraped a Bundesliga handball win in Bietigheim (section: berlin)
-- **world-china-record-bank-closures** — Financial Times: China shut a record 670+ lenders last year; Fitch says small banks remain the weak point (section: world)
-- **world-kawasaki-humanoid-robot-2030** — Nikkei Asia: Kawasaki Heavy aims for a fully autonomous humanoid AI robot by 2030 (section: world)
-- **world-atlantic-ai-writing-hypocrites** — The Atlantic: writers who use AI as an assistive tool tell others not to write with it (section: world)
