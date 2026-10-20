@@ -263,12 +263,20 @@ def detect_smoke_trigger(type_id: str, date_str: str | None = None) -> TriggerDe
     )
 
 
-def detect_backup_trigger(date_str: str | None = None) -> TriggerDecision:
-    """Find inbox research waiting for synthesis (cron backup path)."""
+def detect_backup_trigger(
+    date_str: str | None = None, only_type: str | None = None
+) -> TriggerDecision:
+    """Find inbox research waiting for synthesis (cron backup path).
+
+    ``only_type`` restricts the scan to one briefing type (used when a pre-fetch
+    workflow chains straight into synthesis).
+    """
     date_str = date_str or datetime.now(timezone.utc).strftime("%Y-%m-%d")
     candidates: list[tuple[str, str, tuple[str, ...]]] = []
 
     for type_id in load_manifest():
+        if only_type and type_id != only_type:
+            continue
         bt = load_briefing_type(type_id)
         inbox_date = resolve_inbox_date_key(type_id, date_str)
 
@@ -333,9 +341,11 @@ def _best_skip_rejection(
     return f"{type_id}: {reason}", matched
 
 
-def detect_trigger(commit_sha: str | None = None, *, backup: bool = False) -> TriggerDecision:
+def detect_trigger(
+    commit_sha: str | None = None, *, backup: bool = False, only_type: str | None = None
+) -> TriggerDecision:
     if backup:
-        return detect_backup_trigger()
+        return detect_backup_trigger(only_type=only_type)
     sha = resolve_commit_sha(commit_sha)
     subject = commit_subject(sha)
     changed = changed_files_in_commit(sha)
@@ -411,7 +421,7 @@ def main() -> int:
     parser.add_argument(
         "--type",
         dest="type_id",
-        help="Briefing type (required with --smoke)",
+        help="Briefing type (required with --smoke; optional filter with --backup)",
     )
     parser.add_argument(
         "--date",
@@ -426,7 +436,9 @@ def main() -> int:
                 return 1
             decision = detect_smoke_trigger(args.type_id, args.date or None)
         else:
-            decision = detect_trigger(args.commit, backup=args.backup)
+            decision = detect_trigger(
+                args.commit, backup=args.backup, only_type=args.type_id or None
+            )
     except subprocess.CalledProcessError as exc:
         print(exc.stderr or exc, file=sys.stderr)
         return 1

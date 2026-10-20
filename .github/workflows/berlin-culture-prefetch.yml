@@ -18,6 +18,8 @@ concurrency:
 jobs:
   prefetch:
     runs-on: ubuntu-latest
+    outputs:
+      pushed: ${{ steps.commit.outputs.pushed }}
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -138,3 +140,16 @@ jobs:
           done
           echo "Push failed after 2 attempts"
           exit 1
+
+  # Chain into Claude synthesis. Off until the repo variable SYNTHESIS_RUNNER is "claude".
+  synthesize:
+    needs: prefetch
+    if: ${{ needs.prefetch.outputs.pushed == 'true' && vars.SYNTHESIS_RUNNER == 'claude' }}
+    permissions:
+      contents: write
+      actions: write
+    uses: ./.github/workflows/synthesize-briefing.yml
+    with:
+      mode: backup
+      type_id: berlin-culture
+    secrets: inherit

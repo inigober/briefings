@@ -101,7 +101,11 @@ jobs:
             python scripts/detect_synthesis_trigger.py --json --smoke --type "$SMOKE_TYPE" "${DATE_ARGS[@]}" > decision.json
             E2E=true
           else
-            python scripts/detect_synthesis_trigger.py --json --backup > decision.json
+            TYPE_ARGS=()
+            if [ -n "$SMOKE_TYPE" ]; then
+              TYPE_ARGS=(--type "$SMOKE_TYPE")
+            fi
+            python scripts/detect_synthesis_trigger.py --json --backup "${TYPE_ARGS[@]}" > decision.json
           fi
           cat decision.json
           TYPE=$(python3 -c 'import json; print(json.load(open("decision.json")).get("type_id") or "")')

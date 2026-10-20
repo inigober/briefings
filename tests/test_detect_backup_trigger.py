@@ -17,6 +17,19 @@ from detect_synthesis_trigger import detect_backup_trigger  # noqa: E402
 
 
 class TestBackupTrigger(unittest.TestCase):
+    def test_only_type_filters_other_pending_types(self) -> None:
+        date_str = "2099-06-03"
+        synthesis = REPO_ROOT / f"inbox/news/{date_str}-synthesis.json"
+        synthesis.parent.mkdir(parents=True, exist_ok=True)
+        synthesis.write_text("{}", encoding="utf-8")
+        try:
+            decision = detect_backup_trigger(date_str, only_type="berlin-restaurants")
+            self.assertIsNone(decision.type_id)
+            decision = detect_backup_trigger(date_str, only_type="news")
+            self.assertEqual(decision.type_id, "news")
+        finally:
+            synthesis.unlink(missing_ok=True)
+
     def test_finds_pending_news(self) -> None:
         synthesis = REPO_ROOT / "inbox/news/2099-06-01-synthesis.json"
         briefing = REPO_ROOT / "briefings/news/2099-06-01.md"
