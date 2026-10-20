@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-20
+
+- **spain-espinosa-monasterio-tax-court** — eldiario.es: Madrid high court dismisses four of five appeals by Iván Espinosa de los Monteros and Rocío Monasterio against tax fines on a luxury-attic deal (section: spain)
+- **spain-oxfam-housing-working-poor** — EL PAÍS: Oxfam Intermón — housing costs push 770,000 workers into poverty; working-poor rate 15.5% / ~3 million after rent or mortgage (section: spain)
+- **spain-dana-2024-alert-lessons** — EL PAÍS: comparison of *dana* Adam with 2024 Valencia floods; mass alerts and prevention still incomplete (section: spain)
+- **germany-trumpflation-mortgages-2009** — Handelsblatt: German home-loan rates dearest since 2009 as Iran-war inflation lifts credit costs (section: germany)
+- **germany-kv-slot-reporting-terminnot** — Tagesspiegel: KBV says a fixed free-appointment reporting rule will lengthen statutory waiting times (section: germany)
+- **germany-db-familienticket-99-99** — Berliner Zeitung: DB restores €99.99 family return ticket for five; commuter monthly cards cut 25% (section: germany)
+- **berlin-spd-greens-yes-coalition-talks** — rbb24: SPD state board and Greens vote to open formal talks with Linke; Left congress still due end-October (section: berlin)
+- **berlin-greens-senat-selection-commission** — Tagesspiegel: four-person commission, not Graf/Jarasch, to pick possible Green Senat members (section: berlin)
+- **berlin-alba-bamberg-bbl-pokal** — rbb24: Alba Berlin beat cup holders Bamberg 83–71 in the BBL-Pokal (section: berlin)
+- **world-kenya-ebola-us-health-cuts** — The Guardian: eighth Bundibugyo case in Kenya's first cluster; US WHO cuts, travel bans, quarantine centre (section: world)
+- **world-ai-debt-cds-surge** — Financial Times: credit-default-swap volumes on big-tech names surge as a hedge on the AI boom (section: world)
+- **world-internet-archive-wayback-ai** — The Atlantic: blocking the Wayback Machine is collateral damage in the publisher–AI scrape fight (section: world)
+
 ## 2026-10-19
 
 - **spain-ayuso-health-staff-budget** — eldiario.es: internal Madrid health paper — personnel budget below last year's spend, does not cover authorised headcount; doctors' purchasing power lowest in Spain (section: spain)
@@ -215,18 +230,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-qualcomm-huawei-5g-ai-patents** — Nikkei Asia: Qualcomm will pay Huawei for 5G and AI patents for the first time (section: world)
 - **world-reliance-closes-7eleven-india** — Nikkei Asia: Reliance has shut all 7-Eleven stores in India (section: world)
 - **world-houthi-medina-turkey-pakistan-troops** — Tagesspiegel: Turkey and Pakistan are sending troops after Houthi attacks on Medina (section: world)
-
-## 2026-10-05
-
-- **spain-moncloa-snap-election-decree-permanente** — EL PAÍS: snap-election call is ready; Moncloa is drafting a path to re-pass the housing decrees via the Permanent Deputation (section: spain)
-- **spain-judge-almeida-maricarmen-emvs** — eldiario.es: a judge used Almeida's Maricarmen response as a "notorious fact" to halt other EMVS evictions (section: spain)
-- **spain-40db-vox-right-bloc-50** — EL PAÍS: 40dB has the PP at 31.6%, only Vox rising, right bloc still at 50% (fieldwork before Friday's vote) (section: spain)
-- **germany-linke-reiche-verfassungsgericht** — Tagesspiegel: Die Linke asked the Federal Constitutional Court to rule on Reiche's post-Berlin-election remarks (section: germany)
-- **germany-genz-labour-humility** — Tagesspiegel: the entry-level job market has shrunk; Gen Z's labour-market swagger is fading (section: germany)
-- **germany-merz-ukraine-morning-briefing-writeoff** — Handelsblatt: morning note writes off Merz domestically and leaves him Ukraine as the remaining mission (section: germany)
-- **berlin-ai-healthcare-clinics** — The Berliner: AI is entering Berlin hospitals and practices; the question is oversight, not arrival (section: berlin)
-- **berlin-potsdamer-platz-lift-shaft** — rbb24: a person fell 15 metres into a lift shaft at Potsdamer Platz and was flown to hospital (section: berlin)
-- **berlin-eisbaeren-nuernberg-win** — rbb24: the Eisbären beat Nürnberg after a slow start (section: berlin)
-- **world-flavio-bolsonaro-first-round-lead** — Financial Times: Flávio Bolsonaro leads Lula after the first round and is favourite for the 25 October runoff (section: world)
-- **world-trump-boom-not-helping** — Financial Times: AI anxiety and affordability have turned Trump's party into a midterm target despite strong official numbers (section: world)
-- **world-egypt-matsadaash-newsroom** — The Guardian: Egypt detained the Matsadaash newsroom and charged a journalist with terrorism (section: world)

@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-20
+
+- [Singapore's AI-backed growth masks strains in food services](https://asia.nikkei.com/economy/inflation/singapore-s-ai-backed-growth-masks-strains-in-food-services2) — Nikkei Asia
+- [Trump envoys to hold fresh Ukraine talks as energy crunch looms over midterms](https://www.ft.com/content/581d8a59-b128-4f68-9f34-6c066b36ca5b?syn-25a6b1a6=1) — Financial Times
+- [Europe Is Finally Getting Tough on China. Now Comes the Hard Part.](https://foreignpolicy.com/2026/10/19/europe-china-france-germany-trade-economy/) — Foreign Policy
+- [US grants deportation reprieve to migrants from Ukraine and Sudan](https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan) — The Guardian
+
 ## 2026-10-19
 
 - [BoE scrutinises Barclays over claim traders misrepresented private credit exposure](https://www.ft.com/content/f3127b4f-d33a-4431-acff-021829f3aa72?syn-25a6b1a6=1) — Financial Times
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Why Russia Sees a Window to Bomb Ukraine Into Submission This Winter](https://www.nytimes.com/2026/10/15/world/europe/russia-ukraine-winter-energy.html) — The New York Times
 - [A Tale of Two Elon Musk Fights](https://foreignpolicy.com/2026/10/15/elon-musk-india-ukraine-starlink/) — Foreign Policy
 - [Nicolás Maduro tells New York court new torture allegations are ‘false’](https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores) — The Guardian
-
-## 2026-10-15
-
-- [US floats unfreezing some Russian assets to restart Ukraine peace talks](https://www.ft.com/content/54353d3a-afed-4fec-985a-50f3dfb9be8e?syn-25a6b1a6=1) — Financial Times
-- [Ukraine’s Exposure Grows as Satellite Use Is Restricted and Russia Escalates](https://www.nytimes.com/2026/10/14/world/europe/ukraine-starlink-energy.html) — The New York Times
-- [7-Eleven's India exit casts shadow over Lawson's expansion plans](https://asia.nikkei.com/business/retail/7-eleven-s-india-exit-casts-shadow-over-lawson-s-expansion-plans) — Nikkei Asia
-- [Is the K-shaped economy really more of an E?](https://www.ft.com/content/2feb3013-c01a-4fa6-aa11-67354fb71cc8?syn-25a6b1a6=1) — Financial Times
 
 ## Blocked until 5+ briefings have passed
 
