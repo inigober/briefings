@@ -155,6 +155,24 @@ jobs:
           print(json.dumps(context, indent=2))
           PY
 
+      # Smoke replay: if a production briefing for this date already exists, rewind
+      # state/{type} to just before it was written so the model sees the same
+      # memory the original run saw (otherwise dedup rejects that day's own stories).
+      - name: Replay pre-run state (smoke only)
+        if: steps.trigger.outputs.should_run == 'true' && steps.trigger.outputs.e2e_test == 'true'
+        env:
+          TYPE: ${{ steps.trigger.outputs.type_id }}
+          DATE: ${{ steps.trigger.outputs.date }}
+        run: |
+          set -euo pipefail
+          COMMIT=$(git log --diff-filter=A --format=%H -1 -- "briefings/${TYPE}/${DATE}.md")
+          if [ -z "$COMMIT" ]; then
+            echo "No production briefing in history for ${TYPE} ${DATE}; using current state"
+            exit 0
+          fi
+          echo "Rewinding state/${TYPE} to the parent of ${COMMIT}"
+          git checkout "${COMMIT}^" -- "state/${TYPE}"
+
       - name: Set up Node
         if: steps.trigger.outputs.should_run == 'true'
         uses: actions/setup-node@v5
