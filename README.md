@@ -35,7 +35,7 @@ config/briefings.yaml          ← registry (paths, schedules, prompts)
 │   ├── claude-synthesis-run.md          # CI contract for the Claude synthesis job
 │   ├── synthesis-dispatcher-run.md      # manual / local synthesis routing
 │   └── {type}/synthesis-run.md          # per-type synthesis steps
-├── inbox/{type}/                        # pre-fetch JSON
+├── inbox/{type}/                        # pre-fetch JSON (raw/rss/wordpress intermediates pruned after 60 days)
 ├── briefings/{type}/                    # committed outputs
 ├── state/{type}/                        # dedup / memory
 └── scripts/

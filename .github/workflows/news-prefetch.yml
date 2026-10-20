@@ -70,12 +70,16 @@ jobs:
         run: |
           python scripts/slim_inbox_for_synthesis.py --type news --date ${{ steps.run_date.outputs.value }}
 
+      - name: Prune old inbox intermediates
+        run: python scripts/prune_inbox.py --days 60
+
       - name: Commit inbox if changed
         id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add inbox/news/
+          # -A so deletions from the prune step (any briefing type) are staged too.
+          git add -A inbox/
           if git diff --cached --quiet; then
             echo "No inbox changes to commit"
             echo "pushed=false" >> "$GITHUB_OUTPUT"
