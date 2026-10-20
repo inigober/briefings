@@ -55,6 +55,15 @@ class TestMusicResearchHelpers(unittest.TestCase):
             "known_label_threshold": 15,
         }
 
+    def test_prompt_recent_window_follows_briefing_year(self) -> None:
+        prompt = build_search_phase_prompt(
+            date_str="2027-03-05",
+            taste=self.taste,
+            search_domains=self.sources_cfg.get("allowed_domains") or [],
+        )
+        self.assertIn("recent (2025–2027)", prompt)
+        self.assertNotIn("2024–2026", prompt)
+
     def test_prompt_requires_web_search_and_forbids_invented_urls(self) -> None:
         prompt = build_search_phase_prompt(
             date_str="2026-08-14",

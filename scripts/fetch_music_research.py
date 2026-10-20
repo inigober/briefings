@@ -410,11 +410,12 @@ def build_search_phase_prompt(
     if len(snapshot) > 12000:
         snapshot = snapshot[:12000] + "\n…(truncated)…"
     domains = "\n".join(f"- {d}" for d in search_domains)
+    year = int(date_str[:4])
     return f"""You are researching candidates for a weekly personal music discovery briefing. PHASE 1: web research only.
 
 Briefing Friday date: {date_str}
 Target: at least {MUSIC_MIN_CANDIDATES} release candidates with **exact live URLs copied from search results**.
-Mix: roughly half club/DJ-floor and half home listening; mix recent (2024–2026) and aged-well records.
+Mix: roughly half club/DJ-floor and half home listening; mix recent ({year - 2}–{year}) and aged-well records.
 Need enough extras that synthesis can pick **6 featured (3 club + 3 home) + 4 More listening**.
 Label quota: at least {MUSIC_MIN_UNIQUE_LABELS} **distinct labels**. The published briefing allows **max one entry per label**, so five Paranoid London albums only fill one slot. Prefer a new label over a second release on a label you already listed.
 In the notes, list **at most two releases from any one label**. A third title on the same imprint is wasted.

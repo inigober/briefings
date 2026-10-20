@@ -229,7 +229,7 @@ You MUST call web_search at least once before answering. Search the programme pa
 3. **Year / archive discipline (strict):**
    - Prefer event URLs that include the briefing year in the path when venues publish year-specific pages
      (e.g. `…/the-pressing-2026/` over an older `…/the-pressing-dani-brown/` archive slug).
-   - Reject archive / past-edition pages whose on-page dates are a prior year (still-live 2022 pages are not 2026 events).
+   - Reject archive / past-edition pages whose on-page dates are a prior year (a still-live page from an earlier year is not a current-year event).
    - Copy dates/times from the **matched** event page only — never invent or shift dates to fit the Tuesday week window.
 4. Skip events in the novelty index unless materially new (opening week, closing within 10 days).
 5. If no in-window events exist, say so — do not invent placeholders.
@@ -336,7 +336,7 @@ For each section — exhibitions, film, performing_arts, music (and wildcards/ad
 3. **Year / archive discipline (strict):**
    - Prefer event URLs that include the briefing year in the path when venues publish year-specific pages
      (e.g. `…/the-pressing-2026/` over an older `…/the-pressing-dani-brown/` archive slug).
-   - Reject archive / past-edition pages whose on-page dates are a prior year (still-live 2022 pages are not 2026 events).
+   - Reject archive / past-edition pages whose on-page dates are a prior year (a still-live page from an earlier year is not a current-year event).
    - Copy dates/times from the **matched** event page only — never invent or shift dates to fit the Tuesday week window.
    - If the correct page is outside this week (e.g. early August revival), list it under advance_radar with the page's real dates — do not drag it into the main week.
 4. **Festival / series handling (strict):**
