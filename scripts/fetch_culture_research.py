@@ -17,7 +17,7 @@ if str(_SCRIPTS_DIR) not in sys.path:
 import argparse
 import json
 import os
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -413,14 +413,6 @@ def build_combined_prompt(
 ) -> str:
     """Legacy single-pass prompt (dry-run). Production uses search + structure phases."""
     calendar_items = calendar_items or []
-    ctx = _culture_prompt_context(
-        date_str=date_str,
-        week_label=week_label,
-        topics_cfg=topics_cfg,
-        sources_cfg=sources_cfg,
-        calendar_items=calendar_items,
-        state_dir=state_dir,
-    )
     return (
         build_search_phase_prompt(
             date_str=date_str,

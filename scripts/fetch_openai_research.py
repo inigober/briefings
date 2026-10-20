@@ -307,7 +307,7 @@ def build_diversity_rules(section_id: str, sources_cfg: dict, *, rss_count: int 
         news = ", ".join(sources_cfg.get("germany_news_outlets") or [])
         research = ", ".join(sources_cfg.get("germany_research_outlets") or [])
         if light:
-            return f"""
+            return """
 Germany (RSS-heavy — gap-fill mode):
 - RSS already covers major newspapers; focus on paywalled sources and research gaps
 - Prefer: Handelsblatt depth, ifo/diw reports, coalition/industry stories RSS missed

@@ -14,9 +14,8 @@ import argparse
 import hashlib
 import json
 import re
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timezone
 from html import unescape
-from typing import Any
 from urllib.parse import urljoin
 
 import requests
@@ -467,8 +466,6 @@ def main() -> int:
 
     briefing = load_briefing_type(args.type)
     date_str = args.date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
-
-    from culture_dates import normalize_tuesday_run_date
 
     date_str, run_dt = normalize_tuesday_run_date(date_str)
     sources_cfg = load_yaml(briefing.sources_path)

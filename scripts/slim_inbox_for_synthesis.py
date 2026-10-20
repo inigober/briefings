@@ -14,7 +14,6 @@ import argparse
 import json
 from datetime import date, datetime, timezone
 from pathlib import Path
-from typing import Any
 from urllib.parse import urlparse
 
 import yaml
@@ -736,7 +735,6 @@ def news_section_caps(topics_cfg: dict) -> dict[str, int]:
 
 
 def culture_section_caps(topics_cfg: dict) -> dict[str, int]:
-    topics = topic_by_id(topics_cfg)
     caps: dict[str, int] = {}
     for topic in topics_cfg.get("topics") or []:
         tid = topic.get("id")

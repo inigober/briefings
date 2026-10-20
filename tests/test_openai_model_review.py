@@ -14,7 +14,6 @@ if str(SCRIPTS) not in sys.path:
 
 from openai_model_review import (  # noqa: E402
     is_review_due,
-    parse_model_id,
     pick_candidates,
 )
 

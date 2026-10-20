@@ -6,7 +6,7 @@ from __future__ import annotations
 import sys
 import unittest
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
 if str(SCRIPTS) not in sys.path:
@@ -14,7 +14,6 @@ if str(SCRIPTS) not in sys.path:
 
 from news_url_verify import (  # noqa: E402
     url_looks_suspicious,
-    verify_news_item,
     verify_news_items,
 )
 

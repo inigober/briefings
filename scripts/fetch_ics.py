@@ -14,7 +14,6 @@ import argparse
 import hashlib
 import json
 from datetime import datetime, timedelta, timezone
-from typing import Any
 from urllib.parse import urlparse
 
 import requests

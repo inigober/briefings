@@ -6,7 +6,6 @@ from __future__ import annotations
 import re
 from datetime import datetime, timezone
 from typing import Any
-from urllib.parse import urlparse
 
 VEVENT_BLOCK_RE = re.compile(r"BEGIN:VEVENT(.*?)END:VEVENT", re.DOTALL | re.I)
 FIELD_RE = re.compile(r"^([A-Z0-9-]+)(?:;[^:]*)?:(.*)$", re.MULTILINE)

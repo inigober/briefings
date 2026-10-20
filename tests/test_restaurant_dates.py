@@ -5,7 +5,6 @@ from __future__ import annotations
 
 import sys
 import unittest
-from datetime import datetime
 from pathlib import Path
 
 SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"

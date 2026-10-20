@@ -1384,7 +1384,6 @@ def render_music_html(md_text: str, *, preheader_section: str = "") -> str:
     Skips news-style story preprocessing so blank lines after the Genre/Listen
     line become real paragraph breaks (context always starts on a new line).
 """
-    footnotes = parse_footnotes(md_text)
     body_md, footnotes_md = split_footnotes(md_text)
     body_md = normalize_horizontal_rules(body_md)
     body_md = _normalize_music_entry_spacing(body_md)
@@ -1724,7 +1723,7 @@ def main() -> int:
                 resend_id=str(result.get("id") or ""),
                 subject=subject,
             )
-            print(f"Recorded delivery in state/email_delivery.json")
+            print("Recorded delivery in state/email_delivery.json")
         except Exception as exc:  # noqa: BLE001 — never fail send over logging
             print(f"Warning: could not record email delivery: {exc}", file=sys.stderr)
 

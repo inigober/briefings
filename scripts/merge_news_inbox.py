@@ -13,7 +13,6 @@ if str(_SCRIPTS_DIR) not in sys.path:
 import argparse
 import json
 from datetime import datetime, timezone
-from urllib.parse import urlparse
 
 from briefing_paths import load_briefing_type
 from fetch_openai_research import normalize_url

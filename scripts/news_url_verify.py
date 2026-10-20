@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 
 import requests
 
-from culture_url_verify import USER_AGENT, check_url_live
+from culture_url_verify import USER_AGENT
 
 DEFAULT_SLEEP_MS = 80
 

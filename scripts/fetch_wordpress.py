@@ -16,7 +16,6 @@ import json
 import re
 from datetime import datetime, timedelta, timezone
 from html import unescape
-from typing import Any
 from urllib.parse import urlparse
 
 import requests

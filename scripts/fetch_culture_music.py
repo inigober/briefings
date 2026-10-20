@@ -28,7 +28,6 @@ from fetch_culture_research import (
     section_min_items,
 )
 from fetch_openai_research import (
-    DEFAULT_MODEL,
     fetch_structured,
     fetch_web_research,
     load_yaml,
@@ -39,7 +38,6 @@ from fetch_openai_research import (
 )
 from openai_spend import (
     DailySpendLedger,
-    SpendCapExceeded,
     count_web_search_calls,
     usage_from_response,
 )

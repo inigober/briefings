@@ -22,7 +22,7 @@ from datetime import datetime, timezone
 from typing import Any
 from urllib.parse import urlparse
 
-from briefing_paths import REPO_ROOT, load_briefing_type
+from briefing_paths import load_briefing_type
 from fetch_openai_research import (
     DEFAULT_MODEL,
     fetch_structured,

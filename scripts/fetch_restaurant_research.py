@@ -26,7 +26,6 @@ from fetch_openai_research import (
     log,
     make_client,
     resolve_model,
-    topic_by_id,
 )
 from openai_spend import (
     COMBINED_FETCH_BUDGET_RESERVE_USD,
