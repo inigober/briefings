@@ -29,8 +29,7 @@ Read these files, in order:
 1. `config/briefings/berlin-restaurants/style-rules.md`
 2. `config/briefings/berlin-restaurants/topics.yaml` and `sources.yaml`
 3. `state/berlin-restaurants/restaurants_index.md`
-4. Last **4** `briefings/berlin-restaurants/*.md` files, if any, for tone and anti-repetition
-5. `inbox/berlin-restaurants/YYYY-MM-DD-synthesis.json` (prefer today's Thursday date; fallback `*-raw.json` with warning)
+4. `inbox/berlin-restaurants/YYYY-MM-DD-synthesis.json` (prefer today's Thursday date; fallback `*-raw.json` with warning)
 
 ## Step 2 — Select
 
@@ -42,9 +41,10 @@ From the synthesis inbox:
 4. Select mostly affordable and mid-range restaurants. Include at most one fine dining item.
 5. Diversify neighborhoods. Avoid more than two final recommendations from the same neighborhood unless the candidate pool makes that unavoidable.
 6. Prioritize clear culinary identity, strong value, regional specificity, technical execution, and flavor over hype.
-7. Include weaknesses and comparative judgment. Do not make every entry sound exceptional.
+7. Include weaknesses and an honest verdict. Do not make every entry sound exceptional.
+8. Write each entry as its own piece, following the **Voice** and **Comparisons** sections of the style rule: no references to previous briefings, no chained comparisons to other restaurants, no pipeline vocabulary.
 
-Target final briefing: 6-8 restaurant entries. A shorter briefing is acceptable if the verified pool is thin.
+Target final briefing: 6-8 restaurant entries. Aim for at least 6 whenever the verified pool has enough eligible candidates after the rules above; go shorter only when the pool is genuinely thin, not out of caution.
 
 Title: `# Berlin Restaurant Briefing — Week of YYYY-MM-DD`.
 
@@ -57,7 +57,7 @@ Use the exact per-entry format from the style rule:
 Add `(good value)` or `(potentially overpriced)` only when the candidate has that exact `value_label`.
 
 After each `###` heading, add email metadata from the inbox item (omit lines when null):
-- `**Hours:**` from `google_maps_hours_compact` (already shortened, e.g. `Tue–Sun 12:00–22:00 (closed Mon)` — copy verbatim)
+- `**Hours:**` from `google_maps_hours_compact` (already shortened, e.g. `Tue–Sun 12:00–22:00 (closed Mon)` — copy verbatim; if a range is clearly a data glitch, such as opening at 04:00 for a dinner restaurant, omit the Hours line rather than print it)
 - `**Rating:**` from `google_maps_rating` and `google_maps_review_count` (format `4.5 (412)`)
 - `**Maps:**` from `google_maps_url`
 

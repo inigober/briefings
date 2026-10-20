@@ -75,6 +75,16 @@ Cover in 2–4 sentences:
 
 **Avoid:** style-only blurbs ("tape-hazed progressive house with balearic drift") that never say who made it or who put it out. Genre belongs on the **Genre:** line; the paragraph is for people and imprints.
 
+### Voice (mandatory)
+
+Write like a record-shop friend who knows the scene, not like a selection report. The captivation heuristics, the club/home split and the reception gate are **internal selection tools** — never describe them in the published text.
+
+- Say something concrete and specific about the record: a sound, an arrangement, a moment, a detail about how it was made.
+- Do **not** use the "X, not a pack of interchangeable tools" construction or its variants ("not a pile of …", "rather than generic floor fodder", "an album with an arc, not …"). Defining a record by what it is *not* is banned; say what it *is*.
+- Do not repeat a sentence shape, closing move, or stock phrase across entries in the same briefing. Vary where each paragraph starts (artist, label, a sound, a place).
+- Avoid selection vocabulary in published text: "captivating", "would leave it playing", "floor tool", "reception", "shortlist", "fits your crate".
+- Intro: one or two natural sentences; no recap of every pick.
+
 ### Dig (optional — hide when empty)
 
 `**Dig:**` is a **further** listen: another release, a label catalogue, a related artist page, or a trusted write-up.
@@ -106,7 +116,7 @@ Bandcamp paths are **not** predictable from titles. Labels often prefix catalog 
 
 **Rules for every Listen, Dig, More listening, and cover URL:**
 
-1. **Confirm before writing** — open/fetch the page (or copy the URL from a page you already loaded). Do not slugify a title and hope.
+1. **Confirm before writing** — copy the URL from the verified inbox (the pre-fetch already HTTP-checked it). In CI there is no browsing: if a URL is not in the inbox, omit it. Do not slugify a title and hope.
 2. **HTTP-live required** — if the URL is not reachable, do not ship it. Fix the path, point at the label/artist Bandcamp homepage, or omit that platform.
 3. **Dig links count when present** — Dig is not exempt. A dead Dig link is a failed briefing. A missing Dig line is fine.
 4. **Post-draft check (required)** — before commit, run:
@@ -170,7 +180,7 @@ Cite or paraphrase lightly in context when used as the exception. Do not invent 
 
 ## Anti-repetition
 
-Read `state/music-discovery/releases_index.md` and the last **4** briefings. Soft limit: avoid same artist+release for **~12 weeks**. Artist repeats with a *new* release are fine.
+Read `state/music-discovery/releases_index.md` only (do **not** read past briefings; they carry earlier phrasing forward). Soft limit: avoid same artist+release for **~12 weeks**. Artist repeats with a *new* release are fine.
 
 After writing: append included releases (featured + more listening) to `releases_index.md`; trim older than 12 weeks.
 

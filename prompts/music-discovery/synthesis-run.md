@@ -29,9 +29,10 @@ Local / manual runs may skip the push guard when the user explicitly asks to syn
 1. `config/briefings/music-discovery/style-rules.md`
 2. `config/briefings/music-discovery/topics.yaml`
 3. `state/music-discovery/releases_index.md`
-4. Last **4** `briefings/music-discovery/*.md` files, if any
-5. `inbox/music-discovery/YYYY-MM-DD-synthesis.json` (prefer today's Friday date; fallback `*-raw.json` with warning)
-6. Taste companion (do not treat as the candidate pool): `inbox/music-discovery/YYYY-MM-DD-context.json` and `YYYY-MM-DD-taste-snapshot.md`
+4. `inbox/music-discovery/YYYY-MM-DD-synthesis.json` (prefer today's Friday date; fallback `*-raw.json` with warning)
+5. Taste companion (do not treat as the candidate pool): `inbox/music-discovery/YYYY-MM-DD-context.json` and `YYYY-MM-DD-taste-snapshot.md`
+
+**Do not read past briefings.** Dedup comes from `releases_index.md`; reading old briefings pulls their stock phrases into the new one. Voice comes from `style-rules.md` (see *Voice*).
 
 Pay special attention to snapshot sections **Recent taste (24 months)** and **Familiar labels**, and inbox fields `known_label`, `mode`, `reception_ok`.
 

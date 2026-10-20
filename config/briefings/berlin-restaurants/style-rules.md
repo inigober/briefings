@@ -71,7 +71,7 @@ Copy **Hours**, **Rating**, and **Maps** from the synthesis inbox item (`google_
 
 ### Intro (mandatory)
 
-Immediately after the title, **1–2 sentences** of plain prose for the **email reader**. Frame the week's food through-line (cuisines, neighborhoods, mood).
+Immediately after the title, **1–2 sentences** of plain prose for the **email reader**. Frame the week's food through-line (cuisines, neighborhoods, mood). Keep it light; no list of every restaurant, and no references to previous weeks.
 
 **Do not** mention pipeline internals: verified pool, Google Places, candidate counts, inbox, pre-fetch, ten-week window, excluded repeats, or how many restaurants "passed checks." Those belong in `last_run.json` if needed — never in the published intro.
 
@@ -119,29 +119,33 @@ Prioritize restaurants that demonstrate at least one of:
 
 Avoid restaurants included only because they are fashionable.
 
-## Tone
+## Voice
 
-Write like a thoughtful food critic. The briefing should contain judgments. Not every restaurant needs to be presented as exceptional.
+Write like a friend who eats out constantly, has strong opinions, and is telling the reader where to go this week. Not a review aggregator, not a report on a research process.
 
-It is acceptable to say:
+- Lead with the food: name the dishes, the cooking, what the kitchen actually does well. Concrete beats abstract ("hand-pulled noodles with a proper chew" beats "strong noodle craft").
+- Give a verdict somewhere in the paragraph, in plain words. It is fine to say: good but not worth crossing the city for; strongest of its kind; inconsistent but interesting; expensive for what it is; better on a plate than in bread. Not every restaurant is exceptional.
+- Include the real downside (uneven dishes, bloated menu, price, noise, queue, hours) once, matter-of-factly, in the flow of the paragraph — not as a mandatory "limit" sentence.
+- 3–5 sentences per entry. Vary the shape from entry to entry: one can open with the dish, another with the neighborhood, another with the verdict. Do not use the same skeleton, closing move, or sentence rhythm twice in one briefing.
+- Plain, warm, specific prose. No marketing language. Avoid "must visit", "amazing", "incredible", "outstanding", "world class", "you need to try" unless genuinely justified.
 
-- good but not worth crossing the city for
-- strongest in its category
-- better than average
-- inconsistent but interesting
-- strong in certain dishes
-- overrated
-- expensive for what it offers
-- more notable for technique than flavor
-- more satisfying than ambitious
+### Never write in pipeline voice
 
-Discuss strengths and weaknesses: technique, flavor balance, sourcing, execution, specialization, authenticity, consistency, overly broad menus, limited ambition, inconsistent dishes, high prices, tourist appeal, style over substance, and uneven quality.
+The inbox contains research notes (`strengths`, `weaknesses`, `critical_assessment`, `comparative_context`, `verification_notes`). Use them as raw material, then write fresh prose. Never echo how the restaurant was found or judged. Banned in published text:
 
-Avoid tourism-board, influencer, marketing, and listicle language. Avoid "must visit", "amazing", "incredible", "outstanding", "world class", and "you need to try" unless genuinely justified.
+- "selection reason", "published case", "evidence base", "the week's strongest evidence", "supported dishes", "reviews support", "review base", "tasting notes support", "documented", "less documented", "craft lead", "clearest craft case" and similar analyst phrasing
+- "this briefing almost never reaches", "this list", "the rest of this list", "the week's X entry", "this week's only …"
+- references to sources, ratings counts as an argument, or what "published coverage" says (the Rating line already carries the numbers)
+- stock closers such as "Go for X; skip it if Y" on every entry. Practical advice (what to order, when it is closed, book ahead) is welcome when it is genuinely useful and phrased naturally.
 
-## Comparative Analysis
+## Comparisons (use sparingly)
 
-When possible, compare restaurants to others in Berlin, their cuisine category, or their price segment.
+A comparison is only worth making when it tells the reader something they can use. Rules:
+
+1. **Never compare to restaurants from previous briefings** ("last week's…", "three weeks ago…", "in September…") and **never compare entries in the same briefing to each other** except in the final strongest-bets section. The reader does not remember them and it reads as a script.
+2. Compare to the **category as a whole** ("better than most Georgian places in Berlin", "one of the few places doing X properly") or, at most once or twice in the whole briefing, to a **well-known Berlin reference point** the reader already knows (the known-preferences list above is fair game when it genuinely clarifies, e.g. "same family of cooking as Liu Nudelhaus").
+3. At most **one** comparison per entry, and many entries should have none. If the paragraph works without it, leave it out.
+4. Do not name more than one other restaurant in an entry.
 
 Good:
 
@@ -151,9 +155,13 @@ Good:
 
 > Better at spice handling than most Berlin Indian restaurants, though the menu remains broader than ideal.
 
-Bad:
+Bad (pipeline voice, chained comparisons):
 
-> Fantastic food. Amazing experience.
+> Against last week's Akçaabat köfte sandwich, Mercan's Wiener Straße lokanta, or Mira's Hermannstraße ocakbaşı, this is the north-side meat-craft stop — less of a sit-down mezze night, more of a plate order.
+
+Better:
+
+> The yaprak skewer is the reason to come: beef, lamb and a good amount of fat, charred properly. It is a butcher first and a restaurant second, so the sandwich bread is toasted hard and service can lose an order. Order the skewers and köfte on a plate, and note it closes early in the evening.
 
 ## Strongest Bets
 
@@ -169,11 +177,11 @@ If I were choosing only three from this list:
 3. ...
 ```
 
-Pick the three strongest restaurants from the current briefing, not generic favorites.
+Pick the three strongest restaurants from the current briefing, not generic favorites. One natural sentence each saying why you would go — what to eat or what kind of night it suits — not a rehash of the entry and not an analyst's rationale.
 
 ## Anti-Repetition
 
-Read `state/berlin-restaurants/restaurants_index.md` and the last 4 `briefings/berlin-restaurants/*.md` files. Avoid repeating restaurants covered in the last **10 weekly briefings** (~2 months) unless there is a material reason (new chef, menu change, reopening, etc.). After 10 weeks, a repeat is acceptable.
+Read `state/berlin-restaurants/restaurants_index.md` (names and neighborhoods only; do **not** read past briefings, which would pull their phrasing into the new one). Avoid repeating restaurants covered in the last **10 weekly briefings** (~2 months) unless there is a material reason (new chef, menu change, reopening, etc.). After 10 weeks, a repeat is acceptable.
 
 After writing: append included restaurants to `restaurants_index.md`; trim entries older than 10 weeks.
 
