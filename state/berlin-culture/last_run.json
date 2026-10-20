@@ -1,31 +1,50 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-10-13",
-  "briefing_date": "2026-10-13",
-  "inbox_date": "2026-10-13",
-  "week_start": "2026-10-14",
-  "week_end": "2026-10-20",
+  "date": "2026-10-20",
+  "briefing_date": "2026-10-20",
+  "inbox_date": "2026-10-20",
+  "week_start": "2026-10-21",
+  "week_end": "2026-10-27",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-10-13.md",
-  "inbox_path": "inbox/berlin-culture/2026-10-13-synthesis.json",
-  "items_count": 10,
+  "briefing_path": "briefings/berlin-culture/2026-10-20.md",
+  "inbox_path": "inbox/berlin-culture/2026-10-20-synthesis.json",
+  "items_count": 8,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 1,
-    "film": 0,
-    "performing_arts": 2,
+    "exhibitions": 0,
+    "film": 1,
+    "performing_arts": 1,
     "music": 1,
-    "wildcards": 2,
+    "wildcards": 1,
     "advance_radar": 1
   },
-  "thin_sections": ["exhibitions", "film", "music"],
+  "thin_sections": ["exhibitions", "film", "performing_arts", "music"],
   "omitted_sections": [],
   "validation_warnings": [
-    "Section 'exhibitions' has 1 entries (style minimum 4)",
-    "Section 'film' has 0 entries (style minimum 2)",
+    "Section 'exhibitions' has 0 entries (style minimum 4)",
+    "Section 'film' has 1 entries (style minimum 2)",
+    "Section 'performing_arts' has 1 entries (style minimum 2)",
     "Section 'music' has 1 entries (style minimum 3)"
   ],
   "dropped_missing_end_dates": [],
-  "verification_fetches": 5,
-  "notes": "Top Picks spot-checked: KW Hiller Bad Dreams 17.10.26–10.01.27 opening Fri 16.10 19:00–22:00 (first Berlin survey; Enderby/Adrien; tour Sat 16:00). Alpha Maid Kuppelhalle Wed 14.10 doors 19:00 / start 20:00 (AD 93 Is this a queue; Kerr/Stepien live processing). INDEX Jafa N****s in Omelas: Julia Stoschek Foundation Leipziger Str. 60 (not PalaisPopulaire), Thu 15.10 19:30, European premiere, Jafa present, last event at Berlin venue. Also fetched Haus am Waldsee INDEX Seit… (opening Thu 15.10 19:00, hours Tue–Sun 11–18, no run end — Wildcard not Exhibitions) and Sprinkle/Stephens INDEX HAU Stresemannstr. 29 Sun 18.10 19:00. Promoted last week's Advance Radar Kovel/Wächtler into this week as one listing. Promoted html-calendar/ICS in-window Jafa, Sprinkle, Sabar HKW Tue 20.10 19:00–21:00 (same festival Wed 21.10 not a second listing), C/O Militarized Landscapes Thu 15.10 18:00–19:30. Verified synthesis: Greiss KW 17.10.26–10.01.27 (2nd KW; skipped Koo Jeong A OUSSSEAN same-night opening — venue cap). DUST Kuppelhalle Sat 17.10 (2nd silent green; skipped Nothing Political Fri). Advance: Ostojić Kunstraum Kreuzberg 23.10 17:00. Skipped Shroud performance 14.10 (same work as 2026-09-29 Top Pick). Skipped Ground Noise / Werk und Wirken INDEX exhibitions (venue scrape bug 'Gropius Bau taz…'; Ground Noise already 2026-09-01). Skipped scribble.mp3 / MUBI Fest (past; scribble already Top Pick 2026-09-29). Skipped Zem spieva (raw film, unverified shallow URL). Skipped paid DOCK workshops as public performance. Thin week: 1 exhibition full entry, 0 film full entries, 1 music full entry; no pad."
+  "calendar_fills": [
+    {
+      "title": "attaquer le visible. Kollaborative Assemblagen — OST-BERLIN / DRESDEN / ERFURT",
+      "section": "film",
+      "official_url": "https://www.indexberlin.com/events/list/46489/attaquer-le-visible-kollaborative-assemblagen-eministische-praktiken-im-experimentalfilm-und-video-der-80er-jahre-ost-berlin-dresden-erfurt"
+    },
+    {
+      "title": "sketch for a conversation on pleasure and pain",
+      "section": "performing_arts",
+      "official_url": "https://www.indexberlin.com/events/list/46008/sketch-for-a-conversation-on-pleasure-and-pain"
+    },
+    {
+      "title": "Tanja Ostojić — Encounters — On Bodies, Borders, Resistance",
+      "section": "wildcards",
+      "official_url": "https://www.indexberlin.com/events/list/45515/encounters-on-bodies-borders-resistance"
+    }
+  ],
+  "calendar_fill_notes": "Considered and rejected: Plan 9 From Outer Space 3.1 (Twin Turbo) at HAUNT — page shows an exhibition opening with no run end and no description, not a screening despite the title; Sabar, Polyrhythm, and the Politics of Body Movement (HKW 21.10) — same HKW sabar series already listed 2026-10-13, anti-repetition. Not fetched: Zigsen Liu, Luïza Luz, Sollfrank/Richter/Sung Tieu talks (low fit or thin listings).",
+  "verification_fetches": 8,
+  "notes": "Spot-checked: KW Koo Jeong A OUSSSEAN 17.10.26–10.01.27 (Wed–Mon 11–19, Tue closed; Vaseline concert Wed 21.10 20:00; tour Sat 24.10 16:00). HALF LIGHT Betonhalle Fri 23.10 doors 19:00/start 20:00. DOCK 11 Cranky Choreographing Books 22–25.10 19:30. Thin week: no exhibition full entries (Nakaya Nebelskulptur skipped — inbox URL is a press-release PDF and closing date conflicts 25.10 vs 1.11; Ebensperger INDEX listings Parade / de sensu skipped — gallery-building listings with no description, not fetched). Music capped at 2 silent green listings (HALF LIGHT Top Pick + Acephalic Eastman); Sintonia Attunement I (21.10) skipped for venue cap. Ostojić promoted from last week's Advance Radar. Advance Radar: Czollek at HKW 28.10."
 }

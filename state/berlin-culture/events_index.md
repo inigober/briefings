@@ -2,19 +2,6 @@
 
 Tracks recommended events/exhibitions to avoid repeating across weekly briefings. Trim entries older than 8 weeks.
 
-2026-08-18 | top_picks | Susan Sontag – Seeing and Being Seen | Schwules Museum | https://www.museumsportal-berlin.de/en/exhibitions/map/
-2026-08-18 | top_picks | FORMER EAST / FORMER WEST | Arsenal Filminstitut, Berlin | https://www.arsenal-berlin.de/campus/summer-school/2026/
-2026-08-18 | top_picks | Psychic Liberation Night: Niloofar Asghary + Júlia Koffler | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/programm/2026/8
-2026-08-18 | exhibitions | Hours Without Edges | Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.indexberlin.com/exhibitions/list/44393/hours-without-edges
-2026-08-18 | exhibitions | Brother Wolf | Still Holds Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.indexberlin.com/exhibitions/list/44392/brother-wolf
-2026-08-18 | performing_arts | CLAP & SLAP | Radialsystem | https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/prodMonth/08-2026?cHash=1da7d224e55224635f7d783cbd7146cf
-2026-08-18 | music | Unguarded pres. Jungstötter + Blurrydog | silent green Kulturquartier, Berlin | https://www.silent-green.net/en/programme/2026/8
-2026-08-18 | music | silent green Sommerfest 2026 | silent green Kulturquartier, entire site / Kuppelhalle / lawn | https://www.silent-green.net/en/programme/detail/silent-green-sommerfest-2026
-2026-08-18 | wildcards | Neighbouring as a Practice of Care — On Spatial Awareness and or Recognition | Reinickendorfer Str. 17, 13347 Berlin | https://www.indexberlin.com/events/list/45370/neighbouring-as-a-practice-of-care-on-spatial-awareness-and-or-recognition
-2026-08-18 | wildcards | Frank Jimin Hopp 매난국죽 Mae Nan Guk Juk: Diasporic Memories Formed in Clay | Müllerstr. 146/47, 13353 Berlin | https://www.indexberlin.com/events/list/45016/mae-nan-guk-juk-diasporic-memories-formed-in-clay
-2026-08-18 | advance_radar | Josef Kaiser. Bauen für die DDR | Alte Jakobstr. 124-128, 10969 Berlin | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
-2026-08-18 | advance_radar | Ruba Al-Sweel, Arvin Arta, Dana Dawud, Noura Tafeche and Zein Majali Short Film Screening | Frankfurter Tor 1, 10243 Berlin | https://www.indexberlin.com/events/list/44942/short-film-screening
-2026-08-18 | advance_radar | Itchi Fleischer Unzucht – Kiss the Devil’s Arse | Weigandufer, corner of Wildenbruchbrücke, next to the mooring, 12045 Berlin | https://www.indexberlin.com/events/list/44861/unzucht-kiss-the-devil-s-arse
 2026-08-25 | top_picks | Bat Dances | HAU3, HAU Hebbel am Ufer (Tanz im August) | https://www.tanzimaugust.de/en/production/detail/kareth-schaffer-jonas-hauer-bat-dances/
 2026-08-25 | top_picks | News from Home | Kino Arsenal (Arsenal 1) | https://www.arsenal-berlin.de/en/cinema/film-screening/news-from-home-2395/
 2026-08-25 | top_picks | Josef Kaiser — Building for the GDR | Berlinische Galerie | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
@@ -115,3 +102,11 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-10-13 | wildcards | Sophie Kovel — Seit… / Peter Wächtler | Haus am Waldsee | https://www.indexberlin.com/events/list/45261/seit
 2026-10-13 | wildcards | MILITARIZED LANDSCAPES: Artist Talk with Stelios Kallinikou & Tom Seymour Evans | C/O Berlin | https://www.indexberlin.com/events/list/46070/militarized-landscapes-artist-talk-with-stelios-kallinikou-tom-seymour-evans
 2026-10-13 | advance_radar | Tanja Ostojić — Encounters — On Bodies, Borders, Resistance | Kunstraum Kreuzberg/Bethanien | https://www.indexberlin.com/events/list/45515/encounters-on-bodies-borders-resistance
+2026-10-20 | top_picks | KOO JEONG A — OUSSSEAN | KW Institute for Contemporary Art | https://www.kw-berlin.de/en/exhibitions/koo-jeong-a-ousssean
+2026-10-20 | top_picks | HALF LIGHT — Abul Mogard, Marja de Sanctis, Rafael Anton Irisarri, Concepción Huerta | silent green Kulturquartier, Betonhalle | https://www.silent-green.net/en/programme/detail/half-light-abul-mogard-marja-de-sanctis-rafael-anton-irisarri-concepcion-huerta?cHash=a14cede126b8d95ed4bf4ad3b5f099b5&tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026
+2026-10-20 | top_picks | Cranky Choreographing Books — Peter Pleyer & Gäste | DOCK 11 | https://dock11-berlin.de/theater/programm/spielplan/cranky-choreographing-books
+2026-10-20 | film | attaquer le visible. Kollaborative Assemblagen — OST-BERLIN / DRESDEN / ERFURT | Künstlerhaus Bethanien | https://www.indexberlin.com/events/list/46489/attaquer-le-visible-kollaborative-assemblagen-eministische-praktiken-im-experimentalfilm-und-video-der-80er-jahre-ost-berlin-dresden-erfurt
+2026-10-20 | performing_arts | sketch for a conversation on pleasure and pain | Kunst Raum Mitte | https://www.indexberlin.com/events/list/46008/sketch-for-a-conversation-on-pleasure-and-pain
+2026-10-20 | music | Acephalic Headspace pres. ladr ache + Lésions Graves Sextet plays Julius Eastman | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/acephalic-headspace-pres-ladr-ache-lesions-graves-sextet-plays-julius-eastman?cHash=a14cede126b8d95ed4bf4ad3b5f099b5&tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026
+2026-10-20 | wildcards | Tanja Ostojić — Encounters — On Bodies, Borders, Resistance | Kunstraum Kreuzberg/Bethanien | https://www.indexberlin.com/events/list/45515/encounters-on-bodies-borders-resistance
+2026-10-20 | advance_radar | Diskurs. Pop. Liebe. — Max Czollek in conversation with Mely Kiyak and Necati Öziri | Haus der Kulturen der Welt | https://www.indexberlin.com/events/list/45709/diskurs-pop-liebe-gesprachsreihe-mit-max-czollek-max-czollek-in-conversation-with-mely-kiyak-and-necati-oziri
