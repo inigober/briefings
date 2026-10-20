@@ -186,7 +186,8 @@ jobs:
       - name: Install Claude Code CLI
         if: steps.trigger.outputs.should_run == 'true'
         run: |
-          npm install -g @anthropic-ai/claude-code
+          # Pinned to the version validated in smoke tests; bump deliberately after a smoke run.
+          npm install -g @anthropic-ai/claude-code@2.1.304
           claude --version
 
       - name: Run Claude synthesis
