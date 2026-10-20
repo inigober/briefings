@@ -1,0 +1,414 @@
+# Synthesize a briefing with Claude (headless CLI) after inbox/ lands on main.
+# Job 1 runs the model with read-only repo access and no push credentials.
+# Job 2 verifies URLs, commits, pushes, and dispatches the email workflow.
+# Job 3 emails an alert on failure. Successful runs send nothing.
+
+name: Synthesize briefing
+
+on:
+  workflow_call:
+    inputs:
+      mode:
+        type: string
+        required: false
+        default: backup
+      type_id:
+        type: string
+        required: false
+        default: ""
+      date:
+        type: string
+        required: false
+        default: ""
+      model:
+        type: string
+        required: false
+        default: claude-sonnet-5
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "backup = inbox ready but briefing missing; smoke = e2e test -> *.test.md, no state, no email"
+        required: false
+        default: backup
+        type: choice
+        options:
+          - backup
+          - smoke
+      type_id:
+        description: "Required for smoke: news | berlin-culture | berlin-restaurants | music-discovery"
+        required: false
+        type: string
+      date:
+        description: "Optional YYYY-MM-DD for smoke (default: latest inbox for type)"
+        required: false
+        type: string
+      model:
+        description: "Claude model id"
+        required: false
+        default: claude-sonnet-5
+        type: string
+
+concurrency:
+  group: synthesize-briefing
+  cancel-in-progress: false
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: read
+    outputs:
+      should_run: ${{ steps.trigger.outputs.should_run }}
+      type_id: ${{ steps.trigger.outputs.type_id }}
+      date: ${{ steps.trigger.outputs.date }}
+      reason: ${{ steps.trigger.outputs.reason }}
+      e2e_test: ${{ steps.trigger.outputs.e2e_test }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          # The model step must not hold push credentials.
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Detect synthesis trigger
+        id: trigger
+        env:
+          DISPATCH_MODE: ${{ inputs.mode || 'backup' }}
+          SMOKE_TYPE: ${{ inputs.type_id || '' }}
+          SMOKE_DATE: ${{ inputs.date || '' }}
+        run: |
+          set -euo pipefail
+          E2E=false
+          if [ "$DISPATCH_MODE" = "smoke" ]; then
+            if [ -z "$SMOKE_TYPE" ]; then
+              echo "::error::smoke mode requires type_id (news, berlin-culture, berlin-restaurants, music-discovery)"
+              exit 1
+            fi
+            DATE_ARGS=()
+            if [ -n "$SMOKE_DATE" ]; then
+              DATE_ARGS=(--date "$SMOKE_DATE")
+            fi
+            python scripts/detect_synthesis_trigger.py --json --smoke --type "$SMOKE_TYPE" "${DATE_ARGS[@]}" > decision.json
+            E2E=true
+          else
+            python scripts/detect_synthesis_trigger.py --json --backup > decision.json
+          fi
+          cat decision.json
+          TYPE=$(python3 -c 'import json; print(json.load(open("decision.json")).get("type_id") or "")')
+          REASON=$(python3 -c 'import json; print(json.load(open("decision.json")).get("reason") or "")')
+          echo "type_id=$TYPE" >> "$GITHUB_OUTPUT"
+          echo "reason=$REASON" >> "$GITHUB_OUTPUT"
+          echo "e2e_test=$E2E" >> "$GITHUB_OUTPUT"
+          if [ -z "$TYPE" ]; then
+            echo "Skip synthesis: $REASON"
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          DATE=$(python3 - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.load(open("decision.json"))
+          date = ""
+          for path in data.get("matched_files") or []:
+              name = Path(path).name
+              for suffix in ("-synthesis.json", "-raw.json", "-context.json"):
+                  if name.endswith(suffix):
+                      date = name[: -len(suffix)]
+                      break
+              if date:
+                  break
+          print(date)
+          PY
+          )
+          if [ -z "$DATE" ]; then
+            echo "::error::Could not derive briefing date from matched_files"
+            exit 1
+          fi
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          echo "should_run=true" >> "$GITHUB_OUTPUT"
+          E2E="$E2E" DATE="$DATE" python3 - <<'PY'
+          import json, os
+          data = json.load(open("decision.json"))
+          context = {
+              "type_id": data["type_id"],
+              "date": os.environ["DATE"],
+              "reason": data.get("reason"),
+              "commit_sha": data.get("commit_sha"),
+              "commit_subject": data.get("commit_subject"),
+              "matched_files": data.get("matched_files") or [],
+              "runner": "github-actions-claude",
+              "e2e_test": os.environ["E2E"] == "true",
+          }
+          with open(".synthesis-ci-context.json", "w", encoding="utf-8") as fh:
+              json.dump(context, fh, indent=2)
+              fh.write("\n")
+          print(json.dumps(context, indent=2))
+          PY
+
+      - name: Set up Node
+        if: steps.trigger.outputs.should_run == 'true'
+        uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+
+      - name: Install Claude Code CLI
+        if: steps.trigger.outputs.should_run == 'true'
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          claude --version
+
+      - name: Run Claude synthesis
+        if: steps.trigger.outputs.should_run == 'true'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          MODEL: ${{ inputs.model || 'claude-sonnet-5' }}
+          TYPE: ${{ steps.trigger.outputs.type_id }}
+        run: |
+          set -uo pipefail
+          TOOLS="Read,Write,Edit,Glob,Grep"
+          for s in verify_briefing_sources validate_culture_briefing verify_culture_briefing_urls \
+                   verify_restaurant_briefing_sources verify_music_urls culture_missing_end_log; do
+            TOOLS="$TOOLS,Bash(python scripts/$s.py:*),Bash(python3 scripts/$s.py:*)"
+          done
+          if [ "$TYPE" = "berlin-culture" ]; then
+            TOOLS="$TOOLS,WebFetch"
+          fi
+          echo "Allowed tools: $TOOLS"
+          set +e
+          claude -p < prompts/claude-synthesis-run.md \
+            --model "$MODEL" \
+            --max-turns 40 \
+            --output-format json \
+            --permission-mode dontAsk \
+            --allowedTools "$TOOLS" \
+            > claude-output.json 2> claude-stderr.txt
+          STATUS=$?
+          set -e
+          echo "claude exit status: $STATUS"
+          echo "---- stderr ----"; cat claude-stderr.txt || true
+          python3 - <<'PY'
+          import json, os
+          try:
+              out = json.load(open("claude-output.json"))
+          except Exception as exc:
+              print(f"Could not parse claude-output.json: {exc}")
+              raise SystemExit(0)
+          rows = [
+              ("is_error", out.get("is_error")),
+              ("num_turns", out.get("num_turns")),
+              ("duration_ms", out.get("duration_ms")),
+              ("total_cost_usd (notional on subscription)", out.get("total_cost_usd")),
+              ("usage", json.dumps(out.get("usage"))),
+          ]
+          summary = "### Claude synthesis run\n\n" + "\n".join(f"- **{k}**: {v}" for k, v in rows)
+          summary += "\n\n**Final message**\n\n```\n" + str(out.get("result", ""))[:3000] + "\n```\n"
+          print(summary)
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
+              fh.write(summary)
+          if out.get("is_error"):
+              raise SystemExit(1)
+          PY
+          exit $STATUS
+
+      - name: Collect outputs
+        if: steps.trigger.outputs.should_run == 'true'
+        env:
+          TYPE: ${{ steps.trigger.outputs.type_id }}
+          DATE: ${{ steps.trigger.outputs.date }}
+          E2E: ${{ steps.trigger.outputs.e2e_test }}
+        run: |
+          set -euo pipefail
+          TEST="briefings/${TYPE}/${DATE}.test.md"
+          PROD="briefings/${TYPE}/${DATE}.md"
+          if [ "$E2E" = "true" ]; then
+            # Smoke runs must never touch production files or memory.
+            if [ ! -f "$TEST" ] && [ -f "$PROD" ] && { ! git ls-files --error-unmatch "$PROD" >/dev/null 2>&1 || ! git diff --quiet -- "$PROD"; }; then
+              echo "Model wrote production path; copying to $TEST for smoke"
+              cp "$PROD" "$TEST"
+            fi
+            if git ls-files --error-unmatch "$PROD" >/dev/null 2>&1; then
+              git checkout -- "$PROD"
+            else
+              rm -f "$PROD"
+            fi
+            git checkout -- "state/${TYPE}" || true
+            BRIEFING="$TEST"
+          else
+            BRIEFING="$PROD"
+          fi
+          if [ ! -f "$BRIEFING" ]; then
+            echo "::error::Claude did not write $BRIEFING"
+            exit 1
+          fi
+          echo "BRIEFING=$BRIEFING" >> "$GITHUB_ENV"
+
+      - name: Upload synthesis outputs
+        if: steps.trigger.outputs.should_run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: synthesis-output
+          include-hidden-files: false
+          path: |
+            ${{ env.BRIEFING }}
+            state/${{ steps.trigger.outputs.type_id }}/
+          if-no-files-found: error
+
+      - name: Upload run log
+        if: always() && steps.trigger.outputs.should_run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-run-log
+          path: |
+            claude-output.json
+            claude-stderr.txt
+          if-no-files-found: ignore
+
+  publish:
+    needs: synthesize
+    if: needs.synthesize.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Download synthesis outputs
+        uses: actions/download-artifact@v4
+        with:
+          name: synthesis-output
+          path: .
+
+      - name: Verify briefing outputs
+        id: verify
+        env:
+          TYPE: ${{ needs.synthesize.outputs.type_id }}
+          DATE: ${{ needs.synthesize.outputs.date }}
+          E2E: ${{ needs.synthesize.outputs.e2e_test }}
+        run: |
+          set -euo pipefail
+          if [ "$E2E" = "true" ]; then
+            BRIEFING="briefings/${TYPE}/${DATE}.test.md"
+          else
+            BRIEFING="briefings/${TYPE}/${DATE}.md"
+          fi
+          if [ ! -f "$BRIEFING" ]; then
+            echo "::error::Missing $BRIEFING after artifact download"
+            exit 1
+          fi
+          case "$TYPE" in
+            news)
+              python scripts/verify_briefing_sources.py --type news --date "$DATE" --briefing "$BRIEFING"
+              ;;
+            berlin-culture)
+              python scripts/validate_culture_briefing.py --path "$BRIEFING"
+              python scripts/verify_culture_briefing_urls.py --type berlin-culture --date "$DATE" --briefing "$BRIEFING"
+              ;;
+            berlin-restaurants)
+              python scripts/verify_restaurant_briefing_sources.py --type berlin-restaurants --date "$DATE" --briefing "$BRIEFING"
+              ;;
+            music-discovery)
+              python scripts/verify_music_urls.py --type music-discovery --date "$DATE" --briefing "$BRIEFING"
+              ;;
+            *)
+              echo "::error::Unknown type $TYPE"
+              exit 1
+              ;;
+          esac
+          echo "briefing=$BRIEFING" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push briefing
+        id: publish
+        env:
+          TYPE: ${{ needs.synthesize.outputs.type_id }}
+          DATE: ${{ needs.synthesize.outputs.date }}
+          E2E: ${{ needs.synthesize.outputs.e2e_test }}
+          BRIEFING: ${{ steps.verify.outputs.briefing }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ "$E2E" = "true" ]; then
+            git add "$BRIEFING"
+            if git diff --cached --quiet; then
+              echo "::error::No staged smoke briefing at $BRIEFING"
+              exit 1
+            fi
+            git commit -m "end-to-end test: ${TYPE} ${DATE} Claude smoke"
+          else
+            git add "briefings/${TYPE}/" "state/${TYPE}/"
+            if git diff --cached --quiet; then
+              echo "::error::No staged changes under briefings/${TYPE}/ or state/${TYPE}/"
+              exit 1
+            fi
+            git commit -m "briefing/${TYPE}: ${DATE}"
+          fi
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin main; then
+              echo "Push succeeded on attempt ${attempt}"
+              echo "pushed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "Push rejected on attempt ${attempt}, retrying..."
+            sleep 3
+          done
+          echo "Push failed after retries"
+          exit 1
+
+      # GITHUB_TOKEN pushes do not trigger other workflows — dispatch email explicitly.
+      - name: Trigger email delivery
+        if: steps.publish.outputs.pushed == 'true' && needs.synthesize.outputs.e2e_test != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRIEFING: ${{ steps.verify.outputs.briefing }}
+        run: gh workflow run send-briefing-email.yml --ref main -f "file=${BRIEFING}"
+
+  alert:
+    needs: [synthesize, publish]
+    if: ${{ always() && (needs.synthesize.result == 'failure' || needs.publish.result == 'failure') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Email synthesis failure alert
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BRIEFING_FROM_EMAIL: ${{ vars.BRIEFING_FROM_EMAIL }}
+          BRIEFING_TO_EMAIL: ${{ vars.BRIEFING_TO_EMAIL }}
+          GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          TYPE: ${{ needs.synthesize.outputs.type_id }}
+          DATE: ${{ needs.synthesize.outputs.date }}
+          REASON: ${{ needs.synthesize.outputs.reason }}
+        run: python scripts/notify_synthesis_failure.py
