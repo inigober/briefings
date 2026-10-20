@@ -1,0 +1,185 @@
+# Berlin Restaurant Briefing — Editorial Rules
+
+Generate a weekly Berlin restaurant briefing for a serious food enthusiast. The goal is not a list of best restaurants or a marketing-style roundup. The goal is to help an experienced diner decide where to spend their next meal through thoughtful, critical assessments of restaurants that prioritize flavor, technique, authenticity, craftsmanship, and culinary identity.
+
+## Audience
+
+The reader eats out frequently, values flavor more than aesthetics, appreciates technique and culinary identity, is open to all cuisines, prefers affordable and mid-range restaurants, and is skeptical of hype-driven restaurants.
+
+Known preferences:
+
+- Liu Nudelhaus
+- Nini e Petirosso
+- Adana Grillhaus
+- Euro Imbiss 2, especially the borek
+- Jemenitisches Restaurant, Karl-Marx-Strasse
+- Gotxa Bar
+- Alaska Bar
+- Asia Farmhouse
+- Myxa
+- St. Bart
+- Bottega N.6
+- Ma-Makan
+- Larb Koi
+- Khao Taan
+- Taqueria El Oso
+- Dan Thai Food
+- Ming Dynastie
+- Tian Fu
+
+Infer strong interest in regional Chinese cuisines, Southeast Asian food, Turkish, Middle Eastern, Caucasian, Mediterranean cuisines, ingredient quality, execution, substance over trendiness, and restaurants with a clear culinary point of view.
+
+## Title
+
+`# Berlin Restaurant Briefing — Week of YYYY-MM-DD`
+
+File path: `briefings/berlin-restaurants/YYYY-MM-DD.md` using the Thursday run date.
+
+## Mandatory Google Maps Verification
+
+Google Maps is the source of truth. Include only restaurants that are marked `"verified": true` in the synthesis inbox. Do **not** add restaurants from memory, browsing, or personal Maps lookups outside the inbox.
+
+A restaurant may only be included if:
+
+- It exists in Berlin.
+- It is currently operating.
+- Google Maps does not mark it permanently closed or temporarily closed.
+
+Exclude any restaurant that is outside Berlin, ambiguous, missing from Google Maps, closed, or relocated outside Berlin. If there is uncertainty, exclude it. Do not rely on old lists, historical reputation, Michelin status, websites, social media, press coverage, or prior knowledge if Google Maps contradicts them.
+
+## Required Format
+
+Use this exact structure:
+
+```
+# Berlin Restaurant Briefing — Week of YYYY-MM-DD
+
+Short introductory paragraph summarizing the week's food theme (cuisines, neighborhoods, mood) — for the reader, not the pipeline.
+
+### Restaurant Name — Neighborhood — € / €€ / €€€ / €€€€
+
+**Hours:** Tue–Sun 12:00–22:00 (closed Mon)
+
+**Rating:** 4.5 (412)
+
+**Maps:** https://maps.google.com/...
+
+Critical assessment paragraph.
+```
+
+Copy **Hours**, **Rating**, and **Maps** from the synthesis inbox item (`google_maps_hours_compact`, `google_maps_rating` + `google_maps_review_count`, `google_maps_url`). Omit a line only when the inbox value is null or missing. Rating format: `4.5 (412)` when review count is known, else `4.5`. These lines power the email layout; do not repeat them in the assessment paragraph.
+
+### Intro (mandatory)
+
+Immediately after the title, **1–2 sentences** of plain prose for the **email reader**. Frame the week's food through-line (cuisines, neighborhoods, mood).
+
+**Do not** mention pipeline internals: verified pool, Google Places, candidate counts, inbox, pre-fetch, ten-week window, excluded repeats, or how many restaurants "passed checks." Those belong in `last_run.json` if needed — never in the published intro.
+
+Use one critical assessment paragraph per restaurant entry. Do not include address, phone, or website in the published briefing unless there is a specific editorial reason.
+
+## Pricing
+
+- `€` = under roughly 15 EUR
+- `€€` = roughly 15-35 EUR
+- `€€€` = roughly 35-70 EUR
+- `€€€€` = 70 EUR+
+
+Only include value commentary when noteworthy. Allowed labels:
+
+- `good value`
+- `potentially overpriced`
+
+Examples:
+
+- `### Lei's Kuche — Wedding — € (good value)`
+- `### Hallmann und Klee — Neukolln — €€€€ (potentially overpriced)`
+
+Do not use other value labels.
+
+## Geographic Diversity
+
+Actively diversify neighborhoods. Avoid concentrating recommendations in one district, especially Mitte. Keep in mind the reader lives in Neukolln, but do not make the briefing mostly Neukolln.
+
+Aim for a mix across neighborhoods such as Neukolln, Kreuzberg, Wedding, Charlottenburg, Wilmersdorf, Schoneberg, Friedrichshain, Prenzlauer Berg, Moabit, Tiergarten, Tempelhof, Reinickendorf, Steglitz, and similar.
+
+## Fine Dining
+
+Include at most one fine dining recommendation per briefing. Most entries should be affordable, mid-range, neighborhood restaurants, specialist restaurants, traditional restaurants, or casual restaurants with strong execution. The reader is usually more interested in an excellent 15-35 EUR meal than another tasting menu.
+
+## Selection Philosophy
+
+Prioritize restaurants that demonstrate at least one of:
+
+- exceptional flavor
+- technical competence
+- regional authenticity
+- specialization
+- clear culinary identity
+- strong value
+
+Avoid restaurants included only because they are fashionable.
+
+## Tone
+
+Write like a thoughtful food critic. The briefing should contain judgments. Not every restaurant needs to be presented as exceptional.
+
+It is acceptable to say:
+
+- good but not worth crossing the city for
+- strongest in its category
+- better than average
+- inconsistent but interesting
+- strong in certain dishes
+- overrated
+- expensive for what it offers
+- more notable for technique than flavor
+- more satisfying than ambitious
+
+Discuss strengths and weaknesses: technique, flavor balance, sourcing, execution, specialization, authenticity, consistency, overly broad menus, limited ambition, inconsistent dishes, high prices, tourist appeal, style over substance, and uneven quality.
+
+Avoid tourism-board, influencer, marketing, and listicle language. Avoid "must visit", "amazing", "incredible", "outstanding", "world class", and "you need to try" unless genuinely justified.
+
+## Comparative Analysis
+
+When possible, compare restaurants to others in Berlin, their cuisine category, or their price segment.
+
+Good:
+
+> One of the stronger Georgian restaurants in Berlin, though the khinkali are not quite at the level of the city's best specialists.
+
+Good:
+
+> Better at spice handling than most Berlin Indian restaurants, though the menu remains broader than ideal.
+
+Bad:
+
+> Fantastic food. Amazing experience.
+
+## Strongest Bets
+
+End with:
+
+```
+### This week's strongest bets
+
+If I were choosing only three from this list:
+
+1. ...
+2. ...
+3. ...
+```
+
+Pick the three strongest restaurants from the current briefing, not generic favorites.
+
+## Anti-Repetition
+
+Read `state/berlin-restaurants/restaurants_index.md` and the last 4 `briefings/berlin-restaurants/*.md` files. Avoid repeating restaurants covered in the last **10 weekly briefings** (~2 months) unless there is a material reason (new chef, menu change, reopening, etc.). After 10 weeks, a repeat is acceptable.
+
+After writing: append included restaurants to `restaurants_index.md`; trim entries older than 10 weeks.
+
+## Commits
+
+1. `briefings/berlin-restaurants/YYYY-MM-DD.md`
+2. Update `state/berlin-restaurants/restaurants_index.md`
+3. Update `state/berlin-restaurants/last_run.json`
+4. Commit: `briefing/berlin-restaurants: YYYY-MM-DD`

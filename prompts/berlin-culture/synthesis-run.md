@@ -24,7 +24,7 @@ If triggered by a git push to `main`:
 
 ## Step 1 — Read context
 
-1. `.cursor/rules/berlin-culture-briefing-style.mdc`
+1. `config/briefings/berlin-culture/style-rules.md`
 2. `config/briefings/berlin-culture/topics.yaml` and `sources.yaml`
 3. `state/berlin-culture/events_index.md`
 4. Last **4** `briefings/berlin-culture/*.md` files (tone only)

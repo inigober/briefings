@@ -28,7 +28,7 @@ Only continue when step 4 confirms fresh research was just committed.
 
 Read **only** these files, in order:
 
-1. `.cursor/rules/news-briefing-style.mdc` — editorial rules and checklist
+1. `config/briefings/news/style-rules.md` — editorial rules and checklist
 2. `config/briefings/news/topics.yaml` — section limits and `avoid_unless_material` lists
 3. `state/news/dedup_index.md` and `state/news/selected_reads_index.md` — anti-repetition memory
 4. The **3 most recent** `briefings/news/*.md` files — tone reference only (not for dedup; use state files for that)
@@ -82,7 +82,7 @@ Each news story: headline, summary (≤2 sentences; prefer 1), optional 💡 ins
 
 Apply anti-repetition using `dedup_index.md` and `editorial_context.recent_topics` in the synthesis inbox — reject topics unless materially new. Selected Reads: reject URLs in `selected_reads_index.md` (last 5 briefings). For Other Headlines Today, scan inbox items **not** chosen for sections 1–4 and merge into short thematic lines (e.g. Iran deal signing, Hormuz, Venezuela strike).
 
-Before writing, mentally run the checklist in `news-briefing-style.mdc`. Fix only failing items — do not polish prose twice.
+Before writing, mentally run the checklist in `style-rules.md`. Fix only failing items — do not polish prose twice.
 
 ## Step 3 — Update state
 

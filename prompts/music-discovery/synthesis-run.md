@@ -26,7 +26,7 @@ Local / manual runs may skip the push guard when the user explicitly asks to syn
 
 ## Step 1 — Read context
 
-1. `.cursor/rules/music-discovery-briefing-style.mdc`
+1. `config/briefings/music-discovery/style-rules.md`
 2. `config/briefings/music-discovery/topics.yaml`
 3. `state/music-discovery/releases_index.md`
 4. Last **4** `briefings/music-discovery/*.md` files, if any

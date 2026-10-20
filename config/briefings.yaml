@@ -9,7 +9,7 @@ briefings:
     state_dir: state/news
     config_dir: config/briefings/news
     synthesis_prompt: prompts/news/synthesis-run.md
-    style_rule: .cursor/rules/news-briefing-style.mdc
+    style_rule: config/briefings/news/style-rules.md
     prefetch:
       rss: true
       wordpress: true
@@ -26,7 +26,7 @@ briefings:
     state_dir: state/berlin-culture
     config_dir: config/briefings/berlin-culture
     synthesis_prompt: prompts/berlin-culture/synthesis-run.md
-    style_rule: .cursor/rules/berlin-culture-briefing-style.mdc
+    style_rule: config/briefings/berlin-culture/style-rules.md
     prefetch:
       rss: true
       wordpress: true
@@ -47,7 +47,7 @@ briefings:
     state_dir: state/berlin-restaurants
     config_dir: config/briefings/berlin-restaurants
     synthesis_prompt: prompts/berlin-restaurants/synthesis-run.md
-    style_rule: .cursor/rules/berlin-restaurants-briefing-style.mdc
+    style_rule: config/briefings/berlin-restaurants/style-rules.md
     prefetch:
       rss: false
       openai_script: fetch_restaurant_research
@@ -65,7 +65,7 @@ briefings:
     state_dir: state/music-discovery
     config_dir: config/briefings/music-discovery
     synthesis_prompt: prompts/music-discovery/synthesis-run.md
-    style_rule: .cursor/rules/music-discovery-briefing-style.mdc
+    style_rule: config/briefings/music-discovery/style-rules.md
     prefetch:
       # Taste cache materialize + OpenAI web_search candidates (Bandcamp/YouTube/covers).
       # See docs/music-discovery-bridge.md

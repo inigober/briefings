@@ -1,0 +1,161 @@
+# Berlin Culture Briefing — Editorial Rules
+
+Generate a highly curated weekly Berlin culture briefing. Write like a knowledgeable Berlin cultural critic — analytical, selective, critical, informed. Not a marketing newsletter or venue PR.
+
+## Title
+
+`# Berlin Culture Briefing — Week of Month Day–Day, Year`
+
+Example: `# Berlin Culture Briefing — Week of June 16–22, 2026`
+
+File path: `briefings/berlin-culture/YYYY-MM-DD.md` (Tuesday run date).
+
+## Intro (mandatory)
+
+Immediately after the title and before `## Top Picks`, add **1–2 sentences** of plain prose (no bullets, no headings). Frame the week's through-line: what connects the strongest picks, which disciplines dominate, or what's unusually timely. This becomes the visible email opener and inbox preview.
+
+**Do not** mention pipeline internals: pre-fetch, verified pool, inbox, OpenAI, URL checks, thin sections, or research process. Write for someone opening the email to decide what to see — not for debugging the briefing system. Same rule for Short Context: no "sparse in pre-fetch" asides.
+
+## Required sections (exact order)
+
+1. Top Picks (3 highest-value recommendations)
+2. Exhibitions Radar (4–5; prioritize closing-soon; **Date(s)** must include the closing/end date)
+3. Film & Screenings (2–4)
+4. Performing Arts (2–3)
+5. Music (3–4; always include artist names)
+6. Wildcards (1–2 unusual picks)
+7. Advance Radar (optional — only when genuinely relevant)
+
+Config: `config/briefings/berlin-culture/topics.yaml`, `config/briefings/berlin-culture/sources.yaml`.
+
+## Per-entry format (mandatory)
+
+For every recommendation:
+
+```
+### Title
+
+**Venue:** …
+
+**Date(s):** …
+
+**Time(s):** …
+
+**Short Context:** 2–4 sentences — what it is, why it matters, key artists.
+
+**Why It Fits:** Explicit match to user interests (no generic praise).
+
+**Official Link:** [descriptive text](https://venue-or-festival-event-page)
+```
+
+- Blank line after each field block.
+- Official links must point to venue/festival/organizer **event** pages — not aggregators, and not bare programme/calendar listing pages (`/programm/`, `/Programm/`, `/en/programm/programm/`).
+- **Never invent Official Links** — copy `official_url` from the inbox, or a URL you fetched and confirmed live during a required spot-check. Do not guess slugs.
+- If important but flawed, say so (e.g. "Conceptually ambitious though somewhat uneven in execution.").
+
+### Exhibition Date(s) (mandatory)
+
+Long-running shows (anything still on view after opening night) need a **closing/end date** in `**Date(s):**`, not just the opening.
+
+Good: `On view 11 September – 22 November 2026 (opened 10 September)`  
+Good: `3 July – 14 August 2026 (closes Thursday)`  
+Bad: `Opening Thursday, 17 September 2026` (opening only — the reader cannot tell when it ends)
+
+Copy start **and** end from inbox `dates` or from the official page during a required spot-check. Do not invent a closing date. If the page and inbox both omit the run end, drop the pick rather than listing an opening-only exhibition.
+
+When you drop a pick for that reason, **log it** (do not mention the drop in the email):
+
+```bash
+python scripts/culture_missing_end_log.py --date YYYY-MM-DD --title "…" --venue "…" --dates "…" --url "https://…"
+```
+
+That appends `state/berlin-culture/missing_end_dates.md` so we can count how often this happens. Also list the same drops in `last_run.json` as `dropped_missing_end_dates` (empty list `[]` if none).
+
+## Tuesday briefing rule (mandatory)
+
+Briefing runs on **Tuesday**. Every pick must either:
+
+- Occur Wednesday through following Monday or Tuesday of the briefing week, OR
+- Be an exhibition open through at least Wednesday of that week.
+
+Exclude events already finished before Wednesday.
+
+## Selection philosophy
+
+Prefer fewer, highly relevant picks over a long generic calendar. Each pick should satisfy at least one of: strong thematic match, strong artistic match, strong venue match, significant cultural importance.
+
+**Avoid:** commercial musicals, traditional opera, mainstream entertainment, celebrity-driven programming, EDM, mainstream house, generic DJ listings, empty hype ("Don't miss!", "Amazing", "Stunning").
+
+## One event, one slot (mandatory)
+
+Each **distinct** exhibition, performance, screening, or concert gets **exactly one** full write-up in the briefing body.
+
+- **Top Picks are a summary layer.** If an event is a Top Pick, other sections may reference it with a single line (*"See Top Picks — …"*) — **not** a second full entry block (no duplicate Venue / Date / Context / Link blocks).
+- **Never list the same show twice** (e.g. Tirailleurs in Top Picks and Exhibitions Radar with full entries).
+- **Festival / series cap:** at most **one** listing per festival or recurring series umbrella (e.g. Polish Art Week, Kyiv Biennial chapter, Kiez-Monatsschau). Name 1–2 headline acts inside that single entry; do not split the same festival across Top Picks, Exhibitions, Music, and Wildcards.
+- When a festival is the week's main story, write **one** strong entry (usually Top Picks) with sub-bullets for 2–3 standout events — not separate section entries per sub-event.
+
+## Venue vs. programme (mandatory)
+
+- **Same venue, different shows** (e.g. two exhibitions at Schwules Museum): OK, max **2 per venue per week**.
+- **Same festival, multiple venues:** counts as **one programme** for diversification — not venue spread.
+- **Same venue, same show:** never list twice (use Top Picks cross-reference if needed).
+
+## Venue diversification
+
+No single venue > ~15–20% of total recommendations. Diversify across the city. Multiple listings from one venue only when different artists/events with strong justification (see caps above).
+
+## Thin-week fallback (mandatory)
+
+When the synthesis inbox is thin for a required section (especially **Music** or **Film**):
+
+1. **Do not pad** by duplicating events already selected or by splitting one festival into multiple slots.
+2. **Promote** verified `advance_radar` items into the main week if they fall Wed–Mon/Tue (or exhibitions open through Wed).
+3. **Omit the section** rather than repeat — note the gap in `state/berlin-culture/last_run.json` (`thin_sections`, `omitted_sections`).
+4. Prefer **one cross-reference** (*"See Top Picks"*) over a second full entry.
+
+Target section minimums: Exhibitions 4–5, Film 2–4, Performing Arts 2–3, Music 3–4, Wildcards 1–2. Falling short is acceptable; duplication is not.
+
+## Anti-repetition
+
+Read `state/berlin-culture/events_index.md` and the **last 4** briefings in `briefings/berlin-culture/`. Avoid repeating the same exhibition/event unless materially new (extended run, new programme, major change).
+
+After writing: append events to `events_index.md`; trim entries older than 8 weeks.
+
+## Verification (light)
+
+Pre-fetch sets `"verified": true` on inbox items with a deep event/exhibition URL and concrete dates/times. **Trust verified items** for URL reachability — do not re-fetch casually.
+
+**Year / archive spot-check (mandatory for Top Picks):** Even when `verified: true`, fetch `official_url` once for every Top Pick and confirm the **page’s event dates match the briefing year and week**.
+
+- If the page shows a **prior year** (e.g. Radialsystem archive dated July 2022) → **drop** the pick. Do not rewrite dates forward into the current week.
+- If the page shows **current-year dates outside Wed–Tue** (e.g. 6–9 August when the week is 29 July–4 August) → move to **Advance Radar** with the page’s real dates, or drop — never invent in-week dates.
+- Prefer year-in-path URLs when venues publish both archive and current pages (`…/the-pressing-2026/` over `…/the-pressing-dani-brown/`).
+
+**Also spot-check by fetching `official_url` when:**
+- The pick is in **Top Picks** and `verified` is not true
+- `closing_soon` is true and `verified` is not true
+- Dates/times are vague, or the URL looks like a venue homepage
+
+Remove anything that fails a spot-check. No open-ended web research to fill gaps.
+
+**Post-draft check (required)** — before commit, run:
+
+```bash
+python scripts/validate_culture_briefing.py --path briefings/berlin-culture/YYYY-MM-DD.md
+python scripts/verify_culture_briefing_urls.py --type berlin-culture --date YYYY-MM-DD
+```
+
+Fix every ERROR / dead Official Link; do not commit until both exit 0.
+
+## Wildcards / food
+
+Food-related events ≤ 25% of total recommendations across the briefing.
+
+## Commits
+
+1. `briefings/berlin-culture/YYYY-MM-DD.md`
+2. Update `state/berlin-culture/events_index.md`
+3. Update `state/berlin-culture/last_run.json`
+4. Update `state/berlin-culture/missing_end_dates.md` when any exhibition was dropped for a missing closing date
+5. Commit: `briefing/berlin-culture: YYYY-MM-DD`

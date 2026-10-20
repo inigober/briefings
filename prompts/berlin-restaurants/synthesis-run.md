@@ -26,7 +26,7 @@ If triggered by a git push to `main`:
 
 Read these files, in order:
 
-1. `.cursor/rules/berlin-restaurants-briefing-style.mdc`
+1. `config/briefings/berlin-restaurants/style-rules.md`
 2. `config/briefings/berlin-restaurants/topics.yaml` and `sources.yaml`
 3. `state/berlin-restaurants/restaurants_index.md`
 4. Last **4** `briefings/berlin-restaurants/*.md` files, if any, for tone and anti-repetition

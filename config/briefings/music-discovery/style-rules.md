@@ -1,0 +1,196 @@
+# Music Discovery Briefing — Editorial Rules
+
+Generate a weekly music discovery briefing grounded in the reader's DJ crate and streaming taste. Goal: help them **discover** music for DJing or home listening, become **more knowledgeable**, and get prompts for **further digging** — not a thin link dump or hype roundup.
+
+Taste context arrives via the inbox bridge (`inbox/music-discovery/`), copied from personal `music-library/exports/`. Candidate Listen / Dig / cover URLs arrive in `YYYY-MM-DD-synthesis.json` from Friday OpenAI pre-fetch. Do not invent taste axes or Bandcamp slugs when inbox files are present.
+
+## Audience
+
+Someone who DJs (Rekordbox: progressive house, trance, techno, italo, electro, leftfield club) and listens at home (ambient, balearic, world, experimental, downtempo). They want enough context to place an artist/release/label and decide whether to dig deeper.
+
+## Title
+
+`# Music Discovery — Week of YYYY-MM-DD`
+
+File path: `briefings/music-discovery/YYYY-MM-DD.md` using the Friday run date.
+
+## Intro (mandatory)
+
+Immediately after the title, **1–2 sentences** of plain prose (no bullets). Frame the week's through-line. This becomes the email opener / inbox preview.
+
+## Structure (exact order)
+
+1. **Six featured entries** — no mode-based section headers; flat list
+2. **More listening** — exactly **4** compact extras
+
+Do **not** end with a "strongest bets" / "this week's listens" summary.
+
+Target: **6 featured + 4 compact**. Mix **new releases** and **older records that have aged well** (roughly half/half when the pool allows). Known artists and new-to-you names are both fine.
+
+### Featured split (mandatory)
+
+Among the **6 Featured** entries: exactly **3 club / DJ-floor** and **3 home listening**. Do not label modes in the briefing; enforce the balance in selection only. Genre line stays genre (not "DJ" / "home").
+
+## Per-entry format (mandatory) — featured
+
+Use `##` (not `###`) so titles read larger in email.
+
+Title format: `## Artist — Release — *Label* (Year)` — label name in italics.
+
+Fields in order:
+
+1. `## Artist — Release — *Label* (Year)`
+2. Album cover: `![Album cover](https://…cover-image…)`
+3. One line: `**Genre:** … · **Listen:**` compact platform links (favicon + name) — Genre and Listen on the **same line**
+4. **blank line (mandatory)** — context must start on a new paragraph in email
+5. Context paragraph — **no `Context:` label**; start straight with the prose
+6. blank line
+7. `**Dig:**` **optional** — include only when there is a real next step (see Dig rules below)
+
+Example skeleton:
+
+```
+## Artist — Release — *Label* (Year)
+
+![Album cover](https://…)
+
+**Genre:** Deep house · **Listen:** <a href="…"><img src="https://www.google.com/s2/favicons?domain=bandcamp.com&sz=32" width="16" height="16" alt=""> Bandcamp</a> · <a href="…"><img src="https://www.google.com/s2/favicons?domain=youtube.com&sz=32" width="16" height="16" alt=""> YouTube</a>
+
+Prose context paragraph starts here with no label…
+
+**Dig:** … [link](url)
+```
+
+Omit the `**Dig:**` line entirely when there is no distinct next step (see below). Do not leave a blank Dig.
+
+### Context paragraph (mandatory)
+
+The unlabeled paragraph must place **the artist and the label**, not only the album's genre or style.
+
+Cover in 2–4 sentences:
+
+- Who the artist is (scene, geography, or a concrete prior record — not a mood board of adjectives)
+- What the **label** is known for, or why this imprint is the right home
+- Then what this release actually does / why it captivates
+
+**Avoid:** style-only blurbs ("tape-hazed progressive house with balearic drift") that never say who made it or who put it out. Genre belongs on the **Genre:** line; the paragraph is for people and imprints.
+
+### Dig (optional — hide when empty)
+
+`**Dig:**` is a **further** listen: another release, a label catalogue, a related artist page, or a trusted write-up.
+
+- Include Dig when inbox `dig_url` (or else `writeup_url`) is a **different page** from Listen. A label/artist Bandcamp shop (`https://balmat.bandcamp.com/`) is a valid Dig. Copy that URL; do not replace it with the featured album.
+- Inbox `dig_sentence` is often a leftover research note about *this* album. If it does not name a further listen, ignore it and write one sentence for the actual Dig URL.
+- **Omit the Dig line** when there is no distinct URL.
+- **Never invent** a Dig sentence or URL. Never write "stay with this album" / "keep going through [*this same release*]". That is not a dig — Listen already does that.
+- If Dig is present, it needs **one markdown link** to that distinct URL. A dead or invented Dig link is a failed briefing.
+
+Listen links: include Bandcamp when available; **for Featured entries, also include a verified YouTube / YouTube Music album or release playlist when one exists**; Spotify last resort (`domain=spotify.com`). Omit a platform rather than guess a URL.
+
+### Cover art (mandatory)
+
+Every featured entry needs an album cover image. Prefer Bandcamp `og:image`. Pre-fetch may fill `cover_url` from that same Bandcamp image via Microlink when GitHub Actions cannot read Bandcamp HTML — copy it verbatim. Do not use decorative placeholders. Do not use Apple Music as a Listen link.
+
+### Link priority (mandatory)
+
+1. **Bandcamp** — prefer album/release URL (`/album/…`), not a single track, unless the featured item is a true single
+2. **YouTube / YouTube Music** — **Featured: include** a verified album / release playlist when `youtube_url` is in the inbox (pre-fetch looks these up). Copy that URL verbatim. Do not skip YouTube just because Bandcamp is present. Prefer album/playlist over a single `watch?v=` / track URL. More listening: include verified YouTube when the inbox has one.
+3. **Spotify** — last resort only; prefer album URI/URL over track
+4. **Never Apple Music**
+
+YouTube must still be **verified** in pre-fetch (HTTP-live inbox `youtube_url` — no search-only or invented IDs). If the inbox has no YouTube URL, omit YouTube and note `youtube_album?=no` in the internal selection table. Do not browse YouTube during synthesis.
+
+### Never invent URLs (mandatory)
+
+Bandcamp paths are **not** predictable from titles. Labels often prefix catalog numbers or artist names (e.g. `/album/atn020-domenique-dumont-comme-a`, not `/album/comme-a`). Artist pages and label shops also differ.
+
+**Rules for every Listen, Dig, More listening, and cover URL:**
+
+1. **Confirm before writing** — open/fetch the page (or copy the URL from a page you already loaded). Do not slugify a title and hope.
+2. **HTTP-live required** — if the URL is not reachable, do not ship it. Fix the path, point at the label/artist Bandcamp homepage, or omit that platform.
+3. **Dig links count when present** — Dig is not exempt. A dead Dig link is a failed briefing. A missing Dig line is fine.
+4. **Post-draft check (required)** — before commit, run:
+   ```bash
+   python scripts/verify_music_urls.py --type music-discovery --date YYYY-MM-DD
+   ```
+   Fix every failure; do not commit until it exits 0.
+
+## More listening (mandatory)
+
+```
+## More listening
+
+- **Artist — Release** (*Label*, Year) — One sentence. <a href="…">… Bandcamp</a> · <a href="…">… YouTube</a>
+```
+
+Exactly four bullets. Same link style as featured (favicon + name; Bandcamp + verified YouTube when available) but **no `Listen:` label** — links only after the sentence. Same **max one label** rule across the whole briefing. Compact: no cover, no Genre/Context/Dig blocks. Album-first links apply here too.
+
+## Selection rules
+
+1. **Ground in inbox taste** — snapshot, `skip_list`, `library_skip`, `known_labels`, and `recent_taste` first. Weight **Recent taste (last 24 months)** over all-time crate counts.
+2. **Skip owned library** — do not feature (or include in More listening) releases that match `library_skip.albums` (Spotify saved albums, albums derived from Spotify liked songs, YT Music library albums/songs, Rekordbox-owned albums). Fuzzy-match artist + release titles.
+3. **Familiar labels (≥15 tracks)** — labels in `known_labels` / snapshot "Familiar labels" go to **More listening**, not Featured, **unless** a trusted write-up singles out this release (see reception gate). Labels *below* the threshold (including sparse catalogue labels you already like) remain Featured-eligible.
+4. **Reception / age gate (Featured only)** — a Featured pick must be either:
+   - **≥ ~4 weeks** past release date, **or**
+   - backed by at least one **trusted write-up** (e.g. Resident Advisor, Bandcamp Daily, The Wire, Mixmag, Fact, Pitchfork when relevant, DJ Mag, or a credible specialist blog/newsletter).
+   Brand-new minor drops with no coverage → More listening or skip. More listening is not bound by this gate.
+5. **Captivation bar** — every Featured pick must clear: "Would I leave this playing?" See heuristics below. Club tools and generic floor fodder fail even if genre-fit is perfect.
+6. **Mix eras** — recent *and* time-tested records, but **demote canon / educational foundations** from Featured (e.g. obvious Drexciya/UR primers you already know the lineage of). Prefer those in More listening or Dig links; Featured aged-well picks should still feel like a *listen*, not a textbook.
+7. **Max 1 entry per label** across featured + More listening.
+8. **Skip the recommendation log** — never recommend `skip_list` / cooldown entries.
+9. **Also skip** `state/music-discovery/releases_index.md` recent repeats.
+10. **Context over blurb** — drop candidates you cannot situate (artist **and** label, not genre-only).
+11. **Variety** — diversify genre, geography, and era. Keep the 3 club / 3 home Featured split.
+12. **Club bar is higher than home** — home can be quietly excellent; club Featured needs a hook, character, or arrangement you'd actually dig for a set.
+
+Avoid: chart-pop filler, Apple Music, search-only YouTube URLs, track-only YouTube when an album page exists, thin blurbs, repeating a label, recommending owned library albums, featuring familiar-label catalogue filler, Featured canon primers, functional DJ-tool 12"s with nothing to say.
+
+### Captivation heuristics (how to assess)
+
+No score model — apply this checklist at selection time. Prefer picks that pass most items; drop ones that fail the core question.
+
+**Core question:** Would a curious listener hit play and leave it on?
+
+**Prefer**
+- A distinctive sonic identity or through-line across the EP/LP (not four interchangeable club tools)
+- Memorable hook, atmosphere, vocal, or arrangement idea you can describe in one concrete sentence
+- Home: something you'd put on and leave running; Club: something with character you'd hunt for a set
+- Cohesive EP/LP; singles only when the *song* is the point
+
+**Demote / skip for Featured**
+- Anonymous peak-time utility, loop-first DJ tools, genre-box-ticking with no personality
+- "Fits your crate labels" as the only reason
+- Educational reissues / foundations you already know unless there's a fresh reason to listen *now*
+
+When unsure between two genre-fit candidates, pick the one with stronger identity or better write-up — not the one closest to a familiar imprint.
+
+### Trusted write-ups (for reception gate / familiar-label exception)
+
+Cite or paraphrase lightly in context when used as the exception. Do not invent reviews. If you cannot find coverage and the release is under ~4 weeks old, do not Featured it.
+
+## Anti-repetition
+
+Read `state/music-discovery/releases_index.md` and the last **4** briefings. Soft limit: avoid same artist+release for **~12 weeks**. Artist repeats with a *new* release are fine.
+
+After writing: append included releases (featured + more listening) to `releases_index.md`; trim older than 12 weeks.
+
+## Memory writeback (after send)
+
+Canonical log: **personal** `music-library/exports/recommendation-log.*`.
+
+```bash
+python3 music-library/scripts/recommendation_memory.py log \
+  --artist "..." --release "..." --label "..." --year YYYY \
+  --bandcamp "..." --ytmusic "..."
+```
+
+Library additions are reconciled automatically on taste sync (`sync_taste.py` → `reconcile`): recommended items that appear in Spotify/YT/Rekordbox become `saved` / `owned`. No manual feedback required.
+
+`state/music-discovery/` is briefing-side index only.
+
+## Commits
+
+1. `briefings/music-discovery/YYYY-MM-DD.md`
+2. Update `state/music-discovery/releases_index.md`
+3. Update `state/music-discovery/last_run.json`
+4. Commit: `briefing/music-discovery: YYYY-MM-DD`

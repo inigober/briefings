@@ -1,0 +1,231 @@
+# News Briefing — Editorial Rules
+
+Produce a carefully edited daily newspaper, not a headline list. Maximize **novelty, insight, and relevance** for a reader who consumes this every day.
+
+**Core question:** "What would a regular reader learn today that they did not already learn from the last week's briefings?"
+
+Not: "What are the biggest stories today?"
+
+## Title
+
+`# News Briefing — DD Month YYYY` (e.g. `# News Briefing — 10 June 2026`)
+
+### Stale inbox (rare)
+
+If synthesis uses `inbox/news/YYYY-MM-DD-raw.json` from a **previous day** (allowed when today's pre-fetch failed), add immediately under the title:
+
+`*Research accessed DD Month YYYY.*`
+
+Example: briefing dated 11 June 2026 built from `inbox/news/2026-06-10-raw.json` → `*Research accessed 10 June 2026.*`
+
+Record both dates in `state/news/last_run.json` (`briefing_date`, `inbox_date`).
+
+## Intro (required)
+
+Immediately after the title (and optional stale-inbox line), add **one sentence** that frames the day's through-line — not a section recap.
+
+- Plain paragraph; no heading, bullets, or emoji lines.
+- Analytical tone; name the themes that connect Spain, Germany, Berlin, and World today.
+- Keep it tight — one sentence, ≤40 words when possible.
+- This text appears at the top of the email and drives the inbox preview line.
+
+Example:
+
+```
+US export controls on frontier AI and infrastructure delivery tests in Germany's rail corridors and Berlin's university buildings set the frame for today's edition.
+```
+
+## Required sections (exact order)
+
+1. Spain 🇪🇸
+2. Germany 🇩🇪
+3. Berlin 🏙️
+4. World 🌐
+5. Other Headlines Today 📋
+6. Selected Reads 🗞️
+
+Section targets and priorities: `config/briefings/news/topics.yaml`. Sources: `config/briefings/news/sources.yaml`.
+
+## Writing style
+
+Analytical, concise, critical, intelligent. Non-promotional, non-sensational. In the vein of FT, The Economist, Reuters Breakingviews, Politico Europe, The Atlantic.
+
+**Avoid:** clickbait, hype, promotional language, activist framing, emotional framing.
+
+### Per news story (Spain, Germany, Berlin, World)
+
+Use bullet items, not `###` headings:
+
+```
+* **Headline**
+
+Summary paragraph. ([Publisher][N])
+```
+
+**Default: no annotation.** The summary must stand alone (≤2 sentences; prefer **1**).
+
+**Embedded context (mandatory — Economist "World in Brief" style):** Assume the reader does not already know the topic. Fold a short **primer fragment** into the same summary sentence — who/what the actor or issue is, then the news beat. Do **not** add a second background paragraph or lengthen the entry.
+
+- Lead with the stake or identity clause, then the development.
+- Ban unexplained jargon, unexplained acronyms, and "Publisher reports X happened" with no framing.
+- Context replaces length; it does not add to it. Keep the same ≤2-sentence budget.
+
+**Before (too thin):**  
+`Handelsblatt reports Chancellor Friedrich Merz installed Nina Warken as chancellery minister…`
+
+**After (primer embedded):**  
+`After health minister Jens Spahn quit, Chancellor Friedrich Merz filled the chancellery and health posts with loyalists — a speed reshuffle that prioritises party control while coalition polls stay weak. ([Handelsblatt][N])`
+
+**Optional 💡 (max 4 per briefing):** Add a single 💡 line only when the story passes the annotation gate below. Never add 🧩. Context belongs in the summary first — do not use 💡 merely to explain who someone is.
+
+```
+💡 One-line insight — why it matters (no label).
+```
+
+**Annotation gate** — include 💡 only if at least one is true:
+
+1. **Headline gap** — significance is not obvious from the headline + summary alone.
+2. **Second-order effect** — the story changes incentives, institutions, or supply chains, not just today's news cycle.
+3. **Cross-region link** — connects to a structural theme the reader tracks (demographics, state capacity, industrial policy).
+4. **Counterintuitive framing** — the obvious read is wrong or incomplete.
+
+**Hard exclude** (never annotate):
+
+- Insight merely rephrases the summary.
+- Forward-looking "if X then Y" political speculation not grounded in the article.
+- Sports, celebrity, one-off crime, earnings beats unless there is a structural angle.
+- A theme already annotated elsewhere in today's briefing.
+
+- Blank line after headline, after summary, and before 💡 when present (aids email rendering).
+- No indented continuation lines under bullets — every line starts at the left margin.
+
+- Cite with numbered reference links inline; define URLs in a **footnotes block** at the end of the file (`[N]: url "title"`).
+- Section dividers in email are added automatically — do not rely on `---` in markdown.
+- **Reject** Facebook, Instagram, TikTok, or homepage-only links as primary sources.
+
+### Source URL integrity (mandatory)
+
+All inbox items come from **RSS or WordPress feeds** — URLs are publisher-provided, not model-generated.
+
+**Hard rules:**
+
+- **Copy `sources[0].url` verbatim** into footnotes. Never invent, edit, or guess paths.
+- **Reject** homepage-only links, Facebook, Instagram, TikTok.
+- If a section is thin after dedup filtering, pick from another inbox item or note the gap — do not fabricate a story or URL.
+
+**Paywalled outlets (Bloomberg, FT, etc.):** RSS headlines link to real articles; some may require a subscription. Cite them anyway.
+
+
+```
+* **Publisher — Article title**
+
+Why it's worth reading: …
+
+Read article: [link text](url)
+```
+
+Same rules: no indented continuations; blank lines between parts.
+
+Use full article URLs — never a publisher homepage.
+
+## Anti-repetition (mandatory)
+
+Before selecting any story, read `state/news/dedup_index.md`, `editorial_context.recent_topics` in the synthesis inbox, and the **last 7** briefings in `briefings/news/`.
+
+**Hard reject** if the topic appeared recently unless there is a **material development:**
+
+- legislation passed, court ruling, resignation, election result
+- major investment, major data release, major policy change
+- significant escalation or de-escalation
+
+**`avoid_unless_material` in `topics.yaml` is a hard reject** unless the inbox item clearly matches a `material_return_examples` trigger (e.g. court ruling, resignation).
+
+**Running-story cadence (Spain):** Long crises (see `running_stories` in `topics.yaml`, currently Ceuta / Melilla) must not take a Spain slot if they appear in `editorial_context.running_stories_on_cooldown`. Default: skip the next **2** briefing days after a Spain feature. Park a one-line Other Headlines bullet so the thread is not lost. Exception only for an `extraordinary` trigger (government collapse, mass casualty, legislation **passed**). Another camp update, opposition quote, NGO denunciation, declassified-file drip, or a further court skirmish is **not** enough.
+
+**Not material:** another article on the same story, politicians repeating positions, analysts commenting again, same trend with no new development.
+
+**One theme per section:** Do not publish two stories on the same theme within Spain, Germany, Berlin, or World (e.g. two school-heat pieces, two Zapatero pieces).
+
+**Publisher diversity (hard):** Each of Spain, Germany, Berlin, and World must cite **≥2 distinct publishers** among its 3 stories. Prefer **3 different publishers** when the inbox allows. Do not fill a section from a single outlet (e.g. three eldiario.es pieces) when another eligible publisher exists after dedup and theme filters. If the eligible pool truly has only one publisher left, note the gap in `rejected_at_synthesis` and proceed — do not invent stories.
+
+**Geographic fit (hard):**
+
+- **Germany 🇩🇪** — Germany-relevant only; US/Middle East/global security stories go in **World** even from German outlets.
+- **Berlin 🏙️** — Berlin city proper; Brandenburg spillover only if structurally important.
+- **World 🌐** — distinct from Spain/Germany; no European institution story if already covered elsewhere unless new material.
+
+**Novelty test:** "If someone read the previous 7 briefings, would they learn something genuinely new?" If no → reject.
+
+After writing: append topics/stories to `state/news/dedup_index.md`; trim entries older than 14 days.
+
+## Selected Reads (separate memory)
+
+Read `state/news/selected_reads_index.md` before writing Selected Reads.
+
+- **Hard rule:** Never recommend the same article twice within **5 briefings**. Track exact URLs.
+- **Hard rule:** Use **≥3 different publishers** across ~4 items. Max **1** item from The Guardian.
+- **Hard rule:** Do not repeat articles already used in news sections today.
+- **Reuters rule:** Max **1** Reuters/AP item in Selected Reads per briefing.
+- **Freshness:** Pre-fetch drops Selected Read candidates older than **30 days** (`selected_reads_max_age_days` in `sources.yaml`).
+- **Ideal mix:** 1 long-form feature, 1 think-tank/research piece, 1 specialist publication, 1 news analysis — pick from `selected_read_candidates` first; if the pool lacks diversity, use other eligible inbox items.
+
+Format: title, short summary, link.
+
+After writing: append URLs to `state/news/selected_reads_index.md`; trim entries older than 5 briefings.
+
+## Other Headlines Today
+
+After choosing Spain/Germany/Berlin/World stories, scan **remaining** items in the synthesis inbox (`items` not used above).
+
+- **Purpose:** Capture major same-day threads the main sections skipped (e.g. Iran deal timeline, Venezuela strike) without duplicating chosen stories.
+- **Format:** 3–8 crisp thematic bullets — not article-by-article summaries.
+
+```
+* **{Theme label}:** {One short line, ≤25 words; merge related headlines into one theme.}
+```
+
+- **No links**, no publisher names, no 💡/🧩 lines.
+- Group by **theme** (Middle East diplomacy, Latin America security, EU bureaucracy, etc.), not by section or outlet.
+- Skip local Berlin-only filler unless city-relevant; skip stories already covered in main sections.
+
+## World section
+
+- Must **not** mirror Spain/Germany stories (if Germany covers defence, World should not repeat it).
+- Include **at least 2** of: North America, Latin America, East Asia, South Asia, Middle East, Africa.
+- Prefer: India, China, Brazil, Mexico, Nigeria, Indonesia, South Africa, Japan, South Korea, United States.
+- **Avoid** a Europe-only World section.
+- Prioritize: science, technology, AI, semiconductors, climate, energy, industrial policy, demographics, health, infrastructure, geopolitics — not only wars/diplomacy/elections.
+
+## Sourcing
+
+- **Synthesize only from** `inbox/news/`, `config/briefings/news/`, and repo context. Do not browse unless inbox is empty.
+- **RSS + WordPress only:** Pre-fetch ingests publisher feeds; there is no OpenAI research step. Every URL in the inbox came from a feed.
+- Prefer structural change, long-term trends, important data, underreported developments, second-order effects.
+- Reject: stories essentially identical to yesterday, incremental-only updates, media-driven non-events.
+- Favour critical, left-leaning outlets per `config/briefings/news/sources.yaml`, **without violating publisher diversity** (see above).
+
+## Final checklist (revise if any answer is no)
+
+1. Date in title?
+2. One-sentence intro framing today's through-line?
+3. Spain, Germany, Berlin each contain **new** information?
+4. No duplicate themes within any one section?
+5. Each of Spain/Germany/Berlin/World cites **≥2 publishers** (prefer 3 when the inbox allows)?
+6. Germany/Berlin stories geographically fit their section?
+7. World includes ≥2 non-European regions?
+8. World distinct from Spain/Germany?
+9. Each story summary embeds a short primer (who/what) without adding length?
+10. At most **4** 💡 annotations across the whole briefing — and each passes the annotation gate?
+11. No 🧩 lines anywhere?
+12. Selected Reads diversified (≥3 publishers, Guardian ≤1)? Reuters/AP ≤1?
+13. No Selected Read URL in last 5 briefings?
+14. Other Headlines Today captures major unused inbox themes (crisp, no links)?
+15. Every footnote URL copied verbatim from inbox `sources[0].url`?
+16. Would a daily reader learn something genuinely new?
+
+## Commits
+
+1. `briefings/news/YYYY-MM-DD.md`
+2. Update `state/news/dedup_index.md` and `state/news/selected_reads_index.md`
+3. Update `state/news/last_run.json`
+4. Commit: `briefing/news: YYYY-MM-DD`
