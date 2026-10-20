@@ -23,7 +23,7 @@ on:
       model:
         type: string
         required: false
-        default: claude-sonnet-5
+        default: claude-sonnet-5-5
   workflow_dispatch:
     inputs:
       mode:
@@ -45,7 +45,7 @@ on:
       model:
         description: "Claude model id"
         required: false
-        default: claude-sonnet-5
+        default: claude-sonnet-5-5
         type: string
 
 concurrency:
@@ -193,7 +193,7 @@ jobs:
         if: steps.trigger.outputs.should_run == 'true'
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          MODEL: ${{ inputs.model || 'claude-sonnet-5' }}
+          MODEL: ${{ inputs.model || 'claude-sonnet-5-5' }}
           TYPE: ${{ steps.trigger.outputs.type_id }}
         run: |
           set -uo pipefail
