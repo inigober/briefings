@@ -12,7 +12,7 @@ Fri 09:00 cron-job.org
     → OpenAI web_search → YYYY-MM-DD-raw.json (Bandcamp/YouTube/cover URLs)
     → HTTP-verify + slim → YYYY-MM-DD-synthesis.json
     → commit inbox/music-discovery: YYYY-MM-DD research pre-fetch
-      → Cursor Automation **Briefing synthesis**
+      → Claude synthesis (**Synthesize briefing** workflow)
         → briefings/music-discovery/YYYY-MM-DD.md
           → Resend email
 ```
@@ -59,4 +59,4 @@ Same pattern as culture/restaurants — see `docs/external-scheduling.md` for th
 
 ## Cloud synthesis
 
-Same Cursor Automation as the other types (`prompts/cursor-automation-synthesis.md`). No separate music automation.
+Same Claude synthesis workflow as the other types (`.github/workflows/synthesize-briefing.yml`). No separate music automation.

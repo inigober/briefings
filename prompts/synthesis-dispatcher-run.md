@@ -1,6 +1,6 @@
 # Briefing synthesis dispatcher — run instructions
 
-Single source of truth for **Cursor Automation** (and manual) synthesis runs.
+Routing for **manual / local** synthesis runs. The CI path (`synthesize-briefing.yml`) uses `prompts/claude-synthesis-run.md`, which applies the same per-type prompts.
 
 Routes each push to at most one briefing type.
 

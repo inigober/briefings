@@ -1,6 +1,6 @@
 # News briefing — synthesis run instructions
 
-Single source of truth for the news briefing synthesis agent. Edit this file in git — do not duplicate steps in the Cursor Automation UI.
+Single source of truth for the news briefing synthesis agent. Edit this file in git — the synthesis workflow reads it from the repo on every run.
 
 ## Cost discipline (mandatory)
 

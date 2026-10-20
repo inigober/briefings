@@ -1,6 +1,6 @@
 # Personal Briefings
 
-Repo-based briefing platform: **news** (daily), **Berlin culture** (weekly Tuesday), **Berlin restaurants** (weekly Thursday), and **music discovery** (weekly Friday). Novelty-first editorial, automated pre-fetch, Cursor Automation synthesis, Resend email.
+Repo-based briefing platform: **news** (daily), **Berlin culture** (weekly Tuesday), **Berlin restaurants** (weekly Thursday), and **music discovery** (weekly Friday). Novelty-first editorial, automated pre-fetch, Claude synthesis on GitHub Actions, Resend email.
 
 ## Architecture
 
@@ -9,7 +9,7 @@ config/briefings.yaml          ← registry (paths, schedules, prompts)
         ↓
 ┌───────────────────────────────────────────────────────────────┐
 │ Pre-fetch (GitHub Actions ± OpenAI) → inbox/{type}/           │
-│ Synthesis (Cursor Automation) → briefings/ + state/           │
+│ Synthesis (Claude on GitHub Actions) → briefings/ + state/    │
 │ Delivery (GitHub Action + Resend) → email                     │
 └───────────────────────────────────────────────────────────────┘
 ```
@@ -19,21 +19,21 @@ config/briefings.yaml          ← registry (paths, schedules, prompts)
 | `config/briefings.yaml` | Briefing type registry |
 | `config/briefings/{type}/` | Topics, sources per type |
 | Pre-fetch scripts | Research → typed `inbox/` |
-| **Cursor Automation** | Routes inbox push → synthesis → commit `briefings/` |
+| **Claude synthesis** (`synthesize-briefing.yml`) | Called after each pre-fetch → Claude writes `briefings/` + `state/` → verify → commit |
 | `scripts/detect_synthesis_trigger.py` | Testable routing logic |
 | `scripts/send_briefing_email.py` | Markdown → HTML → inbox |
 
 ## Repository layout
 
 ```
-├── AGENTS.md                            # durable instructions for Cursor Automation
+├── AGENTS.md                            # shared agent instructions (CLAUDE.md imports it)
+├── CLAUDE.md                            # Claude Code notes + working style
 ├── config/
 │   ├── briefings.yaml                 # type registry
-│   └── briefings/{type}/              # topics.yaml, sources.yaml
-├── .cursor/rules/                       # editorial rules per type (paths historical)
+│   └── briefings/{type}/              # topics.yaml, sources.yaml, style-rules.md
 ├── prompts/
-│   ├── cursor-automation-synthesis.md   # Cursor Automation setup (paste-once pointer)
-│   ├── synthesis-dispatcher-run.md      # production dispatcher (Cursor + manual)
+│   ├── claude-synthesis-run.md          # CI contract for the Claude synthesis job
+│   ├── synthesis-dispatcher-run.md      # manual / local synthesis routing
 │   └── {type}/synthesis-run.md          # per-type synthesis steps
 ├── inbox/{type}/                        # pre-fetch JSON
 ├── briefings/{type}/                    # committed outputs
@@ -49,10 +49,10 @@ config/briefings.yaml          ← registry (paths, schedules, prompts)
 | You care about | File / place |
 |----------------|--------------|
 | Which briefings exist | `config/briefings.yaml` |
-| Editorial rules | `.cursor/rules/{type}-briefing-style.mdc` |
+| Editorial rules | `config/briefings/{type}/style-rules.md` |
 | Topics & sources | `config/briefings/{type}/` |
 | Synthesis steps (per type) | `prompts/{type}/synthesis-run.md` |
-| Cursor Automation setup | `prompts/cursor-automation-synthesis.md` |
+| Claude synthesis workflow | `.github/workflows/synthesize-briefing.yml`, `prompts/claude-synthesis-run.md` |
 | Trigger routing (testable) | `scripts/detect_synthesis_trigger.py` |
 | Pre-fetch schedules | `docs/external-scheduling.md` (cron-job.org → GitHub Actions) |
 | OpenAI pre-fetch spend cap | `scripts/openai_spend.py`, `OPENAI_DAILY_SPEND_CAP_USD` |
@@ -132,39 +132,43 @@ Pre-fetch scripts track **estimated** daily OpenAI spend and **abort** when the 
 
 Costs are **estimates** from API token usage + web-search call counts (see `scripts/openai_spend.py`). Pair with [OpenAI billing alerts](https://platform.openai.com/settings/organization/limits) as a platform-level backstop.
 
-**PM note:** Repo cap = circuit breaker on the research wire. OpenAI billing limits = account-level shutoff. Pre-fetch uses `OPENAI_API_KEY`. Synthesis runs in Cursor Automation (Cursor subscription), not the OpenAI API.
+**PM note:** Repo cap = circuit breaker on the research wire. OpenAI billing limits = account-level shutoff. Pre-fetch uses `OPENAI_API_KEY`. Synthesis runs on Claude (your Claude subscription, via `CLAUDE_CODE_OAUTH_TOKEN`), not the OpenAI API.
 
-### Synthesis (Cursor Automation)
+### Synthesis (Claude on GitHub Actions)
 
-Production synthesis is a Cursor Automation named **Briefing synthesis**. Setup: `prompts/cursor-automation-synthesis.md`.
+Production synthesis is the **Synthesize briefing** workflow (`.github/workflows/synthesize-briefing.yml`). Each pre-fetch workflow ends by calling it, but only when it pushed new `inbox/` files **and** the repo variable `SYNTHESIS_RUNNER` is `claude`.
 
 | Setting | Value |
 |---------|--------|
-| Trigger | GitHub → **New push to branch** → `main` on `inigober/briefings` |
-| Agent | Cursor cloud agent |
-| Model | Composer 2.5 (or Cursor Fast) |
-| Instructions | Pointer to `prompts/synthesis-dispatcher-run.md` → per-type `prompts/{type}/synthesis-run.md` |
-| Commit | Agent commits `briefing/{type}: YYYY-MM-DD` after verify scripts pass |
+| Trigger | Called by each `*-prefetch.yml` after the inbox commit; manual: Actions → **Synthesize briefing** → Run workflow |
+| Runtime | GitHub-hosted runner running the Claude Code CLI headless (`claude -p`, version pinned in the workflow) |
+| Model | Sonnet 5.5 (`claude-sonnet-5-5`); override with the workflow's `model` input |
+| Auth | Secret `CLAUDE_CODE_OAUTH_TOKEN` (Claude subscription token from `claude setup-token`) |
+| Instructions | `prompts/claude-synthesis-run.md` → per-type `prompts/{type}/synthesis-run.md` |
+| Commit | Second job, after verification passes: `briefing/{type}: YYYY-MM-DD` |
 
 Flow:
 
-1. Pre-fetch pushes `inbox/…` to `main`
-2. Cursor Automation sees that GitHub push (via Cursor’s GitHub integration — not a GitHub Action)
-3. Dispatcher runs `detect_synthesis_trigger.py` — exits early on `skip`
-4. Agent writes `briefings/` + `state/`, verifies, commits, and pushes to `main`
-5. That push triggers `send-briefing-email.yml`
+1. Pre-fetch pushes `inbox/…` to `main` and calls the synthesis workflow with its `type_id`
+2. **Job 1 `synthesize`** (read-only repo access, no push credentials): `detect_synthesis_trigger.py --backup --type …` finds the inbox; Claude may only read/write files and run the verify scripts
+3. **Job 2 `publish`**: re-runs the verification scripts, commits briefing + `state/`, pushes to `main`, then dispatches `send-briefing-email.yml` (pushes made with `GITHUB_TOKEN` do not trigger other workflows)
+4. **Job 3 `alert`**: emails a failure alert via Resend. Successful runs send nothing.
 
-> **Why Cursor sees the push:** GitHub Actions will not start another workflow from a `GITHUB_TOKEN` push. Cursor Automations listen to GitHub’s external webhook, so the same pre-fetch commit still starts synthesis.
+If a briefing already exists for the inbox date, synthesis skips (so same-day pre-fetch re-runs are harmless).
 
-**Recovery:** Re-run the matching `*-prefetch.yml` workflow, or trigger the Cursor Automation manually. The daily health check emails if the inbox never landed, **or** if the inbox is ready but `briefings/{type}/{date}.md` is missing. It does **not** call OpenAI and cannot start Cursor from GitHub Actions.
+**Smoke test** (no email, no memory changes): Actions → **Synthesize briefing** → mode `smoke` + a `type_id`. It replays the inbox and the `state/` memory exactly as they were before the original briefing was written, writes `briefings/{type}/YYYY-MM-DD.test.md`, and commits only that file. Compare it with the production briefing for the same date. The run summary shows turns, duration, notional cost, and any permission denials.
 
-**Enable Cursor:** If “Briefing synthesis” is disabled, turn it back on. Do not create a second automation. See `prompts/cursor-automation-synthesis.md`.
+**Recovery:** The daily health check retries pre-fetch if the inbox never landed. If the inbox is ready but the briefing is missing, it re-runs synthesis once (unless one is already running) and only emails you if it cannot. You can always run **Synthesize briefing** manually with mode `backup` and a `type_id`.
+
+**Turning it off / rollback:** set the variable `SYNTHESIS_RUNNER` to anything other than `claude` to stop the chain (Settings → Secrets and variables → Actions → Variables). Synthesis then no longer runs automatically.
+
+**Token:** `CLAUDE_CODE_OAUTH_TOKEN` is a long-lived token; renew it before it expires (run `claude setup-token` locally and update the secret). If it expires, synthesis fails and you receive the failure alert.
 
 Test routing locally:
 
 ```bash
-python scripts/detect_synthesis_trigger.py --json
 python scripts/detect_synthesis_trigger.py --json --backup
+python scripts/detect_synthesis_trigger.py --json --backup --type news
 ```
 
 ### Schedules
@@ -176,11 +180,12 @@ Pre-fetch and health-check workflows have **no GitHub `schedule:` trigger** — 
 | Job (cron-job.org) | Local time (Europe/Berlin) | GitHub workflow |
 |--------------------|----------------------------|-----------------|
 | News pre-fetch | Daily **06:30** | `news-prefetch.yml` |
-| Culture pre-fetch | Tuesday **06:00** | `berlin-culture-prefetch.yml` |
-| Restaurants pre-fetch | Thursday **07:00** | `berlin-restaurants-prefetch.yml` |
+| Culture pre-fetch | Tuesday **09:00** | `berlin-culture-prefetch.yml` |
+| Restaurants pre-fetch | Thursday **10:00** | `berlin-restaurants-prefetch.yml` |
+| Music pre-fetch | Friday **09:00** | `music-discovery-prefetch.yml` |
 | Health check | Daily **11:00** | `prefetch-health-check.yml` (`profile: all`) |
 
-Synthesis is **push-triggered** via the **Briefing synthesis** Cursor Automation when pre-fetch commits to `inbox/`. If pre-fetch failed, recover from health-check emails or re-run the matching `*-prefetch.yml` workflow. If pre-fetch succeeded but no briefing appeared, check that the Cursor Automation is enabled and re-run it (or re-run pre-fetch).
+Synthesis is **chained**: each pre-fetch workflow calls `synthesize-briefing.yml` after it commits `inbox/`. If pre-fetch failed, recover from health-check emails or re-run the matching `*-prefetch.yml` workflow. If pre-fetch succeeded but no briefing appeared, check the latest **Synthesize briefing** run in Actions and re-run it (mode `backup`).
 
 ### Local OpenAI API key (safe setup)
 
@@ -270,22 +275,21 @@ python3 -m unittest discover -s tests -v
 | `test.yml` | push / PR to `main` | `python -m unittest discover -s tests` |
 | `news-prefetch.yml` | cron-job.org daily 06:30 Berlin + manual | RSS → WordPress → merge → verify URLs → slim → commit `inbox/news/` |
 | `verify-briefing-sources.yml` | push to `briefings/news/` + manual | Ensures footnote URLs exist in synthesis inbox |
-| `berlin-culture-prefetch.yml` | cron-job.org Tue 06:00 Berlin + manual | RSS + WordPress + OpenAI → verify URLs → slim → commit `inbox/berlin-culture/` |
-| `berlin-restaurants-prefetch.yml` | cron-job.org Thu 07:00 Berlin + manual | OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
+| `berlin-culture-prefetch.yml` | cron-job.org Tue 09:00 Berlin + manual | RSS + WordPress + OpenAI → verify URLs → slim → commit `inbox/berlin-culture/` |
+| `berlin-restaurants-prefetch.yml` | cron-job.org Thu 10:00 Berlin + manual | OpenAI → Places verify → slim → commit `inbox/berlin-restaurants/` |
 | `music-discovery-prefetch.yml` | cron-job.org Fri 09:00 Berlin + manual | Taste cache → OpenAI research → verify URLs → slim → `inbox/music-discovery/` |
-| `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Email if inbox missing or inbox ready but briefing missing; retry missed pre-fetch + undelivered email; quarterly OpenAI model-review reminder |
+| `synthesize-briefing.yml` | Called by each pre-fetch workflow + manual | Claude writes the briefing (job 1), verify + commit + email dispatch (job 2), failure alert (job 3) |
+| `prefetch-health-check.yml` | cron-job.org daily 11:00 Berlin | Retry missed pre-fetch; retry missing synthesis once; email only if that fails; retry undelivered email; quarterly OpenAI model-review reminder |
 | `send-briefing-email.yml` | Push to `briefings/**/*.md` | Verify links per type, send styled email, record delivery log; email alert on failure |
-
-Cursor Automation **Briefing synthesis** is not a GitHub workflow. It runs when GitHub receives a push to `main` (typically an `inbox/` pre-fetch commit).
 
 Pre-fetch workflows use **concurrency groups** so overlapping manual + scheduled runs queue instead of racing. The email workflow sends only the **newest dated briefing per type** when a push changes multiple files; use workflow dispatch with **all_changed** or `--all-changed` to replay every file.
 
 ## Rollout checklist
 
 - [x] Multi-briefing abstraction (news, berlin-culture, berlin-restaurants, music-discovery)
-- [x] `detect_synthesis_trigger.py` + Cursor Automation dispatcher
+- [x] `detect_synthesis_trigger.py` + Claude synthesis workflow (replaced the Cursor Automation)
 - [x] External scheduling via cron-job.org (see `docs/external-scheduling.md`)
 - [ ] Configure four cron-job.org jobs (see `docs/external-scheduling.md`)
-- [ ] **Enable** Cursor “Briefing synthesis” automation (see `prompts/cursor-automation-synthesis.md`)
+- [x] Set the `SYNTHESIS_RUNNER=claude` variable and the `CLAUDE_CODE_OAUTH_TOKEN` secret
 - [ ] Verify one full cycle per briefing type (prefetch → synthesis → email)
 - [ ] Confirm email sends only the intended briefing on normal pushes

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a token-light inbox slice for Cursor synthesis from the full pre-fetch."""
+"""Build a token-light inbox slice for synthesis from the full pre-fetch."""
 
 from __future__ import annotations
 
@@ -1059,7 +1059,7 @@ def build_music_synthesis_inbox(raw: dict, *, topics_cfg: dict) -> dict:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Slim inbox JSON for Cursor synthesis")
+    parser = argparse.ArgumentParser(description="Slim inbox JSON for synthesis")
     parser.add_argument("--type", default="news", help="Briefing type (default: news)")
     parser.add_argument("--date", help="YYYY-MM-DD (default: today UTC)")
     args = parser.parse_args()

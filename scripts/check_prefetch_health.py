@@ -36,6 +36,8 @@ PREFETCH_WORKFLOW_BY_TYPE: dict[str, str] = {
     "music-discovery": "music-discovery-prefetch.yml",
 }
 
+SYNTHESIS_WORKFLOW = "synthesize-briefing.yml"
+
 
 @dataclass(frozen=True)
 class PrefetchStatus:
@@ -52,7 +54,7 @@ def log(message: str) -> None:
 
 
 def restaurant_synthesis_usable(path: Path) -> tuple[bool, str]:
-    """Empty/unverified restaurant synthesis is a pre-fetch miss, not a Cursor skip."""
+    """Empty/unverified restaurant synthesis is a pre-fetch miss, not a synthesis skip."""
     try:
         rel = str(path.resolve().relative_to(REPO_ROOT)).replace("\\", "/")
     except ValueError:
@@ -140,7 +142,7 @@ def check_type(type_id: str, date_str: str) -> PrefetchStatus:
             ok=False,
             detail=(
                 f"inbox ready ({detail}), briefing missing — "
-                "enable Cursor Automation “Briefing synthesis” or re-run it"
+                "run the “Synthesize briefing” workflow (mode backup)"
             ),
             kind="synthesis",
         )
@@ -206,6 +208,77 @@ def dispatch_prefetch_retries(missed: list[PrefetchStatus]) -> list[str]:
     return dispatched
 
 
+def _github_api() -> tuple[str, dict[str, str]] | None:
+    """Return (repo, headers) for the Actions API, or None when unavailable (local runs)."""
+    if requests is None:
+        log("  (GitHub API skipped — requests not installed)")
+        return None
+    token = (os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or "").strip()
+    repo = (os.environ.get("GITHUB_REPOSITORY") or "").strip()
+    if not token or not repo:
+        log("  (GitHub API skipped — GITHUB_TOKEN / GITHUB_REPOSITORY not set)")
+        return None
+    return repo, {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+
+
+def synthesis_run_active(repo: str, headers: dict[str, str]) -> bool:
+    """True when a synthesis run is already queued or in progress."""
+    for state in ("in_progress", "queued"):
+        url = f"https://api.github.com/repos/{repo}/actions/workflows/{SYNTHESIS_WORKFLOW}/runs"
+        try:
+            response = requests.get(
+                url, headers=headers, params={"status": state, "per_page": 1}, timeout=30
+            )
+        except requests.RequestException as exc:
+            log(f"  Warning: could not list {state} synthesis runs: {exc}")
+            continue
+        if response.ok and int(response.json().get("total_count", 0)) > 0:
+            return True
+    return False
+
+
+def dispatch_synthesis_retries(missed: list[PrefetchStatus]) -> tuple[list[str], list[str]]:
+    """Re-run synthesis for one briefing whose inbox is ready but whose briefing is missing.
+
+    Returns (dispatched, waiting) type ids. Only the first missed type is dispatched:
+    the workflow queue keeps a single pending run, so the rest stay unresolved and
+    are reported by email instead. If a synthesis run is already active, nothing is
+    dispatched and every missed type is reported as waiting.
+    """
+    api = _github_api()
+    if api is None or not missed:
+        return [], []
+    repo, headers = api
+    if synthesis_run_active(repo, headers):
+        log("  Synthesis run already in progress — not dispatching another")
+        return [], [status.type_id for status in missed]
+
+    status = missed[0]
+    url = f"https://api.github.com/repos/{repo}/actions/workflows/{SYNTHESIS_WORKFLOW}/dispatches"
+    try:
+        response = requests.post(
+            url,
+            headers=headers,
+            json={"ref": "main", "inputs": {"mode": "backup", "type_id": status.type_id}},
+            timeout=30,
+        )
+    except requests.RequestException as exc:
+        log(f"  Warning: could not dispatch {SYNTHESIS_WORKFLOW}: {exc}")
+        return [], []
+    if response.status_code == 204:
+        log(f"  Re-triggered synthesis for {status.display_name}")
+        return [status.type_id], []
+    log(
+        f"  Warning: dispatch {SYNTHESIS_WORKFLOW} failed ({response.status_code}): "
+        f"{response.text[:200]}"
+    )
+    return [], []
+
+
 def send_health_alert(*, kind: str, items: list[PrefetchStatus]) -> None:
     api_key = (os.environ.get("RESEND_API_KEY") or "").strip()
     from_addr = (os.environ.get("BRIEFING_FROM_EMAIL") or "").strip()
@@ -234,12 +307,12 @@ def send_health_alert(*, kind: str, items: list[PrefetchStatus]) -> None:
         subject = "[Briefing] Synthesis missing — " + ", ".join(s.type_id for s in items)
         html = f"""<p><strong>Inbox is ready but the production briefing is missing.</strong></p>
 <ul>{items_html}</ul>
-<p>Cursor Automation <strong>Briefing synthesis</strong> did not write <code>briefings/{{type}}/YYYY-MM-DD.md</code>.</p>
+<p>The Claude synthesis workflow did not write <code>briefings/{{type}}/YYYY-MM-DD.md</code>, and the automatic retry did not resolve it.</p>
 <ol>
-<li>Open <a href="https://cursor.com/automations">cursor.com/automations</a> and confirm <strong>Briefing synthesis</strong> is enabled (push to <code>main</code>).</li>
-<li>Re-run that automation, or re-run the matching <code>*-prefetch.yml</code> workflow so a fresh inbox push retriggers it.</li>
+<li>Open GitHub → <strong>Actions</strong> → <strong>Synthesize briefing</strong> and read the latest run's log.</li>
+<li>Re-run it: <strong>Run workflow</strong> with mode <code>backup</code> and the briefing type.</li>
 </ol>
-<p>This check does not call OpenAI and cannot start Cursor from GitHub Actions.</p>"""
+<p>This check does not call OpenAI.</p>"""
 
     try:
         response = requests.post(
@@ -332,22 +405,30 @@ def main() -> int:
             f"{status.detail}",
             flush=True,
         )
+    synthesis_level = "warning" if args.retry and not args.dry_run else "error"
     for status in synthesis_missed:
         print(
-            f"::error title=Synthesis missing::{status.display_name} {status.date_str} — "
-            f"{status.detail}",
+            f"::{synthesis_level} title=Synthesis missing::{status.display_name} "
+            f"{status.date_str} — {status.detail}",
             flush=True,
         )
 
+    unresolved_synthesis = synthesis_missed
     if not args.dry_run:
         if args.retry and prefetch_missed:
             dispatch_prefetch_retries(prefetch_missed)
         if prefetch_missed:
             send_health_alert(kind="prefetch", items=prefetch_missed)
-        if synthesis_missed:
-            send_health_alert(kind="synthesis", items=synthesis_missed)
+        if args.retry and synthesis_missed:
+            dispatched, waiting = dispatch_synthesis_retries(synthesis_missed)
+            handled = set(dispatched) | set(waiting)
+            unresolved_synthesis = [s for s in synthesis_missed if s.type_id not in handled]
+        if unresolved_synthesis:
+            send_health_alert(kind="synthesis", items=unresolved_synthesis)
 
-    return 1
+    if args.dry_run or prefetch_missed or unresolved_synthesis:
+        return 1
+    return 0
 
 
 if __name__ == "__main__":

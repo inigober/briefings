@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Decide which briefing synthesis (if any) should run for a git commit.
 
-Used by the Cursor Automation dispatcher (`prompts/synthesis-dispatcher-run.md`)
+Used by the Claude synthesis workflow (`synthesize-briefing.yml`) and manual runs (`prompts/synthesis-dispatcher-run.md`)
 and optional local / backup checks. Logic mirrors Step 0 in each
 prompts/*/synthesis-run.md push guard.
 """

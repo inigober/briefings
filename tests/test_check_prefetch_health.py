@@ -15,7 +15,9 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 from check_prefetch_health import (  # noqa: E402
+    PrefetchStatus,
     check_type,
+    dispatch_synthesis_retries,
     inbox_ready,
     restaurant_synthesis_usable,
     types_for_profile,
@@ -139,6 +141,58 @@ class TestPrefetchHealth(unittest.TestCase):
         self.assertFalse(ok)
         self.assertIn("0 verified", detail)
         self.assertIn("GOOGLE_MAPS_API_KEY", detail)
+
+
+def _missing(type_id: str) -> PrefetchStatus:
+    return PrefetchStatus(
+        type_id=type_id,
+        display_name=type_id,
+        date_str="2099-01-01",
+        ok=False,
+        detail="briefing missing",
+        kind="synthesis",
+    )
+
+
+class TestSynthesisRetry(unittest.TestCase):
+    def test_no_github_context_dispatches_nothing(self) -> None:
+        with patch("check_prefetch_health._github_api", return_value=None):
+            self.assertEqual(dispatch_synthesis_retries([_missing("news")]), ([], []))
+
+    def test_active_run_waits_instead_of_dispatching(self) -> None:
+        with (
+            patch("check_prefetch_health._github_api", return_value=("o/r", {})),
+            patch("check_prefetch_health.synthesis_run_active", return_value=True),
+            patch("check_prefetch_health.requests") as req,
+        ):
+            result = dispatch_synthesis_retries([_missing("news"), _missing("berlin-culture")])
+        self.assertEqual(result, ([], ["news", "berlin-culture"]))
+        req.post.assert_not_called()
+
+    def test_dispatches_only_first_missing_type(self) -> None:
+        with (
+            patch("check_prefetch_health._github_api", return_value=("o/r", {})),
+            patch("check_prefetch_health.synthesis_run_active", return_value=False),
+            patch("check_prefetch_health.requests") as req,
+        ):
+            req.post.return_value.status_code = 204
+            result = dispatch_synthesis_retries([_missing("news"), _missing("berlin-culture")])
+        self.assertEqual(result, (["news"], []))
+        self.assertEqual(req.post.call_count, 1)
+        payload = req.post.call_args.kwargs["json"]
+        self.assertEqual(payload["inputs"], {"mode": "backup", "type_id": "news"})
+        self.assertTrue(req.post.call_args.args[0].endswith("synthesize-briefing.yml/dispatches"))
+
+    def test_failed_dispatch_leaves_type_unresolved(self) -> None:
+        with (
+            patch("check_prefetch_health._github_api", return_value=("o/r", {})),
+            patch("check_prefetch_health.synthesis_run_active", return_value=False),
+            patch("check_prefetch_health.requests") as req,
+        ):
+            req.post.return_value.status_code = 403
+            req.post.return_value.text = "forbidden"
+            result = dispatch_synthesis_retries([_missing("news")])
+        self.assertEqual(result, ([], []))
 
 
 if __name__ == "__main__":

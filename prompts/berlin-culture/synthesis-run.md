@@ -67,7 +67,18 @@ From the synthesis inbox:
 10. **Thin-week fallback** when a section is under target (see style rule): promote `advance_radar` into the week, omit the section, or cross-reference — never pad with duplicates or festival splits.
 11. **Advance Radar** only if genuinely relevant; omit section otherwise.
 
-Target: **≤5 URL fetches** per weekly run (typically Top Picks + closing-soon only). Top Pick year checks count toward this budget.
+### Calendar fill (before omitting a thin section)
+
+If, after steps 1–10, a section is still under its style minimum (Exhibitions < 4, Film < 2, Performing Arts < 2, Music < 3), try to fill it from the programme-feed files before omitting it:
+
+1. Read `inbox/berlin-culture/YYYY-MM-DD-html-calendars.json` and `inbox/berlin-culture/YYYY-MM-DD-ics.json` (skip a file that is missing or has no items).
+2. Consider only items with `timing_bucket: "in_week"`, or whose own `dates` fall inside this briefing's window. Ignore `advance` / `unknown` items unless their dates clearly fall in the window.
+3. **Classify by what the event is, not by `topic_ids`.** `topic_ids` is a venue-level default (most feed items are tagged `wildcards` or `music`). A film screening belongs in Film; theatre, dance, performance, or live-art belongs in Performing Arts; an artist talk or unusual format can be a Wildcard.
+4. These items are never `verified: true`. For each candidate you plan to use: require a deep `official_url` (reject homepages and listing pages), apply the same selection-table rules (event_key, series cap, venue cap, `events_index.md` repeats), then **fetch the page once** to confirm title, venue, date, time, and year are inside the window. Drop it if the page fails or disagrees — never rewrite dates, never invent details.
+5. Prefer a few strong fills over padding. A section that is still thin after this step is omitted as usual.
+6. Record each fill in `state/berlin-culture/last_run.json` under `calendar_fills`: `[{title, section, official_url}]` (use `[]` when none).
+
+Target: **≤5 URL fetches** for Top Picks, closing-soon, and other required spot-checks (Top Pick year checks count here), plus **≤5 more** for Calendar fill — **≤10 in total**.
 
 Title: `# Berlin Culture Briefing — Week of {start}–{end}, {year}` using `week_start` / `week_end` from inbox JSON when present.
 

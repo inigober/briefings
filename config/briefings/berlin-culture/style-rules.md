@@ -111,7 +111,7 @@ When the synthesis inbox is thin for a required section (especially **Music** or
 
 1. **Do not pad** by duplicating events already selected or by splitting one festival into multiple slots.
 2. **Promote** verified `advance_radar` items into the main week if they fall Wed–Mon/Tue (or exhibitions open through Wed).
-3. **Omit the section** rather than repeat — note the gap in `state/berlin-culture/last_run.json` (`thin_sections`, `omitted_sections`).
+3. **Fill from the programme feeds first:** `prompts/berlin-culture/synthesis-run.md` ("Calendar fill") allows a bounded number of spot-checked items from the calendar files. If a section is still thin afterwards, **omit it** rather than repeat — note the gap in `state/berlin-culture/last_run.json` (`thin_sections`, `omitted_sections`).
 4. Prefer **one cross-reference** (*"See Top Picks"*) over a second full entry.
 
 Target section minimums: Exhibitions 4–5, Film 2–4, Performing Arts 2–3, Music 3–4, Wildcards 1–2. Falling short is acceptable; duplication is not.
@@ -137,7 +137,7 @@ Pre-fetch sets `"verified": true` on inbox items with a deep event/exhibition UR
 - `closing_soon` is true and `verified` is not true
 - Dates/times are vague, or the URL looks like a venue homepage
 
-Remove anything that fails a spot-check. No open-ended web research to fill gaps.
+Remove anything that fails a spot-check. No open-ended web research to fill gaps; the only extra fetches allowed are the bounded Calendar fill checks in the synthesis prompt.
 
 **Post-draft check (required)** — before commit, run:
 
