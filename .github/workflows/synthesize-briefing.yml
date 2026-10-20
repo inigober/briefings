@@ -68,6 +68,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
+          # Latest main, not the commit that triggered the caller: when a pre-fetch
+          # workflow calls this one, its own inbox commit is newer than github.sha.
+          ref: main
           fetch-depth: 0
           # The model step must not hold push credentials.
           persist-credentials: false
@@ -315,6 +318,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
+          ref: main
           fetch-depth: 0
 
       - name: Set up Python
@@ -421,7 +425,7 @@ jobs:
 
   alert:
     needs: [synthesize, publish]
-    if: ${{ always() && (needs.synthesize.result == 'failure' || needs.publish.result == 'failure') }}
+    if: ${{ always() && needs.synthesize.outputs.e2e_test != 'true' && (needs.synthesize.result == 'failure' || needs.publish.result == 'failure') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
