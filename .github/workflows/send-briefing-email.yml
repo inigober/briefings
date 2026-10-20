@@ -161,8 +161,17 @@ jobs:
             exit 0
           fi
           git commit -m "state: email delivery log"
-          git pull --rebase origin main || true
-          git push origin main || true
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin main; then
+              exit 0
+            fi
+            echo "Delivery log push rejected on attempt ${attempt}, retrying..."
+            git rebase --abort 2>/dev/null || true
+            sleep 3
+          done
+          # The email already went out; do not fail the run, but flag it. A missing log
+          # entry makes the next health check think the briefing was never sent.
+          echo "::warning title=Delivery log not pushed::state/email_delivery.json was not pushed; the health check may re-send this briefing"
 
       - name: Alert on send failure
         if: failure()

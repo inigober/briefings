@@ -125,10 +125,10 @@ jobs:
           echo "Push failed after 2 attempts"
           exit 1
 
-  # Chain into Claude synthesis. Off until the repo variable SYNTHESIS_RUNNER is "claude".
+  # Chain into Claude synthesis (idempotent: skips when the briefing already exists). Off unless the repo variable SYNTHESIS_RUNNER is "claude".
   synthesize:
     needs: prefetch
-    if: ${{ needs.prefetch.outputs.pushed == 'true' && vars.SYNTHESIS_RUNNER == 'claude' }}
+    if: ${{ needs.prefetch.result == 'success' && vars.SYNTHESIS_RUNNER == 'claude' }}
     permissions:
       contents: write
       actions: write
