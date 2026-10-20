@@ -375,6 +375,9 @@ jobs:
               exit 1
             fi
             git commit -m "end-to-end test: ${TYPE} ${DATE} Claude smoke"
+            # Drop the rewound state files that came with the artifact so the rebase can run.
+            git checkout -- .
+            git clean -fdq state
           else
             git add "briefings/${TYPE}/" "state/${TYPE}/"
             if git diff --cached --quiet; then
