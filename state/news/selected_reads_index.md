@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-21
+
+- [Vietnam security ministry seeks Samsung's help on AI and chips](https://asia.nikkei.com/business/electronics/vietnam-security-ministry-seeks-samsung-s-help-on-ai-and-chips) — Nikkei Asia
+- [Europe's conservatives have 2 new targets in their campaign to weaken EU climate laws](https://www.politico.eu/article/europe-conservatives-new-targets-campaign-weaken-eu-climate-laws/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Britain cannot build its future by returning to the 1970s](https://www.ft.com/content/8c0ea73d-dc44-455a-b319-148c09f68e0a?syn-25a6b1a6=1) — Financial Times
+- [UK to Send Fighter Jets to Help Defend Saudi Arabia From Houthi Attacks](https://www.nytimes.com/2026/10/20/world/europe/uk-saudi-arabia-houthis-raf-typhoon-fighter-jets.html) — The New York Times
+
 ## 2026-10-20
 
 - [Singapore's AI-backed growth masks strains in food services](https://asia.nikkei.com/economy/inflation/singapore-s-ai-backed-growth-masks-strains-in-food-services2) — Nikkei Asia

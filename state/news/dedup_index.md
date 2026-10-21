@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-21
+
+- **spain-supremo-amnesty-malversacion-tc-clash** — eldiario.es: Supreme Court applies the amnesty to the procés leaders' embezzlement and attacks the Constitutional Court's "interference" (section: spain)
+- **spain-ai-deepfake-campaign-29n** — EL PAÍS: PP's doctored Sánchez–Ábalos kiss previews AI use in the 29-N campaign (section: spain)
+- **spain-ayuso-civismo-lobby-lunch** — eldiario.es: Ayuso and Albert left a January lunch with Civismo ultra-rich donors off their agenda before a 99% family-firm tax exemption (section: spain)
+- **germany-tobacco-tax-accidentally-in-force** — Tagesspiegel: tobacco-tax law meant for 2027 takes effect now by a ministry technical error (section: germany)
+- **germany-steer-by-wire** — Handelsblatt: carmakers move to electronic steer-by-wire steering (section: germany)
+- **germany-parliaments-women-share-afd-sachsen-anhalt** — Tagesspiegel: women's share falling in parliaments; AfD Saxony-Anhalt group is 37 men, 2 women (section: germany)
+- **berlin-senate-hack-bonde-darknet** — rbb24: Senate-department cyberattack puts senator Bonde's ID copy on the dark web despite early warnings (section: berlin)
+- **berlin-schlossstrasse-mall-fully-let** — Tagesspiegel: Steglitz's second-oldest shopping centre reports full occupancy (section: berlin)
+- **berlin-pankow-golf-resort-housing** — Tagesspiegel: Pankow golf resort's future uncertain as S-Bahn link draws housing interest (section: berlin)
+- **world-alberta-independence-referendum-rejected** — The Guardian: Alberta votes ~76% to stay in Canada (section: world)
+- **world-guinea-bissau-vaccine-researchers-raid** — The Guardian: police raid RFK Jr-praised hepatitis B researchers in Guinea-Bissau (section: world)
+- **world-netanyahu-resume-iran-strikes** — Financial Times: Netanyahu pushes to resume strikes on Iran; Trump rules out attack before midterms (section: world)
+
 ## 2026-10-20
 
 - **spain-espinosa-monasterio-tax-court** — eldiario.es: Madrid high court dismisses four of five appeals by Iván Espinosa de los Monteros and Rocío Monasterio against tax fines on a luxury-attic deal (section: spain)

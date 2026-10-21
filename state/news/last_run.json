@@ -1,74 +1,59 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-20",
-  "briefing_date": "2026-10-20",
-  "inbox_date": "2026-10-20",
+  "date": "2026-10-21",
+  "briefing_date": "2026-10-21",
+  "inbox_date": "2026-10-21",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-20.md",
-  "inbox_path": "inbox/news/2026-10-20-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-21.md",
+  "inbox_path": "inbox/news/2026-10-21-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Una imputada denuncia que la UCO de Balas no es imparcial en el caso Leire",
+      "headline": "El Constitucional se dispone a rechazar el amparo presentado por la 'ley de nietos'",
       "section": "spain",
-      "reason": "avoid_unless_material: PSOE scandals / investigation continues, not a resignation or court ruling"
+      "reason": "incremental on 13 Oct nietos suspension; parked in Other Headlines"
     },
     {
-      "headline": "Ayuso ataca la huelga por la educación / profesores en huelga / ella les llama violentos",
+      "headline": "Marchena contra Conde-Pumpido / El Supremo amnistía a Junqueras",
       "section": "spain",
-      "reason": "incremental on 14/16 Oct Madrid education strike; parked one line in Other Headlines"
+      "reason": "duplicate theme with chosen amnesty clash story"
     },
     {
-      "headline": "Las protestas se extienden por Europa / disturbios en Francia",
+      "headline": "Motivos y consecuencias de un pacto entre PP y Vox sobre las listas del Senado / Abascal el Bueno",
       "section": "spain",
-      "reason": "geo: France/Europe street unrest, not Spain; luxury-store looting parked in Other Headlines"
+      "reason": "incremental on 18 Oct Vox-PP Senate withdrawal; parked in Other Headlines"
     },
     {
-      "headline": "Los consulados ven casi imposible diferenciar a tiempo qué nacionalizados por la ley de nietos podrán votar el 29-N",
+      "headline": "Ferraz solventa las listas electorales (Palencia)",
       "section": "spain",
-      "reason": "incremental on 13 Oct Supreme Court nietos suspension; parked in Other Headlines"
+      "reason": "avoid_unless_material: PSOE internal dispute, not material"
     },
     {
-      "headline": "Los vínculos de Milei con las estafas cripto / Sánchez motosierra",
-      "section": "spain",
-      "reason": "campaign colour around Milei's Spain landing; parked in Other Headlines"
-    },
-    {
-      "headline": "Nikkei Asia markets / DAX diary / clock-change pills / MS Publisher / Amanpour / Italian espresso / MLB / Dortmund CL opponent",
+      "headline": "Boeing 737 Max certification / Champions League Kompany / Igor Levit / clock change / Portugal hiking",
       "section": "germany",
-      "reason": "geo-misfits or consumer/sports filler, not Germany-about-Germany structural news"
+      "reason": "geo-misfit, sport or consumer filler"
     },
     {
-      "headline": "Südtirol Berghütte / Wismar Malzfabrik / Thüringen E-Autos / Tanker Rügen / Frankfurt Oder Jugendgewalt / Brandenburg Videoüberwachung / Rubio Usbekistan",
+      "headline": "Datenleck bei der AfD / Gelbwesten Frankreich",
       "section": "berlin",
-      "reason": "geo: South Tyrol/MV/Thuringia/Baltic/Brandenburg/US, not Berlin city; tanker was Other Headlines 19 Oct"
+      "reason": "geo: national or French story; AfD leak and France parked in Other Headlines"
     },
     {
-      "headline": "BR Volleys: Viel neues Personal und alte Ziele",
+      "headline": "Wismar RE8 / Südtirol Berghütte / Frankfurt (Oder) Jugendgewalt / Kaulitz Wetten dass",
       "section": "berlin",
-      "reason": "duplicate theme after 19 Oct Ligacup"
+      "reason": "geo: not Berlin city, or entertainment filler"
     },
     {
-      "headline": "Attacke im Kreuzberg: 28-Jähriger weiter in Lebensgefahr",
-      "section": "berlin",
-      "reason": "one-off crime, not a section lead"
-    },
-    {
-      "headline": "Lagos hypemen / Falklands / Canadian military base fire",
+      "headline": "Sudan drone attack 80 dead / US deportation reprieve / Peachy the flamingo",
       "section": "world",
-      "reason": "hypemen was Selected Read 19 Oct; Falklands Selected Read 18 Oct; Canada fire Other Headlines 18 Oct"
+      "reason": "Sudan parked 20 Oct; Guardian reprieve was Selected Read 20 Oct; flamingo is filler"
     },
     {
-      "headline": "Hurricane Trudy / Sudan drone 80 dead / Anthropic-Nscale / LV-Hermès looting / Britain £100k tax trap",
+      "headline": "OpenAI agents disabled monitoring / NextDC / SpaceX-Tesla / Bloomberg markets wrap",
       "section": "world",
-      "reason": "Trudy, Sudan, Anthropic-Nscale and France looting parked in Other Headlines; UK tax trap Europe-only"
-    },
-    {
-      "headline": "publisher_pool_thin: eligible Spain pool was only eldiario.es and EL PAÍS after PSOE-scandal reject + strike incremental + France geo-misfits",
-      "section": "spain",
-      "reason": "publisher_pool_thin"
+      "reason": "AI-finance theme saturated in prior 7 days; parked in Other Headlines"
     }
   ],
-  "notes": "Spain: Espinosa/Monasterio luxury-attic tax-court loss (eldiario; court ruling), Oxfam housing working-poor 770k (EL PAÍS; data), DANA 2024 alert lessons vs Adam (EL PAÍS). publisher_pool_thin: only eldiario and EL PAÍS. Ceuta cooldown empty; no enclave item. Germany: Trumpflation mortgages since 2009 (HB), KBV slot-reporting lengthens waits (TSP), DB Familienticket €99.99 (BZ, geographically Germany rail not Berlin). Berlin: SPD/Greens vote yes to formal talks (rbb24; result of 19 Oct Monday-vote preview), Greens Senat selection commission not Graf/Jarasch (TSP Checkpoint, from germany inbox list), Alba beat Bamberg in BBL-Pokal (rbb24). berlin_pool_thin after geo-misfits and Volleys duplicate. World: Kenya Ebola cluster + US health cuts (Africa, Guardian), AI-debt CDS surge (North America finance, FT), Internet Archive/Wayback collateral in AI scrape fight (North America tech, Atlantic). ≥2 non-European regions. Selected Reads: Nikkei Singapore AI vs food services, FT Witkoff/Kushner Ukraine talks, FP Europe-China, Guardian US TPS Ukraine/Sudan."
+  "notes": "Spain: Supreme Court amnesty/TC clash (eldiario), AI deepfake campaign (EL PAÍS), Ayuso/Civismo lobby lunch (eldiario). Ceuta cooldown empty; no enclave item. Germany: tobacco-tax law in force by error (TSP), steer-by-wire (HB), falling women's share in parliaments (TSP). Berlin: Senate hack/Bonde darknet (rbb24), Schlossstraße mall fully let (TSP), Pankow golf resort (TSP). berlin_pool_thin. World: Alberta referendum (North America, Guardian), Guinea-Bissau vaccine raid (Africa, Guardian), Netanyahu/Iran (Middle East, FT). Selected Reads: Nikkei Vietnam/Samsung, Politico EPP climate, FT Britain 1970s, NYT UK Typhoons to Saudi."
 }
