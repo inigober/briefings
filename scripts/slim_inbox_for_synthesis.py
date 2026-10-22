@@ -968,7 +968,26 @@ def build_culture_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: d
     }
 
 
-def build_restaurant_synthesis_inbox(raw: dict, *, topics_cfg: dict) -> dict:
+MAX_RESTAURANT_OPENINGS = 8
+
+
+def load_restaurant_openings(rss_path: Path, *, limit: int = MAX_RESTAURANT_OPENINGS) -> list[dict]:
+    """Newest-first press items about openings from the pre-fetch RSS file (empty if absent)."""
+    if not rss_path.is_file():
+        return []
+    try:
+        payload = json.loads(rss_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+    keys = ("id", "headline", "summary", "publisher", "url", "published_at")
+    items = [{k: i[k] for k in keys if k in i} for i in payload.get("items") or [] if i.get("url")]
+    items.sort(key=lambda i: i.get("published_at") or "", reverse=True)
+    return items[:limit]
+
+
+def build_restaurant_synthesis_inbox(
+    raw: dict, *, topics_cfg: dict, openings: list[dict] | None = None
+) -> dict:
     section_caps = restaurant_section_caps(topics_cfg)
     items = raw.get("items") or []
     by_section: dict[str, list[dict]] = {sid: [] for sid in section_caps}
@@ -996,10 +1015,13 @@ def build_restaurant_synthesis_inbox(raw: dict, *, topics_cfg: dict) -> dict:
         "verified_count": sum(1 for item in items if item.get("verified")),
         "section_counts": section_counts,
         "items": section_items,
+        "openings": openings or [],
         "note": (
             "Token-light restaurant slice for synthesis. Items included here have verified:true "
             "after Google Places API post-fetch verification when GOOGLE_MAPS_API_KEY is set. "
-            "Do not recommend unverified restaurants."
+            "Do not recommend unverified restaurants. "
+            "`openings` are unreviewed press articles (headline + URL) for the New openings "
+            "section only; never treat them as verified restaurants."
         ),
     }
 
@@ -1090,7 +1112,11 @@ def main() -> int:
     if args.type == "berlin-culture":
         payload = build_culture_synthesis_inbox(raw, sources_cfg=sources_cfg, topics_cfg=topics_cfg)
     elif args.type == "berlin-restaurants":
-        payload = build_restaurant_synthesis_inbox(raw, topics_cfg=topics_cfg)
+        payload = build_restaurant_synthesis_inbox(
+            raw,
+            topics_cfg=topics_cfg,
+            openings=load_restaurant_openings(inbox_dir / f"{date_str}-rss.json"),
+        )
     elif args.type == "music-discovery":
         payload = build_music_synthesis_inbox(raw, topics_cfg=topics_cfg)
     else:
@@ -1117,7 +1143,7 @@ def main() -> int:
         log(
             f"Wrote {out_path} — {payload['raw_item_count']} raw / "
             f"{payload['verified_count']} verified → {len(payload['items'])} restaurant candidates "
-            f"({counts})"
+            f"({counts}); {len(payload.get('openings') or [])} opening articles"
         )
     elif args.type == "music-discovery":
         log(

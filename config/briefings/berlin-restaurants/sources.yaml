@@ -1,3 +1,74 @@
+# New-opening radar — RSS from food press, fetched by scripts/fetch_rss.py (item format "restaurant").
+# Articles are reported in the briefing as "New openings to watch" (headline + link, no review, no Maps
+# check), so thin coverage is fine: the value is knowing a place exists and who wrote about it.
+rss_max_age_hours: 216  # 9 days — weekly Thursday run plus slack for late feeds
+
+# A post is kept when its title/summary contains an opening term. Feeds marked general: true also
+# need a food term, so culture/news posts that say "opens" are dropped.
+opening_terms:
+  - eröffnet
+  - eröffnung
+  - neueröffnung
+  - neu eröffnet
+  - neuer laden
+  - macht auf
+  - öffnet
+  - new restaurant
+  - new opening
+  - new openings
+  - opening
+  - opens
+  - opened
+  - now open
+  - just opened
+  - debut
+  - first look
+  - pop-up
+  - neu in berlin
+food_terms:
+  - restaurant
+  - café
+  - cafe
+  - bar
+  - bistro
+  - bakery
+  - bäckerei
+  - food
+  - essen
+  - küche
+  - kitchen
+  - imbiss
+  - ramen
+  - noodle
+  - dining
+  - wine
+  - brunch
+  - pizza
+  - eatery
+
+rss_feeds:
+  # Berlin Food Stories: URL is a Squarespace-style guess and could not be tested from the dev
+  # sandbox. A bad URL is skipped and logged under "errors" in inbox/berlin-restaurants/*-rss.json.
+  - publisher: Berlin Food Stories
+    url: https://www.berlinfoodstories.com/editorials?format=rss
+    max_items: 10
+  - publisher: The Berliner
+    url: https://www.the-berliner.com/food/feed/
+    general: true
+    max_items: 10
+  - publisher: Exberliner
+    url: https://www.exberliner.com/feed/
+    general: true
+    max_items: 10
+  - publisher: Cee Cee Berlin
+    url: https://ceecee.cc/feed/
+    general: true
+    max_items: 10
+  - publisher: tip Berlin
+    url: https://www.tip-berlin.de/restaurants-bars/feed/
+    general: true
+    max_items: 10
+
 allowed_domains:
   # Editorial / discovery only — Google Maps verification is via Places API post-fetch
   - tip-berlin.de

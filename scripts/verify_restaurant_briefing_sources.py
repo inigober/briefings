@@ -54,6 +54,33 @@ def extract_maps_urls(text: str) -> list[str]:
     return urls
 
 
+OPENINGS_HEADING_RE = re.compile(r"^###\s+New openings to watch\s*$", re.MULTILINE | re.IGNORECASE)
+MD_LINK_RE = re.compile(r"\]\((https?://[^)\s]+)\)")
+
+
+def extract_openings_urls(text: str) -> list[str]:
+    """Markdown-link URLs inside the 'New openings to watch' section."""
+    match = OPENINGS_HEADING_RE.search(text or "")
+    if not match:
+        return []
+    rest = text[match.end():]
+    next_heading = re.search(r"^#{1,3}\s", rest, re.MULTILINE)
+    section = rest[: next_heading.start()] if next_heading else rest
+    return [m.group(1).rstrip(".,;") for m in MD_LINK_RE.finditer(section)]
+
+
+def unknown_openings_urls(*, briefing_text: str, inbox_payload: dict) -> list[str]:
+    allowed = {
+        (i.get("url") or "").strip().rstrip("/")
+        for i in inbox_payload.get("openings") or []
+    }
+    return [
+        url
+        for url in extract_openings_urls(briefing_text)
+        if url.rstrip("/") not in allowed
+    ]
+
+
 def collect_inbox_maps_keys(payload: dict) -> set[str]:
     keys: set[str] = set()
     for item in payload.get("items") or []:
@@ -140,6 +167,19 @@ def main() -> int:
         for url in unknown:
             log(f"  - {url}")
         log("Copy google_maps_url verbatim from the verified inbox — do not invent Maps links.")
+        return 1
+
+    bad_openings = unknown_openings_urls(
+        briefing_text=briefing_text, inbox_payload=inbox_payload
+    )
+    if bad_openings:
+        log(
+            f"FAIL: {len(bad_openings)} 'New openings to watch' URL(s) not in "
+            f"{inbox_path.name} openings:"
+        )
+        for url in bad_openings:
+            log(f"  - {url}")
+        log("Copy the article url from the inbox openings list verbatim.")
         return 1
 
     log(
