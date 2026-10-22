@@ -1,17 +1,20 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-10-15",
+  "date": "2026-10-22",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-10-15.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-10-15-synthesis.json",
-  "verified_count": 15,
-  "selected_count": 5,
+  "briefing_path": "briefings/berlin-restaurants/2026-10-22.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-10-22-synthesis.json",
+  "verified_count": 16,
+  "selected_count": 8,
   "selected_restaurants": [
-    "Et Dünyasi by Ehli-Kebap",
-    "Trattoria Lauretta",
-    "Ripieno",
-    "Sissi Restaurant",
-    "HAPPA"
+    "Kongfu Chili",
+    "You Mi",
+    "Nusantara",
+    "Thai Art",
+    "Doyum Grillhaus",
+    "Trattoria da Silvana & Renato",
+    "Sironi – La Pizza",
+    "Fine Bagels"
   ],
-  "notes": "5 entries from 15 verified inbox items (shorter list: eligible pool was thin after 10-week repeats). Excluded 10-week CID repeats: Shaniu's House of Noodles (Wilmersdorf, 2026-09-03), Lon Men's Noodle House (Charlottenburg, 2026-08-13), Chon Thong (Charlottenburg, 2026-10-08), Nutts Thai Kitchen (Friedrichshain, 2026-08-27; hours still look like a listing error), Mardin (Neukölln, 2026-08-06), Restaurant Genazvale (Wilmersdorf, 2026-08-13; hours also look like a listing error), Šljiva (Moabit, 2026-09-10), Sarajevo (Wedding, 2026-09-03), Taqueria El Oso (Prenzlauer Berg, 2026-10-08), Horváth (Kreuzberg, 2026-09-03). Et Dünyasi Places name is Et Dünyasi Fleischerei; included as the butcher-counter listing with rating/hours. One fine-dining entry: HAPPA (€€€, good value). Neighborhoods: Wedding, Tempelhof, Schöneberg (2), Kreuzberg. Trimmed 2026-07-30 index entries as older than 10 weeks."
+  "notes": "8 entries from 16 verified inbox items. Excluded 10-week repeats: Shaniu's House of Noodles (2026-09-03), Papaya (2026-09-17), Fu Li Lai (2026-09-17), Sarajevo (2026-09-03), Der blaue Fuchs (2026-08-13). Also skipped: Bruno (Maps name Schmaus & Plausch does not match, no rating/hours), Salamat and La Pecora Nera (not needed for 8 entries). Doyum Grillhaus has no rating/hours in the inbox, so those lines are omitted; Silvana & Renato Hours omitted (04:00 opening looks like a listing glitch). No fine dining. Neighborhoods: Prenzlauer Berg, Schöneberg (2), Moabit, Charlottenburg, Kreuzberg, Tegel, Friedrichshain. Trimmed 2026-08-06 index entries as older than 10 weeks."
 }
