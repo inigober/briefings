@@ -321,10 +321,32 @@ rss_feeds:
     publisher: Financial Times
     section_ids: [world]
     max_items: 8
-  - url: https://www.economist.com/the-world-this-week/rss.xml
+  # The Economist: the weekly 'the-world-this-week' feed returned 0 items on most days, so use
+  # daily section feeds instead (same publisher label; duplicates are removed across feeds).
+  - url: https://www.economist.com/leaders/rss.xml
     publisher: The Economist
     section_ids: [world]
-    max_items: 8
+    max_items: 4
+  - url: https://www.economist.com/international/rss.xml
+    publisher: The Economist
+    section_ids: [world]
+    max_items: 4
+  - url: https://www.economist.com/europe/rss.xml
+    publisher: The Economist
+    section_ids: [world]
+    max_items: 4
+  - url: https://www.economist.com/business/rss.xml
+    publisher: The Economist
+    section_ids: [world]
+    max_items: 4
+  - url: https://www.economist.com/finance-and-economics/rss.xml
+    publisher: The Economist
+    section_ids: [world]
+    max_items: 4
+  - url: https://www.economist.com/science-and-technology/rss.xml
+    publisher: The Economist
+    section_ids: [world]
+    max_items: 4
   - url: https://asia.nikkei.com/rss/feed/nar
     publisher: Nikkei Asia
     section_ids: [world]
