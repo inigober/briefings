@@ -46,12 +46,13 @@ jobs:
           echo "value=$RESOLVED" >> "$GITHUB_OUTPUT"
           echo "Using restaurant week key: $RESOLVED"
 
-      - name: Fetch new-opening articles (RSS)
+      - name: Fetch new-opening articles (RSS + WordPress)
         continue-on-error: true  # radar is a bonus; never block the weekly briefing
         env:
           PYTHONUNBUFFERED: "1"
         run: |
           python scripts/fetch_rss.py --type berlin-restaurants --date ${{ steps.run_date.outputs.value }}
+          python scripts/fetch_wordpress.py --type berlin-restaurants --date ${{ steps.run_date.outputs.value }}
 
       - name: Fetch OpenAI restaurant research
         id: openai_fetch
