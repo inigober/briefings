@@ -163,6 +163,22 @@ Better:
 
 > The yaprak skewer is the reason to come: beef, lamb and a good amount of fat, charred properly. It is a butcher first and a restaurant second, so the sandwich bread is toasted hard and service can lose an order. Order the skewers and köfte on a plate, and note it closes early in the evening.
 
+## New Openings to Watch (optional)
+
+Place this section after the restaurant entries and before the strongest bets. It comes from press articles in the inbox `openings` list, which are **not** Google Maps verified and are **not** reviews. Use it so the reader hears about new places early; skip the whole section when `openings` is empty or nothing in it is a real Berlin opening.
+
+```
+### New openings to watch
+
+- **Place name** (Neighborhood, cuisine) — one plain sentence on what it is and why it caught the press's eye. [Publisher](article-url)
+```
+
+- 2–5 bullets, newest first. Name the place and, when the article says so, neighborhood and cuisine. Do not guess either.
+- Never give a verdict, rating, price tier, Hours, or Maps line. Say nothing the article does not say; if it is only a teaser, say it is early.
+- Link only the article URL from the inbox `openings` item, copied verbatim. Do not link or cite anything else.
+- Skip roundups with no single named place worth flagging, non-Berlin items, bars/cafés with no food angle, and anything already in this briefing's main entries.
+- These bullets do not count towards the 6–8 restaurant entries and are never eligible for strongest bets.
+
 ## Strongest Bets
 
 End with:

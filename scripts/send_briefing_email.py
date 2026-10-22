@@ -112,6 +112,7 @@ RESTAURANT_ENTRY_RE = re.compile(
     r"(?:\s+\((good value|potentially overpriced)\))?$"
 )
 RESTAURANT_STRONGEST_BETS = "This week's strongest bets"
+RESTAURANT_OPENINGS = "New openings to watch"
 RESTAURANT_META_FIELDS = ("Hours", "Rating", "Maps")
 RESTAURANT_TITLE_LINK_STYLE = (
     "text-decoration:underline;text-underline-offset:3px;font-weight:600;"
@@ -1064,6 +1065,7 @@ class RestaurantBriefing:
     title: str
     intro: list[str] = field(default_factory=list)
     entries: list[RestaurantEntry] = field(default_factory=list)
+    openings: list[str] = field(default_factory=list)
     strongest_bets_intro: str = ""
     strongest_bets: list[str] = field(default_factory=list)
 
@@ -1075,6 +1077,7 @@ def parse_restaurant_briefing(md_text: str) -> RestaurantBriefing:
     current_entry: RestaurantEntry | None = None
     past_title = False
     in_strongest_bets = False
+    in_openings = False
 
     for line in body_md.splitlines():
         stripped = line.strip()
@@ -1092,6 +1095,7 @@ def parse_restaurant_briefing(md_text: str) -> RestaurantBriefing:
         entry_match = RESTAURANT_ENTRY_RE.match(stripped)
         if entry_match:
             in_strongest_bets = False
+            in_openings = False
             current_entry = RestaurantEntry(
                 name=entry_match.group(1).strip(),
                 neighborhood=entry_match.group(2).strip(),
@@ -1101,9 +1105,22 @@ def parse_restaurant_briefing(md_text: str) -> RestaurantBriefing:
             briefing.entries.append(current_entry)
             continue
 
+        if stripped.startswith("### ") and RESTAURANT_OPENINGS in stripped:
+            in_openings = True
+            in_strongest_bets = False
+            current_entry = None
+            continue
+
         if stripped.startswith("### ") and RESTAURANT_STRONGEST_BETS in stripped:
             in_strongest_bets = True
+            in_openings = False
             current_entry = None
+            continue
+
+        if in_openings:
+            bullet_match = re.match(r"^[-*]\s+(.+)", stripped)
+            if bullet_match:
+                briefing.openings.append(bullet_match.group(1).strip())
             continue
 
         field_match = CULTURE_FIELD_RE.match(stripped)
@@ -1249,6 +1266,18 @@ def render_restaurant_body_html(md_text: str) -> str:
         if entry_index > 0:
             parts.append(hr)
         parts.append(render_restaurant_entry_html(entry, footnotes=footnotes))
+
+    if briefing.openings:
+        parts.append(hr)
+        parts.append(f'<h3 style="{H3_STYLE}">🆕 {RESTAURANT_OPENINGS}</h3>')
+        items = "".join(
+            f'<li class="restaurant-body" style="{RESTAURANT_LIST_ITEM_STYLE}">'
+            f"{format_story_body(opening, footnotes)}</li>"
+            for opening in briefing.openings
+        )
+        parts.append(
+            f'<ul style="margin:0 0 20px;padding-left:20px;color:{CULTURE_COLOR_BODY};">{items}</ul>'
+        )
 
     if briefing.strongest_bets:
         parts.append(hr)

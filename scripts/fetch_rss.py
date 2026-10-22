@@ -100,6 +100,16 @@ def entry_url(entry: Any) -> str | None:
     return None
 
 
+def matches_opening(text: str, *, opening_terms: list[str], food_terms: list[str], general: bool) -> bool:
+    """True when text mentions an opening term (and a food term for general-interest feeds)."""
+    lowered = text.casefold()
+    if not any(term.casefold() in lowered for term in opening_terms):
+        return False
+    if general and not any(term.casefold() in lowered for term in food_terms):
+        return False
+    return True
+
+
 def make_item_id(url: str, section_id: str) -> str:
     digest = hashlib.sha256(url.encode()).hexdigest()[:10]
     return f"rss-{section_id}-{digest}"
@@ -168,6 +178,52 @@ def resolve_news_section_id(feed_cfg: dict, url: str) -> str:
     return default
 
 
+def entry_to_restaurant_item(
+    entry: Any,
+    *,
+    feed_cfg: dict,
+    section_id: str,
+    blocklist: list[str],
+    opening_terms: list[str],
+    food_terms: list[str],
+) -> dict | None:
+    """Press article about a possible new opening (not a verified restaurant candidate)."""
+    url = entry_url(entry)
+    if not url or not url.startswith("http"):
+        return None
+    if is_blocked(url, blocklist):
+        return None
+
+    title = strip_html(getattr(entry, "title", "") or "").strip()
+    if not title:
+        return None
+
+    summary = strip_html(
+        getattr(entry, "summary", "") or getattr(entry, "description", "") or ""
+    )
+    if len(summary) > 400:
+        summary = summary[:397] + "..."
+
+    if not matches_opening(
+        f"{title} {summary}",
+        opening_terms=opening_terms,
+        food_terms=food_terms,
+        general=bool(feed_cfg.get("general")),
+    ):
+        return None
+
+    published = parse_entry_date(entry)
+    return {
+        "id": make_item_id(url, "opening"),
+        "headline": title,
+        "summary": summary or title,
+        "publisher": feed_cfg.get("publisher") or urlparse(url).netloc,
+        "url": url,
+        "published_at": published.date().isoformat() if published else None,
+        "ingestion_source": "rss",
+    }
+
+
 def entry_to_item(
     entry: Any,
     *,
@@ -225,12 +281,22 @@ def entry_to_item(
     }
 
 
+def item_url(item: dict, item_format: str) -> str:
+    if item_format == "culture":
+        return normalize_url(item.get("official_url") or "")
+    if item_format == "restaurant":
+        return normalize_url(item.get("url") or "")
+    return normalize_url(item["sources"][0]["url"])
+
+
 def fetch_feed(
     feed_cfg: dict,
     *,
     cutoff: datetime,
     blocklist: list[str],
     item_format: str = "news",
+    opening_terms: list[str] | None = None,
+    food_terms: list[str] | None = None,
 ) -> tuple[list[dict], str | None]:
     url = feed_cfg.get("url")
     if not url:
@@ -272,7 +338,16 @@ def fetch_feed(
             else section_ids[0]
         )
 
-        if item_format == "culture":
+        if item_format == "restaurant":
+            item = entry_to_restaurant_item(
+                entry,
+                feed_cfg=feed_cfg,
+                section_id=section_id,
+                blocklist=blocklist,
+                opening_terms=opening_terms or [],
+                food_terms=food_terms or [],
+            )
+        elif item_format == "culture":
             item = entry_to_culture_item(
                 entry, feed_cfg=feed_cfg, section_id=section_id, blocklist=blocklist
             )
@@ -283,10 +358,7 @@ def fetch_feed(
         if not item:
             continue
 
-        if item_format == "culture":
-            norm = normalize_url(item.get("official_url") or "")
-        else:
-            norm = normalize_url(item["sources"][0]["url"])
+        norm = item_url(item, item_format)
         if not norm or norm in seen_urls:
             continue
         seen_urls.add(norm)
@@ -317,6 +389,8 @@ def fetch_all_rss(
             cutoff=cutoff,
             blocklist=blocklist,
             item_format=item_format,
+            opening_terms=sources_cfg.get("opening_terms") or [],
+            food_terms=sources_cfg.get("food_terms") or [],
         )
         if err:
             errors.append(f"{label}: {err}")
@@ -330,10 +404,7 @@ def fetch_all_rss(
     seen: set[str] = set()
     deduped: list[dict] = []
     for item in all_items:
-        if item_format == "culture":
-            url = normalize_url(item.get("official_url") or "")
-        else:
-            url = normalize_url(item["sources"][0]["url"])
+        url = item_url(item, item_format)
         if not url or url in seen:
             continue
         seen.add(url)
@@ -361,6 +432,8 @@ def resolve_max_age_hours(*, briefing_type: str, sources_cfg: dict) -> int:
 def resolve_item_format(briefing_type: str) -> str:
     if briefing_type == "berlin-culture":
         return "culture"
+    if briefing_type == "berlin-restaurants":
+        return "restaurant"
     return "news"
 
 

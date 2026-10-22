@@ -49,7 +49,7 @@ briefings:
     synthesis_prompt: prompts/berlin-restaurants/synthesis-run.md
     style_rule: config/briefings/berlin-restaurants/style-rules.md
     prefetch:
-      rss: false
+      rss: true  # new-opening radar from food-press feeds (config/briefings/berlin-restaurants/sources.yaml)
       openai_script: fetch_restaurant_research
       slim: true
       spend_cap_usd: 2.0  # documented default; live cap = GitHub variable OPENAI_DAILY_SPEND_CAP_USD or code default $2
