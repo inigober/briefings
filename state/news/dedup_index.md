@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-22
+
+- **spain-milei-visit-campaign** — eldiario.es: Milei's visit insults Sánchez, embraces Ayuso/Abascal; PP and Vox uneasy, PSOE sees a gift (section: spain)
+- **spain-pp-constitutional-court-senate-bet** — eldiario.es: PP blocks Constitutional Court renewal for 10 months, betting on a Senate majority to name four justices (section: spain)
+- **spain-housing-supply-capacity** — EL PAÍS: builders and experts split on how many homes Spain can build (section: spain)
+- **germany-vaping-untaxed-by-error** — Handelsblatt: new tobacco-tax law could leave e-cigarettes untaxed by mistake (section: germany)
+- **germany-respiratory-self-tests** — Handelsblatt: what flu/Covid/RSV self-tests tell patients (section: germany)
+- **germany-board-games-cohesion** — Tagesspiegel: board-game boom against loneliness and weakening cohesion (section: germany)
+- **berlin-sbahn-westkreuz-works** — Tagesspiegel: Westkreuz works disrupt five S-Bahn lines including an airport line (section: berlin)
+- **berlin-el-nino-mild-winter** — rbb24: strong El Niño could mean a wet, mild winter in Berlin-Brandenburg (section: berlin)
+- **berlin-begine-flinta-space** — Tagesspiegel: Schöneberg's Begine reinvents itself as a Flinta space (section: berlin)
+- **world-taiwan-micron-chip-strike** — Nikkei Asia: Taiwan's first chip workers' strike at a Micron plant (section: world)
+- **world-peru-amazon-basic-income** — The Guardian: £2-a-day basic income helps protect the Peruvian Amazon (section: world)
+- **world-tesla-lower-target-spacex-merger** — Financial Times: Tesla flat revenue, lower sales target, SpaceX merger explored (section: world)
+
 ## 2026-10-21
 
 - **spain-supremo-amnesty-malversacion-tc-clash** — eldiario.es: Supreme Court applies the amnesty to the procés leaders' embezzlement and attacks the Constitutional Court's "interference" (section: spain)

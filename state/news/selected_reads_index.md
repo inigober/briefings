@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-22
+
+- [AfD’s Alice Weidel urges quick Ukraine talks and a return to cheap Russian energy](https://www.politico.eu/article/afd-alice-weidel-urges-quick-ukraine-talks-and-a-return-to-cheap-russian-energy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Read This Website While You Still Can](https://www.theatlantic.com/technology/2026/10/ai-hacking-apocalypse-began-last-night/689106/?utm_source=feed) — The Atlantic
+- [Politico and Telegraph owner pitched deal to buy European arm of TikTok](https://www.ft.com/content/171220b9-8d8e-4d82-a866-f9aaf258e0fb?syn-25a6b1a6=1) — Financial Times
+- [Gundam maker Bandai Namco's stock surge reflects market AI doubts](https://asia.nikkei.com/business/technology/artificial-intelligence/gundam-maker-bandai-namco-s-stock-surge-reflects-market-ai-doubts) — Nikkei Asia
+
 ## 2026-10-21
 
 - [Vietnam security ministry seeks Samsung's help on AI and chips](https://asia.nikkei.com/business/electronics/vietnam-security-ministry-seeks-samsung-s-help-on-ai-and-chips) — Nikkei Asia

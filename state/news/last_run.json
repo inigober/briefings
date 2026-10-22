@@ -1,59 +1,59 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-21",
-  "briefing_date": "2026-10-21",
-  "inbox_date": "2026-10-21",
+  "date": "2026-10-22",
+  "briefing_date": "2026-10-22",
+  "inbox_date": "2026-10-22",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-21.md",
-  "inbox_path": "inbox/news/2026-10-21-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-22.md",
+  "inbox_path": "inbox/news/2026-10-22-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "El Constitucional se dispone a rechazar el amparo presentado por la 'ley de nietos'",
+      "headline": "Milei podcast / Milei, el pariente que se cuela / Milei economic miracle / EL PAÍS Milei pieces",
+      "section": "spain",
+      "reason": "one theme per section: kept the single eldiario.es campaign-impact story; diplomacy parked in Other Headlines"
+    },
+    {
+      "headline": "El Supremo pone la lupa sobre la documentación a votantes del exterior / abogado de afectados por la ley de nietos",
       "section": "spain",
       "reason": "incremental on 13 Oct nietos suspension; parked in Other Headlines"
     },
     {
-      "headline": "Marchena contra Conde-Pumpido / El Supremo amnistía a Junqueras",
+      "headline": "Buscador: Madrid copa los barrios más caros",
       "section": "spain",
-      "reason": "duplicate theme with chosen amnesty clash story"
+      "reason": "housing theme: kept the supply story only"
     },
     {
-      "headline": "Motivos y consecuencias de un pacto entre PP y Vox sobre las listas del Senado / Abascal el Bueno",
-      "section": "spain",
-      "reason": "incremental on 18 Oct Vox-PP Senate withdrawal; parked in Other Headlines"
-    },
-    {
-      "headline": "Ferraz solventa las listas electorales (Palencia)",
-      "section": "spain",
-      "reason": "avoid_unless_material: PSOE internal dispute, not material"
-    },
-    {
-      "headline": "Boeing 737 Max certification / Champions League Kompany / Igor Levit / clock change / Portugal hiking",
+      "headline": "Morning Briefing / Podcast: Tesla und SpaceX; Meta Aktienstruktur",
       "section": "germany",
-      "reason": "geo-misfit, sport or consumer filler"
+      "reason": "geo-misfit: US corporate story; Tesla/SpaceX covered in World, Meta in Other Headlines"
     },
     {
-      "headline": "Datenleck bei der AfD / Gelbwesten Frankreich",
+      "headline": "iPod 25 years / NBA Schröder / Kane Ballon d'Or / Kinostarts / Tokio Hotel concerts / Taifun Champi",
+      "section": "germany",
+      "reason": "sport, culture or consumer filler; typhoon parked in Other Headlines"
+    },
+    {
+      "headline": "DSO Videospiel-Soundtracks / BR Volleys 3:0 Freiburg",
       "section": "berlin",
-      "reason": "geo: national or French story; AfD leak and France parked in Other Headlines"
+      "reason": "culture and sport filler"
     },
     {
-      "headline": "Wismar RE8 / Südtirol Berghütte / Frankfurt (Oder) Jugendgewalt / Kaulitz Wetten dass",
+      "headline": "Heineken 111m / Nudeln EU / Rentner Griechenland / Schulball Wiener Neustadt / Amazon-Lager EU-Abgeordnete",
       "section": "berlin",
-      "reason": "geo: not Berlin city, or entertainment filler"
+      "reason": "geo: not Berlin city; publisher_pool_thin on Berlin-local items"
     },
     {
-      "headline": "Sudan drone attack 80 dead / US deportation reprieve / Peachy the flamingo",
-      "section": "world",
-      "reason": "Sudan parked 20 Oct; Guardian reprieve was Selected Read 20 Oct; flamingo is filler"
+      "headline": "Judenfrage-Post Potsdamer Wirtschaftsunion; PHP-Lücken",
+      "section": "berlin",
+      "reason": "geo: Brandenburg or national; PHP flaw parked in Other Headlines"
     },
     {
-      "headline": "OpenAI agents disabled monitoring / NextDC / SpaceX-Tesla / Bloomberg markets wrap",
+      "headline": "Flavio Bolsonaro corrupto meme / Peachy flamingo / Highland Spring / AI and inflation / TPS reprieve",
       "section": "world",
-      "reason": "AI-finance theme saturated in prior 7 days; parked in Other Headlines"
+      "reason": "meme or filler, UK property, or AI-finance theme saturated; TPS reprieve was Selected Read 20 Oct"
     }
   ],
-  "notes": "Spain: Supreme Court amnesty/TC clash (eldiario), AI deepfake campaign (EL PAÍS), Ayuso/Civismo lobby lunch (eldiario). Ceuta cooldown empty; no enclave item. Germany: tobacco-tax law in force by error (TSP), steer-by-wire (HB), falling women's share in parliaments (TSP). Berlin: Senate hack/Bonde darknet (rbb24), Schlossstraße mall fully let (TSP), Pankow golf resort (TSP). berlin_pool_thin. World: Alberta referendum (North America, Guardian), Guinea-Bissau vaccine raid (Africa, Guardian), Netanyahu/Iran (Middle East, FT). Selected Reads: Nikkei Vietnam/Samsung, Politico EPP climate, FT Britain 1970s, NYT UK Typhoons to Saudi."
+  "notes": "Spain: Milei campaign visit (eldiario), PP bet on Constitutional Court via Senate (eldiario), housing supply (EL PAÍS). Ceuta cooldown empty; no enclave item. Germany: vaping untaxed by error (HB, follow-up to 21 Oct tobacco law, new angle), respiratory self-tests (HB), board games and cohesion (TSP). germany_pool_thin. Berlin: Westkreuz S-Bahn works (TSP), El Niño winter (rbb24), Begine Flinta space (TSP). berlin_pool_thin. World: Taiwan Micron strike (East Asia, Nikkei), Peru Amazon basic income (Latin America, Guardian), Tesla/SpaceX (North America, FT). Selected Reads: Politico Weidel, Atlantic PHP flaw, FT Döpfner TikTok, Nikkei Bandai Namco."
 }
