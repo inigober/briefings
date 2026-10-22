@@ -1,84 +1,42 @@
 {
   "briefing_type": "berlin-restaurants",
   "date": "2026-10-22",
-  "fetched_at": "2026-10-22T08:03:57.258485+00:00",
+  "fetched_at": "2026-10-22T20:40:40.914157+00:00",
   "model": "gpt-6.1-sol",
   "fetch_mode": "combined",
   "items": [
     {
-      "id": "kongfu_chili",
+      "id": "weidaojia",
       "topic_ids": [
         "regional_chinese"
       ],
-      "name": "Kongfu Chili",
+      "name": "WeiDaoJia",
       "neighborhood": "Prenzlauer Berg",
-      "address": "Schliemannstraße 31, 10437 Berlin",
-      "cuisine": "Chinese; northwestern-style belt noodles and Sichuan dishes",
+      "address": "Schönhauser Allee 146a, 10435 Berlin",
+      "cuisine": "Chinese; Nanjing specialties and Jiangsu-influenced cooking",
       "price_tier": "€€",
       "value_label": null,
       "fine_dining": false,
       "strengths": [
-        "Hand-pulled belt noodles with well-developed seasoning rather than texture alone.",
-        "Three-in-one bowl combines oil-splashed noodles, stewed beef, vegetables and pressed tofu."
+        "Unusually specific Nanjing repertoire, including lion’s-head meatball.",
+        "Editorial recommendations identify crispy rice, homemade jiaozi and wok-fired clams."
       ],
       "weaknesses": [
-        "Evidence is strongest for the noodle specialties, not an endorsement of every dish on the wider menu."
+        "The signature lion’s-head meatball may require advance ordering; do not assume walk-in availability."
       ],
-      "comparative_context": "A particularly relevant alternative to hand-pulled-noodle restaurants whose seasoning receives less attention than their dough.",
-      "critical_assessment": "High-priority candidate: the detailed editorial assessment specifically praises both noodle texture and seasoning, closely matching this reader's priorities. Address is supplied by the accompanying guide. ([berlinfoodstories.com](https://www.berlinfoodstories.com/editorials/entering-the-noodle-zone))",
+      "comparative_context": "A useful complement to the reader’s Sichuan favorites rather than another chili-and-peppercorn specialist.",
+      "critical_assessment": "Strong discovery candidate because the evidence concerns identifiable dishes and regional repertoire. Prioritize the Nanjing specialties over treating the menu as a generic Chinese selection. ([berlinfoodstories.com](https://www.berlinfoodstories.com/map/weidaojia?utm_source=openai))",
       "source_urls": [
-        "https://www.berlinfoodstories.com/editorials/entering-the-noodle-zone",
-        "https://www.berlinfoodstories.com/top-lists/the-best-chinese-noodles-in-berlin"
+        "https://www.berlinfoodstories.com/map/weidaojia"
       ],
       "ingestion_source": "openai",
-      "google_maps_name": "Kongfu Chili",
-      "google_maps_address": "Schliemannstraße 31, 10437 Berlin",
-      "google_maps_url": "https://maps.google.com/?cid=12949376634428473489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJR-YCxQtNqEcRkUDatXBttbM",
-      "google_maps_rating": 4.6,
-      "google_maps_review_count": 514,
-      "google_maps_hours_compact": "Daily 17:00–22:00",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "maps_api_verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "verified": true
-    },
-    {
-      "id": "you_mi_eislebener",
-      "topic_ids": [
-        "regional_chinese"
-      ],
-      "name": "You Mi",
-      "neighborhood": "City West, Wilmersdorf–Schöneberg border",
-      "address": "Eislebener Straße 1, 10789 Berlin",
-      "cuisine": "Chinese; Sichuan-leaning shared dishes and noodles",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Food-specific recommendations include tofu skin, bamboo salad, garlic shoots with Chinese sausage and fish-fragrant eggplant.",
-        "Cold starters and sour-spicy sweet-potato noodle soup received particular praise under its former Deli House identity."
-      ],
-      "weaknesses": [
-        "Large menu requires selective ordering; the source describes individual dishes as ranging from solid to exceptional.",
-        "Sharing several dishes is more informative than judging the kitchen from one solo main."
-      ],
-      "comparative_context": "A broader shared-table complement to Liu-style noodle eating, rather than another narrowly focused noodle shop.",
-      "critical_assessment": "Strong discovery candidate. Match Places using You Mi and the street address, retaining Deli House as a former-name alias. The updated guide explicitly identifies the name change. ([berlinfoodstories.com](https://www.berlinfoodstories.com/map/deli-house?utm_source=openai))",
-      "source_urls": [
-        "https://www.berlinfoodstories.com/map/deli-house",
-        "https://www.berlinfoodstories.com/editorials/entering-the-noodle-zone"
-      ],
-      "ingestion_source": "openai",
-      "google_maps_name": "YOU MI",
-      "google_maps_address": "Nürnberger Str. 28, 10789 Berlin",
-      "google_maps_url": "https://maps.google.com/?cid=15420434776594381727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJaYqRZABRqEcRn_v8dLpjANY",
+      "google_maps_name": "WeiDaoJia",
+      "google_maps_address": "Oderberger Str. 27, 10435 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=3105457945904461337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJg65ovOVRqEcRGbaMYozNGCs",
       "google_maps_rating": 4.8,
-      "google_maps_review_count": 399,
-      "google_maps_hours_compact": "Daily 12:00–22:00",
+      "google_maps_review_count": 353,
+      "google_maps_hours_compact": "Mon–Thu 12:00–22:30; Fri–Sat 12:00–23:00; Sun 12:00–22:30",
       "exists_in_berlin": true,
       "permanently_closed": false,
       "temporarily_closed": false,
@@ -87,29 +45,29 @@
       "verified": true
     },
     {
-      "id": "shanius_pariser",
+      "id": "shanius-pariser-strasse",
       "topic_ids": [
         "regional_chinese"
       ],
-      "name": "Shaniu's House of Noodles",
+      "name": "Shaniu’s House of Noodles",
       "neighborhood": "Wilmersdorf",
       "address": "Pariser Straße 58, 10719 Berlin",
-      "cuisine": "Chinese; Shanghainese-influenced home cooking with Korean dishes",
+      "cuisine": "Chinese; Shanghainese-leaning noodles with Korean influences",
       "price_tier": "€€",
       "value_label": "good value",
       "fine_dining": false,
       "strengths": [
-        "Editorial coverage emphasizes consistent, affordable home-style cooking.",
-        "Recommended dishes include minced-meat noodles, pork belly with homemade noodles and stuffed eggplant."
+        "Cold noodles, pork-belly noodles and chili wontons provide clear ordering anchors.",
+        "Editorial coverage specifically describes consistent, affordable cooking."
       ],
       "weaknesses": [
-        "The Chinese–Korean menu is not a tightly bounded single-region proposition.",
-        "This candidate refers specifically to Pariser Straße, not the separate Kurfürstenstraße branch."
+        "The Shanghai/Korean combination is not a narrowly regional Chinese menu.",
+        "Reservations are advisable according to the guide."
       ],
-      "comparative_context": "Useful regional diversification away from a Chinese shortlist dominated entirely by Sichuan chili oil and Shaanxi belt noodles.",
-      "critical_assessment": "A strong everyday candidate whose appeal rests on comforting execution and affordability, not novelty. The guide's neighborhood tagging is inconsistent; the street address should anchor matching. ([berlinfoodstories.com](https://www.berlinfoodstories.com/top-lists/the-best-chinese-noodles-in-berlin?utm_source=openai))",
+      "comparative_context": "A less Sichuan-centered alternative to Liu Nudelhaus and Tian Fu.",
+      "critical_assessment": "A particularly good audience fit: noodle-focused comfort food with dish-specific support rather than novelty positioning. Match this branch by address, not the publication’s inconsistent neighborhood tags. ([berlinfoodstories.com](https://www.berlinfoodstories.com/top-lists/the-best-chinese-restaurants-in-berlin?utm_source=openai))",
       "source_urls": [
-        "https://www.berlinfoodstories.com/top-lists/the-best-chinese-noodles-in-berlin",
+        "https://www.berlinfoodstories.com/top-lists/the-best-chinese-restaurants-in-berlin",
         "https://www.berlinfoodstories.com/editorials/entering-the-noodle-zone"
       ],
       "ingestion_source": "openai",
@@ -128,198 +86,38 @@
       "verified": true
     },
     {
-      "id": "nusantara_moabit",
+      "id": "chuan-garden",
       "topic_ids": [
-        "southeast_asian"
+        "regional_chinese"
       ],
-      "name": "Nusantara",
-      "neighborhood": "Moabit",
-      "address": "Turmstraße 18, 10559 Berlin",
-      "cuisine": "Indonesian home cooking",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Clear Indonesian identity, including gado-gado, bakmie goreng and changing daily dishes.",
-        "Tofu and tempeh provide substantive alternatives to chicken and lamb."
-      ],
-      "weaknesses": [
-        "Coverage establishes culinary identity more convincingly than it evaluates seasoning or consistency dish by dish.",
-        "Changing daily dishes make an exact advance ordering recommendation less dependable."
-      ],
-      "comparative_context": "A logical discovery for someone who likes Ma-Makan, while extending the geographic spread into Moabit.",
-      "critical_assessment": "Worth advancing for Indonesian specificity and home-cooking focus. Editorial confidence is moderate: the source provides concrete dishes and provenance, but not a rigorous technical review. ([mitvergnuegen.com](https://mitvergnuegen.com/2024/lunch-mittag-essen-moabit-berlin/?utm_source=openai))",
-      "source_urls": [
-        "https://mitvergnuegen.com/2024/lunch-mittag-essen-moabit-berlin/"
-      ],
-      "ingestion_source": "openai",
-      "google_maps_name": "Nusantara Restaurant",
-      "google_maps_address": "Turmstr. 18, 10559 Berlin",
-      "google_maps_url": "https://maps.google.com/?cid=6608885631759338744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJrUSvFKBRqEcR-Mwyend6t1s",
-      "google_maps_rating": 4.4,
-      "google_maps_review_count": 1759,
-      "google_maps_hours_compact": "Daily 12:00–21:30",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "maps_api_verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "verified": true
-    },
-    {
-      "id": "papaya_kantstrasse",
-      "topic_ids": [
-        "southeast_asian"
-      ],
-      "name": "Papaya",
-      "neighborhood": "Charlottenburg",
-      "address": "Kantstraße 122, 10625 Berlin",
-      "cuisine": "Thai; Isaan specialties",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Specific Isaan dishes include fermented pork sausage and papaya salad with salted crab.",
-        "Beef-innard and bamboo stews offer substantially more regional depth than a generic curry menu."
-      ],
-      "weaknesses": [
-        "Fermented, intensely spicy and offal-led specialties are less suitable for diners seeking mild Thai food.",
-        "The recommendation is branch-specific; the reviewer explicitly distinguishes Kantstraße from other Papaya locations."
-      ],
-      "comparative_context": "A strong match for the regional intensity behind the reader's enthusiasm for Larb Koi and Dan Thai Food.",
-      "critical_assessment": "High-priority regional candidate. The published praise is supported by identifiable dishes and fermented flavors rather than atmosphere or generic authenticity claims. ([the-berliner.com](https://www.the-berliner.com/berlin/scharf-alert-berlins-best-thai-food/?utm_source=openai))",
-      "source_urls": [
-        "https://www.the-berliner.com/berlin/scharf-alert-berlins-best-thai-food/"
-      ],
-      "ingestion_source": "openai",
-      "google_maps_name": "Papaya Kantstraße",
-      "google_maps_address": "Kantstraße 122, 10625 Berlin-Bezirk Charlottenburg-Wilmersdorf",
-      "google_maps_url": "https://maps.google.com/?cid=15424834162655154313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJ87nI3-BQqEcRidBeWPIEENY",
-      "google_maps_rating": 4.4,
-      "google_maps_review_count": 1629,
-      "google_maps_hours_compact": "Daily 12:00–22:00",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "maps_api_verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "verified": true
-    },
-    {
-      "id": "thai_art_kantstrasse",
-      "topic_ids": [
-        "southeast_asian"
-      ],
-      "name": "Thai Art",
-      "neighborhood": "Charlottenburg",
-      "address": "Kantstraße 57, 10627 Berlin",
-      "cuisine": "Thai; noodle soups and street-food dishes",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Detailed review praises the sweet-sour-salty balance and contrasting pork preparations in tom yum noodles.",
-        "Boat noodles demonstrate a more specialized broth tradition than the standard Berlin Thai repertoire."
-      ],
-      "weaknesses": [
-        "The substantial review concerns an earlier Wilmersdorf location; its seating description should not be transferred to Kantstraße.",
-        "Current-site consistency needs fresh confirmation beyond the updated guide address."
-      ],
-      "comparative_context": "A soup-focused complement to Papaya's Isaan salads, fermentation and stews.",
-      "critical_assessment": "Promising but relocation-sensitive. Use Kantstraße 57 for Places matching: that is the address now attached to the guide, despite the historical review describing another site. ([berlinfoodstories.com](https://www.berlinfoodstories.com/reviews/tom-yum-champion?utm_source=openai))",
-      "source_urls": [
-        "https://www.berlinfoodstories.com/reviews/tom-yum-champion"
-      ],
-      "ingestion_source": "openai",
-      "google_maps_name": "Thai-Art",
-      "google_maps_address": "Kantstraße 57, 10627 Berlin",
-      "google_maps_url": "https://maps.google.com/?cid=6298924624623143780&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJx9G1vIxQqEcRZIufrZJGalc",
-      "google_maps_rating": 4.5,
-      "google_maps_review_count": 668,
-      "google_maps_hours_compact": "Mon–Sat 11:30–21:30 (closed Sun)",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "maps_api_verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "verified": true
-    },
-    {
-      "id": "doyum_grillhaus",
-      "topic_ids": [
-        "turkish_middle_eastern_caucasus"
-      ],
-      "name": "Doyum Grillhaus",
-      "neighborhood": "Kreuzberg",
-      "address": "Admiralstraße 36, 10999 Berlin",
-      "cuisine": "Turkish; charcoal-grilled ocakbaşı specialties",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Adana kebab is praised for seasoning, retained juiciness and the contrast between charred exterior and tender meat.",
-        "A focused grill proposition rather than a restaurant selected merely for döner."
-      ],
-      "weaknesses": [
-        "Meat-centric specialization offers less reason to prioritize it for a vegetarian meal.",
-        "The detailed review is old; its historical euro prices should not be reused."
-      ],
-      "comparative_context": "The most direct comparison candidate for the reader's established liking for Adana Grillhaus.",
-      "critical_assessment": "Advance on the strength of food-specific charcoal-grilling evidence. Treat the price tier as provisional rather than extrapolating from the original review's much lower prices. ([berlinfoodstories.com](https://www.berlinfoodstories.com/reviews/doyum-grillhaus-berlins-best-adana-kebab?utm_source=openai))",
-      "source_urls": [
-        "https://www.berlinfoodstories.com/reviews/doyum-grillhaus-berlins-best-adana-kebab"
-      ],
-      "ingestion_source": "openai",
-      "google_maps_name": "Admiralstraße 36",
-      "google_maps_address": "Admiralstraße 36, 10999 Berlin",
-      "google_maps_url": "https://maps.google.com/?cid=11413251185972459168&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJc_JgscxPqEcRoLYx0HsDZJ4",
-      "google_maps_rating": null,
-      "google_maps_review_count": null,
-      "google_maps_hours_compact": null,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "maps_api_verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "verified": true
-    },
-    {
-      "id": "salamat",
-      "topic_ids": [
-        "turkish_middle_eastern_caucasus"
-      ],
-      "name": "Salamat",
+      "name": "Chuan Garden 川园",
       "neighborhood": "Mitte",
-      "address": "Gartenstraße 1, 10115 Berlin",
-      "cuisine": "Arab and northern Iraqi specialties",
+      "address": "Torstraße 189, 10115 Berlin",
+      "cuisine": "Chinese; Sichuan, especially Zigong",
       "price_tier": "€€",
       "value_label": null,
       "fine_dining": false,
       "strengths": [
-        "Northern Iraqi kobba provides a specific reason to visit beyond hummus and falafel.",
-        "The recommended rice-and-potato parcel includes lamb, peas, almonds and raisins."
+        "Kitchen leadership is linked to Zigong and the former Himmelspagode chefs.",
+        "Rabbit dishes supply a more specific regional reason to visit than generic Sichuan branding."
       ],
       "weaknesses": [
-        "The short editorial recommendation offers limited evidence about consistency across the menu.",
-        "Published low prices are undated and unsuitable as verified October 2026 pricing."
+        "The editorial description identifies a compact winter dining room.",
+        "The retrieved evidence is a guide entry rather than a detailed repeat-visit review."
       ],
-      "comparative_context": "Broadens the section beyond Turkish grills and Georgian dumplings without relying on a generic Levantine menu.",
-      "critical_assessment": "A useful regional discovery reserve, with kobba as the ordering anchor. Lower confidence than Doyum because the evidence is a short recommendation rather than a detailed review. ([mitvergnuegen.com](https://mitvergnuegen.com/tipps/arabische-und-nordirakische-koestlichkeiten-bei-salamat/?utm_source=openai))",
+      "comparative_context": "Potentially interesting for a Tian Fu enthusiast seeking a more explicitly Zigong-oriented order.",
+      "critical_assessment": "Worth advancing despite the Mitte location: regional chef background and rabbit specialties provide substantive grounds beyond opening buzz. Execution evidence is less extensive than for established favorites. ([berlinfoodstories.com](https://www.berlinfoodstories.com/map/chuan-garden))",
       "source_urls": [
-        "https://mitvergnuegen.com/tipps/arabische-und-nordirakische-koestlichkeiten-bei-salamat/"
+        "https://www.berlinfoodstories.com/map/chuan-garden"
       ],
       "ingestion_source": "openai",
-      "google_maps_name": "Salamat",
-      "google_maps_address": "Gartenstraße 1, 10115 Berlin",
-      "google_maps_url": "https://maps.google.com/?cid=13309169066858858930&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJy6OLRe9RqEcRskm9VcCqs7g",
+      "google_maps_name": "Chuan Garden",
+      "google_maps_address": "Torstraße 189, 10115 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=3614477287672776716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJt8HAbABRqEcRDAh0XPEzKTI",
       "google_maps_rating": 4.6,
-      "google_maps_review_count": 1288,
-      "google_maps_hours_compact": "Mon–Thu 12:00–23:00; Fri–Sat 12:00–00:00; Sun 12:00–22:00",
+      "google_maps_review_count": 364,
+      "google_maps_hours_compact": "Daily 12:00–23:00",
       "exists_in_berlin": true,
       "permanently_closed": false,
       "temporarily_closed": false,
@@ -328,78 +126,436 @@
       "verified": true
     },
     {
-      "id": "ambavi",
+      "id": "chon-thong",
       "topic_ids": [
-        "turkish_middle_eastern_caucasus"
+        "southeast_asian"
       ],
-      "name": "Ambavi",
-      "neighborhood": "Friedrichshain",
-      "address": "Straßmannstraße 30, 10249 Berlin",
-      "cuisine": "Georgian home cooking",
+      "name": "Chon Thong",
+      "neighborhood": "Charlottenburg",
+      "address": "Kantstraße 53, 10627 Berlin",
+      "cuisine": "Thai; larb, chicken rice and changing specialties",
       "price_tier": "€€",
       "value_label": null,
       "fine_dining": false,
       "strengths": [
-        "Named house specialty is chakapuli, lamb stewed with tarragon and cherry plums.",
-        "Vegan starters and a shared supra selection provide routes beyond cheese bread."
+        "Duck larb and half-fried, half-boiled chicken rice receive specific recommendations.",
+        "A specials board broadens the repertoire beyond the translated standard menu."
       ],
       "weaknesses": [
-        "The source does not provide a detailed assessment of dumpling texture or individual cooking consistency.",
-        "A shared feast may exceed the provisional mid-range budget depending on the current offering."
+        "Some specialties are not listed in English, making informed ordering less straightforward."
       ],
-      "comparative_context": "More compelling as a Georgian herb-and-sour-fruit stew candidate than simply another khachapuri address.",
-      "critical_assessment": "Advance as a regional alternative in northern Friedrichshain. The distinctive stew is the strongest food-specific justification; a citywide superiority claim would exceed the evidence. ([mitvergnuegen.com](https://mitvergnuegen.com/2024/georgische-restaurants-berlin-khachapuri/?utm_source=openai))",
+      "comparative_context": "A natural next candidate for someone who already likes Dan Thai Food and Larb Koi.",
+      "critical_assessment": "High-priority food-first candidate. The most useful evidence identifies actual orders and the importance of the specials board, rather than relying solely on authenticity claims. ([berlinfoodstories.com](https://www.berlinfoodstories.com/map/new-thai-restaurant?utm_source=openai))",
       "source_urls": [
-        "https://mitvergnuegen.com/2024/georgische-restaurants-berlin-khachapuri/"
+        "https://www.berlinfoodstories.com/map/new-thai-restaurant"
       ],
       "ingestion_source": "openai",
-      "google_maps_name": "Ambavi Berlin",
-      "google_maps_address": "Straßmannstraße 30, 10249 Berlin-Bezirk Friedrichshain-Kreuzberg",
-      "google_maps_url": "https://maps.google.com/?cid=15192805314139490927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJSx1_IhNPqEcRb4rzMvCv19I",
+      "google_maps_name": "Chon Thong",
+      "google_maps_address": "Kantstraße 53, 10627 Berlin-Bezirk Charlottenburg-Wilmersdorf",
+      "google_maps_url": "https://maps.google.com/?cid=2216611833988736610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJq6palOBQqEcRYmbTCbj8wh4",
+      "google_maps_rating": 4.5,
+      "google_maps_review_count": 1700,
+      "google_maps_hours_compact": "Mon–Thu 12:00–22:00; Fri–Sat 12:00–23:00; Sun 12:00–22:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "ma-makan",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Ma-Makan",
+      "neighborhood": "Kreuzberg",
+      "address": "Lausitzer Platz 12, 10997 Berlin",
+      "cuisine": "Malaysian-Singaporean kopitiam cooking",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Family-recipe nasi lemak combines coconut rice, sambal, pickles and contrasting textures.",
+        "Chwee kueh, lontong sayur lodeh and kaya toast establish a distinctive kopitiam repertoire."
+      ],
+      "weaknesses": [
+        "Already a reader favorite, so it offers continuity rather than discovery.",
+        "Previously covered dishes and special laksa formats should not be assumed to be continuously available."
+      ],
+      "comparative_context": "A benchmark candidate against which less familiar Southeast Asian discoveries can be judged.",
+      "critical_assessment": "Retain as an audience-fit anchor, not a manufactured new recommendation. Multiple editorial accounts explain the cooking’s family roots and identify concrete dishes. ([the-berliner.com](https://www.the-berliner.com/food/berlin-kaylin-eu-ma-makan-southeast-asian-kopitiam-indonesia-malaysia-singamore-brunei-thailand/))",
+      "source_urls": [
+        "https://www.the-berliner.com/food/berlin-kaylin-eu-ma-makan-southeast-asian-kopitiam-indonesia-malaysia-singamore-brunei-thailand/",
+        "https://ceecee.cc/en/mittagspause-im-hawker-center-ma-makan-bringt-malaysisch-singapurische-kueche-nach-berlin/",
+        "https://ceecee.cc/page/9/?s=neuk%C3%B6lln"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Ma-Makan",
+      "google_maps_address": "Lausitzer Pl. 12, 10997 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=673259701163278563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJb4RLDPhPqEcR40BskSHmVwk",
       "google_maps_rating": 4.4,
-      "google_maps_review_count": 409,
+      "google_maps_review_count": 545,
+      "google_maps_hours_compact": "Wed–Fri 12:00–16:00 & 17:30–22:00; Sat 11:00–16:00 & 17:30–22:00; Sun 11:00–16:00; (closed Mon–Tue)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "nutts-thai-kitchen",
+      "topic_ids": [
+        "southeast_asian"
+      ],
+      "name": "Nutts Thai Kitchen",
+      "neighborhood": "Friedrichshain",
+      "address": "Scharnweberstraße 32, 10247 Berlin",
+      "cuisine": "Thai; fish cakes, khao soi and papaya salad",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Editorial support explicitly concerns the chef’s cooking skill.",
+        "Fish cakes, khao soi and papaya salad provide a useful initial order."
+      ],
+      "weaknesses": [
+        "The source emphasizes theatrical front-of-house interaction, which may not suit a quiet dinner.",
+        "Its discussion of cramped capacity and a planned 2025 expansion is stale and unresolved."
+      ],
+      "comparative_context": "Adds an eastern-neighborhood option without simply repeating the reader’s existing Thai favorites.",
+      "critical_assessment": "Promising cooking-led candidate, but separate the food assessment from the entertaining-host narrative. Do not repeat the source’s old expansion plans as current facts. ([berlinfoodstories.com](https://www.berlinfoodstories.com/map/nutt-s-thai-kitchen?utm_source=openai))",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/nutt-s-thai-kitchen"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Nutts Thai Kitchen",
+      "google_maps_address": "Scharnweberstraße 32, 10247 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=2970083855136947493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJbxc1LYRPqEcRJX2PsofbNyk",
+      "google_maps_rating": 5.0,
+      "google_maps_review_count": 1158,
+      "google_maps_hours_compact": "Mon 03:30–22:00; Thu 04:30–22:00; Fri–Sat 03:30–22:00; Sun 03:30–20:30; (closed Tue–Wed)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "pamfilya",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Pamfilya",
+      "neighborhood": "Wedding",
+      "address": "Luxemburger Straße 1, 13353 Berlin",
+      "cuisine": "Turkish; yaprak veal döner and ocakbaşı",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Hand-stacked veal döner gives the kitchen a clear specialist identity.",
+        "Open-fire Adana and freshly baked lavash offer alternatives to a standard döner sandwich."
+      ],
+      "weaknesses": [
+        "The lean veal profile may not satisfy someone seeking a fattier, lamb-driven döner."
+      ],
+      "comparative_context": "A useful comparison with Adana Grillhaus, but the principal reason to visit is the yaprak veal rather than another mixed-grill plate.",
+      "critical_assessment": "Advance for its meat preparation and focused ordering opportunity: döner meat, lavash, onions, lemon and chili expose the product more clearly than a heavily sauced sandwich. ([berlinfoodstories.com](https://www.berlinfoodstories.com/map/pamfilya?utm_source=openai))",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/pamfilya"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Pamfilya Restaurant",
+      "google_maps_address": "Luxemburger Str. 1, 13353 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=9414198761911637931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJ77BjMIBRqEcRq1eqOOXzpYI",
+      "google_maps_rating": 4.1,
+      "google_maps_review_count": 2595,
+      "google_maps_hours_compact": "Mon–Thu 08:00–00:00; Fri–Sat 08:00–01:00; Sun 08:00–00:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "salhino",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "Salhino",
+      "neighborhood": "Charlottenburg",
+      "address": "Waitzstraße 1, 10629 Berlin",
+      "cuisine": "Georgian",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Michelin specifically praises khinkali texture, seasoning and balance.",
+        "Sharing plates and Georgian amber wines support a coherent regional meal."
+      ],
+      "weaknesses": [
+        "The retrieved assessment is strongest on khinkali; it does not establish equal excellence across the entire menu."
+      ],
+      "comparative_context": "A worthwhile Georgian comparison for a reader who likes Gotxa.",
+      "critical_assessment": "One of the better-supported Caucasus candidates: the guide evaluates dumpling execution rather than merely celebrating Georgian hospitality or decorative identity. ([guide.michelin.com](https://guide.michelin.com/gb/en/berlin-region/berlin/restaurant/salhino?millesime=prioritizedtocompletedata))",
+      "source_urls": [
+        "https://guide.michelin.com/gb/en/berlin-region/berlin/restaurant/salhino?millesime=prioritizedtocompletedata"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Salhino Restaurant",
+      "google_maps_address": "Waitzstraße 1, 10629 Berlin-Bezirk Charlottenburg-Wilmersdorf",
+      "google_maps_url": "https://maps.google.com/?cid=522893128756490706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJ3xmvfedQqEcR0vEFu4ewQQc",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 1000,
+      "google_maps_hours_compact": "Tue–Thu 18:00–23:30; Fri 18:00–00:00; Sat 14:00–00:00; Sun 02:00–22:30; (closed Mon)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "chez-nassib",
+      "topic_ids": [
+        "turkish_middle_eastern_caucasus"
+      ],
+      "name": "CHEZ NASSIB",
+      "neighborhood": "Wilmersdorf",
+      "address": "Spichernstraße 24, 10777 Berlin",
+      "cuisine": "Lebanese",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Guide assessment emphasizes freshness, fine balance and meticulous preparation.",
+        "Sambousek jebneh and veal-and-lamb kafta provide food-specific reasons to investigate beyond hummus."
+      ],
+      "weaknesses": [
+        "The sharing-oriented menu is easier to explore with companions.",
+        "Evening piano music may be a drawback for diners seeking an entirely food-focused, quiet setting."
+      ],
+      "comparative_context": "Broadens this section beyond Turkish grills and Georgian dumplings with a specifically Lebanese kitchen.",
+      "critical_assessment": "A credible mid-range candidate supported by an inspector’s discussion of seasoning and preparation. Match by name and address: Michelin’s URL retains an older Byblos identifier. ([guide.michelin.com](https://guide.michelin.com/us/en/berlin-region/berlin/restaurant/byblos-1245987?utm_source=openai))",
+      "source_urls": [
+        "https://guide.michelin.com/us/en/berlin-region/berlin/restaurant/byblos-1245987"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "CHEZ NASSIB",
+      "google_maps_address": "Spichernstraße 24, 10777 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=14817121964260610040&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJlywkys9RqEcR-E9kCez9oM0",
+      "google_maps_rating": 4.9,
+      "google_maps_review_count": 3267,
+      "google_maps_hours_compact": "Mon–Thu 11:00–23:00; Fri–Sat 11:00–00:00; Sun 11:00–23:00",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "zum-heiligen-teufel",
+      "topic_ids": [
+        "mediterranean_european"
+      ],
+      "name": "Zum Heiligen Teufel",
+      "neighborhood": "Kreuzberg",
+      "address": "Lübbener Straße 23, 10997 Berlin",
+      "cuisine": "Italian; pasta and seafood",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Editorial recommendation explicitly singles out seafood doneness and pasta execution.",
+        "Bolognese and stracciatella provide straightforward ordering anchors."
+      ],
+      "weaknesses": [
+        "The retrieved entry is brief and does not explain sourcing or establish a narrowly regional Italian identity."
+      ],
+      "comparative_context": "Closer to the reader’s neighborhood-Italian preferences than a luxury Italian destination.",
+      "critical_assessment": "A sensible execution-led candidate rather than a novelty pick. Evidence is specific but short, so avoid escalating the recommendation into an unsupported citywide ranking. ([berlinfoodstories.com](https://www.berlinfoodstories.com/map/zum-heiligen-teufel))",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/map/zum-heiligen-teufel"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Zum Heiligen Teufel - Cucina Italiana",
+      "google_maps_address": "Muskauer Str. 9, 10997 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=16363010037190264852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJs7WOip1PqEcRFIjgEu8WFeM",
+      "google_maps_rating": 4.4,
+      "google_maps_review_count": 529,
+      "google_maps_hours_compact": "Mon–Wed 18:00–00:00; Thu–Sat 12:00–00:00; (closed Sun)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "nussbaumerin",
+      "topic_ids": [
+        "mediterranean_european"
+      ],
+      "name": "Nußbaumerin",
+      "neighborhood": "Charlottenburg",
+      "address": "Leibnizstraße 55, 10629 Berlin",
+      "cuisine": "Austrian; traditional Viennese cooking",
+      "price_tier": "€€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Tafelspitz aspic, beef goulash with bread dumplings and apricot dumplings demonstrate regional specificity.",
+        "The wine selection reinforces the Austrian focus."
+      ],
+      "weaknesses": [
+        "Limited seating and popularity make advance reservation advisable.",
+        "Treat as an occasional higher-spend meal rather than assuming Michelin’s relative price symbols match this briefing’s euro thresholds."
+      ],
+      "comparative_context": "Provides a traditional Central European counterweight to the Italian-heavy candidate pool.",
+      "critical_assessment": "Strong regional-identity pick with named dishes and longstanding guide support. The appeal is Austrian cooking, not a generic schnitzel-and-rustic-interior proposition. ([guide.michelin.com](https://guide.michelin.com/en/berlin-region/berlin/restaurant/nussbaumerin?utm_source=openai))",
+      "source_urls": [
+        "https://guide.michelin.com/en/berlin-region/berlin/restaurant/nussbaumerin"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Restaurant Nußbaumerin",
+      "google_maps_address": "Leibnizstraße 55, 10629 Berlin-Bezirk Charlottenburg-Wilmersdorf",
+      "google_maps_url": "https://maps.google.com/?cid=7276535455919983554&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJFwMFQN1QqEcRwkulxXFy-2Q",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 771,
+      "google_maps_hours_compact": "Mon–Fri 17:00–23:00 (closed Sat–Sun)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "docg",
+      "topic_ids": [
+        "mediterranean_european"
+      ],
+      "name": "DOCG Weinbar & Restaurant",
+      "neighborhood": "Neukölln",
+      "address": "Emser Straße 120, 12051 Berlin",
+      "cuisine": "Italian; Irpinia/Campania roots and handmade pasta",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Owners’ Irpinian origins provide a concrete Campanian connection.",
+        "Editorial coverage identifies homemade tagliatelle and traditional carbonara."
+      ],
+      "weaknesses": [
+        "The underlying neighborhood article dates to 2019; recent crawling does not make its tasting evidence recent.",
+        "Live music or DJ programming may make some evenings less suitable for quiet dining."
+      ],
+      "comparative_context": "A discovery adjacent to the reader’s affection for Nini e Pettirosso, with more explicit regional provenance in the available description.",
+      "critical_assessment": "Lower-confidence reserve candidate: plausible culinary fit and neighborhood relevance, but the age of the food assessment should prevent confident claims about current execution. ([mitvergnuegen.com](https://mitvergnuegen.com/2019/cafe-restaurant-bar-koernerkiez-neukoelln/?utm_source=openai))",
+      "source_urls": [
+        "https://mitvergnuegen.com/2019/cafe-restaurant-bar-koernerkiez-neukoelln/"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "DocG Weinbar Restaurant",
+      "google_maps_address": "Emser Str. 120, 12051 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=17429698903064559114&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJ9UzPA69PqEcRCr4tS8664vE",
+      "google_maps_rating": 4.7,
+      "google_maps_review_count": 158,
       "google_maps_hours_compact": null,
       "exists_in_berlin": true,
       "permanently_closed": true,
       "temporarily_closed": false,
       "maps_api_verified": false,
-      "verification_notes": "Places API: permanently closed; Places API lookup for 'Ambavi Straßmannstraße 30, 10249 Berlin Berlin Germany' did not pass verification",
+      "verification_notes": "Places API: permanently closed; Places API lookup for 'DOCG Weinbar & Restaurant Emser Straße 120, 12051 Berlin Berlin Germany' did not pass verification",
       "verified": false
     },
     {
-      "id": "der_blaue_fuchs",
+      "id": "konak-izmir-koftecisi",
       "topic_ids": [
-        "turkish_middle_eastern_caucasus"
+        "specialist_neighborhood"
       ],
-      "name": "Der blaue Fuchs",
-      "neighborhood": "Prenzlauer Berg",
-      "address": "Knaackstraße 43, 10435 Berlin",
-      "cuisine": "Georgian; vegetable preparations, breads and home cooking",
+      "name": "Konak Izmir Köftecisi",
+      "neighborhood": "Kreuzberg",
+      "address": "Reichenberger Straße 10, 10999 Berlin",
+      "cuisine": "Turkish; grilled köfte sandwiches and skewers",
+      "price_tier": "€",
+      "value_label": "good value",
+      "fine_dining": false,
+      "strengths": [
+        "Köfte are grilled to order rather than presented as an interchangeable fast-food filling.",
+        "Editorial coverage emphasizes juicy meat, crisp bread and strong price-performance."
+      ],
+      "weaknesses": [
+        "Popularity can mean queues and a wait for food.",
+        "Best approached as a focused sandwich or grill stop, not a broad restaurant experience."
+      ],
+      "comparative_context": "A particularly direct fit for the reader’s preference for inexpensive, specialist neighborhood kitchens.",
+      "critical_assessment": "High-priority affordable candidate. The published starting price is historical rather than a verified October 2026 quote, but the specialist format and value assessment are well supported. ([mitvergnuegen.com](https://mitvergnuegen.com/tipps/konak-izmir-koeftecisi/?utm_source=openai))",
+      "source_urls": [
+        "https://mitvergnuegen.com/tipps/konak-izmir-koeftecisi/"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Izmir Köftecisi (Konak-Grill)",
+      "google_maps_address": "Reichenberger Str. 10, 10999 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=3826771379944645287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJlaMmPTNOqEcRp2I7gktsGzU",
+      "google_maps_rating": 4.5,
+      "google_maps_review_count": 1963,
+      "google_maps_hours_compact": "Mon–Thu 10:30–00:30; Fri–Sat 10:30–02:30; Sun 10:30–00:30",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "mangiare-arminiusmarkthalle",
+      "topic_ids": [
+        "specialist_neighborhood"
+      ],
+      "name": "Mangiare",
+      "neighborhood": "Moabit",
+      "address": "Arminiusmarkthalle, Bugenhagenstraße / Arminiusstraße, 10551 Berlin",
+      "cuisine": "Italian; Neapolitan pizza and fried snacks",
       "price_tier": "€€",
       "value_label": null,
       "fine_dining": false,
       "strengths": [
-        "Specific praise for walnut-filled eggplant and beetroot with pomegranate.",
-        "Lobio, lobiani and ajapsandali make this a useful plant-forward Georgian option."
+        "Neapolitan-style dough and experienced pizzaioli provide a craft-based selection rationale.",
+        "Arancini and occasional pizza fritta extend the offer beyond standard pizzas."
       ],
       "weaknesses": [
-        "Weekend reservations are advised by the editorial source.",
-        "Wine can become a substantial part of the bill; the food-only proposition matters more for this briefing."
+        "The market-hall setting is less suitable for a quiet, conventional restaurant dinner.",
+        "Off-menu pizzas and pizza fritta should not be assumed available."
       ],
-      "comparative_context": "Complements Ambavi with stronger editorial attention to vegetable dishes and walnut preparations.",
-      "critical_assessment": "A credible neighborhood choice selected for named preparations, not its setting. Keep as an alternative rather than recommending both Georgian candidates in a short synthesis. ([ceecee.cc](https://ceecee.cc/en/der-blaue-fuchs-traditionelle-georgische-kueche-und-naturweine-in-gemuetlichem-ambiente/?utm_source=openai))",
+      "comparative_context": "Adds Moabit coverage through a focused food specialist rather than a generic neighborhood recommendation.",
+      "critical_assessment": "Advance for pizza technique and the fried-snack repertoire. Disregard the source’s sweeping national ranking language; it is unnecessary to justify this candidate. ([berlinfoodstories.com](https://www.berlinfoodstories.com/map/mangiare))",
       "source_urls": [
-        "https://ceecee.cc/en/der-blaue-fuchs-traditionelle-georgische-kueche-und-naturweine-in-gemuetlichem-ambiente/"
+        "https://www.berlinfoodstories.com/map/mangiare"
       ],
       "ingestion_source": "openai",
-      "google_maps_name": "Der blaue Fuchs",
-      "google_maps_address": "Knaackstraße 43, 10435 Berlin-Bezirk Pankow",
-      "google_maps_url": "https://maps.google.com/?cid=3269494279122270631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJO9gSHQZPqEcRpzlBbrmTXy0",
-      "google_maps_rating": 4.4,
-      "google_maps_review_count": 1394,
-      "google_maps_hours_compact": "Tue–Fri 17:00–23:00; Sat–Sun 12:00–23:00; (closed Mon)",
+      "google_maps_name": "Mangiare Berlin Moabit",
+      "google_maps_address": "Bugenhagenstraße 19, 10551 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=9245196105903268362&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJPwc_UNRRqEcRCmIwC-CITYA",
+      "google_maps_rating": 4.6,
+      "google_maps_review_count": 819,
+      "google_maps_hours_compact": "Mon–Thu 17:00–23:00; Fri 17:00–00:00; Sat 16:00–00:00; (closed Sun)",
       "exists_in_berlin": true,
       "permanently_closed": false,
       "temporarily_closed": false,
@@ -408,38 +564,38 @@
       "verified": true
     },
     {
-      "id": "sarajevo_triftstrasse",
+      "id": "tori-katsu",
       "topic_ids": [
-        "mediterranean_european"
+        "specialist_neighborhood"
       ],
-      "name": "Sarajevo",
-      "neighborhood": "Wedding",
-      "address": "Triftstraße 8, 13353 Berlin",
-      "cuisine": "Bosnian; burek and ćevapi",
+      "name": "Tori Katsu",
+      "neighborhood": "Schöneberg",
+      "address": "Winterfeldtstraße 7, 10781 Berlin",
+      "cuisine": "Japanese-style chicken katsu",
       "price_tier": "€",
       "value_label": null,
       "fine_dining": false,
       "strengths": [
-        "Repeated editorial enthusiasm for potato, meat and cheese burek.",
-        "Grilled ćevapi provide a second clear specialty alongside the pastry."
+        "A tightly focused format built around thick-cut chicken katsu, rice and cabbage salad.",
+        "The gravy receives a specific editorial ordering recommendation."
       ],
       "weaknesses": [
-        "A narrow comfort-food proposition rather than a broad exploration of Bosnian cooking.",
-        "Combining burek and a grill plate may move a meal above the entry-level price tier."
+        "A very narrow proposition if diners do not want breaded chicken.",
+        "Better understood as Japanese-style neighborhood comfort food than a destination for broad Japanese regional cooking."
       ],
-      "comparative_context": "One of the clearest affordable craft-led picks: filled pastry and minced-meat grilling without a concept surcharge.",
-      "critical_assessment": "High-priority value-oriented candidate. The potato burek is a particularly useful ordering anchor because the guide describes repeated enjoyment, not just a single attractive serving. ([berlinfoodstories.com](https://www.berlinfoodstories.com/map/sarajevo?utm_source=openai))",
+      "comparative_context": "Fits the affordable single-specialty brief more closely than fashionable Japanese fusion restaurants.",
+      "critical_assessment": "Useful low-cost candidate whose appeal is consistency of concept and a recognizable signature dish. Do not mistake the historical longevity narrative for proof of every current service. ([berlinfoodstories.com](https://www.berlinfoodstories.com/top-lists/the-best-japanese-restaurants-in-berlin?utm_source=openai))",
       "source_urls": [
-        "https://www.berlinfoodstories.com/map/sarajevo"
+        "https://www.berlinfoodstories.com/top-lists/the-best-japanese-restaurants-in-berlin"
       ],
       "ingestion_source": "openai",
-      "google_maps_name": "Sarajevo Berlin",
-      "google_maps_address": "Triftstraße 8, 13353 Berlin",
-      "google_maps_url": "https://maps.google.com/?cid=11185880011603264770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJS9jOtvdRqEcRAkXB75o6PJs",
-      "google_maps_rating": 4.8,
-      "google_maps_review_count": 2637,
-      "google_maps_hours_compact": "Daily 08:00–23:00",
+      "google_maps_name": "Tori-Katsu Berlin",
+      "google_maps_address": "Winterfeldtstraße 7, 10781 Berlin-Bezirk Tempelhof-Schöneberg",
+      "google_maps_url": "https://maps.google.com/?cid=2276857199916389759&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJsRDsV0hQqEcRf5VOXY8FmR8",
+      "google_maps_rating": 4.5,
+      "google_maps_review_count": 1731,
+      "google_maps_hours_compact": "Mon–Fri 11:00–23:00; Sat–Sun 12:00–23:00",
       "exists_in_berlin": true,
       "permanently_closed": false,
       "temporarily_closed": false,
@@ -448,240 +604,120 @@
       "verified": true
     },
     {
-      "id": "la_pecora_nera",
+      "id": "udagawa",
       "topic_ids": [
-        "mediterranean_european"
+        "specialist_neighborhood"
       ],
-      "name": "La Pecora Nera",
-      "neighborhood": "Neukölln",
-      "address": "Herrfurthplatz 6, 12049 Berlin",
-      "cuisine": "Italian; Veneto-influenced seasonal osteria cooking",
+      "name": "UDAGAWA 宇田川",
+      "neighborhood": "Steglitz",
+      "address": "Feuerbachstraße 24, 12163 Berlin",
+      "cuisine": "Japanese; traditional neighborhood restaurant",
+      "price_tier": "€€",
+      "value_label": null,
+      "fine_dining": false,
+      "strengths": [
+        "Unusually broad traditional Japanese repertoire, including tempura, donburi and sashimi.",
+        "Editorial guidance specifically favors sashimi, unagi and tempura."
+      ],
+      "weaknesses": [
+        "The same guide explicitly advises against the sukiyaki.",
+        "Extensive sashimi or eel ordering may exceed the indicative mid-range budget."
+      ],
+      "comparative_context": "A geographic diversification pick with a clear traditional point of view, rather than another central ramen opening.",
+      "critical_assessment": "A credible Steglitz reserve, especially because the source distinguishes stronger and weaker orders. Select for specific dishes rather than endorsing the entire large menu. ([berlinfoodstories.com](https://www.berlinfoodstories.com/top-lists/the-best-japanese-restaurants-in-berlin?utm_source=openai))",
+      "source_urls": [
+        "https://www.berlinfoodstories.com/top-lists/the-best-japanese-restaurants-in-berlin",
+        "https://www.berlinfoodstories.com/map/udagawa"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "UDAGAWA 宇田川",
+      "google_maps_address": "Feuerbachstraße 24, 12163 Berlin-Bezirk Steglitz-Zehlendorf",
+      "google_maps_url": "https://maps.google.com/?cid=240047763774104311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJWw7l6oJaqEcR9-LhWCvSVAM",
+      "google_maps_rating": 4.4,
+      "google_maps_review_count": 328,
+      "google_maps_hours_compact": "Mon 18:00–22:30; Wed–Sun 18:00–22:30; (closed Tue)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "nobelhart-schmutzig",
+      "topic_ids": [
+        "fine_dining"
+      ],
+      "name": "Nobelhart & Schmutzig",
+      "neighborhood": "Kreuzberg",
+      "address": "Friedrichstraße 218, 10969 Berlin",
+      "cuisine": "Contemporary regional German; seasonal tasting menu",
+      "price_tier": "€€€€",
+      "value_label": null,
+      "fine_dining": true,
+      "strengths": [
+        "A coherent regional sourcing philosophy extends to details such as house-made butter.",
+        "Seasonal menus and direct kitchen interaction make technique and ingredients central to the experience."
+      ],
+      "weaknesses": [
+        "A substantial spending commitment compared with the audience’s normal restaurant range.",
+        "The menu-led format offers less ordering flexibility than the neighborhood candidates."
+      ],
+      "comparative_context": "The clearest special-occasion option when regional identity matters more than luxury ingredients or spectacle.",
+      "critical_assessment": "Strong enough to justify the single €€€€ candidate slot. Its relevance is the relationship between local produce and cooking, not prestige alone; synthesis should select at most one fine-dining option. ([guide.michelin.com](https://guide.michelin.com/de/de/berlin-region/berlin/restaurant/nobelhart-schmutzig?utm_source=openai))",
+      "source_urls": [
+        "https://guide.michelin.com/de/de/berlin-region/berlin/restaurant/nobelhart-schmutzig"
+      ],
+      "ingestion_source": "openai",
+      "google_maps_name": "Nobelhart & Schmutzig",
+      "google_maps_address": "Friedrichstraße 218, 10969 Berlin-Bezirk Friedrichshain-Kreuzberg",
+      "google_maps_url": "https://maps.google.com/?cid=7987201311795281658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJNdtTjdNRqEcR-n4Xa0Y92G4",
+      "google_maps_rating": 4.3,
+      "google_maps_review_count": 1075,
+      "google_maps_hours_compact": "Tue–Sat 18:00–00:00 (closed Mon, Sun)",
+      "exists_in_berlin": true,
+      "permanently_closed": false,
+      "temporarily_closed": false,
+      "maps_api_verified": true,
+      "verification_notes": "Places API verified (OPERATIONAL)",
+      "verified": true
+    },
+    {
+      "id": "irma-la-douce",
+      "topic_ids": [
+        "fine_dining"
+      ],
+      "name": "Irma la Douce",
+      "neighborhood": "Tiergarten",
+      "address": "Potsdamer Straße 102, 10785 Berlin",
+      "cuisine": "French classics with contemporary and Italian accents",
       "price_tier": "€€€",
       "value_label": null,
-      "fine_dining": false,
+      "fine_dining": true,
       "strengths": [
-        "Weekly changing menu and a Venetian osteria reference point give the kitchen a recognizable identity.",
-        "Editorial emphasis is on straightforward, seasonal cooking rather than elaborate presentation."
+        "Michelin singles out the tenderness and flavor of bœuf bourguignon.",
+        "The repertoire includes tartare, duck-liver terrine and carbonara rather than an obligatory experimental tasting format."
       ],
       "weaknesses": [
-        "The source supplies little dish-level technical criticism.",
-        "Changing menus make this a less predictable choice for a particular craving or fixed budget."
+        "The €€€ estimate assumes restrained à-la-carte ordering; a full multi-course dinner with wine may exceed €70.",
+        "Less regionally distinctive than Nobelhart & Schmutzig."
       ],
-      "comparative_context": "A plausible fit for someone who enjoys Nini e Petirosso and Bottega N.6, with a more seasonal osteria framing.",
-      "critical_assessment": "A promising occasional higher-spend neighborhood candidate, but lower editorial confidence than the strongest specialists. The price tier is a conservative planning estimate, not a verified menu quotation. ([mitvergnuegen.com](https://mitvergnuegen.com/tipps/la-pecora-nera?utm_source=openai))",
+      "comparative_context": "A classical, potentially more flexible higher-end alternative to the tasting-menu candidate.",
+      "critical_assessment": "A legitimate fine-dining reserve supported by food-specific guide assessments. The €€€ classification is provisional, not a verified October 2026 meal-price claim. ([guide.michelin.com](https://guide.michelin.com/us/en/berlin-region/berlin/restaurant/irma-la-douce?utm_source=openai))",
       "source_urls": [
-        "https://mitvergnuegen.com/tipps/la-pecora-nera"
+        "https://guide.michelin.com/us/en/berlin-region/berlin/restaurant/irma-la-douce",
+        "https://www.falstaff.com/en/restaurants/irma-la-douce-berlin"
       ],
       "ingestion_source": "openai",
-      "google_maps_name": "La Pecora Nera",
-      "google_maps_address": "Herrfurthpl. 6, 12049 Berlin-Bezirk Neukölln",
-      "google_maps_url": "https://maps.google.com/?cid=9815152515668923177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJ17uJN75PqEcRKVO6yDVtNog",
-      "google_maps_rating": 4.3,
-      "google_maps_review_count": 606,
-      "google_maps_hours_compact": "Daily 17:30–23:30",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "maps_api_verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "verified": true
-    },
-    {
-      "id": "bruno_tempelhof",
-      "topic_ids": [
-        "mediterranean_european"
-      ],
-      "name": "Bruno",
-      "neighborhood": "Tempelhof",
-      "address": "Friedrich-Wilhelm-Straße 67, 12103 Berlin",
-      "cuisine": "Italian market-led home cooking",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Market shopping determines what is cooked rather than a large static menu.",
-        "A home-cooking identity offers a clearer reason to visit than generic pizza-and-pasta breadth."
-      ],
-      "weaknesses": [
-        "No conventional menu means limited advance certainty about dishes and spending.",
-        "The recommendation is more descriptive than technically analytical."
-      ],
-      "comparative_context": "A useful Tempelhof counterweight to a shortlist otherwise concentrated in better-covered inner-ring dining neighborhoods.",
-      "critical_assessment": "Keep as a neighborhood discovery rather than a destination-level claim. Its market-led format fits the audience, but current menu scope and price need confirmation. ([mitvergnuegen.com](https://mitvergnuegen.com/2022/restaurants-tempelhof-berlin/?utm_source=openai))",
-      "source_urls": [
-        "https://mitvergnuegen.com/2022/restaurants-tempelhof-berlin/"
-      ],
-      "ingestion_source": "openai",
-      "google_maps_name": "Schmaus & Plausch",
-      "google_maps_address": "Friedrich-Wilhelm-Straße 67, 12103 Berlin",
-      "google_maps_url": "https://maps.google.com/?cid=13482413795450001003&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJw4YN4ahFqEcRa5afAOonG7s",
-      "google_maps_rating": null,
-      "google_maps_review_count": null,
-      "google_maps_hours_compact": null,
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "maps_api_verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "verified": true
-    },
-    {
-      "id": "silvana_renato_tegel",
-      "topic_ids": [
-        "mediterranean_european"
-      ],
-      "name": "Trattoria da Silvana & Renato",
-      "neighborhood": "Tegel, Reinickendorf",
-      "address": "Brunowstraße 50, 13507 Berlin",
-      "cuisine": "Italian; Campanian cooking",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Explicit Campanian identity with changing daily dishes.",
-        "The editorial recommendation singles out pizza and aubergine casserole."
-      ],
-      "weaknesses": [
-        "The highlighted aubergine dish can sell out.",
-        "The underlying article is old; a recent crawl does not establish a recent restaurant visit."
-      ],
-      "comparative_context": "A geographically useful outer-neighborhood candidate with more regional specificity than an undifferentiated local Italian.",
-      "critical_assessment": "Reserve candidate with meaningful regional identity but weaker freshness of evidence. Include for discovery and neighborhood diversity, not as an assured October 2026 destination recommendation. ([mitvergnuegen.com](https://mitvergnuegen.com/2018/11-cafes-und-restaurants-in-reinickendorf-die-ihr-in-kennen-solltet/?utm_source=openai))",
-      "source_urls": [
-        "https://mitvergnuegen.com/2018/11-cafes-und-restaurants-in-reinickendorf-die-ihr-in-kennen-solltet/"
-      ],
-      "ingestion_source": "openai",
-      "google_maps_name": "Trattoria da Silvana & Renato",
-      "google_maps_address": "Brunowstraße 50, 13507 Berlin",
-      "google_maps_url": "https://maps.google.com/?cid=10111132630863960935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJKWVQnUJUqEcRZ9uBg471UYw",
+      "google_maps_name": "Irma la Douce",
+      "google_maps_address": "Potsdamer Str. 102, 10785 Berlin",
+      "google_maps_url": "https://maps.google.com/?cid=9023868700438546404&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "google_maps_place_id": "ChIJJ1g6XO9RqEcR5MdnxcU4O30",
       "google_maps_rating": 4.5,
-      "google_maps_review_count": 492,
-      "google_maps_hours_compact": "Wed–Thu 04:00–23:00; Fri–Sun 12:00–23:00; (closed Mon–Tue)",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "maps_api_verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "verified": true
-    },
-    {
-      "id": "fu_li_lai",
-      "topic_ids": [
-        "specialist_neighborhood"
-      ],
-      "name": "Fu Li Lai",
-      "neighborhood": "Steglitz",
-      "address": "Erlenstraße 19, 12167 Berlin",
-      "cuisine": "Chinese; northeastern and central Chinese home cooking, dumplings and noodles",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Homemade Xi'an-style noodles and Chinese dumplings establish a specialist rationale.",
-        "Pickled vegetables and salads offer supporting dishes beyond a standard takeaway repertoire."
-      ],
-      "weaknesses": [
-        "The short editorial entry identifies specialties but does not closely evaluate wrapper texture, broth or consistency.",
-        "Regional coverage is broad rather than a narrowly defined single-province menu."
-      ],
-      "comparative_context": "A Steglitz discovery for noodle-and-dumpling enthusiasts; assigned here rather than duplicated in Regional Chinese.",
-      "critical_assessment": "Advance as a neighborhood specialist with moderate confidence. Food-specific identity is established, but the source does not justify calling its dumplings exceptional without further assessment. ([mitvergnuegen.com](https://mitvergnuegen.com/tipps/chinesische-dumplings-essen-im-fu-li-lai-in-steglitz/?utm_source=openai))",
-      "source_urls": [
-        "https://mitvergnuegen.com/tipps/chinesische-dumplings-essen-im-fu-li-lai-in-steglitz/"
-      ],
-      "ingestion_source": "openai",
-      "google_maps_name": "China Restaurant Fu Li Lai",
-      "google_maps_address": "Erlenstraße 19, 12167 Berlin-Bezirk Steglitz-Zehlendorf",
-      "google_maps_url": "https://maps.google.com/?cid=9315743648325898124&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJ9SH-5r1aqEcRjA8RwX0rSIE",
-      "google_maps_rating": 4.4,
-      "google_maps_review_count": 765,
-      "google_maps_hours_compact": "Mon 12:00–22:00; Wed–Sun 12:00–22:00; (closed Tue)",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "maps_api_verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "verified": true
-    },
-    {
-      "id": "sironi_la_pizza",
-      "topic_ids": [
-        "specialist_neighborhood"
-      ],
-      "name": "Sironi – La Pizza",
-      "neighborhood": "Schöneberg",
-      "address": "Goltzstraße 36, 10781 Berlin",
-      "cuisine": "Italian; pizza and bakery craft",
-      "price_tier": "€€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Bakery expertise supplies a concrete dough-and-fermentation rationale.",
-        "Editorial coverage distinguishes multiple dough styles rather than treating all pizza as interchangeable."
-      ],
-      "weaknesses": [
-        "Published descriptions differ on the exact dough options; do not promise a particular flour blend without current confirmation.",
-        "Best justified as a dough specialist, not as a comprehensive Italian restaurant."
-      ],
-      "comparative_context": "A craft-focused choice for comparing pizza bases and baking rather than chasing the newest Neapolitan opening.",
-      "critical_assessment": "Strong specialist fit. Use the Goltzstraße pizzeria for matching, not Sironi's market-hall bakery or other branches. ([cremeguides.com](https://www.cremeguides.com/berlin/sironi-baeckerei-und-pizzeria-in-schoeneberg/?utm_source=openai))",
-      "source_urls": [
-        "https://www.cremeguides.com/berlin/sironi-baeckerei-und-pizzeria-in-schoeneberg/",
-        "https://www.cremeguides.com/berlin/top-10-die-beste-pizza-der-stadt/",
-        "https://www.cremeguides.com/berlin/10-jahre-sironi/"
-      ],
-      "ingestion_source": "openai",
-      "google_maps_name": "Sironi – La Pizza",
-      "google_maps_address": "Goltzstraße 36, 10781 Berlin-Bezirk Tempelhof-Schöneberg",
-      "google_maps_url": "https://maps.google.com/?cid=3410053893751303197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJf5QdwP9RqEcRHez7-fLxUi8",
-      "google_maps_rating": 4.2,
-      "google_maps_review_count": 1470,
-      "google_maps_hours_compact": "Daily 08:30–23:00",
-      "exists_in_berlin": true,
-      "permanently_closed": false,
-      "temporarily_closed": false,
-      "maps_api_verified": true,
-      "verification_notes": "Places API verified (OPERATIONAL)",
-      "verified": true
-    },
-    {
-      "id": "fine_bagels",
-      "topic_ids": [
-        "specialist_neighborhood"
-      ],
-      "name": "Fine Bagels",
-      "neighborhood": "Friedrichshain",
-      "address": "Warschauer Straße 74, 10243 Berlin",
-      "cuisine": "Jewish-American; New York-style bagels and savory sandwiches",
-      "price_tier": "€",
-      "value_label": null,
-      "fine_dining": false,
-      "strengths": [
-        "Hand-rolled dough, overnight proofing and boiling before baking provide explicit technique evidence.",
-        "Review describes a resilient crust and chewy interior rather than the cakey texture of weaker bagels."
-      ],
-      "weaknesses": [
-        "A breakfast or light-lunch specialist rather than a full dinner restaurant.",
-        "Premium fillings may exceed the provisional under-15-euro meal assumption."
-      ],
-      "comparative_context": "One of the strongest non-noodle specialist candidates because the editorial case rests directly on process and texture.",
-      "critical_assessment": "High-priority savory bakery pick. The substantial review supports genuine craft differentiation; the bookstore setting is incidental to the recommendation. ([berlinfoodstories.com](https://www.berlinfoodstories.com/reviews/the-bagel-bookshop))",
-      "source_urls": [
-        "https://www.berlinfoodstories.com/reviews/the-bagel-bookshop"
-      ],
-      "ingestion_source": "openai",
-      "google_maps_name": "Fine Bagels",
-      "google_maps_address": "Warschauer Str. 74, 10243 Berlin-Bezirk Friedrichshain-Kreuzberg",
-      "google_maps_url": "https://maps.google.com/?cid=5879610426525979150&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "google_maps_place_id": "ChIJ-wGPVVxOqEcRDpLDCoiSmFE",
-      "google_maps_rating": 4.2,
-      "google_maps_review_count": 1190,
-      "google_maps_hours_compact": "Daily 08:00–19:00",
+      "google_maps_review_count": 391,
+      "google_maps_hours_compact": "Tue–Fri 12:00–14:00 & 18:00–23:00; Sat 18:00–23:00; (closed Mon, Sun)",
       "exists_in_berlin": true,
       "permanently_closed": false,
       "temporarily_closed": false,
@@ -691,25 +727,24 @@
     }
   ],
   "gaps": [
-    "Fine Dining omitted from this pass. No two-candidate optional section was assembled within the requested predominantly affordable mix and at-most-one €€€€ entry; this is not a judgment that Berlin lacks worthwhile fine dining.",
-    "All candidates await the separate Google Places existence and closure-status check. Inclusion here does not assert verified Google Maps status.",
-    "Price tiers are provisional planning estimates, not verified October 22, 2026 menu prices. Older published prices were deliberately not carried forward.",
-    "Thai Art has a material historical-location mismatch: the detailed review describes Wilmersdorf, while its attached guide now gives Kantstraße 57. Match the current address and reassess the current operation.",
-    "Regional Chinese coverage remains noodle-heavy; Hunan, hotpot and Cantonese specialists are not represented in the final candidate set.",
-    "Southeast Asian coverage includes Thai and Indonesian cooking but no sufficiently developed Vietnamese regional, Filipino, Lao or Burmese candidate.",
-    "The Turkish/Middle Eastern/Caucasus section has no Yemeni, Gulf, Armenian, Azerbaijani or Persian candidate.",
-    "Tiergarten is unrepresented. Reinickendorf is represented by a lower-confidence Tegel reserve rather than a strongly documented destination specialist.",
-    "Several candidates have older substantive reviews or short editorial descriptions. Recent crawling was not treated as evidence of a recent meal, and unreported service or consistency problems were not invented."
+    "All five core sections meet their three-candidate minimum; specialist_neighborhood has four candidates. Two optional fine-dining alternatives are supplied, but synthesis should select at most one.",
+    "No sufficiently supported candidates were advanced for Tempelhof or Reinickendorf. Steglitz, Moabit, Wedding, Schöneberg, Tiergarten, Neukölln, Friedrichshain, Prenzlauer Berg, Wilmersdorf and Charlottenburg are represented; Mitte is limited to one candidate.",
+    "The Southeast Asian selection remains Thai/Malaysian-Singaporean heavy. Vietnamese regional, Indonesian, Filipino, Lao and Burmese coverage is not adequately developed in this pool.",
+    "The Turkish/Middle Eastern/Caucasus selection lacks a new Yemeni, Persian, Armenian or Azerbaijani discovery.",
+    "DOCG has notably old underlying editorial evidence and should remain a lower-confidence reserve rather than a confident current recommendation.",
+    "Exact October 2026 menu prices were not established. Price tiers are provisional editorial estimates, generally excluding drinks; Irma la Douce is particularly sensitive to ordering scope.",
+    "Places verification remains outstanding for every candidate. No Google Maps pages, ratings, opening hours or Maps URLs were collected.",
+    "Excluded closure-flagged candidates: Da Jia Le at Goebenstraße, Chungking Noodles, Bülent Börekçilik and Rogacki. Allowed-domain reporting identifies closures; no replacement location was assumed. ([berlinfoodstories.com](https://www.berlinfoodstories.com/map/da-jia-le?utm_source=openai))"
   ],
   "section_counts": {
-    "mediterranean_european": 4,
-    "regional_chinese": 3,
-    "specialist_neighborhood": 3,
-    "fine_dining": 0,
+    "specialist_neighborhood": 4,
+    "mediterranean_european": 3,
+    "turkish_middle_eastern_caucasus": 3,
     "southeast_asian": 3,
-    "turkish_middle_eastern_caucasus": 4
+    "fine_dining": 2,
+    "regional_chinese": 3
   },
-  "verified_count": 16,
-  "search_notes": "Combined discovery pass for briefing week 2026-10-22: 17 unique venues, each assigned one primary topic—3 Regional Chinese, 3 Southeast Asian, 4 Turkish/Middle Eastern/Caucasus, 4 Mediterranean/European and 3 Specialist Neighborhood. Only permitted-domain editorial and guide sources were used; no Google Maps pages, Maps URLs, ratings or hours were collected. Selection prioritized named dishes, technique and regional identity. Weaknesses distinguish documented drawbacks from evidence limitations and inferred format tradeoffs. You Mi is retained under its updated name with Deli House as a matching alias. Chungking Noodles was excluded because the updated guide explicitly marks it closed in 2026. Source publication dates and article contents were favored over search-engine freshness labels. ([berlinfoodstories.com](https://www.berlinfoodstories.com/map/deli-house?utm_source=openai))",
-  "maps_verified_at": "2026-10-22T08:04:03.427533+00:00"
+  "verified_count": 17,
+  "search_notes": "Combined discovery pass for the briefing dated 2026-10-22, using only the permitted editorial and guide domains. Eighteen unique venues were assigned exactly one primary topic_id each. Selection favored named dishes, preparation methods and regional identity over appearance or opening publicity. Source URLs are provided for downstream auditing and venue matching. Publication dates, crawl dates and restaurant status were not treated as interchangeable: recently crawled older articles remain older evidence. Strengths summarize sourced assessments; weaknesses identify documented limitations, evidence gaps or explicitly inferential audience-fit trade-offs, not invented tasting faults. No separate Maps-status verification was attempted.",
+  "maps_verified_at": "2026-10-22T20:40:47.911440+00:00"
 }

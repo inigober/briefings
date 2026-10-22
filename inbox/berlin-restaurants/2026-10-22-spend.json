@@ -1,7 +1,7 @@
 {
   "date": "2026-10-22",
   "cap_usd": 2.0,
-  "spent_usd": 0.301786,
+  "spent_usd": 0.695776,
   "estimated": true,
   "cap_exceeded": false,
   "calls": [
@@ -14,7 +14,17 @@
       "web_search_calls": 8,
       "cost_usd": 0.301786,
       "at": "2026-10-22T08:03:57.258321+00:00"
+    },
+    {
+      "section": "combined",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 97955,
+      "cached_tokens": 0,
+      "output_tokens": 8808,
+      "web_search_calls": 11,
+      "cost_usd": 0.39399,
+      "at": "2026-10-22T20:40:40.913986+00:00"
     }
   ],
-  "last_run_at": "2026-10-22T08:03:57.258356+00:00"
+  "last_run_at": "2026-10-22T20:40:40.914022+00:00"
 }
