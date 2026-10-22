@@ -1,0 +1,2602 @@
+{
+  "briefing_type": "news",
+  "date": "2026-10-22",
+  "source_raw": "inbox/news/2026-10-22-raw.json",
+  "built_at": "2026-10-22T04:31:46.049809+00:00",
+  "model": null,
+  "raw_item_count": 172,
+  "section_counts": {
+    "spain": 12,
+    "germany": 12,
+    "berlin": 12,
+    "world": 12
+  },
+  "selected_read_candidates": [
+    {
+      "id": "rss-world-381f96d964",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Politico and Telegraph owner pitched deal to buy European arm of TikTok",
+      "summary": "Axel Springer boss Mathias Döpfner raised idea over lunch with US ambassador to France Charles Kushner",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Politico and Telegraph owner pitched deal to buy European arm of TikTok",
+          "url": "https://www.ft.com/content/171220b9-8d8e-4d82-a866-f9aaf258e0fb?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-2c0e50cbb9",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Taiwan's first-ever chip workers strike begins at Micron plant",
+      "summary": "Taiwan's first-ever chip workers strike begins at Micron plant",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Taiwan's first-ever chip workers strike begins at Micron plant",
+          "url": "https://asia.nikkei.com/business/tech/semiconductors/taiwan-s-first-ever-chip-workers-strike-begins-at-micron-plant",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-4759389699",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "AfD’s Alice Weidel urges quick Ukraine talks and a return to cheap Russian energy",
+      "summary": "Weidel said the far-right AfD is in \"talks\" to bridge differences with France’s National Rally that largely concern Russia.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "AfD’s Alice Weidel urges quick Ukraine talks and a return to cheap Russian energy",
+          "url": "https://www.politico.eu/article/afd-alice-weidel-urges-quick-ukraine-talks-and-a-return-to-cheap-russian-energy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "publisher": "Politico Europe",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-f9bca5e5eb",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Gundam maker Bandai Namco's stock surge reflects market AI doubts",
+      "summary": "Gundam maker Bandai Namco's stock surge reflects market AI doubts",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Gundam maker Bandai Namco's stock surge reflects market AI doubts",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/gundam-maker-bandai-namco-s-stock-surge-reflects-market-ai-doubts",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-a9b6925f08",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Highland Spring billionaire’s property empire hit by loan defaults and creditor action",
+      "summary": "Family of former UAE ambassador Mahdi Al Tajir looks to sell prized UK property assets as lenders seek to recoup unpaid debts",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Highland Spring billionaire’s property empire hit by loan defaults and creditor action",
+          "url": "https://www.ft.com/content/7f93f4b4-beca-4566-ad60-900910d31320?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-8efa433127",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+      "summary": "DHS says migrants ‘retain protections’ after temporary protected status was set to expire on Monday Send us your questions about immigration and the midterms More than 100,000 people from Ukraine and Sudan can stay in the United States without immediate risk of deportation, the Department of Homeland Security said, in what amounts to a temporary reprieve after their right to stay in the country was set to expire on Monday. Temporary protected status was set to end on Monday for about 101,000 Ukrainians and 1,800 Sudanese. But the DHS said an announcement “will be made at the appropriate tim...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+          "url": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-19",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-bc3164eb97",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "‘Bad decisions’: Man convicted for taking Peachy the flamingo from Las Vegas hotel",
+      "summary": "Mitchell Fairbarn found guilty of animal cruelty after prosecutors say he hurt and frightened the 27-year-old bird A Canadian man was convicted of animal cruelty charges on Monday for snatching a flamingo named Peachy from its enclosure at an iconic Las Vegas hotel. Prosecutors said it was a malicious prank while a lawyer for the tourist insisted it was drunken foolishness not meant to harm the bird. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "‘Bad decisions’: Man convicted for taking Peachy the flamingo from Las Vegas hotel",
+          "url": "https://www.theguardian.com/us-news/2026/oct/20/man-convicted-peachy-the-flamingo-las-vegas-hotel",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-20",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-961e538f2d",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Read This Website While You Still Can",
+      "summary": "Parts of the internet are going dark to protect against a newly discovered vulnerability.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Read This Website While You Still Can",
+          "url": "https://www.theatlantic.com/technology/2026/10/ai-hacking-apocalypse-began-last-night/689106/?utm_source=feed",
+          "publisher": "The Atlantic",
+          "published_at": "2026-10-21",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "rss-spain-5087b0f6d3",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La irrupción en campaña de Milei pone en apuros a PP y Vox y regala otra baza electoral a Sánchez",
+      "summary": "Los socialistas se vuelcan en el choque con el presidente argentino y en asimilarlo a la opción de Gobierno que supondría una coalición de Feijóo con Abascal Milei llama “impresentable dictador” a Pedro Sánchez y se declara “amigo” de Ayuso y Abascal Y por si faltaba algo, llegó Milei. El presidente argentino aterrizó este miércoles en España para irrumpir en una política nacional inmersa en plena precampaña de las generales. Y lo hizo a la altura del personaje público delirante que lo ha convertido en uno de los referentes mundiales del populismo ultraderechista: agrediendo, insultando y d...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "La irrupción en campaña de Milei pone en apuros a PP y Vox y regala otra baza electoral a Sánchez",
+          "url": "https://www.eldiario.es/politica/irrupcion-campana-milei-pone-apuros-pp-vox-regala-baza-electoral-sanchez_1_13604480.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-1ca8864e36",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "🎙 PODCAST | Enfriando a Milei, el criptobro incómodo de la derecha española",
+      "summary": "Cómo les gusta cuando insulta a los zurdos. Cómo les pone verle hablar sin tapujos de la muerte del Estado y de los servicios públicos. Qué crack, es machista, racista, y gana elecciones. Hasta que la burbuja parece cerca de estallar ESPECIAL - De Telepasión a la acampada, con Inés Hernand Javier Milei ha visitado España esta semana por séptima vez en los tres años que lleva al frente del Gobierno de Argentina. En plena precampaña electoral, sus amigos de la derecha y la ultraderecha que tanto le aplauden cuando insulta Pedro Sánchez, han intentado evitar fotos y comparecencias públicas con...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "🎙 PODCAST | Enfriando a Milei, el criptobro incómodo de la derecha española",
+          "url": "https://www.eldiario.es/un-tema-al-dia/podcast-enfriando-milei-criptobro-incomodo-derecha-espanola_132_13604590.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-02f5ea6866",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Milei, el pariente que se cuela en casa en el momento más inoportuno",
+      "summary": "Ni Vox ni el PP, con la excepción de Díaz Ayuso, esperaban a Milei con muchas ganas en su enésima visita. Sólo el PSOE se mostró encantado, convencido de que le beneficia relacionar sus críticas al Estado de bienestar con la derecha y la ultraderecha españolas Ayuso insiste en el fantasma del fraude electoral con la ley de nietos en su reunión a puerta cerrada con Milei “Cuando yo era un ser despreciable y nadie me quería, el único que me abrazó fue Santiago Abascal”, dijo Javier Milei en una visita a España en mayo de 2024. Los hermanos y algunos amigos lo son toda la vida, pero a veces es...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Milei, el pariente que se cuela en casa en el momento más inoportuno",
+          "url": "https://www.eldiario.es/politica/milei-pariente-cuela-casa-momento-inoportuno_129_13603206.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-a5a4d8de41",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "El supuesto \"milagro económico argentino\" de Milei se desmorona en las cifras: \"No sacó a nadie de la pobreza\"",
+      "summary": "El presidente ultraderechista se burla de las personas que no llegan a fin de mes mientras presume de logros de su receta libertaria que, según voces expertas, resultan falsos o cuando menos tergiversados: ni ha sacado a un cuarto de la población de las privaciones ni el país crece a toda velocidad Milei pasa de la motosierra contra los “políticos ladrones” a coleccionar escándalos de corrupción En medio de una vida cotidiana sometida a penurias para gran parte de los argentinos, Javier Milei viaja por el mundo pregonando sus supuestos logros económicos. Unos logros que, según los datos ofi...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "El supuesto \"milagro económico argentino\" de Milei se desmorona en las cifras: \"No sacó a nadie de la pobreza\"",
+          "url": "https://www.eldiario.es/internacional/argentina-javier-milei-ultraderecha_1_13604317.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-cb90a614d5",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "El Supremo pone la lupa ahora sobre la documentación que ordenó enviar la Junta Electoral a los votantes del exterior",
+      "summary": "La Sala de lo Contencioso analiza este jueves el movimiento de la Junta Electoral de remitir las papeletas a todos los inscritos en el extranjero junto con una advertencia de que algunos sufragios afectados por las cautelares judiciales podrían no ser válidos El Constitucional rechaza la petición del Defensor del Pueblo de reactivar el voto de 160.000 nacionalizados El portazo del Tribunal Constitucional a intervenir en el debate sobre el voto de los nacionalizados con la ley de nietos ha devuelto el foco al Tribunal Supremo. Los mismos jueces que hace varias semanas dejaron en el aire el d...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "El Supremo pone la lupa ahora sobre la documentación que ordenó enviar la Junta Electoral a los votantes del exterior",
+          "url": "https://www.eldiario.es/politica/supremo-pone-lupa-ahora-documentacion-ordeno-enviar-junta-electoral-votantes-exterior_1_13604780.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-710eb64166",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Jaque al Constitucional: el PP busca en las urnas lo que no puede hacer en el Senado para controlar el Tribunal",
+      "summary": "La formación conservadora bloquea desde hace 10 meses la renovación del órgano de garantías a la espera de que las elecciones le otorguen una mayoría suficiente para imponer a los cuatro magistrados que corresponde designar a la Cámara Alta El PP hace visible su alianza con Vox para gobernar en España Con la solemnidad que envuelve a los discursos históricos , el profesor Manuel García-Pelayo defendió el 12 de julio de 1980 la idea de que el recién creado Tribunal Constitucional debía garantizar que la Política se sometía al Derecho y no al contrario. Elegido primer presidente de ese órgano...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Jaque al Constitucional: el PP busca en las urnas lo que no puede hacer en el Senado para controlar el Tribunal",
+          "url": "https://www.eldiario.es/politica/jaque-constitucional-pp-busca-urnas-no-senado-controlar-tribunal_129_13602054.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-65531ccded",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Milei agita la campaña con insultos a Sánchez y abrazos a Ayuso",
+      "summary": "Mientras PP y Vox buscan perfil bajo, Sánchez aprovecha el regalo en plena campaña: “Soy zurdo, y a mucha honra”",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Milei agita la campaña con insultos a Sánchez y abrazos a Ayuso",
+          "url": "https://elpais.com/espana/2026-10-22/milei-agita-la-campana-con-insultos-a-sanchez-y-abrazos-a-ayuso.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-10-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-e6a46bee49",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "El PP confía en que el impacto de la visita de Milei se diluya el 29-N: “Si llega a venir la última semana sería distinto”",
+      "summary": "Feijóo esquiva al presidente argentino mientras Ayuso vuelve a reivindicarlo en la órbita del PP. “Sirve para movilizar al PSOE y a Vox”, se lamentan en el PP",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "El PP confía en que el impacto de la visita de Milei se diluya el 29-N: “Si llega a venir la última semana sería distinto”",
+          "url": "https://elpais.com/espana/2026-10-22/el-pp-confia-en-que-el-impacto-de-la-visita-de-milei-se-diluya-el-29-n-si-llega-a-venir-la-ultima-semana-seria-distinto.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-10-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-0ccdd43926",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Milei hace política exterior a golpe de insultos: choques con Sánchez, Lula, Petro y Arce",
+      "summary": "Los agravios del presidente argentino a sus pares han creado cortocircuitos diplomáticos en España y Latinoamérica",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Milei hace política exterior a golpe de insultos: choques con Sánchez, Lula, Petro y Arce",
+          "url": "https://elpais.com/argentina/2026-10-22/milei-instaura-una-politica-exterior-a-golpe-de-insultos-choques-con-sanchez-lula-petro-y-lopez-obrador.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-fe23b4c904",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Buscador | Madrid copa los barrios más caros para comprar o alquilar casa en las grandes ciudades",
+      "summary": "La capital se distancia de Barcelona al concentrar siete de las diez zonas donde las arrendamientos son más altos y los diez distritos con precios de venta más prohibitivos",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Buscador | Madrid copa los barrios más caros para comprar o alquilar casa en las grandes ciudades",
+          "url": "https://elpais.com/economia/vivienda/2026-10-22/buscador-madrid-copa-los-barrios-mas-caros-para-comprar-o-alquilar-casa-en-las-grandes-ciudades.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-10-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-c9eb2d3a8e",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "¿Cuántas casas más puede construir España?",
+      "summary": "Promotores, constructores y expertos coinciden en que aumentar la oferta es imprescindible, pero discrepan sobre la capacidad real del sector para hacerlo",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "¿Cuántas casas más puede construir España?",
+          "url": "https://elpais.com/economia/vivienda/2026-10-22/cuantas-casas-mas-puede-construir-espana.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-10-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-6e3db6a1e3",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "El abogado de afectados por la ‘ley de nietos’ asume que no podrán votar: “El Constitucional era la única vía posible”",
+      "summary": "El despacho del exjuez Baltasar Garzón se persona ante el Supremo con tres afectados, aunque las trabas burocráticas y los plazos ajustados han impedido sumar más casos de españoles residentes en el extranjero",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "El abogado de afectados por la ‘ley de nietos’ asume que no podrán votar: “El Constitucional era la única vía posible”",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-10-22/el-abogado-de-afectados-por-la-ley-de-nietos-asume-que-no-podran-votar-el-constitucional-era-la-unica-via-posible.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-10-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-4d3159177e",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Morning Briefing: Tesla und SpaceX – eine Fusion mit Sprengkraft",
+      "summary": "Elon Musk will mit einer möglichen Fusion von Tesla und SpaceX Technik, Kapital und Macht in einer Hand bündeln. Ziehen Aktionäre und Regulierer mit?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Morning Briefing: Tesla und SpaceX – eine Fusion mit Sprengkraft",
+          "url": "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-tesla-und-spacex-eine-fusion-mit-sprengkraft/100264002.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-f55a65d2dc",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Podcast: Tesla und SpaceX – Fusion mit Sprengkraft",
+      "summary": "Elon Musk will mit einer möglichen Fusion von Tesla und SpaceX Technik, Kapital und Macht in einer Hand bündeln. Ziehen Aktionäre und Regulierer mit?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Podcast: Tesla und SpaceX – Fusion mit Sprengkraft",
+          "url": "https://www.handelsblatt.com/audio/podcast-morning-briefing/podcast-tesla-und-spacex-fusion-mit-sprengkraft/100264089.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-6f98a88f80",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Facebook-Konzern: Meta-Chef setzt neue Aktienstruktur mit Umzugsdrohung durch",
+      "summary": "Facebook-Gründer Mark Zuckerberg könnte gezwungen sein, Aktien zu verkaufen, um eine mögliche Milliardärsteuer zu zahlen. Er sorgt dafür, dass sein Einfluss beim Konzern nicht darunter leidet.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Facebook-Konzern: Meta-Chef setzt neue Aktienstruktur mit Umzugsdrohung durch",
+          "url": "https://www.handelsblatt.com/technik/it-internet/facebook-konzern-meta-chef-setzt-neue-aktienstruktur-mit-umzugsdrohung-durch/100264090.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-2a26a22f7e",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Was Tests bringen: Grippe, Corona, RSV: Welcher Erreger hat mich erwischt?",
+      "summary": "Halsweh, Schnupfen, vielleicht Fieber: Welches Virus legt mich lahm? Seit der Pandemie wollen es viele genau wissen. Aber was bringt einem dieses Wissen überhaupt? Und wie sinnvoll sind Selbsttests?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Was Tests bringen: Grippe, Corona, RSV: Welcher Erreger hat mich erwischt?",
+          "url": "https://www.handelsblatt.com/technik/medizin/was-tests-bringen-grippe-corona-rsv-welcher-erreger-hat-mich-erwischt/100264087.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-d280d35b3d",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Apple-Bestseller: 25 Jahre iPod: Startschuss für Apples Höhenflug",
+      "summary": "1.000 Songs in der Tasche - mit diesem Versprechen brachte Apple vor 25 Jahren den iPod auf den Markt. Das kleine Gerät bereitete den Weg für das iPhone - und krempelte nebenbei die Musikbranche um.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Apple-Bestseller: 25 Jahre iPod: Startschuss für Apples Höhenflug",
+          "url": "https://www.handelsblatt.com/technik/it-internet/apple-bestseller-25-jahre-ipod-startschuss-fuer-apples-hoehenflug/100264083.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-aa939e14b1",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Vaping: Warum E-Zigaretten plötzlich steuerfrei sein könnten",
+      "summary": "Das neue Tabaksteuergesetz soll dem Bund Milliarden bescheren, die Steuersätze auf die verschiedenen Produkte sollen steigen. Aber im Fall von E-Zigaretten könnte es völlig anders sein - aus Versehen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Vaping: Warum E-Zigaretten plötzlich steuerfrei sein könnten",
+          "url": "https://www.handelsblatt.com/politik/deutschland/vaping-warum-e-zigaretten-ploetzlich-steuerfrei-sein-koennten/100264084.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-6f06d80130",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Unwetter: Neuer Taifun nähert sich Taiwan und China - Flüge fallen aus",
+      "summary": "Taifun „Champi“ steuert auf Taiwan und China zu. Der Sturm brach bereits eine Höchstmarke in der diesjährigen Taifun-Saison. Die Menschen vor Ort erwarten Flugausfälle und Unwetter.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Unwetter: Neuer Taifun nähert sich Taiwan und China - Flüge fallen aus",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/dpa-unwetter-neuer-taifun-nahert-sich-taiwan-und-china-fluge-fallen-aus-16186601.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-54f1463027",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Basketball: NBA: Erfolgreiches Schröder-Debüt - Niederlage für Wagner",
+      "summary": "Dennis Schröder gelingt mit seinem neuen Team ein erfolgreicher Start in die NBA-Saison. Weniger gut lief es für Franz Wagner.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Basketball: NBA: Erfolgreiches Schröder-Debüt - Niederlage für Wagner",
+          "url": "https://www.tagesspiegel.de/sport/dpa-basketball-nba-erfolgreiches-schroder-debut-niederlage-fur-wagner-16186593.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-83619f2a75",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Champions League: Ballon d'Or für Harry Kane? „Könnte besonderer Abend werden“",
+      "summary": "Ein Tor, ein Assist mit Traumpass - Harry Kane ist beim 2:2 des FC Bayern gegen Arsenal wieder einmal der wichtigste Münchner Faktor. Trainer Kompany erklärt eine besondere Stärke des Engländers.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Champions League: Ballon d'Or für Harry Kane? „Könnte besonderer Abend werden“",
+          "url": "https://www.tagesspiegel.de/sport/dpa-champions-league-ballon-dor-fur-harry-kane-konnte-besonderer-abend-werden-16186590.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-bd4178bec9",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Jung und Alt spielen: Würfel und Karten gegen bröckelnden sozialen Zusammenhalt",
+      "summary": "Viele Menschen sind einsam, Zusammenhalt schwindet. Zugleich boomen Gesellschaftsspiele. Zufall? Warum setzen sich Leute mit Würfeln, Karten, Spielfiguren an einen Tisch - und was macht das mit ihnen?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Jung und Alt spielen: Würfel und Karten gegen bröckelnden sozialen Zusammenhalt",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/dpa-jung-und-alt-spielen-wurfel-und-karten-gegen-brockelnden-sozialen-zusammenhalt-16186583.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-13c6c2fb77",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Nach dem Monsun: Das späte Glück von Tokio Hotel: Diese Konzerte in Berlin sollten Sie nicht verpassen",
+      "summary": "Mit sechzehn waren die Kaulitz-Brüder über Nacht Superstars. 20 Jahre später können sie gelassen auf eine turbulente Karriere zurückschauen. Unsere Konzerte der Woche.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Nach dem Monsun: Das späte Glück von Tokio Hotel: Diese Konzerte in Berlin sollten Sie nicht verpassen",
+          "url": "https://www.tagesspiegel.de/kultur/kulturtipps/nach-dem-monsun-das-spate-gluck-von-tokio-hotel-diese-konzerte-in-berlin-sollten-sie-nicht-verpassen-16183177.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-da95d9b0f9",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Kinostarts der Woche: Steilgehen mit Elyas M’Barek und Frederick Lau",
+      "summary": "Auf Bora Dagtekins Kinohit „Das perfekte Geheimnis“ folgt „Der perfekte Urlaub“ – fragwürdigerweise am Ballermann. Das sind unsere Film-Highlights der Woche.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Kinostarts der Woche: Steilgehen mit Elyas M’Barek und Frederick Lau",
+          "url": "https://www.tagesspiegel.de/kultur/kulturtipps/kinostarts-der-woche-steilgehen-mit-elyas-mbarek-und-frederick-lau-16182557.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-9ab0b7e98c",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Videospiel-Soundtracks aus mehreren Jahrzehnten live und im Twitch-Stream",
+      "summary": "Kai Wellenbrock ist Orchester-Inspektor des Deutschen Symphonie-Orchester Berlin. Als \"Problemlöser hinter der Bühne\" ist er dafür verantwortlich, dass Bühnentechnik, Instrumente und Transport der wertvollen Instrumente reibungslos zusammen spielen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Videospiel-Soundtracks aus mehreren Jahrzehnten live und im Twitch-Stream",
+          "url": "https://www.rbb24.de/kultur/beitrag/2026/10/orchester-inspektor-kai-wellenbrock-interview-deutsches-symphonie-orchester-dso.html",
+          "publisher": "rbb24",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    },
+    {
+      "id": "rss-berlin-f1f32c66cd",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Bauarbeiten: Ausfälle und Verspätungen auf mehreren S-Bahn-Linien",
+      "summary": "Bauarbeiten am Westkreuz beeinträchtigen gleich fünf Berliner S-Bahn-Linien. Fahrgäste müssen sich auf Änderungen einstellen – auch eine Linie zum Flughafen ist betroffen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Bauarbeiten: Ausfälle und Verspätungen auf mehreren S-Bahn-Linien",
+          "url": "https://www.tagesspiegel.de/berlin/dpa-bauarbeiten-ausfalle-und-verspatungen-auf-mehreren-s-bahn-linien-16186603.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-berlin-c50d0dfdfa",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Berlins einziger Frauen-Kulturort ist jetzt ein Flinta-Treff: „Ja, es mussten einige zur Ordnung gerufen werden“",
+      "summary": "Die Begine in Schöneberg ist Berlins traditionsreichster Treffpunkt für Frauen. Jetzt stellt sie sich neu auf. Ein Gespräch über daraus resultierende Konflikte, emotionale Besucherinnen – und über den Motor, der zum Weitermachen antreibt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Berlins einziger Frauen-Kulturort ist jetzt ein Flinta-Treff: „Ja, es mussten einige zur Ordnung gerufen werden“",
+          "url": "https://www.tagesspiegel.de/berlin/berlins-einziger-frauen-kulturort-ist-jetzt-ein-flinta-treff-ja-es-mussten-einige-zur-ordnung-gerufen-werden-16182451.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-berlin-4fa5a569d7",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Griechen gegen Heineken: Warum die Mega-Brauerei 111 Millionen Euro zahlen soll – und sich weigert",
+      "summary": "Ein Amsterdamer Gericht hat den Braukonzern wegen wettbewerbswidrigen Verhaltens seiner griechischen Tochter verurteilt. Heineken widerspricht der Begründung. Die Rechnung passt auf keinen Bierdeckel.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Griechen gegen Heineken: Warum die Mega-Brauerei 111 Millionen Euro zahlen soll – und sich weigert",
+          "url": "https://www.berliner-zeitung.de/article/heineken-soll-111-millionen-euro-zahlen-warum-der-bierstreit-mit-einer-griechischen-brauerei-noch-nicht-vorbei-ist-10518691",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-2aaa70b260",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Kritische PHP-Lücken: Warum Websites offline gehen – und wer jetzt handeln muss",
+      "summary": "Zwei kritische Sicherheitslücken gefährden Webserver. Was hinter „php2shell“ steckt, welche Folgen für Kunden möglich sind – und warum Betreiber nicht nur aktualisieren, sondern auch nach Spuren eines Angriffs suchen sollten.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Kritische PHP-Lücken: Warum Websites offline gehen – und wer jetzt handeln muss",
+          "url": "https://www.berliner-zeitung.de/article/php-php2shell-sicherheitsluecken-webserver-update-10518232",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-311e7c3a87",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Überwachung, Druck, keine Tarifverträge: EU-Abgeordnete wollen sich Amazon-Lager von innen ansehen",
+      "summary": "Beschäftigte schilderten im Januar extreme Arbeitsbedingungen und permanente Kontrolle durch Algorithmen. Ende Oktober sollen sich Abgeordnete selbst ein Bild machen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Überwachung, Druck, keine Tarifverträge: EU-Abgeordnete wollen sich Amazon-Lager von innen ansehen",
+          "url": "https://www.berliner-zeitung.de/article/ueberwachung-druck-keine-tarifvertraege-eu-abgeordnete-wollen-sich-amazon-lager-von-innen-ansehen-10518173",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-1e9b6de30b",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "6,1 Millionen Tonnen Nudeln in der EU – und zwei Drittel kommen aus einem einzigen Land",
+      "summary": "Das Statistische Bundesamt hat die EU-Produktionszahlen für 2025 veröffentlicht – Deutschland liegt auf Rang drei. Doch auf dem Teller dominiert der Import.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "6,1 Millionen Tonnen Nudeln in der EU – und zwei Drittel kommen aus einem einzigen Land",
+          "url": "https://www.berliner-zeitung.de/article/61-millionen-tonnen-nudeln-in-der-eu-und-zwei-drittel-kommen-aus-einem-einzigen-land-10517874",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-9cbecca1a1",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Rentner-Paradies Nummer eins: Warum Griechenland für viele Deutsche zur Steuerfalle wird",
+      "summary": "Rente in Griechenland: Ab welcher Rente sich die 7-Prozent-Pauschalsteuer lohnt, welche Fristen gelten und was das Leben dort kostet.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Rentner-Paradies Nummer eins: Warum Griechenland für viele Deutsche zur Steuerfalle wird",
+          "url": "https://www.berliner-zeitung.de/article/rentner-paradies-nummer-eins-warum-griechenland-fuer-viele-deutsche-zur-steuerfalle-wird-10517759",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-beb3b5948d",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Teurer als auf dem Oktoberfest: Schulball verlangt 8,90 Euro für eine Flasche Wasser",
+      "summary": "Schulball in Wiener Neustadt: 8,90 Euro für 0,75 Liter Mineralwasser, 6,80 Euro für Toast. Was der Caterer zu den Preisen und zum Tischservice sagt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Teurer als auf dem Oktoberfest: Schulball verlangt 8,90 Euro für eine Flasche Wasser",
+          "url": "https://www.berliner-zeitung.de/article/teurer-als-auf-dem-oktoberfest-schulball-verlangt-890-euro-fuer-eine-flasche-wasser-10516984",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-bf268ed306",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Interview zu El Niño: \"\"Wir alle sind gekoppelt an die Auswirkungen\"",
+      "summary": "Die Weltwetterorganisation warnt vor einem besonders heftigen El Niño. Das Klimaphänomen aus den Tropen werde sich weltweit bemerkbar machen. Für Berlin und Brandenburg könnte das tendenziell einen feuchten und milden Winter bedeuten.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Interview zu El Niño: \"\"Wir alle sind gekoppelt an die Auswirkungen\"",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/wetter-klima-el-nino-auswirkungen-auf-berlin-brandenburg.html",
+          "publisher": "rbb24",
+          "published_at": "2026-10-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-9166273df3",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Empörung nach \"Judenfrage\"-Post der Potsdamer Wirtschaftsunion - Linke fordert Entschuldigung",
+      "summary": "Empörung nach \"Judenfrage\"-Post der Potsdamer Wirtschaftsunion - Linke fordert Entschuldigung",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Empörung nach \"Judenfrage\"-Post der Potsdamer Wirtschaftsunion - Linke fordert Entschuldigung",
+          "url": "https://www.rbb24.de/politik/beitrag/2026/10/mittelstands-wirtschaftsunion-potsdam-instagram-post-empoerung-redmann-brandenburg.html",
+          "publisher": "rbb24",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-6243de5650",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "3:0 gegen Freiburg: BR Volleys starten dominant in neue Saison",
+      "summary": "Die BR Volleys sind souverän in die neue Saison der Volleyball-Bundesliga gestartet. Der deutsche Meister gewann vor 5.844 Zuschauern in der Max-Schmeling-Halle sein erstes Ligaspiel gegen die FT 1844 Freiburg mit 3:0 (25:14, 25:17, 25:18).",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "3:0 gegen Freiburg: BR Volleys starten dominant in neue Saison",
+          "url": "https://www.rbb24.de/sport/beitrag/2026/10/berlin-volleyball-br-volleys-ligastart-freiburg-Anastasi-netzhoppers-vco-spielbericht.html",
+          "publisher": "rbb24",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-world-2c0e50cbb9",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Taiwan's first-ever chip workers strike begins at Micron plant",
+      "summary": "Taiwan's first-ever chip workers strike begins at Micron plant",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Taiwan's first-ever chip workers strike begins at Micron plant",
+          "url": "https://asia.nikkei.com/business/tech/semiconductors/taiwan-s-first-ever-chip-workers-strike-begins-at-micron-plant",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 69
+    },
+    {
+      "id": "rss-world-f9bca5e5eb",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Gundam maker Bandai Namco's stock surge reflects market AI doubts",
+      "summary": "Gundam maker Bandai Namco's stock surge reflects market AI doubts",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Gundam maker Bandai Namco's stock surge reflects market AI doubts",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/gundam-maker-bandai-namco-s-stock-surge-reflects-market-ai-doubts",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 69
+    },
+    {
+      "id": "rss-world-4759389699",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "AfD’s Alice Weidel urges quick Ukraine talks and a return to cheap Russian energy",
+      "summary": "Weidel said the far-right AfD is in \"talks\" to bridge differences with France’s National Rally that largely concern Russia.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "AfD’s Alice Weidel urges quick Ukraine talks and a return to cheap Russian energy",
+          "url": "https://www.politico.eu/article/afd-alice-weidel-urges-quick-ukraine-talks-and-a-return-to-cheap-russian-energy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "publisher": "Politico Europe",
+          "published_at": "2026-10-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-381f96d964",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Politico and Telegraph owner pitched deal to buy European arm of TikTok",
+      "summary": "Axel Springer boss Mathias Döpfner raised idea over lunch with US ambassador to France Charles Kushner",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Politico and Telegraph owner pitched deal to buy European arm of TikTok",
+          "url": "https://www.ft.com/content/171220b9-8d8e-4d82-a866-f9aaf258e0fb?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-a9b6925f08",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Highland Spring billionaire’s property empire hit by loan defaults and creditor action",
+      "summary": "Family of former UAE ambassador Mahdi Al Tajir looks to sell prized UK property assets as lenders seek to recoup unpaid debts",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Highland Spring billionaire’s property empire hit by loan defaults and creditor action",
+          "url": "https://www.ft.com/content/7f93f4b4-beca-4566-ad60-900910d31320?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-1e1a7a500c",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "AI and inflation: how worried should central bankers be?",
+      "summary": "Relative price shifts can affect the overall price level",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "AI and inflation: how worried should central bankers be?",
+          "url": "https://www.ft.com/content/68b04a9b-714e-4a5a-8dde-d9d7b8a65197?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-cd6f2c90a3",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Musk sets lower sales target for Tesla as it explores SpaceX merger",
+      "summary": "Carmaker reports flat revenue and falling profits as it pivots from electric vehicles to AI",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Musk sets lower sales target for Tesla as it explores SpaceX merger",
+          "url": "https://www.ft.com/content/16bdf332-2a75-4e57-81ea-a37caf50ec0f?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-21",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-8efa433127",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+      "summary": "DHS says migrants ‘retain protections’ after temporary protected status was set to expire on Monday Send us your questions about immigration and the midterms More than 100,000 people from Ukraine and Sudan can stay in the United States without immediate risk of deportation, the Department of Homeland Security said, in what amounts to a temporary reprieve after their right to stay in the country was set to expire on Monday. Temporary protected status was set to end on Monday for about 101,000 Ukrainians and 1,800 Sudanese. But the DHS said an announcement “will be made at the appropriate tim...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+          "url": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-19",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    },
+    {
+      "id": "rss-world-bc3164eb97",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "‘Bad decisions’: Man convicted for taking Peachy the flamingo from Las Vegas hotel",
+      "summary": "Mitchell Fairbarn found guilty of animal cruelty after prosecutors say he hurt and frightened the 27-year-old bird A Canadian man was convicted of animal cruelty charges on Monday for snatching a flamingo named Peachy from its enclosure at an iconic Las Vegas hotel. Prosecutors said it was a malicious prank while a lawyer for the tourist insisted it was drunken foolishness not meant to harm the bird. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "‘Bad decisions’: Man convicted for taking Peachy the flamingo from Las Vegas hotel",
+          "url": "https://www.theguardian.com/us-news/2026/oct/20/man-convicted-peachy-the-flamingo-las-vegas-hotel",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-20",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    },
+    {
+      "id": "rss-world-5a0e48440c",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Flavio Bolsonaro’s ‘corrupto’ stunt sparks viral meme before Brazil election runoff",
+      "summary": "Far-right presidential candidate’s TV debate swipe at rival backfires as people take to social media to parody it To Flávio Bolsonaro and his publicists, it must have seemed an ingenious idea that would expose his rival’s supposed crookedness on the eve of Brazil’s presidential election. But the far-right politician’s decision to attend a primetime television debate against his leftwing opponent, Luiz Inácio Lula da Silva, with the word “corrupto” (corrupt) written on the palm of his hand has backfired. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Flavio Bolsonaro’s ‘corrupto’ stunt sparks viral meme before Brazil election runoff",
+          "url": "https://www.theguardian.com/world/2026/oct/20/flavio-bolsonaro-corrupto-viral-meme-brazil-election-runoff",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-20",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    },
+    {
+      "id": "rss-world-a140491b83",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Giving £2 a day to people in the Amazon helps protect rainforest, pilot project finds",
+      "summary": "Researchers say almost 90% of participants in unconditional basic income scheme in Peru adopted environmentally beneficial practices A pioneering project to provide Indigenous people in the Peruvian Amazon with an unconditional basic income has contributed to the protection of the rainforest, according to a study. The analysis from the University of Bath is expected to contribute to a growing debate about the role of direct payments to communities that maintain globally important ecosystems. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Giving £2 a day to people in the Amazon helps protect rainforest, pilot project finds",
+          "url": "https://www.theguardian.com/environment/2026/oct/20/unconditional-basic-income-amazon-rainforest-peru-study",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-20",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    },
+    {
+      "id": "rss-world-f3947b7b01",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+      "summary": "Trudy weakens to tropical storm after warnings of strong winds and heavy rain, while one person killed in Greece In contrast to the quiet Atlantic hurricane season, there has been ongoing activity in the Pacific, with Trudy being the 22nd and latest named system. The category 2 hurricane remained roughly 100 miles (160km) south-west of the coast of Mexico, meaning the worst of the conditions stayed offshore. However, the US National Hurricane Center put coastal parts of the states of Jalisco, Michoacán and Colima under hurricane warnings, with sustained winds of up to 60-90mph forecast on S...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+          "url": "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-19",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    }
+  ],
+  "editorial_context": {
+    "recent_topics": [
+      {
+        "slug": "spain-supremo-amnesty-malversacion-tc-clash",
+        "section": "spain",
+        "date": "2026-10-21"
+      },
+      {
+        "slug": "spain-ai-deepfake-campaign-29n",
+        "section": "spain",
+        "date": "2026-10-21"
+      },
+      {
+        "slug": "spain-ayuso-civismo-lobby-lunch",
+        "section": "spain",
+        "date": "2026-10-21"
+      },
+      {
+        "slug": "germany-tobacco-tax-accidentally-in-force",
+        "section": "germany",
+        "date": "2026-10-21"
+      },
+      {
+        "slug": "germany-steer-by-wire",
+        "section": "germany",
+        "date": "2026-10-21"
+      },
+      {
+        "slug": "germany-parliaments-women-share-afd-sachsen-anhalt",
+        "section": "germany",
+        "date": "2026-10-21"
+      },
+      {
+        "slug": "berlin-senate-hack-bonde-darknet",
+        "section": "berlin",
+        "date": "2026-10-21"
+      },
+      {
+        "slug": "berlin-schlossstrasse-mall-fully-let",
+        "section": "berlin",
+        "date": "2026-10-21"
+      },
+      {
+        "slug": "berlin-pankow-golf-resort-housing",
+        "section": "berlin",
+        "date": "2026-10-21"
+      },
+      {
+        "slug": "world-alberta-independence-referendum-rejected",
+        "section": "world",
+        "date": "2026-10-21"
+      },
+      {
+        "slug": "world-guinea-bissau-vaccine-researchers-raid",
+        "section": "world",
+        "date": "2026-10-21"
+      },
+      {
+        "slug": "world-netanyahu-resume-iran-strikes",
+        "section": "world",
+        "date": "2026-10-21"
+      },
+      {
+        "slug": "spain-espinosa-monasterio-tax-court",
+        "section": "spain",
+        "date": "2026-10-20"
+      },
+      {
+        "slug": "spain-oxfam-housing-working-poor",
+        "section": "spain",
+        "date": "2026-10-20"
+      },
+      {
+        "slug": "spain-dana-2024-alert-lessons",
+        "section": "spain",
+        "date": "2026-10-20"
+      },
+      {
+        "slug": "germany-trumpflation-mortgages-2009",
+        "section": "germany",
+        "date": "2026-10-20"
+      },
+      {
+        "slug": "germany-kv-slot-reporting-terminnot",
+        "section": "germany",
+        "date": "2026-10-20"
+      },
+      {
+        "slug": "germany-db-familienticket-99-99",
+        "section": "germany",
+        "date": "2026-10-20"
+      },
+      {
+        "slug": "berlin-spd-greens-yes-coalition-talks",
+        "section": "berlin",
+        "date": "2026-10-20"
+      },
+      {
+        "slug": "berlin-greens-senat-selection-commission",
+        "section": "berlin",
+        "date": "2026-10-20"
+      },
+      {
+        "slug": "berlin-alba-bamberg-bbl-pokal",
+        "section": "berlin",
+        "date": "2026-10-20"
+      },
+      {
+        "slug": "world-kenya-ebola-us-health-cuts",
+        "section": "world",
+        "date": "2026-10-20"
+      },
+      {
+        "slug": "world-ai-debt-cds-surge",
+        "section": "world",
+        "date": "2026-10-20"
+      },
+      {
+        "slug": "world-internet-archive-wayback-ai",
+        "section": "world",
+        "date": "2026-10-20"
+      },
+      {
+        "slug": "spain-ayuso-health-staff-budget",
+        "section": "spain",
+        "date": "2026-10-19"
+      },
+      {
+        "slug": "spain-andalucia-vox-ong-homeless-cuts",
+        "section": "spain",
+        "date": "2026-10-19"
+      },
+      {
+        "slug": "spain-martes-sociales-benefits-decree",
+        "section": "spain",
+        "date": "2026-10-19"
+      },
+      {
+        "slug": "germany-invest-in-germany-merz-fink-huang",
+        "section": "germany",
+        "date": "2026-10-19"
+      },
+      {
+        "slug": "germany-frei-miersch-miosga-vergesellschaftung",
+        "section": "germany",
+        "date": "2026-10-19"
+      },
+      {
+        "slug": "germany-summer-holiday-autumn-booking",
+        "section": "germany",
+        "date": "2026-10-19"
+      },
+      {
+        "slug": "berlin-spd-greens-monday-coalition-vote",
+        "section": "berlin",
+        "date": "2026-10-19"
+      },
+      {
+        "slug": "berlin-teuteberg-sed-youth-education",
+        "section": "berlin",
+        "date": "2026-10-19"
+      },
+      {
+        "slug": "berlin-br-volleys-ligacup",
+        "section": "berlin",
+        "date": "2026-10-19"
+      },
+      {
+        "slug": "world-france-supermarket-fridge-cyberattack",
+        "section": "world",
+        "date": "2026-10-19"
+      },
+      {
+        "slug": "world-alzheimers-brain-evolution",
+        "section": "world",
+        "date": "2026-10-19"
+      },
+      {
+        "slug": "world-japan-journalist-russia-detainee",
+        "section": "world",
+        "date": "2026-10-19"
+      },
+      {
+        "slug": "spain-senate-vox-pp-tactical-withdrawal",
+        "section": "spain",
+        "date": "2026-10-18"
+      },
+      {
+        "slug": "spain-rental-listings-2-5-pause",
+        "section": "spain",
+        "date": "2026-10-18"
+      },
+      {
+        "slug": "spain-pnv-esteban-vox-deeds",
+        "section": "spain",
+        "date": "2026-10-18"
+      },
+      {
+        "slug": "germany-marine-coastal-investment",
+        "section": "germany",
+        "date": "2026-10-18"
+      },
+      {
+        "slug": "germany-weather-sensitivity",
+        "section": "germany",
+        "date": "2026-10-18"
+      },
+      {
+        "slug": "germany-smartphone-battery-anxiety",
+        "section": "germany",
+        "date": "2026-10-18"
+      },
+      {
+        "slug": "berlin-rgr-coalition-talks-vergesellschaftung-compromise",
+        "section": "berlin",
+        "date": "2026-10-18"
+      },
+      {
+        "slug": "berlin-public-lectures",
+        "section": "berlin",
+        "date": "2026-10-18"
+      },
+      {
+        "slug": "berlin-kleistpark-student-protest",
+        "section": "berlin",
+        "date": "2026-10-18"
+      },
+      {
+        "slug": "world-us-10tn-ai-infra-fray",
+        "section": "world",
+        "date": "2026-10-18"
+      },
+      {
+        "slug": "world-indonesia-nickel-vw-ford-tesla",
+        "section": "world",
+        "date": "2026-10-18"
+      },
+      {
+        "slug": "world-venezuela-76bn-oil-investment",
+        "section": "world",
+        "date": "2026-10-18"
+      },
+      {
+        "slug": "spain-frente-amplio-podemos-split-except-canarias-valencia",
+        "section": "spain",
+        "date": "2026-10-17"
+      },
+      {
+        "slug": "spain-minguez-resigns-partner-rentals",
+        "section": "spain",
+        "date": "2026-10-17"
+      },
+      {
+        "slug": "spain-medicinal-cannabis-hospitals",
+        "section": "spain",
+        "date": "2026-10-17"
+      },
+      {
+        "slug": "germany-netzentgelte-rise-2027",
+        "section": "germany",
+        "date": "2026-10-17"
+      },
+      {
+        "slug": "germany-fruehstartrente-hoffmann-wuest",
+        "section": "germany",
+        "date": "2026-10-17"
+      },
+      {
+        "slug": "germany-2050-young-politicians",
+        "section": "germany",
+        "date": "2026-10-17"
+      },
+      {
+        "slug": "berlin-gp-waiting-rooms-covid",
+        "section": "berlin",
+        "date": "2026-10-17"
+      },
+      {
+        "slug": "berlin-prenzlauer-berg-no-longer-kinderhochburg",
+        "section": "berlin",
+        "date": "2026-10-17"
+      },
+      {
+        "slug": "berlin-mittelham-em-gold",
+        "section": "berlin",
+        "date": "2026-10-17"
+      },
+      {
+        "slug": "world-sea-us-china-ai-blocs",
+        "section": "world",
+        "date": "2026-10-17"
+      },
+      {
+        "slug": "world-brazil-amazon-deforestation-record-low",
+        "section": "world",
+        "date": "2026-10-17"
+      },
+      {
+        "slug": "world-anthropic-blackstone-chip-yield",
+        "section": "world",
+        "date": "2026-10-17"
+      },
+      {
+        "slug": "spain-canary-upc-left-unity",
+        "section": "spain",
+        "date": "2026-10-16"
+      },
+      {
+        "slug": "spain-madrid-strike-hoax-threats",
+        "section": "spain",
+        "date": "2026-10-16"
+      },
+      {
+        "slug": "spain-smi-5-percent-pre-election",
+        "section": "spain",
+        "date": "2026-10-16"
+      },
+      {
+        "slug": "germany-unicredit-commerzbank-ecb",
+        "section": "germany",
+        "date": "2026-10-16"
+      },
+      {
+        "slug": "germany-ecj-phishing-bank-refunds",
+        "section": "germany",
+        "date": "2026-10-16"
+      },
+      {
+        "slug": "germany-coalition-beziehungstotalschaden",
+        "section": "germany",
+        "date": "2026-10-16"
+      },
+      {
+        "slug": "berlin-greens-monday-coalition-decision",
+        "section": "berlin",
+        "date": "2026-10-16"
+      },
+      {
+        "slug": "berlin-fuechse-porto-cl",
+        "section": "berlin",
+        "date": "2026-10-16"
+      },
+      {
+        "slug": "berlin-kinski-100",
+        "section": "berlin",
+        "date": "2026-10-16"
+      },
+      {
+        "slug": "world-ai-datacentre-bonds-darwin",
+        "section": "world",
+        "date": "2026-10-16"
+      },
+      {
+        "slug": "world-india-software-vs-ai-chips",
+        "section": "world",
+        "date": "2026-10-16"
+      },
+      {
+        "slug": "world-senegal-lgbtq-arrests",
+        "section": "world",
+        "date": "2026-10-16"
+      },
+      {
+        "slug": "spain-pp-vox-pensions-collapse-narrative",
+        "section": "spain",
+        "date": "2026-10-15"
+      },
+      {
+        "slug": "spain-cis-sample-bias-sociologists",
+        "section": "spain",
+        "date": "2026-10-15"
+      },
+      {
+        "slug": "spain-senate-united-left-list-40",
+        "section": "spain",
+        "date": "2026-10-15"
+      },
+      {
+        "slug": "germany-kiel-advertised-rents-accelerate",
+        "section": "germany",
+        "date": "2026-10-15"
+      },
+      {
+        "slug": "germany-ai-bioweapons-preparedness",
+        "section": "germany",
+        "date": "2026-10-15"
+      },
+      {
+        "slug": "germany-kiesewetter-nord-stream-warnings",
+        "section": "germany",
+        "date": "2026-10-15"
+      },
+      {
+        "slug": "berlin-franzoesisches-gymnasium-protests",
+        "section": "berlin",
+        "date": "2026-10-15"
+      },
+      {
+        "slug": "berlin-neukoelln-alive-app",
+        "section": "berlin",
+        "date": "2026-10-15"
+      },
+      {
+        "slug": "berlin-union-alte-foersterei-financing",
+        "section": "berlin",
+        "date": "2026-10-15"
+      },
+      {
+        "slug": "world-asia-ai-selloff-kospi-halt",
+        "section": "world",
+        "date": "2026-10-15"
+      },
+      {
+        "slug": "world-zimbabwe-caine-prize-ai-denial",
+        "section": "world",
+        "date": "2026-10-15"
+      },
+      {
+        "slug": "world-florida-giant-african-snails",
+        "section": "world",
+        "date": "2026-10-15"
+      }
+    ],
+    "rejected_candidates": [
+      {
+        "id": "rss-spain-cb9a5a9f78",
+        "headline": "El PP hace visible su alianza con Vox para gobernar en España",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-9c661921a5",
+        "headline": "El bulo del 'Bar España': una venganza nacida al calor del 'caso Alcàsser' y multiplicada hasta el infinito en redes",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-9834610768",
+        "headline": "Los caseros con más pisos suben más los precios a sus inquilinos que los que alquilan solo uno",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-9c75b13572",
+        "headline": "¿Qué dice la instrucción de la ‘ley de nietos’ que está bajo la lupa del Supremo?",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-89c7f9d8f6",
+        "headline": "El avance de Vox en las coaliciones con el PP: de la “nacionalidad española” en la ley de vivienda de Aragón a la censura en Castilla y León",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-7fb13ea4e9",
+        "headline": "John Kerry: “La decisión de Trump de permitir la compra de petróleo ruso es contraproducente y peligrosa”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-366a9bbf01",
+        "headline": "Móviles plegables: qué ganas, qué pierdes y cuánto duran de verdad",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-908e16c320",
+        "headline": "El TC rechaza el recurso sobre la 'ley de nietos' y deja en el aire el voto de 163.000 nacionalizados",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-4ce6b5a874",
+        "headline": "¿Por qué el control del Senado es clave para el futuro del Tribunal Constitucional?",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-4d2475b3a6",
+        "headline": "Exteriores condena los insultos de Milei a Sánchez y considera “indigna” su actitud",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-d11f051e44",
+        "headline": "Javier Milei se reúne con Ayuso y bromea por videollamada con Abascal",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-ab8a7fd9e3",
+        "headline": "Javier Milei llama a “sacar a los socialistas a patadas” y al “impresentable dictador Pedro Sánchez”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-e5c6bf4330",
+        "headline": "Tokio und Shanghai: Nahost-Sorgen belasten die Börsen in Asien",
+        "section": "germany",
+        "reason": "publisher_cap:handelsblatt.com",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-germany-053f9101bc",
+        "headline": "Elektroautos: Musk schwärmt nach Tesla-Gewinneinbruch von Robotern",
+        "section": "germany",
+        "reason": "publisher_cap:handelsblatt.com",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-germany-559d76f87d",
+        "headline": "Nationalmannschaft: Das sagt Bundestrainer Klopp über Kimmich und Füllkrug",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-germany-192b454136",
+        "headline": "Gleicher Wirkstoff, andere Pillen: Wenn der Apotheker plötzlich ein neues Medikament ausgibt",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-germany-116e8794fe",
+        "headline": "Unwetter: Neuer Taifun nähert sich Taiwan und China - Flüge fallen aus",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-b71de51020",
+        "headline": "Nächtlicher Brand: Rettung über Lichtschacht: Acht Menschen bei Brand verletzt",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-2d583ed2c3",
+        "headline": "Krieg in der Ukraine: Selenskyj bereit, Frontlinien im Ukrainekrieg einzufrieren",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-7f381bc21c",
+        "headline": "Champions League: Ballon d'Or für Harry Kane? «Könnte besonderer Abend werden»",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-d1dee41cad",
+        "headline": "Ministerpräsidentenkonferenz: Wüst fordert rasche Senkung der Stromsteuer für alle",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-e763d2d6b2",
+        "headline": "Wetter: Wind frischt auf: Stürmische Böen an der Küste erwartet",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-96931f712c",
+        "headline": "Zwischenwahlen in den USA: Was bei den Midterms für Trump auf dem Spiel steht",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-036973014a",
+        "headline": "Nahost: Angriffe der Huthi: USA ziehen Botschaftspersonal aus Saudi-Arabien ab",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-berlin-0e190c5950",
+        "headline": "„Eine Abrissbirne“: UN warnen vor dem stärksten El Niño seit Messbeginn",
+        "section": "berlin",
+        "reason": "publisher_cap:berliner-zeitung.de",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-berlin-137ddd76a6",
+        "headline": "10.000 Euro Belohnung: Gestüt Lewitz und Polizei suchen Pferderipper",
+        "section": "berlin",
+        "reason": "publisher_cap:berliner-zeitung.de",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-berlin-38d82e3c55",
+        "headline": "Gruppensieg verspielt: Dezimierte Füchse verlieren bei Veszprem",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-e2e77986d8",
+        "headline": "Sperrungen auf der Rudolf-Wissell-Brücke dauern an",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-ca955398ca",
+        "headline": "IT-Schwachstelle: Viele Behörden und Unternehmen schalten Webseiten ab",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-7b78fc46c2",
+        "headline": "Ringbahn ab Donnerstagmorgen zwischen Halensee und Westend unterbrochen",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-392a2bea82",
+        "headline": "\"Recht willkürlich\": Eiskunstläufer Hocke/Kunkel kritisieren Preisrichter",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-51196f3808",
+        "headline": "Erstmals über einen Euro pro Brief: Post erhöht Porto deutlich",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "wp-berlin-137cf995ea",
+        "headline": "Police Prepare for Large-Scale Youth Protests",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-46aac00d05",
+        "headline": "Creep it Real: Your Guide to Halloween in Berlin",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-79f24a30fa",
+        "headline": "What to do this weekend: Berlin’s best events",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-41dd7c998c",
+        "headline": "How Berlin Shaped Folk Singer Agnes Obel’s Music",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-world-961e538f2d",
+        "headline": "Read This Website While You Still Can",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 64,
+        "notes": [
+          "feed:+35",
+          "priority:+12"
+        ]
+      },
+      {
+        "id": "rss-world-b3708611ca",
+        "headline": "AI-detected PHP security flaws disrupt websites, spark warnings across Asia",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 63,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-world-2a737c8a69",
+        "headline": "Japan startup touts AI for automakers to match Chinese car development pace",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 63,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-world-bb431932c4",
+        "headline": "Japan growth strategy to focus on chips in short term, AI in medium term",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 63,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-world-b565e1b723",
+        "headline": "In India, Rubio Is All Business",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 61,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+3"
+        ]
+      },
+      {
+        "id": "rss-world-8cc9fa53c4",
+        "headline": "Xi’s Gang of Three",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 61,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+3"
+        ]
+      },
+      {
+        "id": "rss-world-72bec99fd2",
+        "headline": "Will developing nations be able to handle millions of AI agents?",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-c0639c1332",
+        "headline": "Who speaks for Europe in the Ukraine peace talks?",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-55382f9887",
+        "headline": "Merz‘ Montenegro-Mission",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-fb31b38918",
+        "headline": "Trump’s diesel deal derailed Ukraine-Russia peace progress, says Czech president",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-ff760bc6cd",
+        "headline": "Ukraine’s foreign fighters battle Russians — and red tape",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-f4df423774",
+        "headline": "Long-End US Yield Hits One-Month Low as AI Fears Fuel Haven Bid",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      }
+    ],
+    "running_stories_on_cooldown": [],
+    "note": "Pre-ranked with editorial relevance from topics.yaml, dedup_index.md, and news_relevance rules in sources.yaml. Synthesis must still apply hard reject rules in news-briefing-style.mdc. running_stories_on_cooldown: do not give these a Spain slot; park a one-liner in Other Headlines unless an extraordinary trigger hit."
+  },
+  "note": "Token-light slice for synthesis. Full warehouse is in -raw.json. All items come from RSS or WordPress feeds — copy source URLs verbatim."
+}
