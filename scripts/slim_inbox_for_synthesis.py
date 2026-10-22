@@ -971,16 +971,26 @@ def build_culture_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: d
 MAX_RESTAURANT_OPENINGS = 8
 
 
-def load_restaurant_openings(rss_path: Path, *, limit: int = MAX_RESTAURANT_OPENINGS) -> list[dict]:
-    """Newest-first press items about openings from the pre-fetch RSS file (empty if absent)."""
-    if not rss_path.is_file():
-        return []
-    try:
-        payload = json.loads(rss_path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
-        return []
+def load_restaurant_openings(
+    *paths: Path, limit: int = MAX_RESTAURANT_OPENINGS
+) -> list[dict]:
+    """Newest-first, de-duplicated press items about openings from the RSS/WordPress files."""
     keys = ("id", "headline", "summary", "publisher", "url", "published_at")
-    items = [{k: i[k] for k in keys if k in i} for i in payload.get("items") or [] if i.get("url")]
+    items: list[dict] = []
+    seen: set[str] = set()
+    for path in paths:
+        if not path.is_file():
+            continue
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        for raw_item in payload.get("items") or []:
+            url = (raw_item.get("url") or "").strip()
+            if not url or url.rstrip("/") in seen:
+                continue
+            seen.add(url.rstrip("/"))
+            items.append({k: raw_item[k] for k in keys if k in raw_item})
     items.sort(key=lambda i: i.get("published_at") or "", reverse=True)
     return items[:limit]
 
@@ -1115,7 +1125,10 @@ def main() -> int:
         payload = build_restaurant_synthesis_inbox(
             raw,
             topics_cfg=topics_cfg,
-            openings=load_restaurant_openings(inbox_dir / f"{date_str}-rss.json"),
+            openings=load_restaurant_openings(
+                inbox_dir / f"{date_str}-rss.json",
+                inbox_dir / f"{date_str}-wordpress.json",
+            ),
         )
     elif args.type == "music-discovery":
         payload = build_music_synthesis_inbox(raw, topics_cfg=topics_cfg)

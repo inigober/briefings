@@ -16,6 +16,7 @@ if str(SCRIPTS) not in sys.path:
 
 from fetch_rss import entry_to_restaurant_item, matches_opening  # noqa: E402
 from send_briefing_email import parse_restaurant_briefing, render_restaurant_body_html  # noqa: E402
+from fetch_wordpress import post_to_restaurant_item  # noqa: E402
 from slim_inbox_for_synthesis import load_restaurant_openings  # noqa: E402
 from verify_restaurant_briefing_sources import (  # noqa: E402
     extract_openings_urls,
@@ -77,6 +78,46 @@ class TestLoadOpenings(unittest.TestCase):
             ]}))
             got = load_restaurant_openings(path, limit=1)
             self.assertEqual([i["url"] for i in got], ["https://b"])
+
+
+class TestWordpressRestaurantItem(unittest.TestCase):
+    POST = {
+        "link": "https://example.com/p",
+        "title": {"rendered": "New restaurant opens in Neukölln"},
+        "excerpt": {"rendered": "<p>Dumplings</p>"},
+        "date_gmt": "2026-10-21T08:00:00",
+    }
+
+    def test_builds_item(self) -> None:
+        item = post_to_restaurant_item(
+            self.POST, feed_cfg={"publisher": "Ex", "general": True}, blocklist=[],
+            opening_terms=OPENING, food_terms=FOOD,
+        )
+        self.assertEqual(item["url"], "https://example.com/p")
+        self.assertEqual(item["published_at"], "2026-10-21")
+        self.assertEqual(item["ingestion_source"], "wordpress")
+
+    def test_non_opening_dropped(self) -> None:
+        post = {**self.POST, "title": {"rendered": "Gallery guide"}, "excerpt": {"rendered": ""}}
+        self.assertIsNone(
+            post_to_restaurant_item(
+                post, feed_cfg={"general": True}, blocklist=[],
+                opening_terms=OPENING, food_terms=FOOD,
+            )
+        )
+
+
+class TestMergedOpenings(unittest.TestCase):
+    def test_merges_and_dedupes_across_files(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            a, b = Path(tmp) / "a.json", Path(tmp) / "b.json"
+            a.write_text(json.dumps({"items": [{"url": "https://x/1/", "published_at": "2026-10-01"}]}))
+            b.write_text(json.dumps({"items": [
+                {"url": "https://x/1", "published_at": "2026-10-01"},
+                {"url": "https://x/2", "published_at": "2026-10-05"},
+            ]}))
+            got = load_restaurant_openings(a, b)
+            self.assertEqual([i["url"] for i in got], ["https://x/2", "https://x/1/"])
 
 
 BRIEFING = """# Berlin Restaurant Briefing — Week of 2026-10-22
