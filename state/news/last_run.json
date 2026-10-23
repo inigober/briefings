@@ -1,59 +1,59 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-22",
-  "briefing_date": "2026-10-22",
-  "inbox_date": "2026-10-22",
+  "date": "2026-10-23",
+  "briefing_date": "2026-10-23",
+  "inbox_date": "2026-10-23",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-22.md",
-  "inbox_path": "inbox/news/2026-10-22-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-23.md",
+  "inbox_path": "inbox/news/2026-10-23-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Milei podcast / Milei, el pariente que se cuela / Milei economic miracle / EL PAÍS Milei pieces",
+      "headline": "El vídeo del PP contra el PSOE agita el debate sobre los límites de la IA",
       "section": "spain",
-      "reason": "one theme per section: kept the single eldiario.es campaign-impact story; diplomacy parked in Other Headlines"
+      "reason": "dedup: AI deepfake campaign video already covered 21 Oct; parked nowhere new"
     },
     {
-      "headline": "El Supremo pone la lupa sobre la documentación a votantes del exterior / abogado de afectados por la ley de nietos",
+      "headline": "Sánchez en La Revuelta / Feijóo se refuerza en el Congreso / debate a cuatro",
       "section": "spain",
-      "reason": "incremental on 13 Oct nietos suspension; parked in Other Headlines"
+      "reason": "campaign theme saturated; parked in Other Headlines to keep three distinct publishers"
     },
     {
-      "headline": "Buscador: Madrid copa los barrios más caros",
+      "headline": "El claudicante Sémper / Esperanza Aguirre / Aldama",
       "section": "spain",
-      "reason": "housing theme: kept the supply story only"
+      "reason": "opinion or personality pieces, eldiario.es publisher cap"
     },
     {
-      "headline": "Morning Briefing / Podcast: Tesla und SpaceX; Meta Aktienstruktur",
+      "headline": "Börse am 23. Oktober / Märkte Asien",
       "section": "germany",
-      "reason": "geo-misfit: US corporate story; Tesla/SpaceX covered in World, Meta in Other Headlines"
+      "reason": "market reports; geo-misfit for Asian markets, parked in Other Headlines"
     },
     {
-      "headline": "iPod 25 years / NBA Schröder / Kane Ballon d'Or / Kinostarts / Tokio Hotel concerts / Taifun Champi",
+      "headline": "AuDHS / VW Passat TÜV / Nintendo Switch Sports Resort / Ballermann / NFL / Skerritt / Nagelsmann",
       "section": "germany",
-      "reason": "sport, culture or consumer filler; typhoon parked in Other Headlines"
+      "reason": "consumer, sport or celebrity filler"
     },
     {
-      "headline": "DSO Videospiel-Soundtracks / BR Volleys 3:0 Freiburg",
+      "headline": "Xi Jinping Long March speech / Guterres El Niño des Krieges / Trump BBC / Huthi Terrorliste",
       "section": "berlin",
-      "reason": "culture and sport filler"
+      "reason": "geo-misfit: international stories from Berliner Zeitung; parked in Other Headlines"
     },
     {
-      "headline": "Heineken 111m / Nudeln EU / Rentner Griechenland / Schulball Wiener Neustadt / Amazon-Lager EU-Abgeordnete",
+      "headline": "Wetteraussichten / QR-Code-Betrug / Jugendgewalt Potsdam / Alba EuroCup / Babyfund Potsdam",
       "section": "berlin",
-      "reason": "geo: not Berlin city; publisher_pool_thin on Berlin-local items"
+      "reason": "weather, sport, or Brandenburg/other-state filler; berlin_pool_thin"
     },
     {
-      "headline": "Judenfrage-Post Potsdamer Wirtschaftsunion; PHP-Lücken",
-      "section": "berlin",
-      "reason": "geo: Brandenburg or national; PHP flaw parked in Other Headlines"
-    },
-    {
-      "headline": "Flavio Bolsonaro corrupto meme / Peachy flamingo / Highland Spring / AI and inflation / TPS reprieve",
+      "headline": "Flavio Bolsonaro corrupto meme",
       "section": "world",
-      "reason": "meme or filler, UK property, or AI-finance theme saturated; TPS reprieve was Selected Read 20 Oct"
+      "reason": "dedup: already parked in Other Headlines 22 Oct; no material development"
+    },
+    {
+      "headline": "Hamilton African Grand Prix",
+      "section": "world",
+      "reason": "sport filler"
     }
   ],
-  "notes": "Spain: Milei campaign visit (eldiario), PP bet on Constitutional Court via Senate (eldiario), housing supply (EL PAÍS). Ceuta cooldown empty; no enclave item. Germany: vaping untaxed by error (HB, follow-up to 21 Oct tobacco law, new angle), respiratory self-tests (HB), board games and cohesion (TSP). germany_pool_thin. Berlin: Westkreuz S-Bahn works (TSP), El Niño winter (rbb24), Begine Flinta space (TSP). berlin_pool_thin. World: Taiwan Micron strike (East Asia, Nikkei), Peru Amazon basic income (Latin America, Guardian), Tesla/SpaceX (North America, FT). Selected Reads: Politico Weidel, Atlantic PHP flaw, FT Döpfner TikTok, Nikkei Bandai Namco."
+  "notes": "Spain: housing eviction ruling (eldiario), shamonda virus (EL PAIS), energy-subsidy arbitration win (Politico Europe). Germany: Mercedes (HB), electricity prices (BZ), OnlyFans (TSP). germany_pool_thin. Berlin: speeders (rbb24), RE5 (rbb24), Checkpoint (TSP). berlin_pool_thin. World: yen/tech rout (FT, East Asia), Japan Mars moons (Economist, East Asia), AI disinformation midterms (FP, North America). Selected Reads: FT AI oversight, Nikkei data centres, Economist second, Politico UK budget."
 }

@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-23
+
+- [AI oversight needs a different model to banking](https://www.ft.com/content/f98be079-49af-45c8-9954-ea3bd774c585) — Financial Times
+- [Asia's AI data center boom faces 'reality check' from public markets](https://asia.nikkei.com/business/technology/artificial-intelligence/asia-s-ai-data-center-boom-faces-reality-check-from-public-markets) — Nikkei Asia
+- [The second may soon be redefined](https://www.economist.com/science-and-technology/2026/10/21/the-second-may-soon-be-redefined) — The Economist
+- [Who really writes the budget?](https://www.politico.eu/podcast/westminster-insider/who-really-writes-the-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+
 ## 2026-10-22
 
 - [AfD’s Alice Weidel urges quick Ukraine talks and a return to cheap Russian energy](https://www.politico.eu/article/afd-alice-weidel-urges-quick-ukraine-talks-and-a-return-to-cheap-russian-energy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe

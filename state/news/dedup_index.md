@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-23
+
+- **spain-judge-blocks-eviction-housing-market-collapse** — eldiario.es: Madrid judge refuses to evict a family of five children from a public flat, citing the "collapse of the housing market" (section: spain)
+- **spain-shamonda-virus-first-human** — EL PAÍS: shamonda virus infects a man in France who died; ECDC monitoring (section: spain)
+- **spain-energy-subsidies-arbitration-win** — Politico Europe: Spain wins landmark ruling in the fight with investors over withdrawn energy subsidies; €2bn of assets at stake (section: spain)
+- **germany-mercedes-rescue-plan** — Handelsblatt: Mercedes loses sales and margin; workforce restless; rescue plan (section: germany)
+- **germany-electricity-prices-10pct-switching** — Berliner Zeitung: power prices up 10% in a month; switching saves €341 on average (section: germany)
+- **germany-onlyfans-ten-years** — Tagesspiegel: ten years of OnlyFans, creators versus campaigners (section: germany)
+- **berlin-speeders-unmarked-patrols** — rbb24: worst speeders hard for police to catch (section: berlin)
+- **berlin-re5-interrupted-again** — rbb24: RE5 regional line interrupted again, replacement buses in Oberhavel (section: berlin)
+- **berlin-checkpoint-evers-invitation** — Tagesspiegel: Checkpoint asks whether Evers has invited; coalition talks outlook (section: berlin)
+- **world-yen-rally-tech-rout** — Financial Times: yen rallies as global tech rout sparks flight to safety (section: world)
+- **world-japan-mars-moons-mission** — The Economist: Japan's probe to Mars's moons launches (section: world)
+- **world-ai-disinformation-us-midterms** — Foreign Policy: AI disinformation may disrupt the US midterms less than feared (section: world)
+
 ## 2026-10-22
 
 - **spain-milei-visit-campaign** — eldiario.es: Milei's visit insults Sánchez, embraces Ayuso/Abascal; PP and Vox uneasy, PSOE sees a gift (section: spain)
@@ -216,47 +231,3 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-india-offshore-hubs-ai-hiring** — Nikkei Asia: multinationals' Indian offshore tech hubs face an AI-driven hiring slowdown (section: world)
 - **world-ethiopia-drone-eritrea-tigray** — The Guardian: Ethiopian drones hit Eritrean troops who had crossed into Tigray as far as Adigrat (section: world)
 
-## 2026-10-08
-
-- **spain-maricarmen-death-unsigned-lease** — EL PAÍS: Maricarmen Abascal died hours before signing an eight-year lease back into the Retiro flat (section: spain)
-- **spain-maricarmen-revolt-snap-election** — eldiario.es: her eviction named a housing decree and precipitated the snap election (section: spain)
-- **spain-sol-no-more-maricarmens** — EL PAÍS: the Sol camp marched overnight that hers must be the last stretcher eviction (section: spain)
-- **germany-tax-subsidies-765bn** — Handelsblatt: a study puts German tax subsidies at €76.5bn, above the government's figure, and hits the Tankrabatt (section: germany)
-- **germany-kahla-porcelain-closes** — Berliner Zeitung: Kahla will stop production at year-end after no buyer; 182 years (section: germany)
-- **germany-bgh-cookie-liability** — Handelsblatt: the Federal Court of Justice is hearing liability for storing cookies without consent (section: germany)
-- **berlin-linke-greens-spd-antisemitism-expulsion** — Tagesspiegel: exploratory talks include a faction-expulsion rule on antisemitism (section: berlin)
-- **berlin-spandau-cemetery-wild-boars** — Tagesspiegel: wild boars have wrecked graves at In den Kisseln in Spandau (section: berlin)
-- **berlin-eisbaeren-chl-last-16** — rbb24: the Eisbären beat Salzburg and reached the CHL last 16 (section: berlin)
-- **world-china-ai-hinterland-inner-mongolia** — Financial Times: Inner Mongolia has become the engine room of China's AI data-centre build (section: world)
-- **world-canada-maid-mental-illness-bar** — The Guardian: Ottawa will legislate to keep mental illness as sole condition out of Maid (section: world)
-- **world-thai-floods-carmakers-new-normal** — Nikkei Asia: Toyota, Honda and others treat Thai floods as a planning assumption (section: world)
-
-## 2026-10-07
-
-- **spain-vulture-fund-ban-2030-exceptions** — eldiario.es: Cabinet re-tabled the housing decrees and stretched the speculative-purchase ban for vulture funds to 2030, with social-use exceptions (section: spain)
-- **spain-tc-amnesty-puigdemont-return** — EL PAÍS: the Constitutional Court upheld the embezzlement amnesty, bringing Puigdemont closer to a legal return; Supreme Court still must apply it (section: spain)
-- **spain-catastro-small-owners-90** — EL PAÍS: people with 1–5 homes own >90% of the stock; large landlords hold >1 million flats (section: spain)
-- **germany-afd-sachsen-anhalt-landtag-president** — Berliner Zeitung: Saxony-Anhalt's Landtag has given the AfD the speaker's chair (section: germany)
-- **germany-straub-eurocrisis-bond-yields** — Handelsblatt: Harvard economist Ludwig Straub says Germany can no longer afford a euro-crisis-sized shock (section: germany)
-- **germany-kita-penalty-room** — Tagesspiegel: some nursery staff still lock children in a Strafraum (section: germany)
-- **berlin-linke-hendrikje-klein-praesidentin** — rbb24: Die Linke nominated Hendrikje Klein for Abgeordnetenhaus president (section: berlin)
-- **berlin-zlb-alexanderplatz-galeria** — Tagesspiegel: a mural on Galeria at Alexanderplatz previews a ZLB move into the store (section: berlin)
-- **berlin-100-koepfe-community-cohort** — Tagesspiegel: a humanities/community slice of the annual 100-Köpfe list (section: berlin)
-- **world-spacex-40bn-nvidia-apollo** — Financial Times: SpaceX is raising $40bn of Apollo-led debt to buy Nvidia chips (section: world)
-- **world-kenya-first-ebola-drc** — The Guardian: Kenya's first Ebola death after a traveller from a DRC outbreak that has killed 4,000+ (section: world)
-- **world-samsung-5bn-vietnam-chips** — Nikkei Asia: Samsung is putting $5bn into higher-value semiconductors in Vietnam (section: world)
-
-## 2026-10-06
-
-- **spain-sanchez-calls-snap-election** — EL PAÍS: Sánchez and his core decided Thursday–Saturday that this Congress was useless and called a snap election (section: spain)
-- **spain-frente-amplio-podemos-10-day-coalition** — eldiario.es: Podemos and the Frente Amplio have ~10 days to decide a joint list; Mónica García is the name gaining (section: spain)
-- **spain-ley-nietos-census-29n** — eldiario.es: the 29 November census closed 1 August, before the Supreme Court limited nietos voting rights; 168,896 files in doubt (section: spain)
-- **germany-bundestag-named-tax-votes** — Handelsblatt: the Greens have tabled seven named Bundestag votes on tax laws for Thursday (section: germany)
-- **germany-dwd-sunshine-hours-record** — Tagesspiegel: DWD had 1,783 sunshine hours by end-September, more than a typical full year (section: germany)
-- **germany-kleinanzeigen-ai-chats** — Handelsblatt: Kleinanzeigen.de's AI reads private sales chats without a consent prompt (section: germany)
-- **berlin-canal-floating-biotopes** — Tagesspiegel: four planted rafts on Friedrichshain-Kreuzberg canals, designed by Ralf Steeg (section: berlin)
-- **berlin-kreuzberg-school-tear-gas** — rbb24: several people injured in a tear-gas attack at a Kreuzberg school (section: berlin)
-- **berlin-neukoelln-apartment-fire-death** — rbb24: a 65-year-old died after a flat fire in Neukölln (section: berlin)
-- **world-qualcomm-huawei-5g-ai-patents** — Nikkei Asia: Qualcomm will pay Huawei for 5G and AI patents for the first time (section: world)
-- **world-reliance-closes-7eleven-india** — Nikkei Asia: Reliance has shut all 7-Eleven stores in India (section: world)
-- **world-houthi-medina-turkey-pakistan-troops** — Tagesspiegel: Turkey and Pakistan are sending troops after Houthi attacks on Medina (section: world)
