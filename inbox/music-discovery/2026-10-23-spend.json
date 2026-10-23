@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-23",
+  "cap_usd": 2.0,
+  "spent_usd": 0.391608,
+  "estimated": true,
+  "cap_exceeded": false,
+  "calls": [
+    {
+      "section": "music_search",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 75877,
+      "cached_tokens": 0,
+      "output_tokens": 7868,
+      "web_search_calls": 9,
+      "cost_usd": 0.320434,
+      "at": "2026-10-23T07:04:53.486861+00:00"
+    },
+    {
+      "section": "music_structure",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 7007,
+      "cached_tokens": 0,
+      "output_tokens": 5716,
+      "web_search_calls": 0,
+      "cost_usd": 0.071174,
+      "at": "2026-10-23T07:06:23.502559+00:00"
+    }
+  ],
+  "last_run_at": "2026-10-23T07:06:23.502590+00:00"
+}
