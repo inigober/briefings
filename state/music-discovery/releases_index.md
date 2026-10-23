@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-10-23
+
+- Adam Pits — Synthetic Serenity
+- Guy Contact — Drinking From The Mirage
+- Brian Kage — 909 Days
+- Dialect — Atlas of Green
+- Sessa — Pequena Vertigem de Amor
+- Ana Frango Elétrico — Me Chama De Gato Que Eu Sou Sua
+- not even noticed — Beneath the Surface
+- Facta — In Bloom
+- Slowfoam & Neilll — kindly
+- Gaussian Curve — The Distance
+
 ## 2026-10-16
 
 - Lisene — Science Friction
