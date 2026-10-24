@@ -1,59 +1,64 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-23",
-  "briefing_date": "2026-10-23",
-  "inbox_date": "2026-10-23",
+  "date": "2026-10-24",
+  "briefing_date": "2026-10-24",
+  "inbox_date": "2026-10-24",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-23.md",
-  "inbox_path": "inbox/news/2026-10-23-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-24.md",
+  "inbox_path": "inbox/news/2026-10-24-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "El vídeo del PP contra el PSOE agita el debate sobre los límites de la IA",
+      "headline": "Pedro Sánchez acepta la entrevista con Jordi Wild / La mejor baza para el PSOE es dejar que hable Feijóo",
       "section": "spain",
-      "reason": "dedup: AI deepfake campaign video already covered 21 Oct; parked nowhere new"
+      "reason": "campaign theme already covered by Feijóo lists story; parked in Other Headlines"
     },
     {
-      "headline": "Sánchez en La Revuelta / Feijóo se refuerza en el Congreso / debate a cuatro",
+      "headline": "Las falsedades de Feijóo en la entrevista",
       "section": "spain",
-      "reason": "campaign theme saturated; parked in Other Headlines to keep three distinct publishers"
+      "reason": "same theme as Feijóo lists story; eldiario.es publisher cap"
     },
     {
-      "headline": "El claudicante Sémper / Esperanza Aguirre / Aldama",
+      "headline": "Alvise encara sus primeras generales lejos de sus juicios",
       "section": "spain",
-      "reason": "opinion or personality pieces, eldiario.es publisher cap"
+      "reason": "campaign theme; parked in Other Headlines"
     },
     {
-      "headline": "Börse am 23. Oktober / Märkte Asien",
+      "headline": "Lula pone a Bolsonaro a la defensiva / La agenda ultra inunda Brasil",
+      "section": "spain",
+      "reason": "geo-misfit: Brazil stories, not Spain-focused; Lula debate parked in Other Headlines"
+    },
+    {
+      "headline": "Arbeitswelt und KI (Handelsblatt duplicate)",
       "section": "germany",
-      "reason": "market reports; geo-misfit for Asian markets, parked in Other Headlines"
+      "reason": "duplicate of the Tagesspiegel/dpa item; one copy kept"
     },
     {
-      "headline": "AuDHS / VW Passat TÜV / Nintendo Switch Sports Resort / Ballermann / NFL / Skerritt / Nagelsmann",
+      "headline": "Proteste: Anspannung in Frankreich / Israel Westjordanland / Waffenruhe Oleschky",
       "section": "germany",
-      "reason": "consumer, sport or celebrity filler"
+      "reason": "geo-misfit: foreign stories belong in World or Other Headlines; parked in Other Headlines"
     },
     {
-      "headline": "Xi Jinping Long March speech / Guterres El Niño des Krieges / Trump BBC / Huthi Terrorliste",
+      "headline": "Ski-Weltverband Finanz-Not / NBA Knicks / Australian zoo eggs / Rheuma plants / Wnuk",
+      "section": "germany",
+      "reason": "sport, lifestyle or celebrity filler; germany_pool_thin"
+    },
+    {
+      "headline": "Brandanschlag Leipzig / Steinewerfer Dresden / Xi Jinping / Guterres / Trump BBC / QR-Codes",
       "section": "berlin",
-      "reason": "geo-misfit: international stories from Berliner Zeitung; parked in Other Headlines"
+      "reason": "geo-misfit: non-Berlin or international stories from Berliner Zeitung; berlin_pool_thin"
     },
     {
-      "headline": "Wetteraussichten / QR-Code-Betrug / Jugendgewalt Potsdam / Alba EuroCup / Babyfund Potsdam",
+      "headline": "Herbstausflüge nach Brandenburg / Netzhoppers / Regionalliga Dynamo",
       "section": "berlin",
-      "reason": "weather, sport, or Brandenburg/other-state filler; berlin_pool_thin"
+      "reason": "leisure or sport filler; Frankfurt (Oder) chip item kept despite Brandenburg location as thin-pool fallback"
     },
     {
-      "headline": "Flavio Bolsonaro corrupto meme",
+      "headline": "Welcome to the Valley of Pain / The surprising popularity of AI / Is the internet still safe?",
       "section": "world",
-      "reason": "dedup: already parked in Other Headlines 22 Oct; no material development"
-    },
-    {
-      "headline": "Hamilton African Grand Prix",
-      "section": "world",
-      "reason": "sport filler"
+      "reason": "AI and cyber themes saturated in recent days; Valley of Pain used as Selected Read"
     }
   ],
-  "notes": "Spain: housing eviction ruling (eldiario), shamonda virus (EL PAIS), energy-subsidy arbitration win (Politico Europe). Germany: Mercedes (HB), electricity prices (BZ), OnlyFans (TSP). germany_pool_thin. Berlin: speeders (rbb24), RE5 (rbb24), Checkpoint (TSP). berlin_pool_thin. World: yen/tech rout (FT, East Asia), Japan Mars moons (Economist, East Asia), AI disinformation midterms (FP, North America). Selected Reads: FT AI oversight, Nikkei data centres, Economist second, Politico UK budget."
+  "notes": "Spain: Feijóo lists (eldiario), consulates ultimatum on ley de nietos (EL PAIS), Lorca play cancelled (eldiario). Germany: Merz/CSU president question (HB), AI as reason to quit (TSP), AI rules survey (HB). germany_pool_thin. Berlin: school blockades (TSP), Eisbaeren (rbb24), Merz Frankfurt (Oder) chips (rbb24). berlin_pool_thin. World: Alaska LNG/Novatek (FT, North America), Rubio/Cuba (Guardian, Latin America), Indonesia Prabowo (Economist, Asia). Selected Reads: New Yorker Macron, Atlantic Valley of Pain, Politico ICC sanctions, Guardian ICE deportations."
 }

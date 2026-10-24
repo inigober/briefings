@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-24
+
+- **spain-feijoo-hard-profiles-lists** — eldiario.es: Feijóo names Álvarez de Toledo as number two and Albiol for Barcelona to compete with Vox (section: spain)
+- **spain-consulates-supremo-nietos-ultimatum** — EL PAÍS: consulates race a five-day Supreme Court ultimatum to identify *ley de nietos* nationals (section: spain)
+- **spain-lorca-play-cancelled-castilla-leon** — eldiario.es: Proyecto 43-2 reports the Junta over cancelling its Lorca play *Federico* (section: spain)
+- **germany-merz-csu-president-question** — Handelsblatt: Merz pressed at CSU conference over federal-president candidacy; CSU wants Aigner (section: germany)
+- **germany-ai-reason-to-quit** — Tagesspiegel: AI workload and weak prospects make AI a reason for skilled staff to quit (section: germany)
+- **germany-survey-global-ai-rules** — Handelsblatt: large majority of Germans back globally valid AI rules (section: germany)
+- **berlin-police-school-blockades** — Tagesspiegel: Berlin police see no rise in school-blockade calls before nationwide protest day (section: berlin)
+- **berlin-eisbaeren-augsburg** — rbb24: Eisbären start weakly but beat Augsburg in the DEL (section: berlin)
+- **berlin-merz-frankfurt-oder-chips** — rbb24: Merz visits Frankfurt (Oder) chip-technology research (section: berlin)
+- **world-alaska-lng-novatek-control** — Financial Times: US executives quit $25bn Polar Train LNG over claims of secret Novatek control (section: world)
+- **world-rubio-cuba-now-is-the-time** — The Guardian: Rubio urges Cubans to act after Trump floats warships intervening in Cuba (section: world)
+- **world-indonesia-prabowo-losing-charm** — The Economist: Prabowo's erratic policies hold Indonesia back (section: world)
+
 ## 2026-10-23
 
 - **spain-judge-blocks-eviction-housing-market-collapse** — eldiario.es: Madrid judge refuses to evict a family of five children from a public flat, citing the "collapse of the housing market" (section: spain)
@@ -215,19 +230,4 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-trump-mexico-energy-trade** — Financial Times: Trump is pressing Mexico for energy deals in crunch trade talks (section: world)
 - **world-taiwan-kmt-power-struggle** — Nikkei Asia: the KMT is in a power struggle tracked by the US and China (section: world)
 - **world-rfk-vaccine-trial-guinea-bissau** — The Guardian: a hepatitis-B birth-dose trial RFK Jr has touted is going ahead in Guinea-Bissau (section: world)
-
-## 2026-10-09
-
-- **spain-first-poll-no-left-rebound** — EL PAÍS: the first survey after the snap-election call does not show a left rebound (section: spain)
-- **spain-sanchez-street-not-penthouses** — eldiario.es: Sánchez's first interview since dissolving parliament — Cortes should look like the street, not penthouses (section: spain)
-- **spain-alborada-teachers-baby-abuse** — EL PAÍS: a judge is investigating three teachers at Colegio Alborada, a Madrid concertado, for abusing babies (section: spain)
-- **germany-east-laender-eu-farm-reform** — Berliner Zeitung: five eastern Länder are lobbying the Chancellery against the EU farm reform; Brandenburg ~€80m/year (section: germany)
-- **germany-qualzucht-dogs** — Tagesspiegel: breeding for looks (short snouts, rare coats, folds) framed as medical cruelty (section: germany)
-- **germany-dooring-shared-liability** — Handelsblatt: a dooring case treats motorcycle/car-door fault as shareable (section: germany)
-- **berlin-jusos-rot-gruen-rot** — Tagesspiegel: Berlin Jusos campaign for a red–green–red coalition ahead of the SPD state delegates meeting (section: berlin)
-- **berlin-jannowitzbruecke-spree-exit** — rbb24: the Spree exit at Jannowitzbrücke is closed over load-bearing doubts (section: berlin)
-- **berlin-ringbahn-west-weekend-closure** — rbb24: the western Ringbahn is closed this weekend for engineering work (section: berlin)
-- **world-openai-revenue-20bn-short** — Financial Times: OpenAI told investors annualised revenue was nearing $50bn, $20bn below the $70bn widely reported (section: world)
-- **world-india-offshore-hubs-ai-hiring** — Nikkei Asia: multinationals' Indian offshore tech hubs face an AI-driven hiring slowdown (section: world)
-- **world-ethiopia-drone-eritrea-tigray** — The Guardian: Ethiopian drones hit Eritrean troops who had crossed into Tigray as far as Adigrat (section: world)
 
