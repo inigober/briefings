@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-25
+
+- [Why 17 is not the magic number in industrial policy](https://www.ft.com/content/3e405824-a44a-4cb7-bc80-acc5bc3b5b59?syn-25a6b1a6=1) — Financial Times
+- [AI Terrorism Is Just Terrorism](https://www.theatlantic.com/ideas/2026/10/ai-terrorism-technology/689137/?utm_source=feed) — The Atlantic
+- [Gina Hinojosa’s Populism for Democrats](https://www.newyorker.com/news/the-lede/gina-hinojosas-populism-for-democrats) — The New Yorker
+- [The right’s obsession with ‘civil war’ in Britain](https://www.ft.com/content/3736714a-2058-4413-ac91-e8f10f33ad69?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-10-24
 
 - [How Macron Destabilized France](https://www.newyorker.com/news/q-and-a/how-macron-destabilized-france) — The New Yorker
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Europe's conservatives have 2 new targets in their campaign to weaken EU climate laws](https://www.politico.eu/article/europe-conservatives-new-targets-campaign-weaken-eu-climate-laws/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [Britain cannot build its future by returning to the 1970s](https://www.ft.com/content/8c0ea73d-dc44-455a-b319-148c09f68e0a?syn-25a6b1a6=1) — Financial Times
 - [UK to Send Fighter Jets to Help Defend Saudi Arabia From Houthi Attacks](https://www.nytimes.com/2026/10/20/world/europe/uk-saudi-arabia-houthis-raf-typhoon-fighter-jets.html) — The New York Times
-
-## 2026-10-20
-
-- [Singapore's AI-backed growth masks strains in food services](https://asia.nikkei.com/economy/inflation/singapore-s-ai-backed-growth-masks-strains-in-food-services2) — Nikkei Asia
-- [Trump envoys to hold fresh Ukraine talks as energy crunch looms over midterms](https://www.ft.com/content/581d8a59-b128-4f68-9f34-6c066b36ca5b?syn-25a6b1a6=1) — Financial Times
-- [Europe Is Finally Getting Tough on China. Now Comes the Hard Part.](https://foreignpolicy.com/2026/10/19/europe-china-france-germany-trade-economy/) — Foreign Policy
-- [US grants deportation reprieve to migrants from Ukraine and Sudan](https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

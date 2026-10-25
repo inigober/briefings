@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-25
+
+- **spain-sanchez-elpais-interview-pp-vox-retroceder** — EL PAÍS: Sánchez says a PP–Vox government is not alternation but going back 50 years; biggest mistake was missing Ábalos's corruption (section: spain)
+- **spain-correos-postal-vote-security** — eldiario.es: Correos operations chief defends the postal vote after Feijóo and Ayuso question it (section: spain)
+- **spain-quiron-camino-gonzalez-amador-30-months** — eldiario.es: Quirónsalud executive Fernando Camino under investigation for 30 months in the González Amador bribery strand; UCO gets the couple's financial data (section: spain)
+- **germany-audi-us-suv-plant-trump-rally** — Tagesspiegel: Audi announces a US SUV plant at a Trump campaign event (section: germany)
+- **germany-seaport-federal-funding-38m** — Handelsblatt: Bund pays €38.3m a year for all seaports; coastal states want more; deal possible in 2026 (section: germany)
+- **germany-coalition-willing-ukraine-exercise** — Handelsblatt: German staff officers and tanker aircraft join the first November exercise of the Ukraine reassurance force (section: germany)
+- **berlin-linke-showdowns-rgr-talks** — Tagesspiegel: dispute over an Israel-critical Linke MP and the Linke vote on formal talks strain Berlin government formation (section: berlin)
+- **berlin-four-museums-free-entry** — Tagesspiegel: four Berlin museums waive admission today (section: berlin)
+- **berlin-br-volleys-giesen** — rbb24: BR Volleys beat Grizzlys Giesen 3–1 (section: berlin)
+- **world-brazil-runoff-lula-rally** — The Guardian: over a million Lula supporters rally in Rio before the tied runoff against Flávio Bolsonaro (section: world)
+- **world-mercuria-baltic-exchange-hormuz** — Financial Times: Mercuria sues the Baltic Exchange over price estimates for shipping through Hormuz (section: world)
+- **world-ai-models-less-opaque** — The Economist: AI models may be less opaque than feared (section: world)
+
 ## 2026-10-24
 
 - **spain-feijoo-hard-profiles-lists** — eldiario.es: Feijóo names Álvarez de Toledo as number two and Albiol for Barcelona to compete with Vox (section: spain)
@@ -215,19 +230,4 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-ai-borrowing-slows** — Financial Times: investors grow wary of the AI infrastructure debt binge after record bond issuance (section: world)
 - **world-riyadh-airport-houthi-strike** — Financial Times: missile strike on King Khalid airport kills 12 and injures hundreds (section: world)
 - **world-korea-physical-ai-robots** — Nikkei Asia: robot baristas and K-pop dancers lead South Korea's physical AI boom (section: world)
-
-## 2026-10-10
-
-- **spain-mohamed-vi-no-pressure-felipe-visit** — EL PAÍS: Mohammed VI says he will not accept Spanish pressure or blackmail ahead of Felipe VI's visit; attacks repatriation rules (section: spain)
-- **spain-autoconsumo-energy-community-decrees** — eldiario.es: Cabinet is due two urgent decrees on rooftop solar and energy communities (section: spain)
-- **spain-juan-carlos-drops-corinna-65m** — EL PAÍS: the emeritus king has not filed the suit to recover €65m given to Corinna Larsen (section: spain)
-- **germany-anthropic-fake-police-filing** — Handelsblatt: Anthropic's model submitted real forms, including a false tip, on authority websites (section: germany)
-- **germany-potsdam-road-backlog-500m** — Tagesspiegel: Potsdam's carriageway maintenance backlog has reached about €500m in a budget emergency (section: germany)
-- **germany-juli-zeh-pony-show** — Tagesspiegel: Juli Zeh's new novel *Pony Show* is set in court and in the literary scene (section: germany)
-- **berlin-europacity-social-housing-court** — rbb24: the administrative court says a Europacity owner must offer Sozialwohnungen (section: berlin)
-- **berlin-eisbaeren-del-top-wolfsburg** — rbb24: the Eisbären beat Wolfsburg 5–0 and sit top of the DEL (section: berlin)
-- **berlin-schoeneberg-shooting** — rbb24: two men were injured in a Friday shooting in Schöneberg (section: berlin)
-- **world-trump-mexico-energy-trade** — Financial Times: Trump is pressing Mexico for energy deals in crunch trade talks (section: world)
-- **world-taiwan-kmt-power-struggle** — Nikkei Asia: the KMT is in a power struggle tracked by the US and China (section: world)
-- **world-rfk-vaccine-trial-guinea-bissau** — The Guardian: a hepatitis-B birth-dose trial RFK Jr has touted is going ahead in Guinea-Bissau (section: world)
 

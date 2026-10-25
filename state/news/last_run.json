@@ -1,64 +1,64 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-24",
-  "briefing_date": "2026-10-24",
-  "inbox_date": "2026-10-24",
+  "date": "2026-10-25",
+  "briefing_date": "2026-10-25",
+  "inbox_date": "2026-10-25",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-24.md",
-  "inbox_path": "inbox/news/2026-10-24-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-25.md",
+  "inbox_path": "inbox/news/2026-10-25-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Pedro Sánchez acepta la entrevista con Jordi Wild / La mejor baza para el PSOE es dejar que hable Feijóo",
+      "headline": "Ada Colau: \"No habrá un Gobierno progresista solo con un buen resultado del PSOE\"",
       "section": "spain",
-      "reason": "campaign theme already covered by Feijóo lists story; parked in Other Headlines"
+      "reason": "campaign theme already covered by Sánchez interview; eldiario.es cap; parked in Other Headlines"
     },
     {
-      "headline": "Las falsedades de Feijóo en la entrevista",
+      "headline": "Vox mete la “motosierra” en la cultura",
       "section": "spain",
-      "reason": "same theme as Feijóo lists story; eldiario.es publisher cap"
+      "reason": "same theme as the Lorca play cancellation covered 2026-10-24"
     },
     {
-      "headline": "Alvise encara sus primeras generales lejos de sus juicios",
+      "headline": "Brasil decide entregar todo el poder a los Bolsonaro / Lula se asoma a otro triunfo épico / Flávio Bolsonaro, el heredero",
       "section": "spain",
-      "reason": "campaign theme; parked in Other Headlines"
+      "reason": "geo-misfit: Brazil stories belong in World; Guardian runoff story used there"
     },
     {
-      "headline": "Lula pone a Bolsonaro a la defensiva / La agenda ultra inunda Brasil",
-      "section": "spain",
-      "reason": "geo-misfit: Brazil stories, not Spain-focused; Lula debate parked in Other Headlines"
-    },
-    {
-      "headline": "Arbeitswelt und KI (Handelsblatt duplicate)",
+      "headline": "Machthaber unter Druck: Richtungswahl entscheidet über die Zukunft Serbiens",
       "section": "germany",
-      "reason": "duplicate of the Tagesspiegel/dpa item; one copy kept"
+      "reason": "geo-misfit: foreign election; parked in Other Headlines"
     },
     {
-      "headline": "Proteste: Anspannung in Frankreich / Israel Westjordanland / Waffenruhe Oleschky",
+      "headline": "Schicksalswahl in Israel / Kann Lula das Ruder in Brasilien noch herumreißen?",
       "section": "germany",
-      "reason": "geo-misfit: foreign stories belong in World or Other Headlines; parked in Other Headlines"
+      "reason": "geo-misfit: foreign stories belong in World or Other Headlines"
     },
     {
-      "headline": "Ski-Weltverband Finanz-Not / NBA Knicks / Australian zoo eggs / Rheuma plants / Wnuk",
+      "headline": "Meghan konfrontierte Vater / Hoeneß besucht Kompany / Paderborn Bundesliga",
       "section": "germany",
-      "reason": "sport, lifestyle or celebrity filler; germany_pool_thin"
+      "reason": "celebrity or sport filler; germany_pool_thin"
     },
     {
-      "headline": "Brandanschlag Leipzig / Steinewerfer Dresden / Xi Jinping / Guterres / Trump BBC / QR-Codes",
+      "headline": "Hellingkran Rostock / Bastei Waldbrand / Brandanschlag Leipzig / Steinewerfer Dresden / Xi Jinping / Guterres",
       "section": "berlin",
       "reason": "geo-misfit: non-Berlin or international stories from Berliner Zeitung; berlin_pool_thin"
     },
     {
-      "headline": "Herbstausflüge nach Brandenburg / Netzhoppers / Regionalliga Dynamo",
+      "headline": "Wie lassen sich Einbrecher austricksen? / Architecture Takes Centre Stage in Schwerin / Hocke/Kunkel Grand Prix",
       "section": "berlin",
-      "reason": "leisure or sport filler; Frankfurt (Oder) chip item kept despite Brandenburg location as thin-pool fallback"
+      "reason": "publisher diversity and leisure/sport filler; BR Volleys kept as thin-pool rbb24 fallback"
     },
     {
-      "headline": "Welcome to the Valley of Pain / The surprising popularity of AI / Is the internet still safe?",
+      "headline": "The surprising popularity of AI / Is the internet still safe?",
       "section": "world",
-      "reason": "AI and cyber themes saturated in recent days; Valley of Pain used as Selected Read"
+      "reason": "AI and cyber themes saturated in recent days; only one AI story kept (new interpretability angle)"
+    },
+    {
+      "headline": "The America-Ukraine link grows even spottier / Starlink restrictions lifted",
+      "section": "world",
+      "reason": "Ukraine/Starlink thread covered in Other Headlines; keeps World non-Europe-only"
     }
   ],
-  "notes": "Spain: Feijóo lists (eldiario), consulates ultimatum on ley de nietos (EL PAIS), Lorca play cancelled (eldiario). Germany: Merz/CSU president question (HB), AI as reason to quit (TSP), AI rules survey (HB). germany_pool_thin. Berlin: school blockades (TSP), Eisbaeren (rbb24), Merz Frankfurt (Oder) chips (rbb24). berlin_pool_thin. World: Alaska LNG/Novatek (FT, North America), Rubio/Cuba (Guardian, Latin America), Indonesia Prabowo (Economist, Asia). Selected Reads: New Yorker Macron, Atlantic Valley of Pain, Politico ICC sanctions, Guardian ICE deportations."
+  "notes": "Spain: Sánchez EL PAIS interview (EL PAIS), Correos postal vote (eldiario), Quirón/González Amador (eldiario). Germany: Audi US plant (TSP), seaport funding (HB), coalition of the willing exercise (HB). Berlin: Linke showdowns (TSP), free museums (TSP), BR Volleys (rbb24). berlin_pool_thin. World: Brazil runoff (Guardian, Latin America), Mercuria/Baltic Exchange (FT, Middle East), AI interpretability (Economist). Selected Reads: FT Takaichi, Atlantic AI terrorism, New Yorker Hinojosa, FT Britain civil war. spain_publisher_pool_thin: only two distinct publishers among eligible Spain items."
 }
