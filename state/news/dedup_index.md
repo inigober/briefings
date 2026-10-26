@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-26
+
+- **spain-ateneo-poll-pp-vox-majority** — eldiario.es: Ateneo del Dato poll — left bloc narrows gap but PP+Vox keep absolute majority; 19% of Feijóo 2023 voters now lean Vox (section: spain)
+- **spain-jordi-wild-podcast-leaders** — EL PAÍS: Jordi Wild's The Wild Project lands Sánchez, Feijóo, Abascal and Colau (section: spain)
+- **spain-madrid-government-delegate-resigns** — eldiario.es: Madrid government delegate Martín Aguirre resigns after being left off PSOE lists (section: spain)
+- **germany-ice-essen-track-worker-death** — Tagesspiegel: track worker killed by an ICE in Essen (section: germany)
+- **germany-mein-schiff-3-bremerhaven-collision** — Tagesspiegel: Mein Schiff 3 collides with two container ships in Bremerhaven (section: germany)
+- **germany-employment-law-no-contract-start** — Handelsblatt: starting a job without a written contract (section: germany)
+- **berlin-spd-members-coalition-vote-checkpoint** — Tagesspiegel: SPD members decide on coalition; secret Senate scenarios; Giffey warning (section: berlin)
+- **berlin-fuechse-wetzlar-wiede** — rbb24: Füchse beat Wetzlar at Wiede's comeback (section: berlin)
+- **berlin-schwerin-day-trip** — The Berliner: Schwerin architecture day trip (section: berlin)
+- **world-lula-wins-bolsonaro-annulment** — EL PAÍS: Lula wins fourth term; Bolsonaro rejects result and seeks annulment (section: world)
+- **world-vucic-concedes-serbia** — The New York Times: Vučić concedes defeat in Serbian election (section: world)
+- **world-china-ai-distillation** — The Economist: China increasingly depends on copying American AI (section: world)
+
 ## 2026-10-25
 
 - **spain-sanchez-elpais-interview-pp-vox-retroceder** — EL PAÍS: Sánchez says a PP–Vox government is not alternation but going back 50 years; biggest mistake was missing Ábalos's corruption (section: spain)

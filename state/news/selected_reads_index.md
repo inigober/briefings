@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-26
+
+- [A day in Benjamin Netanyahu’s heartland](https://www.ft.com/content/470fbc3a-fd2e-4ad3-8999-25d71e53d173) — Financial Times
+- [India's chip design startups struggle with final commercial hurdle](https://asia.nikkei.com/business/tech/semiconductors/india-s-chip-design-startups-struggle-with-final-commercial-hurdle) — Nikkei Asia
+- [Sumitomo aims to expand battery energy storage in Japan with UK experience](https://asia.nikkei.com/business/energy/sumitomo-aims-to-expand-battery-energy-storage-in-japan-with-uk-experience) — Nikkei Asia
+- [Xi Jinping’s corruption crackdown in the spotlight as China prepares for meeting of top leaders](https://www.theguardian.com/world/2026/oct/26/xi-jinping-corruption-crackdown-china-fifth-plenum) — The Guardian
+
 ## 2026-10-25
 
 - [Why 17 is not the magic number in industrial policy](https://www.ft.com/content/3e405824-a44a-4cb7-bc80-acc5bc3b5b59?syn-25a6b1a6=1) — Financial Times

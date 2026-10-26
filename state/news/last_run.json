@@ -1,64 +1,54 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-25",
-  "briefing_date": "2026-10-25",
-  "inbox_date": "2026-10-25",
+  "date": "2026-10-26",
+  "briefing_date": "2026-10-26",
+  "inbox_date": "2026-10-26",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-25.md",
-  "inbox_path": "inbox/news/2026-10-25-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-26.md",
+  "inbox_path": "inbox/news/2026-10-26-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Ada Colau: \"No habrá un Gobierno progresista solo con un buen resultado del PSOE\"",
+      "headline": "Lula wins / Bolsonaro / Lula epic (EL PAÍS, eldiario.es)",
       "section": "spain",
-      "reason": "campaign theme already covered by Sánchez interview; eldiario.es cap; parked in Other Headlines"
+      "reason": "geo-misfit: Brazil stories belong in World; one used there"
     },
     {
-      "headline": "Vox mete la “motosierra” en la cultura",
+      "headline": "Cuenta atrás para registrar listas / Micó interview / Zona crítica opinion",
       "section": "spain",
-      "reason": "same theme as the Lorca play cancellation covered 2026-10-24"
+      "reason": "eldiario.es publisher cap; list deadline parked in Other Headlines"
     },
     {
-      "headline": "Brasil decide entregar todo el poder a los Bolsonaro / Lula se asoma a otro triunfo épico / Flávio Bolsonaro, el heredero",
-      "section": "spain",
-      "reason": "geo-misfit: Brazil stories belong in World; Guardian runoff story used there"
-    },
-    {
-      "headline": "Machthaber unter Druck: Richtungswahl entscheidet über die Zukunft Serbiens",
+      "headline": "Börse am 26. Oktober / Israel election / Lula (Handelsblatt)",
       "section": "germany",
-      "reason": "geo-misfit: foreign election; parked in Other Headlines"
+      "reason": "geo-misfit or market filler; parked in Other Headlines"
     },
     {
-      "headline": "Schicksalswahl in Israel / Kann Lula das Ruder in Brasilien noch herumreißen?",
+      "headline": "Audi podcast, Menopause, Hildur Guðnadóttir, Flick Clásico",
       "section": "germany",
-      "reason": "geo-misfit: foreign stories belong in World or Other Headlines"
+      "reason": "Audi covered 2026-10-25; others filler or sport; germany_pool_thin"
     },
     {
-      "headline": "Meghan konfrontierte Vater / Hoeneß besucht Kompany / Paderborn Bundesliga",
-      "section": "germany",
-      "reason": "celebrity or sport filler; germany_pool_thin"
-    },
-    {
-      "headline": "Hellingkran Rostock / Bastei Waldbrand / Brandanschlag Leipzig / Steinewerfer Dresden / Xi Jinping / Guterres",
+      "headline": "Rostock crane / Dresden court and stone-thrower / Leipzig arson / Bastei fire",
       "section": "berlin",
-      "reason": "geo-misfit: non-Berlin or international stories from Berliner Zeitung; berlin_pool_thin"
+      "reason": "geo-misfit: non-Berlin stories from Berliner Zeitung; berlin_pool_thin"
     },
     {
-      "headline": "Wie lassen sich Einbrecher austricksen? / Architecture Takes Centre Stage in Schwerin / Hocke/Kunkel Grand Prix",
+      "headline": "Linksjugend vs Linke",
       "section": "berlin",
-      "reason": "publisher diversity and leisure/sport filler; BR Volleys kept as thin-pool rbb24 fallback"
+      "reason": "same coalition-politics theme as Checkpoint item; parked in Other Headlines"
     },
     {
-      "headline": "The surprising popularity of AI / Is the internet still safe?",
+      "headline": "Xi corruption crackdown / Kim Jong-un bridge",
       "section": "world",
-      "reason": "AI and cyber themes saturated in recent days; only one AI story kept (new interpretability angle)"
+      "reason": "East Asia already covered by Economist China item; parked in Other Headlines and Selected Reads"
     },
     {
-      "headline": "The America-Ukraine link grows even spottier / Starlink restrictions lifted",
+      "headline": "Thomas Markle Sr investigation",
       "section": "world",
-      "reason": "Ukraine/Starlink thread covered in Other Headlines; keeps World non-Europe-only"
+      "reason": "celebrity/crime, no structural angle"
     }
   ],
-  "notes": "Spain: Sánchez EL PAIS interview (EL PAIS), Correos postal vote (eldiario), Quirón/González Amador (eldiario). Germany: Audi US plant (TSP), seaport funding (HB), coalition of the willing exercise (HB). Berlin: Linke showdowns (TSP), free museums (TSP), BR Volleys (rbb24). berlin_pool_thin. World: Brazil runoff (Guardian, Latin America), Mercuria/Baltic Exchange (FT, Middle East), AI interpretability (Economist). Selected Reads: FT Takaichi, Atlantic AI terrorism, New Yorker Hinojosa, FT Britain civil war. spain_publisher_pool_thin: only two distinct publishers among eligible Spain items."
+  "notes": "Spain: Ateneo poll (eldiario), Wild podcast (EL PAIS), Madrid delegate resigns (eldiario). Germany: ICE Essen (TSP), Mein Schiff 3 (TSP), employment law (HB); germany_pool_thin. Berlin: Checkpoint (TSP), Füchse (rbb24), Schwerin (The Berliner); berlin_pool_thin. World: Lula/Bolsonaro (EL PAIS, Latin America), Vucic (NYT), China AI distillation (Economist, East Asia). Selected Reads: FT Netanyahu, Nikkei India chips, Nikkei Sumitomo, Guardian Xi."
 }
