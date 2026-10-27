@@ -2,19 +2,6 @@
 
 Tracks recommended events/exhibitions to avoid repeating across weekly briefings. Trim entries older than 8 weeks.
 
-2026-08-25 | top_picks | Bat Dances | HAU3, HAU Hebbel am Ufer (Tanz im August) | https://www.tanzimaugust.de/en/production/detail/kareth-schaffer-jonas-hauer-bat-dances/
-2026-08-25 | top_picks | News from Home | Kino Arsenal (Arsenal 1) | https://www.arsenal-berlin.de/en/cinema/film-screening/news-from-home-2395/
-2026-08-25 | top_picks | Josef Kaiser — Building for the GDR | Berlinische Galerie | https://www.indexberlin.com/events/list/44561/josef-kaiser-bauen-fur-die-ddr
-2026-08-25 | exhibitions | [ materialistin ] — Matter of Care, Care of Matter | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.smb.museum/en/museums-institutions/hamburger-bahnhof/exhibitions/current/
-2026-08-25 | exhibitions | Forking Paths | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.indexberlin.com/exhibitions/list/44095/forking-paths
-2026-08-25 | film | La Jetée + On vous parle de Paris: Maspero, les mots ont un sens | Kino Arsenal | https://www.arsenal-berlin.de/en/cinema/film-screening/5547/
-2026-08-25 | film | Ruba Al-Sweel, Arvin Arta, Dana Dawud, Noura Tafeche and Zein Majali — Short Film Screening | Galerie im Turm, Frankfurter Tor 1 | https://www.indexberlin.com/events/list/44942/short-film-screening
-2026-08-25 | music | silent green pres. Mutant Radio Sessions | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/silent-green-pres-mutant-radio-sessions-2?cHash=3eb1a7595483a7d9e303672105a96397&tx_news_pi1%5Bday%5D=28&tx_news_pi1%5Bmonth%5D=8&tx_news_pi1%5Byear%5D=2026
-2026-08-25 | music | Berlin Beats: BASHKKA | Invalidenstraße 50/51, Mitte | https://www.indexberlin.com/events/list/44854/berlin-beats-bashkka
-2026-08-25 | wildcards | Thomas Billhardt — Die Augen weit offen | Fotografiska, Oranienburger Straße 54 | https://www.indexberlin.com/events/list/45392/die-augen-weit-offen
-2026-08-25 | advance_radar | Heinz Mack — Spectrum Mundi | St. Matthäus-Kirche, Matthäikirchplatz | https://www.indexberlin.com/events/list/45274/spectrum-mundi
-2026-08-25 | advance_radar | Ground Noise | NADAN, Wilhelmsaue 1, Wilmersdorf | https://www.indexberlin.com/events/list/44975/ground-noise
-2026-08-25 | advance_radar | HAUS AUS GLAS — Vom Bauen und Niederreißen | Schinkel Pavillon | https://www.indexberlin.com/events/list/45281/haus-aus-glas-vom-bauen-und-niederreissen-ein-performatives-portrat-des-amerikanischen-architekten-philip-johnson
 2026-09-01 | top_picks | The Opposite of Now | Jewish Museum Berlin | https://www.indexberlin.com/events/list/45823/the-opposite-of-now
 2026-09-01 | top_picks | Midori Hirano x The Juniper Tree (1990) — Heroines of Sound / Heroines Edition #I | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/midori-hirano-x-the-juniper-tree-1990-im-rahmen-von-heroines-of-sound-festival-heroines-edition-i?tx_news_pi1%5Bday%5D=2&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2026&cHash=9a1ff49457c71afd345fb29fb7a22211
 2026-09-01 | top_picks | Aufstand in Auschwitz | ACUDkino | https://acudkino.de/Programm/aufstand_in_auschwitz/20530/58889
@@ -110,3 +97,12 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-10-20 | music | Acephalic Headspace pres. ladr ache + Lésions Graves Sextet plays Julius Eastman | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/acephalic-headspace-pres-ladr-ache-lesions-graves-sextet-plays-julius-eastman?cHash=a14cede126b8d95ed4bf4ad3b5f099b5&tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026
 2026-10-20 | wildcards | Tanja Ostojić — Encounters — On Bodies, Borders, Resistance | Kunstraum Kreuzberg/Bethanien | https://www.indexberlin.com/events/list/45515/encounters-on-bodies-borders-resistance
 2026-10-20 | advance_radar | Diskurs. Pop. Liebe. — Max Czollek in conversation with Mely Kiyak and Necati Öziri | Haus der Kulturen der Welt | https://www.indexberlin.com/events/list/45709/diskurs-pop-liebe-gesprachsreihe-mit-max-czollek-max-czollek-in-conversation-with-mely-kiyak-and-necati-oziri
+2026-10-27 | top_picks | Ryuichi Sakamoto — seeing sound, hearing time | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.smb.museum/museen-einrichtungen/hamburger-bahnhof/ausstellungen/detail/ryuichi-sakamoto
+2026-10-27 | top_picks | Temple of Faitiche pres. U.e. (Ulla) + Martin Brandlmayr | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/temple-of-faitiche-pres-ulla-martin-brandlmayr?cHash=7554cae0ffb597752975ad8839c480b3&tx_news_pi1%5Bday%5D=29&tx_news_pi1%5Bmonth%5D=10&tx_news_pi1%5Byear%5D=2026
+2026-10-27 | top_picks | Let's Play I Am Old and Tired | HAU3, HAU Hebbel am Ufer | https://www.hebbel-am-ufer.de/en/programme/pdetail/total-refusal-theater-im-bahnhof-lets-play-i-am-old-and-tired/
+2026-10-27 | exhibitions | Lúcia Koch — New Systems (For Relationships) | carlier | gebauer | https://www.indexberlin.com/exhibitions/list/45051/new-systems-for-relationships
+2026-10-27 | exhibitions | Salomé Chatriot — Void is Seductive | OFFICE IMPART | https://www.indexberlin.com/exhibitions/list/45195/void-is-seductive
+2026-10-27 | film | Maya Deren & Alexander Hammid — Meshes of the Afternoon | KW Institute for Contemporary Art | https://www.indexberlin.com/events/list/46508/meshes-of-the-afternoon
+2026-10-27 | music | Chanel Beads + urika's bedroom | silent green Kulturquartier, Betonhalle | https://www.silent-green.net/en/programme/detail/chanel-beads
+2026-10-27 | wildcards | Diskurs. Pop. Liebe. — Max Czollek in conversation with Mely Kiyak and Necati Öziri | Haus der Kulturen der Welt | https://www.indexberlin.com/events/list/45709/diskurs-pop-liebe-gesprachsreihe-mit-max-czollek-max-czollek-in-conversation-with-mely-kiyak-and-necati-oziri
+2026-10-27 | wildcards | Marie Schleef — The Gap as a Source of Inspiration: Toward a Feminist Theater Practice | ZK/U – Zentrum für Kunst und Urbanistik | https://www.indexberlin.com/events/list/46105/marie-schleef-the-gap-as-a-source-of-inspiration-toward-a-feminist-theater-practice

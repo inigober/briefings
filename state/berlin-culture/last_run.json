@@ -1,50 +1,52 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-10-20",
-  "briefing_date": "2026-10-20",
-  "inbox_date": "2026-10-20",
-  "week_start": "2026-10-21",
-  "week_end": "2026-10-27",
+  "date": "2026-10-27",
+  "briefing_date": "2026-10-27",
+  "inbox_date": "2026-10-27",
+  "week_start": "2026-10-28",
+  "week_end": "2026-11-03",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-10-20.md",
-  "inbox_path": "inbox/berlin-culture/2026-10-20-synthesis.json",
-  "items_count": 8,
+  "briefing_path": "briefings/berlin-culture/2026-10-27.md",
+  "inbox_path": "inbox/berlin-culture/2026-10-27-synthesis.json",
+  "items_count": 9,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 0,
+    "exhibitions": 2,
     "film": 1,
-    "performing_arts": 1,
+    "performing_arts": 0,
     "music": 1,
-    "wildcards": 1,
-    "advance_radar": 1
+    "wildcards": 2,
+    "advance_radar": 0
   },
-  "thin_sections": ["exhibitions", "film", "performing_arts", "music"],
-  "omitted_sections": [],
+  "thin_sections": ["exhibitions", "film", "music"],
+  "omitted_sections": ["performing_arts", "advance_radar"],
   "validation_warnings": [
-    "Section 'exhibitions' has 0 entries (style minimum 4)",
+    "Section 'exhibitions' has 2 entries (style minimum 4)",
     "Section 'film' has 1 entries (style minimum 2)",
-    "Section 'performing_arts' has 1 entries (style minimum 2)",
+    "Section 'performing_arts' has 0 entries (style minimum 2)",
     "Section 'music' has 1 entries (style minimum 3)"
   ],
-  "dropped_missing_end_dates": [],
-  "calendar_fills": [
+  "dropped_missing_end_dates": [
     {
-      "title": "attaquer le visible. Kollaborative Assemblagen — OST-BERLIN / DRESDEN / ERFURT",
-      "section": "film",
-      "official_url": "https://www.indexberlin.com/events/list/46489/attaquer-le-visible-kollaborative-assemblagen-eministische-praktiken-im-experimentalfilm-und-video-der-80er-jahre-ost-berlin-dresden-erfurt"
-    },
-    {
-      "title": "sketch for a conversation on pleasure and pain",
-      "section": "performing_arts",
-      "official_url": "https://www.indexberlin.com/events/list/46008/sketch-for-a-conversation-on-pleasure-and-pain"
-    },
-    {
-      "title": "Tanja Ostojić — Encounters — On Bodies, Borders, Resistance",
-      "section": "wildcards",
-      "official_url": "https://www.indexberlin.com/events/list/45515/encounters-on-bodies-borders-resistance"
+      "title": "Dieter Roth — Eine Buchverzweigung - Die Solothurner Paneele von 1976",
+      "venue": "LEVY",
+      "dates": "Opening 30 October 2026, 18:00–21:00",
+      "official_url": "https://www.indexberlin.com/events/list/46140/eine-buchverzweigung-die-solothurner-paneele-von-1976"
     }
   ],
-  "calendar_fill_notes": "Considered and rejected: Plan 9 From Outer Space 3.1 (Twin Turbo) at HAUNT — page shows an exhibition opening with no run end and no description, not a screening despite the title; Sabar, Polyrhythm, and the Politics of Body Movement (HKW 21.10) — same HKW sabar series already listed 2026-10-13, anti-repetition. Not fetched: Zigsen Liu, Luïza Luz, Sollfrank/Richter/Sung Tieu talks (low fit or thin listings).",
-  "verification_fetches": 8,
-  "notes": "Spot-checked: KW Koo Jeong A OUSSSEAN 17.10.26–10.01.27 (Wed–Mon 11–19, Tue closed; Vaseline concert Wed 21.10 20:00; tour Sat 24.10 16:00). HALF LIGHT Betonhalle Fri 23.10 doors 19:00/start 20:00. DOCK 11 Cranky Choreographing Books 22–25.10 19:30. Thin week: no exhibition full entries (Nakaya Nebelskulptur skipped — inbox URL is a press-release PDF and closing date conflicts 25.10 vs 1.11; Ebensperger INDEX listings Parade / de sensu skipped — gallery-building listings with no description, not fetched). Music capped at 2 silent green listings (HALF LIGHT Top Pick + Acephalic Eastman); Sintonia Attunement I (21.10) skipped for venue cap. Ostojić promoted from last week's Advance Radar. Advance Radar: Czollek at HKW 28.10."
+  "calendar_fills": [
+    {
+      "title": "Maya Deren & Alexander Hammid — Meshes of the Afternoon",
+      "section": "film",
+      "official_url": "https://www.indexberlin.com/events/list/46508/meshes-of-the-afternoon"
+    },
+    {
+      "title": "Marie Schleef — The Gap as a Source of Inspiration: Toward a Feminist Theater Practice",
+      "section": "wildcards",
+      "official_url": "https://www.indexberlin.com/events/list/46105/marie-schleef-the-gap-as-a-source-of-inspiration-toward-a-feminist-theater-practice"
+    }
+  ],
+  "calendar_fill_notes": "Considered and rejected: Dieter Roth at LEVY (opening only, no run end — dropped and logged); Finissage Kerim Seiler at SEXAUER 31.10 (page has no description or run dates); Olivia Erlanger and Diego Marcon at KW (same venue/evening as Meshes of the Afternoon, KW already has the Meshes entry; not fetched); Admin Night, Book Launch, Klasse Brenner, gallery opening-night listings (Vicky Uslé, Nicolás Guagnini, Gebert, Raimann, Oska Gutheil, Laura Mars party, Monika Baer et al.) — opening-only listings without run ends or descriptions, not fetched.",
+  "verification_fetches": 9,
+  "notes": "Spot-checked: Sakamoto at Hamburger Bahnhof 11.09.26–20.06.27 (hours incl. Thursday late opening); Temple of Faitiche Thu 29.10 doors 19:00/start 20:00; HAU3 Let's Play 28.10 19:00 and 29.10 20:00 (inbox 'dates' field showed a 2021 date; page confirms 2026). Inbox exhibition dates for New Systems (Ebensperger, 'until 21 Nov') and Void is Seductive were wrong: pages show carlier | gebauer, 10.09–28.10.26 and OFFICE IMPART, 10.09–30.10.26; corrected venues and end dates used. Chanel Beads kept for music (silent green cap: 2 entries); LudoWic skipped as sold out. Inbox had no Film items and one Performing Arts item (a Top Pick), so Performing Arts is omitted. Czollek at HKW promoted from last week's Advance Radar. Advance Radar omitted: remaining 5–6 Nov gallery openings had no verified venue/description."
 }
