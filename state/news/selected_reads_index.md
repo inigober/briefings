@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-27
+
+- [Beware the political cost of economic insecurity](https://www.ft.com/content/4c7afa74-96a0-4064-879d-7d2620585608) — Financial Times
+- [Serbia’s Student Protesters Deserve a Nobel Prize](https://foreignpolicy.com/2026/10/26/serbia-elections-students-nobel-prize/) — Foreign Policy
+- [AI boom sparks circuit board crunch across global tech supply chain](https://asia.nikkei.com/spotlight/supply-chain/ai-boom-sparks-circuit-board-crunch-across-global-tech-supply-chain) — Nikkei Asia
+- [Johannesburg’s Infrastructure Decay Risks Driving Multinationals Out, Busi Mavuso Warns](https://www.bloomberg.com/news/videos/2026-10-27/mavuso-joburg-infrastructure-risks-driving-business-out-video) — Bloomberg
+
 ## 2026-10-26
 
 - [A day in Benjamin Netanyahu’s heartland](https://www.ft.com/content/470fbc3a-fd2e-4ad3-8999-25d71e53d173) — Financial Times
@@ -31,20 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Asia's AI data center boom faces 'reality check' from public markets](https://asia.nikkei.com/business/technology/artificial-intelligence/asia-s-ai-data-center-boom-faces-reality-check-from-public-markets) — Nikkei Asia
 - [The second may soon be redefined](https://www.economist.com/science-and-technology/2026/10/21/the-second-may-soon-be-redefined) — The Economist
 - [Who really writes the budget?](https://www.politico.eu/podcast/westminster-insider/who-really-writes-the-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-
-## 2026-10-22
-
-- [AfD’s Alice Weidel urges quick Ukraine talks and a return to cheap Russian energy](https://www.politico.eu/article/afd-alice-weidel-urges-quick-ukraine-talks-and-a-return-to-cheap-russian-energy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Read This Website While You Still Can](https://www.theatlantic.com/technology/2026/10/ai-hacking-apocalypse-began-last-night/689106/?utm_source=feed) — The Atlantic
-- [Politico and Telegraph owner pitched deal to buy European arm of TikTok](https://www.ft.com/content/171220b9-8d8e-4d82-a866-f9aaf258e0fb?syn-25a6b1a6=1) — Financial Times
-- [Gundam maker Bandai Namco's stock surge reflects market AI doubts](https://asia.nikkei.com/business/technology/artificial-intelligence/gundam-maker-bandai-namco-s-stock-surge-reflects-market-ai-doubts) — Nikkei Asia
-
-## 2026-10-21
-
-- [Vietnam security ministry seeks Samsung's help on AI and chips](https://asia.nikkei.com/business/electronics/vietnam-security-ministry-seeks-samsung-s-help-on-ai-and-chips) — Nikkei Asia
-- [Europe's conservatives have 2 new targets in their campaign to weaken EU climate laws](https://www.politico.eu/article/europe-conservatives-new-targets-campaign-weaken-eu-climate-laws/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Britain cannot build its future by returning to the 1970s](https://www.ft.com/content/8c0ea73d-dc44-455a-b319-148c09f68e0a?syn-25a6b1a6=1) — Financial Times
-- [UK to Send Fighter Jets to Help Defend Saudi Arabia From Houthi Attacks](https://www.nytimes.com/2026/10/20/world/europe/uk-saudi-arabia-houthis-raf-typhoon-fighter-jets.html) — The New York Times
 
 ## Blocked until 5+ briefings have passed
 

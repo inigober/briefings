@@ -1,54 +1,59 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-26",
-  "briefing_date": "2026-10-26",
-  "inbox_date": "2026-10-26",
+  "date": "2026-10-27",
+  "briefing_date": "2026-10-27",
+  "inbox_date": "2026-10-27",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-26.md",
-  "inbox_path": "inbox/news/2026-10-26-synthesis.json",
-  "items_count": 12,
+  "briefing_path": "briefings/news/2026-10-27.md",
+  "inbox_path": "inbox/news/2026-10-27-synthesis.json",
+  "items_count": 13,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Lula wins / Bolsonaro / Lula epic (EL PAÍS, eldiario.es)",
+      "headline": "Bilbao riots after Vito Quiles event; Feijóo Barcelona campaign; Barcelona blocus groups",
       "section": "spain",
-      "reason": "geo-misfit: Brazil stories belong in World; one used there"
+      "reason": "same unrest theme as chosen Barcelona story; parked in Other Headlines"
     },
     {
-      "headline": "Cuenta atrás para registrar listas / Micó interview / Zona crítica opinion",
+      "headline": "Brazil stories (Flávio Bolsonaro passport, Janones, Trump rigged)",
       "section": "spain",
-      "reason": "eldiario.es publisher cap; list deadline parked in Other Headlines"
+      "reason": "geo-misfit: Brazil belongs in World; one used there"
     },
     {
-      "headline": "Börse am 26. Oktober / Israel election / Lula (Handelsblatt)",
+      "headline": "US-Canada tariffs, Anthropic IPO, California wealth tax, Israel election duplicates",
       "section": "germany",
-      "reason": "geo-misfit or market filler; parked in Other Headlines"
+      "reason": "geo-misfit: non-German topics; tariffs/AI/California parked in Other Headlines, Israel used in World; germany_pool_thin"
     },
     {
-      "headline": "Audi podcast, Menopause, Hildur Guðnadóttir, Flick Clásico",
+      "headline": "Baseball World Series, Hart aber fair care debate, Börse 26 Oct",
       "section": "germany",
-      "reason": "Audi covered 2026-10-25; others filler or sport; germany_pool_thin"
+      "reason": "sport, talk-show recap, stale market filler"
     },
     {
-      "headline": "Rostock crane / Dresden court and stone-thrower / Leipzig arson / Bastei fire",
+      "headline": "Rostock crane, Dresden court, Bastei fire, Calau fire, Cottbus medical university",
       "section": "berlin",
-      "reason": "geo-misfit: non-Berlin stories from Berliner Zeitung; berlin_pool_thin"
+      "reason": "geo-misfit: not Berlin; berlin_pool_thin"
     },
     {
-      "headline": "Linksjugend vs Linke",
+      "headline": "Redmann 31 October protests",
       "section": "berlin",
-      "reason": "same coalition-politics theme as Checkpoint item; parked in Other Headlines"
+      "reason": "kept despite uncertain Berlin angle; only rbb24 Berlin-region items left (publisher_pool_thin)"
     },
     {
-      "headline": "Xi corruption crackdown / Kim Jong-un bridge",
+      "headline": "Sudan: UK sanctions on commanders",
       "section": "world",
-      "reason": "East Asia already covered by Economist China item; parked in Other Headlines and Selected Reads"
+      "reason": "same Sudan theme as chosen story"
     },
     {
-      "headline": "Thomas Markle Sr investigation",
+      "headline": "China AI distillation, AI models less opaque",
       "section": "world",
-      "reason": "celebrity/crime, no structural angle"
+      "reason": "dedup: covered 25-26 Oct"
+    },
+    {
+      "headline": "Economist newsletters (Climate Issue, Bartleby)",
+      "section": "world",
+      "reason": "noise: newsletter blurbs without news content"
     }
   ],
-  "notes": "Spain: Ateneo poll (eldiario), Wild podcast (EL PAIS), Madrid delegate resigns (eldiario). Germany: ICE Essen (TSP), Mein Schiff 3 (TSP), employment law (HB); germany_pool_thin. Berlin: Checkpoint (TSP), Füchse (rbb24), Schwerin (The Berliner); berlin_pool_thin. World: Lula/Bolsonaro (EL PAIS, Latin America), Vucic (NYT), China AI distillation (Economist, East Asia). Selected Reads: FT Netanyahu, Nikkei India chips, Nikkei Sumitomo, Guardian Xi."
+  "notes": "Spain: Barcelona riots (eldiario), Vox-PP Senate pact (EL PAIS), education-right study (eldiario). Germany: Allianz Trade insolvencies (TSP), Mercedes severance podcast (HB), Pistorius essay (TSP); germany_pool_thin. Berlin: Seidel obit, Pokal ties, Redmann (all rbb24); berlin_pool_thin, publisher_pool_thin. World: Israel election (HB, Middle East), Brazil/Trump (FT, Latin America/North America), Sudan RSF drones (Guardian, Africa). Selected Reads: FT, Foreign Policy, Nikkei, Bloomberg."
 }

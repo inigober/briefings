@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-27
+
+- **spain-barcelona-riots-mossos-plaza-espanya** — eldiario.es: after Saturday's riots (130 arrests, 76 minors) Mossos identify youths at plaça Espanya at a repeat call; prosecutors seek internment of six minors (section: spain)
+- **spain-pp-vox-senate-independents-pact** — EL PAÍS: Vox drops lists in 14 provinces for "independent" slots on PP Senate tickets (section: spain)
+- **spain-right-education-network-study** — eldiario.es: study maps right and far-right groups fighting for control of education (section: spain)
+- **germany-allianz-trade-insolvencies-2027** — Tagesspiegel: Allianz Trade expects ~26,000 German insolvencies this year and next (section: germany)
+- **germany-mercedes-six-figure-severance** — Handelsblatt: Mercedes reportedly offers production staff six-figure severance (section: germany)
+- **germany-pistorius-europe-nato-essay** — Tagesspiegel: Pistorius and four ministers urge a stronger Europe within NATO (section: germany)
+- **berlin-seidel-mielke-judge-dies** — rbb24: Theodor Seidel, judge in the Mielke trial, dies at 95 (section: berlin)
+- **berlin-hertha-union-dfb-pokal** — rbb24: Hertha at Jeddeloh II and Union v Köln in the DFB-Pokal (section: berlin)
+- **berlin-redmann-french-conditions-31-oct** — rbb24: Redmann warns of "French conditions" before 31 October protests (section: berlin)
+- **world-israel-election-tight-race** — Handelsblatt: Israel votes in a tight Knesset election (section: world)
+- **world-bolsonaro-party-accepts-defeat-trump-rigged** — Financial Times: PL accepts defeat in Brazil; Trump calls result rigged (section: world)
+- **world-sudan-rsf-power-station-drones** — The Guardian: RSF drones hit five power stations in eastern Sudan (section: world)
+
 ## 2026-10-26
 
 - **spain-ateneo-poll-pp-vox-majority** — eldiario.es: Ateneo del Dato poll — left bloc narrows gap but PP+Vox keep absolute majority; 19% of Feijóo 2023 voters now lean Vox (section: spain)
@@ -215,34 +230,4 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-chip-stocks-broadcom-casino** — Financial Times: Samsung and SK Hynix slide after Broadcom's boss calls AI investment a casino (section: world)
 - **world-bolivia-evo-morales-2009-killings** — The Guardian: Bolivia investigates Evo Morales over a 2009 Santa Cruz raid (section: world)
 - **world-ai-hiring-hr-cybersecurity** — Financial Times: AI fakes are forcing HR to work with cybersecurity (section: world)
-
-## 2026-10-12
-
-- **spain-rota-sixth-us-destroyer** — EL PAÍS: sixth US guided-missile destroyer *USS John Basilone* due at Rota Thursday (section: spain)
-- **spain-pp-secrets-two-speed-justice** — eldiario.es: PP leak cases (Alcalá mayor emails; Ayuso chief-of-staff journalist IDs) not probed like the former attorney-general (section: spain)
-- **spain-feijoo-barons-albiol-barcelona** — EL PAÍS: Feijóo tells PP barons to mobilise; Albiol floated as Barcelona list-head (section: spain)
-- **germany-schoeffen-extremist-rules** — Handelsblatt: Hubig wants stricter Schöffen eligibility to keep extremists off criminal benches (section: germany)
-- **germany-bavaria-inheritance-tax-karlsruhe** — Handelsblatt: Bavaria asks the Constitutional Court to make inheritance tax a Land matter (section: germany)
-- **germany-cottbus-medical-university-opens** — Tagesspiegel: Brandenburg's new medical university starts teaching in Cottbus (section: germany)
-- **berlin-vonovia-buy-vs-socialization** — Tagesspiegel: economist Günther says the Bund should buy Vonovia instead of socializing landlords (section: berlin)
-- **berlin-comic-invasion-2027-pause** — Tagesspiegel: Comic Invasion Berlin skips 2027, aims to return in 2028 (section: berlin)
-- **berlin-haertel-union-u19-resigns** — rbb24: Union U19 coach Jens Härtel quits after discrimination allegations (section: berlin)
-- **world-us-ukraine-arms-refineries** — Financial Times: US threatens to block Ukraine arms over attacks on Russian refineries (section: world)
-- **world-japan-iphone-plant-chip-supply** — Nikkei Asia: former iPhone display plant in Japan retooled for chip supply chain (section: world)
-- **world-cop31-climate-vs-defence** — The Guardian: Cop31 host says wealthy countries should spend more on climate than NATO defence targets (section: world)
-
-## 2026-10-11
-
-- **spain-legislature-economy-housing-drag** — eldiario.es: GDP +15% since 2018 and record employment, but the legislature never fixed housing or rents (section: spain)
-- **spain-conde-pumpido-tc-democracy** — EL PAÍS: Conde-Pumpido, term expired, says questioning the Constitutional Court is questioning democracy; no lawfare but politicised justice (section: spain)
-- **spain-franco-monuments-convert-not-erase** — eldiario.es: debate over removing Franco-era monuments versus converting them so they condemn what they once praised (section: spain)
-- **germany-krankenkassen-rates-2027** — Tagesspiegel: coalition savings package aims to hold statutory health-insurance contributions in 2027 (section: germany)
-- **germany-cdu-klausur-election-crisis** — Handelsblatt: CDU leadership meets on consequences of an election-crisis run of polls (section: germany)
-- **germany-bnd-jaeger-putin-war-trap** — Berliner Zeitung: BND-Chef Jäger says Putin can no longer end the war; compared with MI6 and other services (section: germany)
-- **berlin-palestine-demo-regierungsviertel** — rbb24: thousands marched in a pro-Palestine demonstration through the government quarter (section: berlin)
-- **berlin-christmas-trees-more-expensive** — Tagesspiegel: Christmas trees will cost more this year (section: berlin)
-- **berlin-alba-lose-trier** — rbb24: Alba Berlin lost in Trier in the BBL (section: berlin)
-- **world-ai-borrowing-slows** — Financial Times: investors grow wary of the AI infrastructure debt binge after record bond issuance (section: world)
-- **world-riyadh-airport-houthi-strike** — Financial Times: missile strike on King Khalid airport kills 12 and injures hundreds (section: world)
-- **world-korea-physical-ai-robots** — Nikkei Asia: robot baristas and K-pop dancers lead South Korea's physical AI boom (section: world)
 
