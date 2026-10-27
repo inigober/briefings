@@ -19,6 +19,7 @@ DEFAULT_RELEVANCE_CFG: dict[str, Any] = {
     "material_override_boost": 25,
     "not_material_penalty": 10,
     "noise_penalty": 40,
+    "sport_penalty": 30,
     "dedup_token_penalty": 15,
     "running_story_repeat_penalty": 28,
     "dedup_min_matching_tokens": 2,
@@ -26,6 +27,60 @@ DEFAULT_RELEVANCE_CFG: dict[str, Any] = {
     "publisher_priority_boost": 8,
     "audit_rank_multiplier": 2,
     "section_max_per_publisher": 6,
+    # Sport is demoted unless the story also has a geopolitical angle (term lists are
+    # overridable under news_relevance in config/briefings/news/sources.yaml).
+    "sport_terms": [
+        "sport",
+        "fußball",
+        "fussball",
+        "football",
+        "soccer",
+        "futbol",
+        "laliga",
+        "handball",
+        "eishockey",
+        "basketball",
+        "baloncesto",
+        "volleyball",
+        "bundesliga",
+        "pokalspiel",
+        "dfb",
+        "champions league",
+        "europa league",
+        "spielbericht",
+        "tennis",
+        "formel 1",
+        "formula 1",
+        "motogp",
+        "olympi",
+    ],
+    "sport_geopolitical_terms": [
+        "boycott",
+        "boykott",
+        "sanction",
+        "sanktion",
+        "ukrain",
+        "russia",
+        "russland",
+        "putin",
+        "israel",
+        "gaza",
+        "iran",
+        "china",
+        "trump",
+        "nato",
+        "embargo",
+        "geopolit",
+        "diplomat",
+        "human rights",
+        "menschenrechte",
+        "invasion",
+        "krieg",
+        "government",
+        "regierung",
+        "minister",
+        "visa",
+    ],
     "noise_title_patterns": [
         "fußball-wm",
         "fußball wm",
@@ -135,6 +190,16 @@ def keyword_hits(text: str, keywords: list[str]) -> list[str]:
         needle = normalize_text(keyword)
         if needle and needle in text:
             hits.append(keyword)
+    return hits
+
+
+def prefix_hits(text: str, terms: list[str]) -> list[str]:
+    """Terms found at the start of a word, so "sport" matches "sports" but not "transport"."""
+    hits: list[str] = []
+    for term in terms:
+        needle = normalize_text(term) if isinstance(term, str) else ""
+        if needle and re.search(rf"(?<![a-z0-9]){re.escape(needle)}", text):
+            hits.append(term)
     return hits
 
 
@@ -300,6 +365,14 @@ def score_editorial_relevance(
     if noise_hits:
         score -= int(cfg["noise_penalty"])
         notes.append(f"noise:-{cfg['noise_penalty']}")
+
+    sport_hits = prefix_hits(text, cfg.get("sport_terms") or [])
+    if sport_hits:
+        if prefix_hits(text, cfg.get("sport_geopolitical_terms") or []):
+            notes.append("sport:geopolitical_exempt")
+        else:
+            score -= int(cfg["sport_penalty"])
+            notes.append(f"sport:-{cfg['sport_penalty']}")
 
     dedup_slugs = dedup_matches(item, dedup_entries)
     if dedup_slugs and not is_material:

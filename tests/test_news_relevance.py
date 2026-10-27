@@ -305,3 +305,56 @@ class TestCeutaRunningStory(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def _berlin_score(item: dict) -> tuple[int, list[str]]:
+    berlin = next(topic for topic in TOPICS_CFG["topics"] if topic["id"] == "berlin")
+    return score_editorial_relevance(
+        item,
+        section_id="berlin",
+        topic_cfg=berlin,
+        sources_cfg=SOURCES_CFG,
+        dedup_entries=[],
+    )
+
+
+def test_sport_story_is_demoted() -> None:
+    sport = _rss_item(
+        headline="Hertha vor Pokalspiel: Ein seliger Trainer",
+        section="berlin",
+        url="https://www.rbb24.de/sport/beitrag/2026/10/fussball-dfb-pokal-hertha.html",
+        publisher="rbb24",
+    )
+    other = _rss_item(
+        headline="Redmann warnt vor Protesten am 31. Oktober",
+        section="berlin",
+        url="https://www.rbb24.de/politik/beitrag/2026/10/redmann-proteste.html",
+        publisher="rbb24",
+    )
+    sport_score, sport_notes = _berlin_score(sport)
+    other_score, _ = _berlin_score(other)
+    assert sport_score <= other_score - 30
+    assert "sport:-30" in sport_notes
+
+
+def test_sport_with_geopolitical_angle_is_not_demoted() -> None:
+    item = _rss_item(
+        headline="Olympic boycott: governments weigh sanctions on Russian athletes",
+        section="berlin",
+        url="https://www.rbb24.de/sport/beitrag/2026/10/olympia-boykott.html",
+        publisher="rbb24",
+    )
+    _, notes = _berlin_score(item)
+    assert "sport:geopolitical_exempt" in notes
+    assert not any(note.startswith("sport:-") for note in notes)
+
+
+def test_transport_is_not_mistaken_for_sport() -> None:
+    item = _rss_item(
+        headline="BVG: Transport strike announced",
+        section="berlin",
+        url="https://www.rbb24.de/politik/beitrag/2026/10/bvg-streik.html",
+        publisher="rbb24",
+    )
+    _, notes = _berlin_score(item)
+    assert not any(note.startswith("sport") for note in notes)

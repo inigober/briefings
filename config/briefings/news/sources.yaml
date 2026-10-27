@@ -176,6 +176,10 @@ news_relevance:
   # Max items from one publisher in each section's synthesis slice (cap is usually 12).
   # Keeps alternatives available so synthesis can meet ≥2 publishers per published section.
   section_max_per_publisher: 6
+  # Sport stories lose sport_penalty points unless they also match a geopolitical term
+  # (boycott, sanctions, Russia, ...). Defaults live in scripts/news_relevance.py; list a key
+  # here only to replace its default list.
+  sport_penalty: 30
   noise_title_patterns:
     - fußball-wm
     - fußball wm
