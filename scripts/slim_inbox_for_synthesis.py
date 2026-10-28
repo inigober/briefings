@@ -971,13 +971,34 @@ def build_culture_synthesis_inbox(raw: dict, *, sources_cfg: dict, topics_cfg: d
 MAX_RESTAURANT_OPENINGS = 8
 
 
+def load_reported_opening_urls(path: Path) -> set[str]:
+    """URLs already published under "New openings to watch" (state/.../openings_reported.json)."""
+    if not path.is_file():
+        return set()
+    try:
+        entries = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return set()
+    return {
+        (e.get("url") or "").strip().rstrip("/")
+        for e in entries
+        if isinstance(e, dict) and e.get("url")
+    }
+
+
 def load_restaurant_openings(
-    *paths: Path, limit: int = MAX_RESTAURANT_OPENINGS
+    *paths: Path,
+    limit: int = MAX_RESTAURANT_OPENINGS,
+    reported_urls: set[str] | None = None,
 ) -> list[dict]:
-    """Newest-first, de-duplicated press items about openings from the RSS/WordPress files."""
+    """Newest-first, de-duplicated press items about openings from the RSS/WordPress files.
+
+    Links already published in an earlier briefing (``reported_urls``) are skipped so a
+    14-day look-back does not repeat the same article every week.
+    """
     keys = ("id", "headline", "summary", "publisher", "url", "published_at")
     items: list[dict] = []
-    seen: set[str] = set()
+    seen: set[str] = set(reported_urls or ())
     for path in paths:
         if not path.is_file():
             continue
@@ -1128,6 +1149,9 @@ def main() -> int:
             openings=load_restaurant_openings(
                 inbox_dir / f"{date_str}-rss.json",
                 inbox_dir / f"{date_str}-wordpress.json",
+                reported_urls=load_reported_opening_urls(
+                    briefing.state_dir / "openings_reported.json"
+                ),
             ),
         )
     elif args.type == "music-discovery":

@@ -1,7 +1,7 @@
 # New-opening radar — RSS from food press, fetched by scripts/fetch_rss.py (item format "restaurant").
 # Articles are reported in the briefing as "New openings to watch" (headline + link, no review, no Maps
 # check), so thin coverage is fine: the value is knowing a place exists and who wrote about it.
-rss_max_age_hours: 216  # 9 days — weekly Thursday run plus slack for late feeds
+rss_max_age_hours: 336  # 14 days — catches monthly roundups; already-reported links are filtered out
 
 # A post is kept when its title/summary contains an opening term. Feeds marked general: true also
 # need a food term, so culture/news posts that say "opens" are dropped.
@@ -58,11 +58,6 @@ rss_feeds:
   - publisher: Berlin Food Stories
     url: https://www.berlinfoodstories.com/feed
     max_items: 10
-  # Untested guess — replace with the publisher's real feed link if it keeps failing.
-  - publisher: tip Berlin
-    url: https://www.tip-berlin.de/feed/
-    general: true
-    max_items: 10
 
 # WordPress REST API (fetch_wordpress.py). The Berliner and Exberliner RSS feeds do not parse in
 # CI, but their wp-json endpoints work (proven by the berlin-culture briefing).
@@ -73,6 +68,12 @@ wordpress_feeds:
     max_items: 40
   - publisher: Exberliner
     url: https://www.exberliner.com/wp-json/wp/v2/posts
+    general: true
+    max_items: 40
+  # tip Berlin: the RSS URL returned HTML in CI, so try its WordPress API instead. Untested;
+  # a failure is logged under "errors" in the -wordpress.json file and does not block anything.
+  - publisher: tip Berlin
+    url: https://www.tip-berlin.de/wp-json/wp/v2/posts
     general: true
     max_items: 40
 

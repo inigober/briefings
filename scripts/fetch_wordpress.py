@@ -438,6 +438,7 @@ def fetch_wordpress_feed(
     item_format: str = "culture",
     opening_terms: list[str] | None = None,
     food_terms: list[str] | None = None,
+    stats: dict | None = None,
 ) -> tuple[list[dict], str | None]:
     api_url = (feed_cfg.get("url") or "").strip()
     if not api_url:
@@ -473,6 +474,8 @@ def fetch_wordpress_feed(
         post_dt = parse_post_date(post)
         if post_dt and post_dt < cutoff:
             continue
+        if stats is not None:
+            stats["checked"] = stats.get("checked", 0) + 1
 
         link = (post.get("link") or "").strip()
         section_id = (
@@ -532,6 +535,7 @@ def fetch_all_wordpress(
 
     for feed_cfg in feeds:
         label = feed_cfg.get("publisher") or feed_cfg.get("url", "unknown")
+        stats: dict = {}
         items, err = fetch_wordpress_feed(
             feed_cfg,
             cutoff=cutoff,
@@ -539,14 +543,20 @@ def fetch_all_wordpress(
             item_format=item_format,
             opening_terms=sources_cfg.get("opening_terms") or [],
             food_terms=sources_cfg.get("food_terms") or [],
+            stats=stats,
         )
         if err:
             errors.append(f"{label}: {err}")
             log(f"  [{label}] skipped — {err}")
             continue
         all_items.extend(items)
-        feed_notes.append(f"{label}: {len(items)}")
-        log(f"  [{label}] {len(items)} items")
+        if item_format == "restaurant":
+            # A 0 is only meaningful next to how many recent posts were looked at.
+            detail = f"{len(items)} kept of {stats.get('checked', 0)} checked"
+        else:
+            detail = f"{len(items)}"
+        feed_notes.append(f"{label}: {detail}")
+        log(f"  [{label}] {detail}" if item_format == "restaurant" else f"  [{label}] {len(items)} items")
 
     seen: set[str] = set()
     deduped: list[dict] = []
