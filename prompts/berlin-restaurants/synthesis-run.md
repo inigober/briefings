@@ -69,6 +69,7 @@ End with `### This week's strongest bets` and choose three from the current brie
 
 1. Append included restaurants to `state/berlin-restaurants/restaurants_index.md`; trim entries older than 10 weeks.
 2. Update `state/berlin-restaurants/last_run.json` with `briefing_type`, date, paths, counts, and selected restaurant names.
+3. If the briefing has a "New openings to watch" section, append each linked article to `state/berlin-restaurants/openings_reported.json` (a JSON list of `{"url": "<article url>", "date": "YYYY-MM-DD"}`; create it as `[]` first if missing) and drop entries older than 60 days. The pre-fetch skips these links next time so the same article is never listed twice. If the section was omitted, leave the file unchanged.
 
 ## Step 4 — Verify Maps URLs, commit, and push (required)
 
@@ -77,7 +78,7 @@ End with `### This week's strongest bets` and choose three from the current brie
    python scripts/verify_restaurant_briefing_sources.py --type berlin-restaurants --date YYYY-MM-DD
    ```
    Every `**Maps:**` URL must match a `google_maps_url` from the verified synthesis inbox, and every link under "New openings to watch" must match an `openings[].url`. If it fails, fix URLs — do not invent links or add out-of-inbox restaurants.
-2. Stage: `briefings/berlin-restaurants/YYYY-MM-DD.md`, `state/berlin-restaurants/restaurants_index.md`, `state/berlin-restaurants/last_run.json`
+2. Stage: `briefings/berlin-restaurants/YYYY-MM-DD.md`, `state/berlin-restaurants/restaurants_index.md`, `state/berlin-restaurants/last_run.json`, and `state/berlin-restaurants/openings_reported.json` when changed
 3. Commit: `briefing/berlin-restaurants: YYYY-MM-DD`
 4. **Push to `origin main`** — mandatory; email workflow triggers on `briefings/**/*.md`
 

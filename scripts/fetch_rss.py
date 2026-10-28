@@ -297,6 +297,7 @@ def fetch_feed(
     item_format: str = "news",
     opening_terms: list[str] | None = None,
     food_terms: list[str] | None = None,
+    stats: dict | None = None,
 ) -> tuple[list[dict], str | None]:
     url = feed_cfg.get("url")
     if not url:
@@ -330,6 +331,8 @@ def fetch_feed(
         entry_dt = parse_entry_date(entry)
         if entry_dt and entry_dt < feed_cutoff:
             continue
+        if stats is not None:
+            stats["checked"] = stats.get("checked", 0) + 1
 
         entry_url_value = entry_url(entry)
         section_id = (
@@ -384,6 +387,7 @@ def fetch_all_rss(
 
     for feed_cfg in feeds:
         label = feed_cfg.get("publisher") or feed_cfg.get("url", "unknown")
+        stats: dict = {}
         items, err = fetch_feed(
             feed_cfg,
             cutoff=cutoff,
@@ -391,14 +395,20 @@ def fetch_all_rss(
             item_format=item_format,
             opening_terms=sources_cfg.get("opening_terms") or [],
             food_terms=sources_cfg.get("food_terms") or [],
+            stats=stats,
         )
         if err:
             errors.append(f"{label}: {err}")
             log(f"  [{label}] skipped — {err}")
             continue
         all_items.extend(items)
-        feed_notes.append(f"{label}: {len(items)}")
-        log(f"  [{label}] {len(items)} items")
+        if item_format == "restaurant":
+            # A 0 is only meaningful next to how many recent posts were looked at.
+            note = f"{label}: {len(items)} kept of {stats.get('checked', 0)} checked"
+        else:
+            note = f"{label}: {len(items)}"
+        feed_notes.append(note)
+        log(f"  [{label}] {note.split(': ', 1)[1]}")
 
     # Dedupe across feeds (first wins)
     seen: set[str] = set()

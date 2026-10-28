@@ -14,10 +14,13 @@ SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-from fetch_rss import entry_to_restaurant_item, matches_opening  # noqa: E402
+from fetch_rss import entry_to_restaurant_item, fetch_feed, matches_opening  # noqa: E402
 from send_briefing_email import parse_restaurant_briefing, render_restaurant_body_html  # noqa: E402
 from fetch_wordpress import post_to_restaurant_item  # noqa: E402
-from slim_inbox_for_synthesis import load_restaurant_openings  # noqa: E402
+from slim_inbox_for_synthesis import (  # noqa: E402
+    load_reported_opening_urls,
+    load_restaurant_openings,
+)
 from verify_restaurant_briefing_sources import (  # noqa: E402
     extract_openings_urls,
     unknown_openings_urls,
@@ -118,6 +121,63 @@ class TestMergedOpenings(unittest.TestCase):
             ]}))
             got = load_restaurant_openings(a, b)
             self.assertEqual([i["url"] for i in got], ["https://x/2", "https://x/1/"])
+
+
+class TestReportedOpenings(unittest.TestCase):
+    def test_reported_urls_are_skipped(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            feed = Path(tmp) / "r-rss.json"
+            feed.write_text(json.dumps({"items": [
+                {"url": "https://x/old", "published_at": "2026-10-10"},
+                {"url": "https://x/new", "published_at": "2026-10-20"},
+            ]}))
+            state = Path(tmp) / "openings_reported.json"
+            state.write_text(json.dumps([{"url": "https://x/old/", "date": "2026-10-22"}]))
+            reported = load_reported_opening_urls(state)
+            got = load_restaurant_openings(feed, reported_urls=reported)
+            self.assertEqual([i["url"] for i in got], ["https://x/new"])
+
+    def test_missing_or_bad_state_file_means_nothing_reported(self) -> None:
+        self.assertEqual(load_reported_opening_urls(Path("/nonexistent/x.json")), set())
+        with tempfile.TemporaryDirectory() as tmp:
+            bad = Path(tmp) / "bad.json"
+            bad.write_text("not json")
+            self.assertEqual(load_reported_opening_urls(bad), set())
+
+
+class TestFeedStats(unittest.TestCase):
+    def test_checked_count_ignores_posts_outside_window(self) -> None:
+        from datetime import datetime, timedelta, timezone
+        from unittest.mock import patch
+
+        now = datetime.now(timezone.utc)
+
+        def entry(link: str, title: str, age_days: int) -> SimpleNamespace:
+            when = (now - timedelta(days=age_days)).timetuple()[:6]
+            return SimpleNamespace(link=link, title=title, summary="", published_parsed=when)
+
+        parsed = SimpleNamespace(
+            bozo=False,
+            entries=[
+                entry("https://x/a", "New restaurant opens", 1),
+                entry("https://x/b", "Gallery guide", 2),
+                entry("https://x/c", "Old restaurant opens", 40),
+            ],
+        )
+        stats: dict = {}
+        with patch("fetch_rss.feedparser.parse", return_value=parsed):
+            items, err = fetch_feed(
+                {"publisher": "X", "url": "https://x/feed"},
+                cutoff=now - timedelta(days=14),
+                blocklist=[],
+                item_format="restaurant",
+                opening_terms=OPENING,
+                food_terms=FOOD,
+                stats=stats,
+            )
+        self.assertIsNone(err)
+        self.assertEqual(len(items), 1)
+        self.assertEqual(stats["checked"], 2)
 
 
 BRIEFING = """# Berlin Restaurant Briefing — Week of 2026-10-22
