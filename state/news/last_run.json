@@ -1,59 +1,58 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-27",
-  "briefing_date": "2026-10-27",
-  "inbox_date": "2026-10-27",
+  "date": "2026-10-28",
+  "briefing_date": "2026-10-28",
+  "inbox_date": "2026-10-28",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-27.md",
-  "inbox_path": "inbox/news/2026-10-27-synthesis.json",
-  "items_count": 13,
+  "briefing_path": "briefings/news/2026-10-28.md",
+  "inbox_path": "inbox/news/2026-10-28-synthesis.json",
+  "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Bilbao riots after Vito Quiles event; Feijóo Barcelona campaign; Barcelona blocus groups",
+      "headline": "Netanyahu/Israel election items (eldiario.es, EL PAÍS, La Vanguardia)",
       "section": "spain",
-      "reason": "same unrest theme as chosen Barcelona story; parked in Other Headlines"
+      "reason": "geo-misfit: Israel belongs in World; one used there"
     },
     {
-      "headline": "Brazil stories (Flávio Bolsonaro passport, Janones, Trump rigged)",
+      "headline": "Lula victory podcast",
       "section": "spain",
-      "reason": "geo-misfit: Brazil belongs in World; one used there"
+      "reason": "geo-misfit: Brazil belongs in World; already covered 26-27 Oct"
     },
     {
-      "headline": "US-Canada tariffs, Anthropic IPO, California wealth tax, Israel election duplicates",
+      "headline": "José María Ridao on ley de nietos",
+      "section": "spain",
+      "reason": "opinion interview; ley de nietos covered 13 Oct, no material development"
+    },
+    {
+      "headline": "Montero y Rufián / Broncano",
+      "section": "spain",
+      "reason": "entertainment filler"
+    },
+    {
+      "headline": "Israel election items (Handelsblatt, Tagesspiegel dpa)",
       "section": "germany",
-      "reason": "geo-misfit: non-German topics; tariffs/AI/California parked in Other Headlines, Israel used in World; germany_pool_thin"
+      "reason": "geo-misfit: belongs in World"
     },
     {
-      "headline": "Baseball World Series, Hart aber fair care debate, Börse 26 Oct",
+      "headline": "Angola travel, MS patient story, Gaza doctors film event, ChatGPT lawyers",
       "section": "germany",
-      "reason": "sport, talk-show recap, stale market filler"
+      "reason": "travel/human-interest/low relevance; germany_pool_thin"
     },
     {
-      "headline": "Rostock crane, Dresden court, Bastei fire, Calau fire, Cottbus medical university",
+      "headline": "Rostock crane, Dresden court Hammer-Bande, Potsdam campus, Brandenburg video surveillance",
       "section": "berlin",
-      "reason": "geo-misfit: not Berlin; berlin_pool_thin"
+      "reason": "geo-misfit: not Berlin city; berlin_pool_thin"
     },
     {
-      "headline": "Redmann 31 October protests",
+      "headline": "Ibo Maza Ballon d'Or, Dörfel marathon, Bowie Berlinale, Àbáse interview",
       "section": "berlin",
-      "reason": "kept despite uncertain Berlin angle; only rbb24 Berlin-region items left (publisher_pool_thin)"
+      "reason": "sport/culture filler"
     },
     {
-      "headline": "Sudan: UK sanctions on commanders",
+      "headline": "Aussie-Kiwi, Jio IPO, SK Hynix, China markets, Anthropic founders",
       "section": "world",
-      "reason": "same Sudan theme as chosen story"
-    },
-    {
-      "headline": "China AI distillation, AI models less opaque",
-      "section": "world",
-      "reason": "dedup: covered 25-26 Oct"
-    },
-    {
-      "headline": "Economist newsletters (Climate Issue, Bartleby)",
-      "section": "world",
-      "reason": "noise: newsletter blurbs without news content"
+      "reason": "markets/business; Aussie-Kiwi and Anthropic used in Selected Reads, others parked in Other Headlines"
     }
-  ],
-  "notes": "Spain: Barcelona riots (eldiario), Vox-PP Senate pact (EL PAIS), education-right study (eldiario). Germany: Allianz Trade insolvencies (TSP), Mercedes severance podcast (HB), Pistorius essay (TSP); germany_pool_thin. Berlin: Seidel obit, Pokal ties, Redmann (all rbb24); berlin_pool_thin, publisher_pool_thin. World: Israel election (HB, Middle East), Brazil/Trump (FT, Latin America/North America), Sudan RSF drones (Guardian, Africa). Selected Reads: FT, Foreign Policy, Nikkei, Bloomberg."
+  ]
 }

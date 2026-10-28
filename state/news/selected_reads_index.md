@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-28
+
+- [Anthropic’s seven founders tighten grip ahead of blockbuster IPO](https://www.ft.com/content/24a35e41-2641-4cec-97f5-a974412f9952?syn-25a6b1a6=1) — Financial Times
+- [Treatments for age-related infertility are being developed at last](https://www.economist.com/science-and-technology/2026/10/26/treatments-for-age-related-infertility-are-being-developed-at-last) — The Economist
+- [Trump Explores Lifting Sanctions on Russia’s Flagship Investment Fund](https://www.nytimes.com/2026/10/27/us/politics/russia-fund-sanctions-trump.html) — The New York Times
+- [Aussie-Kiwi Rates Split Drives Biggest Currency Move in 9 Years](https://www.bloomberg.com/news/articles/2026-10-28/new-zealand-dollar-slides-most-versus-aussie-since-2017-on-rbnz) — Bloomberg
+
 ## 2026-10-27
 
 - [Beware the political cost of economic insecurity](https://www.ft.com/content/4c7afa74-96a0-4064-879d-7d2620585608) — Financial Times

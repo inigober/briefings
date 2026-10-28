@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-28
+
+- **spain-barcelona-judge-looting-suspects-released** — eldiario.es: duty judge notes social roots of two looting suspects, bars them from protests (section: spain)
+- **spain-abascal-fears-feijoo-centre-vote** — EL PAÍS: Vox worries Feijóo's candidate picks chase convinced voters over undecided (section: spain)
+- **spain-senate-lists-map-29n** — eldiario.es: PSOE–Frente Amplio run together except Canarias; Vox withdraws in six provinces, PP in three (section: spain)
+- **germany-europe-digital-dependence-study** — Handelsblatt: study finds Europe almost wholly dependent on foreign platforms (section: germany)
+- **germany-amazon-review-deletion-scheme** — Tagesspiegel: sellers pay buyers to delete negative Amazon reviews (section: germany)
+- **germany-bea-freibetrag-father-childcare** — Handelsblatt: childcare tax allowance only for parent who actually provides care (section: germany)
+- **berlin-linke-education-portfolio** — Tagesspiegel: Linke could run Berlin schools for first time since reunification (section: berlin)
+- **berlin-bayern-courts-landlords-vergesellschaftung** — Tagesspiegel: Bavarian MPs court property firms, warn on Berlin expropriation (section: berlin)
+- **berlin-linke-fraktion-emde-postponed** — rbb24: Linke group postpones decision on deputy Vanessa Emde (section: berlin)
+- **world-israel-election-exit-polls-no-majority** — Financial Times: exit polls show no majority for either bloc (section: world)
+- **world-trump-tariffs-ieepa-court** — Foreign Policy: administration faces another court test after five losses (section: world)
+- **world-uk-sanctions-sudan-el-fasher** — The Guardian: UK sanctions Sudanese commanders over El Fasher sexual violence (section: world)
+
 ## 2026-10-27
 
 - **spain-barcelona-riots-mossos-plaza-espanya** — eldiario.es: after Saturday's riots (130 arrests, 76 minors) Mossos identify youths at plaça Espanya at a repeat call; prosecutors seek internment of six minors (section: spain)
