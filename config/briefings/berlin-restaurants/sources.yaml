@@ -54,10 +54,11 @@ rss_feeds:
     url: https://ceecee.cc/feed/
     general: true
     max_items: 10
-  # Untested guesses — replace with the publisher's real feed link if these keep failing.
+  # Berlin Food Stories feed link supplied by the owner (2026-10-28).
   - publisher: Berlin Food Stories
-    url: https://www.berlinfoodstories.com/editorials?format=rss
+    url: https://www.berlinfoodstories.com/feed
     max_items: 10
+  # Untested guess — replace with the publisher's real feed link if it keeps failing.
   - publisher: tip Berlin
     url: https://www.tip-berlin.de/feed/
     general: true
