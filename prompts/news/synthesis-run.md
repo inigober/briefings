@@ -58,8 +58,9 @@ Apply in order for Spain, Germany, Berlin, and World (3 stories each):
    - **Germany 🇩🇪** — developments in or about **Germany** (policy, economy, society). US/Iran/Middle East stories belong in **World** even if the URL is zeit.de or tagesspiegel.de/internationales.
    - **Berlin 🏙️** — **inside Berlin** or direct city governance. Brandenburg commuter towns are World/Other Headlines unless there is a Berlin policy angle.
    - **Spain 🇪🇸** — Spain-focused; EU stories belong in Germany or World unless Spain is the primary actor.
-6. **Reject slim-time noise:** Do not elevate items listed in `rejected_candidates` with `noise:` or low relevance unless no better citable item exists for that section (note the gap instead).
-7. **Audit trail:** After selecting stories, append to `state/news/last_run.json` a `rejected_at_synthesis` array: `{headline, section, reason}` for any inbox item you considered but rejected under rules 1–6 (keep ≤12 entries).
+6. **Sport:** Do not use sports stories (match reports, previews, transfers, club news) in any section, including Berlin, unless the story has a strong geopolitical component (boycotts, sanctions, state involvement, war-related bans). Items scored with a `sport:-` note are demoted for this reason; fill the slot with the next non-sport item and mention the gap rather than falling back to sport.
+7. **Reject slim-time noise:** Do not elevate items listed in `rejected_candidates` with `noise:` or low relevance unless no better citable item exists for that section (note the gap instead).
+8. **Audit trail:** After selecting stories, append to `state/news/last_run.json` a `rejected_at_synthesis` array: `{headline, section, reason}` for any inbox item you considered but rejected under rules 1–7 (keep ≤12 entries).
 
 Produce a novelty-first briefing with exactly these sections:
 

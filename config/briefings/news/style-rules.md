@@ -94,6 +94,8 @@ Summary paragraph. ([Publisher][N])
 - Insight merely rephrases the summary.
 - Forward-looking "if X then Y" political speculation not grounded in the article.
 - Sports, celebrity, one-off crime, earnings beats unless there is a structural angle.
+
+(Separately, sports stories are also kept out of the story sections unless they have a strong geopolitical component — see `prompts/news/synthesis-run.md` rule 6.)
 - A theme already annotated elsewhere in today's briefing.
 
 - Blank line after headline, after summary, and before 💡 when present (aids email rendering).
