@@ -23,7 +23,7 @@ import yaml
 
 from briefing_paths import load_briefing_type
 
-from fetch_rss import REGION_DEFAULTS, resolve_news_section_id
+from fetch_rss import REGION_DEFAULTS, matches_opening, resolve_news_section_id
 from culture_schedule import extract_schedule_from_text
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -116,6 +116,47 @@ def post_to_culture_item(
         "why_candidate": why,
         "ingestion_source": "wordpress",
         "verified": False,
+    }
+
+
+def post_to_restaurant_item(
+    post: dict,
+    *,
+    feed_cfg: dict,
+    blocklist: list[str],
+    opening_terms: list[str],
+    food_terms: list[str],
+) -> dict | None:
+    """Press article about a possible new opening (same shape as fetch_rss restaurant items)."""
+    link = (post.get("link") or "").strip()
+    if not link.startswith("http") or is_blocked(link, blocklist):
+        return None
+
+    title = strip_html((post.get("title") or {}).get("rendered") or "")
+    if not title:
+        return None
+
+    excerpt = strip_html((post.get("excerpt") or {}).get("rendered") or "")
+    if len(excerpt) > 400:
+        excerpt = excerpt[:397] + "..."
+
+    if not matches_opening(
+        f"{title} {excerpt}",
+        opening_terms=opening_terms,
+        food_terms=food_terms,
+        general=bool(feed_cfg.get("general")),
+    ):
+        return None
+
+    post_dt = parse_post_date(post)
+    return {
+        "id": make_item_id(link, "opening"),
+        "headline": title,
+        "summary": excerpt or title,
+        "publisher": feed_cfg.get("publisher") or urlparse(link).netloc,
+        "url": link,
+        "published_at": post_dt.date().isoformat() if post_dt else None,
+        "ingestion_source": "wordpress",
     }
 
 
@@ -381,12 +422,22 @@ def fetch_all_wordpress_events(
     }
 
 
+def item_url(item: dict, item_format: str) -> str:
+    if item_format == "news":
+        return normalize_url(item["sources"][0]["url"])
+    if item_format == "restaurant":
+        return normalize_url(item.get("url") or "")
+    return normalize_url(item.get("official_url") or "")
+
+
 def fetch_wordpress_feed(
     feed_cfg: dict,
     *,
     cutoff: datetime,
     blocklist: list[str],
     item_format: str = "culture",
+    opening_terms: list[str] | None = None,
+    food_terms: list[str] | None = None,
 ) -> tuple[list[dict], str | None]:
     api_url = (feed_cfg.get("url") or "").strip()
     if not api_url:
@@ -430,7 +481,15 @@ def fetch_wordpress_feed(
             else section_ids[0]
         )
 
-        if item_format == "news":
+        if item_format == "restaurant":
+            item = post_to_restaurant_item(
+                post,
+                feed_cfg=feed_cfg,
+                blocklist=blocklist,
+                opening_terms=opening_terms or [],
+                food_terms=food_terms or [],
+            )
+        elif item_format == "news":
             item = post_to_news_item(
                 post,
                 feed_cfg=feed_cfg,
@@ -447,10 +506,7 @@ def fetch_wordpress_feed(
         if not item:
             continue
 
-        if item_format == "news":
-            norm = normalize_url(item["sources"][0]["url"])
-        else:
-            norm = normalize_url(item["official_url"])
+        norm = item_url(item, item_format)
         if not norm or norm in seen_urls:
             continue
         seen_urls.add(norm)
@@ -481,6 +537,8 @@ def fetch_all_wordpress(
             cutoff=cutoff,
             blocklist=blocklist,
             item_format=item_format,
+            opening_terms=sources_cfg.get("opening_terms") or [],
+            food_terms=sources_cfg.get("food_terms") or [],
         )
         if err:
             errors.append(f"{label}: {err}")
@@ -493,10 +551,7 @@ def fetch_all_wordpress(
     seen: set[str] = set()
     deduped: list[dict] = []
     for item in all_items:
-        if item_format == "news":
-            url = normalize_url(item["sources"][0]["url"])
-        else:
-            url = normalize_url(item.get("official_url") or "")
+        url = item_url(item, item_format)
         if not url or url in seen:
             continue
         seen.add(url)
@@ -526,6 +581,8 @@ def resolve_max_age_hours(sources_cfg: dict, *, briefing_type: str) -> int:
 def resolve_item_format(briefing_type: str) -> str:
     if briefing_type == "news":
         return "news"
+    if briefing_type == "berlin-restaurants":
+        return "restaurant"
     return "culture"
 
 

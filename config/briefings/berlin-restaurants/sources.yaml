@@ -46,28 +46,34 @@ food_terms:
   - pizza
   - eatery
 
+# RSS feeds (fetch_rss.py). Untested ones are skipped and logged under "errors" in
+# inbox/berlin-restaurants/*-rss.json; first live run (2026-10-22) showed Cee Cee works and the
+# others returned HTML instead of XML.
 rss_feeds:
-  # Berlin Food Stories: URL is a Squarespace-style guess and could not be tested from the dev
-  # sandbox. A bad URL is skipped and logged under "errors" in inbox/berlin-restaurants/*-rss.json.
-  - publisher: Berlin Food Stories
-    url: https://www.berlinfoodstories.com/editorials?format=rss
-    max_items: 10
-  - publisher: The Berliner
-    url: https://www.the-berliner.com/food/feed/
-    general: true
-    max_items: 10
-  - publisher: Exberliner
-    url: https://www.exberliner.com/feed/
-    general: true
-    max_items: 10
   - publisher: Cee Cee Berlin
     url: https://ceecee.cc/feed/
     general: true
     max_items: 10
+  # Untested guesses — replace with the publisher's real feed link if these keep failing.
+  - publisher: Berlin Food Stories
+    url: https://www.berlinfoodstories.com/editorials?format=rss
+    max_items: 10
   - publisher: tip Berlin
-    url: https://www.tip-berlin.de/restaurants-bars/feed/
+    url: https://www.tip-berlin.de/feed/
     general: true
     max_items: 10
+
+# WordPress REST API (fetch_wordpress.py). The Berliner and Exberliner RSS feeds do not parse in
+# CI, but their wp-json endpoints work (proven by the berlin-culture briefing).
+wordpress_feeds:
+  - publisher: The Berliner
+    url: https://www.the-berliner.com/wp-json/wp/v2/posts
+    general: true
+    max_items: 40
+  - publisher: Exberliner
+    url: https://www.exberliner.com/wp-json/wp/v2/posts
+    general: true
+    max_items: 40
 
 allowed_domains:
   # Editorial / discovery only — Google Maps verification is via Places API post-fetch
