@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-29
+
+- [Google shares tumble 10% after $51bn AI outlay deepens cash burn](https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d?syn-25a6b1a6=1) — Financial Times
+- [Why Wouldn’t Google Tell Me Who Won the 2020 Election?](https://www.theatlantic.com/technology/2026/10/google-search-ai-2020-election-trump/689197/?utm_source=feed) — The Atlantic
+- [Turkey builds Asia-Europe rail corridor as wars snarl up old trade routes](https://asia.nikkei.com/business/transportation/turkey-builds-asia-europe-rail-corridor-as-wars-snarl-up-old-trade-routes) — Nikkei Asia
+- [US ambassador suggests Trump could blame Canada if midterms don’t go his way](https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms) — The Guardian
+
 ## 2026-10-28
 
 - [Anthropic’s seven founders tighten grip ahead of blockbuster IPO](https://www.ft.com/content/24a35e41-2641-4cec-97f5-a974412f9952?syn-25a6b1a6=1) — Financial Times
@@ -38,13 +45,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Welcome to the Valley of Pain](https://www.theatlantic.com/technology/2026/10/the-safe-internet-is-shrinking/689130/?utm_source=feed) — The Atlantic
 - [Top ICC official urges EU to act ‘as soon as possible’ on US sanctions](https://www.politico.eu/article/icc-top-official-urges-eu-reassert-sovereignty-as-soon-as-possible/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 - [Severely ill ICE detainees face imminent deportation to unknown African states, advocates say](https://www.theguardian.com/us-news/2026/oct/21/ice-detention-illness-deportation-florida) — The Guardian
-
-## 2026-10-23
-
-- [AI oversight needs a different model to banking](https://www.ft.com/content/f98be079-49af-45c8-9954-ea3bd774c585) — Financial Times
-- [Asia's AI data center boom faces 'reality check' from public markets](https://asia.nikkei.com/business/technology/artificial-intelligence/asia-s-ai-data-center-boom-faces-reality-check-from-public-markets) — Nikkei Asia
-- [The second may soon be redefined](https://www.economist.com/science-and-technology/2026/10/21/the-second-may-soon-be-redefined) — The Economist
-- [Who really writes the budget?](https://www.politico.eu/podcast/westminster-insider/who-really-writes-the-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
 
 ## Blocked until 5+ briefings have passed
 

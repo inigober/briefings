@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-29
+
+- **spain-urda-train-crash-atocha-audio** — EL PAÍS: Atocha controller told the AVE driver to resume normal speed with the Iryo stalled ahead; 68 dead (section: spain)
+- **spain-sanchez-two-rail-accidents-response** — eldiario.es: Sánchez calls two accidents in a year unacceptable, promises forceful response (section: spain)
+- **spain-high-speed-maintenance-underinvestment** — EL PAÍS: experts say Spain spends less than peers maintaining its rail network (section: spain)
+- **germany-army-chief-baltic-defence-pace** — Tagesspiegel: army chief wants faster Baltic defence after 70+ generals scout flashpoints (section: germany)
+- **germany-ecb-rate-decision-dax-earnings** — Handelsblatt: ECB rate decision and Dax earnings day (section: germany)
+- **germany-menopause-workplace-column** — Tagesspiegel: columnist asks whether menopause belongs in talks with bosses (section: germany)
+- **berlin-union-threatens-constitutional-suits** — Berliner Zeitung: Union group leaders threaten suits against possible Linke/AfD-involving governments in Berlin and Saxony-Anhalt (section: berlin)
+- **berlin-fu-otto-suhr-blockade** — rbb24: students blockade the FU's Otto Suhr Institute (section: berlin)
+- **berlin-cold-weather-shelters-nearly-full** — The Berliner: emergency shelters almost full already in October (section: berlin)
+- **world-flavio-bolsonaro-flees-brazil** — Financial Times: losing runoff candidate leaves Brazil under money-laundering probe (section: world)
+- **world-egypt-mada-masr-attalah-convicted** — The Guardian: Egyptian court fines editor Lina Attalah and shuts Mada Masr (section: world)
+- **world-bangladesh-measles-warning-sign** — Foreign Policy: expert report calls Bangladesh measles outbreak a warning sign of vaccination crisis (section: world)
+
 ## 2026-10-28
 
 - **spain-barcelona-judge-looting-suspects-released** — eldiario.es: duty judge notes social roots of two looting suspects, bars them from protests (section: spain)
@@ -215,34 +230,4 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-asia-ai-selloff-kospi-halt** — Financial Times: AI sell-off triggers a Kospi trading halt and drops the Nikkei 225 5% (section: world)
 - **world-zimbabwe-caine-prize-ai-denial** — The Guardian: Caine Prize winner Simbarashe Kundizeza denies *The Atlantic*'s AI-generation claim (section: world)
 - **world-florida-giant-african-snails** — The Atlantic: Florida's fight against giant African snails that eat houses and carry brain worms (section: world)
-
-## 2026-10-14
-
-- **spain-madrid-education-historic-strike** — eldiario.es: historic all-stage education strike starts in the Community of Madrid, CSIF included (section: spain)
-- **spain-feijoo-abascal-non-aggression** — EL PAÍS: Feijóo shows respect for Vox, will not demand a solo PP government; Génova–Bambú channel (section: spain)
-- **spain-psoe-peripheral-spain-map** — EL PAÍS: PSOE leans on Catalonia, Basque Country and the periphery to cut the PP–Vox lead (section: spain)
-- **germany-zuckersteuer-coalition-deal** — Tagesspiegel: Union–SPD agree a levy on sugary drinks, due in cabinet Wednesday; Hesse calls it a Teuer-Steuer (section: germany)
-- **germany-galeria-going-concern-three-months** — Handelsblatt: Galeria can keep operating; administrator has three months to find equity owners (section: germany)
-- **germany-verbrenner-aus-pollinators-study** — Tagesspiegel: delayed combustion-engine phaseout; exhaust confuses bees and other pollinators (section: germany)
-- **berlin-evers-save-through-2030** — rbb24: finance senator Evers says Berlin must cut through 2030 while protecting investment (section: berlin)
-- **berlin-tempelhof-construction-death** — rbb24: a steel beam killed a construction worker in Tempelhof (section: berlin)
-- **berlin-alba-igokea-cl-win** — rbb24: Alba Berlin beat Igokea in the Basketball Champions League after a late run (section: berlin)
-- **world-china-exports-36-ai-shipments** — Financial Times: China's exports surge 36% as AI-related shipments boom; imports up on oil (section: world)
-- **world-mexico-simon-rachel-five-dead** — The Guardian: Hurricane Simon and Tropical Storm Rachel kill five on Mexico's Pacific coast (section: world)
-- **world-openai-saudi-employee-office-bug** — Financial Times: US arrests a Saudi OpenAI employee over a recording device behind a conference-room TV (section: world)
-
-## 2026-10-13
-
-- **spain-nietos-163020-vote-suspension** — eldiario.es: Supreme Court orders the vote suspended for 163,020 *ley de nietos* citizens; government says it is materially impossible before 29-N (section: spain)
-- **spain-doctors-teachers-campaign-protests** — eldiario.es: doctors and teachers are still striking as the campaign axis stays housing (section: spain)
-- **spain-ai-bestsellers-alvise-amazon** — EL PAÍS: a third of self-published Spanish bestsellers are mostly AI, including Alvise Pérez (section: spain)
-- **germany-wildberger-ai-retraining-deep-tech** — Tagesspiegel: digital minister Wildberger on retraining, Gulf money for data centres, and deep-tech sovereignty (section: germany)
-- **germany-db-fahrplan-2027-munich-rome** — Tagesspiegel: Deutsche Bahn's 2027 timetable adds more international trains, including Munich–Rome (section: germany)
-- **germany-klingbeil-stromsteuer-coalition** — Handelsblatt: Klingbeil doubts the electricity-tax cut can be funded; Pistorius ducks SPD leadership (section: germany)
-- **berlin-katastrophenschutz-blackout-districts** — rbb24: households must prepare for disaster; Berlin boroughs' emergency points are incomplete (section: berlin)
-- **berlin-homeless-camps-eu-citizens** — rbb24: boroughs clear camps that return; many residents are homeless EU citizens (section: berlin)
-- **berlin-grundschule-schwimmen-seepferdchen** — rbb24: millions into primary-school swimming to cut the non-swimmer rate (section: berlin)
-- **world-chip-stocks-broadcom-casino** — Financial Times: Samsung and SK Hynix slide after Broadcom's boss calls AI investment a casino (section: world)
-- **world-bolivia-evo-morales-2009-killings** — The Guardian: Bolivia investigates Evo Morales over a 2009 Santa Cruz raid (section: world)
-- **world-ai-hiring-hr-cybersecurity** — Financial Times: AI fakes are forcing HR to work with cybersecurity (section: world)
 

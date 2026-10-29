@@ -1,58 +1,53 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-28",
-  "briefing_date": "2026-10-28",
-  "inbox_date": "2026-10-28",
+  "date": "2026-10-29",
+  "briefing_date": "2026-10-29",
+  "inbox_date": "2026-10-29",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-28.md",
-  "inbox_path": "inbox/news/2026-10-28-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-29.md",
+  "inbox_path": "inbox/news/2026-10-29-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Netanyahu/Israel election items (eldiario.es, EL PAÍS, La Vanguardia)",
+      "headline": "Urda train crash: investigation, political reaction, passenger accounts, signalling failure (further eldiario.es / EL PAÍS items)",
       "section": "spain",
-      "reason": "geo-misfit: Israel belongs in World; one used there"
+      "reason": "spain_pool_single_event: whole Spain pool is the Urda crash; used three distinct angles (cause audio, political response, maintenance funding) rather than leaving slots empty"
     },
     {
-      "headline": "Lula victory podcast",
-      "section": "spain",
-      "reason": "geo-misfit: Brazil belongs in World; already covered 26-27 Oct"
-    },
-    {
-      "headline": "José María Ridao on ley de nietos",
-      "section": "spain",
-      "reason": "opinion interview; ley de nietos covered 13 Oct, no material development"
-    },
-    {
-      "headline": "Montero y Rufián / Broncano",
-      "section": "spain",
-      "reason": "entertainment filler"
-    },
-    {
-      "headline": "Israel election items (Handelsblatt, Tagesspiegel dpa)",
-      "section": "germany",
-      "reason": "geo-misfit: belongs in World"
-    },
-    {
-      "headline": "Angola travel, MS patient story, Gaza doctors film event, ChatGPT lawyers",
-      "section": "germany",
-      "reason": "travel/human-interest/low relevance; germany_pool_thin"
-    },
-    {
-      "headline": "Rostock crane, Dresden court Hammer-Bande, Potsdam campus, Brandenburg video surveillance",
-      "section": "berlin",
-      "reason": "geo-misfit: not Berlin city; berlin_pool_thin"
-    },
-    {
-      "headline": "Ibo Maza Ballon d'Or, Dörfel marathon, Bowie Berlinale, Àbáse interview",
-      "section": "berlin",
-      "reason": "sport/culture filler"
-    },
-    {
-      "headline": "Aussie-Kiwi, Jio IPO, SK Hynix, China markets, Anthropic founders",
+      "headline": "Another deadly train crash puts Spanish infrastructure in question (The Economist)",
       "section": "world",
-      "reason": "markets/business; Aussie-Kiwi and Anthropic used in Selected Reads, others parked in Other Headlines"
+      "reason": "geo-misfit: Spain story, World must be distinct from Spain"
+    },
+    {
+      "headline": "Morning Briefing / podcast: Merz and the Bundespräsident search (Handelsblatt)",
+      "section": "germany",
+      "reason": "recent topic (24 Oct merz-csu-president-question), commentary not material; parked in Other Headlines"
+    },
+    {
+      "headline": "Heereschef Baltikum (Handelsblatt duplicate of Tagesspiegel dpa)",
+      "section": "germany",
+      "reason": "duplicate wire story; Tagesspiegel version used for publisher diversity"
+    },
+    {
+      "headline": "Halloween pranks, Vietnam travel, weight-loss marriage, classical tips, Lanz/Krach TV review, North Korea missiles",
+      "section": "germany",
+      "reason": "human-interest/filler/geo-misfit; germany_pool_thin"
+    },
+    {
+      "headline": "Taxi driver crash Mitte, Brandenburg wolf attack, Jena Höcke event, Rostock crane, Neuendorf body, Ortrand suspect, Kummersdorf lock, Zeh succession",
+      "section": "berlin",
+      "reason": "one-off crime/accident or not Berlin city; berlin_pool_thin"
+    },
+    {
+      "headline": "Rooftop theatre opinion (The Berliner)",
+      "section": "berlin",
+      "reason": "culture opinion, lower priority than shelters"
+    },
+    {
+      "headline": "Canada ambassador / Google AI outlay / Google 2020 election / Economist newsletters",
+      "section": "world",
+      "reason": "Guardian, FT and Atlantic pieces used in Selected Reads; Economist newsletters low-structure or paywalled filler"
     }
   ]
 }
