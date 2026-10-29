@@ -2,14 +2,6 @@
   "started_at": "2026-08-04T00:00:00+00:00",
   "deliveries": [
     {
-      "path": "briefings/berlin-restaurants/2026-07-30.md",
-      "type": "berlin-restaurants",
-      "date": "2026-07-30",
-      "sent_at": "2026-07-30T12:00:00+00:00",
-      "resend_id": "seeded-pre-log",
-      "subject": "seeded 2026-07-30"
-    },
-    {
       "path": "briefings/berlin-restaurants/2026-08-06.md",
       "type": "berlin-restaurants",
       "date": "2026-08-06",
@@ -32,14 +24,6 @@
       "sent_at": "2026-08-07T12:00:00+00:00",
       "resend_id": "seeded-pre-log",
       "subject": "seeded 2026-08-07"
-    },
-    {
-      "path": "briefings/news/2026-07-30.md",
-      "type": "news",
-      "date": "2026-07-30",
-      "sent_at": "2026-07-30T12:00:00+00:00",
-      "resend_id": "seeded-pre-log",
-      "subject": "seeded 2026-07-30"
     },
     {
       "path": "briefings/news/2026-07-31.md",
@@ -1040,6 +1024,14 @@
       "sent_at": "2026-10-28T05:34:24.012252+00:00",
       "resend_id": "01a18100-9ead-702a-a4af-71c30b187d7d",
       "subject": "📰 News Briefing — 28 October 2026"
+    },
+    {
+      "path": "briefings/news/2026-10-29.md",
+      "type": "news",
+      "date": "2026-10-29",
+      "sent_at": "2026-10-29T05:35:17.896562+00:00",
+      "resend_id": "01a18627-cd39-7cce-be60-dd10ed92da87",
+      "subject": "📰 News Briefing — 29 October 2026"
     }
   ]
 }
