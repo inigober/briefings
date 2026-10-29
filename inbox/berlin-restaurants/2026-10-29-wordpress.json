@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-29",
+  "fetched_at": "2026-10-29T09:01:17.815332+00:00",
+  "source": "wordpress",
+  "item_format": "restaurant",
+  "items": [],
+  "feed_counts": [
+    "The Berliner: 0 kept of 36 checked",
+    "Exberliner: 0 kept of 36 checked"
+  ],
+  "errors": [
+    "tip Berlin: 403 Client Error: Forbidden for url: https://www.tip-berlin.de/wp-json/wp/v2/posts?per_page=40&_fields=id%2Clink%2Ctitle%2Cexcerpt%2Cdate%2Cdate_gmt"
+  ]
+}

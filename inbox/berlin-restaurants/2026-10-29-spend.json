@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "cap_usd": 2.0,
+  "spent_usd": 0.279966,
+  "estimated": true,
+  "cap_exceeded": false,
+  "calls": [
+    {
+      "section": "combined",
+      "model": "gpt-6.1-sol",
+      "input_tokens": 64033,
+      "cached_tokens": 0,
+      "output_tokens": 8190,
+      "web_search_calls": 7,
+      "cost_usd": 0.279966,
+      "at": "2026-10-29T09:04:05.090907+00:00"
+    }
+  ],
+  "last_run_at": "2026-10-29T09:04:05.090943+00:00"
+}
