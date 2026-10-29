@@ -1,20 +1,18 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-10-22",
+  "date": "2026-10-29",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-10-22.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-10-22-synthesis.json",
+  "briefing_path": "briefings/berlin-restaurants/2026-10-29.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-10-29-synthesis.json",
   "verified_count": 16,
-  "selected_count": 8,
+  "selected_count": 6,
   "selected_restaurants": [
-    "Kongfu Chili",
-    "You Mi",
-    "Nusantara",
-    "Thai Art",
-    "Doyum Grillhaus",
-    "Trattoria da Silvana & Renato",
-    "Sironi – La Pizza",
-    "Fine Bagels"
+    "Samakki Talad Thai",
+    "Pamfilya",
+    "Salumeria Lamuri",
+    "Prizreni Qebaptore",
+    "Lon Men's Noodle House",
+    "Joseph-Roth-Diele"
   ],
-  "notes": "8 entries from 16 verified inbox items. Excluded 10-week repeats: Shaniu's House of Noodles (2026-09-03), Papaya (2026-09-17), Fu Li Lai (2026-09-17), Sarajevo (2026-09-03), Der blaue Fuchs (2026-08-13). Also skipped: Bruno (Maps name Schmaus & Plausch does not match, no rating/hours), Salamat and La Pecora Nera (not needed for 8 entries). Doyum Grillhaus has no rating/hours in the inbox, so those lines are omitted; Silvana & Renato Hours omitted (04:00 opening looks like a listing glitch). No fine dining. Neighborhoods: Prenzlauer Berg, Schöneberg (2), Moabit, Charlottenburg, Kreuzberg, Tegel, Friedrichshain. Trimmed 2026-08-06 index entries as older than 10 weeks."
+  "notes": "6 entries from 16 verified inbox items. Excluded 10-week repeats: You Mi (2026-10-22), Doyum Grillhaus (2026-10-22), Taqueria El Oso (2026-10-08), Khao Taan and Papaya (2026-09-17), Jemenitisches Restaurant (2026-09-03), Ma-Makan (2026-08-20). Skipped Domberger Brot-Werk (bakery, not a restaurant meal), Barra and FACIL (fine dining; none needed). No fine dining. No openings in inbox, so the section was omitted and openings_reported.json left unchanged. Neighborhoods: Charlottenburg (2), Wedding, Kreuzberg, Neukölln, Tiergarten. Trimmed 2026-08-13 index entries as older than 10 weeks."
 }

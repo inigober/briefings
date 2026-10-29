@@ -4,13 +4,6 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 <!-- Format: YYYY-MM-DD | name | neighborhood | google_maps_url -->
 
-2026-08-13 | Lon Men's Noodle House | Charlottenburg | https://maps.google.com/?cid=9563754848875105605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-13 | Co Do Hue | Charlottenburg | https://maps.google.com/?cid=13624639154100057195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-13 | Der blaue Fuchs | Prenzlauer Berg | https://maps.google.com/?cid=3269494279122270631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-13 | Genazvale | Wilmersdorf | https://maps.google.com/?cid=11709656010648000386&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-13 | Jolesch | Kreuzberg | https://maps.google.com/?cid=14401300538729835448&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-13 | Mingtastic | Tiergarten | https://maps.google.com/?cid=8820686791220117511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-13 | Duc Anh Quan | Lichtenberg | https://maps.google.com/?cid=8548437226739296063&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-20 | Mr. Noodle Chen | Friedrichshain | https://maps.google.com/?cid=15623604752531614074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-20 | Hi! Chili 海椒 | Prenzlauer Berg | https://maps.google.com/?cid=10412292124797041910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-20 | Tossakan | Prenzlauer Berg | https://maps.google.com/?cid=9571235162739134309&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
@@ -75,3 +68,9 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-10-22 | Trattoria da Silvana & Renato | Tegel | https://maps.google.com/?cid=10111132630863960935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-10-22 | Sironi – La Pizza | Schöneberg | https://maps.google.com/?cid=3410053893751303197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-10-22 | Fine Bagels | Friedrichshain | https://maps.google.com/?cid=5879610426525979150&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-29 | Samakki Talad Thai | Charlottenburg | https://maps.google.com/?cid=17791525734688365811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-29 | Pamfilya | Wedding | https://maps.google.com/?cid=9414198761911637931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-29 | Salumeria Lamuri | Kreuzberg | https://maps.google.com/?cid=13554042743700931316&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-29 | Prizreni Qebaptore | Neukölln | https://maps.google.com/?cid=1220766494754305012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-29 | Lon Men's Noodle House | Charlottenburg | https://maps.google.com/?cid=9563754848875105605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-10-29 | Joseph-Roth-Diele | Tiergarten | https://maps.google.com/?cid=4837385953299349406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
