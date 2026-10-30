@@ -1,53 +1,63 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-29",
-  "briefing_date": "2026-10-29",
-  "inbox_date": "2026-10-29",
+  "date": "2026-10-30",
+  "briefing_date": "2026-10-30",
+  "inbox_date": "2026-10-30",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-29.md",
-  "inbox_path": "inbox/news/2026-10-29-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-30.md",
+  "inbox_path": "inbox/news/2026-10-30-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Urda train crash: investigation, political reaction, passenger accounts, signalling failure (further eldiario.es / EL PAÍS items)",
+      "headline": "Urda crash follow-ups (Puente stays, 17 minutes column, victims' families, drivers' profiles, El País podcast)",
       "section": "spain",
-      "reason": "spain_pool_single_event: whole Spain pool is the Urda crash; used three distinct angles (cause audio, political response, maintenance funding) rather than leaving slots empty"
+      "reason": "spain_pool_single_event: three distinct investigation angles used; politics parked in Other Headlines"
     },
     {
-      "headline": "Another deadly train crash puts Spanish infrastructure in question (The Economist)",
-      "section": "world",
-      "reason": "geo-misfit: Spain story, World must be distinct from Spain"
-    },
-    {
-      "headline": "Morning Briefing / podcast: Merz and the Bundespräsident search (Handelsblatt)",
+      "headline": "Waffenruhe für Oleschky: Hilfstransporte sollen anlaufen",
       "section": "germany",
-      "reason": "recent topic (24 Oct merz-csu-president-question), commentary not material; parked in Other Headlines"
+      "reason": "geo-misfit: Ukraine war belongs outside Germany; parked in Other Headlines"
     },
     {
-      "headline": "Heereschef Baltikum (Handelsblatt duplicate of Tagesspiegel dpa)",
+      "headline": "Börse am 30. Oktober / Nikkei, Kospi, Topix",
       "section": "germany",
-      "reason": "duplicate wire story; Tagesspiegel version used for publisher diversity"
+      "reason": "market-wrap filler; publisher_pool_thin"
     },
     {
-      "headline": "Halloween pranks, Vietnam travel, weight-loss marriage, classical tips, Lanz/Krach TV review, North Korea missiles",
+      "headline": "Halle Berry custody, Drei !!! sexism, flambieren, Tramperin, online shopping rights",
       "section": "germany",
-      "reason": "human-interest/filler/geo-misfit; germany_pool_thin"
+      "reason": "celebrity/lifestyle filler, no news value"
     },
     {
-      "headline": "Taxi driver crash Mitte, Brandenburg wolf attack, Jena Höcke event, Rostock crane, Neuendorf body, Ortrand suspect, Kummersdorf lock, Zeh succession",
+      "headline": "Fabian-Prozess Nebenklage; Gauck on Illner re Eralp",
       "section": "berlin",
-      "reason": "one-off crime/accident or not Berlin city; berlin_pool_thin"
+      "reason": "not Berlin city (Güstrow trial); talk-show review overlaps Linke theme"
     },
     {
-      "headline": "Rooftop theatre opinion (The Berliner)",
+      "headline": "Wolf attack Wildpark Johannismühle; RE5 interrupted; Luckenwalde protection centre; IG Metall warning strikes",
       "section": "berlin",
-      "reason": "culture opinion, lower priority than shelters"
+      "reason": "Brandenburg, not Berlin; RE5 recent topic 23 Oct; publisher cap (rbb24)"
     },
     {
-      "headline": "Canada ambassador / Google AI outlay / Google 2020 election / Economist newsletters",
+      "headline": "Union constitutional-suit threats; Jena Höcke event",
+      "section": "berlin",
+      "reason": "recent topic 29 Oct; Thuringia not Berlin"
+    },
+    {
+      "headline": "US ambassador suggests Trump could blame Canada",
       "section": "world",
-      "reason": "Guardian, FT and Atlantic pieces used in Selected Reads; Economist newsletters low-structure or paywalled filler"
+      "reason": "already in 29 Oct Selected Reads; parked in Other Headlines"
+    },
+    {
+      "headline": "Tech stock selloff (Bloomberg); Google $500bn (Economist)",
+      "section": "world",
+      "reason": "market wrap, publisher diversity; parked in Other Headlines"
+    },
+    {
+      "headline": "Why dogs catch yawns",
+      "section": "world",
+      "reason": "low relevance curiosity item"
     }
   ]
 }

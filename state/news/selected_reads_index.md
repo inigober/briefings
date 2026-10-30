@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-10-30
+
+- [Inside the make-or-break AI mega-project behind Nscale’s $35bn IPO](https://www.ft.com/content/ee86c4b6-1fe4-467e-8f18-9c08df288aff?syn-25a6b1a6=1) — Financial Times
+- [Why Africa needs its own AI off switch](https://restofworld.org/2026/africa-sovereign-ai-off-switch/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg](https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg) — The Guardian
+- [Britain by numbers: everything we don’t know about the country](https://www.politico.eu/podcast/westminster-insider/britain-by-numbers-everything-we-dont-know-about-the-country/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+
 ## 2026-10-29
 
 - [Google shares tumble 10% after $51bn AI outlay deepens cash burn](https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d?syn-25a6b1a6=1) — Financial Times
@@ -31,20 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [India's chip design startups struggle with final commercial hurdle](https://asia.nikkei.com/business/tech/semiconductors/india-s-chip-design-startups-struggle-with-final-commercial-hurdle) — Nikkei Asia
 - [Sumitomo aims to expand battery energy storage in Japan with UK experience](https://asia.nikkei.com/business/energy/sumitomo-aims-to-expand-battery-energy-storage-in-japan-with-uk-experience) — Nikkei Asia
 - [Xi Jinping’s corruption crackdown in the spotlight as China prepares for meeting of top leaders](https://www.theguardian.com/world/2026/oct/26/xi-jinping-corruption-crackdown-china-fifth-plenum) — The Guardian
-
-## 2026-10-25
-
-- [Why 17 is not the magic number in industrial policy](https://www.ft.com/content/3e405824-a44a-4cb7-bc80-acc5bc3b5b59?syn-25a6b1a6=1) — Financial Times
-- [AI Terrorism Is Just Terrorism](https://www.theatlantic.com/ideas/2026/10/ai-terrorism-technology/689137/?utm_source=feed) — The Atlantic
-- [Gina Hinojosa’s Populism for Democrats](https://www.newyorker.com/news/the-lede/gina-hinojosas-populism-for-democrats) — The New Yorker
-- [The right’s obsession with ‘civil war’ in Britain](https://www.ft.com/content/3736714a-2058-4413-ac91-e8f10f33ad69?syn-25a6b1a6=1) — Financial Times
-
-## 2026-10-24
-
-- [How Macron Destabilized France](https://www.newyorker.com/news/q-and-a/how-macron-destabilized-france) — The New Yorker
-- [Welcome to the Valley of Pain](https://www.theatlantic.com/technology/2026/10/the-safe-internet-is-shrinking/689130/?utm_source=feed) — The Atlantic
-- [Top ICC official urges EU to act ‘as soon as possible’ on US sanctions](https://www.politico.eu/article/icc-top-official-urges-eu-reassert-sovereignty-as-soon-as-possible/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
-- [Severely ill ICE detainees face imminent deportation to unknown African states, advocates say](https://www.theguardian.com/us-news/2026/oct/21/ice-detention-illness-deportation-florida) — The Guardian
 
 ## Blocked until 5+ briefings have passed
 

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-30
+
+- **spain-urda-first-report-speed-160-200** — eldiario.es: first investigators' report puts AVE–Iryo impact at 160–200 km/h; black boxes recovered; 69 dead (section: spain)
+- **spain-atocha-controllers-wrong-lzb-mode** — EL PAÍS: Atocha supervisors chose LZB 4 instead of LZB 3 before the crash (section: spain)
+- **spain-aesf-missed-adif-audits-since-2020** — eldiario.es: rail safety agency has missed its Adif audit plans for six years (section: spain)
+- **germany-lagarde-ecb-resignation-report** — Handelsblatt: morning podcast reports Lagarde stepping down as ECB president; successor candidates emerging (section: germany)
+- **germany-finanzen-net-inflexion-paywall-neobroker** — Handelsblatt: Inflexion plans paywall and neobroker pivot at Finanzen.net (section: germany)
+- **germany-school-creativity-mohr-pisa** — Tagesspiegel: didactics professor Anja Mohr wants creativity across all school subjects (section: germany)
+- **berlin-linke-klein-parliament-president** — rbb24: Linke's Klein elected president of the new Abgeordnetenhaus (section: berlin)
+- **berlin-police-no-violence-calls-31-oct** — rbb24: police see no targeted violence calls before the 31 October protest day (section: berlin)
+- **berlin-the-berliner-theatre-highlights** — The Berliner: guide to upcoming opera, dance and theatre (section: berlin)
+- **world-modi-25-years-jobs** — The Economist: Modi's 25 years; growth without jobs won't placate voters (section: world)
+- **world-oil-rises-us-iran-strikes** — Bloomberg: oil climbs on signs the US may resume strikes on Iran (section: world)
+- **world-vietnam-drone-airport-safety** — Nikkei Asia: Vietnam airport safety response to drone intrusions (section: world)
+
 ## 2026-10-29
 
 - **spain-urda-train-crash-atocha-audio** — EL PAÍS: Atocha controller told the AVE driver to resume normal speed with the Iryo stalled ahead; 68 dead (section: spain)
@@ -215,19 +230,4 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-ai-datacentre-bonds-darwin** — Financial Times: investors dump AI data-centre / neocloud bonds; CoreWeave and peers at stressed levels (section: world)
 - **world-india-software-vs-ai-chips** — Bloomberg: Indian IT stocks on course to beat global chip peers by the most in two decades (section: world)
 - **world-senegal-lgbtq-arrests** — The Guardian: HRW — 320+ arrests in Senegal after the homosexuality law was toughened (section: world)
-
-## 2026-10-15
-
-- **spain-pp-vox-pensions-collapse-narrative** — eldiario.es: PP and Vox call the public pension system broken / about to *petar*; Commission-backed reform and AIReF spending-rule tests do not (section: spain)
-- **spain-cis-sample-bias-sociologists** — EL PAÍS: sociologists say the CIS over-represents the left because right-wing voters refuse interviews; the agency denies it (section: spain)
-- **spain-senate-united-left-list-40** — eldiario.es: PSOE internal paper says a united left Senate list is close and could add ~40 seats / an absolute majority (section: spain)
-- **germany-kiel-advertised-rents-accelerate** — Handelsblatt: Kiel Institute asking-rent rise has accelerated in the 30 largest cities; existing flats in demand, Berlin and Düsseldorf sharp (section: germany)
-- **germany-ai-bioweapons-preparedness** — Tagesspiegel: AI can design novel viruses; Germany's emergency preparation is thin (section: germany)
-- **germany-kiesewetter-nord-stream-warnings** — Berliner Zeitung: report of pre-attack warnings asks why Kiesewetter stuck to the Russia thesis and why the Chancellery is silent (section: germany)
-- **berlin-franzoesisches-gymnasium-protests** — Tagesspiegel: Französisches Gymnasium pupils joined blockades after the French school protests (section: berlin)
-- **berlin-neukoelln-alive-app** — Tagesspiegel: Neukölln developer Bastian Matzen's solo-living check-in app (section: berlin)
-- **berlin-union-alte-foersterei-financing** — rbb24: Union says Alte Försterei expansion financing now looks close enough to sign (section: berlin)
-- **world-asia-ai-selloff-kospi-halt** — Financial Times: AI sell-off triggers a Kospi trading halt and drops the Nikkei 225 5% (section: world)
-- **world-zimbabwe-caine-prize-ai-denial** — The Guardian: Caine Prize winner Simbarashe Kundizeza denies *The Atlantic*'s AI-generation claim (section: world)
-- **world-florida-giant-african-snails** — The Atlantic: Florida's fight against giant African snails that eat houses and carry brain worms (section: world)
 
