@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-10-30
+
+- Blu:sh — U is for U and me
+- Shanti Celeste — Romance
+- Escape Artist — Far Away Places EP
+- Contours — Elevations
+- Sansibar — Targeted Individuals
+- µ-Ziq — Grush
+- Various Artists — Retro Future Chapter Four
+- Reflex Blue — Rainy Day
+- Bruno Pronsato, Roméo Poirier and Memotone — Toinen Kaupunki
+- Roméo Poirier, People Like Us and Eli Keszler — Off Off The Record
+
 ## 2026-10-23
 
 - Adam Pits — Synthetic Serenity
