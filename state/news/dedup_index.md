@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-10-31
+
+- **spain-lzb-170-outages-2026** — EL PAÍS: Puente says the LZB train-protection system was out of service at least 170 times this year (section: spain)
+- **spain-frente-amplio-presses-puente** — eldiario.es: Frente Amplio attacks PSOE's rail model, Podemos stops short of demanding Puente's resignation (section: spain)
+- **spain-urda-69-autopsies-forensic-protocol** — EL PAÍS: 69 autopsies in three days under the 2009 national multi-victim protocol (section: spain)
+- **germany-afd-data-leak-bigger-problem** — Tagesspiegel: AfD leaked emails show early awareness of radicalisation, may matter legally (section: germany)
+- **germany-birth-rate-study-women-25-39** — Tagesspiegel: study — women aged 25–39 fall markedly by 2035, no quick birth-rate recovery (section: germany)
+- **germany-banks-survey-shares-pension-postponed** — Handelsblatt: private banks' survey — openness to shares but retirement saving postponed (section: germany)
+- **berlin-gewerbemieten-deckel-bundesrat** — Tagesspiegel: possible R2G Senate plans Bundesrat initiative for a commercial-rent cap (section: berlin)
+- **berlin-gen-z-regelt-kudamm-shops-board-up** — rbb24: Ku'damm shops board up, police prepare large operation but expect no serious violence (section: berlin)
+- **berlin-halloween-ghost-tours** — rbb24: Halloween tours of cemeteries, bat sites and bunkers (section: berlin)
+- **world-canada-eu-alliance-for-the-future** — The Guardian: Carney and von der Leyen launch the Alliance for the Future in Montreal (section: world)
+- **world-congo-ebola-5000-deaths** — Handelsblatt: Congo Ebola deaths pass 5,000 days after 10,000 cases (section: world)
+- **world-openai-funding-target-cut** — Financial Times: OpenAI seeks ~$20bn at $1.25tn valuation, $10bn less than planned (section: world)
+
 ## 2026-10-30
 
 - **spain-urda-first-report-speed-160-200** — eldiario.es: first investigators' report puts AVE–Iryo impact at 160–200 km/h; black boxes recovered; 69 dead (section: spain)
@@ -215,19 +230,4 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-sea-us-china-ai-blocs** — Nikkei Asia: Southeast Asia caught between competing US and Chinese AI blocs (section: world)
 - **world-brazil-amazon-deforestation-record-low** — The Guardian: Amazon deforestation at lowest since 1988 as Brazil runoff looms (section: world)
 - **world-anthropic-blackstone-chip-yield** — Financial Times: Anthropic offers Blackstone a double-digit yield for chip financing (section: world)
-
-## 2026-10-16
-
-- **spain-canary-upc-left-unity** — eldiario.es: Nueva Canarias, Podemos, IU and Sumar sign a single 29-N ticket as Unidad del Pueblo Canario (section: spain)
-- **spain-madrid-strike-hoax-threats** — eldiario.es: Madrid education chief mis-attributed a strike email to a public school in Villarejo; threats followed (section: spain)
-- **spain-smi-5-percent-pre-election** — EL PAÍS: labour ministry preparing a ~5% minimum-wage rise before the vote; unions 7%, employers call it campaign timing (section: spain)
-- **germany-unicredit-commerzbank-ecb** — Berliner Zeitung: ECB clears Unicredit to take over Commerzbank; federal government has been resisting (section: germany)
-- **germany-ecj-phishing-bank-refunds** — Berliner Zeitung: ECJ says banks must refund phishing victims first even when alleging gross negligence (section: germany)
-- **germany-coalition-beziehungstotalschaden** — Handelsblatt: Union–SPD heading for a total relationship breakdown but both still flinch from new elections (section: germany)
-- **berlin-greens-monday-coalition-decision** — rbb24: Berlin Greens will decide Monday whether to open formal coalition talks with Linke and SPD (section: berlin)
-- **berlin-fuechse-porto-cl** — rbb24: Füchse Berlin beat Porto 36–33 and reached the Champions League main round (section: berlin)
-- **berlin-kinski-100** — Tagesspiegel: Klaus Kinski would have been 100; anniversary recap (section: berlin)
-- **world-ai-datacentre-bonds-darwin** — Financial Times: investors dump AI data-centre / neocloud bonds; CoreWeave and peers at stressed levels (section: world)
-- **world-india-software-vs-ai-chips** — Bloomberg: Indian IT stocks on course to beat global chip peers by the most in two decades (section: world)
-- **world-senegal-lgbtq-arrests** — The Guardian: HRW — 320+ arrests in Senegal after the homosexuality law was toughened (section: world)
 

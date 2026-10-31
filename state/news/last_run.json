@@ -1,63 +1,63 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-30",
-  "briefing_date": "2026-10-30",
-  "inbox_date": "2026-10-30",
+  "date": "2026-10-31",
+  "briefing_date": "2026-10-31",
+  "inbox_date": "2026-10-31",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-30.md",
-  "inbox_path": "inbox/news/2026-10-30-synthesis.json",
+  "briefing_path": "briefings/news/2026-10-31.md",
+  "inbox_path": "inbox/news/2026-10-31-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
     {
-      "headline": "Urda crash follow-ups (Puente stays, 17 minutes column, victims' families, drivers' profiles, El País podcast)",
+      "headline": "Urda crash follow-ups (Iryo restart, control-room staffing, victims' lives, letters, Toledo archbishop, town profile, company roles)",
       "section": "spain",
-      "reason": "spain_pool_single_event: three distinct investigation angles used; politics parked in Other Headlines"
+      "reason": "spain_pool_single_event: three distinct angles used (LZB outages, election politics, forensic protocol); rest skipped as human-interest or overlapping"
     },
     {
-      "headline": "Waffenruhe für Oleschky: Hilfstransporte sollen anlaufen",
+      "headline": "Ebola im Kongo (Tagesspiegel duplicate)",
       "section": "germany",
-      "reason": "geo-misfit: Ukraine war belongs outside Germany; parked in Other Headlines"
+      "reason": "geo-misfit: Congo outbreak belongs in World; duplicate of Handelsblatt item"
     },
     {
-      "headline": "Börse am 30. Oktober / Nikkei, Kospi, Topix",
+      "headline": "Lawrow poltert beim G20-Außenministertreffen; Polens Verfassungsgericht",
       "section": "germany",
-      "reason": "market-wrap filler; publisher_pool_thin"
+      "reason": "geo-misfit: foreign affairs belong outside Germany; parked in Other Headlines"
     },
     {
-      "headline": "Halle Berry custody, Drei !!! sexism, flambieren, Tramperin, online shopping rights",
+      "headline": "Halloween: Warum sich manche Menschen lieber gruseln; Handel mit wilden Arten",
       "section": "germany",
-      "reason": "celebrity/lifestyle filler, no news value"
+      "reason": "lifestyle/low relevance filler"
     },
     {
-      "headline": "Fabian-Prozess Nebenklage; Gauck on Illner re Eralp",
+      "headline": "Bolsonaro erklärt sich zum wahren Wahlsieger Brasiliens",
+      "section": "germany",
+      "reason": "geo-misfit (Brazil); parked in Other Headlines"
+    },
+    {
+      "headline": "Fall Fabian / Fabian-Prozess; Toter in Annaberg-Buchholz; Wolf attack Wildpark; Märkisch-Oderland fire",
       "section": "berlin",
-      "reason": "not Berlin city (Güstrow trial); talk-show review overlaps Linke theme"
+      "reason": "not Berlin city (Güstrow, Saxony, Brandenburg); one-off crime"
     },
     {
-      "headline": "Wolf attack Wildpark Johannismühle; RE5 interrupted; Luckenwalde protection centre; IG Metall warning strikes",
+      "headline": "Unions-Fraktionschefs drohen mit Verfassungsklagen",
       "section": "berlin",
-      "reason": "Brandenburg, not Berlin; RE5 recent topic 23 Oct; publisher cap (rbb24)"
+      "reason": "dedup: berlin-union-threatens-constitutional-suits (29 Oct), no material development"
     },
     {
-      "headline": "Union constitutional-suit threats; Jena Höcke event",
+      "headline": "Polizei prüft Ausweitung bei Drohnen zur Lkw-Kontrolle",
       "section": "berlin",
-      "reason": "recent topic 29 Oct; Thuringia not Berlin"
+      "reason": "Autobahn traffic enforcement, unclear Berlin angle"
     },
     {
-      "headline": "US ambassador suggests Trump could blame Canada",
+      "headline": "Chocolate Price Spook Families for Halloween; Is brown rice healthier; dogs yawn",
       "section": "world",
-      "reason": "already in 29 Oct Selected Reads; parked in Other Headlines"
+      "reason": "low relevance / consumer filler (brown rice used in Selected Reads)"
     },
     {
-      "headline": "Tech stock selloff (Bloomberg); Google $500bn (Economist)",
+      "headline": "Africa's 'unprecedented' Ebola outbreak could reach UK (Guardian)",
       "section": "world",
-      "reason": "market wrap, publisher diversity; parked in Other Headlines"
-    },
-    {
-      "headline": "Why dogs catch yawns",
-      "section": "world",
-      "reason": "low relevance curiosity item"
+      "reason": "same theme as Handelsblatt Ebola item; one theme per section"
     }
   ]
 }
