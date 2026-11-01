@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-01
+
+- [How crypto hacking funds isolated North Korea’s nuclear programme](https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme) — The Guardian
+- [Andy Burnham’s government talks of change, then does nothing](https://www.economist.com/leaders/2026/10/29/andy-burnhams-government-talks-of-change-then-does-nothing) — The Economist
+- [Investors trim growth bets over fears of US economy’s AI exposure](https://www.ft.com/content/56b0d5fa-829c-47b1-b07b-b4be18f60151?syn-25a6b1a6=1) — Financial Times
+- [An Asian Stock Trader’s Guide Ahead of the US Midterm Elections](https://www.bloomberg.com/news/articles/2026-11-01/an-asian-stock-trader-s-guide-ahead-of-the-us-midterm-elections) — Bloomberg
+
 ## 2026-10-31
 
 - [AI Isn’t a Revolution—Yet](https://foreignpolicy.com/2026/10/30/artificial-intelligence-ai-revolution-technology-history-luddites/) — Foreign Policy
@@ -31,13 +38,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Treatments for age-related infertility are being developed at last](https://www.economist.com/science-and-technology/2026/10/26/treatments-for-age-related-infertility-are-being-developed-at-last) — The Economist
 - [Trump Explores Lifting Sanctions on Russia’s Flagship Investment Fund](https://www.nytimes.com/2026/10/27/us/politics/russia-fund-sanctions-trump.html) — The New York Times
 - [Aussie-Kiwi Rates Split Drives Biggest Currency Move in 9 Years](https://www.bloomberg.com/news/articles/2026-10-28/new-zealand-dollar-slides-most-versus-aussie-since-2017-on-rbnz) — Bloomberg
-
-## 2026-10-27
-
-- [Beware the political cost of economic insecurity](https://www.ft.com/content/4c7afa74-96a0-4064-879d-7d2620585608) — Financial Times
-- [Serbia’s Student Protesters Deserve a Nobel Prize](https://foreignpolicy.com/2026/10/26/serbia-elections-students-nobel-prize/) — Foreign Policy
-- [AI boom sparks circuit board crunch across global tech supply chain](https://asia.nikkei.com/spotlight/supply-chain/ai-boom-sparks-circuit-board-crunch-across-global-tech-supply-chain) — Nikkei Asia
-- [Johannesburg’s Infrastructure Decay Risks Driving Multinationals Out, Busi Mavuso Warns](https://www.bloomberg.com/news/videos/2026-10-27/mavuso-joburg-infrastructure-risks-driving-business-out-video) — Bloomberg
 
 ## Blocked until 5+ briefings have passed
 

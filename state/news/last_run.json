@@ -1,63 +1,21 @@
 {
   "briefing_type": "news",
-  "date": "2026-10-31",
-  "briefing_date": "2026-10-31",
-  "inbox_date": "2026-10-31",
+  "date": "2026-11-01",
+  "briefing_date": "2026-11-01",
+  "inbox_date": "2026-11-01",
   "status": "success",
-  "briefing_path": "briefings/news/2026-10-31.md",
-  "inbox_path": "inbox/news/2026-10-31-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-01.md",
+  "inbox_path": "inbox/news/2026-11-01-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {
-      "headline": "Urda crash follow-ups (Iryo restart, control-room staffing, victims' lives, letters, Toledo archbishop, town profile, company roles)",
-      "section": "spain",
-      "reason": "spain_pool_single_event: three distinct angles used (LZB outages, election politics, forensic protocol); rest skipped as human-interest or overlapping"
-    },
-    {
-      "headline": "Ebola im Kongo (Tagesspiegel duplicate)",
-      "section": "germany",
-      "reason": "geo-misfit: Congo outbreak belongs in World; duplicate of Handelsblatt item"
-    },
-    {
-      "headline": "Lawrow poltert beim G20-Außenministertreffen; Polens Verfassungsgericht",
-      "section": "germany",
-      "reason": "geo-misfit: foreign affairs belong outside Germany; parked in Other Headlines"
-    },
-    {
-      "headline": "Halloween: Warum sich manche Menschen lieber gruseln; Handel mit wilden Arten",
-      "section": "germany",
-      "reason": "lifestyle/low relevance filler"
-    },
-    {
-      "headline": "Bolsonaro erklärt sich zum wahren Wahlsieger Brasiliens",
-      "section": "germany",
-      "reason": "geo-misfit (Brazil); parked in Other Headlines"
-    },
-    {
-      "headline": "Fall Fabian / Fabian-Prozess; Toter in Annaberg-Buchholz; Wolf attack Wildpark; Märkisch-Oderland fire",
-      "section": "berlin",
-      "reason": "not Berlin city (Güstrow, Saxony, Brandenburg); one-off crime"
-    },
-    {
-      "headline": "Unions-Fraktionschefs drohen mit Verfassungsklagen",
-      "section": "berlin",
-      "reason": "dedup: berlin-union-threatens-constitutional-suits (29 Oct), no material development"
-    },
-    {
-      "headline": "Polizei prüft Ausweitung bei Drohnen zur Lkw-Kontrolle",
-      "section": "berlin",
-      "reason": "Autobahn traffic enforcement, unclear Berlin angle"
-    },
-    {
-      "headline": "Chocolate Price Spook Families for Halloween; Is brown rice healthier; dogs yawn",
-      "section": "world",
-      "reason": "low relevance / consumer filler (brown rice used in Selected Reads)"
-    },
-    {
-      "headline": "Africa's 'unprecedented' Ebola outbreak could reach UK (Guardian)",
-      "section": "world",
-      "reason": "same theme as Handelsblatt Ebola item; one theme per section"
-    }
+    {"headline": "Urda crash human-interest and follow-up pieces (victims' lives, rescue, ICU diary, third train, Angrois/dana PP comparison, Sánchez backs Puente, El País cause sequence)", "section": "spain", "reason": "spain_pool_single_event: three distinct angles used; rest overlapping or human-interest"},
+    {"headline": "Tusk vs Nawrocki Constitutional Court; Lawrow/G20 commentary", "section": "germany", "reason": "geo-misfit: foreign affairs belong outside Germany; parked in Other Headlines"},
+    {"headline": "Heidi Klum Halloween costume; Unheilig-Graf interview; Eindhoven city trip", "section": "germany", "reason": "celebrity/lifestyle filler"},
+    {"headline": "Kinderarzt trial (Havelland); Fall Fabian; Annaberg-Buchholz death; Hennigsdorf bridge; Linum cranes", "section": "berlin", "reason": "not Berlin city proper, or one-off crime/low relevance"},
+    {"headline": "20% Berlin newsletters #540/#541", "section": "berlin", "reason": "newsletter roundup, no single story"},
+    {"headline": "AI Isn't a Revolution—Yet; Why Africa needs its own AI off switch", "section": "world", "reason": "already in selected_reads_index within last 5 briefings"},
+    {"headline": "Is brown rice healthier; War Room warplanes newsletter; Toyota-backed truckmaker", "section": "world", "reason": "low relevance / consumer filler or repeat"},
+    {"headline": "Steve Bannon civil war; Andy Burnham budget; Google $500bn", "section": "world", "reason": "kept out of World to preserve non-European regions; moved to Other Headlines / Selected Reads"}
   ]
 }

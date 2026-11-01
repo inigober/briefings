@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-01
+
+- **spain-puente-safety-package-cabinet-tuesday** — EL PAÍS: Puente to take an AVE safety reinforcement package to cabinet; Sánchez backs him (section: spain)
+- **spain-urda-five-unanswered-questions** — eldiario.es: first investigators' report leaves five questions open (LZB failure, normal-speed order, green signal, driver obeyed) (section: spain)
+- **spain-atocha-control-centre-staffing-liberalisation** — eldiario.es: controllers handle 30–40 trains per shift vs 10–20, no staff rise since Iryo/Ouigo (section: spain)
+- **germany-gas-storage-below-targets** — Handelsblatt: gas storage low and below required fill levels before winter (section: germany)
+- **germany-bahn-last-minute-tickets-extended** — Tagesspiegel: DB extends weekend last-minute fares and youth BahnCard by a year (section: germany)
+- **germany-vegan-diet-climate** — Handelsblatt: experts on climate benefits of vegetarian/vegan diets (section: germany)
+- **berlin-linke-congress-coalition-talks** — rbb24: Linke special congress votes to open coalition negotiations with Greens and SPD (section: berlin)
+- **berlin-gen-z-demo-stones-pyrotechnics** — rbb24: Gen Z protest ended early in Mitte after stones, bottles, fireworks (section: berlin)
+- **berlin-kaeltehilfe-buses-return** — Tagesspiegel: Kältehilfe night buses for homeless people back on the road (section: berlin)
+- **world-binance-6-3bn-hack-north-korea** — The Guardian: Binance replaces 90% of $6.3bn stolen; FBI blames North Korea's TraderTraitor (section: world)
+- **world-iran-khamenei-retaliation-warning** — Financial Times: Khamenei warns of immediate response without geographical limits; Qatari mediation (section: world)
+- **world-pakistan-refineries-profit-jump** — Nikkei Asia: Pakistan refineries report 1,860% profit jump amid war windfall (section: world)
+
 ## 2026-10-31
 
 - **spain-lzb-170-outages-2026** — EL PAÍS: Puente says the LZB train-protection system was out of service at least 170 times this year (section: spain)
@@ -215,19 +230,4 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-us-10tn-ai-infra-fray** — Financial Times: America's $10tn AI infrastructure boom is starting to fray on physical-world economics (section: world)
 - **world-indonesia-nickel-vw-ford-tesla** — The Guardian: VW, Ford and Tesla batteries linked to nickel-mine deforestation on Tolaki land (section: world)
 - **world-venezuela-76bn-oil-investment** — Bloomberg: Acting President Rodríguez cites nearly $76bn oil and gas investment over five years (section: world)
-
-## 2026-10-17
-
-- **spain-frente-amplio-podemos-split-except-canarias-valencia** — EL PAÍS: Frente Amplio and Podemos closed a single Congress ballot only in the Canary Islands and Valencia (section: spain)
-- **spain-minguez-resigns-partner-rentals** — eldiario.es: PSOE spokesperson Montse Mínguez resigns after reporting on her partner's rental portfolio (section: spain)
-- **spain-medicinal-cannabis-hospitals** — EL PAÍS: specialist-prescribed medicinal cannabis arrives in hospital pharmacies (section: spain)
-- **germany-netzentgelte-rise-2027** — Handelsblatt: electricity and gas grid charges set to rise in 2027 (section: germany)
-- **germany-fruehstartrente-hoffmann-wuest** — Handelsblatt: Bundestag passes Frühstartrente; Wüst elected Bundesrat president; Hoffmann opposes MPs in statutory pension (section: germany)
-- **germany-2050-young-politicians** — Tagesspiegel: Lang, dos Santos-Wintz, Schwerdtner and Rinkert sketch Germany 2050 (section: germany)
-- **berlin-gp-waiting-rooms-covid** — Tagesspiegel: Berlin GP waiting rooms full; Covid cases rising with winter bugs (section: berlin)
-- **berlin-prenzlauer-berg-no-longer-kinderhochburg** — Tagesspiegel: Prenzlauer Berg has lost its Pregnancy Hill / Kinderhochburg reputation (section: berlin)
-- **berlin-mittelham-em-gold** — rbb24: Nina Mittelham (TTC Eastside) wins European mixed-doubles gold (section: berlin)
-- **world-sea-us-china-ai-blocs** — Nikkei Asia: Southeast Asia caught between competing US and Chinese AI blocs (section: world)
-- **world-brazil-amazon-deforestation-record-low** — The Guardian: Amazon deforestation at lowest since 1988 as Brazil runoff looms (section: world)
-- **world-anthropic-blackstone-chip-yield** — Financial Times: Anthropic offers Blackstone a double-digit yield for chip financing (section: world)
 
