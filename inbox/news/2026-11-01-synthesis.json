@@ -1,0 +1,2556 @@
+{
+  "briefing_type": "news",
+  "date": "2026-11-01",
+  "source_raw": "inbox/news/2026-11-01-raw.json",
+  "built_at": "2026-11-01T05:31:51.730538+00:00",
+  "model": null,
+  "raw_item_count": 174,
+  "section_counts": {
+    "spain": 12,
+    "germany": 12,
+    "berlin": 12,
+    "world": 12
+  },
+  "selected_read_candidates": [
+    {
+      "id": "rss-world-a285a188f4",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Investors trim growth bets over fears of US economy’s AI exposure",
+      "summary": "Return to bonds after long sell-off comes as concern rises about over-reliance on tech spending",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Investors trim growth bets over fears of US economy’s AI exposure",
+          "url": "https://www.ft.com/content/56b0d5fa-829c-47b1-b07b-b4be18f60151?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-31",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-e44be90de6",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "AI Isn’t a Revolution—Yet",
+      "summary": "Just as British people did with steam power, the American public can shape how this technology spreads.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "AI Isn’t a Revolution—Yet",
+          "url": "https://foreignpolicy.com/2026/10/30/artificial-intelligence-ai-revolution-technology-history-luddites/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-2f32b1a58a",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "An Asian Stock Trader’s Guide Ahead of the US Midterm Elections",
+      "summary": "Asia’s AI-heavy stock markets face a new US policy wildcard in the midterm elections, with the outcome potentially reshaping the tech trade and sectors from clean energy to defense.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "An Asian Stock Trader’s Guide Ahead of the US Midterm Elections",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/an-asian-stock-trader-s-guide-ahead-of-the-us-midterm-elections",
+          "publisher": "Bloomberg",
+          "published_at": "2026-11-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-938422aa1d",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Why Africa needs its own AI off switch",
+      "summary": "Africa must develop AI systems with local control to protect critical infrastructure such as mobile money networks from growing AI-powered cyberthreats.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Why Africa needs its own AI off switch",
+          "url": "https://restofworld.org/2026/africa-sovereign-ai-off-switch/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "publisher": "Rest of World",
+          "published_at": "2026-10-29",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-766deaa0cb",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Steve Bannon: Republicans will erupt in ‘civil war’ after midterm elections",
+      "summary": "Former White House chief strategist predicts ‘monster’ legislative battles before new Congress is sworn in",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Steve Bannon: Republicans will erupt in ‘civil war’ after midterm elections",
+          "url": "https://www.ft.com/content/a97de5ca-484e-4ed9-84e0-958b90b85ef8?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-31",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-427c6ed046",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Binance says 90% of losses from $6.3bn hack covered as FBI says North Korea behind attack",
+      "summary": "Cryptocurrency exchange says withdrawals expected to resume on Sunday as FBI blames North Korean state-sponsored group TraderTraitor Cryptocurrency exchange Binance says it has replaced 90% of the ⁠amount stolen after a record $6.3bn hack of its platform by a group the FBI identified as being backed by North Korea. The remaining 10% of tokens are less liquid, meaning they ⁠may take ​longer to buy, the company said in a post on X on Saturday. Co-CEO Richard Teng said separately that the company was “committed to covering the ⁠remaining 10%” and that “users will not bear the financial impact ...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Binance says 90% of losses from $6.3bn hack covered as FBI says North Korea behind attack",
+          "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
+          "publisher": "The Guardian",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-b0aa7d88e4",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "How crypto hacking funds isolated North Korea’s nuclear programme",
+      "summary": "Cryptocurrency theft is estimated to generate half of the country’s foreign currency income North Korea plays by its own rules. The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking. Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit that has also been known as the Lazarus Group. Though the link may not be proven yet, the patter...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "How crypto hacking funds isolated North Korea’s nuclear programme",
+          "url": "https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme",
+          "publisher": "The Guardian",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-a6ef2dc75f",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Pakistan refineries report 1,860% jump in profit amid war windfall",
+      "summary": "Pakistan refineries report 1,860% jump in profit amid war windfall",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Pakistan refineries report 1,860% jump in profit amid war windfall",
+          "url": "https://asia.nikkei.com/business/energy/pakistan-refineries-report-1-860-jump-in-profit-amid-war-windfall2",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "rss-spain-6af4086c08",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Sánchez sostiene a Puente para que no dimita por ahora y le ayude a gestionar la gran crisis de Urda",
+      "summary": "El presidente le pidió a su ministro aguantar en el cargo y cree que su salida en este momento solo contribuiría a reforzar la tesis de que los accidentes de tren y las muertes son responsabilidad de su Gobierno Puente puso su cargo a disposición del presidente tras el accidente de Urda y Sánchez le pidió que no dimitiera El debate interno sobre la continuidad o no de Óscar Puente como ministro de Transportes tras la segunda catástrofe ferroviaria en apenas diez meses ha sido sofocado por el presidente. Al menos, de momento. La orden política de Pedro Sánchez en este punto exacto de la dige...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Sánchez sostiene a Puente para que no dimita por ahora y le ayude a gestionar la gran crisis de Urda",
+          "url": "https://www.eldiario.es/politica/sanchez-sostiene-puente-no-dimita-ahora-le-ayude-gestionar-gran-crisis-urda_1_13628223.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-5bba49cf9c",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Accidente en Urda: las cinco incógnitas sin resolver tras un choque mortal y evitable",
+      "summary": "¿Por qué falló el sistema LZB? ¿Por qué se ordenó ir a marcha normal? ¿Por qué se puso en verde un semáforo que debía estar en rojo? ¿Por qué obedeció el maquinista, si su sistema vio la vía ocupada por otro tren? Por el momento, los testigos de ese fatal día “no están en condiciones de someterse a entrevistas”, según el primer informe de la autoridad que investiga el choque El maquinista del AVE informó al centro de control de que su sistema de seguridad veía la vía ocupada y aun así le dieron paso Todo lo que pudo salir mal salió mal en Urda. La autoridad que investiga el choque ferroviar...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Accidente en Urda: las cinco incógnitas sin resolver tras un choque mortal y evitable",
+          "url": "https://www.eldiario.es/castilla-la-mancha/accidente-urda-cinco-incognitas-resolver-choque-mortal-evitable_1_13626632.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-3574bffccc",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Las vidas que segó la tragedia de Urda",
+      "summary": "Entre las 69 personas fallecidas, se encuentra Antonio Acedo, que era el maquinista del AVE, la exministra Fátima Báñez, la atleta Julieta Gallego, el padre del actor sevillano César Vicente o el reportero Raúl Triguero, nacido en Guadalajara El día después en Urda: del silencio en el pueblo a la vorágine de la zona cero del accidente Julieta Gallego, Antonio Montero, Adriana Marroquín, Antonio Acedo, César Vicente, Fátima Báñez, Raúl Triguero, Francisco José Barbero. Son algunos de los nombres de los muertos en la catástrofe ferroviaria de Urda. Las vidas que fueron segadas por la catástro...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Las vidas que segó la tragedia de Urda",
+          "url": "https://www.eldiario.es/castilla-la-mancha/provincias/toledo/vidas-sego-tragedia-urda_1_13626510.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-42873516a2",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Un guardia civil cuenta el rescate de Almudena, la sevillana que viajaba en el Iryo de Urda: \"Fue la única que salió con vida\"",
+      "summary": "El agente dio con ella gracias a que escuchó su grito dentro del convoy y, tras una hora, lograron sacar su cuerpo para trasladarla al hospital más cercano. La víctima de la colisión en Toledo se encuentra recuperándose en la unidad de cuidados intensivos Las vidas que segó la tragedia de Urda Directo - Última hora del accidente de tren de Toledo “Estaba frustrado hasta que supe que estaba viva, porque fue la única persona que salió”, explica a cámara un aliviado Salvador Correa. El agente de la Guardia Civil participó en el rescate de Almudena, una mujer sevillana que viajaba en el vagón 1...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Un guardia civil cuenta el rescate de Almudena, la sevillana que viajaba en el Iryo de Urda: \"Fue la única que salió con vida\"",
+          "url": "https://www.eldiario.es/andalucia/guardia-civil-cuenta-rescate-almudena-sevillana-viajaba-iryo-urda-unica-salio-vida_1_13629494.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-88eca3acae",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "De Angrois a la dana de Valencia: cuando el PP gobernó sin asumir responsabilidades ante tragedias mortales",
+      "summary": "Alberto Núñez Feijóo señaló al maquinista del Alvia que conducía el tren que se estrelló en Santiago en 2013 y vetó investigaciones políticas, y una década después, protegió al presidente de la Generalitat durante todo un año Los despropósitos en Angrois en 2013: fallos de coordinación en el rescate y veto de Feijóo a investigar en el Parlamento El accidente ferroviario más grave de España desde la restauración de la democracia no fue el de Adamuz, con 46 fallecidos, ni el más reciente de Urda, donde se contabilizan al menos 69 personas muertas, aunque se prevé que la cifra aumente. Ocurrió...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "De Angrois a la dana de Valencia: cuando el PP gobernó sin asumir responsabilidades ante tragedias mortales",
+          "url": "https://www.eldiario.es/politica/angrois-dana-valencia-pp-goberno-asumir-responsabilidades-tragedias-mortales_1_13628170.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-e1de649648",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Así funciona el centro de control del AVE en Atocha: 5 mesas, 16 profesionales y el doble de trenes por turno que antes de la liberalización",
+      "summary": "Un controlador, solo ante la mesa con los monitores, pasa a gestionar entre 10 y 20 trenes por jornada a entre 30 y 40 sin un aumento de personal desde la entrada de Iryo y Ouigo El maquinista del AVE informó al centro de control de que su sistema de seguridad veía la vía ocupada y aun así le dieron paso Una gran pantalla de 40 metros cuadrados al fondo de la sala con todo el mapa de la red ferroviaria española, conocida como videowall . Siete mesas de regulación, dos de ellas con dos profesionales cada una y cinco con solo un trabajador en una sala de 120 metros cuadrados. Estos son los ac...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Así funciona el centro de control del AVE en Atocha: 5 mesas, 16 profesionales y el doble de trenes por turno que antes de la liberalización",
+          "url": "https://www.eldiario.es/economia/funciona-centro-control-ave-atocha-5-mesas-16-profesionales-doble-trenes-turno-liberalizacion_1_13628184.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-10-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-34c15da985",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "No fue solo un fallo humano: las debilidades del sistema que evidencian los accidentes de Urda y Adamuz",
+      "summary": "Los datos ya conocidos sobre el último siniestro mortal aluden a un déficit en el sistema, que empieza a cambiar: Renfe adopta las primeras modificaciones y Puente anuncia nuevas medidas",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "No fue solo un fallo humano: las debilidades del sistema que evidencian los accidentes de Urda y Adamuz",
+          "url": "https://elpais.com/espana/2026-11-01/inasumible-no-es-lo-mismo-que-inexplicable-las-debilidades-del-sistema-que-evidencian-los-accidentes-de-urda-y-adamuz.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-099a642ccd",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "¿Qué causó el accidente? La secuencia paso a paso de una cadena de fallos que el sistema no detuvo",
+      "summary": "La información disponible apunta a algo más que errores humanos: nada evitó que resultaran fatales",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "¿Qué causó el accidente? La secuencia paso a paso de una cadena de fallos que el sistema no detuvo",
+          "url": "https://elpais.com/espana/2026-11-01/que-causo-el-accidente-la-secuencia-paso-a-paso-de-una-cadena-de-fallos-que-el-sistema-no-detuvo.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-8c4be38796",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Las vidas truncadas en el tren: “Gracias por quererme, por entenderme, por ser el mejor padre del mundo”",
+      "summary": "El goteo de identificación de fallecidos y desaparecidos en el accidente de Urda desvela las historias detrás de las 69 víctimas y el dolor de sus familias",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Las vidas truncadas en el tren: “Gracias por quererme, por entenderme, por ser el mejor padre del mundo”",
+          "url": "https://elpais.com/espana/2026-11-01/las-vidas-truncadas-en-el-tren-gracias-por-quererme-por-entenderme-por-ser-el-mejor-padre-del-mundo.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-c2443fff40",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "El diario de Carmen mientras su padre lucha por recuperarse en la UCI: “Papá, tú no te puedes ir”",
+      "summary": "La música que tantas veces les hizo bailar juntos suena ahora junto a la cama del Hospital Universitario de Toledo, donde Carmen se aferra a cada pequeño gesto de su padre",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "El diario de Carmen mientras su padre lucha por recuperarse en la UCI: “Papá, tú no te puedes ir”",
+          "url": "https://elpais.com/espana/2026-11-01/papa-tu-no-te-puedes-ir-el-diario-de-carmen-mientras-su-padre-lucha-por-recuperarse-en-la-uci.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-99c75a6d00",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "El tercer tren de Urda: la espera bajo un puente a dos kilómetros de la tragedia",
+      "summary": "Los viajeros del AVE Sevilla-Madrid reconstruyen la parada, la salida por los caminos hasta el pueblo y la ayuda a los pasajeros de los trenes siniestrados en el accidente que dejó 69 muertos",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "El tercer tren de Urda: la espera bajo un puente a dos kilómetros de la tragedia",
+          "url": "https://elpais.com/espana/2026-11-01/el-tercer-tren-de-urda-la-espera-bajo-un-puente-a-dos-kilometros-de-la-tragedia.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-5942baf267",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Puente intenta bajar la presión con un gran plan de refuerzo de la seguridad del AVE",
+      "summary": "El martes llevará al Consejo de Ministros un paquete de medidas. Sánchez opta por apoyarlo aunque algunos miembros del Gobierno lo ven insostenible. La campaña cambia por completo",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Puente intenta bajar la presión con un gran plan de refuerzo de la seguridad del AVE",
+          "url": "https://elpais.com/espana/2026-11-01/puente-intenta-bajar-la-presion-con-un-gran-plan-de-refuerzo-de-la-seguridad-del-ave.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-c089ad99ec",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Vegane Ernährung: Nichts vom Tier auf dem Teller - was bringt das fürs Klima?",
+      "summary": "Millionen Menschen in Deutschland ernähren sich vegetarisch oder vegan. Tierwohl und Faktor Klima spielen eine Rolle. Tatsächlich kann Klimaschutz auch auf dem Teller stattfinden, sagen Experten.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Vegane Ernährung: Nichts vom Tier auf dem Teller - was bringt das fürs Klima?",
+          "url": "https://www.handelsblatt.com/technik/forschung-innovation/vegane-ernaehrung-nichts-vom-tier-auf-dem-teller-was-bringt-das-fuers-klima/100266398.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-7f3e7c8716",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Städtereise: Ohne Grachten und Giebelhäuschen: So hip ist Eindhoven",
+      "summary": "Philips machte die Stadt groß. Als der Elektronikkonzern Eindhoven verließ, standen die Fabriken leer. Aber neues Leben ist eingekehrt. Das „New Dutch“ macht die Stadt auch touristisch interessant.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Städtereise: Ohne Grachten und Giebelhäuschen: So hip ist Eindhoven",
+          "url": "https://www.handelsblatt.com/unternehmen/dienstleister/staedtereise-ohne-grachten-und-giebelhaeuschen-so-hip-ist-eindhoven/100266395.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-e0321530cf",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Fernverkehr: Bahn verlängert Last-Minute-Tickets und Jugend-Bahncard",
+      "summary": "Seit Mai können Kurzentschlossene am Wochenende noch günstige Bahnfahrten für die Folgewoche kaufen. Nun verlängert der bundeseigene Konzern diese Last-Minute-Möglichkeit um ein Jahr.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Fernverkehr: Bahn verlängert Last-Minute-Tickets und Jugend-Bahncard",
+          "url": "https://www.handelsblatt.com/politik/deutschland/fernverkehr-bahn-verlaengert-last-minute-tickets-und-jugend-bahncard/100266392.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-97d5b9b1df",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Gerichtsstreit in Polen: Tusk: Im Rechtsstaat gilt nicht das Gesetz des Dschungels",
+      "summary": "Nach dem umstrittenen Auftritt von Polens Präsident Nawrocki im Verfassungsgericht verschärft Regierungschef Tusk den Ton. Den Gesprächen im Präsidentenpalast bleibt seine Partei fern.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Gerichtsstreit in Polen: Tusk: Im Rechtsstaat gilt nicht das Gesetz des Dschungels",
+          "url": "https://www.handelsblatt.com/politik/international/gerichtsstreit-in-polen-tusk-im-rechtsstaat-gilt-nicht-das-gesetz-des-dschungels/100266386.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-f884cc808e",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Gasversorgung: Vorgaben bei Gasspeichern verfehlt - was bedeutet das?",
+      "summary": "Der Winter steht bevor - und die Gasspeicher in Deutschland sind vergleichsweise gering befüllt. Vorgaben werden nicht eingehalten. Was nun?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Gasversorgung: Vorgaben bei Gasspeichern verfehlt - was bedeutet das?",
+          "url": "https://www.handelsblatt.com/politik/deutschland/gasversorgung-vorgaben-bei-gasspeichern-verfehlt-was-bedeutet-das/100266387.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-4585e3d535",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Kommentar: Das Gebaren Lawrows ist unerträglich – Trump macht’s möglich",
+      "summary": "Mit Russlands Außenminister plaudern, während Putin seine Blutspur durch die Ukraine zieht – das G20-Treffen zeigt, wie sehr die politischen und ethischen Maßstäbe verrückt sind.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Kommentar: Das Gebaren Lawrows ist unerträglich – Trump macht’s möglich",
+          "url": "https://www.handelsblatt.com/meinung/kommentare/kommentar-das-gebaren-lawrows-ist-unertraeglich-trump-machts-moeglich/100266363.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-544f98ddcc",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "New York: Heidi Klum geht an Halloween als ihre eigene Hand",
+      "summary": "Jedes Jahr schmeißt Heidi Klum zu Halloween eine Party. Das Highlight ist immer das Kostüm der Gastgeberin selbst. Auch in diesem Jahr sorgt es für einiges Staunen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "New York: Heidi Klum geht an Halloween als ihre eigene Hand",
+          "url": "https://www.tagesspiegel.de/gesellschaft/dpa-new-york-heidi-klum-geht-an-halloween-als-ihre-eigene-hand-16225123.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-14feed2c16",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Vegane Ernährung: Nichts vom Tier auf dem Teller - was bringt das fürs Klima?",
+      "summary": "Millionen Menschen in Deutschland ernähren sich vegetarisch oder vegan. Tierwohl und Faktor Klima spielen eine Rolle. Tatsächlich kann Klimaschutz auch auf dem Teller stattfinden, sagen Experten.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Vegane Ernährung: Nichts vom Tier auf dem Teller - was bringt das fürs Klima?",
+          "url": "https://www.tagesspiegel.de/wissen/dpa-vegane-ernahrung-nichts-vom-tier-auf-dem-teller-was-bringt-das-furs-klima-16225121.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-3ff2792a76",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "„Geboren um zu leben“: Unheilig-Graf schmunzelt über Griesgram-Image: „Lache gerne“",
+      "summary": "Ernste Miene und Lieder voller Weltschmerz - der Musiker weiß, welches Bild viele von ihm haben. Doch der Sänger sagt: Ich habe auch eine heitere Seite.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "„Geboren um zu leben“: Unheilig-Graf schmunzelt über Griesgram-Image: „Lache gerne“",
+          "url": "https://www.tagesspiegel.de/gesellschaft/dpa-geboren-um-zu-leben-unheilig-graf-schmunzelt-uber-griesgram-image-lache-gerne-16225109.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-2b4207c517",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Fernverkehr: Bahn verlängert Last-Minute-Tickets und Jugend-Bahncard",
+      "summary": "Seit Mai können Kurzentschlossene am Wochenende noch günstige Bahnfahrten für die Folgewoche kaufen. Nun verlängert der bundeseigene Konzern diese Last-Minute-Möglichkeit um ein Jahr.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Fernverkehr: Bahn verlängert Last-Minute-Tickets und Jugend-Bahncard",
+          "url": "https://www.tagesspiegel.de/wirtschaft/dpa-fernverkehr-bahn-verlangert-last-minute-tickets-und-jugend-bahncard-16225107.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-505024e7a8",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "New York: Heidi Klum geht an Halloween als ihre eigene Hand",
+      "summary": "New York: Heidi Klum geht an Halloween als ihre eigene Hand",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "New York: Heidi Klum geht an Halloween als ihre eigene Hand",
+          "url": "https://www.zeit.de/news/2026-11/01/heidi-klum-geht-an-halloween-als-ihre-eigene-hand",
+          "publisher": "Die Zeit",
+          "published_at": "2026-11-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-germany-e0142c8e68",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Polen: Donald Tusk wirft Polens Präsidenten Angriff auf Rechtsstaat vor",
+      "summary": "Im Streit um das Verfassungsgericht verschärft Polens Regierungschef gegenüber Präsident Karol Nawrocki den Ton. Der hatte tags zuvor eine Richterin beiseite gedrängt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Polen: Donald Tusk wirft Polens Präsidenten Angriff auf Rechtsstaat vor",
+          "url": "https://www.zeit.de/politik/ausland/2026-11/polen-donald-tusk-justiz-streit-verfassungsgericht-nawrocki",
+          "publisher": "Die Zeit",
+          "published_at": "2026-11-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-c5d8761aad",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Prozess beginnt: Kinderarzt wegen Missbrauchs von Patienten vor Gericht",
+      "summary": "Ein Kinderarzt aus dem Havelland soll junge Patienten sexuell missbraucht haben. Die Anklagebehörde wirft ihm insgesamt 130 Fälle vor, es soll mehr als 70 Opfer geben. Jetzt beginnt der Prozess.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Prozess beginnt: Kinderarzt wegen Missbrauchs von Patienten vor Gericht",
+          "url": "https://www.tagesspiegel.de/berlin/dpa-prozess-beginnt-kinderarzt-wegen-missbrauchs-von-patienten-vor-gericht-16225119.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-berlin-1d084b896f",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Obdachlosigkeit: Kältehilfe für Obdachlose: Busse wieder unterwegs",
+      "summary": "Warme Getränke, Schlafsäcke oder eine Fahrt ins Warme: Bei den kälter werdenden Temperaturen machen die Teams in den Bussen die Nächte für Menschen ohne Zuhause ein Stück sicherer.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Obdachlosigkeit: Kältehilfe für Obdachlose: Busse wieder unterwegs",
+          "url": "https://www.tagesspiegel.de/berlin/dpa-obdachlosigkeit-kaltehilfe-fur-obdachlose-busse-wieder-unterwegs-16225111.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-berlin-e57fcccbc2",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Vogelzug: Weniger Kraniche in Linum: Biologin sieht normale Schwankung",
+      "summary": "Weniger Wasser, weniger Kraniche: In Linum sorgt die Trockenheit dafür, dass weniger der Vögel dort rasten. Eine Biologin gibt Entwarnung.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Vogelzug: Weniger Kraniche in Linum: Biologin sieht normale Schwankung",
+          "url": "https://www.tagesspiegel.de/berlin/dpa-vogelzug-weniger-kraniche-in-linum-biologin-sieht-normale-schwankung-16225105.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-berlin-091929d073",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Fall Fabian: Verteidiger fordern Freispruch für Gina H. - „Keine lückenlose Beweiskette“",
+      "summary": "Thomas Löcker und Andreas Ohm bezweifeln Faser- und Schuhspuren, Handydaten sowie belastende Zeugenaussagen und sehen Anklage durch zwei Kinderzeugen erschüttert.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Fall Fabian: Verteidiger fordern Freispruch für Gina H. - „Keine lückenlose Beweiskette“",
+          "url": "https://www.berliner-zeitung.de/article/fall-fabian-verteidiger-fordern-freispruch-fuer-gina-h-keine-lueckenlose-beweiskette-10540943",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-24550a2da1",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "43-Jähriger tot auf Supermarkt-Parkplatz im Erzgebirge entdeckt",
+      "summary": "Kurz vor Mitternacht eilten Polizei und Rettungswagen auf einen Lidl-Parkplatz in Annaberg-Buchholz. Eine Schlägerei endete dort tödlich.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "43-Jähriger tot auf Supermarkt-Parkplatz im Erzgebirge entdeckt",
+          "url": "https://www.berliner-zeitung.de/article/toter-auf-supermarkt-parkplatz-im-erzgebirge-entdeckt-10545731",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-66e49b73a0",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Fabian-Prozess: Nebenklage erinnert emotional an den getöteten Achtjährigen",
+      "summary": "Im Mordprozess um Fabian aus Güstrow hat auch die Nebenklage lebenslange Haft für Gina H. gefordert. Christine Habetha stellte den Achtjährigen in den Mittelpunkt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Fabian-Prozess: Nebenklage erinnert emotional an den getöteten Achtjährigen",
+          "url": "https://www.berliner-zeitung.de/article/fabian-prozess-nebenklage-erinnert-emotional-an-den-getoeteten-achtjaehrigen-10544463",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-29",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-97e082557b",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Demo \"GenZ hat genug!\": Steinwürfe und Pyrotechnik - Polizei stoppt Demo in Berlin",
+      "summary": "Nach dem Ende der Gen Z-Demo am Brandenburger Tor hat sich das Protestgeschehen nach Berlin-Mitte verlagert. Dort war die Stimmung deutlich aufgeheizter. Nach Stein- und Flaschenwürfen wurde die Demo vorzeitig beendet.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Demo \"GenZ hat genug!\": Steinwürfe und Pyrotechnik - Polizei stoppt Demo in Berlin",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/demo-gen-z-hat-genug-rosenthaler-platz-polizei.html",
+          "publisher": "rbb24",
+          "published_at": "2026-10-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-523a3be954",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Neubau in Oberhavel: Hennigsdorfer Havelbrücke auf halbem Weg",
+      "summary": "Neubau in Oberhavel: Hennigsdorfer Havelbrücke auf halbem Weg",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Neubau in Oberhavel: Hennigsdorfer Havelbrücke auf halbem Weg",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/brandenburg-bruecke-havel-hennigsdorf-halb-fertig.html",
+          "publisher": "rbb24",
+          "published_at": "2026-10-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-beb6de7fec",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Auch die Linke macht den Weg frei für Koalitionsverhandlungen",
+      "summary": "Die Berliner Linke hat den Weg frei gemacht für Koalitionsverhandlungen mit den Grünen und der SPD. Bei einem Sonderparteitag stimmte eine Mehrheit der Delegierten dafür, trotz teils heftiger, innerparteilicher Kritik.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Auch die Linke macht den Weg frei für Koalitionsverhandlungen",
+          "url": "https://www.rbb24.de/politik/beitrag/2026/10/linke-parteitag-elif-eralp-koalitionsverhandlungen.html",
+          "publisher": "rbb24",
+          "published_at": "2026-10-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-0bf75c8d5e",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Berlin und Brandenburg: Ein zu warmer Oktober ist das neue Normal",
+      "summary": "Das zehnte Jahr in Folge war der Oktober in Berlin und Brandenburg deutlich zu warm. Obwohl die Niederschlagsmengen und Sonnenscheindauer annähernd normal waren, konnte dies die anhaltende Trockenheit nicht abmildern.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Berlin und Brandenburg: Ein zu warmer Oktober ist das neue Normal",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/10/wetter-klima-oktober-dwd-langzeitvergleich-temperaturen-niederschlag.html",
+          "publisher": "rbb24",
+          "published_at": "2026-10-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-89823ec301",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "👩🏽🌮 #541: Halloween protests, AfD elbowed out, Eralp smear campaign",
+      "summary": "Germany began recruiting Turks 65 years ago!",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "👩🏽🌮 #541: Halloween protests, AfD elbowed out, Eralp smear campaign",
+          "url": "https://www.20percent.berlin/p/541-halloween-protests-afd-elbowed",
+          "publisher": "20% Berlin",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 56
+    },
+    {
+      "id": "rss-berlin-94aede1187",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "🗼🏊🏽‍♀️ #540: Die Linke mess, taxi mess, Paris train, night-swimming",
+      "summary": "A big Gen Z protest on Halloween",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "🗼🏊🏽‍♀️ #540: Die Linke mess, taxi mess, Paris train, night-swimming",
+          "url": "https://www.20percent.berlin/p/540-die-linke-mess-taxi-mess-paris",
+          "publisher": "20% Berlin",
+          "published_at": "2026-10-27",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 56
+    },
+    {
+      "id": "rss-world-2f1d411d3e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Is brown rice really healthier than white rice?",
+      "summary": "The scientific evidence goes against the grain",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Is brown rice really healthier than white rice?",
+          "url": "https://www.economist.com/science-and-technology/2026/10/30/is-brown-rice-really-healthier-than-white-rice",
+          "publisher": "The Economist",
+          "published_at": "2026-10-30",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 83
+    },
+    {
+      "id": "rss-world-2f32b1a58a",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "An Asian Stock Trader’s Guide Ahead of the US Midterm Elections",
+      "summary": "Asia’s AI-heavy stock markets face a new US policy wildcard in the midterm elections, with the outcome potentially reshaping the tech trade and sectors from clean energy to defense.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "An Asian Stock Trader’s Guide Ahead of the US Midterm Elections",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/an-asian-stock-trader-s-guide-ahead-of-the-us-midterm-elections",
+          "publisher": "Bloomberg",
+          "published_at": "2026-11-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 72
+    },
+    {
+      "id": "rss-world-e44be90de6",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "AI Isn’t a Revolution—Yet",
+      "summary": "Just as British people did with steam power, the American public can shape how this technology spreads.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "AI Isn’t a Revolution—Yet",
+          "url": "https://foreignpolicy.com/2026/10/30/artificial-intelligence-ai-revolution-technology-history-luddites/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 67
+    },
+    {
+      "id": "rss-world-938422aa1d",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Why Africa needs its own AI off switch",
+      "summary": "Africa must develop AI systems with local control to protect critical infrastructure such as mobile money networks from growing AI-powered cyberthreats.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Why Africa needs its own AI off switch",
+          "url": "https://restofworld.org/2026/africa-sovereign-ai-off-switch/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "publisher": "Rest of World",
+          "published_at": "2026-10-29",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-a285a188f4",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Investors trim growth bets over fears of US economy’s AI exposure",
+      "summary": "Return to bonds after long sell-off comes as concern rises about over-reliance on tech spending",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Investors trim growth bets over fears of US economy’s AI exposure",
+          "url": "https://www.ft.com/content/56b0d5fa-829c-47b1-b07b-b4be18f60151?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-31",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-766deaa0cb",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Steve Bannon: Republicans will erupt in ‘civil war’ after midterm elections",
+      "summary": "Former White House chief strategist predicts ‘monster’ legislative battles before new Congress is sworn in",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Steve Bannon: Republicans will erupt in ‘civil war’ after midterm elections",
+          "url": "https://www.ft.com/content/a97de5ca-484e-4ed9-84e0-958b90b85ef8?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-31",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-771f12303f",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Iran warns it will retaliate without ‘geographical limitations’ if attacked",
+      "summary": "Ayatollah Khamenei tells military commanders response will be ‘immediate’ as Qatari mediators seek to avert a feared US-Israeli bombing campaign",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Iran warns it will retaliate without ‘geographical limitations’ if attacked",
+          "url": "https://www.ft.com/content/77370477-62df-4499-9ab6-4063d3e361bd?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-31",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-49af42b639",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Toyota-backed truckmaker bets on aftersales service to fend off Chinese EV rivals",
+      "summary": "Archion chief says repair network offers competitive strength after Thai floods bring service quality to fore",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Toyota-backed truckmaker bets on aftersales service to fend off Chinese EV rivals",
+          "url": "https://www.ft.com/content/7e749777-dcee-4c11-9bdc-7f81bee80455?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-11-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-29605c90d9",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Andy Burnham’s government talks of change, then does nothing",
+      "summary": "Britain’s unimpressive budget reveals a lack of ambition",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Andy Burnham’s government talks of change, then does nothing",
+          "url": "https://www.economist.com/leaders/2026/10/29/andy-burnhams-government-talks-of-change-then-does-nothing",
+          "publisher": "The Economist",
+          "published_at": "2026-10-29",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 65
+    },
+    {
+      "id": "rss-world-a707f9b78e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "The War Room newsletter: The best warplanes in history",
+      "summary": "Richard Cockett, a senior editor, straps in to examine the greatest aircraft of all time",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "The War Room newsletter: The best warplanes in history",
+          "url": "https://www.economist.com/international/2026/10/30/the-war-room-newsletter-the-best-warplanes-in-history",
+          "publisher": "The Economist",
+          "published_at": "2026-10-30",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 65
+    },
+    {
+      "id": "rss-world-26bc2a12f0",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Google’s $500bn bloodbath reflects the danger it faces from AI",
+      "summary": "As its search engine sputters, rivals gain ground",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Google’s $500bn bloodbath reflects the danger it faces from AI",
+          "url": "https://www.economist.com/business/2026/10/29/googles-500bn-bloodbath-reflects-the-danger-it-faces-from-ai",
+          "publisher": "The Economist",
+          "published_at": "2026-10-29",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 65
+    },
+    {
+      "id": "rss-world-427c6ed046",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Binance says 90% of losses from $6.3bn hack covered as FBI says North Korea behind attack",
+      "summary": "Cryptocurrency exchange says withdrawals expected to resume on Sunday as FBI blames North Korean state-sponsored group TraderTraitor Cryptocurrency exchange Binance says it has replaced 90% of the ⁠amount stolen after a record $6.3bn hack of its platform by a group the FBI identified as being backed by North Korea. The remaining 10% of tokens are less liquid, meaning they ⁠may take ​longer to buy, the company said in a post on X on Saturday. Co-CEO Richard Teng said separately that the company was “committed to covering the ⁠remaining 10%” and that “users will not bear the financial impact ...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Binance says 90% of losses from $6.3bn hack covered as FBI says North Korea behind attack",
+          "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
+          "publisher": "The Guardian",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    }
+  ],
+  "editorial_context": {
+    "recent_topics": [
+      {
+        "slug": "spain-lzb-170-outages-2026",
+        "section": "spain",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "spain-frente-amplio-presses-puente",
+        "section": "spain",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "spain-urda-69-autopsies-forensic-protocol",
+        "section": "spain",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "germany-afd-data-leak-bigger-problem",
+        "section": "germany",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "germany-birth-rate-study-women-25-39",
+        "section": "germany",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "germany-banks-survey-shares-pension-postponed",
+        "section": "germany",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "berlin-gewerbemieten-deckel-bundesrat",
+        "section": "berlin",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "berlin-gen-z-regelt-kudamm-shops-board-up",
+        "section": "berlin",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "berlin-halloween-ghost-tours",
+        "section": "berlin",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "world-canada-eu-alliance-for-the-future",
+        "section": "world",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "world-congo-ebola-5000-deaths",
+        "section": "world",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "world-openai-funding-target-cut",
+        "section": "world",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "spain-urda-first-report-speed-160-200",
+        "section": "spain",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "spain-atocha-controllers-wrong-lzb-mode",
+        "section": "spain",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "spain-aesf-missed-adif-audits-since-2020",
+        "section": "spain",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "germany-lagarde-ecb-resignation-report",
+        "section": "germany",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "germany-finanzen-net-inflexion-paywall-neobroker",
+        "section": "germany",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "germany-school-creativity-mohr-pisa",
+        "section": "germany",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "berlin-linke-klein-parliament-president",
+        "section": "berlin",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "berlin-police-no-violence-calls-31-oct",
+        "section": "berlin",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "berlin-the-berliner-theatre-highlights",
+        "section": "berlin",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "world-modi-25-years-jobs",
+        "section": "world",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "world-oil-rises-us-iran-strikes",
+        "section": "world",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "world-vietnam-drone-airport-safety",
+        "section": "world",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "spain-urda-train-crash-atocha-audio",
+        "section": "spain",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "spain-sanchez-two-rail-accidents-response",
+        "section": "spain",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "spain-high-speed-maintenance-underinvestment",
+        "section": "spain",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "germany-army-chief-baltic-defence-pace",
+        "section": "germany",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "germany-ecb-rate-decision-dax-earnings",
+        "section": "germany",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "germany-menopause-workplace-column",
+        "section": "germany",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "berlin-union-threatens-constitutional-suits",
+        "section": "berlin",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "berlin-fu-otto-suhr-blockade",
+        "section": "berlin",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "berlin-cold-weather-shelters-nearly-full",
+        "section": "berlin",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "world-flavio-bolsonaro-flees-brazil",
+        "section": "world",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "world-egypt-mada-masr-attalah-convicted",
+        "section": "world",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "world-bangladesh-measles-warning-sign",
+        "section": "world",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "spain-barcelona-judge-looting-suspects-released",
+        "section": "spain",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "spain-abascal-fears-feijoo-centre-vote",
+        "section": "spain",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "spain-senate-lists-map-29n",
+        "section": "spain",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "germany-europe-digital-dependence-study",
+        "section": "germany",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "germany-amazon-review-deletion-scheme",
+        "section": "germany",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "germany-bea-freibetrag-father-childcare",
+        "section": "germany",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "berlin-linke-education-portfolio",
+        "section": "berlin",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "berlin-bayern-courts-landlords-vergesellschaftung",
+        "section": "berlin",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "berlin-linke-fraktion-emde-postponed",
+        "section": "berlin",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "world-israel-election-exit-polls-no-majority",
+        "section": "world",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "world-trump-tariffs-ieepa-court",
+        "section": "world",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "world-uk-sanctions-sudan-el-fasher",
+        "section": "world",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "spain-barcelona-riots-mossos-plaza-espanya",
+        "section": "spain",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "spain-pp-vox-senate-independents-pact",
+        "section": "spain",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "spain-right-education-network-study",
+        "section": "spain",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "germany-allianz-trade-insolvencies-2027",
+        "section": "germany",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "germany-mercedes-six-figure-severance",
+        "section": "germany",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "germany-pistorius-europe-nato-essay",
+        "section": "germany",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "berlin-seidel-mielke-judge-dies",
+        "section": "berlin",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "berlin-hertha-union-dfb-pokal",
+        "section": "berlin",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "berlin-redmann-french-conditions-31-oct",
+        "section": "berlin",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "world-israel-election-tight-race",
+        "section": "world",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "world-bolsonaro-party-accepts-defeat-trump-rigged",
+        "section": "world",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "world-sudan-rsf-power-station-drones",
+        "section": "world",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "spain-ateneo-poll-pp-vox-majority",
+        "section": "spain",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "spain-jordi-wild-podcast-leaders",
+        "section": "spain",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "spain-madrid-government-delegate-resigns",
+        "section": "spain",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "germany-ice-essen-track-worker-death",
+        "section": "germany",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "germany-mein-schiff-3-bremerhaven-collision",
+        "section": "germany",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "germany-employment-law-no-contract-start",
+        "section": "germany",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "berlin-spd-members-coalition-vote-checkpoint",
+        "section": "berlin",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "berlin-fuechse-wetzlar-wiede",
+        "section": "berlin",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "berlin-schwerin-day-trip",
+        "section": "berlin",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "world-lula-wins-bolsonaro-annulment",
+        "section": "world",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "world-vucic-concedes-serbia",
+        "section": "world",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "world-china-ai-distillation",
+        "section": "world",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "spain-sanchez-elpais-interview-pp-vox-retroceder",
+        "section": "spain",
+        "date": "2026-10-25"
+      },
+      {
+        "slug": "spain-correos-postal-vote-security",
+        "section": "spain",
+        "date": "2026-10-25"
+      },
+      {
+        "slug": "spain-quiron-camino-gonzalez-amador-30-months",
+        "section": "spain",
+        "date": "2026-10-25"
+      },
+      {
+        "slug": "germany-audi-us-suv-plant-trump-rally",
+        "section": "germany",
+        "date": "2026-10-25"
+      },
+      {
+        "slug": "germany-seaport-federal-funding-38m",
+        "section": "germany",
+        "date": "2026-10-25"
+      },
+      {
+        "slug": "germany-coalition-willing-ukraine-exercise",
+        "section": "germany",
+        "date": "2026-10-25"
+      },
+      {
+        "slug": "berlin-linke-showdowns-rgr-talks",
+        "section": "berlin",
+        "date": "2026-10-25"
+      },
+      {
+        "slug": "berlin-four-museums-free-entry",
+        "section": "berlin",
+        "date": "2026-10-25"
+      },
+      {
+        "slug": "berlin-br-volleys-giesen",
+        "section": "berlin",
+        "date": "2026-10-25"
+      },
+      {
+        "slug": "world-brazil-runoff-lula-rally",
+        "section": "world",
+        "date": "2026-10-25"
+      },
+      {
+        "slug": "world-mercuria-baltic-exchange-hormuz",
+        "section": "world",
+        "date": "2026-10-25"
+      },
+      {
+        "slug": "world-ai-models-less-opaque",
+        "section": "world",
+        "date": "2026-10-25"
+      }
+    ],
+    "rejected_candidates": [
+      {
+        "id": "rss-spain-6f0911b92c",
+        "headline": "¿Por qué pagó Okdiario la defensa de Koldo García?",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-4ecd1604c4",
+        "headline": "La intrahistoria de las primeras 24 horas de Page al frente de la tragedia de Urda: “Esto es muy grave, hay que contarlo ya”",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-3b48e4e611",
+        "headline": "\"Si El-Sayed puede ganar en Michigan, cualquiera puede ganar en cualquier lugar\": el candidato progresista a senador más odiado por Trump",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-971afb60ad",
+        "headline": "Feijóo gira la campaña hacia el perfil gestor del PP",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-f9f7bbc910",
+        "headline": "Puente, de la euforia al desastre en tres días",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-36199d2d00",
+        "headline": "Diego Martín, jefe sindical de los maquinistas: “Los trabajadores no confiamos en el sistema ferroviario”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-7d3e6ea672",
+        "headline": "El maquinista de Angrois al operador de Atocha: “Que se aísle de la tele y la prensa: le pueden hacer mucho daño”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-9be974bd53",
+        "headline": "Prisión provisional sin fianza para el considerado como “fundador e impulsor” de Blocus España",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-e679ed08e8",
+        "headline": "Choques entre alborotadores y la policía en varias ciudades francesas",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-21ba6b493f",
+        "headline": "Renfe afirma que los accidentes ferroviarios de Urda y Adamuz no son atribuibles a la compañía",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-43af1d93c7",
+        "headline": "Urda, un pueblo golpeado por la tragedia: “Todavía no puedo dormir”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-ec437cdedf",
+        "headline": "Diego Martín: “Los maquinistas nos hemos acostumbrado a trabajar en condiciones degradadas”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-26a6bedbc3",
+        "headline": "Krawalle in Frankfurt: Ausschreitungen nach Demos: „Schockiert über Gewaltexzesse“",
+        "section": "germany",
+        "reason": "publisher_cap:handelsblatt.com",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-germany-c0c88a52b1",
+        "headline": "Kreis Calw: Auto fährt in Gegenverkehr: Motorradfahrer schwer verletzt",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-0df4643779",
+        "headline": "Vegane Ernährung: Nichts vom Tier auf dem Teller - was bringt das fürs Klima?",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-37bc9f9199",
+        "headline": "Prozess beginnt: Kinderarzt wegen Missbrauchs von Patienten vor Gericht",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-bfed22a462",
+        "headline": "Clankriminalität: Polizei will Eskalation nach Auto-Angriff verhindern",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-c99a49034f",
+        "headline": "USA: Republikanische Regierung Alaskas will Trump-Klage zu Senatswahl abweisen lassen",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-bd01d54014",
+        "headline": "Berlin: Trotz des politischen Sturms: Die Linke will weiterhin an die Macht",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-92c13df0e5",
+        "headline": "Berlin: Linke stimmt für Koalitionsverhandlungen – scharfer Protest vor der Halle",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-09805454a5",
+        "headline": "Demo in Berlin: „Irgendwo muss die Wut ja hin“",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 56,
+        "notes": [
+          "feed:+35",
+          "publisher:+4"
+        ]
+      },
+      {
+        "id": "rss-germany-0985942762",
+        "headline": "Liveblog Nahost: Trump bringt Angriffe auf weitere Ziele in Iran ins Spiel",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 56,
+        "notes": [
+          "feed:+35",
+          "publisher:+4"
+        ]
+      },
+      {
+        "id": "rss-germany-ca638134f8",
+        "headline": "Parteitag in Berlin: Elif Eralp gibt sich kämpferisch – und erringt einen Sieg",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 56,
+        "notes": [
+          "feed:+35",
+          "publisher:+4"
+        ]
+      },
+      {
+        "id": "rss-germany-eeaf4f5e71",
+        "headline": "Krisentreffen: Machtkampf um Polens Verfassungsgericht spitzt sich zu",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 56,
+        "notes": [
+          "feed:+35",
+          "publisher:+4"
+        ]
+      },
+      {
+        "id": "rss-berlin-ac34ee13a1",
+        "headline": "\"Gen Z regelt\": Tausende demonstrieren bei Jugendprotesten am Brandenburger Tor",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 43,
+        "notes": [
+          "feed:+35",
+          "dedup:-15 (berlin-gen-z-regelt-kudamm-shops-board-up)",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-7d8b428221",
+        "headline": "35 Jahre nach Boris Becker: Zverev Nummer eins der Tennis-Weltrangliste",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 29,
+        "notes": [
+          "feed:+35",
+          "sport:-30",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-berlin-b1ac277053",
+        "headline": "Volleyball-Bundesliga: B-Team der BR Volleys siegt gegen VC Olympia",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 28,
+        "notes": [
+          "feed:+35",
+          "sport:-30",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-61e028cc33",
+        "headline": "3:0-Auswärtssieg im Spitzenspiel: Die Hertha-Transformation",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 28,
+        "notes": [
+          "feed:+35",
+          "sport:-30",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-1e0a934815",
+        "headline": "Berliner Leichtathletin unter den Opfern des Zugunfalls in Spanien",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 28,
+        "notes": [
+          "feed:+35",
+          "sport:-30",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-7273bcae55",
+        "headline": "Regionalliga Nordost: BFC Preussen besiegt Zwickau",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 28,
+        "notes": [
+          "feed:+35",
+          "sport:-30",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-6e6319f9db",
+        "headline": "Union-Frauen nach Spektakel beim HSV erstmals im Pokal-Viertelfinale",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 13,
+        "notes": [
+          "feed:+35",
+          "sport:-30",
+          "dedup:-15 (berlin-hertha-union-dfb-pokal)",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-world-b0aa7d88e4",
+        "headline": "How crypto hacking funds isolated North Korea’s nuclear programme",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 64,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-world-a6ef2dc75f",
+        "headline": "Pakistan refineries report 1,860% jump in profit amid war windfall",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 63,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-world-9a757835fd",
+        "headline": "Thai reformists became too technocratic, party ex-leader Pita says",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 63,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-world-db2aa37972",
+        "headline": "Yen bond offerings hit record $16bn as AI funding race reaches Japan",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 63,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-world-e8ce242982",
+        "headline": "Russia the Disruptor",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 61,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+3"
+        ]
+      },
+      {
+        "id": "rss-world-9a9dd3d655",
+        "headline": "Fame, Fortune, and Murder in 1960s France",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 61,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+3"
+        ]
+      },
+      {
+        "id": "rss-world-daa690fb72",
+        "headline": "Hundreds of thousands of protesters march across France for third week in a row",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-ce1a7abd72",
+        "headline": "Funding deadlock derails global effort to save nature",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-b69e70b734",
+        "headline": "Macau Gaming Revenue Decline Extends Despite Golden Week Boost",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-5fef245d71",
+        "headline": "Rubio Defends Russian G20 Presence Despite Criticism From Allies",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-eaa3387fe9",
+        "headline": "Senegal Lawmakers Reject Budget Again, Risking IMF Deal",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-2c1d8e60c6",
+        "headline": "Final Countdown to Midterm Elections, Tech Stocks Tank",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      }
+    ],
+    "running_stories_on_cooldown": [],
+    "note": "Pre-ranked with editorial relevance from topics.yaml, dedup_index.md, and news_relevance rules in sources.yaml. Synthesis must still apply hard reject rules in news-briefing-style.mdc. running_stories_on_cooldown: do not give these a Spain slot; park a one-liner in Other Headlines unless an extraordinary trigger hit."
+  },
+  "note": "Token-light slice for synthesis. Full warehouse is in -raw.json. All items come from RSS or WordPress feeds — copy source URLs verbatim."
+}
