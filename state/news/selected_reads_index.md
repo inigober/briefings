@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-02
+
+- [The race to keep AI under control](https://ig.ft.com/ai-safety/?syn-25a6b1a6=1) — Financial Times
+- [Russia the Disruptor](https://foreignpolicy.com/2026/10/30/russia-war-ukraine-books-us-history-kinzer-haslam-notte/) — Foreign Policy
+- [Hackers are running riot with AI. Its makers want to cash in](https://www.economist.com/business/2026/11/01/hackers-are-running-riot-with-ai-its-makers-want-to-cash-in) — The Economist
+- [Bangladesh turns to China for worker training amid graduate job struggles](https://asia.nikkei.com/business/education/bangladesh-turns-to-china-for-worker-training-amid-graduate-job-struggles) — Nikkei Asia
+
 ## 2026-11-01
 
 - [How crypto hacking funds isolated North Korea’s nuclear programme](https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme) — The Guardian

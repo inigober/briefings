@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-02
+
+- **spain-urda-congress-committee-demands-puente-resignation** — EL PAÍS: PP, Vox, Junts, PNV majority in Diputación Permanente demand Puente's resignation (section: spain)
+- **spain-cgpj-freezes-15-supremo-vacancies** — eldiario.es: CGPJ committee-allocation fight freezes 15 Supreme Court vacancies (section: spain)
+- **spain-generalitat-valenciana-teaching-extra-pay** — eldiario.es: ten senior Valencian officials earn teaching top-ups, amounts undisclosed (section: spain)
+- **germany-merz-cdu-base-meeting-leadership-doubts** — Tagesspiegel: CDU grassroots meet Merz in Berlin amid open talk of replacing him (section: germany)
+- **germany-industry-own-raw-materials-strategy** — Berliner Zeitung: BMW and others plan own raw-materials initiative, distrust government (section: germany)
+- **germany-deutschland-ag-hoettges** — Handelsblatt: Telekom's Höttges floats return of Deutschland AG (section: germany)
+- **berlin-hannover-trains-diversion-delays** — rbb24: Berlin–Hannover trains up to 80 min slower plus extra delays (section: berlin)
+- **berlin-schoenhauser-allee-bridge-prep** — rbb24: preparations start for new Schönhauser Allee bridge (section: berlin)
+- **berlin-clubs-environmental-footprint** — The Berliner: opinion on nightlife's climate impact (section: berlin)
+- **world-us-petrol-record-midterms** — Financial Times: US petrol prices set for record high before midterms (section: world)
+- **world-taiwan-japan-trade-deal** — Nikkei Asia: Taiwan and Japan eye deal like Taipei–London pact (section: world)
+- **world-ukraine-power-outages-strikes** — Politico Europe: Russian strikes leave thousands without power in Ukraine (section: world)
+
 ## 2026-11-01
 
 - **spain-puente-safety-package-cabinet-tuesday** — EL PAÍS: Puente to take an AVE safety reinforcement package to cabinet; Sánchez backs him (section: spain)

@@ -1,21 +1,21 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-01",
-  "briefing_date": "2026-11-01",
-  "inbox_date": "2026-11-01",
+  "date": "2026-11-02",
+  "briefing_date": "2026-11-02",
+  "inbox_date": "2026-11-02",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-01.md",
-  "inbox_path": "inbox/news/2026-11-01-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-02.md",
+  "inbox_path": "inbox/news/2026-11-02-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Urda crash human-interest and follow-up pieces (victims' lives, rescue, ICU diary, third train, Angrois/dana PP comparison, Sánchez backs Puente, El País cause sequence)", "section": "spain", "reason": "spain_pool_single_event: three distinct angles used; rest overlapping or human-interest"},
-    {"headline": "Tusk vs Nawrocki Constitutional Court; Lawrow/G20 commentary", "section": "germany", "reason": "geo-misfit: foreign affairs belong outside Germany; parked in Other Headlines"},
-    {"headline": "Heidi Klum Halloween costume; Unheilig-Graf interview; Eindhoven city trip", "section": "germany", "reason": "celebrity/lifestyle filler"},
-    {"headline": "Kinderarzt trial (Havelland); Fall Fabian; Annaberg-Buchholz death; Hennigsdorf bridge; Linum cranes", "section": "berlin", "reason": "not Berlin city proper, or one-off crime/low relevance"},
-    {"headline": "20% Berlin newsletters #540/#541", "section": "berlin", "reason": "newsletter roundup, no single story"},
-    {"headline": "AI Isn't a Revolution—Yet; Why Africa needs its own AI off switch", "section": "world", "reason": "already in selected_reads_index within last 5 briefings"},
-    {"headline": "Is brown rice healthier; War Room warplanes newsletter; Toyota-backed truckmaker", "section": "world", "reason": "low relevance / consumer filler or repeat"},
-    {"headline": "Steve Bannon civil war; Andy Burnham budget; Google $500bn", "section": "world", "reason": "kept out of World to preserve non-European regions; moved to Other Headlines / Selected Reads"}
+    {"headline": "Urda far-right campaigning / Puente / justice long road / Barcones / reconciliation human-interest", "section": "spain", "reason": "one theme per section: Urda resignation demand used; far-right piece parked in Other Headlines"},
+    {"headline": "Alta velocidad investment/liberalisation; ERTMS testing Madrid-Sevilla", "section": "spain", "reason": "repeat of 2026-11-01 rail liberalisation theme and same Urda theme"},
+    {"headline": "Bulgaria run-off; Iran-war newsblog", "section": "germany", "reason": "geo-misfit: foreign affairs belong in World / Other Headlines"},
+    {"headline": "Börse 2 November; divorce/house, job-search, Kinderwunsch, Bellevue dialect, Lucky Luke", "section": "germany", "reason": "service/lifestyle filler or low relevance"},
+    {"headline": "Fall Fabian; Annaberg-Buchholz death; Waren bridge; Märkisches Viertel arrests; Oder-Spree cannabis; Juli Zeh/Brandenburg court", "section": "berlin", "reason": "not Berlin city proper, or one-off crime"},
+    {"headline": "US farmers and China trade war (Nikkei)", "section": "world", "reason": "same midterms theme as petrol-price story; parked in Other Headlines"},
+    {"headline": "AI Isn't a Revolution—Yet; Is brown rice healthier", "section": "world", "reason": "already in selected_reads_index within last 5 briefings"},
+    {"headline": "AI mania/higher rates; AI sell-off eases; warplanes newsletter", "section": "world", "reason": "AI-market theme kept to Other Headlines; warplanes low relevance"}
   ]
 }
