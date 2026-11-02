@@ -1,0 +1,2604 @@
+{
+  "briefing_type": "news",
+  "date": "2026-11-02",
+  "source_raw": "inbox/news/2026-11-02-raw.json",
+  "built_at": "2026-11-02T05:32:04.440762+00:00",
+  "model": null,
+  "raw_item_count": 168,
+  "section_counts": {
+    "spain": 12,
+    "germany": 12,
+    "berlin": 12,
+    "world": 12
+  },
+  "selected_read_candidates": [
+    {
+      "id": "rss-world-4771662f0e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Petrol prices set to hit record high under Trump on eve of US elections",
+      "summary": "Average fuel costs during president’s second term pass Biden-era levels as affordability issues dominate Tuesday’s midterm polls",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Petrol prices set to hit record high under Trump on eve of US elections",
+          "url": "https://www.ft.com/content/ee2748fb-9f85-4095-b599-526e5a4a6baa?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-11-02",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-9476d5b3af",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Surging costs and China trade war test US farmers' loyalty to Trump",
+      "summary": "Surging costs and China trade war test US farmers' loyalty to Trump",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Surging costs and China trade war test US farmers' loyalty to Trump",
+          "url": "https://asia.nikkei.com/politics/u.s.-midterm-elections/surging-costs-and-china-trade-war-test-us-farmers-loyalty-to-trump",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-836639ec29",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "The race to keep AI under control",
+      "summary": "Safety breaches are raising doubts about the ability of leading labs to keep increasingly powerful systems in check",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "The race to keep AI under control",
+          "url": "https://ig.ft.com/ai-safety/?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-11-02",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-e44be90de6",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "AI Isn’t a Revolution—Yet",
+      "summary": "Just as British people did with steam power, the American public can shape how this technology spreads.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "AI Isn’t a Revolution—Yet",
+          "url": "https://foreignpolicy.com/2026/10/30/artificial-intelligence-ai-revolution-technology-history-luddites/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-3605c9de77",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Taiwan and Japan eye trade deal akin to Taipei-London pact, sources say",
+      "summary": "Taiwan and Japan eye trade deal akin to Taipei-London pact, sources say",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Taiwan and Japan eye trade deal akin to Taipei-London pact, sources say",
+          "url": "https://asia.nikkei.com/economy/trade/taiwan-and-japan-eye-trade-deal-akin-to-taipei-london-pact-sources-say",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-e8ce242982",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Russia the Disruptor",
+      "summary": "How Moscow broke with the West—and unleashed a more chaotic world.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Russia the Disruptor",
+          "url": "https://foreignpolicy.com/2026/10/30/russia-war-ukraine-books-us-history-kinzer-haslam-notte/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-8332844362",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Russian strikes leave thousands without power in Ukraine, says Zelenskyy",
+      "summary": "The Ukrainian president's remarks came as Moscow reported \"significant damage\" to an industrial facility in Russia's Nizhny Novgorod region.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Russian strikes leave thousands without power in Ukraine, says Zelenskyy",
+          "url": "https://www.politico.eu/article/russia-strikes-leave-thousands-without-power-ukraine-volodymyr-zelenskyy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "publisher": "Politico Europe",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-6e01ff158e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Most Asian Stocks Gain With US Futures, Oil Falls: Markets Wrap",
+      "summary": "Most Asian stocks rose with US equity futures as risk appetite stabilized following last week’s slump in tech shares. Oil fell.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Most Asian Stocks Gain With US Futures, Oil Falls: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/stock-market-today-dow-s-p-live-updates",
+          "publisher": "Bloomberg",
+          "published_at": "2026-11-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "rss-spain-df521d55a0",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La alta velocidad, la joya de la corona ahora cuestionada por la falta de inversiones y el impacto de la liberalización",
+      "summary": "En los últimos años ha crecido la inversión pública destinada a la infraestructura, también se ha disparado el número de viajeros con la entrada de operadores privados y, en cambio, las empresas acumulan números rojos Óscar Puente: “Quienes estaban en el centro de control tenían a la vista lo que estaba sucediendo” La alta velocidad ferroviaria ha pasado de ser la joya de la corona del transporte español a estar cuestionada tras los dos trágicos accidentes mortales vividos en menos de un año, en Adamuz (Córdoba) y en Urda (Toledo) . “Hay una confianza quebrada en el sistema de alta velocida...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "La alta velocidad, la joya de la corona ahora cuestionada por la falta de inversiones y el impacto de la liberalización",
+          "url": "https://www.eldiario.es/economia/alta-velocidad-joya-corona-ahora-cuestionada-falta-inversiones-impacto-liberalizacion_1_13627952.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-dc786bea5d",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "El sistema de seguridad europeo está instalado en la línea Madrid-Sevilla desde junio pero sigue en fase de pruebas",
+      "summary": "El Gobierno envió a la Comisión Europea los certificados de instalación a lo largo de 470 kilómetros, pero el nuevo protocolo está a la espera de recibir el visto bueno de la Agencia Estatal de Seguridad Ferroviaria La plantilla advierte del aumento de presión, carga de trabajo y personal sin experiencia en el control ferroviario La línea de alta velocidad entre Madrid y Sevilla en la que colisionaron el AVE y el Iryo accidentados en Urda es una de las últimas en España dotadas con el protocolo de seguridad alemán LZB, que está en proceso de sustitución por el protocolo europeo, ERTMS. Las ...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "El sistema de seguridad europeo está instalado en la línea Madrid-Sevilla desde junio pero sigue en fase de pruebas",
+          "url": "https://www.eldiario.es/castilla-la-mancha/sistema-seguridad-europeo-instalado-linea-madrid-sevilla-junio-sigue-fase-pruebas_1_13628917.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-884b8ec0ab",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "\"A la mierda el luto\": la extrema derecha se lanza a hacer campaña con la tragedia de Urda",
+      "summary": "Santiago Abascal (Vox), Alvise Pérez (Se Acabó La Fiesta) o partidos extraparlamentarios como Falange, Democracia Nacional o Núcleo Nacional usan minutos de silencio, manifestaciones y querellas para capitalizar el accidente de tren El maquinista del AVE informó al centro de control de que su sistema de seguridad veía la vía ocupada y aun así le dieron paso “Yo ya no puedo más, a la mierda los días de luto, a la mierda los minutos de silencio”. El eurodiputado y agitador Luis “Alvise” Pérez fue de los primeros políticos de extrema derecha en dejar claro que la campaña electoral del 29 de no...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "\"A la mierda el luto\": la extrema derecha se lanza a hacer campaña con la tragedia de Urda",
+          "url": "https://www.eldiario.es/politica/mierda-luto-extrema-derecha-lanza-campana-tragedia-urda_1_13626529.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-704b39df86",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "España, el país de la UE con más muertos en accidentes de tren en los últimos 25 años",
+      "summary": "Tres de los cuatro accidentes con más víctimas mortales de Europa han ocurrido en España en los últimos años. Solo se acerca un incidente en Grecia con 57 fallecidos, que provocó una fuerte crisis política con la dimisión del ministro de Transportes y una moción de censura contra el Gobierno Reconstrucción, minuto a minuto, del accidente entre el AVE y el Iryo Los dos últimos accidentes ferroviarios en España no solo han supuesto una enorme pérdida de vidas humanas y perjuicios económicos, también han roto una tendencia en Europa sobre la seguridad de los viajes en tren que evidencia los pr...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "España, el país de la UE con más muertos en accidentes de tren en los últimos 25 años",
+          "url": "https://www.eldiario.es/internacional/espana-pais-ue-muertos-accidentes-tren-ultimos-25-anos_1_13625189.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-84dc06ea91",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "El nuevo choque por el control del Poder Judicial congela la renovación de 15 vacantes en el Supremo",
+      "summary": "El enfrentamiento entre bloques después de que la presidenta y un vocal de Sumar votaran con el grupo conservador el reparto de comisiones aleja la posibilidad de acuerdo para cubrir las plazas del Alto Tribunal El bloque progresista del Poder Judicial carga contra el vocal de Sumar: “Entrega el Consejo a la derecha” El último enfrentamiento vivido en el Consejo General del Poder Judicial (CGPJ) a cuenta del reparto de las comisiones en las que se organiza el trabajo del órgano ahonda en la fractura interna de una institución sometida a constantes tensiones. Y lo hace, además, en un momento...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "El nuevo choque por el control del Poder Judicial congela la renovación de 15 vacantes en el Supremo",
+          "url": "https://www.eldiario.es/politica/nuevo-choque-control-judicial-congela-renovacion-15-vacantes-supremo_1_13628383.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-aeeaf88e98",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Diez altos cargos de la Generalitat cobran sobresueldos por dar clases sin que el Gobierno valenciano detalle cuánto perciben",
+      "summary": "Directores generales, secretarios y subsecretarios autonómicos con sueldos de entre 68.000 y 96.000 euros tan solo firman una declaración responsable por medio de la que se comprometen a no cobrar más del 30% de su salario, tal y como reconoce una respuesta parlamentaria al PSPV La directora de la Abogacía de la Generalitat Valenciana cobra un sobresueldo como preparadora de oposiciones a su departamento “En esta declaración hacen constar que los importes percibidos en concepto de docencia se hallan dentro de los márgenes previstos en la Ley 8/2016, de 28 de octubre, de Incompatibilidades y...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Diez altos cargos de la Generalitat cobran sobresueldos por dar clases sin que el Gobierno valenciano detalle cuánto perciben",
+          "url": "https://www.eldiario.es/comunitat-valenciana/diez-altos-cargos-generalitat-cobran-sobresueldos-dar-clases-gobierno-valenciano-detalle-perciben_1_13628441.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-08ec8b552f",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La tragedia de Urda encara un largo camino ante la justicia",
+      "summary": "Los antecedentes de Angrois, Spanair, el Metro de Valencia y Adamuz auguran que la investigación se prolongará durante años",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "La tragedia de Urda encara un largo camino ante la justicia",
+          "url": "https://elpais.com/espana/2026-11-02/la-tragedia-de-urda-encara-un-largo-camino-ante-la-justicia.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-02",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-b068c5c07c",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La mayoría de la Diputación Permanente del Congreso exige la dimisión de Puente por el accidente de Urda",
+      "summary": "PP, Vox, Junts y PNV pedirán responsabilidades políticas ya y el ministro y el Gobierno esgrimirán que en otros accidentes no se dieron tantas explicaciones",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "La mayoría de la Diputación Permanente del Congreso exige la dimisión de Puente por el accidente de Urda",
+          "url": "https://elpais.com/espana/2026-11-02/la-mayoria-de-la-diputacion-permanente-del-congreso-exige-la-dimision-de-puente-por-el-accidente-de-urda.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-02",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-663bdfa726",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La tragedia empuja a la ultraderecha a una espiral de brutalidad",
+      "summary": "Vox y otros grupos extremistas se lanzan en las redes y en la calle a insultar y criminalizar al Gobierno",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "La tragedia empuja a la ultraderecha a una espiral de brutalidad",
+          "url": "https://elpais.com/espana/2026-11-02/la-tragedia-empuja-a-la-ultraderecha-a-una-espiral-de-brutalidad.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-02",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-2c473da2bd",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Una reconciliación antes del final",
+      "summary": "Lute del Olmo y su hija rompieron el contacto durante un año, pero se reencontraron poco antes del accidente de tren de Urda en el que murió él. “Hubiese sido devastador que se hubiese ido sin hacer las paces”, dice ella",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Una reconciliación antes del final",
+          "url": "https://elpais.com/espana/madrid/2026-11-02/una-reconciliacion-antes-del-final.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-02",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-15f5b49438",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Virginia Barcones: “En emergencias como esta, los bulos pueden ser muy peligrosos”",
+      "summary": "La secretaria general de Protección Civil asegura que en el último año se ha avanzado en la coordinación entre administraciones para hacer frente a las catástrofes",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Virginia Barcones: “En emergencias como esta, los bulos pueden ser muy peligrosos”",
+          "url": "https://elpais.com/espana/2026-11-02/virginia-barcones-en-emergencias-como-esta-los-bulos-pueden-ser-muy-peligrosos.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-02",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-c5ceeec841",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Nick Rhodes, de Duran Duran: “Me dan ganas de vomitar cuando preguntan por las cifras en redes sociales”",
+      "summary": "La banda británica vuelve a Madrid con un concierto el viernes en el Movistar Arena, en un estado de forma sorprendente",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Nick Rhodes, de Duran Duran: “Me dan ganas de vomitar cuando preguntan por las cifras en redes sociales”",
+          "url": "https://elpais.com/cultura/2026-11-02/nick-rhodes-de-duran-duran-me-dan-ganas-de-vomitar-cuando-preguntan-por-las-cifras-en-redes-sociales.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-02",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-4033b29e30",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Börse am 2. November: Sechs Punkte, die für Anleger heute wichtig sind",
+      "summary": "Quartalszahlen prägen weiterhin die Stimmung an den Börsen. Gelingt der Start in den November und kann der Dax sich wieder oberhalb der 26.000 Punkte-Marke bewegen?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Börse am 2. November: Sechs Punkte, die für Anleger heute wichtig sind",
+          "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-02",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-336616ca4b",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Wahl: Sozialistische Amtsinhaberin siegt bei Stichwahl in Bulgarien",
+      "summary": "Die linke Kandidatin Ilijana Jotowa hat sich bei der Stichwahl um das Präsidentenamt in Bulgarien durchgesetzt. Das gilt auch als klares Signal für die Russland-Politik des Landes.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Wahl: Sozialistische Amtsinhaberin siegt bei Stichwahl in Bulgarien",
+          "url": "https://www.handelsblatt.com/politik/international/bulgarien-sozialistische-amtsinhaberin-siegt-bei-stichwahl/100266529.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-02",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-0e4b9915e7",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Morning Briefing Podcast: Hilft Unternehmen nur die Rückkehr der Deutschland AG?",
+      "summary": "Nach der Asienreise des Bundeskanzlers macht Telekom-Chef Timotheus Höttges einen interessanten Debattenvorschlag – der etwas gestrig klingt, für den es aber Gründe gibt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Morning Briefing Podcast: Hilft Unternehmen nur die Rückkehr der Deutschland AG?",
+          "url": "https://www.handelsblatt.com/audio/podcast-morning-briefing/morning-briefing-podcast-hilft-unternehmen-nur-die-rueckkehr-der-deutschland-ag/100266527.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-02",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-ab712fe52d",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "+++ Iran-Krieg +++: Israelischer Oppositionspolitiker warnt vor neuem Krieg mit Iran unter Netanjahu",
+      "summary": "Tanker vor Küste Saudi-Arabiens von Geschossen getroffen +++ Revolutionsgarde: Zwei Tanker nach Kollision mit Minen explodiert +++ Hunderte Festnahmen bei Gaza-Demo in London +++ Der Newsblog.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "+++ Iran-Krieg +++: Israelischer Oppositionspolitiker warnt vor neuem Krieg mit Iran unter Netanjahu",
+          "url": "https://www.handelsblatt.com/politik/international/iran-krieg-israelische-opposition-warnt-vor-neuem-krieg-mit-iran/100136895.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-02",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-06eb1b9b6a",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Schuldenfrei trennen?: Eigenheim bei Scheidung an Kind übertragen: Das ist wichtig",
+      "summary": "Die Scheidung steht bevor, das gemeinsame Haus ist noch nicht abbezahlt: Eine Übertragung an die Kinder kann entlasten. Doch wie steht's dann um Kreditraten und Co.?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Schuldenfrei trennen?: Eigenheim bei Scheidung an Kind übertragen: Das ist wichtig",
+          "url": "https://www.handelsblatt.com/finanzen/steuern-recht/schuldenfrei-trennen-eigenheim-bei-scheidung-an-kind-uebertragen-das-ist-wichtig/100266523.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-02",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-bca18dea29",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "3 Optionen für Ex-Partner: Scheidung: Was passiert mit Haus und Immobilienkredit?",
+      "summary": "Lassen sich Ehepaare scheiden, ist nicht zuletzt zu klären, wie es mit Haus und Immobilienkredit weitergeht. Welche Optionen es gibt und was dabei zu beachten ist.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "3 Optionen für Ex-Partner: Scheidung: Was passiert mit Haus und Immobilienkredit?",
+          "url": "https://www.handelsblatt.com/finanzen/steuern-recht/3-optionen-fuer-ex-partner-scheidung-was-passiert-mit-haus-und-immobilienkredit/100266524.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-02",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-d84d8e27e3",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Jetzt werden die Stellen fürs Jahr 2027 geplant: „Gerade mit über 50 muss ich raus aus dem Stapel der Bewerbungen“",
+      "summary": "Wenn Unternehmen ihre Budgets fürs kommende Jahr planen, entstehen neue Jobs – lange bevor sie ausgeschrieben werden. Wie Bewerber über 50 diese Chance nutzen können.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Jetzt werden die Stellen fürs Jahr 2027 geplant: „Gerade mit über 50 muss ich raus aus dem Stapel der Bewerbungen“",
+          "url": "https://www.tagesspiegel.de/wirtschaft/karriere/jetzt-werden-die-stellen-furs-jahr-2027-geplant-gerade-mit-uber-50-muss-ich-raus-aus-dem-stapel-der-bewerbungen-16181262.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-ea8403ba81",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Herrschaftszeiten im Schloss Bellevue: Sollte im Bundespräsidentenamt Bayerisch gesprochen werden?",
+      "summary": "Kann man für das ganze Volk sprechen, wenn man wie Ilse Aigner in regionaler Mundart redet? Während eine Bekannte von mir sich aufregt, finde ich: Es dürfte an der Staatsspitze auch gern berlinert werden.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Herrschaftszeiten im Schloss Bellevue: Sollte im Bundespräsidentenamt Bayerisch gesprochen werden?",
+          "url": "https://www.tagesspiegel.de/gesellschaft/herrschaftszeiten-im-schloss-bellevue-sollte-im-bundesprasidentenamt-bayerisch-gesprochen-werden-16209065.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-fa7f989f7b",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Satire auf Trump und Verschwörungsmythen: Neues Lucky-Luke-Album nimmt religiöse Geschäftemacher ins Visier",
+      "summary": "In „Heiliger Lucky!“ wird der Cowboy gegen seinen Willen zum Heiligen erklärt. Das neue Album verbindet Westernhumor mit Seitenhieben auf aktuelle Themen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Satire auf Trump und Verschwörungsmythen: Neues Lucky-Luke-Album nimmt religiöse Geschäftemacher ins Visier",
+          "url": "https://www.tagesspiegel.de/kultur/comics/satire-auf-trump-und-verschworungsmythen-neues-lucky-luke-album-nimmt-religiose-geschaftemacher-ins-visier-16225555.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-02",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-1f16173df5",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Was Paaren bei unerfülltem Kinderwunsch hilft: Auf jedem Zyklus liegen Druck und Erwartungen",
+      "summary": "Unerfüllte Kinderwünsche beschäftigen in Deutschland viele Menschen. Wie geht man als Paar damit um, wenn es länger dauert als geplant?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Was Paaren bei unerfülltem Kinderwunsch hilft: Auf jedem Zyklus liegen Druck und Erwartungen",
+          "url": "https://www.tagesspiegel.de/gesundheit/was-paaren-bei-unerfulltem-kinderwunsch-hilft-auf-jedem-zyklus-liegen-druck-und-erwartungen-16211857.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-8dce1b1f48",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Steht Friedrich Merz jetzt vor dem Scherbengericht?: In der CDU wird offen über seinen Sturz als Parteichef gesprochen",
+      "summary": "Wenn sich am Montag Vertreter der CDU-Basis aus dem ganzen Land in Berlin treffen, wird das für Friedrich Merz kein Wohlfühltermin. Denn einige sind davon überzeugt: Es wäre besser, wenn er bald nicht mehr CDU-Vorsitzender wäre.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Steht Friedrich Merz jetzt vor dem Scherbengericht?: In der CDU wird offen über seinen Sturz als Parteichef gesprochen",
+          "url": "https://www.tagesspiegel.de/politik/steht-friedrich-merz-jetzt-vor-dem-scherbengericht-in-der-cdu-wird-offen-uber-seinen-sturz-als-parteichef-gesprochen-16227020.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-b2d4df5a2c",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Der Checkpoint am Morgen: Zuletzt: Kultur",
+      "summary": "+ Wie die Zukunft der Stadt verspielt wird + Haushaltssperre an der Deutschen Oper + Warum Checkpoint-Leser Berlin lieben +",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Der Checkpoint am Morgen: Zuletzt: Kultur",
+          "url": "https://www.tagesspiegel.de/checkpoint/der-checkpoint-am-morgen-zuletzt-kultur-16228573.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-02",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "wp-berlin-f824f513b9",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Are Berlin Clubs Unsustainable?",
+      "summary": "In light of the climate crisis, Music Editor Dan Cole explores nightlife’s environmental footprint.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Are Berlin Clubs Unsustainable?",
+          "url": "https://www.the-berliner.com/music-clubs/clubs-sustainability-nightlife-opinion/",
+          "publisher": "The Berliner",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 63
+    },
+    {
+      "id": "wp-berlin-d8695aed62",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "“I thought the problem was another woman. Turns out, I was the other woman.”",
+      "summary": "Mariah Mattsson shares her horror story about dating in Berlin.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "“I thought the problem was another woman. Turns out, I was the other woman.”",
+          "url": "https://www.the-berliner.com/culture/dating-berlin-column-mariah-mattsson/",
+          "publisher": "The Berliner",
+          "published_at": "2026-10-31",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 63
+    },
+    {
+      "id": "rss-berlin-a576ff05c9",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Nach Rückzug von Juli Zeh: Landtag steht vor schwieriger Suche nach Verfassungsrichter",
+      "summary": "Juli Zehs Rückzug hinterlässt eine offene Richterstelle am Verfassungsgericht in Brandenburg. Die AfD pocht auf ein Vorschlagsrecht. Warum die Suche nach einem Nachfolger kompliziert werden dürfte.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Nach Rückzug von Juli Zeh: Landtag steht vor schwieriger Suche nach Verfassungsrichter",
+          "url": "https://www.tagesspiegel.de/berlin/dpa-nach-ruckzug-von-juli-zeh-landtag-steht-vor-schwieriger-suche-nach-verfassungsrichter-16228596.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-02",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-berlin-003a82dfb2",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Bahnbrücke in Waren kontrolliert gesprengt: Ab jetzt freie Fahrt für den Neubau",
+      "summary": "Die marode Südbrücke der B 192 in Waren (Müritz) ist Geschichte. Sprengmeister brachten sie am Sonntag zu Fall. Abgesichert wurde das Spektakel von gut 200 Kräften.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Bahnbrücke in Waren kontrolliert gesprengt: Ab jetzt freie Fahrt für den Neubau",
+          "url": "https://www.berliner-zeitung.de/article/bahnbruecke-in-waren-kontrolliert-gesprengt-ab-jetzt-freie-fahrt-fuer-den-neubau-10551707",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-4358bb95f4",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "„Mangelnde Handlungsfähigkeit“: Industrie entzieht Berlin das Vertrauen und plant eigene Rohstoffstrategie",
+      "summary": "Chinas Exportkontrollen und steigende Energiekosten erhöhen den Druck. Ein neuer Vorstoß zeigt, wie Unternehmen ihre Versorgung absichern wollen. Die Bundesregierung spielt eine nachgeordnete Rolle.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "„Mangelnde Handlungsfähigkeit“: Industrie entzieht Berlin das Vertrauen und plant eigene Rohstoffstrategie",
+          "url": "https://www.berliner-zeitung.de/article/bmw-und-fuehrende-deutsche-konzerne-treiben-neue-rohstoffinitiative-voran-in-der-industrie-waechst-das-misstrauen-gegen-berlin-10551160",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-091929d073",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Fall Fabian: Verteidiger fordern Freispruch für Gina H. - „Keine lückenlose Beweiskette“",
+      "summary": "Thomas Löcker und Andreas Ohm bezweifeln Faser- und Schuhspuren, Handydaten sowie belastende Zeugenaussagen und sehen Anklage durch zwei Kinderzeugen erschüttert.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Fall Fabian: Verteidiger fordern Freispruch für Gina H. - „Keine lückenlose Beweiskette“",
+          "url": "https://www.berliner-zeitung.de/article/fall-fabian-verteidiger-fordern-freispruch-fuer-gina-h-keine-lueckenlose-beweiskette-10540943",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-24550a2da1",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "43-Jähriger tot auf Supermarkt-Parkplatz im Erzgebirge entdeckt",
+      "summary": "Kurz vor Mitternacht eilten Polizei und Rettungswagen auf einen Lidl-Parkplatz in Annaberg-Buchholz. Eine Schlägerei endete dort tödlich.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "43-Jähriger tot auf Supermarkt-Parkplatz im Erzgebirge entdeckt",
+          "url": "https://www.berliner-zeitung.de/article/toter-auf-supermarkt-parkplatz-im-erzgebirge-entdeckt-10545731",
+          "publisher": "Berliner Zeitung",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-berlin-66e6377101",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Viele Züge nach Hannover sind zusätzlich zur Umleitung verspätet",
+      "summary": "Bis zu 80 Minuten länger dauert die Zugfahrt seit Oktober zwischen Berlin und Hannover. Grund ist die Umleitung wegen einer Streckensanierung. Eine exklusive Datenauswertung zeigt: In den ersten drei Wochen kamen noch deutliche Verspätungen dazu.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Viele Züge nach Hannover sind zusätzlich zur Umleitung verspätet",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/11/bahnsperrung-berlin-hannover-datenauswertung.html",
+          "publisher": "rbb24",
+          "published_at": "2026-11-02",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-24b80f2229",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Zehn Festnahmen: Pyrotechnik und Feuer im Märkischen Viertel",
+      "summary": "Zehn Festnahmen: Pyrotechnik und Feuer im Märkischen Viertel",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Zehn Festnahmen: Pyrotechnik und Feuer im Märkischen Viertel",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/11/berlin-maerkisches-viertel-feuer-pyrotechnik-polizei.html",
+          "publisher": "rbb24",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-df3e9f6fd3",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Schönhauser Allee: Vorbereitung für Brücken-Neubau beginnen",
+      "summary": "Schönhauser Allee: Vorbereitung für Brücken-Neubau beginnen",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Schönhauser Allee: Vorbereitung für Brücken-Neubau beginnen",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/11/berlin-prenzlauer-berg-bruecke-schoenhauser-allee-neubau.html",
+          "publisher": "rbb24",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-7321464511",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Oder-Spree: Mann schmeißt ein Kilogramm Cannabis in Hausmüll",
+      "summary": "Oder-Spree: Mann schmeißt ein Kilogramm Cannabis in Hausmüll",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Oder-Spree: Mann schmeißt ein Kilogramm Cannabis in Hausmüll",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/11/cannabis-gras-thc-1-kg-im-hausmuell.html",
+          "publisher": "rbb24",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-16ba0aaea2",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Kolumne Was war das denn?: Zwei Wattestäbchen für einen Arzttermin",
+      "summary": "Neupatientin und gesetzlich versichert? Auf dem Berliner Gesundheitsmarkt sind das offenbar keine besonders attraktiven Eigenschaften. Warum die Arztsuche in Berlin viel zu oft zur absurden Geduldsprobe wird.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Kolumne Was war das denn?: Zwei Wattestäbchen für einen Arzttermin",
+          "url": "https://www.rbb24.de/panorama/thema/was-war-das-denn/arztsuche-berlin-hausarzt-facharzt-doctolib.html",
+          "publisher": "rbb24",
+          "published_at": "2026-11-01",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-world-2f1d411d3e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Is brown rice really healthier than white rice?",
+      "summary": "The scientific evidence goes against the grain",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Is brown rice really healthier than white rice?",
+          "url": "https://www.economist.com/science-and-technology/2026/10/30/is-brown-rice-really-healthier-than-white-rice",
+          "publisher": "The Economist",
+          "published_at": "2026-10-30",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 83
+    },
+    {
+      "id": "rss-world-9476d5b3af",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Surging costs and China trade war test US farmers' loyalty to Trump",
+      "summary": "Surging costs and China trade war test US farmers' loyalty to Trump",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Surging costs and China trade war test US farmers' loyalty to Trump",
+          "url": "https://asia.nikkei.com/politics/u.s.-midterm-elections/surging-costs-and-china-trade-war-test-us-farmers-loyalty-to-trump",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 69
+    },
+    {
+      "id": "rss-world-e44be90de6",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "AI Isn’t a Revolution—Yet",
+      "summary": "Just as British people did with steam power, the American public can shape how this technology spreads.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "AI Isn’t a Revolution—Yet",
+          "url": "https://foreignpolicy.com/2026/10/30/artificial-intelligence-ai-revolution-technology-history-luddites/",
+          "publisher": "Foreign Policy",
+          "published_at": "2026-10-30",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 67
+    },
+    {
+      "id": "rss-world-4771662f0e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Petrol prices set to hit record high under Trump on eve of US elections",
+      "summary": "Average fuel costs during president’s second term pass Biden-era levels as affordability issues dominate Tuesday’s midterm polls",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Petrol prices set to hit record high under Trump on eve of US elections",
+          "url": "https://www.ft.com/content/ee2748fb-9f85-4095-b599-526e5a4a6baa?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-11-02",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-836639ec29",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "The race to keep AI under control",
+      "summary": "Safety breaches are raising doubts about the ability of leading labs to keep increasingly powerful systems in check",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "The race to keep AI under control",
+          "url": "https://ig.ft.com/ai-safety/?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-11-02",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-48a2df32fe",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "AI mania can’t survive higher interest rates",
+      "summary": "The price of money is the pin that deflates market bubbles",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "AI mania can’t survive higher interest rates",
+          "url": "https://www.ft.com/content/6e99dc59-8bd0-4c5c-8186-f6ceed04233a?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-11-02",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-ecfeef33bf",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Global AI sell-off eases after Nasdaq’s worst month in over a year",
+      "summary": "US tech stocks set to start week higher following bruising rout",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Global AI sell-off eases after Nasdaq’s worst month in over a year",
+          "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-11-02",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-a707f9b78e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "The War Room newsletter: The best warplanes in history",
+      "summary": "Richard Cockett, a senior editor, straps in to examine the greatest aircraft of all time",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "The War Room newsletter: The best warplanes in history",
+          "url": "https://www.economist.com/international/2026/10/30/the-war-room-newsletter-the-best-warplanes-in-history",
+          "publisher": "The Economist",
+          "published_at": "2026-10-30",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 65
+    },
+    {
+      "id": "rss-world-19da5f0c88",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Hackers are running riot with AI. Its makers want to cash in",
+      "summary": "OpenAI and Anthropic spy a big opportunity in cyber-security",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Hackers are running riot with AI. Its makers want to cash in",
+          "url": "https://www.economist.com/business/2026/11/01/hackers-are-running-riot-with-ai-its-makers-want-to-cash-in",
+          "publisher": "The Economist",
+          "published_at": "2026-11-01",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 65
+    },
+    {
+      "id": "rss-world-3605c9de77",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Taiwan and Japan eye trade deal akin to Taipei-London pact, sources say",
+      "summary": "Taiwan and Japan eye trade deal akin to Taipei-London pact, sources say",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Taiwan and Japan eye trade deal akin to Taipei-London pact, sources say",
+          "url": "https://asia.nikkei.com/economy/trade/taiwan-and-japan-eye-trade-deal-akin-to-taipei-london-pact-sources-say",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 63
+    },
+    {
+      "id": "rss-world-9889316a36",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Bangladesh turns to China for worker training amid graduate job struggles",
+      "summary": "Bangladesh turns to China for worker training amid graduate job struggles",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Bangladesh turns to China for worker training amid graduate job struggles",
+          "url": "https://asia.nikkei.com/business/education/bangladesh-turns-to-china-for-worker-training-amid-graduate-job-struggles",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 63
+    },
+    {
+      "id": "rss-world-e73890346b",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Myanmar refugees fill labor gaps in Thailand as Cambodians return home",
+      "summary": "Myanmar refugees fill labor gaps in Thailand as Cambodians return home",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Myanmar refugees fill labor gaps in Thailand as Cambodians return home",
+          "url": "https://asia.nikkei.com/spotlight/myanmar-crisis/myanmar-refugees-fill-labor-gaps-in-thailand-as-cambodians-return-home",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 63
+    }
+  ],
+  "editorial_context": {
+    "recent_topics": [
+      {
+        "slug": "spain-puente-safety-package-cabinet-tuesday",
+        "section": "spain",
+        "date": "2026-11-01"
+      },
+      {
+        "slug": "spain-urda-five-unanswered-questions",
+        "section": "spain",
+        "date": "2026-11-01"
+      },
+      {
+        "slug": "spain-atocha-control-centre-staffing-liberalisation",
+        "section": "spain",
+        "date": "2026-11-01"
+      },
+      {
+        "slug": "germany-gas-storage-below-targets",
+        "section": "germany",
+        "date": "2026-11-01"
+      },
+      {
+        "slug": "germany-bahn-last-minute-tickets-extended",
+        "section": "germany",
+        "date": "2026-11-01"
+      },
+      {
+        "slug": "germany-vegan-diet-climate",
+        "section": "germany",
+        "date": "2026-11-01"
+      },
+      {
+        "slug": "berlin-linke-congress-coalition-talks",
+        "section": "berlin",
+        "date": "2026-11-01"
+      },
+      {
+        "slug": "berlin-gen-z-demo-stones-pyrotechnics",
+        "section": "berlin",
+        "date": "2026-11-01"
+      },
+      {
+        "slug": "berlin-kaeltehilfe-buses-return",
+        "section": "berlin",
+        "date": "2026-11-01"
+      },
+      {
+        "slug": "world-binance-6-3bn-hack-north-korea",
+        "section": "world",
+        "date": "2026-11-01"
+      },
+      {
+        "slug": "world-iran-khamenei-retaliation-warning",
+        "section": "world",
+        "date": "2026-11-01"
+      },
+      {
+        "slug": "world-pakistan-refineries-profit-jump",
+        "section": "world",
+        "date": "2026-11-01"
+      },
+      {
+        "slug": "spain-lzb-170-outages-2026",
+        "section": "spain",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "spain-frente-amplio-presses-puente",
+        "section": "spain",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "spain-urda-69-autopsies-forensic-protocol",
+        "section": "spain",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "germany-afd-data-leak-bigger-problem",
+        "section": "germany",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "germany-birth-rate-study-women-25-39",
+        "section": "germany",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "germany-banks-survey-shares-pension-postponed",
+        "section": "germany",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "berlin-gewerbemieten-deckel-bundesrat",
+        "section": "berlin",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "berlin-gen-z-regelt-kudamm-shops-board-up",
+        "section": "berlin",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "berlin-halloween-ghost-tours",
+        "section": "berlin",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "world-canada-eu-alliance-for-the-future",
+        "section": "world",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "world-congo-ebola-5000-deaths",
+        "section": "world",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "world-openai-funding-target-cut",
+        "section": "world",
+        "date": "2026-10-31"
+      },
+      {
+        "slug": "spain-urda-first-report-speed-160-200",
+        "section": "spain",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "spain-atocha-controllers-wrong-lzb-mode",
+        "section": "spain",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "spain-aesf-missed-adif-audits-since-2020",
+        "section": "spain",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "germany-lagarde-ecb-resignation-report",
+        "section": "germany",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "germany-finanzen-net-inflexion-paywall-neobroker",
+        "section": "germany",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "germany-school-creativity-mohr-pisa",
+        "section": "germany",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "berlin-linke-klein-parliament-president",
+        "section": "berlin",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "berlin-police-no-violence-calls-31-oct",
+        "section": "berlin",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "berlin-the-berliner-theatre-highlights",
+        "section": "berlin",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "world-modi-25-years-jobs",
+        "section": "world",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "world-oil-rises-us-iran-strikes",
+        "section": "world",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "world-vietnam-drone-airport-safety",
+        "section": "world",
+        "date": "2026-10-30"
+      },
+      {
+        "slug": "spain-urda-train-crash-atocha-audio",
+        "section": "spain",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "spain-sanchez-two-rail-accidents-response",
+        "section": "spain",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "spain-high-speed-maintenance-underinvestment",
+        "section": "spain",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "germany-army-chief-baltic-defence-pace",
+        "section": "germany",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "germany-ecb-rate-decision-dax-earnings",
+        "section": "germany",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "germany-menopause-workplace-column",
+        "section": "germany",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "berlin-union-threatens-constitutional-suits",
+        "section": "berlin",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "berlin-fu-otto-suhr-blockade",
+        "section": "berlin",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "berlin-cold-weather-shelters-nearly-full",
+        "section": "berlin",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "world-flavio-bolsonaro-flees-brazil",
+        "section": "world",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "world-egypt-mada-masr-attalah-convicted",
+        "section": "world",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "world-bangladesh-measles-warning-sign",
+        "section": "world",
+        "date": "2026-10-29"
+      },
+      {
+        "slug": "spain-barcelona-judge-looting-suspects-released",
+        "section": "spain",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "spain-abascal-fears-feijoo-centre-vote",
+        "section": "spain",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "spain-senate-lists-map-29n",
+        "section": "spain",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "germany-europe-digital-dependence-study",
+        "section": "germany",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "germany-amazon-review-deletion-scheme",
+        "section": "germany",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "germany-bea-freibetrag-father-childcare",
+        "section": "germany",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "berlin-linke-education-portfolio",
+        "section": "berlin",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "berlin-bayern-courts-landlords-vergesellschaftung",
+        "section": "berlin",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "berlin-linke-fraktion-emde-postponed",
+        "section": "berlin",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "world-israel-election-exit-polls-no-majority",
+        "section": "world",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "world-trump-tariffs-ieepa-court",
+        "section": "world",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "world-uk-sanctions-sudan-el-fasher",
+        "section": "world",
+        "date": "2026-10-28"
+      },
+      {
+        "slug": "spain-barcelona-riots-mossos-plaza-espanya",
+        "section": "spain",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "spain-pp-vox-senate-independents-pact",
+        "section": "spain",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "spain-right-education-network-study",
+        "section": "spain",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "germany-allianz-trade-insolvencies-2027",
+        "section": "germany",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "germany-mercedes-six-figure-severance",
+        "section": "germany",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "germany-pistorius-europe-nato-essay",
+        "section": "germany",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "berlin-seidel-mielke-judge-dies",
+        "section": "berlin",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "berlin-hertha-union-dfb-pokal",
+        "section": "berlin",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "berlin-redmann-french-conditions-31-oct",
+        "section": "berlin",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "world-israel-election-tight-race",
+        "section": "world",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "world-bolsonaro-party-accepts-defeat-trump-rigged",
+        "section": "world",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "world-sudan-rsf-power-station-drones",
+        "section": "world",
+        "date": "2026-10-27"
+      },
+      {
+        "slug": "spain-ateneo-poll-pp-vox-majority",
+        "section": "spain",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "spain-jordi-wild-podcast-leaders",
+        "section": "spain",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "spain-madrid-government-delegate-resigns",
+        "section": "spain",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "germany-ice-essen-track-worker-death",
+        "section": "germany",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "germany-mein-schiff-3-bremerhaven-collision",
+        "section": "germany",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "germany-employment-law-no-contract-start",
+        "section": "germany",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "berlin-spd-members-coalition-vote-checkpoint",
+        "section": "berlin",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "berlin-fuechse-wetzlar-wiede",
+        "section": "berlin",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "berlin-schwerin-day-trip",
+        "section": "berlin",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "world-lula-wins-bolsonaro-annulment",
+        "section": "world",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "world-vucic-concedes-serbia",
+        "section": "world",
+        "date": "2026-10-26"
+      },
+      {
+        "slug": "world-china-ai-distillation",
+        "section": "world",
+        "date": "2026-10-26"
+      }
+    ],
+    "rejected_candidates": [
+      {
+        "id": "rss-spain-b693107761",
+        "headline": "Cómo nos medicamos en España: más de 1.000 millones de envases tienen la respuesta",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-e9ffbf1562",
+        "headline": "Las claves de las 'midterms': batallas decisivas y temas fundamentales para seguir las elecciones legislativas de EEUU",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-3470d71367",
+        "headline": "“Es una fuerza extraordinaria”: Obama responde a la llamada para impulsar a los candidatos demócratas y vapulea a Trump",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-5277a949f9",
+        "headline": "Cómo la rebelión en un instituto de la periferia parisina encendió un otoño de cólera social contra Macron",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-8219829e15",
+        "headline": "Isabel Coixet: “Woody Allen se está llevando una pasta de nuestros impuestos para hacer su película”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-9f3511aacf",
+        "headline": "Adiós pantallas, hola anillos: los nuevos dispositivos de actividad apuestan por pasar desapercibidos",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-7fa9227027",
+        "headline": "Omar Ayuso, actor: “Yo concibo el sexo como un juego en el que puede caber el amor”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-8f313b1307",
+        "headline": "La jueza urge a tener operarios en las grúas de forma ininterrumpida y trabajar toda la jornada",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-b15f7c9efb",
+        "headline": "El modelo ferroviario de España se agrieta en una crisis de difícil solución",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-d6575e559d",
+        "headline": "“No se puede ser presidente de España sin entender a Catalunya”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-cbdc9298b3",
+        "headline": "Illa replica a Feijóo que “nunca” será presidente: “Primero contra el catalán, ahora contra la amnistía”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-3fc6571f3d",
+        "headline": "Feijóo se cambia de traje",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-15b41f6ab2",
+        "headline": "Morning Briefing: Hilft Unternehmen nur die Rückkehr der Deutschland AG?",
+        "section": "germany",
+        "reason": "publisher_cap:handelsblatt.com",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-germany-a29d8768e5",
+        "headline": "Nikkei, Yen, Hang Seng: Asiens Börsen stabilisieren sich – Ölpreise geben nach",
+        "section": "germany",
+        "reason": "publisher_cap:handelsblatt.com",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-germany-27ff87b074",
+        "headline": "„Verachtenswerter Verrat“ bei den Demokraten: Abgeordnete Haley Stevens unterstützt in Michigan plötzlich Trumps Republikaner",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-germany-be1c06236e",
+        "headline": "Wetter: Tagsüber wird es kühler, nachts droht erster Frost",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-dd6936cf00",
+        "headline": "Fetische: »BDSM geht häufig schief, wenn man eine Gebrauchsanweisung erwartet«",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-cf3d777dde",
+        "headline": "Elbvertiefung: Der tägliche Newsletter aus Hamburg: Gen-Z-Proteste in Hamburg: Eine Bewegung sucht ihre Linie",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-545b8a3e46",
+        "headline": "Nach Rückzug von Juli Zeh: Landtag steht vor schwieriger Suche nach Verfassungsrichter",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-a569f8468e",
+        "headline": "Kunststoff: Wirtschaftsverbände wehren sich gegen geplante Plastiksteuer",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-0ffa5ad389",
+        "headline": "Tokio Hotel in Hamburg: Feuer, Bums und Dampf",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-d2f1b6a24d",
+        "headline": "USA: Demokratin Stevens unterstützt Republikaner Rogers",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-1d73ef46a9",
+        "headline": "Midterms in den USA: Können die Demokraten wirklich gewinnen?",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-29248df446",
+        "headline": "Pop: Ohne ihn wären die Beatles noch in Liverpool",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-49ae327b7f",
+        "headline": "Reading (German) Between the Lines",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-c232e7d67f",
+        "headline": "Lights, Camera, Action: Berlin’s Unmissable Film Events this November",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "wp-berlin-d0ea2f4822",
+        "headline": "Berlin Photo of the Week Finalists: October 2026",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-berlin-89823ec301",
+        "headline": "👩🏽🌮 #541: Halloween protests, AfD elbowed out, Eralp smear campaign",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 56,
+        "notes": [
+          "feed:+35",
+          "publisher:+4"
+        ]
+      },
+      {
+        "id": "rss-berlin-94aede1187",
+        "headline": "🗼🏊🏽‍♀️ #540: Die Linke mess, taxi mess, Paris train, night-swimming",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 56,
+        "notes": [
+          "feed:+35",
+          "publisher:+4"
+        ]
+      },
+      {
+        "id": "wp-berlin-899f6e19d1",
+        "headline": "The Emerging Change Tanzfestival Is Putting QTBIPoC Centre Stage",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 42,
+        "notes": [
+          "feed:+35",
+          "dedup:-15 (world-canada-eu-alliance-for-the-future)",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-berlin-a94c31c514",
+        "headline": "Basketball: Alba verliert nach starkem Start in Bonn",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 28,
+        "notes": [
+          "feed:+35",
+          "sport:-30",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-be4abe1423",
+        "headline": "Fußball: Union Berlin fehlt die Qualität für mehr",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 28,
+        "notes": [
+          "feed:+35",
+          "sport:-30",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-96a706a7bb",
+        "headline": "Handball: Füchse siegen in Eisenach trotz schwachem Beginn",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 28,
+        "notes": [
+          "feed:+35",
+          "sport:-30",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-839846bbb1",
+        "headline": "Basketball: Albas Spielerinnen siegen souverän gegen Halle",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 28,
+        "notes": [
+          "feed:+35",
+          "sport:-30",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "wp-berlin-6bfc969775",
+        "headline": "Berlin Prepares for Gen Z Protests",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 27,
+        "notes": [
+          "feed:+35",
+          "dedup:-30 (berlin-gen-z-regelt-kudamm-shops-board-up, world-canada-eu-alliance-for-the-future)",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-berlin-f86f01e2fb",
+        "headline": "Wettervorhersage: Tagsüber bis zu 9 Grad, nachts Frost",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 20,
+        "notes": [
+          "feed:+35",
+          "noise:-40",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-world-e8ce242982",
+        "headline": "Russia the Disruptor",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 61,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+3"
+        ]
+      },
+      {
+        "id": "rss-world-9a9dd3d655",
+        "headline": "Fame, Fortune, and Murder in 1960s France",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 61,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+3"
+        ]
+      },
+      {
+        "id": "rss-world-8332844362",
+        "headline": "Russian strikes leave thousands without power in Ukraine, says Zelenskyy",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-6e01ff158e",
+        "headline": "Most Asian Stocks Gain With US Futures, Oil Falls: Markets Wrap",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-f7b44f5df1",
+        "headline": "NY’s MTA Could Save $2.5 Billion With Faster Buses, Expense Cuts",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-0798759886",
+        "headline": "NSE Shares Win Wall Street Backing After Muted Trading Debut",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+2"
+        ]
+      },
+      {
+        "id": "rss-world-59e9816ed2",
+        "headline": "How De Beers lost its sparkle",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-world-45669fcfc4",
+        "headline": "Poland’s fight over its constitutional court gets physical",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-world-62e6391b39",
+        "headline": "Intensive parenting is no longer the preserve of the rich",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-world-34fb7a136a",
+        "headline": "Ukrainian Evacuees From Oleshky Tell Survival Stories",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "priority:+6"
+        ]
+      },
+      {
+        "id": "rss-world-40ea468761",
+        "headline": "He’s the Top Snake Catcher, and Business Is Booming. There’s Just One Problem.",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "priority:+6"
+        ]
+      },
+      {
+        "id": "rss-world-4206e27a42",
+        "headline": "Clashes Erupt Again in France, After Festive Start to Day of Protest",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "priority:+6"
+        ]
+      }
+    ],
+    "running_stories_on_cooldown": [],
+    "note": "Pre-ranked with editorial relevance from topics.yaml, dedup_index.md, and news_relevance rules in sources.yaml. Synthesis must still apply hard reject rules in news-briefing-style.mdc. running_stories_on_cooldown: do not give these a Spain slot; park a one-liner in Other Headlines unless an extraordinary trigger hit."
+  },
+  "note": "Token-light slice for synthesis. Full warehouse is in -raw.json. All items come from RSS or WordPress feeds — copy source URLs verbatim."
+}
