@@ -1,52 +1,35 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-10-27",
-  "briefing_date": "2026-10-27",
-  "inbox_date": "2026-10-27",
-  "week_start": "2026-10-28",
-  "week_end": "2026-11-03",
+  "date": "2026-11-03",
+  "briefing_date": "2026-11-03",
+  "inbox_date": "2026-11-03",
+  "week_start": "2026-11-04",
+  "week_end": "2026-11-10",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-10-27.md",
-  "inbox_path": "inbox/berlin-culture/2026-10-27-synthesis.json",
-  "items_count": 9,
+  "briefing_path": "briefings/berlin-culture/2026-11-03.md",
+  "inbox_path": "inbox/berlin-culture/2026-11-03-synthesis.json",
+  "items_count": 6,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 2,
+    "exhibitions": 1,
     "film": 1,
     "performing_arts": 0,
     "music": 1,
-    "wildcards": 2,
+    "wildcards": 0,
     "advance_radar": 0
   },
   "thin_sections": ["exhibitions", "film", "music"],
-  "omitted_sections": ["performing_arts", "advance_radar"],
+  "omitted_sections": ["performing_arts", "wildcards", "advance_radar"],
   "validation_warnings": [
-    "Section 'exhibitions' has 2 entries (style minimum 4)",
+    "Section 'exhibitions' has 1 entries (style minimum 4)",
     "Section 'film' has 1 entries (style minimum 2)",
     "Section 'performing_arts' has 0 entries (style minimum 2)",
-    "Section 'music' has 1 entries (style minimum 3)"
+    "Section 'music' has 1 entries (style minimum 3)",
+    "Section 'wildcards' has 0 entries (style minimum 1)"
   ],
-  "dropped_missing_end_dates": [
-    {
-      "title": "Dieter Roth — Eine Buchverzweigung - Die Solothurner Paneele von 1976",
-      "venue": "LEVY",
-      "dates": "Opening 30 October 2026, 18:00–21:00",
-      "official_url": "https://www.indexberlin.com/events/list/46140/eine-buchverzweigung-die-solothurner-paneele-von-1976"
-    }
-  ],
-  "calendar_fills": [
-    {
-      "title": "Maya Deren & Alexander Hammid — Meshes of the Afternoon",
-      "section": "film",
-      "official_url": "https://www.indexberlin.com/events/list/46508/meshes-of-the-afternoon"
-    },
-    {
-      "title": "Marie Schleef — The Gap as a Source of Inspiration: Toward a Feminist Theater Practice",
-      "section": "wildcards",
-      "official_url": "https://www.indexberlin.com/events/list/46105/marie-schleef-the-gap-as-a-source-of-inspiration-toward-a-feminist-theater-practice"
-    }
-  ],
-  "calendar_fill_notes": "Considered and rejected: Dieter Roth at LEVY (opening only, no run end — dropped and logged); Finissage Kerim Seiler at SEXAUER 31.10 (page has no description or run dates); Olivia Erlanger and Diego Marcon at KW (same venue/evening as Meshes of the Afternoon, KW already has the Meshes entry; not fetched); Admin Night, Book Launch, Klasse Brenner, gallery opening-night listings (Vicky Uslé, Nicolás Guagnini, Gebert, Raimann, Oska Gutheil, Laura Mars party, Monika Baer et al.) — opening-only listings without run ends or descriptions, not fetched.",
-  "verification_fetches": 9,
-  "notes": "Spot-checked: Sakamoto at Hamburger Bahnhof 11.09.26–20.06.27 (hours incl. Thursday late opening); Temple of Faitiche Thu 29.10 doors 19:00/start 20:00; HAU3 Let's Play 28.10 19:00 and 29.10 20:00 (inbox 'dates' field showed a 2021 date; page confirms 2026). Inbox exhibition dates for New Systems (Ebensperger, 'until 21 Nov') and Void is Seductive were wrong: pages show carlier | gebauer, 10.09–28.10.26 and OFFICE IMPART, 10.09–30.10.26; corrected venues and end dates used. Chanel Beads kept for music (silent green cap: 2 entries); LudoWic skipped as sold out. Inbox had no Film items and one Performing Arts item (a Top Pick), so Performing Arts is omitted. Czollek at HKW promoted from last week's Advance Radar. Advance Radar omitted: remaining 5–6 Nov gallery openings had no verified venue/description."
+  "dropped_missing_end_dates": [],
+  "calendar_fills": [],
+  "calendar_fill_notes": "Considered Timur Si-Qin 'Pristine, Part II' at Société (page fetched: opening 4 Nov, no run end, no description) and rejected. Other index-berlin ICS items (book club, conversation, 11-12 Nov items) had no verified descriptions or fell outside the window.",
+  "verification_fetches": 8,
+  "notes": "Spot-checked Hiller (KW, 17.10.26–10.01.27, tour 6 Nov), Herzbergmaschine (9 Nov 18:00), Ana Roxanne (9 Nov), goat (4 Nov), Come Closer (5 Nov). Inbox venue/dates for two Ebensperger exhibitions were wrong: 'The Seed Is the Tree' is at Galerie Tanja Wagner and ends 4 Nov (no description, skipped); 'Hauntings' is at BQ and ends 7 Nov (venue corrected). Hiller repeated from the 13 Oct briefing because the 6 Nov tour is new. Silent green capped at 2 entries (Poppy Ackroyd dropped). Inbox had no Performing Arts items."
 }

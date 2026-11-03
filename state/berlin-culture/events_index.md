@@ -106,3 +106,9 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-10-27 | music | Chanel Beads + urika's bedroom | silent green Kulturquartier, Betonhalle | https://www.silent-green.net/en/programme/detail/chanel-beads
 2026-10-27 | wildcards | Diskurs. Pop. Liebe. — Max Czollek in conversation with Mely Kiyak and Necati Öziri | Haus der Kulturen der Welt | https://www.indexberlin.com/events/list/45709/diskurs-pop-liebe-gesprachsreihe-mit-max-czollek-max-czollek-in-conversation-with-mely-kiyak-and-necati-oziri
 2026-10-27 | wildcards | Marie Schleef — The Gap as a Source of Inspiration: Toward a Feminist Theater Practice | ZK/U – Zentrum für Kunst und Urbanistik | https://www.indexberlin.com/events/list/46105/marie-schleef-the-gap-as-a-source-of-inspiration-toward-a-feminist-theater-practice
+2026-11-03 | top_picks | Susan Hiller — Bad Dreams | KW Institute for Contemporary Art | https://www.kw-berlin.de/en/exhibitions/susan-hiller-bad-dreams
+2026-11-03 | top_picks | Ana Roxanne + Clarice | silent green Kulturquartier, Betonhalle | https://www.silent-green.net/programm/detail/ana-roxanne-1?cHash=a988557a4c9204f306b476d431f478a3&tx_news_pi1%5Bday%5D=9&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2026
+2026-11-03 | top_picks | Herzbergmaschine — documentary trilogy, with Sven Boeck | ACUDkino, Kino 2 | https://acudkino.de/Programm/herzbergmaschine/19621/58966
+2026-11-03 | exhibitions | Carina Brandes — Hauntings | BQ | https://www.indexberlin.com/exhibitions/list/45044/hauntings
+2026-11-03 | film | Special Programme “Come Closer” | ACUDkino, Kino 1 | https://acudkino.de/Programm/special_programme_come_closer/20577
+2026-11-03 | music | goat (jp) + Camila Nebbia | silent green Kulturquartier, Betonhalle | https://www.silent-green.net/en/programme/detail/goat-jp?cHash=fa8983364cd5c68d5c957c597e0d73d1&tx_news_pi1%5Bday%5D=4&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2026
