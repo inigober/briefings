@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-03
+
+- [The AI problem we feared is not the AI problem we got](https://www.ft.com/content/cf6fd711-cfa5-49f9-9958-3aec32369286?syn-25a6b1a6=1) — Financial Times
+- [Russia Senses Opportunity in Polish Political Turmoil](https://www.nytimes.com/2026/11/02/world/europe/russia-polish-political-turmoil.html) — The New York Times
+- [How Democrats Are Reclaiming the Politics of Populism](https://www.newyorker.com/news/the-lede/how-democrats-are-reclaiming-the-politics-of-populism) — The New Yorker
+- [Reigniting War With Iran Would Be a 'Huge Gamble'](https://foreignpolicy.com/2026/11/02/trump-iran-war-midterms-military-readiness-missiles-capabilities/) — Foreign Policy
+
 ## 2026-11-02
 
 - [The race to keep AI under control](https://ig.ft.com/ai-safety/?syn-25a6b1a6=1) — Financial Times
@@ -38,13 +45,6 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 - [Why Wouldn’t Google Tell Me Who Won the 2020 Election?](https://www.theatlantic.com/technology/2026/10/google-search-ai-2020-election-trump/689197/?utm_source=feed) — The Atlantic
 - [Turkey builds Asia-Europe rail corridor as wars snarl up old trade routes](https://asia.nikkei.com/business/transportation/turkey-builds-asia-europe-rail-corridor-as-wars-snarl-up-old-trade-routes) — Nikkei Asia
 - [US ambassador suggests Trump could blame Canada if midterms don’t go his way](https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms) — The Guardian
-
-## 2026-10-28
-
-- [Anthropic’s seven founders tighten grip ahead of blockbuster IPO](https://www.ft.com/content/24a35e41-2641-4cec-97f5-a974412f9952?syn-25a6b1a6=1) — Financial Times
-- [Treatments for age-related infertility are being developed at last](https://www.economist.com/science-and-technology/2026/10/26/treatments-for-age-related-infertility-are-being-developed-at-last) — The Economist
-- [Trump Explores Lifting Sanctions on Russia’s Flagship Investment Fund](https://www.nytimes.com/2026/10/27/us/politics/russia-fund-sanctions-trump.html) — The New York Times
-- [Aussie-Kiwi Rates Split Drives Biggest Currency Move in 9 Years](https://www.bloomberg.com/news/articles/2026-10-28/new-zealand-dollar-slides-most-versus-aussie-since-2017-on-rbnz) — Bloomberg
 
 ## Blocked until 5+ briefings have passed
 

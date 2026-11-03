@@ -1,21 +1,22 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-02",
-  "briefing_date": "2026-11-02",
-  "inbox_date": "2026-11-02",
+  "date": "2026-11-03",
+  "briefing_date": "2026-11-03",
+  "inbox_date": "2026-11-03",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-02.md",
-  "inbox_path": "inbox/news/2026-11-02-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-03.md",
+  "inbox_path": "inbox/news/2026-11-03-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Urda far-right campaigning / Puente / justice long road / Barcones / reconciliation human-interest", "section": "spain", "reason": "one theme per section: Urda resignation demand used; far-right piece parked in Other Headlines"},
-    {"headline": "Alta velocidad investment/liberalisation; ERTMS testing Madrid-Sevilla", "section": "spain", "reason": "repeat of 2026-11-01 rail liberalisation theme and same Urda theme"},
-    {"headline": "Bulgaria run-off; Iran-war newsblog", "section": "germany", "reason": "geo-misfit: foreign affairs belong in World / Other Headlines"},
-    {"headline": "Börse 2 November; divorce/house, job-search, Kinderwunsch, Bellevue dialect, Lucky Luke", "section": "germany", "reason": "service/lifestyle filler or low relevance"},
-    {"headline": "Fall Fabian; Annaberg-Buchholz death; Waren bridge; Märkisches Viertel arrests; Oder-Spree cannabis; Juli Zeh/Brandenburg court", "section": "berlin", "reason": "not Berlin city proper, or one-off crime"},
-    {"headline": "US farmers and China trade war (Nikkei)", "section": "world", "reason": "same midterms theme as petrol-price story; parked in Other Headlines"},
-    {"headline": "AI Isn't a Revolution—Yet; Is brown rice healthier", "section": "world", "reason": "already in selected_reads_index within last 5 briefings"},
-    {"headline": "AI mania/higher rates; AI sell-off eases; warplanes newsletter", "section": "world", "reason": "AI-market theme kept to Other Headlines; warplanes low relevance"}
+    {"headline": "Urda: 69 victims identified; héroes anónimos; hospitals; Adamuz survivor; degradación alta velocidad; rail unions mobilisation", "section": "spain", "reason": "one theme per section: Puente safety-package appearance used; rest parked in Other Headlines"},
+    {"headline": "Trump se juega su poder absoluto con las midterms (eldiario.es)", "section": "spain", "reason": "geo-misfit: US politics belongs in World"},
+    {"headline": "Industry plans own raw-materials strategy (Berliner Zeitung)", "section": "germany", "reason": "repeat of 2026-11-02 dedup entry; no material development"},
+    {"headline": "North Korea calls US Binance-hack claims absurd", "section": "germany", "reason": "geo-misfit and Binance hack covered 2026-11-01; parked in Other Headlines"},
+    {"headline": "Fiat Panda used-car check; bull-and-donkey pair; Halloween tampered sweets; Checkpoint newsletter; Trump midterms Tagesspiegel", "section": "germany", "reason": "service/lifestyle filler, one-off crime, or geo-misfit; publisher_pool_thin for Germany"},
+    {"headline": "CDU offers Greens/SPD exploratory talks; Greens negotiating team; Kenia hopes", "section": "berlin", "reason": "one theme per section: coalition talks used once (SPD members' appeal); CDU meeting parked in Other Headlines"},
+    {"headline": "Retail wage deals Berlin-Brandenburg; Oranienburg cyclist death; Waren bridge blast; supermarket freezer cyberattack; The Berliner dating column", "section": "berlin", "reason": "not Berlin city proper, one-off crime/accident, or lifestyle filler"},
+    {"headline": "Hackers running riot with AI (Economist); AI problem we feared (FT)", "section": "world", "reason": "Economist piece already in selected_reads_index; FT piece used as Selected Read"},
+    {"headline": "Russian bombing of Ukrainian aid centre; Russia and Polish turmoil; Trump closing message; Democrats and populism; Apple earnings; One Nation attack", "section": "world", "reason": "Europe-only or same US-midterms theme as chosen story, or low relevance; parked in Other Headlines or Selected Reads"}
   ]
 }

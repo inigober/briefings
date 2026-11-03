@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-03
+
+- **spain-puente-safety-package-appearance-express-aid** — EL PAÍS: Puente presents Adif protocol, innovation and staffing measures; cabinet approves express aid for Urda victims (section: spain)
+- **spain-blocus-leader-paris-turkey-flight-risk** — eldiario.es: Guardia Civil says alleged Blocus ringleader (arrested Picanya 30 Oct) travelled to Paris/Turkey and had means to flee (section: spain)
+- **spain-leire-diez-case-pp-fake-news-evidence** — eldiario.es: Pedraz inquiry finds indications of fabricated news in conservative media; Koldo García's lawyer suspected (section: spain)
+- **germany-reiche-coalition-committee-bill** — Handelsblatt: Reiche's bill makes a coalition-committee demand concrete but likely misses its goal (section: germany)
+- **germany-dax-26000-earnings-before-midterms** — Handelsblatt: Dax 19 points from 26,000; Bayer, Zalando, Lufthansa report (section: germany)
+- **germany-chatgpt-explicit-images-parenting** — Tagesspiegel: father asks how to handle a 12-year-old requesting explicit ChatGPT images (section: germany)
+- **berlin-spd-members-appeal-against-linke-coalition** — rbb24: almost 1,200 SPD members sign appeal against coalition with Linke (section: berlin)
+- **berlin-domestic-violence-deaths-24-in-2025** — rbb24: 24 domestic-violence deaths in 2025 per police crime statistics (section: berlin)
+- **berlin-alexanderplatz-library-stimmungsbild** — Tagesspiegel: visitors and traders on the plan for a central library at Alexanderplatz (section: berlin)
+- **world-aisin-ai-chip-98pct-energy** — Nikkei Asia: Aisin develops AI chip it says cuts energy use 98% (section: world)
+- **world-aratasaurus-fossil-red-blood-cells** — The Guardian: heme and apparent red blood cells in 115m-year-old Brazilian dinosaur bone (section: world)
+- **world-us-midterms-key-races** — Financial Times: key races deciding the US midterms, blue-wave question (section: world)
+
 ## 2026-11-02
 
 - **spain-urda-congress-committee-demands-puente-resignation** — EL PAÍS: PP, Vox, Junts, PNV majority in Diputación Permanente demand Puente's resignation (section: spain)
@@ -215,34 +230,4 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 - **world-kenya-ebola-us-health-cuts** — The Guardian: eighth Bundibugyo case in Kenya's first cluster; US WHO cuts, travel bans, quarantine centre (section: world)
 - **world-ai-debt-cds-surge** — Financial Times: credit-default-swap volumes on big-tech names surge as a hedge on the AI boom (section: world)
 - **world-internet-archive-wayback-ai** — The Atlantic: blocking the Wayback Machine is collateral damage in the publisher–AI scrape fight (section: world)
-
-## 2026-10-19
-
-- **spain-ayuso-health-staff-budget** — eldiario.es: internal Madrid health paper — personnel budget below last year's spend, does not cover authorised headcount; doctors' purchasing power lowest in Spain (section: spain)
-- **spain-andalucia-vox-ong-homeless-cuts** — eldiario.es: Moreno government suspends Red Cross/SAMU/Inserta grants for homeless (80% foreign) after PP–Vox "national priority" pact; street date 20 December (section: spain)
-- **spain-martes-sociales-benefits-decree** — EL PAÍS: caretaker Cabinets until 29-N as "social Tuesdays"; first decree raises widowhood, disability, terrorism and gender-violence benefits (section: spain)
-- **germany-invest-in-germany-merz-fink-huang** — Handelsblatt: Merz courts BlackRock's Fink and Nvidia's Huang at Invest in Germany summit in Berlin (section: germany)
-- **germany-frei-miersch-miosga-vergesellschaftung** — Tagesspiegel: Frei tells Miosga socialization is the stupidest idea; federal coalition peace talk collides with Berlin R2G (section: germany)
-- **germany-summer-holiday-autumn-booking** — Handelsblatt: booking summer holidays in autumn sold as psychology and price tactic (section: germany)
-- **berlin-spd-greens-monday-coalition-vote** — rbb24: SPD state board and Greens meeting decide Monday on formal talks with Linke (section: berlin)
-- **berlin-teuteberg-sed-youth-education** — Tagesspiegel: new SED-injustice commissioner Teuteberg will put youth education beside counselling (section: berlin)
-- **berlin-br-volleys-ligacup** — rbb24: BR Volleys win the German Ligacup (section: berlin)
-- **world-france-supermarket-fridge-cyberattack** — Politico Europe: hackers remotely raised French supermarket fridge temperatures; food-security not AI-safety frame (section: world)
-- **world-alzheimers-brain-evolution** — The Atlantic: genetic changes that built the human brain may have set up Alzheimer's (section: world)
-- **world-japan-journalist-russia-detainee** — Nikkei Asia: ex-detainee says Russia wants something in return for a Japanese journalist (section: world)
-
-## 2026-10-18
-
-- **spain-senate-vox-pp-tactical-withdrawal** — EL PAÍS: Vox considering not running Senate candidates in some provinces and backing the PP against the left's joint list (section: spain)
-- **spain-rental-listings-2-5-pause** — eldiario.es: portals deny a mass landlord exit after the housing decrees; 2–5% temporary pause in ads (section: spain)
-- **spain-pnv-esteban-vox-deeds** — EL PAÍS: PNV president Aitor Esteban says deeds, not a fear vote, are how they keep Vox out (section: spain)
-- **germany-marine-coastal-investment** — Handelsblatt: navy needs more coastal berths, people and kit; station planning under way (section: germany)
-- **germany-weather-sensitivity** — Tagesspiegel: explainer on Wetterfühligkeit — whether scars and headaches forecast weather (section: germany)
-- **germany-smartphone-battery-anxiety** — Handelsblatt: survey — some users cancel plans when the phone battery is low (section: germany)
-- **berlin-rgr-coalition-talks-vergesellschaftung-compromise** — rbb24: Linke, Greens and SPD finish sondierungen with a socialization compromise; formal talks possible early November (section: berlin)
-- **berlin-public-lectures** — Tagesspiegel: Berlin Hochschulen reopen public lecture series (section: berlin)
-- **berlin-kleistpark-student-protest** — rbb24: pupils protest in Schöneberg Kleistpark for better education (section: berlin)
-- **world-us-10tn-ai-infra-fray** — Financial Times: America's $10tn AI infrastructure boom is starting to fray on physical-world economics (section: world)
-- **world-indonesia-nickel-vw-ford-tesla** — The Guardian: VW, Ford and Tesla batteries linked to nickel-mine deforestation on Tolaki land (section: world)
-- **world-venezuela-76bn-oil-investment** — Bloomberg: Acting President Rodríguez cites nearly $76bn oil and gas investment over five years (section: world)
 
