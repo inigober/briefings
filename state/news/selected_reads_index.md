@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-04
+
+- [China Won’t Bail Out Trump’s Lost War](https://foreignpolicy.com/2026/11/03/china-iran-trump-xi-middle-east-interests/) — Foreign Policy
+- [EU tells Ukraine to speed up reforms, sets out more cautious path for accession](https://www.politico.eu/article/ukraine-accession-path-eu-membership-wobbles-european-commission-brussels-caution/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [China’s AI stock-market struggles are a warning](https://www.economist.com/finance-and-economics/2026/11/03/chinas-ai-stock-market-struggles-are-a-warning) — The Economist
+- [Accenture accused of publishing AI paper littered with AI hallucinations](https://www.ft.com/content/874e3f05-0be3-4a2d-b2a2-7b5823441794?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-11-03
 
 - [The AI problem we feared is not the AI problem we got](https://www.ft.com/content/cf6fd711-cfa5-49f9-9958-3aec32369286?syn-25a6b1a6=1) — Financial Times

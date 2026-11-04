@@ -6,6 +6,19 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-04
+
+- **spain-puente-resigns-no-list-29n** — EL PAÍS / eldiario.es: Puente resigns as transport minister and will not stand on 29 November lists after Urda crash (section: spain)
+- **germany-next-gen-fighter-jet-vs-drones** — Handelsblatt: who builds Germany's next-generation fighter and with whom, as drones rise (section: germany)
+- **germany-waren-b192-bridge-demolished** — Berliner Zeitung: B 192 south bridge in Waren blown up for replacement (section: germany)
+- **germany-kokainsegler-trial-rostock-feb-2027** — Berliner Zeitung: Rostock cocaine-sailor trial extended to February 2027 (section: germany)
+- **berlin-greens-spd-reject-cdu-sondierung** — rbb24: Greens and SPD turn down CDU's exploratory-talks request (section: berlin)
+- **berlin-prep-counselling-gkv-reform** — rbb24: HIV practices fear PrEP counselling unfunded under health-insurance reform (section: berlin)
+- **berlin-thielemann-bildungsbuergertum** — Tagesspiegel: Thielemann interview on Berlin's educated middle class (section: berlin)
+- **world-us-midterms-democrats-win-congress** — EL PAÍS / Handelsblatt: Democrats win Senate and House; Talarico wins Texas Senate seat (section: world)
+- **world-trump-ends-israel-aid-4bn** — eldiario.es / FT: Trump says US ends ~$4bn annual aid to Israel, keeps arms sales (section: world)
+- **world-markets-slide-democratic-ai-fears** — FT / Bloomberg: global stocks, dollar and Nikkei slide on fears of slower US AI build-out (section: world)
+
 ## 2026-11-03
 
 - **spain-puente-safety-package-appearance-express-aid** — EL PAÍS: Puente presents Adif protocol, innovation and staffing measures; cabinet approves express aid for Urda victims (section: spain)

@@ -1,22 +1,23 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-03",
-  "briefing_date": "2026-11-03",
-  "inbox_date": "2026-11-03",
+  "date": "2026-11-04",
+  "briefing_date": "2026-11-04",
+  "inbox_date": "2026-11-04",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-03.md",
-  "inbox_path": "inbox/news/2026-11-03-synthesis.json",
-  "items_count": 12,
+  "briefing_path": "briefings/news/2026-11-04.md",
+  "inbox_path": "inbox/news/2026-11-04-synthesis.json",
+  "items_count": 11,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Urda: 69 victims identified; héroes anónimos; hospitals; Adamuz survivor; degradación alta velocidad; rail unions mobilisation", "section": "spain", "reason": "one theme per section: Puente safety-package appearance used; rest parked in Other Headlines"},
-    {"headline": "Trump se juega su poder absoluto con las midterms (eldiario.es)", "section": "spain", "reason": "geo-misfit: US politics belongs in World"},
-    {"headline": "Industry plans own raw-materials strategy (Berliner Zeitung)", "section": "germany", "reason": "repeat of 2026-11-02 dedup entry; no material development"},
-    {"headline": "North Korea calls US Binance-hack claims absurd", "section": "germany", "reason": "geo-misfit and Binance hack covered 2026-11-01; parked in Other Headlines"},
-    {"headline": "Fiat Panda used-car check; bull-and-donkey pair; Halloween tampered sweets; Checkpoint newsletter; Trump midterms Tagesspiegel", "section": "germany", "reason": "service/lifestyle filler, one-off crime, or geo-misfit; publisher_pool_thin for Germany"},
-    {"headline": "CDU offers Greens/SPD exploratory talks; Greens negotiating team; Kenia hopes", "section": "berlin", "reason": "one theme per section: coalition talks used once (SPD members' appeal); CDU meeting parked in Other Headlines"},
-    {"headline": "Retail wage deals Berlin-Brandenburg; Oranienburg cyclist death; Waren bridge blast; supermarket freezer cyberattack; The Berliner dating column", "section": "berlin", "reason": "not Berlin city proper, one-off crime/accident, or lifestyle filler"},
-    {"headline": "Hackers running riot with AI (Economist); AI problem we feared (FT)", "section": "world", "reason": "Economist piece already in selected_reads_index; FT piece used as Selected Read"},
-    {"headline": "Russian bombing of Ukrainian aid centre; Russia and Polish turmoil; Trump closing message; Democrats and populism; Apple earnings; One Nation attack", "section": "world", "reason": "Europe-only or same US-midterms theme as chosen story, or low relevance; parked in Other Headlines or Selected Reads"}
+    {"headline": "US midterms live results / guide / maps / Trump reaction (eldiario.es, EL PAÍS)", "section": "spain", "reason": "geo-misfit: US politics belongs in World; only Puente resignation is Spain-focused (publisher_pool_thin, section has 1 story)"},
+    {"headline": "Óscar Puente interview (eldiario.es) vs EL PAÍS Puente piece", "section": "spain", "reason": "one theme per section: merged into a single story citing both publishers"},
+    {"headline": "Industry plans own raw-materials strategy / Heizöl +93% commentary (Berliner Zeitung)", "section": "germany", "reason": "repeat of 2026-11-02 dedup entry; parked in Other Headlines"},
+    {"headline": "Midterms coverage (Handelsblatt, Tagesspiegel)", "section": "germany", "reason": "geo-misfit: US politics belongs in World"},
+    {"headline": "Supermarket freezer cyberattack (Berliner Zeitung)", "section": "germany", "reason": "not Germany-specific; already in 2026-11-03 Other Headlines"},
+    {"headline": "Citroën 2CV revival; men dating older women; AI intelligence-explosion explainer; Karl Bushby walk", "section": "germany", "reason": "lifestyle filler or no Germany angle; publisher_pool_thin"},
+    {"headline": "Four robberies in 35 minutes, Charlottenburg (Tagesspiegel/rbb24)", "section": "berlin", "reason": "one-off crime"},
+    {"headline": "Zelensky visit and security conference; Baumgesetz one year on", "section": "berlin", "reason": "parked in Other Headlines to keep rbb24 share of Berlin section at 2 of 3"},
+    {"headline": "Selected Reads: Hackers running riot with AI (Economist)", "section": "world", "reason": "already in selected_reads_index (2026-11-02)"},
+    {"headline": "China Won't Bail Out Trump's Lost War; Why Kushner and Witkoff Keep Failing (FP)", "section": "world", "reason": "opinion; China piece used as Selected Read, Kushner piece dropped to keep FP at 1"}
   ]
 }
