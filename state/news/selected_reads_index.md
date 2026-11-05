@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-05
+
+- [Morning in America, twilight in the markets](https://www.ft.com/content/d21e2a87-191b-447d-b81b-edcf7bc2f007) — Financial Times
+- [Google Won’t Give Schools the One Thing They Want](https://www.theatlantic.com/technology/2026/11/google-schools-ai-search/689298/?utm_source=feed) — The Atlantic
+- [Trump’s troubles with Iran could open the door to China](https://www.theguardian.com/world/2026/nov/03/trump-iran-middle-east-china-gulf-hormuz-xi-jinping) — The Guardian
+- [France's Tikehau, Natixis look to Asia as US data center boom raises risks](https://asia.nikkei.com/business/finance/france-s-tikehau-natixis-look-to-asia-as-us-data-center-boom-raises-risks) — Nikkei Asia
+
 ## 2026-11-04
 
 - [China Won’t Bail Out Trump’s Lost War](https://foreignpolicy.com/2026/11/03/china-iran-trump-xi-middle-east-interests/) — Foreign Policy

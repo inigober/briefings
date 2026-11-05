@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-05
+
+- **spain-cumbre-iberoamericana-milei-sanchez** — EL PAÍS: King opens XXX Ibero-American Summit in Madrid; Milei to meet Sánchez after "dictator" remark (section: spain)
+- **spain-polls-after-urda-crash-podcast** — EL PAÍS: new Llaneras podcast tracks 29N polls after Urda crash (section: spain)
+- **spain-arevalo-authoritarianism-interview** — EL PAÍS: Guatemala's Arévalo on resisting normalised authoritarianism at Madrid summit (section: spain)
+- **germany-aiwanger-found-dead-berlin** — rbb24: Bavarian deputy premier Hubert Aiwanger found dead in Berlin hotel (section: germany)
+- **germany-flasbarth-farewell-interview** — Tagesspiegel: Flasbarth leaves civil service, says nature policy harder under CDU–SPD (section: germany)
+- **germany-handelsblatt-trump-loss-affordability** — Handelsblatt: Trump's midterm loss turned on affordability, a rising issue in Europe (section: germany)
+- **berlin-lindentunnel-demolition** — rbb24: Lindentunnel in Mitte demolished, restrictions to end of 2027 (section: berlin)
+- **berlin-tesla-koepenick-research-centre** — rbb24: Tesla opens research centre in Köpenick (section: berlin)
+- **berlin-tierpark-elephant-kibo** — rbb24: Tierpark gets bull elephant Kibo from Erfurt (section: berlin)
+- **world-trump-gop-schism-vance-blames-iran-war** — eldiario.es: post-midterm Republican schism, Vance blames Iran war (section: world)
+- **world-russia-iran-missile-launcher-deal** — Financial Times: Russia deepens Iran military support with missile-launcher deal (section: world)
+- **world-china-tungsten-curbs-ai-supply-chain** — Nikkei Asia: China's tungsten curbs squeeze AI supply chain (section: world)
+
 ## 2026-11-04
 
 - **spain-puente-resigns-no-list-29n** — EL PAÍS / eldiario.es: Puente resigns as transport minister and will not stand on 29 November lists after Urda crash (section: spain)
