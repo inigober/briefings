@@ -4,13 +4,6 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 <!-- Format: YYYY-MM-DD | name | neighborhood | google_maps_url -->
 
-2026-08-20 | Mr. Noodle Chen | Friedrichshain | https://maps.google.com/?cid=15623604752531614074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-20 | Hi! Chili 海椒 | Prenzlauer Berg | https://maps.google.com/?cid=10412292124797041910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-20 | Tossakan | Prenzlauer Berg | https://maps.google.com/?cid=9571235162739134309&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-20 | Maiyarap | Kreuzberg | https://maps.google.com/?cid=4973541195333635983&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-20 | Ma-Makan | Kreuzberg | https://maps.google.com/?cid=673259701163278563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-20 | Güllü Lahmacun | Moabit | https://maps.google.com/?cid=6515880672792156939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-20 | Rutz | Mitte | https://maps.google.com/?cid=11168722036974200144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-27 | Wok Show | Prenzlauer Berg | https://maps.google.com/?cid=10950842182876736015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-27 | Ming Dynastie | Mitte | https://maps.google.com/?cid=261247375087039031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-08-27 | Nutts Thai Kitchen | Friedrichshain | https://maps.google.com/?cid=2970083855136947493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
@@ -74,3 +67,10 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-10-29 | Prizreni Qebaptore | Neukölln | https://maps.google.com/?cid=1220766494754305012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-10-29 | Lon Men's Noodle House | Charlottenburg | https://maps.google.com/?cid=9563754848875105605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-10-29 | Joseph-Roth-Diele | Tiergarten | https://maps.google.com/?cid=4837385953299349406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-05 | WeiDaoJia | Prenzlauer Berg | https://maps.google.com/?cid=3105457945904461337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-05 | Papaya Mum | Charlottenburg | https://maps.google.com/?cid=15424834162655154313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-05 | Malakeh | Schöneberg | https://maps.google.com/?cid=8367060389816948939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-05 | Salhino | Charlottenburg | https://maps.google.com/?cid=522893128756490706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-05 | Örnek Lahmacun Evi | Wedding | https://maps.google.com/?cid=9582617472781194209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-05 | Panda Meister Moabit | Moabit | https://maps.google.com/?cid=12405272178246059722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-05 | Li.Ke Thai Vegan | Friedrichshain | https://maps.google.com/?cid=12740184214125134837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

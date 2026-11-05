@@ -1,18 +1,19 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-10-29",
+  "date": "2026-11-05",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-10-29.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-10-29-synthesis.json",
-  "verified_count": 16,
-  "selected_count": 6,
+  "briefing_path": "briefings/berlin-restaurants/2026-11-05.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-11-05-synthesis.json",
+  "verified_count": 17,
+  "selected_count": 7,
   "selected_restaurants": [
-    "Samakki Talad Thai",
-    "Pamfilya",
-    "Salumeria Lamuri",
-    "Prizreni Qebaptore",
-    "Lon Men's Noodle House",
-    "Joseph-Roth-Diele"
+    "WeiDaoJia",
+    "Papaya Mum",
+    "Malakeh",
+    "Salhino",
+    "Örnek Lahmacun Evi",
+    "Panda Meister Moabit",
+    "Li.Ke Thai Vegan"
   ],
-  "notes": "6 entries from 16 verified inbox items. Excluded 10-week repeats: You Mi (2026-10-22), Doyum Grillhaus (2026-10-22), Taqueria El Oso (2026-10-08), Khao Taan and Papaya (2026-09-17), Jemenitisches Restaurant (2026-09-03), Ma-Makan (2026-08-20). Skipped Domberger Brot-Werk (bakery, not a restaurant meal), Barra and FACIL (fine dining; none needed). No fine dining. No openings in inbox, so the section was omitted and openings_reported.json left unchanged. Neighborhoods: Charlottenburg (2), Wedding, Kreuzberg, Neukölln, Tiergarten. Trimmed 2026-08-13 index entries as older than 10 weeks."
+  "notes": "7 entries from 17 verified inbox items. Excluded 10-week repeats: Wok Show (2026-08-27), Horváth (2026-09-03), Nußbaumerin (2026-09-17), Nusantara and Doyum Grillhaus (2026-10-22), Salumeria Lamuri (2026-10-29). Left out Willing (thin evidence), Sardinen.Bar, Lino's BBQ (Wedding already covered, higher spend) and Barra (fine dining; none needed). Omitted Hours for Malakeh (03:30 opening) and Salhino (Sunday 02:00 opening) as data glitches. No fine dining. No openings in inbox, so the section was omitted and openings_reported.json left unchanged. Neighborhoods: Prenzlauer Berg, Charlottenburg (2), Schöneberg, Wedding, Moabit, Friedrichshain. Trimmed 2026-08-20 index entries as older than 10 weeks."
 }
