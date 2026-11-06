@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-06
+
+- [Global stocks tumble as Democratic midterm sweep sparks AI rout](https://www.ft.com/content/7c6ceb4f-d7b1-49ec-9047-0e2e4cd2615c?syn-25a6b1a6=1) — Financial Times
+- [AI is turning protectionists into free traders](https://www.economist.com/finance-and-economics/2026/11/05/ai-is-turning-protectionists-into-free-traders) — The Economist
+- [How Did Flávio Bolsonaro Flee Brazil? ‘I’ll Take That to the Grave,’ He Says](https://www.nytimes.com/2026/11/05/world/americas/flavio-bolsonaro-florida-brazil.html) — The New York Times
+- [New Zealand election campaign dominated by cost of living, healthcare](https://asia.nikkei.com/politics/new-zealand-election-campaign-dominated-by-cost-of-living-healthcare) — Nikkei Asia
+
 ## 2026-11-05
 
 - [Morning in America, twilight in the markets](https://www.ft.com/content/d21e2a87-191b-447d-b81b-edcf7bc2f007) — Financial Times

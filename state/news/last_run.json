@@ -1,24 +1,21 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-05",
-  "briefing_date": "2026-11-05",
-  "inbox_date": "2026-11-05",
+  "date": "2026-11-06",
+  "briefing_date": "2026-11-06",
+  "inbox_date": "2026-11-06",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-05.md",
-  "inbox_path": "inbox/news/2026-11-05-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-06.md",
+  "inbox_path": "inbox/news/2026-11-06-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Midterms maps / 2028 race / Democratic firsts / opinion (eldiario.es)", "section": "spain", "reason": "geo-misfit: US politics belongs in World; midterm result already covered 2026-11-04"},
-    {"headline": "Spain section pool", "section": "spain", "reason": "publisher_pool_thin: only EL PAÍS Spain-focused items remain after geo filter"},
-    {"headline": "Las vidas que se pararon para siempre en Urda (EL PAÍS)", "section": "spain", "reason": "one theme per section (Urda crash covered via polls item); parked in Other Headlines"},
-    {"headline": "Berlin section pool", "section": "berlin", "reason": "publisher_pool_thin: only rbb24 Berlin-proper items; Berliner Zeitung items were international or commentary"},
-    {"headline": "Heizöl +93 Prozent commentary (Berliner Zeitung)", "section": "berlin", "reason": "not Berlin-local; raw-materials theme already rejected 2026-11-04"},
-    {"headline": "Supermarket freezer cyberattack (Berliner Zeitung)", "section": "berlin", "reason": "not Berlin-specific; moved to Other Headlines"},
-    {"headline": "Midterms podcast / Tagesspiegel liveblog / Berliner Zeitung California ballots", "section": "germany", "reason": "geo-misfit: US politics belongs in World; midterm result covered 2026-11-04"},
-    {"headline": "Bundespolitik newsblog: Aigner as presidential candidate (Handelsblatt)", "section": "germany", "reason": "stale newsblog URL; president question covered earlier"},
-    {"headline": "Lifestyle: sleep tips, cross-country skiing, cold remedies, .de turns 40, Garfunkel, La Calisto", "section": "germany", "reason": "lifestyle filler, no news value"},
-    {"headline": "Karl Bushby walk; Barnim accident; car-arson probation (Berliner Zeitung/rbb24)", "section": "berlin", "reason": "one-off crime or no Berlin angle"},
-    {"headline": "Selected Read: China's AI stock-market struggles (Economist)", "section": "selected_reads", "reason": "already in selected_reads_index (2026-11-04)"}
+    {"headline": "Spain section pool", "section": "spain", "reason": "publisher_pool_thin: only eldiario.es and EL PAÍS Spain-focused items remain after geo filter"},
+    {"headline": "Midterm fallout / Trump 2.5 / Democratic left (eldiario.es)", "section": "spain", "reason": "geo-misfit: US politics belongs in World; midterm result covered 2026-11-04"},
+    {"headline": "Sobre el periodismo cloaquero (eldiario.es)", "section": "spain", "reason": "opinion piece on Koldo story already selected; one theme per section"},
+    {"headline": "Adif paper-orders digitisation project (EL PAÍS)", "section": "spain", "reason": "one theme per section (Urda crash already featured)"},
+    {"headline": "Berlin section pool", "section": "berlin", "reason": "publisher_pool_thin: only Tagesspiegel Berlin-proper items; rbb24 items were Brandenburg, Berliner Zeitung items were international"},
+    {"headline": "Trump/Putin/Xi summit, Japan nuclear debate, Heizöl, California ballots (Berliner Zeitung)", "section": "berlin", "reason": "not Berlin-local"},
+    {"headline": "Börse, Illner, Oval Office, Nick Jones, Brühl audiobook, Mittagsschlaf, Checkpoint (Germany pool)", "section": "germany", "reason": "markets repeat, US-politics geo-misfit, or lifestyle filler"},
+    {"headline": "Copper, Ukraine demographics, little red dots, patients as consumers (World pool)", "section": "world", "reason": "lower priority than selected stories; Ukraine/Europe-only; some parked in Other Headlines"}
   ]
 }

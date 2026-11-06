@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-06
+
+- **spain-koldo-pp-lawyer-million-offer** — eldiario.es: Koldo García says PP lawyer offered up to €1m to testify against Sánchez; PSOE weighs complaint (section: spain)
+- **spain-smi-2027-irpf-deduction** — EL PAÍS: SMI rises to €18,004 in 2027; Hacienda lifts IRPF deduction to €1,030 (section: spain)
+- **spain-urda-iryo-train-inspected-before-crash** — EL PAÍS: Iryo train passed full signalling inspection two days before Urda crash (section: spain)
+- **germany-ig-metall-warning-strikes-widen** — Berliner Zeitung: IG Metall widens warning strikes, 3.7m workers, talks Monday in Düsseldorf (section: germany)
+- **germany-audi-georgia-plant-exit-option** — Handelsblatt: Audi keeps option to cancel Georgia US plant after signing (section: germany)
+- **germany-data-centre-water-demand-2030** — Handelsblatt: Öko-Institut study — data-centre water demand may more than double by 2030 (section: germany)
+- **berlin-coalition-agreement-january** — Tagesspiegel: R2G coalition agreement not before January (section: berlin)
+- **berlin-krach-investigation-paused-immunity** — Tagesspiegel: investigations into SPD chief Krach pause due to MP immunity (section: berlin)
+- **berlin-firas-rammo-trial** — Tagesspiegel: Firas Rammo faces criminal trial (section: berlin)
+- **world-paraguay-pena-resigns-ueno-bank** — The Guardian: Paraguay's president resigns after Ueno Bank collapse freezes savings (section: world)
+- **world-israel-eisenkot-should-govern** — Foreign Policy: Israeli election not a deadlock, Eisenkot should govern (section: world)
+- **world-ft-tech-cheerleaders-midterms** — Financial Times: Silicon Valley's Trump alliance backfires, tech execs plot new strategy (section: world)
+
 ## 2026-11-05
 
 - **spain-cumbre-iberoamericana-milei-sanchez** — EL PAÍS: King opens XXX Ibero-American Summit in Madrid; Milei to meet Sánchez after "dictator" remark (section: spain)
