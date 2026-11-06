@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-11-06
+
+- Boulderhead — Dancing Rain
+- Dj Babatr — Pedro Le Dino
+- not even noticed — Eteus
+- Fabiano do Nascimento — Das Nuvens
+- Spekki Webu — Bootstrap Paradox LP
+- Velocette — Discotheque Saudades
+- Various Artists — Braindance
+- Ooze — Where the Fields Never End : Revisited
+- Cuushe — Faded Corners
+- DJ Python — i was put on this earth
+
 ## 2026-10-30
 
 - Blu:sh — U is for U and me
