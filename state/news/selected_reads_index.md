@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-07
+
+- [Low-profile Wall Street firm to double down on Anthropic despite tech rout](https://www.ft.com/content/538bfe46-7051-4e3d-8ff3-ad71c861a1f7?syn-25a6b1a6=1) — Financial Times
+- [Activist Au Kam-san jailed 12.5 years in 1st Macao national security case](https://asia.nikkei.com/politics/activist-au-kam-san-jailed-12.5-years-in-1st-macao-national-security-case) — Nikkei Asia
+- [Election favorite says Spain should quit as World Cup co-host if Morocco stages the final](https://www.politico.eu/article/alberto-nunez-feijoo-spain-withdraw-host-world-cup-2030-morocco-final/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [The Climate Issue newsletter: The world braces for an almighty El Niño](https://www.economist.com/science-and-technology/2026/11/06/the-climate-issue-newsletter-the-world-braces-for-an-almighty-el-nino) — The Economist
+
 ## 2026-11-06
 
 - [Global stocks tumble as Democratic midterm sweep sparks AI rout](https://www.ft.com/content/7c6ceb4f-d7b1-49ec-9047-0e2e4cd2615c?syn-25a6b1a6=1) — Financial Times

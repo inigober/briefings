@@ -1,21 +1,24 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-06",
-  "briefing_date": "2026-11-06",
-  "inbox_date": "2026-11-06",
+  "date": "2026-11-07",
+  "briefing_date": "2026-11-07",
+  "inbox_date": "2026-11-07",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-06.md",
-  "inbox_path": "inbox/news/2026-11-06-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-07.md",
+  "inbox_path": "inbox/news/2026-11-07-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Spain section pool", "section": "spain", "reason": "publisher_pool_thin: only eldiario.es and EL PAÍS Spain-focused items remain after geo filter"},
-    {"headline": "Midterm fallout / Trump 2.5 / Democratic left (eldiario.es)", "section": "spain", "reason": "geo-misfit: US politics belongs in World; midterm result covered 2026-11-04"},
-    {"headline": "Sobre el periodismo cloaquero (eldiario.es)", "section": "spain", "reason": "opinion piece on Koldo story already selected; one theme per section"},
-    {"headline": "Adif paper-orders digitisation project (EL PAÍS)", "section": "spain", "reason": "one theme per section (Urda crash already featured)"},
-    {"headline": "Berlin section pool", "section": "berlin", "reason": "publisher_pool_thin: only Tagesspiegel Berlin-proper items; rbb24 items were Brandenburg, Berliner Zeitung items were international"},
-    {"headline": "Trump/Putin/Xi summit, Japan nuclear debate, Heizöl, California ballots (Berliner Zeitung)", "section": "berlin", "reason": "not Berlin-local"},
-    {"headline": "Börse, Illner, Oval Office, Nick Jones, Brühl audiobook, Mittagsschlaf, Checkpoint (Germany pool)", "section": "germany", "reason": "markets repeat, US-politics geo-misfit, or lifestyle filler"},
-    {"headline": "Copper, Ukraine demographics, little red dots, patients as consumers (World pool)", "section": "world", "reason": "lower priority than selected stories; Ukraine/Europe-only; some parked in Other Headlines"}
+    {"headline": "Alberto Durán, PP lawyer singled out by Koldo", "section": "spain", "reason": "same story covered 2026-11-06; no material development"},
+    {"headline": "Ignacio González trial seen for sentence", "section": "spain", "reason": "third eldiario.es item; publisher diversity favoured other picks"},
+    {"headline": "Polls after Urda / 11N housing strike organisation", "section": "spain", "reason": "polls covered 2026-11-05; housing protests are avoid_unless_material; strike parked in Other Headlines"},
+    {"headline": "Trump ultras distance themselves (EL PAÍS)", "section": "spain", "reason": "geo-misfit: US/EU politics belongs in World"},
+    {"headline": "Afghanistan hunger, US midterm newsblog, Pistorius Ukraine (Handelsblatt)", "section": "germany", "reason": "geo-misfit: international; Ukraine parked in Other Headlines"},
+    {"headline": "Meghan's father arrest, Johnny Depp, sugar colour, MotoGP Doha", "section": "germany", "reason": "celebrity/lifestyle/sport noise"},
+    {"headline": "Berlin section pool", "section": "berlin", "reason": "publisher_pool_thin: only rbb24 had Berlin-proper items; Brandenburg salt item used as third with explicit regional flag"},
+    {"headline": "Magdeburg plane crash, Potsdam mayor, Wildpark Johannismühle", "section": "berlin", "reason": "not Berlin"},
+    {"headline": "Bukele in Haiti, Ukraine demographics (Economist)", "section": "world", "reason": "already used in 2026-11-06 Other Headlines"},
+    {"headline": "AI is turning protectionists into free traders", "section": "world", "reason": "Selected Read on 2026-11-06"},
+    {"headline": "Elanco Q3 earnings", "section": "world", "reason": "earnings beat, no structural angle"}
   ]
 }

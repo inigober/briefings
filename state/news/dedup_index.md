@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-07
+
+- **spain-zapatero-jewels-embezzlement-dropped** — eldiario.es: judge Calama rejects embezzlement charge against Zapatero in jewels case (section: spain)
+- **spain-inflation-dilutes-macro-electoral-effect** — EL PAÍS: inflation blunts electoral payoff of strong growth before 29N (section: spain)
+- **spain-etuc-backs-diaz-ilo** — eldiario.es: European unions back Yolanda Díaz for ILO director-general against Houngbo (section: spain)
+- **germany-aigner-presidential-candidate** — Handelsblatt: Ilse Aigner de facto conservative candidate for federal president (section: germany)
+- **germany-online-grocery-fast-delivery** — Handelsblatt: Amazon and Rewe push fast grocery delivery (section: germany)
+- **germany-red-aurora-research** — Tagesspiegel: May 2024 aurora photos hint at origin of red northern lights (section: germany)
+- **berlin-linke-demands-emde-mandate** — rbb24: Berlin Linke demands MP Vanessa Emde give up mandate (section: berlin)
+- **berlin-moabit-chp-second-fire** — rbb24: second conveyor-belt fire in a week at Heizkraftwerk Moabit (section: berlin)
+- **berlin-brandenburg-road-salt-stock** — Tagesspiegel: Brandenburg boosts road-salt reserves (section: berlin)
+- **world-trump-miller-chief-of-staff** — Financial Times: Trump names Stephen Miller chief of staff replacing Susie Wiles (section: world)
+- **world-anc-local-election-defeat** — The Guardian: ANC below a third of vote in South African local elections (section: world)
+- **world-beijing-retaliation-us-sanctions** — Bloomberg: China vows to hit back at US sanctions on two companies (section: world)
+
 ## 2026-11-06
 
 - **spain-koldo-pp-lawyer-million-offer** — eldiario.es: Koldo García says PP lawyer offered up to €1m to testify against Sánchez; PSOE weighs complaint (section: spain)
