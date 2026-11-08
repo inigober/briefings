@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-08
+
+- [A rare strike in Taiwan exposes labor unrest beneath the global AI rush](https://restofworld.org/2026/taiwan-labor-strike-ai-profits/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World
+- [What the Democratic sweep means for Trump's tariffs and AI](https://asia.nikkei.com/video/what-the-democratic-sweep-means-for-trump-s-tariffs-and-ai) — Nikkei Asia
+- [Kenyan doomsday sect leader jailed for 200 years for murder of 190 children](https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie) — The Guardian
+- [War-battered Ukraine risks a demographic collapse](https://www.economist.com/europe/2026/11/05/war-battered-ukraine-risks-a-demographic-collapse) — The Economist
+
 ## 2026-11-07
 
 - [Low-profile Wall Street firm to double down on Anthropic despite tech rout](https://www.ft.com/content/538bfe46-7051-4e3d-8ff3-ad71c861a1f7?syn-25a6b1a6=1) — Financial Times

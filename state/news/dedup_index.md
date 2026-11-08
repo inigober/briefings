@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-08
+
+- **spain-feijoo-vox-coalition-housing-decrees** — EL PAÍS: Feijóo interview — Vox coalition "does not depend on me", would repeal housing decrees (section: spain)
+- **spain-post-29n-economic-homework** — EL PAÍS: urgent economic agenda after 29-N — housing, infrastructure, budget, pensions (section: spain)
+- **spain-frente-amplio-10pct-target** — eldiario.es: Frente Amplio targets 10% of the vote (section: spain)
+- **germany-ai-chips-electronics-prices** — Handelsblatt: AI-driven memory-chip shortage raises electronics prices before Christmas (section: germany)
+- **germany-pistorius-no-more-patriots** — Berliner Zeitung: Pistorius rules out further Patriot deliveries to Ukraine (section: germany)
+- **germany-ice-explosive-attack-trial-aachen** — Handelsblatt: trial opens over April explosive attack on ICE near Siegburg (section: germany)
+- **berlin-seeed-dickes-b-25-years** — Tagesspiegel: what is left of Seeed's "Mama Berlin" 25 years on (section: berlin)
+- **berlin-20percent-eralp-gen-z-regelt** — 20% Berlin: episode #45 on Elif Eralp and Gen Z Regelt (section: berlin)
+- **berlin-ddr-interior-ministry-bunker-brandenburg** — Tagesspiegel: East German interior-ministry wartime bunker tours in Brandenburg (section: berlin)
+- **world-nz-election-too-close-to-call** — The Guardian: New Zealand election too close to call (section: world)
+- **world-israel-eisenkot-tasked-government** — Handelsblatt: Israeli president tasks Eisenkot with forming a government (section: world)
+- **world-ai-slump-asia-trades** — Bloomberg: AI slump revives China and India trades (section: world)
+
 ## 2026-11-07
 
 - **spain-zapatero-jewels-embezzlement-dropped** — eldiario.es: judge Calama rejects embezzlement charge against Zapatero in jewels case (section: spain)
