@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-09
+
+- [Russian military turns to deepfake videos to claim battlefield success](https://www.ft.com/content/7f36031b-ea90-4a3a-a570-a6c6ff96e45a?syn-25a6b1a6=1) — Financial Times
+- [Philippine GDP growth further slows to 2.1% in Q3, dragged by inflation](https://asia.nikkei.com/economy/philippine-gdp-growth-further-slows-to-2.1-in-q3-dragged-by-inflation) — Nikkei Asia
+- [The U.S. Senate Just Got a Lot Younger](https://foreignpolicy.com/2026/11/06/us-midterm-elections-senate-ages-average-decline-oecd/) — Foreign Policy
+- [Tech's teetering towers](https://www.ft.com/content/d3f706c8-a936-4395-bcf1-7f8bc2bed99a?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-11-08
 
 - [A rare strike in Taiwan exposes labor unrest beneath the global AI rush](https://restofworld.org/2026/taiwan-labor-strike-ai-profits/?utm_source=rss&utm_medium=rss&utm_campaign=feeds) — Rest of World

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-09
+
+- **spain-40db-poll-psoe-closes-on-pp** — EL PAÍS: 40dB poll — right bloc ahead, PSOE closing on PP before 29-N (section: spain)
+- **spain-general-strike-uneven-turnout** — EL PAÍS: unions expect mass demonstrations but uneven turnout in general strike (section: spain)
+- **spain-private-health-insurance-36pct** — eldiario.es: private health insurance up 36% as public health deteriorates (section: spain)
+- **germany-ard-democracy-poll** — rbb24: ARD poll — democracy backed but dissatisfaction with how it works (section: germany)
+- **germany-medical-cannabis-flowers-reform** — Handelsblatt: medical cannabis flowers off insurance prescription, criticism of reform (section: germany)
+- **germany-glp1-gene-study** — Tagesspiegel: genes explain weight-loss injection response (section: germany)
+- **berlin-9-november-commemorations** — rbb24: 9 November events in Berlin and Brandenburg (section: berlin)
+- **berlin-checkpoint-bausenator-bahn** — Tagesspiegel: Checkpoint — ex-senator on interior senator, Bahn on Berlin, Mitte rubbish ranking (section: berlin)
+- **berlin-marzahn-missing-girl-found-dead** — rbb24: missing 13-year-old from Marzahn found dead in Brandenburg (section: berlin)
+- **world-nvidia-huang-affair-china-spy** — Financial Times: Nvidia probes CEO Huang's affair with suspected Chinese spy (section: world)
+- **world-china-suspends-us-tariffs** — Handelsblatt: China keeps some retaliatory tariffs suspended ahead of US meeting (section: world)
+- **world-banana-growers-el-nino** — The Guardian: Latin American banana growers seek better pay amid super El Niño (section: world)
+
 ## 2026-11-08
 
 - **spain-feijoo-vox-coalition-housing-decrees** — EL PAÍS: Feijóo interview — Vox coalition "does not depend on me", would repeal housing decrees (section: spain)
