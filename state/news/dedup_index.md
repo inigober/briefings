@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-10
+
+- **spain-nucleo-nacional-ukraine-paramilitary-training** — EL PAÍS: Núcleo Nacional neo-Nazi militants trained with rifles in Ukraine, met Azov brigade (section: spain)
+- **spain-cni-agents-leak-case-trial** — EL PAÍS: CNI inquiry ends; ex-Russia chief and another agent head to trial over ~300 files (section: spain)
+- **spain-general-strike-11n-tenants-union** — eldiario.es: first major-union general strike in 14 years, housing crisis, day before 11N (section: spain)
+- **germany-merz-skips-cop31-antalya** — Handelsblatt: Merz not attending UN climate conference in Antalya (section: germany)
+- **germany-kita-boundary-violations-maywald** — Tagesspiegel: child-rights expert on warning signs in daycare centres (section: germany)
+- **germany-dax-us-cpi-week-start** — Handelsblatt: DAX rebounds ahead of US consumer prices (section: germany)
+- **berlin-schlesinger-rbb-trial-opens** — rbb24: criminal trial of ex-rbb director-general Schlesinger opens, 56 hearing days (section: berlin)
+- **berlin-firearms-crime-searches** — rbb24: searches over firearms crime in Berlin (section: berlin)
+- **berlin-jewish-culture-days-2026** — The Berliner: Jewish Culture Days Berlin 12–22 November (section: berlin)
+- **world-australia-ai-regulator-openai-hack** — Nikkei Asia: Australia plans AI regulator after OpenAI hack (section: world)
+- **world-iraq-iran-flash-floods** — The Guardian: deadly flash floods in northern Iraq and Iran, Erbil hit (section: world)
+- **world-defensive-stocks-ai-bull-fears** — Financial Times: investors rotate into defensive stocks amid AI bull-market fears (section: world)
+
 ## 2026-11-09
 
 - **spain-40db-poll-psoe-closes-on-pp** — EL PAÍS: 40dB poll — right bloc ahead, PSOE closing on PP before 29-N (section: spain)

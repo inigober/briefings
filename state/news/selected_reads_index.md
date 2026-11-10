@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-10
+
+- [Can the EU’s climate strategy survive election season?](https://www.politico.eu/podcast/brussels-playbook-podcast/can-the-eus-climate-strategy-survive-election-season/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [How the world became too reliant on Jensen Huang](https://www.ft.com/content/509596ae-e981-4a31-80ec-d016ca01aa3b?syn-25a6b1a6=1) — Financial Times
+- [The future of Trumponomics: compromise or failure](https://www.economist.com/finance-and-economics/2026/11/09/the-future-of-trumponomics-compromise-or-failure) — The Economist
+- [NZ election 2026: New Zealand faces weeks of uncertainty with results ‘too close to call’](https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count) — The Guardian
+
 ## 2026-11-09
 
 - [Russian military turns to deepfake videos to claim battlefield success](https://www.ft.com/content/7f36031b-ea90-4a3a-a570-a6c6ff96e45a?syn-25a6b1a6=1) — Financial Times
