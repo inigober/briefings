@@ -258,10 +258,20 @@ rss_feeds:
     publisher: Tagesspiegel
     section_ids: [germany, berlin]
     max_items: 10
+  # Berlin-only section feed (verified 2026-11-10: 100 items, all /berlin/ URLs). The home
+  # feed above yields only 0-3 Berlin items a day, mostly overnight dpa copy.
+  - url: https://www.tagesspiegel.de/contentexport/feed/berlin
+    publisher: Tagesspiegel
+    section_ids: [berlin]
+    max_items: 15
+  # 20 not 10: on weekends about half the feed is sport, which scoring demotes.
   - url: https://www.rbb24.de/aktuell/index.xml/feed=rss.xml
     publisher: rbb24
     section_ids: [berlin]
-    max_items: 10
+    max_items: 20
+  # General news feed (mostly national/world). No Berlin-only feed exists: feed.id_berlin.xml
+  # and feed.id_mensch-metropole.xml return 404 (checked 2026-11-10). Berlin locality scoring
+  # in topics.yaml demotes its non-Berlin items.
   - url: https://www.berliner-zeitung.de/feed.id_news.xml
     publisher: Berliner Zeitung
     section_ids: [berlin]
@@ -371,7 +381,9 @@ rss_feeds:
 
 wordpress_feeds:
   - publisher: The Berliner
-    url: https://www.the-berliner.com/wp-json/wp/v2/posts
+    # Only the news categories: 8112 english-news-berlin, 5409 politics. Listings, reviews
+    # and guides belong in the culture briefing (category ids checked 2026-11-10).
+    url: https://www.the-berliner.com/wp-json/wp/v2/posts?categories=8112,5409
     section_ids: [berlin]
     max_items: 12
 

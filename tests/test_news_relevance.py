@@ -358,3 +358,97 @@ def test_transport_is_not_mistaken_for_sport() -> None:
     )
     _, notes = _berlin_score(item)
     assert not any(note.startswith("sport") for note in notes)
+
+
+BERLIN_TOPIC = next(topic for topic in TOPICS_CFG["topics"] if topic["id"] == "berlin")
+
+
+def _berlin_score(item: dict) -> tuple[int, list[str]]:
+    return score_editorial_relevance(
+        item,
+        section_id="berlin",
+        topic_cfg=BERLIN_TOPIC,
+        sources_cfg=SOURCES_CFG,
+        dedup_entries=[],
+        reference_date=date(2026, 6, 17),
+    )
+
+
+class BerlinLocalityTest(unittest.TestCase):
+    """Berlin slice ranking (unittest-style so CI's `unittest discover` runs it)."""
+
+    def test_berlin_locality_demotes_world_wire_copy_from_city_feed(self) -> None:
+        local = _rss_item(
+            section="berlin",
+            headline="13 Jahre altes Mädchen aus Marzahn vermisst",
+            url="https://www.rbb24.de/panorama/beitrag/2026/11/marzahn.html",
+            publisher="rbb24",
+        )
+        world = _rss_item(
+            section="berlin",
+            headline="Starkregen in Gaza: 70.000 Zelte überflutet",
+            url="https://www.berliner-zeitung.de/article/starkregen-in-gaza-10573786",
+            publisher="Berliner Zeitung",
+        )
+        local_score, local_notes = _berlin_score(local)
+        world_score, world_notes = _berlin_score(world)
+        self.assertTrue(any(n.startswith("locality:+") for n in local_notes))
+        self.assertTrue(any(n.startswith("locality_missing:") for n in world_notes))
+        self.assertTrue(local_score - world_score >= 30)
+
+    def test_berlin_off_area_headline_is_demoted_unless_berlin_named(self) -> None:
+        brandenburg = _rss_item(
+            section="berlin",
+            headline="Potsdam: Blaulichtgottesdienst erinnert an Einsatzkräfte",
+            url="https://www.tagesspiegel.de/berlin/dpa-potsdam-gottesdienst.html",
+            publisher="Tagesspiegel",
+        )
+        shared = _rss_item(
+            section="berlin",
+            headline="Razzien in Berlin und Brandenburg: Ermittler finden Drogen",
+            url="https://www.rbb24.de/panorama/razzia.html",
+            publisher="rbb24",
+        )
+        _, brandenburg_notes = _berlin_score(brandenburg)
+        _, shared_notes = _berlin_score(shared)
+        self.assertTrue(any(n.startswith("off_area:") for n in brandenburg_notes))
+        self.assertFalse(any(n.startswith("off_area:") for n in shared_notes))
+
+    def test_berlin_locality_terms_do_not_match_inside_other_words(self) -> None:
+        # "mitte" is deliberately not a term: it would match "Mittwoch".
+        item = _rss_item(
+            section="berlin",
+            headline="Am Mittwoch beginnt die Tarifrunde",
+            url="https://www.berliner-zeitung.de/article/tarifrunde-1.html",
+        )
+        _, notes = _berlin_score(item)
+        self.assertTrue(any(n.startswith("locality_missing:") for n in notes))
+
+    def test_berlin_stale_weekly_recap_is_demoted(self) -> None:
+        fresh = _rss_item(section="berlin", headline="Berlin news", url="https://20percent.berlin/p/a")
+        stale = _rss_item(section="berlin", headline="Berlin news", url="https://20percent.berlin/p/b")
+        stale["sources"][0]["published_at"] = "2026-06-12"
+        fresh_score, _ = _berlin_score(fresh)
+        stale_score, stale_notes = _berlin_score(stale)
+        self.assertTrue(any(n.startswith("stale:5d") for n in stale_notes))
+        self.assertTrue(stale_score < fresh_score)
+
+    def test_berlin_listings_are_demoted(self) -> None:
+        news = _rss_item(section="berlin", headline="Schönhauser Allee bridge in Berlin to be demolished")
+        listing = _rss_item(section="berlin", headline="What to do this weekend: Berlin's best events")
+        news_score, _ = _berlin_score(news)
+        listing_score, listing_notes = _berlin_score(listing)
+        self.assertTrue(any(n.startswith("avoid_unless_material") for n in listing_notes))
+        self.assertTrue(listing_score < news_score)
+
+    def test_locality_is_inactive_for_sections_without_config(self) -> None:
+        item = _rss_item(headline="Feijóo descarta coalición con Vox")
+        _, notes = score_editorial_relevance(
+            item,
+            section_id="spain",
+            topic_cfg=SPAIN_TOPIC,
+            sources_cfg=SOURCES_CFG,
+            dedup_entries=[],
+            reference_date=date(2026, 6, 17),
+        )
+        self.assertFalse(any(n.startswith(("locality", "off_area", "stale")) for n in notes))

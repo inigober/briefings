@@ -115,6 +115,79 @@ topics:
       - club reclassification
       - taxi licence freeze
       - Creative Bureaucracy Festival
+      # The Berliner's what's-on listings belong in the culture briefing, not city news.
+      - what to do this weekend
+      - best upcoming
+      - guide to
+      - photo of the week
+      - poems of the month
+      - finalists
+      - calendar
+      - the best
+      - reviews
+      - tour takes you
+    # Weekly recaps (20% Berlin podcast, The Berliner features) linger in feeds for days.
+    stale_after_days: 2
+    stale_penalty: 12
+    # Locality check (scripts/news_relevance.py score_locality). Added 2026-11-08 after
+    # two weekend editions where world wire copy from Berliner Zeitung and Brandenburg
+    # items from rbb24/Tagesspiegel outranked genuine Berlin stories.
+    # Terms match at word starts in headline + summary ("berlin" also matches "Berliner").
+    locality:
+      boost: 12
+      missing_penalty: 25
+      off_area_penalty: 15  # off-area word in the headline and no Berlin word there
+      terms:
+        - berlin
+        - hauptstadt
+        - abgeordnetenhaus
+        - wegner
+        - bvg
+        - flughafen ber
+        - charite
+        # not "mitte" (would match Mittwoch/Mittel) — "Berlin-Mitte" already hits "berlin"
+        - kreuzberg
+        - friedrichshain
+        - neukolln
+        - prenzlauer berg
+        - pankow
+        - weissensee
+        - lichtenberg
+        - marzahn
+        - hellersdorf
+        - kopenick
+        - treptow
+        - schoneberg
+        - tempelhof
+        - charlottenburg
+        - wilmersdorf
+        - spandau
+        - steglitz
+        - zehlendorf
+        - reinickendorf
+        - moabit
+        - tiergarten
+        - friedrichsfelde
+        - tierpark
+        - alexanderplatz
+        - kurfurstendamm
+        - unter den linden
+      off_area_terms:
+        - brandenburg
+        - potsdam
+        - cottbus
+        - magdeburg
+        - teltow
+        - barnim
+        - oberhavel
+        - uckermark
+        - prignitz
+        - havelland
+        - lausitz
+        - eberswalde
+        - oranienburg
+        - mecklenburg
+        - sachsen-anhalt
 
   - id: world
     name: World 🌐

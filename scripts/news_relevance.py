@@ -319,6 +319,64 @@ def dedup_matches(item: dict, dedup_entries: list[dict]) -> list[str]:
     return matched
 
 
+def score_locality(item: dict, locality_cfg: dict) -> tuple[int, list[str]]:
+    """Reward stories that are about the section's place and demote ones that are not.
+
+    Used by the Berlin section: city feeds (rbb24, Berliner Zeitung, Tagesspiegel /berlin/)
+    also carry national/world wire copy and Brandenburg items. Only the headline and summary
+    are checked, because Tagesspiegel files Brandenburg dpa copy under /berlin/ URLs.
+    """
+    terms = locality_cfg.get("terms") or []
+    if not terms:
+        return 0, []
+    headline = normalize_text(item.get("headline") or "")
+    body = normalize_text(f"{item.get('headline') or ''} {item.get('summary') or ''}")
+    notes: list[str] = []
+    score = 0
+
+    if prefix_hits(body, terms):
+        boost = int(locality_cfg.get("boost") or 0)
+        if boost:
+            score += boost
+            notes.append(f"locality:+{boost}")
+    else:
+        penalty = int(locality_cfg.get("missing_penalty") or 0)
+        if penalty:
+            score -= penalty
+            notes.append(f"locality_missing:-{penalty}")
+
+    off_area = prefix_hits(headline, locality_cfg.get("off_area_terms") or [])
+    if off_area and not prefix_hits(headline, terms):
+        penalty = int(locality_cfg.get("off_area_penalty") or 0)
+        if penalty:
+            score -= penalty
+            notes.append(f"off_area:-{penalty} ({off_area[0]})")
+    return score, notes
+
+
+def score_staleness(
+    item: dict, topic_cfg: dict, reference_date: date | None
+) -> tuple[int, list[str]]:
+    """Demote items older than the section's stale_after_days (e.g. weekly recaps)."""
+    stale_after = topic_cfg.get("stale_after_days")
+    if reference_date is None or stale_after is None:
+        return 0, []
+    published: date | None = None
+    for src in item.get("sources") or []:
+        try:
+            published = date.fromisoformat((src.get("published_at") or "")[:10])
+            break
+        except ValueError:
+            continue
+    if published is None:
+        return 0, []
+    age = (reference_date - published).days
+    if age <= int(stale_after):
+        return 0, []
+    penalty = int(topic_cfg.get("stale_penalty") or 12)
+    return -penalty, [f"stale:{age}d:-{penalty}"]
+
+
 def score_editorial_relevance(
     item: dict,
     *,
@@ -360,6 +418,14 @@ def score_editorial_relevance(
         penalty = len(not_material_hits) * int(cfg["not_material_penalty"])
         score -= penalty
         notes.append(f"not_material:-{penalty}")
+
+    locality_score, locality_notes = score_locality(item, topic_cfg.get("locality") or {})
+    score += locality_score
+    notes.extend(locality_notes)
+
+    stale_score, stale_notes = score_staleness(item, topic_cfg, reference_date)
+    score += stale_score
+    notes.extend(stale_notes)
 
     noise_hits = keyword_hits(text, cfg.get("noise_title_patterns") or [])
     if noise_hits:
