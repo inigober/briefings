@@ -1,0 +1,4 @@
+# Test/development dependencies. Production workflows install only
+# scripts/requirements.txt; CI tests (.github/workflows/test.yml) install this.
+-r scripts/requirements.txt
+pytest>=8.0

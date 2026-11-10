@@ -7,7 +7,7 @@
 - Editorial rules per type: `config/briefings/{type}/style-rules.md` (registry key `style_rule` in `config/briefings.yaml`).
 - Synthesis steps per type: `prompts/{type}/synthesis-run.md`; routing: `prompts/synthesis-dispatcher-run.md`.
 - Trigger routing logic (testable): `scripts/detect_synthesis_trigger.py`.
-- Run the tests with `python3 -m unittest discover -s tests`.
+- Run the tests with `python3 -m pytest -q tests` (install once with `pip install -r requirements-dev.txt`). Do not use `unittest discover`: it silently skips plain `def test_...()` functions.
 
 ## Working with the project owner
 

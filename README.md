@@ -264,15 +264,15 @@ python3 scripts/check_email_delivery.py --dry-run
 # Email preview
 python3 scripts/send_briefing_email.py --file briefings/news/2026-06-11.md --dry-run
 
-# Unit tests
-python3 -m unittest discover -s tests -v
+# Unit tests (one-time setup: pip install -r requirements-dev.txt)
+python3 -m pytest -q tests
 ```
 
 ## Workflows
 
 | Workflow | Trigger | Action |
 |----------|---------|--------|
-| `test.yml` | push / PR to `main` | `python -m unittest discover -s tests` |
+| `test.yml` | push / PR to `main` | `python -m pytest -q tests` |
 | `news-prefetch.yml` | cron-job.org daily 06:30 Berlin + manual | RSS → WordPress → merge → verify URLs → slim → commit `inbox/news/` |
 | `verify-briefing-sources.yml` | push to `briefings/news/` + manual | Ensures footnote URLs exist in synthesis inbox |
 | `berlin-culture-prefetch.yml` | cron-job.org Tue 09:00 Berlin + manual | RSS + WordPress + OpenAI → verify URLs → slim → commit `inbox/berlin-culture/` |
