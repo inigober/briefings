@@ -112,3 +112,11 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-11-03 | exhibitions | Carina Brandes — Hauntings | BQ | https://www.indexberlin.com/exhibitions/list/45044/hauntings
 2026-11-03 | film | Special Programme “Come Closer” | ACUDkino, Kino 1 | https://acudkino.de/Programm/special_programme_come_closer/20577
 2026-11-03 | music | goat (jp) + Camila Nebbia | silent green Kulturquartier, Betonhalle | https://www.silent-green.net/en/programme/detail/goat-jp?cHash=fa8983364cd5c68d5c957c597e0d73d1&tx_news_pi1%5Bday%5D=4&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2026
+2026-11-10 | top_picks | Sophie Calle — Is It Better? | Hamburger Bahnhof – Nationalgalerie der Gegenwart | https://www.smb.museum/en/exhibitions/detail/sophie-calle/
+2026-11-10 | top_picks | Yasuaki Shimizu + Merma Suelo | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail?cHash=9accc7bd0a5496b5b6f31594114b76c3&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews_preview%5D=3984
+2026-11-10 | top_picks | World Cinema Fund x Wolf — Sleep No More | Wolf Kino | https://wolfberlin.org/en/programme/events/world-cinema-fund-x-wolf-celebrating-cinema-together-sleep-no-more
+2026-11-10 | exhibitions | KOO JEONG A — OUSSSEAN | KW Institute for Contemporary Art | https://www.kw-berlin.de/en/exhibitions/koo-jeong-a-ousssean
+2026-11-10 | performing_arts | 7 STARS! BERLIN 2026 — With all our senses | DOCK 11 EDEN | https://dock11-berlin.de/tanzschule/programm/kalender/7-stars-berlin-2026
+2026-11-10 | music | Sintonia 2026 Attunement II: Nnux + Cinna Peyghamy | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/sintonia-2026-attunement-ii
+2026-11-10 | wildcards | Carsten Nicolai — WAVE WEAVE & SONO OBI | Galerie EIGEN + ART Berlin | https://www.indexberlin.com/events/list/46191/wave-weave-sono-obi
+2026-11-10 | wildcards | Editing Encounters — The Invisible Archive | New Toni | https://www.indexberlin.com/events/list/46538/editing-encounters-presented-by-the-invisible-archive
