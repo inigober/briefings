@@ -310,10 +310,12 @@ rss_feeds:
     publisher: Rest of World
     section_ids: [world]
     max_items: 8
-  - url: https://feeds.reuters.com/reuters/worldNews
-    publisher: Reuters
-    section_ids: [world]
-    max_items: 8
+  # Reuters removed 2026-11-10. feeds.reuters.com no longer resolves (DNS error every day).
+  # Checked from GitHub Actions: reuters.com/arc/outboundfeeds/v3/all and .../category/world
+  # return 404; reuters.com/world/rss and the news sitemap return 401 (bot block). A Google News
+  # search feed (site:reuters.com) works but its links are news.google.com redirects, not
+  # reuters.com article URLs, so it is not used. Reuters has no public RSS; re-check only if
+  # it publishes one.
   - url: https://www.politico.eu/feed/
     publisher: Politico Europe
     section_ids: [world]
@@ -374,10 +376,11 @@ rss_feeds:
     section_ids: [world]
     max_items: 6
   # Think tanks & research (useful for Selected Reads + structural stories)
-  - url: https://www.bruegel.org/rss.xml
-    publisher: Bruegel
-    section_ids: [germany, world]
-    max_items: 5
+  # Bruegel removed 2026-11-10. Checked from GitHub Actions: rss.xml, /rss, /feed,
+  # /analysis/rss.xml, /publications/rss.xml and /rss/analysis all return HTTP 403 to the
+  # pipeline's bot. The daily "not well-formed (invalid token)" error was feedparser reading
+  # that block page, not a broken feed, so lenient parsing would not help. Re-add only if
+  # Bruegel serves the feed to bots again (check from Actions, not the cloud sandbox).
 
 wordpress_feeds:
   - publisher: The Berliner
