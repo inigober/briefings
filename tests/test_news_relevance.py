@@ -452,3 +452,27 @@ class BerlinLocalityTest(unittest.TestCase):
             reference_date=date(2026, 6, 17),
         )
         self.assertFalse(any(n.startswith(("locality", "off_area", "stale")) for n in notes))
+
+
+class SportPlaceNameTest(unittest.TestCase):
+    """Place names such as "Sportforum" must not trigger the sport penalty."""
+
+    def test_place_name_does_not_count_as_sport(self) -> None:
+        item = _rss_item(
+            section="berlin",
+            headline="Massiver Gasaustritt unweit des Berliner Sportforums gestoppt",
+            summary="Bei Bauarbeiten in Alt-Hohenschönhausen hat ein Bagger eine Gasleitung beschädigt.",
+            url="https://www.tagesspiegel.de/berlin/gasaustritt-unweit-des-berliner-sportforums-gestoppt.html",
+        )
+        _, notes = _berlin_score(item)
+        self.assertFalse(any(n.startswith("sport") for n in notes))
+
+    def test_sport_story_at_a_sport_venue_is_still_sport(self) -> None:
+        item = _rss_item(
+            section="berlin",
+            headline="Eisbären Berlin gewinnen im Sportforum",
+            summary="Eishockey: klarer Heimsieg.",
+            url="https://www.rbb24.de/sport/eisbaeren.html",
+        )
+        _, notes = _berlin_score(item)
+        self.assertIn("sport:-30", notes)

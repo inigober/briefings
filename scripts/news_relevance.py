@@ -54,6 +54,19 @@ DEFAULT_RELEVANCE_CFG: dict[str, Any] = {
         "motogp",
         "olympi",
     ],
+    # Place names that start with "sport" (e.g. Berlin's Sportforum in Hohenschönhausen) are
+    # removed before sport matching, so a gas leak "near the Sportforum" is not treated as
+    # sport. Real sport stories still match their other terms (basketball, fußball, ...).
+    "sport_place_terms": [
+        "sportforum",
+        "sportpark",
+        "sporthalle",
+        "sportplatz",
+        "sportstatte",
+        "sportanlage",
+        "sportzentrum",
+        "sportgelande",
+    ],
     "sport_geopolitical_terms": [
         "boycott",
         "boykott",
@@ -306,6 +319,15 @@ def running_stories_on_cooldown(
     return active
 
 
+def strip_terms(text: str, terms: list[str]) -> str:
+    """Remove words that start with any of terms (with their endings, e.g. "sportforums")."""
+    for term in terms:
+        needle = normalize_text(term) if isinstance(term, str) else ""
+        if needle:
+            text = re.sub(rf"(?<![a-z0-9]){re.escape(needle)}[a-z0-9]*", " ", text)
+    return text
+
+
 def dedup_matches(item: dict, dedup_entries: list[dict]) -> list[str]:
     text = item_search_text(item)
     text_tokens = {token for token in re.split(r"[^a-z0-9]+", text) if len(token) > 2}
@@ -432,7 +454,9 @@ def score_editorial_relevance(
         score -= int(cfg["noise_penalty"])
         notes.append(f"noise:-{cfg['noise_penalty']}")
 
-    sport_hits = prefix_hits(text, cfg.get("sport_terms") or [])
+    sport_hits = prefix_hits(
+        strip_terms(text, cfg.get("sport_place_terms") or []), cfg.get("sport_terms") or []
+    )
     if sport_hits:
         if prefix_hits(text, cfg.get("sport_geopolitical_terms") or []):
             notes.append("sport:geopolitical_exempt")
