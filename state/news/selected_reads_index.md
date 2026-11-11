@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-11
+
+- [Ukraine’s freedom must be defended](https://www.ft.com/content/64131ac1-a9bb-429b-b937-183a08f72bc6?syn-25a6b1a6=1) — Financial Times
+- [Scientists are finally starting to understand endometriosis](https://www.economist.com/science-and-technology/2026/11/09/scientists-are-finally-starting-to-understand-endometriosis) — The Economist
+- [US and rest of world must follow China’s lead on green energy, says John Kerry](https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31) — The Guardian
+- [Spanish election: How bad is the housing crisis?](https://www.politico.eu/article/spain-housing-crisis-election-rising-house-prices-rents/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+
 ## 2026-11-10
 
 - [Can the EU’s climate strategy survive election season?](https://www.politico.eu/podcast/brussels-playbook-podcast/can-the-eus-climate-strategy-survive-election-season/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-11
+
+- **spain-general-strike-11n-begins** — EL PAÍS: unions' first general strike in 14 years begins; PP, Vox, Junts accuse unions (section: spain)
+- **spain-sanchez-doubles-cabinet-meetings-campaign** — eldiario.es: extra Consejos de Ministros in campaign, García Ortiz pardon timing open (section: spain)
+- **spain-living-wage-study-ksnet-daleph** — eldiario.es: decent life in metro areas needs €1,645–2,061 gross/month (section: spain)
+- **germany-climate-ranking-slips** — Handelsblatt: Germany drops to the middle in climate-protection ranking over gas expansion (section: germany)
+- **germany-klingbeil-steuerklasse-iii-v** — Handelsblatt: Morning Briefing on tax classes III/V and Klingbeil's "distraction" (section: germany)
+- **germany-glp1-stopping-mortality-study** — Tagesspiegel: 80,000-patient study links stopping weight-loss injections to higher risk (section: germany)
+- **berlin-coalition-talks-linke-interior-negotiators** — Tagesspiegel: controversial Linke politicians negotiate interior policy (section: berlin)
+- **berlin-state-firms-anti-violence-campaign** — rbb24: 14 city-owned firms launch campaign against violence to staff (section: berlin)
+- **berlin-verfassungsschutz-silent-afd-observation** — rbb24: Verfassungsschutz won't say if it monitors Berlin AfD (section: berlin)
+- **world-japan-akita-ai-data-center** — Nikkei Asia: Akita AI data centre as tech-hub anchor (section: world)
+- **world-democrats-corruption-mandate** — Foreign Policy: Democrats' mandate to tackle corruption (section: world)
+- **world-asian-stocks-rally-us-inflation** — Bloomberg: Asian stocks rally third day, bonds slump on hot US inflation (section: world)
+
 ## 2026-11-10
 
 - **spain-nucleo-nacional-ukraine-paramilitary-training** — EL PAÍS: Núcleo Nacional neo-Nazi militants trained with rifles in Ukraine, met Azov brigade (section: spain)
