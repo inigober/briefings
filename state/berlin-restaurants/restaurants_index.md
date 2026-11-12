@@ -4,13 +4,6 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 <!-- Format: YYYY-MM-DD | name | neighborhood | google_maps_url -->
 
-2026-08-27 | Wok Show | Prenzlauer Berg | https://maps.google.com/?cid=10950842182876736015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-27 | Ming Dynastie | Mitte | https://maps.google.com/?cid=261247375087039031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-27 | Nutts Thai Kitchen | Friedrichshain | https://maps.google.com/?cid=2970083855136947493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-27 | El Reda | Moabit | https://maps.google.com/?cid=7673253916481811750&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-27 | Rocket & Basil | Schöneberg | https://maps.google.com/?cid=2358804007255459580&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-27 | Gotxa | Kreuzberg | https://maps.google.com/?cid=1105756903453319625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-08-27 | UUU | Wedding | https://maps.google.com/?cid=1304440578310595723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-03 | Shaniu's House of Noodles | Wilmersdorf | https://maps.google.com/?cid=2072006413172091597&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-03 | Wen Cheng | Friedrichshain | https://maps.google.com/?cid=17373268780583117555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-03 | Dao | Charlottenburg | https://maps.google.com/?cid=11289346261669056027&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
@@ -74,3 +67,9 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-11-05 | Örnek Lahmacun Evi | Wedding | https://maps.google.com/?cid=9582617472781194209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-11-05 | Panda Meister Moabit | Moabit | https://maps.google.com/?cid=12405272178246059722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-11-05 | Li.Ke Thai Vegan | Friedrichshain | https://maps.google.com/?cid=12740184214125134837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-12 | Ma-Makan | Kreuzberg | https://maps.google.com/?cid=673259701163278563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-12 | Taverna Ousia | Schöneberg | https://maps.google.com/?cid=9655664065910324608&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-12 | Salami Social Club | Friedrichshain | https://maps.google.com/?cid=16689718780361449351&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-12 | Ferro Canteen | Reinickendorf | https://maps.google.com/?cid=288347911868847309&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-12 | Kírkē Deli | Kreuzberg | https://maps.google.com/?cid=4890278196409092073&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-12 | Barra | Neukölln | https://maps.google.com/?cid=15461423447321715949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
