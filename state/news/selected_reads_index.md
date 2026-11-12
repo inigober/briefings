@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-12
+
+- [Despite recent misses, political polling is more accurate than ever](https://www.economist.com/international/2026/11/12/despite-recent-misses-political-polling-is-more-accurate-than-ever) — The Economist
+- [Astana Motors, poster child of Kazakh diversification, faces growing pains](https://asia.nikkei.com/business/automobiles/electric-vehicles/astana-motors-poster-child-of-kazakh-diversification-faces-growing-pains) — Nikkei Asia
+- [Angola’s Oil Windfall Fuels Diversification Push, Citi Says](https://www.bloomberg.com/news/articles/2026-11-12/angola-s-oil-windfall-fuels-diversification-push-citi-says) — Bloomberg
+- [The blood-brain barrier may contribute to cognitive function](https://www.economist.com/science-and-technology/2026/11/11/the-blood-brain-barrier-may-contribute-to-cognitive-function) — The Economist
+
 ## 2026-11-11
 
 - [Ukraine’s freedom must be defended](https://www.ft.com/content/64131ac1-a9bb-429b-b937-183a08f72bc6?syn-25a6b1a6=1) — Financial Times

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-12
+
+- **spain-general-strike-uneven-turnout-protests** — EL PAÍS: general strike ends with uneven turnout, large protests, dozens of arrests (section: spain)
+- **spain-electoral-map-seat-model** — EL PAÍS: 20,000-run model, 150 seats near-decided, 150 probable, ~50 open (section: spain)
+- **spain-tiktok-ban-push** — Politico Europe: government pursues TikTok ban over child-abuse-material report (section: spain)
+- **germany-budget-compromise-no-stromsteuer-cut** — Handelsblatt: coalition drops electricity-tax cut, sugar and plastic levies before budget day (section: germany)
+- **germany-dax-near-record-siemens-merck** — Handelsblatt: DAX near record ahead of Siemens, Merck results (section: germany)
+- **germany-bausparvertrag-refinancing-warning** — Tagesspiegel: column warns against new Bausparverträge when refinancing (section: germany)
+- **berlin-charite-two-day-strike** — Tagesspiegel: Verdi calls two-day strike at all three Charité sites (section: berlin)
+- **berlin-lisa-t-suspect-dies** — rbb24: suspect in Marzahn girl's killing dies in hospital (section: berlin)
+- **berlin-social-housing-sold-as-condos-fines-insolvency** — Tagesspiegel: insolvency may stop fines over Neukölln social flats sold as condos (section: berlin)
+- **world-sea-shared-oil-reserves** — Nikkei Asia: Indonesia, Thailand, Philippines to set up shared oil reserves (section: world)
+- **world-ai-proves-physics-theory** — The Economist: AI proof that a fundamental-physics theory is trustworthy; insights came from humans (section: world)
+- **world-brazil-digital-chokepoints** — Foreign Policy: Lula's campaign had to break Big Tech's monopoly (section: world)
+
 ## 2026-11-11
 
 - **spain-general-strike-11n-begins** — EL PAÍS: unions' first general strike in 14 years begins; PP, Vox, Junts accuse unions (section: spain)
