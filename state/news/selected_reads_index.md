@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-13
+
+- [Huang’s fall is an indictment of founder mode at Big Tech](https://www.ft.com/content/83051c3a-cab4-4c66-89fc-ae7149047a25?syn-25a6b1a6=1) — Financial Times
+- [Sam Rainsy urges Japan to be 'realistic' on Cambodia-China ties](https://asia.nikkei.com/politics/international-relations/sam-rainsy-urges-japan-to-be-realistic-on-cambodia-china-ties) — Nikkei Asia
+- [Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story](https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story) — The Guardian
+- [Cameras in space could help spot invasive plants on Earth](https://www.economist.com/science-and-technology/2026/11/11/cameras-in-space-could-help-spot-invasive-plants-on-earth) — The Economist
+
 ## 2026-11-12
 
 - [Despite recent misses, political polling is more accurate than ever](https://www.economist.com/international/2026/11/12/despite-recent-misses-political-polling-is-more-accurate-than-ever) — The Economist

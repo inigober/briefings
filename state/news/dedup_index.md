@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-13
+
+- **spain-40db-tracking-right-190-seats** — EL PAÍS: first daily 40dB tracking, right-wing bloc near 190 seats, Vox leader rivals PP's (section: spain)
+- **spain-marlaska-tear-gas-ban-strike-investigation** — eldiario.es: Marlaska bans tear gas at demonstrations, orders probes into strike-day incidents (section: spain)
+- **spain-vox-manifesto-class-quota-remigration** — eldiario.es: Vox manifesto proposes cap on pupils "from other cultures", remigration (section: spain)
+- **germany-budget-committee-approves-2027-record-budget** — Tagesspiegel: budget committee approves record 2027 budget, Stromsteuer cut still open (section: germany)
+- **germany-mercedes-halts-investment-plant-closure-threat** — Handelsblatt: Morning Briefing on Mercedes halting German investment and threatening closures (section: germany)
+- **germany-aigner-cross-party-support-president** — Politico Europe: Aigner backed by SPD and Greens, all but certain first female president (section: germany)
+- **berlin-lisa-case-ai-child-abuse-data-analysis** — Tagesspiegel: Senate wants AI to speed evaluation of seized data after Lisa case (section: berlin)
+- **berlin-bonde-caretaker-road-redesigns** — Tagesspiegel: caretaker senator Bonde pushes Torstraße, Kantstraße, Tempelhofer Damm redesigns (section: berlin)
+- **berlin-fridays-for-future-climate-conference-demos** — rbb24: Fridays for Future demos in Berlin and Wittenberge (section: berlin)
+- **world-china-emissions-falling-self-interest** — The Economist: China's emissions falling, driven by self-interest (section: world)
+- **world-em-stocks-weekly-gain-nvidia-upheaval** — Bloomberg: EM stocks eye first weekly gain since September as tech rebounds after Nvidia upheaval (section: world)
+- **world-kushner-no-ukraine-deal-without-europe** — Financial Times: Kushner says US cannot reach Ukraine deal without Europe (section: world)
+
 ## 2026-11-12
 
 - **spain-general-strike-uneven-turnout-protests** — EL PAÍS: general strike ends with uneven turnout, large protests, dozens of arrests (section: spain)
