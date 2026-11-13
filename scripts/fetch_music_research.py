@@ -306,14 +306,25 @@ def load_json(path: Path) -> dict:
     return data if isinstance(data, dict) else {}
 
 
-def load_releases_index(state_dir: Path) -> list[str]:
+def load_releases_index(state_dir: Path, *, exclude_date: str | None = None) -> list[str]:
+    """Recent 'Artist — Release' lines from state/music-discovery/releases_index.md.
+
+    ``exclude_date`` skips that week's own ``## YYYY-MM-DD`` section. That section only
+    exists once the week's briefing is published, so a normal run is unaffected; a forced
+    re-run of the same week (smoke test) would otherwise reject the releases it is
+    re-finding as "repeats".
+    """
     path = state_dir / "releases_index.md"
     if not path.is_file():
         return []
     lines: list[str] = []
+    skipping = False
     for raw in path.read_text(encoding="utf-8").splitlines():
         stripped = raw.strip()
-        if stripped.startswith("- "):
+        if stripped.startswith("## "):
+            skipping = bool(exclude_date) and stripped[3:].strip() == exclude_date
+            continue
+        if not skipping and stripped.startswith("- "):
             lines.append(stripped[2:].strip())
     return lines
 
@@ -392,7 +403,7 @@ def load_taste_bundle(inbox_dir: Path, date_str: str, state_dir: Path) -> dict[s
         "known_label_lines": compact_known_labels(context.get("known_labels") or []),
         "known_label_threshold": int(context.get("known_label_threshold") or 15),
         "recent_taste_block": compact_recent_taste(context.get("recent_taste") or {}),
-        "releases_index": load_releases_index(state_dir),
+        "releases_index": load_releases_index(state_dir, exclude_date=date_str),
         "library_albums": (context.get("library_skip") or {}).get("albums") or [],
     }
 

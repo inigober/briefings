@@ -7,6 +7,11 @@ on:
         description: "YYYY-MM-DD Friday run date (optional; default today UTC → normalized to Friday)"
         required: false
         type: string
+      force:
+        description: "Run even if this week's briefing already exists (pre-fetch smoke test). Overwrites that week's inbox files and spends OpenAI budget; synthesis still skips, so no new briefing or email."
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -16,7 +21,40 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Skip the whole run (and its OpenAI spend) when this week's briefing is already
+  # published, e.g. after the backup retry succeeded. The `force` input overrides this.
+  guard:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Skip if this week's briefing already exists
+        id: check
+        env:
+          INPUT_DATE: ${{ github.event.inputs.date }}
+          FORCE: ${{ github.event.inputs.force }}
+        run: |
+          if [ -z "$INPUT_DATE" ]; then INPUT_DATE=$(date -u +%Y-%m-%d); fi
+          RESOLVED=$(INPUT_DATE="$INPUT_DATE" python3 -c "
+          import os, sys
+          sys.path.insert(0, 'scripts')
+          from music_dates import normalize_friday_run_date
+          print(normalize_friday_run_date(os.environ['INPUT_DATE'])[0])
+          ")
+          BRIEFING="briefings/music-discovery/${RESOLVED}.md"
+          if [ -f "$BRIEFING" ] && [ "$FORCE" != "true" ]; then
+            echo "::notice::$BRIEFING already exists; skipping pre-fetch. Re-run with force=true for a smoke test."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
   prefetch:
+    needs: guard
+    if: ${{ needs.guard.outputs.skip != 'true' }}
     runs-on: ubuntu-latest
     outputs:
       pushed: ${{ steps.commit.outputs.pushed }}
@@ -87,7 +125,9 @@ jobs:
             exit 0
           fi
           git commit -m "inbox/music-discovery: fetch abort $(date -u +%Y-%m-%d)"
-          git pull --rebase origin main || true
+          # --autostash: the run leaves other regenerated files uncommitted, which
+          # otherwise makes the rebase refuse to start.
+          git pull --rebase --autostash origin main || true
           git push origin main || true
 
       - name: Verify music candidate URLs
@@ -118,7 +158,7 @@ jobs:
           fi
           git commit -m "inbox/music-discovery: ${{ steps.run_date.outputs.value }} research pre-fetch"
           for attempt in 1 2; do
-            git pull --rebase origin main
+            git pull --rebase --autostash origin main
             if git push origin main; then
               echo "Push succeeded on attempt ${attempt}"
               echo "pushed=true" >> "$GITHUB_OUTPUT"

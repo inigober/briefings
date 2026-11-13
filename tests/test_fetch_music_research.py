@@ -454,3 +454,27 @@ class TestFilteredRecovery(unittest.TestCase):
                     taste=self._taste(range(12)),
                     sources_cfg={"allowed_domains": ["bandcamp.com"]},
                 )
+
+
+class TestReleasesIndex(unittest.TestCase):
+    def test_exclude_date_skips_only_that_weeks_section(self) -> None:
+        import tempfile
+
+        from fetch_music_research import load_releases_index
+
+        with tempfile.TemporaryDirectory() as tmp:
+            Path(tmp, "releases_index.md").write_text(
+                "# Music discovery — releases index\n\n"
+                "Append `artist — release` after each run.\n\n"
+                "## 2026-11-13\n\n- Cromby — Life and Death\n\n"
+                "## 2026-11-06\n\n- Boulderhead — Dancing Rain\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(
+                load_releases_index(Path(tmp)),
+                ["Cromby — Life and Death", "Boulderhead — Dancing Rain"],
+            )
+            self.assertEqual(
+                load_releases_index(Path(tmp), exclude_date="2026-11-13"),
+                ["Boulderhead — Dancing Rain"],
+            )
