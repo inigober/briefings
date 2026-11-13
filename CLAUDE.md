@@ -23,3 +23,12 @@ The owner is a PM learning technical skills, not a software engineer. Optimize f
 - `briefings/{type}/YYYY-MM-DD.md` is the production filename and triggers the email. For tests use `YYYY-MM-DD.test.md` (see README, "End-to-end testing").
 - Never commit `.env`. Secrets live in GitHub Actions secrets.
 - Pushes to `main` affect the live automated pipeline; confirm with the owner before pushing changes to workflows, prompts, or scripts.
+
+## Repo hygiene (interactive sessions only)
+
+The owner wants the repo kept clean and to be told about loose ends. This section does **not** apply to the CI synthesis agent, which must not run git (see AGENTS.md).
+
+- At the end of any task that touched git, report: unmerged branches with work not on `main`, open pull requests, and temporary files or workflows still in place. Say "nothing unmerged, no open PRs" when that is the case.
+- Remove temporary helpers (probe workflows, test files) before merging, and say so.
+- After a feature branch is merged, say whether its remote branch can be deleted. Delete branches only with the owner's OK.
+- Note: `main` history was restarted on 2026-10-30, so `git log main..branch` misreports branches older than that. Compare file contents instead.
