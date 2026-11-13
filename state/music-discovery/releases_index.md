@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-11-13
+
+- Cromby — I’m Coming Back / One More Time
+- Nídia & Valentina — Estradas
+- Khotin — Hello World
+- Ambien Baby — Taste The Bass
+- Maara — Big Whoops
+- O Yuki Conjugate — Equator (remastered & expanded)
+- Maara — Ultra Villain
+- O Yuki Conjugate — Sunchemical EP
+- Oshana — Embrace The Wave
+- Garrett — Private Life
+
 ## 2026-11-06
 
 - Boulderhead — Dancing Rain
