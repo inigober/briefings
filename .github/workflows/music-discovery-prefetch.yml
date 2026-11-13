@@ -74,9 +74,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add inbox/music-discovery/*-spend.json \
+          # Add each file that exists. A single `git add a b c` fails outright when one
+          # pattern matches nothing (e.g. no spend-cap error), which staged nothing.
+          shopt -s nullglob
+          for f in inbox/music-discovery/*-spend.json \
             inbox/music-discovery/*-spend-cap.error.txt \
-            inbox/music-discovery/*-raw.error.txt 2>/dev/null || true
+            inbox/music-discovery/*-raw.error.txt; do
+            git add "$f"
+          done
           if git diff --cached --quiet; then
             echo "No spend ledger to commit"
             exit 0

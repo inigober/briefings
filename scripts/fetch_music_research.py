@@ -522,6 +522,60 @@ web_search allowed domains:
 """
 
 
+def release_line(item: dict) -> str:
+    """'Artist — Release' for logs and prompts."""
+    artist = (item.get("artist") or "?").strip()
+    release = (item.get("release") or "?").strip()
+    return f"{artist} — {release}"
+
+
+def build_filtered_recovery_prompt(
+    *,
+    date_str: str,
+    kept: list[dict],
+    dropped: list[dict],
+    search_domains: list[str],
+) -> str:
+    """Extra Phase-1 pass when too few candidates survive the skip/library/repeat filter."""
+    need = MUSIC_MIN_BANDCAMP_URLS - len(kept)
+    have = "\n".join(f"- {release_line(item)}" for item in kept) or "- (none)"
+    blocked = (
+        "\n".join(
+            f"- {release_line(item)} ({item.get('blocked_reason')})" for item in dropped
+        )
+        or "- (none)"
+    )
+    domains = "\n".join(f"- {d}" for d in search_domains)
+    return f"""PHASE 1 filtered recovery. Briefing Friday date: {date_str}
+
+Only {len(kept)} of your candidates survived filtering. The others are already in the reader's
+library, on their skip list, recommended in a recent briefing, or had no Bandcamp album URL.
+We need at least {need} more releases that are NOT any of these.
+
+Rejected (do not suggest these again; the reader likely owns other releases by these artists too,
+so prefer different artists):
+{blocked}
+
+Already kept (do not repeat):
+{have}
+
+## Your task (web_search REQUIRED — minimum {MUSIC_SEARCH_MIN_CALLS} searches)
+Search for **specific album pages** on artist or label Bandcamp subdomains, favouring recent
+releases by artists and labels not listed above. Prefer new labels: synthesis uses one entry per label.
+Skip any release without a copied `https://….bandcamp.com/album/…` (or `/track/`) URL. Never invent slugs.
+
+Output NEW candidates only, same block format:
+
+Artist: NAME
+Release: TITLE
+Label: LABEL
+Bandcamp: https://label-or-artist.bandcamp.com/album/exact-slug-copied-from-search
+
+web_search allowed domains:
+{domains}
+"""
+
+
 def needs_search_recovery(
     notes: str, *, minimum: int = MUSIC_MIN_BANDCAMP_URLS
 ) -> bool:
@@ -732,8 +786,13 @@ def keep_music_candidates(
     *,
     notes: str,
     taste: dict[str, Any],
+    dropped_out: list[dict] | None = None,
 ) -> tuple[list[dict], int, int]:
-    """Enrich, salvage Bandcamp URLs, drop skip/library/URL-less rows."""
+    """Enrich, salvage Bandcamp URLs, drop skip/library/URL-less rows.
+
+    When ``dropped_out`` is given, the dropped rows are appended to it so the caller
+    can tell the recovery search which releases not to suggest again.
+    """
     context = taste.get("context") or {}
     items = [
         enrich_candidate(
@@ -762,6 +821,11 @@ def keep_music_candidates(
     missing_urls = sum(1 for item in items if item.get("blocked_reason") == "missing_bandcamp_url")
     if dropped:
         log(f"  Dropped {dropped} skip/library/repeat/missing-URL matches")
+        for item in items:
+            if item.get("blocked_reason"):
+                log(f"    - {release_line(item)} ({item['blocked_reason']})")
+    if dropped_out is not None:
+        dropped_out.extend(item for item in items if item.get("blocked_reason"))
     if missing_urls:
         log(f"  {missing_urls} candidate(s) had no Bandcamp album URL after salvage")
     return kept, dropped, missing_urls
@@ -877,11 +941,75 @@ def fetch_all_music(
         spend_ledger.assert_not_over_cap()
 
     raw_items = result.get("items") or []
+    dropped_items: list[dict] = []
     kept, dropped, missing_urls = keep_music_candidates(
-        raw_items, notes=notes, taste=taste
+        raw_items, notes=notes, taste=taste, dropped_out=dropped_items
     )
     counts = section_counts(kept)
     log(f"  Combined fetch done ({len(kept)} candidates) — {counts}")
+    if len(kept) < MUSIC_MIN_BANDCAMP_URLS:
+        # Usually the search found enough Bandcamp links but most were owned/skipped/repeats.
+        # One more search that names the rejected releases, then re-structure everything.
+        log(
+            f"  Phase 1 filtered recovery: only {len(kept)} candidate(s) left after "
+            f"filtering (need {MUSIC_MIN_BANDCAMP_URLS}); searching again..."
+        )
+        recovery_prompt = build_filtered_recovery_prompt(
+            date_str=date_str,
+            kept=kept,
+            dropped=dropped_items,
+            search_domains=allowed,
+        )
+        extra_notes, extra_response = fetch_web_research(
+            client=client,
+            model=model,
+            prompt=recovery_prompt,
+            domains=allowed,
+            require_web_search=True,
+            max_tool_calls=MUSIC_SEARCH_RECOVERY_MAX_TOOL_CALLS,
+            search_context_size="medium",
+        )
+        extra_calls = count_web_search_calls(extra_response)
+        log(
+            f"    filtered recovery: {extra_calls} web_search call(s), "
+            f"{len(extra_notes)} chars"
+        )
+        extra_notes = _merge_bandcamp_citations(extra_notes, extra_response)
+        notes = f"{notes}\n\n## Filtered recovery search notes\n{extra_notes}\n"
+        web_search_calls += extra_calls
+        if spend_ledger:
+            usage = usage_from_response(
+                response=extra_response,
+                model=model,
+                section="music_search_filtered_recovery",
+            )
+            spend_ledger.record_usage(usage)
+            spend_ledger.assert_not_over_cap()
+
+        structure_prompt = build_structure_phase_prompt(
+            date_str=date_str, research_notes=notes
+        )
+        log("  Phase 2 (after filtered recovery): structure candidates as JSON...")
+        result, structure_response = fetch_structured(
+            client=client,
+            model=model,
+            prompt=structure_prompt,
+            schema=COMBINED_RESULT_SCHEMA,
+            schema_name="music_combined",
+            domains=[],
+            enable_web_search=False,
+        )
+        if spend_ledger:
+            usage = usage_from_response(
+                response=structure_response, model=model, section="music_structure"
+            )
+            spend_ledger.record_usage(usage)
+            spend_ledger.assert_not_over_cap()
+        kept, dropped, missing_urls = keep_music_candidates(
+            result.get("items") or [], notes=notes, taste=taste
+        )
+        counts = section_counts(kept)
+        log(f"  Combined fetch after filtered recovery ({len(kept)} candidates) — {counts}")
     if len(kept) < MUSIC_MIN_BANDCAMP_URLS:
         raise RuntimeError(
             f"Music pre-fetch aborted: only {len(kept)} candidates have a Bandcamp "

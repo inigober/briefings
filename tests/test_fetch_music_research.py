@@ -334,3 +334,123 @@ Daily write-up: https://daily.bandcamp.com/best-electronic/something
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestFilteredRecovery(unittest.TestCase):
+    """2026-11-13 abort: 17 candidates, 12 owned/skipped/repeats, 5 left (need 10)."""
+
+    @staticmethod
+    def _item(n: int) -> dict:
+        return {
+            "topic_ids": ["featured"],
+            "artist": f"Artist {n}",
+            "release": f"Release {n}",
+            "label": f"Label {n}",
+            "bandcamp_url": f"https://label{n}.bandcamp.com/album/release-{n}",
+        }
+
+    def _taste(self, owned: range) -> dict:
+        return {
+            "releases_index": [],
+            "library_albums": [
+                {"artist": f"Artist {n}", "release": f"Release {n}"} for n in owned
+            ],
+            "context": {"skip_list": [], "known_labels": []},
+            "known_label_threshold": 15,
+        }
+
+    def test_keep_reports_dropped_rows(self) -> None:
+        from fetch_music_research import keep_music_candidates
+
+        dropped: list[dict] = []
+        kept, count, missing = keep_music_candidates(
+            [self._item(n) for n in range(3)],
+            notes="",
+            taste=self._taste(range(2)),
+            dropped_out=dropped,
+        )
+        self.assertEqual(len(kept), 1)
+        self.assertEqual(count, 2)
+        self.assertEqual(missing, 0)
+        self.assertEqual({d["blocked_reason"] for d in dropped}, {"library_skip"})
+
+    def test_prompt_lists_rejected_and_kept_releases(self) -> None:
+        from fetch_music_research import build_filtered_recovery_prompt
+
+        prompt = build_filtered_recovery_prompt(
+            date_str="2026-11-13",
+            kept=[self._item(1)],
+            dropped=[dict(self._item(2), blocked_reason="library_skip")],
+            search_domains=["bandcamp.com"],
+        )
+        self.assertIn("Artist 2 — Release 2 (library_skip)", prompt)
+        self.assertIn("Artist 1 — Release 1", prompt)
+        self.assertIn(f"at least {MUSIC_MIN_BANDCAMP_URLS - 1} more", prompt)
+        self.assertIn("Never invent slugs", prompt)
+
+    def test_fetch_all_runs_recovery_instead_of_aborting(self) -> None:
+        from unittest import mock
+
+        import fetch_music_research as fmr
+
+        first = [self._item(n) for n in range(17)]  # 0-11 owned → 5 kept
+        second = first + [self._item(n) for n in range(100, 106)]  # +6 new → 11 kept
+        structured = iter([{"items": first}, {"items": second}])
+        search_prompts: list[str] = []
+
+        def fake_search(**kwargs):
+            search_prompts.append(kwargs["prompt"])
+            return "notes", object()
+
+        with mock.patch.object(fmr, "make_client", return_value=object()), mock.patch.object(
+            fmr, "fetch_web_research", side_effect=fake_search
+        ), mock.patch.object(
+            fmr, "count_web_search_calls", return_value=MUSIC_SEARCH_MIN_CALLS
+        ), mock.patch.object(
+            fmr, "extract_bandcamp_urls", return_value=[f"u{n}" for n in range(24)]
+        ), mock.patch.object(
+            fmr, "collect_response_urls", return_value=[]
+        ), mock.patch.object(
+            fmr, "fetch_structured", side_effect=lambda **_: (next(structured), object())
+        ), mock.patch.object(
+            fmr, "build_search_phase_prompt", return_value="phase 1 prompt"
+        ), mock.patch.object(fmr, "log"):
+            result = fmr.fetch_all_music(
+                date_str="2026-11-13",
+                model="test-model",
+                taste=self._taste(range(12)),
+                sources_cfg={"allowed_domains": ["bandcamp.com"]},
+            )
+
+        self.assertEqual(len(search_prompts), 2)
+        self.assertIn("PHASE 1 filtered recovery", search_prompts[1])
+        self.assertIn("Artist 0 — Release 0 (library_skip)", search_prompts[1])
+        self.assertEqual(len(result["items"]), 11)
+
+    def test_fetch_all_still_aborts_when_recovery_is_not_enough(self) -> None:
+        from unittest import mock
+
+        import fetch_music_research as fmr
+
+        first = [self._item(n) for n in range(17)]
+        structured = iter([{"items": first}, {"items": first}])
+        with mock.patch.object(fmr, "make_client", return_value=object()), mock.patch.object(
+            fmr, "fetch_web_research", return_value=("notes", object())
+        ), mock.patch.object(
+            fmr, "count_web_search_calls", return_value=MUSIC_SEARCH_MIN_CALLS
+        ), mock.patch.object(
+            fmr, "extract_bandcamp_urls", return_value=[f"u{n}" for n in range(24)]
+        ), mock.patch.object(
+            fmr, "collect_response_urls", return_value=[]
+        ), mock.patch.object(
+            fmr, "fetch_structured", side_effect=lambda **_: (next(structured), object())
+        ), mock.patch.object(
+            fmr, "build_search_phase_prompt", return_value="phase 1 prompt"
+        ), mock.patch.object(fmr, "log"):
+            with self.assertRaisesRegex(RuntimeError, "only 5 candidates"):
+                fmr.fetch_all_music(
+                    date_str="2026-11-13",
+                    model="test-model",
+                    taste=self._taste(range(12)),
+                    sources_cfg={"allowed_domains": ["bandcamp.com"]},
+                )
