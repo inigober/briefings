@@ -1473,7 +1473,21 @@ def _normalize_music_entry_spacing(md_text: str) -> str:
     return "\n".join(out) + ("\n" if md_text.endswith("\n") else "")
 
 
+_ANCHOR_OPEN_RE = re.compile(r"<a(?=[\s>])(?![^>]*\bses:no-track\b)", re.IGNORECASE)
+
+
+def disable_click_tracking(html: str) -> str:
+    """Mark every link ``ses:no-track`` so Amazon SES (Resend's sender) leaves it alone.
+
+    With click tracking on, each href is rewritten to an ``awstrack.me`` redirect. iOS
+    opens that redirect in Safari, so Google Maps / YouTube Music links never reach
+    their apps. SES strips the attribute when it sends the message.
+    """
+    return _ANCHOR_OPEN_RE.sub("<a ses:no-track", html)
+
+
 def send_resend(*, api_key: str, from_addr: str, to_addrs: list[str], subject: str, html: str) -> dict:
+    html = disable_click_tracking(html)
     response = requests.post(
         "https://api.resend.com/emails",
         headers={

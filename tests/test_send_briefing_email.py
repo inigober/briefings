@@ -396,3 +396,36 @@ class TestResolveBriefingPaths(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestDisableClickTracking(unittest.TestCase):
+    def test_marks_every_link_once(self) -> None:
+        from send_briefing_email import disable_click_tracking
+
+        html = (
+            '<p><a href="https://maps.google.com/?cid=1">Maps</a> '
+            '<A class="briefing-link" href="https://music.youtube.com/x">YT</A> '
+            '<a ses:no-track href="https://x">done</a> <abbr>no</abbr> <a>bare</a></p>'
+        )
+        out = disable_click_tracking(html)
+        self.assertEqual(out.lower().count("ses:no-track"), 4)
+        self.assertIn('<a ses:no-track href="https://maps.google.com/?cid=1">', out)
+        self.assertIn("<abbr>no</abbr>", out)
+        self.assertEqual(disable_click_tracking(out), out)
+
+    def test_send_resend_posts_untracked_links(self) -> None:
+        from unittest import mock
+
+        import send_briefing_email as sbe
+
+        fake = mock.Mock(ok=True)
+        fake.json.return_value = {"id": "x"}
+        with mock.patch.object(sbe.requests, "post", return_value=fake) as post:
+            sbe.send_resend(
+                api_key="k",
+                from_addr="a@b.c",
+                to_addrs=["d@e.f"],
+                subject="s",
+                html='<a href="https://maps.google.com/?cid=1">Maps</a>',
+            )
+        self.assertIn("<a ses:no-track href=", post.call_args.kwargs["json"]["html"])
