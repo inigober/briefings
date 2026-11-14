@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-14
+
+- **spain-pensions-revaluation-3-4pct-2027** — eldiario.es: cabinet fast-tracks decree raising pensions 3–4% from 1 Jan 2027, final figure 27 Nov (section: spain)
+- **spain-psoe-18-priority-provinces** — EL PAÍS: PSOE targets almost 20 seats in 18 priority provinces via tactical vote (section: spain)
+- **spain-ayuso-campaign-attacks-unions-gomez** — eldiario.es: Ayuso opens campaign attacking Begoña Gómez and "union rubbish" (section: spain)
+- **germany-solar-record-output** — Handelsblatt: solar power heading for record share of German generation (section: germany)
+- **germany-e-car-delivery-times-year** — Die Zeit: year-long waits for electric cars despite weak-demand complaints, VW (section: germany)
+- **germany-merz-leadership-coaching-commentary** — Tagesspiegel: commentary says Merz needs leadership coaching (section: germany)
+- **berlin-siemens-campus-spandau-facades-school** — Tagesspiegel: first glass facades finished at Spandau Siemens campus, school next (section: berlin)
+- **berlin-krach-investigation-continues-immunity** — rbb24: investigations into SPD leader Krach can continue without lifting immunity (section: berlin)
+- **berlin-linke-breaks-off-mitte-talks-greens** — Tagesspiegel: Linke ends talks with Greens in Mitte over antisemitism paper and key post (section: berlin)
+- **world-us-flight-ground-stop-outdated-atc** — EL PAÍS: US nationwide ground stop over 4 hours, 6,000 flights cancelled; Duffy asks $30bn (section: world)
+- **world-trump-xi-putin-apec-shenzhen-meeting** — Handelsblatt: White House announces Trump–Xi–Putin meeting at APEC in Shenzhen (section: world)
+- **world-bessent-blames-lutnick-megaspeed-blacklist** — Financial Times: Bessent blames Commerce for failing to blacklist Megaspeed (section: world)
+
 ## 2026-11-13
 
 - **spain-40db-tracking-right-190-seats** — EL PAÍS: first daily 40dB tracking, right-wing bloc near 190 seats, Vox leader rivals PP's (section: spain)

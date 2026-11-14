@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-14
+
+- [How to Land 4,000 Planes During a Ground Stop](https://www.theatlantic.com/technology/2026/11/flight-stop-safety/689447/?utm_source=feed) — The Atlantic
+- [One of France’s Most Popular Athletes Is Running for President](https://www.nytimes.com/2026/11/13/world/europe/france-riner-judo-lagarde-election.html) — The New York Times
+- [Did we really see a black hole? Australian team says 'yes'](https://asia.nikkei.com/business/science/did-we-really-see-a-black-hole-australian-team-says-yes) — Nikkei Asia
+- [Storm Charles causes floods and flight cancellations across southern Europe](https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather) — The Guardian
+
 ## 2026-11-13
 
 - [Huang’s fall is an indictment of founder mode at Big Tech](https://www.ft.com/content/83051c3a-cab4-4c66-89fc-ae7149047a25?syn-25a6b1a6=1) — Financial Times
