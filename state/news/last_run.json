@@ -1,24 +1,22 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-14",
-  "briefing_date": "2026-11-14",
-  "inbox_date": "2026-11-14",
+  "date": "2026-11-15",
+  "briefing_date": "2026-11-15",
+  "inbox_date": "2026-11-15",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-14.md",
-  "inbox_path": "inbox/news/2026-11-14-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-15.md",
+  "inbox_path": "inbox/news/2026-11-15-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "US flight suspension coverage (eldiario.es x1, EL PAÍS x2 unused)", "section": "spain", "reason": "US story, geographic misfit for Spain; moved to World"},
-    {"headline": "Sánchez seeks historic left mobilisation; Jordi Wild interviews; EH Bildu Matute interview", "section": "spain", "reason": "same PSOE-campaign theme as kept story, or campaign-trail noise; mobilisation parked in Other Headlines"},
-    {"headline": "Vox wants to review nationalisation of 300,000 Spaniards of Moroccan origin (EL PAÍS)", "section": "spain", "reason": "same Vox migration theme as 2026-11-13 manifesto story; parked in Other Headlines"},
-    {"headline": "Trump–Xi–Putin meeting (Handelsblatt x2); Starship failure (Handelsblatt, Zeit)", "section": "germany", "reason": "geographic misfit (world/space); Trump–Xi–Putin used in World, Starship parked in Other Headlines"},
-    {"headline": "Friedrichshafen in the NYT; Glühwein prices; trans dating play; Haßelmann interview; mortgage refinancing tips", "section": "germany", "reason": "thin summary, lifestyle filler, or refinancing theme covered 2026-11-12"},
-    {"headline": "Hamburger Bahnhof anniversary; Glühwein prices Berlin; Hotel Savoy; Cottbus painting; unclaimed funerals; LKA Ferrum; Berlin debt atlas", "section": "berlin", "reason": "culture/lifestyle or low-value filler; Hamburger Bahnhof parked in Other Headlines"},
-    {"headline": "Paris wants rules for German strikes on Russia (Berliner Zeitung)", "section": "berlin", "reason": "geo-misfit (defence policy) and already parked in Other Headlines 2026-11-13"},
-    {"headline": "Spain's rail crashes backdrop to election; blood-brain barrier; cameras in space (Economist)", "section": "world", "reason": "Spain story belongs in Spain; Economist items used in recent Selected Reads"},
-    {"headline": "SBF Anthropic IPO windfall; Why expect an AI crash; teaching kids AI (FT/Economist)", "section": "world", "reason": "thin summaries or celebrity angle; AI-finance theme heavy this week"},
-    {"headline": "Storm Charles; Brazil skulls repatriated; France Riner/Lagarde (Guardian/NYT)", "section": "world", "reason": "Europe-only or lower significance; Storm Charles and Riner/Lagarde parked in Other Headlines and Selected Reads"}
+    {"headline": "Montero interview; Feijóo Galicia rally; centre-party explainer; electoral-system explainer; director's newsletter", "section": "spain", "reason": "campaign-trail or explainer filler; Montero and centre-party items parked in Other Headlines"},
+    {"headline": "PSOE y PP recrudecen la pelea por el primer puesto; Generación 08; Sigüés bellwether; PNV Vaquero interview", "section": "spain", "reason": "same campaign-arithmetic theme as kept tracking story, or colour piece; PNV line parked in Other Headlines"},
+    {"headline": "Schoko-Weihnachtsmänner, Einschlafzucken, GTA VI, U2/Hall of Fame, Helmut Fischer, Normandie heritage", "section": "germany", "reason": "lifestyle or entertainment filler; thin German pool after hypersonic story (publisher_pool_thin)"},
+    {"headline": "Milei re-election bid (Handelsblatt)", "section": "germany", "reason": "geographic misfit (Argentina); used in World"},
+    {"headline": "Child killed by BVG bus on Potsdamer Strasse; Jewish Museum tolerance prize; Berlin culture funding; Weihnachtsmann agencies; Mensch-ärgere-dich-nicht WM; Berlin debt atlas; Paris/Berlin strike rules", "section": "berlin", "reason": "one-off accident, prize/lifestyle filler, culture belongs to culture briefing, or defence-policy geo-misfit"},
+    {"headline": "US air travel chaos 'string and duct tape' (FT); Spain rail crashes (Economist)", "section": "world", "reason": "US flight stop covered 2026-11-14; Spain story belongs to Spain, used as Selected Read"},
+    {"headline": "SoftBank, anti-AI trade, AI crash leader, EU deposit insurance, China intelligence ops (Economist/FT/Bloomberg)", "section": "world", "reason": "AI-finance theme already carried by data-centre story; EU item Europe-only; parked in Other Headlines"},
+    {"headline": "Kundizeza cleared of AI use (Guardian)", "section": "world", "reason": "already a Selected Read on 2026-11-13"}
   ],
   "notes": "dedup_index.md and selected_reads_index.md were appended but not trimmed this run (older entries remain)."
 }

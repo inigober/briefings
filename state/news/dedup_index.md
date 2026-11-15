@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-15
+
+- **spain-el-pais-third-tracking-psoe-million-votes** — EL PAÍS: third campaign tracking, PSOE gains left/centre but risks a million conservative-flank votes (section: spain)
+- **spain-psoe-complaint-okdiario-tax-agency** — eldiario.es: PSOE files tax complaint against Okdiario's publisher over €242,000 paid for Koldo García's defence (section: spain)
+- **spain-junts-nogueras-vetoes-sanchez** — EL PAÍS: Junts leader Nogueras rules out backing Sánchez's re-election (section: spain)
+- **germany-hypersonic-weapons-schrobenhausen** — Handelsblatt: German hypersonic weapons, 2,500 km range, to strengthen deterrence (section: germany)
+- **germany-own-brand-christmas-sweets-cheaper** — Tagesspiegel/dpa: own-brand chocolate Santas and gingerbread cheaper than last year (section: germany)
+- **germany-voyager-1-light-day-nasa-interview** — Tagesspiegel: NASA researcher on Voyager 1 one light-day from Earth (section: germany)
+- **berlin-bvv-mayors-negotiations-ongoing** — rbb24: two borough mayors elected eight weeks after BVV vote, Linke could hold almost half (section: berlin)
+- **berlin-diphtheria-eight-cases-record** — rbb24: eight diphtheria cases in Berlin, new high (section: berlin)
+- **berlin-blackout-construction-site-years** — Tagesspiegel: attack-blackout repair site in the south-west to disrupt traffic for years (section: berlin)
+- **world-data-centre-stocks-lose-4-2tn** — Financial Times: data-centre construction stocks lose $4.2tn as AI trade unravels (section: world)
+- **world-south-sudan-election-delayed** — The New York Times: South Sudan's first national election delayed (section: world)
+- **world-milei-seeks-second-term-2027** — Handelsblatt: Milei to run again in 2027 (section: world)
+
 ## 2026-11-14
 
 - **spain-pensions-revaluation-3-4pct-2027** — eldiario.es: cabinet fast-tracks decree raising pensions 3–4% from 1 Jan 2027, final figure 27 Nov (section: spain)

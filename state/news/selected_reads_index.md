@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-15
+
+- [RFK Jr. Failed America on Measles](https://www.theatlantic.com/health/2026/11/measles-elimination-status-endemic-kennedy/689450/?utm_source=feed) — The Atlantic
+- [China's century-old 'porcelain capital' eyes global luxury](https://asia.nikkei.com/life-arts/arts/china-s-century-old-porcelain-capital-eyes-global-luxury) — Nikkei Asia
+- [Spain's rail crashes are a grim backdrop to the election](https://www.economist.com/europe/2026/11/12/spains-rail-crashes-are-a-grim-backdrop-to-the-election) — The Economist
+- [Choking fires, deadly heat and devastating floods: 2026 in extreme weather](https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026) — The Guardian
+
 ## 2026-11-14
 
 - [How to Land 4,000 Planes During a Ground Stop](https://www.theatlantic.com/technology/2026/11/flight-stop-safety/689447/?utm_source=feed) — The Atlantic
