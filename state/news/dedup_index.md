@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-16
+
+- **spain-pp-questions-airef-independent-audit** — eldiario.es: PP questions AIReF and Bank of Spain, promises "independent audit", avoids defence 5% and tax-cut costing (section: spain)
+- **spain-el-hierro-1261-arrivals-torres-measures** — eldiario.es: 1,261 migrants reach El Hierro in one day, Torres announces reinforcements (section: spain)
+- **spain-high-turnout-75pct-29n** — EL PAÍS: polls open door to turnout above 75%, which PSOE sees as key (section: spain)
+- **germany-plural-helsing-investor-europe-only** — Handelsblatt: VC fund Plural doubles down on Europe-only bets (section: germany)
+- **germany-savings-survey-half-cannot-save** — Tagesspiegel/dpa: only half of people can save, many pick zero-interest products (section: germany)
+- **germany-christmas-bonus-repayment-labour-law** — Handelsblatt: must a Christmas bonus be repaid after quitting (section: germany)
+- **berlin-uber-bolt-corruption-probe-brandenburg-plates** — Tagesspiegel: prosecutors probe ride-hailing operators and Brandenburg officials over bribery (section: berlin)
+- **berlin-moabit-freight-yard-memorial-decay** — rbb24: Moabit deportation freight-yard memorial decaying for years (section: berlin)
+- **berlin-gen-z-regelt-kudamm-20-arrests** — rbb24: 20 arrests, 28 complaints after Gen Z regelt march on Ku'damm (section: berlin)
+- **world-sk-hynix-24-7-chip-plant** — Nikkei Asia: SK Hynix races to finish colossal chip plant (section: world)
+- **world-spacex-starship-second-stage-catch** — The Economist: SpaceX catches Starship second stage (section: world)
+- **world-congo-ebola-six-months-record** — Bloomberg: Congo's record Ebola outbreak defies control six months in (section: world)
+
 ## 2026-11-15
 
 - **spain-el-pais-third-tracking-psoe-million-votes** — EL PAÍS: third campaign tracking, PSOE gains left/centre but risks a million conservative-flank votes (section: spain)

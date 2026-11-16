@@ -1,22 +1,20 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-15",
-  "briefing_date": "2026-11-15",
-  "inbox_date": "2026-11-15",
+  "date": "2026-11-16",
+  "briefing_date": "2026-11-16",
+  "inbox_date": "2026-11-16",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-15.md",
-  "inbox_path": "inbox/news/2026-11-15-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-16.md",
+  "inbox_path": "inbox/news/2026-11-16-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Montero interview; Feijóo Galicia rally; centre-party explainer; electoral-system explainer; director's newsletter", "section": "spain", "reason": "campaign-trail or explainer filler; Montero and centre-party items parked in Other Headlines"},
-    {"headline": "PSOE y PP recrudecen la pelea por el primer puesto; Generación 08; Sigüés bellwether; PNV Vaquero interview", "section": "spain", "reason": "same campaign-arithmetic theme as kept tracking story, or colour piece; PNV line parked in Other Headlines"},
-    {"headline": "Schoko-Weihnachtsmänner, Einschlafzucken, GTA VI, U2/Hall of Fame, Helmut Fischer, Normandie heritage", "section": "germany", "reason": "lifestyle or entertainment filler; thin German pool after hypersonic story (publisher_pool_thin)"},
-    {"headline": "Milei re-election bid (Handelsblatt)", "section": "germany", "reason": "geographic misfit (Argentina); used in World"},
-    {"headline": "Child killed by BVG bus on Potsdamer Strasse; Jewish Museum tolerance prize; Berlin culture funding; Weihnachtsmann agencies; Mensch-ärgere-dich-nicht WM; Berlin debt atlas; Paris/Berlin strike rules", "section": "berlin", "reason": "one-off accident, prize/lifestyle filler, culture belongs to culture briefing, or defence-policy geo-misfit"},
-    {"headline": "US air travel chaos 'string and duct tape' (FT); Spain rail crashes (Economist)", "section": "world", "reason": "US flight stop covered 2026-11-14; Spain story belongs to Spain, used as Selected Read"},
-    {"headline": "SoftBank, anti-AI trade, AI crash leader, EU deposit insurance, China intelligence ops (Economist/FT/Bloomberg)", "section": "world", "reason": "AI-finance theme already carried by data-centre story; EU item Europe-only; parked in Other Headlines"},
-    {"headline": "Kundizeza cleared of AI use (Guardian)", "section": "world", "reason": "already a Selected Read on 2026-11-13"}
+    {"headline": "PP insecurity discourse; Vox softening; Riesgo de involución; Euskadi/Bildu; corruption explainer; campaign-history podcast; opinion column", "section": "spain", "reason": "campaign colour or opinion, or same campaign theme as kept stories; Vox and nietos-vote items parked in Other Headlines"},
+    {"headline": "Cyberattack on Salvamento Marítimo", "section": "spain", "reason": "same migration theme as the El Hierro story; parked in Other Headlines"},
+    {"headline": "China economy weakens; Nvidia/Huang comeback; Asean protests in Manila", "section": "germany", "reason": "geographic misfit (China, US, Southeast Asia); parked in Other Headlines; publisher_pool_thin"},
+    {"headline": "Cold remedies; Vuskovic doping comeback; digital sex addiction interview; Expo Berlin alliance", "section": "germany", "reason": "lifestyle, sport or paywalled filler; Expo is Berlin-only and parked in Other Headlines"},
+    {"headline": "Moabit explosion; ice rinks; Wildenhagen mass grave; weather x2; school secretaries home office; Lisa memorial service; bus accident; Currywurst in Seoul", "section": "berlin", "reason": "one-off crime/accident, weather, lifestyle, or Brandenburg-focused filler"},
+    {"headline": "Biggest IPOs lose money (FT); Anthropic IPO (Economist); Storm Charles; Helen Haines; menstrual-cycle; kids and AI; Korea AI cheating", "section": "world", "reason": "AI-finance theme already covered 2026-11-15; Storm Charles is Iberia/old; remainder lifestyle or low relevance"}
   ],
-  "notes": "dedup_index.md and selected_reads_index.md were appended but not trimmed this run (older entries remain)."
+  "notes": "Stale-check passed: inbox dated 2026-11-16. Section pools were thin for Germany (publisher_pool_thin). Older dedup/selected-reads entries were not trimmed this run."
 }

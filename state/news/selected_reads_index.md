@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-16
+
+- [French presidential election: Meet the contenders you didn’t see coming](https://www.politico.eu/article/france-presidential-election-2027-candidates/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [The EU’s First AI Summit](https://foreignpolicy.com/2026/11/13/eu-ai-summit-semiconductor-chips-russia-ukraine-peace-talks-nvidia/) — Foreign Policy
+- [160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating](https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam) — The Guardian
+- [Thailand's GDP growth picks up to 2.9% in Q3 on strong exports](https://asia.nikkei.com/economy/thailand-s-gdp-growth-picks-up-to-2.9-in-q3-on-strong-exports) — Nikkei Asia
+
 ## 2026-11-15
 
 - [RFK Jr. Failed America on Measles](https://www.theatlantic.com/health/2026/11/measles-elimination-status-endemic-kennedy/689450/?utm_source=feed) — The Atlantic
