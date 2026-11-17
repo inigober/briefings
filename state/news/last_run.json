@@ -1,20 +1,18 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-16",
-  "briefing_date": "2026-11-16",
-  "inbox_date": "2026-11-16",
+  "date": "2026-11-17",
+  "briefing_date": "2026-11-17",
+  "inbox_date": "2026-11-17",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-16.md",
-  "inbox_path": "inbox/news/2026-11-16-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-17.md",
+  "inbox_path": "inbox/news/2026-11-17-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "PP insecurity discourse; Vox softening; Riesgo de involución; Euskadi/Bildu; corruption explainer; campaign-history podcast; opinion column", "section": "spain", "reason": "campaign colour or opinion, or same campaign theme as kept stories; Vox and nietos-vote items parked in Other Headlines"},
-    {"headline": "Cyberattack on Salvamento Marítimo", "section": "spain", "reason": "same migration theme as the El Hierro story; parked in Other Headlines"},
-    {"headline": "China economy weakens; Nvidia/Huang comeback; Asean protests in Manila", "section": "germany", "reason": "geographic misfit (China, US, Southeast Asia); parked in Other Headlines; publisher_pool_thin"},
-    {"headline": "Cold remedies; Vuskovic doping comeback; digital sex addiction interview; Expo Berlin alliance", "section": "germany", "reason": "lifestyle, sport or paywalled filler; Expo is Berlin-only and parked in Other Headlines"},
-    {"headline": "Moabit explosion; ice rinks; Wildenhagen mass grave; weather x2; school secretaries home office; Lisa memorial service; bus accident; Currywurst in Seoul", "section": "berlin", "reason": "one-off crime/accident, weather, lifestyle, or Brandenburg-focused filler"},
-    {"headline": "Biggest IPOs lose money (FT); Anthropic IPO (Economist); Storm Charles; Helen Haines; menstrual-cycle; kids and AI; Korea AI cheating", "section": "world", "reason": "AI-finance theme already covered 2026-11-15; Storm Charles is Iberia/old; remainder lifestyle or low relevance"}
+    {"headline": "PSOE copying proposals / Frente Amplio clash; Rufián interview; opinion column on Feijóo; migrants and IMV; wealth-tax survey; abortion; poll average; Ayuso podcast", "section": "spain", "reason": "campaign colour, opinion or poll tracker; clash and wealth-tax survey parked in Other Headlines; publisher_pool_thin (eldiario.es and EL PAÍS only)"},
+    {"headline": "Börse 17 November; Morning Briefing podcast duplicate; Asian markets on chip sanctions; US AI-chip export limits (dpa); Traumschiff; Berliner happiness ranking; art-world ranking", "section": "germany", "reason": "market wrap, duplicate, geographic misfit (US/China) or lifestyle filler; publisher_pool_thin"},
+    {"headline": "Giffey SPD bid; weather; BSR winter service; Cybertruck; Moabit explosion; Hertha fan verdict; Hertha forced labour; DDR library closure", "section": "berlin", "reason": "federal-politics angle (parked in Other Headlines), weather, sport, one-off crime or lifestyle filler"},
+    {"headline": "Hungary rate hold; Guardian extreme weather 2026; Politico Feijóo takeaways; French debate; Anthropic IPO video; Banks AI debt; Taiwan elections; EU Russia sanctions podcast", "section": "world", "reason": "Europe-only, AI-finance theme covered 2026-11-15, or used in Selected Reads/Other Headlines; Guardian weather article blocked as a Selected Read on 2026-11-15"}
   ],
-  "notes": "Stale-check passed: inbox dated 2026-11-16. Section pools were thin for Germany (publisher_pool_thin). Older dedup/selected-reads entries were not trimmed this run."
+  "notes": "Inbox dated 2026-11-17. Published from the synthesis file. Older dedup entries were not trimmed this run."
 }

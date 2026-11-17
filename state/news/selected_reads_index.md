@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-17
+
+- [Democrats Can’t Return to Pre-Trump Foreign Policy](https://foreignpolicy.com/2026/11/16/democrats-foreign-policy-congress-election-trump-tariffs/) — Foreign Policy
+- [Taiwan elections enter home stretch as parties fight for heartlands](https://asia.nikkei.com/politics/taiwan-elections-enter-home-stretch-as-parties-fight-for-heartlands) — Nikkei Asia
+- [Will the EU’s next Russia sanctions bite?](https://www.politico.eu/podcast/brussels-playbook-podcast/will-the-eus-next-russia-sanctions-bite/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Banks seek to curb AI debt exposure as backlash mounts](https://www.ft.com/content/2351d9db-e938-4102-a449-318b1037765a?syn-25a6b1a6=1) — Financial Times
+
 ## 2026-11-16
 
 - [French presidential election: Meet the contenders you didn’t see coming](https://www.politico.eu/article/france-presidential-election-2027-candidates/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-17
+
+- **spain-feijoo-denies-million-homes-pledge** — eldiario.es: Feijóo denies promising a million homes despite manifesto point 144 (section: spain)
+- **spain-psoe-ibex-ceo-pay-ratio-tax** — EL PAÍS: PSOE manifesto taxes listed firms whose CEO earns over 100x median pay (section: spain)
+- **spain-pp-vox-hunting-subsidies-wolf-cull** — EL PAÍS: PP/Vox regional governments raise hunting aid, plan wolf cull (section: spain)
+- **germany-musk-investment-carmakers-morning-briefing** — Handelsblatt: Musk announces multibillion investment as carmakers shrink (section: germany)
+- **germany-hells-angels-moenchengladbach-ban** — Tagesspiegel/dpa: NRW bans Mönchengladbach Hells Angels chapter (section: germany)
+- **germany-climate-impact-index-germany-hit** — Tagesspiegel/dpa: climate-impact index, Germany strongly affected (section: germany)
+- **berlin-ringbahn-closure-over-a-year** — Tagesspiegel: Ringbahn section closed for more than a year (section: berlin)
+- **berlin-emde-linke-expulsion-motion** — Tagesspiegel: Emde wants to stay in Linke group as expulsion motion is tabled (section: berlin)
+- **berlin-cyclists-demand-safety-after-child-death** — rbb24: Changing Cities, ADFC demand redesign after girl killed by bus in Mitte (section: berlin)
+- **world-us-curbs-china-remote-ai-chip-access** — Nikkei Asia: US moves to curb China's remote access to AI chips (section: world)
+- **world-south-africa-hiv-post-pepfar** — Foreign Policy: South Africa HIV drug rollout as post-PEPFAR test (section: world)
+- **world-ghana-lab-ai-bioweapons-warning** — Rest of World: Minohealth lab warns on AI bioweapons (section: world)
+
 ## 2026-11-16
 
 - **spain-pp-questions-airef-independent-audit** — eldiario.es: PP questions AIReF and Bank of Spain, promises "independent audit", avoids defence 5% and tax-cut costing (section: spain)
