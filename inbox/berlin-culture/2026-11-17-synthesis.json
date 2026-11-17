@@ -1,0 +1,790 @@
+{
+  "briefing_type": "berlin-culture",
+  "date": "2026-11-17",
+  "week_start": "2026-11-18",
+  "week_end": "2026-11-24",
+  "week_label": "November 18–24, 2026",
+  "source_raw": "inbox/berlin-culture/2026-11-17-raw.json",
+  "built_at": "2026-11-17T08:07:00.158806+00:00",
+  "model": "gpt-6.1-sol",
+  "raw_item_count": 133,
+  "section_counts": {
+    "exhibitions": 4,
+    "film": 0,
+    "performing_arts": 1,
+    "music": 5,
+    "wildcards": 4,
+    "advance_radar": 5
+  },
+  "items": [
+    {
+      "id": "daniela-comani-orlandos-library-2026",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Daniela Comani. Orlando’s Library",
+      "venue": "Kunstbibliothek, foyer, Kulturforum",
+      "dates": "17 November 2027",
+      "times": "Not confirmed; foyer installation hours require verification.",
+      "artists": [
+        "Daniela Comani"
+      ],
+      "official_url": "https://www.smb.museum/en/museums-institutions/kulturforum/exhibitions/detail/daniela-comani-orlandos-library/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Opening-week photographic installation examining gender roles, literary canon formation, power and visibility; a strong fit for feminism and cultural memory. The associated November 17 discussion falls outside the window and is not included.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": true
+    },
+    {
+      "id": "sound-bodies-bode-museum-2026",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Sound Bodies – Variations on a Theme of Art",
+      "venue": "Bode-Museum",
+      "dates": "2026-11-24–2027-03-07",
+      "times": "November 24: 10:00–17:00; no separate opening-reception time confirmed.",
+      "artists": [
+        "Antonio Canova"
+      ],
+      "official_url": "https://www.smb.museum/en/exhibitions/detail/sound-bodies-variations-on-a-theme-of-art/",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "A musical intervention connecting sculpture, instruments, sound and movement, opening on the window’s final day. A secondary interdisciplinary option with a historical emphasis, not an experimental electronic installation exhibition. Canova is named through an exhibited work; no contemporary artist roster is supplied.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-e3bdbcec26",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "Crosstown",
+      "venue": "Ebensperger",
+      "dates": "until November 21, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/45037/crosstown",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until November 21, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-html-exhibitions-03ad261564",
+      "topic_ids": [
+        "exhibitions"
+      ],
+      "title": "The New England Paintings",
+      "venue": "Ebensperger",
+      "dates": "until November 21, 2026",
+      "times": "",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/exhibitions/list/45048/the-new-england-paintings",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "INDEX Berlin listing (fewdays) — until November 21, 2026",
+      "ingestion_source": "index_berlin_html",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "here-now-there-then-2026",
+      "topic_ids": [
+        "performing_arts"
+      ],
+      "title": "Here/Now/There/Then",
+      "venue": "DOCK 11, Kastanienallee 79, 10435 Berlin",
+      "dates": "19 November 2026",
+      "times": "19:30 each evening",
+      "artists": [
+        "Ishmael Houston-Jones"
+      ],
+      "official_url": "https://dock11-berlin.de/en/theater/program/calendar/here-now-there-then",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Contemporary dance/performance made in collaboration with the performers, presented within Emerging Change Tanzfestival. The festival centres queer, trans, Black, Indigenous and BIPoC dance artists; its “Survival & Pleasure” framework should not be treated as a verified synopsis of this individual work.",
+      "ingestion_source": "openai",
+      "series_id": "emerging-change-tanzfestival",
+      "event_kind": "festival_event",
+      "missing_end_date": false
+    },
+    {
+      "id": "psychic-liberation-night-2026-11-18",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Psychic Liberation Night: Horse Lords + Audrey Chen & Nick Klein",
+      "venue": "silent green Kulturquartier, Betonhalle",
+      "dates": "2026-11-18",
+      "times": "20:00; doors 19:00",
+      "artists": [
+        "Horse Lords",
+        "Audrey Chen",
+        "Nick Klein"
+      ],
+      "official_url": "https://www.silent-green.net/en/programme/detail/psychic-liberation-night-horse-lords-audrey-chen-nick-klein",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Experimental music connecting avant-garde composition with improvisation between organic and inorganic sonic materials. The event-specific header and footer confirm Betonhalle despite a different hall appearing in general series text.",
+      "ingestion_source": "openai",
+      "series_id": "psychic-liberation",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "progetto-positano-2026-11-24",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Progetto Positano: Zeynep Toraman + Bertram Wee",
+      "venue": "silent green Kulturquartier, Betonhalle",
+      "dates": "2026-11-24",
+      "times": "20:00; doors 19:00",
+      "artists": [
+        "ensemble mosaik",
+        "Zeynep Toraman",
+        "Bertram Wee",
+        "Enno Poppe",
+        "Arne Vierck"
+      ],
+      "official_url": "https://www.silent-green.net/en/programme/detail/progetto-positano-zeynep-toraman-bertram-wee?cHash=4829d71072833129503cd9c121dec7ac&tx_news_pi1%5Bday%5D=24&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2026",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Two world premieres alongside existing compositions, including ensemble with live electronics, amplified instruments and talkbox. Particularly strong electroacoustic fit, with an additional archive-and-memory connection in Toraman’s practice.",
+      "ingestion_source": "openai",
+      "series_id": "progetto-positano",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "angel-bat-dawid-2026-11-24",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Angel Bat Dawid",
+      "venue": "silent green Kulturquartier, Kuppelhalle",
+      "dates": "2026-11-24",
+      "times": "20:00; doors 19:00",
+      "artists": [
+        "Angel Bat Dawid"
+      ],
+      "official_url": "https://www.silent-green.net/en/programme/detail/angel-bat-dawid",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Avant-garde improvisation grounded in Afrofuturism, archival research, gospel and Black music history. Additional performers and repertoire are unspecified. A scheduling alternative to Progetto Positano, not a double bill.",
+      "ingestion_source": "openai",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "silent-green-html-music-bbd924721f",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "goat (jp) + Camila Nebbia",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "08:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/goat-jp?tx_news_pi1%5Bday%5D=4&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2026&cHash=fa8983364cd5c68d5c957c597e0d73d1",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "silent-green-html-music-86ed93d906",
+      "topic_ids": [
+        "music"
+      ],
+      "title": "Berlin Tea Festival 2026: CLOSER TO TEA – Main Days",
+      "venue": "Silent Green (Betonhalle)",
+      "dates": "",
+      "times": "11:00",
+      "artists": [],
+      "official_url": "https://www.silent-green.net/en/programme/detail/berlin-tea-festival-2026-main-days-closer-to-tea?tx_news_pi1%5Bday%5D=7&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2026&cHash=13a66746082298fb9c656d1399913343",
+      "closing_soon": false,
+      "verified": false,
+      "url_live": true,
+      "why_candidate": "Silent Green programme — see venue page",
+      "ingestion_source": "silent_green_html",
+      "series_id": "berlin-tea-festival-2026",
+      "event_kind": "festival_overview",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-0b99b36184",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Monströs",
+      "venue": "Frankfurter Tor 1 10243 Berlin",
+      "dates": "18 November 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46415/monstros",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Monströs",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-a2709c2cfb",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Franz Dinda Mein Kirchner",
+      "venue": "Potsdamer Str. 50 10785 Berlin",
+      "dates": "18 November 2026",
+      "times": "18:30",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46660/mein-kirchner",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Franz Dinda Mein Kirchner",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-f407abdfd5",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Spätschicht x Anta Recke",
+      "venue": "Niederkirchnerstr. 7 10963 Berlin",
+      "dates": "19 November 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46716/spatschicht-x-anta-recke",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Spätschicht x Anta Recke",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-055a35a474",
+      "topic_ids": [
+        "wildcards"
+      ],
+      "title": "Krista Papista Salamina",
+      "venue": "Auguststr. 69 10117 Berlin",
+      "dates": "19 November 2026",
+      "times": "19:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46634/salamina",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Krista Papista Salamina",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-0df7873bd9",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Mapping as a Critical and Transnational Strategy: Ein Gespräch der Kuratorinnen mit Małgorzata Jędrzejczyk",
+      "venue": "Müllerstr. 146/47 13353 Berlin",
+      "dates": "25 November 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46601/mapping-as-a-critical-and-transnational-strategy-ein-gesprach-der-kuratorinnen-mit-malgorzata-jedrzejczyk",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Mapping as a Critical and Transnational Strategy: Ein Gespräch der Kuratorinnen mit Małgorzata Jędrzejczyk",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-cdddbeccbc",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Gespräch mit Monika Kaiser\\, Evelyn Kuwertz und fair share! zur Sichtbarkeit von Künstlerinnen",
+      "venue": "Schierker Str. 8 12051 Berlin",
+      "dates": "26 November 2026",
+      "times": "17:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46625/gesprach-mit-monika-kaiser-evelyn-kuwertz-und-fair-share-zur-sichtbarkeit-von-kunstlerinnen",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Gespräch mit Monika Kaiser\\, Evelyn Kuwertz und fair share! zur Sichtbarkeit von Künstlerinnen",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-f2fb0e2468",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "How Much Strength It Takes – Artist Talk with Tanja Ostojić and Bettina Knaup",
+      "venue": "Mariannenplatz 2 10997 Berlin",
+      "dates": "26 November 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46609/how-much-strength-it-takes-artist-talk-with-tanja-ostojic-and-bettina-knaup",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "How Much Strength It Takes – Artist Talk with Tanja Ostojić and Bettina Knaup",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-db429c1337",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "Alex Schweder & Norbert Wuerz Cryptochrome",
+      "venue": "Rosa-Luxemburg-Str. 45 10178 Berlin",
+      "dates": "26 November 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46542/cryptochrome",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "Alex Schweder & Norbert Wuerz Cryptochrome",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    },
+    {
+      "id": "index-berlin-ics-wildcards-a148298a1f",
+      "topic_ids": [
+        "advance_radar"
+      ],
+      "title": "A Future Held in Common. Fundraiser for SAVVY Contemporary",
+      "venue": "Schöneberger Ufer 61 10785 Berlin",
+      "dates": "26 November 2026",
+      "times": "18:00",
+      "artists": [],
+      "official_url": "https://www.indexberlin.com/events/list/46273/a-future-held-in-common-fundraiser-for-savvy-contemporary",
+      "closing_soon": false,
+      "verified": true,
+      "url_live": true,
+      "why_candidate": "A Future Held in Common. Fundraiser for SAVVY Contemporary",
+      "ingestion_source": "index_berlin_ics",
+      "series_id": "",
+      "event_kind": "single",
+      "missing_end_date": false
+    }
+  ],
+  "editorial_context": {
+    "rejected_candidates": [
+      {
+        "id": "index-berlin-html-exhibitions-09f0251a29",
+        "title": "Songs",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-85d9f3f82f",
+        "title": "Wir fressen uns zu Tode",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-e9893f71a3",
+        "title": "Show 41. Was Sein Kann",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-b4df63aabf",
+        "title": "Plan 9 From Outer Space 3.1 (Twin Turbo)",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-00870448aa",
+        "title": "Bittersweet Symphony – Über Sucht und Verantwortung",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-e08c6f5eec",
+        "title": "ARCHITECTURAL ECHOTONES. A Poetics Of The Surrounds",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-6946b73704",
+        "title": "Orphan Parade",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-52aa3c3acb",
+        "title": "St. Martin & the Echo",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-22f895d5af",
+        "title": "Verbena",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-a5b704e17e",
+        "title": "Home Archive(s)",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-5f8d29418d",
+        "title": "WAVE WEAVE & SONO OBI",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-dd222a774e",
+        "title": "Men in Shades",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-c44533f33c",
+        "title": "K-T Z: 15 Years",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-cf19b70252",
+        "title": "opaque waters",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-60c4301833",
+        "title": "The Little Things That Run the World",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-53fd37a9e5",
+        "title": "Home",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-460dd16ca8",
+        "title": "Escapist Tendencies",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-81da635e4f",
+        "title": "Super Super Odd Dolls GmbH",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-1ea1e941be",
+        "title": "Is it better?",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-7939fe7fb7",
+        "title": "repertoire",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-0b87ea3a64",
+        "title": "FLUXUS: ART IS EASY",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-ff7d052c41",
+        "title": "FLUXUS: ALL MUSIC IS THE SAME",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-7187f6ab25",
+        "title": "ADEFRA, NEID & Queer Reads Library: (Queer)feministische Gruppen, ihre Magazine und Archive",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-33aae06242",
+        "title": "Tu i tam – hier und dort. Hybride Strukturen in transnationalen Kontexten",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-bb96fd4594",
+        "title": "Was zwischen uns wächst",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-734cc9dbf0",
+        "title": "It was never really that good",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "index-berlin-html-exhibitions-d28d00d3e9",
+        "title": "Lucid Rhapsody. Ballad of a Schizophrenic",
+        "section": "exhibitions",
+        "reason": "venue_cap:ebensperger",
+        "series_id": "",
+        "venue": "Ebensperger"
+      },
+      {
+        "id": "silent-green-html-music-5d0283bdaa",
+        "title": "Ana Roxanne + Clarice",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-f029f6cd42",
+        "title": "Poppy Ackroyd",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-581756110f",
+        "title": "Sintonia 2026 Attunement II: Nnux + Cinna Peyghamy",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "sintonia-2026-attunement-ii",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-8dd2424483",
+        "title": "Yasuaki Shimizu + Merma Suelo – sold out",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-eb39057acd",
+        "title": "Maria BC + Eli Wewentxu & Indrė Jurgelevičiūtė & Carolina Ovando",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-6973012c9f",
+        "title": "Philo.live! Das Philosophie-Festival in Berlin",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "philo-live-das-philosophie",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-7cb27073b4",
+        "title": "LIA LIA + Levi",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-d9905457d4",
+        "title": "Historische Führung",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-298009af38",
+        "title": "Kantine Musik",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-beeab5663e",
+        "title": "Elegie für das letzte Licht – Book launch",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-33635b0554",
+        "title": "Dedicated Play Festival",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "dedicated-play-festival",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-4a23d81599",
+        "title": "Mississippi Records pres. A People’s History of Music",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green"
+      },
+      {
+        "id": "silent-green-html-music-9f64780407",
+        "title": "silent green Winterfest 2026",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-44cc4cb57e",
+        "title": "Sonic Matters VII – Independent Label Market",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Betonhalle)"
+      },
+      {
+        "id": "silent-green-html-music-165ad5b5e8",
+        "title": "Sintonia 2026 Attunement III: Tuce Alba + Mo'ong & Bilawa",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "sintonia-2026-attunement-iii",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-12b3b777a7",
+        "title": "KONTEXT pres. Rezzett + Ludwig Wandinger",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-55eaf79f86",
+        "title": "Mink pres. Return To Sender",
+        "section": "music",
+        "reason": "venue_cap:silent green",
+        "series_id": "",
+        "venue": "Silent Green (Kuppelhalle)"
+      },
+      {
+        "id": "silent-green-html-music-93d798fee4",
+        "title": "Frohes Festival 2026",
+        "section": "advance_radar",
+        "reason": "venue_cap:silent green",
+        "series_id": "frohes-festival-2026",
+        "venue": "Silent Green (Betonhalle)"
+      }
+    ],
+    "diversification_caps": {
+      "max_per_venue": 2,
+      "max_per_series": 1
+    },
+    "missing_end_date_count": 1,
+    "note": "Pre-ranked with venue/series/event de-duplication across sections. Synthesis must still apply one-event-one-slot and Top Picks cross-reference rules. Items with missing_end_date:true need a closing date from the official page; if still unknown, drop the pick and log it (python scripts/culture_missing_end_log.py)."
+  },
+  "note": "Token-light culture slice for synthesis. Items with verified:true passed pre-fetch URL/schedule checks; synthesis spot-checks only unverified Top Picks and closing-soon items."
+}
