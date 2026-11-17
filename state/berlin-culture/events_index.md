@@ -120,3 +120,11 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-11-10 | music | Sintonia 2026 Attunement II: Nnux + Cinna Peyghamy | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/sintonia-2026-attunement-ii
 2026-11-10 | wildcards | Carsten Nicolai — WAVE WEAVE & SONO OBI | Galerie EIGEN + ART Berlin | https://www.indexberlin.com/events/list/46191/wave-weave-sono-obi
 2026-11-10 | wildcards | Editing Encounters — The Invisible Archive | New Toni | https://www.indexberlin.com/events/list/46538/editing-encounters-presented-by-the-invisible-archive
+2026-11-17 | top_picks | Psychic Liberation Night: Horse Lords + Audrey Chen & Nick Klein | silent green Kulturquartier, Betonhalle | https://www.silent-green.net/en/programme/detail/psychic-liberation-night-horse-lords-audrey-chen-nick-klein
+2026-11-17 | top_picks | Here/Now/There/Then | DOCK 11 | https://dock11-berlin.de/en/theater/program/calendar/here-now-there-then
+2026-11-17 | top_picks | Daniela Comani. Orlando's Library | Kunstbibliothek, Kulturforum | https://www.smb.museum/en/museums-institutions/kulturforum/exhibitions/detail/daniela-comani-orlandos-library/
+2026-11-17 | exhibitions | Crosstown — Robert Rauschenberg | BASTIAN | https://www.indexberlin.com/exhibitions/list/45037/crosstown
+2026-11-17 | exhibitions | Sound Bodies – Variations on a Theme of Art | Bode-Museum | https://www.smb.museum/en/exhibitions/detail/sound-bodies-variations-on-a-theme-of-art/
+2026-11-17 | music | Angel Bat Dawid | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/angel-bat-dawid
+2026-11-17 | music | noch ein tag – one day more: A K Dolven with Stian Westerhus | St. Matthäus-Kirche | https://www.indexberlin.com/events/list/46668/noch-ein-tag-one-day-more-performance-im-dialog-mit-der-ausstellung-four-hundred-million-years-of-sunrise-from-the-dark-der-norwegischen-kunstlerin-a-k-dolven-mit-dem-experimentellen-gitarristen-stian-westerhus-und-a-k-dolven
+2026-11-17 | wildcards | Spätschicht x Anta Recke | Gropius Bau | https://www.indexberlin.com/events/list/46716/spatschicht-x-anta-recke
