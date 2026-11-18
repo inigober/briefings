@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-18
+
+- **spain-deutsche-bank-defex-angola-rifle** — eldiario.es: Deutsche Bank audits on Defex Angola deal, Proyecto Rifle (section: spain)
+- **spain-feijoo-blanco-valdes-constitutional-court** — eldiario.es: Galicia proposes Feijóo's columnist Blanco Valdés for Constitutional Court (section: spain)
+- **spain-pensions-campaign-left-right-divide** — EL PAÍS: right avoids pension doubts, left promises to reinforce system (section: spain)
+- **germany-five-eu-states-rwanda-return-hub** — The Economist: Germany and four EU states plan Rwanda return hub (section: germany)
+- **germany-eu-grid-storage-permitting** — Die Zeit: EU to speed up permits for grids and storage (section: germany)
+- **germany-ecdc-antibiotic-resistance** — Tagesspiegel/dpa: ECDC warns resistant germs spreading in Europe (section: germany)
+- **berlin-expo-bid-new-site-after-brandenburg** — Tagesspiegel: Berlin looks for new Expo site after Brandenburg declines (section: berlin)
+- **berlin-ukraine-talks-us-envoys** — Berliner Zeitung: Berlin likely venue for Ukraine talks with US envoys (section: berlin)
+- **berlin-jugendhilfe-18-year-olds-lose-support** — rbb24: more 18-year-olds lose youth-welfare support early (section: berlin)
+- **world-nvidia-huang-no-return-strong-sales** — Financial Times: Nvidia says Huang will not return as CEO, strong sales (section: world)
+- **world-daiwa-china-investment-banking-buyout** — Nikkei Asia: Daiwa buys out Chinese partners (section: world)
+- **world-costa-rica-journalist-killed** — The Guardian: Costa Rican journalist shot dead, first in 25 years (section: world)
+
 ## 2026-11-17
 
 - **spain-feijoo-denies-million-homes-pledge** — eldiario.es: Feijóo denies promising a million homes despite manifesto point 144 (section: spain)

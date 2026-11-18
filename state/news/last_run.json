@@ -1,18 +1,18 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-17",
-  "briefing_date": "2026-11-17",
-  "inbox_date": "2026-11-17",
+  "date": "2026-11-18",
+  "briefing_date": "2026-11-18",
+  "inbox_date": "2026-11-18",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-17.md",
-  "inbox_path": "inbox/news/2026-11-17-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-18.md",
+  "inbox_path": "inbox/news/2026-11-18-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "PSOE copying proposals / Frente Amplio clash; Rufián interview; opinion column on Feijóo; migrants and IMV; wealth-tax survey; abortion; poll average; Ayuso podcast", "section": "spain", "reason": "campaign colour, opinion or poll tracker; clash and wealth-tax survey parked in Other Headlines; publisher_pool_thin (eldiario.es and EL PAÍS only)"},
-    {"headline": "Börse 17 November; Morning Briefing podcast duplicate; Asian markets on chip sanctions; US AI-chip export limits (dpa); Traumschiff; Berliner happiness ranking; art-world ranking", "section": "germany", "reason": "market wrap, duplicate, geographic misfit (US/China) or lifestyle filler; publisher_pool_thin"},
-    {"headline": "Giffey SPD bid; weather; BSR winter service; Cybertruck; Moabit explosion; Hertha fan verdict; Hertha forced labour; DDR library closure", "section": "berlin", "reason": "federal-politics angle (parked in Other Headlines), weather, sport, one-off crime or lifestyle filler"},
-    {"headline": "Hungary rate hold; Guardian extreme weather 2026; Politico Feijóo takeaways; French debate; Anthropic IPO video; Banks AI debt; Taiwan elections; EU Russia sanctions podcast", "section": "world", "reason": "Europe-only, AI-finance theme covered 2026-11-15, or used in Selected Reads/Other Headlines; Guardian weather article blocked as a Selected Read on 2026-11-15"}
+    {"headline": "Deutsche Bank / Defex duplicate; Feijóo-Gamarra-Koldo; Peinado reappears; Sánchez on Rwanda; tactical-vote map; migration podcast; Feijóo regional profile; sovereigntist poll", "section": "spain", "reason": "duplicate theme, PSOE/PP scandal or migration (avoid_unless_material), or poll/campaign colour; publisher_pool_thin (eldiario.es and EL PAÍS only)"},
+    {"headline": "Börse 18 November; Alaska Senate; Homepod; Land Cruiser; GTA 6; Voyager; World Toilet Day; Armin Rohde; duplicate ECDC piece", "section": "germany", "reason": "market wrap, US story (World), lifestyle filler, or duplicate; Voyager covered 2026-11-15"},
+    {"headline": "Neukölln Christmas lights; communist-victims memorial; Schäferseepark; Prenzlauer Berg; weather; Bundesversammlung candidates; Ringbahn 2030; police car crash; Berlin-Hannover rail", "section": "berlin", "reason": "local filler, weather, one-off incident, or Ringbahn covered 2026-11-17 without a material change (parked in Other Headlines)"},
+    {"headline": "Alaska Senate; Anthropic IPO; Cape Town baboons; Brazil isolated tribe; South Korea exam AI cheating; Portugal tech show; FP AI pieces", "section": "world", "reason": "used in Other Headlines or Selected Reads, or lower priority than chosen items"}
   ],
-  "notes": "Inbox dated 2026-11-17. Published from the synthesis file. Older dedup entries were not trimmed this run."
+  "notes": "Inbox dated 2026-11-18. Published from the synthesis file. Germany pool was thin (market wrap and lifestyle items), so the Rwanda return-hub story, in which Germany is a participant, fills a Germany slot. Older dedup entries were not trimmed this run."
 }

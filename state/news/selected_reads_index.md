@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-18
+
+- [The AI Safety Debate Has a Human Rights Blind Spot](https://foreignpolicy.com/2026/11/17/ai-human-rights-safety-debate-regulation-united-nations/) — Foreign Policy
+- [Chinese dominate Portugal tech show, as companies shrug off EU curbs](https://asia.nikkei.com/business/technology/chinese-dominate-portugal-tech-show-as-companies-shrug-off-eu-curbs) — Nikkei Asia
+- [The good and the bad of climate policy](https://www.ft.com/content/68e72928-ef85-481e-adbd-46b7b654223e?syn-25a6b1a6=1) — Financial Times
+- [Anthropic’s giant IPO puts the heat on OpenAI](https://www.economist.com/business/2026/11/15/anthropics-giant-ipo-puts-the-heat-on-openai) — The Economist
+
 ## 2026-11-17
 
 - [Democrats Can’t Return to Pre-Trump Foreign Policy](https://foreignpolicy.com/2026/11/16/democrats-foreign-policy-congress-election-trump-tariffs/) — Foreign Policy
