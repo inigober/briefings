@@ -1,18 +1,19 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-11-12",
+  "date": "2026-11-19",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-11-12.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-11-12-synthesis.json",
+  "briefing_path": "briefings/berlin-restaurants/2026-11-19.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-11-19-synthesis.json",
   "verified_count": 17,
-  "selected_count": 6,
+  "selected_count": 7,
   "selected_restaurants": [
-    "Ma-Makan",
-    "Taverna Ousia",
-    "Salami Social Club",
-    "Ferro Canteen",
-    "Kírkē Deli",
-    "Barra"
+    "Shaniu's House of Noodles",
+    "Tianfuzius",
+    "Hanuman Thai Curry House",
+    "Sarajevo",
+    "Tacos El Rey",
+    "JAJA",
+    "100Brote"
   ],
-  "notes": "6 entries from 17 verified inbox items. Excluded 10-week repeats: Shaniu's House of Noodles (2026-09-03), Mr. Noodle Chen (2026-10-01), Taqueria El Oso (2026-10-08), Kongfu Chili, Nusantara and Doyum Grillhaus (2026-10-22), Nußbaumerin (2026-10-29), Papaya Mum, Malakeh and Salhino (2026-11-05). Left out Pars (second fine dining; Barra used the slot). Omitted Hours for Kírkē Deli (04:00 opening) as a data glitch. The single openings item is a roundup with no named place, so the openings section was omitted and openings_reported.json left unchanged. Neighborhoods: Kreuzberg (2), Schöneberg, Friedrichshain, Reinickendorf, Neukölln. Trimmed 2026-08-27 index entries as older than 10 weeks."
+  "notes": "7 entries from 17 verified inbox items. Excluded 10-week repeats: Larb Koi, Fu Li Lai, Chon Thong, Nusantara, Doyum Grillhaus, Pamfilya, Salumeria Lamuri, Nußbaumerin. No fine dining included (pars and Macionga left out). The single openings item is a roundup with no named place, so the openings section was omitted and openings_reported.json left unchanged. Neighborhoods: Kreuzberg (2), Wilmersdorf, Schöneberg, Wedding, Neukölln, Prenzlauer Berg."
 }
