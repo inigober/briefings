@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-19
+
+- **spain-sanchez-feijoo-debate-polls** — EL PAÍS: Sánchez–Feijóo head-to-head debate, PSOE two points behind PP (section: spain)
+- **spain-pnv-hardest-general-election** — eldiario.es: PNV faces hardest general election, distances itself from Sánchez (section: spain)
+- **spain-julio-iglesias-national-court-investigation** — eldiario.es: National Court judge opens investigation into Julio Iglesias (section: spain)
+- **germany-rent-affordability-top-flop-districts** — Handelsblatt: Haus & Grund ranking of rent affordability by district (section: germany)
+- **germany-wadephul-south-caucasus-armenia-trip** — Tagesspiegel/dpa: Wadephul's South Caucasus trip, delayed flight from Armenia (section: germany)
+- **germany-kretschmer-brantner-maischberger-clash** — Tagesspiegel: Kretschmer and Brantner clash on Maischberger (section: germany)
+- **berlin-charite-nurses-strike** — Tagesspiegel: Charité nurses' strike postpones up to 30% of treatments (section: berlin)
+- **berlin-schools-java4shell-security-warning** — Tagesspiegel: Java4Shell warning for all Berlin schools (section: berlin)
+- **berlin-expo-2035-pankow-site** — rbb24: Pankow edge site pitched to rescue Expo bid (section: berlin)
+- **world-anthropic-record-ipo-81bn** — Financial Times: Anthropic raises $81bn in record IPO (section: world)
+- **world-icj-myanmar-genocide-ruling-us-sanctions-fears** — The Guardian: ICJ Myanmar ruling, fears of US sanctions on judges (section: world)
+- **world-trump-iran-bioweapons-claim** — Tagesspiegel/dpa: Trump says Iran appears to be working on bioweapons (section: world)
+
 ## 2026-11-18
 
 - **spain-deutsche-bank-defex-angola-rifle** — eldiario.es: Deutsche Bank audits on Defex Angola deal, Proyecto Rifle (section: spain)

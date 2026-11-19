@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-19
+
+- [Everything Is Breaking](https://www.theatlantic.com/technology/2026/11/why-mass-digital-outages/689501/?utm_source=feed) — The Atlantic
+- [Commodity data firm Kpler bets global turmoil to sustain trade data demand](https://asia.nikkei.com/business/markets/commodities/commodity-data-firm-kpler-bets-global-turmoil-to-sustain-trade-data-demand) — Nikkei Asia
+- [Anthropic’s AI advances trigger new safety fears on eve of IPO](https://www.ft.com/content/d8be4655-211c-49a8-bfe4-18a00b8e8619?syn-25a6b1a6=1) — Financial Times
+- [America must get serious about Chinese chip spying](https://www.economist.com/leaders/2026/11/18/america-must-get-serious-about-chinese-chip-spying) — The Economist
+
 ## 2026-11-18
 
 - [The AI Safety Debate Has a Human Rights Blind Spot](https://foreignpolicy.com/2026/11/17/ai-human-rights-safety-debate-regulation-united-nations/) — Foreign Policy
