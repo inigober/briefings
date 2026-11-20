@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-20
+
+- **spain-sanchez-soft-tone-after-debate** — EL PAÍS: Sánchez courts moderate voters with a softer tone after the head-to-head debate (section: spain)
+- **spain-compromis-front-valencia-colau-rufian** — eldiario.es: Colau and Rufián join Compromís-Front Valencià campaign in dana zone and Castellón (section: spain)
+- **spain-teruel-existe-guitarte-no-investiture** — eldiario.es: Teruel Existe's Guitarte votes "no" to any investiture for now (section: spain)
+- **germany-berlin-ukraine-economic-support** — Die Zeit: Berlin wants to strengthen Ukraine economically, beyond weapons (section: germany)
+- **germany-humanoid-robots-outnumber-humans** — Handelsblatt: when will humanoid robots outnumber humans (section: germany)
+- **germany-liefers-democracy-must-be-sexy** — Tagesspiegel/dpa: Jan Josef Liefers on political failure and extremism (section: germany)
+- **berlin-spd-anti-palestinian-racism-coalition-talks** — Tagesspiegel: SPD pushes recording of anti-Palestinian racism in coalition talks (section: berlin)
+- **berlin-kraftwerk-helsing-event-mistakes** — rbb24: Kraftwerk Berlin admits mistakes over Helsing launch event (section: berlin)
+- **berlin-lichtenberg-stapelschule-foundation-stone** — rbb24: foundation stone for first "stacked school" in Lichtenberg (section: berlin)
+- **world-alaska-election-trump-drops-challenge** — Handelsblatt: Trump administration appears to drop challenge to Alaska midterm election (section: world)
+- **world-china-restart-us-private-equity** — Financial Times: China prepares to restart US private-equity investments (section: world)
+- **world-awa-isolated-tribe-contact-brazil** — The Guardian: isolated Awá people make contact in Brazil's Amazon (section: world)
+
 ## 2026-11-19
 
 - **spain-sanchez-feijoo-debate-polls** — EL PAÍS: Sánchez–Feijóo head-to-head debate, PSOE two points behind PP (section: spain)

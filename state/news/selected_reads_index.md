@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-20
+
+- [Can Nvidia learn from AIG’s mistakes?](https://www.ft.com/content/c1f1c0d2-466e-46b9-b346-5ce4677c55ea?syn-25a6b1a6=1) — Financial Times
+- [Chip supply chain warns of broader disruption from new US export controls](https://asia.nikkei.com/business/tech/semiconductors/chip-supply-chain-warns-of-broader-disruption-from-new-us-export-controls) — Nikkei Asia
+- [In Italy, Meloni Grapples With a Potential Spoiler](https://foreignpolicy.com/2026/11/19/italy-meloni-vannacci-far-right-spoiler-elections-ukraine/) — Foreign Policy
+- [AI is swallowing maths. Is economics next?](https://www.economist.com/finance-and-economics/2026/11/19/ai-is-swallowing-maths-is-economics-next) — The Economist
+
 ## 2026-11-19
 
 - [Everything Is Breaking](https://www.theatlantic.com/technology/2026/11/why-mass-digital-outages/689501/?utm_source=feed) — The Atlantic
