@@ -1,18 +1,18 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-20",
-  "briefing_date": "2026-11-20",
-  "inbox_date": "2026-11-20",
+  "date": "2026-11-21",
+  "briefing_date": "2026-11-21",
+  "inbox_date": "2026-11-21",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-20.md",
-  "inbox_path": "inbox/news/2026-11-20-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-21.md",
+  "inbox_path": "inbox/news/2026-11-21-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Sánchez–Feijóo debate recaps (La Vanguardia columns, ten-analyst panel, eldiario.es fact-check and analysis pieces)", "section": "spain", "reason": "duplicate debate theme (one slot); parked in Other Headlines; publisher_pool_thin (eldiario.es, EL PAÍS, La Vanguardia only)"},
-    {"headline": "Alaska election (Handelsblatt); Ukraine economic support is kept; Christmas-party guide; used-car check; career advice; Zartmann single; puzzle world champion; Totensonntag; Hamburg gritting", "section": "germany", "reason": "US story belongs in World; lifestyle, consumer or weather filler; Germany pool thin (Handelsblatt, Tagesspiegel, Zeit)"},
-    {"headline": "Spandau school news; Ringbahn 14-month closure alternatives; Giffey at Checkpoint-Revue; Tierpark Christmas lights; Literaturhaus café; RE1 interruption; BVV results table; Ukraine summit traffic; Evangelical church merger talks", "section": "berlin", "reason": "local filler, culture or listings; Ringbahn closure covered 2026-11-17 without material change; RE1 route is Brandenburg; summit traffic and church talks parked in Other Headlines; publisher_pool_thin (Tagesspiegel, rbb24)"},
-    {"headline": "Nvidia/AIG; AI and economics; LLM profanity; grasshoppers; export controls; Meloni; Cambodia; yen; Anthropic Wall Street; oil and bonds; US science; Haiti verdict", "section": "world", "reason": "used in Selected Reads or Other Headlines, market-wrap or Europe-only, science/nature filler; Anthropic and chip-control themes already covered 2026-11-17 to 2026-11-19"}
+    {"headline": "EL PAÍS election explainers and interview lists; Guadajoz, Soria and BNG campaign colour; dana zone vote", "section": "spain", "reason": "index pages, opinion or campaign colour; dana and campaign themes covered 2026-11-19/20; parked in Other Headlines; publisher_pool_thin (eldiario.es, La Vanguardia, EL PAÍS)"},
+    {"headline": "Baerbock consultant; killer-robot talks; FBI/USDA hack; Zeit/Handelsblatt tech sell-off; earworm; CO2 removal interview", "section": "germany", "reason": "personality news, US or global stories belong in World or Other Headlines, health/science filler"},
+    {"headline": "Steinmetz profile; Biesdorf AfD event; Winterstrand; e-scooter death; Wolfsburg rail; Neuruppin teacher centre; heat zones; Gen Z protest in Berlin", "section": "berlin", "reason": "lifestyle, listings or Brandenburg items; Gen Z protest used in Germany; publisher_pool_thin (Tagesspiegel, rbb24)"},
+    {"headline": "Salts; AI and maths; AI and economics; LLM profanity; grasshoppers; tech bear market; China thanks; FP video games", "section": "world", "reason": "science filler, themes covered 2026-11-17 to 2026-11-20, or used in Other Headlines / Selected Reads"}
   ],
-  "notes": "Inbox dated 2026-11-20; built from the synthesis file. Spain, Germany and Berlin pools were thin (campaign colour, lifestyle filler). Older dedup and selected-read entries were not trimmed this run."
+  "notes": "Inbox dated 2026-11-21; built from the synthesis file. Spain pool was dominated by campaign colour; Spain and Berlin had thin publisher pools. Older dedup and selected-read entries were not trimmed this run."
 }

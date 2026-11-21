@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-21
+
+- [Why BAAJA Matters](https://foreignpolicy.com/2026/11/20/baaja-permitting-reform-affordability-climate-change-renewable-energy-us-policy/) — Foreign Policy
+- [The AI cyber threat is already here](https://www.ft.com/content/3cf882c6-0be6-43f5-b01e-b6f765686c8b?syn-25a6b1a6=1) — Financial Times
+- [America’s neglect of global science is backfiring](https://www.economist.com/leaders/2026/11/19/americas-neglect-of-global-science-is-backfiring) — The Economist
+- [‘Weak and dizzy’: the secretive ICE force-feeding tactics that ended a Cuban father’s hunger strike](https://www.theguardian.com/us-news/2026/nov/20/ice-cuba-hunger-strike-force-feeding) — The Guardian
+
 ## 2026-11-20
 
 - [Can Nvidia learn from AIG’s mistakes?](https://www.ft.com/content/c1f1c0d2-466e-46b9-b346-5ce4677c55ea?syn-25a6b1a6=1) — Financial Times

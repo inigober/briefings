@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-21
+
+- **spain-puigdemont-feijoo-good-conduct-certificate** — La Vanguardia: Feijóo's warm words for Puigdemont at the debate (section: spain)
+- **spain-supremo-nietos-law-voters-barred** — eldiario.es: Supreme Court bars grandchildren-law nationals living in Spain from voting on 29-N (section: spain)
+- **spain-pp-vox-nuclear-fracking-energy-policy** — eldiario.es: PP and Vox nuclear revival and fracking platform (section: spain)
+- **germany-333-gas-suppliers-price-rise-jan** — Handelsblatt: 333 gas suppliers raise tariffs on 1 January after Iran-war prices (section: germany)
+- **germany-pflegekassen-finanzrisiken-2027** — Tagesspiegel/dpa: care insurers warn of new financial risks early 2027 (section: germany)
+- **germany-gen-z-regelt-youth-protests** — Handelsblatt: youth protests against conscription and for school funding largely peaceful (section: germany)
+- **berlin-38-road-deaths-2026** — Tagesspiegel/dpa: 38 road deaths in Berlin, more than last year (section: berlin)
+- **berlin-greens-benali-jockers-co-chair-dispute** — Tagesspiegel: row over new Green co-chair Merieme Benali-Jockers (section: berlin)
+- **berlin-galeria-kudamm-closure** — rbb24: Galeria closes Kurfürstendamm branch (section: berlin)
+- **world-trump-data-centre-tax-abroad** — Financial Times: Trump threatens tax on data centres built outside US (section: world)
+- **world-japan-icc-early-funding-us-sanctions** — Nikkei Asia: Japan weighs early ICC funding before US sanctions cutoff (section: world)
+- **world-cop31-antalya-fossil-fuel-summit-warning** — Politico Europe: EU warns COP31 draft is a step backwards (section: world)
+
 ## 2026-11-20
 
 - **spain-sanchez-soft-tone-after-debate** — EL PAÍS: Sánchez courts moderate voters with a softer tone after the head-to-head debate (section: spain)
