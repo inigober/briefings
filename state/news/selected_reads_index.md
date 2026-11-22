@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-22
+
+- [China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet](https://www.bloomberg.com/news/articles/2026-11-22/china-s-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet) — Bloomberg
+- [Navy budget pick has family investments in Trump Jr-linked contractor](https://www.ft.com/content/145e6fab-d93a-412d-8670-0554064fdf98?syn-25a6b1a6=1) — Financial Times
+- [Hello Kitty owner Sanrio bets on games to expand global reach](https://asia.nikkei.com/business/media-entertainment/hello-kitty-owner-sanrio-bets-on-games-to-expand-global-reach) — Nikkei Asia
+- [AI may have solved the most important problem in mathematics](https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics) — The Economist
+
 ## 2026-11-21
 
 - [Why BAAJA Matters](https://foreignpolicy.com/2026/11/20/baaja-permitting-reform-affordability-climate-change-renewable-energy-us-policy/) — Foreign Policy

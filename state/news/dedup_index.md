@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-22
+
+- **spain-idra-survey-housing-taxes-right-voters** — eldiario.es: IDRA survey, half of PP and Vox voters back higher taxes on multiple-home owners (section: spain)
+- **spain-voto-util-model-40-seats-in-air** — EL PAÍS: seat model says about 40 seats open depending on tactical vote (section: spain)
+- **spain-full-employment-spanish-men-far-right** — eldiario.es: unemployment below 10%, rebuttal of "replacement" claims (section: spain)
+- **germany-hubig-femicide-as-murder** — Die Zeit: Hubig wants femicide classed as murder (section: germany)
+- **germany-aigner-poll-introduce-to-afd-linke** — Handelsblatt: poll says Aigner should introduce herself to AfD and Left (section: germany)
+- **germany-bird-flu-cases-rise-north** — Tagesspiegel/dpa: bird flu cases rise, mainly in the north (section: germany)
+- **berlin-emde-expulsion-vote-coalition-talks** — Tagesspiegel/dpa: Emde expulsion vote could end coalition talks (section: berlin)
+- **berlin-desksharing-savings** — rbb24: desk sharing could save a three-digit million sum a year (section: berlin)
+- **berlin-freenow-returns-hire-cars** — Tagesspiegel: Freenow returns to hire-car brokering in Berlin (section: berlin)
+- **world-el-chapo-isidro-arrested-sinaloa** — The Guardian: Mexican forces capture FBI most-wanted Meza Flores (section: world)
+- **world-amazon-decart-7-5bn** — Financial Times: Amazon close to $7.5bn Decart purchase (section: world)
+- **world-world-bank-india-poverty-questioned** — Nikkei Asia: World Bank India poverty estimates questioned (section: world)
+
 ## 2026-11-21
 
 - **spain-puigdemont-feijoo-good-conduct-certificate** — La Vanguardia: Feijóo's warm words for Puigdemont at the debate (section: spain)

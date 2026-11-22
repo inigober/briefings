@@ -1,18 +1,18 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-21",
-  "briefing_date": "2026-11-21",
-  "inbox_date": "2026-11-21",
+  "date": "2026-11-22",
+  "briefing_date": "2026-11-22",
+  "inbox_date": "2026-11-22",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-21.md",
-  "inbox_path": "inbox/news/2026-11-21-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-22.md",
+  "inbox_path": "inbox/news/2026-11-22-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "EL PAÍS election explainers and interview lists; Guadajoz, Soria and BNG campaign colour; dana zone vote", "section": "spain", "reason": "index pages, opinion or campaign colour; dana and campaign themes covered 2026-11-19/20; parked in Other Headlines; publisher_pool_thin (eldiario.es, La Vanguardia, EL PAÍS)"},
-    {"headline": "Baerbock consultant; killer-robot talks; FBI/USDA hack; Zeit/Handelsblatt tech sell-off; earworm; CO2 removal interview", "section": "germany", "reason": "personality news, US or global stories belong in World or Other Headlines, health/science filler"},
-    {"headline": "Steinmetz profile; Biesdorf AfD event; Winterstrand; e-scooter death; Wolfsburg rail; Neuruppin teacher centre; heat zones; Gen Z protest in Berlin", "section": "berlin", "reason": "lifestyle, listings or Brandenburg items; Gen Z protest used in Germany; publisher_pool_thin (Tagesspiegel, rbb24)"},
-    {"headline": "Salts; AI and maths; AI and economics; LLM profanity; grasshoppers; tech bear market; China thanks; FP video games", "section": "world", "reason": "science filler, themes covered 2026-11-17 to 2026-11-20, or used in Other Headlines / Selected Reads"}
+    {"headline": "PSOE/Sánchez and Feijóo campaign profiles; EL PAÍS poll average and interview indexes; CIS vote-leakage data; Puerto Real feature; pensions opinion", "section": "spain", "reason": "index pages, campaign colour, or same electoral-poll theme as selected voto útil piece; pensions covered 2026-11-18"},
+    {"headline": "Koh Kood and Okunoin travel; heating with wood; Christmas market security; Niedersachsen India trip; duplicate bird-flu and COP31 items", "section": "germany", "reason": "travel/lifestyle filler, duplicate wire items, or global climate story belongs in World/Other Headlines (COP31 covered 2026-11-21)"},
+    {"headline": "Rent-to-working-time study; Preisler scuffle; Britzer Tunnel fire; rescue workers attacked; Weihnachtsamnestie; Behindertenparlament; S-Bahn works; Turkish car summit; Union/Volleys sport", "section": "berlin", "reason": "one-off crime or traffic incident, sport demoted, or lower relevance than selected; Gen Z protest dedup"},
+    {"headline": "Salts; AI and economics; Britannia sea power; EU stubbornness; Hello Kitty; ICE force-feeding; Navy pick; China AI rout; Gulf of Finland drones; Australia gas", "section": "world", "reason": "science filler, ICE piece in selected reads 2026-11-21, Europe-centred items, or used in Other Headlines / Selected Reads; publisher_pool_thin for Economist cap"}
   ],
-  "notes": "Inbox dated 2026-11-21; built from the synthesis file. Spain pool was dominated by campaign colour; Spain and Berlin had thin publisher pools. Older dedup and selected-read entries were not trimmed this run."
+  "notes": "Inbox dated 2026-11-22; built from the synthesis file via backup cron. Spain pool dominated by eldiario.es and EL PAÍS campaign pieces; Berlin pool limited to Tagesspiegel and rbb24. Older dedup entries were not trimmed (all within 14 days except 2026-11-07 and earlier, left as in prior run)."
 }
