@@ -1,0 +1,2626 @@
+{
+  "briefing_type": "news",
+  "date": "2026-11-22",
+  "source_raw": "inbox/news/2026-11-22-raw.json",
+  "built_at": "2026-11-22T05:32:23.022854+00:00",
+  "model": null,
+  "raw_item_count": 199,
+  "section_counts": {
+    "spain": 12,
+    "germany": 12,
+    "berlin": 12,
+    "world": 12
+  },
+  "selected_read_candidates": [
+    {
+      "id": "rss-world-26a6be40d8",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Amazon closes in on $7.5bn deal to buy AI start-up Decart",
+      "summary": "Acquisition would help AWS compete with Nvidia in race for computing power",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Amazon closes in on $7.5bn deal to buy AI start-up Decart",
+          "url": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-11-21",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-d6b65442ff",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "World Bank's India poverty estimates questioned over scale of gains",
+      "summary": "World Bank's India poverty estimates questioned over scale of gains",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "World Bank's India poverty estimates questioned over scale of gains",
+          "url": "https://asia.nikkei.com/economy/demography/world-bank-s-india-poverty-estimates-questioned-over-scale-of-gains",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-3ed8926e80",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Australian Opposition Calls for Changes to Gas Reservation Plan",
+      "summary": "Australia’s opposition coalition party has raised more concerns about the government’s plan for liquefied natural gas exporters to increase supply to the domestic market, ahead of the legislation being voted on this week.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Australian Opposition Calls for Changes to Gas Reservation Plan",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/australian-opposition-calls-for-changes-to-gas-reservation-plan",
+          "publisher": "Bloomberg",
+          "published_at": "2026-11-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-a22a59d673",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet",
+      "summary": "China’s AI stock trade, once a hot bet as the nation’s technology powerhouses raced to catch up with the US, has morphed into a losing strategy.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/china-s-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet",
+          "publisher": "Bloomberg",
+          "published_at": "2026-11-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-01ff9776e9",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Navy budget pick has family investments in Trump Jr-linked contractor",
+      "summary": "Democrats have promised to raise alleged conflicts of interest concerning administration officials when they take over Congress",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Navy budget pick has family investments in Trump Jr-linked contractor",
+          "url": "https://www.ft.com/content/145e6fab-d93a-412d-8670-0554064fdf98?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-11-21",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-2681b8486e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+      "summary": "Fausto Isidro Meza Flores was one of FBI’s most wanted fugitives and evaded capture for more than a decade The Mexican military captured one of the FBI’s 10 most wanted fugitives during a special forces raid in the Mexican state of Sinaloa on Friday night. Fausto Isidro Meza Flores, known as “El Chapo Isidro”, was arrested along with two other alleged leaders of his gang after a gun battle that triggered widespread panic in the city of Guasave. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+          "publisher": "The Guardian",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-0e5fc9b767",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "‘Weak and dizzy’: the secretive ICE force-feeding tactics that ended a Cuban father’s hunger strike",
+      "summary": "Exclusive: Luis Alejandro Cora Pérez says in messages to Guardian from inside Texas facility pain of force-feeding caused him to break strike The text message that came from inside the Immigration and Customs Enforcement (ICE) detention center was stark: “I have spent five days eating regular food. If I don’t eat it, they put the tube in me to feed me.” A Cuban asylum seeker, Luis Alejandro Cora Pérez, 32, said in messages to the Guardian this month that he was still weak and dizzy after three months without eating, but that he had broken his hunger strike because being force-fed was just t...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "‘Weak and dizzy’: the secretive ICE force-feeding tactics that ended a Cuban father’s hunger strike",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/ice-cuba-hunger-strike-force-feeding",
+          "publisher": "The Guardian",
+          "published_at": "2026-11-20",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    },
+    {
+      "id": "rss-world-ed6d49daf7",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Hello Kitty owner Sanrio bets on games to expand global reach",
+      "summary": "Hello Kitty owner Sanrio bets on games to expand global reach",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Hello Kitty owner Sanrio bets on games to expand global reach",
+          "url": "https://asia.nikkei.com/business/media-entertainment/hello-kitty-owner-sanrio-bets-on-games-to-expand-global-reach",
+          "publisher": "Nikkei Asia",
+          "published_at": null,
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "rss-spain-58bcdace8e",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Del PP a Vox y de Sumar al PSOE: cómo han evolucionado las fugas de voto de cada partido",
+      "summary": "Los microdatos del CIS muestran, mes a mes, cuántos votantes de PSOE, PP, Sumar o Vox han cambiado de idea desde las elecciones de 2023 Cómo funciona y a quién beneficia el sistema electoral en España Tres de cada diez votantes del PP y del PSOE en 2023 votarían hoy a otro partido. Sumar es el partido que menos electores conserva: apenas cuatro de cada diez seguirían votándolo mientras que Vox mantendría a ocho de cada 10 votantes. Sumando a los cuatro grandes partidos, una de cada tres personas que votaron a PP, PSOE, Vox o Sumar en 2023 dice hoy que elegiría otra formación, o no sabe qué ...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Del PP a Vox y de Sumar al PSOE: cómo han evolucionado las fugas de voto de cada partido",
+          "url": "https://www.eldiario.es/datos/pp-vox-sumar-psoe-han-evolucionado-fugas-voto-partido_1_13669544.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-7c4089bdbc",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Cuando se sitúa la pensión como privilegio y se ignora la riqueza: así se gestan los recortes a los jubilados",
+      "summary": "PP y Vox no quieren desvelar sus planes para la jubilación, mientras cuestionan la viabilidad del sistema público y alimentan los discursos de enfrentamiento entre jóvenes y mayores Por qué el sistema público de pensiones ni “está quebrado” ni “va a petar” como dicen PP y Vox Conocer qué van a hacer el PP y Vox con las pensiones parece un misterio. O no tanto. Antes de que arrancara la campaña electoral, ambos partidos afirmaron que el sistema público va –o está– quebrado . Después, ante las críticas, trataron de rectificar y están intentando no desvelar qué plantean para la jubilación. Mie...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Cuando se sitúa la pensión como privilegio y se ignora la riqueza: así se gestan los recortes a los jubilados",
+          "url": "https://www.eldiario.es/economia/situa-pension-privilegio-ignora-riqueza-gestan-recortes-jubilados_1_13619464.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-764964e2ed",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Viaje a Os Peares y la casa de la infancia de Feijóo en la que ahora vive un grupo de trabajadores migrantes",
+      "summary": "Los vecinos creen que la presencia de inmigrantes africanos como inquilinos de su antigua residencia familiar fue lo que convenció al líder del PP para romper sus hábitos y no acudir en esta campaña al pueblo donde nació Hemeroteca - Vecinos de Os Peares (Ourense) discuten la infancia de Feijóo: “No nos representa, no es un rapaz de aldea” La casa natal de Alberto Núñez Feijóo ahora es conocida en Os Peares como a casa do xastre por su propietario, Emilio. De los balcones del primer y segundo piso cuelga ropa de trabajo: impermeables, chalecos reflectantes y pantalones cargo. Hay cascos de ...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Viaje a Os Peares y la casa de la infancia de Feijóo en la que ahora vive un grupo de trabajadores migrantes",
+          "url": "https://www.eldiario.es/galicia/viaje-peares-casa-infancia-feijoo-ahora-vive-grupo-trabajadores-migrantes_1_13679272.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-e57b8e7b9e",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Impuestos a los más ricos y más vivienda pública: con qué medidas podría seducir la izquierda a los votantes de derecha",
+      "summary": "Una encuesta elaborada por IDRA muestra cuáles son las propuestas electorales que decantan a los simpatizantes de cada formación a la hora de decidir a quién darán su apoyo en las próximas elecciones La mitad de votantes de PP y Vox, a favor de aumentar impuestos a quien tenga más de una vivienda en propiedad La vivienda es, sin duda, uno de los temas centrales de esta campaña electoral. La caída de los llamados decretos Maricarmen en el Congreso, por los votos en contra de PP, Vox y Junts, precipitó el adelanto electoral que llevará a España a las urnas el próximo 29 de noviembre . A pesar...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Impuestos a los más ricos y más vivienda pública: con qué medidas podría seducir la izquierda a los votantes de derecha",
+          "url": "https://www.eldiario.es/catalunya/impuestos-ricos-vivienda-publica-medidas-seducir-izquierda-votantes-derecha_1_13513102.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-77c84744a2",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Puerto Real, el pueblo obrero que es el gran feudo de Adelante Andalucía: \"Sois nuestra última esperanza\"",
+      "summary": "La memoria de los astilleros, la tradición de lucha vecinal y cierto desencanto con la izquierda tradicional explican la conexión de la localidad gaditana con la formación que lidera José Ignacio García Hemeroteca - Puerto Real, la 'villa roja' gaditana donde ganó el PP 'ma non troppo' “Guardia, no tires pelotas, que pa pelotas, Puerto Real”. Ese verso pertenece a Las murgas de Emilio el Moro, inmortalizadas por Carlos Cano durante la Transición. La frase vincula el espíritu combativo de los trabajadores de esta localidad gaditana, íntimamente ligada desde siempre a los astilleros y las cri...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Puerto Real, el pueblo obrero que es el gran feudo de Adelante Andalucía: \"Sois nuestra última esperanza\"",
+          "url": "https://www.eldiario.es/andalucia/cadiz/puerto-real-pueblo-obrero-gran-feudo-adelante-andalucia-ultima-esperanza_1_13679235.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-bd9267a13c",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Ni discriminados ni \"reemplazados\": el pleno empleo entre los hombres españoles que desmonta a la ultraderecha",
+      "summary": "El mandato de Sánchez no sólo ha mostrado el éxito de una alta capacidad de integración en el empleo de las personas migrantes sino que, paralelamente, se han alcanzado cotas de desempleo cercanas al meramente friccional para los trabajadores varones de mediana edad, con nacionalidad española y nacidos en España El 27 de enero de este año, se publicó la Encuesta de Población Activa (EPA) del cuarto trimestre de 2025 y, por primera vez tras 17 años, el mercado laboral español arrojaba una tasa de paro, su principal mal endémico, por debajo del 10%. El dato se repetiría, conforme a su patrón ...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Ni discriminados ni \"reemplazados\": el pleno empleo entre los hombres españoles que desmonta a la ultraderecha",
+          "url": "https://www.eldiario.es/economia/discriminados-reemplazados-pleno-empleo-hombres-espanoles-desmonta-ultraderecha_129_13678028.html",
+          "publisher": "eldiario.es",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-spain-d350ff5254",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "¿Se ha movido el voto útil? Las opciones de izquierda y derecha en cada provincia con las últimas encuestas",
+      "summary": "El modelo de EL PAÍS dice que hay 40 escaños en el aire. Consulta a qué partido le sirve más tu voto",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "¿Se ha movido el voto útil? Las opciones de izquierda y derecha en cada provincia con las últimas encuestas",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-21/se-ha-movido-el-voto-util-las-opciones-de-izquierda-y-derecha-en-cada-provincia-con-las-ultimas-encuestas.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-21",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-2ccf69c693",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "¿Cómo se mueven las encuestas? Lo que dice nuestro promedio",
+      "summary": "El promedio de EL PAÍS se actualiza día a día, dando más peso a las mejores encuestadoras. Además, construye tu propio promedio",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "¿Cómo se mueven las encuestas? Lo que dice nuestro promedio",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-14/que-dice-el-promedio-de-encuestas-consulta-todos-los-sondeos-en-tiempo-real.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-4148d11b64",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Lea todas las entrevistas a los candidatos a las elecciones del 29-N",
+      "summary": "EL PAÍS conversa con los aspirantes de cada partido a lo largo de la campaña",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Lea todas las entrevistas a los candidatos a las elecciones del 29-N",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-20/lea-todas-las-entrevistas-a-los-candidatos-a-las-elecciones-del-29-n.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-20",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-8e3146b892",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Lea todos los análisis del voto en las diferentes regiones ante el 29-N",
+      "summary": "EL PAÍS ha examinado los escaños en el Congreso de los Diputados que se disputa cada partido en cada comunidad y las posibilidades de la derecha y la izquierda",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Lea todos los análisis del voto en las diferentes regiones ante el 29-N",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-20/lea-todos-los-analisis-del-voto-en-las-diferentes-regiones-ante-el-29-n.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-20",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-11791a6f90",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "Doce horas en campaña con Pedro Sánchez: “La última vez que la ultraderecha gobernó no había democracia”",
+      "summary": "El candidato socialista, que se presenta como baluarte frente al retroceso en derechos, protagoniza mítines multitudinarios y festivos para movilizar el voto progresista",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Doce horas en campaña con Pedro Sánchez: “La última vez que la ultraderecha gobernó no había democracia”",
+          "url": "https://elpais.com/espana/2026-11-22/doce-horas-en-campana-con-pedro-sanchez-la-ultima-vez-que-la-ultraderecha-goberno-no-habia-democracia.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-spain-8cab9fb53b",
+      "topic_ids": [
+        "spain"
+      ],
+      "headline": "La revancha de Feijóo consigo mismo",
+      "summary": "El candidato del PP enfila la recta final de la campaña más seguro y corrigiendo errores de 2023",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Spain",
+      "country": "Spain",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "La revancha de Feijóo consigo mismo",
+          "url": "https://elpais.com/espana/2026-11-22/la-revancha-de-feijoo-consigo-mismo.html",
+          "publisher": "EL PAÍS",
+          "published_at": "2026-11-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-be16659e84",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Tierseuche: Vogelgrippe-Fälle nehmen zu, vor allem im Norden",
+      "summary": "Wieder mehr Vogelgrippe-Fälle landen im Labor. So stark wie im vergangenen Jahr ist das Geschehen aber aktuell nicht. Und das ist nicht der einzige Unterschied.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Tierseuche: Vogelgrippe-Fälle nehmen zu, vor allem im Norden",
+          "url": "https://www.handelsblatt.com/technik/forschung-innovation/tierseuche-vogelgrippe-faelle-nehmen-zu-vor-allem-im-norden/100271817.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-cb542c2c21",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Thailand stressfrei: Koh Kood: Abhängen auf Siams Ruheinsel",
+      "summary": "Thailand hat der Massentourismus fest im Griff. Ganz Thailand? Nein, im Südosten gibt es einen Archipel, auf dem die Tage in tiefer Entspannung so dahin gehen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Thailand stressfrei: Koh Kood: Abhängen auf Siams Ruheinsel",
+          "url": "https://www.handelsblatt.com/unternehmen/dienstleister/thailand-stressfrei-koh-kood-abhaengen-auf-siams-ruheinsel/100271814.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-abc50a4df3",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Umwelt: Klimagipfel: Neuer Textentwurf erwähnt Öl und Gas nicht",
+      "summary": "Nach weit über 30 Stunden Verlängerung liegt der Konferenz in Antalya ein neuer Entwurf für eine Abschlusserklärung vor. Darin wird eine bittere Wahrheit anerkannt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Umwelt: Klimagipfel: Neuer Textentwurf erwähnt Öl und Gas nicht",
+          "url": "https://www.handelsblatt.com/politik/international/umwelt-klimagipfel-neuer-textentwurf-erwaehnt-oel-und-gas-nicht/100271812.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-d0427a6ce2",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Brennstoffe: Heizen mit Holz: Preise gestiegen - so lässt sich sparen",
+      "summary": "Der Winter steht vor der Tür und in den Wohnungen wird wieder geheizt. Öl und Gas sind wegen internationaler Krisen deutlich teurer geworden. Doch wie hat sich der Markt für Brennholz entwickelt?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Brennstoffe: Heizen mit Holz: Preise gestiegen - so lässt sich sparen",
+          "url": "https://www.handelsblatt.com/politik/deutschland/brennstoffe-heizen-mit-holz-preise-gestiegen-so-laesst-sich-sparen/100271809.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-24ac00c8de",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Bundespräsidentenwahl: Umfrage: Aigner sollte sich bei AfD und Linken vorstellen",
+      "summary": "Sollte sich eine „Kandidatin der Mitte“ für das Bundespräsidentenamt bei AfD und Linken vorstellen? Ilse Aigner hat die Frage vorerst mit einem Nein beantwortet. Die Menschen im Land sehen das anders.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Bundespräsidentenwahl: Umfrage: Aigner sollte sich bei AfD und Linken vorstellen",
+          "url": "https://www.handelsblatt.com/politik/deutschland/bundespraesidentenwahl-umfrage-aigner-sollte-sich-bei-afd-und-linken-vorstellen/100271808.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-2eefca2856",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Pilgerort Okunoin: Durch Nacht und Nebel: Auf Japans größtem Friedhof",
+      "summary": "Seit alters pilgern Gläubige nach Koyasan - auf der Suche nach Erlösung, Erleuchtung und der Nähe eines Mönchs, der dem Glauben nach nie gestorben ist - und seit 1.200 Jahren mit Essen versorgt wird.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Pilgerort Okunoin: Durch Nacht und Nebel: Auf Japans größtem Friedhof",
+          "url": "https://www.handelsblatt.com/unternehmen/dienstleister/pilgerort-okunoin-durch-nacht-und-nebel-auf-japans-groesstem-friedhof/100271804.html",
+          "publisher": "Handelsblatt",
+          "published_at": "2026-11-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 60
+    },
+    {
+      "id": "rss-germany-aff24b76bf",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Tierseuche: Vogelgrippe-Fälle nehmen zu, vor allem im Norden",
+      "summary": "Wieder mehr Vogelgrippe-Fälle landen im Labor. So stark wie im vergangenen Jahr ist das Geschehen aber aktuell nicht. Und das ist nicht der einzige Unterschied.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Tierseuche: Vogelgrippe-Fälle nehmen zu, vor allem im Norden",
+          "url": "https://www.tagesspiegel.de/wissen/dpa-tierseuche-vogelgrippe-falle-nehmen-zu-vor-allem-im-norden-16311847.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-694bdf1863",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Adventszeit: Tausende Weihnachtsmärkte: Wie es um die Sicherheit steht",
+      "summary": "Zwischen Glühwein, heißen Maronen und Betonpollern: Mehr als 3.000 Weihnachtsmärkte starten in die Saison. Werden Essen und Getränke teurer, weil die Sicherheitskosten steigen?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Adventszeit: Tausende Weihnachtsmärkte: Wie es um die Sicherheit steht",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/dpa-adventszeit-tausende-weihnachtsmarkte-wie-es-um-die-sicherheit-steht-16311839.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-dbfe67ea6f",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Umwelt: Klimagipfel: Neuer Textentwurf erwähnt Öl und Gas nicht",
+      "summary": "Nach weit über 30 Stunden Verlängerung liegt der Konferenz in Antalya ein neuer Entwurf für eine Abschlusserklärung vor. Darin wird eine bittere Wahrheit anerkannt.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Umwelt: Klimagipfel: Neuer Textentwurf erwähnt Öl und Gas nicht",
+          "url": "https://www.tagesspiegel.de/internationales/dpa-umwelt-klimagipfel-neuer-textentwurf-erwahnt-ol-und-gas-nicht-16311833.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 59
+    },
+    {
+      "id": "rss-germany-bcbe43e91e",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Gewalt gegen Frauen: Bundesjustizministerin will Femizid als Mord erfassen",
+      "summary": "Stefanie Hubig stößt weitere Gesetze zum Schutz von Frauen an. Ihr neuester Plan soll es strafrechtlich leichter machen, Femizide als Mord einzustufen.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Gewalt gegen Frauen: Bundesjustizministerin will Femizid als Mord erfassen",
+          "url": "https://www.zeit.de/politik/deutschland/2026-11/mordparagraf-stephanie-hubig-femizid-strafrecht-gesetzesentwurf",
+          "publisher": "Die Zeit",
+          "published_at": "2026-11-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-germany-4d74f9b878",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Delegationsreise: Niedersachsen will von Wachstumsmarkt Indien profitieren",
+      "summary": "Delegationsreise: Niedersachsen will von Wachstumsmarkt Indien profitieren",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Delegationsreise: Niedersachsen will von Wachstumsmarkt Indien profitieren",
+          "url": "https://www.zeit.de/news/2026-11/22/niedersachsen-will-von-wachstumsmarkt-indien-profitieren",
+          "publisher": "Die Zeit",
+          "published_at": "2026-11-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-germany-470d90f4d9",
+      "topic_ids": [
+        "germany"
+      ],
+      "headline": "Tierseuche: Vogelgrippe-Fälle nehmen zu, vor allem im Norden",
+      "summary": "Tierseuche: Vogelgrippe-Fälle nehmen zu, vor allem im Norden",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Germany",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Tierseuche: Vogelgrippe-Fälle nehmen zu, vor allem im Norden",
+          "url": "https://www.zeit.de/news/2026-11/22/vogelgrippe-faelle-nehmen-zu-vor-allem-im-norden",
+          "publisher": "Die Zeit",
+          "published_at": "2026-11-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 58
+    },
+    {
+      "id": "rss-berlin-025c6635cd",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Wohnen: So viel Arbeitszeit kostet Miete in Berlin und Brandenburg",
+      "summary": "Wirtschaftsexperten haben errechnet, wie viele Minuten man pro Quadratmeter arbeiten muss und wie sich das seit 2004 entwickelt hat. Das sind die Ergebnisse für Berlin und Brandenburg.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Wohnen: So viel Arbeitszeit kostet Miete in Berlin und Brandenburg",
+          "url": "https://www.tagesspiegel.de/berlin/dpa-wohnen-so-viel-arbeitszeit-kostet-miete-in-berlin-und-brandenburg-16311823.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 72
+    },
+    {
+      "id": "rss-berlin-e1fa95972c",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Freenow will wieder Billigchauffeure in Berlin vermitteln: Der einstige Taxifreund kehrt zurück in eine umstrittene Branche",
+      "summary": "Mit großer Symbolik hatte Freenow vor zwei Jahren das Geschäft mit den Fahrdiensten gestoppt. Es sei in der Branche „praktisch unmöglich, wirtschaftlich zu arbeiten“. Wie ein Manager nun die Rückkehr begründet.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Freenow will wieder Billigchauffeure in Berlin vermitteln: Der einstige Taxifreund kehrt zurück in eine umstrittene Branche",
+          "url": "https://www.tagesspiegel.de/berlin/berliner-wirtschaft/freenow-will-wieder-mietwagen-in-berlin-vermitteln-der-taxifreund-kehrt-zuruck-in-eine-umstrittene-branche-16297600.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-20",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 72
+    },
+    {
+      "id": "rss-berlin-1c33608bf0",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Propalästinensische Kundgebung in Berlin: FDP-Politikerin Preisler bei Handgemenge verletzt",
+      "summary": "Nach einer propalästinensischen Kundgebung kommt es zwischen der FDP-Politikerin und Aktivistin Karoline Preisler und zwei Demo-Teilnehmerinnen zu einer Auseinandersetzung. Preisler wird dabei offenbar zu Boden getreten.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Propalästinensische Kundgebung in Berlin: FDP-Politikerin Preisler bei Handgemenge verletzt",
+          "url": "https://www.tagesspiegel.de/berlin/dpa-demonstrationen-aktivistin-preisler-geht-bei-demo-in-handgemenge-zu-boden-16311734.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 72
+    },
+    {
+      "id": "rss-berlin-c3ef9fde87",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Feuer im Britzer Tunnel in Berlin: A100 nach Autobrand auf einer Seite gesperrt",
+      "summary": "Ein Pkw ist im Britzer Tunnel in Brand geraten, die Feuerwehr hat das Feuer gelöscht. Die A100 war kurzzeitig in beide Richtungen gesperrt, mittlerweile ist eine Seite wieder befahrbar.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Feuer im Britzer Tunnel in Berlin: A100 nach Autobrand auf einer Seite gesperrt",
+          "url": "https://www.tagesspiegel.de/berlin/dpa-a100-nach-autobrand-auf-einer-seite-gesperrt-16311665.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 72
+    },
+    {
+      "id": "rss-berlin-34b5e979fe",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Rettungskräfte in Berlin-Charlottenburg angegriffen und bedroht",
+      "summary": "Rettungskräfte in Berlin-Charlottenburg angegriffen und bedroht",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Rettungskräfte in Berlin-Charlottenburg angegriffen und bedroht",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/11/berlin-attacke-auf-zwei-rettungswagen.html",
+          "publisher": "rbb24",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 70
+    },
+    {
+      "id": "rss-berlin-b4c0446d65",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Gnade zur Weihnachtszeit: Fast 60 Häftlinge kommen in Berlin frei",
+      "summary": "In Berlin werden einige Wochen vor Heiligabend wieder Straftäter vorzeitig aus der Haft entlassen. Von der sogenannten Weihnachtsamnestie profitieren laut der Senatsjustizverwaltung 57 Gefangene.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Gnade zur Weihnachtszeit: Fast 60 Häftlinge kommen in Berlin frei",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/11/berlin-weihnachtsamnestie-2026-haeftlinge-vorzeitige-entlassung-gefaengnis.html",
+          "publisher": "rbb24",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 70
+    },
+    {
+      "id": "rss-berlin-278673617b",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Berliner Behindertenparlament platziert Forderungen an künftige Landesregierung",
+      "summary": "Berliner Behindertenparlament platziert Forderungen an künftige Landesregierung",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Berliner Behindertenparlament platziert Forderungen an künftige Landesregierung",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/11/berliner-behindertenparlament-forderungen-landespolitik.html",
+          "publisher": "rbb24",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 70
+    },
+    {
+      "id": "rss-berlin-5194512351",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "S-Bahn: Mehrere Linien in Berlin wegen Bauarbeiten unterbrochen",
+      "summary": "S-Bahn: Mehrere Linien in Berlin wegen Bauarbeiten unterbrochen",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "S-Bahn: Mehrere Linien in Berlin wegen Bauarbeiten unterbrochen",
+          "url": "https://www.rbb24.de/panorama/beitrag/2026/11/berlin-sbahn-stadtbahn-bauarbeiten-unterbrechung.html",
+          "publisher": "rbb24",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 70
+    },
+    {
+      "id": "rss-berlin-2870e26b61",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "\"Deutsch-türkischer Autogipfel\": Die Türkei, ein Autoland?",
+      "summary": "Miese Geschäfte in China, ein teurer Umstieg auf E-Autos und Investitions-Stopps: Die deutsche Autoindustrie steckt in der Krise. Die Auswirkungen treffen auch Berlin und Brandenburg. Nun fand in Berlin der \"deutsch-türkische Autogipfel\" statt. Ein Besuch.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "\"Deutsch-türkischer Autogipfel\": Die Türkei, ein Autoland?",
+          "url": "https://www.rbb24.de/wirtschaft/beitrag/2026/11/autokrise-deutschland-tuerkei-gipfel-berlin-zulieferer.html",
+          "publisher": "rbb24",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 70
+    },
+    {
+      "id": "rss-berlin-59ab7e95b7",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Desksharing: Berlin könnte Millionensumme im Jahr sparen",
+      "summary": "Wie kann Berlin sein Fünf-Milliarden-Euro-Haushaltsloch verkleinern? Eine Möglichkeit: Die Verwaltung verbraucht weniger Platz und mietet keine Gebäude mehr an. Ein dreistelliger Millionenbetrag könnte so gehoben werden – jedes Jahr.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Desksharing: Berlin könnte Millionensumme im Jahr sparen",
+          "url": "https://www.rbb24.de/politik/beitrag/2026/11/berlin-haushalt-einsparungen-verwaltungen-weniger-gebaeudeflaeche.html",
+          "publisher": "rbb24",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 70
+    },
+    {
+      "id": "rss-berlin-287eff2150",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Abgeordnetenhauswahl: Experte: Emde-Abstimmung könnte Koalitionsgespräche beenden",
+      "summary": "Die Linke-Fraktion stimmt über den Ausschluss der umstrittenen Abgeordneten Vanessa Emde ab. Was der Berliner Politikwissenschaftler Thorsten Faas von der Entscheidung erwartet.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Abgeordnetenhauswahl: Experte: Emde-Abstimmung könnte Koalitionsgespräche beenden",
+          "url": "https://www.tagesspiegel.de/berlin/dpa-abgeordnetenhauswahl-experte-emde-abstimmung-konnte-koalitionsgesprache-beenden-16311825.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-22",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 57
+    },
+    {
+      "id": "rss-berlin-da3f1e6634",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "„So eine Ego-Show brauchen wir nicht“: Schwerdtner für Ausschluss von Vanessa Emde aus Berliner Fraktion",
+      "summary": "Parteichefin Ines Schwerdtner hält den geplanten Ausschluss von Vanessa Emde aus der Berliner Linke-Fraktion für folgerichtig. Was sind ihre Argumente? Und hat sie mit ihr darüber gesprochen?",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "„So eine Ego-Show brauchen wir nicht“: Schwerdtner für Ausschluss von Vanessa Emde aus Berliner Fraktion",
+          "url": "https://www.tagesspiegel.de/berlin/dpa-schwerdtner-fur-ausschluss-von-vanessa-emde-aus-berliner-fraktion-16311589.html",
+          "publisher": "Tagesspiegel",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 57
+    },
+    {
+      "id": "rss-world-4a52aa5361",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Are some salts healthier than others?",
+      "summary": "The claim has more than a grain of truth",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Are some salts healthier than others?",
+          "url": "https://www.economist.com/science-and-technology/2026/11/20/are-some-salts-healthier-than-others",
+          "publisher": "The Economist",
+          "published_at": "2026-11-20",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 83
+    },
+    {
+      "id": "rss-world-22abd62956",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "AI may have solved the most important problem in mathematics",
+      "summary": "Humans spent 167 years trying to prove the Riemann hypothesis",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "AI may have solved the most important problem in mathematics",
+          "url": "https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics",
+          "publisher": "The Economist",
+          "published_at": "2026-11-20",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 77
+    },
+    {
+      "id": "rss-world-463fc0dc28",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "AI is swallowing maths. Is economics next?",
+      "summary": "The dismal science braces for disruption",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "AI is swallowing maths. Is economics next?",
+          "url": "https://www.economist.com/finance-and-economics/2026/11/19/ai-is-swallowing-maths-is-economics-next",
+          "publisher": "The Economist",
+          "published_at": "2026-11-19",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 71
+    },
+    {
+      "id": "rss-world-3ed8926e80",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Australian Opposition Calls for Changes to Gas Reservation Plan",
+      "summary": "Australia’s opposition coalition party has raised more concerns about the government’s plan for liquefied natural gas exporters to increase supply to the domestic market, ahead of the legislation being voted on this week.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Australian Opposition Calls for Changes to Gas Reservation Plan",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/australian-opposition-calls-for-changes-to-gas-reservation-plan",
+          "publisher": "Bloomberg",
+          "published_at": "2026-11-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-a22a59d673",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet",
+      "summary": "China’s AI stock trade, once a hot bet as the nation’s technology powerhouses raced to catch up with the US, has morphed into a losing strategy.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/china-s-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet",
+          "publisher": "Bloomberg",
+          "published_at": "2026-11-22",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-adc941b8c1",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Russian Cargo Ship Attacked By Drones in Gulf of Finland",
+      "summary": "Russia said a cargo ship bound for its Kaliningrad exclave was targeted in international waters in the Gulf of Finland, highlighting growing risks to the country’s energy and food exports through critical Baltic Sea shipping routes.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Russian Cargo Ship Attacked By Drones in Gulf of Finland",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-21/russia-says-cargo-ship-attacked-by-drones-in-gulf-of-finland",
+          "publisher": "Bloomberg",
+          "published_at": "2026-11-21",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-26a6be40d8",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Amazon closes in on $7.5bn deal to buy AI start-up Decart",
+      "summary": "Acquisition would help AWS compete with Nvidia in race for computing power",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Amazon closes in on $7.5bn deal to buy AI start-up Decart",
+          "url": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-11-21",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-01ff9776e9",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Navy budget pick has family investments in Trump Jr-linked contractor",
+      "summary": "Democrats have promised to raise alleged conflicts of interest concerning administration officials when they take over Congress",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Navy budget pick has family investments in Trump Jr-linked contractor",
+          "url": "https://www.ft.com/content/145e6fab-d93a-412d-8670-0554064fdf98?syn-25a6b1a6=1",
+          "publisher": "Financial Times",
+          "published_at": "2026-11-21",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 66
+    },
+    {
+      "id": "rss-world-a18e271348",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "America’s neglect of global science is backfiring",
+      "summary": "The Trump administration’s reforms have overcorrected for past mistakes",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "America’s neglect of global science is backfiring",
+          "url": "https://www.economist.com/leaders/2026/11/19/americas-neglect-of-global-science-is-backfiring",
+          "publisher": "The Economist",
+          "published_at": "2026-11-19",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 65
+    },
+    {
+      "id": "rss-world-b65fc7f6f9",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Can Britannia rule the waves again?",
+      "summary": "A risky bet that could transform the nature of sea power",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "Can Britannia rule the waves again?",
+          "url": "https://www.economist.com/leaders/2026/11/19/can-britannia-rule-the-waves-again",
+          "publisher": "The Economist",
+          "published_at": "2026-11-19",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 65
+    },
+    {
+      "id": "rss-world-1546a631fd",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "How Ukraine brought out the EU’s stubborn streak",
+      "summary": "Europe is proving remarkably hard to exhaust",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "paywalled",
+      "url_verify_notes": "HTTP 403 (paywall or bot block)",
+      "sources": [
+        {
+          "title": "How Ukraine brought out the EU’s stubborn streak",
+          "url": "https://www.economist.com/europe/2026/11/19/how-ukraine-brought-out-the-eus-stubborn-streak",
+          "publisher": "The Economist",
+          "published_at": "2026-11-19",
+          "url_live": "paywalled",
+          "url_verify_notes": "HTTP 403 (paywall or bot block)"
+        }
+      ],
+      "relevance_score": 65
+    },
+    {
+      "id": "rss-world-2681b8486e",
+      "topic_ids": [
+        "world"
+      ],
+      "headline": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+      "summary": "Fausto Isidro Meza Flores was one of FBI’s most wanted fugitives and evaded capture for more than a decade The Mexican military captured one of the FBI’s 10 most wanted fugitives during a special forces raid in the Mexican state of Sinaloa on Friday night. Fausto Isidro Meza Flores, known as “El Chapo Isidro”, was arrested along with two other alleged leaders of his gang after a gun battle that triggered widespread panic in the city of Guasave. Continue reading...",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "International",
+      "country": "",
+      "is_structural": false,
+      "material_development": true,
+      "ingestion_source": "rss",
+      "verified": true,
+      "url_live": "live",
+      "url_verify_notes": "ok",
+      "sources": [
+        {
+          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+          "publisher": "The Guardian",
+          "published_at": "2026-11-21",
+          "url_live": "live",
+          "url_verify_notes": "ok"
+        }
+      ],
+      "relevance_score": 64
+    }
+  ],
+  "editorial_context": {
+    "recent_topics": [
+      {
+        "slug": "spain-puigdemont-feijoo-good-conduct-certificate",
+        "section": "spain",
+        "date": "2026-11-21"
+      },
+      {
+        "slug": "spain-supremo-nietos-law-voters-barred",
+        "section": "spain",
+        "date": "2026-11-21"
+      },
+      {
+        "slug": "spain-pp-vox-nuclear-fracking-energy-policy",
+        "section": "spain",
+        "date": "2026-11-21"
+      },
+      {
+        "slug": "germany-333-gas-suppliers-price-rise-jan",
+        "section": "germany",
+        "date": "2026-11-21"
+      },
+      {
+        "slug": "germany-pflegekassen-finanzrisiken-2027",
+        "section": "germany",
+        "date": "2026-11-21"
+      },
+      {
+        "slug": "germany-gen-z-regelt-youth-protests",
+        "section": "germany",
+        "date": "2026-11-21"
+      },
+      {
+        "slug": "berlin-38-road-deaths-2026",
+        "section": "berlin",
+        "date": "2026-11-21"
+      },
+      {
+        "slug": "berlin-greens-benali-jockers-co-chair-dispute",
+        "section": "berlin",
+        "date": "2026-11-21"
+      },
+      {
+        "slug": "berlin-galeria-kudamm-closure",
+        "section": "berlin",
+        "date": "2026-11-21"
+      },
+      {
+        "slug": "world-trump-data-centre-tax-abroad",
+        "section": "world",
+        "date": "2026-11-21"
+      },
+      {
+        "slug": "world-japan-icc-early-funding-us-sanctions",
+        "section": "world",
+        "date": "2026-11-21"
+      },
+      {
+        "slug": "world-cop31-antalya-fossil-fuel-summit-warning",
+        "section": "world",
+        "date": "2026-11-21"
+      },
+      {
+        "slug": "spain-sanchez-soft-tone-after-debate",
+        "section": "spain",
+        "date": "2026-11-20"
+      },
+      {
+        "slug": "spain-compromis-front-valencia-colau-rufian",
+        "section": "spain",
+        "date": "2026-11-20"
+      },
+      {
+        "slug": "spain-teruel-existe-guitarte-no-investiture",
+        "section": "spain",
+        "date": "2026-11-20"
+      },
+      {
+        "slug": "germany-berlin-ukraine-economic-support",
+        "section": "germany",
+        "date": "2026-11-20"
+      },
+      {
+        "slug": "germany-humanoid-robots-outnumber-humans",
+        "section": "germany",
+        "date": "2026-11-20"
+      },
+      {
+        "slug": "germany-liefers-democracy-must-be-sexy",
+        "section": "germany",
+        "date": "2026-11-20"
+      },
+      {
+        "slug": "berlin-spd-anti-palestinian-racism-coalition-talks",
+        "section": "berlin",
+        "date": "2026-11-20"
+      },
+      {
+        "slug": "berlin-kraftwerk-helsing-event-mistakes",
+        "section": "berlin",
+        "date": "2026-11-20"
+      },
+      {
+        "slug": "berlin-lichtenberg-stapelschule-foundation-stone",
+        "section": "berlin",
+        "date": "2026-11-20"
+      },
+      {
+        "slug": "world-alaska-election-trump-drops-challenge",
+        "section": "world",
+        "date": "2026-11-20"
+      },
+      {
+        "slug": "world-china-restart-us-private-equity",
+        "section": "world",
+        "date": "2026-11-20"
+      },
+      {
+        "slug": "world-awa-isolated-tribe-contact-brazil",
+        "section": "world",
+        "date": "2026-11-20"
+      },
+      {
+        "slug": "spain-sanchez-feijoo-debate-polls",
+        "section": "spain",
+        "date": "2026-11-19"
+      },
+      {
+        "slug": "spain-pnv-hardest-general-election",
+        "section": "spain",
+        "date": "2026-11-19"
+      },
+      {
+        "slug": "spain-julio-iglesias-national-court-investigation",
+        "section": "spain",
+        "date": "2026-11-19"
+      },
+      {
+        "slug": "germany-rent-affordability-top-flop-districts",
+        "section": "germany",
+        "date": "2026-11-19"
+      },
+      {
+        "slug": "germany-wadephul-south-caucasus-armenia-trip",
+        "section": "germany",
+        "date": "2026-11-19"
+      },
+      {
+        "slug": "germany-kretschmer-brantner-maischberger-clash",
+        "section": "germany",
+        "date": "2026-11-19"
+      },
+      {
+        "slug": "berlin-charite-nurses-strike",
+        "section": "berlin",
+        "date": "2026-11-19"
+      },
+      {
+        "slug": "berlin-schools-java4shell-security-warning",
+        "section": "berlin",
+        "date": "2026-11-19"
+      },
+      {
+        "slug": "berlin-expo-2035-pankow-site",
+        "section": "berlin",
+        "date": "2026-11-19"
+      },
+      {
+        "slug": "world-anthropic-record-ipo-81bn",
+        "section": "world",
+        "date": "2026-11-19"
+      },
+      {
+        "slug": "world-icj-myanmar-genocide-ruling-us-sanctions-fears",
+        "section": "world",
+        "date": "2026-11-19"
+      },
+      {
+        "slug": "world-trump-iran-bioweapons-claim",
+        "section": "world",
+        "date": "2026-11-19"
+      },
+      {
+        "slug": "spain-deutsche-bank-defex-angola-rifle",
+        "section": "spain",
+        "date": "2026-11-18"
+      },
+      {
+        "slug": "spain-feijoo-blanco-valdes-constitutional-court",
+        "section": "spain",
+        "date": "2026-11-18"
+      },
+      {
+        "slug": "spain-pensions-campaign-left-right-divide",
+        "section": "spain",
+        "date": "2026-11-18"
+      },
+      {
+        "slug": "germany-five-eu-states-rwanda-return-hub",
+        "section": "germany",
+        "date": "2026-11-18"
+      },
+      {
+        "slug": "germany-eu-grid-storage-permitting",
+        "section": "germany",
+        "date": "2026-11-18"
+      },
+      {
+        "slug": "germany-ecdc-antibiotic-resistance",
+        "section": "germany",
+        "date": "2026-11-18"
+      },
+      {
+        "slug": "berlin-expo-bid-new-site-after-brandenburg",
+        "section": "berlin",
+        "date": "2026-11-18"
+      },
+      {
+        "slug": "berlin-ukraine-talks-us-envoys",
+        "section": "berlin",
+        "date": "2026-11-18"
+      },
+      {
+        "slug": "berlin-jugendhilfe-18-year-olds-lose-support",
+        "section": "berlin",
+        "date": "2026-11-18"
+      },
+      {
+        "slug": "world-nvidia-huang-no-return-strong-sales",
+        "section": "world",
+        "date": "2026-11-18"
+      },
+      {
+        "slug": "world-daiwa-china-investment-banking-buyout",
+        "section": "world",
+        "date": "2026-11-18"
+      },
+      {
+        "slug": "world-costa-rica-journalist-killed",
+        "section": "world",
+        "date": "2026-11-18"
+      },
+      {
+        "slug": "spain-feijoo-denies-million-homes-pledge",
+        "section": "spain",
+        "date": "2026-11-17"
+      },
+      {
+        "slug": "spain-psoe-ibex-ceo-pay-ratio-tax",
+        "section": "spain",
+        "date": "2026-11-17"
+      },
+      {
+        "slug": "spain-pp-vox-hunting-subsidies-wolf-cull",
+        "section": "spain",
+        "date": "2026-11-17"
+      },
+      {
+        "slug": "germany-musk-investment-carmakers-morning-briefing",
+        "section": "germany",
+        "date": "2026-11-17"
+      },
+      {
+        "slug": "germany-hells-angels-moenchengladbach-ban",
+        "section": "germany",
+        "date": "2026-11-17"
+      },
+      {
+        "slug": "germany-climate-impact-index-germany-hit",
+        "section": "germany",
+        "date": "2026-11-17"
+      },
+      {
+        "slug": "berlin-ringbahn-closure-over-a-year",
+        "section": "berlin",
+        "date": "2026-11-17"
+      },
+      {
+        "slug": "berlin-emde-linke-expulsion-motion",
+        "section": "berlin",
+        "date": "2026-11-17"
+      },
+      {
+        "slug": "berlin-cyclists-demand-safety-after-child-death",
+        "section": "berlin",
+        "date": "2026-11-17"
+      },
+      {
+        "slug": "world-us-curbs-china-remote-ai-chip-access",
+        "section": "world",
+        "date": "2026-11-17"
+      },
+      {
+        "slug": "world-south-africa-hiv-post-pepfar",
+        "section": "world",
+        "date": "2026-11-17"
+      },
+      {
+        "slug": "world-ghana-lab-ai-bioweapons-warning",
+        "section": "world",
+        "date": "2026-11-17"
+      },
+      {
+        "slug": "spain-pp-questions-airef-independent-audit",
+        "section": "spain",
+        "date": "2026-11-16"
+      },
+      {
+        "slug": "spain-el-hierro-1261-arrivals-torres-measures",
+        "section": "spain",
+        "date": "2026-11-16"
+      },
+      {
+        "slug": "spain-high-turnout-75pct-29n",
+        "section": "spain",
+        "date": "2026-11-16"
+      },
+      {
+        "slug": "germany-plural-helsing-investor-europe-only",
+        "section": "germany",
+        "date": "2026-11-16"
+      },
+      {
+        "slug": "germany-savings-survey-half-cannot-save",
+        "section": "germany",
+        "date": "2026-11-16"
+      },
+      {
+        "slug": "germany-christmas-bonus-repayment-labour-law",
+        "section": "germany",
+        "date": "2026-11-16"
+      },
+      {
+        "slug": "berlin-uber-bolt-corruption-probe-brandenburg-plates",
+        "section": "berlin",
+        "date": "2026-11-16"
+      },
+      {
+        "slug": "berlin-moabit-freight-yard-memorial-decay",
+        "section": "berlin",
+        "date": "2026-11-16"
+      },
+      {
+        "slug": "berlin-gen-z-regelt-kudamm-20-arrests",
+        "section": "berlin",
+        "date": "2026-11-16"
+      },
+      {
+        "slug": "world-sk-hynix-24-7-chip-plant",
+        "section": "world",
+        "date": "2026-11-16"
+      },
+      {
+        "slug": "world-spacex-starship-second-stage-catch",
+        "section": "world",
+        "date": "2026-11-16"
+      },
+      {
+        "slug": "world-congo-ebola-six-months-record",
+        "section": "world",
+        "date": "2026-11-16"
+      },
+      {
+        "slug": "spain-el-pais-third-tracking-psoe-million-votes",
+        "section": "spain",
+        "date": "2026-11-15"
+      },
+      {
+        "slug": "spain-psoe-complaint-okdiario-tax-agency",
+        "section": "spain",
+        "date": "2026-11-15"
+      },
+      {
+        "slug": "spain-junts-nogueras-vetoes-sanchez",
+        "section": "spain",
+        "date": "2026-11-15"
+      },
+      {
+        "slug": "germany-hypersonic-weapons-schrobenhausen",
+        "section": "germany",
+        "date": "2026-11-15"
+      },
+      {
+        "slug": "germany-own-brand-christmas-sweets-cheaper",
+        "section": "germany",
+        "date": "2026-11-15"
+      },
+      {
+        "slug": "germany-voyager-1-light-day-nasa-interview",
+        "section": "germany",
+        "date": "2026-11-15"
+      },
+      {
+        "slug": "berlin-bvv-mayors-negotiations-ongoing",
+        "section": "berlin",
+        "date": "2026-11-15"
+      },
+      {
+        "slug": "berlin-diphtheria-eight-cases-record",
+        "section": "berlin",
+        "date": "2026-11-15"
+      },
+      {
+        "slug": "berlin-blackout-construction-site-years",
+        "section": "berlin",
+        "date": "2026-11-15"
+      },
+      {
+        "slug": "world-data-centre-stocks-lose-4-2tn",
+        "section": "world",
+        "date": "2026-11-15"
+      },
+      {
+        "slug": "world-south-sudan-election-delayed",
+        "section": "world",
+        "date": "2026-11-15"
+      },
+      {
+        "slug": "world-milei-seeks-second-term-2027",
+        "section": "world",
+        "date": "2026-11-15"
+      }
+    ],
+    "rejected_candidates": [
+      {
+        "id": "rss-spain-c1e37f535e",
+        "headline": "El PSOE se perfila como ganador de las elecciones en Canarias, con un fuerte crecimiento de Vox",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-2860638d36",
+        "headline": "Activo electoral",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-2d9a8887d8",
+        "headline": "De la investigación a posibles embargos: las claves del cerco del Tribunal de Cuentas al ático del Gobierno de Ayuso",
+        "section": "spain",
+        "reason": "publisher_cap:eldiario.es",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-spain-a8cf7cffd6",
+        "headline": "¿Quiénes son los indecisos? En busca del dubitativo voto de izquierdas",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-bd1f25a847",
+        "headline": "Gabriel Rufián: “Más que fascismo hay hijoputismo; la maldad está de moda”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 59,
+        "notes": [
+          "feed:+35",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-spain-88916e1dac",
+        "headline": "La mayoría quiere que el nuevo gobierno se centre en la vivienda",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-fd12fef068",
+        "headline": "Y ahora, más difícil todavía",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-66d21d2744",
+        "headline": "Héroes y villanos",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-70ef4d422c",
+        "headline": "El Gobierno cambia la ley para multar con hasta 60 millones a los centros de datos que no cumplan",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-dae746c3e2",
+        "headline": "Sánchez anuncia que destinará a vivienda 1.400 millones de la prórroga del impuesto a la banca",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-1ea1bde01e",
+        "headline": "Feijóo pide en Valencia al PP que no se fíe tras el cara a cara: “Heridos son más peligrosos”",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-spain-9c4577f8f9",
+        "headline": "Pedro Sánchez defiende en Canarias “reconocer los derechos de los migrantes” frente al PP y Vox",
+        "section": "spain",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-8f0d30b7c5",
+        "headline": "+++ Iran-Krieg +++: Bahrain gerät erneut unter iranischen Beschuss",
+        "section": "germany",
+        "reason": "publisher_cap:handelsblatt.com",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-germany-8561e89277",
+        "headline": "AfD: „Absolut schlechtes Zeichen“ – Gefährdet die AfD die Kooperation mit Partnergeheimdiensten?",
+        "section": "germany",
+        "reason": "publisher_cap:handelsblatt.com",
+        "relevance_score": 60,
+        "notes": [
+          "feed:+35",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-germany-b5309b90b6",
+        "headline": "Neue Produktionshalle geplant: Tesla-Ausbau – Sorge wegen Verkehr und Wohnraum um Grünheide",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-d6953c006c",
+        "headline": "Silvester: Kliniken, Feuerwehr und Polizei wollen Böllerverbot in 2026",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-577bf316c4",
+        "headline": "Kunst in Unternehmen: Evonik trennt sich von Kunstsammlung",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-fba6a8a9c4",
+        "headline": "Deutsche Wirtschaft: Jobs in Gefahr: VW streicht Zehntausende Stellen – wer noch?",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 58,
+        "notes": [
+          "feed:+35",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-germany-9a0038acff",
+        "headline": "Beisetzung von Hubert Aiwanger: „Du warst ein Unikat, einer, den man nicht ersetzen kann“",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-c1cca542f0",
+        "headline": "Krieg in der Ukraine: Drohnen greifen Schiff im Finnischen Meerbusen an",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-190214a313",
+        "headline": "Europa: EU-Ratspräsident Costa will Tech-Konzerne zur Kasse bitten",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-b251552537",
+        "headline": "Beisetzung von Hubert Aiwanger: Großer Abschied in einem kleinen Dorf",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-337cdf7dba",
+        "headline": "Nach Rücktritt von Verena Bentele: Doris Rauscher ist neue Vorsitzende des VdK Bayern",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 57,
+        "notes": [
+          "feed:+35",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-germany-ba050a41a3",
+        "headline": "Angriff auf „Sparta II“: Krieg vor Finnlands Haustür",
+        "section": "germany",
+        "reason": "rank_below_cap",
+        "relevance_score": 56,
+        "notes": [
+          "feed:+35",
+          "publisher:+4"
+        ]
+      },
+      {
+        "id": "rss-berlin-2295d23771",
+        "headline": "1. FC Union Berlin: „Desolat und katastrophal“ - Lustrinelli und Heldt angezählt",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 42,
+        "notes": [
+          "feed:+35",
+          "locality:+12",
+          "sport:-30",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-berlin-6ad01954ef",
+        "headline": "Volleyball-Bundesliga: Berlin Volleys siegen souverän gegen Ludwigsburg",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 42,
+        "notes": [
+          "feed:+35",
+          "locality:+12",
+          "sport:-30",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-berlin-d0ecc8019e",
+        "headline": "1:5-Heimniederlage gegen RB Leipzig: Der 1. FC Union verliert sich im Spiel nach vorn",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 42,
+        "notes": [
+          "feed:+35",
+          "locality:+12",
+          "sport:-30",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-berlin-f80e06d4d1",
+        "headline": "Fußball-Bundesliga: Gruda trifft auch bei RB: Leipzig stürzt Union in die Krise",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 42,
+        "notes": [
+          "feed:+35",
+          "locality:+12",
+          "sport:-30",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "wp-berlin-c9d1e2d1a0",
+        "headline": "Coalition of The Willing Meet for Ukraine Summit in Berlin",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 42,
+        "notes": [
+          "feed:+35",
+          "locality:+12",
+          "stale:3d:-12",
+          "dedup:-15 (germany-berlin-ukraine-economic-support)",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-berlin-3a54ba42e1",
+        "headline": "Bundesliga: Berlin Volleys siegen souverän gegen Ludwigsburg",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 40,
+        "notes": [
+          "feed:+35",
+          "locality:+12",
+          "sport:-30",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-5de2e1dca5",
+        "headline": "Regionalliga Nordost: Torreiches Berlin-Duell, Rückschlag für Babelsberg",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 40,
+        "notes": [
+          "feed:+35",
+          "locality:+12",
+          "sport:-30",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-f4fa4c285b",
+        "headline": "U19: Union Berlin krönt sich gegen Hertha spät zum Derby-Sieger",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 40,
+        "notes": [
+          "feed:+35",
+          "locality:+12",
+          "sport:-30",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-081d46130b",
+        "headline": "\"Gen Z regelt\": Tausende Jugendliche protestieren in Berlin",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 40,
+        "notes": [
+          "feed:+35",
+          "locality:+12",
+          "dedup:-30 (germany-gen-z-regelt-youth-protests, berlin-gen-z-regelt-kudamm-20-arrests)",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-05b7a877a0",
+        "headline": "Hertha-Trainer Leitl: \"Als Glück würde ich das nicht bezeichnen\"",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 40,
+        "notes": [
+          "feed:+35",
+          "locality:+12",
+          "sport:-30",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-berlin-1a1e561873",
+        "headline": "Silvester: Kliniken, Feuerwehr und Polizei wollen Böllerverbot in 2026",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 35,
+        "notes": [
+          "feed:+35",
+          "locality_missing:-25",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-berlin-3d966123c4",
+        "headline": "Neue Produktionshalle geplant: Tesla-Ausbau – Sorge wegen Verkehr und Wohnraum um Grünheide",
+        "section": "berlin",
+        "reason": "rank_below_cap",
+        "relevance_score": 35,
+        "notes": [
+          "feed:+35",
+          "locality_missing:-25",
+          "publisher:+8"
+        ]
+      },
+      {
+        "id": "rss-world-e7c7976e4a",
+        "headline": "Andrej Babis tries to curtail public broadcasting",
+        "section": "world",
+        "reason": "publisher_cap:economist.com",
+        "relevance_score": 65,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-world-71234bc477",
+        "headline": "The global south’s smartphone king goes big on AI",
+        "section": "world",
+        "reason": "publisher_cap:economist.com",
+        "relevance_score": 65,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-world-41fd7f8295",
+        "headline": "Bond yields are rising everywhere—except China",
+        "section": "world",
+        "reason": "publisher_cap:economist.com",
+        "relevance_score": 65,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-world-e23dab357a",
+        "headline": "Europe tightens sanctions on Russia. America loosens them",
+        "section": "world",
+        "reason": "publisher_cap:economist.com",
+        "relevance_score": 65,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+7"
+        ]
+      },
+      {
+        "id": "rss-world-0e5fc9b767",
+        "headline": "‘Weak and dizzy’: the secretive ICE force-feeding tactics that ended a Cuban father’s hunger strike",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 64,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-world-520e56a219",
+        "headline": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 64,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+6"
+        ]
+      },
+      {
+        "id": "rss-world-d6b65442ff",
+        "headline": "World Bank's India poverty estimates questioned over scale of gains",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 63,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-world-ed6d49daf7",
+        "headline": "Hello Kitty owner Sanrio bets on games to expand global reach",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 63,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-world-90b700abf1",
+        "headline": "AI good for business but may sap joy of creation: game creator Hideo Kojima",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 63,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+5"
+        ]
+      },
+      {
+        "id": "rss-world-3c4a91f0c3",
+        "headline": "States Are Playing Serious Games on Virtual Battlefields",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 61,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+3"
+        ]
+      },
+      {
+        "id": "rss-world-fcbf6d05d2",
+        "headline": "Pop Culture Still Can’t Figure Out Drone Warfare",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 61,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+3"
+        ]
+      },
+      {
+        "id": "rss-world-4569e447e2",
+        "headline": "What in the World?",
+        "section": "world",
+        "reason": "rank_below_cap",
+        "relevance_score": 61,
+        "notes": [
+          "feed:+35",
+          "priority:+6",
+          "publisher:+3"
+        ]
+      }
+    ],
+    "running_stories_on_cooldown": [],
+    "note": "Pre-ranked with editorial relevance from topics.yaml, dedup_index.md, and news_relevance rules in sources.yaml. Synthesis must still apply hard reject rules in news-briefing-style.mdc. running_stories_on_cooldown: do not give these a Spain slot; park a one-liner in Other Headlines unless an extraordinary trigger hit."
+  },
+  "note": "Token-light slice for synthesis. Full warehouse is in -raw.json. All items come from RSS or WordPress feeds — copy source URLs verbatim."
+}
