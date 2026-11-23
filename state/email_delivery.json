@@ -2,14 +2,6 @@
   "started_at": "2026-08-04T00:00:00+00:00",
   "deliveries": [
     {
-      "path": "briefings/news/2026-08-25.md",
-      "type": "news",
-      "date": "2026-08-25",
-      "sent_at": "2026-08-25T04:35:45.590084+00:00",
-      "resend_id": "1e919eb2-ac64-47d9-b56d-b2157d0efa50",
-      "subject": "📰 News Briefing — 25 August 2026"
-    },
-    {
       "path": "briefings/berlin-culture/2026-08-25.md",
       "type": "berlin-culture",
       "date": "2026-08-25",
@@ -1024,6 +1016,14 @@
       "sent_at": "2026-11-22T05:34:43.657908+00:00",
       "resend_id": "01a201bf-e7ab-7bfb-a987-1386877a2107",
       "subject": "📰 News Briefing — 22 November 2026"
+    },
+    {
+      "path": "briefings/news/2026-11-23.md",
+      "type": "news",
+      "date": "2026-11-23",
+      "sent_at": "2026-11-23T05:34:43.110066+00:00",
+      "resend_id": "01a206e6-417e-796d-bac4-70d579704579",
+      "subject": "📰 News Briefing — 23 November 2026"
     }
   ]
 }
