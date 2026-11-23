@@ -1,18 +1,18 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-22",
-  "briefing_date": "2026-11-22",
-  "inbox_date": "2026-11-22",
+  "date": "2026-11-23",
+  "briefing_date": "2026-11-23",
+  "inbox_date": "2026-11-23",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-22.md",
-  "inbox_path": "inbox/news/2026-11-22-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-23.md",
+  "inbox_path": "inbox/news/2026-11-23-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "PSOE/Sánchez and Feijóo campaign profiles; EL PAÍS poll average and interview indexes; CIS vote-leakage data; Puerto Real feature; pensions opinion", "section": "spain", "reason": "index pages, campaign colour, or same electoral-poll theme as selected voto útil piece; pensions covered 2026-11-18"},
-    {"headline": "Koh Kood and Okunoin travel; heating with wood; Christmas market security; Niedersachsen India trip; duplicate bird-flu and COP31 items", "section": "germany", "reason": "travel/lifestyle filler, duplicate wire items, or global climate story belongs in World/Other Headlines (COP31 covered 2026-11-21)"},
-    {"headline": "Rent-to-working-time study; Preisler scuffle; Britzer Tunnel fire; rescue workers attacked; Weihnachtsamnestie; Behindertenparlament; S-Bahn works; Turkish car summit; Union/Volleys sport", "section": "berlin", "reason": "one-off crime or traffic incident, sport demoted, or lower relevance than selected; Gen Z protest dedup"},
-    {"headline": "Salts; AI and economics; Britannia sea power; EU stubbornness; Hello Kitty; ICE force-feeding; Navy pick; China AI rout; Gulf of Finland drones; Australia gas", "section": "world", "reason": "science filler, ICE piece in selected reads 2026-11-21, Europe-centred items, or used in Other Headlines / Selected Reads; publisher_pool_thin for Economist cap"}
+    {"headline": "El mapa de los 48 escaños en disputa; EL PAÍS 'cuatro claves', campaign-interview and regional-analysis index pages; 40dB 'ventaja de la derecha' and social-media-influence pieces; Ayuso column; stolen-babies feature; Abascal rap culture", "section": "spain", "reason": "same electoral-poll/seat-model theme as selected 40dB piece and 2026-11-22 voto útil model; index pages; opinion or campaign colour; turnout covered 2026-11-16"},
+    {"headline": "Hubig femicide, Aigner, bird flu; Börse and Asien-Börsen market reports; Tagesspiegel Söder/Greens duplicate; card payments at markets; women's pain; Koerner obituary; Berlin hospital fire; Berlin Checkpoint district majorities", "section": "germany", "reason": "recent_topics dedup, same theme as selected Söder piece, market wire belongs in World/Other Headlines, lifestyle filler, or Berlin story; publisher_pool_thin (Handelsblatt/Tagesspiegel only)"},
+    {"headline": "Bike-theft hotspot list; weather frost; homeless in stairwell; Reichstag Christmas tree; police internet portal offline; Hertha Cottbus derby; Berliner Zeitung Merkury sinking; duplicate hospital-fire items", "section": "berlin", "reason": "lower relevance or older, sport demoted, non-Berlin wire item, duplicate hospital-fire items; publisher_pool_thin (Tagesspiegel/rbb24 only)"},
+    {"headline": "Salts; AI conquers Riemann hypothesis; Economist COP31 breakdown; Spain referendum; sponsored GSK content; China car war; circular AI economy; FT pro-worker AI column; Gulf new normal; Wall Street rebound", "section": "world", "reason": "science filler, Europe-centred, sponsored content, repeated AI-market theme with selected FT piece, or used in Other Headlines / Selected Reads"}
   ],
-  "notes": "Inbox dated 2026-11-22; built from the synthesis file via backup cron. Spain pool dominated by eldiario.es and EL PAÍS campaign pieces; Berlin pool limited to Tagesspiegel and rbb24. Older dedup entries were not trimmed (all within 14 days except 2026-11-07 and earlier, left as in prior run)."
+  "notes": "Inbox dated 2026-11-23 (fresh), built via backup cron. Spain pool dominated by eldiario.es and EL PAÍS campaign pieces; Berlin pool limited to Tagesspiegel and rbb24; Germany pool limited to Handelsblatt and Tagesspiegel (2 publishers per section). Older dedup and selected-reads entries were not trimmed (carried over from prior runs)."
 }

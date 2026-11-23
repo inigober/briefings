@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-23
+
+- [The Gulf’s ‘new normal’](https://www.ft.com/content/770e588c-9d85-4999-a25a-c01b8c3078d3?syn-25a6b1a6=1) — Financial Times
+- [The Democratic Party’s Three Conflicting Camps on AI](https://foreignpolicy.com/2026/11/23/democratic-party-ai-race-china-regulation-nvidia-data-centers/) — Foreign Policy
+- [Laos 'least-developed' status shift, Tata meeting, Taiwan local elections](https://asia.nikkei.com/spotlight/your-week-in-asia/laos-least-developed-status-shift-tata-meeting-taiwan-local-elections) — Nikkei Asia
+- [Spain’s election will be a referendum on Pedro Sánchez](https://www.economist.com/europe/2026/11/22/spains-election-will-be-a-referendum-on-pedro-sanchez) — The Economist
+
 ## 2026-11-22
 
 - [China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet](https://www.bloomberg.com/news/articles/2026-11-22/china-s-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet) — Bloomberg

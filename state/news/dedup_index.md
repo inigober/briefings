@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-23
+
+- **spain-40db-tracking-psoe-near-tie-pp** — EL PAÍS: 40dB tracking, PSOE nearly level with PP, Vox falling (section: spain)
+- **spain-rufian-nogueras-erc-junts-feud** — eldiario.es: Rufián and Nogueras bring ERC–Junts rivalry into the campaign (section: spain)
+- **spain-bng-unify-left-vote-dual-voting** — eldiario.es: BNG aims to unify left vote against dual voting (section: spain)
+- **germany-soeder-cold-progression-state-resistance** — Handelsblatt: Söder presses for cold-progression compensation, states resist (section: germany)
+- **germany-altersteilzeit-reform-study-treasury** — Handelsblatt: study says Altersteilzeit reform would pay off for the state (section: germany)
+- **germany-young-adults-housing-fear-hotel-mama** — Tagesspiegel: housing shortage a top fear for young people, move-out age not decisive (section: germany)
+- **berlin-lichtenberg-hospital-fire-arson-15-injured** — Tagesspiegel/dpa: patient allegedly sets bed alight, 15 injured (section: berlin)
+- **berlin-jugendaemter-overstretched** — rbb24: social workers say youth welfare offices are overstretched (section: berlin)
+- **berlin-silvester-firework-ban-demand** — rbb24: associations demand New Year's firework ban (section: berlin)
+- **world-russian-corvette-merkury-benghazi-sunk** — The Guardian: Russian corvette sinks in Benghazi after suspected Ukrainian drone strike (section: world)
+- **world-asian-regulators-support-markets-ai-trade** — Financial Times: Asian regulators prop up markets as AI trade falters (section: world)
+- **world-india-venezuelan-oil-us-ties** — Nikkei Asia: India buys Venezuelan oil as US–India energy ties tighten (section: world)
+
 ## 2026-11-22
 
 - **spain-idra-survey-housing-taxes-right-voters** — eldiario.es: IDRA survey, half of PP and Vox voters back higher taxes on multiple-home owners (section: spain)
