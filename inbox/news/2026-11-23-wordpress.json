@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-23",
+  "fetched_at": "2026-11-23T05:31:05.596642+00:00",
+  "source": "wordpress",
+  "item_format": "news",
+  "items": [
+    {
+      "id": "wp-berlin-6b9f23b5c6",
+      "topic_ids": [
+        "berlin"
+      ],
+      "headline": "Kraftwerk Apologises for Hosting AI Launch Event",
+      "summary": "The Munich-based AI defence company held a launch event for their new product “Clarity” on November 11.",
+      "why_it_matters": "",
+      "broader_context": "",
+      "region": "Berlin",
+      "country": "Germany",
+      "is_structural": false,
+      "is_follow_up": false,
+      "material_development": true,
+      "ingestion_source": "wordpress",
+      "sources": [
+        {
+          "title": "Kraftwerk Apologises for Hosting AI Launch Event",
+          "url": "https://www.the-berliner.com/english-news-berlin/kraftwerk-berlin-apologises-for-hosting-arms-company/",
+          "publisher": "The Berliner",
+          "published_at": "2026-11-20"
+        }
+      ]
+    }
+  ],
+  "feed_counts": [
+    "The Berliner: 1"
+  ],
+  "errors": []
+}
