@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-24
+
+- [The spies are coming for Big Tech](https://www.ft.com/content/c96c40c5-6b07-4433-b65f-19105e9ccb44?syn-25a6b1a6=1) — Financial Times
+- [Estonian foreign minister: Why we’re closing our border with Russia](https://www.politico.eu/article/estonia-foreign-minister-margus-tsahkna-close-border-russia/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Nikkei Asia Forum 'The Global Chip Game: Our predictions for 2027'](https://asia.nikkei.com/business/technology/nikkei-asia-forum-the-global-chip-game-our-predictions-for-2027) — Nikkei Asia
+- [Bartleby newsletter: Valley mentality](https://www.economist.com/business/2026/11/23/bartleby-newsletter-valley-mentality) — The Economist
+
 ## 2026-11-23
 
 - [The Gulf’s ‘new normal’](https://www.ft.com/content/770e588c-9d85-4999-a25a-c01b8c3078d3?syn-25a6b1a6=1) — Financial Times

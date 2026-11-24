@@ -1,18 +1,18 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-23",
-  "briefing_date": "2026-11-23",
-  "inbox_date": "2026-11-23",
+  "date": "2026-11-24",
+  "briefing_date": "2026-11-24",
+  "inbox_date": "2026-11-24",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-23.md",
-  "inbox_path": "inbox/news/2026-11-23-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-24.md",
+  "inbox_path": "inbox/news/2026-11-24-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "El mapa de los 48 escaños en disputa; EL PAÍS 'cuatro claves', campaign-interview and regional-analysis index pages; 40dB 'ventaja de la derecha' and social-media-influence pieces; Ayuso column; stolen-babies feature; Abascal rap culture", "section": "spain", "reason": "same electoral-poll/seat-model theme as selected 40dB piece and 2026-11-22 voto útil model; index pages; opinion or campaign colour; turnout covered 2026-11-16"},
-    {"headline": "Hubig femicide, Aigner, bird flu; Börse and Asien-Börsen market reports; Tagesspiegel Söder/Greens duplicate; card payments at markets; women's pain; Koerner obituary; Berlin hospital fire; Berlin Checkpoint district majorities", "section": "germany", "reason": "recent_topics dedup, same theme as selected Söder piece, market wire belongs in World/Other Headlines, lifestyle filler, or Berlin story; publisher_pool_thin (Handelsblatt/Tagesspiegel only)"},
-    {"headline": "Bike-theft hotspot list; weather frost; homeless in stairwell; Reichstag Christmas tree; police internet portal offline; Hertha Cottbus derby; Berliner Zeitung Merkury sinking; duplicate hospital-fire items", "section": "berlin", "reason": "lower relevance or older, sport demoted, non-Berlin wire item, duplicate hospital-fire items; publisher_pool_thin (Tagesspiegel/rbb24 only)"},
-    {"headline": "Salts; AI conquers Riemann hypothesis; Economist COP31 breakdown; Spain referendum; sponsored GSK content; China car war; circular AI economy; FT pro-worker AI column; Gulf new normal; Wall Street rebound", "section": "world", "reason": "science filler, Europe-centred, sponsored content, repeated AI-market theme with selected FT piece, or used in Other Headlines / Selected Reads"}
+    {"headline": "Feijóo/RTVE column; PP–Vox podcast; Feijóo letrado claim; EL PAÍS poll average, interviews index, tense-moments and 'Sin permiso para tutear' pieces; eldiario.es debate-blocs piece", "section": "spain", "reason": "same debate or poll theme as selected pieces, opinion or campaign colour, index pages; publisher_cap on eldiario.es"},
+    {"headline": "Börse market report; ING credit card (Handelsblatt/Tagesspiegel duplicates); depression self-help survey; PDA in children; Pope Francis diary; Saleh double pension; Brussels ferrets; youth essay", "section": "germany", "reason": "market wire belongs in Other Headlines, lifestyle or health filler, Berlin-local, culture, or recent_topics dedup (youth protests)"},
+    {"headline": "Frost weather; car-theft statistics; bank-heist trial; Marienfelde memorial; hospital fire; Bierpinsel speed camera; TU Berlin reopening; Christmas markets; Brantner on Emde", "section": "berlin", "reason": "weather or lifestyle filler, hospital fire already covered 2026-11-23, duplicate Emde theme, lower relevance"},
+    {"headline": "FT spies/Big Tech; Economist Spain referendum; Estonia border op-ed; Trump impersonator; Barbados–Bristol; FT war-room; fake C4; AI interviews; COP31 breakdown; Bartleby; chip forum", "section": "world", "reason": "used in Selected Reads or Other Headlines, Spain already covered, climate talks already in 2026-11-23 Other Headlines, or Europe-centred; publisher_pool_thin not applicable"}
   ],
-  "notes": "Inbox dated 2026-11-23 (fresh), built via backup cron. Spain pool dominated by eldiario.es and EL PAÍS campaign pieces; Berlin pool limited to Tagesspiegel and rbb24; Germany pool limited to Handelsblatt and Tagesspiegel (2 publishers per section). Older dedup and selected-reads entries were not trimmed (carried over from prior runs)."
+  "notes": "Inbox dated 2026-11-24 (fresh), built via backup cron. Spain pool dominated by eldiario.es and EL PAÍS (2 publishers used). Germany used Handelsblatt and Die Zeit; Berlin used Tagesspiegel, Berliner Zeitung, rbb24. World covers East Asia, North America and Europe (Ukraine); non-European regions: China, United States/Mexico. Older dedup and selected-reads entries were not trimmed (carried over from prior runs)."
 }

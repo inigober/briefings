@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-24
+
+- **spain-eight-party-debate-rtve-fact-check** — EL PAÍS: eight-spokesperson RTVE debate, lies and half-truths (section: spain)
+- **spain-last-poll-ateneo-del-dato-pp-lead** — eldiario.es: last pre-blackout poll, PP 32.1 / PSOE 30.8 / Vox 17.6 (section: spain)
+- **spain-gonzalez-blank-vote-ex-ministers-back-sanchez** — eldiario.es: ex-ministers rally behind Sánchez after González's blank vote (section: spain)
+- **germany-mint-skills-gap-widens** — Handelsblatt: MINT skilled-worker gap grows again (section: germany)
+- **germany-protein-shock-import-dependence-china** — Handelsblatt: Europe's protein import dependence (section: germany)
+- **germany-international-emmy-berlin-students-true-crime-doc** — Die Zeit: Berlin film students win International Emmy (section: germany)
+- **berlin-emde-linke-caucus-vote-red-green-red** — Tagesspiegel: Linke caucus votes on expelling Emde, coalition at stake (section: berlin)
+- **berlin-gasag-gas-price-rise-32-euro** — Berliner Zeitung: Gasag raises gas price, about €32 a month (section: berlin)
+- **berlin-school-bomb-threats-no-danger** — rbb24: bomb threats at schools in Germany, Berlin and Brandenburg (section: berlin)
+- **world-china-ai-nuclear-vulnerability-fears** — NYT: Chinese researchers fear AI exposes nuclear forces (section: world)
+- **world-us-citizen-deported-to-mexico-doj-admits** — The Guardian: DoJ admits deporting US citizen to Mexico (section: world)
+- **world-ukraine-energy-renewables-too-late** — Foreign Policy: Ukraine's renewables push fell short (section: world)
+
 ## 2026-11-23
 
 - **spain-40db-tracking-psoe-near-tie-pp** — EL PAÍS: 40dB tracking, PSOE nearly level with PP, Vox falling (section: spain)
