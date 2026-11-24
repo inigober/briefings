@@ -1,37 +1,35 @@
 {
   "briefing_type": "berlin-culture",
-  "date": "2026-11-17",
-  "briefing_date": "2026-11-17",
-  "inbox_date": "2026-11-17",
-  "week_start": "2026-11-18",
-  "week_end": "2026-11-24",
+  "date": "2026-11-24",
+  "briefing_date": "2026-11-24",
+  "inbox_date": "2026-11-24",
+  "week_start": "2026-11-25",
+  "week_end": "2026-12-01",
   "status": "success",
-  "briefing_path": "briefings/berlin-culture/2026-11-17.md",
-  "inbox_path": "inbox/berlin-culture/2026-11-17-synthesis.json",
-  "items_count": 8,
+  "briefing_path": "briefings/berlin-culture/2026-11-24.md",
+  "inbox_path": "inbox/berlin-culture/2026-11-24-synthesis.json",
+  "items_count": 7,
   "section_counts": {
     "top_picks": 3,
-    "exhibitions": 2,
-    "film": 0,
-    "performing_arts": 0,
-    "music": 2,
+    "exhibitions": 0,
+    "film": 2,
+    "performing_arts": 1,
+    "music": 0,
     "wildcards": 1,
     "advance_radar": 0
   },
-  "thin_sections": ["exhibitions", "music"],
-  "omitted_sections": ["film", "advance_radar"],
+  "thin_sections": ["performing_arts"],
+  "omitted_sections": ["exhibitions", "music", "advance_radar"],
   "validation_warnings": [
-    "Section 'exhibitions' has 2 entries (style minimum 4)",
-    "Section 'film' has 0 entries (style minimum 2)",
-    "Section 'performing_arts' has 0 entries (style minimum 2)",
-    "Section 'music' has 2 entries (style minimum 3)"
+    "Section 'exhibitions' has 0 entries (style minimum 4)",
+    "Section 'performing_arts' has 1 entries (style minimum 2)",
+    "Section 'music' has 0 entries (style minimum 3)"
   ],
   "dropped_missing_end_dates": [],
   "calendar_fills": [
-    {"title": "noch ein tag – one day more: A K Dolven with Stian Westerhus", "section": "music", "official_url": "https://www.indexberlin.com/events/list/46668/noch-ein-tag-one-day-more-performance-im-dialog-mit-der-ausstellung-four-hundred-million-years-of-sunrise-from-the-dark-der-norwegischen-kunstlerin-a-k-dolven-mit-dem-experimentellen-gitarristen-stian-westerhus-und-a-k-dolven"},
-    {"title": "Spätschicht x Anta Recke", "section": "wildcards", "official_url": "https://www.indexberlin.com/events/list/46716/spatschicht-x-anta-recke"}
+    {"title": "How Much Strength It Takes — Artist Talk with Tanja Ostojić and Bettina Knaup", "section": "wildcards", "official_url": "https://www.indexberlin.com/events/list/46609/how-much-strength-it-takes-artist-talk-with-tanja-ostojic-and-bettina-knaup"}
   ],
-  "calendar_fill_notes": "Rejected after page check: Aki Inomata 'Memory of Currency' (carlier | gebauer) and Kapwani Kiwanga 'Carry Me / Carry On' (Galerie Tanja Wagner) have no end date and no description; GUDEHUS (Schloss Biesdorf, 21 Nov) page has no description or filmmaker, so film stays omitted. Silent green capped at 2 (Progetto Positano skipped).",
-  "verification_fetches": 10,
-  "notes": "Inbox 'Crosstown' listed venue Ebensperger; the page shows Robert Rauschenberg at BASTIAN, so the page was used. Comani inbox date '17 November 2027' was wrong; page gives 17 Nov 2026 – 8 Mar 2027. Performing Arts has only a cross-reference to the Top Pick at DOCK 11. Sound Bodies was not fetched (verified in inbox)."
+  "calendar_fill_notes": "Rejected after page check: Horror Horror (KW, 26 Nov) and Tracing Action (ifa-Galerie, workshop) pages have no programme description. Ebensperger exhibitions (Monte Carlo Method, everybody) not used: no description available within fetch budget and venue attribution in the feed is unreliable. Music: goat (jp) repeats 3 Nov; Frohes Festival is a literature/politics festival with an implausible 02:30 time.",
+  "verification_fetches": 9,
+  "notes": "Ulay, Ulay & Abramovic inbox dates were wrong (1976 / missing end); page gives 28 Nov 2026 - 2 May 2027, opening 27 Nov. Kat Valastur and Interrobang inbox dates showed 2021; pages confirm 2026 dates. HKW page lists no in-window events, so the Epona Hamdan tour was not included."
 }

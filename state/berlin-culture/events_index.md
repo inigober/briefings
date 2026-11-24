@@ -128,3 +128,10 @@ Tracks recommended events/exhibitions to avoid repeating across weekly briefings
 2026-11-17 | music | Angel Bat Dawid | silent green Kulturquartier, Kuppelhalle | https://www.silent-green.net/en/programme/detail/angel-bat-dawid
 2026-11-17 | music | noch ein tag – one day more: A K Dolven with Stian Westerhus | St. Matthäus-Kirche | https://www.indexberlin.com/events/list/46668/noch-ein-tag-one-day-more-performance-im-dialog-mit-der-ausstellung-four-hundred-million-years-of-sunrise-from-the-dark-der-norwegischen-kunstlerin-a-k-dolven-mit-dem-experimentellen-gitarristen-stian-westerhus-und-a-k-dolven
 2026-11-17 | wildcards | Spätschicht x Anta Recke | Gropius Bau | https://www.indexberlin.com/events/list/46716/spatschicht-x-anta-recke
+2026-11-24 | top_picks | Ulay, Ulay & Abramović | Neue Nationalgalerie | https://www.smb.museum/en/museums-institutions/nationalgalerie/exhibitions/detail/ulay-ulay-abramovic/
+2026-11-24 | top_picks | Interrobang — Enter the Blackbox | HAU3, HAU Hebbel am Ufer | https://www.hebbel-am-ufer.de/en/programme/pdetail/interrobang-enter-the-blackbox/
+2026-11-24 | top_picks | Not All Travellers Walk Roads—Of Humanity as Practice | Haus der Kulturen der Welt | https://www.hkw.de/en/programme/not-all-travellers-walk-roads-of-humanity-as-practice
+2026-11-24 | film | Dua | SİNEMA TRANSTOPIA | https://sinematranstopia.com/en/sinelection/dua
+2026-11-24 | film | KİM MİHRİ (Who Is Mihri) | SİNEMA TRANSTOPIA | https://sinematranstopia.com/en/kim-women-artists-reframed/kim-mihri-who-is-mihri
+2026-11-24 | performing_arts | Kat Válastur — Dive into You | HAU1, HAU Hebbel am Ufer | https://www.hebbel-am-ufer.de/en/programme/pdetail/kat-valastur-dive-into-you/
+2026-11-24 | wildcards | How Much Strength It Takes — Artist Talk with Tanja Ostojić and Bettina Knaup | Kunstraum Kreuzberg/Bethanien | https://www.indexberlin.com/events/list/46609/how-much-strength-it-takes-artist-talk-with-tanja-ostojic-and-bettina-knaup
