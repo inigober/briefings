@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-25
+
+- **spain-last-cabinet-social-measures-pp-repeal-threat** — eldiario.es: last Council of Ministers stacks leave, tax and transport measures; PP threatens repeal (section: spain)
+- **spain-pp-pucherazo-tie-with-psoe-admitted** — EL PAÍS: PP revives ballot-rigging talk, admits possible tie (section: spain)
+- **spain-intxaurrondo-far-right-public-tv** — EL PAÍS: analysts on Junta Electoral file against journalist Silvia Intxaurrondo (section: spain)
+- **germany-solar-100-twh-first-time** — Handelsblatt: solar output passes 100 TWh in a year (section: germany)
+- **germany-trump-new-tariffs-eu-morning-briefing** — Handelsblatt: Trump may announce new tariffs on EU this week (section: germany)
+- **germany-cybergrooming-deepfakes-parents-girls** — Tagesspiegel: experts on protecting girls online (section: germany)
+- **berlin-linke-expels-emde** — rbb24: Linke caucus expels Vanessa Emde (section: berlin)
+- **berlin-borough-mayors-power-overview** — Tagesspiegel: overview of new borough power balance after election (section: berlin)
+- **berlin-domestic-violence-20000-perpetrator-work** — Tagesspiegel/dpa: over 20,000 affected in 2025, push for work with perpetrators (section: berlin)
+- **world-cuba-life-expectancy-falls-who** — The Guardian: Cuban life expectancy falls for first time since 1950 (section: world)
+- **world-chen-jining-shanghai-purge** — Financial Times: Shanghai party boss Chen Jining under investigation (section: world)
+- **world-huawei-convicted-us-trial** — Financial Times: Huawei convicted in US trial (section: world)
+
 ## 2026-11-24
 
 - **spain-eight-party-debate-rtve-fact-check** — EL PAÍS: eight-spokesperson RTVE debate, lies and half-truths (section: spain)

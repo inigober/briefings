@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-25
+
+- [Armenia’s Pivot to Washington](https://foreignpolicy.com/2026/11/24/armenia-tripp-corridor-new-constitution-azerbaijan-pashinyan-ambassador/) — Foreign Policy
+- [As Taiwan elections near, one KMT mayor's ambitions loom large](https://asia.nikkei.com/politics/as-taiwan-elections-near-one-kmt-mayor-s-ambitions-loom-large) — Nikkei Asia
+- [Trump readies raft of new tariffs on major economies](https://www.ft.com/content/335b593d-1478-4550-ab0a-71fec6280eb0?syn-25a6b1a6=1) — Financial Times
+- [Doomsday predictions have value, even if they’re wrong](https://www.economist.com/science-and-technology/2026/11/24/doomsday-predictions-have-value-even-if-theyre-wrong) — The Economist
+
 ## 2026-11-24
 
 - [The spies are coming for Big Tech](https://www.ft.com/content/c96c40c5-6b07-4433-b65f-19105e9ccb44?syn-25a6b1a6=1) — Financial Times

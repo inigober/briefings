@@ -1,18 +1,18 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-24",
-  "briefing_date": "2026-11-24",
-  "inbox_date": "2026-11-24",
+  "date": "2026-11-25",
+  "briefing_date": "2026-11-25",
+  "inbox_date": "2026-11-25",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-24.md",
-  "inbox_path": "inbox/news/2026-11-24-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-25.md",
+  "inbox_path": "inbox/news/2026-11-25-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Feijóo/RTVE column; PP–Vox podcast; Feijóo letrado claim; EL PAÍS poll average, interviews index, tense-moments and 'Sin permiso para tutear' pieces; eldiario.es debate-blocs piece", "section": "spain", "reason": "same debate or poll theme as selected pieces, opinion or campaign colour, index pages; publisher_cap on eldiario.es"},
-    {"headline": "Börse market report; ING credit card (Handelsblatt/Tagesspiegel duplicates); depression self-help survey; PDA in children; Pope Francis diary; Saleh double pension; Brussels ferrets; youth essay", "section": "germany", "reason": "market wire belongs in Other Headlines, lifestyle or health filler, Berlin-local, culture, or recent_topics dedup (youth protests)"},
-    {"headline": "Frost weather; car-theft statistics; bank-heist trial; Marienfelde memorial; hospital fire; Bierpinsel speed camera; TU Berlin reopening; Christmas markets; Brantner on Emde", "section": "berlin", "reason": "weather or lifestyle filler, hospital fire already covered 2026-11-23, duplicate Emde theme, lower relevance"},
-    {"headline": "FT spies/Big Tech; Economist Spain referendum; Estonia border op-ed; Trump impersonator; Barbados–Bristol; FT war-room; fake C4; AI interviews; COP31 breakdown; Bartleby; chip forum", "section": "world", "reason": "used in Selected Reads or Other Headlines, Spain already covered, climate talks already in 2026-11-23 Other Headlines, or Europe-centred; publisher_pool_thin not applicable"}
+    {"headline": "eldiario.es poll average, Armengol interview, Emilio Delgado interview, Leire Díez Audiencia Nacional piece; EL PAÍS poll average, interviews index, Feijóo profile, gender-violence podcast", "section": "spain", "reason": "same poll or campaign theme already covered 2026-11-24, interview or index pages, permisos duplicate of cabinet story (one theme per section)"},
+    {"headline": "Börse report; Iran-war and US-politics newsblogs; Canada ski trip; duplicate solar piece; Meghan's father charged; Banaszak on Maischberger; Finland tank barriers; Emde redetime", "section": "germany", "reason": "market wire, lifestyle or celebrity filler, World-fit stories, duplicate Emde theme with Berlin, or duplicate item"},
+    {"headline": "Reinickendorf bakery; Kurfürstenstraße street sex work; student budget tips; NS child-killings exhibition; Neukölln shooting verdict; car theft; Adlon sale; Kreuzberg heating outage; Spandau care-home fire", "section": "berlin", "reason": "lifestyle or one-off crime, lower relevance, or placed in Other Headlines; publisher_cap on Tagesspiegel respected via rbb24 pick"},
+    {"headline": "Economist Spain referendum; Economist doomsday (used in Selected Reads); Shein settlement; Starshield; climate talks breakdown; FT tariffs; Armenia; Taiwan KMT; 7-Eleven Cambodia; Elias podcast", "section": "world", "reason": "Spain already covered, Europe-centred, used in Selected Reads or Other Headlines, or tariffs theme already in Germany"}
   ],
-  "notes": "Inbox dated 2026-11-24 (fresh), built via backup cron. Spain pool dominated by eldiario.es and EL PAÍS (2 publishers used). Germany used Handelsblatt and Die Zeit; Berlin used Tagesspiegel, Berliner Zeitung, rbb24. World covers East Asia, North America and Europe (Ukraine); non-European regions: China, United States/Mexico. Older dedup and selected-reads entries were not trimmed (carried over from prior runs)."
+  "notes": "Inbox dated 2026-11-25 (fresh), built via backup cron. Spain pool only eldiario.es and EL PAÍS (both used). World regions: Latin America (Cuba), East Asia (China), North America (US). Older dedup entries not trimmed (carried over)."
 }
