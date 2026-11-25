@@ -2,14 +2,6 @@
   "started_at": "2026-08-04T00:00:00+00:00",
   "deliveries": [
     {
-      "path": "briefings/news/2026-08-27.md",
-      "type": "news",
-      "date": "2026-08-27",
-      "sent_at": "2026-08-27T04:38:04.002206+00:00",
-      "resend_id": "dd57f87a-5f68-469c-bb7f-eeb931e8850e",
-      "subject": "📰 News Briefing — 27 August 2026"
-    },
-    {
       "path": "briefings/berlin-restaurants/2026-08-27.md",
       "type": "berlin-restaurants",
       "date": "2026-08-27",
@@ -1024,6 +1016,14 @@
       "sent_at": "2026-11-24T08:11:15.623264+00:00",
       "resend_id": "01a20c9b-eee8-78b1-bf87-865d8cd503f4",
       "subject": "🎭 Berlin Culture Briefing — Week of November 25–December 1, 2026"
+    },
+    {
+      "path": "briefings/news/2026-11-25.md",
+      "type": "news",
+      "date": "2026-11-25",
+      "sent_at": "2026-11-25T05:35:06.106653+00:00",
+      "resend_id": "01a21133-5326-707a-adfe-2ed42ea59ef0",
+      "subject": "📰 News Briefing — 25 November 2026"
     }
   ]
 }
