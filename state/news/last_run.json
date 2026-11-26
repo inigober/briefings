@@ -1,18 +1,18 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-25",
-  "briefing_date": "2026-11-25",
-  "inbox_date": "2026-11-25",
+  "date": "2026-11-26",
+  "briefing_date": "2026-11-26",
+  "inbox_date": "2026-11-26",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-25.md",
-  "inbox_path": "inbox/news/2026-11-25-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-26.md",
+  "inbox_path": "inbox/news/2026-11-26-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "eldiario.es poll average, Armengol interview, Emilio Delgado interview, Leire Díez Audiencia Nacional piece; EL PAÍS poll average, interviews index, Feijóo profile, gender-violence podcast", "section": "spain", "reason": "same poll or campaign theme already covered 2026-11-24, interview or index pages, permisos duplicate of cabinet story (one theme per section)"},
-    {"headline": "Börse report; Iran-war and US-politics newsblogs; Canada ski trip; duplicate solar piece; Meghan's father charged; Banaszak on Maischberger; Finland tank barriers; Emde redetime", "section": "germany", "reason": "market wire, lifestyle or celebrity filler, World-fit stories, duplicate Emde theme with Berlin, or duplicate item"},
-    {"headline": "Reinickendorf bakery; Kurfürstenstraße street sex work; student budget tips; NS child-killings exhibition; Neukölln shooting verdict; car theft; Adlon sale; Kreuzberg heating outage; Spandau care-home fire", "section": "berlin", "reason": "lifestyle or one-off crime, lower relevance, or placed in Other Headlines; publisher_cap on Tagesspiegel respected via rbb24 pick"},
-    {"headline": "Economist Spain referendum; Economist doomsday (used in Selected Reads); Shein settlement; Starshield; climate talks breakdown; FT tariffs; Armenia; Taiwan KMT; 7-Eleven Cambodia; Elias podcast", "section": "world", "reason": "Spain already covered, Europe-centred, used in Selected Reads or Other Headlines, or tariffs theme already in Germany"}
+    {"headline": "Poll-average, probability and campaign-trail pieces from eldiario.es and EL PAÍS; Feijóo Xunta record; Albiol profile; PNV candidate interview; vote-why explainer", "section": "spain", "reason": "same poll or campaign theme already covered in recent briefings, interview or explainer pages, or one theme per section"},
+    {"headline": "Huang spying dispute; ski-lift and ski-pass pieces; Asian markets report; gait-muscle health tip; Expo Checkpoint; entertainment and Tatort items; duplicate A11 Handelsblatt item", "section": "germany", "reason": "World-fit story, lifestyle or celebrity filler, market wire, Berlin-only item, or duplicate item"},
+    {"headline": "Zehdenick AfD mayor; weather; baby-burnout service; school open-day advice; police searches; Lichtenberg verdict; jewellery robbery; Friedländer plaque", "section": "berlin", "reason": "Brandenburg item, lifestyle or one-off crime, or placed in Other Headlines; publisher_cap on Tagesspiegel respected"},
+    {"headline": "Jensanity Taiwan/China; Nikkei Nvidia turmoil; FT Bank of Korea duplicate; Canada-UAE pitch; Economist mental-health and doomsday pieces; Cameroon elephants; FT software stocks", "section": "world", "reason": "Nvidia theme already used once, duplicate rate story, Europe/UK-centred, used in Selected Reads, or placed in Other Headlines"}
   ],
-  "notes": "Inbox dated 2026-11-25 (fresh), built via backup cron. Spain pool only eldiario.es and EL PAÍS (both used). World regions: Latin America (Cuba), East Asia (China), North America (US). Older dedup entries not trimmed (carried over)."
+  "notes": "Inbox dated 2026-11-26 (fresh), built via backup cron. Spain pool only eldiario.es and EL PAÍS. World regions: North America/South-East Asia (Nvidia curbs), East Asia (Korea), Oceania (Australia). Older dedup and selected-reads entries not trimmed (carried over)."
 }

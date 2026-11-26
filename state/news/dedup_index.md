@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-26
+
+- **spain-47-contested-seats-elDiario-model** — eldiario.es: seat model, 303 safe or probable, 47 in play in 36 provinces (section: spain)
+- **spain-church-bishops-power-struggle-29n** — eldiario.es: Episcopal Conference rifts over the election, president weakened (section: spain)
+- **spain-er-gafa-adelante-andalucia-congress** — EL PAÍS: Adelante Andalucía's rally-driven campaign for Congress (section: spain)
+- **germany-metal-electrical-pay-talks-no-deal** — Handelsblatt: overnight pay talks end without agreement (section: germany)
+- **germany-congo-cobalt-export-block** — Berliner Zeitung: Congo blocks approved cobalt exports, German industry exposed (section: germany)
+- **germany-a11-palantir-alternative** — Tagesspiegel/dpa: Berlin firm A11 launches European AI software (section: germany)
+- **berlin-linke-newbuild-plan-24-euro-rent** — Tagesspiegel: housing association chief on the first coalition rent and construction plan (section: berlin)
+- **berlin-siemensbahn-test-tree-clearing** — Tagesspiegel: Bahn widens Siemensbahn test, announces tree clearing (section: berlin)
+- **berlin-hera-mission-images** — rbb24: Hera asteroid-mission images shown in Berlin (section: berlin)
+- **world-nvidia-halts-south-east-asia-shipments** — Financial Times: Nvidia halts chip shipments to south-east Asia under tighter US export controls (section: world)
+- **world-bank-of-korea-hikes-3-25** — Nikkei Asia: Bank of Korea raises rate to 3.25% (section: world)
+- **world-australia-firms-inflation-over-4pct** — Bloomberg: Australian firms expect inflation above 4% for 12 months (section: world)
+
 ## 2026-11-25
 
 - **spain-last-cabinet-social-measures-pp-repeal-threat** — eldiario.es: last Council of Ministers stacks leave, tax and transport measures; PP threatens repeal (section: spain)

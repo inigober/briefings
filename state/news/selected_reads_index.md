@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-26
+
+- [Nvidia turmoil casts pall over high-flying global AI chip industry](https://asia.nikkei.com/business/tech/semiconductors/nvidia-turmoil-casts-pall-over-high-flying-global-ai-chip-industry) — Nikkei Asia
+- [Software stocks spared in tech rout as AI narrative shifts](https://www.ft.com/content/90b82a64-4f58-45d7-8a6a-4c2730545b65?syn-25a6b1a6=1) — Financial Times
+- [Why mathematicians must rely on machines to check new results](https://www.economist.com/science-and-technology/2026/11/25/why-mathematicians-must-rely-on-machines-to-check-new-results) — The Economist
+- [Sri Lankan asylum seeker killed himself after being sent by UK to Eswatini](https://www.theguardian.com/uk-news/2026/nov/25/sri-lanka-asylum-seeker-convicted-sexual-assault-uk-kills-himself-eswatini) — The Guardian
+
 ## 2026-11-25
 
 - [Armenia’s Pivot to Washington](https://foreignpolicy.com/2026/11/24/armenia-tripp-corridor-new-constitution-azerbaijan-pashinyan-ambassador/) — Foreign Policy
