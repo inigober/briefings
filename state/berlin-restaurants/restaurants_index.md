@@ -4,13 +4,6 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 
 <!-- Format: YYYY-MM-DD | name | neighborhood | google_maps_url -->
 
-2026-09-10 | Shan Shan | Prenzlauer Berg | https://maps.google.com/?cid=2813619000083273545&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-09-10 | Larb Koi | Friedrichshain | https://maps.google.com/?cid=1837714750978964420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-09-10 | Thành Koch | Lichtenberg | https://maps.google.com/?cid=13453267633157062630&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-09-10 | Sljiva | Moabit | https://maps.google.com/?cid=397963443234687770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-09-10 | Mama Van | Mitte | https://maps.google.com/?cid=3098666772816247662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-09-10 | merold | Neukölln | https://maps.google.com/?cid=6099182812103138905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-2026-09-10 | Bieberbau | Wilmersdorf | https://maps.google.com/?cid=16347767220074598492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-17 | Fu Li Lai | Steglitz | https://maps.google.com/?cid=9315743648325898124&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-17 | Khao Taan | Friedrichshain | https://maps.google.com/?cid=1368696323655479600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-09-17 | Papaya | Schöneberg | https://maps.google.com/?cid=2456362811345032783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
@@ -73,3 +66,11 @@ Tracks restaurants already covered in weekly Berlin restaurant briefings. Trim e
 2026-11-19 | Tacos El Rey | Kreuzberg | https://maps.google.com/?cid=10485830786403003835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-11-19 | JAJA | Neukölln | https://maps.google.com/?cid=7161051372547181186&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
 2026-11-19 | 100Brote | Prenzlauer Berg | https://maps.google.com/?cid=3559059768382278200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-26 | Good Friends | Charlottenburg | https://maps.google.com/?cid=7076436058078775098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-26 | Lahmacun Kebab Haus / Küsleme | Wedding | https://maps.google.com/?cid=8096592926846417793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-26 | Fleischerei Ayoub | Moabit | https://maps.google.com/?cid=567808258898969351&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-26 | Casalot | Mitte / Europacity | https://maps.google.com/?cid=2715981627122034909&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-26 | Knödelwirtschaft | Neukölln | https://maps.google.com/?cid=10657343154959969986&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-26 | Jolesch | Kreuzberg | https://maps.google.com/?cid=14401300538729835448&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-26 | Kokio | Prenzlauer Berg | https://maps.google.com/?cid=18334790395386684159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
+2026-11-26 | Udagawa / 宇田川 | Steglitz | https://maps.google.com/?cid=240047763774104311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA

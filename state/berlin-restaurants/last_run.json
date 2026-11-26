@@ -1,19 +1,20 @@
 {
   "briefing_type": "berlin-restaurants",
-  "date": "2026-11-19",
+  "date": "2026-11-26",
   "status": "success",
-  "briefing_path": "briefings/berlin-restaurants/2026-11-19.md",
-  "inbox_path": "inbox/berlin-restaurants/2026-11-19-synthesis.json",
-  "verified_count": 17,
-  "selected_count": 7,
+  "briefing_path": "briefings/berlin-restaurants/2026-11-26.md",
+  "inbox_path": "inbox/berlin-restaurants/2026-11-26-synthesis.json",
+  "verified_count": 14,
+  "selected_count": 8,
   "selected_restaurants": [
-    "Shaniu's House of Noodles",
-    "Tianfuzius",
-    "Hanuman Thai Curry House",
-    "Sarajevo",
-    "Tacos El Rey",
-    "JAJA",
-    "100Brote"
+    "Good Friends",
+    "Lahmacun Kebab Haus / Küsleme",
+    "Fleischerei Ayoub",
+    "Casalot",
+    "Knödelwirtschaft",
+    "Jolesch",
+    "Kokio",
+    "Udagawa / 宇田川"
   ],
-  "notes": "7 entries from 17 verified inbox items. Excluded 10-week repeats: Larb Koi, Fu Li Lai, Chon Thong, Nusantara, Doyum Grillhaus, Pamfilya, Salumeria Lamuri, Nußbaumerin. No fine dining included (pars and Macionga left out). The single openings item is a roundup with no named place, so the openings section was omitted and openings_reported.json left unchanged. Neighborhoods: Kreuzberg (2), Wilmersdorf, Schöneberg, Wedding, Neukölln, Prenzlauer Berg."
+  "notes": "8 entries from 14 verified inbox items. Excluded 10-week repeats: You Mi, Hanuman Thai Curry House, Ma-Makan, Nusantara, Pamfilya, Salumeria Lamuri. No fine dining included. Openings list empty, so the openings section was omitted and openings_reported.json left unchanged. Kokio Hours line omitted (04:00 opening is a data glitch). Neighborhoods: Charlottenburg, Wedding, Moabit, Mitte, Neukölln, Kreuzberg, Prenzlauer Berg, Steglitz."
 }
