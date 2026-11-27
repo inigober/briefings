@@ -1,18 +1,18 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-26",
-  "briefing_date": "2026-11-26",
-  "inbox_date": "2026-11-26",
+  "date": "2026-11-27",
+  "briefing_date": "2026-11-27",
+  "inbox_date": "2026-11-27",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-26.md",
-  "inbox_path": "inbox/news/2026-11-26-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-27.md",
+  "inbox_path": "inbox/news/2026-11-27-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Poll-average, probability and campaign-trail pieces from eldiario.es and EL PAÍS; Feijóo Xunta record; Albiol profile; PNV candidate interview; vote-why explainer", "section": "spain", "reason": "same poll or campaign theme already covered in recent briefings, interview or explainer pages, or one theme per section"},
-    {"headline": "Huang spying dispute; ski-lift and ski-pass pieces; Asian markets report; gait-muscle health tip; Expo Checkpoint; entertainment and Tatort items; duplicate A11 Handelsblatt item", "section": "germany", "reason": "World-fit story, lifestyle or celebrity filler, market wire, Berlin-only item, or duplicate item"},
-    {"headline": "Zehdenick AfD mayor; weather; baby-burnout service; school open-day advice; police searches; Lichtenberg verdict; jewellery robbery; Friedländer plaque", "section": "berlin", "reason": "Brandenburg item, lifestyle or one-off crime, or placed in Other Headlines; publisher_cap on Tagesspiegel respected"},
-    {"headline": "Jensanity Taiwan/China; Nikkei Nvidia turmoil; FT Bank of Korea duplicate; Canada-UAE pitch; Economist mental-health and doomsday pieces; Cameroon elephants; FT software stocks", "section": "world", "reason": "Nvidia theme already used once, duplicate rate story, Europe/UK-centred, used in Selected Reads, or placed in Other Headlines"}
+    {"headline": "Four-way debate pieces from La Vanguardia, eldiario.es opinion and EL PAÍS (Sánchez offensive, Colau tandem, Feijóo 'calladita', winners panel, Abascal tone, Casado styling)", "section": "spain", "reason": "one theme per section: debate covered once via the fact-check; styling and opinion pieces are filler or already folded into Other Headlines"},
+    {"headline": "Handelsblatt Iran-war newsblog; Handelsblatt/Tagesspiegel duplicate gold pieces; investment-fee, RSD, Christmas-market, actress, obituary and homeless-smell items", "section": "germany", "reason": "World-fit story, duplicate, or lifestyle/advice filler; publisher_pool_thin (Handelsblatt and Tagesspiegel only)"},
+    {"headline": "Cyclist killed by lorry (Tagesspiegel/rbb24 duplicates); Quartier 206 auction; winter readiness; Bundesversammlung members; Kitas drop meat; Berliner bomb-threats item", "section": "berlin", "reason": "one-off accident, already covered (bomb threats), or placed in Other Headlines; Tagesspiegel capped at two"},
+    {"headline": "Economist mental-health, doomsday, sexual-recession and Britain benefits pieces; FT/Nikkei items used in Selected Reads; Cameroon elephants; FP chaos-theory essay", "section": "world", "reason": "Europe/UK-centred or lifestyle, used in Selected Reads, one-off incident, or essay without news beat"}
   ],
-  "notes": "Inbox dated 2026-11-26 (fresh), built via backup cron. Spain pool only eldiario.es and EL PAÍS. World regions: North America/South-East Asia (Nvidia curbs), East Asia (Korea), Oceania (Australia). Older dedup and selected-reads entries not trimmed (carried over)."
+  "notes": "Inbox dated 2026-11-27 (fresh), built via backup cron. Spain pool was debate-only; used fact-check, Feijóo pledge and manifesto comparator to avoid three debate-recap stories. Germany pool thin (publisher_pool_thin, only Handelsblatt and Tagesspiegel); Trump-tariff item taken from the Handelsblatt US newsblog. World regions: Oceania (NZ), Middle East (oil), Africa/Middle East (Nusseibeh). Metal-sector pay deal (4.3%) and EU budget summit failure appear only as rejected-candidate headlines without URLs, so they sit in Other Headlines. Older dedup and selected-reads entries not trimmed (no shell available to trim in CI)."
 }

@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-27
+
+- **spain-four-way-debate-fact-check-abascal-feijoo** — eldiario.es: fact-check of the four-candidate debate, Abascal's six-million claim and Feijóo's 400,000-homes claim (section: spain)
+- **spain-feijoo-resign-if-not-pm** — EL PAÍS: Feijóo pledges to resign and give up immunity if he does not become prime minister (section: spain)
+- **spain-manifesto-comparator-29n** — EL PAÍS: side-by-side comparison of PP, PSOE, Vox and Frente Amplio manifestos (section: spain)
+- **germany-trump-new-tariffs-eu-china-announced** — Handelsblatt: Trump announces new tariffs including on EU and China (section: germany)
+- **germany-gold-down-third-analysts-return** — Tagesspiegel/dpa: gold a third below January record, analysts back it again (section: germany)
+- **germany-boerse-ai-swings-rheinmetall-strategy** — Handelsblatt: markets after US holiday, Rheinmetall explains strategy (section: germany)
+- **berlin-charlottenburg-wilmersdorf-left-alliance-takes-posts-from-cdu** — Tagesspiegel: Green–SPD–Left alliance would take mayor and building portfolio from the CDU (section: berlin)
+- **berlin-office-to-housing-conversion-hurdles** — rbb24: two million m² empty offices, five hurdles to conversion (section: berlin)
+- **berlin-tu-maths-cafe-occupation** — Tagesspiegel: students occupy closed cafeteria, demand investment over cuts (section: berlin)
+- **world-new-zealand-coalition-misses-majority** — Nikkei Asia: New Zealand ruling coalition misses majority in final results (section: world)
+- **world-oil-first-weekly-gain-middle-east-attacks** — Bloomberg: oil heads for first weekly gain this month on Middle East attacks (section: world)
+- **world-nusseibeh-un-secretary-general-sudan-record** — The Guardian: UN hopeful Lana Nusseibeh tries to shake off Sudan record (section: world)
+
 ## 2026-11-26
 
 - **spain-47-contested-seats-elDiario-model** — eldiario.es: seat model, 303 safe or probable, 47 in play in 36 provinces (section: spain)

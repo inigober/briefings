@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-27
+
+- [Tech stocks set for worst month in four years as volatility surges](https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1) — Financial Times
+- [Japan's JERA aims to build Anthropic, Meta data centers near power plants](https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-jera-aims-to-build-anthropic-meta-data-centers-near-power-plants) — Nikkei Asia
+- [Pedro Sánchez’s Big Bet](https://foreignpolicy.com/2026/11/26/spain-election-housing-crisis-sanchez-feijoo/) — Foreign Policy
+- [The Dutch try to perfect taxes on savings, and fail](https://www.economist.com/europe/2026/11/26/the-dutch-try-to-perfect-taxes-on-savings-and-fail) — The Economist
+
 ## 2026-11-26
 
 - [Nvidia turmoil casts pall over high-flying global AI chip industry](https://asia.nikkei.com/business/tech/semiconductors/nvidia-turmoil-casts-pall-over-high-flying-global-ai-chip-industry) — Nikkei Asia
