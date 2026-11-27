@@ -10,9 +10,16 @@ Listen URL works in a browser. That is an IP/bot-wall issue, not a
 synthesis parsing issue. Cover fallback order (still Bandcamp art when possible):
 
 1. Bandcamp HTML (og:image / image_src / bcbits art id) when the page is real
-2. Microlink metadata for the same Bandcamp URL (their fetchers are not on
+2. MusicBrainz + Cover Art Archive, title- and artist-matched (no daily quota)
+3. Microlink metadata for the same Bandcamp URL (their fetchers are not on
    GitHub's IP ranges; returns the Bandcamp bcbits cover)
-3. MusicBrainz + Cover Art Archive, title-matched, last resort
+
+Microlink is last because its free tier allows 25 requests/day per IP, and
+GitHub runners share IPs with other users: on 2026-11-27 it answered 5 albums,
+then returned 429 for the rest, and 6 of 16 albums were dropped for no cover.
+Cover Art Archive first keeps Microlink's quota for releases MusicBrainz lacks.
+After the first 429, Microlink is skipped for the rest of the run.
+Set MICROLINK_API_KEY (GitHub secret) to use the paid endpoint instead.
 
 YouTube Listen URLs are optional. OpenAI rarely copies a live
 `music.youtube.com/playlist?list=OLAK5uy_…` album playlist, so this script
@@ -33,6 +40,7 @@ if str(_SCRIPTS_DIR) not in sys.path:
 import argparse
 import html as html_lib
 import json
+import os
 import re
 import time
 from datetime import datetime, timezone
@@ -68,6 +76,7 @@ API_HEADERS = {
 }
 
 MICROLINK_URL = "https://api.microlink.io"
+MICROLINK_PRO_URL = "https://pro.microlink.io"
 YTM_SEARCH_URL = "https://music.youtube.com/youtubei/v1/search"
 MUSICBRAINZ_RELEASE_URL = "https://musicbrainz.org/ws/2/release/"
 COVERART_RELEASE_URL = "https://coverartarchive.org/release/{mbid}/front-500"
@@ -288,13 +297,14 @@ def fetch_json(
     session: requests.Session,
     params: dict | None = None,
     timeout: int = DEFAULT_TIMEOUT_SECONDS,
+    extra_headers: dict[str, str] | None = None,
 ) -> tuple[int | None, object | None, str]:
     try:
         response = session.get(
             url,
             params=params,
             timeout=timeout,
-            headers=API_HEADERS,
+            headers={**API_HEADERS, **(extra_headers or {})},
             allow_redirects=True,
         )
         if response.status_code >= 400:
@@ -351,6 +361,18 @@ def check_music_url_live(
     return False, f"HTTP {status}"
 
 
+# Set once Microlink answers 429; reset at the start of each verify_music_items run.
+_microlink_exhausted = False
+
+
+def microlink_endpoint() -> tuple[str, dict[str, str]]:
+    """Paid endpoint + key header when MICROLINK_API_KEY is set, else the free one."""
+    key = os.environ.get("MICROLINK_API_KEY", "").strip()
+    if key:
+        return MICROLINK_PRO_URL, {"x-api-key": key}
+    return MICROLINK_URL, {}
+
+
 def lookup_microlink_cover(
     bandcamp_url: str,
     *,
@@ -358,18 +380,25 @@ def lookup_microlink_cover(
     sleep_ms: int = DEFAULT_SLEEP_MS,
 ) -> str | None:
     """Ask Microlink to read the Bandcamp page from a non-GitHub IP."""
-    if not is_http_url(bandcamp_url):
+    global _microlink_exhausted
+    if not is_http_url(bandcamp_url) or _microlink_exhausted:
         return None
     if sleep_ms > 0:
         time.sleep(sleep_ms / 1000.0)
+    endpoint, extra_headers = microlink_endpoint()
     status, payload, err = fetch_json(
-        MICROLINK_URL,
+        endpoint,
         session=session,
         params={"url": bandcamp_url, "meta": "true"},
         timeout=30,
+        extra_headers=extra_headers,
     )
     if status == 429:
-        log("    Microlink rate-limited (free tier is 25 requests/day per IP)")
+        _microlink_exhausted = True
+        log(
+            "    Microlink rate-limited (free tier is 25 requests/day per IP); "
+            "skipping it for the rest of this run"
+        )
         return None
     if err or not isinstance(payload, dict):
         log(f"    Microlink failed for {bandcamp_url}: {err or 'bad payload'}")
@@ -650,15 +679,17 @@ def resolve_cover_url(
     artist = str(item.get("artist") or "").strip()
     release = str(item.get("release") or "").strip()
     bandcamp = str(item.get("bandcamp_url") or "").strip()
-    microlink = lookup_microlink_cover(bandcamp, session=session, sleep_ms=sleep_ms)
-    if microlink:
-        notes.append("cover_url: Bandcamp og:image via Microlink")
-        return microlink, "from_microlink", notes
-
+    # Cover Art Archive before Microlink: CAA has no daily quota, Microlink's free tier
+    # is 25/day per (shared) runner IP. See module docstring.
     caa = lookup_coverartarchive_cover(artist, release, session=session, sleep_ms=sleep_ms)
     if caa:
         notes.append("cover_url: from Cover Art Archive")
         return caa, "from_coverartarchive", notes
+
+    microlink = lookup_microlink_cover(bandcamp, session=session, sleep_ms=sleep_ms)
+    if microlink:
+        notes.append("cover_url: Bandcamp og:image via Microlink")
+        return microlink, "from_microlink", notes
 
     model_cover = str(item.get("cover_url") or "").strip()
     if is_http_url(model_cover) and "bcbits.com" not in model_cover.lower():
@@ -785,6 +816,8 @@ def verify_music_items(
     *,
     sleep_ms: int = DEFAULT_SLEEP_MS,
 ) -> dict[str, int]:
+    global _microlink_exhausted
+    _microlink_exhausted = False
     session = requests.Session()
     checked = live = dead = 0
     for item in items:

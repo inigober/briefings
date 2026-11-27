@@ -202,14 +202,17 @@ class TestVerifyMusicInboxItem(unittest.TestCase):
         }
         cover = "https://f4.bcbits.com/img/a1878222548_10.jpg"
 
+        # Cover Art Archive is tried first; Microlink only when it has nothing.
         with (
             patch("verify_music_inbox_urls.fetch_html", return_value=(200, BOT_WALL_HTML, "")),
             patch("verify_music_inbox_urls.lookup_microlink_cover", return_value=cover),
-            patch("verify_music_inbox_urls.lookup_coverartarchive_cover") as caa,
+            patch(
+                "verify_music_inbox_urls.lookup_coverartarchive_cover", return_value=None
+            ) as caa,
         ):
             result = verify_music_item(item, session=MagicMock(), sleep_ms=0)
 
-        caa.assert_not_called()
+        caa.assert_called_once()
         self.assertTrue(result["verified"])
         self.assertEqual(result["cover_url"], cover)
         self.assertEqual(result["url_field_status"]["cover_url"], "from_microlink")
@@ -237,6 +240,76 @@ class TestVerifyMusicInboxItem(unittest.TestCase):
         self.assertTrue(result["verified"])
         self.assertEqual(result["cover_url"], caa_url)
         self.assertEqual(result["url_field_status"]["cover_url"], "from_coverartarchive")
+
+    def test_bot_wall_tries_cover_art_archive_before_microlink(self) -> None:
+        item = {
+            "artist": "bookworms",
+            "release": "depth perceptions",
+            "bandcamp_url": "https://bookworms.bandcamp.com/album/depth-perceptions",
+            "cover_url": "",
+        }
+        caa_url = "https://archive.org/download/mbid-abc/front-500.jpg"
+        with (
+            patch("verify_music_inbox_urls.fetch_html", return_value=(200, BOT_WALL_HTML, "")),
+            patch("verify_music_inbox_urls.lookup_microlink_cover") as microlink,
+            patch(
+                "verify_music_inbox_urls.lookup_coverartarchive_cover", return_value=caa_url
+            ),
+        ):
+            result = verify_music_item(item, session=MagicMock(), sleep_ms=0)
+
+        microlink.assert_not_called()  # quota saved for albums CAA does not know
+        self.assertEqual(result["cover_url"], caa_url)
+
+    def test_microlink_is_skipped_after_first_429(self) -> None:
+        import verify_music_inbox_urls as vmi
+
+        session = MagicMock()
+        calls: list[str] = []
+
+        def fake_json(url, **_kwargs):  # noqa: ANN001
+            calls.append(url)
+            return 429, None, "HTTP 429"
+
+        vmi._microlink_exhausted = False
+        try:
+            with patch("verify_music_inbox_urls.fetch_json", side_effect=fake_json), patch(
+                "verify_music_inbox_urls.log"
+            ):
+                for n in range(5):
+                    self.assertIsNone(
+                        vmi.lookup_microlink_cover(
+                            f"https://x.bandcamp.com/album/a{n}", session=session, sleep_ms=0
+                        )
+                    )
+            self.assertEqual(len(calls), 1)
+        finally:
+            vmi._microlink_exhausted = False
+
+    def test_verify_items_resets_microlink_flag(self) -> None:
+        import verify_music_inbox_urls as vmi
+
+        vmi._microlink_exhausted = True
+        with patch("verify_music_inbox_urls.verify_music_item"), patch(
+            "verify_music_inbox_urls.log"
+        ):
+            vmi.verify_music_items([], sleep_ms=0)
+        self.assertFalse(vmi._microlink_exhausted)
+
+    def test_microlink_uses_paid_endpoint_when_key_set(self) -> None:
+        import os
+
+        import verify_music_inbox_urls as vmi
+
+        with patch.dict(os.environ, {"MICROLINK_API_KEY": "dummy-key"}):
+            url, headers = vmi.microlink_endpoint()
+        self.assertEqual(url, vmi.MICROLINK_PRO_URL)
+        self.assertEqual(headers, {"x-api-key": "dummy-key"})
+        with patch.dict(os.environ, {}, clear=False):
+            os.environ.pop("MICROLINK_API_KEY", None)
+            url, headers = vmi.microlink_endpoint()
+        self.assertEqual(url, vmi.MICROLINK_URL)
+        self.assertEqual(headers, {})
 
     def test_live_bandcamp_without_cover_is_unverified(self) -> None:
         item = {

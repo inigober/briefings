@@ -134,6 +134,8 @@ jobs:
         if: success()
         env:
           PYTHONUNBUFFERED: "1"
+          # Optional. Unset → free Microlink tier (25 requests/day per shared runner IP).
+          MICROLINK_API_KEY: ${{ secrets.MICROLINK_API_KEY }}
         run: |
           python scripts/verify_music_inbox_urls.py --type music-discovery --date ${{ steps.run_date.outputs.value }}
 
