@@ -2,6 +2,19 @@
 
 Anti-repetition for weekly briefings. Append `artist — release` after each run; trim entries older than 12 weeks.
 
+## 2026-11-27
+
+- Carmen Villain — Memoria
+- Olsvangèr — The Core
+- Patricia Wolf — See-Through
+- SpunOff — El Ritmo del Alba [SPLOVE006]
+- Baldruin — Mosaike der Imagination
+- Rambal Cochet — Magma Resort LP (SNGWAXLP002)
+- Voigtmann — Aesthetic Solutions EP [HB023]
+- Saphileaum — Exploring Together
+- NEXCYIA — Endless Path of Memory
+- Digitalis — The Early Years: 1995-2000
+
 ## 2026-11-13
 
 - Cromby — I’m Coming Back / One More Time
