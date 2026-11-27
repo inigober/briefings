@@ -46,11 +46,20 @@ from openai_spend import (
 MUSIC_SEARCH_MIN_CALLS = 4
 MUSIC_SEARCH_MAX_TOOL_CALLS = 8
 MUSIC_MIN_CANDIDATES = 16
-# Verify needs 10 live Bandcamp+cover rows. Fail fetch before HTTP if we don't even
-# have that many album URLs — empty bandcamp_url is the usual Phase-2 loss.
-MUSIC_MIN_BANDCAMP_URLS = 10
-# Synthesis needs 6 featured + 4 More listening with max one label across the briefing.
-MUSIC_MIN_UNIQUE_LABELS = 10
+# Two numbers per quota:
+# - TARGET is what the searches ask for (a full briefing: 6 featured + 4 More listening).
+#   Below target, the script runs a top-up search.
+# - MIN is the hard floor. Below it the fetch aborts and no briefing is written.
+#   8 still fills 6 featured + 2 More listening (synthesis allows 2–4 extras).
+# verify_music_inbox_urls.py and verify_music_urls.py use the same floor.
+MUSIC_TARGET_BANDCAMP_URLS = 10
+MUSIC_MIN_BANDCAMP_URLS = 8
+# Max one label per entry across the briefing, so labels follow the same numbers.
+MUSIC_TARGET_UNIQUE_LABELS = 10
+MUSIC_MIN_UNIQUE_LABELS = 8
+# Recovery searches ask for this many extras beyond the shortfall: some of what they
+# return is always owned, skipped or a repeat, so asking for exactly the gap falls short.
+MUSIC_RECOVERY_BUFFER = 5
 # Second Phase-1 search when the first pass copies too few album URLs.
 MUSIC_SEARCH_RECOVERY_MAX_TOOL_CALLS = 8
 
@@ -416,7 +425,9 @@ def build_search_phase_prompt(
 ) -> str:
     skip = "\n".join(f"- {line}" for line in taste["skip_lines"]) or "- (none)"
     known = "\n".join(f"- {line}" for line in taste["known_label_lines"]) or "- (none)"
-    repeats = "\n".join(f"- {line}" for line in taste["releases_index"][:40]) or "- (none)"
+    # The whole history (~160 lines, ~6 KB). Showing only the newest 40 hid older picks,
+    # so the search kept re-suggesting them and the filter then threw them out.
+    repeats = "\n".join(f"- {line}" for line in taste["releases_index"]) or "- (none)"
     snapshot = (taste.get("snapshot") or "").strip()
     if len(snapshot) > 12000:
         snapshot = snapshot[:12000] + "\n…(truncated)…"
@@ -428,7 +439,7 @@ Briefing Friday date: {date_str}
 Target: at least {MUSIC_MIN_CANDIDATES} release candidates with **exact live URLs copied from search results**.
 Mix: roughly half club/DJ-floor and half home listening; mix recent ({year - 2}–{year}) and aged-well records.
 Need enough extras that synthesis can pick **6 featured (3 club + 3 home) + 4 More listening**.
-Label quota: at least {MUSIC_MIN_UNIQUE_LABELS} **distinct labels**. The published briefing allows **max one entry per label**, so five Paranoid London albums only fill one slot. Prefer a new label over a second release on a label you already listed.
+Label quota: at least {MUSIC_TARGET_UNIQUE_LABELS} **distinct labels**. The published briefing allows **max one entry per label**, so five Paranoid London albums only fill one slot. Prefer a new label over a second release on a label you already listed.
 In the notes, list **at most two releases from any one label**. A third title on the same imprint is wasted.
 
 ## Reader taste (weight recent 24 months)
@@ -443,7 +454,7 @@ In the notes, list **at most two releases from any one label**. A third title on
 ## Familiar labels (demote to More listening unless a trusted write-up singles the release out)
 {known}
 
-## Already in recent briefings (avoid same artist + release)
+## Already recommended in past briefings (never suggest these again; prefer different artists)
 {repeats}
 
 ## Your task (web_search REQUIRED — minimum {MUSIC_SEARCH_MIN_CALLS} searches)
@@ -453,7 +464,7 @@ You MUST call web_search at least {MUSIC_SEARCH_MIN_CALLS} times before answerin
 3. Aged-well / catalogue records that still captivate (not obvious canon primers) — again copy `/album/` URLs.
 4. YouTube / YouTube Music **album or release playlist** lookup for the strongest candidates
 
-Quota: at least {MUSIC_MIN_BANDCAMP_URLS} distinct copied Bandcamp `/album/` or `/track/` URLs **and** at least {MUSIC_MIN_UNIQUE_LABELS} distinct labels before you stop. Daily roundups without those links do not count. Extra catalogue titles from one imprint do not count toward the label quota.
+Quota: at least {MUSIC_TARGET_BANDCAMP_URLS} distinct copied Bandcamp `/album/` or `/track/` URLs **and** at least {MUSIC_TARGET_UNIQUE_LABELS} distinct labels before you stop. Daily roundups without those links do not count. Extra catalogue titles from one imprint do not count toward the label quota.
 
 For each candidate record:
 - artist, release, label, year, club-or-home, recent-or-aged-well, genre
@@ -504,7 +515,7 @@ def build_search_recovery_prompt(
     if len(clipped) > 8000:
         clipped = clipped[:8000] + "\n…(truncated)…"
     domains = "\n".join(f"- {d}" for d in search_domains)
-    need = MUSIC_MIN_BANDCAMP_URLS
+    need = MUSIC_TARGET_BANDCAMP_URLS
     return f"""PHASE 1 recovery. Briefing Friday date: {date_str}
 
 Your first web_search pass only copied {len(have_urls)} Bandcamp album/track URL(s). We need at least {need} distinct `https://….bandcamp.com/album/…` (or `/track/`) links copied from search.
@@ -546,9 +557,15 @@ def build_filtered_recovery_prompt(
     kept: list[dict],
     dropped: list[dict],
     search_domains: list[str],
+    recent_releases: list[str] | None = None,
 ) -> str:
-    """Extra Phase-1 pass when too few candidates survive the skip/library/repeat filter."""
-    need = MUSIC_MIN_BANDCAMP_URLS - len(kept)
+    """Extra Phase-1 pass when too few candidates survive the skip/library/repeat filter.
+
+    Asks for the shortfall plus MUSIC_RECOVERY_BUFFER: on 2026-11-20 and 11-27 it asked for
+    exactly 1 more, ran 2 searches and returned nothing usable.
+    """
+    need = max(MUSIC_TARGET_BANDCAMP_URLS - len(kept), 0) + MUSIC_RECOVERY_BUFFER
+    history = "\n".join(f"- {line}" for line in (recent_releases or [])) or "- (none)"
     have = "\n".join(f"- {release_line(item)}" for item in kept) or "- (none)"
     blocked = (
         "\n".join(
@@ -570,9 +587,13 @@ so prefer different artists):
 Already kept (do not repeat):
 {have}
 
+Already recommended in past briefings (do not suggest these either):
+{history}
+
 ## Your task (web_search REQUIRED — minimum {MUSIC_SEARCH_MIN_CALLS} searches)
-Search for **specific album pages** on artist or label Bandcamp subdomains, favouring recent
-releases by artists and labels not listed above. Prefer new labels: synthesis uses one entry per label.
+Run **at least {MUSIC_SEARCH_MIN_CALLS} separate searches** (different genres, labels or shops) and do not
+stop until you have {need} new candidates. Search for **specific album pages** on artist or label
+Bandcamp subdomains, favouring releases by artists and labels not listed above. Prefer new labels: synthesis uses one entry per label.
 Skip any release without a copied `https://….bandcamp.com/album/…` (or `/track/`) URL. Never invent slugs.
 
 Output NEW candidates only, same block format:
@@ -588,7 +609,7 @@ web_search allowed domains:
 
 
 def needs_search_recovery(
-    notes: str, *, minimum: int = MUSIC_MIN_BANDCAMP_URLS
+    notes: str, *, minimum: int = MUSIC_TARGET_BANDCAMP_URLS
 ) -> bool:
     return len(extract_bandcamp_urls(notes)) < minimum
 
@@ -612,7 +633,7 @@ def unique_label_count(items: list[dict]) -> int:
 
 
 def needs_label_recovery(
-    items: list[dict], *, minimum: int = MUSIC_MIN_UNIQUE_LABELS
+    items: list[dict], *, minimum: int = MUSIC_TARGET_UNIQUE_LABELS
 ) -> bool:
     return unique_label_count(items) < minimum
 
@@ -632,7 +653,7 @@ def build_label_recovery_prompt(
     if len(clipped) > 8000:
         clipped = clipped[:8000] + "\n…(truncated)…"
     domains = "\n".join(f"- {d}" for d in search_domains)
-    need = MUSIC_MIN_UNIQUE_LABELS
+    need = MUSIC_TARGET_UNIQUE_LABELS
     return f"""PHASE 1 label recovery. Briefing Friday date: {date_str}
 
 Your previous pass clustered on too few labels ({len(have_labels)} unique). Synthesis publishes **max one entry per label** and needs {need} distinct labels for 6 featured + 4 More listening.
@@ -684,7 +705,7 @@ Briefing Friday date: {date_str}
 - youtube_url / writeup_url / writeup_source: null when missing.
 - year: integer. reception_ok: true only if age ≥ ~4 weeks or a writeup_url is present.
 - id: kebab-case `artist-release` slug.
-- Prefer distinct `label` values. Extra titles on the same imprint are backups, not a substitute for {MUSIC_MIN_UNIQUE_LABELS} unique labels.
+- Prefer distinct `label` values. Extra titles on the same imprint are backups, not a substitute for {MUSIC_TARGET_UNIQUE_LABELS} unique labels.
 - If fewer than {MUSIC_MIN_CANDIDATES} solid candidates, list gaps — never invent filler.
 
 ## Web research notes (from Phase 1 web_search)
@@ -958,18 +979,20 @@ def fetch_all_music(
     )
     counts = section_counts(kept)
     log(f"  Combined fetch done ({len(kept)} candidates) — {counts}")
-    if len(kept) < MUSIC_MIN_BANDCAMP_URLS:
+    if len(kept) < MUSIC_TARGET_BANDCAMP_URLS:
         # Usually the search found enough Bandcamp links but most were owned/skipped/repeats.
         # One more search that names the rejected releases, then re-structure everything.
         log(
             f"  Phase 1 filtered recovery: only {len(kept)} candidate(s) left after "
-            f"filtering (need {MUSIC_MIN_BANDCAMP_URLS}); searching again..."
+            f"filtering (target {MUSIC_TARGET_BANDCAMP_URLS}, minimum "
+            f"{MUSIC_MIN_BANDCAMP_URLS}); searching again..."
         )
         recovery_prompt = build_filtered_recovery_prompt(
             date_str=date_str,
             kept=kept,
             dropped=dropped_items,
             search_domains=allowed,
+            recent_releases=taste.get("releases_index") or [],
         )
         extra_notes, extra_response = fetch_web_research(
             client=client,
@@ -1033,7 +1056,7 @@ def fetch_all_music(
     if needs_label_recovery(kept):
         log(
             f"  Phase 1 label recovery: only {len(labels)} unique label(s) "
-            f"(need {MUSIC_MIN_UNIQUE_LABELS}); searching for other imprints..."
+            f"(target {MUSIC_TARGET_UNIQUE_LABELS}); searching for other imprints..."
         )
         label_prompt = build_label_recovery_prompt(
             date_str=date_str,
@@ -1106,7 +1129,7 @@ def fetch_all_music(
         raise RuntimeError(
             f"Music pre-fetch aborted: only {unique_label_count(kept)} unique labels "
             f"(need {MUSIC_MIN_UNIQUE_LABELS}). Synthesis uses max one entry per label "
-            "for 6 featured + 4 More listening; extra titles on the same imprint "
+            "for 6 featured + 2–4 More listening; extra titles on the same imprint "
             "do not fill those slots."
         )
 

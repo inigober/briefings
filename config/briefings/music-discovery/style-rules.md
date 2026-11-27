@@ -21,11 +21,11 @@ Immediately after the title, **1–2 sentences** of plain prose (no bullets). Fr
 ## Structure (exact order)
 
 1. **Six featured entries** — no mode-based section headers; flat list
-2. **More listening** — exactly **4** compact extras
+2. **More listening** — **4** compact extras (2–3 only when the verified pool is short)
 
 Do **not** end with a "strongest bets" / "this week's listens" summary.
 
-Target: **6 featured + 4 compact**. Mix **new releases** and **older records that have aged well** (roughly half/half when the pool allows). Known artists and new-to-you names are both fine.
+Target: **6 featured + 4 compact**. A short week may publish 6 + 2 or 6 + 3 rather than skip the briefing; featured stays at six. Mix **new releases** and **older records that have aged well** (roughly half/half when the pool allows). Known artists and new-to-you names are both fine.
 
 ### Featured split (mandatory)
 
@@ -133,7 +133,7 @@ Bandcamp paths are **not** predictable from titles. Labels often prefix catalog 
 - **Artist — Release** (*Label*, Year) — One sentence. <a href="…">… Bandcamp</a> · <a href="…">… YouTube</a>
 ```
 
-Exactly four bullets. Same link style as featured (favicon + name; Bandcamp + verified YouTube when available) but **no `Listen:` label** — links only after the sentence. Same **max one label** rule across the whole briefing. Compact: no cover, no Genre/Context/Dig blocks. Album-first links apply here too.
+Four bullets (two or three in a short week — never pad with weaker picks). Same link style as featured (favicon + name; Bandcamp + verified YouTube when available) but **no `Listen:` label** — links only after the sentence. Same **max one label** rule across the whole briefing. Compact: no cover, no Genre/Context/Dig blocks. Album-first links apply here too.
 
 ## Selection rules
 

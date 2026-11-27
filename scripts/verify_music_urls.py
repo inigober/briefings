@@ -50,7 +50,8 @@ GAP_PHRASES = (
     "this run records the gap",
 )
 MIN_FEATURED = 6
-MIN_MORE_LISTENING = 4
+# 4 is the target; a short week (8 verified candidates) publishes 6 + 2.
+MIN_MORE_LISTENING = 2
 
 
 def log(message: str) -> None:

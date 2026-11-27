@@ -47,7 +47,7 @@ Open the matching file and execute **from Step 1 through state updates**:
 - Any **git stage / commit / push** instructions
 - Music **Step 5** (personal recommendation log on another machine)
 
-**Music:** pick only from `inbox/music-discovery/YYYY-MM-DD-synthesis.json` (fallback `*-raw.json`) items with `"verified": true` and a non-empty `cover_url`. Copy Bandcamp / YouTube / cover / Dig URLs verbatim. **Never** invent slugs, covers, or a gap/placeholder briefing. If fewer than 6 featured + 4 More listening remain after skipping cover-less rows, stop **without** writing `briefings/music-discovery/YYYY-MM-DD.md` so CI fails loudly.
+**Music:** pick only from `inbox/music-discovery/YYYY-MM-DD-synthesis.json` (fallback `*-raw.json`) items with `"verified": true` and a non-empty `cover_url`. Copy Bandcamp / YouTube / cover / Dig URLs verbatim. **Never** invent slugs, covers, or a gap/placeholder briefing. If fewer than 6 featured + 2 More listening (4 is the target; 2–3 is allowed in a short week) remain after skipping cover-less rows, stop **without** writing `briefings/music-discovery/YYYY-MM-DD.md` so CI fails loudly.
 
 **Still do:** run the type prompt's verification commands and fix failures; write `briefings/{type}/{date}.md` (or `{date}.test.md` when `e2e_test` is true) and update the `state/{type}/` files listed in the type prompt (**skip state updates** when `e2e_test` is true).
 

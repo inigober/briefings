@@ -14,7 +14,10 @@ if str(SCRIPTS) not in sys.path:
 from fetch_music_research import (  # noqa: E402
     MUSIC_MIN_BANDCAMP_URLS,
     MUSIC_MIN_UNIQUE_LABELS,
+    MUSIC_RECOVERY_BUFFER,
     MUSIC_SEARCH_MIN_CALLS,
+    MUSIC_TARGET_BANDCAMP_URLS,
+    MUSIC_TARGET_UNIQUE_LABELS,
     attach_bandcamp_urls,
     build_label_recovery_prompt,
     build_search_phase_prompt,
@@ -184,7 +187,7 @@ class TestSearchRecovery(unittest.TestCase):
         self.assertIn("PHASE 1 recovery", prompt)
         self.assertIn("2026-09-11", prompt)
         self.assertIn("https://only.bandcamp.com/album/one", prompt)
-        self.assertIn(f"at least {MUSIC_MIN_BANDCAMP_URLS}", prompt)
+        self.assertIn(f"at least {MUSIC_TARGET_BANDCAMP_URLS}", prompt)
         self.assertIn(f"minimum {MUSIC_SEARCH_MIN_CALLS}", prompt)
         self.assertIn("never invent slugs", prompt.lower())
         self.assertIn("bandcamp.com", prompt)
@@ -203,8 +206,16 @@ class TestUniqueLabels(unittest.TestCase):
         self.assertEqual(unique_label_count(items), 3)
         self.assertEqual(unique_label_names(items), ["Paranoid London", "Incienso", "Balearic"])
         self.assertTrue(needs_label_recovery(items))
-        diverse = [{"label": f"Label {i}"} for i in range(MUSIC_MIN_UNIQUE_LABELS)]
+        diverse = [{"label": f"Label {i}"} for i in range(MUSIC_TARGET_UNIQUE_LABELS)]
         self.assertFalse(needs_label_recovery(diverse))
+        # Between the floor and the target: still worth a top-up search.
+        short = [{"label": f"Label {i}"} for i in range(MUSIC_MIN_UNIQUE_LABELS)]
+        self.assertTrue(needs_label_recovery(short))
+
+    def test_minimum_is_below_target(self) -> None:
+        self.assertEqual(MUSIC_MIN_BANDCAMP_URLS, 8)
+        self.assertEqual(MUSIC_TARGET_BANDCAMP_URLS, 10)
+        self.assertLess(MUSIC_MIN_UNIQUE_LABELS, MUSIC_TARGET_UNIQUE_LABELS)
 
     def test_label_recovery_prompt_lists_used_imprints(self) -> None:
         prompt = build_label_recovery_prompt(
@@ -217,7 +228,7 @@ class TestUniqueLabels(unittest.TestCase):
         self.assertIn("PHASE 1 label recovery", prompt)
         self.assertIn("Paranoid London", prompt)
         self.assertIn("Balearic", prompt)
-        self.assertIn(str(MUSIC_MIN_UNIQUE_LABELS), prompt)
+        self.assertIn(str(MUSIC_TARGET_UNIQUE_LABELS), prompt)
         self.assertIn("new labels", prompt.lower())
         self.assertIn("never invent slugs", prompt.lower())
 
@@ -385,8 +396,67 @@ class TestFilteredRecovery(unittest.TestCase):
         )
         self.assertIn("Artist 2 — Release 2 (library_skip)", prompt)
         self.assertIn("Artist 1 — Release 1", prompt)
-        self.assertIn(f"at least {MUSIC_MIN_BANDCAMP_URLS - 1} more", prompt)
+        self.assertIn(
+            f"at least {MUSIC_TARGET_BANDCAMP_URLS - 1 + MUSIC_RECOVERY_BUFFER} more", prompt
+        )
         self.assertIn("Never invent slugs", prompt)
+
+    def test_prompt_asks_for_buffer_when_one_short(self) -> None:
+        # 2026-11-20 / 11-27: 9 kept, the old prompt asked for exactly 1 more and got nothing.
+        from fetch_music_research import build_filtered_recovery_prompt
+
+        prompt = build_filtered_recovery_prompt(
+            date_str="2026-11-27",
+            kept=[self._item(n) for n in range(9)],
+            dropped=[],
+            search_domains=["bandcamp.com"],
+            recent_releases=["Suso Sáiz — Distorted Clamor"],
+        )
+        self.assertIn(f"at least {1 + MUSIC_RECOVERY_BUFFER} more", prompt)
+        self.assertIn("- Suso Sáiz — Distorted Clamor", prompt)
+        self.assertIn(f"at least {MUSIC_SEARCH_MIN_CALLS} separate searches", prompt)
+
+    def test_fetch_all_tops_up_and_publishes_with_nine(self) -> None:
+        # Replays 2026-11-27: 9 usable after filtering, recovery adds nothing new.
+        # Old behaviour: abort ("need 10"). New: top-up attempt, then continue with 9.
+        from unittest import mock
+
+        import fetch_music_research as fmr
+
+        first = [self._item(n) for n in range(17)]  # 0-7 owned → 9 kept
+        # 3 structure passes: first, after filtered recovery, after label recovery
+        # (9 labels < target 10 also earns a label top-up).
+        structured = iter([{"items": first}] * 3)
+        search_prompts: list[str] = []
+
+        def fake_search(**kwargs):
+            search_prompts.append(kwargs["prompt"])
+            return "notes", object()
+
+        with mock.patch.object(fmr, "make_client", return_value=object()), mock.patch.object(
+            fmr, "fetch_web_research", side_effect=fake_search
+        ), mock.patch.object(
+            fmr, "count_web_search_calls", return_value=MUSIC_SEARCH_MIN_CALLS
+        ), mock.patch.object(
+            fmr, "extract_bandcamp_urls", return_value=[f"u{n}" for n in range(24)]
+        ), mock.patch.object(
+            fmr, "collect_response_urls", return_value=[]
+        ), mock.patch.object(
+            fmr, "fetch_structured", side_effect=lambda **_: (next(structured), object())
+        ), mock.patch.object(
+            fmr, "build_search_phase_prompt", return_value="phase 1 prompt"
+        ), mock.patch.object(fmr, "log"):
+            result = fmr.fetch_all_music(
+                date_str="2026-11-27",
+                model="test-model",
+                taste=self._taste(range(8)),
+                sources_cfg={"allowed_domains": ["bandcamp.com"]},
+            )
+
+        self.assertEqual(len(search_prompts), 3)
+        self.assertIn("PHASE 1 filtered recovery", search_prompts[1])
+        self.assertIn("PHASE 1 label recovery", search_prompts[2])
+        self.assertEqual(len(result["items"]), 9)
 
     def test_fetch_all_runs_recovery_instead_of_aborting(self) -> None:
         from unittest import mock
@@ -457,6 +527,22 @@ class TestFilteredRecovery(unittest.TestCase):
 
 
 class TestReleasesIndex(unittest.TestCase):
+    def test_search_prompt_lists_whole_history(self) -> None:
+        # Only the newest 40 used to be shown; repeat offenders sat at positions 41-158.
+        history = [f"Old Artist {n} — Old Release {n}" for n in range(160)]
+        taste = {
+            "skip_lines": [],
+            "known_label_lines": [],
+            "recent_taste_block": "",
+            "releases_index": history,
+            "snapshot": "",
+        }
+        prompt = build_search_phase_prompt(
+            date_str="2026-11-27", taste=taste, search_domains=["bandcamp.com"]
+        )
+        self.assertIn("- Old Artist 0 — Old Release 0", prompt)
+        self.assertIn("- Old Artist 159 — Old Release 159", prompt)
+
     def test_exclude_date_skips_only_that_weeks_section(self) -> None:
         import tempfile
 

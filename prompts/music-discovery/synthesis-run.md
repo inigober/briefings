@@ -48,7 +48,7 @@ From the synthesis inbox:
 6. Cross-check `releases_index.md`.
 7. Mix recent and aged-well (`era`); demote canon primers from Featured.
 8. Enforce **max 1 entry per label** across featured + More listening.
-9. Aim for **6 featured** (**3 club + 3 home** via `mode`) + **4 More listening**.
+9. Aim for **6 featured** (**3 club + 3 home** via `mode`) + **4 More listening**. In a short week, More listening may drop to **2 or 3** — never pad it with unverified or repeat releases.
 10. Featured reception gate: `reception_ok: true` (≥ ~4 weeks old OR `writeup_url`).
 11. Captivation bar: every Featured pick must pass "would I leave this playing?"
 12. Every featured pick needs: italicized label in title, cover from `cover_url`, Genre + Listen on the **same line** (Bandcamp + YouTube when `youtube_url` is set), blank line, unlabeled context, then Dig **only if warranted**:
@@ -57,7 +57,7 @@ From the synthesis inbox:
 13. More listening: same compact favicon links, **no `Listen:` label**; italicize label names.
 14. **Never invent URLs.** If a URL is missing in the inbox, omit that platform. Do not search.
 
-If verified candidates cannot fill 6 featured + 4 More listening without inventing URLs, **do not write** `briefings/music-discovery/YYYY-MM-DD.md`.
+If verified candidates cannot fill 6 featured + at least 2 More listening without inventing URLs, **do not write** `briefings/music-discovery/YYYY-MM-DD.md`.
 
 Internal table (do not commit):
 
@@ -65,7 +65,7 @@ Internal table (do not commit):
 
 Title: `# Music Discovery — Week of YYYY-MM-DD`.
 
-Intro → six `##` featured entries → `## More listening` (4 bullets). No closing summary section.
+Intro → six `##` featured entries → `## More listening` (4 bullets; 2–3 in a short week). No closing summary section.
 
 ## Step 3 — Update state
 

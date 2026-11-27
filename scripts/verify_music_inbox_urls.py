@@ -44,7 +44,9 @@ from briefing_paths import load_briefing_type
 from fetch_openai_research import log
 from music_dates import normalize_friday_run_date
 
-MIN_VERIFIED_CANDIDATES = 10
+# Same floor as MUSIC_MIN_BANDCAMP_URLS in fetch_music_research.py:
+# 6 featured + at least 2 More listening.
+MIN_VERIFIED_CANDIDATES = 8
 DEFAULT_SLEEP_MS = 200
 DEFAULT_TIMEOUT_SECONDS = 20
 OPTIONAL_FIELDS = ("youtube_url", "writeup_url", "dig_url")
@@ -822,7 +824,7 @@ def main() -> int:
         "--min-verified",
         type=int,
         default=MIN_VERIFIED_CANDIDATES,
-        help="Fail if fewer verified candidates remain (default: 10)",
+        help=f"Fail if fewer verified candidates remain (default: {MIN_VERIFIED_CANDIDATES})",
     )
     args = parser.parse_args()
 

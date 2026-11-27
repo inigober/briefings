@@ -149,6 +149,23 @@ class TestMusicBriefingStructure(unittest.TestCase):
     def test_complete_briefing_passes(self) -> None:
         self.assertEqual(assert_music_briefing_structure(COMPLETE_BRIEFING), [])
 
+    def test_short_week_with_two_extras_passes(self) -> None:
+        short = COMPLETE_BRIEFING.replace(
+            "- **Extra Three — C** (*L3*, 2024) — Sentence. <a href=\"https://example.bandcamp.com/album/e3\">Bandcamp</a>\n", ""
+        ).replace(
+            "- **Extra Four — D** (*L4*, 2021) — Sentence. <a href=\"https://example.bandcamp.com/album/e4\">Bandcamp</a>\n", ""
+        )
+        self.assertNotIn("Extra Three", short)
+        self.assertEqual(assert_music_briefing_structure(short), [])
+
+    def test_one_extra_fails(self) -> None:
+        one = "\n".join(
+            line for line in COMPLETE_BRIEFING.splitlines()
+            if not line.startswith(("- **Extra Two", "- **Extra Three", "- **Extra Four"))
+        )
+        errors = assert_music_briefing_structure(one)
+        self.assertTrue(any("More listening bullets" in e for e in errors))
+
     def test_gap_briefing_fails(self) -> None:
         errors = assert_music_briefing_structure(GAP_BRIEFING)
         self.assertTrue(any("placeholder" in e or "featured" in e for e in errors))

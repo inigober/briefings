@@ -19,7 +19,7 @@ Fri 09:00 cron-job.org
 
 The Mac job is a **nice-to-have**. Friday cloud pre-fetch runs from whatever taste-cache is already on `main`. Stale-by-a-week is fine.
 
-Taste cache alone is **not** enough for synthesis. Friday pre-fetch also runs OpenAI `web_search` (`scripts/fetch_music_research.py`) and lands verified Listen URLs in `*-synthesis.json`. Synthesis then picks 6 featured + 4 More listening from that pool — copy URLs verbatim; do not invent Bandcamp slugs.
+Taste cache alone is **not** enough for synthesis. Friday pre-fetch also runs OpenAI `web_search` (`scripts/fetch_music_research.py`) and lands verified Listen URLs in `*-synthesis.json`. Synthesis then picks 6 featured + 4 More listening from that pool (2–3 More listening in a short week; pre-fetch aborts below 8 verified candidates) — copy URLs verbatim; do not invent Bandcamp slugs.
 
 ## Taste cache
 
