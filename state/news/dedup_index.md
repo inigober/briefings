@@ -6,6 +6,21 @@ Before including a story ask: "Has this topic appeared recently?" Reject unless 
 
 ---
 
+## 2026-11-28
+
+- **spain-sanchez-caja-magica-campaign-close** — eldiario.es: Sánchez fills Madrid's Caja Mágica (13,000+) at PSOE campaign close (section: spain)
+- **spain-vox-200bn-cuts-pp-tax-relief** — eldiario.es: Vox's €200bn welfare-cut plan and PP's high-income tax relief (€50bn hole) (section: spain)
+- **spain-llaneras-poll-surprise-scenarios** — EL PAÍS: Kiko Llaneras on poll uncertainty around the expected PP–Vox majority (section: spain)
+- **germany-pension-schweitzer-draft-no-compromise** — Handelsblatt: Schweitzer's "hard compromise" pension draft, Union calls it a first step (section: germany)
+- **germany-bsw-congress-dresden-afd** — Tagesspiegel/dpa: BSW congress faces conflict over dealing with AfD (section: germany)
+- **germany-mittelstand-optimism-iran-war** — Handelsblatt: Mittelstand more optimistic despite Iran war (section: germany)
+- **berlin-rrg-racism-category-palestinians-weight** — Tagesspiegel: coalition chief negotiators take over row on new racism-recording category (section: berlin)
+- **berlin-terror-victims-16-5m-breitscheidplatz-anniversary** — Tagesspiegel/dpa: €16.5m for terror-attack victims ahead of 10th anniversary (section: berlin)
+- **berlin-senate-hack-aftermath-lag** — rbb24: Senate lags in dealing with hack of two departments (section: berlin)
+- **world-iran-double-tap-hormuz-ships** — Financial Times: Iran hits same ships twice to deter Hormuz traffic (section: world)
+- **world-puma-shen-taipei-mayor** — New York Times: China-sanctioned critic Puma Shen could be Taipei's next mayor (section: world)
+- **world-mexico-gap-fibra-trust** — Bloomberg: Mexican airport operator GAP raises $398m for Fibra trust (section: world)
+
 ## 2026-11-27
 
 - **spain-four-way-debate-fact-check-abascal-feijoo** — eldiario.es: fact-check of the four-candidate debate, Abascal's six-million claim and Feijóo's 400,000-homes claim (section: spain)

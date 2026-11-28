@@ -1,18 +1,18 @@
 {
   "briefing_type": "news",
-  "date": "2026-11-27",
-  "briefing_date": "2026-11-27",
-  "inbox_date": "2026-11-27",
+  "date": "2026-11-28",
+  "briefing_date": "2026-11-28",
+  "inbox_date": "2026-11-28",
   "status": "success",
-  "briefing_path": "briefings/news/2026-11-27.md",
-  "inbox_path": "inbox/news/2026-11-27-synthesis.json",
+  "briefing_path": "briefings/news/2026-11-28.md",
+  "inbox_path": "inbox/news/2026-11-28-synthesis.json",
   "items_count": 12,
   "selected_reads_count": 4,
   "rejected_at_synthesis": [
-    {"headline": "Four-way debate pieces from La Vanguardia, eldiario.es opinion and EL PAÍS (Sánchez offensive, Colau tandem, Feijóo 'calladita', winners panel, Abascal tone, Casado styling)", "section": "spain", "reason": "one theme per section: debate covered once via the fact-check; styling and opinion pieces are filler or already folded into Other Headlines"},
-    {"headline": "Handelsblatt Iran-war newsblog; Handelsblatt/Tagesspiegel duplicate gold pieces; investment-fee, RSD, Christmas-market, actress, obituary and homeless-smell items", "section": "germany", "reason": "World-fit story, duplicate, or lifestyle/advice filler; publisher_pool_thin (Handelsblatt and Tagesspiegel only)"},
-    {"headline": "Cyclist killed by lorry (Tagesspiegel/rbb24 duplicates); Quartier 206 auction; winter readiness; Bundesversammlung members; Kitas drop meat; Berliner bomb-threats item", "section": "berlin", "reason": "one-off accident, already covered (bomb threats), or placed in Other Headlines; Tagesspiegel capped at two"},
-    {"headline": "Economist mental-health, doomsday, sexual-recession and Britain benefits pieces; FT/Nikkei items used in Selected Reads; Cameroon elephants; FP chaos-theory essay", "section": "world", "reason": "Europe/UK-centred or lifestyle, used in Selected Reads, one-off incident, or essay without news beat"}
+    {"headline": "Spain election-eve pieces: Catalan vote, TV moments, reflection-day rules, Murcia farm paradox, judicial-interference opinion, El PAÍS probability model and opinion columns", "section": "spain", "reason": "one theme per section (election eve covered via rally, fiscal plans and poll scenarios); seat model already covered 26 Nov; remainder folded into Other Headlines or opinion/filler"},
+    {"headline": "Mazzucato podcast (three duplicate Handelsblatt URLs), Reeperbahn accident, Südtirol dog-DNA database, GTA 6 debate, Zentrum Moderner Orient", "section": "germany", "reason": "duplicates, one-off accident, lifestyle/culture filler; BSW and pension duplicates from Tagesspiegel/Handelsblatt collapsed to one each"},
+    {"headline": "Prenzlauer Berg corner shop, Berlin winter guide, Bierpinsel speed camera, Koçak racist mail, Junge Union leader (Tagesspiegel and rbb24), Amazon Tegel blockade, Quartier 206 auction, TU cafeteria occupation", "section": "berlin", "reason": "lifestyle/guide filler, one-off items, already covered 27 Nov (TU, Quartier 206), or placed in Other Headlines; Tagesspiegel capped at two"},
+    {"headline": "New Zealand final results; Poland–Palantir; FT cyber incidents; FT Sánchez profile; Nigerian mara dance; Economist mental-health, cardio, mathematicians, UK benefits", "section": "world", "reason": "NZ covered 27 Nov; Poland and mara used in Selected Reads; cyber in Other Headlines; Sánchez profile duplicates Spain; Economist items Europe/UK-centred, lifestyle, or already used in Selected Reads 26 Nov"}
   ],
-  "notes": "Inbox dated 2026-11-27 (fresh), built via backup cron. Spain pool was debate-only; used fact-check, Feijóo pledge and manifesto comparator to avoid three debate-recap stories. Germany pool thin (publisher_pool_thin, only Handelsblatt and Tagesspiegel); Trump-tariff item taken from the Handelsblatt US newsblog. World regions: Oceania (NZ), Middle East (oil), Africa/Middle East (Nusseibeh). Metal-sector pay deal (4.3%) and EU budget summit failure appear only as rejected-candidate headlines without URLs, so they sit in Other Headlines. Older dedup and selected-reads entries not trimmed (no shell available to trim in CI)."
+  "notes": "Inbox dated 2026-11-28 (fresh), built via backup cron. Spain pool was election-eve only; chose rally, fiscal plans and poll scenarios as distinct themes across two publishers. Germany: Handelsblatt twice plus Tagesspiegel (publisher_pool_thin). World regions: Middle East (Iran/Hormuz), East Asia (Taiwan), Latin America (Mexico). Older dedup and selected-reads entries not trimmed (no shell available to trim in CI)."
 }

@@ -4,6 +4,13 @@ Exact articles recommended. **Hard rule:** never repeat a URL within the last **
 
 ---
 
+## 2026-11-28
+
+- [AI agents are coming for big business](https://www.ft.com/content/c9de05b8-0916-436a-87fc-40337067b0d2?syn-25a6b1a6=1) — Financial Times
+- [We’d be ‘stupid’ not to: Poland defends $300M military AI deal with Palantir](https://www.politico.eu/article/wed-be-stupid-not-to-poland-defends-300m-military-ai-deal-with-palantir/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) — Politico Europe
+- [Mad about mara: the DIY dance movement helping young Nigerians escape the daily grind](https://www.theguardian.com/world/2026/nov/27/mad-about-mara-the-diy-dance-movement-helping-young-nigerians-escape-the-daily-grind) — The Guardian
+- [Having a baby is less bad for mental health than many realise](https://www.economist.com/science-and-technology/2026/11/25/having-a-baby-is-less-bad-for-mental-health-than-many-realise) — The Economist
+
 ## 2026-11-27
 
 - [Tech stocks set for worst month in four years as volatility surges](https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1) — Financial Times
